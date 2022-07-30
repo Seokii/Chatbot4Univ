@@ -36,6 +36,7 @@ class FindAnswer:
         cos_sim = util.cos_sim(query_tensor, self.embedding_data)
         best_sim_idx = int(np.argmax(cos_sim))
         selected_qes = self.df['질문(Query)'][best_sim_idx]
+        query_intent = self.df['의도(Intent)'][best_sim_idx]
 
         if self.df['의도(Intent)'][best_sim_idx] == intent:
             # 선택된 질문 문장 인코딩
@@ -47,13 +48,10 @@ class FindAnswer:
             # 답변
             answer = self.df['답변(Answer)'][best_sim_idx]
             imageUrl = self. df['답변 이미지'][best_sim_idx]
-            success = True
 
         else:
-            selected_qes = "nan"
             score = 0
-            answer = "nan"
-            imageUrl = "nan"
-            success = False
+            answer = self.df['답변(Answer)'][best_sim_idx]
+            imageUrl = self.df['답변 이미지'][best_sim_idx]
 
-        return selected_qes ,score, answer, imageUrl, success
+        return selected_qes ,score, answer, imageUrl, query_intent
