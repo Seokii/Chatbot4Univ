@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 16139,
+    "name": "c1_20210914_0005_0547_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341067284/c1_20210914_0005_0547_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341067284/c1_20210914_0005_0547_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10744,
+      "filename": "c1_20210819_0002_0008_01.txt",
+      "title": "c1_20210819_0002_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 293,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 293,
+        "word_size": 71,
+        "text": "A.네 전화 돌려받았습니다\nB.네 안녕하세요 #@소속#입니다\nA.네 무슨 일이신가요\nB.민원님께서 거주하고 계신 곳에 언덕이 무너져 내려서 해당 집이 피해를 많이 보셨다고 하세요\nB.군청에 문의를 하니 지원금이 생각보다 작다고 하셔서 담당자분 연결 요청하셨습니다\nA.그럼 집이 무너졌다는 거죠\nB.네 가택 매몰에 대한 내용입니다\nA.여기선 건축 업무는 관련이 없어요\nB.이쪽 부서 담당이 아닌가요\nA.네 건축 도시과 쪽으로 연결 해주셔야 될 것 같아요\nB.네 알겠습니다 그 쪽으로 연결 해보겠습니다\nA.예 그럼 수고하세요\nB.네 감사합니다 주사님",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 전화 돌려받았습니다",
+            "norm_text": "A.네 전화 돌려받았습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+전화/NNG+돌려받/VV+았/EP+습니다/EF"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 #@소속#입니다",
+            "norm_text": "B.네 안녕하세요 #@소속#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 무슨 일이신가요",
+            "norm_text": "A.네 무슨 일이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무슨/MM+일/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.민원님께서 거주하고 계신 곳에 언덕이 무너져 내려서 해당 집이 피해를 많이 보셨다고 하세요",
+            "norm_text": "B.언덕이 무너져 내려서 해당 집이 피해를 많이 보셨다고 하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+민원/NNG+님/XSN+께서/JKS+거주/NNG+하/XSV+고/EC+계신/VX+ETM+곳/NNG+에/JKB+언덕/NNG+이/JKS+무너져/VV+EC+내려서/VV+EC+해당/NNG+집/NNG+이/JKS+피해/NNG+를/JKO+많이/MAG+보/VV+셨/EP+EP+다고/EC+하/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.군청에 문의를 하니 지원금이 생각보다 작다고 하셔서 담당자분 연결 요청하셨습니다",
+            "norm_text": "B.그래서 담당자분 연결 요청하셨습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래서/MAJ+담당/NNG+자분/NNG+연결/NNG+요청/NNG+하/XSV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.그럼 집이 무너졌다는 거죠",
+            "norm_text": "A.그럼 집이 무너졌다는 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+집/NNG+이/JKS+무너졌/VV+EP+다는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 가택 매몰에 대한 내용입니다",
+            "norm_text": "B.네 가택 매몰에 대한 내용입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+가택/NNG+매몰/NNG+에/JKB+대한/VV+ETM+내용/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.여기선 건축 업무는 관련이 없어요",
+            "norm_text": "A.여기선 건축 업무는 관련이 없어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+여기/NP+선/JKB+JX+건축/NNG+업무/NNG+는/JX+관련/NNG+이/JKS+없/VA+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.이쪽 부서 담당이 아닌가요",
+            "norm_text": "B.이쪽 부서 담당이 아닌가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+이쪽/NP+부서/NNG+담당/NNG+이/JKC+아닌가요/VCN+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 건축 도시과 쪽으로 연결 해주셔야 될 것 같아요",
+            "norm_text": "A.네 건축 도시과 쪽으로 연결 해주셔야 될 것 같아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+네/IC+건축/NNG+도/JX+시과/NNG+쪽/NNB+으로/JKB+연결/NNG+해/XSV+EC+주/VX+셔야/EP+EC+될/VV+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 알겠습니다 그 쪽으로 연결 해보겠습니다",
+            "norm_text": "B.네 알겠습니다 그 쪽으로 연결 해보겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+그쪽/NP+으로/JKB+연결/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.예 그럼 수고하세요",
+            "norm_text": "A.예 그럼 수고하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+예/IC+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.네 감사합니다 주사님",
+            "norm_text": "B.네 감사합니다 주사님",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+주사/NNG+님/XSN"
+          }
+        ]
+      }
+    }
+  ]
+}

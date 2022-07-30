@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 29894,
+    "name": "s1_20211006_0001_1433_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151213089887/s1_20211006_0001_1433_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151213089887/s1_20211006_0001_1433_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7063,
+      "filename": "s1_20210820_0005_0070_01.txt",
+      "title": "s1_20210820_0005_0070_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 293,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 293,
+        "word_size": 71,
+        "text": "A.반갑습니다 #@소속#상담사 #@이름#입니다\nB.네 거기 #@소속#죠\nA.네 고객님 무엇을 도와드릴까요\nB.컴퓨터가요 저 자꾸 꺼져버리고 꺼져버리고 잘 안 돼요\nA.네 컴퓨터가 사용 중에 그냥 전원이 자동으로 꺼진다는 말씀이세요\nB.꺼져버리고 뭐 거시기 화면이 제대로 안 저 거시기 안 되고 그래요\nA.네 화면도 제대로 안 나오구요\nB.나오기는 나오는데 제대로 나오는데 일단 꺼져버려요 꺼져버렸다 또 다시 살아나고\nA.그냥 꺼졌다 켜졌다를 혼자 반복을 한다는 거죠\nB.네 그러고는 또 오늘 아침에는 그냥 꺼져버려 가지곤 다시 안 살아나네요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속#상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속#상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 거기 #@소속#죠",
+            "norm_text": "B.네 거기 #@소속#죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+거기/NP+#/SY+@/SY+소속/NNG+#/SY+죠/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 무엇을 도와드릴까요",
+            "norm_text": "A.네 고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.컴퓨터가요 저 자꾸 꺼져버리고 꺼져버리고 잘 안 돼요",
+            "norm_text": "B.컴퓨터가요 저 자꾸 꺼져버리고 꺼져버리고 잘 안 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+컴퓨터/NNG+가요/NNG+저/IC+자꾸/MAG+꺼져/VV+EC+VX+EC+버리/VX+고/EC+꺼져/VV+EC+VX+EC+버리/VX+고/EC+잘/MAG+안/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 컴퓨터가 사용 중에 그냥 전원이 자동으로 꺼진다는 말씀이세요",
+            "norm_text": "A.네 컴퓨터가 사용 중에 그냥 전원이 자동으로 꺼진다는 말씀이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+컴퓨터/NNG+가/JKS+사용/NNG+중/NNB+에/JKB+그냥/MAG+전원/NNG+이/JKS+자동/NNG+으로/JKB+꺼진다는/VV+EC+VX+ETM+말씀/NNG+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.꺼져버리고 뭐 거시기 화면이 제대로 안 저 거시기 안 되고 그래요",
+            "norm_text": "B.꺼져버리고 뭐 거시기 화면이 제대로 안 저 거시기 안 되고 그래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+꺼져/VV+EC+VX+EC+버리/VX+고/EC+뭐/IC+거시기/IC+화면/NNG+이/JKS+제대로/MAG+안/MAG+저거/NP+시기/NNG+안/MAG+되/VV+고/EC+그래요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 화면도 제대로 안 나오구요",
+            "norm_text": "A.네 화면도 제대로 안 나오구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+화면/NNG+도/JX+제대로/MAG+안/MAG+나오/VV+구요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.나오기는 나오는데 제대로 나오는데 일단 꺼져버려요 꺼져버렸다 또 다시 살아나고",
+            "norm_text": "B.나오기는 나오는데 제대로 나오는데 일단 꺼져버려요 꺼져버렸다 또 다시 살아나고",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+나오/VV+기/ETN+는/JX+나오/VV+는데/EC+제대로/MAG+나오/VV+는데/EC+일단/MAG+꺼져/VV+EC+VX+EC+버려요/VX+EC+꺼져/VV+EC+VX+EC+버렸/VX+EP+다/EF+또/MAG+다시/MAG+살아나/VV+고/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그냥 꺼졌다 켜졌다를 혼자 반복을 한다는 거죠",
+            "norm_text": "A.그냥 꺼졌다 켜졌다를 혼자 반복을 한다는 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그냥/MAG+꺼졌/VV+EP+다/EC+켜졌/VV+EP+다/EF+를/JKO+혼자/NNG+반복/NNG+을/JKO+한다는/VV+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 그러고는 또 오늘 아침에는 그냥 꺼져버려 가지곤 다시 안 살아나네요",
+            "norm_text": "B.네 그러고는 또 오늘 아침에는 그냥 꺼져버려 가지곤 다시 안 살아나네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그러/VV+고/EC+는/JX+또/MAG+오늘/MAG+아침/NNG+에/JKB+는/JX+그냥/MAG+꺼져/VV+EC+VX+EC+버려/VX+EC+가지/VX+곤/EC+다시/MAG+안/MAG+살아나/VV+네요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

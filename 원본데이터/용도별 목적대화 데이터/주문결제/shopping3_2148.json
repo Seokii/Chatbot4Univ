@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 116032,
+    "name": "s3_20211105_0005_0201_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110827013416/s3_20211105_0005_0201_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110827013416/s3_20211105_0005_0201_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119060,
+      "filename": "s3_20211007_0018_0009_01.txt",
+      "title": "s3_20211007_0018_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 336,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 336,
+        "word_size": 77,
+        "text": "A.반갑습니다 #@소속# 고객센터 #@이름#입니다\nB.입금 하려고 하는데 없는 계좌라고 나와서요\nA.가상 계좌가 없는 계좌라고 나오시나요\nB.네 그리고 방금 주문도 취소 되었어요\nA.고객님 혹시 결제 전 주문 단계까지 삼 일 소요되셨나요\nB.그 정도 지난 거 같아요 고민하다가 그냥 결제하려고 했거든요\nA.가상 계좌는 주문일로부터 삼 일이 경과하면 자동 취소됩니다\nB.그러면 제가 담아놨던 상품도 다 날아간 건가요\nA.상품은 장바구니에 그대로 남아있으실 겁니다\nB.그럼 다시 주문하기 누르면 되는거죠\nA.네 그러고 바로 입금 진행해 주셔야 합니다\nB.알겠습니다 감사합니다 수고하세요\nA.감사합니다 #@소속# 고객센터였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 고객센터 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 고객센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.입금 하려고 하는데 없는 계좌라고 나와서요",
+            "norm_text": "B.입금하려고 하는데 없는 계좌라고 나와서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+입금/NNG+하/XSV+려고/EC+하/VV+는/ETM+데/NNB+없/VA+는/ETM+계좌/NNG+라고/VCP+EC+나와/VV+EC+서요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.가상 계좌가 없는 계좌라고 나오시나요",
+            "norm_text": "A.가상 계좌가 없는 계좌라고 나오시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+가상/NNG+계좌/NNG+가/JKS+없/VA+는/ETM+계좌/NNG+라고/VCP+EC+나오/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 그리고 방금 주문도 취소 되었어요",
+            "norm_text": "B.네 그리고 방금 주문도 취소되었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그리고/MAJ+방금/MAG+주문/NNG+도/JX+취소/NNG+되/XSV+었/EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 혹시 결제 전 주문 단계까지 삼 일 소요되셨나요",
+            "norm_text": "A.고객님 혹시 결제 전 주문 단계까지 삼 일 소요되셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+혹시/MAG+결제/NNG+전/NNG+주문/NNG+단계/NNG+까지/JX+삼/NR+일/NNBC+소요/NNG+되/XSV+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그 정도 지난 거 같아요 고민하다가 그냥 결제하려고 했거든요",
+            "norm_text": "B.그 정도 지난 거 같아요 고민하다가 그냥 결제하려고 했거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그/MM+정도/NNG+지난/VV+ETM+거/NNB+같/VA+아요/EF+고민/NNG+하/XSV+다가/EC+그냥/MAG+결제/NNG+하/XSV+려고/EC+했/VX+EP+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.가상 계좌는 주문일로부터 삼 일이 경과하면 자동 취소됩니다",
+            "norm_text": "A.가상 계좌는 주문일로부터 삼 일이 경과하면 자동 취소됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가상/NNG+계좌/NNG+는/JX+주문/NNG+일/NNG+로부터/JKB+삼/NR+일/NR+이/NR+경과/NNG+하/XSV+면/EC+자동/NNG+취소/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그러면 제가 담아놨던 상품도 다 날아간 건가요",
+            "norm_text": "B.그러면 제가 담아 놨던 상품도 다 날아간 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+제/NP+가/JKS+담/VV+아/EC+놨던/VX+EP+ETM+상품/NNG+도/JX+다/MAG+날아간/VV+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.상품은 장바구니에 그대로 남아있으실 겁니다",
+            "norm_text": "A.상품은 장바구니에 그대로 남아 있으실 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+상품/NNG+은/JX+장바구니/NNG+에/JKB+그대로/MAG+남/VV+아/EC+있/VX+으실/EP+ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 다시 주문하기 누르면 되는거죠",
+            "norm_text": "B.그럼 다시 주문하기 누르면 되는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+다시/MAG+주문/NNG+하/XSV+기/ETN+누르/VV+면/EC+되/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 그러고 바로 입금 진행해 주셔야 합니다",
+            "norm_text": "A.네 그러고 바로 입금 진행해 주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그러고/MAJ+바로/MAG+입금/NNG+진행/NNG+해/XSV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.알겠습니다 감사합니다 수고하세요",
+            "norm_text": "B.알겠습니다 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.감사합니다 #@소속# 고객센터였습니다",
+            "norm_text": "A.감사합니다 #@소속# 고객센터였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

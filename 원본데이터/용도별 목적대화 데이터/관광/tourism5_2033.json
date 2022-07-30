@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 159714,
+    "name": "t5_20211119_0010_2389_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135915046295/t5_20211119_0010_2389_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135915046295/t5_20211119_0010_2389_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155844,
+      "filename": "t5_0068_0122_02.txt",
+      "title": "t5_0068_0122_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 362,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 362,
+        "word_size": 81,
+        "text": "A.두근두근 순천여행 #@이름# 상담사 입니다\nB.순천관광택시 코스 소개 부탁 드려도 되나요\nA.네 고객님 순천에 꼭 여행하고 싶은 곳이 있으세요\nB.낙안읍성이랑 순천만습지 순천만국가정원은 꼭 보고 싶어요\nA.오 코스가 맞춤 코스네요 선암사 낙안읍성 순천만습지와 국가정원까지요\nB.오 코스는 소요 시간이 얼마나 되나요\nA.여덟 시간 정도 소요되신다고 생각하시면 되세요\nB.그렇군요 금액은 얼마인가요\nA.십삼 만 원이신데요 입장료와 통행료 주차요금 체험료는 별도 입니다\nB.예약은 어디로 하나요 전화번호 좀 알려 주시겠어요\nA.콜센터 번호 안내해 드릴게요 #@전번# 입니다\nB.자세한 안내 감사합니다 수고하세요\nA.순천에서 소중한 추억 만드세요 #@이름# 상담사 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.두근두근 순천여행 #@이름# 상담사 입니다",
+            "norm_text": "A.#@소속# #@이름# 상담사 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+두근두근/MAG+순천/NNG+여행/NNG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.순천관광택시 코스 소개 부탁 드려도 되나요",
+            "norm_text": "B.순천관광택시 코스 소개 부탁 드려도 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+순천/NNG+관광/NNG+택시/NNG+코스/NNG+소개/NNG+부탁/NNG+드려도/VV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 순천에 꼭 여행하고 싶은 곳이 있으세요",
+            "norm_text": "A.네 고객님 순천에 꼭 여행하고 싶은 곳이 있으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+순천/NNG+에/JKB+꼭/MAG+여행/NNG+하/XSV+고/EC+싶/VX+은/ETM+곳/NNG+이/JKS+있/VA+으세요/EP+EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.낙안읍성이랑 순천만습지 순천만국가정원은 꼭 보고 싶어요",
+            "norm_text": "B.낙안읍성이랑 순천만습지 순천만국가정원은 꼭 보고 싶어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+낙안/NNG+읍/NNG+성/XSN+이랑/JC+순천만/NNP+습지/NNG+순천/NNG+만/JX+국가/NNG+정원/NNG+은/JX+꼭/MAG+보/VV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.오 코스가 맞춤 코스네요 선암사 낙안읍성 순천만습지와 국가정원까지요",
+            "norm_text": "A.오 코스가 맞춤 코스네요 선암사 낙안읍성 순천만습지와 국가정원까지요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+오/IC+코스/NNG+가/JKS+맞춤/VV+EC+코스/NNG+네요/VCP+EC+선암사/NNG+낙안/NNG+읍성/NNG+순천/NNG+만/JX+습지/NNG+와/JC+국가/NNG+정원/NNG+까지/JX+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "B.오 코스는 소요 시간이 얼마나 되나요",
+            "norm_text": "B.오 코스는 소요 시간이 얼마나 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+오/IC+코스/NNG+는/JX+소요/NNG+시간/NNG+이/JKS+얼마나/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.여덟 시간 정도 소요되신다고 생각하시면 되세요",
+            "norm_text": "A.여덟 시간 정도 소요되신다고 생각하시면 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+여덟/NR+시간/NNG+정도/NNG+소요/NNG+되/XSV+신다고/EP+EC+생각/NNG+하/XSV+시/EP+면/EC+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그렇군요 금액은 얼마인가요",
+            "norm_text": "B.그렇군요 금액은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+금액/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.십삼 만 원이신데요 입장료와 통행료 주차요금 체험료는 별도 입니다",
+            "norm_text": "A.십삼 만 원이신데요 입장료와 통행료 주차요금 체험료는 별도 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+십/NR+삼/NR+만/NR+원/NNBC+이/VCP+신데요/EP+EC+입장료/NNG+와/JC+통행료/NNG+주차/NNG+요금/NNG+체험/NNG+료/NNG+는/JX+별도/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.예약은 어디로 하나요 전화번호 좀 알려 주시겠어요",
+            "norm_text": "B.예약은 어디로 하나요 전화번호 좀 알려 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+예약/NNG+은/JX+어디/NP+로/JKB+하/VV+나요/EC+전화/NNG+번호/NNG+좀/MAG+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.콜센터 번호 안내해 드릴게요 #@전번# 입니다",
+            "norm_text": "A.콜센터 번호 안내해 드릴게요 #@전번# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+콜/NNG+센터/NNG+번호/NNG+안내/NNG+해/XSV+EC+드릴게요/VX+EC+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.자세한 안내 감사합니다 수고하세요",
+            "norm_text": "B.자세한 안내 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+자세/XR+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.순천에서 소중한 추억 만드세요 #@이름# 상담사 였습니다",
+            "norm_text": "A.순천에서 소중한 추억 만드세요 #@이름# 상담사 였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+순천/NNG+에서/JKB+소중/XR+한/XSA+ETM+추억/NNG+만/JX+드세요/VV+EP+EC+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 45001,
+    "name": "c4_20211014_0001_1538_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706040330/c4_20211014_0001_1538_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706040330/c4_20211014_0001_1538_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50349,
+      "filename": "c4_20210906_0021_0002_01.txt",
+      "title": "c4_20210906_0021_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 313,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 313,
+        "word_size": 73,
+        "text": "A.기분 좋은 하루 시작 #@소속# 상담원 #@이름#입니다\nB.수고 하십니다 민원 좀 제기 하려고 전화 했어요\nA.어떤 민원 이신지 말씀 하세요\nB.#@주소# 불법 우회전 꼬리 물기 집중 단속 좀 해주세요\nA.해당 민원은 교통소통에 관한 사항으로 #@소속#에서 처리함이 타당합니다\nB.그러면 #@소속#으로 민원을 이관시켜 주실 수 있을까요\nA.해당 민원 #@소속# 담당 부서 확인 후 이관 조치 하겠습니다\nB.빠른 조치 부탁 드리겠습니다\nA.추가 문의가 있으시면 #@소속# #@번호#로 연락 주세요\nB.친절한 상담 감사합니다\nA.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.기분 좋은 하루 시작 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.기분 좋은 하루 시작 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+기분/NNG+좋/VA+은/ETM+하루/NNG+시작/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고 하십니다 민원 좀 제기 하려고 전화 했어요",
+            "norm_text": "B.수고 하십니다 민원 좀 제기 하려고 전화 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+민원/NNG+좀/MAG+제기/NNG+하/XSV+려고/EC+전화/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.어떤 민원 이신지 말씀 하세요",
+            "norm_text": "A.어떤 민원 이신지 말씀 하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+어떤/MM+민원/NNG+이/JKS+신지/NNG+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@주소# 불법 우회전 꼬리 물기 집중 단속 좀 해주세요",
+            "norm_text": "B.#@주소# 불법 우회전 꼬리 물기 집중 단속 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+불법/NNG+우회전/NNG+꼬리/NNG+물기/NNG+집중/NNG+단속/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.해당 민원은 교통소통에 관한 사항으로 #@소속#에서 처리함이 타당합니다",
+            "norm_text": "A.해당 민원은 교통소통에 관한 사항으로 #@소속#에서 처리함이 타당합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+민원/NNG+은/JX+교통/NNG+소통/NNG+에/JKB+관한/VV+ETM+사항/NNG+으로/JKB+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+처리/NNG+함/XSV+ETN+이/JKS+타당/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그러면 #@소속#으로 민원을 이관시켜 주실 수 있을까요",
+            "norm_text": "B.그러면 #@소속#으로 민원을 이관시켜 주실 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그러/VV+면/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+민원/NNG+을/JKO+이관/NNG+시켜/XSV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.해당 민원 #@소속# 담당 부서 확인 후 이관 조치 하겠습니다",
+            "norm_text": "A.해당 민원 #@소속# 담당 부서 확인 후 이관 조치 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+해당/NNG+민원/NNG+#/SY+@/SY+소속/NNG+#/SY+담당/NNG+부서/NNG+확인/NNG+후/NNG+이관/NNG+조치/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.빠른 조치 부탁 드리겠습니다",
+            "norm_text": "B.빠른 조치 부탁 드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+빠른/VA+ETM+조치/NNG+부탁/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.추가 문의가 있으시면 #@소속# #@번호#로 연락 주세요",
+            "norm_text": "A.추가 문의가 있으시면 #@소속# #@번호#로 연락 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+추가/NNG+문의/NNG+가/JKS+있/VA+으시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+번호/NNG+#/SY+로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 10,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+            "norm_text": "A.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

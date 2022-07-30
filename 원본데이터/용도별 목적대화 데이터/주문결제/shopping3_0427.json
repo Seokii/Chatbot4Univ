@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 10058,
+    "name": "s3_20210913_0010_0568_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417095499/s3_20210913_0010_0568_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417095499/s3_20210913_0010_0568_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12075,
+      "filename": "s3_20210827_0014_0009_01.txt",
+      "title": "s3_20210827_0014_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 278,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 278,
+        "word_size": 68,
+        "text": "A.반갑습니다 #@소속# #@이름# 입니다\nB.수고하십니다 전화 주문 할려고 하는데요\nB.전화 주문하게 되면요 가격이 달라지 나요\nA.전화 주문 시에는 비회원으로 주문되기 때문에 앱 구매가가 아니구요\nA.회원가가 아니고 비회원으로 주문이 되서 삼만 팔천 원으로 구매가 입니다\nB.전화로 하면 더 비싸네요\nA.네 전화 주문이 제  한 천백 원 정도 더 비싸게 되죠 고객님\nB.그거 왜 그런가\nA.어떻게 도와드릴까요\nB.그러면 앱으로 해야지 뭐\nA.알겠습니다 해당 앱으로 구매 부탁드릴게요\nB.그래요 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름# 입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고하십니다 전화 주문 할려고 하는데요",
+            "norm_text": "B.수고하십니다 전화 주문 할려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+전화/NNG+주문/NNG+할려고/XSV+EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.전화 주문하게 되면요 가격이 달라지 나요",
+            "norm_text": "B.전화 주문하게 되면요 가격이 달라지 나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+전화/NNG+주문/NNG+하/XSV+게/EC+되/VV+면/EC+요/JX+가격/NNG+이/JKS+달라지/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.전화 주문 시에는 비회원으로 주문되기 때문에 앱 구매가가 아니구요",
+            "norm_text": "A.전화 주문 시에는 비회원으로 주문되기 때문에 앱 구매가가 아니구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주문/NNG+시/NNB+에/JKB+는/JX+비회원/NNG+으로/JKB+주문/NNG+되/XSV+기/ETN+때문/NNB+에/JKB+앱/NNG+구매/NNG+가/JKS+가/JKC+아니/VCN+구요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.회원가가 아니고 비회원으로 주문이 되서 삼만 팔천 원으로 구매가 입니다",
+            "norm_text": "A.회원가가 아니고 비회원이어서 구매가가 삼만 팔천 원이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+회원/NNG+가/XSN+가/JKC+아니/VCN+고/EC+비회원/NNG+으로/JKB+주문/NNG+이/JKS+되/VV+서/EC+삼/NR+만/NR+팔/NR+천/NR+원/NNBC+으로/JKB+구매/NNG+가/JKS+입/VV+니다/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.전화로 하면 더 비싸네요",
+            "norm_text": "B.전화로 하면 더 비싸네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+전화/NNG+로/JKB+하/VV+면/EC+더/MAG+비싸/VA+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 전화 주문이 제  한 천백 원 정도 더 비싸게 되죠 고객님",
+            "norm_text": "A.네 전화 주문이 제  한 천백 원 정도 더 비싸게 되죠 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+전화/NNG+주문/NNG+이제/MAG+한/MM+천/NR+백/NR+원/NNBC+정도/NNG+더/MAG+비싸/VA+게/EC+되/VV+죠/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.그거 왜 그런가",
+            "norm_text": "B.그거 왜 그런가",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그거/NP+왜/MAG+그런가/VA+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.어떻게 도와드릴까요",
+            "norm_text": "A.어떻게 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떻게/MAG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그러면 앱으로 해야지 뭐",
+            "norm_text": "B.그러면 앱으로 해야지 뭐",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러면/MAJ+앱/NNG+으로/JKB+해야지/VV+EF+뭐/IC"
+          },
+          {
+            "id": 11,
+            "text": "A.알겠습니다 해당 앱으로 구매 부탁드릴게요",
+            "norm_text": "A.알겠습니다 해당 앱으로 구매 부탁드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+해당/NNG+앱/NNG+으로/JKB+구매/NNG+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그래요 알겠습니다 감사합니다",
+            "norm_text": "B.그래요 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그래요/VV+EC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

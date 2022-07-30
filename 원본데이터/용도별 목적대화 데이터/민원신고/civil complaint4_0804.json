@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 43969,
+    "name": "c4_20211014_0011_0022_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131155088372/c4_20211014_0011_0022_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131155088372/c4_20211014_0011_0022_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56119,
+      "filename": "c4_20210908_0027_0019_01.txt",
+      "title": "c4_20210908_0027_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 301,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 301,
+        "word_size": 62,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.네 제가 반려견을 한마리 키웁니다\nB.근데 동물등록이 세번 중복으로 되어 있어서요\nB.이거 하나 빼고는 지우고 싶은데요\nA.네 동물보호관리 시스템에 중복으로 등록이 되었다는 거죠\nA.중복등록 건을 삭제 후 동물등록증 재발급 도와드리겠습니다\nA.선생님 자택으로 우편발송 도와드리려 하는데 주소 알려주시겠어요\nB.네 #@주소#입니다 여기로 보내주세요\nA.네 알겠습니다 궁금한 사항 언제든지 연락 주세요\nB.네 다시 연락드리겠습니다 감사합니다\nA.감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 제가 반려견을 한마리 키웁니다",
+            "norm_text": "B.네 제가 반려견을 한마리 키웁니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+반려/NNG+견/NNG+을/JKO+한/MM+마리/NNBC+키/NNG+웁/VA+니다/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.근데 동물등록이 세번 중복으로 되어 있어서요",
+            "norm_text": "B.근데 동물등록이 세번 중복으로 되어 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+근데/MAJ+동물/NNG+등록/NNG+이/JKS+세/MM+번/NNBC+중복/NNG+으로/JKB+되/VV+어/EC+있/VX+어서요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.이거 하나 빼고는 지우고 싶은데요",
+            "norm_text": "B.이거 하나 빼고는 지우고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이거/NP+하나/NR+빼/VV+고는/EC+지우/VV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 동물보호관리 시스템에 중복으로 등록이 되었다는 거죠",
+            "norm_text": "A.네 동물보호관리 시스템에 중복으로 등록이 되었다는 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+동물보호/NNP+관리/NNG+시스템/NNG+에/JKB+중복/NNG+으로/JKB+등록/NNG+이/JKS+되/VV+었/EP+다는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.중복등록 건을 삭제 후 동물등록증 재발급 도와드리겠습니다",
+            "norm_text": "A.중복등록 건을 삭제 후 동물등록증 재발급 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+중복/NNG+등록/NNG+건/NNG+을/JKO+삭제/NNG+후/NNG+동물/NNG+등록증/NNG+재/XPN+발급/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.선생님 자택으로 우편발송 도와드리려 하는데 주소 알려주시겠어요",
+            "norm_text": "A.선생님 자택으로 우편발송 도와드리려 하는데 주소 알려주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+자택/NNG+으로/JKB+우편/NNG+발송/NNG+도와/VV+EC+드리/VX+려/EC+하/VV+는데/EC+주소/NNG+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 #@주소#입니다 여기로 보내주세요",
+            "norm_text": "B.네 #@주소#입니다 여기로 보내주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EF+여기/NP+로/JKB+보내/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 알겠습니다 궁금한 사항 언제든지 연락 주세요",
+            "norm_text": "A.네 알겠습니다 궁금한 사항 언제든지 연락 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+궁금/XR+한/XSA+ETM+사항/NNG+언제든지/MAG+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 11,
+            "text": "B.네 다시 연락드리겠습니다 감사합니다",
+            "norm_text": "B.네 다시 연락드리겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+다시/MAG+연락/NNG+드리/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

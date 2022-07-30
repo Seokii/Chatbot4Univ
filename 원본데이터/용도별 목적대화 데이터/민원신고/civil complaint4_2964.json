@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 64200,
+    "name": "c4_20211022_0012_016_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131233039279/c4_20211022_0012_016_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131233039279/c4_20211022_0012_016_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56959,
+      "filename": "c4_20210927_0028_0010_01.txt",
+      "title": "c4_20210927_0028_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 192,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 192,
+        "word_size": 42,
+        "text": "A.선생님 지금 블로그 주소와 소속 불러주실 수 있으십니까\nB.네 여기 소속이 #@소속#이고요 블로그 주소는 #@URL#입니다\nA.네 한번 확인 하겠습니다 소속은#@소속#이고요\nA.#@URL#이 해당 불법을 저지르고 있는 블로그 맞습니까\nB.네 맞습니다 빠른 시일 내에 처리 바랍니다\nA.네 알겠습니다 다른 문의사항은 없으신가요\nB.네 없습니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.선생님 지금 블로그 주소와 소속 불러주실 수 있으십니까",
+            "norm_text": "A.선생님 지금 블로그 주소와 소속 불러주실 수 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+지금/MAG+블로그/NNG+주소/NNG+와/JC+소속/NNG+불러/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 2,
+            "text": "B.네 여기 소속이 #@소속#이고요 블로그 주소는 #@URL#입니다",
+            "norm_text": "B.네 여기 소속이 #@소속#이고요 블로그 주소는 #@URL#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+여기/NP+소속/NNG+이/JKS+#/SY+@/SY+소속/NNG+#/SY+이/VCP+고요/EC+블로그/NNG+주소/NNG+는/JX+#/SY+@/SY+URL/SL+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 한번 확인 하겠습니다 소속은#@소속#이고요",
+            "norm_text": "A.네 한번 확인 하겠습니다 소속은#@소속#이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+한/MM+번/NNBC+확인/NNG+하/XSV+겠/EP+습니다/EF+소속/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.#@URL#이 해당 불법을 저지르고 있는 블로그 맞습니까",
+            "norm_text": "A.#@URL#이 해당 불법을 저지르고 있는 블로그 맞습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+URL/SL+#/SY+이/JKS+해당/NNG+불법/NNG+을/JKO+저지르/VV+고/EC+있/VX+는/ETM+블로그/NNG+맞/VV+습니까/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 맞습니다 빠른 시일 내에 처리 바랍니다",
+            "norm_text": "B.네 맞습니다 빠른 시일 내에 처리 바랍니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+맞/VV+습니다/EF+빠른/VA+ETM+시일/NNG+내/NNB+에/JKB+처리/NNG+바랍니다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 알겠습니다 다른 문의사항은 없으신가요",
+            "norm_text": "A.네 알겠습니다 다른 문의사항은 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "B.네 없습니다 수고하세요",
+            "norm_text": "B.네 없습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+없/VA+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

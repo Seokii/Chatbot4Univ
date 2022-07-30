@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 49534,
+    "name": "c4_20211015_0012_0166_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt202110081312370849102/c4_20211015_0012_0166_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt202110081312370849102/c4_20211015_0012_0166_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57510,
+      "filename": "c4_20210928_0014_01_0023.txt",
+      "title": "c4_20210928_0014_01_0023",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 333,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 333,
+        "word_size": 70,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 문의 드릴게 있어서 연락드렸어요\nA.네 말씀 주시면 답변 드리겠습니다\nB.주유소를 운영하고 있는데 쓰레기통이 없는데 쓰레기 무단투기를 해서요\nA.동영상 제출 가능 하신가요\nB.아 네 동영상 제출 할게요\nA.동영상 제출해주시면 차주와 연락하여 위반행위 확인 하구요\nA.무단투기로 인한 범칙금 통고처분 할 예정입니다\nB.네 그럼 어떤거 준비해야한다구요\nA.진술서와 진정서 작성해주셔야 정상적인 수사가 진행됩니다\nB.아 네 알겠습니다 감사합니다\nA.네 더 문의사항 있으신가요\nB.아니요 없습니다 감사합니다 수고 하세요\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 문의 드릴게 있어서 연락드렸어요",
+            "norm_text": "B.안녕하세요 문의 드릴게 있어서 연락드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서/EC+연락/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 말씀 주시면 답변 드리겠습니다",
+            "norm_text": "A.네 말씀 주시면 답변 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+말씀/NNG+주/VV+시/EP+면/EC+답변/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.주유소를 운영하고 있는데 쓰레기통이 없는데 쓰레기 무단투기를 해서요",
+            "norm_text": "B.주유소를 운영하고 있는데 쓰레기통이 없는데 쓰레기 무단투기를 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+주유소/NNG+를/JKO+운영/NNG+하/XSV+고/EC+있/VX+는데/EC+쓰레기통/NNG+이/JKS+없/VA+는데/EC+쓰레기/NNG+무단/NNG+투기/NNG+를/JKO+해서/VV+EC+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.동영상 제출 가능 하신가요",
+            "norm_text": "A.동영상 제출 가능 하신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+동영상/NNG+제출/NNG+가능/NNG+하/XSV+신가요/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아 네 동영상 제출 할게요",
+            "norm_text": "B.아 네 동영상 제출 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+아/IC+네/IC+동영상/NNG+제출/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.동영상 제출해주시면 차주와 연락하여 위반행위 확인 하구요",
+            "norm_text": "A.동영상 제출해주시면 차주와 연락하여 위반행위 확인 하구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+동영상/NNG+제출/NNG+해/XSV+EC+주/VX+시/EP+면/EC+차주/NNG+와/JC+연락/NNG+하/XSV+여/EC+위반/NNG+행위/NNG+확인/NNG+하/XSV+구요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.무단투기로 인한 범칙금 통고처분 할 예정입니다",
+            "norm_text": "A.무단투기로 인한 범칙금 통고처분 할 예정입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+무단/NNG+투기/NNG+로/JKB+인한/VV+ETM+범칙금/NNG+통고/NNG+처분/NNG+할/XSV+ETM+예정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 그럼 어떤거 준비해야한다구요",
+            "norm_text": "B.네 그럼 어떤거 준비해야한다구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+어떤/MM+거/NNB+준비/NNG+해야/XSV+EC+한다구요/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.진술서와 진정서 작성해주셔야 정상적인 수사가 진행됩니다",
+            "norm_text": "A.진술서와 진정서 작성해주셔야 정상적인 수사가 진행됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+진술서/NNG+와/JC+진정서/NNG+작성/NNG+해/XSV+EC+주/VX+셔야/EP+EC+정상/NNG+적/XSN+인/VCP+ETM+수사/NNG+가/JKS+진행/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.아 네 알겠습니다 감사합니다",
+            "norm_text": "B.아 네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아/IC+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 더 문의사항 있으신가요",
+            "norm_text": "A.네 더 문의사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+더/MAG+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 13,
+            "text": "B.아니요 없습니다 감사합니다 수고 하세요",
+            "norm_text": "B.아니요 없습니다 감사합니다 수고 하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아니요/IC+없/VA+습니다/EF+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 87630,
+    "name": "s3_20211101_0002_0029_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110742080121/s3_20211101_0002_0029_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110742080121/s3_20211101_0002_0029_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117778,
+      "filename": "s3_20211001_0019_0011_01.txt",
+      "title": "s3_20211001_0019_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 346,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 346,
+        "word_size": 71,
+        "text": "A.안녕하십니까 #@소속# #@이름# 상담사입니다\nB.저요 저번에 예약했던 사람인데 바꿀 게 있어서요\nA.어떤 사항을 바꾸시고 싶으세요\nB.그러니가 객실을 하나 더 추가하고 싶어요\nA.고객님 호텔명과 예약번호를 알려주세요\nB.#@이름#호텔이고요 #@번호#에요 나오나요\nA.#@이름#고객님 지금 예약내역 확인했습니다\nB.그거랑 같은 객실 지금 예약해주실 수 있어요\nA.바로 해드리겠습니다 십칠만 오천 사백원이십니다\nB.이만원 더 비싸졌네요\nA.지금 가격 변동이 조금 있으셔서요\nB.알았어요 연동해둔 계좌로 처리 부탁해요\nA.바로 도와드리겠습니다 고객님 문자 가셨나요\nB.지금 예약번호 받았어요 감사합니다\nA.즐거운 여행길 되시구요 좋은 저녁되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# #@이름# 상담사입니다",
+            "norm_text": "A.안녕하십니까 #@소속# #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저요 저번에 예약했던 사람인데 바꿀 게 있어서요",
+            "norm_text": "B.저요 저번에 예약했던 사람인데 바꿀 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/NP+요/JX+저번/NNG+에/JKB+예약/NNG+했/XSV+EP+던/ETM+사람/NNG+인데/VCP+EC+바꿀/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.어떤 사항을 바꾸시고 싶으세요",
+            "norm_text": "A.어떤 사항을 바꾸시고 싶으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+사항/NNG+을/JKO+바꾸/VV+시/EP+고/EC+싶/VX+으세요/EP+EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그러니가 객실을 하나 더 추가하고 싶어요",
+            "norm_text": "B.그러니가 객실을 하나 더 추가하고 싶어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러/VV+니가/EC+객실/NNG+을/JKO+하나/NR+더/MAG+추가/NNG+하/XSV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 호텔명과 예약번호를 알려주세요",
+            "norm_text": "A.고객님 호텔명과 예약번호를 알려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+호텔/NNG+명과/NNG+예약/NNG+번호/NNG+를/JKO+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.#@이름#호텔이고요 #@번호#에요 나오나요",
+            "norm_text": "B.#@이름#호텔이고요 #@번호#에요 나오나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+호텔/NNG+이/JKS+고요/NNG+#/SY+@/SY+번호/NNG+#/SY+에요/JX+나오/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.#@이름#고객님 지금 예약내역 확인했습니다",
+            "norm_text": "A.#@이름#고객님 지금 예약내역 확인했습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+지금/MAG+예약/NNG+내역/NNG+확인/NNG+했/XSV+EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그거랑 같은 객실 지금 예약해주실 수 있어요",
+            "norm_text": "B.그거랑 같은 객실 지금 예약해주실 수 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그거/NP+랑/JKB+같/VA+은/ETM+객실/NNG+지금/MAG+예약/NNG+해/XSV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.바로 해드리겠습니다 십칠만 오천 사백원이십니다",
+            "norm_text": "A.바로 해드리겠습니다 십칠만 오천 사백원이십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+바로/MAG+해/VV+EC+드리/VX+겠/EP+습니다/EF+십/NR+칠만/NR+오/NR+천/NR+사/NR+백/NR+원/NNBC+이/VCP+십니다/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.이만원 더 비싸졌네요",
+            "norm_text": "B.이만원 더 비싸졌네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이/NR+만/NR+원/NNBC+더/MAG+비싸/VA+졌/EC+VX+EP+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.지금 가격 변동이 조금 있으셔서요",
+            "norm_text": "A.지금 가격 변동이 조금 있으셔서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+지금/MAG+가격/NNG+변동/NNG+이/JKS+조금/MAG+있/VV+으셔서/EP+EC+요/JX"
+          },
+          {
+            "id": 12,
+            "text": "B.알았어요 연동해둔 계좌로 처리 부탁해요",
+            "norm_text": "B.알았어요 연동해둔 계좌로 처리 부탁해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+알/VV+았/EP+어요/EF+연동/NNG+해/XSV+EC+둔/VX+ETM+계좌/NNG+로/JKB+처리/NNG+부탁/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.바로 도와드리겠습니다 고객님 문자 가셨나요",
+            "norm_text": "A.바로 도와드리겠습니다 고객님 문자 가셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+바로/MAG+도와/VV+EC+드리/VX+겠/EP+습니다/EF+고객/NNG+님/XSN+문자/NNG+가셨/VV+EP+나요/EC"
+          },
+          {
+            "id": 14,
+            "text": "B.지금 예약번호 받았어요 감사합니다",
+            "norm_text": "B.지금 예약번호 받았어요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+지금/MAG+예약/NNG+번호/NNG+받/VV+았/EP+어요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.즐거운 여행길 되시구요 좋은 저녁되세요",
+            "norm_text": "A.즐거운 여행길 되시구요 좋은 저녁되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+여행길/NNG+되/XSV+시/EP+구요/EF+좋/VA+은/ETM+저녁/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

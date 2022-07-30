@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 115952,
+    "name": "s3_20211105_0005_0120_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110829007579/s3_20211105_0005_0120_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110829007579/s3_20211105_0005_0120_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119295,
+      "filename": "s3_20211025_0009_0016_01.txt",
+      "title": "s3_20211025_0009_0016_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 256,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 256,
+        "word_size": 59,
+        "text": "A.기분좋은 아침입니다 #@소속# #@이름#입니다\nB.네 문의할 게 있는데요\nA.네 말씀해 주세요 어떤 문의시죠\nB.무통장 입금 입금 금액 한도가 있나요\nA.네 있습니다 천만 원까지만 무통장 입금 주문이 가능합니다\nB.그래요 초과해서 주문을 원할 경우 어떻게 하죠\nA.고객 센터에 말씀해주시면 됩니다\nA.지금 초과 주문 원하십니까\nB.네 제가 #@이름#구요 전화 번호는 #@전번#인데요\nB.금액 제한 해제 해주시겠어요\nA.네 고객님 해제 해드렸습니다\nB.네 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.기분좋은 아침입니다 #@소속# #@이름#입니다",
+            "norm_text": "A.기분좋은 아침입니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+기분/NNG+좋/VA+은/ETM+아침/NNG+입니다/VCP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 문의할 게 있는데요",
+            "norm_text": "B.네 문의할 게 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+문의/NNG+할/XSV+ETM+게/NNB+JKS+있/VA+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 말씀해 주세요 어떤 문의시죠",
+            "norm_text": "A.네 말씀해 주세요 어떤 문의시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF+어떤/MM+문/NNG+의/JKG+시/EP+죠/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.무통장 입금 입금 금액 한도가 있나요",
+            "norm_text": "B.무통장 입금 입금 금액 한도가 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+무/XPN+통장/NNG+입금/NNG+입금/NNG+금액/NNG+한도/NNG+가/JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 있습니다 천만 원까지만 무통장 입금 주문이 가능합니다",
+            "norm_text": "A.네 있습니다 천만 원까지만 무통장 입금 주문이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+있/VA+습니다/EF+천만/NR+원/NNBC+까지/JX+만무/NNG+통장/NNG+입금/NNG+주문/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그래요 초과해서 주문을 원할 경우 어떻게 하죠",
+            "norm_text": "B.그래요 초과해서 주문을 원할 경우 어떻게 하죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+초과/NNG+해서/XSV+EC+주문/NNG+을/JKO+원할/VV+ETM+경우/NNG+어떻게/MAG+하/VV+죠/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.고객 센터에 말씀해주시면 됩니다",
+            "norm_text": "A.고객센터에 말씀해 주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+센터/NNG+에/JKB+말씀/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.지금 초과 주문 원하십니까",
+            "norm_text": "A.지금 초과 주문 원하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+초과/NNG+주/NNG+문원/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 제가 #@이름#구요 전화 번호는 #@전번#인데요",
+            "norm_text": "B.네 제가 #@이름#구요 전화 번호는 #@전번#인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+#/SY+@/SY+이름/NNG+#/SY+구요/NNG+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+인데요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.금액 제한 해제 해주시겠어요",
+            "norm_text": "B.금액 제한 해제를 해 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+금액/NNG+제한/NNG+해제/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 고객님 해제 해드렸습니다",
+            "norm_text": "A.네 고객님 해제해 드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+해제/NNG+해/XSV+EC+드렸/VX+EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 10984,
+    "name": "s3_20210913_0010_0707_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514160939104/s3_20210913_0010_0707_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514160939104/s3_20210913_0010_0707_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11928,
+      "filename": "s3_20210826_0010_0007_01.txt",
+      "title": "s3_20210826_0010_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 508,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 508,
+        "word_size": 111,
+        "text": "A.안녕하십니까 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.네 자동이체 통장을 변경하려고 하는데요 방금 통화했었어요\nA.네 고객님 어느 은행이신 지 확인 되셨나요\nB.네 은행은 똑같이 #@소속#은행이고 #@소속#명의입니다\nA.네 사업자 번호 어떻게 되시나요\nB.저희 사업자번호가 #@번호# 입니다\nA.네 개인정보 보호법에 따라서 몇 가지 안내 후 변경 도와드리겠습니다\nA.개인정보 수집이용 및 신용정보 조회와 제공에 동의해주시겠습니까\nB.네 개인정보 제공 동의 합니다\nA.자동이체 신청 동의해주시겠습니까\nB.그걸 해야 자동이체가 되잖아요 해야죠\nA.네 감사합니다 해당계좌로 인증 되셨고요\nA.앞으로는 이 계좌에서 출금이 될텐데\nA.저희 쪽으로 사업자 등록증 사본 한 장만 발송 부탁드립니다\nB.팩스도 되죠 거기 번호가 어떻게 됩니까\nA.네 저희 팩스 번호는 #@전번#입니다\nB.고유번호증만 보내면 된다는 거죠\nA.네 맞습니다 고객님 지금 바로 부탁드립니다\nB.네 알겠습니다 바로 보내드릴게요\nA.감사합니다 확인되면 바로 말씀드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하십니까 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 자동이체 통장을 변경하려고 하는데요 방금 통화했었어요",
+            "norm_text": "B.네 자동이체 통장을 변경하려고 하는데요 방금 통화했었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+자동/NNG+이체/NNG+통장/NNG+을/JKO+변경/NNG+하/XSV+려고/EC+하/VX+는데요/EF+방금/MAG+통화/NNG+했었어요/XSV+EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어느 은행이신 지 확인 되셨나요",
+            "norm_text": "A.네 고객님 어느 은행이신 지 확인 되셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어느/MM+은행/NNG+이/JKS+신지/NNG+확인/NNG+되/XSV+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 은행은 똑같이 #@소속#은행이고 #@소속#명의입니다",
+            "norm_text": "B.네 은행은 똑같이 #@소속#은행이고 #@소속#명의입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+은행/NNG+은/JX+똑같이/MAG+#/SY+@/SY+소속/NNG+#/SY+은행/NNG+이/VCP+고/EC+#/SY+@/SY+소속/NNG+#/SY+명의/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 사업자 번호 어떻게 되시나요",
+            "norm_text": "A.네 사업자 번호 어떻게 되시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+사업자/NNG+번호/NNG+어떻게/MAG+되/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.저희 사업자번호가 #@번호# 입니다",
+            "norm_text": "B.저희 사업자번호가 #@번호# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+사업자/NNG+번호/NNG+가/JKS+#/SY+@/SY+번호/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 개인정보 보호법에 따라서 몇 가지 안내 후 변경 도와드리겠습니다",
+            "norm_text": "A.네 개인정보 보호법에 따라서 몇 가지 안내 후 변경 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+개인정보/NNP+보호법/NNP+에/JKB+따라서/VV+EC+몇/MM+가지/NNBC+안내/NNG+후/NNG+변경/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.개인정보 수집이용 및 신용정보 조회와 제공에 동의해주시겠습니까",
+            "norm_text": "A.개인정보 수집이용 및 신용정보 조회와 제공에 동의해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+개인/NNG+정보/NNG+수집/NNG+이용/NNG+및/MAJ+신용/NNG+정보/NNG+조회/NNG+와/JC+제공/NNG+에/JKB+동의/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 개인정보 제공 동의 합니다",
+            "norm_text": "B.네 개인정보 제공 동의 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/MM+개/NNBC+인/VCP+ETM+정보/NNG+제공/NNG+동의/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.자동이체 신청 동의해주시겠습니까",
+            "norm_text": "A.자동이체 신청 동의해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+자동/NNG+이/JKS+체신/NNG+청동/NNG+의/JKG+해/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그걸 해야 자동이체가 되잖아요 해야죠",
+            "norm_text": "B.그걸 해야 자동이체가 되잖아요 해야죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그걸/NP+JKO+해야/VV+EC+자동/NNG+이/JKS+체가/NNG+되/XSV+잖아요/EC+해야죠/VX+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.네 감사합니다 해당계좌로 인증 되셨고요",
+            "norm_text": "A.네 감사합니다 해당계좌로 인증 되셨고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+해당/NNG+계좌/NNG+로/JKB+인증/NNG+되/XSV+셨/EP+EP+고요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.앞으로는 이 계좌에서 출금이 될텐데",
+            "norm_text": "A.앞으로는 이 계좌에서 출금이 될텐데",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+앞/NNG+으로/JKB+는/JX+이/MM+계좌/NNG+에서/JKB+출금/NNG+이/JKS+될/VV+ETM+텐데/NNB+VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.저희 쪽으로 사업자 등록증 사본 한 장만 발송 부탁드립니다",
+            "norm_text": "A.저희 쪽으로 사업자 등록증 사본 한 장만 발송 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+저희/NP+쪽/NNB+으로/JKB+사업자/NNG+등록증/NNG+사본/NNG+한/XSA+ETM+장만/NNG+발송/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.팩스도 되죠 거기 번호가 어떻게 됩니까",
+            "norm_text": "B.팩스도 되죠 거기 번호가 어떻게 됩니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+팩스/NNG+도/JX+되/VV+죠/EF+거기/NP+번호/NNG+가/JKS+어떻게/MAG+됩니까/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 저희 팩스 번호는 #@전번#입니다",
+            "norm_text": "A.네 저희 팩스 번호는 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+팩스/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.고유번호증만 보내면 된다는 거죠",
+            "norm_text": "B.고유번호증만 보내면 된다는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+고유/NNG+번호/NNG+증/NNG+만/JX+보내/VV+면/EC+된다는/VV+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "A.네 맞습니다 고객님 지금 바로 부탁드립니다",
+            "norm_text": "A.네 맞습니다 고객님 지금 바로 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+고객/NNG+님/XSN+지금/MAG+바로/MAG+부탁드립니다/VV+EC"
+          },
+          {
+            "id": 19,
+            "text": "B.네 알겠습니다 바로 보내드릴게요",
+            "norm_text": "B.네 알겠습니다 바로 보내드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+바로/MAG+보내/VV+드릴게요/EC+VX+EC"
+          },
+          {
+            "id": 20,
+            "text": "A.감사합니다 확인되면 바로 말씀드리겠습니다",
+            "norm_text": "A.감사합니다 확인되면 바로 말씀드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+확인/NNG+되/XSV+면/EC+바로/MAG+말씀/NNG+드리/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

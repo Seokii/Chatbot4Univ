@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 45195,
+    "name": "c2_20211014_0002_0208_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130804078577/c2_20211014_0002_0208_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130804078577/c2_20211014_0002_0208_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51990,
+      "filename": "c2_20210907_0022_0001_01.txt",
+      "title": "c2_20210907_0022_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 719,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 719,
+        "word_size": 154,
+        "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다\nA.예 여쭤보시고 싶은게 어떤 사항이신가요\nB.혹시 항만국통제 점검 대항은 어떻게 선정되는 건지 알 수 있을까요\nA.항만국통제라면 피에스씨 말씀하시는거 맞으세요\nB.네 그게 항만국통제 맞지요 네 그거 점검 대상 선정하는 법 좀요\nA.네 항만국통제 점검대상 선정은 위험등급을 고려하여 결정되는데요\nB.어느 단체가 정한 위험등급인 건가요\nA.아시아 태평양지역 항만국통제위원회에서 산정된 위험등급이에요\nB.그렇군요 그럼 혹시 어떻게 선정되나요\nA.우선 여섯가지 조건의 선박을 선정합니다\nB.여섯가지나요 한번 말씀해 주실 수 있나요\nA.네 외국 항만당국으로부터 보고나 통보가 제출된 선박을 선정하고요\nA.선장 선원 그밖에 관련자의 결함선박으로 신고된 선박을요\nB.예 결함선박도 신고되는군요 몰랐네요\nA.다른 항만당국으로부터 차항 시정을 조건으로 출항하여 입항하는 선박도 선정됩니다\nA.또 신고되지 않은 위험 오염물질을 운송하는 선박이 속하고요\nA.지적된 결함사항이 일정기간 내 시정하도록 지시받은 선박이랑요\nA.마지막으로 점검이후 반년 이내인 선박은 가급적 점검을 피하나 점검 주기는 위에 열거한 선박의 경우 따르지 않습니다\nB.정말 많네요 여섯가지라고 해서 대수롭지 않게 생각했는데요\nA.네 말씀드린 방식으로 선정합니다\nB.알려주셔서 감사합니다 다른 문의사항 있으면 전화드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "norm_text": "B.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 여쭤보시고 싶은게 어떤 사항이신가요",
+            "norm_text": "A.예 여쭤보시고 싶은게 어떤 사항이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+어떤/MM+사항/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.혹시 항만국통제 점검 대항은 어떻게 선정되는 건지 알 수 있을까요",
+            "norm_text": "B.혹시 항만국통제 점검 대항은 어떻게 선정되는 건지 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+항만/NNG+국통/NNG+제/XSN+점검/NNG+대항/NNG+은/JX+어떻게/MAG+선정/NNG+되/XSV+는/ETM+건지/NNB+VCP+EC+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.항만국통제라면 피에스씨 말씀하시는거 맞으세요",
+            "norm_text": "A.항만국통제라면 피에스씨 말씀하시는거 맞으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+항만/NNG+국통/NNG+제/XSN+라면/VCP+EC+피에스/NNP+씨/NNB+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+맞/VV+으세요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 그게 항만국통제 맞지요 네 그거 점검 대상 선정하는 법 좀요",
+            "norm_text": "B.네 그게 항만국통제 맞지요 네 그거 점검 대상 선정하는 법 좀요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그게/NP+JKS+항만/NNG+국통/NNG+제/XSN+맞/VV+지요/EF+네/IC+그거/NP+점검/NNG+대상/NNG+선정/NNG+하/XSV+는/ETM+법/NNB+좀/MAG+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.네 항만국통제 점검대상 선정은 위험등급을 고려하여 결정되는데요",
+            "norm_text": "A.네 항만국통제 점검대상 선정은 위험등급을 고려하여 결정되는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+항만/NNG+국통/NNG+제/XSN+점검/NNG+대상/NNG+선정/NNG+은/JX+위험/NNG+등급/NNG+을/JKO+고려/NNG+하/XSV+여/EC+결정/NNG+되/XSV+는데요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.어느 단체가 정한 위험등급인 건가요",
+            "norm_text": "B.어느 단체가 정한 위험등급인 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+어느/MM+단체/NNG+가/JKS+정한/VV+ETM+위험/NNG+등급/NNG+인/VCP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.아시아 태평양지역 항만국통제위원회에서 산정된 위험등급이에요",
+            "norm_text": "A.아시아 태평양지역 항만국통제위원회에서 산정된 위험등급이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+아시아/NNP+태평양/NNP+지역/NNG+항만/NNG+국통/NNG+제/XSN+위원회/NNG+에서/JKB+산정/NNG+된/XSV+ETM+위험/NNG+등급/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그렇군요 그럼 혹시 어떻게 선정되나요",
+            "norm_text": "B.그렇군요 그럼 혹시 어떻게 선정되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+그럼/MAJ+혹시/MAG+어떻게/MAG+선정/NNG+되/XSV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.우선 여섯가지 조건의 선박을 선정합니다",
+            "norm_text": "A.우선 여섯가지 조건의 선박을 선정합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+우선/MAG+여섯/NR+가지/NNBC+조건/NNG+의/JKG+선박/NNG+을/JKO+선정/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.여섯가지나요 한번 말씀해 주실 수 있나요",
+            "norm_text": "B.여섯가지나요 한번 말씀해 주실 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여섯/NR+가지/NNBC+나요/VCP+EF+한번/MAG+말씀/NNG+해/XSV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 외국 항만당국으로부터 보고나 통보가 제출된 선박을 선정하고요",
+            "norm_text": "A.네 외국 항만당국으로부터 보고나 통보가 제출된 선박을 선정하고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+외국/NNG+항만/NNG+당국/NNG+으로부터/JKB+보고/NNG+나/JC+통보/NNG+가/JKS+제출/NNG+된/XSV+ETM+선박/NNG+을/JKO+선정/NNG+하/XSV+고요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.선장 선원 그밖에 관련자의 결함선박으로 신고된 선박을요",
+            "norm_text": "A.선장 선원 그밖에 관련자의 결함선박으로 신고된 선박을요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선장/NNG+선원/NNG+그/MM+밖/NNG+에/JKB+관련자/NNG+의/JKG+결함/NNG+선박/NNG+으로/JKB+신고/NNG+된/XSV+ETM+선박/NNG+을/JKO+요/JX"
+          },
+          {
+            "id": 15,
+            "text": "B.예 결함선박도 신고되는군요 몰랐네요",
+            "norm_text": "B.예 결함선박도 신고되는군요 몰랐네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+결함/NNG+선박/NNG+도/JX+신고/NNG+되/XSV+는군요/EC+몰랐/VV+EP+네요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.다른 항만당국으로부터 차항 시정을 조건으로 출항하여 입항하는 선박도 선정됩니다",
+            "norm_text": "A.다른 항만당국으로 차항 시정을 조건으로 출항하여 입항하는 선박도 선정됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+다른/MM+항만/NNG+당국/NNG+으로/JKB+차/NNG+항/XSA+ETM+시정/NNG+을/JKO+조건/NNG+으로/JKB+출항/NNG+하/XSV+여/EC+입항/NNG+하/XSV+는/ETM+선박/NNG+도/JX+선정/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.또 신고되지 않은 위험 오염물질을 운송하는 선박이 속하고요",
+            "norm_text": "A.또 신고되지 않은 위험 오염물질을 운송하는 선박이 속하고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+또/MAG+신고/NNG+되/XSV+지/EC+않/VX+은/ETM+위험/NNG+오염/NNG+물질/NNG+을/JKO+운송/NNG+하/XSV+는/ETM+선박/NNG+이/JKS+속하/VV+고요/EC"
+          },
+          {
+            "id": 18,
+            "text": "A.지적된 결함사항이 일정기간 내 시정하도록 지시받은 선박이랑요",
+            "norm_text": "A.지적된 결함사항이 일정기간 내 시정하도록 지시받은 선박이랑요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+지적/NNG+된/XSV+ETM+결함/NNG+사항/NNG+이/JKS+일정/NNG+기간/NNG+내/NNB+시정/NNG+하/XSV+도록/EC+지/VX+시/EP+받/VV+은/ETM+선박/NNG+이랑/JKB+요/JX"
+          },
+          {
+            "id": 19,
+            "text": "A.마지막으로 점검이후 반년 이내인 선박은 가급적 점검을 피하나 점검 주기는 위에 열거한 선박의 경우 따르지 않습니다",
+            "norm_text": "A.점검이후 반년 이내인 선박은 가급적 점검을 피하나 점검 주기는 따르지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+점검/NNG+이후/NNG+반년/NNG+이/JKS+내인/NNP+선박/NNG+은/JX+가급적/MAG+점검/NNG+을/JKO+피/XPN+하나/NR+점검/NNG+주기/NNG+는/JX+따르/VV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 20,
+            "text": "B.정말 많네요 여섯가지라고 해서 대수롭지 않게 생각했는데요",
+            "norm_text": "B.정말 많네요 여섯가지라고 해서 대수롭지 않게 생각했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+정말/MAG+많/VA+네요/EF+여섯/NR+가지/NNBC+라고/VCP+EC+해서/VV+EC+대수롭/VA+지/EC+않/VX+게/EC+생각/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 21,
+            "text": "A.네 말씀드린 방식으로 선정합니다",
+            "norm_text": "A.네 말씀드린 방식으로 선정합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+말씀/NNG+드린/VV+ETM+방식/NNG+으로/JKB+선정/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 22,
+            "text": "B.알려주셔서 감사합니다 다른 문의사항 있으면 전화드릴게요",
+            "norm_text": "B.알려주셔서 감사합니다 다른 문의사항 있으면 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으면/EC+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 23,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

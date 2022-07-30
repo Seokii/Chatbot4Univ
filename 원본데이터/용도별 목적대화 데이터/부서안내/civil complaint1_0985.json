@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 53263,
+    "name": "c1_20211018_0001_2581_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202110081306580216109/c1_20211018_0001_2581_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202110081306580216109/c1_20211018_0001_2581_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49367,
+      "filename": "c1_20210906_0018_0001_01.txt",
+      "title": "c1_20210906_0018_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 290,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 290,
+        "word_size": 69,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.일요일 공사 가능한지 어디서 확인 가능하죠\nA.네 선생님 어떤 공사 건 이실까요\nB.학교 보강 공사 건이요\nA.네 그러십니까 해당 부서는 #@소속#으로 확인됩니다\nB.월요일부터 등교니까 일요일에 해야 한다는데 괜찮나요\nA.긴급 보수 보강 건은 가능한 것으로 알고 있습니다\nB.그럼 아까 말씀하신 부서 연락처 좀 알려 주실래요\nA.네 선생님 메모 가능 하십니까\nB.적을게요 불러 주실래요\nA.네 #@소속# 담당자 #@전번#입니다\nB.메모 했습니다 고마워요\nA.네 안전 공사 하시기 바랍니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.일요일 공사 가능한지 어디서 확인 가능하죠",
+            "norm_text": "B.일요일 공사 가능한지 어디서 확인 가능하죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+일요일/NNG+공사/NNG+가능/NNG+한지/XSA+EC+어디/NP+서/JKB+확인/NNG+가능/NNG+하/XSV+죠/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 선생님 어떤 공사 건 이실까요",
+            "norm_text": "A.네 선생님 어떤 공사 건 이실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+어떤/MM+공사건/NNG+이/VCP+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.학교 보강 공사 건이요",
+            "norm_text": "B.학교 보강 공사 건이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+학교/NNG+보강/NNG+공사건/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 그러십니까 해당 부서는 #@소속#으로 확인됩니다",
+            "norm_text": "A.네 그러십니까 해당 부서는 #@소속#으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그러/VV+십니까/EP+EF+해당/NNG+부서/NNG+는/JX+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.월요일부터 등교니까 일요일에 해야 한다는데 괜찮나요",
+            "norm_text": "B.월요일부터 등교니까 일요일에 해야 한다는데 괜찮나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+월요일/NNG+부터/JX+등교/NNG+니까/VCP+EC+일요일/NNG+에/JKB+해야/VV+EC+한다는/VX+ETM+데/NNB+괜찮/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.긴급 보수 보강 건은 가능한 것으로 알고 있습니다",
+            "norm_text": "A.긴급 보수 보강 건은 가능한 것으로 알고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+긴/VA+ETM+급보/NNG+수보/NNG+강건/NNP+은/JX+가능/NNG+한/XSA+ETM+것/NNB+으로/JKB+알/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 아까 말씀하신 부서 연락처 좀 알려 주실래요",
+            "norm_text": "B.그럼 아까 말씀하신 부서 연락처 좀 알려 주실래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+아까/MAG+말씀/NNG+하/XSV+신/EP+ETM+부서/NNG+연락처/NNG+좀/MAG+알려/VV+EC+주/VX+실래요/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 선생님 메모 가능 하십니까",
+            "norm_text": "A.네 선생님 메모 가능 하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.적을게요 불러 주실래요",
+            "norm_text": "B.적을게요 불러 주실래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+적/VA+을게요/EC+불러/VV+EC+주/VX+실래요/EP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 #@소속# 담당자 #@전번#입니다",
+            "norm_text": "A.네 #@소속# 담당자 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+담당자/NNG+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.메모 했습니다 고마워요",
+            "norm_text": "B.메모 했습니다 고마워요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+메모/NNG+했/XSV+EP+습니다/EF+고마워요/VA+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 안전 공사 하시기 바랍니다 감사합니다",
+            "norm_text": "A.네 안전 공사 하시기 바랍니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안전/NNG+공사/NNG+하/XSV+시/EP+기/ETN+바랍니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

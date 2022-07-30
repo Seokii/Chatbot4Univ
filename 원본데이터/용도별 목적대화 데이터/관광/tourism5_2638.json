@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 163401,
+    "name": "t5_20211119_0010_3041_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135920057392/t5_20211119_0010_3041_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135920057392/t5_20211119_0010_3041_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 156496,
+      "filename": "t5_0083_0131_02.txt",
+      "title": "t5_0083_0131_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 392,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 392,
+        "word_size": 89,
+        "text": "A.반갑습니다 목포 #@소속# #@이름# 상담원입니다\nB.안녕하세요 저 문의 좀 드릴게요\nA.네 고객님 말씀하세요\nB.제가 아직 과학관 방문 전인데요 과학관 시설 안내 좀 부탁드립니다\nB.3층으로 굉장히 크고 잘 되어있다고 하더라고요\nA.네 맞습니다 저희 #@소속#은 3층으로 구성되어 있습니다\nA.바다 생태계에 대한 이해와 해역의 지형 등 바다에 대하여 알 수 있습니다\nB.바다에 대한 정보들을 아이들에게 보다 쉽게 설명해주는군요\nA.그리고 4D영상관에서 참참참 바다삼총사의 대모험을 관람하실 수 있습니다\nB.4D 입체영상이라 아이들이 엄청 집중해서 관람하겠군요\nA.네 아이들에게 인기가 정말 많습니다\nB.아이들이 너무 좋아할만한 장소에요 이번 주말에 방문해 볼게요\nA.네 고객님 오셔서 아이와 즐거운 관람하시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 목포 #@소속# #@이름# 상담원입니다",
+            "norm_text": "A.반갑습니다 목포 #@소속# #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+목포/NNP+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 저 문의 좀 드릴게요",
+            "norm_text": "B.안녕하세요 저 문의 좀 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+저/MM+문/NNG+의/JKG+좀/MAG+드릴게요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀하세요",
+            "norm_text": "A.네 고객님 말씀하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 아직 과학관 방문 전인데요 과학관 시설 안내 좀 부탁드립니다",
+            "norm_text": "B.제가 아직 과학관 방문 전인데요 과학관 시설 안내 좀 부탁드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+제/NP+가/JKS+아직/MAG+과학/NNG+관방/NNG+문전/NNG+인데요/VCP+EC+과학관/NNG+시설/NNG+안내/NNG+좀/MAG+부탁드립니다/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.3층으로 굉장히 크고 잘 되어있다고 하더라고요",
+            "norm_text": "B.3층으로 굉장히 크고 잘 되어있다고 하더라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+3/SN+층/NNG+으로/JKB+굉장히/MAG+크/VA+고/EC+잘/MAG+되/VV+어/EC+있/VX+다고/EC+하/VV+더라고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 맞습니다 저희 #@소속#은 3층으로 구성되어 있습니다",
+            "norm_text": "A.네 맞습니다 저희 #@소속#은 3층으로 구성되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+저희/NP+#/SY+@/SY+소속/NNG+#/SY+은/JX+3/SN+층/NNG+으로/JKB+구성/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.바다 생태계에 대한 이해와 해역의 지형 등 바다에 대하여 알 수 있습니다",
+            "norm_text": "A.바다 생태계에 대한 이해와 해역의 지형 등 바다에 대하여 알 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+바다/NNG+생태/NNG+계/XSN+에/JKB+대한/VV+ETM+이해/NNG+와/JC+해역/NNG+의/JKG+지형/NNG+등/NNB+바다/NNG+에/JKB+대하/VV+여/EC+알/VV+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.바다에 대한 정보들을 아이들에게 보다 쉽게 설명해주는군요",
+            "norm_text": "B.바다에 대한 정보들을 아이들에게 보다 쉽게 설명해주는군요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+바다/NNG+에/JKB+대한/VV+ETM+정보/NNG+들/XSN+을/JKO+아이/NNG+들/XSN+에게/JKB+보다/MAG+쉽/VA+게/EC+설명/NNG+해/XSV+EC+주/VX+는군요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그리고 4D영상관에서 참참참 바다삼총사의 대모험을 관람하실 수 있습니다",
+            "norm_text": "A.그리고 4D영상관에서 참참참 바다삼총사의 대모험을 관람하실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그리고/MAJ+4/SN+D/SL+영상관/NNG+에서/JKB+참/MAG+참참/NNG+바다/NNG+삼총사/NNG+의/JKG+대/XPN+모험/NNG+을/JKO+관람/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.4D 입체영상이라 아이들이 엄청 집중해서 관람하겠군요",
+            "norm_text": "B.4D 입체영상이라 아이들이 엄청 집중해서 관람하겠군요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "B/SL+./SY+4/SN+D/SL+입체/NNG+영상/NNG+이/VCP+라/EC+아이/NNG+들/XSN+이/JKS+엄청/MAG+집중/NNG+해서/XSV+EC+관람/NNG+하/XSV+겠/EP+군요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 아이들에게 인기가 정말 많습니다",
+            "norm_text": "A.네 아이들에게 인기가 정말 많습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+아이/NNG+들/XSN+에게/JKB+인기/NNG+가/JKS+정말/MAG+많/VA+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.아이들이 너무 좋아할만한 장소에요 이번 주말에 방문해 볼게요",
+            "norm_text": "B.아이들이 너무 좋아할만한 장소에요 이번 주말에 방문해 볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+아이/NNG+들/XSN+이/JKS+너무/MAG+좋/VA+아/EC+할/VX+ETM+만/NNB+한/XSA+ETM+장소/NNG+에/JKB+요/MM+이번/NNG+주말/NNG+에/JKB+방문/NNG+해/XSV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.네 고객님 오셔서 아이와 즐거운 관람하시길 바랍니다",
+            "norm_text": "A.네 고객님 오셔서 아이와 즐거운 관람하시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+오/VV+셔서/EP+EC+아이/NNG+와/JKB+즐거운/VA+ETM+관람/NNG+하/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

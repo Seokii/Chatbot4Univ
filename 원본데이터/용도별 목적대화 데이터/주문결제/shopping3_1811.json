@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 108229,
+    "name": "s3_20211104_0002_0058_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110746003237/s3_20211104_0002_0058_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110746003237/s3_20211104_0002_0058_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118070,
+      "filename": "s3_20211005_0020_0009_01.txt",
+      "title": "s3_20211005_0020_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 253,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 253,
+        "word_size": 56,
+        "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다\nB.적립된 단추는 어떻게 사용할 수 있어요\nA.적립된 단추는 십원 단위로만 사용이 가능합니다\nB.주문할때에 쓸 수 있는 건가요\nA.네 고객님 쿠폰 단추 할인에서 사용을 원하는 금액 입력하시면 되요\nB.알겠습니다 한 번 해볼게요\nA.네 고객님 다른 문의사항은 없으신가요\nB.다른 문의사항 없어요\nA.알겠습니다 해보시고 잘 안되시면 다시 연락주시기 바랍니다\nB.네 알겠습니다 감사합니다\nA.감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.적립된 단추는 어떻게 사용할 수 있어요",
+            "norm_text": "B.적립된 단추는 어떻게 사용할 수 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+적립/NNG+된/XSV+ETM+단추/NNG+는/JX+어떻게/MAG+사용/NNG+할/XSV+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.적립된 단추는 십원 단위로만 사용이 가능합니다",
+            "norm_text": "A.적립된 단추는 십원 단위로만 사용이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+적립/NNG+된/XSV+ETM+단추/NNG+는/JX+십/NR+원/NNBC+단위/NNG+로/JKB+만/JX+사용/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.주문할때에 쓸 수 있는 건가요",
+            "norm_text": "B.주문할때에 쓸 수 있는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+주문/NNG+할/XSV+ETM+때/NNG+에/JKB+쓸/VV+ETM+수/NNB+있/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 쿠폰 단추 할인에서 사용을 원하는 금액 입력하시면 되요",
+            "norm_text": "A.네 고객님 쿠폰 단추 할인에서 사용을 원하는 금액 입력하시면 돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+쿠폰/NNG+단추/NNG+할인/NNG+에서/JKB+사용/NNG+을/JKO+원하/VV+는/ETM+금액/NNG+입력/NNG+하/XSV+시/EP+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.알겠습니다 한 번 해볼게요",
+            "norm_text": "B.알겠습니다 한 번 해볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+한번/MAG+해/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 다른 문의사항은 없으신가요",
+            "norm_text": "A.네 고객님 다른 문의사항은 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "B.다른 문의사항 없어요",
+            "norm_text": "B.다른 문의사항 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+다른/MM+문/NNG+의/JKG+사항/NNG+없/VA+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.알겠습니다 해보시고 잘 안되시면 다시 연락주시기 바랍니다",
+            "norm_text": "A.알겠습니다 해보시고 잘 안되시면 다시 연락주시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+해/VV+EC+보/VX+시/EP+고/EC+잘/MAG+안/MAG+되/VV+시/EP+면/EC+다시/MAG+연락/NNG+주/VV+시/EP+기/ETN+바랍니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

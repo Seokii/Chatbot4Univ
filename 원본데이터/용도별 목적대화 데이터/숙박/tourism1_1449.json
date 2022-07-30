@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 151355,
+    "name": "t1_20211117_0002_0405_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720039093/t1_20211117_0002_0405_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720039093/t1_20211117_0002_0405_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148707,
+      "filename": "t1_0074_0123_02.txt",
+      "title": "t1_0074_0123_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 255,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 61,
+        "text": "A. 즐거운 하루 시작 #@소속# 고객센터 상담원 #@이름#입니다\nB. #@주소# 근처에 무인텔 있다고 들었는데 맞나요\nB. 있으면 주소 안내 부탁드려요\nA. 네 드비취무인텔이구요 경남 거제시 #@주소#에 있습니다\nB. 객실 가격은 어떻게 될까요\nA. 지금 가격은 주중 5만원 주말 6만원입니다\nB. 이용 시간은 어떻게 되나요\nA. 체크인 하신 시간으로부터 24시간입니다\nB. 아무때나 들어갈 수 있는거네요 알겠습니다\nA. 네 감사합니다 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 즐거운 하루 시작 #@소속# 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A. 즐거운 하루 시작 #@소속# 고객센터 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+시작/NNG+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. #@주소# 근처에 무인텔 있다고 들었는데 맞나요",
+            "norm_text": "B. #@주소# 근처에 무인텔 있다고 들었는데 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+근처/NNG+에/JKB+무인/NNG+텔/NNG+있/VV+다고/EC+들/VX+었/EP+는데/EC+맞/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B. 있으면 주소 안내 부탁드려요",
+            "norm_text": "B. 있으면 주소 안내 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+있/VV+으면/EC+주소/NNG+안내/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A. 네 드비취무인텔이구요 경남 거제시 #@주소#에 있습니다",
+            "norm_text": "A. 네 드비취무인텔이구요 경남 거제시 #@주소#에 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+드비/NNG+취무/NNG+인/VCP+ETM+텔/NNG+이/VCP+구/EC+요경/NNG+남거/NNG+제시/NNG+#/SY+@/SY+주소/NNG+#/SY+에/JKB+있/VV+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B. 객실 가격은 어떻게 될까요",
+            "norm_text": "B. 객실 가격은 어떻게 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+객실/NNG+가격/NNG+은/JX+어떻게/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A. 지금 가격은 주중 5만원 주말 6만원입니다",
+            "norm_text": "A. 지금 가격은 주중 5만원 주말 6만원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+지금/MAG+가격/NNG+은/JX+주/NNG+중/NNB+5/SN+만/NR+원/NNBC+주말/NNG+6/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 이용 시간은 어떻게 되나요",
+            "norm_text": "B. 이용 시간은 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+이용/NNG+시간/NNG+은/JX+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 체크인 하신 시간으로부터 24시간입니다",
+            "norm_text": "A. 체크인 하신 시간으로부터 24시간입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+체크인/NNG+하/XSV+신/EP+ETM+시간/NNG+으로부터/JKB+24/SN+시간/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B. 아무때나 들어갈 수 있는거네요 알겠습니다",
+            "norm_text": "B. 아무때나 들어갈 수 있는거네요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아무/MM+때/NNG+나/JX+들어갈/VV+ETM+수/NNB+있/VV+는/ETM+거/NNB+네요/VCP+EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 감사합니다 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 네 감사합니다 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 29952,
+    "name": "s1_20211006_0001_1472_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151213032878/s1_20211006_0001_1472_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151213032878/s1_20211006_0001_1472_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 6981,
+      "filename": "s1_20210820_0013_0004_01.txt",
+      "title": "s1_20210820_0013_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 315,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 315,
+        "word_size": 74,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.네 제가 #@상품#을 사용하는데요\nA.네 #@상품#을 사용하시는군요\nB.사용설명서에는 나와있는데 없는 기능이 있네요\nA.네 고객님 #@상품#은 사람들이 주로 쓰지 않는 기능을 뺀 모델입니다\nA.그래서 없는 기능이 있을 수 있습니다\nB.그러면 핸드폰 하단에 메세지같은 앱을 놓을 수 없는건가요\nA.네 그 설정이 빠져있는 부분이기 때문에 선택을 할 수 없습니다\nB.알겠습니다 어쩔 수 없네요\nA.네 저희 혹시 상담 이력을 위해 고객님 성함을 여쭤봐도 되겠습니까\nB.예 저는 #@이름#입니다\nA.네 고맙습니다 좋은 하루 되세요\nB.네 저도 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 제가 #@상품#을 사용하는데요",
+            "norm_text": "B.네 제가 #@상품#을 사용하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+#/SY+@/SY+상품/NNG+#/SY+을/JKO+사용/NNG+하/XSV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 #@상품#을 사용하시는군요",
+            "norm_text": "A.네 #@상품#을 사용하시는군요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+을/JKO+사용/NNG+하/XSV+시/EP+는군요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.사용설명서에는 나와있는데 없는 기능이 있네요",
+            "norm_text": "B.사용설명서에는 나와있는데 없는 기능이 있네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+사용/NNG+설명서/NNG+에/JKB+는/JX+나와/VV+EC+있/VX+는/ETM+데/NNB+없/VA+는/ETM+기능/NNG+이/JKS+있/VV+네요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 #@상품#은 사람들이 주로 쓰지 않는 기능을 뺀 모델입니다",
+            "norm_text": "A.네 고객님 #@상품#은 사람들이 주로 쓰지 않는 기능을 뺀 모델입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+#/SY+@/SY+상품/NNG+#/SY+은/JX+사람/NNG+들/XSN+이/JKS+주로/MAG+쓰/VV+지/EC+않/VX+는/ETM+기능/NNG+을/JKO+뺀/VV+ETM+모델/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.그래서 없는 기능이 있을 수 있습니다",
+            "norm_text": "A.그래서 없는 기능이 있을 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그래서/MAJ+없/VA+는/ETM+기능/NNG+이/JKS+있/VV+을/ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그러면 핸드폰 하단에 메세지같은 앱을 놓을 수 없는건가요",
+            "norm_text": "B.그러면 핸드폰 하단에 메세지같은 앱을 놓을 수 없는건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+핸드폰/NNG+하단/NNG+에/JKB+메세지/NNG+같/VA+은/ETM+앱/NNG+을/JKO+놓/VV+을/ETM+수/NNB+없/VA+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 그 설정이 빠져있는 부분이기 때문에 선택을 할 수 없습니다",
+            "norm_text": "A.네 그 설정이 빠져있는 부분이기 때문에 선택을 할 수 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그/MM+설정/NNG+이/JKS+빠져/VV+EC+있/VX+는/ETM+부분/NNG+이/VCP+기/ETN+때문/NNB+에/JKB+선택/NNG+을/JKO+할/VV+ETM+수/NNB+없/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.알겠습니다 어쩔 수 없네요",
+            "norm_text": "B.알겠습니다 어쩔 수 없네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+어쩔/VV+ETM+수/NNB+없/VA+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 저희 혹시 상담 이력을 위해 고객님 성함을 여쭤봐도 되겠습니까",
+            "norm_text": "A.네 저희 혹시 상담 이력을 위해 고객님 성함을 여쭤봐도 되겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+저희/NP+혹시/MAG+상담/NNG+이력/NNG+을/JKO+위해/VV+EC+고객/NNG+님/XSN+성함/NNG+을/JKO+여쭤봐도/VV+EC+VX+EC+되/VV+겠/EP+습니까/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.예 저는 #@이름#입니다",
+            "norm_text": "B.예 저는 #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+저/NP+는/JX+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 고맙습니다 좋은 하루 되세요",
+            "norm_text": "A.네 고맙습니다 좋은 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고맙/VA+습니다/EF+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.네 저도 감사합니다",
+            "norm_text": "B.네 저도 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+저/NP+도/JX+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

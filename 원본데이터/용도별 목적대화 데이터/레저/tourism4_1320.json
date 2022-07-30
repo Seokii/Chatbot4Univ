@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 151524,
+    "name": "t4_20211117_0010_0201_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135858064181/t4_20211117_0010_0201_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135858064181/t4_20211117_0010_0201_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 153653,
+      "filename": "t4_0071_0031_02.txt",
+      "title": "t4_0071_0031_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 381,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 381,
+        "word_size": 87,
+        "text": "A.전화주셔서 감사합니다 상담원 #@이름# 입니다\nB.안녕하세요 태백산 두문동재에서 대덕산 #@기타#문의 좀 드리려고요\nA.네 #@기타# 말씀이십니까\nB.네 예약제라고 해서 다음 주 예약하고 싶은데요\nA.죄송하지만 고객님 두문동재에서 대덕산코스는 지금은 3월이라 예약이 안되세요\nA.입산 가능 기간이 매년 4월 셋째 주 금요일부터 9월 30일로 정해져 있으세요\nB. 아무때나 갈 수 있는 게 아닌가요\nA.네 저 코스만 봄부터 가을까지 탐방예약제로 운영되고 있습니다\nB. 그렇군요 그럼 다음에 다시 예약하겠습니다\nA.네 천상의 화원이라고 불릴 정도로 다양한 야생화를 보실 수 있으시니까요\nA.가능한 기간에 다시 예약주세요\nB.네 그럴게요 상담 감사합니다\nA.행복한 하루 되세요 상담원 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화주셔서 감사합니다 상담원 #@이름# 입니다",
+            "norm_text": "A.전화주셔서 감사합니다 상담원 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 태백산 두문동재에서 대덕산 #@기타#문의 좀 드리려고요",
+            "norm_text": "B.안녕하세요 태백산 두문동재에서 대덕산 #@기타#문의 좀 드리려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+태백산/NNP+두문/NNG+동재/NNG+에서/JKB+대덕산/NNP+#/SY+@/SY+기타/NNG+#/SY+문/NNG+의/JKG+좀/MAG+드리/VV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 #@기타# 말씀이십니까",
+            "norm_text": "A.네 #@기타# 말씀이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+기타/NNG+#/SY+말씀/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 예약제라고 해서 다음 주 예약하고 싶은데요",
+            "norm_text": "B.네 예약제라고 해서 다음 주 예약하고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+예/IC+약제/NNG+라고/VCP+EC+해서/VV+EC+다음/NNG+주/NNG+예약/NNG+하/XSV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.죄송하지만 고객님 두문동재에서 대덕산코스는 지금은 3월이라 예약이 안되세요",
+            "norm_text": "A.두문동재에서 대덕산코스는 지금은 3월이라 예약이 안되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+고객/NNG+님/XSN+두문/NNG+동재/NNG+에서/JKB+대덕산/NNP+코스/NNG+는/JX+지금/MAG+은/JX+3/SN+월/NNBC+이/VCP+라/EC+예약/NNG+이/JKS+안/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.입산 가능 기간이 매년 4월 셋째 주 금요일부터 9월 30일로 정해져 있으세요",
+            "norm_text": "A.매년 4월 셋째 주 금요일부터 9월 30일에만 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+입산/NNG+가능/NNG+기간/NNG+이/JKS+매년/MAG+4/SN+월/NNBC+셋째/NR+주/NNBC+금요일/NNG+부터/JX+9/SN+월/NNBC+30/SN+일/NNBC+로/JKB+정해져/VV+EC+VX+EC+있/VX+으세요/EP+EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 아무때나 갈 수 있는 게 아닌가요",
+            "norm_text": "B. 아무때나 갈 수 있는 게 아닌가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아무/MM+때/NNG+나갈/VV+ETM+수/NNB+있/VV+는/ETM+게/NNB+JKC+아닌가요/VCN+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 저 코스만 봄부터 가을까지 탐방예약제로 운영되고 있습니다",
+            "norm_text": "A.네 저 코스만 봄부터 가을까지 탐방예약제로 운영되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저/IC+코스만/NNP+봄/NNG+부터/JX+가을/NNG+까지/JX+탐방/NNG+예약/NNG+제/XSN+로/JKB+운영/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 그렇군요 그럼 다음에 다시 예약하겠습니다",
+            "norm_text": "B. 그렇군요 그럼 다음에 다시 예약하겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+그렇/VA+군요/EF+그럼/MAJ+다음/NNG+에/JKB+다시/MAG+예약/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 천상의 화원이라고 불릴 정도로 다양한 야생화를 보실 수 있으시니까요",
+            "norm_text": "A.네 천상의 화원이라고 불릴 정도로 다양한 야생화를 보실 수 있으시니까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+천상/NNG+의/JKG+화원/NNG+이/VCP+라고/EC+불릴/VV+ETM+정도/NNG+로/JKB+다양/XR+한/XSA+ETM+야생화/NNG+를/JKO+보/VV+실/EP+ETM+수/NNB+있/VV+으시/EP+니까요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.가능한 기간에 다시 예약주세요",
+            "norm_text": "A.가능한 기간에 다시 예약주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+가능/NNG+한/XSA+ETM+기간/NNG+에/JKB+다시/MAG+예약/NNG+주세요/NNP"
+          },
+          {
+            "id": 12,
+            "text": "B.네 그럴게요 상담 감사합니다",
+            "norm_text": "B.네 그럴게요 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+그럴게요/VV+EC+상담/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.행복한 하루 되세요 상담원 #@이름# 이었습니다",
+            "norm_text": "A.행복한 하루 되세요 상담원 #@이름# 이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

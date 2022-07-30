@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 116062,
+    "name": "s3_20211105_0005_0231_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110826031041/s3_20211105_0005_0231_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110826031041/s3_20211105_0005_0231_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118954,
+      "filename": "s3_20211006_0021_0003_01.txt",
+      "title": "s3_20211006_0021_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 304,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 304,
+        "word_size": 73,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.수고 하십니다 문의 좀 드리려고 전화 했어요\nA.어떤 문의이신지 말씀해 주시겠어요\nB.무통장 입금하려고 하는데 가상 계좌가 없는 계좌라고 나오네요\nA.가상 계좌는 주문 다음 날까지 입금을 하지 않으면 계좌가 소멸됩니다\nB.아니요 오늘 주문하고 바로 입금하려고 하는데 안 되네요\nA.은행마다 각각 점검 시간이 있는데  그 시간에는 안 되는 경우도 있습니다\nB.그래요 그럼 다시 해볼게요\nA.네 다시 한 번 입금해 보시고 안 되시면 전화 주세요\nB.네 알겠습니다 수고하세요\nA.감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고 하십니다 문의 좀 드리려고 전화 했어요",
+            "norm_text": "B.수고하십니다 문의 좀 드리려고 전화했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+문/NNG+의/JKG+좀/MAG+드리/VV+려고/EC+전화/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.어떤 문의이신지 말씀해 주시겠어요",
+            "norm_text": "A.어떤 문의이신지 말씀해 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+어떤/MM+문/NNG+의/JKG+이/MM+신지/NNB+VCP+EC+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.무통장 입금하려고 하는데 가상 계좌가 없는 계좌라고 나오네요",
+            "norm_text": "B.무통장 입금하려고 하는데 가상 계좌가 없는 계좌라고 나오네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+무/XPN+통장/NNG+입금/NNG+하/XSV+려고/EC+하/VV+는데/EC+가상/NNG+계좌/NNG+가/JKS+없/VA+는/ETM+계좌/NNG+라고/VCP+EC+나오/VV+네요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.가상 계좌는 주문 다음 날까지 입금을 하지 않으면 계좌가 소멸됩니다",
+            "norm_text": "A.가상 계좌는 주문 다음 날까지 입금하지 않으면 계좌가 소멸됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가상/NNG+계좌/NNG+는/JX+주문/NNG+다음/NNG+날/NNG+까지/JX+입금/NNG+하/XSV+지/EC+않/VX+으면/EC+계좌/NNG+가/JKS+소멸/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아니요 오늘 주문하고 바로 입금하려고 하는데 안 되네요",
+            "norm_text": "B.아니요 오늘 주문하고 바로 입금하려고 하는데 안 되네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+오늘/MAG+주문/NNG+하/XSV+고/EC+바로/MAG+입금/NNG+하/XSV+려고/EC+하/VV+는데/EC+안/MAG+되/VV+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.은행마다 각각 점검 시간이 있는데  그 시간에는 안 되는 경우도 있습니다",
+            "norm_text": "A.은행마다 각각 점검 시간이 있는데  그 시간에는 안 되는 경우도 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+은행/NNG+마다/JX+각각/MAG+점검/NNG+시간/NNG+이/JKS+있/VV+는데/EC+그/MM+시간/NNG+에/JKB+는/JX+안/MAG+되/VV+는/ETM+경우/NNG+도/JX+있/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그래요 그럼 다시 해볼게요",
+            "norm_text": "B.그래요 그럼 다시 해 볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+다시/MAG+해/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 다시 한 번 입금해 보시고 안 되시면 전화 주세요",
+            "norm_text": "A.네 다시 한번 입금해 보시고 안 되시면 전화 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+다시/MAG+한/MM+번/NNBC+입금/NNG+해/XSV+EC+보/VX+시/EP+고/EC+안/MAG+되/VV+시/EP+면/EC+전화/NNG+주세요/NNP"
+          },
+          {
+            "id": 10,
+            "text": "B.네 알겠습니다 수고하세요",
+            "norm_text": "B.네 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

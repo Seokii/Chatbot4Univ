@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 13544,
+    "name": "c1_20210913_0005_0110_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339002370/c1_20210913_0005_0110_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339002370/c1_20210913_0005_0110_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10358,
+      "filename": "c1_20210818_0002_0005_01.txt",
+      "title": "c1_20210818_0002_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 353,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 353,
+        "word_size": 76,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nA.기사님 한 가지 문의드릴 사항이 있어서 연락드렸습니다\nA.민원인께서 골프장 회원제를 전환하는 부분에 대한 담당자분을 찾고 계시거든요\nB.그럼 저한테 연결해 주십시오\nA.현재는 종료하였고 제가 민원님께 연락드려서 다시 연결 하도록 하겠습니다\nB.그냥 제가 전화를 드릴게요\nB.전화번호가 어떻게 되죠\nA.메모 가능하십니까\nB.네 말씀해 주시면 됩니다\nA.네 민원인 번호는 #@전번#입니다\nB.성함이 어떻게 되나요\nA.문의 하였으나 성함은 따로 알려주지 않으셨습니다\nA.다만 알려주신 번호가 직통 번호라고 하시면서 바로 전화를 주시면 된다고 하셨습니다\nB.이 쪽으로요 알겠습니다 수고하세요\nA.네 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.기사님 한 가지 문의드릴 사항이 있어서 연락드렸습니다",
+            "norm_text": "A.기사님 한 가지 문의드릴 사항이 있어서 연락드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+기사/NNG+님/XSN+한/MM+가지/NNBC+문/NNG+의/JKG+드릴/VV+ETM+사항/NNG+이/JKS+있/VV+어서/EC+연락/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.민원인께서 골프장 회원제를 전환하는 부분에 대한 담당자분을 찾고 계시거든요",
+            "norm_text": "A.민원인께서 골프장 회원제를 전환하는 부분에 대한 담당자분을 찾고 계시거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+민원인/NNG+께서/JKS+골프장/NNG+회원/NNG+제/XSN+를/JKO+전환/NNG+하/XSV+는/ETM+부분/NNG+에/JKB+대한/VV+ETM+담당/NNG+자분/NNG+을/JKO+찾/VV+고/EC+계시/VX+거든요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그럼 저한테 연결해 주십시오",
+            "norm_text": "B.그럼 저한테 연결해 주십시오",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+저/NP+한테/JKB+연결/NNG+해/XSV+EC+주/VX+십시오/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.현재는 종료하였고 제가 민원님께 연락드려서 다시 연결 하도록 하겠습니다",
+            "norm_text": "A.현재는 종료하였고 제가 민원님께 연락드려서 다시 연결 하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+현재/NNG+는/JX+종료/NNG+하/XSV+였/EP+고/EC+제/NP+가/JKS+민원/NNG+님/XSN+께/JKB+연락/NNG+드려서/VV+EC+다시/MAG+연결/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그냥 제가 전화를 드릴게요",
+            "norm_text": "B.그냥 제가 전화를 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그냥/MAG+제/NP+가/JKS+전화/NNG+를/JKO+드릴게요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.전화번호가 어떻게 되죠",
+            "norm_text": "B.전화번호가 어떻게 되죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+전화/NNG+번호/NNG+가/JKS+어떻게/MAG+되/VV+죠/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.메모 가능하십니까",
+            "norm_text": "A.메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 말씀해 주시면 됩니다",
+            "norm_text": "B.네 말씀해 주시면 됩니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+말씀/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 민원인 번호는 #@전번#입니다",
+            "norm_text": "A.네 민원인 번호는 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+민원인/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.성함이 어떻게 되나요",
+            "norm_text": "B.성함이 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+성함/NNG+이/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.문의 하였으나 성함은 따로 알려주지 않으셨습니다",
+            "norm_text": "A.문의 하였으나 성함은 따로 알려주지 않으셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+문의/NNG+하/XSV+였으나/EP+EC+성함/NNG+은/JX+따로/MAG+알려/VV+EC+주/VX+지/EC+않/VX+으셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.다만 알려주신 번호가 직통 번호라고 하시면서 바로 전화를 주시면 된다고 하셨습니다",
+            "norm_text": "A.다만 바로 전화를 주시면 된다고 하셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+다만/MAJ+알려/VV+EC+주/VX+신/EP+ETM+번호/NNG+가/JKS+직통/NNG+번호/NNG+라고/VCP+EC+하/VX+시/EP+면서/EC+바로/MAG+전화/NNG+를/JKO+주/VV+시/EP+면/EC+된다고/VV+EC+하/VX+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.이 쪽으로요 알겠습니다 수고하세요",
+            "norm_text": "B.이 쪽으로요 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+이쪽/NP+으로/JKB+요알/NNG+겠/VCP+EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.네 알겠습니다 감사합니다",
+            "norm_text": "A.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

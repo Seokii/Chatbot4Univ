@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 164964,
+    "name": "t3_20211123_0005_0427_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135808002135/t3_20211123_0005_0427_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135808002135/t3_20211123_0005_0427_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 150807,
+      "filename": "t3_0068_0077_02.txt",
+      "title": "t3_0068_0077_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 360,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 360,
+        "word_size": 78,
+        "text": "A.평창 #@소속# 고객 센터 #@이름#입니다\nB.#@소속# 인근에 송어횟집 하나 추천 해 주시겠어요\nA.그러면 #@소속# 안내 도와드리겠습니다\nB.여기 리조트에서 얼마나 걸릴까요\nA.약 3km 거리에 있고요 차량으로 4분 소요 예상됩니다\nB.영업 시간도 좀 알려 주시겠어요\nA.매일 11시 30분부터 오후 9시까지 합니다\nB.송어회랑 또 추천 해 주실 메뉴 있나요\nA.송어튀김도 담백한 게 맛있고요 건강밥이라는 나물밥도 깔끔해서 좋습니다\nB.송어회는 금액이 얼마인가요\nA.송어회는 2인 기준 35000원입니다\nB.가격도 괜찮네요 체크아웃하고 점심은 여기서 먹어야겠네요\nA.평창에서 즐겁고 맛있는 여행 하세요 상담사 #@이름#였습니다\nB.상담사님도 식사 맛있게 하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.평창 #@소속# 고객 센터 #@이름#입니다",
+            "norm_text": "A.평창 #@소속# 고객 센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+평창/NNP+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속# 인근에 송어횟집 하나 추천 해 주시겠어요",
+            "norm_text": "B.#@소속# 인근에 송어횟집 하나 추천해 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+인근/NNG+에/JKB+송어/NNG+횟집/NNG+하나/NR+추천/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.그러면 #@소속# 안내 도와드리겠습니다",
+            "norm_text": "A.그러면 #@소속# 안내 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그러/VV+면/EC+#/SY+@/SY+소속/NNG+#/SY+안내/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.여기 리조트에서 얼마나 걸릴까요",
+            "norm_text": "B.여기 리조트에서 얼마나 걸릴까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여기/NP+리조트/NNG+에서/JKB+얼마나/MAG+걸릴까요/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.약 3km 거리에 있고요 차량으로 4분 소요 예상됩니다",
+            "norm_text": "A.약 3km 거리에 있고요 차량으로 4분 소요 예상됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+약/MM+3/SN+km/SL+거리/NNG+에/JKB+있/VV+고요/EC+차량/NNG+으로/JKB+4/SN+분/NNBC+소요/NNG+예상/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.영업 시간도 좀 알려 주시겠어요",
+            "norm_text": "B.영업 시간도 좀 알려 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+영업/NNG+시간/NNG+도/JX+좀/MAG+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.매일 11시 30분부터 오후 9시까지 합니다",
+            "norm_text": "A.매일 11시 30분부터 오후 9시까지 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+매일/MAG+11/SN+시/NNBC+30/SN+분/NNBC+부터/JX+오후/NNG+9/SN+시/NNBC+까지/JX+합니다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.송어회랑 또 추천 해 주실 메뉴 있나요",
+            "norm_text": "B.송어회랑 또 추천 해 주실 메뉴 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+송어/NNG+회랑/NNG+또/MAG+추천/NNG+해/XSV+EC+주/VX+실/EP+ETM+메뉴/NNG+있/VV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.송어튀김도 담백한 게 맛있고요 건강밥이라는 나물밥도 깔끔해서 좋습니다",
+            "norm_text": "A.송어튀김도 담백하고요 건강밥이라는 나물밥도 깔끔해서 좋습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+송어/NNG+튀김/NNG+도/JX+담백/XR+하/XSA+고/EC+요건/NP+JX+강밥/NNG+이/VCP+라는/ETM+나물밥/NNG+도/JX+깔끔/XR+해서/XSA+EC+좋/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.송어회는 금액이 얼마인가요",
+            "norm_text": "B.송어회는 금액이 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+송/NNP+어회/NNG+는/JX+금액/NNG+이/JKS+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.송어회는 2인 기준 35000원입니다",
+            "norm_text": "A.송어회는 2인 기준 35000원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+송/NNP+어회/NNG+는/JX+2/SN+인기/NNG+준/XPN+35000/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.가격도 괜찮네요 체크아웃하고 점심은 여기서 먹어야겠네요",
+            "norm_text": "B.가격도 괜찮네요 체크아웃하고 점심은 여기서 먹어야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+가격/NNG+도/JX+괜찮/VA+네요/EF+체크아웃/NNG+하/XSV+고/EC+점심/NNG+은/JX+여기/NP+서/JKB+먹/VV+어야/EC+겠/EP+네요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.평창에서 즐겁고 맛있는 여행 하세요 상담사 #@이름#였습니다",
+            "norm_text": "A.평창에서 즐겁고 맛있는 여행 하세요 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+평창/NNP+에서/JKB+즐겁/VA+고/EC+맛있/VA+는/ETM+여행/NNG+하/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.상담사님도 식사 맛있게 하세요",
+            "norm_text": "B.상담사님도 식사 맛있게 하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+상담/NNG+사/NNG+님/XSN+도/JX+식사/NNG+맛있/VA+게/EC+하/VX+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

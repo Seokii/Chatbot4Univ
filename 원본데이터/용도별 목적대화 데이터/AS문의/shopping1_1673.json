@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 18591,
+    "name": "s1_20210916_0002_0022_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151257085912/s1_20210916_0002_0022_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151257085912/s1_20210916_0002_0022_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8925,
+      "filename": "s1_20210826_0013_0016_01.txt",
+      "title": "s1_20210826_0013_0016_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 383,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 383,
+        "word_size": 80,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.네 제가 이번주에 기사님 방문을 예약했는데요\nB.이게 출장비랑 수리비가 얼마나 나올까 궁금해서요\nA.네 고객님 혹시 성함과 전화번호가 어떻게 되실까요\nB.네 이름은 #@이름#이고 전화번호는 #@전번#이요\nA.답변 감사합니다 고객님 확인해보았는데요\nA.내일 예약이시고 노트북때문에 예약하신부분 맞으신가요\nB.네 맞아요 돈이 얼마나 나올까요\nA.네 주말에 출장이시라서 출장비는 이만원이 발생합니다\nA.수리비는 기사님이 방문해보셔야 알아서 확인이 불가능합니다\nB.그러면 이만원에 뭐 부품에따라 달라지는건가요\nA.네 맞습니다 고객님 부품이나 수리에따라 가격이 상이합니다\nB.아이고 또 돈 많이 깨지겠네\nA.혹시 더 필요하신 부분 있으실까요 고객님\nB.아뇨 없습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 제가 이번주에 기사님 방문을 예약했는데요",
+            "norm_text": "B.네 제가 이번주에 기사님 방문을 예약했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+이번/NNG+주/NNG+에/JKB+기사/NNG+님/XSN+방문/NNG+을/JKO+예약/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.이게 출장비랑 수리비가 얼마나 나올까 궁금해서요",
+            "norm_text": "B.이게 출장비랑 수리비가 얼마나 나올까 궁금해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+이게/NP+JKS+출장비/NNG+랑/JKB+수리비/NNG+가/JKS+얼마나/MAG+나올까/VV+EC+궁금/XR+해서/XSA+EC+VCP+요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 고객님 혹시 성함과 전화번호가 어떻게 되실까요",
+            "norm_text": "A.네 고객님 혹시 성함과 전화번호가 어떻게 되실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+혹시/MAG+성함/NNG+과/JC+전화/NNG+번호/NNG+가/JKS+어떻게/MAG+되/VV+실까요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.네 이름은 #@이름#이고 전화번호는 #@전번#이요",
+            "norm_text": "B.네 이름은 #@이름#이고 전화번호는 #@전번#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.답변 감사합니다 고객님 확인해보았는데요",
+            "norm_text": "A.답변 감사합니다 고객님 확인해보았는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+답변/NNG+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+확인/NNG+해/XSV+EC+보/VX+았/EP+는데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.내일 예약이시고 노트북때문에 예약하신부분 맞으신가요",
+            "norm_text": "A.내일 예약이시고 노트북때문에 예약하신부분 맞으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+내일/MAG+예약/NNG+이/VCP+시/EP+고/EC+노트북/NNG+때문/NNB+에/JKB+예약/NNG+하/XSV+신/EP+ETM+부분/NNG+맞/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "B.네 맞아요 돈이 얼마나 나올까요",
+            "norm_text": "B.네 맞아요 돈이 얼마나 나올까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+돈/NNG+이/JKS+얼마나/MAG+나/JX+올까요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 주말에 출장이시라서 출장비는 이만원이 발생합니다",
+            "norm_text": "A.네 주말에 출장이시라서 출장비는 이만원이 발생합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+주말/NNG+에/JKB+출장/NNG+이/VCP+시/EP+라서/EC+출장비/NNG+는/JX+이/NR+만/NR+원/NNBC+이/JKS+발생/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.수리비는 기사님이 방문해보셔야 알아서 확인이 불가능합니다",
+            "norm_text": "A.수리비는 기사님이 방문해보셔야 알아서 확인이 불가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+수리비/NNG+는/JX+기사/NNG+님/XSN+이/JKS+방문/NNG+해/XSV+EC+보/VX+셔야/EP+EC+알/VV+아서/EC+확인/NNG+이/JKS+불/XPN+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그러면 이만원에 뭐 부품에따라 달라지는건가요",
+            "norm_text": "B.그러면 이만원에 뭐 부품에따라 달라지는건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+이/NR+만/NR+원/NNBC+에/JKB+뭐/IC+부품/NNG+에/JKB+따라/VV+EC+달라지/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 맞습니다 고객님 부품이나 수리에따라 가격이 상이합니다",
+            "norm_text": "A.네 맞습니다 고객님 부품이나 수리에따라 가격이 상이합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+고객/NNG+님/XSN+부품/NNG+이나/JC+수리/NNG+에/JKB+따라/VV+EC+가격/NNG+이상/NNG+이/JKS+합니다/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.아이고 또 돈 많이 깨지겠네",
+            "norm_text": "B.아이고 또 돈 많이 깨지겠네",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+아이고/IC+또/MAG+돈/NNG+많이/MAG+깨지/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.혹시 더 필요하신 부분 있으실까요 고객님",
+            "norm_text": "A.혹시 더 필요하신 부분 있으실까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+더/MAG+필요/NNG+하/XSV+신/EP+ETM+부분/NNG+있/VV+으실까/EP+EP+EF+요/MM+고객/NNG+님/XSN"
+          },
+          {
+            "id": 15,
+            "text": "B.아뇨 없습니다 감사합니다",
+            "norm_text": "B.아뇨 없습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아뇨/IC+없/VA+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

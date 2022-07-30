@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 108481,
+    "name": "s2_20211103_0001_3329_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110642071015/s2_20211103_0001_3329_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110642071015/s2_20211103_0001_3329_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115111,
+      "filename": "s2_20211001_0025_0021_01.txt",
+      "title": "s2_20211001_0025_0021_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 280,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 280,
+        "word_size": 60,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 궁금한 게 있어서 연락 드립니다\nA.네 무엇을 도와드릴까요\nB.인터넷이 가끔 끊어지는데요\nB.왜 그런건가요 어떻게 해결하죠\nA.우선 인터넷이 가끔 끊어져서 많이 불편하셨겠어요\nA.인터넷 서비스 이용중 끊김 현상 원인은요\nA.피씨의 악성 코드 및 바이러스 감염으로 인한 증상일 수 있는데요\nA.악성코드 및 바이러스 검사 프로그램으로 치료를 일차적으로 부탁드립니다\nB.이따가 해볼게요 친절한 안내 감사합니다\nA.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 궁금한 게 있어서 연락 드립니다",
+            "norm_text": "B.안녕하세요 궁금한 게 있어서 연락 드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어서/EC+연락/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 무엇을 도와드릴까요",
+            "norm_text": "A.네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.인터넷이 가끔 끊어지는데요",
+            "norm_text": "B.인터넷이 가끔 끊어지는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+인터넷/NNG+이/JKS+가끔/MAG+끊/VV+어/EC+지/VX+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.왜 그런건가요 어떻게 해결하죠",
+            "norm_text": "B.왜 그런건가요 어떻게 해결하죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+왜/MAG+그런/MM+건가요/NNB+VCP+EC+어떻게/MAG+해결/NNG+하/XSV+죠/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.우선 인터넷이 가끔 끊어져서 많이 불편하셨겠어요",
+            "norm_text": "A.우선 인터넷이 가끔 끊어져서 많이 불편하셨겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+우선/MAG+인터넷/NNG+이/JKS+가끔/MAG+끊어져서/VV+EC+많이/MAG+불편/NNG+하/XSV+셨/EP+EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.인터넷 서비스 이용중 끊김 현상 원인은요",
+            "norm_text": "A.인터넷 서비스 이용중 끊김 현상 원인은요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+인터넷/NNG+서비스/NNG+이용/NNG+중/NNB+끊김/VV+ETN+현상/NNG+원인/NNG+은/JX+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.피씨의 악성 코드 및 바이러스 감염으로 인한 증상일 수 있는데요",
+            "norm_text": "A.피씨의 악성 코드 및 바이러스 감염으로 인한 증상일 수 있는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+피/NNP+씨/NNB+의/JKG+악성/NNG+코드/NNG+및/MAJ+바이러스/NNG+감염/NNG+으로/JKB+인한/VV+ETM+증상/NNG+일/VCP+ETM+수/NNB+있/VV+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.악성코드 및 바이러스 검사 프로그램으로 치료를 일차적으로 부탁드립니다",
+            "norm_text": "A.악성코드 및 바이러스 검사 프로그램으로 치료를 일차적으로 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+악성/NNG+코드/NNG+및/MAJ+바이러스/NNG+검사/NNG+프로그램/NNG+으로/JKB+치료/NNG+를/JKO+일차/NNG+적/XSN+으로/JKB+부탁드립니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.이따가 해볼게요 친절한 안내 감사합니다",
+            "norm_text": "B.이따가 해볼게요 친절한 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+이따가/MAG+해/VV+EC+볼게요/VX+EF+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+            "norm_text": "A.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 11267,
+    "name": "s3_20210913_0010_0789_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416035180/s3_20210913_0010_0789_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416035180/s3_20210913_0010_0789_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11844,
+      "filename": "s3_20210826_0019_0003_01.txt",
+      "title": "s3_20210826_0019_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 329,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 329,
+        "word_size": 74,
+        "text": "A.안녕하세요 국산 마스크 #@상품# 입니다 무엇을 도와드릴까요\nB.#@상표#맞으시죠 그거 여섯 세트 구매하고 싶어요\nA.그렇습니까 고객님 제가 상품 한 번 찾아보도록 하겠습니다\nB.아까 찾아놨어요 #@상품#여기 제품번호요\nA.세개 세트에 그 팔천구백 원이에요\nB.세게 세트가 팔천구백 원이고\nA.여섯 세트에 만팔천구백원으로 나오는데요 고객님\nB.왜 여섯 세트가 더 비싸죠\nA.마스크 목걸이와 함께 있는 세트라 가격이 더 올라갑니다\nB.그래요 그럼 그냥 마스크 세개 세트를 살게요\nA.네 주소 알려주세요\nB.이게 제일 좋은게 맞나요 다시 알아보고 연락할게요\nA.문의사항 있으시면 다시 전화주세요 #@소속#입니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 국산 마스크 #@상품# 입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 국산 마스크 #@상품# 입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+국산/NNG+마스크/NNG+#/SY+@/SY+상품/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상표#맞으시죠 그거 여섯 세트 구매하고 싶어요",
+            "norm_text": "B.#@상표#맞으시죠 그거 여섯 세트 구매하고 싶어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상표/NNG+#/SY+맞/VV+으시/EP+죠/EF+그거/NP+여섯/NR+세트/NNG+구매/NNG+하/XSV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.그렇습니까 고객님 제가 상품 한 번 찾아보도록 하겠습니다",
+            "norm_text": "A.그렇습니까 고객님 제가 상품 한 번 찾아보도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그렇/VA+습니까/EF+고객/NNG+님/XSN+제/NP+가/JKS+상품/NNG+한/MM+번/NNBC+찾아보/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.아까 찾아놨어요 #@상품#여기 제품번호요",
+            "norm_text": "B.아까 찾아놨어요 #@상품#여기 제품번호요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아까/MAG+찾/VV+아/EC+놨어요/VX+EP+EF+#/SY+@/SY+상품/NNG+#/SY+여기/NP+제품/NNG+번호/NNG+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.세개 세트에 그 팔천구백 원이에요",
+            "norm_text": "A.세개 세트에 그 팔천구백 원이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+세/MM+개/NNBC+세트/NNG+에/JKB+그/IC+팔/NR+천/NR+구/NR+백/NR+원/NNBC+이/VCP+에요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.세게 세트가 팔천구백 원이고",
+            "norm_text": "B.세게 세트가 팔천구백 원이고",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+세/VA+게/EC+세트/NNG+가/JKS+팔/NR+천/NR+구/NR+백/NR+원/NNBC+이/VCP+고/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.여섯 세트에 만팔천구백원으로 나오는데요 고객님",
+            "norm_text": "A.여섯 세트에 만팔천구백원으로 나오는데요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+여섯/NR+세트/NNG+에/JKB+만/JX+팔/NR+천/NR+구/NR+백/NR+원/NNBC+으로/JKB+나오/VV+는데요/EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.왜 여섯 세트가 더 비싸죠",
+            "norm_text": "B.왜 여섯 세트가 더 비싸죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+왜/MAG+여섯/NR+세트/NNG+가/JKS+더/MAG+비싸/VA+죠/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.마스크 목걸이와 함께 있는 세트라 가격이 더 올라갑니다",
+            "norm_text": "A.마스크 목걸이와 함께 있는 세트라 가격이 더 올라갑니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+마스크/IC+목걸이/NNG+와/JKB+함께/MAG+있/VV+는/ETM+세트라/NNP+가격/NNG+이/JKS+더/MAG+올라/VV+EC+갑니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그래요 그럼 그냥 마스크 세개 세트를 살게요",
+            "norm_text": "B.그래요 그럼 그냥 마스크 세개 세트를 살게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+그냥/MAG+마스크/IC+세/MM+개/NNBC+세트/NNG+를/JKO+살/VV+게요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 주소 알려주세요",
+            "norm_text": "A.네 주소 알려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+주소/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.이게 제일 좋은게 맞나요 다시 알아보고 연락할게요",
+            "norm_text": "B.이게 제일 좋은게 맞나요 다시 알아보고 연락할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+이게/NP+JKS+제일/MAG+좋/VA+은/ETM+게/NNB+JKS+맞/VV+나요/EF+다시/MAG+알아보/VV+고/EC+연락/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.문의사항 있으시면 다시 전화주세요 #@소속#입니다",
+            "norm_text": "A.문의사항 있으시면 다시 전화주세요 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+다시/MAG+전화/NNG+주세요/NNP+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

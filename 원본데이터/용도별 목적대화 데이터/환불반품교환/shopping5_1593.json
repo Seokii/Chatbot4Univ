@@ -1,0 +1,107 @@
+{
+  "dataset": {
+    "identifier": 107458,
+    "name": "s5_20211104_0010_3396_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110933014742/s5_20211104_0010_3396_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110933014742/s5_20211104_0010_3396_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 120839,
+      "filename": "s5_20210901_0028_0001_01.txt",
+      "title": "s5_20210901_0028_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 165,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 165,
+        "word_size": 35,
+        "text": "A.안녕하세요 고객님 상담사 #@이름#입니다\nB.네 안녕하세요 상품 반품 좀 요청 드리려고요\nA.그러십니까 주문자 분 성함이랑 휴대폰 번호 말씀해 주시겠습니까\nB.네 이름은 #@이름#이고요 번호는 #@전번#입니다\nA.확인 감사합니다 고객님 혹시 #@상품# 맞으십니까\nB.네 주문한 제품이 #@상품# 맞아요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 상품 반품 좀 요청 드리려고요",
+            "norm_text": "B.네 안녕하세요 상품 반품 좀 요청 드리려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+상품/NNG+반품/NNG+좀/MAG+요청/NNG+드리/VV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.그러십니까 주문자 분 성함이랑 휴대폰 번호 말씀해 주시겠습니까",
+            "norm_text": "A.그러십니까 주문자 분 성함이랑 휴대폰 번호 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+그러/VV+십니까/EP+EF+주문자/NNG+분성/NNG+함/XSV+ETN+이랑/JC+휴대폰/NNG+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 이름은 #@이름#이고요 번호는 #@전번#입니다",
+            "norm_text": "B.네 이름은 #@이름#이고요 번호는 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.확인 감사합니다 고객님 혹시 #@상품# 맞으십니까",
+            "norm_text": "A.확인 감사합니다 고객님 혹시 #@상품# 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+합니다/XSV+EF+고객/NNG+님/XSN+혹시/MAG+#/SY+@/SY+상품/NNG+#/SY+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 주문한 제품이 #@상품# 맞아요",
+            "norm_text": "B.네 주문한 제품이 #@상품# 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+주문/NNG+한/XSA+ETM+제품/NNG+이/JKS+#/SY+@/SY+상품/NNG+#/SY+맞/VV+아요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

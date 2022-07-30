@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 10576,
+    "name": "s3_20210913_0010_0623_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417057223/s3_20210913_0010_0623_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417057223/s3_20210913_0010_0623_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12020,
+      "filename": "s3_20210827_0028_0002_01.txt",
+      "title": "s3_20210827_0028_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 227,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 227,
+        "word_size": 51,
+        "text": "A.#@이름# 고객님 배송 주소 어디로 보내드릴까요\nB.네 서울 강북구 #@주소#입니다\nA.고객님 결제방법은 가상 계좌 보내드려서요\nA.고객님께서 그 계좌로 직접 입금을 해주시는 방법이 있고요\nB.다른 방법은 없나요\nA.아니면 저희가 #@전번#번호가 있는 문자메시지를 보내드리면요\nA.저희가 드린 번호로 직접 전화를 하셔서요\nA.카드 번호랑 유효 기간 입력하시는 카드 결제 방법이 있습니다\nB.제 통장에서 계좌 이체할게요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@이름# 고객님 배송 주소 어디로 보내드릴까요",
+            "norm_text": "A.#@이름# 고객님 배송 주소 어디로 보내드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+배송/NNG+주소/NNG+어디/NP+로/JKB+보내/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 서울 강북구 #@주소#입니다",
+            "norm_text": "B.네 서울 강북구 #@주소#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+서울/NNP+강북구/NNP+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 결제방법은 가상 계좌 보내드려서요",
+            "norm_text": "A.고객님 결제방법은 가상 계좌 보내드려서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+결제/NNG+방법/NNG+은/JX+가상/NNG+계좌/NNG+보내/VV+EC+드려/VX+EC+서요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "A.고객님께서 그 계좌로 직접 입금을 해주시는 방법이 있고요",
+            "norm_text": "A.고객님께서 그 계좌로 직접 입금을 해주시는 방법이 있고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+께서/JKS+그/MM+계좌/NNG+로/JKB+직접/MAG+입금/NNG+을/JKO+해/VV+EC+주/VX+시/EP+는/ETM+방법/NNG+이/JKS+있/VV+고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.다른 방법은 없나요",
+            "norm_text": "B.다른 방법은 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+다른/MM+방법/NNG+은/JX+없/VA+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.아니면 저희가 #@전번#번호가 있는 문자메시지를 보내드리면요",
+            "norm_text": "A.아니면 저희가 #@전번#번호가 있는 문자메시지를 보내드리면요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아니면/MAJ+저희/NP+가/JKS+#/SY+@/SY+전번/NNG+#/SY+번호/NNG+가/JKS+있/VA+는/ETM+문자/NNG+메시지/NNG+를/JKO+보내/VV+EC+드리/VX+면/EC+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.저희가 드린 번호로 직접 전화를 하셔서요",
+            "norm_text": "A.저희가 드린 번호로 직접 전화를 하셔서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+드린/VV+ETM+번호/NNG+로/JKB+직접/MAG+전화/NNG+를/JKO+하/VV+셔서/EP+EC+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.카드 번호랑 유효 기간 입력하시는 카드 결제 방법이 있습니다",
+            "norm_text": "A.카드 번호랑 유효 기간 입력하시는 카드 결제 방법이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+카드/NNG+번호/NNG+랑/JKB+유효/NNG+기간/NNG+입력/NNG+하/XSV+시/EP+는/ETM+카드/NNG+결제/NNG+방법/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.제 통장에서 계좌 이체할게요",
+            "norm_text": "B.제 통장에서 계좌 이체할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+통장/NNG+에서/JKB+계좌/NNG+이체/NNG+할게요/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

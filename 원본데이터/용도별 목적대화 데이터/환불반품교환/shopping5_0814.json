@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 49260,
+    "name": "s5_20211015_0014_0012_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131242065550/s5_20211015_0014_0012_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131242065550/s5_20211015_0014_0012_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 58086,
+      "filename": "s5_20210831_0009_0002_01.txt",
+      "title": "s5_20210831_0009_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 377,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 377,
+        "word_size": 80,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.네 제가 필름을 샀는데 반품에 대한 답이 없어서 전화드렸어요\nA.그러세요 고객님 확인을 위해서 성함이랑 연락처 확인 부탁드리겠습니다\nB.#@이름#구요 번호가 #@전번# 이요 반품이면 사용하신 건 아니시죠\nB.전혀 아니에요 뜯지도 않았어요\nA.그럼 전체 반품하시겠다는 말씀이신가요\nB.네 전체 상품 반품이요\nA.그러시면 왕복 배송비로 오천원 부담되시는데 괜찮으실까요\nB.네 괜찮아요 반품해주세요\nA.그럼 결제하셨던 금액에서 차감 환불 되실 거구요\nA.금일 접수 진행하면 영업일 기준 이틀에서 사일 내로요\nA.회수 기사님 방문 예정이시니까요\nA.상품만 재포장해서 반송 부탁드리도록 하겠습니다\nB.네 죄송합니다 수고하세요\nA.네 감사합니다 상담사 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 제가 필름을 샀는데 반품에 대한 답이 없어서 전화드렸어요",
+            "norm_text": "B.네 제가 필름을 샀는데 반품에 대한 답이 없어서 전화드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+필름/NNG+을/JKO+샀/VV+EP+는데/EC+반품/NNG+에/JKB+대한/VV+ETM+답/NNG+이/JKS+없/VA+어서/EC+전화/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.그러세요 고객님 확인을 위해서 성함이랑 연락처 확인 부탁드리겠습니다",
+            "norm_text": "A.그러세요 고객님 확인을 위해서 성함이랑 연락처 확인 부탁드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+그러/VV+세요/EP+EF+VCP+고/EC+객님/NNG+확인/NNG+을/JKO+위해서/VV+EC+성함/NNG+이랑/JKB+연락처/NNG+확인/NNG+부탁/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@이름#구요 번호가 #@전번# 이요 반품이면 사용하신 건 아니시죠",
+            "norm_text": "B.#@이름#구요 번호가 #@전번# 이요 반품이면 사용하신 건 아니시죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+구요/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC+반품/NNG+이/VCP+면/EC+사용/NNG+하/XSV+신/EP+ETM+건/NNB+JX+아니/VCN+시/EP+죠/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.전혀 아니에요 뜯지도 않았어요",
+            "norm_text": "B.전혀 아니에요 뜯지도 않았어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+전혀/MAG+아니/VCN+에요/EF+뜯/VV+지/EC+도/JX+않/VX+았/EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.그럼 전체 반품하시겠다는 말씀이신가요",
+            "norm_text": "A.그럼 전체 반품하시겠다는 말씀이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+전체/NNG+반품/NNG+하/XSV+시/EP+겠/EP+다는/ETM+말씀/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 전체 상품 반품이요",
+            "norm_text": "B.네 전체 상품 반품이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+전체/NNG+상품/NNG+반품/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.그러시면 왕복 배송비로 오천원 부담되시는데 괜찮으실까요",
+            "norm_text": "A.그러시면 왕복 배송비로 오천원 부담되시는데 괜찮으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+왕복/NNG+배송/NNG+비로/NNG+오/NR+천/NR+원/NNBC+부담/NNG+되/XSV+시/EP+는데/EC+괜찮/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 9,
+            "text": "B.네 괜찮아요 반품해주세요",
+            "norm_text": "B.네 괜찮아요 반품해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+괜찮/VA+아요/EF+반품/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.그럼 결제하셨던 금액에서 차감 환불 되실 거구요",
+            "norm_text": "A.그럼 결제하셨던 금액에서 차감 환불 되실 거구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그럼/MAJ+결제/NNG+하/XSV+셨/EP+EP+던/ETM+금액/NNG+에서/JKB+차감/NNG+환불/NNG+되/XSV+실/EP+ETM+거/NNB+구요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.금일 접수 진행하면 영업일 기준 이틀에서 사일 내로요",
+            "norm_text": "A.금일 접수 진행하면 영업일 기준 이틀에서 사일 내로요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+금일/NNG+접수/NNG+진행/NNG+하/XSV+면/EC+영업/NNG+일/VCP+ETM+기준/NNG+이틀/NNG+에서/JKB+사/NR+일/NNBC+내로/NNG+요/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.회수 기사님 방문 예정이시니까요",
+            "norm_text": "A.회수 기사님 방문 예정이시니까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+회수/NNG+기사/NNG+님/XSN+방문/NNG+예정/NNG+이/VCP+시/EP+니까요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.상품만 재포장해서 반송 부탁드리도록 하겠습니다",
+            "norm_text": "A.상품만 재포장해서 반송 부탁드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+상품/NNG+만/JX+재/XPN+포장/NNG+해서/XSV+EC+반송/NNG+부탁/NNG+드리/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.네 죄송합니다 수고하세요",
+            "norm_text": "B.네 죄송합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+죄송/XR+합니다/XSA+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.네 감사합니다 상담사 #@이름#였습니다",
+            "norm_text": "A.네 감사합니다 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

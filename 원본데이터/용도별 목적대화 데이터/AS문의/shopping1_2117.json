@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 19610,
+    "name": "s1_20210916_0001_1218_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151214092940/s1_20210916_0001_1218_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151214092940/s1_20210916_0001_1218_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7208,
+      "filename": "s1_20210823_0015_0063_01.txt",
+      "title": "s1_20210823_0015_0063_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 279,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 279,
+        "word_size": 66,
+        "text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요\nB.네 여기 경남 김핸데요\nA.경남 김해요 네 말씀하세요\nB.네 여기 #@기타#에 서비스 센터 좀 알려 주세요\nA.#@기타# 서비스 센터 전화번호 안내해 드릴까요\nB.네 서비스 센터 전화번호요\nA.네 고객님 전화 끊지 마시고 잠시만 기다려 주세요\nA.김해시 번호가 고객님 내동에 위치하고 있는데요\nA.여기 번호 불러 드릴 건데 괜찮으세요\nB.네 지금 불러 주세요\nA.네 지역번호 #@전번#번이세요\nB.네 알겠습니다 감사합니다\nA.네 감사합니다 행복한 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 여기 경남 김핸데요",
+            "norm_text": "B.네 여기 경남 김핸데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+여기/NP+경남/NNP+김/NNG+핸/XSV+ETM+데/NNB+요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.경남 김해요 네 말씀하세요",
+            "norm_text": "A.경남 김해요 네 말씀하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+경남/NNP+김해/NNP+요네/NNG+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 여기 #@기타#에 서비스 센터 좀 알려 주세요",
+            "norm_text": "B.네 여기 #@기타#에 서비스 센터 좀 알려 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+여기/NP+#/SY+@/SY+기타/NNG+#/SY+에서/JKB+비스/NNG+센터/NNG+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.#@기타# 서비스 센터 전화번호 안내해 드릴까요",
+            "norm_text": "A.#@기타# 서비스 센터 전화번호 안내해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+서비스/NNG+센터/NNG+전화/NNG+번호/NNG+안내/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 서비스 센터 전화번호요",
+            "norm_text": "B.네 서비스 센터 전화번호요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+서비스/NNG+센터/NNG+전화/NNG+번호/NNG+요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 전화 끊지 마시고 잠시만 기다려 주세요",
+            "norm_text": "A.네 고객님 전화 끊지 마시고 잠시만 기다려 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+전화/NNG+끊/VV+지/EC+마시/VV+고/EC+잠시/NNG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.김해시 번호가 고객님 내동에 위치하고 있는데요",
+            "norm_text": "A.김해시 번호가 고객님 내동에 위치하고 있는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+김해시/NNP+번호/NNG+가/JKS+고객/NNG+님/XSN+내동/NNP+에/JKB+위치/NNG+하/XSV+고/EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.여기 번호 불러 드릴 건데 괜찮으세요",
+            "norm_text": "A.여기 번호 불러 드릴 건데 괜찮으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+여기/NP+번호/NNG+불러/VV+EC+드릴/VX+ETM+건데/NNB+VCP+EC+괜찮/VA+으세요/EP+EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 지금 불러 주세요",
+            "norm_text": "B.네 지금 불러 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+지금/MAG+불러/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 지역번호 #@전번#번이세요",
+            "norm_text": "A.네 지역번호 #@전번#번이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+지역/NNG+번호/NNG+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 감사합니다 행복한 하루 보내세요",
+            "norm_text": "A.네 감사합니다 행복한 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+행복/NNG+한/XSA+ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

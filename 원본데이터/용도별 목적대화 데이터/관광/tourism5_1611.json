@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 158095,
+    "name": "t5_20211119_0010_1967_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135912018654/t5_20211119_0010_1967_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135912018654/t5_20211119_0010_1967_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155422,
+      "filename": "t5_0066_0024_02.txt",
+      "title": "t5_0066_0024_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 317,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 317,
+        "word_size": 67,
+        "text": "A.#@소속# 고객센터 상담원 #@이름#입니다\nB.안녕하세요 여행사 #@이름# 직원인데 여쭤볼 게 있어서요\nB.저희 상품에 수륙양용버스투어를 넣으려고 하는데 금액 알 수 있나요\nA.인원에 따라 다른데요 단체 금액으로 알려드리면 될까요\nB.네 많은 인원으로 진행할거라 단체 금액으로 알려주세요\nA.주말인지 평일인지 참여 인원 나이대는 어떤지 알려주시겠어요\nB.그걸 말씀 안드렸군요 모두 성인이고 주말에 갈 예정입니다\nA.백제에서 출발하실 경우엔 성인 26000원에 가능하세요\nB.그렇군요 알겠습니다 감사해요\nA.오늘 하루 좋은 일들만 가득하셨으면 좋겠습니다 #@이름# 상담원 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속# 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A.#@소속# 고객센터 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 여행사 #@이름# 직원인데 여쭤볼 게 있어서요",
+            "norm_text": "B.안녕하세요 여행사 #@이름# 직원인데 여쭤볼 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+여행사/NNG+#/SY+@/SY+이름/NNG+#/SY+직원/NNG+인데/VCP+EC+여쭤볼/VV+EC+VX+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.저희 상품에 수륙양용버스투어를 넣으려고 하는데 금액 알 수 있나요",
+            "norm_text": "B.저희 상품에 수륙양용버스투어를 넣으려고 하는데 금액 알 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+저희/NP+상품/NNG+에/JKB+수륙/NNG+양용/NNG+버스/NNG+투어/NNG+를/JKO+넣/VV+으려고/EC+하/VV+는데/EC+금액/NNG+알/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.인원에 따라 다른데요 단체 금액으로 알려드리면 될까요",
+            "norm_text": "A.인원에 따라 다른데요 단체 금액으로 알려드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+인원/NNG+에/JKB+따라/VV+EC+다른데요/VA+EF+단체/NNG+금액/NNG+으로/JKB+알려/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 많은 인원으로 진행할거라 단체 금액으로 알려주세요",
+            "norm_text": "B.네 많은 인원으로 진행할거라 단체 금액으로 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+많/VA+은/ETM+인원/NNG+으로/JKB+진행/NNG+할/XSV+ETM+거/NNB+라/VCP+EC+단체/NNG+금액/NNG+으로/JKB+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.주말인지 평일인지 참여 인원 나이대는 어떤지 알려주시겠어요",
+            "norm_text": "A.주말인지 평일인지 참여 인원 나이대는 어떤지 알려주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주말/NNG+인지/VCP+EC+평일/NNG+인지/VCP+EC+참여/NNG+인원/NNG+나이/NNG+대/XSV+는/ETM+어떤지/VA+EC+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그걸 말씀 안드렸군요 모두 성인이고 주말에 갈 예정입니다",
+            "norm_text": "B.그걸 말씀 안드렸군요 모두 성인이고 주말에 갈 예정입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그걸/NP+JKO+말씀/NNG+안/MAG+드렸/VV+EP+군요/EF+모두/MAG+성인/NNG+이/VCP+고/EC+주말/NNG+에/JKB+갈/VV+ETM+예정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.백제에서 출발하실 경우엔 성인 26000원에 가능하세요",
+            "norm_text": "A.백제에서 출발하실 경우엔 성인 26000원에 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+백제/NNG+에서/JKB+출발/NNG+하/XSV+실/EP+ETM+경우/NNG+엔/JKB+JX+성인/NNG+26000/SN+원/NNBC+에/JKB+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그렇군요 알겠습니다 감사해요",
+            "norm_text": "B.그렇군요 알겠습니다 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.오늘 하루 좋은 일들만 가득하셨으면 좋겠습니다 #@이름# 상담원 이었습니다",
+            "norm_text": "A.오늘 하루 좋은 일들만 가득하셨으면 좋겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+오늘/MAG+하루/NNG+좋/VA+은/ETM+일/NNG+들/XSN+만/JX+가득/MAG+하/VV+셨/EP+EP+으면/EC+좋/VA+겠/EP+습니다/EF+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 123135,
+    "name": "s1_20211108_0001_4815_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110641026035/s1_20211108_0001_4815_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110641026035/s1_20211108_0001_4815_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 114937,
+      "filename": "s1_20211007_0026_0019_01.txt",
+      "title": "s1_20211007_0026_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 256,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 256,
+        "word_size": 64,
+        "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다\nB.안녕하세요 뭐 하나 여쭤보고 싶어서요\nA.네 고객님 어떤 점이 궁금하세요\nB.노트북 바탕화면이 안 나오고 앱 화면으로 바뀌어요\nA.인터넷 아이콘 등이 안 나오고 앱 화면이 나오세요\nB.네 이게 왜 이러죠 갑자기\nA.태블릿 모드가 켜지신 것 같은데요\nB.그런 것도 있나요\nA.네 알림 센터에 보면 태블릿 모드가 켜져 있으실 거예요\nB.네 그렇네요 이게 눌렸나봐요\nA.네 고객님 추가 문의 사항 없으신가요\nB.네 없어요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 뭐 하나 여쭤보고 싶어서요",
+            "norm_text": "B.안녕하세요 뭐 하나 여쭤보고 싶어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+뭐/IC+하나/NR+여쭤/VV+EC+보/VX+고/EC+싶/VX+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어떤 점이 궁금하세요",
+            "norm_text": "A.네 고객님 어떤 점이 궁금하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어떤/MM+점/NNG+이/JKS+궁금/XR+하/XSA+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.노트북 바탕화면이 안 나오고 앱 화면으로 바뀌어요",
+            "norm_text": "B.노트북 바탕화면이 안 나오고 앱 화면으로 바뀌어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+노트북/NNG+바탕/NNG+화면/NNG+이/JKS+안/MAG+나오/VV+고/EC+앱/NNG+화면/NNG+으로/JKB+바뀌/VV+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.인터넷 아이콘 등이 안 나오고 앱 화면이 나오세요",
+            "norm_text": "A.인터넷 아이콘 등이 안 나오고 앱 화면이 나오세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+인터넷/NNG+아이콘/NNG+등/NNB+이/JKS+안/MAG+나오/VV+고/EC+앱/NNG+화면/NNG+이/JKS+나오/VV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 이게 왜 이러죠 갑자기",
+            "norm_text": "B.네 이게 왜 이러죠 갑자기",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+이게/NP+JKS+왜/MAG+이러/VV+죠/EF+갑자기/MAG"
+          },
+          {
+            "id": 7,
+            "text": "A.태블릿 모드가 켜지신 것 같은데요",
+            "norm_text": "A.태블릿 모드가 켜지신 것 같은데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+태블릿/NNP+모드/NNG+가/JKS+켜/VV+EC+지/VX+신/EP+ETM+것/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그런 것도 있나요",
+            "norm_text": "B.그런 것도 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그런/MM+것/NNB+도/JX+있/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 알림 센터에 보면 태블릿 모드가 켜져 있으실 거예요",
+            "norm_text": "A.네 알림 센터에 보면 태블릿 모드가 켜져 있으실 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+알림/VV+ETN+센터/NNG+에/JKB+보/VV+면/EC+태블릿/NNP+모드/NNG+가/JKS+켜/VV+져/EC+VX+EC+있/VX+으실/EP+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 그렇네요 이게 눌렸나봐요",
+            "norm_text": "B.네 그렇네요 이게 눌렸나봐요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+네요/EF+이게/NP+JKS+눌렸/VV+EP+나/EC+봐요/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 고객님 추가 문의 사항 없으신가요",
+            "norm_text": "A.네 고객님 추가 문의 사항 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+추가/NNG+문/NNG+의/JKG+사항/NNG+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 12,
+            "text": "B.네 없어요 감사합니다",
+            "norm_text": "B.네 없어요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+없/VA+어요/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

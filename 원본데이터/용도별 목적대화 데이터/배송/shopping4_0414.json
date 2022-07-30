@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 3689,
+    "name": "s4_20210910_0010_0101_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151424080288/s4_20210910_0010_0101_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151424080288/s4_20210910_0010_0101_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12780,
+      "filename": "s4_20210826_0015_0008_01.txt",
+      "title": "s4_20210826_0015_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 213,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 213,
+        "word_size": 48,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다\nB.안녕하세요 #@상품#을 구 월 이십 오 일에 구매했는데요\nB.아직도 배송 준비 중이라고 떠서요\nA.그러세요 고객님 배송 일정을 확인해 드릴까요\nB.네 확인 좀 해 주세요\nA.네 주문하신 분 성함이 어떻게 되십니까\nB.예 제 이름은 #@이름#이에요\nA.#@이름# 고객님이시구요 휴대폰 번호는 몇 번입니까\nB.#@전번#입니다 이쪽으로 확인해 주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@상품#을 구 월 이십 오 일에 구매했는데요",
+            "norm_text": "B.안녕하세요 #@상품#을 구 월 이십 오 일에 구매했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+상품/NNG+#/SY+을/JKO+구월/NNG+이/JKS+십/NR+오/NR+일/NNBC+에/JKB+구매/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.아직도 배송 준비 중이라고 떠서요",
+            "norm_text": "B.아직도 배송 준비 중이라고 떠서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아직/MAG+도/JX+배송/NNG+준비/NNG+중/NNB+이/VCP+라고/EC+떠서/VV+EC+요/JX"
+          },
+          {
+            "id": 4,
+            "text": "A.그러세요 고객님 배송 일정을 확인해 드릴까요",
+            "norm_text": "A.그러세요 고객님 배송 일정을 확인해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+세요/EP+EF+VCP+고/EC+객님/NNG+배송/NNG+일정/NNG+을/JKO+확인/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 확인 좀 해 주세요",
+            "norm_text": "B.네 확인 좀 해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 주문하신 분 성함이 어떻게 되십니까",
+            "norm_text": "A.네 주문하신 분 성함이 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+주문/NNG+하/XSV+신/EP+ETM+분성/NNG+함/XSV+ETN+이/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.예 제 이름은 #@이름#이에요",
+            "norm_text": "B.예 제 이름은 #@이름#이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.#@이름# 고객님이시구요 휴대폰 번호는 몇 번입니까",
+            "norm_text": "A.#@이름# 고객님이시구요 휴대폰 번호는 몇 번입니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+이/VCP+시/EP+구요/EF+휴대폰/NNG+번호/NNG+는/JX+몇/MM+번/NNBC+입/VV+니까/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.#@전번#입니다 이쪽으로 확인해 주세요",
+            "norm_text": "B.#@전번#입니다 이쪽으로 확인해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EF+이쪽/NP+으로/JKB+확인/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

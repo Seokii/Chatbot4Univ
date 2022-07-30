@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 144790,
+    "name": "t4_20211115_0005_0828_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135821085686/t4_20211115_0005_0828_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135821085686/t4_20211115_0005_0828_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 152485,
+      "filename": "t4_0060_0106_02.txt",
+      "title": "t4_0060_0106_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 420,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 420,
+        "word_size": 93,
+        "text": "A.안녕하십니까 #@소속# 고객센터 #@이름#입니다\nB.아 네 킹카누 예약 하려고요\nA.네 예약 문의 주셔서 감사합니다 날짜와 시간은 언제로 해드릴까요\nB.저 10월 16일 토요일이고요 오전 10시에 하려고요\nA.네 그러시면 예약자분 성함과 연락처 부탁드리겠습니다\nB.네 이름은 #@이름# 이고요 번호는 #@전번#입니다\nA.네 감사합니다 총 몇분이 탑승하시게 되나요\nB.아 저 포함 10명이에요\nA.네 그러시면 이용요금은 1인당 2만원 해서 총 20만원 이십니다\nB.아 네 계좌이체 해드리면 될까요\nA.네 그러시면 결제정보 안내 드리겠습니다 저희 은행은 #@소속#이고요\nA.계좌는 #@금융# 입니다\nB.잠깐만요 #@소속# #@금융# 맞나요\nA.네 맞습니다 입금해 주시면 예약 완료 되십니다\nB.알겠어요 바로 이체할게요 감사합니다\nA.네 저희 #@소속#를 이용해 주셔서 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 고객센터 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 고객센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.아 네 킹카누 예약 하려고요",
+            "norm_text": "B.아 네 킹카누 예약하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+네/IC+킹/MAG+카누/NNG+예약/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 예약 문의 주셔서 감사합니다 날짜와 시간은 언제로 해드릴까요",
+            "norm_text": "A.네 예약 문의 주셔서 감사합니다 날짜와 시간은 언제로 해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+예/IC+약문/NNG+의/JKG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+날짜/NNG+와/JC+시간/NNG+은/JX+언제/NP+로/JKB+해드릴까요/VV+EC+VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.저 10월 16일 토요일이고요 오전 10시에 하려고요",
+            "norm_text": "B.저 10월 16일 토요일이고요 오전 10시에 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/MM+10/SN+월/NNBC+16/SN+일/NNBC+토요일/NNG+이/JKS+고요/NNG+오전/NNG+10/SN+시/NNBC+에/JKB+하/VV+려고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 그러시면 예약자분 성함과 연락처 부탁드리겠습니다",
+            "norm_text": "A.네 그러시면 예약자 분 성함과 연락처 부탁드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+그러/VV+시/EP+면/EC+예약자/NNG+분성/NNG+함/XSV+ETN+과/JC+연락처/NNG+부탁/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 이름은 #@이름# 이고요 번호는 #@전번#입니다",
+            "norm_text": "B.네 이름은 #@이름#이고요 번호는 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 감사합니다 총 몇분이 탑승하시게 되나요",
+            "norm_text": "A.네 감사합니다 총 몇 분이 탑승하시게 되나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+총/MM+몇/MM+분/NNBC+이/JKS+탑승/NNG+하/XSV+시/EP+게/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.아 저 포함 10명이에요",
+            "norm_text": "B.아 저 포함 10명이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+저/MM+포함/NNG+10/SN+명/NNBC+이/VCP+에요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 그러시면 이용요금은 1인당 2만원 해서 총 20만원 이십니다",
+            "norm_text": "A.네 그러시면 이용요금은 1인당 2만 원 해서 총 20만 원이십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그러/VV+시/EP+면/EC+이용/NNG+요금/NNG+은/JX+1/SN+인/NNG+당/XSN+2/SN+만/NR+원/NNBC+해서/VV+EC+총/MM+20/SN+만/NR+원/NNBC+이/VCP+십니다/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.아 네 계좌이체 해드리면 될까요",
+            "norm_text": "B.아 네 계좌이체 해 드리면 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+네/IC+계좌/NNG+이체/NNG+해/XSV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 그러시면 결제정보 안내 드리겠습니다 저희 은행은 #@소속#이고요",
+            "norm_text": "A.네 그러시면 결제 정보 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그러/VV+시/EP+면/EC+결제/NNG+정보/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+저희/NP+은행/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.계좌는 #@금융# 입니다",
+            "norm_text": "A.#@소속# 은행 #@금융#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그리고/MAJ+계좌/NNG+는/JX+#/SY+@/SY+금융/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.잠깐만요 #@소속# #@금융# 맞나요",
+            "norm_text": "B.잠깐만요 #@소속# #@금융# 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+잠깐/MAG+만/JX+요/JX+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+금융/NNG+#/SY+맞/VV+나요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 맞습니다 입금해 주시면 예약 완료 되십니다",
+            "norm_text": "A.네 맞습니다 입금해 주시면 예약 완료되십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+입금/NNG+해/XSV+EC+주/VX+시/EP+면/EC+예약/NNG+완료/NNG+되/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.알겠어요 바로 이체할게요 감사합니다",
+            "norm_text": "B.알겠어요 바로 이체할게요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+어요/EF+바로/MAG+이체/NNG+할게요/XSV+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 저희 #@소속#를 이용해 주셔서 감사합니다",
+            "norm_text": "A.네 저희 #@소속#를 이용해 주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+저희/NP+#/SY+@/SY+소속/NNG+#/SY+를/JKO+이용/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

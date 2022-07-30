@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 14784,
+    "name": "s1_20210914_0001_0690_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202109081512180933103/s1_20210914_0001_0690_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202109081512180933103/s1_20210914_0001_0690_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7776,
+      "filename": "s1_20210824_0015_0031_01.txt",
+      "title": "s1_20210824_0015_0031_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 352,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 352,
+        "word_size": 82,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.제가 세탁기 서비스 신청을 했는데 문자가 떴어요\nB.전산으로 신청하면 이천 원이고 방문 예약은 천 원이더라고요\nB.그래서 기존 예약을 취소하고 직접 방문 예약을 하려고요\nA.예 그럼 제가 취소를 도와드릴 텐데요 고객님\nA.전화번호랑 성함이 어떻게 되세요\nB.예 번호랑 이름 #@전번# #@이름#입니다\nA.#@이름# 고객님 접수된 부분 확인했고요\nA.수원시 권선구 #@주소# 맞으시죠\nB.네 맞아요 #@주소#이에요\nA.네 기사 방문 안 하게 취소로 도와 드리고요\nA.인터넷으로 접수한 대로 방문하시면 되시겠습니다\nB.예 출장 서비스는 이천 원이잖아요 생각해 보니 아까워서요\nB.그래서 직접 가는 게 좋을 거 같아요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 세탁기 서비스 신청을 했는데 문자가 떴어요",
+            "norm_text": "B.제가 세탁기 서비스 신청을 했는데 문자가 떴어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+세탁기/NNG+서비스/NNG+신청/NNG+을/JKO+했/VV+EP+는데/EC+문자/NNG+가/JKS+떴/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.전산으로 신청하면 이천 원이고 방문 예약은 천 원이더라고요",
+            "norm_text": "B.전산으로 신청하면 이천 원이고 방문 예약은 천 원이더라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+전산/NNG+으로/JKB+신청/NNG+하/XSV+면/EC+이/NR+천/NR+원/NNBC+이/VCP+고/EC+방문/NNG+예약/NNG+은/JX+천/NR+원/NNBC+이/VCP+더라고요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그래서 기존 예약을 취소하고 직접 방문 예약을 하려고요",
+            "norm_text": "B.그래서 기존 예약을 취소하고 직접 방문 예약을 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그래서/MAJ+기존/NNG+예약/NNG+을/JKO+취소/NNG+하/XSV+고/EC+직접/MAG+방문/NNG+예약/NNG+을/JKO+하/VV+려고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 그럼 제가 취소를 도와드릴 텐데요 고객님",
+            "norm_text": "A.예 그럼 제가 취소를 도와드릴 텐데요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+예/IC+그럼/MAJ+제/NP+가/JKS+취소/NNG+를/JKO+도와/VV+EC+드릴/VX+ETM+텐데요/NNB+VCP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 6,
+            "text": "A.전화번호랑 성함이 어떻게 되세요",
+            "norm_text": "A.전화번호랑 성함이 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+전화/NNG+번호/NNG+랑/JKB+성함/NNG+이/JKS+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.예 번호랑 이름 #@전번# #@이름#입니다",
+            "norm_text": "B.예 번호랑 이름 #@전번# #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+번호/NNG+랑/JKB+이름/NNG+#/SY+@/SY+전번/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.#@이름# 고객님 접수된 부분 확인했고요",
+            "norm_text": "A.#@이름# 고객님 접수된 부분 확인했고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+접수/NNG+된/XSV+ETM+부분/NNG+확인/NNG+했/XSV+EP+고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.수원시 권선구 #@주소# 맞으시죠",
+            "norm_text": "A.수원시 권선구 #@주소# 맞으시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+수원시/NNP+권선구/NNP+#/SY+@/SY+주소/NNG+#/SY+맞/VV+으시/EP+죠/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 맞아요 #@주소#이에요",
+            "norm_text": "B.네 맞아요 #@주소#이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+#/SY+@/SY+주소/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 기사 방문 안 하게 취소로 도와 드리고요",
+            "norm_text": "A.네 기사 방문 안 하게 취소로 도와 드리고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+기사/NNG+방문/NNG+안/MAG+하/VV+게/EC+취소/NNG+로/JKB+도와/VV+EC+드리/VX+고요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.인터넷으로 접수한 대로 방문하시면 되시겠습니다",
+            "norm_text": "A.인터넷으로 접수한 대로 방문하시면 되시겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+인터넷/NNG+으로/JKB+접수/NNG+한/XSA+ETM+대로/NNB+방문/NNG+하/XSV+시/EP+면/EC+되/VV+시/EP+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.예 출장 서비스는 이천 원이잖아요 생각해 보니 아까워서요",
+            "norm_text": "B.예 출장 서비스는 이천 원이잖아요 생각해 보니 아까워서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+출장/NNG+서비스/NNG+는/JX+이/NR+천/NR+원/NNBC+이/VCP+잖아요/EC+생각/NNG+해/XSV+EC+보/VX+니/EC+아까워/VA+EC+서요/NNG"
+          },
+          {
+            "id": 14,
+            "text": "B.그래서 직접 가는 게 좋을 거 같아요",
+            "norm_text": "B.그래서 직접 가는 게 좋을 거 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그래서/MAJ+직접/MAG+가/VV+는/ETM+게/NNB+JKS+좋/VA+을/ETM+거/NNB+같/VA+아요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

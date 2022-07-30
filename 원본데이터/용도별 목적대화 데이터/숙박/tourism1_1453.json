@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 151365,
+    "name": "t1_20211117_0002_0409_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720042038/t1_20211117_0002_0409_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720042038/t1_20211117_0002_0409_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148711,
+      "filename": "t1_0074_0127_02.txt",
+      "title": "t1_0074_0127_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 300,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 300,
+        "word_size": 72,
+        "text": "A. 전화주셔서 감사합니다 #@소속# 고객센터 상담원 #@이름#입니다\nB. 숙소 예약을 안하고 내려와서 급하게 방을 잡아야하는데요\nB. 지금 입실 가능한 모텔이 있을까요\nA. 당장은 없으시구요 오후 7시부터 입실 가능한 곳은 있는데 여기로 안내드릴까요\nB. 네 주소랑 가격 안내도 같이 부탁합니다\nA. 경남 거제시 #@주소#에 위치해있구요 방은 일반실 5만원입니다\nB. 일반실 말고 좀 더 비싼 방은 얼마인가요\nA. 네네 특실은 7만원입니다\nB. 아 그러면 거기로 해야겠네요 알겠습니다\nA. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 전화주셔서 감사합니다 #@소속# 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A. 전화주셔서 감사합니다 #@소속# 고객센터 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 숙소 예약을 안하고 내려와서 급하게 방을 잡아야하는데요",
+            "norm_text": "B. 숙소 예약을 안하고 내려와서 급하게 방을 잡아야하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+숙소/NNG+예약/NNG+을/JKO+안/MAG+하/VV+고/EC+내려와서/VV+EC+급하/VA+게/EC+방/NNG+을/JKO+잡/VV+아야/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B. 지금 입실 가능한 모텔이 있을까요",
+            "norm_text": "B. 지금 입실 가능한 모텔이 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+지금/MAG+입실/NNG+가능/NNG+한/XSA+ETM+모텔/NNG+이/JKS+있/VV+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A. 당장은 없으시구요 오후 7시부터 입실 가능한 곳은 있는데 여기로 안내드릴까요",
+            "norm_text": "A. 오후 7시부터 입실 가능한 곳은 있는데 여기로 안내드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+당장/NNG+은/JX+없/VA+으시/EP+구요/EF+오후/NNG+7/SN+시/NNBC+부터/JX+입실/NNG+가능/NNG+한/XSA+ETM+곳/NNG+은/JX+있/VA+는데/EC+여기/NP+로/JKB+안/MAG+내/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B. 네 주소랑 가격 안내도 같이 부탁합니다",
+            "norm_text": "B. 네 주소랑 가격 안내도 같이 부탁합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+주소/NNG+랑/JKB+가격/NNG+안내/NNG+도/JX+같이/MAG+부탁/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A. 경남 거제시 #@주소#에 위치해있구요 방은 일반실 5만원입니다",
+            "norm_text": "A. 경남 거제시 #@주소#에 위치해있구요 방은 일반실 5만원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+경남/NNP+거제시/NNP+#/SY+@/SY+주소/NNG+#/SY+에/JKB+위치/NNG+해/XSV+EC+있/VX+구요/EF+방/NNG+은/JX+일/NNG+반실/NNG+5/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 일반실 말고 좀 더 비싼 방은 얼마인가요",
+            "norm_text": "B. 일반실 말고 좀 더 비싼 방은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+일/NNG+반실/NNG+말/VV+고/EC+좀/MAG+더/MAG+비싼/VA+ETM+방/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 네네 특실은 7만원입니다",
+            "norm_text": "A. 네네 특실은 7만원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/NP+네/XSN+특실/NNG+은/JX+7/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B. 아 그러면 거기로 해야겠네요 알겠습니다",
+            "norm_text": "B. 아 그러면 거기로 해야겠네요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+그러면/MAJ+거기/NP+로/JKB+해야/VV+EC+VX+겠/EP+네요/EF+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감기/NNG+조심/NNG+하/XSV+시/EP+고/EC+건강/NNG+하/XSV+세요/EP+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

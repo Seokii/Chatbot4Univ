@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 55488,
+    "name": "c3_20211019_0010_2630_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211008131037061673/c3_20211019_0010_2630_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211008131037061673/c3_20211019_0010_2630_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 53864,
+      "filename": "c2_20210930_0005_0001_01.txt",
+      "title": "c2_20210930_0005_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 285,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 285,
+        "word_size": 59,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.#@주소# 진입로에요 중앙선이 불필요하게 설치되어 있는 거 같아요\nA.네 선생님 해당 중앙선에 관련해서 최근 민원이 제기되고 있었습니다\nB.그거는 그러면 어떻게 되는 거예요 처리가요\nA.그래서 #@소속# 심의위원회 의결사항으로 심의안건을 제출할 예정입니다\nB.관련해서 시민들이 뭐 할 건 없나요\nA.그동안 민원을 지속적으로 제기해주셨기 때문에요\nA.이제 잘 처리 되실 거예요\nB.알겠어요 그럼 기다려볼게요\nA.감사합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@주소# 진입로에요 중앙선이 불필요하게 설치되어 있는 거 같아요",
+            "norm_text": "B.#@주소# 진입로에요 중앙선이 불필요하게 설치되어 있는 거 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+진입로/NNG+에/JKB+요/MM+중앙선/NNG+이/JKS+불/XPN+필요/NNG+하/XSV+게/EC+설치/NNG+되/XSV+어/EC+있/VX+는/ETM+거/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 선생님 해당 중앙선에 관련해서 최근 민원이 제기되고 있었습니다",
+            "norm_text": "A.네 선생님 해당 중앙선에 관련해서 최근 민원이 제기되고 있었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+해당/NNG+중앙선/NNG+에/JKB+관련/NNG+해서/XSV+EC+최근/NNG+민원/NNG+이/JKS+제기/NNG+되/XSV+고/EC+있/VX+었/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그거는 그러면 어떻게 되는 거예요 처리가요",
+            "norm_text": "B.그거는 그러면 어떻게 되는 거예요 처리가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그거/NP+는/JX+그러면/MAJ+어떻게/MAG+되/VV+는/ETM+거/NNB+예요/VCP+EF+처리/NNG+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.그래서 #@소속# 심의위원회 의결사항으로 심의안건을 제출할 예정입니다",
+            "norm_text": "A.그래서 #@소속# 심의위원회 의결사항으로 심의안건을 제출할 예정입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그래서/MAJ+#/SY+@/SY+소속/NNG+#/SY+심의/NNG+위원회/NNG+의결/NNG+사항/NNG+으로/JKB+심의/NNG+안건/NNG+을/JKO+제출/NNG+할/XSV+ETM+예정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.관련해서 시민들이 뭐 할 건 없나요",
+            "norm_text": "B.관련해서 시민들이 뭐 할 건 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+관련/NNG+해서/XSV+EC+시민/NNG+들/XSN+이/JKS+뭐/IC+할/VV+ETM+건/NNB+JX+없/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.그동안 민원을 지속적으로 제기해주셨기 때문에요",
+            "norm_text": "A.그동안 민원을 지속적으로 제기해주셨기 때문에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+그동안/NNG+민원/NNG+을/JKO+지속/NNG+적/XSN+으로/JKB+제기/NNG+해/XSV+EC+주/VX+셨/EP+EP+기/ETN+때문/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.이제 잘 처리 되실 거예요",
+            "norm_text": "A.이제 잘 처리 되실 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+이제/IC+잘/MAG+처리/NNG+되/XSV+실/EP+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.알겠어요 그럼 기다려볼게요",
+            "norm_text": "B.알겠어요 그럼 기다려볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+겠/EP+어요/EF+그럼/MAJ+기다려/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

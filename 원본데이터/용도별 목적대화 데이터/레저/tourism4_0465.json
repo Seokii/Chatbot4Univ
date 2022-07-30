@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 144217,
+    "name": "t4_20211115_0005_0496_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135825099563/t4_20211115_0005_0496_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135825099563/t4_20211115_0005_0496_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 153024,
+      "filename": "t4_0067_0095_02.txt",
+      "title": "t4_0067_0095_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 284,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 284,
+        "word_size": 73,
+        "text": "A. 안녕하세요 #@소속# 상담원 #@이름#입니다\nB. 네 저 예약 취소 좀 부탁드리려고 전화했어요\nA. 네 예약자 분 성함과 연락처 말씀해 주세요\nB. #@이름# 외 2명 #@전번#로 예약했습니다\nA. #@이름#님 확인해 보니까 이틀 뒤 방문 예약이신데요\nA. 이런 경우 패널티가 발생하는데 괜찮으신가요\nB. 패널티라니요 무슨 패널티 말씀하시는 건가요\nA. 주말 예약 2일 전 취소 시 1개월간 예약 정지 패널티가 있습니다\nB. 어우 좀 그렇네 그럼 다시 생각해 보고 전화할게요\nA. 네 알겠습니다 상담원 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A. 안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 네 저 예약 취소 좀 부탁드리려고 전화했어요",
+            "norm_text": "B. 네 저 예약 취소 좀 부탁드리려고 전화했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+저/MM+예약/NNG+취소/NNG+좀/MAG+부탁/NNG+드리/VV+려고/EC+전화/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 예약자 분 성함과 연락처 말씀해 주세요",
+            "norm_text": "A. 네 예약자 분 성함과 연락처 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+예약자/NNG+분성/NNG+함/XSV+ETN+과/JC+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B. #@이름# 외 2명 #@전번#로 예약했습니다",
+            "norm_text": "B. #@이름# 외 2명 #@전번#로 예약했습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+외/NNB+2/SN+명/NNBC+#/SY+@/SY+전번/NNG+#/SY+로/JKB+예약/NNG+했/XSV+EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A. #@이름#님 확인해 보니까 이틀 뒤 방문 예약이신데요",
+            "norm_text": "A. #@이름#님 확인해 보니까 이틀 뒤 방문 예약이신데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+님/XSN+확인/NNG+해/XSV+EC+보/VX+니까/EC+이틀/NNG+뒤/NNG+방문/NNG+예약/NNG+이/VCP+신데요/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A. 이런 경우 패널티가 발생하는데 괜찮으신가요",
+            "norm_text": "A. 이런 경우 패널티가 발생하는데 괜찮으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+이런/MM+경우/NNG+패널/NNG+티/NNG+가/JKS+발생/NNG+하/XSV+는/ETM+데/NNB+괜찮/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "B. 패널티라니요 무슨 패널티 말씀하시는 건가요",
+            "norm_text": "B. 패널티라니요 무슨 패널티 말씀하시는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+패널/NNG+티/VV+라니요/EC+무슨/MM+패널/NNG+티/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 주말 예약 2일 전 취소 시 1개월간 예약 정지 패널티가 있습니다",
+            "norm_text": "A. 주말 예약 2일 전 취소 시 1개월간 예약 정지 패널티가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주말/NNG+예약/NNG+2/SN+일/NNBC+전취/NNG+소시/NNG+1/SN+개월/NNBC+간/NNG+예약/NNG+정지/NNG+패널/NNG+티/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 어우 좀 그렇네 그럼 다시 생각해 보고 전화할게요",
+            "norm_text": "B. 어우 좀 그렇네 그럼 다시 생각해 보고 전화할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+어우/IC+좀/MAG+그렇/VA+네/EF+그럼/MAJ+다시/MAG+생각/NNG+해/XSV+EC+보/VX+고/EC+전화/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 알겠습니다 상담원 #@이름#였습니다",
+            "norm_text": "A. 네 알겠습니다 상담원 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

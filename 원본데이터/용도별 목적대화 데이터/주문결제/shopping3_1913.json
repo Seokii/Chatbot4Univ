@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 110451,
+    "name": "s3_20211104_0002_0160_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744087175/s3_20211104_0002_0160_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744087175/s3_20211104_0002_0160_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117974,
+      "filename": "s3_20211005_0015_0004_01.txt",
+      "title": "s3_20211005_0015_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 224,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 224,
+        "word_size": 53,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nB.네 이미 주문을 했는데요 결제 방법을 바꿀 수 있나요\nA.죄송하지만 결제 방법은 변경되지 않습니다\nB.그래요 다른 방법은 없나요\nA.주문을 취소하신 후 다른 결제 수단을 이용하셔야 합니다\nB.네 그럼 취소를 먼저 할게요\nA.예 그렇게 해 주시고요 다른 문제가 있을 시 연락 바랍니다\nB.알겠습니다 그럼 수고하세요\nA.고맙습니다 저는 #@소속#이었습니다\nB.예 안녕히 계세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 이미 주문을 했는데요 결제 방법을 바꿀 수 있나요",
+            "norm_text": "B.네 이미 주문을 했는데요 결제 방법을 바꿀 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+이미/MAG+주문/NNG+을/JKO+했/VV+EP+는데요/EF+결제/NNG+방법/NNG+을/JKO+바꿀/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.죄송하지만 결제 방법은 변경되지 않습니다",
+            "norm_text": "A.죄송하지만 결제 방법은 변경되지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+결제/NNG+방법/NNG+은/JX+변경/NNG+되/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그래요 다른 방법은 없나요",
+            "norm_text": "B.그래요 다른 방법은 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+다른/MM+방법/NNG+은/JX+없/VA+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.주문을 취소하신 후 다른 결제 수단을 이용하셔야 합니다",
+            "norm_text": "A.주문을 취소하신 후 다른 결제 수단을 이용하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주문/NNG+을/JKO+취소/NNG+하/XSV+신/EP+ETM+후/NNG+다른/MM+결제/NNG+수단/NNG+을/JKO+이용/NNG+하/XSV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 그럼 취소를 먼저 할게요",
+            "norm_text": "B.네 그럼 취소를 먼저 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+취소/NNG+를/JKO+먼저/MAG+할게요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.예 그렇게 해 주시고요 다른 문제가 있을 시 연락 바랍니다",
+            "norm_text": "A.예 그렇게 해 주시고요 다른 문제가 있을 시 연락 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+예/IC+그렇게/MAG+해/VV+EC+주/VX+시/EP+고요/EF+다른/MM+문제/NNG+가/JKS+있/VA+을시/EC+연락/NNG+바랍니다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.알겠습니다 그럼 수고하세요",
+            "norm_text": "B.알겠습니다 그럼 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.고맙습니다 저는 #@소속#이었습니다",
+            "norm_text": "A.고맙습니다 저는 #@소속#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+고맙/VA+습니다/EF+저/NP+는/JX+#/SY+@/SY+소속/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.예 안녕히 계세요",
+            "norm_text": "B.예 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+안녕히/MAG+계세요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

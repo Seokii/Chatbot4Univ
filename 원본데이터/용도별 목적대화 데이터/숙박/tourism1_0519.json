@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 141374,
+    "name": "t1_20211115_0002_0511_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715097272/t1_20211115_0002_0511_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715097272/t1_20211115_0002_0511_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148137,
+      "filename": "t1_0068_0063_02.txt",
+      "title": "t1_0068_0063_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 329,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 329,
+        "word_size": 79,
+        "text": "A.#@소속# 상담원 #@이름# 입니다\nB.도학지구 오토캠핑장 시설 문의 드릴게요\nA.고객님 어떤 점이 궁금하신가요\nB.온수 사용도 가능 한가요\nA.네 온수 시설이 마련되어 있습니다\nB.퇴근하고 갈건데요 몇 시까지 입실 해야 되나요\nA.늦어도 21시까진 입실 완료 하셔야 합니  다\nB.그럼 퇴실은 몇 시까지 해야 되나요\nA.다음날 낮 12시까지는 해주셔야 합니다\nB.알겠습니다 예약은 했는데 바로 입금 해야 되는거지요\nA.예약하신 시간에서 24시간 이내 전액을 결제 하셔야 예약 완료됩니다\nB.아 그렇군요 그럼 바로 입금 할게요 수고하세요\nA.즐거운 시간 되세요 정성을 다하는 #@이름# 이었습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속# 상담원 #@이름# 입니다",
+            "norm_text": "A.#@소속# 상담원 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.도학지구 오토캠핑장 시설 문의 드릴게요",
+            "norm_text": "B.도학지구 오토캠핑장 시설 문의 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+도학/NNG+지구/NNG+오토캠핑/NNG+장시/NNG+설문/NNG+의/JKG+드릴게요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 어떤 점이 궁금하신가요",
+            "norm_text": "A.고객님 어떤 점이 궁금하신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+어떤/MM+점/NNG+이/JKS+궁금/XR+하/XSA+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.온수 사용도 가능 한가요",
+            "norm_text": "B.온수 사용도 가능 한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+온수/NNG+사용/NNG+도/JX+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.네 온수 시설이 마련되어 있습니다",
+            "norm_text": "A.네 온수 시설이 마련되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+온수/NNG+시설/NNG+이/JKS+마련/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.퇴근하고 갈건데요 몇 시까지 입실 해야 되나요",
+            "norm_text": "B.퇴근하고 갈건데요 몇 시까지 입실 해야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+퇴근/NNG+하/XSV+고/EC+갈/VX+ETM+건데요/NNB+VCP+EC+몇/MM+시/NNBC+까지/JX+입실/NNG+해야/XSV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.늦어도 21시까진 입실 완료 하셔야 합니  다",
+            "norm_text": "A.늦어도 21시까진 입실 완료하셔야 합니 다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+늦/VA+어도/EC+21/SN+시/NNBC+까진/JX+VCP+ETM+입실/NNG+완료/NNG+하/XSV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 퇴실은 몇 시까지 해야 되나요",
+            "norm_text": "B.그럼 퇴실은 몇 시까지 해야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+퇴실/NNG+은/JX+몇/MM+시/NNBC+까지/JX+해야/VV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.다음날 낮 12시까지는 해주셔야 합니다",
+            "norm_text": "A.다음날 낮 12시까지는 해주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+다음/NNG+날/NNG+낮/NNG+12/SN+시/NNBC+까지/JX+는/JX+해/VV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 예약은 했는데 바로 입금 해야 되는거지요",
+            "norm_text": "B.알겠습니다 예약은 했는데 바로 입금 해야 되는거지요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+예약/NNG+은/JX+했/VV+EP+는데/EC+바로/MAG+입금/NNG+해야/XSV+EC+되/VV+는/ETM+거/NNB+지요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.예약하신 시간에서 24시간 이내 전액을 결제 하셔야 예약 완료됩니다",
+            "norm_text": "A.예약하신 시간에서 24시간 이내 전액을 결제 하셔야 예약 완료됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예약/NNG+하/XSV+신/EP+ETM+시간/NNG+에서/JKB+24/SN+시간/NNG+이/JKS+내/NP+JKG+전액/NNG+을/JKO+결제/NNG+하/XSV+셔야/EP+EC+예약/NNG+완료/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.아 그렇군요 그럼 바로 입금 할게요 수고하세요",
+            "norm_text": "B.아 그렇군요 그럼 바로 입금 할게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아/IC+그렇/VA+군요/EF+그럼/MAJ+바로/MAG+입금/NNG+할게요/XSV+EC+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.즐거운 시간 되세요 정성을 다하는 #@이름# 이었습니다 감사합니다",
+            "norm_text": "A.즐거운 시간 되세요 정성을 다하는 #@이름# 이었습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+시간/NNG+되/XSV+세요/EP+EF+정성/NNG+을/JKO+다/MAG+하/VV+는/ETM+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

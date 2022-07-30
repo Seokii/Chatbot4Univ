@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 43880,
+    "name": "c4_20211014_0011_0019_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131156005076/c4_20211014_0011_0019_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131156005076/c4_20211014_0011_0019_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56137,
+      "filename": "c4_20210908_0011_0001_01.txt",
+      "title": "c4_20210908_0011_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 456,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 456,
+        "word_size": 104,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다\nA.무엇을 도와 드릴까요\nB.군인은 백신 접종이 어떻게 돼요\nA.개인의 자발적 동의를 기반으로 하며 절대 강제하지 않습니다\nA.코로나 감염 위험으로부터 개인을 보호하기 위하 가장 유용한 수단입니다\nA.그래서 접종할 것을 권장하고 있습니다\nB.동의는 어떻게 받고 있나요\nA.접종 당일 예방접종 예진표 작성 시 동의 여부에 체크 후 서명합니다\nA.이를 제출하여 동의 의사를 표시하도록 하고 있습니다\nB.백신을 고를 수 있나요\nA.삼십세 이상 장병에 대해서만 에이지 백신을 접종할 예정입니다\nA.질병청의 지침에 따라 백신의 종류는 별도 지정할 수 없다는 점은 양해하여 주시기 바랍니다\nB.그래요 알겠습니다 감사합니다\nA.네 추가로 궁금하신 사항 있으시면 #@소속#에 연락주세요\nA.친절히 안내해 드리도록 하겠습니다\nB.친절한 답변 감사합니다\nA.즐거운 하루 되시구요 지금까지 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.무엇을 도와 드릴까요",
+            "norm_text": "A.무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.군인은 백신 접종이 어떻게 돼요",
+            "norm_text": "B.군인은 백신 접종이 어떻게 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+군인/NNG+은/JX+백신/NNG+접종/NNG+이/JKS+어떻게/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.개인의 자발적 동의를 기반으로 하며 절대 강제하지 않습니다",
+            "norm_text": "A.개인의 자발적 동의를 기반으로 하며 절대 강제하지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+개인/NNG+의/JKG+자발/NNG+적/XSN+동의/NNG+를/JKO+기반/NNG+으로/JKB+하/VV+며/EC+절대/MAG+강제/NNG+하/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.코로나 감염 위험으로부터 개인을 보호하기 위하 가장 유용한 수단입니다",
+            "norm_text": "A.코로나 감염 위험으로부터 개인을 보호하기 위하 가장 유용한 수단입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+코로나/NNG+감염/NNG+위험/NNG+으로부터/JKB+개인/NNG+을/JKO+보호/NNG+하/XSV+기/ETN+위하/NNG+가장/MAG+유용/NNG+한/XSA+ETM+수단/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.그래서 접종할 것을 권장하고 있습니다",
+            "norm_text": "A.그래서 접종할 것을 권장하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그래서/MAJ+접종/NNG+할/XSV+ETM+것/NNB+을/JKO+권장/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.동의는 어떻게 받고 있나요",
+            "norm_text": "B.동의는 어떻게 받고 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+동의/NNG+는/JX+어떻게/MAG+받/VV+고/EC+있/VX+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.접종 당일 예방접종 예진표 작성 시 동의 여부에 체크 후 서명합니다",
+            "norm_text": "A.접종 당일 예방접종 예진표 작성 시 동의 여부에 체크 후 서명합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+접종/NNG+당일/NNG+예방/NNG+접종/NNG+예진/NNG+표/NNG+작성/NNG+시동/NNG+의/JKG+여부/NNG+에/JKB+체크/NNG+후/NNG+서명/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.이를 제출하여 동의 의사를 표시하도록 하고 있습니다",
+            "norm_text": "A.이를 제출하여 동의 의사를 표시하도록 하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이/NP+를/JKO+제출/NNG+하/XSV+여/EC+동의/NNG+의사/NNG+를/JKO+표시/NNG+하/XSV+도록/EC+하/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.백신을 고를 수 있나요",
+            "norm_text": "B.백신을 고를 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+백신/NNG+을/JKO+고를/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.삼십세 이상 장병에 대해서만 에이지 백신을 접종할 예정입니다",
+            "norm_text": "A.삼십세 이상 장병에 대해서만 에이지 백신을 접종할 예정입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+삼/NR+십/NR+세/MM+이상/NNG+장병/NNG+에/JKB+대해서/VV+EC+만/JX+에이지/NNG+백신/NNG+을/JKO+접종/NNG+할/XSV+ETM+예정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.질병청의 지침에 따라 백신의 종류는 별도 지정할 수 없다는 점은 양해하여 주시기 바랍니다",
+            "norm_text": "A.질병청의 지침에 따라 백신의 종류는 별도 지정할 수 없다는 점은 양해하여 주시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+질병/NNG+청/NNG+의/JKG+지침/NNG+에/JKB+따라/VV+EC+백신/NNG+의/JKG+종류/NNG+는/JX+별도/NNG+지정/NNG+할/XSV+ETM+수/NNB+없/VA+다는/ETM+점/NNG+은/JX+양해/NNG+하/XSV+여/EC+주/VX+시/EP+기/ETN+바랍니다/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그래요 알겠습니다 감사합니다",
+            "norm_text": "B.그래요 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그래요/VV+EC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 추가로 궁금하신 사항 있으시면 #@소속#에 연락주세요",
+            "norm_text": "A.네 추가로 궁금하신 사항 있으시면 #@소속#에 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+추가/NNG+로/JKB+궁금/XR+하/XSA+신/EP+ETM+사항/NNG+있/VV+으시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+에/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 15,
+            "text": "A.친절히 안내해 드리도록 하겠습니다",
+            "norm_text": "A.친절히 안내해 드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+친절히/MAG+안내/NNG+해/XSV+EC+드리/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.친절한 답변 감사합니다",
+            "norm_text": "B.친절한 답변 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+답변/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.즐거운 하루 되시구요 지금까지 상담사 #@이름#이었습니다",
+            "norm_text": "A.즐거운 하루 되시구요 지금까지 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+되/XSV+시/EP+구요/EF+지금/NNG+까지/JX+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

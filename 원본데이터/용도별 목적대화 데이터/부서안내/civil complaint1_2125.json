@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 12796,
+    "name": "c1_20210913_0005_0871_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt202109081513370807101/c1_20210913_0005_0871_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt202109081513370807101/c1_20210913_0005_0871_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10182,
+      "filename": "c1_20210818_0017_0030_01.txt",
+      "title": "c1_20210818_0017_0030_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 463,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 463,
+        "word_size": 100,
+        "text": "B.기분 좋은 변화 안녕하십니까 도로과입니다 무엇을 도와드릴까요\nA.안녕하세요 #@소속# 콜센터 #@이름# 상담사입니다\nB.네 안녕하세요 무엇을 도와드릴까요\nA.실례지만 민원인께서 #@소속# 도로 관련 부서에서 연락 받기를 원하셔서 그 내용 전달하고자 연락을 드렸습니다\nB.예 어떤 내용이시죠\nA.먼저 민원인께서 말씀하신 부분을 알려드릴꼐요\nA.지하차도와 도로의 높이가 맞지 않는 부분에 대해 불만사항을 접수하였습니다\nB.지하차도 높이를 말씀하신건가요\nB.해당 지역의 주소지를 아시나요\nA.아니요 제가 도로 종류나 정확한 주소지를 그 말씀해주셔야 한다고도 안내해드렸습니다\nA.그런데 도로 종류나 주소지가 확인이 어렵다며 그 팽성 교차로를요\nB.팽성 교차로를 말씀하신건가요\nA.네 팽이할 때 팽성 교차로입니다\nA.팽성 교차로에 아산 이십 오 키로미터 지점이라는 안내 표지판만 확인이 되신다고 했습니다\nB.안내 표지판으로는 정확한 위치 파악이 쉽지 않겠네요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "B.기분 좋은 변화 안녕하십니까 도로과입니다 무엇을 도와드릴까요",
+            "norm_text": "B.기분 좋은 변화 안녕하십니까 도로과입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+기분/NNG+좋/VA+은/ETM+변화/NNG+안녕/NNG+하/XSV+십니까/EP+EF+도로/MAG+과/NNG+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.안녕하세요 #@소속# 콜센터 #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속# 콜센터 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+콜/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 안녕하세요 무엇을 도와드릴까요",
+            "norm_text": "B.네 안녕하세요 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.실례지만 민원인께서 #@소속# 도로 관련 부서에서 연락 받기를 원하셔서 그 내용 전달하고자 연락을 드렸습니다",
+            "norm_text": "A.민원인께서 #@소속# 도로 관련 부서의 연락을 원하셔서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+실례/NNG+지만/VCP+EC+민원인/NNG+께서/JKS+#/SY+@/SY+소속/NNG+#/SY+도로/NNG+관련/NNG+부서/NNG+에서/JKB+연락/NNG+받/VV+기/ETN+를/JKO+원하/VV+셔서/EP+EC+그/MM+내용/NNG+전달/NNG+하/XSV+고자/EC+연락/NNG+을/JKO+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.예 어떤 내용이시죠",
+            "norm_text": "B.예 어떤 내용이시죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+어떤/MM+내용/NNG+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.먼저 민원인께서 말씀하신 부분을 알려드릴꼐요",
+            "norm_text": "A.먼저 민원인께서 말씀하신 부분을 알려드릴꼐요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+먼저/MAG+민원인/NNG+께서/JKS+말씀/NNG+하/XSV+신/EP+ETM+부분/NNG+을/JKO+알려/VV+EC+드릴/VX+ETM+꼐요/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "A.지하차도와 도로의 높이가 맞지 않는 부분에 대해 불만사항을 접수하였습니다",
+            "norm_text": "A.지하차도와 도로의 높이가 맞지 않아서 불만사항을 접수하였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+지하차도/NNP+와/JC+도로/NNG+의/JKG+높이/NNG+가/JKS+맞/VV+지/EC+않/VX+는/ETM+부분/NNG+에/JKB+대해/VV+EC+불만/NNG+사항/NNG+을/JKO+접수/NNG+하/XSV+였/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.지하차도 높이를 말씀하신건가요",
+            "norm_text": "B.지하차도 높이를 말씀하신건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+지하차도/NNP+높이/NNG+를/JKO+말씀/NNG+하/XSV+신/EP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.해당 지역의 주소지를 아시나요",
+            "norm_text": "B.해당 지역의 주소지를 아시나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+해당/NNG+지역/NNG+의/JKG+주소지/NNG+를/JKO+아/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.아니요 제가 도로 종류나 정확한 주소지를 그 말씀해주셔야 한다고도 안내해드렸습니다",
+            "norm_text": "A.아니요 도로 종류와 정확한 주소지를 말씀하셔야 된다고 안내했습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아니요/IC+제/NP+가/JKS+도로/NNG+종류/NNG+나/JC+정확/NNG+한/XSA+ETM+주소지/NNG+를/JKO+그/MM+말씀/NNG+해/XSV+EC+주/VX+셔야/EP+EC+한다고/VX+EC+도/JX+안내/NNG+해/XSV+EC+드렸/VX+EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.그런데 도로 종류나 주소지가 확인이 어렵다며 그 팽성 교차로를요",
+            "norm_text": "A.그런데 도로 종류나 주소지가 확인이 어렵다며 그 팽성 교차로를요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그런데/MAJ+도로/NNG+종류/NNG+나/JC+주소지/NNG+가/JKS+확인/NNG+이/JKS+어렵/VA+다며/EC+그/MM+팽/NNG+성/XSN+교차로/NNG+를/JKO+요/JX"
+          },
+          {
+            "id": 12,
+            "text": "B.팽성 교차로를 말씀하신건가요",
+            "norm_text": "B.팽성 교차로를 말씀하신 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+팽성/NNP+교차로/NNG+를/JKO+말씀/NNG+하/XSV+신/EP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 팽이할 때 팽성 교차로입니다",
+            "norm_text": "A.네 팽이할 때 팽성 교차로입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+팽이/NNG+할/XSV+ETM+때/NNG+팽/NNG+성/XSN+교차로/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.팽성 교차로에 아산 이십 오 키로미터 지점이라는 안내 표지판만 확인이 되신다고 했습니다",
+            "norm_text": "A.팽성 교차로에 아산 이십오 키로미터 지점 표지판만 확인이 된다고 했습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+팽성/NNP+교차로/NNG+에/JKB+아산/NNP+이/JKS+십/NR+오/NR+키로/XSV+ETN+JKB+미터/NNG+지점/NNG+표지판/NNG+만/JX+확인/NNG+이/JKS+된다고/VV+EC+했/VX+EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.안내 표지판으로는 정확한 위치 파악이 쉽지 않겠네요",
+            "norm_text": "B.안내 표지판으로는 정확한 위치 파악이 쉽지 않겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안내/NNG+표지판/NNG+으로/JKB+는/JX+정확/XR+한/XSA+ETM+위치/NNG+파악/NNG+이/JKS+쉽/VA+지/EC+않/VX+겠/EP+네요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

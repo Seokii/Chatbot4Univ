@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 12825,
+    "name": "c1_20210913_0005_0900_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151337059514/c1_20210913_0005_0900_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151337059514/c1_20210913_0005_0900_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10151,
+      "filename": "c1_20210818_0007_0016_01.txt",
+      "title": "c1_20210818_0007_0016_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 681,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 681,
+        "word_size": 155,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.#@소속# 전화하면 거기가 통화가 안 돼요\nA.#@소속# 통화 어려운 부분은 저희 쪽에서 확인이 어렵습니다 선생님\nB.계속 민원 신고는 #@전번# 그렇게만 나오고 거기 #@소속# 연결이되나요\nA.#@소속# 저희 쪽에서 전화 번호 확인해보겠습니다 저희 쪽에서 연결 어려울 수 있으나 연결시도해 보겠습니다\nB.그냥 #@소속# 번호를 알려주세요\nA.대표 번호 확인됩니다 #@전번#입니다\nB.잠시만요 제가 계속 거기로 전화했는 데 계속이 멘트만 나와가지고 여기로 전화한건데요\nA.제가 다른 번호도 있는지 다시 한 번 확인해보겠습니다 다른 번호로는 확인이 어려웠습니다 그러면 #@소속# 제가 확인 후에 안내해드리겠습니다 전화 번호는 죄송하지만 #@전번# 하나만 확인됩니다\nB.이거 진짜 미치겠네 집이 공주인데 통화 한 번하려고 통화 안 된다고 가는 것도 웃기고 참\nA.현재 지금 공주이십니까 #@소속#지소도 확인되는데 알려 드릴까요\nB.아니에요 그 갱신 대전에서 해야 된다고 하더라고 그것들 자체를 문자로 좀 찍어주세요\nA.전화번호 다시 한 번 문자전송해드리겠습니다 선생님 문자 전송 시에는 개인 정보 활용 동의해주셔야 문자 전송 가능합니다 개인 정보 동의해주시겠습니까\nB.네 개인 정보 활용 동의 할게요\nA.#@소속# 바로 문자 전송해드리겠습니다 더 다른 문의 사항있으십니까",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속# 전화하면 거기가 통화가 안 돼요",
+            "norm_text": "B.#@소속# 전화하면 거기가 통화가 안 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+전화/NNG+하/XSV+면/EC+거기/NP+가/JKS+통화/NNG+가/JKS+안/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.#@소속# 통화 어려운 부분은 저희 쪽에서 확인이 어렵습니다 선생님",
+            "norm_text": "A.#@소속# 통화가 어려운 부분은 확인이 어렵습니다 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+통화/NNG+어려운/VA+ETM+부분/NNG+은/JX+저희/NP+쪽/NNB+에서/JKB+확인/NNG+이/JKS+어렵/VA+습니다/EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.계속 민원 신고는 #@전번# 그렇게만 나오고 거기 #@소속# 연결이되나요",
+            "norm_text": "B.민원 신고는 #@전번#만 가능하고 그럼 #@소속#이랑 연결되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+계속/MAG+민원/NNG+신고/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+그렇/VA+게/EC+만/JX+나오/VV+고/EC+거기/NP+#/SY+@/SY+소속/NNG+#/SY+연결/NNG+이/JKS+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.#@소속# 저희 쪽에서 전화 번호 확인해보겠습니다 저희 쪽에서 연결 어려울 수 있으나 연결시도해 보겠습니다",
+            "norm_text": "A.저희 쪽에서 연결이 어려울 수 있으나 시도해 보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+쪽/NNB+에서/JKB+연결/NNG+이/JKS+어려울/VA+ETM+수/NNB+있/VV+으나/EC+시도/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그냥 #@소속# 번호를 알려주세요",
+            "norm_text": "B.그냥 #@소속# 번호를 알려 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+그냥/MAG+#/SY+@/SY+소속/NNG+#/SY+번호/NNG+를/JKO+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.대표 번호 확인됩니다 #@전번#입니다",
+            "norm_text": "A.대표 번호 확인됩니다 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+대표/NNG+번호/NNG+확인/NNG+됩니다/XSV+EC+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.잠시만요 제가 계속 거기로 전화했는 데 계속이 멘트만 나와가지고 여기로 전화한건데요",
+            "norm_text": "B.잠시만요 제가 거기로 전화했는데 연결이 안 돼서 여기로 전화한 건데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+잠시/NNG+만/JX+요/JX+제/NP+가/JKS+계속/MAG+거기/NP+로/JKB+전화/NNG+했/XSV+EP+는데/EC+계속/NNG+이/JKS+멘/VV+ETM+트/NNG+만/JX+나와/VV+EC+가지/VX+고/EC+여기/NP+로/JKB+전화/NNG+한/XSA+ETM+건데요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.제가 다른 번호도 있는지 다시 한 번 확인해보겠습니다 다른 번호로는 확인이 어려웠습니다 그러면 #@소속# 제가 확인 후에 안내해드리겠습니다 전화 번호는 죄송하지만 #@전번# 하나만 확인됩니다",
+            "norm_text": "A.#@소속#의 전화번호는 죄송하지만 #@전번# 하나만 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+제/NP+가/JKS+다른/MM+번호/NNG+도/JX+있/VA+는지/EC+다시/MAG+한/MM+번/NNBC+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF+다른/MM+번호/NNG+로/JKB+는/JX+확인/NNG+이/JKS+어려웠/VA+EP+습니다/EF+그러면/MAJ+#/SY+@/SY+소속/NNG+#/SY+제/NP+가/JKS+확인/NNG+후/NNG+에/JKB+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+전화/NNG+번호/NNG+는/JX+죄송/XR+하/XSA+지만/EC+#/SY+@/SY+전번/NNG+#/SY+하나/NR+만/JX+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.이거 진짜 미치겠네 집이 공주인데 통화 한 번하려고 통화 안 된다고 가는 것도 웃기고 참",
+            "norm_text": "B.이거 진짜 미치겠네 통화 한 번 하는데 안 된다고 하는게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+이거/NP+진짜/MAG+미치/VV+겠/EP+네/EF+집/NNG+이/JKS+공주/NNG+인데/VCP+EC+통화/NNG+한/MM+번/NNBC+하/VV+려고/EC+통화/NNG+안/MAG+된다고/VV+EC+가/VX+는/ETM+것/NNB+도/JX+웃기/VV+고/EC+참/NNG"
+          },
+          {
+            "id": 11,
+            "text": "A.현재 지금 공주이십니까 #@소속#지소도 확인되는데 알려 드릴까요",
+            "norm_text": "A.현재 지금 공주이십니까 #@소속#지소도 확인되는데 알려 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+현재/MAG+지금/MAG+공주/NNG+이/VCP+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+지소/NNG+도/JX+확인/NNG+되/XSV+는/ETM+데/NNB+알려/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.아니에요 그 갱신 대전에서 해야 된다고 하더라고 그것들 자체를 문자로 좀 찍어주세요",
+            "norm_text": "B.아니에요 갱신은 대전에서 해야 된다고 해서요 문자로 찍어 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+아니/VCN+에요/EF+그/MM+갱신/NNG+대전/NNG+에서/JKB+해야/VV+EC+된다고/VV+EC+하/VX+더라고/EF+그것/NP+들/XSN+자체/NNG+를/JKO+문자/NNG+로/JKB+좀/MAG+찍/VV+어/EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.전화번호 다시 한 번 문자전송해드리겠습니다 선생님 문자 전송 시에는 개인 정보 활용 동의해주셔야 문자 전송 가능합니다 개인 정보 동의해주시겠습니까",
+            "norm_text": "A.전화번호를 문자 전송해 드리겠습니다 개인 정보 활용에 동의해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+전화/NNG+번호/NNG+를/JKO+문자/NNG+전송/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+개인/NNG+정보/NNG+활용/NNG+에/JKB+동의/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 14,
+            "text": "B.네 개인 정보 활용 동의 할게요",
+            "norm_text": "B.네 개인 정보 활용에 동의할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/MM+개/NNBC+인/VCP+ETM+정보/NNG+활용/NNG+동의/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.#@소속# 바로 문자 전송해드리겠습니다 더 다른 문의 사항있으십니까",
+            "norm_text": "A.바로 문자 전송해 드리겠습니다 더 다른 문의 사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+바로/MAG+문자/NNG+전송/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+더/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

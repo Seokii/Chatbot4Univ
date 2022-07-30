@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 45606,
+    "name": "c4_20211014_0001_1656_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706059645/c4_20211014_0001_1656_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706059645/c4_20211014_0001_1656_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50371,
+      "filename": "c4_20210906_0027_0001_01.txt",
+      "title": "c4_20210906_0027_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 305,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 305,
+        "word_size": 69,
+        "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.네 안녕하세요 교통 관련 민원이 있습니다\nA.네 교통 관련이요 말씀해 주세요\nB.@#주소# 앞에 횡단보도와 신호등을 설치해 주세요\nB.좌회전 신호가 필요합니다\nA.도로교통법과 교통 안전시설 등 설치 관리에 관한 규칙에 따라야 합니다\nA.그에 따라 관할 경찰서 교통안전심의에 상정 후 가결 시 추진 가능합니다\nB.그러면 여기서는 안된다는 거죠\nA.제가 관할 경찰서에 전달하도록 하겠습니다\nB.네 문의 사항 있으면 다시 연락 드리겠습니다\nA.감사합니다 #@이름#이었습니다 좋은 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 안녕하세요 교통 관련 민원이 있습니다",
+            "norm_text": "B.네 안녕하세요 교통 관련 민원이 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+교통/NNG+관련/NNG+민원/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.네 교통 관련이요 말씀해 주세요",
+            "norm_text": "A.네 교통 관련이요 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+교통/NNG+관련/NNG+이/VCP+요/EC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.@#주소# 앞에 횡단보도와 신호등을 설치해 주세요",
+            "norm_text": "B.@#주소# 앞에 횡단보도와 신호등을 설치해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+@/SY+#/SY+주소/NNG+#/SY+앞/NNG+에/JKB+횡단보도/NNG+와/JC+신호등/NNG+을/JKO+설치/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.좌회전 신호가 필요합니다",
+            "norm_text": "B.좌회전 신호가 필요합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+좌회전/NNG+신호/NNG+가/JKS+필요/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.도로교통법과 교통 안전시설 등 설치 관리에 관한 규칙에 따라야 합니다",
+            "norm_text": "A.도로교통법과 교통 안전시설 등 설치 관리에 관한 규칙에 따라야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+도로/NNG+교통/NNG+법/NNG+과/JC+교통/NNG+안전/NNG+시설/NNG+등/NNB+설치/NNG+관리/NNG+에/JKB+관한/VV+ETM+규칙/NNG+에/JKB+따라야/VV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.그에 따라 관할 경찰서 교통안전심의에 상정 후 가결 시 추진 가능합니다",
+            "norm_text": "A.그에 따라 관할 경찰서 교통안전심의에 상정 후 가결 시 추진 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/NP+에/JKB+따라/VV+EC+관할/NNG+경찰서/NNG+교통/NNG+안전/NNG+심의/NNG+에/JKB+상정/NNG+후/NNG+가/JKS+결시/NNG+추진/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그러면 여기서는 안된다는 거죠",
+            "norm_text": "B.그러면 여기서는 안된다는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+여기/NP+서/JKB+는/JX+안/MAG+된다는/VV+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.제가 관할 경찰서에 전달하도록 하겠습니다",
+            "norm_text": "A.제가 관할 경찰서에 전달하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+관할/NNG+경찰서/NNG+에/JKB+전달/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 문의 사항 있으면 다시 연락 드리겠습니다",
+            "norm_text": "B.네 문의 사항 있으면 다시 연락 드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+문/NNG+의/JKG+사항/NNG+있/VV+으면/EC+다시/MAG+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 #@이름#이었습니다 좋은 하루 되세요",
+            "norm_text": "A.감사합니다 #@이름#이었습니다 좋은 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

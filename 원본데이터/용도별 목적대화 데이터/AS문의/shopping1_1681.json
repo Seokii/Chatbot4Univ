@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 18604,
+    "name": "s1_20210916_0002_0030_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151257076016/s1_20210916_0002_0030_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151257076016/s1_20210916_0002_0030_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8911,
+      "filename": "s1_20210826_0013_0002_01.txt",
+      "title": "s1_20210826_0013_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 499,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 499,
+        "word_size": 111,
+        "text": "A.네 안녕하세요 여기 #@소속# 에어컨 전담 #@이름# 상담사입니다\nB.안녕하십니까 #@소속# 치과입니다\nA.예 그 #@이름# 고객님 혹시 통화 가능하십니까\nB.아 저희 원장님이신데요 저랑 말씀하셔도 될 것 같은데요\nA.예 맞습니다 실외기 쪽이 깜빡거린다고 이렇게 안내를 해주셨는데요\nB.그까 그게 깜빡거린다는게 아니라요\nB.어쩔때 킬때는 실외기가 떴다가 어쩔때 킬때는 실외기가 안떠요\nA.네 실외기가 그러시군요\nB.그래서 저희가 에이에스를 받았는데 받은날 다음부터 계속 그러거든요\nA.아 유선 리모콘에 실외기라고 표시가 나오는건요\nA.실외기가 가동이 될 때 그렇게 표기가 되는거거든요\nB.이게 실외기가 안뜨면은 실외기에 문제가 있는거라고 하셔서 불렀었어요\nA.인버터 제품의 경우에 온도유지상태에서는 실외기가 작동을 안 합니다\nB.아 그러면 원래 그런건가요\nA.네 맞습니다 고객님 그래야 전력을 아낄 수 있습니다\nB.네 알겠습니다 원래 그런거라면 뭐 그런거겠죠\nA.혹시 더 필요하신건 없으실까요\nB.네 없습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하세요 여기 #@소속# 에어컨 전담 #@이름# 상담사입니다",
+            "norm_text": "A.네 안녕하세요 여기 #@소속# 에어컨 전담 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+여기/NP+#/SY+@/SY+소속/NNG+#/SY+에어컨/NNG+전담/NNG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하십니까 #@소속# 치과입니다",
+            "norm_text": "B.안녕하십니까 #@소속# 치과입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+치과/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.예 그 #@이름# 고객님 혹시 통화 가능하십니까",
+            "norm_text": "A.예 그 #@이름# 고객님 혹시 통화 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+그/MM+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+혹시/MAG+통화/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.아 저희 원장님이신데요 저랑 말씀하셔도 될 것 같은데요",
+            "norm_text": "B.아 저희 원장님이신데요 저랑 말씀하셔도 될 것 같은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아/IC+저희/NP+원장/NNG+님/XSN+이/VCP+신데요/EP+EF+저/NP+랑/JKB+말씀/NNG+하/XSV+셔도/EP+EC+될/VV+ETM+것/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 맞습니다 실외기 쪽이 깜빡거린다고 이렇게 안내를 해주셨는데요",
+            "norm_text": "A.예 맞습니다 실외기 쪽이 깜빡거린다고 이렇게 안내를 해주셨는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+맞/VV+습니다/EF+실외기/NNG+쪽/NNB+이/JKS+깜빡거린다/VV+EF+고/JKQ+이렇게/MAG+안내/NNG+를/JKO+해/VV+EC+주/VX+셨/EP+EP+는데요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그까 그게 깜빡거린다는게 아니라요",
+            "norm_text": "B.그까 그게 깜빡거린다는게 아니라요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그까/MAJ+그게/NP+JKS+깜빡/MAG+거린다는/XSV+ETM+게/NNB+JKC+아니/VCN+라요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.어쩔때 킬때는 실외기가 떴다가 어쩔때 킬때는 실외기가 안떠요",
+            "norm_text": "B.어쩔때 킬때는 실외기가 떴다가 어쩔때 킬때는 실외기가 안떠요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+어쩔/VV+ETM+때/NNG+킬/XSV+ETN+JKO+때/NNG+는/JX+실외기/NNG+가/JKS+떴/VV+EP+다가/EC+어쩔/VV+ETM+때/NNG+킬/XSV+ETN+JKO+때/NNG+는/JX+실외기/NNG+가/JKS+안/MAG+떠요/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.네 실외기가 그러시군요",
+            "norm_text": "A.네 실외기가 그러시군요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+실외기/NNG+가/JKS+그러/VV+시/EP+군요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그래서 저희가 에이에스를 받았는데 받은날 다음부터 계속 그러거든요",
+            "norm_text": "B.그래서 저희가 에이에스를 받았는데 받은날 다음부터 계속 그러거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래서/MAJ+저희/NP+가/JKS+에이에스/NNG+를/JKO+받/VV+았/EP+는데/EC+받/VV+은/ETM+날/NNG+다음/NNG+부터/JX+계속/MAG+그러/VV+거든요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.아 유선 리모콘에 실외기라고 표시가 나오는건요",
+            "norm_text": "A.아 유선 리모콘에 실외기라고 표시가 나오는건요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아/IC+유선/NNG+리모/NNP+콘/NNG+에/JKB+실외기/NNG+라고/VCP+EC+표시/NNG+가/JKS+나오/VV+는/ETM+건요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "A.실외기가 가동이 될 때 그렇게 표기가 되는거거든요",
+            "norm_text": "A.실외기가 가동이 될 때 그렇게 표기가 되는거거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+실외기/NNG+가/JKS+가동/NNG+이/JKS+될/VV+ETM+때/NNG+그렇게/MAG+표기/NNG+가/JKS+되/VV+는/ETM+거/NNB+거든요/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.이게 실외기가 안뜨면은 실외기에 문제가 있는거라고 하셔서 불렀었어요",
+            "norm_text": "B.이게 실외기가 안뜨면은 실외기에 문제가 있는거라고 하셔서 불렀었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이게/NP+JKS+실외기/NNG+가/JKS+안/MAG+뜨/VV+면은/EC+실외기/NNG+에/JKB+문제/NNG+가/JKS+있/VA+는/ETM+거/NNB+라고/VCP+EC+하/VX+셔서/EP+EC+불렀었/VV+EP+어요/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.인버터 제품의 경우에 온도유지상태에서는 실외기가 작동을 안 합니다",
+            "norm_text": "A.인버터 제품의 경우에 온도유지상태에서는 실외기가 작동을 안 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+인버터/NNG+제품/NNG+의/JKG+경우/NNG+에/JKB+온도/NNG+유지/NNG+상태/NNG+에서/JKB+는/JX+실외기/NNG+가/JKS+작동/NNG+을/JKO+안/MAG+합니다/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.아 그러면 원래 그런건가요",
+            "norm_text": "B.아 그러면 원래 그런건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그러면/MAJ+원래/MAG+그런/MM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네 맞습니다 고객님 그래야 전력을 아낄 수 있습니다",
+            "norm_text": "A.네 맞습니다 고객님 그래야 전력을 아낄 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+고객/NNG+님/XSN+그래야/VV+EC+전력/NNG+을/JKO+아낄/VV+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.네 알겠습니다 원래 그런거라면 뭐 그런거겠죠",
+            "norm_text": "B.네 알겠습니다 원래 그런거라면 뭐 그런거겠죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+원래/MAG+그런/MM+거/NNB+라면/VCP+EC+뭐/IC+그런/MM+거/NNB+겠/VCP+EP+죠/EF"
+          },
+          {
+            "id": 17,
+            "text": "A.혹시 더 필요하신건 없으실까요",
+            "norm_text": "A.혹시 더 필요하신건 없으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+더/MAG+필요/NNG+하/XSV+신/EP+ETM+건/NNB+JX+없/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 18,
+            "text": "B.네 없습니다 감사합니다",
+            "norm_text": "B.네 없습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+없/VA+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 56345,
+    "name": "c1_20211019_0002_0197_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130758083054/c1_20211019_0002_0197_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130758083054/c1_20211019_0002_0197_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51260,
+      "filename": "c1_20210927_0012_0010_01.txt",
+      "title": "c1_20210927_0012_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 222,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 222,
+        "word_size": 44,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.안녕하세요 제한차량 운행허가는 어디를 가야 하나요\nA.확인 해보겠습니다 선생님\nA.선생님 국토관리사무소 시설안전관리과로 가셔야 합니다\nB.네 그럼 직접 방문해야 하나요\nA.아닙니다 인터넷으로도 신청이 가능합니다\nB.그럼 인터넷 주소 알려주시겠어요\nA.네 #@URL#입니다 인터넷이 빠른 신청 가능합니다\nB.네 감사합니다 수고하세요\nA.날씨가 많이 추운데 건강 유의하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 제한차량 운행허가는 어디를 가야 하나요",
+            "norm_text": "B.안녕하세요 제한차량 운행허가는 어디를 가야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+제한/NNG+차량/NNG+운행/NNG+허가/NNG+는/JX+어디/NP+를/JKO+가/VV+야/EF+하나/NR+요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.확인 해보겠습니다 선생님",
+            "norm_text": "A.확인 해보겠습니다 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "A.선생님 국토관리사무소 시설안전관리과로 가셔야 합니다",
+            "norm_text": "A.선생님 국토관리사무소 시설안전관리과로 가셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+국토/NNG+관리/NNG+사무소/NNG+시설/NNG+안전/NNG+관리/NNG+과/NNG+로/JKB+가셔야/VV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 그럼 직접 방문해야 하나요",
+            "norm_text": "B.네 그럼 직접 방문해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+직접/MAG+방문/NNG+해야/XSV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.아닙니다 인터넷으로도 신청이 가능합니다",
+            "norm_text": "A.아닙니다 인터넷으로도 신청이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아닙니다/VCN+EC+인터넷/NNG+으로/JKB+도/JX+신청/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그럼 인터넷 주소 알려주시겠어요",
+            "norm_text": "B.그럼 인터넷 주소 알려주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+인터넷/NNG+주소/NNG+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.네 #@URL#입니다 인터넷이 빠른 신청 가능합니다",
+            "norm_text": "A.네 #@URL#입니다 인터넷이 빠른 신청 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+URL/SL+#/SY+입니다/VCP+EF+인터넷/NNG+이/JKS+빠른/VA+ETM+신청/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.날씨가 많이 추운데 건강 유의하세요",
+            "norm_text": "A.날씨가 많이 추운데 건강 유의하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+날씨/NNG+가/JKS+많이/MAG+추운데/VA+EC+건강/NNG+유의/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

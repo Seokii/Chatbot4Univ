@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 95708,
+    "name": "s2_20211102_0002_0341_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt202111011107410988104/s2_20211102_0002_0341_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt202111011107410988104/s2_20211102_0002_0341_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117683,
+      "filename": "s2_20211029_0011_0019_01.txt",
+      "title": "s2_20211029_0011_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 302,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 302,
+        "word_size": 70,
+        "text": "A.#@소속# #@이름#입니다 무엇을 도와 드릴까요\nB.티켓은 여러장 구매했는데요 문자가 하나만 와서요\nA.네 고객님 문자는 주문당 하나만 가도록 되어 있어요\nB.그럼 한 번에 다 사용해야 되는 거예요\nA.아닙니다 고객님 결제하실 때 사용하실 티켓의 번호만 불러드리면 되세요\nB.그럼 그거만 사용되는 거죠\nA.네 그렇습니다 다만 유효기간 내에 모두 사용해주셔야 합니다\nB.따로 사용하면 되는 거구나 알겠습니다\nA.네 더 궁금하신 사항 없으신가요\nB.네 이제 됐어요 수고가 많으시네요\nA.아닙니다 행복한 하루 되시고요 저는 #@소속# 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속# #@이름#입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.#@소속# #@이름#입니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.티켓은 여러장 구매했는데요 문자가 하나만 와서요",
+            "norm_text": "B.티켓은 여러장 구매했는데요 문자가 하나만 와서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+티켓/NNG+은/JX+여러/MM+장/NNBC+구매/NNG+했/XSV+EP+는데요/EF+문자/NNG+가/JKS+하나/NR+만/JX+와서/VV+EC+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 문자는 주문당 하나만 가도록 되어 있어요",
+            "norm_text": "A.네 고객님 문자는 주문당 하나만 가도록 되어 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+문자/NNG+는/JX+주문/NNG+당/XSN+하나/NR+만/JX+가/VV+도록/EC+되/VV+어/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그럼 한 번에 다 사용해야 되는 거예요",
+            "norm_text": "B.그럼 한 번에 다 사용해야 되는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+한/MM+번/NNBC+에다/JKB+사용/NNG+해야/XSV+EC+되/VV+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.아닙니다 고객님 결제하실 때 사용하실 티켓의 번호만 불러드리면 되세요",
+            "norm_text": "A.아닙니다 고객님 결제하실 때 사용하실 티켓의 번호만 불러드리면 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아닙니다/VCN+EC+고객/NNG+님/XSN+결제/NNG+하/XSV+실/EP+ETM+때/NNG+사용/NNG+하/XSV+실/EP+ETM+티켓/NNG+의/JKG+번호/NNG+만/JX+불러/VV+EC+드리/VX+면/EC+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 그거만 사용되는 거죠",
+            "norm_text": "B.그럼 그거만 사용되는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+그거/NP+만/JX+사용/NNG+되/XSV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 그렇습니다 다만 유효기간 내에 모두 사용해주셔야 합니다",
+            "norm_text": "A.네 그렇습니다 다만 유효기간 내에 모두 사용해주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+다만/MAJ+유효/NNG+기간/NNG+내/NNB+에/JKB+모두/MAG+사용/NNG+해/XSV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.따로 사용하면 되는 거구나 알겠습니다",
+            "norm_text": "B.따로 사용하면 되는 거구나 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+따로/MAG+사용/NNG+하/XSV+면/EC+되/VV+는/ETM+거/NNB+구나/VCP+EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 더 궁금하신 사항 없으신가요",
+            "norm_text": "A.네 더 궁금하신 사항 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+더/MAG+궁금/XR+하/XSA+신/EP+ETM+사항/NNG+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "B.네 이제 됐어요 수고가 많으시네요",
+            "norm_text": "B.네 이제 됐어요 수고가 많으시네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+이제/MAG+됐/VV+EP+어요/EF+수고/NNG+가/JKS+많/VA+으시/EP+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.아닙니다 행복한 하루 되시고요 저는 #@소속# 상담원 #@이름#이었습니다",
+            "norm_text": "A.아닙니다 행복한 하루 되시고요 저는 #@소속# 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+아닙니다/VCN+EC+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+시/EP+고요/EF+저/NP+는/JX+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

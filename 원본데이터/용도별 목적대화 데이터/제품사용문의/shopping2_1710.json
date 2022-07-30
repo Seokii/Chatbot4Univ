@@ -1,0 +1,107 @@
+{
+  "dataset": {
+    "identifier": 107946,
+    "name": "s2_20211104_0002_0123_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110740010919/s2_20211104_0002_0123_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110740010919/s2_20211104_0002_0123_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117485,
+      "filename": "s2_20211029_0028_0002_01.txt",
+      "title": "s2_20211029_0028_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 163,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 163,
+        "word_size": 37,
+        "text": "A.안녕하세요 #@소속#의 #@이름# 상담사입니다\nB.#@소속# 여행 패키지의 투숙 인원은 몇 명이 최대인가요\nA.#@소속# 여행 패키지의 어느 상품 말씀하신 겁니까\nB.#@상품#이라고 거기 두 번째 페이지에 있어요\nA.네 투숙 인원의 최대 인원 수는 여덞 명입니다\nB.네 그렇군요 알려주셔서 감사해요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#의 #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속#의 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속# 여행 패키지의 투숙 인원은 몇 명이 최대인가요",
+            "norm_text": "B.#@소속# 여행 패키지의 투숙 인원은 몇 명이 최대인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+여행/NNG+패키지/NNG+의/JKG+투숙/NNG+인원/NNG+은/JX+몇/MM+명/NNBC+이/JKS+최대/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.#@소속# 여행 패키지의 어느 상품 말씀하신 겁니까",
+            "norm_text": "A.#@소속# 여행 패키지의 어느 상품 말씀하신 겁니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+여행/NNG+패키지/NNG+의/JKG+어느/MM+상품/NNG+말씀/NNG+하/XSV+신/EP+ETM+겁니까/NNB+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@상품#이라고 거기 두 번째 페이지에 있어요",
+            "norm_text": "B.#@상품#이라고 거기 두 번째 페이지에 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+이라고/JKQ+거기/NP+두/MM+번/NNBC+째/XSN+페이지/NNG+에/JKB+있/VV+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 투숙 인원의 최대 인원 수는 여덞 명입니다",
+            "norm_text": "A.네 투숙 인원의 최대 인원 수는 여덞 명입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+투숙/NNG+인원/NNG+의/JKG+최대/NNG+인원수/NNG+는/JX+여덞/NR+명/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 그렇군요 알려주셔서 감사해요",
+            "norm_text": "B.네 그렇군요 알려주셔서 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+군요/EC+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+해요/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

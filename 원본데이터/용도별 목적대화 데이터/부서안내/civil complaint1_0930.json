@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 53202,
+    "name": "c1_20211018_0001_2520_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130657041718/c1_20211018_0001_2520_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130657041718/c1_20211018_0001_2520_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49275,
+      "filename": "c1_20120906_0020_0003_01.txt",
+      "title": "c1_20120906_0020_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 412,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 412,
+        "word_size": 81,
+        "text": "A.안녕하세요 상담원 #@이름#입니다\nB.온라인 강의 관련해서 질문이 있는데요\nA.구체적으로 어떤 질문이신가요\nB.인터넷상으로 강의하고 있는데 이것도 #@소속#에 신고해야 되나요\nA.확인해 드리겠습니다 잠시만요\nA.신고하셔야 하는 건 맞는데요 교육 대상에 따라 내용이 조금 다릅니다\nB.교육 대상이요 성인이냐 학생들 대상이냐 그런거요\nA.맞습니다 성인을 대상으로 하는 경우는 원격평생 교육시설\nA.초중고등학생 대상이라면 학교교과교습학원의 범주로 신고하시면 됩니다\nB.그럼 신고는 어떻게 해야 하나요\nA.더 자세한 내용은 담당부서에서 확인하셔야 할 것 같은데요\nB.그럼 담당부서 좀 알려주세요\nA.#@소속# 교육지원국 학생건강지원과 #@주무관#이구요\nA.#@전번#으로 전화하시면 됩니다\nB.감사합니다 이쪽으로 연락해 보겠습니다\nA.감사합니다 상담원 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.온라인 강의 관련해서 질문이 있는데요",
+            "norm_text": "B.온라인 강의 관련해서 질문이 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+온라인/NNG+강의/NNG+관련/NNG+해서/XSV+EC+질문/NNG+이/JKS+있/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.구체적으로 어떤 질문이신가요",
+            "norm_text": "A.구체적으로 어떤 질문이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+구체/NNG+적/XSN+으로/JKB+어떤/MM+질문/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.인터넷상으로 강의하고 있는데 이것도 #@소속#에 신고해야 되나요",
+            "norm_text": "B.인터넷상으로 강의하고 있는데 이것도 #@소속#에 신고해야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+인터넷/NNG+상/XSN+으로/JKB+강의/NNG+하/XSV+고/EC+있/VX+는데/EC+이것/NP+도/JX+#/SY+@/SY+소속/NNG+#/SY+에/JKB+신고/NNG+해야/XSV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.확인해 드리겠습니다 잠시만요",
+            "norm_text": "A.확인해 드리겠습니다 잠시만요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+확인/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+잠시/MAG+만요/NNP"
+          },
+          {
+            "id": 6,
+            "text": "A.신고하셔야 하는 건 맞는데요 교육 대상에 따라 내용이 조금 다릅니다",
+            "norm_text": "A.신고하셔야 하는 건 맞는데요 교육 대상에 따라 내용이 조금 다릅니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+신고/NNG+하/XSV+셔야/EP+EC+하/VV+는/ETM+건/NNB+JX+맞/VV+는데요/EC+교육/NNG+대상/NNG+에/JKB+따라/VV+EC+내용/NNG+이/JKS+조금/MAG+다릅니다/VA+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.교육 대상이요 성인이냐 학생들 대상이냐 그런거요",
+            "norm_text": "B.교육 대상이요 성인이냐 학생들 대상이냐 그런거요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+교육/NNG+대상/NNG+이/VCP+요/EC+성인/NNG+이/VCP+냐/EC+학생/NNG+들/XSN+대상/NNG+이/VCP+냐/EF+그런/MM+거/NNB+요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.맞습니다 성인을 대상으로 하는 경우는 원격평생 교육시설",
+            "norm_text": "A.맞습니다 성인을 대상으로 하는 경우는 원격평생 교육시설",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+맞/VV+습니다/EF+성인/NNG+을/JKO+대상/NNG+으로/JKB+하/VV+는/ETM+경우/NNG+는/JX+원격/NNG+평생/NNG+교육/NNG+시설/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.초중고등학생 대상이라면 학교교과교습학원의 범주로 신고하시면 됩니다",
+            "norm_text": "A.초중고등학생 대상이라면 학교교과교습학원의 범주로 신고하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+초중/NNG+고등/NNG+학생/NNG+대상/NNG+이/VCP+라면/EC+학교/NNG+교과/NNG+교습/NNG+학원/NNG+의/JKG+범주/NNG+로/JKB+신고/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 신고는 어떻게 해야 하나요",
+            "norm_text": "B.그럼 신고는 어떻게 해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+신고/NNG+는/JX+어떻게/MAG+해야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.더 자세한 내용은 담당부서에서 확인하셔야 할 것 같은데요",
+            "norm_text": "A.더 자세한 내용은 담당부서에서 확인하셔야 할 것 같은데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+더/MAG+자세/XR+한/XSA+ETM+내용/NNG+은/JX+담당/NNG+부서/NNG+에서/JKB+확인/NNG+하/XSV+셔야/EP+EC+할/VX+ETM+것/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그럼 담당부서 좀 알려주세요",
+            "norm_text": "B.그럼 담당부서 좀 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+담당/NNG+부서/NNG+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.#@소속# 교육지원국 학생건강지원과 #@주무관#이구요",
+            "norm_text": "A.#@소속# 교육지원국 학생건강지원과 #@주무관#이구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+교육/NNG+지원국/NNP+학생/NNG+건강/NNG+지원/NNG+과/JC+#/SY+@/SY+주무관/NNG+#/SY+이/VCP+구요/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.#@전번#으로 전화하시면 됩니다",
+            "norm_text": "A.#@전번#으로 전화하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+전화/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.감사합니다 이쪽으로 연락해 보겠습니다",
+            "norm_text": "B.감사합니다 이쪽으로 연락해 보겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+이쪽/NP+으로/JKB+연락/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "A.감사합니다 상담원 #@이름#였습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

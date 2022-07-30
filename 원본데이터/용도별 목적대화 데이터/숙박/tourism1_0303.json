@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 140757,
+    "name": "t1_20211115_0002_0294_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714022767/t1_20211115_0002_0294_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714022767/t1_20211115_0002_0294_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147920,
+      "filename": "t1_0066_0106_02.txt",
+      "title": "t1_0066_0106_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 278,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 278,
+        "word_size": 67,
+        "text": "A.무엇이든 도와드리겠습니다 #@소속#입니다\nB.안녕하세요 제가 다음 주에 제주도로 놀러 가게 돼서요\nB.미리 예약 좀 하려는데 예약 방법에 어떤 게 있나 알려주실 수 있을까 해서요\nA.이메일 홈페이지 혹은 전화 예약으로 진행하실 수 있습니다\nB.아 이메일로도 예약이 가능한 건가요\nA.네 이메일로도 숙박 예약 가능하십니다\nB.메일로 예약하고 싶은데 이메일 주소 좀 알 수 있을까요\nA.네 이메일 주소는 #@계정# 이거 입니다\nB.알겠습니다 그럼 메일로 연락 드릴게요\nA.네 저희 #@소속#를 찾아주셔서 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.무엇이든 도와드리겠습니다 #@소속#입니다",
+            "norm_text": "A.무엇이든 도와드리겠습니다 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+무엇/NP+이/VCP+든/EC+도와/VV+EC+드리/VX+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 제가 다음 주에 제주도로 놀러 가게 돼서요",
+            "norm_text": "B.안녕하세요 제가 다음 주에 제주도로 놀러 가게 돼서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+다음/NNG+주/NNG+에/JKB+제주도/NNP+로/JKB+놀/VV+러/EC+가/VX+게/EC+돼서/VV+EC+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "B.미리 예약 좀 하려는데 예약 방법에 어떤 게 있나 알려주실 수 있을까 해서요",
+            "norm_text": "B.예약 좀 하려는데 어떤 게 있나 알려주실 수 있을까 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+예약/NNG+좀/MAG+하/VV+려는데/EC+어떤/MM+게/NNB+JKS+있/VA+나/EC+알려/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+을까/EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.이메일 홈페이지 혹은 전화 예약으로 진행하실 수 있습니다",
+            "norm_text": "A.이메일 홈페이지 혹은 전화 예약으로 진행하실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+이메일/NNG+홈페이지/NNG+혹은/MAJ+전화/NNG+예약/NNG+으로/JKB+진행/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.아 이메일로도 예약이 가능한 건가요",
+            "norm_text": "B.아 이메일로도 예약이 가능한 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+이메일/NNG+로/JKB+도/JX+예약/NNG+이/JKS+가능/NNG+한/XSA+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 이메일로도 숙박 예약 가능하십니다",
+            "norm_text": "A.네 이메일로도 숙박 예약 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+이메일/NNG+로/JKB+도/JX+숙박/NNG+예약/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.메일로 예약하고 싶은데 이메일 주소 좀 알 수 있을까요",
+            "norm_text": "B.메일로 예약하고 싶은데 이메일 주소 좀 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+메일/NNG+로/JKB+예약/NNG+하/XSV+고/EC+싶/VX+은데/EC+이메일/NNG+주소/NNG+좀/MAG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 이메일 주소는 #@계정# 이거 입니다",
+            "norm_text": "A.네 이메일 주소는 #@계정# 이거 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+이메일/NNG+주소/NNG+는/JX+#/SY+@/SY+계정/NNG+#/SY+이거/NP+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.알겠습니다 그럼 메일로 연락 드릴게요",
+            "norm_text": "B.알겠습니다 그럼 메일로 연락 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그럼/MAJ+메일/NNG+로/JKB+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 저희 #@소속#를 찾아주셔서 감사합니다",
+            "norm_text": "A.네 저희 #@소속#를 찾아주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+저희/NP+#/SY+@/SY+소속/NNG+#/SY+를/JKO+찾/VV+아/EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

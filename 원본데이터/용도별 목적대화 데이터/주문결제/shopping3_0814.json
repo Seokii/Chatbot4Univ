@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 16377,
+    "name": "s3_20210915_0010_1163_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151415091917/s3_20210915_0010_1163_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151415091917/s3_20210915_0010_1163_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11782,
+      "filename": "s2_20210903_0014_0003_01.txt",
+      "title": "s2_20210903_0014_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 284,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 284,
+        "word_size": 66,
+        "text": "A.반갑습니다 #@소속# #@이름# 입니다\nB.#@상품# 구매했는데요 문의드릴게 있어서요\nB.그런데 그거 언제 배달 되는 거예요\nA.우선 성함 연락처 확인 좀 부탁 드리겠습니다\nB.#@이름# 번호는 #@전번#  입니다\nA.지금 업체로 주문서는 어제 날짜로 넘어갔기 때문에요\nA. 평균적으로 저희가 영업 일 기준 하루에서 삼일 내로 출고합니다\nB..그러면 다음주 쯤에는 받을 수 있는거죠\nA.네 다음주쯤 받아보실 수 있는데 확답은 드리기 어렵습니다\nB.그래요 알겠습니다\nA.네 좋은 하루 보내시구요 #@소속# #@이름# 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름# 입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 구매했는데요 문의드릴게 있어서요",
+            "norm_text": "B.#@상품# 구매했는데요 문의드릴게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+구매/NNG+했/XSV+EP+는데/EC+요문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.그런데 그거 언제 배달 되는 거예요",
+            "norm_text": "B.그런데 그거 언제 배달 되는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그런데/MAJ+그거/NP+언제/MAG+배달/NNG+되/XSV+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.우선 성함 연락처 확인 좀 부탁 드리겠습니다",
+            "norm_text": "A.우선 성함 연락처 확인 좀 부탁 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+우선/MAG+성함/NNG+연락처/NNG+확인/NNG+좀/MAG+부탁/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.#@이름# 번호는 #@전번#  입니다",
+            "norm_text": "B.#@이름# 번호는 #@전번#  입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.지금 업체로 주문서는 어제 날짜로 넘어갔기 때문에요",
+            "norm_text": "A.지금 업체로 주문서는 어제 날짜로 넘어갔기 때문에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+지금/MAG+업체/NNG+로/JKB+주문서/NNG+는/JX+어제/MAG+날짜/NNG+로/JKB+넘어갔/VV+EP+기/ETN+때문/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A. 평균적으로 저희가 영업 일 기준 하루에서 삼일 내로 출고합니다",
+            "norm_text": "A. 평균적으로 저희가 영업 일 기준 하루에서 삼일 내로 출고합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+평균/NNG+적/XSN+으로/JKB+저희/NP+가/JKS+영업/NNG+일/VCP+ETM+기준/NNG+하루/NNG+에서/JKB+삼/NR+일/NNBC+내/NNB+로/JKB+출고/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B..그러면 다음주 쯤에는 받을 수 있는거죠",
+            "norm_text": "B..그러면 다음주 쯤에는 받을 수 있는거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+그러면/MAJ+다음/NNG+주/NNG+쯤/XSN+에/JKB+는/JX+받/VV+을/ETM+수/NNB+있/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 다음주쯤 받아보실 수 있는데 확답은 드리기 어렵습니다",
+            "norm_text": "A.네 다음주쯤 받아보실 수 있는데 확답은 드리기 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+네/IC+다음/NNG+주/NNG+쯤/XSN+받/VV+아/EC+보/VX+실/EP+ETM+수/NNB+있/VV+는데/EC+확답/NNG+은/JX+드리/VV+기/ETN+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그래요 알겠습니다",
+            "norm_text": "B.그래요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그래요/VV+EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 좋은 하루 보내시구요 #@소속# #@이름# 였습니다",
+            "norm_text": "A.네 좋은 하루 보내시구요 #@소속# #@이름# 였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+보내/VV+시/EP+구요/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

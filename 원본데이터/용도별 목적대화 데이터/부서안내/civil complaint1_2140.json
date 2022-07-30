@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 12810,
+    "name": "c1_20210913_0005_0885_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151337071238/c1_20210913_0005_0885_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151337071238/c1_20210913_0005_0885_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10168,
+      "filename": "c1_20210818_0017_0016_01.txt",
+      "title": "c1_20210818_0017_0016_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 384,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 384,
+        "word_size": 81,
+        "text": "B.제 이름은 #@이름#입니다\nA.#@이름# #@이름# 자 #@이름# 자이십니까\nB.네 맞습니다 #@이름#입니다\nA.네 선생님 제가 담당자 확인하여 담당자가 선생님께 연락 드릴 수 있도록 메모 전달해드리겠습니다\nB.여기사 #@주소#인데 공주시 #@주소#이에요\nA.죄송합니다 공주시 #@주소# 하천 교량 설치 관련이십니까\nB.네 #@주소# 월산천\nA.#@주소# 월산천 맞으십니까\nB.예 #@주소# 월산천입니다\nA.제가 담당 부서 확인 하여 선생님께 연락드릴 수 있도록 메모 전달하겠습니다\nB.네 메모 전달 부탁드립니다\nA.더 다른 문의 사항있으십니까\nB.아니요 문의 사항 없습니다\nA.네 알겠습니다 무더운 날씨 건강 유의 하시기바랍니다\nB.답변 감사합니다 수고하세요\nA.#@소속# 콜센터 #@이름#였습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "B.제 이름은 #@이름#입니다",
+            "norm_text": "B.제 이름은 #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.#@이름# #@이름# 자 #@이름# 자이십니까",
+            "norm_text": "A.#@이름# #@이름# 자 #@이름# 자이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+자/NNG+#/SY+@/SY+이름/NNG+#/SY+자이/NNG+십니까/VCP+EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 맞습니다 #@이름#입니다",
+            "norm_text": "B.네 맞습니다 #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맞/VV+습니다/EF+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 선생님 제가 담당자 확인하여 담당자가 선생님께 연락 드릴 수 있도록 메모 전달해드리겠습니다",
+            "norm_text": "A.네 담당자를 확인하여 선생님께 연락드릴 수 있도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+담당자/NNG+를/JKO+확인/NNG+하/XSV+여/EC+선생/NNG+님/XSN+께/JKB+연락/NNG+드릴/VV+ETM+수/NNB+있/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.여기사 #@주소#인데 공주시 #@주소#이에요",
+            "norm_text": "B.여기가 #@주소#인데 공주시 #@주소#이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+여기사/NNG+#/SY+@/SY+주소/NNG+#/SY+인데/VCP+EC+공주시/NNP+#/SY+@/SY+주소/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.죄송합니다 공주시 #@주소# 하천 교량 설치 관련이십니까",
+            "norm_text": "A.죄송합니다 공주시 #@주소# 하천 교량 설치 관련이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+공주시/NNP+#/SY+@/SY+주소/NNG+#/SY+하천/NNG+교량/NNG+설치/NNG+관련/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 #@주소# 월산천",
+            "norm_text": "B.네 #@주소# 월산천입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+월/NNG+산천/NNG"
+          },
+          {
+            "id": 8,
+            "text": "A.#@주소# 월산천 맞으십니까",
+            "norm_text": "A.#@주소# 월산천 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+월산천맞으십니까/UNKNOWN"
+          },
+          {
+            "id": 9,
+            "text": "B.예 #@주소# 월산천입니다",
+            "norm_text": "B.예 #@주소# 월산천입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+주소/NNG+#/SY+월산/NNG+천/NR+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.제가 담당 부서 확인 하여 선생님께 연락드릴 수 있도록 메모 전달하겠습니다",
+            "norm_text": "A.제가 담당 부서 확인하여 연락드릴 수 있도록 메모 전달하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+담당/NNG+부서/NNG+확인/NNG+하/XSV+여/EC+연락/NNG+드릴/VV+ETM+수/NNB+있/VV+도록/EC+메모/NNG+전달/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 메모 전달 부탁드립니다",
+            "norm_text": "B.네 메모 전달 부탁드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+메모/NNG+전달/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.더 다른 문의 사항있으십니까",
+            "norm_text": "A.더 다른 문의 사항있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.아니요 문의 사항 없습니다",
+            "norm_text": "B.아니요 문의 사항 없습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/IC+요문/NNG+의/JKG+사항/NNG+없/VA+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.네 알겠습니다 무더운 날씨 건강 유의 하시기바랍니다",
+            "norm_text": "A.네 알겠습니다 무더운 날씨에 건강 유의하시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+무더운/VA+ETM+날씨/NNG+에/JKB+건강/NNG+유의/NNG+하/XSV+시/EP+기/ETN+바랍니다/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.답변 감사합니다 수고하세요",
+            "norm_text": "B.답변 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+답변/NNG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 16,
+            "text": "A.#@소속# 콜센터 #@이름#였습니다 감사합니다",
+            "norm_text": "A.#@소속# 콜센터 #@이름#였습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+콜/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

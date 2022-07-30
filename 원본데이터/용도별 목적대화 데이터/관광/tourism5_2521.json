@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 160305,
+    "name": "t5_20211119_0010_2920_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135919069573/t5_20211119_0010_2920_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135919069573/t5_20211119_0010_2920_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 156375,
+      "filename": "t5_0083_0010_02.txt",
+      "title": "t5_0083_0010_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 342,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 342,
+        "word_size": 82,
+        "text": "A.안녕하세요 상담 센터 #@이름#입니다\nB.안녕하세요 문의드릴 게 있어 전화드렸습니다\nA.네 고객님 어떤 문의가 있으실까요\nB.제가 여주 시티투어를 신청하고 싶은데요\nB.가격 문의를 드리고 싶어서요\nA.네 여주 시티투어 가격 안내를 도와드리면 될까요\nB.네 안내 도와주세요 성인 2명 청소년 1명 어린이 2명입니다\nA.고객님 혹시 어린이는 나이가 어떻게 되실까요\nB.5살 1명이랑 3살 한 명입니다\nA.만 3세 유아는 무료로 입장하실 수 있습니다\nA.총 가격은 성인 만 원 청소년 3천 원 어린이 3천 원 총 1만6천 원입니다\nB.그렇군요 알겠습니다 바쁘실 텐데 감사합니다\nA.아닙니다 좋은 여행 되십시오 #@이름# 상담원이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담 센터 #@이름#입니다",
+            "norm_text": "A.안녕하세요 상담 센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 문의드릴 게 있어 전화드렸습니다",
+            "norm_text": "B.안녕하세요 문의드릴 게 있어 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어떤 문의가 있으실까요",
+            "norm_text": "A.네 고객님 어떤 문의가 있으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어떤/MM+문의/NNG+가/JKS+있/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 여주 시티투어를 신청하고 싶은데요",
+            "norm_text": "B.제가 여주 시티투어를 신청하고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+여주/NNP+시티투어/NNP+를/JKO+신청/NNG+하/XSV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.가격 문의를 드리고 싶어서요",
+            "norm_text": "B.가격 문의를 드리고 싶어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+가격/NNG+문의/NNG+를/JKO+드리/VV+고/EC+싶/VX+어서요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 여주 시티투어 가격 안내를 도와드리면 될까요",
+            "norm_text": "A.네 여주 시티투어 가격 안내를 도와드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+여주/NNP+시티투어/NNP+가격/NNG+안내/NNG+를/JKO+도와/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 안내 도와주세요 성인 2명 청소년 1명 어린이 2명입니다",
+            "norm_text": "B.네 안내 도와주세요 성인 2명 청소년 1명 어린이 2명입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안내도/NNG+와/JC+주세요/NNP+성인/NNG+2/SN+명/NNBC+청소년/NNG+1/SN+명/NNBC+어린이/NNG+2/SN+명/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.고객님 혹시 어린이는 나이가 어떻게 되실까요",
+            "norm_text": "A.고객님 혹시 어린이는 나이가 어떻게 되실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+혹시/MAG+어린이/NNG+는/JX+나이/NNG+가/JKS+어떻게/MAG+되/VV+실까요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.5살 1명이랑 3살 한 명입니다",
+            "norm_text": "B.5살 1명이랑 3살 한 명입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+5/SN+살/NNBC+1/SN+명/NNBC+이랑/JC+3/SN+살/NNBC+한/MM+명/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.만 3세 유아는 무료로 입장하실 수 있습니다",
+            "norm_text": "A.만 3세 유아는 무료로 입장하실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+만/JX+3/SN+세/NNBC+유아/NNG+는/JX+무료/NNG+로/JKB+입장/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.총 가격은 성인 만 원 청소년 3천 원 어린이 3천 원 총 1만6천 원입니다",
+            "norm_text": "A.성인 만 원 청소년 3천 원 어린이 3천 원 총 1만6천 원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+총/MM+가격/NNG+은/JX+성인/NNG+만/NR+원/NNBC+청소년/NNG+3/SN+천/NR+원/NNBC+어린이/NNG+3/SN+천/NR+원/NNBC+총/MM+1/SN+만/NR+6/SN+천/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그렇군요 알겠습니다 바쁘실 텐데 감사합니다",
+            "norm_text": "B.그렇군요 알겠습니다 바쁘실 텐데 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF+바쁘/VA+실/EP+ETM+텐데/NNB+VCP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.아닙니다 좋은 여행 되십시오 #@이름# 상담원이었습니다",
+            "norm_text": "A.아닙니다 좋은 여행 되십시오 #@이름# 상담원이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+아닙니다/VCN+EF+좋/VA+은/ETM+여행/NNG+되/XSV+십시오/EP+EC+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

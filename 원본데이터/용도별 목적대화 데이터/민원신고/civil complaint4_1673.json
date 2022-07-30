@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 47879,
+    "name": "c4_20211015_0001_1778_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704004213/c4_20211015_0001_1778_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704004213/c4_20211015_0001_1778_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50060,
+      "filename": "c4_20210903_0020_0031_01.txt",
+      "title": "c4_20210903_0020_0031_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 358,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 358,
+        "word_size": 80,
+        "text": "A.안녕하세요 상담원 #@이름#입니다\nB.안녕하세요 청탁 금지법 관련에서 문의 하려구요\nA.구체적인 내용 말씀해 주시겠습니까\nB.공무원이 직무 관련자한테 금품을 받아서 과태료 처분을 받았는데\nB.이 공무원이 이미 퇴직했다면 소속 기관장은 과태료 통보 의무가 없나요\nA.처분을 받기 전에 공무원이 이미 퇴직을 했다는 말씀이신가요\nB.맞아요 이미 퇴직 한 상태에요\nA.청탁금지법 위반 행위로 과태료 부과 대상자가 발생한 경우에는요\nA.소속기관장이 관할 법원에 통보해야 합니다\nB.그건 알고 있어요 근데 퇴직한 특이한 경우라서요\nA.퇴직을 한 경우도 마찬가지로 관할 법원에 통보 해야 합니다\nB.퇴직이랑 상관 없이요 알겠습니다\nA.감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 청탁 금지법 관련에서 문의 하려구요",
+            "norm_text": "B.안녕하세요 청탁 금지법 관련에서 문의 하려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+청탁/NNG+금지법/NNG+관련/NNG+에서/JKB+문의/NNG+하/XSV+려구요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.구체적인 내용 말씀해 주시겠습니까",
+            "norm_text": "A.구체적인 내용 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+구체/NNG+적/XSN+인/VCP+ETM+내용/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.공무원이 직무 관련자한테 금품을 받아서 과태료 처분을 받았는데",
+            "norm_text": "B.공무원이 직무 관련자한테 금품을 받아서 과태료 처분을 받았는데",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+공무원/NNG+이/JKS+직무/NNG+관련자/NNG+한테/JKB+금품/NNG+을/JKO+받/VV+아서/EC+과태료/NNG+처분/NNG+을/JKO+받/VV+았/EP+는데/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.이 공무원이 이미 퇴직했다면 소속 기관장은 과태료 통보 의무가 없나요",
+            "norm_text": "B.이 공무원이 이미 퇴직했다면 소속 기관장은 과태료 통보 의무가 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이/MM+공무원/NNG+이/JKS+이미/MAG+퇴직/NNG+했/XSV+EP+다면/EC+소속/NNG+기관장/NNG+은/JX+과태료/NNG+통보/NNG+의무/NNG+가/JKS+없/VA+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.처분을 받기 전에 공무원이 이미 퇴직을 했다는 말씀이신가요",
+            "norm_text": "A.처분을 받기 전에 공무원이 이미 퇴직을 했다는 말씀이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+처분/NNG+을/JKO+받/VV+기/ETN+전/NNG+에/JKB+공무원/NNG+이/JKS+이미/MAG+퇴직/NNG+을/JKO+했/VV+EP+다는/ETM+말씀/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.맞아요 이미 퇴직 한 상태에요",
+            "norm_text": "B.맞아요 이미 퇴직 한 상태에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맞/VV+아요/EF+이미/MAG+퇴직/NNG+한/XSA+ETM+상태/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.청탁금지법 위반 행위로 과태료 부과 대상자가 발생한 경우에는요",
+            "norm_text": "A.청탁금지법 위반 행위로 과태료 부과 대상자가 발생한 경우에는요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+청탁/NNG+금지법/NNG+위반/NNG+행위/NNG+로/JKB+과태료/NNG+부과/NNG+대상자/NNG+가/JKS+발생/NNG+한/XSA+ETM+경우/NNG+에/JKB+는/JX+요/JX"
+          },
+          {
+            "id": 9,
+            "text": "A.소속기관장이 관할 법원에 통보해야 합니다",
+            "norm_text": "A.소속기관장이 관할 법원에 통보해야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+소속/NNG+기관장/NNG+이/JKS+관할/NNG+법원/NNG+에/JKB+통보/NNG+해야/XSV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그건 알고 있어요 근데 퇴직한 특이한 경우라서요",
+            "norm_text": "B.그건 알고 있어요 근데 퇴직한 특이한 경우라서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그건/NP+JX+알/VV+고/EC+있/VX+어요/EF+근데/MAJ+퇴직/NNG+한/XSA+ETM+특이/NNG+한/XSA+ETM+경우/NNG+라서요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.퇴직을 한 경우도 마찬가지로 관할 법원에 통보 해야 합니다",
+            "norm_text": "A.퇴직을 한 경우도 마찬가지로 관할 법원에 통보 해야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+퇴직/NNG+을/JKO+한/VV+ETM+경우/NNG+도/JX+마찬가지/NNG+로/JKB+관할/NNG+법원/NNG+에/JKB+통보/NNG+해야/XSV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.퇴직이랑 상관 없이요 알겠습니다",
+            "norm_text": "B.퇴직이랑 상관 없이요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+퇴직/NNG+이랑/JKB+상관없/VA+이요/EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

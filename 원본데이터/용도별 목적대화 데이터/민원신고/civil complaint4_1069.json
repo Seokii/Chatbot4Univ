@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 45661,
+    "name": "c4_20211014_0001_1692_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706062665/c4_20211014_0001_1692_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706062665/c4_20211014_0001_1692_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50374,
+      "filename": "c4_20210906_0027_0004_01.txt",
+      "title": "c4_20210906_0027_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 304,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 304,
+        "word_size": 69,
+        "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.여기 #@주소#인데요 민원 하나 할게요\nA.네 #@주소#요 아파트 단지 맞으시죠\nB.네 여기 휴게 공간에 밴치 도색 좀 해주세요\nA.보행자도로 벤치 보수 민원 접수되었습니다\nA.벤치 보수 요청에 관하여 작업 예정임을 알려드립니다\nA.현장 여건 및 공사 일정으로 인해 즉시 보수는 힘들 것 같습니다\nB.해주신다는 거죠 네 감사합니다\nA.추가 설명이 필요한 경우 화성시 동탄출장소 교통건설과로 연락 주세요\nB.말씀 감사합니다 수고하세요\nA.감사합니다 #@이름#이었습니다 좋은 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.여기 #@주소#인데요 민원 하나 할게요",
+            "norm_text": "B.여기 #@주소#인데요 민원 하나 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+#/SY+@/SY+주소/NNG+#/SY+인데요/VCP+EC+민원/NNG+하나/NR+할게요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 #@주소#요 아파트 단지 맞으시죠",
+            "norm_text": "A.네 #@주소#요 아파트 단지 맞으시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+요/MM+아파트/NNG+단지/MAG+맞/VV+으시/EP+죠/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.네 여기 휴게 공간에 밴치 도색 좀 해주세요",
+            "norm_text": "B.네 여기 휴게 공간에 밴치 도색 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+여기/NP+휴게/NNG+공간/NNG+에/JKB+밴/VV+ETM+치도/NNG+색/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.보행자도로 벤치 보수 민원 접수되었습니다",
+            "norm_text": "A.보행자도로 벤치 보수 민원 접수되었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+보행자/NNG+도로/NNG+벤치/NNG+보수/NNG+민원/NNG+접수/NNG+되/XSV+었/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.벤치 보수 요청에 관하여 작업 예정임을 알려드립니다",
+            "norm_text": "A.벤치 보수 요청에 관하여 작업 예정임을 알려드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+벤치/NNG+보수/NNG+요청/NNG+에/JKB+관하/VV+여/EC+작업/NNG+예정/NNG+임/VCP+ETN+을/JKO+알려/VV+EC+드립니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.현장 여건 및 공사 일정으로 인해 즉시 보수는 힘들 것 같습니다",
+            "norm_text": "A.현장 여건 및 공사 일정으로 인해 즉시 보수는 힘들 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+현장/NNG+여건/NNG+및/MAJ+공사/NNG+일정/NNG+으로/JKB+인해/VV+EC+즉시/MAG+보수/NNG+는/JX+힘들/VA+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.해주신다는 거죠 네 감사합니다",
+            "norm_text": "B.해주신다는 거죠 네 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+해/VV+EC+주/VX+신다는/EP+ETM+거/NNB+죠/VCP+EF+네/IC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.추가 설명이 필요한 경우 화성시 동탄출장소 교통건설과로 연락 주세요",
+            "norm_text": "A.추가 설명이 필요한 경우 화성시 동탄출장소 교통건설과로 연락 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+추가/NNG+설명/NNG+이/JKS+필요/NNG+한/XSA+ETM+경우/NNG+화/XSN+성시/MAG+동탄/NNP+출장소/NNG+교통/NNG+건설/NNG+과/NNG+로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 11,
+            "text": "B.말씀 감사합니다 수고하세요",
+            "norm_text": "B.말씀 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+말씀/NNG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 #@이름#이었습니다 좋은 하루 되세요",
+            "norm_text": "A.감사합니다 #@이름#이었습니다 좋은 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

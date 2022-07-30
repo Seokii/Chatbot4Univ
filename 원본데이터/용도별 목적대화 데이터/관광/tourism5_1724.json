@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 158208,
+    "name": "t5_20211119_0010_2080_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135913005994/t5_20211119_0010_2080_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135913005994/t5_20211119_0010_2080_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155535,
+      "filename": "t5_0066_0137_02.txt",
+      "title": "t5_0066_0137_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 282,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 282,
+        "word_size": 56,
+        "text": "A.어떤걸 도와드릴까요  #@소속# #@이름#입니다\nB.#@기타#에 관심이 있는데 어떤 게 있는지 모르거든요\nB.#@기타#에 대해서 좀 알려주시겠어요\nA.#@기타#는 순환코스 2개 정기코스 2개로 되어 있습니다\nB.그래요 코스마다 무슨 차이가 있는거에요 방문하는곳이 다른가요\nA.네 코스마다 투어프로그램이 달라서요 방문하는 곳이 다릅니다\nB.그렇군요 혹시 #@기타# 가는 코스도 있나요\nA.네 마침 정기2코스에서 #@기타#에 갑니다\nB.그래요 그럼 그걸로 예약해야겠네요 감사해요\nA.안녕히계세요 #@이름# 상담원이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.어떤걸 도와드릴까요  #@소속# #@이름#입니다",
+            "norm_text": "A.어떤걸 도와드릴까요  #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+어떤/MM+걸/NNB+JKO+도와/VV+EC+드릴까요/VX+EC+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@기타#에 관심이 있는데 어떤 게 있는지 모르거든요",
+            "norm_text": "B.#@기타#에 관심이 있는데 어떤 게 있는지 모르거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+에/JKB+관심/NNG+이/JKS+있/VV+는데/EC+어떤/MM+게/NNB+JKS+있/VA+는지/EC+모르/VV+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.#@기타#에 대해서 좀 알려주시겠어요",
+            "norm_text": "B.#@기타#에 대해서 좀 알려 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+에/JKB+대해서/VV+EC+좀/MAG+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.#@기타#는 순환코스 2개 정기코스 2개로 되어 있습니다",
+            "norm_text": "A.#@기타#는 순환코스 2개 정기코스 2개로 되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+는/JX+순환/NNG+코스/NNG+2/SN+개/NNBC+정기/NNG+코스/NNG+2/SN+개/NNBC+로/JKB+되/VV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.그래요 코스마다 무슨 차이가 있는거에요 방문하는곳이 다른가요",
+            "norm_text": "B.그래요 코스마다 무슨 차이가 있는 거예요 방문하는 곳이 다른가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+코스/NNG+마다/JX+무슨/MM+차이/NNG+가/JKS+있/VA+는/ETM+거/NNB+에요/VCP+EF+방문/NNG+하/XSV+는/ETM+곳/NNG+이/JKS+다른/MM+가요/NNG"
+          },
+          {
+            "id": 6,
+            "text": "A.네 코스마다 투어프로그램이 달라서요 방문하는 곳이 다릅니다",
+            "norm_text": "A.네 코스마다 투어프로그램이 달라서요 방문하는 곳이 다릅니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+코스/NNG+마다/JX+투어/NNG+프로그램/NNG+이/JKS+달/VV+라서요/EC+방문/NNG+하/XSV+는/ETM+곳/NNG+이/JKS+다릅니다/VA+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그렇군요 혹시 #@기타# 가는 코스도 있나요",
+            "norm_text": "B.그렇군요 혹시 #@기타# 가는 코스도 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+혹시/MAG+#/SY+@/SY+기타/NNG+#/SY+가/VV+는/ETM+코스/NNG+도/JX+있/VA+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 마침 정기2코스에서 #@기타#에 갑니다",
+            "norm_text": "A.네 마침 정기2코스에서 #@기타#에 갑니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+마침/MAG+정기/NNG+2/SN+코스/NNG+에서/JKB+#/SY+@/SY+기타/NNG+#/SY+에/JKB+갑니다/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그래요 그럼 그걸로 예약해야겠네요 감사해요",
+            "norm_text": "B.그래요 그럼 그걸로 예약해야겠네요 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+그걸로/NP+JKB+예약/NNG+해야/XSV+EC+VX+겠/EP+네요/EF+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.안녕히계세요 #@이름# 상담원이였습니다",
+            "norm_text": "A.안녕히 계세요 #@이름# 상담원이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+안녕히/MAG+계세요/VV+EC+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

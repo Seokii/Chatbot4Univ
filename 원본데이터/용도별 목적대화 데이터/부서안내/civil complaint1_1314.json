@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 58628,
+    "name": "c1_20211020_0002_0070_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130756092748/c1_20211020_0002_0070_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130756092748/c1_20211020_0002_0070_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51052,
+      "filename": "c1_20210923_0016_0008_01.txt",
+      "title": "c1_20210923_0016_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 353,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 353,
+        "word_size": 76,
+        "text": "A.안녕하세요 #@소속#에서 전화받은 상담원 #@이름#입니다\nB.안녕 하세요 거기가 @#소속@이 맞나요\nA.네 맞습니다 고객님 어떤 문의이신가요\nB.통신판매를 통하여 판매하는 물품 등에 제한이 있나요\nA.전자상거래 등에서의 소비자보호에 관한 법률에서는요\nA.별도로 업종·업태에 대한 제한을 두고 있지 않습니다\nB.따로 제한이 없는 거네요 알겠습니다\nA.네 하지만 통신판매업자는 판매하려는 재화를 따로 확인하셔야 합니다\nA.현행 법률상 판매가 금지되는지 여부는요\nA.각 법률의 소관 부처에 확인하여야 합니다\nB.그럼 소관 부처로 다시 연락해 봐야겠네요\nA.네 확인해 보시는 게 좋을 듯합니다 상담사 #@이름#이었습니다\nB.친절한 상담 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#에서 전화받은 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#에서 전화받은 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+전화/NNG+받/VV+은/ETM+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕 하세요 거기가 @#소속@이 맞나요",
+            "norm_text": "B.안녕 하세요 거기가 @#소속@이 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+거기/NP+가/JKS+@/SY+#/SY+소속/NNG+@/SY+이/JKS+맞/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 맞습니다 고객님 어떤 문의이신가요",
+            "norm_text": "A.네 맞습니다 고객님 어떤 문의이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+고객/NNG+님/XSN+어떤/MM+문의/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.통신판매를 통하여 판매하는 물품 등에 제한이 있나요",
+            "norm_text": "B.통신판매를 통하여 판매하는 물품 등에 제한이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+통신/NNG+판매/NNG+를/JKO+통하/VV+여/EC+판매/NNG+하/XSV+는/ETM+물품/NNG+등/NNB+에/JKB+제한/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.전자상거래 등에서의 소비자보호에 관한 법률에서는요",
+            "norm_text": "A.전자상거래 등에서의 소비자보호에 관한 법률에서는요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전자/NNG+상거래/NNG+등/NNB+에서/JKB+의/JKG+소비자/NNG+보호/NNG+에/JKB+관한/VV+ETM+법률/NNG+에서/JKB+는/JX+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "A.별도로 업종·업태에 대한 제한을 두고 있지 않습니다",
+            "norm_text": "A.별도로 업종·업태에 대한 제한을 두고 있지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+별도/NNG+로/JKB+업종/NNG+·/SC+업태/NNG+에/JKB+대한/VV+ETM+제한/NNG+을/JKO+두/VV+고/EC+있/VX+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.따로 제한이 없는 거네요 알겠습니다",
+            "norm_text": "B.따로 제한이 없는 거네요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+따로/MAG+제한/NNG+이/JKS+없/VA+는/ETM+거/NNB+네요/VCP+EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.네 하지만 통신판매업자는 판매하려는 재화를 따로 확인하셔야 합니다",
+            "norm_text": "A.네 하지만 통신판매업자는 판매하려는 재화를 따로 확인하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+하지만/MAJ+통신/NNG+판매업자/NNG+는/JX+판매/NNG+하/XSV+려는/ETM+재화/NNG+를/JKO+따로/MAG+확인/NNG+하/XSV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.현행 법률상 판매가 금지되는지 여부는요",
+            "norm_text": "A.현행 법률상 판매가 금지되는지 여부는요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+현행/NNG+법률/NNG+상/XSN+판매/NNG+가/JKS+금지/NNG+되/XSV+는지/EC+여부/NNG+는/JX+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "A.각 법률의 소관 부처에 확인하여야 합니다",
+            "norm_text": "A.각 법률의 소관 부처에 확인하여야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+각/MM+법률/NNG+의/JKG+소관/NNG+부처/NNG+에/JKB+확인/NNG+하/XSV+여야/EC+합니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그럼 소관 부처로 다시 연락해 봐야겠네요",
+            "norm_text": "B.그럼 소관 부처로 다시 연락해 봐야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+소관/NNG+부처/NNG+로/JKB+다시/MAG+연락/NNG+해봐야/XSV+EC+VX+EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 확인해 보시는 게 좋을 듯합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.네 확인해 보시는 게 좋을 듯합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+해/XSV+EC+보/VX+시/EP+는/ETM+게/NNB+JKS+좋/VA+을/ETM+듯/NNB+합니다/XSA+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.친절한 상담 감사합니다 수고하세요",
+            "norm_text": "B.친절한 상담 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

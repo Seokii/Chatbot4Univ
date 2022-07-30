@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 110576,
+    "name": "s3_20211104_0002_0182_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110743074057/s3_20211104_0002_0182_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110743074057/s3_20211104_0002_0182_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117873,
+      "filename": "s3_20211001_0024_0023_01.txt",
+      "title": "s3_20211001_0024_0023_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 266,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 266,
+        "word_size": 55,
+        "text": "A.반갑습니다 #@소속# #@이름# 입니다\nB.안녕하세요 적립된 포인트가 있었는데요\nB.오랜만에 로그인해보니까 다 소멸되었어요 다시 받을 수 있나요\nA.포인트는 적립된 방법에 따라 유효기간이 존재합니다\nA.따라서 유효기간이 지나 소멸된 포인트는 재적립이 불가합니다\nB.구매 적립 포인트의 유효기간이 언제까지인데요\nA.구매 적립 포인트는 적립일 기준 유효기간 일 년입니다\nB.알겠습니다 알려주셔서 감사합니다\nA.다른 문의 사항 있으시면 #@소속#으로 연락주세요\nB.감사합니다 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름# 입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 적립된 포인트가 있었는데요",
+            "norm_text": "B.안녕하세요 적립된 포인트가 있었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+적립/NNG+된/XSV+ETM+포인트/NNG+가/JKS+있/VA+었/EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.오랜만에 로그인해보니까 다 소멸되었어요 다시 받을 수 있나요",
+            "norm_text": "B.오랜만에 로그인해보니까 다 소멸되었어요 다시 받을 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+오랜만/NNG+에/JKB+로그인/NNG+해/XSV+EC+보/VX+니까/EC+다/MAG+소멸/NNG+되/XSV+었/EP+어요/EF+다시/MAG+받/VV+을/ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.포인트는 적립된 방법에 따라 유효기간이 존재합니다",
+            "norm_text": "A.포인트는 적립된 방법에 따라 유효기간이 존재합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+포인트/NNG+는/JX+적립/NNG+된/XSV+ETM+방법/NNG+에/JKB+따라/VV+EC+유효/NNG+기간/NNG+이/JKS+존재/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.따라서 유효기간이 지나 소멸된 포인트는 재적립이 불가합니다",
+            "norm_text": "A.따라서 유효기간이 지나 소멸된 포인트는 재적립이 불가합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+따라서/MAJ+유효/NNG+기간/NNG+이/JKS+지나/VV+EC+소멸/NNG+된/XSV+ETM+포인트/NNG+는/JX+재/XPN+적립/NNG+이/JKS+불가/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.구매 적립 포인트의 유효기간이 언제까지인데요",
+            "norm_text": "B.구매 적립 포인트의 유효기간이 언제까지인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+구매/NNG+적립/NNG+포인트/NNG+의/JKG+유효/NNG+기간/NNG+이/JKS+언제/NP+까지/JX+인데요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.구매 적립 포인트는 적립일 기준 유효기간 일 년입니다",
+            "norm_text": "A.구매 적립 포인트는 적립일 기준 유효기간 일 년입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+구매/NNG+적립/NNG+포인트/NNG+는/JX+적립/NNG+일/VCP+ETM+기준/NNG+유효/NNG+기간/NNG+일/NR+년/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.알겠습니다 알려주셔서 감사합니다",
+            "norm_text": "B.알겠습니다 알려주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.다른 문의 사항 있으시면 #@소속#으로 연락주세요",
+            "norm_text": "A.다른 문의 사항 있으시면 #@소속#으로 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 10,
+            "text": "B.감사합니다 좋은 하루 보내세요",
+            "norm_text": "B.감사합니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

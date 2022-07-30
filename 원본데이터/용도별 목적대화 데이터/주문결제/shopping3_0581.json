@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 11047,
+    "name": "s3_20210913_0010_0722_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416082250/s3_20210913_0010_0722_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416082250/s3_20210913_0010_0722_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11911,
+      "filename": "s3_20210826_0011_0008_01.txt",
+      "title": "s3_20210826_0011_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 273,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 273,
+        "word_size": 72,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nA.#@상품# 여성용으로 한 세트 구매 도와드리면 될까요\nB.한 세트가 몇 쪽인데요\nA.한 세트에 여섯 개요\nB.여섯 개면 세 개요\nB.여섯 개면 어떻게 됩니까\nA.양말 한 짝 한 짝으로 따지면 열두 개요\nA.한 세트가 두 개입니다\nA.한 세트가 양 쪽 있으신 거예요 고객님\nB.그러니까는 오른발 왼발 해서요\nA.고객님 양 쪽을 한 쌍이라고 그러잖아요\nA.그렇게 여섯 쌍이에요\nB.이거는 모바일로 못 하겠고 그냥 무통장 입금하면 안 돼요\nA.네 무통장 입금 가능 하십니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.#@상품# 여성용으로 한 세트 구매 도와드리면 될까요",
+            "norm_text": "A.#@상품# 여성용으로 한 세트 구매 도와드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+여성/NNG+용/XSN+으로/JKB+한/MM+세트/NNG+구매/NNG+도와/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.한 세트가 몇 쪽인데요",
+            "norm_text": "B.한 세트가 몇 쪽인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+한/MM+세트/NNG+가/JKS+몇/MM+쪽/NNBC+인데요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.한 세트에 여섯 개요",
+            "norm_text": "A.한 세트에 여섯 개요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+한/MM+세트/NNG+에/JKB+여섯/NR+개/NNBC+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.여섯 개면 세 개요",
+            "norm_text": "B.여섯 개면 세 개요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여섯/NR+개/NNBC+면/VCP+EC+세/MM+개/NNBC+요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.여섯 개면 어떻게 됩니까",
+            "norm_text": "B.여섯 개면 어떻게 됩니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여섯/NR+개/NNBC+면/VCP+EC+어떻게/MAG+됩니까/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.양말 한 짝 한 짝으로 따지면 열두 개요",
+            "norm_text": "A.양말 한 짝 한 짝으로 따지면 열두 개요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+양말/NNG+한/XSA+ETM+짝/NNG+한/XSA+ETM+짝/NNG+으로/JKB+따지/VV+면/EC+열/NR+두/MM+개/NNBC+요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.한 세트가 두 개입니다",
+            "norm_text": "A.한 세트가 두 개입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+한/MM+세트/NNG+가/JKS+두/MM+개/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.한 세트가 양 쪽 있으신 거예요 고객님",
+            "norm_text": "A.한 세트가 양 쪽 있으신 거예요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+한/MM+세트/NNG+가/JKS+양쪽/NNG+있/VV+으신/EP+ETM+거/NNB+예요/VCP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.그러니까는 오른발 왼발 해서요",
+            "norm_text": "B.그러니까는 오른발 왼발 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+그러/VV+니까는/EC+오른발/NNG+왼발/NNG+해서/XSV+EC+VCP+VCP+요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.고객님 양 쪽을 한 쌍이라고 그러잖아요",
+            "norm_text": "A.고객님 양 쪽을 한 쌍이라고 그러잖아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+양쪽/NNG+을/JKO+한/VV+ETM+쌍/NNG+이/VCP+라고/EC+그러/VV+잖아요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.그렇게 여섯 쌍이에요",
+            "norm_text": "A.그렇게 여섯 쌍이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그렇게/MAG+여섯/NR+쌍/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.이거는 모바일로 못 하겠고 그냥 무통장 입금하면 안 돼요",
+            "norm_text": "B.이거는 모바일로 못 하겠고 그냥 무통장 입금하면 안 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이거/NP+는/JX+모바일/NNP+로/JKB+못하/VX+겠/EP+고/EC+그냥/MAG+무/XPN+통장/NNG+입금/NNG+하/XSV+면/EC+안/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 무통장 입금 가능 하십니다",
+            "norm_text": "A.네 무통장 입금 가능 하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+무/XPN+통장/NNG+입금/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

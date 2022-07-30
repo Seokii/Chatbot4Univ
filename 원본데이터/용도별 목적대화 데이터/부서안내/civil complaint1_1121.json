@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 56251,
+    "name": "c1_20211019_0002_0108_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130757001765/c1_20211019_0002_0108_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130757001765/c1_20211019_0002_0108_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51062,
+      "filename": "c1_20210923_0024_0001_01.txt",
+      "title": "c1_20210923_0024_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 290,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 290,
+        "word_size": 65,
+        "text": "A.반갑습니다 #@소속# #@이름# 상담원입니다\nB.안녕하세요 제가 부동산개발등록증 재교부 신청을 했는데요\nA.네 고객님 말씀하세요\nB.이거 담당하는 부서가 어디인가요\nA.네 담당 부서는 #@소속#입니다\nB.이게 처리기간이 원래 이렇게 오래 걸리나요\nA.아닙니다 고객님 약 일 일정도 소요되십니다\nB.근데 이게 신청한지 일주일이 넘었어요\nA.그러셨구나 고객님 그럼 담담 부서로 통화 한 번 해보시겠어요\nB.네 번호 좀 주세요\nA.전화번호는 #@전번# 입니다\nB.알겠습니다 감사합니다\nA.네 고객님 좋은 하루 보내세요\nB.네 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름# 상담원입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 제가 부동산개발등록증 재교부 신청을 했는데요",
+            "norm_text": "B.안녕하세요 제가 부동산개발등록증 재교부 신청을 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+부동산/NNG+개발/NNG+등록증/NNG+재교부/NNG+신청/NNG+을/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀하세요",
+            "norm_text": "A.네 고객님 말씀하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.이거 담당하는 부서가 어디인가요",
+            "norm_text": "B.이거 담당하는 부서가 어디인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이거/NP+담당/NNG+하/XSV+는/ETM+부서/NNG+가/JKS+어디/NP+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 담당 부서는 #@소속#입니다",
+            "norm_text": "A.네 담당 부서는 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+담당/NNG+부서/NNG+는/JX+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.이게 처리기간이 원래 이렇게 오래 걸리나요",
+            "norm_text": "B.이게 처리기간이 원래 이렇게 오래 걸리나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이게/NP+JKS+처리/NNG+기간/NNG+이/JKS+원래/MAG+이렇게/MAG+오래/MAG+걸리/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.아닙니다 고객님 약 일 일정도 소요되십니다",
+            "norm_text": "A.아닙니다 고객님 약 일 일정도 소요되십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아닙니다/VCN+EC+고객/NNG+님/XSN+약/MM+일/NR+일/NNBC+정도/NNG+소요/NNG+되/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.근데 이게 신청한지 일주일이 넘었어요",
+            "norm_text": "B.근데 이게 신청한지 일주일이 넘었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+근데/MAJ+이게/NP+JKS+신청/NNG+한지/XSA+EC+일/NR+주일/NNBC+이/JKS+넘/VV+었/EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.그러셨구나 고객님 그럼 담담 부서로 통화 한 번 해보시겠어요",
+            "norm_text": "A.그러셨구나 고객님 그럼 담담 부서로 통화 한 번 해보시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+셨/EP+EP+구나/EF+고객/NNG+님/XSN+그럼/MAJ+담담/NNG+부서/NNG+로/JKB+통화/NNG+한/MM+번/NNBC+해/VV+EC+보/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 번호 좀 주세요",
+            "norm_text": "B.네 번호 좀 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+번호/NNG+좀/MAG+주세요/NNP"
+          },
+          {
+            "id": 11,
+            "text": "A.전화번호는 #@전번# 입니다",
+            "norm_text": "A.전화번호는 #@전번# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.알겠습니다 감사합니다",
+            "norm_text": "B.알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 고객님 좋은 하루 보내세요",
+            "norm_text": "A.네 고객님 좋은 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.네 좋은 하루 보내세요",
+            "norm_text": "B.네 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": "B/SL+네/IC+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

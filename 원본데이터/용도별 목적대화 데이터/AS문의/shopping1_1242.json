@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 16881,
+    "name": "s1_20210915_0002_0053_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151256051576/s1_20210915_0002_0053_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151256051576/s1_20210915_0002_0053_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8730,
+      "filename": "s1_20210825_0010_0001_01.txt",
+      "title": "s1_20210825_0010_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 464,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 464,
+        "word_size": 109,
+        "text": "A.네 반갑습니다 #@소속# 냉장고 상담사 #@이름#입니다\nB.예 여보세요 냉장고 상담사시라고요\nA.예 냉장고 온도관련 문의가 있다고 하셨는데 잠시 통화 가능하세요\nB.네 지금 통화 괜찮아요\nA.지금 온도 때문에 걱정이 많으시다고 들었습니다\nB.네 냉동고 문 앞에 나타나는 숫자요 그게 밑으로 내려가질 않네요\nA.지금 사용 중이신 제품이 양문형 인가요 일반 냉동고 제품이신가요\nB.양쪽으로 문 여는 것이구요 #@상품#이에요\nA.그럼 모델명 불러주시면 제가 한 번 확인해보겠습니다\nB.그래요 근데 모델명을 어디서 봐야 되나요\nA.냉장고 앞쪽에 보시면 소비열 등급이라는 종이가 보이시죠\nA.거기에 알 다시로 나와있는 게 있을 겁니다\nB.소비열 등급이요 잠깐만요 네 모델명이 #@상품#네요\nA.감사합니다 제가 제품 확인 후 다시 연락을 드리겠습니다\nA.지금 전화주신 번호로 연락 드리면 될까요\nB.네 이 번호로 다시 연락주세요\nA.네 감사합니다 잠시만 기다려주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 반갑습니다 #@소속# 냉장고 상담사 #@이름#입니다",
+            "norm_text": "A.네 반갑습니다 #@소속# 냉장고 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+냉장고/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 여보세요 냉장고 상담사시라고요",
+            "norm_text": "B.예 여보세요 냉장고 상담사시라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+여보세요/IC+냉장고/NNG+상담/NNG+사/VV+시/EP+라고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.예 냉장고 온도관련 문의가 있다고 하셨는데 잠시 통화 가능하세요",
+            "norm_text": "A.예 냉장고 온도관련 문의가 있다고 하셨는데 잠시 통화 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+냉장고/NNG+온도/NNG+관련/NNG+문의/NNG+가/JKS+있/VA+다고/EC+하/VX+셨/EP+EP+는데/EC+잠시/MAG+통화/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 지금 통화 괜찮아요",
+            "norm_text": "B.네 지금 통화 괜찮아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+지금/MAG+통화/NNG+괜찮/VA+아요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.지금 온도 때문에 걱정이 많으시다고 들었습니다",
+            "norm_text": "A.지금 온도 때문에 걱정이 많으시다고 들었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+지금/MAG+온도/NNG+때문/NNB+에/JKB+걱정/NNG+이/JKS+많/VA+으시/EP+다고/EC+들/VX+었/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 냉동고 문 앞에 나타나는 숫자요 그게 밑으로 내려가질 않네요",
+            "norm_text": "B.네 냉동고 문 앞에 나타나는 숫자요 그게 밑으로 내려가질 않네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+냉동/NNG+고문/NNG+앞/NNG+에/JKB+나타나/VV+는/ETM+숫자/NNG+요/VCP+EC+그게/NP+JKS+밑/NNG+으로/JKB+내려가/VV+질/EC+JX+않/VX+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.지금 사용 중이신 제품이 양문형 인가요 일반 냉동고 제품이신가요",
+            "norm_text": "A.지금 사용 중이신 제품이 양문형 인가요 일반 냉동고 제품이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+사용/NNG+중/NNB+이/VCP+신/EP+ETM+제품/NNG+이/JKS+양문/NNG+형/XSN+인가요/VCP+EC+일반/NNG+냉동고/NNG+제품/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.양쪽으로 문 여는 것이구요 #@상품#이에요",
+            "norm_text": "B.양쪽으로 문 여는 것이구요 #@상품#이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+양쪽/NNG+으로/JKB+문/NNG+여/VV+는/ETM+것/NNB+이/VCP+구요/EF+#/SY+@/SY+상품/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.그럼 모델명 불러주시면 제가 한 번 확인해보겠습니다",
+            "norm_text": "A.그럼 모델명 불러주시면 제가 한 번 확인해보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그럼/MAJ+모델/NNG+명/XSN+불러/VV+EC+주/VX+시/EP+면/EC+제/NP+가/JKS+한/MM+번/NNBC+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그래요 근데 모델명을 어디서 봐야 되나요",
+            "norm_text": "B.그래요 근데 모델명을 어디서 봐야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+근데/MAJ+모델/NNG+명/NNG+을/JKO+어디/NP+서/JKB+봐야/VV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.냉장고 앞쪽에 보시면 소비열 등급이라는 종이가 보이시죠",
+            "norm_text": "A.냉장고 앞쪽에 보시면 소비열 등급이라는 종이가 보이시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+냉장고/NNG+앞쪽/NNG+에/JKB+보/VV+시/EP+면/EC+소비/NNG+열/NR+등급/NNBC+이/VCP+라는/ETM+종이/NNG+가/JKS+보이/VV+시/EP+죠/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.거기에 알 다시로 나와있는 게 있을 겁니다",
+            "norm_text": "A.거기에 알 다시로 나와있는 게 있을 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+거기/NP+에/JKB+알/VV+다/EC+시/NNG+로/JKB+나와/VV+EC+있/VX+는/ETM+게/NNB+JKS+있/VA+을/ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.소비열 등급이요 잠깐만요 네 모델명이 #@상품#네요",
+            "norm_text": "B.소비열 등급이요 잠깐만요 네 모델명이 #@상품#네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+소비/NNG+열/NR+등급/NNBC+이요/JX+잠깐/MAG+만요/NNP+네/XSN+모델/NNG+명이/NNG+#/SY+@/SY+상품/NNG+#/SY+네요/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.감사합니다 제가 제품 확인 후 다시 연락을 드리겠습니다",
+            "norm_text": "A.감사합니다 제가 제품 확인 후 다시 연락을 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+제/NP+가/JKS+제품/NNG+확인/NNG+후/NNG+다시/MAG+연락/NNG+을/JKO+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.지금 전화주신 번호로 연락 드리면 될까요",
+            "norm_text": "A.지금 전화주신 번호로 연락 드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+전화/NNG+주/VV+신/EP+ETM+번호/NNG+로/JKB+연락/NNG+드리/VV+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 이 번호로 다시 연락주세요",
+            "norm_text": "B.네 이 번호로 다시 연락주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+이/MM+번호/NNG+로/JKB+다시/MAG+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 17,
+            "text": "A.네 감사합니다 잠시만 기다려주세요",
+            "norm_text": "A.네 감사합니다 잠시만 기다려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+잠시/NNG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 101094,
+    "name": "s7_20211103_0012_0372_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211101111109066898/s7_20211103_0012_0372_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211101111109066898/s7_20211103_0012_0372_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 125498,
+      "filename": "s7_20211022_0010_0005_01.txt",
+      "title": "s7_20211022_0010_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 422,
+      "annotations": {
+        "subject": "온오프라인 안내",
+        "speaker_type": "1:1",
+        "size": 422,
+        "word_size": 103,
+        "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다 무엇을 도와드릴까요\nB.안녕하세요 상품 구매하고 리뷰 쓸 수 있잖아요\nA.네 리뷰 관련하여 어떤 문의이신가요\nB.리뷰 쓸 때 분량 제한이 있나요\nA.상품 유형이 도서이신가요 아니면 그 외 블루레이 같은 상품인가요\nB.도서 구매할 때도 있고 디브이디나 블루레이 구매할 때도 있어요\nA.우선 도서의 경우 최소 백오십 자 이상으로 작성해 주셔야 하고요\nA.그 외 상품의 경우에는 오십 자 이상으로 작성 부탁드립니다\nB.아니요 최대 쓸 수 있는 분량이 어떻게 되냐고요\nA.최대 작성 분량은 한글 일만 자이고 영문 이만 자입니다\nB.띄어쓰기는 제외하고 일만 자인 거죠\nA.포함하여서이고요 리뷰 작성란 우측 상단에서 글자 수 확인 가능합니다\nA.고객님 다른 문의사항 있으신가요\nA.고객님 말씀이 없으셔서 통화 종료하도록 하겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 상품 구매하고 리뷰 쓸 수 있잖아요",
+            "norm_text": "B.안녕하세요 상품 구매하고 리뷰 쓸 수 있잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상품/NNG+구매/NNG+하/XSV+고/EC+리뷰/NNP+쓸/VV+ETM+수/NNB+있/VV+잖아요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 리뷰 관련하여 어떤 문의이신가요",
+            "norm_text": "A.네 리뷰 관련하여 어떤 문의이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+리뷰/NNP+관련/NNG+하/XSV+여/EC+어떤/MM+문의/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.리뷰 쓸 때 분량 제한이 있나요",
+            "norm_text": "B.리뷰 쓸 때 분량 제한이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+리뷰/NNP+쓸/VV+ETM+때/NNG+분량/NNG+제한/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.상품 유형이 도서이신가요 아니면 그 외 블루레이 같은 상품인가요",
+            "norm_text": "A.상품 유형이 도서이신가요 아니면 그 외 블루레이 같은 상품인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+상품/NNG+유형/NNG+이/JKS+도서/NNG+이/VCP+신가요/EP+EF+아니면/MAJ+그/MM+외/NNB+블/NNG+루/JKB+레이/NNG+같/VA+은/ETM+상품/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.도서 구매할 때도 있고 디브이디나 블루레이 구매할 때도 있어요",
+            "norm_text": "B.도서 구매할 때도 있고 디브이디나 블루레이 구매할 때도 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+도서/NNG+구매/NNG+할/XSV+ETM+때/NNG+도/JX+있/VA+고/EC+디브/NNP+이디나/NNP+블루/NNP+레이/NNG+구매/NNG+할/XSV+ETM+때/NNG+도/JX+있/VA+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.우선 도서의 경우 최소 백오십 자 이상으로 작성해 주셔야 하고요",
+            "norm_text": "A.우선 도서의 경우 최소 백오십 자 이상으로 작성해 주셔야 하고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+우선/MAG+도서/NNG+의/JKG+경우/NNG+최소/NNG+백/NR+오/NR+십/NR+자/NNBC+이상/NNG+으로/JKB+작성/NNG+해/XSV+EC+주/VX+셔야/EP+EC+하/VV+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.그 외 상품의 경우에는 오십 자 이상으로 작성 부탁드립니다",
+            "norm_text": "A.그 외 상품의 경우에는 오십 자 이상으로 작성 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+그/MM+외/NNB+상품/NNG+의/JKG+경우/NNG+에/JKB+는/JX+오/NR+십/NR+자/NNBC+이상/NNG+으로/JKB+작성/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.아니요 최대 쓸 수 있는 분량이 어떻게 되냐고요",
+            "norm_text": "B.아니요 최대 쓸 수 있는 분량이 어떻게 되냐고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아니요/IC+최대/NNG+쓸/VV+ETM+수/NNB+있/VV+는/ETM+분량/NNG+이/JKS+어떻게/MAG+되/VV+냐고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.최대 작성 분량은 한글 일만 자이고 영문 이만 자입니다",
+            "norm_text": "A.최대 작성 분량은 한글 일만 자이고 영문 이만 자입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+최대/NNG+작성/NNG+분량/NNG+은/JX+한글/NNG+일만/NR+자/NNBC+이/VCP+고/EC+영문/NNG+이/JKS+만자/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.띄어쓰기는 제외하고 일만 자인 거죠",
+            "norm_text": "B.띄어쓰기는 제외하고 일만 자인 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+띄어쓰/VV+기/ETN+는/JX+제외/NNG+하/XSV+고/EC+일만/NR+자/NNBC+인/VCP+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.포함하여서이고요 리뷰 작성란 우측 상단에서 글자 수 확인 가능합니다",
+            "norm_text": "A.포함하여서이고요 리뷰 작성란 우측 상단에서 글자 수 확인 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+포함/NNG+하/XSV+여서/EC+이/MM+고요/NNG+리뷰/NNP+작성/NNG+란/VCP+ETM+우측/NNG+상단/NNG+에서/JKB+글자/NNG+수확/NNG+인/VCP+ETM+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.고객님 다른 문의사항 있으신가요",
+            "norm_text": "A.고객님 다른 문의사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 14,
+            "text": "A.고객님 말씀이 없으셔서 통화 종료하도록 하겠습니다 감사합니다",
+            "norm_text": "A.고객님 말씀이 없으셔서 통화 종료하도록 하겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+말씀/NNG+이/JKS+없/VA+으셔서/EP+EC+통화/NNG+종료/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

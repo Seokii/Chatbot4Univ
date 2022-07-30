@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 141507,
+    "name": "t1_20211115_0002_0548_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357160257101/t1_20211115_0002_0548_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357160257101/t1_20211115_0002_0548_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148174,
+      "filename": "t1_0068_0100_02.txt",
+      "title": "t1_0068_0100_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 338,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 338,
+        "word_size": 72,
+        "text": "A.두근두근 순천여행 #@이름# 상담사 입니다\nB.부모님과 순천여행 준비 중인데요 깔끔하고 좋은 호텔 추천해 주세요\nA.부모님과 순천여행 준비 중이시군요 신축 호텔로 추천해드려도 될까요\nB.신축호텔 좋아요 순천만국가정원하고 가까우면 좋겠어요\nA.더베이호텔 추천해 드릴게요 21년에 신규 오픈 한 호텔입니다\nB.체크인과 체크아웃 시간도 알려 주시겠어요\nA.체크인은 15시이고요 체크아웃은 11시 입니다\nB.3인이 이용 할 건데 객실료는 얼마인가요\nA.주중에는 10만원 이고요 주말에는 15만원 입니다\nB.가격도 생각했던 금액이네요 날짜 정해서 예약 해야겠어요\nA.순천에서 가족과 즐거운 시간 되세요 상담사 #@이름# 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.두근두근 순천여행 #@이름# 상담사 입니다",
+            "norm_text": "A.두근두근 순천여행 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+두근두근/MAG+순천/NNG+여행/NNG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.부모님과 순천여행 준비 중인데요 깔끔하고 좋은 호텔 추천해 주세요",
+            "norm_text": "B.부모님과 순천여행 가려는데 깔끔하고 좋은 호텔 추천해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+부모/NNG+님/XSN+과/JC+순천/NNG+여행/NNG+가/VV+려는데/EC+깔끔/XR+하/XSA+고/EC+좋/VA+은/ETM+호텔/NNG+추천/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.부모님과 순천여행 준비 중이시군요 신축 호텔로 추천해드려도 될까요",
+            "norm_text": "A.그럼 신축 호텔로 추천해드려도 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+신축/NNG+호텔/NNG+로/JKB+추천/NNG+해/XSV+EC+드려도/VX+EC+될까요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.신축호텔 좋아요 순천만국가정원하고 가까우면 좋겠어요",
+            "norm_text": "B.신축호텔 좋아요 순천만국가정원하고 가까우면 좋겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+신축/NNG+호텔/NNG+좋/VA+아/EC+요순/NNG+천만/NR+국가/NNG+정원/NNG+하/XSV+고/EC+가까우/VA+면/EC+좋/VA+겠/EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.더베이호텔 추천해 드릴게요 21년에 신규 오픈 한 호텔입니다",
+            "norm_text": "A.더베이호텔 추천해 드릴게요 21년에 신규 오픈한 호텔입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+더/MAG+베/VV+EC+이/MM+호텔/NNG+추천/NNG+해/XSV+EC+드릴게요/VX+EC+21/SN+년/NNBC+에/JKB+신규/NNG+오픈/NNG+한/XSA+ETM+호텔/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.체크인과 체크아웃 시간도 알려 주시겠어요",
+            "norm_text": "B.체크인과 체크아웃 시간도 알려 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+체크인/NNG+과/JC+체크아웃/NNG+시간/NNG+도/JX+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.체크인은 15시이고요 체크아웃은 11시 입니다",
+            "norm_text": "A.체크인은 15시이고요 체크아웃은 11시 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+체크인/NNG+은/JX+15/SN+시/NNBC+이/VCP+고요/EC+체크아웃/NNG+은/JX+11/SN+시/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.3인이 이용 할 건데 객실료는 얼마인가요",
+            "norm_text": "B.3인이 이용 할 건데 객실료는 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+3/SN+인/NNG+이/JKS+이용/NNG+할/XSV+ETM+건데/NNB+VCP+EC+객실/NNG+료/NNG+는/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.주중에는 10만원 이고요 주말에는 15만원 입니다",
+            "norm_text": "A.주중에는 10만원 이고요 주말에는 15만원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주/NNG+중/NNB+에/JKB+는/JX+10/SN+만/NR+원/NNBC+이/VCP+고요/EC+주말/NNG+에/JKB+는/JX+15/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.가격도 생각했던 금액이네요 날짜 정해서 예약 해야겠어요",
+            "norm_text": "B.가격도 생각했던 금액이네요 날짜 정해서 예약해야겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+가격/NNG+도/JX+생각/NNG+했/XSV+EP+던/ETM+금액/NNG+이/VCP+네요/EF+날짜/NNG+정해서/VV+EC+예약/NNG+해야/XSV+EC+VX+겠/EP+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.순천에서 가족과 즐거운 시간 되세요 상담사 #@이름# 였습니다",
+            "norm_text": "A.순천에서 가족과 즐거운 시간 되세요 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+순천/NNG+에서/JKB+가족/NNG+과/JKB+즐거운/VA+ETM+시간/NNG+되/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 118107,
+    "name": "s3_20211105_0002_0083_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744019841/s3_20211105_0002_0083_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744019841/s3_20211105_0002_0083_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117923,
+      "filename": "s3_20211001_0022_0002_01.txt",
+      "title": "s3_20211001_0022_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 470,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 470,
+        "word_size": 101,
+        "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다\nB.예 수고가 많으십니다 제가 질문사항이 있어서 전화드렸어요\nA.네 여쭤보시고 싶은게 있으신가요\nB.그쪽 쇼핑몰에서 결제를 하려고 하는데 #@소속# 페이라는 결제 방법으로 결제를 할 수 있던데\nA.네 #@소속#페이 말씀하시는거세요\nB.네 그건 일반 신용카드 결제나 #@소속#결제같은거랑 뭐가 어떻게 다른건가요\nA.다른 결제 수단들 중에서는 간편결제 시스템이랑 비슷한 개념일거에요\nB.간편결제는 #@소속#페이 결제 같은 걸 말씀하시는건가요\nA.고객님의 머니정보를 최초 일회 미리 등록후 비밀번호를 통해 간편하세 결제하는 서비스에요\nB.그럼 매번 결제할 때 마다 은행 계좌번호 적고 결제하는 절차를 안해도 되는건가요\nA.네 맞습니다 거기다 별도 앱을 설치하실 필요 없이 웹에서 서비스 이용도 가능하세요\nB.그렇군요 알겠습니다 다른 질문사항 생기면 연락드리겠습니다\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+친절한/NNP+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고가 많으십니다 제가 질문사항이 있어서 전화드렸어요",
+            "norm_text": "B.예 수고가 많으십니다 제가 질문사항이 있어서 전화드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+가/JKS+많/VA+으십니다/EP+EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "norm_text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.그쪽 쇼핑몰에서 결제를 하려고 하는데 #@소속# 페이라는 결제 방법으로 결제를 할 수 있던데",
+            "norm_text": "B.그쪽 쇼핑몰에서 결제를 하려고 하는데 #@소속# 페이라는 결제 방법으로 결제를 할 수 있던데",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그쪽/NP+쇼핑몰/NNG+에서/JKB+결제/NNG+를/JKO+하/VV+려고/EC+하/VV+는데/EC+#/SY+@/SY+소속/NNG+#/SY+페이/NNP+라는/VCP+ETM+결제/NNG+방법/NNG+으로/JKB+결제/NNG+를/JKO+할/VV+ETM+수/NNB+있/VV+던데/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 #@소속#페이 말씀하시는거세요",
+            "norm_text": "A.네 #@소속#페이 말씀하시는거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+페이/NNP+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 그건 일반 신용카드 결제나 #@소속#결제같은거랑 뭐가 어떻게 다른건가요",
+            "norm_text": "B.네 그건 일반 신용카드 결제나 #@소속#결제같은거랑 뭐가 어떻게 다른건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그건/NP+JX+일반/NNG+신용/NNG+카드/NNG+결제/NNG+나/JC+#/SY+@/SY+소속/NNG+#/SY+결제/NNG+같/VA+은/ETM+거/NNB+랑/JC+뭐/NP+가/JKS+어떻게/MAG+다른/VA+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.다른 결제 수단들 중에서는 간편결제 시스템이랑 비슷한 개념일거에요",
+            "norm_text": "A.다른 결제 수단들 중에서는 간편결제 시스템이랑 비슷한 개념일거에요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+다른/MM+결제/NNG+수단/NNG+들/XSN+중/NNB+에서/JKB+는/JX+간편/XR+결제/NNG+시스템/NNG+이랑/JC+비슷/XR+한/XSA+ETM+개념/NNG+일/VCP+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.간편결제는 #@소속#페이 결제 같은 걸 말씀하시는건가요",
+            "norm_text": "B.간편결제는 #@소속#페이 결제 같은 걸 말씀하시는건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+간편/XR+결제/NNG+는/JX+#/SY+@/SY+소속/NNG+#/SY+페이/NNP+결제/NNG+같/VA+은/ETM+걸/NNB+JKO+말씀/NNG+하/XSV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.고객님의 머니정보를 최초 일회 미리 등록후 비밀번호를 통해 간편하세 결제하는 서비스에요",
+            "norm_text": "A.고객님의 머니정보를 최초 일회 미리 등록후 비밀번호를 통해 간편하세 결제하는 서비스에요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+의/JKG+머니/NNG+정보/NNG+를/JKO+최초/NNG+일/NR+회/NNBC+미리/MAG+등록/NNG+후/NNG+비밀번호/NNG+를/JKO+통해/VV+EC+간편/XR+하/XSA+세/MM+결제/NNG+하/XSV+는/ETM+서비스/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 매번 결제할 때 마다 은행 계좌번호 적고 결제하는 절차를 안해도 되는건가요",
+            "norm_text": "B.그럼 매번 결제할 때 마다 은행 계좌번호 적고 결제하는 절차를 안해도 되는건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+매번/MAG+결제/NNG+할/XSV+ETM+때/NNG+마다/JX+은행/NNG+계좌/NNG+번호/NNG+적/XSN+고결/NNG+제하/VV+는/ETM+절차/NNG+를/JKO+안/MAG+해도/VV+EC+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 맞습니다 거기다 별도 앱을 설치하실 필요 없이 웹에서 서비스 이용도 가능하세요",
+            "norm_text": "A.네 맞습니다 거기다 별도 앱을 설치하실 필요 없이 웹에서 서비스 이용도 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+거기/NP+다/JX+별도/NNG+앱/NNG+을/JKO+설치/NNG+하/XSV+실/EP+ETM+필요/NNG+없이/MAG+웹/NNG+에서/JKB+서비스/NNG+이용/NNG+도/JX+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.그렇군요 알겠습니다 다른 질문사항 생기면 연락드리겠습니다",
+            "norm_text": "B.그렇군요 알겠습니다 다른 질문사항 생기면 연락드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF+다른/MM+질문/NNG+사항/NNG+생기/VV+면/EC+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

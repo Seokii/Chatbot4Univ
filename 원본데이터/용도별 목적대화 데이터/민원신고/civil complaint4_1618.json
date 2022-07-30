@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 47788,
+    "name": "c4_20211015_0001_1708_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202110081307050346101/c4_20211015_0001_1708_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202110081307050346101/c4_20211015_0001_1708_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50214,
+      "filename": "c4_20210906_0008_0001_01.txt",
+      "title": "c4_20210906_0008_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 266,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 266,
+        "word_size": 60,
+        "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 주차 구획선 때문에 문의 드릴 게 있습니다\nA.주차 구획선 어떤 문의 이십니까\nB.네 저번에 노상 주차장이 폐지 되서 없어졌거든요\nA.네 폐지된 주차장 주소를 아십니까\nB.예 여기 김포시 #@주소#에요\nA.네 확인 결과 차량 흐름 및 주차장 입출차 시 차로폭을 고려하여 삭제되었습니다\nB.재설치 관련해서는 어려운 걸까요\nA.네 죄송하지만 재설치는 어려워 보입니다\nB.네 알겠습니다 수고하세요\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 주차 구획선 때문에 문의 드릴 게 있습니다",
+            "norm_text": "B.안녕하세요 주차 구획선 때문에 문의 드릴 게 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+주차/NNG+구획선/NNG+때문/NNB+에/JKB+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.주차 구획선 어떤 문의 이십니까",
+            "norm_text": "A.주차 구획선 어떤 문의 이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주차/NNG+구획선/NNG+어떤/MM+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 저번에 노상 주차장이 폐지 되서 없어졌거든요",
+            "norm_text": "B.네 저번에 노상 주차장이 폐지 되서 없어졌거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+저번/NNG+에/JKB+노상/MAG+주차장/NNG+이/JKS+폐지/NNG+되/XSV+서/EC+없/VA+어/EC+졌/VX+EP+거든요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 폐지된 주차장 주소를 아십니까",
+            "norm_text": "A.네 폐지된 주차장 주소를 아십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+폐지/NNG+된/XSV+ETM+주차장/NNG+주소/NNG+를/JKO+아십니까/VV+EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예 여기 김포시 #@주소#에요",
+            "norm_text": "B.예 여기 김포시 #@주소#에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+여기/NP+김포시/NNP+#/SY+@/SY+주소/NNG+#/SY+에/JKB+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.네 확인 결과 차량 흐름 및 주차장 입출차 시 차로폭을 고려하여 삭제되었습니다",
+            "norm_text": "A.네 확인 결과 차량 흐름 및 주차장 입출차 시 차로폭을 고려하여 삭제되었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+결과/NNG+차량/NNG+흐름/NNG+및/MAJ+주차장/NNG+입출/NNG+차시/NNG+차/NNG+로/JKB+폭/NNG+을/JKO+고려/NNG+하/XSV+여/EC+삭제/NNG+되/XSV+었/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.재설치 관련해서는 어려운 걸까요",
+            "norm_text": "B.재설치 관련해서는 어려운 걸까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+재/XPN+설치/NNG+관련/NNG+해서/XSV+EC+는/JX+어려운/VA+ETM+걸까요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 죄송하지만 재설치는 어려워 보입니다",
+            "norm_text": "A.네 죄송하지만 재설치는 어려워 보입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+죄송/XR+하/XSA+지만/EC+재/XPN+설치/NNG+는/JX+어려워/VA+EC+보입니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 알겠습니다 수고하세요",
+            "norm_text": "B.네 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

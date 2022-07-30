@@ -1,0 +1,407 @@
+{
+  "dataset": {
+    "identifier": 31148,
+    "name": "s2_20211007_0010_1479_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151413018354/s2_20211007_0010_1479_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151413018354/s2_20211007_0010_1479_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11382,
+      "filename": "s2_20210827_0024_0005_01.txt",
+      "title": "s2_20210827_0024_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 801,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 801,
+        "word_size": 194,
+        "text": "A.안녕하세요 #@이름# 입니다\nB.제가 #@상품# 증정이 안와서요 #@이름#\nA.네 고객님 어 저 이 옵션은 증정품이 없는 걸로 확인이 되시는데요\nB.그게 없는거라고요 그렇게 적혀있는데\nA.아뇨 고객님 증정품 드리는 옵션은 따로 이렇게 되어있어요\nB.그러면 그러면은 그 추가하면요 아니 그 증정하면요\nA.근데 고객님 증정으로 그렇게 주문하신 게 아니구요\nA.고객님 주문하신 거를 지금 말씀을 드리는 거잖아요\nB.이거니까 저가 했잖아요 지금은 주는데 보니까\nB.그렇게 오십 매 플라스 십 회 그 육십 매로 할 거 아니고요\nA.그게 고객님 주문해주신 옵션은 그게 아니고요\nB.백 매해서 백이십 개 받자 해서 주문을 한 상황이었 상황이었거든요\nB.그런데 이렇게 말 말해버리면 내가 답답하죠 그러면요\nA.고객님 무슨 말씀하시는지는 아는데요\nB.그때는 증정이 없었다고요\nA.예 없었어요 주문하신 걸로 말씀드리는 거고요\nB.아니 그면 그면은 그러면은 제가 물어볼게요\nB.#@상품# 육십 매 블랙은 뭡니까\nA.어떤 거요 고객님\nB.주문할 당시 #@상품#이요 그 플라스 되는거요\nA.그럼 그거를 선택을 하셔야지 옵션이 여러 개가 있잖아요\nA.지금도 상품 들어가시면 옵션이 여러 개 있잖아요\nB.지금은 지금 지금은 이 자체가 바뀌죠\nB.#@상품# 오십 해서요\nA.그니까 지금도 계속 바뀌어요 바뀌는데요\nA.고객님이 선택을 그거를 하셨습니다 그 당시에요\nB.그럼 잘못 한거라고요\nA.그니까 잘못 주문을 하신거죠 결론적으로는 고객님\nA.고객님 선택을 그거를 하셨으니까 이게 주문이 된 거예요\nB.하여튼 알아서 해요 저 하는 대로 할게요 반품을 하든 뭐를 하든요\nA.예 고객님 상담사 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 #@상품# 증정이 안와서요 #@이름#",
+            "norm_text": "B.제가 #@상품# 증정이 안와서요 #@이름#",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+제/NP+가/JKS+#/SY+@/SY+상품/NNG+#/SY+증정/NNG+이/JKS+안/MAG+와서/VV+EC+요/JX+#/SY+@/SY+이름/NNG+#/SY"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어 저 이 옵션은 증정품이 없는 걸로 확인이 되시는데요",
+            "norm_text": "A.네 고객님 이 옵션은 증정품이 없는 걸로 확인이 되시는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+이/JKS+옵션/NNG+은/JX+증정/NNG+품/NNG+이/JKS+없/VA+는/ETM+걸로/NNB+JKB+확인/NNG+이/JKS+되/VV+시/EP+는데요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그게 없는거라고요 그렇게 적혀있는데",
+            "norm_text": "B.그게 없는거라고요 그렇게 적혀있는데",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그게/NP+JKS+없/VA+는/ETM+거/NNB+라고요/VCP+EC+그렇게/MAG+적혀/VV+EC+있/VX+는데/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.아뇨 고객님 증정품 드리는 옵션은 따로 이렇게 되어있어요",
+            "norm_text": "A.아뇨 고객님 증정품 드리는 옵션은 따로 이렇게 되어있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+아뇨/IC+고객/NNG+님/XSN+증정/NNG+품/NNG+드리/VV+는/ETM+옵션/NNG+은/JX+따로/MAG+이렇게/MAG+되/VV+어/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그러면 그러면은 그 추가하면요 아니 그 증정하면요",
+            "norm_text": "B.그러면 그러면은 그 추가하면요 아니 그 증정하면요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그러면/MAJ+그러면은/MAJ+그/MM+추가/NNG+하/XSV+면/EC+요/JX+아니/VCN+그/MM+증정/NNG+하/XSV+면/EC+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.근데 고객님 증정으로 그렇게 주문하신 게 아니구요",
+            "norm_text": "A.근데 고객님 증정으로 그렇게 주문하신 게 아니구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+근데/MAJ+고객/NNG+님/XSN+증정/NNG+으로/JKB+그렇게/MAG+주문/NNG+하/XSV+신/EP+ETM+게/NNB+JKC+아니/VCN+구요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.고객님 주문하신 거를 지금 말씀을 드리는 거잖아요",
+            "norm_text": "A.고객님 주문하신 거를 지금 말씀을 드리는 거잖아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+주문/NNG+하/XSV+신/EP+ETM+거/NNB+를/JKO+지금/MAG+말씀/NNG+을/JKO+드리/VV+는/ETM+거/NNB+잖아요/VCP+EC+VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.이거니까 저가 했잖아요 지금은 주는데 보니까",
+            "norm_text": "B.이거니까 저가 했잖아요 지금은 주는데 보니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+이거/NP+니까/VCP+EC+저/NP+가/JKS+했잖아요/VV+EP+EC+VX+EC+지금/MAG+은/JX+주/VV+는데/EC+보/VX+니까/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그렇게 오십 매 플라스 십 회 그 육십 매로 할 거 아니고요",
+            "norm_text": "B.그렇게 오십 매 플라스 십 회 그 육십 매로 할 거 아니고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그렇게/MAG+오/NR+십/NR+매/NNBC+플라스/NNP+십/NR+회/NNBC+그/IC+육/NR+십/NR+매/NNBC+로/JKB+할/VV+ETM+거/NNB+아니/VCN+고요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.그게 고객님 주문해주신 옵션은 그게 아니고요",
+            "norm_text": "A.그게 고객님 주문해주신 옵션은 그게 아니고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+그게/NP+JKS+고객/NNG+님/XSN+주문/NNG+해/XSV+EC+주/VX+신/EP+ETM+옵션/NNG+은/JX+그게/NP+JKC+아니/VCN+고요/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.백 매해서 백이십 개 받자 해서 주문을 한 상황이었 상황이었거든요",
+            "norm_text": "B.백 매해서 백이십 개 받자 해서 주문을 한 상황이었거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+백매/NNG+해서/XSV+EC+백/NR+이/NR+십/NR+개/NNBC+받자/NNG+해서/XSV+EC+주문/NNG+을/JKO+한/VV+ETM+상황/NNG+이/VCP+었/EP+거든요/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.그런데 이렇게 말 말해버리면 내가 답답하죠 그러면요",
+            "norm_text": "B.그런데 이렇게 말 말해버리면 내가 답답하죠 그러면요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그런데/MAJ+이렇게/MAG+말/NNG+말/NNG+해/XSV+EC+버리/VX+면/EC+내/NP+가/JKS+답답/XR+하/XSA+죠/EF+그러면/MAJ+요/JX"
+          },
+          {
+            "id": 14,
+            "text": "A.고객님 무슨 말씀하시는지는 아는데요",
+            "norm_text": "A.고객님 무슨 말씀하시는지는 아는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+무슨/MM+말씀/NNG+하/XSV+시/EP+는지/EC+는/JX+아/VV+는데요/EC"
+          },
+          {
+            "id": 15,
+            "text": "B.그때는 증정이 없었다고요",
+            "norm_text": "B.그때는 증정이 없었다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+그때/NNG+는/JX+증정/NNG+이/JKS+없/VA+었/EP+다고요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.예 없었어요 주문하신 걸로 말씀드리는 거고요",
+            "norm_text": "A.예 없었어요 주문하신 걸로 말씀드리는 거고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+예/IC+없/VA+었/EP+어요/EF+주문/NNG+하/XSV+신/EP+ETM+걸로/NNB+JKB+말씀/NNG+드리/VV+는/ETM+거/NNB+고요/NNG"
+          },
+          {
+            "id": 17,
+            "text": "B.아니 그면 그면은 그러면은 제가 물어볼게요",
+            "norm_text": "B.아니 그면 그면은 그러면은 제가 물어볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아니/IC+그면/MAJ+그면은/MAJ+그러면은/MAJ+제/NP+가/JKS+물어볼/VV+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "B.#@상품# 육십 매 블랙은 뭡니까",
+            "norm_text": "B.#@상품# 육십 매 블랙은 뭡니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+육/NR+십/NR+매/NNBC+블랙/NNG+은/JX+뭡니까/NP+VCP+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.어떤 거요 고객님",
+            "norm_text": "A.어떤 거요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+거/NNB+요/VCP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 20,
+            "text": "B.주문할 당시 #@상품#이요 그 플라스 되는거요",
+            "norm_text": "B.주문할 당시 #@상품#이요 그 플라스 되는거요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+주문/NNG+할/XSV+ETM+당시/NNG+#/SY+@/SY+상품/NNG+#/SY+이/VCP+요/EC+그/MM+플/NNG+라스/NNG+되/XSV+는/ETM+거/NNB+요/VCP+EC"
+          },
+          {
+            "id": 21,
+            "text": "A.그럼 그거를 선택을 하셔야지 옵션이 여러 개가 있잖아요",
+            "norm_text": "A.그럼 그거를 선택을 하셔야지 옵션이 여러 개가 있잖아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+그럼/MAJ+그거/NP+를/JKO+선택/NNG+을/JKO+하/VV+셔야/EP+EC+VX+지/EC+옵션/NNG+이/JKS+여러/MM+개/NNBC+가/JKS+있/VA+잖아요/EC"
+          },
+          {
+            "id": 22,
+            "text": "A.지금도 상품 들어가시면 옵션이 여러 개 있잖아요",
+            "norm_text": "A.지금도 상품 들어가시면 옵션이 여러 개 있잖아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+지금/MAG+도/JX+상품/NNG+들어가/VV+시/EP+면/EC+옵션/NNG+이/JKS+여러/MM+개/NNBC+있/VA+잖아요/EC"
+          },
+          {
+            "id": 23,
+            "text": "B.지금은 지금 지금은 이 자체가 바뀌죠",
+            "norm_text": "B.지금은 지금 지금은 이 자체가 바뀌죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+지금/MAG+은/JX+지금/MAG+지금/MAG+은/JX+이/MM+자체/NNG+가/JKS+바뀌/VV+죠/EC"
+          },
+          {
+            "id": 24,
+            "text": "B.#@상품# 오십 해서요",
+            "norm_text": "B.#@상품# 오십 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+오/NR+십/NR+해서/VV+EC+요/JX"
+          },
+          {
+            "id": 25,
+            "text": "A.그니까 지금도 계속 바뀌어요 바뀌는데요",
+            "norm_text": "A.그니까 지금도 계속 바뀌어요 바뀌는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+그니까/MAJ+지금/MAG+도/JX+계속/MAG+바뀌/VV+어요/EF+바뀌/VV+는데요/EC"
+          },
+          {
+            "id": 26,
+            "text": "A.고객님이 선택을 그거를 하셨습니다 그 당시에요",
+            "norm_text": "A.고객님이 선택을 그거를 하셨습니다 그 당시에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+이/JKS+선택/NNG+을/JKO+그거/NP+를/JKO+하/VV+셨/EP+EP+습니다/EF+그/MM+당시/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 27,
+            "text": "B.그럼 잘못 한거라고요",
+            "norm_text": "B.그럼 잘못 한거라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+잘못/MAG+한/XSA+ETM+거/NNB+라고요/VCP+EC"
+          },
+          {
+            "id": 28,
+            "text": "A.그니까 잘못 주문을 하신거죠 결론적으로는 고객님",
+            "norm_text": "A.그니까 잘못 주문을 하신거죠 결론적으로는 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+그니까/MAJ+잘못/MAG+주문/NNG+을/JKO+하/VV+신/EP+ETM+거/NNB+죠/VCP+EF+결론/NNG+적/XSN+으로/JKB+는/JX+고객/NNG+님/XSN"
+          },
+          {
+            "id": 29,
+            "text": "A.고객님 선택을 그거를 하셨으니까 이게 주문이 된 거예요",
+            "norm_text": "A.고객님 선택을 그거를 하셨으니까 이게 주문이 된 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+선택/NNG+을/JKO+그거/NP+를/JKO+하/VV+셨/EP+EP+으니까/EC+이게/NP+JKS+주문/NNG+이/JKS+된/VV+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 30,
+            "text": "B.하여튼 알아서 해요 저 하는 대로 할게요 반품을 하든 뭐를 하든요",
+            "norm_text": "B.하여튼 알아서 해요 저 하는 대로 할게요 반품을 하든 뭐를 하든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+하여튼/MAG+알/VV+아서/EC+해요/VX+EF+저/NP+하/VV+는/ETM+대로/NNB+할게요/VV+EC+반품/NNG+을/JKO+하/VV+든/EC+뭐/NP+를/JKO+하/VV+든/EC+요/JX"
+          },
+          {
+            "id": 31,
+            "text": "A.예 고객님 상담사 #@이름# 이였습니다",
+            "norm_text": "A.예 고객님 상담사 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

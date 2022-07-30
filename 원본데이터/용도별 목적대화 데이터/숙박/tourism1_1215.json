@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 149937,
+    "name": "t1_20211117_0002_0167_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135711043723/t1_20211117_0002_0167_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135711043723/t1_20211117_0002_0167_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147534,
+      "filename": "t1_0054_0020_02.txt",
+      "title": "t1_0054_0020_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 325,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 325,
+        "word_size": 64,
+        "text": "A.네 #@소속# 게스트하우스 상담사 #@이름#입니다\nB.안녕하세요 게스트하우스 주차장 이용이 가능한가요\nA.네 저희 게스트하우스에 전화주셔서 감사합니다\nB.네 주차가 가능한가요\nA.게스트하우스가 죽도시장 안에 위치하고 있어서 주차가 불가능합니다\nB.아 그래요 그럼 차를 어떻게 해야 할까요\nA.제휴 주차장이 있으니 유료 주차는 가능하십니다\nB.아 그래요 제휴 주차장 안내해 주세요\nA.오거리 공영 주차장입니다\nB.게스트하우스와 얼마나 떨어져있나요\nA.게스트하우스 인근 도보 2분거리에 있습니다\nB.가까이에 있네요 알겠습니다\nA.주차하시고 게스트하우스 이용객이라고 말씀해주세요 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 #@소속# 게스트하우스 상담사 #@이름#입니다",
+            "norm_text": "A.네 #@소속# 게스트하우스 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+게스트/NNP+하우스/NNP+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 게스트하우스 주차장 이용이 가능한가요",
+            "norm_text": "B.안녕하세요 게스트하우스 주차장 이용이 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+게스트/NNP+하우스/NNP+주차장/NNG+이용/NNG+이/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.네 저희 게스트하우스에 전화주셔서 감사합니다",
+            "norm_text": "A.네 저희 게스트하우스에 전화주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+저희/NP+게스트/NNP+하우스/NNP+에/JKB+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 주차가 가능한가요",
+            "norm_text": "B.네 주차가 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+주차/NNG+가/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.게스트하우스가 죽도시장 안에 위치하고 있어서 주차가 불가능합니다",
+            "norm_text": "A.죽도시장 안에 위치하고 있어서 주차가 불가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+게스트/NNP+하우스/NNP+가죽/NNG+도/JX+시장/NNG+안/NNG+에/JKB+위치/NNG+하/XSV+고/EC+있/VX+어서/EC+주차/NNG+가/JKS+불/XPN+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아 그래요 그럼 차를 어떻게 해야 할까요",
+            "norm_text": "B.아 그래요 그럼 차를 어떻게 해야 할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그래요/VV+EF+그럼/MAJ+차/NNG+를/JKO+어떻게/MAG+해야/VV+EC+할까요/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.제휴 주차장이 있으니 유료 주차는 가능하십니다",
+            "norm_text": "A.제휴 주차장이 있으니 유료 주차는 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+제휴/NNG+주차장/NNG+이/JKS+있/VV+으니/EC+유료/NNG+주차/NNG+는/JX+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.아 그래요 제휴 주차장 안내해 주세요",
+            "norm_text": "B.아 그래요 제휴 주차장 안내해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+그래요/IC+제휴/NNG+주차장/NNG+안내/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.오거리 공영 주차장입니다",
+            "norm_text": "A.오거리 공영 주차장입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+오거리/NNG+공영/NNG+주차장/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.게스트하우스와 얼마나 떨어져있나요",
+            "norm_text": "B.게스트하우스와 얼마나 떨어져있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+게스트/NNP+하우스/NNP+와/JKB+얼마나/MAG+떨어져/VV+EC+있/VX+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.게스트하우스 인근 도보 2분거리에 있습니다",
+            "norm_text": "A.게스트하우스 인근 도보 2분거리에 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+게스트/NNP+하우스/NNP+인근/NNG+도/JX+보/VX+2/SN+분/NNBC+거리/NNG+에/JKB+있/VV+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.가까이에 있네요 알겠습니다",
+            "norm_text": "B.가까이에 있네요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+가까이/NNG+에/JKB+있/VV+네요/EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.주차하시고 게스트하우스 이용객이라고 말씀해주세요 상담원 #@이름#이었습니다",
+            "norm_text": "A.주차하시고 게스트하우스 이용객이라고 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+주차/NNG+하/XSV+시/EP+고/EC+게스트/NNP+하우스/NNP+이용객/NNG+이/VCP+라고/EC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

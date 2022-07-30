@@ -1,0 +1,395 @@
+{
+  "dataset": {
+    "identifier": 77183,
+    "name": "KAKAO_1574_02_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/60/txt20211021135300005562/KAKAO_1574_02_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/60/txt20211021135300005562/KAKAO_1574_02_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 85143,
+      "filename": "KAKAO_1574_02.txt",
+      "title": "KAKAO_1574_02",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-21",
+      "size": 777,
+      "annotations": {
+        "subject": "주거와 생활",
+        "speaker_type": "다자간 대화",
+        "size": 777,
+        "word_size": 259,
+        "text": "1 : 집에 있을 때 청소 자주 하는 편이야?\n2 : 나는 엄마가 시켜서 거의 매일 집에서 청소해 키키\n3 : 난 일 끝나고 집 가면 눕기 바빠서 자주는 못해 ㅜㅜ\n1 : 강제로 집 청소하는구나 키키\n1 : 나도 눕기 바빠 ㅠㅠ\n2 : 응 ㅜㅜ 엄마가 일하니까 집 청소는 내 몫이 됐어 키키\n3 : 그럼 해야지 키키\n3 : 매일 청소하면 집은 깨끗하겠다 키키\n1 : 맞아 키키 덕분에 집은 완전 깨끗할 듯 키키\n2 : 내가 봐도 깨끗한데 엄마 눈엔 안 그런가 봐...\n3 : 왜? 집에 오시면 지저분하대? 키키\n1 : 그러게... 엄마가 깔끔하신 편이신가? 키키\n2 : 맞아 엄마 일 안 할 때도 집에 있으면 난리도 아니야 ㅜㅜ\n3 : 설마 계속 돌아다니시면서 청소하시니?\n1 : 엄마들은 다 그런가 봐\n1 : 집을 치워도 지저분하대 키키\n2 : 응 키키 하루 한 번은 꼭 청소기 돌리고 그래 ㅜㅜ\n3 : 대박 키키 난 그렇게 못해 키키\n3 : 진짜 깔끔하신 성격이시네 키키\n1 : 엄마 일하시니까 그럼 이제 니가 그렇게 집 청소하는 거야?\n2 : 응 ㅜㅜ 맞아 엄마 만큼은 아닌데 약속 없는 날은 매일 청소기 돌려 키키\n3 : 그날은 완전 가정 주부네? 키키\n1 : 그렇겠다 키키 쉬어도 쉬는 게 아니겠어 키키\n2 : 너무 귀찮아서 일부러 약속 잡고 나가기도 해 키키\n3 : 하긴 매일 집 청소하려면 싫긴 하지 키키\n1 : 난 절대 못해 키키\n1 : 내가 집 청소하면 엄마가 다시 하시던데 키키\n2 : 키키 처음엔 청소한 건데도 집 청소했냐고 물어보더라 키키\n3 : 당황 키키 한 건데? 키키\n3 : 엄마들 눈엔 지저분해 보이시나 봐 ㅜㅜ",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 집에 있을 때 청소 자주 하는 편이야?",
+            "norm_text": "집에 있을 때 청소 자주 하는 편이야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "집/NNG+에/JKB+있/VV+을/ETM+때/NNG+청소/NNG+자주/NNG+하/XSV+는/ETM+편/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 엄마가 시켜서 거의 매일 집에서 청소해 키키",
+            "norm_text": "나는 엄마가 시켜서 거의 매일 집에서 청소해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+엄마/NNG+가/JKS+시켜서/VV+EC+거의/MAG+매일/MAG+집/NNG+에서/JKB+청소/NNG+해/XSV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 3,
+            "text": "3 : 난 일 끝나고 집 가면 눕기 바빠서 자주는 못해 ㅜㅜ",
+            "norm_text": "난 일 끝나고 집 가면 눕기 바빠서 자주는 못해 ㅜㅜ",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난일/NNG+끝/NNG+나/VV+고/EC+집/NNG+가/VV+면/EC+눕/VV+기/ETN+바빠서/VA+EC+자주/NNG+는/JX+못/MAG+해/VV+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 4,
+            "text": "1 : 강제로 집 청소하는구나 키키",
+            "norm_text": "강제로 집 청소하는구나 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "강제/NNG+로/JKB+집/NNG+청소/NNG+하/XSV+는구나/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나도 눕기 바빠 ㅠㅠ",
+            "norm_text": "나도 눕기 바빠 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나도눕기바빠ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 ㅜㅜ 엄마가 일하니까 집 청소는 내 몫이 됐어 키키",
+            "norm_text": "응 ㅜㅜ 엄마가 일하니까 집 청소는 내 몫이 됐어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+ㅜㅜ/UNKNOWN+엄마/NNG+가/JKS+일/NNG+하/XSV+니까/EC+집/NNG+청소/NNG+는/JX+내몫이/NP+JKG+NNG+JKS+됐/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "3 : 그럼 해야지 키키",
+            "norm_text": "그럼 해야지 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+해야지/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "3 : 매일 청소하면 집은 깨끗하겠다 키키",
+            "norm_text": "매일 청소하면 집은 깨끗하겠다 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "매일/MAG+청소/NNG+하/XSV+면/EC+집/NNG+은/JX+깨끗/XR+하/XSA+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 9,
+            "text": "1 : 맞아 키키 덕분에 집은 완전 깨끗할 듯 키키",
+            "norm_text": "맞아 키키 덕분에 집은 완전 깨끗할 듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+키/NNG+키/NNG+덕분/NNG+에/JKB+집/NNG+은/JX+완전/MAG+깨끗/XR+할/XSA+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 10,
+            "text": "2 : 내가 봐도 깨끗한데 엄마 눈엔 안 그런가 봐...",
+            "norm_text": "내가 봐도 깨끗한데 엄마 눈엔 안 그런가 봐...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+봐도/VV+EC+깨끗/XR+한데/XSA+EC+엄마/NNG+눈/NNG+엔/JKB+JX+안/MAG+그런가/VA+EC+봐/VX+EF+./SY"
+          },
+          {
+            "id": 11,
+            "text": "3 : 왜? 집에 오시면 지저분하대? 키키",
+            "norm_text": "왜? 집에 오시면 지저분하대? 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "왜/MAG+집/NNG+에/JKB+오/VV+시/EP+면/EC+지저분/XR+하/XSA+대/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그러게... 엄마가 깔끔하신 편이신가? 키키",
+            "norm_text": "그러게... 엄마가 깔끔하신 편이신가? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러게/IC+./SY+엄마/NNG+가/JKS+깔끔/XR+하/XSA+신/EP+ETM+편/NNB+이/VCP+신가/EP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "2 : 맞아 엄마 일 안 할 때도 집에 있으면 난리도 아니야 ㅜㅜ",
+            "norm_text": "맞아 엄마 일 안 할 때도 집에 있으면 난리도 아니야 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC+엄마/NNG+일안/NNG+할/XSV+ETM+때/NNG+도/JX+집/NNG+에/JKB+있/VV+으면/EC+난리/NNG+도/JX+아니/VCN+야/EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 14,
+            "text": "3 : 설마 계속 돌아다니시면서 청소하시니?",
+            "norm_text": "설마 계속 돌아다니시면서 청소하시니?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "설마/MAG+계속/MAG+돌아다니/VV+시/EP+면서/EC+청소/NNG+하/XSV+시/EP+니/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 엄마들은 다 그런가 봐",
+            "norm_text": "엄마들은 다 그런가 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+들/XSN+은/JX+다/MAG+그런가/VA+EC+봐/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 집을 치워도 지저분하대 키키",
+            "norm_text": "집을 치워도 지저분하대 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "집/NNG+을/JKO+치워도/VV+EC+지저분/XR+하/XSA+대/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 응 키키 하루 한 번은 꼭 청소기 돌리고 그래 ㅜㅜ",
+            "norm_text": "응 키키 하루 한 번은 꼭 청소기 돌리고 그래 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+하루/NNG+한/MM+번/NNBC+은/JX+꼭/MAG+청소기/NNG+돌리/VV+고/EC+그래/VV+EC+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "3 : 대박 키키 난 그렇게 못해 키키",
+            "norm_text": "대박 키키 난 그렇게 못해 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "대박/NNG+키/NNG+키/XSV+ETN+난/NP+JX+그렇/VA+게/EC+못해/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "3 : 진짜 깔끔하신 성격이시네 키키",
+            "norm_text": "진짜 깔끔하신 성격이시네 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+깔끔/XR+하/XSA+신/EP+ETM+성격/NNG+이/JKS+시네/VV+EP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 엄마 일하시니까 그럼 이제 니가 그렇게 집 청소하는 거야?",
+            "norm_text": "엄마 일하시니까 그럼 이제 니가 그렇게 집 청소하는 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엄마/NNG+일/NNG+하/XSV+시/EP+니까/EC+그럼/MAJ+이제/MAG+니/NP+가/JKS+그렇게/MAG+집/NNG+청소/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 21,
+            "text": "2 : 응 ㅜㅜ 맞아 엄마 만큼은 아닌데 약속 없는 날은 매일 청소기 돌려 키키",
+            "norm_text": "응 ㅜㅜ 맞아 엄마 만큼은 아닌데 약속 없는 날은 매일 청소기 돌려 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+ㅜㅜ/UNKNOWN+맞/VV+아/EC+엄마/NNG+만큼/JKB+은/JX+아닌데/VCN+EC+약속/NNG+없/VA+는/ETM+날/NNG+은/JX+매일/MAG+청소기/NNG+돌려/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "3 : 그날은 완전 가정 주부네? 키키",
+            "norm_text": "그날은 완전 가정 주부네? 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그날/NNG+은/JX+완전/NNG+가정주부/NNG+네/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 그렇겠다 키키 쉬어도 쉬는 게 아니겠어 키키",
+            "norm_text": "그렇겠다 키키 쉬어도 쉬는 게 아니겠어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+겠/EP+다키키/NNP+쉬/VV+어도/EC+쉬/VV+는/ETM+게/NNB+JKC+아니/VCN+겠/EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 너무 귀찮아서 일부러 약속 잡고 나가기도 해 키키",
+            "norm_text": "너무 귀찮아서 일부러 약속 잡고 나가기도 해 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+귀찮/VA+아서/EC+일부러/MAG+약속/NNG+잡/VV+고/EC+나가/VX+기/ETN+도/JX+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "3 : 하긴 매일 집 청소하려면 싫긴 하지 키키",
+            "norm_text": "하긴 매일 집 청소하려면 싫긴 하지 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+매일/MAG+집/NNG+청소/NNG+하/XSV+려면/EC+싫/VA+긴/ETN+JX+하/VX+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 난 절대 못해 키키",
+            "norm_text": "난 절대 못해 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+절대/MAG+못/MAG+해/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 27,
+            "text": "1 : 내가 집 청소하면 엄마가 다시 하시던데 키키",
+            "norm_text": "내가 집 청소하면 엄마가 다시 하시던데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+집/NNG+청소/NNG+하/XSV+면/EC+엄마/NNG+가/JKS+다시/MAG+하/VV+시/EP+던데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 28,
+            "text": "2 : 키키 처음엔 청소한 건데도 집 청소했냐고 물어보더라 키키",
+            "norm_text": "키키 처음엔 청소한 건데도 집 청소했냐고 물어보더라 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/NNG+처음/NNG+엔/JKB+JX+청소/NNG+한/XSA+ETM+건데/NNB+VCP+EC+도/JX+집/NNG+청소/NNG+했/XSV+EP+냐고/EC+물/VV+어/EC+보/VX+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 29,
+            "text": "3 : 당황 키키 한 건데? 키키",
+            "norm_text": "당황 키키 한 건데? 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당황/NNG+키/NNG+키/NNG+한/XSA+ETM+건데/NNB+VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 30,
+            "text": "3 : 엄마들 눈엔 지저분해 보이시나 봐 ㅜㅜ",
+            "norm_text": "엄마들 눈엔 지저분해 보이시나 봐 ㅜㅜ",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+들/XSN+눈/NNG+엔/JKB+JX+지저분/XR+해/XSA+EC+보이/VV+시/EP+나/EC+봐/VX+EF+ㅜㅜ/UNKNOWN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 13300,
+    "name": "c2_20210914_0012_0157_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151533041235/c2_20210914_0012_0157_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151533041235/c2_20210914_0012_0157_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 15696,
+      "filename": "c4_20210820_0008_0017_01.txt",
+      "title": "c4_20210820_0008_0017_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 256,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 256,
+        "word_size": 59,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.제가 온양온천역에서요 버스가 구백 번하고 일반버스 구백 번 있고\nB.간선버스 구백 번이 있는데 거기 어떤 똑같은 버스예요 아니면 간선은 뭐죠\nA.구백 번 버스로 확인 후 안내해 드리겠습니다 잠시만 기다려 주시겠습니까\nB.그 배차시간도 좀 봐주세요 배차시간도\nA.네 죄송하지만 저희 쪽에서는 정확한 배차시간은 확인이 어렵습니다\nA.아산에 구백 번 버스 회사로 문의를 주셔야 합니다\nB.네 버스회사요 알겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 온양온천역에서요 버스가 구백 번하고 일반버스 구백 번 있고",
+            "norm_text": "B.제가 온양온천역에서요 버스가 구백 번하고 일반버스 구백 번 있고",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+온양온천역/NNP+에서/JKB+요/MM+버스/NNG+가/JKS+구/NR+백/NR+번/NNBC+하/VV+고/EC+일반/NNG+버스/NNG+구/NR+백/NR+번/NNBC+있/VV+고/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.간선버스 구백 번이 있는데 거기 어떤 똑같은 버스예요 아니면 간선은 뭐죠",
+            "norm_text": "B.간선버스 구백 번이 있는데 거기 어떤 똑같은 버스예요 아니면 간선은 뭐죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+간선버스/NNP+구/NR+백/NR+번/NNBC+이/JKS+있/VV+는데/EC+거기/NP+어떤/MM+똑같/VA+은/ETM+버스/NNG+예요/VCP+EF+아니/VCN+면/EC+간선/NNG+은/JX+뭐/NP+죠/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.구백 번 버스로 확인 후 안내해 드리겠습니다 잠시만 기다려 주시겠습니까",
+            "norm_text": "A.구백 번 버스로 확인 후 안내해 드리겠습니다 잠시만 기다려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+구/NR+백/NR+번/NNBC+버스/NNG+로/JKB+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.그 배차시간도 좀 봐주세요 배차시간도",
+            "norm_text": "B.그 배차시간도 좀 봐주세요 배차시간도",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+그/MM+배차/NNG+시간/NNG+도/JX+좀/MAG+봐/VV+EC+주/VX+세요/EP+EF+배차/NNG+시간/NNG+도/JX"
+          },
+          {
+            "id": 6,
+            "text": "A.네 죄송하지만 저희 쪽에서는 정확한 배차시간은 확인이 어렵습니다",
+            "norm_text": "A.네 죄송하지만 저희 쪽에서는 정확한 배차시간은 확인이 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+죄송/XR+하/XSA+지만/EC+저희/NP+쪽/NNB+에서/JKB+는/JX+정확/XR+한/XSA+ETM+배차/NNG+시간/NNG+은/JX+확인/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.아산에 구백 번 버스 회사로 문의를 주셔야 합니다",
+            "norm_text": "A.아산에 구백 번 버스 회사로 문의를 주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+아산/NNP+에/JKB+구/NR+백/NR+번/NNBC+버스/NNG+회사/NNG+로/JKB+문의/NNG+를/JKO+주/VV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 버스회사요 알겠습니다",
+            "norm_text": "B.네 버스회사요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+버스/NNG+회사/NNG+요/VCP+EC+알/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

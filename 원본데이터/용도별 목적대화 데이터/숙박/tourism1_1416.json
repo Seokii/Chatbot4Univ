@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 150892,
+    "name": "t1_20211117_0002_0371_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720014219/t1_20211117_0002_0371_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720014219/t1_20211117_0002_0371_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148673,
+      "filename": "t1_0074_0089_02.txt",
+      "title": "t1_0074_0089_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 332,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 332,
+        "word_size": 77,
+        "text": "A. 반갑습니다 #@소속# 고객센터 상담원 #@이름#입니다\nB. 홍천 엔 한옥펜션 객실 요금 안내 부탁합니다\nA. 네 2인 원룸은 주중 10만원이시구요 주말 12만원입니다\nB. 아 가족여행이라서 7인룸으로 안내 부탁드려요\nA. 죄송합니다 7인 투룸은 주중 18만원 주말 20만원입니다\nB. 성수기때에 요금 차이가 심한가요\nA. 성수기때 7인룸은 25만원이세요\nB. 차이가 좀 있네요 참고해서 날짜를 골라야겠어요\nA. 네 시간만 괜찮으시다면 비수기 주중으로 오시는게 가장 좋습니다\nB. 알겠습니다 참고해서 일정 짜볼게요 수고하세요\nA. 오늘 하루도 좋은 일만 가득하시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 #@소속# 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A. 반갑습니다 #@소속# 고객센터 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 홍천 엔 한옥펜션 객실 요금 안내 부탁합니다",
+            "norm_text": "B. 홍천 엔 한옥펜션 객실 요금 안내 부탁합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+홍천/NNG+엔/JKB+JX+한옥/NNG+펜션/NNG+객실/NNG+요금/NNG+안내/NNG+부탁/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 2인 원룸은 주중 10만원이시구요 주말 12만원입니다",
+            "norm_text": "A. 네 2인 원룸은 주중 10만원이시구요 주말 12만원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/MM+2/SN+인원/NNG+룸/NNG+은/JX+주/NNG+중/NNB+10/SN+만/NR+원/NNBC+이/VCP+시/EP+구요/EF+주말/NNG+12/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 아 가족여행이라서 7인룸으로 안내 부탁드려요",
+            "norm_text": "B. 아 가족여행이라서 7인룸으로 안내 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+아/IC+가족/NNG+여행/NNG+이/VCP+라서/EC+7/SN+인/NNG+룸/NNG+으로/JKB+안내/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 죄송합니다 7인 투룸은 주중 18만원 주말 20만원입니다",
+            "norm_text": "A. 죄송합니다 7인 투룸은 주중 18만원 주말 20만원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+7/SN+인투룸은주중/UNKNOWN+18/SN+만/NR+원/NNBC+주말/NNG+20/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 성수기때에 요금 차이가 심한가요",
+            "norm_text": "B. 성수기때에 요금 차이가 심한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+성수기/NNG+때/NNG+에/JKB+요금/NNG+차이/NNG+가/JKS+심한/VA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A. 성수기때 7인룸은 25만원이세요",
+            "norm_text": "A. 성수기때 7인룸은 25만원이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+성수기/NNG+때/NNG+7/SN+인/NNG+룸/NNG+은/JX+25/SN+만/NR+원/NNBC+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B. 차이가 좀 있네요 참고해서 날짜를 골라야겠어요",
+            "norm_text": "B. 차이가 좀 있네요 참고해서 날짜를 골라야겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+차이/NNG+가/JKS+좀/MAG+있/VA+네요/EF+참고/NNG+해서/XSV+EC+날짜/NNG+를/JKO+골라야/VV+EC+VX+겠/EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A. 네 시간만 괜찮으시다면 비수기 주중으로 오시는게 가장 좋습니다",
+            "norm_text": "A. 네 시간만 괜찮으시다면 비수기 주중으로 오시는게 가장 좋습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+시간/NNG+만/JX+괜찮/VA+으시/EP+다면/EC+비수기/NNG+주중/NNG+으로/JKB+오/VV+시/EP+는/ETM+게/NNB+JKS+가장/MAG+좋/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B. 알겠습니다 참고해서 일정 짜볼게요 수고하세요",
+            "norm_text": "B. 알겠습니다 참고해서 일정 짜볼게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+참고/NNG+해서/XSV+EC+일정/NNG+짜/VV+EC+볼게요/VX+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A. 오늘 하루도 좋은 일만 가득하시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 오늘 하루도 좋은 일만 가득하세요 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+오늘/MAG+하루/NNG+도/JX+좋/VA+은/ETM+일/NNG+만/JX+가득/MAG+하/VV+시/EP+길/ETN+JKO+바랍니다/VV+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

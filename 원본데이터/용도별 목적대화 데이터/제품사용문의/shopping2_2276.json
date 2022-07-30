@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 110541,
+    "name": "s2_20211104_0001_4150_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110651002888/s2_20211104_0001_4150_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110651002888/s2_20211104_0001_4150_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116076,
+      "filename": "s2_20211026_0012_0007_01.txt",
+      "title": "s2_20211026_0012_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 240,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 240,
+        "word_size": 52,
+        "text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다\nB.예 #@상품# 제조국이 어디인가요\nA.고객님 잠시만요 확인 후 안내드리겠습니다\nB.네 어디에 있을 텐데 안 보이네요\nA.고객님 제조는 방글라데시입니다\nB.방글라데시요 요즘은 국내 생산이 없네요\nA.네 고객님 저렴한 가격으로 공급해드리고자 해외에서 생산합니다\nB.품질은 문제없는 거죠\nA.네 고객님 걱정 안 하셔도 됩니다\nB.예 알겠습니다 감사합니다\nA.날씨가 많이 추운데 건강 유의하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 #@상품# 제조국이 어디인가요",
+            "norm_text": "B.예 #@상품# 제조국이 어디인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+상품/NNG+#/SY+제/XPN+조국/NNG+이/JKS+어디/NP+인가요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 잠시만요 확인 후 안내드리겠습니다",
+            "norm_text": "A.고객님 잠시만요 확인 후 안내드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+잠시/NNG+만/JX+요/JX+확인/NNG+후/NNG+안/MAG+내드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 어디에 있을 텐데 안 보이네요",
+            "norm_text": "B.네 어디에 있을 텐데 안 보이네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+어디/NP+에/JKB+있/VV+을/ETM+텐데/NNB+VCP+EC+안/MAG+보이/VV+네요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 제조는 방글라데시입니다",
+            "norm_text": "A.고객님 제조는 방글라데시입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+제조/NNG+는/JX+방글라데시/NNP+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.방글라데시요 요즘은 국내 생산이 없네요",
+            "norm_text": "B.방글라데시요 요즘은 국내 생산이 없네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+방글라데시/NNP+요/VCP+EC+요즘/NNG+은/JX+국내/NNG+생산/NNG+이/JKS+없/VA+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 저렴한 가격으로 공급해드리고자 해외에서 생산합니다",
+            "norm_text": "A.네 고객님 저렴한 가격으로 공급해드리고자 해외에서 생산합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+저렴/XR+한/XSA+ETM+가격/NNG+으로/JKB+공급/NNG+해/XSV+EC+드리/VX+고자/EC+해외/NNG+에서/JKB+생산/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.품질은 문제없는 거죠",
+            "norm_text": "B.품질은 문제없는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+품질/NNG+은/JX+문제없/VA+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 고객님 걱정 안 하셔도 됩니다",
+            "norm_text": "A.네 고객님 걱정 안 하셔도 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+걱정/NNG+안/MAG+하/VV+셔도/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.예 알겠습니다 감사합니다",
+            "norm_text": "B.예 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+예/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.날씨가 많이 추운데 건강 유의하세요",
+            "norm_text": "A.날씨가 많이 추운데 건강 유의하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+날씨/NNG+가/JKS+많이/MAG+추운데/VA+EC+건강/NNG+유의/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

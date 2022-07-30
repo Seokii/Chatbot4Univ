@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 49086,
+    "name": "c4_20211015_0001_2067_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704070638/c4_20211015_0001_2067_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704070638/c4_20211015_0001_2067_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50140,
+      "filename": "c4_20210903_0002_0012_01.txt",
+      "title": "c4_20210903_0002_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 318,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 318,
+        "word_size": 76,
+        "text": "A.안녕하십니까 #@소속# 상담센터 #@소속#입니다\nB.네 #@주소#에 농구대 좀 설치해주시면 안 되나요\nB.근처에 농구 할 곳이 없어요\nA.말씀하신 곳 인근 주거 지역에서 농구로 인한 소음 피해가 많이 발생하고 있습니다\nA.따라서 농구대 설치는 신중한 검토가 필요한 사항입니다\nB.그럼 설치하기 어렵다는 말씀이시죠\nA.네 단기간 내 설치는 힘들 것으로 판단됩니다\nA.불편하시더라도 양해 부탁 드립니다\nB.네 일단 알겠습니다\nB.다른 곳으로 또 건의해봐야죠 뭐\nA.네 선생님 그렇게 하시면 좋을 듯 합니다\nB.네 답변 감사합니다 수고하세요\nA.네 감사합니다 기쁜 일만 가득하시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담센터 #@소속#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담센터 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+센터/NNG+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 #@주소#에 농구대 좀 설치해주시면 안 되나요",
+            "norm_text": "B.네 #@주소#에 농구대 좀 설치해주시면 안 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+에/JKB+농구대/NNG+좀/MAG+설치/NNG+해/XSV+EC+주/VX+시/EP+면/EC+안/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.근처에 농구 할 곳이 없어요",
+            "norm_text": "B.근처에 농구 할 곳이 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+근처/NNG+에/JKB+농구/NNG+할/XSV+ETM+곳/NNG+이/JKS+없/VA+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.말씀하신 곳 인근 주거 지역에서 농구로 인한 소음 피해가 많이 발생하고 있습니다",
+            "norm_text": "A.말씀하신 곳 인근 주거 지역에서 농구로 인한 소음 피해가 많이 발생하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+말씀/NNG+하/XSV+신/EP+ETM+곳/NNG+인근/NNG+주거/NNG+지역/NNG+에서/JKB+농구/NNG+로/JKB+인한/VV+ETM+소음/NNG+피해/NNG+가/JKS+많이/MAG+발생/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.따라서 농구대 설치는 신중한 검토가 필요한 사항입니다",
+            "norm_text": "A.따라서 농구대 설치는 신중한 검토가 필요한 사항입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+따라서/MAJ+농구/NR+대/NNBC+설치/VV+는/ETM+신중/NNG+한/XSA+ETM+검토/NNG+가/JKS+필요/NNG+한/XSA+ETM+사항/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 설치하기 어렵다는 말씀이시죠",
+            "norm_text": "B.그럼 설치하기 어렵다는 말씀이시죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+설치/NNG+하/XSV+기/ETN+어렵/VA+다는/ETM+말씀/NNG+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 단기간 내 설치는 힘들 것으로 판단됩니다",
+            "norm_text": "A.네 단기간 내 설치는 힘들 것으로 판단됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+단기간/NNG+내/NNB+설치/NNG+는/JX+힘들/VA+ETM+것/NNB+으로/JKB+판단/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.불편하시더라도 양해 부탁 드립니다",
+            "norm_text": "A.불편하시더라도 양해 부탁 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+불편/NNG+하/XSV+시/EP+더라도/EC+양해/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 일단 알겠습니다",
+            "norm_text": "B.네 일단 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+일단/MAG+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.다른 곳으로 또 건의해봐야죠 뭐",
+            "norm_text": "B.다른 곳으로 또 건의해봐야죠 뭐",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+다른/MM+곳/NNG+으로/JKB+또/MAG+건의/NNG+해봐야/XSV+EC+VX+EC+VX+죠/EF+뭐/IC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 선생님 그렇게 하시면 좋을 듯 합니다",
+            "norm_text": "A.네 선생님 그렇게 하시면 좋을 듯 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+그렇게/MAG+하/VV+시/EP+면/EC+좋/VA+을/ETM+듯/NNB+합니다/XSA+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.네 답변 감사합니다 수고하세요",
+            "norm_text": "B.네 답변 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+답변/NNG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.네 감사합니다 기쁜 일만 가득하시길 바랍니다",
+            "norm_text": "A.네 감사합니다 기쁜 일만 가득하시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+기쁜/VA+ETM+일/NNG+만/JX+가득/MAG+하/VV+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

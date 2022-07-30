@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 16074,
+    "name": "s3_20210914_0010_1053_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151421029850/s3_20210914_0010_1053_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151421029850/s3_20210914_0010_1053_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12271,
+      "filename": "s3_20210831_0004_0004_01.txt",
+      "title": "s3_20210831_0004_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 499,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 499,
+        "word_size": 110,
+        "text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요\nB.아까전에 전화 드렸었는데요\nA.고객님 이력 확인하였습니다 배송은 업체가 달라 따로 배송됩니다\nB.그러면 배송비가 따로 따로 나가는 거 아닙니까\nA.한꺼번에 주문하신 거라 사만 원 이상이기 때문에 무료 배송이에요\nB.그래요 무료배송이요 알겠어요\nA.고객님 알림톡으로 입금하시라고 계좌 번호 발송되실 수 있어요\nA.근데 고객님께서 아까 카드 결제하시기로 하셨잖아요\nA.입금 처리는 하지 마세요 제가 아까 안내해 드린 거 기억하시죠\nA.#@전번#으로 문자 발송되면 글로 연락하셔서 카드 결제 부탁드립니다\nB.연락을 해 갖고 카드를 내가 불러 줘야 되네요\nA.개인정보이기 때문에 고객님께서 직접 해주셔야 해요\nA.죄송합니다만 통신사가 어디세요 통신사 문자 보내드려야 돼서요\nB.제 통신사 뭐더라 #@소속#요\nA.감사합니다 고객님 혹시 다른 문의 있으십니까\nB.아뇨 다른 문의사항은 없어요 감사합니다\nA.무더운 날씨 건강 유의하시기 바랍니다 #@소속# #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.아까전에 전화 드렸었는데요",
+            "norm_text": "B.아까전에 전화 드렸었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아까/MAG+전/NNG+에/JKB+전화/NNG+드렸었/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 이력 확인하였습니다 배송은 업체가 달라 따로 배송됩니다",
+            "norm_text": "A.고객님 이력 확인하였습니다 배송은 업체가 달라 따로 배송됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+이력/NNG+확인/NNG+하/XSV+였/EP+습니다/EF+배송/NNG+은/JX+업체/NNG+가/JKS+달라/VA+EC+따로/MAG+배송/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그러면 배송비가 따로 따로 나가는 거 아닙니까",
+            "norm_text": "B.그러면 배송비가 따로 따로 나가는 거 아닙니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+배송/NNG+비/NNG+가/JKS+따로따로/MAG+나가/VV+는/ETM+거/NNB+아닙니까/VCN+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.한꺼번에 주문하신 거라 사만 원 이상이기 때문에 무료 배송이에요",
+            "norm_text": "A.한꺼번에 주문하신 거라 사만 원 이상이기 때문에 무료 배송이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+한꺼번에/MAG+주문/NNG+하/XSV+신/EP+ETM+거/NNB+라/VCP+EC+사만/NR+원/NNBC+이상/NNG+이/VCP+기/ETN+때문/NNB+에/JKB+무료/NNG+배송/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그래요 무료배송이요 알겠어요",
+            "norm_text": "B.그래요 무료배송이요 알겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+무료/NNG+배송/NNG+이/VCP+요/EC+알/VV+겠/EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.고객님 알림톡으로 입금하시라고 계좌 번호 발송되실 수 있어요",
+            "norm_text": "A.고객님 알림톡으로 입금하시라고 계좌 번호 발송되실 수 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+알림/VV+ETN+톡/NNG+으로/JKB+입금/NNG+하/XSV+시/EP+라고/EC+계좌/NNG+번호/NNG+발송/NNG+되/XSV+실/EP+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.근데 고객님께서 아까 카드 결제하시기로 하셨잖아요",
+            "norm_text": "A.근데 고객님께서 아까 카드 결제하시기로 하셨잖아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+근데/MAJ+고객/NNG+님/XSN+께서/JKS+아까/MAG+카드/NNG+결제/NNG+하/XSV+시/EP+기/ETN+로/JKB+하/VV+셨잖아요/EP+EP+EC+VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.입금 처리는 하지 마세요 제가 아까 안내해 드린 거 기억하시죠",
+            "norm_text": "A.입금 처리는 하지 마세요 제가 아까 안내해 드린 거 기억하시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+입금/NNG+처리/NNG+는/JX+하/VV+지/EC+마세요/VX+EP+EF+제/NP+가/JKS+아까/MAG+안내/NNG+해/XSV+EC+드린/VX+ETM+거/NNB+기억/NNG+하/XSV+시/EP+죠/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.#@전번#으로 문자 발송되면 글로 연락하셔서 카드 결제 부탁드립니다",
+            "norm_text": "A.#@전번#으로 문자 발송되면 글로 연락하셔서 카드 결제 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+문자/NNG+발송/NNG+되/XSV+면/EC+글/NNG+로/JKB+연락/NNG+하/XSV+셔서/EP+EC+카드/NNG+결제/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.연락을 해 갖고 카드를 내가 불러 줘야 되네요",
+            "norm_text": "B.연락을 해 갖고 카드를 내가 불러 줘야 되네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+연락/NNG+을/JKO+해/VV+EC+갖/VX+고/EC+카드/NNG+를/JKO+내/NP+가/JKS+불러/VV+EC+줘야/VX+EC+되/VV+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.개인정보이기 때문에 고객님께서 직접 해주셔야 해요",
+            "norm_text": "A.개인정보이기 때문에 고객님께서 직접 해주셔야 해요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+개인/NNG+정보/NNG+이/VCP+기/ETN+때문/NNB+에/JKB+고객/NNG+님/XSN+께서/JKS+직접/MAG+해/VV+EC+주/VX+셔야/EP+EC+해요/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.죄송합니다만 통신사가 어디세요 통신사 문자 보내드려야 돼서요",
+            "norm_text": "A.죄송합니다만 통신사가 어디세요 통신사 문자 보내드려야 돼서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+죄송/XR+합니다만/XSA+EC+통신사/NNG+가/JKS+어디/NP+세요/VCP+EP+EF+통신사/NNG+문자/NNG+보내/VV+EC+드려야/VX+EC+돼서/VV+EC+요/JX"
+          },
+          {
+            "id": 14,
+            "text": "B.제 통신사 뭐더라 #@소속#요",
+            "norm_text": "B.제 통신사 뭐더라 #@소속#요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+통신사/NNG+뭐/NP+더라/VCP+EC+#/SY+@/SY+소속/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.감사합니다 고객님 혹시 다른 문의 있으십니까",
+            "norm_text": "A.감사합니다 고객님 혹시 다른 문의 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+고객/NNG+님/XSN+혹시/MAG+다른/MM+문/NNG+의/JKG+있/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 16,
+            "text": "B.아뇨 다른 문의사항은 없어요 감사합니다",
+            "norm_text": "B.아뇨 다른 문의사항은 없어요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아뇨/IC+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+어요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.무더운 날씨 건강 유의하시기 바랍니다 #@소속# #@이름#였습니다",
+            "norm_text": "A.무더운 날씨 건강 유의하시기 바랍니다 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+무더운/VA+ETM+날씨/NNG+건강/NNG+유의/NNG+하/XSV+시/EP+기/ETN+바랍니다/VV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 49250,
+    "name": "s5_20211015_0001_2092_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130709062142/s5_20211015_0001_2092_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130709062142/s5_20211015_0001_2092_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50703,
+      "filename": "s5_20210830_0024_0002_01.txt",
+      "title": "s5_20210830_0024_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 506,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 506,
+        "word_size": 130,
+        "text": "A.안녕하세요 고객님 #@이름#입니다\nB.주문자 이름은 #@이름#고 그거 반품 신청했는데요\nA.네 고객님 말씀하세요\nB.그거 왕복 택배비하고 해서 뭐 팔천 원이 돼있더라고요\nA.네 팔천 원이세요\nB.근데 제가 이거 살 때 택배비를 제가 내고 받았거든요\nA.네 택배비요 고객님\nB.일단 제가 택배를 제가 직접 보내도 되죠\nA.제가 확인 한 번 해보도록 하겠습니다\nB.네 기다릴게요 해주세요\nA.택배 고객님께서 발송해 드리는 거는 괜찮으신데요\nA.박스 비용 이천 원은 부과되신다고 합니다\nB.박스 비용 이천 원이요\nB.박스는 그대로 해서  갖다 드리는데 왜 이천 원을 부과하죠\nA.이미 처음에 물건 보내드릴 때 본 박스에 송장 부착해서 나가는 거라서요\nB.일단 알겠어요 그러면 그거 택배 보낼 주소 문자로 부탁드릴게요\nB.거기에 이천 원 넣어서 보내면 되죠\nA.저희가  동봉은 따로 안 되고요\nA.그건 업체에서 받는 거라 계좌 번호 다시 한번 안내해 드릴게요\nB.그럼 계좌 번호하고 주소 보내주세요\nA.네 알겠습니다 고객님\nB.예 수고가 많으세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@이름#입니다",
+            "norm_text": "A.안녕하세요 고객님 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.주문자 이름은 #@이름#고 그거 반품 신청했는데요",
+            "norm_text": "B.주문자 이름은 #@이름#고 그거 반품 신청했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+주문자/NNG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+고/JKQ+그거/NP+반품/NNG+신청/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀하세요",
+            "norm_text": "A.네 고객님 말씀하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그거 왕복 택배비하고 해서 뭐 팔천 원이 돼있더라고요",
+            "norm_text": "B.그거 왕복 택배비하고 해서 뭐 팔천 원이 돼있더라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그거/NP+왕복/NNG+택배/NNG+비하/VV+고/EC+해서/VV+EC+뭐/IC+팔/NR+천/NR+원/NNBC+이/JKS+돼/VV+EC+있/VX+더라고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 팔천 원이세요",
+            "norm_text": "A.네 팔천 원이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+팔/NR+천/NR+원/NNBC+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.근데 제가 이거 살 때 택배비를 제가 내고 받았거든요",
+            "norm_text": "B.근데 제가 이거 살 때 택배비를 제가 내고 받았거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+근데/MAJ+제/NP+가/JKS+이거/NP+살/VV+ETM+때/NNG+택배/NNG+비/NNG+를/JKO+제/NP+가/JKS+내/VV+고/EC+받/VV+았/EP+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 택배비요 고객님",
+            "norm_text": "A.네 택배비요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+택배/NNG+비요/NNG+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.일단 제가 택배를 제가 직접 보내도 되죠",
+            "norm_text": "B.일단 제가 택배를 제가 직접 보내도 되죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+일단/MAG+제/NP+가/JKS+택배/NNG+를/JKO+제/NP+가/JKS+직접/MAG+보내/VV+EC+도/JX+되/VV+죠/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.제가 확인 한 번 해보도록 하겠습니다",
+            "norm_text": "A.제가 확인 한 번 해보도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+확인/NNG+한/MM+번/NNBC+해/VV+EC+보/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 기다릴게요 해주세요",
+            "norm_text": "B.네 기다릴게요 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+기다릴/VV+ETM+게/NNB+JKS+요해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.택배 고객님께서 발송해 드리는 거는 괜찮으신데요",
+            "norm_text": "A.택배 고객님께서 발송해 드리는 거는 괜찮으신데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+택배/NNG+고객/NNG+님/XSN+께서/JKS+발송/NNG+해/XSV+EC+드리/VX+는/ETM+거/NNB+는/JX+괜찮/VA+으신/EP+ETM+데/NNB+요/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.박스 비용 이천 원은 부과되신다고 합니다",
+            "norm_text": "A.박스 비용 이천 원은 부과되신다고 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+박스/NNG+비용/NNG+이/JKS+천/NR+원/NNBC+은/JX+부과/NNG+되/XSV+신다고/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.박스 비용 이천 원이요",
+            "norm_text": "B.박스 비용 이천 원이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+박스/NNG+비용/NNG+이/JKS+천/NR+원/NNBC+이/VCP+요/EC"
+          },
+          {
+            "id": 14,
+            "text": "B.박스는 그대로 해서  갖다 드리는데 왜 이천 원을 부과하죠",
+            "norm_text": "B.박스는 그대로 해서  갖다 드리는데 왜 이천 원을 부과하죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+박스/NNG+는/JX+그대로/MAG+해서/VV+EC+갖/VX+다/EC+드리/VX+는데/EC+왜/MAG+이/NR+천/NR+원/NNBC+을/JKO+부과/NNG+하/XSV+죠/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.이미 처음에 물건 보내드릴 때 본 박스에 송장 부착해서 나가는 거라서요",
+            "norm_text": "A.이미 처음에 물건 보내드릴 때 본 박스에 송장 부착해서 나가는 거라서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이미/MAG+처음/NNG+에/JKB+물건/NNG+보내/VV+EC+드릴/VX+ETM+때/NNG+본/VV+ETM+박스/NNG+에/JKB+송장/NNG+부착/NNG+해서/XSV+EC+나가/VX+는/ETM+거/NNB+라서요/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.일단 알겠어요 그러면 그거 택배 보낼 주소 문자로 부탁드릴게요",
+            "norm_text": "B.일단 알겠어요 그러면 그거 택배 보낼 주소 문자로 부탁드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+일단/MAG+알/VV+겠/EP+어요/EF+그러면/MAJ+그거/NP+택배/NNG+보낼/VV+ETM+주소/NNG+문자/NNG+로/JKB+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.거기에 이천 원 넣어서 보내면 되죠",
+            "norm_text": "B.거기에 이천 원 넣어서 보내면 되죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+거기/NP+에/JKB+이/NR+천/NR+원/NNBC+넣/VV+어서/EC+보내/VV+면/EC+되/VV+죠/EC"
+          },
+          {
+            "id": 18,
+            "text": "A.저희가  동봉은 따로 안 되고요",
+            "norm_text": "A.저희가  동봉은 따로 안 되고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+동봉/NNG+은/JX+따로/MAG+안/MAG+되/VV+고요/EC"
+          },
+          {
+            "id": 19,
+            "text": "A.그건 업체에서 받는 거라 계좌 번호 다시 한번 안내해 드릴게요",
+            "norm_text": "A.그건 업체에서 받는 거라 계좌 번호 다시 한번 안내해 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그건/NP+JX+업체/NNG+에서/JKB+받/VV+는/ETM+거/NNB+라/VCP+EC+계좌/NNG+번호/NNG+다시/MAG+한/MM+번/NNBC+안내/NNG+해/XSV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 20,
+            "text": "B.그럼 계좌 번호하고 주소 보내주세요",
+            "norm_text": "B.그럼 계좌 번호하고 주소 보내주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+계좌/NNG+번호/NNG+하/XSV+고/EC+주소/NNG+보내/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 21,
+            "text": "A.네 알겠습니다 고객님",
+            "norm_text": "A.네 알겠습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 22,
+            "text": "B.예 수고가 많으세요",
+            "norm_text": "B.예 수고가 많으세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+가/JKS+많/VA+으세요/EP+EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

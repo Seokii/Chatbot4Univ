@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 13368,
+    "name": "s1_20210913_0001_0539_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151220007628/s1_20210913_0001_0539_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151220007628/s1_20210913_0001_0539_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7940,
+      "filename": "s1_20210824_0026_0007_01.txt",
+      "title": "s1_20210824_0026_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 142,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 142,
+        "word_size": 33,
+        "text": "A.예 반갑습니다 #@소속# 상담실에 #@이름#입니다\nB.여보세요 #@소속# 상담실이요\nA.예 저희 쪽 컴퓨터 관련해서 연락 주신 분 맞으시죠\nB.네 그랬던 것 같아요\nA.혹시 #@이름# 고객님하고 통화 가능할까요\nB.아니요 지금 통화 못해요\nA.예 그럼 알겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.예 반갑습니다 #@소속# 상담실에 #@이름#입니다",
+            "norm_text": "A.예 반갑습니다 #@소속# 상담실에 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+예/IC+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+실에/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여보세요 #@소속# 상담실이요",
+            "norm_text": "B.여보세요 #@소속# 상담실이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+여보세요/IC+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+실/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.예 저희 쪽 컴퓨터 관련해서 연락 주신 분 맞으시죠",
+            "norm_text": "A.예 저희 쪽 컴퓨터 관련해서 연락 주신 분 맞으시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+저희/NP+쪽/NNB+컴퓨터/NNG+관련/NNG+해서/XSV+EC+연락/NNG+주/VV+신/EP+ETM+분/NNB+맞/VV+으시/EP+죠/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 그랬던 것 같아요",
+            "norm_text": "B.네 그랬던 것 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그랬/VV+EP+던/ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.혹시 #@이름# 고객님하고 통화 가능할까요",
+            "norm_text": "A.혹시 #@이름# 고객님하고 통화 가능할까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+하고/JKB+통화/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아니요 지금 통화 못해요",
+            "norm_text": "B.아니요 지금 통화 못해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "B/SL+아니요/IC+지금/MAG+통화/NNG+못/MAG+해요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.예 그럼 알겠습니다",
+            "norm_text": "A.예 그럼 알겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+그럼/MAJ+알/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

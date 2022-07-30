@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 6039,
+    "name": "c1_20210911_0005_0397_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151342013441/c1_20210911_0005_0397_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151342013441/c1_20210911_0005_0397_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10812,
+      "filename": "c1_20210820_0013_0009_01.txt",
+      "title": "c1_20210820_0013_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 401,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 401,
+        "word_size": 103,
+        "text": "A.반갑습니다 #@소속#입니다 무엇을 도와 드릴까요\nB.당진시 #@주소#로 버스타고 가려면 서울에서 어떻게 가야 돼요\nA.네 확인하고 찾아드리겠습니다\nB.네 확인하고 찾아주세요\nA.근처 터미널에서 탑승하셔서 당진 터미널에서 내리시면 됩니다\nB.그 버스는 하루에 몇 번이나 오나요\nA.네 선생님 제가 안내해드린 버스는 하루에 다섯 번만 운행을 합니다\nA.따라서 시내 버스 회사로 한 번 더 문의 후에 이용을 하셔야겠습니다\nB.그러면 저 교통이 엄청 불편하네 서울에는 그냥 수시로 다니잖아요\nB.삼 분 간격 어떤 땐 오 분 간격 뭐 칠 분 간격을 이렇게 다니는데요\nA.네 맞습니다 선생님\nB.하루에 다섯 번이믄 이게 몇 시간 만에 한 번씩 온데는 소린데\nA.네 그렇습니다 선생님 배차 간격이 긴 편입니다\nB.그렇군요 예 할 수 없네요 고맙습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속#입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.반갑습니다 #@소속#입니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.당진시 #@주소#로 버스타고 가려면 서울에서 어떻게 가야 돼요",
+            "norm_text": "B.당진시 #@주소#로 버스타고 가려면 서울에서 어떻게 가야 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+당진시/NNP+#/SY+@/SY+주소/NNG+#/SY+로버스/NNP+타/VV+고/EC+가/VX+려면/EC+서울/NNP+에서/JKB+어떻/VA+게/EC+가/VX+야/EC+돼요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 확인하고 찾아드리겠습니다",
+            "norm_text": "A.네 확인하고 찾아드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+확인/NNG+하/XSV+고/EC+찾/VV+아/EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 확인하고 찾아주세요",
+            "norm_text": "B.네 확인하고 찾아주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+하/XSV+고/EC+찾/VV+아/EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.근처 터미널에서 탑승하셔서 당진 터미널에서 내리시면 됩니다",
+            "norm_text": "A.근처 터미널에서 탑승하셔서 당진 터미널에서 내리시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+근처/NNG+터미널/NNG+에서/JKB+탑승/NNG+하/XSV+셔서/EP+EC+당진/NNP+터미널/NNG+에서/JKB+내리/VV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그 버스는 하루에 몇 번이나 오나요",
+            "norm_text": "B.그 버스는 하루에 몇 번이나 오나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그/MM+버스/NNG+는/JX+하루/NNG+에/JKB+몇/MM+번/NNBC+이/JKS+나오/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 선생님 제가 안내해드린 버스는 하루에 다섯 번만 운행을 합니다",
+            "norm_text": "A.네 선생님 제가 안내해드린 버스는 하루에 다섯 번만 운행을 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+제/NP+가/JKS+안내/NNG+해/XSV+EC+드린/VX+ETM+버스/NNG+는/JX+하루/NNG+에/JKB+다섯/NR+번/NNBC+만/JX+운행/NNG+을/JKO+합니다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.따라서 시내 버스 회사로 한 번 더 문의 후에 이용을 하셔야겠습니다",
+            "norm_text": "A.따라서 시내 버스 회사로 한 번 더 문의 후에 이용을 하셔야겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+따라서/MAJ+시내버스/NNG+회사/NNG+로/JKB+한번/MAG+더/MAG+문/NNG+의/JKG+후/NNG+에/JKB+이용/NNG+을/JKO+하/VV+셔야/EP+EC+VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그러면 저 교통이 엄청 불편하네 서울에는 그냥 수시로 다니잖아요",
+            "norm_text": "B.그러면 저 교통이 엄청 불편하네 서울에는 그냥 수시로 다니잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러면/MAJ+저/MM+교통/NNG+이/JKS+엄청/MAG+불편/NNG+하/XSV+네/EC+서울/NNP+에/JKB+는/JX+그냥/MAG+수시로/MAG+다니/VV+잖아요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.삼 분 간격 어떤 땐 오 분 간격 뭐 칠 분 간격을 이렇게 다니는데요",
+            "norm_text": "B.삼 분 간격 어떤 땐 오 분 간격 칠 분 간격을 이렇게 다니는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+삼/NR+분/NNBC+간격/NNG+어떤/MM+땐/NNG+JX+오/NR+분/NNBC+간격/NNG+칠/NR+분/NNBC+간격/NNG+을/JKO+이렇게/MAG+다니/VV+는데요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 맞습니다 선생님",
+            "norm_text": "A.네 맞습니다 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 12,
+            "text": "B.하루에 다섯 번이믄 이게 몇 시간 만에 한 번씩 온데는 소린데",
+            "norm_text": "B.하루에 다섯 번이믄 이게 몇 시간 만에 한 번씩 온데는 소린데",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+하루/NNG+에/JKB+다섯/NR+번/NNBC+이/VCP+믄/EC+이게/NP+JKS+몇/MM+시간/NNG+만/NNB+에/JKB+한/MM+번/NNBC+씩/XSN+온/VV+ETM+데/NNB+는/JX+소린데/NNG+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 그렇습니다 선생님 배차 간격이 긴 편입니다",
+            "norm_text": "A.네 그렇습니다 선생님 배차 간격이 긴 편입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+선생/NNG+님/XSN+배차/NNG+간격/NNG+이/JKS+긴/VA+ETM+편/NNB+입니다/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.그렇군요 예 할 수 없네요 고맙습니다",
+            "norm_text": "B.그렇군요 예 할 수 없네요 고맙습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+예/NNG+할/XSV+ETM+수/NNB+없/VA+네요/EF+고맙/VA+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

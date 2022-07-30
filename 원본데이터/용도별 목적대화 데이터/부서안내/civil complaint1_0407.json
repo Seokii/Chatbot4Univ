@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 49072,
+    "name": "c1_20211015_0002_0109_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130802061036/c1_20211015_0002_0109_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130802061036/c1_20211015_0002_0109_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51719,
+      "filename": "c1_20210929_0018_0017_01.txt",
+      "title": "c1_20210929_0018_0017_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 264,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 264,
+        "word_size": 51,
+        "text": "A.안녕하십니까 상담사 #@이름#입니다\nB.안녕하세요 교육비 지원 탈락했는데 이의제기 신청하려고요\nA.선생님 죄송하지만 저희는 상담 부서입니다\nB.그럼 어느 부서에 전화해야 하죠\nA.가까운 읍면동 주민센터로 이의신청 해주셔야 합니다\nB.여기가 #@주소#거든요\nA.그러시면 #@소속# 주민센터 #@전번#으로 확인 부탁드립니다\nB.대표번호 말고 담당자 번호는 모르시나요\nA.주민센터 내 교육비 관련 담당처 #@전번#입니다\nB.알겠습니다 그럼 다시 해볼게요\nA.감사합니다 상담사 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 교육비 지원 탈락했는데 이의제기 신청하려고요",
+            "norm_text": "B.안녕하세요 교육비 지원 탈락했는데 이의제기 신청하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+교육비/NNG+지원/NNG+탈락/NNG+했/XSV+EP+는데/EC+이/NP+의/JKG+제기/NNG+신청/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.선생님 죄송하지만 저희는 상담 부서입니다",
+            "norm_text": "A.선생님 죄송하지만 저희는 상담 부서입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+죄송/XR+하/XSA+지만/EC+저희/NP+는/JX+상담/NNG+부서/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그럼 어느 부서에 전화해야 하죠",
+            "norm_text": "B.그럼 어느 부서에 전화해야 하죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+어느/MM+부서/NNG+에/JKB+전화/NNG+해야/XSV+EC+하/VX+죠/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.가까운 읍면동 주민센터로 이의신청 해주셔야 합니다",
+            "norm_text": "A.가까운 읍면동 주민센터로 이의신청 해주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+가까운/VA+ETM+읍/NNG+면/VCP+EC+동/MM+주민/NNG+센터/NNG+로/JKB+이/NP+의/JKG+신청/NNG+해/XSV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.여기가 #@주소#거든요",
+            "norm_text": "B.여기가 #@주소#거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+가/JKS+#/SY+@/SY+주소/NNG+#/SY+거든요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.그러시면 #@소속# 주민센터 #@전번#으로 확인 부탁드립니다",
+            "norm_text": "A.그러시면 #@소속# 주민센터 #@전번#으로 확인 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+주민/NNG+센터/NNG+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+확인/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.대표번호 말고 담당자 번호는 모르시나요",
+            "norm_text": "B.대표번호 말고 담당자 번호는 모르시나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+대표/NNG+번호/NNG+말/VV+고/EC+담당자/NNG+번호/NNG+는/JX+모르/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.주민센터 내 교육비 관련 담당처 #@전번#입니다",
+            "norm_text": "A.주민센터 내 교육비 관련 담당처 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주민/NNG+센터/NNG+내/NNB+교육비/NNG+관련/NNG+담당/NNG+처/NNG+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 그럼 다시 해볼게요",
+            "norm_text": "B.알겠습니다 그럼 다시 해볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그럼/MAJ+다시/MAG+해/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담사 #@이름#였습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

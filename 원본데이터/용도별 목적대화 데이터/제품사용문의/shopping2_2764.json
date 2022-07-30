@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 118254,
+    "name": "s2_20211105_0001_4357_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110651075542/s2_20211105_0001_4357_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110651075542/s2_20211105_0001_4357_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116168,
+      "filename": "s2_20211026_0023_0012_01.txt",
+      "title": "s2_20211026_0023_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 270,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 270,
+        "word_size": 60,
+        "text": "A.안녕하세요 고객님 #@소속# 상담사 #@이름#입니다\nB.여쭤볼 게 있는데요\nA.네 고객님 어떤 문의이실까요\nB.제품이 계속 품절 상태여서요\nA.죄송합니다 고객님 인기가 많은 제품의 경우 재고가 없을 수 있습니다\nB.그러면 입고 예정일이라도 알려주세요\nA.입고 예정일은 여러 요인에 의해 변동되기 때문에요\nA.안내해 드리기 어려움이 있습니다 양해 부탁드립니다\nB.언제 들어오는 지도 모른다는 말씀이시죠\nA.죄송합니다 추후 재입고 시 웹사이트나 어플로 확인하실 수 있습니다\nB.네 알겠습니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 고객님 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여쭤볼 게 있는데요",
+            "norm_text": "B.여쭤볼 게 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여쭤볼/VV+EC+VX+ETM+게/NNB+JKS+있/VA+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어떤 문의이실까요",
+            "norm_text": "A.네 고객님 어떤 문의이실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.제품이 계속 품절 상태여서요",
+            "norm_text": "B.제품이 계속 품절 상태여서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+./SY+제품/NNG+이/JKS+계속/MAG+품절/NNG+상태/NNG+여서요/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.죄송합니다 고객님 인기가 많은 제품의 경우 재고가 없을 수 있습니다",
+            "norm_text": "A.죄송합니다 고객님 인기가 많은 제품의 경우 재고가 없을 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+고객/NNG+님/XSN+인기/NNG+가/JKS+많/VA+은/ETM+제품/NNG+의/JKG+경우/NNG+재고/NNG+가/JKS+없/VA+을/ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그러면 입고 예정일이라도 알려주세요",
+            "norm_text": "B.그러면 입고 예정일이라도 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그러/VV+면/EC+입/VV+고/EC+예정일/NNG+이/VCP+라도/EC+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.입고 예정일은 여러 요인에 의해 변동되기 때문에요",
+            "norm_text": "A.입고 예정일은 여러 요인에 의해 변동되기 때문에요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+입/VV+고/EC+예정일/NNG+은/JX+여러/MM+요인/NNG+에/JKB+의해/VV+EC+변동/NNG+되/XSV+기/ETN+때문/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.안내해 드리기 어려움이 있습니다 양해 부탁드립니다",
+            "norm_text": "A.안내해 드리기 어려움이 있습니다 양해 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+안내/NNG+해/XSV+EC+드리/VX+기/ETN+어려움/NNG+이/JKS+있/VA+습니다/EF+양해/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.언제 들어오는 지도 모른다는 말씀이시죠",
+            "norm_text": "B.언제 들어오는 지도 모른다는 말씀이시죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+언제/MAG+들어오/VV+는지/EC+도/JX+모른다는/VV+ETM+말씀/NNG+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.죄송합니다 추후 재입고 시 웹사이트나 어플로 확인하실 수 있습니다",
+            "norm_text": "A.죄송합니다 추후 재입고 시 웹사이트나 어플로 확인하실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+추후/NNG+재입/NNG+고시/NNG+웹/NNG+사이트/NNG+나/JC+어/IC+플로/NNG+확인/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 알겠습니다 수고하세요",
+            "norm_text": "B.네 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

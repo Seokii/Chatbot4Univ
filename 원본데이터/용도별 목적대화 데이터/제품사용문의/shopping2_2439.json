@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 116695,
+    "name": "s2_20211105_0002_0067_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110737059636/s2_20211105_0002_0067_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110737059636/s2_20211105_0002_0067_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117163,
+      "filename": "s2_20211028_0026_0014_01.txt",
+      "title": "s2_20211028_0026_0014_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 217,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 217,
+        "word_size": 42,
+        "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다\nB.안녕하세요 아침인데 수고하시네요\nA.감사합니다 고객님 무엇을 도와드릴까요\nB.#@상품#을 구매하려고 하는데 구성이 어떻게 되나요\nA.그 상품은 본품과 충전케이블 사용설명서로 구성되어 있습니다\nB.그러면 타이머 스티커는 안보내주시나요\nA.네 고객님 구성품이 아닙니다\nB.네 알겠습니다 감사합니다\nA.다른 문의 사항이 있으신가요\nB.아니요 없어요 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 아침인데 수고하시네요",
+            "norm_text": "B.안녕하세요 아침인데 수고하시네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+아침/NNG+인데/VCP+EC+수고/NNG+하/XSV+시/EP+네요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.감사합니다 고객님 무엇을 도와드릴까요",
+            "norm_text": "A.감사합니다 고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@상품#을 구매하려고 하는데 구성이 어떻게 되나요",
+            "norm_text": "B.#@상품#을 구매하려고 하는데 구성이 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+을/JKO+구매/NNG+하/XSV+려고/EC+하/VV+는데/EC+구성/NNG+이/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.그 상품은 본품과 충전케이블 사용설명서로 구성되어 있습니다",
+            "norm_text": "A.그 상품은 본품과 충전케이블 사용설명서로 구성되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+상품/NNG+은/JX+본품/NNG+과/JC+충전/NNG+케이블/NNG+사용/NNG+설명서/NNG+로/JKB+구성/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그러면 타이머 스티커는 안보내주시나요",
+            "norm_text": "B.그러면 타이머 스티커는 안보내주시나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+타이머/NNG+스티커/NNG+는/JX+안/MAG+보내/VV+EC+주/VX+시/EP+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 구성품이 아닙니다",
+            "norm_text": "A.네 고객님 구성품이 아닙니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+구성/NNG+품/NNG+이/JKC+아닙니다/VCN+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.다른 문의 사항이 있으신가요",
+            "norm_text": "A.다른 문의 사항이 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+이/JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "B.아니요 없어요 수고하세요",
+            "norm_text": "B.아니요 없어요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아니요/IC+없/VA+어요/EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

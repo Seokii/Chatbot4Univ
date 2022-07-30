@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 152008,
+    "name": "t1_20211117_0002_0549_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135721043824/t1_20211117_0002_0549_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135721043824/t1_20211117_0002_0549_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148851,
+      "filename": "t1_0080_0007_02.txt",
+      "title": "t1_0080_0007_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 365,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 365,
+        "word_size": 75,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 1234호인데요\nA.네 고객님 무엇을 도와드릴까요\nB.네 저희 혹시 룸서비스 이용 가능할까요\nA.네 가능합니다 시간은 언제쯤으로 준비해드릴까요\nB.저녁 7시40분쯤 가능할까요\nA.네 가능하구요 서비스 코스는 어떤 것을 원하시나요\nB.스페셜 4번 코스 준비해주세요 스테이크랑 디저트 패키지 맞죠\nA.네 맞습니다 1234호 #@이름# 고객님으로 확인되구요\nA.7시 40분까지 스페셜 4번코스로 준비해서 진행하도록 하겠습니다\nB.결제는 어떻게 하면 될까요\nA.직원이 계산서를 가지고 오면 체크아웃하실 때 같이 결제 해주시면됩니다\nB.네 알겠습니다 감사합니다\nA.네 그럼 좋은저녁 보내시구요 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 1234호인데요",
+            "norm_text": "B.네 안녕하세요 천이백삼호인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+1234/SN+호/NNBC+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 무엇을 도와드릴까요",
+            "norm_text": "A.네 고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 저희 혹시 룸서비스 이용 가능할까요",
+            "norm_text": "B.네 저희 혹시 룸서비스 이용 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+저희/NP+혹시/MAG+룸서비스/NNG+이용/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 가능합니다 시간은 언제쯤으로 준비해드릴까요",
+            "norm_text": "A.네 가능합니다 시간은 언제쯤으로 준비해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+가능/NNG+합니다/XSV+EF+시간/NNG+은/JX+언제/NP+쯤/XSN+으로/JKB+준비/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.저녁 7시40분쯤 가능할까요",
+            "norm_text": "B.저녁 일곱시 사십분쯤 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+저녁/NNG+7/SN+시/NNBC+40/SN+분/NNBC+쯤/XSN+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 가능하구요 서비스 코스는 어떤 것을 원하시나요",
+            "norm_text": "A.네 가능하구요 서비스 코스는 어떤 것을 원하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+가능/NNG+하구/JKB+요서/NNG+비스코스/NNG+는/JX+어떤/MM+것/NNB+을/JKO+원하/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.스페셜 4번 코스 준비해주세요 스테이크랑 디저트 패키지 맞죠",
+            "norm_text": "B.스페셜 4번 코스 준비해주세요 스테이크랑 디저트 패키지 맞죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+스페셜/NNP+4/SN+번/NNBC+코스/NNG+준비/NNG+해/XSV+EC+주/VX+세요/EP+EF+스테이크/NNG+랑/JKB+디저트/NNG+패키지/NNG+맞/VV+죠/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 맞습니다 1234호 #@이름# 고객님으로 확인되구요",
+            "norm_text": "A.네 맞습니다 천이백삼호 #@이름# 고객님으로 확인되구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+1234/SN+호/NNBC+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+으로/JKB+확인/NNG+되/XSV+구요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.7시 40분까지 스페셜 4번코스로 준비해서 진행하도록 하겠습니다",
+            "norm_text": "A.일곱시 사십분까지 스페셜 사번코스로 준비해서 진행하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+7/SN+시/NNBC+40/SN+분/NNBC+까지/JX+스페셜/NNP+4/SN+번/NNBC+코스/NNG+로/JKB+준비/NNG+해서/XSV+EC+진행/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.결제는 어떻게 하면 될까요",
+            "norm_text": "B.결제는 어떻게 하면 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+결제/NNG+는/JX+어떻게/MAG+하/VV+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.직원이 계산서를 가지고 오면 체크아웃하실 때 같이 결제 해주시면됩니다",
+            "norm_text": "A.직원이 계산서를 가지고 오면 체크아웃하실 때 같이 결제 해주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+직원/NNG+이/JKS+계산서/NNG+를/JKO+가지/VV+고/EC+오/VV+면/EC+체크아웃/NNG+하/XSV+실/EP+ETM+때/NNG+같이/JKB+결제/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 그럼 좋은저녁 보내시구요 상담원 #@이름#이었습니다",
+            "norm_text": "A.네 그럼 좋은저녁 보내시구요 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+좋/VA+은/ETM+저녁/NNG+보내/VV+시/EP+구요/EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

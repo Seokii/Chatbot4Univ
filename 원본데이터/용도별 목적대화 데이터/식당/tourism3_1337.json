@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 164779,
+    "name": "t3_20211123_0005_0242_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135806027446/t3_20211123_0005_0242_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135806027446/t3_20211123_0005_0242_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 150597,
+      "filename": "t3_0066_0122_02.txt",
+      "title": "t3_0066_0122_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 295,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 295,
+        "word_size": 72,
+        "text": "A.네 안녕하십니까 #@소속#입니다\nB.안녕하세요 우도 여행하는 김에 방문해서 햄버거 먹으려는데요\nB.지금 #@소속# 주소를 못 찾아서 못 가고 있어요\nA.그러신가요 저희 위치 알려드릴까요\nB.네 거기 주소 좀 알려주세요 네비에 #@소속#가 안 뜨네요\nA.제주시 #@주소# 검색 하시면 됩니다\nB.일단 말씀 해 주신대로 주소 치긴 했는데 됐으면 좋겠네요\nA.혹시라도 안 된다면 다시 한 번 전화 주시겠어요\nB.네 알겠습니다 지금 해 보고 주소 못 찾겠으면 다시 연락 드릴게요\nA.네 감사합니다 조심히 오세요 #@소속#였습니다\nB.네 안녕히 계세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하십니까 #@소속#입니다",
+            "norm_text": "A.네 안녕하십니까 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 우도 여행하는 김에 방문해서 햄버거 먹으려는데요",
+            "norm_text": "B.안녕하세요 우도 여행하는 김에 방문해서 햄버거 먹으려는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+우도/NNG+여행/NNG+하/XSV+는/ETM+김/NNB+에/JKB+방문/NNG+해서/XSV+EC+햄버거/NNG+먹/VV+으려는/ETM+데/NNB+요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.지금 #@소속# 주소를 못 찾아서 못 가고 있어요",
+            "norm_text": "B.지금 #@소속# 주소를 못 찾아서 못 가고 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+#/SY+@/SY+소속/NNG+#/SY+주소/NNG+를/JKO+못/MAG+찾/VV+아서/EC+못/MAG+가/VV+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.그러신가요 저희 위치 알려드릴까요",
+            "norm_text": "A.그러신가요 저희 위치 알려드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+신가요/EP+EF+저희/NP+위치/NNG+알려/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 거기 주소 좀 알려주세요 네비에 #@소속#가 안 뜨네요",
+            "norm_text": "B.네 거기 주소 좀 알려주세요 네비에 #@소속#가 안 뜨네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+거기/NP+주소/NNG+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF+네비/NNG+에/JKB+#/SY+@/SY+소속/NNG+#/SY+가/JKS+안/MAG+뜨/VV+네요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.제주시 #@주소# 검색 하시면 됩니다",
+            "norm_text": "A.제주시 #@주소# 검색하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+제주시/NNP+#/SY+@/SY+주소/NNG+#/SY+검색/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.일단 말씀 해 주신대로 주소 치긴 했는데 됐으면 좋겠네요",
+            "norm_text": "B.일단 말씀해 주신 대로 주소 치긴 했는데 됐으면 좋겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+일단/MAG+말씀/NNG+해/XSV+EC+주/VX+신/EP+ETM+대로/NNB+주소/NNG+치/VV+긴/ETN+JX+했/VX+EP+는데/EC+됐/VV+EP+으면/EC+좋/VA+겠/EP+네요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.혹시라도 안 된다면 다시 한 번 전화 주시겠어요",
+            "norm_text": "A.혹시라도 안 된다면 다시 한 번 전화 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+혹시/MAG+라도/JX+안/MAG+된다면/VV+EC+다시/MAG+한/MM+번/NNBC+전화/NNG+주/VV+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠습니다 지금 해 보고 주소 못 찾겠으면 다시 연락 드릴게요",
+            "norm_text": "B.네 알겠습니다 지금 해 보고 주소 못 찾겠으면 다시 연락드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+지금/MAG+해/VV+EC+보/VX+고/EC+주소/NNG+못/MAG+찾/VV+겠/EP+으면/EC+다시/MAG+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 감사합니다 조심히 오세요 #@소속#였습니다",
+            "norm_text": "A.네 감사합니다 조심히 오세요 #@소속#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+조심히/MAG+오/VV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+였/VCP+EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 안녕히 계세요",
+            "norm_text": "B.네 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕히/MAG+계세요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 143603,
+    "name": "e1_20211115_0006_1360_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/91/txt20211110140013094280/e1_20211115_0006_1360_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/91/txt20211110140013094280/e1_20211115_0006_1360_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 159018,
+      "filename": "e1_0083_0009_02.txt",
+      "title": "e1_0083_0009_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 382,
+      "annotations": {
+        "subject": "프로그램 문의",
+        "speaker_type": "1:1",
+        "size": 382,
+        "word_size": 85,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 강의 문의드릴 게 있어서요\nA.네 말씀 하세요 고객님\nB.#@상품#를 주문하면 #@상품#는 타 사이트의 별도 플랫폼을 통해 수강신청을 해야 하나요\nA.#@상품#은 외부로부터 강의를 받아 저희 #@소속# 시스템에서 강의를 보실 수 있으십니다\nB.아 그러면 #@소속#에서 직접 강의를 볼 수 있겠네요\nA.네 그렇습니다 추가 문의사항 있으신가요\nB.#@상품#는 타 사이트에 개별적으로 신청해야 하나요\nA.교재 포함 상품의 경우 외부로부터 발송 요청하여 오전 11시 전까지 구매자에 한 해 당일 발송을 해드리고 있으니 참고 부탁드립니다\nB.네 알겠습니다 친절한 답변 감사합니다\nA.아닙니다 도움이 되어 다행입니다 #@소속# 상담원 #@이름#입니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 강의 문의드릴 게 있어서요",
+            "norm_text": "B.안녕하세요 강의 문의드릴 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+강의/NNG+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 말씀 하세요 고객님",
+            "norm_text": "A.네 말씀 하세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+말씀/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.#@상품#를 주문하면 #@상품#는 타 사이트의 별도 플랫폼을 통해 수강신청을 해야 하나요",
+            "norm_text": "B.#@상품#를 주문하면 별도 플랫폼을 통해 수강신청을 해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+를/JKO+주문/NNG+하/XSV+면/EC+별도/NNG+플랫폼/NNG+을/JKO+통해/VV+EC+수강/NNG+신청/NNG+을/JKO+해야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.#@상품#은 외부로부터 강의를 받아 저희 #@소속# 시스템에서 강의를 보실 수 있으십니다",
+            "norm_text": "A.#@상품#은 외부 강의지만 저희 시스템에서 강의를 보실 수 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+은/JX+외부/NNG+로부터/JKB+강의/NNG+를/JKO+받/VV+아/EC+저희/NP+#/SY+@/SY+소속/NNG+#/SY+시스템/NNG+에서/JKB+강의/NNG+를/JKO+보/VV+실/EP+ETM+수/NNB+있/VV+으십니다/EP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.아 그러면 #@소속#에서 직접 강의를 볼 수 있겠네요",
+            "norm_text": "B.아 그러면 #@소속#에서 직접 강의를 볼 수 있겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그러면/MAJ+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+직접/MAG+강의/NNG+를/JKO+볼/VV+ETM+수/NNB+있/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 그렇습니다 추가 문의사항 있으신가요",
+            "norm_text": "A.네 그렇습니다 추가 문의사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+추가/NNG+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "B.#@상품#는 타 사이트에 개별적으로 신청해야 하나요",
+            "norm_text": "B.#@상품#는 타 사이트에 개별적으로 신청해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+는/JX+타/MM+사이트/NNG+에/JKB+개별/NNG+적/XSN+으로/JKB+신청/NNG+해야/XSV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.교재 포함 상품의 경우 외부로부터 발송 요청하여 오전 11시 전까지 구매자에 한 해 당일 발송을 해드리고 있으니 참고 부탁드립니다",
+            "norm_text": "A.오전 11시 전까지 구매자에 한 해 당일 발송을 해드리고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+오전/NNG+11/SN+시/NNBC+전/NNG+까지/JX+구매자/NNG+에/JKB+한/MM+해당/NNG+일/VCP+ETM+발송/NNG+을/JKO+해/VV+EC+드리/VX+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 알겠습니다 친절한 답변 감사합니다",
+            "norm_text": "B.네 알겠습니다 친절한 답변 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+친절/NNG+한/XSA+ETM+답변/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.아닙니다 도움이 되어 다행입니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.아닙니다 도움이 되어 다행입니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+아닙니다/VCN+EC+도움/NNG+이/JKS+되/VV+어/EC+다행/NNG+입니다/VCP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

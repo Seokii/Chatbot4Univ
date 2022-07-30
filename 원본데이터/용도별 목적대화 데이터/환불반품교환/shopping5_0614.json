@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 45035,
+    "name": "s5_20211014_0001_1551_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130710000838/s5_20211014_0001_1551_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130710000838/s5_20211014_0001_1551_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50746,
+      "filename": "s5_20210830_0011_0003_01.txt",
+      "title": "s5_20210830_0011_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 369,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 369,
+        "word_size": 86,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.제가 며칠 전에 #@상품#를 하나 구매를 했는데요\nB.특대를 했는데 하기 조금 뭐 해가지고요\nA.네 고객님 주문 건 먼저 확인해 보겠습니다\nA.성함과 핸드폰 번호 부탁드릴게요\nB.핸드폰 번호는 #@전번#이고 #@이름#이요\nA.네 고객님 정보 확인 감사드립니다\nA.결제해 주신 분 성함은 #@이름# 님으로 확인되네요\nB.결제는 #@이름#로 했어요\nA.네 고객님 특대 사이즈로 주문해 주셨네요\nB.했는데 와서 보니까 닦는 부위가 작아서 맞지를 않아요\nB.나는 특대라고 해서 삼각형 모양 전부 다 닦아지는 줄 알았죠\nB.보니까 요만큼 돼갖고 도저히 사용할 수가 없는 없는 제품이더라고요\nA.그러셨나요 고객님 잠시만요\nB.그래서 반품을 좀 하려고요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 며칠 전에 #@상품#를 하나 구매를 했는데요",
+            "norm_text": "B.제가 며칠 전에 #@상품#를 하나 구매를 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+며칠/NNG+전/NNG+에/JKB+#/SY+@/SY+상품/NNG+#/SY+를/JKO+하나/NR+구매/NNG+를/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.특대를 했는데 하기 조금 뭐 해가지고요",
+            "norm_text": "B.특대를 했는데 하기 조금 뭐 해가지고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+특대/NNG+를/JKO+했/VV+EP+는데/EC+하/VV+기/ETN+조금/MAG+뭐/IC+해/VV+EC+가지/VX+고요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 고객님 주문 건 먼저 확인해 보겠습니다",
+            "norm_text": "A.네 고객님 주문 건 먼저 확인해 보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+주문건/NNP+먼저/MAG+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.성함과 핸드폰 번호 부탁드릴게요",
+            "norm_text": "A.성함과 핸드폰 번호 부탁드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+성함/NNG+과/JC+핸드폰/NNG+번호/NNG+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.핸드폰 번호는 #@전번#이고 #@이름#이요",
+            "norm_text": "B.핸드폰 번호는 #@전번#이고 #@이름#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+핸드폰/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+이름/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 정보 확인 감사드립니다",
+            "norm_text": "A.네 고객님 정보 확인 감사드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+정보/NNG+확인/NNG+감사/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.결제해 주신 분 성함은 #@이름# 님으로 확인되네요",
+            "norm_text": "A.결제해 주신 분 성함은 #@이름# 님으로 확인되네요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+결제/NNG+해/XSV+EC+주/VX+신/EP+ETM+분성/NNG+함/XSV+ETN+은/JX+#/SY+@/SY+이름/NNG+#/SY+님/XSN+으로/JKB+확인/NNG+되/XSV+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.결제는 #@이름#로 했어요",
+            "norm_text": "B.결제는 #@이름#로 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+결제/NNG+는/JX+#/SY+@/SY+이름/NNG+#/SY+로/JKB+했/VV+EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 고객님 특대 사이즈로 주문해 주셨네요",
+            "norm_text": "A.네 고객님 특대 사이즈로 주문해 주셨네요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+특대/NNG+사이즈/NNG+로/JKB+주문/NNG+해/XSV+EC+주/VX+셨/EP+EP+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.했는데 와서 보니까 닦는 부위가 작아서 맞지를 않아요",
+            "norm_text": "B.했는데 와서 보니까 닦는 부위가 작아서 맞지를 않아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+했/VV+EP+는데/EC+와서/VV+EC+보/VX+니까/EC+닦/VV+는/ETM+부위/NNG+가/JKS+작/VA+아서/EC+맞/VV+지/EC+를/JX+않/VX+아요/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.나는 특대라고 해서 삼각형 모양 전부 다 닦아지는 줄 알았죠",
+            "norm_text": "B.나는 특대라고 해서 삼각형 모양 전부 다 닦아지는 줄 알았죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+나/NP+는/JX+특대/NNG+라고/VCP+EC+해서/VV+EC+삼각형/NNG+모양/NNG+전부/MAG+다/MAG+닦/VV+아/EC+지/VX+는/ETM+줄/NNB+알/VV+았/EP+죠/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.보니까 요만큼 돼갖고 도저히 사용할 수가 없는 없는 제품이더라고요",
+            "norm_text": "B.보니까 요만큼 돼갖고 도저히 사용할 수가 없는 없는 제품이더라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+보/VV+니까/EC+요만큼/NNG+돼/XSV+EC+갖/VX+고/EC+도저히/MAG+사용/NNG+할/XSV+ETM+수/NNB+가/JKS+없/VA+는/ETM+없/VA+는/ETM+제품/NNG+이/VCP+더라고요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.그러셨나요 고객님 잠시만요",
+            "norm_text": "A.그러셨나요 고객님 잠시만요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+셨/EP+EP+나요/EF+고객/NNG+님/XSN+잠시/NNG+만/JX+요/JX"
+          },
+          {
+            "id": 15,
+            "text": "B.그래서 반품을 좀 하려고요",
+            "norm_text": "B.그래서 반품을 좀 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그래서/MAJ+반품/NNG+을/JKO+좀/MAG+하/VV+려고요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

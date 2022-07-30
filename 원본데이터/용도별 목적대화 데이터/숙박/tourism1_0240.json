@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 140668,
+    "name": "t1_20211115_0002_0231_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135713030322/t1_20211115_0002_0231_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135713030322/t1_20211115_0002_0231_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147778,
+      "filename": "t1_0060_0004_02.txt",
+      "title": "t1_0060_0004_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 320,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 320,
+        "word_size": 79,
+        "text": "A.반갑습니다  #@소속# 고객센터 #@이름#입니다\nB.네 저 숙박 문의 좀 드릴게요\nA.네 고객님 편하게 말씀하세요\nB.연박패키지라는 이벤트가 있던데 지금도 하고 있나요\nA.네 이번 년도까지 적용되고 있습니다\nB.이게 숙박 요금을 할인해 주는 건가요\nA.네 고객님 객실을 2박 예약하시면 요\nA.둘째 날 객실료를 50프로 할인해 드리고 있습니다\nB.아 둘째 날에 반값을 할인해 주는 거에요\nB.그럼 2박3일은 어떻게 되는 거에요\nA.네 마찬가지로 둘째 날만 할인이 되시고요\nA.3일째 날은 객실 요금 그대로 적용이 됩니다\nB.음 그렇구나 알겠습니다 감사합니다\nA.네 감사합니다 좋은 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다  #@소속# 고객센터 #@이름#입니다",
+            "norm_text": "A.반갑습니다  #@소속# 고객센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 저 숙박 문의 좀 드릴게요",
+            "norm_text": "B.네 저 숙박 문의 좀 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+저/MM+숙박/NNG+문/NNG+의/JKG+좀/MAG+드릴게요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 편하게 말씀하세요",
+            "norm_text": "A.네 고객님 편하게 말씀하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+편하/VA+게/EC+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.연박패키지라는 이벤트가 있던데 지금도 하고 있나요",
+            "norm_text": "B.연박패키지라는 이벤트가 있던데 지금도 하고 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+연박/NNP+패키지/NNG+라는/VCP+ETM+이벤트/NNG+가/JKS+있/VA+던데/EC+지금/NNG+도/JX+하/VV+고/EC+있/VX+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 이번 년도까지 적용되고 있습니다",
+            "norm_text": "A.네 이번 년도까지 적용되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+이번/NNG+년/XSN+도/JX+까지/JX+적용/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.이게 숙박 요금을 할인해 주는 건가요",
+            "norm_text": "B.이게 숙박 요금을 할인해 주는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이게/NP+JKS+숙박/NNG+요금/NNG+을/JKO+할인/NNG+해/XSV+EC+주/VX+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 객실을 2박 예약하시면 요",
+            "norm_text": "A.네 고객님 객실을 2박 예약하시면 요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+객실/NNG+을/JKO+2/SN+박/NNBC+예약/NNG+하/XSV+시/EP+면/EC+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.둘째 날 객실료를 50프로 할인해 드리고 있습니다",
+            "norm_text": "A.둘째 날 객실료를 50프로 할인해 드리고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+둘째/NR+날/NNG+객실/NNG+료/NNG+를/JKO+50/SN+프로/NNG+할인/NNG+해/XSV+EC+드리/VX+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.아 둘째 날에 반값을 할인해 주는 거에요",
+            "norm_text": "B.아 둘째 날에 반값을 할인해 주는 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+둘째/NR+날/NNG+에/JKB+반값/NNG+을/JKO+할인/NNG+해/XSV+EC+주/VX+는/ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 2박3일은 어떻게 되는 거에요",
+            "norm_text": "B.그럼 2박3일은 어떻게 되는 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+2/SN+박/NNBC+3/SN+일/NNBC+은/JX+어떻게/MAG+되/VV+는/ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 마찬가지로 둘째 날만 할인이 되시고요",
+            "norm_text": "A.네 마찬가지로 둘째 날만 할인이 되시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+마찬가지/NNG+로/JKB+둘째/NR+날/NNG+만/JX+할인/NNG+이/JKS+되/VV+시/EP+고요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.3일째 날은 객실 요금 그대로 적용이 됩니다",
+            "norm_text": "A.3일째 날은 객실 요금 그대로 적용이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+3/SN+일/NNBC+째/XSN+날/NNG+은/JX+객실/NNG+요금/NNG+그대로/MAG+적용/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.음 그렇구나 알겠습니다 감사합니다",
+            "norm_text": "B.음 그렇구나 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+음/IC+그렇/VA+구나/EC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 감사합니다 좋은 하루 되세요",
+            "norm_text": "A.네 감사합니다 좋은 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

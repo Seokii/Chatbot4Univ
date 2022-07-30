@@ -1,0 +1,515 @@
+{
+  "dataset": {
+    "identifier": 91747,
+    "name": "KAKAO_1225_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/60/txt202110141414500058109/KAKAO_1225_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/60/txt202110141414500058109/KAKAO_1225_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 67615,
+      "filename": "KAKAO_1225_01.txt",
+      "title": "KAKAO_1225_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-14",
+      "size": 717,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "다자간 대화",
+        "size": 717,
+        "word_size": 259,
+        "text": "1 : 오늘 점심 우리 집에서 시켜 드실 분? 1시간 뒤에\n2 : 오오 뭐 먹을 껀데?\n2 : 나 나 먹을래\n2 : 나 파스타 먹고 싶음\n3 : 나두 좋아\n3 : 나는 피자 먹고싶다\n1 : 아 오키 그럼 맛집 아는 데 있다 배달 시킬게!\n2 : 응응 메뉴 보내주면 고르고 시간 맞춰갈게\n3 : 어 나도 지금 준비해서 나가면 딱 맞춰 도착하겠다\n1 : ㅇㅋ 메뉴 보냈어\n1 : 여기 큐브 스테이크도 맛있음!\n2 : 메뉴 하나씩 골라서 나눠 먹음 되겠다!\n3 : 어어 좋아\n3 : 나는 하와이안 피자 할게\n1 : 오키 오키\n1 : 집 좀 치워놔야겠다 키키 더럽노\n2 : 나는 투움바 파스타 매운맛 차돌박이 추가\n3 : 오 맛있겠다\n3 : 조합 좀 괜찮노 키키\n1 : 어어 이렇게 하고 큐브 스테이크 하면 딱이네\n2 : ㅇㅋ 정산해줘!\n2 : 먹기 전에 정산하자!\n3 : 키키 뭐야 벌써?\n3 : 응응 그래 배달비도 다 쳐서 해줘\n1 : 응응 배달비 천 원인데 사다리 타기 할게\n2 : ㅇㅋ 이런 건 보통 말하는 사람이 걸리지 않나\n3 : 키키 아 천 원 내가 낼 수도 있는데 안 걸렸음 좋겠다\n1 : 결과 확인해줘 키키\n1 : 헐 나네; 아 뭔데\n2 : 이럴 줄 알았음 키키\n2 : 난 입금했다!\n3 : 나두!\n3 : 나 운동 갔다 갈게\n3 : 잠깐하고 시간 맞춰 가겠음\n1 : 응응 아 맞다 오는 길에 마실 거 각자 사와\n2 : 내 꺼만 사오면 됨?\n2 : 내가 사갈게 뭐 먹을지 알려줘\n3 : 나는 사이다로!\n3 : 고마워\n3 : 이건 나중에 정산할게",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 오늘 점심 우리 집에서 시켜 드실 분? 1시간 뒤에",
+            "norm_text": "오늘 점심 우리 집에서 시켜 드실 분? 1시간 뒤에",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+점심/NNG+우리/NP+집/NNG+에서/JKB+시켜/VV+EC+드실/VV+EP+ETM+분/NNB+?/SY+1/SN+시간/NNBC+뒤/NNG+에/JKB"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오오 뭐 먹을 껀데?",
+            "norm_text": "오오 뭐 먹을 껀데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오오/IC+뭐/IC+먹/VV+을/ETM+껀/NNB+JX+데/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 나 나 먹을래",
+            "norm_text": "나 나 먹을래",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+나/JX+먹/VV+을래/EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나 파스타 먹고 싶음",
+            "norm_text": "나 파스타 먹고 싶음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+파스타/NNG+먹/VV+고/EC+싶/VX+음/ETN"
+          },
+          {
+            "id": 5,
+            "text": "3 : 나두 좋아",
+            "norm_text": "나두 좋아",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+두/JX+좋/VA+아/EC"
+          },
+          {
+            "id": 6,
+            "text": "3 : 나는 피자 먹고싶다",
+            "norm_text": "나는 피자 먹고싶다",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+피자/NNG+먹/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 아 오키 그럼 맛집 아는 데 있다 배달 시킬게!",
+            "norm_text": "아 오키 그럼 맛집 아는 데 있다 배달 시킬게!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "아오키/NNP+그럼/MAJ+맛집/NNG+아/VV+는데/EC+있/VX+다/EC+배달/NNG+시킬/XSV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 8,
+            "text": "2 : 응응 메뉴 보내주면 고르고 시간 맞춰갈게",
+            "norm_text": "응응 메뉴 보내주면 고르고 시간 맞춰갈게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "응/IC+응/IC+메뉴/NNG+보내/VV+EC+주/VX+면/EC+고르/VV+고/EC+시간/NNG+맞춰/VV+EC+갈/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 9,
+            "text": "3 : 어 나도 지금 준비해서 나가면 딱 맞춰 도착하겠다",
+            "norm_text": "어 나도 지금 준비해서 나가면 딱 맞춰 도착하겠다",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+나/NP+도/JX+지금/MAG+준비/NNG+해서/XSV+EC+나가/VX+면/EC+딱/MAG+맞춰/VV+EC+도착/NNG+하/XSV+겠/EP+다/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : ㅇㅋ 메뉴 보냈어",
+            "norm_text": "ㅇㅋ 메뉴 보냈어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㅇㅋ메뉴보냈어/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 여기 큐브 스테이크도 맛있음!",
+            "norm_text": "여기 큐브 스테이크도 맛있음!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "여기/NP+큐브/NNP+스테이크/NNG+도/JX+맛있/VA+음/ETN"
+          },
+          {
+            "id": 12,
+            "text": "2 : 메뉴 하나씩 골라서 나눠 먹음 되겠다!",
+            "norm_text": "메뉴 하나씩 골라서 나눠 먹음 되겠다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "메뉴/NNG+하나/NR+씩/XSN+골라서/VV+EC+나눠/VV+EC+먹/VV+음/ETN+되/VV+겠/EP+다/EF"
+          },
+          {
+            "id": 13,
+            "text": "3 : 어어 좋아",
+            "norm_text": "어어 좋아",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+좋/VA+아/EC"
+          },
+          {
+            "id": 14,
+            "text": "3 : 나는 하와이안 피자 할게",
+            "norm_text": "나는 하와이안 피자 할게",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+하와이안/NNG+피자/NNG+할/XSV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 15,
+            "text": "1 : 오키 오키",
+            "norm_text": "오키 오키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오키/NNP+오키/NNP"
+          },
+          {
+            "id": 16,
+            "text": "1 : 집 좀 치워놔야겠다 키키 더럽노",
+            "norm_text": "집 좀 치워놔야겠다 키키 더럽노",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "집/NNG+좀/MAG+치워/VV+EC+놔야/VX+EC+VX+겠/EP+다키키/NNP+더럽/VA+노/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 나는 투움바 파스타 매운맛 차돌박이 추가",
+            "norm_text": "나는 투움바 파스타 매운맛 차돌박이 추가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+투/MAG+움/IC+바파/NNP+스타/NNG+매운맛/NNG+차돌박이/NNG+추가/NNG"
+          },
+          {
+            "id": 18,
+            "text": "3 : 오 맛있겠다",
+            "norm_text": "오 맛있겠다",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+맛있/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 19,
+            "text": "3 : 조합 좀 괜찮노 키키",
+            "norm_text": "조합 좀 괜찮노 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조합/NNG+좀/MAG+괜찮/VA+노/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 어어 이렇게 하고 큐브 스테이크 하면 딱이네",
+            "norm_text": "어어 이렇게 하고 큐브 스테이크 하면 딱이네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어/IC+어/IC+이렇게/MAG+하/VV+고/EC+큐브/NNP+스테이크/NNG+하/XSV+면/EC+딱/MAG+이/NP+네/XSN"
+          },
+          {
+            "id": 21,
+            "text": "2 : ㅇㅋ 정산해줘!",
+            "norm_text": "ㅇㅋ 정산해줘!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅇㅋ/UNKNOWN+정산/NNG+해/XSV+EC+줘/VX+EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 먹기 전에 정산하자!",
+            "norm_text": "먹기 전에 정산하자!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "먹/VV+기/ETN+전/NNG+에/JKB+정산/NNG+하/XSA+자/EF"
+          },
+          {
+            "id": 23,
+            "text": "3 : 키키 뭐야 벌써?",
+            "norm_text": "키키 뭐야 벌써?",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+뭐/NP+야/VCP+EF+벌써/MAG"
+          },
+          {
+            "id": 24,
+            "text": "3 : 응응 그래 배달비도 다 쳐서 해줘",
+            "norm_text": "응응 그래 배달비도 다 쳐서 해줘",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+그래/IC+배/NNG+달비/NNG+도/JX+다쳐서/VV+EC+해줘/VX+EC+VX+EC"
+          },
+          {
+            "id": 25,
+            "text": "1 : 응응 배달비 천 원인데 사다리 타기 할게",
+            "norm_text": "응응 배달비 천 원인데 사다리 타기 할게",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+응/IC+배달/NNG+비/XPN+천/NR+원/NNBC+인데/VCP+EC+사다리타기/NNP+할/VV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 26,
+            "text": "2 : ㅇㅋ 이런 건 보통 말하는 사람이 걸리지 않나",
+            "norm_text": "ㅇㅋ 이런 건 보통 말하는 사람이 걸리지 않나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "ㅇㅋ/UNKNOWN+이런/MM+건/NNB+JX+보통/NNG+말/NNG+하/XSV+는/ETM+사람/NNG+이/JKS+걸리/VV+지/EC+않/VX+나/EC"
+          },
+          {
+            "id": 27,
+            "text": "3 : 키키 아 천 원 내가 낼 수도 있는데 안 걸렸음 좋겠다",
+            "norm_text": "키키 아 천 원 내가 낼 수도 있는데 안 걸렸음 좋겠다",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/VV+아/EC+천/NR+원/NNBC+내/NP+가/JKS+낼/VV+ETM+수/NNB+도/JX+있/VA+는데/EC+안/MAG+걸렸/VV+EP+음/ETN+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 28,
+            "text": "1 : 결과 확인해줘 키키",
+            "norm_text": "결과 확인해줘 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "결과/NNG+확인/NNG+해/XSV+EC+줘/VX+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 29,
+            "text": "1 : 헐 나네; 아 뭔데",
+            "norm_text": "헐 나네; 아 뭔데",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+나/NP+네/XSN+;/SY+아/IC+뭔데/NP+VCP+EC"
+          },
+          {
+            "id": 30,
+            "text": "2 : 이럴 줄 알았음 키키",
+            "norm_text": "이럴 줄 알았음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이럴/VA+ETM+줄/NNB+알/VV+았/EP+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 31,
+            "text": "2 : 난 입금했다!",
+            "norm_text": "난 입금했다!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+입금/NNG+했/XSV+EP+다/EF"
+          },
+          {
+            "id": 32,
+            "text": "3 : 나두!",
+            "norm_text": "나두!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+두/JX"
+          },
+          {
+            "id": 33,
+            "text": "3 : 나 운동 갔다 갈게",
+            "norm_text": "나 운동 갔다 갈게",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "나/NP+운동/NNG+갔/VV+EP+다/EC+갈/VX+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 34,
+            "text": "3 : 잠깐하고 시간 맞춰 가겠음",
+            "norm_text": "잠깐하고 시간 맞춰 가겠음",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "잠깐/MAG+하/VV+고/EC+시간/NNG+맞춰/VV+EC+가/VX+겠/EP+음/ETN"
+          },
+          {
+            "id": 35,
+            "text": "1 : 응응 아 맞다 오는 길에 마실 거 각자 사와",
+            "norm_text": "응응 아 맞다 오는 길에 마실 거 각자 사와",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "응/IC+응아/MAG+맞/VV+다/EC+오/VV+는/ETM+길/NNG+에/JKB+마실/VV+ETM+거/NNB+각자/MAG+사와/NNG"
+          },
+          {
+            "id": 36,
+            "text": "2 : 내 꺼만 사오면 됨?",
+            "norm_text": "내 꺼만 사오면 됨?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내꺼만사오면됨/UNKNOWN"
+          },
+          {
+            "id": 37,
+            "text": "2 : 내가 사갈게 뭐 먹을지 알려줘",
+            "norm_text": "내가 사갈게 뭐 먹을지 알려줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+사/VV+EC+갈/VX+ETM+게/NNB+JKS+뭐/IC+먹/VV+을지/EC+알려줘/VV+EC+VX+EC"
+          },
+          {
+            "id": 38,
+            "text": "3 : 나는 사이다로!",
+            "norm_text": "나는 사이다로!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+사이다/NNG+로/JKB"
+          },
+          {
+            "id": 39,
+            "text": "3 : 고마워",
+            "norm_text": "고마워",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "고마워/VA+EC"
+          },
+          {
+            "id": 40,
+            "text": "3 : 이건 나중에 정산할게",
+            "norm_text": "이건 나중에 정산할게",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "이건/NP+JX+나중/NNG+에/JKB+정산/NNG+할/XSV+ETM+게/NNB+JKS"
+          }
+        ]
+      }
+    }
+  ]
+}

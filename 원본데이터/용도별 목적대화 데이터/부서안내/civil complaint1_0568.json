@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 52177,
+    "name": "c1_20211018_0002_0107_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130800097183/c1_20211018_0002_0107_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130800097183/c1_20211018_0002_0107_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51504,
+      "filename": "c1_20210928_0016_0009_01.txt",
+      "title": "c1_20210928_0016_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 347,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 347,
+        "word_size": 71,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 급하게 뭐 좀 여쭐게요\nA.네 고객님 말씀해 주세요\nB.교육 시설 소유 자동차가 있는데요\nB.비정기적인 야외활동 등에만 사용하고 통학으로는 사용하지 않아요\nB.이 경우도 통학버스로 신고해야 하나요\nA.통학버스는 비정기적으로 사용하는 경우에는 신고하지 않으셔도 됩니다\nA.어린이의 주거지와 교육 시설을 정기적으로 오가는 수준에서요\nA.통학에 이용하는 자동차를 신고하시면 됩니다\nB.그럼 제가 말한 경우는 아니네요\nA.네 비정기적으로 운행하는 경우까지 신고 대상으로 보기는 어렵습니다\nB.답변 감사드려요 고맙습니다\nA.감사합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 급하게 뭐 좀 여쭐게요",
+            "norm_text": "B.안녕하세요 급하게 뭐 좀 여쭐게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+급하/VA+게/EC+뭐/IC+좀/MAG+여쭐/VV+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀해 주세요",
+            "norm_text": "A.네 고객님 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.교육 시설 소유 자동차가 있는데요",
+            "norm_text": "B.교육 시설 소유 자동차가 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+교육/NNG+시설/NNG+소유/NNG+자동차/NNG+가/JKS+있/VA+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.비정기적인 야외활동 등에만 사용하고 통학으로는 사용하지 않아요",
+            "norm_text": "B.비정기적인 야외활동 등에만 사용하고 통학으로는 사용하지 않아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+비/XPN+정기/NNG+적/XSN+인/VCP+ETM+야외/NNG+활동/NNG+등/NNB+에/JKB+만/JX+사용/NNG+하/XSV+고/EC+통학/NNG+으로/JKB+는/JX+사용/NNG+하/XSV+지/EC+않/VX+아요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.이 경우도 통학버스로 신고해야 하나요",
+            "norm_text": "B.이 경우도 통학버스로 신고해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+이경우/NNP+도/JX+통학/NNG+버스/NNG+로/JKB+신고/NNG+해야/XSV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.통학버스는 비정기적으로 사용하는 경우에는 신고하지 않으셔도 됩니다",
+            "norm_text": "A.통학버스는 비정기적으로 사용하는 경우에는 신고하지 않으셔도 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+통학/NNG+버스/NNG+는/JX+비/XPN+정기/NNG+적/XSN+으로/JKB+사용/NNG+하/XSV+는/ETM+경우/NNG+에/JKB+는/JX+신고/NNG+하/XSV+지/EC+않/VX+으셔도/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.어린이의 주거지와 교육 시설을 정기적으로 오가는 수준에서요",
+            "norm_text": "A.어린이의 주거지와 교육 시설을 정기적으로 오가는 수준에서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+어린이/NNG+의/JKG+주거지/NNG+와/JC+교육/NNG+시설/NNG+을/JKO+정기/NNG+적/XSN+으로/JKB+오가/VV+는/ETM+수준/NNG+에서/JKB+요/JX"
+          },
+          {
+            "id": 9,
+            "text": "A.통학에 이용하는 자동차를 신고하시면 됩니다",
+            "norm_text": "A.통학에 이용하는 자동차를 신고하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+통학/NNG+에/JKB+이용/NNG+하/XSV+는/ETM+자동차/NNG+를/JKO+신고/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 제가 말한 경우는 아니네요",
+            "norm_text": "B.그럼 제가 말한 경우는 아니네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+제/NP+가/JKS+말/NNG+한/XSA+ETM+경우/NNG+는/JX+아니/VCN+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 비정기적으로 운행하는 경우까지 신고 대상으로 보기는 어렵습니다",
+            "norm_text": "A.네 비정기적으로 운행하는 경우까지 신고 대상으로 보기는 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+비/XPN+정기/NNG+적/XSN+으로/JKB+운행/NNG+하/XSV+는/ETM+경우/NNG+까지/JX+신고/NNG+대상/NNG+으로/JKB+보/VV+기/ETN+는/JX+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.답변 감사드려요 고맙습니다",
+            "norm_text": "B.답변 감사드려요 고맙습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+답변/NNG+감사/NNG+드려요/VV+EC+고맙/VA+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

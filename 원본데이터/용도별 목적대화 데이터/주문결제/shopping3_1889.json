@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 110381,
+    "name": "s3_20211104_0002_0136_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110746013714/s3_20211104_0002_0136_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110746013714/s3_20211104_0002_0136_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118079,
+      "filename": "s3_20211005_0013_0012_01.txt",
+      "title": "s3_20211005_0013_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 211,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 211,
+        "word_size": 45,
+        "text": "A.네 안녕하세요 #@소속# 상담원 #@이름# 입니다\nB.상품권 관련 질문좀 하려고요\nA.네 무슨 문제이실까요\nB.이게 십만원이상 결제하면 상품권을 준다고했는데 아직 안와서요\nA.상품권의 경우 실결제금액이 충족이 되셔야합니다\nB.그러면 제가 만원 할인받았는데 그러면 만원을 더 사야하는건가요\nA.네 맞습니다 고객님\nB.네 그렇군요 알겠습니다\nA.더 필요한건 없으실까요\nB.네 없습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하세요 #@소속# 상담원 #@이름# 입니다",
+            "norm_text": "A.네 안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.상품권 관련 질문좀 하려고요",
+            "norm_text": "B.상품권 관련 질문 좀 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+상품/NNG+권/XSN+관련/NNG+질문/NNG+좀/MAG+하/VV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 무슨 문제이실까요",
+            "norm_text": "A.네 무슨 문제이실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무슨/MM+문제/NNG+이/VCP+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.이게 십만원이상 결제하면 상품권을 준다고했는데 아직 안와서요",
+            "norm_text": "B.십만원이상 결제하면 상품권을 준다고했는데 아직 안와서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이게/NP+JKS+십/NR+만/NR+원/NNBC+이상/NNG+결제/NNG+하/XSV+면/EC+상품/NNG+권/XSN+을/JKO+준다고/VV+EC+했/VX+EP+는데/EC+아직/MAG+안/MAG+와서/VV+EC+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.상품권의 경우 실결제금액이 충족이 되셔야합니다",
+            "norm_text": "A.상품권의 경우 실결제금액이 충족이 되셔야합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+상품/NNG+권/XSN+의/JKG+경우/NNG+실결/NNG+제/XSN+금액/NNG+이/JKS+충족/NNG+이/JKS+되/VV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그러면 제가 만원 할인받았는데 그러면 만원을 더 사야하는건가요",
+            "norm_text": "B.그러면 제가 만원 할인받았는데 그러면 만원을 더 사야하는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+제/NP+가/JKS+만/NR+원/NNBC+할인/NNG+받/VV+았/EP+는데/EC+그러/VV+면/EC+만/NR+원/NNBC+을/JKO+더/MAG+사야/NNG+하/XSV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 맞습니다 고객님",
+            "norm_text": "A.네 맞습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.네 그렇군요 알겠습니다",
+            "norm_text": "B.네 그렇군요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.더 필요한건 없으실까요",
+            "norm_text": "A.더 필요한건 없으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+필요/NNG+한/XSA+ETM+건/NNB+JX+없/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 10,
+            "text": "B.네 없습니다 감사합니다",
+            "norm_text": "B.네 없습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+없/VA+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

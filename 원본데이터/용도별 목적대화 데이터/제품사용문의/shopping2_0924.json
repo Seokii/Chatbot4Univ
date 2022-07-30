@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 94490,
+    "name": "s2_20211102_0002_0134_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110736029321/s2_20211102_0002_0134_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110736029321/s2_20211102_0002_0134_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117000,
+      "filename": "s2_20211028_0012_0014_01.txt",
+      "title": "s2_20211028_0012_0014_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 301,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 301,
+        "word_size": 68,
+        "text": "A.전화 주셔서 감사합니다 #@소속# #@이름# 상담원입니다\nB.#@상품# 필터는 세척 후 재사용 가능한가요\nA.고객님 필터는 소모품으로 세척이 불가합니다\nB.그래요 몇 번 세척해서 썼는데 문제는 없던데요\nA.고객님 필터는 세척하시면 기능이 떨어져서 내부에 먼지가 쌓일 수 있습니다\nB.그래요 물로 씻어도 겉보기에는 문제가 없던데요\nA.네 하지만 미세한 필터 망이 훼손되어서 모터에 손상을 줄 수 있습니다\nB.혹시 세척해서 쓸 수 있는 필터도 있나요\nA.아니요 없습니다 고객님\nB.네 구매해야겠네요 수고하세요\nA.네 감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화 주셔서 감사합니다 #@소속# #@이름# 상담원입니다",
+            "norm_text": "A.전화 주셔서 감사합니다 #@소속# #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 필터는 세척 후 재사용 가능한가요",
+            "norm_text": "B.#@상품# 필터는 세척 후 재사용 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+필터/NNG+는/JX+세/MM+척후/NNG+재/XPN+사용/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 필터는 소모품으로 세척이 불가합니다",
+            "norm_text": "A.고객님 필터는 소모품으로 세척이 불가합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+필터/NNG+는/JX+소모품/NNG+으로/JKB+세척/NNG+이/JKS+불가/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그래요 몇 번 세척해서 썼는데 문제는 없던데요",
+            "norm_text": "B.그래요 몇 번 세척해서 썼는데 문제는 없던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/IC+몇/MM+번/NNBC+세척/NNG+해서/XSV+EC+썼/VV+EP+는데/EC+문제/NNG+는/JX+없/VA+던데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 필터는 세척하시면 기능이 떨어져서 내부에 먼지가 쌓일 수 있습니다",
+            "norm_text": "A.필터는 세척하시면 기능이 떨어져서 내부에 먼지가 쌓일 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+필터/NNG+는/JX+세척/NNG+하/XSV+시/EP+면/EC+기능/NNG+이/JKS+떨어져서/VV+EC+내부/NNG+에/JKB+먼지/NNG+가/JKS+쌓일/VV+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그래요 물로 씻어도 겉보기에는 문제가 없던데요",
+            "norm_text": "B.그래요 물로 씻어도 겉보기에는 문제가 없던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래/IC+요물/NNG+로/JKB+씻/VV+어도/EC+겉보기/NNG+에/JKB+는/JX+문제/NNG+가/JKS+없/VA+던데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 하지만 미세한 필터 망이 훼손되어서 모터에 손상을 줄 수 있습니다",
+            "norm_text": "A.하지만 미세한 필터 망이 훼손되어서 모터에 손상을 줄 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+하지만/MAJ+미세/XR+한/XSA+ETM+필터/NNG+망/NNG+이/JKS+훼손/NNG+되/XSV+어서/EC+모터/NNG+에/JKB+손상/NNG+을/JKO+줄/VV+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.혹시 세척해서 쓸 수 있는 필터도 있나요",
+            "norm_text": "B.혹시 세척해서 쓸 수 있는 필터도 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+세척/NNG+해서/XSV+EC+쓸/VV+ETM+수/NNB+있/VV+는/ETM+필터/NNG+도/JX+있/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.아니요 없습니다 고객님",
+            "norm_text": "A.아니요 없습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아니요/IC+없/VA+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.네 구매해야겠네요 수고하세요",
+            "norm_text": "B.네 구매해야겠네요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+구매/NNG+해야/XSV+EC+VX+겠/EP+네요/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.네 감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

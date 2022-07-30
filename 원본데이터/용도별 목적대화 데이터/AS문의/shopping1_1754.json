@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 19058,
+    "name": "s1_20210916_0002_0104_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151257056893/s1_20210916_0002_0104_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151257056893/s1_20210916_0002_0104_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8883,
+      "filename": "s1_20210826_0024_0006_01.txt",
+      "title": "s1_20210826_0024_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 738,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 738,
+        "word_size": 200,
+        "text": "A.안녕하세요 상담사 #@이름#입니다\nB.네  #@소속# 세탁기 쓰는데 이게 탈수를 누르면 꺼져버려요\nA.그러셨어요 혹시 이게 탈수 되는 과정에서 고장이 아닐 수 있어서요\nA.간단하게 체크 하시는 방법이 있는데 말씀 드려봐도 될까요\nB.그래요 어떻게 하면 되는 건데요\nA.안에 있는 거 꺼내시고 빈 통으로 탈수 돌려보시면 확인이 되세요\nA.그렇게 하셨을때 잘 돌아가면 세탁기 자체에 문제가 아니거든요\nB.잘 돌아가면요 빈 통이 잘 돌아가는 거요\nA.네 안에 있는 세탁물이 균형이 안 맞아서 그런 거라\nB.아니 저기 있는 것들 옷 두 벌 밖에 없는 데 옷도 많지도 않은데\nA.골고루 펴주시면 될꺼 같애요 안에 옷 옷감은 어떤 거에요\nB.옷 저기저기 겨울 작업복 작업복 두 벌밖에 없는 데 쓰봉하고 이거\nA.네 그러면 고거 두 개 다 빼서 탈수 한 번 돌려보시겠어요 고객님\nB.그거 빼고 탈수 하라 한 번 더 해보라구요 그거 다 물건 여기 빼구요\nB.다 꺼냈지 다 꺼내고요\nA.네 겨울옷 같은 경우는 좀 많이 무겁기 때문에 그러실 수 있어서요\nA.한 번 체크를 받아보시는 게 더 좋으실 거 같애요\nB.그냥 그대로 맨 걸로 해 가지고 아무것도 없이 그럼 어떻게 되는 거에요\nA.네 이 건에 대해서 제가 메모 남겨드릴텐데 성함이랑 전화번호 여쭤봐도 될까요\nB.나는 #@이름# 고객이에요\nA.네 메모 남겨놓겠습니다 고객님\nB.그러고 내가 전화드리까요 그러면\nA.네 불편하시면 언제든지 연락주세요\nB.예 함 해보고 다시 연락 드릴게요\nA.네 감사합니다 즐거운 하루 되십시요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네  #@소속# 세탁기 쓰는데 이게 탈수를 누르면 꺼져버려요",
+            "norm_text": "B.네  #@소속# 세탁기 쓰는데 이게 탈수를 누르면 꺼져버려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+세탁기/NNG+쓰/VV+는데/EC+이게/NP+JKS+탈수/NNG+를/JKO+누르/VV+면/EC+꺼져/VV+EC+VX+EC+버려요/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.그러셨어요 혹시 이게 탈수 되는 과정에서 고장이 아닐 수 있어서요",
+            "norm_text": "A.그러셨어요 혹시 이게 탈수 되는 과정에서 고장이 아닐 수 있어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+셨/EP+EP+어요/EF+혹시/MAG+이게/NP+JKS+탈수/NNG+되/XSV+는/ETM+과정/NNG+에서/JKB+고장/NNG+이/JKC+아닐/VCN+ETM+수/NNB+있/VV+어서요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.간단하게 체크 하시는 방법이 있는데 말씀 드려봐도 될까요",
+            "norm_text": "A.간단하게 체크 하시는 방법이 있는데 말씀 드려봐도 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+간단/XR+하/XSA+게/EC+체크/NNG+하/XSV+시/EP+는/ETM+방법/NNG+이/JKS+있/VA+는/ETM+데/NNB+말씀드려/VV+EC+봐도/VX+EC+될까요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.그래요 어떻게 하면 되는 건데요",
+            "norm_text": "B.그래요 어떻게 하면 되는 건데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+어떻게/MAG+하/VV+면/EC+되/VV+는/ETM+건데요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.안에 있는 거 꺼내시고 빈 통으로 탈수 돌려보시면 확인이 되세요",
+            "norm_text": "A.안에 있는 거 꺼내시고 빈 통으로 탈수 돌려보시면 확인이 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+안/NNG+에/JKB+있/VV+는/ETM+거/NNB+꺼내/VV+시/EP+고/EC+빈/VV+ETM+통/NNB+으로/JKB+탈/VV+ETM+수/NNB+돌려보/VV+시/EP+면/EC+확인/NNG+이/JKS+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.그렇게 하셨을때 잘 돌아가면 세탁기 자체에 문제가 아니거든요",
+            "norm_text": "A.그렇게 하셨을때 잘 돌아가면 세탁기 자체에 문제가 아니거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그렇게/MAG+하/VV+셨/EP+EP+을/ETM+때/NNG+잘/MAG+돌아가/VV+면/EC+세탁기/NNG+자체/NNG+에/JKB+문제/NNG+가/JKC+아니/VCN+거든요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.잘 돌아가면요 빈 통이 잘 돌아가는 거요",
+            "norm_text": "B.잘 돌아가면요 빈 통이 잘 돌아가는 거요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+잘/MAG+돌아가/VV+면/EC+요/JX+빈/VV+ETM+통/NNG+이/JKS+잘/MAG+돌아가/VV+는/ETM+거/NNB+요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 안에 있는 세탁물이 균형이 안 맞아서 그런 거라",
+            "norm_text": "A.네 안에 있는 세탁물이 균형이 안 맞아서 그런 거라",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+안/NNG+에/JKB+있/VV+는/ETM+세탁물/NNG+이/JKS+균형/NNG+이/JKS+안/MAG+맞/VV+아서/EC+그런/MM+거/NNB+라/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.아니 저기 있는 것들 옷 두 벌 밖에 없는 데 옷도 많지도 않은데",
+            "norm_text": "B.아니 저기 있는 것들 옷 두 벌 밖에 없는 데 옷도 많지도 않은데",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/IC+저기/NP+있/VA+는/ETM+것/NNB+들/XSN+옷/NNG+두/MM+벌/NNBC+밖에/JX+없/VA+는데/EC+옷/NNG+도/JX+많/VA+지/EC+도/JX+않/VX+은데/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.골고루 펴주시면 될꺼 같애요 안에 옷 옷감은 어떤 거에요",
+            "norm_text": "A.골고루 펴주시면 될꺼 같애요 안에 옷 옷감은 어떤 거에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+골고루/MAG+펴/VV+EC+주/VX+시/EP+면/EC+될/VV+ETM+꺼/NNB+VCP+같/VA+애요/EF+안/NNG+에/JKB+옷/NNG+옷감/NNG+은/JX+어떤/MM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.옷 저기저기 겨울 작업복 작업복 두 벌밖에 없는 데 쓰봉하고 이거",
+            "norm_text": "B.옷 저기저기 겨울 작업복 작업복 두 벌밖에 없는 데 쓰봉하고 이거",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+옷/NNG+저기저기/MAG+겨울/NNG+작업복/NNG+작업복/NNG+두/MM+벌/NNBC+밖에/JX+없/VA+는데/EC+쓰봉/NNG+하/XSV+고/EC+이거/NP"
+          },
+          {
+            "id": 13,
+            "text": "A.네 그러면 고거 두 개 다 빼서 탈수 한 번 돌려보시겠어요 고객님",
+            "norm_text": "A.네 그러면 고거 두 개 다 빼서 탈수 한 번 돌려보시겠어요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+그러면/MAJ+고거/NP+두/MM+개/NNBC+다/MAG+빼/VV+서/EC+탈수/NNG+한/MM+번/NNBC+돌려보/VV+시/EP+겠/EP+어요/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 14,
+            "text": "B.그거 빼고 탈수 하라 한 번 더 해보라구요 그거 다 물건 여기 빼구요",
+            "norm_text": "B.그거 빼고 탈수 하라 한 번 더 해보라구요 그거 다 물건 여기 빼구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그거/NP+빼/VV+고/EC+탈수/NNG+하/XSV+라/EC+한/MM+번/NNBC+더/MAG+해/VV+EC+보/VX+라구요/EC+그거/NP+다물/VV+ETM+건/NNB+JX+여기/NP+빼/VV+구요/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.다 꺼냈지 다 꺼내고요",
+            "norm_text": "B.다 꺼냈지 다 꺼내고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+다/MAG+꺼냈/VV+EP+지다/EC+VX+EC+꺼내/VV+고요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 겨울옷 같은 경우는 좀 많이 무겁기 때문에 그러실 수 있어서요",
+            "norm_text": "A.네 겨울옷 같은 경우는 좀 많이 무겁기 때문에 그러실 수 있어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+겨울옷/NNG+같/VA+은/ETM+경우/NNG+는/JX+좀/MAG+많이/MAG+무겁/VA+기/ETN+때문/NNB+에/JKB+그러/VV+실/EP+ETM+수/NNB+있/VV+어서요/EC"
+          },
+          {
+            "id": 17,
+            "text": "A.한 번 체크를 받아보시는 게 더 좋으실 거 같애요",
+            "norm_text": "A.한 번 체크를 받아보시는 게 더 좋으실 거 같애요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+한번/MAG+체크/NNG+를/JKO+받/VV+아/EC+보/VX+시/EP+는/ETM+게/NNB+JKS+더/MAG+좋/VA+으실/EP+ETM+거/NNB+같/VA+애요/EF"
+          },
+          {
+            "id": 18,
+            "text": "B.그냥 그대로 맨 걸로 해 가지고 아무것도 없이 그럼 어떻게 되는 거에요",
+            "norm_text": "B.그냥 그대로 맨 걸로 해 가지고 아무것도 없이 그럼 어떻게 되는 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그냥/MAG+그대로/MAG+맨/MM+걸로/NNB+JKB+해/VV+EC+가지/VX+고/EC+아무것/NP+도/JX+없이/MAG+그럼/MAJ+어떻게/MAG+되/VV+는/ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 19,
+            "text": "A.네 이 건에 대해서 제가 메모 남겨드릴텐데 성함이랑 전화번호 여쭤봐도 될까요",
+            "norm_text": "A.제가 메모 남겨드릴텐데 성함이랑 전화번호 여쭤봐도 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+제/NP+가/JKS+메모/NNG+남겨/VV+EC+드릴/VX+ETM+텐데/NNB+VCP+EC+성함/NNG+이랑/JKB+전화/NNG+번호/NNG+여쭤봐도/VV+EC+VX+EC+될까요/VV+EC"
+          },
+          {
+            "id": 20,
+            "text": "B.나는 #@이름# 고객이에요",
+            "norm_text": "B.나는 #@이름# 고객이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+나/NP+는/JX+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 21,
+            "text": "A.네 메모 남겨놓겠습니다 고객님",
+            "norm_text": "A.네 메모 남겨놓겠습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+메모/NNG+남겨/VV+EC+놓/VX+겠/EP+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 22,
+            "text": "B.그러고 내가 전화드리까요 그러면",
+            "norm_text": "B.그러고 내가 전화드리까요 그러면",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러/VV+고/EC+내/NP+가/JKS+전화/NNG+드리/VV+까요/EF+그러/VV+면/EC"
+          },
+          {
+            "id": 23,
+            "text": "A.네 불편하시면 언제든지 연락주세요",
+            "norm_text": "A.네 불편하시면 언제든지 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+불편/NNG+하/XSV+시/EP+면/EC+언제/NP+든지/VCP+EC+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 24,
+            "text": "B.예 함 해보고 다시 연락 드릴게요",
+            "norm_text": "B.예 함 해보고 다시 연락 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+예/NNG+함/XSV+ETN+해/VV+EC+보/VX+고/EC+다시/MAG+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 25,
+            "text": "A.네 감사합니다 즐거운 하루 되십시요",
+            "norm_text": "A.네 감사합니다 즐거운 하루 되십시요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+즐거운/VA+ETM+하루/NNG+되/XSV+십시요/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

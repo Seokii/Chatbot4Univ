@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 65986,
+    "name": "KAKAO_4360_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/68/txt20211020131618026914/KAKAO_4360_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/68/txt20211020131618026914/KAKAO_4360_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 81266,
+      "filename": "KAKAO_4360_12.txt",
+      "title": "KAKAO_4360_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-20",
+      "size": 254,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "1:1",
+        "size": 254,
+        "word_size": 69,
+        "text": "1 : 너 여행가방 정리다했어?\n2 : 아니~아직 열어보지도 않았는데?\n1 : 나 선글라스가 없어졌는데 혹시 너한테 있는지 한번 봐주라!\n2 : 선글라스? 너 계속 쓰고있지않았어?\n1 : 아냐! 나 도착해서 호텔에서부턴 안썼어.\n2 : 그래? 나 그럼 지금은 회사니깐 퇴근해서 한번볼께!\n1 : 내가방은 아무리 다뒤져도 없음...\n2 : 근데 나한테도 없으면 어떡해?\n1 : 그럼 호텔에 전화해봐야지 혹시 분실물 있는지...\n2 : 알았어. 이따 바로 확인하고 알려줄께!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너 여행가방 정리다했어?",
+            "norm_text": "너 여행가방 정리다했어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+여행/NNG+가방/NNG+정리/NNG+다/VCP+EC+했/VX+EP+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 아니~아직 열어보지도 않았는데?",
+            "norm_text": "아니~아직 열어보지도 않았는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니/IC+~/SY+아직/MAG+열/VV+어/EC+보/VX+지/EC+도/JX+않/VX+았/EP+는데/EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 나 선글라스가 없어졌는데 혹시 너한테 있는지 한번 봐주라!",
+            "norm_text": "나 선글라스가 없어졌는데 혹시 너한테 있는지 한번 봐주라!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "나/NP+선글라스/NNG+가/JKS+없/VA+어/EC+졌/VX+EP+는데/EC+혹시/MAG+너/NP+한테/JKB+있/VA+는지/EC+한/MM+번/NNBC+봐/VV+EC+주/VX+라/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 선글라스? 너 계속 쓰고있지않았어?",
+            "norm_text": "선글라스? 너 계속 쓰고있지않았어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "선글라스/NNG+너/NP+계속/MAG+쓰/VV+고/EC+있/VX+지/EC+않/VX+았/EP+어/EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 아냐! 나 도착해서 호텔에서부턴 안썼어.",
+            "norm_text": "아냐! 나 도착해서 호텔에서부턴 안썼어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아냐/IC+나/NP+도착/NNG+해서/XSV+EC+호텔/NNG+에서/JKB+부턴/JX+JX+안/MAG+썼/VV+EP+어/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 그래? 나 그럼 지금은 회사니깐 퇴근해서 한번볼께!",
+            "norm_text": "그래? 나 그럼 지금은 회사니깐 퇴근해서 한번볼께!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래/IC+나/NP+그럼/MAJ+지금/MAG+은/JX+회사/NNG+니깐/VCP+EC+퇴근/NNG+해서/XSV+EC+한/MM+번/NNBC+볼께/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 내가방은 아무리 다뒤져도 없음...",
+            "norm_text": "내가방은 아무리 다뒤져도 없음...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+방/NNG+은/JX+아무리/MAG+다/MAG+뒤져도/VV+EC+없/VA+음/ETN+./SY"
+          },
+          {
+            "id": 8,
+            "text": "2 : 근데 나한테도 없으면 어떡해?",
+            "norm_text": "근데 나한테도 없으면 어떡해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+나/NP+한테/JKB+도/JX+없/VA+으면/EC+어떡/XR+해/XSA+EF"
+          },
+          {
+            "id": 9,
+            "text": "1 : 그럼 호텔에 전화해봐야지 혹시 분실물 있는지...",
+            "norm_text": "그럼 호텔에 전화해봐야지 혹시 분실물 있는지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+호텔/NNG+에/JKB+전화/NNG+해/XSV+EC+봐야지/VX+EF+혹시/MAG+분실물/NNG+있/VA+는지/EF+./SY"
+          },
+          {
+            "id": 10,
+            "text": "2 : 알았어. 이따 바로 확인하고 알려줄께!",
+            "norm_text": "알았어. 이따 바로 확인하고 알려줄께!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "알/VV+았/EP+어/EF+이따/MAG+바로/MAG+확인/NNG+하/XSV+고/EC+알려/VV+EC+줄께/VX+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

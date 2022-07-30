@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 140774,
+    "name": "t1_20211115_0002_0306_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714031754/t1_20211115_0002_0306_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714031754/t1_20211115_0002_0306_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147932,
+      "filename": "t1_0066_0118_02.txt",
+      "title": "t1_0066_0118_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 289,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 289,
+        "word_size": 75,
+        "text": "A.좋은 아침입니다 #@소속# #@이름#입니다\nB.안녕하세요 제가 숙박 예약은 했는데 조식 예약을 안해서요\nB.조식이 얼만지 알 수 있을까요 저렴하면 예약 좀 하려고요\nA.네 대인 소아 유아 가격이 다른데 이 중 어떤 걸 알려드릴까요\nB.대인 가격만 알려주시면 될 것 같아요\nA.대인의 경우 조식 뷔페 이용 시 22500원입니다\nB.아 그래요 22500원 밖에 안 하나요\nA.네 사전 예약 하시면 조금 더 저렴한 가격에 이용하실 수 있어요\nB.오 그래요 생각해보고 그럼 다시 전화 드릴게요\nA.네 알겠습니다 좋은 하루 되시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.좋은 아침입니다 #@소속# #@이름#입니다",
+            "norm_text": "A.좋은 아침입니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+좋/VA+은/ETM+아침/NNG+입니다/VCP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 제가 숙박 예약은 했는데 조식 예약을 안해서요",
+            "norm_text": "B.안녕하세요 제가 숙박 예약은 했는데 조식 예약을 안해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+숙박/NNG+예약/NNG+은/JX+했/VV+EP+는데/EC+조식/NNG+예약/NNG+을/JKO+안/MAG+해서/VV+EC+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "B.조식이 얼만지 알 수 있을까요 저렴하면 예약 좀 하려고요",
+            "norm_text": "B.조식이 얼만지 알 수 있을까요 저렴하면 예약 좀 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+조식/NNG+이/JKS+얼만지/NNG+VCP+EC+알/VV+ETM+수/NNB+있/VV+을까요/EC+저렴/XR+하/XSA+면/EC+예약/NNG+좀/MAG+하/VV+려고요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 대인 소아 유아 가격이 다른데 이 중 어떤 걸 알려드릴까요",
+            "norm_text": "A.네 대인 소아 유아 가격이 다른데 이 중 어떤 걸 알려드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+대인/NNG+소아/NNG+유아/NNG+가격/NNG+이/JKS+다른데/VA+EC+이/MM+중/NNB+어떤/MM+걸/NNB+JKO+알려/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.대인 가격만 알려주시면 될 것 같아요",
+            "norm_text": "B.대인 가격만 알려주시면 될 것 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+대인/NNG+가격/NNG+만/JX+알려/VV+EC+주/VX+시/EP+면/EC+될/VV+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.대인의 경우 조식 뷔페 이용 시 22500원입니다",
+            "norm_text": "A.대인의 경우 조식 뷔페 이용 시 22500원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+대인/NNG+의/JKG+경우/NNG+조식/NNG+뷔페/NNG+이용/NNG+시/NNB+22500/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.아 그래요 22500원 밖에 안 하나요",
+            "norm_text": "B.아 그래요 22500원 밖에 안 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그래요/VA+EC+22500/SN+원/NNBC+밖에/JX+안/MAG+하/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 사전 예약 하시면 조금 더 저렴한 가격에 이용하실 수 있어요",
+            "norm_text": "A.네 사전 예약 하시면 조금 더 저렴한 가격에 이용하실 수 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+사전/NNG+예약/NNG+하/XSV+시/EP+면/EC+조금/MAG+더/MAG+저렴/XR+한/XSA+ETM+가격/NNG+에/JKB+이용/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.오 그래요 생각해보고 그럼 다시 전화 드릴게요",
+            "norm_text": "B.오 그래요 생각해보고 그럼 다시 전화 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+오/IC+그래요/IC+생각/NNG+해/XSV+EC+보/VX+고/EC+그럼/MAJ+다시/MAG+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 알겠습니다 좋은 하루 되시길 바랍니다",
+            "norm_text": "A.네 알겠습니다 좋은 하루 되시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+좋/VA+은/ETM+하루/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

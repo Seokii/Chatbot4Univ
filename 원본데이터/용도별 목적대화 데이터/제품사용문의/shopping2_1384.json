@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 102797,
+    "name": "s2_20211103_0002_0221_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110740039133/s2_20211103_0002_0221_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110740039133/s2_20211103_0002_0221_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117522,
+      "filename": "s2_20211029_0028_0039_01.txt",
+      "title": "s2_20211029_0028_0039_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 188,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 188,
+        "word_size": 40,
+        "text": "A.안녕하세요 #@소속#의 #@이름# 상담사입니다\nB.#@상품#의 티비 기능을 #@기타#로 바꾸고 싶은데 어떻게 해야 하나요\nA.#@상품#을 구매 하실 때 받으신 리모컨을 가지고 계신가요\nB.아니요 잃어버려서 어디 있는지 몰라요\nA.메뉴 설정 들어가셔서 맨 하단의 연결 메뉴에요\nA.들어가시면 #@기타# 연결이 있습니다\nB.네 알겠습니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#의 #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속#의 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품#의 티비 기능을 #@기타#로 바꾸고 싶은데 어떻게 해야 하나요",
+            "norm_text": "B.#@상품#의 기능을 #@기타#로 바꾸고 싶은데 어떻게 해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+의/JKG+티비/NNG+기능/NNG+을/JKO+#/SY+@/SY+기타/NNG+#/SY+로/JKB+바꾸/VV+고/EC+싶/VX+은데/EC+어떻게/MAG+해야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.#@상품#을 구매 하실 때 받으신 리모컨을 가지고 계신가요",
+            "norm_text": "A.#@상품#을 구매 하실 때 받으신 리모컨을 가지고 계신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+을/JKO+구매/NNG+하/XSV+실/EP+ETM+때/NNG+받/VV+으신/EP+ETM+리모컨/NNG+을/JKO+가지/VV+고/EC+계신/VX+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.아니요 잃어버려서 어디 있는지 몰라요",
+            "norm_text": "B.아니요 잃어버려서 어디 있는지 몰라요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아니요/IC+잃어버려서/VV+EC+어디/NP+있/VA+는지/EC+몰라요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.메뉴 설정 들어가셔서 맨 하단의 연결 메뉴에요",
+            "norm_text": "A.메뉴 설정 들어가셔서 맨 하단의 연결 메뉴에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+메뉴/NNG+설정/NNG+들어가/VV+셔서/EP+EC+맨/MM+하단/NNG+의/JKG+연결/NNG+메뉴/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "A.들어가시면 #@기타# 연결이 있습니다",
+            "norm_text": "A.들어가시면 #@기타# 연결이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+들어가/VV+시/EP+면/EC+#/SY+@/SY+기타/NNG+#/SY+연결/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.네 알겠습니다 수고하세요",
+            "norm_text": "B.네 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

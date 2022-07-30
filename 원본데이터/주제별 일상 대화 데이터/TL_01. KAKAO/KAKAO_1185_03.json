@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 78688,
+    "name": "KAKAO_1185_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/60/txt20211013115448010513/KAKAO_1185_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/60/txt20211013115448010513/KAKAO_1185_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 64332,
+      "filename": "KAKAO_1185_03.txt",
+      "title": "KAKAO_1185_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-13",
+      "size": 605,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 605,
+        "word_size": 191,
+        "text": "1 : 처형 인터넷으로 뭐 검색하고 계신 거에요?\n2 : 제부 전기 차 좀 알아?\n2 : 남자들은 자동차를 잘 알던데\n1 : 알긴 알죠 왜요?\n1 : 처형 전기 차 사시려구요?\n2 : 응 점점 전기 차로 바뀌는 추세라고 그러던데,\n2 : 그래서 그쪽으로 관심이 가네.\n1 : 주식에서도 전기 차 관련 주가 급상승이던데 대세는 대세인가 봐요.\n2 : 차 바꿀 때 되긴 했는데 우연히 전기 차에 대해 들어서.\n1 : 괜찮을 것 같아요.\n1 : 혹시 가격대는 얼마 보고 계신 건 가요?\n2 : 한 5000만원 중반 대 가격 생각하고 있어\n1 : 그럼 혹시 봐두신 자동차 차종은 있으신 거에요?\n2 : 친구 한 명이 현대 아이오닉5 그거 샀던데 괜찮나?\n1 : 응 그것도 괜찮긴 한데 옵션까지 더 한다면 금액이 6000만원대 될 것 같아요\n2 : 그럼 다른 차종이랑 비교해 보게 혹시 추천 할 만한 차종 있어?\n1 : 우선 전기 차는 테슬라가 유행인데요\n1 : 테슬라 모델3과 테슬라 모델 y가 있어요\n2 : 어떤 차이야?\n2 : 금액은 대략 얼마 해?\n1 : 테슬라 모델3은 승용차라고 생각 하면 되고 y는 suv라고 생각하면 돼요!\n1 : 그리고 쉐보레 볼트 EV도 한번 보시고요.\n2 : 그래 이것저것 참고해서 볼게 고마워",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 처형 인터넷으로 뭐 검색하고 계신 거에요?",
+            "norm_text": "처형 인터넷으로 뭐 검색하고 계신 거에요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "처형/NNG+인터넷/NNG+으로/JKB+뭐/IC+검색/NNG+하/XSV+고/EC+계신/VX+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 제부 전기 차 좀 알아?",
+            "norm_text": "제부 전기 차 좀 알아?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "제부/NNG+전기/NNG+차/NNG+좀/MAG+알/VV+아/EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 남자들은 자동차를 잘 알던데",
+            "norm_text": "남자들은 자동차를 잘 알던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남자/NNG+들/XSN+은/JX+자동차/NNG+를/JKO+잘/MAG+알/VV+던데/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 알긴 알죠 왜요?",
+            "norm_text": "알긴 알죠 왜요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "알긴/NNG+알/VV+죠/EF+왜/MAG+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "1 : 처형 전기 차 사시려구요?",
+            "norm_text": "처형 전기 차 사시려구요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "처형/NNG+전기/NNG+차/NNG+사/VV+시/EP+려구요/EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 응 점점 전기 차로 바뀌는 추세라고 그러던데,",
+            "norm_text": "응 점점 전기 차로 바뀌는 추세라고 그러던데,",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+점점/MAG+전기차/NNP+로/JKB+바뀌/VV+는/ETM+추세/NNG+라고/VCP+EC+그러/VV+던데/EC+,/SC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 그래서 그쪽으로 관심이 가네.",
+            "norm_text": "그래서 그쪽으로 관심이 가네.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+그쪽/NP+으로/JKB+관심/NNG+이/JKS+가/VV+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 주식에서도 전기 차 관련 주가 급상승이던데 대세는 대세인가 봐요.",
+            "norm_text": "주식에서도 전기 차 관련 주가 급상승이던데 대세는 대세인가 봐요.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "주식/NNG+에서/JKB+도/JX+전기/NNG+차관/NNG+련주/NNG+가/JKS+급상승/NNG+이/JKS+던데/VV+EC+대세/NNG+는/JX+대세/NNG+인가/VCP+EC+봐요/VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 차 바꿀 때 되긴 했는데 우연히 전기 차에 대해 들어서.",
+            "norm_text": "차 바꿀 때 되긴 했는데 우연히 전기 차에 대해 들어서.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "차/NNG+바꿀/VV+ETM+때/NNG+되/XSV+긴/ETN+JX+했/VX+EP+는데/EC+우연히/MAG+전기/NNG+차/NNG+에/JKB+대해/VV+EC+들/VV+어서/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 괜찮을 것 같아요.",
+            "norm_text": "괜찮을 것 같아요.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "괜찮/VA+을/ETM+것/NNB+같/VA+아요/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 혹시 가격대는 얼마 보고 계신 건 가요?",
+            "norm_text": "혹시 가격대는 얼마 보고 계신 건 가요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+가격/NNG+대/XSV+는/ETM+얼마/NNG+보/VV+고/EC+계신/VX+ETM+건가요/NNB+VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "2 : 한 5000만원 중반 대 가격 생각하고 있어",
+            "norm_text": "한 5000만원 중반 대 가격 생각하고 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한/MM+5000/SN+만/NR+원/NNBC+중/NNB+반대/NNG+가격/NNG+생각/NNG+하/XSV+고/EC+있/VX+어/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 그럼 혹시 봐두신 자동차 차종은 있으신 거에요?",
+            "norm_text": "그럼 혹시 봐두신 자동차 차종은 있으신 거에요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+혹시/MAG+봐두/VV+EC+신/XPN+자동차/NNG+차종/NNG+은/JX+있/VA+으신/EP+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 친구 한 명이 현대 아이오닉5 그거 샀던데 괜찮나?",
+            "norm_text": "친구 한 명이 현대 아이오닉5 그거 샀던데 괜찮나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "친구/NNG+한/MM+명/NNBC+이/JKS+현대/NNG+아이오/NNG+닉/NNP+5/SN+그거/NP+샀/VV+EP+던/ETM+데/NNB+괜찮/VA+나/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 그것도 괜찮긴 한데 옵션까지 더 한다면 금액이 6000만원대 될 것 같아요",
+            "norm_text": "응 그것도 괜찮긴 한데 옵션까지 더 한다면 금액이 6000만원대 될 것 같아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그것/NP+도/JX+괜찮/VA+긴/ETN+JX+한데/VX+EC+옵션/NNG+까지/JX+더/MAG+한다면/VV+EC+금액/NNG+이/JKS+6000/SN+만/NR+원대/NNG+될/XSV+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 그럼 다른 차종이랑 비교해 보게 혹시 추천 할 만한 차종 있어?",
+            "norm_text": "그럼 다른 차종이랑 비교해 보게 혹시 추천 할 만한 차종 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+다른/MM+차종/NNG+이랑/JKB+비교/NNG+해/XSV+EC+보/VX+게/EC+혹시/MAG+추천/NNG+할/XSV+ETM+만/NNB+한/XSA+ETM+차종/NNG+있/VA+어/EF"
+          },
+          {
+            "id": 17,
+            "text": "1 : 우선 전기 차는 테슬라가 유행인데요",
+            "norm_text": "우선 전기 차는 테슬라가 유행인데요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우선/MAG+전기차/NNP+는/JX+테슬라/NNP+가/JKS+유행/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 테슬라 모델3과 테슬라 모델 y가 있어요",
+            "norm_text": "테슬라 모델3과 테슬라 모델 y가 있어요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "테슬라/NNP+모델/NNG+3/SN+과/JC+테슬라/NNP+모델/NNG+y/SL+가/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 어떤 차이야?",
+            "norm_text": "어떤 차이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어떤/MM+차이/NNG+야/VCP+EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 금액은 대략 얼마 해?",
+            "norm_text": "금액은 대략 얼마 해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "금액/NNG+은/JX+대략/MAG+얼마/NNG+해/XSV+EF"
+          },
+          {
+            "id": 21,
+            "text": "1 : 테슬라 모델3은 승용차라고 생각 하면 되고 y는 suv라고 생각하면 돼요!",
+            "norm_text": "테슬라 모델3은 승용차라고 생각 하면 되고 y는 suv라고 생각하면 돼요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "테슬라/NNP+모델/NNG+3/SN+은/JX+승용차/NNG+라고/VCP+EC+생각/NNG+하/XSV+면/EC+되/VV+고/EC+y/SL+는/JX+suv/SL+라고/VCP+EC+생각/NNG+하/XSV+면/EC+돼요/VV+EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 그리고 쉐보레 볼트 EV도 한번 보시고요.",
+            "norm_text": "그리고 쉐보레 볼트 EV도 한번 보시고요.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+쉐보레/NNP+볼트/NNG+EV/SL+도/JX+한/MM+번/NNBC+보/VV+시/EP+고요/EF"
+          },
+          {
+            "id": 23,
+            "text": "2 : 그래 이것저것 참고해서 볼게 고마워",
+            "norm_text": "그래 이것저것 참고해서 볼게 고마워",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "그래/IC+이것저것/NNG+참고/NNG+해서/XSV+EC+볼/VX+ETM+게/NNB+JKS+고마워/VA+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

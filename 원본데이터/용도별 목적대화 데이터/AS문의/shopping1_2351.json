@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 29956,
+    "name": "s1_20211006_0001_1475_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151214005919/s1_20211006_0001_1475_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151214005919/s1_20211006_0001_1475_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7086,
+      "filename": "s1_20210820_0014_0003_01.txt",
+      "title": "s1_20210820_0014_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 397,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 397,
+        "word_size": 98,
+        "text": "A.반갑습니다 #@소속# #@이름# 입니다\nB.오늘 고장 접수했었는데 방문 시간 좀 변경해 주세요\nA.네 확인을 위해 고객님 성함 말씀 주세요\nB.이름 #@이름# 입니다\nA.오늘 오전 열시 사십분으로 확인되세요 언제로 변경할까요\nB.오후에 오후에 좀 와주세요\nA.몇 시 이후로 괜찮으십니까\nB.오후 한 두 두시 이후\nA.두시 이후로는 저희 두시 십분 괜찮으신가요\nB.예 두시 십분 괜찮아요\nA.예 그럼 유선전화만 남겨드려도 괜찮으시겠습니까\nB.제가 제 번호 하나 알려드릴게요 #@전번# 입니다\nA.네 #@전번# 으로요 예 그럼 #@이름# 기사 찾아뵐 거구요\nA.기본적인 출장비 만 이천 원 발생합니다\nA.그 외 추가비용은 제품 한 번 더 확인하고 안내해 드리겠습니다\nB.네 추가비용 확인했어요\nA.예 감사합니다 추운날씨 건강 조심 하시구요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름# 입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.오늘 고장 접수했었는데 방문 시간 좀 변경해 주세요",
+            "norm_text": "B.오늘 고장 접수했었는데 방문 시간 좀 변경해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+오늘/MAG+고장/NNG+접수/NNG+했었/XSV+EP+는데/EC+방문/NNG+시간/NNG+좀/MAG+변경/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 확인을 위해 고객님 성함 말씀 주세요",
+            "norm_text": "A.네 확인을 위해 고객님 성함 말씀 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+을/JKO+위해/VV+EC+고객/NNG+님/XSN+성함/NNG+말씀/NNG+주세요/NNP"
+          },
+          {
+            "id": 4,
+            "text": "B.이름 #@이름# 입니다",
+            "norm_text": "B.이름 #@이름# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.오늘 오전 열시 사십분으로 확인되세요 언제로 변경할까요",
+            "norm_text": "A.오늘 오전 열시 사십분으로 확인되세요 언제로 변경할까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+오늘/MAG+오전/NNG+열/NR+시/NNBC+사/NR+십/NR+분/NNBC+으로/JKB+확인/NNG+되/XSV+세요/EP+EF+언제/NP+로/JKB+변경/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.오후에 오후에 좀 와주세요",
+            "norm_text": "B.오후에 오후에 좀 와주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+오후/NNG+에/JKB+오후/NNG+에/JKB+좀/MAG+와/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.몇 시 이후로 괜찮으십니까",
+            "norm_text": "A.몇 시 이후로 괜찮으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+몇/MM+시/NNBC+이후/NNG+로/JKB+괜찮/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.오후 한 두 두시 이후",
+            "norm_text": "B.오후 한 두 두시 이후",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+오후/NNG+한두/MM+두/MM+시/NNBC+이후/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.두시 이후로는 저희 두시 십분 괜찮으신가요",
+            "norm_text": "A.두시 이후로는 저희 두시 십분 괜찮으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+두/MM+시/NNBC+이후/NNG+로/JKB+는/JX+저희/NP+두/MM+시/NNBC+십/NR+분/NNBC+괜찮/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "B.예 두시 십분 괜찮아요",
+            "norm_text": "B.예 두시 십분 괜찮아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+두/MM+시/NNBC+십/NR+분/NNBC+괜찮/VA+아요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.예 그럼 유선전화만 남겨드려도 괜찮으시겠습니까",
+            "norm_text": "A.예 그럼 유선전화만 남겨드려도 괜찮으시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+그럼/MAJ+유선/NNG+전화/NNG+만/JX+남겨/VV+EC+드려/VX+EC+도/JX+괜찮/VA+으시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.제가 제 번호 하나 알려드릴게요 #@전번# 입니다",
+            "norm_text": "B.제가 제 번호 하나 알려드릴게요 #@전번# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+제/MM+번호/NNG+하나/NR+알려/VV+EC+드릴게요/VX+EC+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 #@전번# 으로요 예 그럼 #@이름# 기사 찾아뵐 거구요",
+            "norm_text": "A.네 #@전번# 으로요 예 그럼 #@이름# 기사 찾아뵐 거구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+요예/NNG+그럼/MAJ+#/SY+@/SY+이름/NNG+#/SY+기사/NNG+찾/VV+아/EC+뵐/VV+ETM+거/NNB+구요/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.기본적인 출장비 만 이천 원 발생합니다",
+            "norm_text": "A.기본적인 출장비 만 이천 원 발생합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기본/NNG+적/XSN+인/VCP+ETM+출장비/NNG+만/JX+이/JKS+천/NR+원/NNBC+발생/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.그 외 추가비용은 제품 한 번 더 확인하고 안내해 드리겠습니다",
+            "norm_text": "A.그 외 추가비용은 제품 한 번 더 확인하고 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그/MM+외추/NNG+가/JKS+비용/NNG+은/JX+제품/NNG+한/MM+번/NNBC+더/MAG+확인/NNG+하/XSV+고/EC+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.네 추가비용 확인했어요",
+            "norm_text": "B.네 추가비용 확인했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+추가/NNG+비용/NNG+확인/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.예 감사합니다 추운날씨 건강 조심 하시구요",
+            "norm_text": "A.예 감사합니다 추운날씨 건강 조심 하시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+예/IC+감사/NNG+합니다/XSV+EF+추운/VA+ETM+날씨/NNG+건강/NNG+조심/NNG+하/XSV+시/EP+구요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

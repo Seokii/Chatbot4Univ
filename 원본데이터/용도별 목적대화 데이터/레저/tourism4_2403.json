@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 156429,
+    "name": "t4_20211118_0010_0924_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135904035097/t4_20211118_0010_0924_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135904035097/t4_20211118_0010_0924_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 154379,
+      "filename": "t4_0080_0115_02.txt",
+      "title": "t4_0080_0115_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 311,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 311,
+        "word_size": 64,
+        "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 주말이랑 평일이랑 운영시간이 다른가요\nA.오픈은 똑같이 오전10시로 동일하구요 주말에는 오후9시 마감이구요\nA.평일은 오후 6시까지 운영하고 있습니다\nB.그랬군요 어쩐지 어제 7시쯤 가니까 문을 닫았더라구요\nA.네 맞습니다 평일은 조금 일찍 마감합니다\nB.잘 알고 있어야겠네요 알려주셔서 감사합니다\nA.네 이용에 차질을 겪으셨다면 죄송합니다\nB.아닙니다 운영시간을 제가 확인했어야하는거니까요\nA.네 추가로 궁금하신 사항 더 있으신가요\nB.아니요 특별히 없네요\nA.네 그럼 #@소속# 많이 이용해주세요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 주말이랑 평일이랑 운영시간이 다른가요",
+            "norm_text": "B.네 안녕하세요 주말이랑 평일이랑 운영시간이 다른가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+주말/NNG+이랑/JKB+평일/NNG+이랑/JKB+운영/NNG+시간/NNG+이/JKS+다른/MM+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.오픈은 똑같이 오전10시로 동일하구요 주말에는 오후9시 마감이구요",
+            "norm_text": "A.오픈은 똑같이 오전10시로 동일하구요 주말에는 오후9시 마감이구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+오픈/NNG+은/JX+똑같이/MAG+오전/NNG+10/SN+시/NNBC+로/JKB+동일/XR+하/XSA+구요/EF+주말/NNG+에/JKB+는/JX+오후/NNG+9/SN+시/NNBC+마감/NNG+이/VCP+구요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.평일은 오후 6시까지 운영하고 있습니다",
+            "norm_text": "A.평일은 오후 6시까지 운영하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+평일/NNG+은/JX+오후/NNG+6/SN+시/NNBC+까지/JX+운영/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.그랬군요 어쩐지 어제 7시쯤 가니까 문을 닫았더라구요",
+            "norm_text": "B.그랬군요 어쩐지 어제 7시쯤 가니까 문을 닫았더라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그랬/VV+EP+군요/EF+어쩐지/MAG+어제/MAG+7/SN+시/NNBC+쯤/XSN+가/VV+니까/EC+문/NNG+을/JKO+닫/VV+았/EP+더라구요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 맞습니다 평일은 조금 일찍 마감합니다",
+            "norm_text": "A.네 맞습니다 평일은 조금 일찍 마감합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+평일/NNG+은/JX+조금/MAG+일찍/MAG+마감/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.잘 알고 있어야겠네요 알려주셔서 감사합니다",
+            "norm_text": "B.잘 알고 있어야겠네요 알려주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+잘/MAG+알/VV+고/EC+있/VX+어야/EC+겠/EP+네요/EF+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 이용에 차질을 겪으셨다면 죄송합니다",
+            "norm_text": "A.네 이용에 차질을 겪으셨다면 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+네/IC+이용/NNG+에/JKB+차질/NNG+을/JKO+겪/VV+으셨다면/EP+EP+EC+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.아닙니다 운영시간을 제가 확인했어야하는거니까요",
+            "norm_text": "B.아닙니다 운영시간을 제가 확인했어야하는거니까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아닙니다/VCN+EC+운영/NNG+시간/NNG+을/JKO+제/NP+가/JKS+확인/NNG+했어야/XSV+EP+EC+하/VV+는/ETM+거/NNB+니까요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 추가로 궁금하신 사항 더 있으신가요",
+            "norm_text": "A.네 추가로 궁금하신 사항 더 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+추가/NNG+로/JKB+궁금/XR+하/XSA+신/EP+ETM+사항/NNG+더/MAG+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "B.아니요 특별히 없네요",
+            "norm_text": "B.아니요 특별히 없네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+특별히/MAG+없/VA+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 그럼 #@소속# 많이 이용해주세요 감사합니다",
+            "norm_text": "A.네 그럼 #@소속# 많이 이용해주세요 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+#/SY+@/SY+소속/NNG+#/SY+많이/MAG+이용/NNG+해/XSV+EC+주/VX+세요/EP+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

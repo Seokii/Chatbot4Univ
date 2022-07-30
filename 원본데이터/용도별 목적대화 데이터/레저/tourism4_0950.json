@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 147189,
+    "name": "t4_20211116_0005_0115_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135824045481/t4_20211116_0005_0115_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135824045481/t4_20211116_0005_0115_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 152821,
+      "filename": "t4_0066_0061_02.txt",
+      "title": "t4_0066_0061_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 268,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 268,
+        "word_size": 60,
+        "text": "A.무엇이든 도와드리겠습니다 #@소속# #@이름#입니다\nB.안녕하세요 이번에 체험장 단체로 방문하려 하는데요\nB.할인이 가능하다던데 얼마나 될까요\nA.일단 인원 체크부터 도와드릴게요 총 몇 분 오시나요\nB.아홉 명이 방문할 예정입니다\nA.죄송하지만 단체는 십 인 이상부터여서요\nB.네 열 명이서 단체로 가면 요금 얼마인가요\nA.인원 별 천 원씩 할인된 금액에 이용 가능하십니다\nB.그러면 굳이 단체로 안 가도 되겠네요 알려주셔서 감사해요\nA.날씨가 많이 추운데 건강 유의하세요 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.무엇이든 도와드리겠습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.무엇이든 도와드리겠습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+무엇/NP+이/VCP+든/EC+도와/VV+EC+드리/VX+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 이번에 체험장 단체로 방문하려 하는데요",
+            "norm_text": "B.안녕하세요 이번에 체험장 단체로 방문하려 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+이번/NNG+에/JKB+체험/NNG+장/NNG+단체/NNG+로/JKB+방문/NNG+하/XSV+려/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.할인이 가능하다던데 얼마나 될까요",
+            "norm_text": "B.할인이 가능하다던데 얼마나 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+할인/NNG+이/JKS+가능/NNG+하/XSV+다던데/EC+얼마나/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.일단 인원 체크부터 도와드릴게요 총 몇 분 오시나요",
+            "norm_text": "A.일단 인원 체크부터 도와드릴게요 총 몇 분 오시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+일단/MAG+인원/NNG+체크/NNG+부터/JX+도와/VV+EC+드릴게요/VX+EF+총/MM+몇/MM+분/NNBC+오/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.아홉 명이 방문할 예정입니다",
+            "norm_text": "B.아홉 명이 방문할 예정입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아홉/NR+명/NNBC+이/JKS+방문/NNG+할/XSV+ETM+예정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.죄송하지만 단체는 십 인 이상부터여서요",
+            "norm_text": "A.죄송하지만 단체는 십 인 이상부터여서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+단체/NNG+는/JX+십/NR+인/VCP+ETM+이상/NNG+부터/JX+여서요/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.네 열 명이서 단체로 가면 요금 얼마인가요",
+            "norm_text": "B.네 열 명이서 단체로 가면 요금 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+열/NR+명/NNBC+이/XSN+서/JKS+단체/NNG+로/JKB+가/VV+면/EC+요금/NNG+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.인원 별 천 원씩 할인된 금액에 이용 가능하십니다",
+            "norm_text": "A.인원 별 천 원씩 할인된 금액에 이용 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+인원/NNG+별/XSN+천/NR+원/NNBC+씩/XSN+할인/NNG+된/XSV+ETM+금액/NNG+에/JKB+이용/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그러면 굳이 단체로 안 가도 되겠네요 알려주셔서 감사해요",
+            "norm_text": "B.그러면 굳이 단체로 안 가도 되겠네요 알려주셔서 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그러면/MAJ+굳이/MAG+단체/NNG+로/JKB+안가/NNG+도/JX+되/VV+겠/EP+네요/EF+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.날씨가 많이 추운데 건강 유의하세요 #@이름#이었습니다",
+            "norm_text": "A.날씨가 많이 추운데 건강 유의하세요 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+날씨/NNG+가/JKS+많이/MAG+추운데/VA+EC+건강/NNG+유의/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

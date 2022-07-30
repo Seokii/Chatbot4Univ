@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 108279,
+    "name": "s3_20211104_0002_0078_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110745068773/s3_20211104_0002_0078_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110745068773/s3_20211104_0002_0078_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118034,
+      "filename": "s3_20211005_0019_0005_01.txt",
+      "title": "s3_20211005_0019_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 302,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 302,
+        "word_size": 71,
+        "text": "A.안녕하세요 #@소속# 고객센터 #@이름#입니다\nB.안녕하세요 지금 예약하려고 여기 #@소속# 들어왔는데요\nA.예약 과정에서 문제가 있으십니까\nB.단체 예약을 하려 하거든요\nB.근데 왜 예약이 안 되는거죠\nA.고객님 외 몇 분이 예약하시나요\nB.저희 일행 열두 명이요 네명서 다니면 되죠\nA.저희 국내여행 맞으시죠\nB.맞아요 국내여행 제주도 가려구요\nA.성인과 유아 포함 아홉 명 씩만 예약 가능합니다\nB.열두 명은 모일 수가 없어요\nA.인원을 나눠서 예약 진행해주시면 됩니다\nB.두 번 하면 되겠네 알겠습니다 수고하세요\nA.행복한 여행 준비 되시길 바라겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객센터 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 지금 예약하려고 여기 #@소속# 들어왔는데요",
+            "norm_text": "B.안녕하세요 지금 예약하려고 여기 #@소속# 들어왔는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+지금/MAG+예약/NNG+하/XSV+려고/EC+여기/NP+#/SY+@/SY+소속/NNG+#/SY+들어왔/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.예약 과정에서 문제가 있으십니까",
+            "norm_text": "A.예약 과정에서 문제가 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+예약/NNG+과정/NNG+에서/JKB+문제/NNG+가/JKS+있/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.단체 예약을 하려 하거든요",
+            "norm_text": "B.단체 예약을 하려 하거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+단체/NNG+예약/NNG+을/JKO+하/VV+려/EC+하/VX+거든요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.근데 왜 예약이 안 되는거죠",
+            "norm_text": "B.근데 왜 예약이 안 되는거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+근데/MAJ+왜/MAG+예약/NNG+이/JKS+안/MAG+되/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.고객님 외 몇 분이 예약하시나요",
+            "norm_text": "A.고객님 외 몇 분이 예약하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+외/NNB+몇/MM+분/NNBC+이/JKS+예약/NNG+하/XSV+시/EP+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.저희 일행 열두 명이요 네명서 다니면 되죠",
+            "norm_text": "B.저희 일행 열두 명이요 네명서 다니면 되죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+저희/NP+일행/NNG+열/NR+두/MM+명/NNBC+이요/JX+네/MM+명/NNBC+서/JKB+다니/VV+면/EC+되/VV+죠/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.저희 국내여행 맞으시죠",
+            "norm_text": "A.저희 국내여행 맞으시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+저희/NP+국내/NNG+여행/NNG+맞/VV+으시/EP+죠/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.맞아요 국내여행 제주도 가려구요",
+            "norm_text": "B.맞아요 국내여행 제주도 가려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맞/VV+아요/EF+국내/NNG+여행/NNG+제주/NNP+도/JX+가/VV+려구요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.성인과 유아 포함 아홉 명 씩만 예약 가능합니다",
+            "norm_text": "A.성인과 유아 포함 아홉 명 씩만 예약 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+성인/NNG+과/JC+유아/NNG+포함/NNG+아홉/NR+명/NNBC+씩/XSN+만/JX+예약/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.열두 명은 모일 수가 없어요",
+            "norm_text": "B.열두 명은 모일 수가 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+열/NR+두/MM+명/NNBC+은/JX+모일/VV+ETM+수/NNB+가/JKS+없/VA+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.인원을 나눠서 예약 진행해주시면 됩니다",
+            "norm_text": "A.인원을 나눠서 예약 진행해주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+인원/NNG+을/JKO+나눠서/VV+EC+예약/NNG+진행/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.두 번 하면 되겠네 알겠습니다 수고하세요",
+            "norm_text": "B.두 번 하면 되겠네 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+두/MM+번/NNBC+하/VV+면/EC+되/VV+겠/EP+네/EF+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.행복한 여행 준비 되시길 바라겠습니다",
+            "norm_text": "A.행복한 여행 준비 되시길 바라겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+여행/NNG+준비/NNG+되/XSV+시/EP+길/ETN+JKO+바라/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

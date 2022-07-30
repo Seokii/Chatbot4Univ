@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 10968,
+    "name": "s3_20210913_0010_0703_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416096668/s3_20210913_0010_0703_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416096668/s3_20210913_0010_0703_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11932,
+      "filename": "s3_20210826_0010_0011_01.txt",
+      "title": "s3_20210826_0010_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 498,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 498,
+        "word_size": 121,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.네 세탁기 필터망을 좀 살려고 하거든요\nA.그러신가요 거름망은 저희 서비스센터 자재실로 오셔도 구입 가능하시구요\nA.택배로도 받으실 수 있습니다 어떤 방법으로 구입하시는게 편하실까요\nB.네 택배로 하면 좀 더 편리할 것 같네요\nA.택배로 구입하시게 되면 택배비용이 별도로 삼천 원 정도 추가되시구요\nA.받으시는데 최대 일주일 이상 소요가 될 수 있는데 괜찮으시겠습니까\nB.네 괜찮아요 택배로 받을게요\nA.그럼 세탁기 모델명을 말씀해주시겠어요\nB.세탁기 모델명이 #@번호#이요\nA.세탁기 양쪽 옆에 주머니처럼 달린 거름망 말씀하시는거죠\nA.지금 하나당 금액이 천 오백 원정도 되구요 두 개 구매하시는 건가요\nB.네 그거 원래 세탁기에 두 개 들어가는거 맞죠 그럼 두 개 주문 해주세요\nA.맞으세요 그럼 두 개를 제가 주문을 해 드리도록 하겠습니다\nB.그리고 제가 또 주문할 게 있는데 이거 이름을 모르겠네요\nB.사진 찍어가지구 보면서 설명 드릴게요 잠시만 제가 다시 전화할게요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 세탁기 필터망을 좀 살려고 하거든요",
+            "norm_text": "B.네 세탁기 필터망을 좀 살려고 하거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+세탁기/NNG+필터/NNG+망/NNG+을/JKO+좀/MAG+살/VV+려고/EC+하/VX+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.그러신가요 거름망은 저희 서비스센터 자재실로 오셔도 구입 가능하시구요",
+            "norm_text": "A.그러신가요 거름망은 저희 서비스센터 자재실로 오셔도 구입 가능하시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+신가요/EP+EC+거름망/NNG+은/JX+저희/NP+서비스/NNG+센터/NNG+자/XSN+재실/NNG+로/JKB+오/VV+셔도/EP+EC+구입/NNG+가능/NNG+하/XSV+시/EP+구요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.택배로도 받으실 수 있습니다 어떤 방법으로 구입하시는게 편하실까요",
+            "norm_text": "A.택배로도 받으실 수 있습니다 어떤 방법으로 구입하시는게 편하실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+택배/NNG+로/JKB+도/JX+받/VV+으실/EP+ETM+수/NNB+있/VV+습니다/EF+어떤/MM+방법/NNG+으로/JKB+구입/NNG+하/XSV+시/EP+는/ETM+게/NNB+JKS+편하/VA+실까요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.네 택배로 하면 좀 더 편리할 것 같네요",
+            "norm_text": "B.네 택배로 하면 좀 더 편리할 것 같네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+택배/NNG+로/JKB+하/VV+면/EC+좀/MAG+더/MAG+편리/NNG+할/XSV+ETM+것/NNB+같/VA+네요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.택배로 구입하시게 되면 택배비용이 별도로 삼천 원 정도 추가되시구요",
+            "norm_text": "A.택배로 구입하시게 되면 택배비용이 별도로 삼천 원 정도 추가되시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+택배/NNG+로/JKB+구입/NNG+하/XSV+시/EP+게/EC+되/VV+면/EC+택배/NNG+비용/NNG+이/JKS+별도/NNG+로/JKB+삼/NR+천/NR+원/NNBC+정도/NNG+추가/NNG+되/XSV+시/EP+구요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.받으시는데 최대 일주일 이상 소요가 될 수 있는데 괜찮으시겠습니까",
+            "norm_text": "A.받으시는데 최대 일주일 이상 소요가 될 수 있는데 괜찮으시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+받/VV+으시/EP+는데/EC+최대/NNG+일/NR+주일/NNBC+이상/NNG+소요/NNG+가/JKS+될/VV+ETM+수/NNB+있/VV+는데/EC+괜찮/VA+으시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 괜찮아요 택배로 받을게요",
+            "norm_text": "B.네 괜찮아요 택배로 받을게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+괜찮/VA+아요/EF+택배/NNG+로/JKB+받/VV+을게요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그럼 세탁기 모델명을 말씀해주시겠어요",
+            "norm_text": "A.그럼 세탁기 모델명을 말씀해주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+세탁기/NNG+모델/NNG+명/NNG+을/JKO+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.세탁기 모델명이 #@번호#이요",
+            "norm_text": "B.세탁기 모델명이 #@번호#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+세탁기/NNG+모델/NNG+명이/NNG+#/SY+@/SY+번호/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.세탁기 양쪽 옆에 주머니처럼 달린 거름망 말씀하시는거죠",
+            "norm_text": "A.세탁기 양쪽 옆에 주머니처럼 달린 거름망 말씀하시는거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+세탁기/NNG+양쪽/NNG+옆/NNG+에/JKB+주머니/NNG+처럼/JKB+달린/VV+ETM+거름망/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.지금 하나당 금액이 천 오백 원정도 되구요 두 개 구매하시는 건가요",
+            "norm_text": "A.지금 하나당 금액이 천 오백 원정도 되구요 두 개 구매하시는 건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+하나/NR+당/XSN+금액/NNG+이/JKS+천/NR+오/NR+백/NR+원/NNBC+정도/NNG+되/XSV+구요/EF+두/MM+개/NNBC+구매/NNG+하/XSV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.네 그거 원래 세탁기에 두 개 들어가는거 맞죠 그럼 두 개 주문 해주세요",
+            "norm_text": "B.원래 세탁기에 두 개 들어가는거 맞죠 그럼 두 개 주문 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그거/NP+원래/MAG+세탁기/NNG+에/JKB+두/MM+개/NNBC+들어가/VV+는/ETM+거/NNB+맞/VV+죠/EF+그럼/MAJ+두/MM+개/NNBC+주문/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.맞으세요 그럼 두 개를 제가 주문을 해 드리도록 하겠습니다",
+            "norm_text": "A.맞으세요 그럼 두 개를 제가 주문을 해 드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+맞/VV+으세요/EF+그럼/MAJ+두/MM+개/NNBC+를/JKO+제/NP+가/JKS+주문/NNG+을/JKO+해/VV+EC+드리/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.그리고 제가 또 주문할 게 있는데 이거 이름을 모르겠네요",
+            "norm_text": "B.그리고 제가 또 주문할 게 있는데 이거 이름을 모르겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그리고/MAJ+제/NP+가/JKS+또/MAG+주문/NNG+할/XSV+ETM+게/NNB+JKS+있/VA+는데/EC+이거/NP+이름/NNG+을/JKO+모르/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 16,
+            "text": "B.사진 찍어가지구 보면서 설명 드릴게요 잠시만 제가 다시 전화할게요",
+            "norm_text": "B.사진 찍어가지구 보면서 설명 드릴게요 잠시만 제가 다시 전화할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+사진/NNG+찍/VV+어/EC+가지/VX+구/EC+보/VX+면서/EC+설명/NNG+드릴게요/VV+EC+잠시/NNG+만/JX+제/NP+가/JKS+다시/MAG+전화/NNG+할게요/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

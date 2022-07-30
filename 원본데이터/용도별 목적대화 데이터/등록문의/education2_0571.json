@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 138873,
+    "name": "e2_211112_0023_0490_02.txt",
+    "src_path": "/data/file/cubeManager/PROJECT018/92/txt20211110140111068696/e2_211112_0023_0490_02.txt/",
+    "label_path": "/data/file/cubeManager/PROJECT018/92/txt20211110140111068696/e2_211112_0023_0490_02.txt/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 161872,
+      "filename": "e2_0079_0102_02.txt",
+      "title": "e2_0079_0102_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 295,
+      "annotations": {
+        "subject": "등록 문의",
+        "speaker_type": "1:1",
+        "size": 295,
+        "word_size": 63,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.강의실에 등록된 수강과목이 없다고 나옵니다\nA.네 확인을 위해 성함과 연락처 말씀해주세요\nB.네 #@이름#이고요 #@전번# 입니다\nA.네 확인해보니 개강일 내일 오전 9시로 수강하시는 과목 아직 등록이 되지 않았습니다\nB.그럼 내일 9시에 등록되는 건가요\nA.네 9시 전으로 수강하시는 과목 일괄 등록될 예정입니다\nB.네 그렇군요 그럼 기다려야겠네요\nA.등록이 늦어지는 점 양해 부탁드립니다\nB.네 알겠습니다 감사합니다\nA.네 감사합니다 #@소속# 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.강의실에 등록된 수강과목이 없다고 나옵니다",
+            "norm_text": "B.강의실에 등록된 수강과목이 없다고 나옵니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+강의실/NNG+에/JKB+등록/NNG+된/XSV+ETM+수강/NNG+과목/NNG+이/JKS+없/VA+다고/EC+나옵니다/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 확인을 위해 성함과 연락처 말씀해주세요",
+            "norm_text": "A.네 확인을 위해 성함과 연락처 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+을/JKO+위해/VV+EC+성함/NNG+과/JC+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@이름#이고요 #@전번# 입니다",
+            "norm_text": "B.네 #@이름#이고요 #@전번# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 확인해보니 개강일 내일 오전 9시로 수강하시는 과목 아직 등록이 되지 않았습니다",
+            "norm_text": "A.네 확인해보니 개강일 내일 오전 9시로 수강하시는 과목 아직 등록이 되지 않았습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+해/XSV+EC+보/VX+니/EC+개강/NNG+일/VCP+ETM+내일/NNG+오전/NNG+9/SN+시/NNBC+로/JKB+수강/NNG+하/XSV+시/EP+는/ETM+과목/NNG+아직/MAG+등록/NNG+이/JKS+되/VV+지/EC+않/VX+았/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 내일 9시에 등록되는 건가요",
+            "norm_text": "B.그럼 내일 9시에 등록되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+내일/MAG+9/SN+시/NNBC+에/JKB+등록/NNG+되/XSV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 9시 전으로 수강하시는 과목 일괄 등록될 예정입니다",
+            "norm_text": "A.네 9시 전으로 수강하시는 과목 일괄 등록될 예정입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/MM+9/SN+시/NNBC+전/NNG+으로/JKB+수강/NNG+하/XSV+시/EP+는/ETM+과목/NNG+일괄/NNG+등록/NNG+될/XSV+ETM+예정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 그렇군요 그럼 기다려야겠네요",
+            "norm_text": "B.네 그렇군요 그럼 기다려야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+군요/EF+그럼/MAJ+기다려야/VV+EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.등록이 늦어지는 점 양해 부탁드립니다",
+            "norm_text": "A.등록이 늦어지는 점 양해 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+등록/NNG+이/JKS+늦/VA+어/EC+지/VX+는/ETM+점/NNG+양해/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 감사합니다 #@소속# 상담원 #@이름#이었습니다",
+            "norm_text": "A.네 감사합니다 #@소속# 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

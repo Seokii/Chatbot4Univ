@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 118200,
+    "name": "s3_20211105_0002_0094_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744039922/s3_20211105_0002_0094_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744039922/s3_20211105_0002_0094_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117947,
+      "filename": "s3_20211001_0018_0006_01.txt",
+      "title": "s3_20211001_0018_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 265,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 265,
+        "word_size": 53,
+        "text": "A.안녕하십니까 #@소속# 고객센터 #@이름# 입니다\nB.상담사님 현금영수증 지출증빙용으로 신청 하려고요\nA.고객님 계좌이체 결제 맞으십니까\nB.카드결제는 불가 한가요\nA.죄송하지만 현금영수증은 계좌이체시만 가능 합니다\nB.그럼 지출증빙용으로 할건데 계좌이체 하면 가능한가요\nA.네 소득공제용과 지출증빙용 선택 가능 하십니다\nB.그럼 계좌이체로 진행 해 볼게요\nA.알겠습니다 문의 사항 있으시면 다시 연락 주세요\nB.감사합니다 상담사님 수고하세요\nA.감사합니다 #@소속# #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 고객센터 #@이름# 입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 고객센터 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.상담사님 현금영수증 지출증빙용으로 신청 하려고요",
+            "norm_text": "B.상담사님 현금영수증 지출증빙용으로 신청 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+상담/NNG+사/NNG+님/XSN+현금영수증/NNP+지출/NNG+증빙/NNG+용/XSN+으로/JKB+신청/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 계좌이체 결제 맞으십니까",
+            "norm_text": "A.고객님 계좌이체 결제 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+계좌/NNG+이체/NNG+결제/NNG+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.카드결제는 불가 한가요",
+            "norm_text": "B.카드결제는 불가 한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+카드/NNG+결제/NNG+는/JX+불가/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.죄송하지만 현금영수증은 계좌이체시만 가능 합니다",
+            "norm_text": "A.죄송하지만 현금영수증은 계좌이체시만 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+현금영수증/NNP+은/JX+계좌/NNG+이/MM+체시/NNG+만/JX+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 지출증빙용으로 할건데 계좌이체 하면 가능한가요",
+            "norm_text": "B.그럼 지출증빙용으로 할건데 계좌이체 하면 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+지출/NNG+증빙/NNG+용/XSN+으로/JKB+할/VV+ETM+건데/NNB+VCP+EC+계좌/NNG+이체/NNG+하/XSV+면/EC+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.네 소득공제용과 지출증빙용 선택 가능 하십니다",
+            "norm_text": "A.네 소득공제용과 지출증빙용 선택 가능 하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+소득/NNG+공제/NNG+용/XSN+과/JC+지출/NNG+증빙/NNG+용/XSN+선택/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 계좌이체로 진행 해 볼게요",
+            "norm_text": "B.그럼 계좌이체로 진행 해 볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그럼/MAJ+계좌/NNG+이체/NNG+로/JKB+진행/NNG+해/XSV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.알겠습니다 문의 사항 있으시면 다시 연락 주세요",
+            "norm_text": "A.알겠습니다 문의 사항 있으시면 다시 연락 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+다시/MAG+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 10,
+            "text": "B.감사합니다 상담사님 수고하세요",
+            "norm_text": "B.감사합니다 상담사님 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+님/XSN+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 #@소속# #@이름# 이였습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

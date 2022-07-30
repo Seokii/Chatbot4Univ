@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 9984,
+    "name": "s3_20210913_0010_0556_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151418003927/s3_20210913_0010_0556_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151418003927/s3_20210913_0010_0556_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12087,
+      "filename": "s3_20210830_0029_0009_01.txt",
+      "title": "s3_20210830_0029_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 257,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 257,
+        "word_size": 55,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nB.오천 원 할인쿠폰 사용이 안 돼서요\nA.고객님 조회를 위해서 성함 연락처 말씀해 주세요\nB.접수자 #@이름# #@전번#이요\nA.고객님 주문 확인 안 되시는데 주문 전이신가요\nB.네 주문하려고 하는데 쿠폰이 안 떠서요\nA.고객님 결제하기는 누르셨나요\nA.결제하기를 눌러야 다음으로 넘어가서 쿠폰 사용이 가능합니다\nB.네 다시 해볼게요 수고하세요\nA.다른 문의 없으십니까\nB.네 없어요 고맙습니다\nA.감사합니다 #@소속# #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.오천 원 할인쿠폰 사용이 안 돼서요",
+            "norm_text": "B.오천 원 할인쿠폰 사용이 안 돼서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+오/NR+천/NR+원/NNBC+할인/NNG+쿠폰/NNG+사용/NNG+이/JKS+안/MAG+돼서/VV+EC+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 조회를 위해서 성함 연락처 말씀해 주세요",
+            "norm_text": "A.고객님 조회를 위해서 성함 연락처 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+조회/NNG+를/JKO+위해서/VV+EC+성함/NNG+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.접수자 #@이름# #@전번#이요",
+            "norm_text": "B.접수자 #@이름# #@전번#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+접수/NNG+자/XSN+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 주문 확인 안 되시는데 주문 전이신가요",
+            "norm_text": "A.고객님 주문 확인 안 되시는데 주문 전이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+주문/NNG+확인/NNG+안/MAG+되/VV+시/EP+는데/EC+주문/NNG+전/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 주문하려고 하는데 쿠폰이 안 떠서요",
+            "norm_text": "B.네 주문하려고 하는데 쿠폰이 안 떠서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+주문/NNG+하/XSV+려고/EC+하/VV+는데/EC+쿠폰/NNG+이/JKS+안/MAG+떠서/VV+EC+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.고객님 결제하기는 누르셨나요",
+            "norm_text": "A.고객님 결제하기는 누르셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+결제/NNG+하/XSV+기/ETN+는/JX+누르/VV+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.결제하기를 눌러야 다음으로 넘어가서 쿠폰 사용이 가능합니다",
+            "norm_text": "A.결제하기를 눌러야 다음으로 넘어가서 쿠폰 사용이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+결제/NNG+하/XSV+기/ETN+를/JKO+눌러야/VV+EC+다음/NNG+으로/JKB+넘어가/VV+서/EC+쿠폰/NNG+사용/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 다시 해볼게요 수고하세요",
+            "norm_text": "B.네 다시 해볼게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+다시/MAG+해/VV+EC+볼게요/VX+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.다른 문의 없으십니까",
+            "norm_text": "A.다른 문의 없으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+없/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 없어요 고맙습니다",
+            "norm_text": "B.네 없어요 고맙습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+없/VA+어요/EF+고맙/VA+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 #@소속# #@이름#였습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 163087,
+    "name": "t3_20211122_0005_0113_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135809009237/t3_20211122_0005_0113_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135809009237/t3_20211122_0005_0113_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 150941,
+      "filename": "t3_0069_0081_02.txt",
+      "title": "t3_0069_0081_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 255,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 59,
+        "text": "A.전화 주셔서 감사합니다  #@소속#입니다\nB.안녕하세요 이번 충주 여행 기간 중 식사 예약을 하려고 하는데요\nA.네 말씀해 주세요\nB.정확한 위치가 어떻게 되는지 알려주세요\nA.네 주소는 충주시 #@주소#이고요\nA.#@주소# 주택가에 자리 잡고 있는 식당입니다\nB.자유시장 있는 방향이었네요 혹시 점심 메뉴가 따로 있나요\nA.네 저희 점심특선정식이 있고요 7000원입니다\nB.칠 천 원이요 네 알겠습니다\nA.네 방문 주시면 정성으로 모시겠습니다\nB.친절한 말씀 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화 주셔서 감사합니다  #@소속#입니다",
+            "norm_text": "A.전화 주셔서 감사합니다  #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 이번 충주 여행 기간 중 식사 예약을 하려고 하는데요",
+            "norm_text": "B.안녕하세요 이번 충주 여행 기간 중 식사 예약을 하려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+이번/NNG+충주/NNP+여행/NNG+기간/NNG+중/NNB+식사/NNG+예약/NNG+을/JKO+하/VV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 말씀해 주세요",
+            "norm_text": "A.네 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.정확한 위치가 어떻게 되는지 알려주세요",
+            "norm_text": "B.정확한 위치가 어떻게 되는지 알려 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+정확/NNG+한/XSA+ETM+위치/NNG+가/JKS+어떻게/MAG+되/VV+는지/EC+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 주소는 충주시 #@주소#이고요",
+            "norm_text": "A.네 주소는 충주시 #@주소#이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+주소/NNG+는/JX+충주시/NNP+#/SY+@/SY+주소/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.#@주소# 주택가에 자리 잡고 있는 식당입니다",
+            "norm_text": "A.#@주소# 주택가에 자리 잡고 있는 식당입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+주택가/NNG+에/JKB+자리/NNG+잡/VV+고/EC+있/VX+는/ETM+식당/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.자유시장 있는 방향이었네요 혹시 점심 메뉴가 따로 있나요",
+            "norm_text": "B.자유시장 있는 방향이었네요 혹시 점심 메뉴가 따로 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+자유/NNG+시장/NNG+있/VA+는/ETM+방향/NNG+이/VCP+었/EP+네요/EF+혹시/MAG+점심/NNG+메뉴/NNG+가/JKS+따로/MAG+있/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 저희 점심특선정식이 있고요 7000원입니다",
+            "norm_text": "A.네 저희 점심특선정식이 있고요 7000원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+점심/NNG+특선/NNG+정식/NNG+이/JKS+있/VV+고요/EC+7000/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.칠 천 원이요 네 알겠습니다",
+            "norm_text": "B.칠천 원이요 네 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+칠/NR+천/NR+원/NNBC+이/JKS+요네/NNG+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 방문 주시면 정성으로 모시겠습니다",
+            "norm_text": "A.네 방문 주시면 정성으로 모시겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+방문주/NNG+시면/VV+EP+EC+정성/NNG+으로/JKB+모시/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.친절한 말씀 감사합니다",
+            "norm_text": "B.친절한 말씀 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+말씀/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

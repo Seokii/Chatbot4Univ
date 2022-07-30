@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 151671,
+    "name": "t4_20211117_0010_0301_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135859042253/t4_20211117_0010_0301_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135859042253/t4_20211117_0010_0301_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 153753,
+      "filename": "t4_0071_0131_02.txt",
+      "title": "t4_0071_0131_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 279,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 279,
+        "word_size": 62,
+        "text": "A.전화주셔서 감사합니다 #@소속# #@이름# 입니다\nB.안녕하세요 #@기타# 하려는데 운영 시간이 어떻게 되나요\nA.오전 11시부터 오후 5시 반까지 이용 가능하세요\nA.월요일 화요일은 휴무입니다\nB.혹시 반려동물 동반이 가능할까요\nA.아니요 말이 놀랄 수 있어서 반려동물 동반은 절대 안되세요\nB.그렇군요 체험하는데 준비물이나 다른 주의사항은 없을까요\nA.아니요 준비물은 따로 없으시고요 안전 수칙만 잘 지켜주시면 되세요\nB.네 알겠습니다 상담 감사합니다\nA.네 또 문의 주세요 저는 상담원 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화주셔서 감사합니다 #@소속# #@이름# 입니다",
+            "norm_text": "A.전화주셔서 감사합니다 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@기타# 하려는데 운영 시간이 어떻게 되나요",
+            "norm_text": "B.안녕하세요 #@기타# 하려는데 운영 시간이 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+기타/NNG+#/SY+하/VV+려는/ETM+데/NNB+운영/NNG+시간/NNG+이/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.오전 11시부터 오후 5시 반까지 이용 가능하세요",
+            "norm_text": "A.오전 11시부터 오후 5시 반까지 이용 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+오전/NNG+11/SN+시/NNBC+부터/JX+오후/NNG+5/SN+시/NNBC+반/NNG+까지/JX+이용/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.월요일 화요일은 휴무입니다",
+            "norm_text": "A.월요일 화요일은 휴무입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+월요일/NNG+화요일/NNG+은/JX+휴무/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.혹시 반려동물 동반이 가능할까요",
+            "norm_text": "B.혹시 반려동물 동반이 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+반려/NNG+동물/NNG+동반/NNG+이/JKS+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.아니요 말이 놀랄 수 있어서 반려동물 동반은 절대 안되세요",
+            "norm_text": "A.아니요 말이 놀랄 수 있어서 반려동물 동반은 절대 안되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+아니요/IC+말/NNG+이/JKS+놀랄/VV+ETM+수/NNB+있/VV+어서/EC+반려/NNG+동물/NNG+동반/NNG+은/JX+절대/MAG+안/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그렇군요 체험하는데 준비물이나 다른 주의사항은 없을까요",
+            "norm_text": "B.그렇군요 체험하는데 준비물이나 다른 주의사항은 없을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+체험/NNG+하/XSV+는/ETM+데/NNB+준비물/NNG+이나/JC+다른/MM+주/NNG+의/JKG+사항/NNG+은/JX+없/VA+을까요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.아니요 준비물은 따로 없으시고요 안전 수칙만 잘 지켜주시면 되세요",
+            "norm_text": "A.아니요 준비물은 따로 없으시고요 안전 수칙만 잘 지켜주시면 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아니요/IC+준비물/NNG+은/JX+따로/MAG+없/VA+으시/EP+고요/EC+안전/NNG+수칙/NNG+만/JX+잘/MAG+지켜/VV+EC+주/VX+시/EP+면/EC+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠습니다 상담 감사합니다",
+            "norm_text": "B.네 알겠습니다 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+상담/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 또 문의 주세요 저는 상담원 #@이름# 이었습니다",
+            "norm_text": "A.네 또 문의 주세요 저는 상담원 #@이름# 이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+또/MAG+문/NNG+의/JKG+주/VV+세요/EP+EF+저/NP+는/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

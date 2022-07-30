@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 52362,
+    "name": "c1_20211018_0002_0208_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130801035820/c1_20211018_0002_0208_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130801035820/c1_20211018_0002_0208_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51558,
+      "filename": "c1_20210928_0018_0005_01.txt",
+      "title": "c1_20210928_0018_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 252,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 252,
+        "word_size": 51,
+        "text": "A.서울시 교육 담당 상담센터입니다\nB.일반고 추가 배정 절차 문의하려고 하는데요\nA.선생님 해당 부분은 #@소속# 부서로 연락 바랍니다\nB.절차 확인만 하려고 하는데 여기서 안 되나요\nA.죄송하지만 어렵습니다 #@소속# 부서만 확인 가능합니다\nB.그럼 연락처라도 알려주실래요\nA.#@소속#기관 #@소속#부서 연락처 #@전번#입니다\nB.알겠습니다 전달 감사합니다\nA.더 다른 문의 사항 있으십니까\nB.아니요 괜찮습니다 수고하셨습니다\nA.감사합니다 서울시 상담센터였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.서울시 교육 담당 상담센터입니다",
+            "norm_text": "A.서울시 교육 담당 상담센터입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+서울시/NNP+교육/NNG+담당/NNG+상담/NNG+센터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.일반고 추가 배정 절차 문의하려고 하는데요",
+            "norm_text": "B.일반고 추가 배정 절차 문의하려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+일반/NNG+고추/NNG+가/JKS+배정/NNG+절차/NNG+문의/NNG+하/XSV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.선생님 해당 부분은 #@소속# 부서로 연락 바랍니다",
+            "norm_text": "A.선생님 해당 부분은 #@소속# 부서로 연락 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+해당/NNG+부분/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+부서/NNG+로/JKB+연락/NNG+바랍니다/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.절차 확인만 하려고 하는데 여기서 안 되나요",
+            "norm_text": "B.절차 확인만 하려고 하는데 여기서 안 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+절차/NNG+확인/NNG+만/JX+하/VV+려고/EC+하/VV+는데/EC+여기/NP+서/JKB+안/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.죄송하지만 어렵습니다 #@소속# 부서만 확인 가능합니다",
+            "norm_text": "A.죄송하지만 어렵습니다 #@소속# 부서만 확인 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+어렵/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+부서/NNG+만/JX+확인/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 연락처라도 알려주실래요",
+            "norm_text": "B.그럼 연락처라도 알려주실래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+연락처/NNG+라도/VCP+EC+알려/VV+EC+주/VX+실래요/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.#@소속#기관 #@소속#부서 연락처 #@전번#입니다",
+            "norm_text": "A.#@소속#기관 #@소속#부서 연락처 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+기관/NNG+#/SY+@/SY+소속/NNG+#/SY+부서/NNG+연락처/NNG+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.알겠습니다 전달 감사합니다",
+            "norm_text": "B.알겠습니다 전달 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+전달/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.더 다른 문의 사항 있으십니까",
+            "norm_text": "A.더 다른 문의 사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.아니요 괜찮습니다 수고하셨습니다",
+            "norm_text": "B.아니요 괜찮습니다 수고하셨습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아니요/IC+괜찮/VA+습니다/EF+수고/NNG+하/XSV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 서울시 상담센터였습니다",
+            "norm_text": "A.감사합니다 서울시 상담센터였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+서울시/NNP+상담/NNG+센터/NNG+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

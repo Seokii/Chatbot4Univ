@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 19553,
+    "name": "s1_20210916_0001_1171_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151214086573/s1_20210916_0001_1171_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151214086573/s1_20210916_0001_1171_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7199,
+      "filename": "s1_20210823_0015_0054_01.txt",
+      "title": "s1_20210823_0015_0054_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 226,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 226,
+        "word_size": 49,
+        "text": "A.고객님 저희가 확인하고 다시 전화드렸습니다\nA.방문 전에 저희가 몇 번으로 전화를 좀 드릴까요\nB.네 #@전번#번이요 여기로 해 주세요\nA.#@전번# 확인했고요 고객님 성함은 어떻게 되십니까\nB.네 성함이 #@이름# 님이요\nA.#@이름#님이시구요 주소는 어디십니까\nB.네 충남 @주소#요\nA.충남 서#@주소# 확인 감사합니다 시간은 언제가 편하실까요\nB.빨리 처리해 주시겠어요\nA.예 물론 빨리 도와드리도록 하겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 저희가 확인하고 다시 전화드렸습니다",
+            "norm_text": "A.고객님 저희가 확인하고 다시 전화드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+저희/NP+가/JKS+확인/NNG+하/XSV+고/EC+다시/MAG+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 2,
+            "text": "A.방문 전에 저희가 몇 번으로 전화를 좀 드릴까요",
+            "norm_text": "A.방문 전에 저희가 몇 번으로 전화를 좀 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+방/NNG+문전/NNG+에/JKB+저희/NP+가/JKS+몇/MM+번/NNBC+으로/JKB+전화/NNG+를/JKO+좀/MAG+드릴까요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 #@전번#번이요 여기로 해 주세요",
+            "norm_text": "B.네 #@전번#번이요 여기로 해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+이요/JX+여기/NP+로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.#@전번# 확인했고요 고객님 성함은 어떻게 되십니까",
+            "norm_text": "A.#@전번# 확인했고요 고객님 성함은 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+확인/NNG+했/XSV+EP+고요/EC+고객/NNG+님/XSN+성함/NNG+은/JX+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 성함이 #@이름# 님이요",
+            "norm_text": "B.네 성함이 #@이름# 님이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+성함/NNG+이/JKS+#/SY+@/SY+이름/NNG+#/SY+님/XSN+이/VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.#@이름#님이시구요 주소는 어디십니까",
+            "norm_text": "A.#@이름#님이시구요 주소는 어디십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+님/XSN+이/VCP+시/EP+구요/EF+주소/NNG+는/JX+어디/NP+십니까/VCP+EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 충남 @주소#요",
+            "norm_text": "B.네 충남 @주소#요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+충남/NNP+@/SY+주소/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.충남 서#@주소# 확인 감사합니다 시간은 언제가 편하실까요",
+            "norm_text": "A.충남 #@주소# 확인 감사합니다 시간은 언제가 편하실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+충남/NNP+서/JKB+#/SY+@/SY+주소/NNG+#/SY+확인/NNG+감사/NNG+합니다/XSV+EF+시간/NNG+은/JX+언제/NP+가/JKS+편하/VA+실까요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.빨리 처리해 주시겠어요",
+            "norm_text": "B.빨리 처리해 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+빨리/MAG+처리/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.예 물론 빨리 도와드리도록 하겠습니다",
+            "norm_text": "A.예 물론 빨리 도와드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+예/IC+물론/MAG+빨리/MAG+도와/VV+EC+드리/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 48346,
+    "name": "c4_20211015_0001_1914_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130707036245/c4_20211015_0001_1914_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130707036245/c4_20211015_0001_1914_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50461,
+      "filename": "c4_20210906_0022_0003_01.txt",
+      "title": "c4_20210906_0022_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 765,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 765,
+        "word_size": 191,
+        "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 제가 질문 사항이 있어서 전화 드렸습니다\nA.예 여쭤보시고 싶은 게 있으신가요\nB.네 병설 유치원 방과 후 과정에 관한 건인데요\nA.네 고객님 병설 유치원 방과 후 과정 말씀하시는 거 맞으신가요\nB.예 저희 아이가 다섯 살이라 해당 과정 병설 유치원에 보내려고 하거든요\nA.예 어머님 자녀분 나이가 다섯이라고요\nB.네 그런데 저희 부부가 외벌이 부부거든요\nB.그런데 외벌이 부부가 맞벌이 부부보다 정의 수입이 적은 부분이 있잖아요\nA.예 아무래도 맞벌이 부부보다는 수입이 적을 수 있겠지요\nB.그런데 왜 방과후 수업이 맞벌이 부부로 한정되어 있는 부분이 납득 되지 않습니다\nA.네 어머님 우선 제가 한 가지 말씀드릴게요\nA.방과후 과정은 해당 학급 정원 내에서 맞벌이 가정의 자녀를 우선 모집하도록 되어있어요\nB.과정에 우선 모집 유형이 있었나요\nA.예 방과 후 학교의 목적이 맞벌이 가정의 학부모들이 안심하고 직장 생활을 위함이라서요\nB.그런 제약이 있는 줄은 몰랐네요\nA.예 안타깝게도 모든 유아들이 방과 후 과정에서 교육을 받기에는 다소 어려운 실정입니다\nB.그래도 외벌이 부부 아이들도 교육을 받을 수는 있는 부분 아닌가요\nA.예 그러시면 제가 학부모님의 의견이 지침에 반영되도록 상급 기관에 적극 건의하도록 하겠습니다\nB.예 알겠습니다 혹시 행정 지원과 전화 번호 좀 알 수 있을까요\nA.예 전화번호 #@전번# 입니다\nB.네 알려주셔서 감사합니다 다른 문의 사항 있으면 전화 드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 제가 질문 사항이 있어서 전화 드렸습니다",
+            "norm_text": "B.네 안녕하세요 제가 질문 사항이 있어서 전화 드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 여쭤보시고 싶은 게 있으신가요",
+            "norm_text": "A.예 여쭤보시고 싶은 게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.네 병설 유치원 방과 후 과정에 관한 건인데요",
+            "norm_text": "B.네 병설 유치원 방과 후 과정에 관한 건인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+병설/NNG+유치원/NNG+방/NNG+과/JC+후/NNG+과정/NNG+에/JKB+관한/VV+ETM+건/NNB+JX+인데요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 병설 유치원 방과 후 과정 말씀하시는 거 맞으신가요",
+            "norm_text": "A.네 고객님 병설 유치원 방과 후 과정 말씀하시는 거 맞으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+병설/NNG+유치원/NNG+방/NNG+과/JC+후/NNG+과정/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+맞/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 6,
+            "text": "B.예 저희 아이가 다섯 살이라 해당 과정 병설 유치원에 보내려고 하거든요",
+            "norm_text": "B.예 저희 아이가 다섯 살이라 해당 과정 병설 유치원에 보내려고 하거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+저희/NP+아이/NNG+가/JKS+다섯/NR+살/NNBC+이/VCP+라/EC+해당/NNG+과정/NNG+병설/NNG+유치원/NNG+에/JKB+보내/VV+려고/EC+하/VX+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.예 어머님 자녀분 나이가 다섯이라고요",
+            "norm_text": "A.예 어머님 자녀분 나이가 다섯이라고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+어머님/NNG+자녀/NNG+분/NNB+나이/NNG+가/JKS+다섯/NR+이/VCP+라고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 그런데 저희 부부가 외벌이 부부거든요",
+            "norm_text": "B.네 그런데 저희 부부가 외벌이 부부거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그런데/MAJ+저희/NP+부부/NNG+가/JKS+외벌/NNG+이/JKS+부부/NNG+거든요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그런데 외벌이 부부가 맞벌이 부부보다 정의 수입이 적은 부분이 있잖아요",
+            "norm_text": "B.그런데 외벌이 부부가 맞벌이 부부보다 정의 수입이 적은 부분이 있잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그런데/MAJ+외벌/NNG+이/JKS+부부/NNG+가/JKS+맞벌이/NNG+부부/NNG+보다/JKB+정의/NNG+수입/NNG+이/JKS+적/VA+은/ETM+부분/NNG+이/JKS+있/VV+잖아요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.예 아무래도 맞벌이 부부보다는 수입이 적을 수 있겠지요",
+            "norm_text": "A.예 아무래도 맞벌이 부부보다는 수입이 적을 수 있겠지요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+아무래도/MAG+맞벌이/NNG+부부/NNG+보다/JKB+는/JX+수입/NNG+이/JKS+적/VV+을/ETM+수/NNB+있/VV+겠/EP+지요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그런데 왜 방과후 수업이 맞벌이 부부로 한정되어 있는 부분이 납득 되지 않습니다",
+            "norm_text": "B.그런데 왜 방과후 수업이 맞벌이 부부로 한정되어 있는 부분이 납득 되지 않습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그런데/MAJ+왜/MAG+방/NNG+과/JC+후/NNG+수업/NNG+이/JKS+맞벌이/NNG+부부/NNG+로/JKB+한정/NNG+되/XSV+어/EC+있/VX+는/ETM+부분/NNG+이/JKS+납득/NNG+되/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.네 어머님 우선 제가 한 가지 말씀드릴게요",
+            "norm_text": "A.네 어머님 우선 제가 한 가지 말씀드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+어머님/NNG+우선/MAG+제/NP+가/JKS+한/MM+가지/NNBC+말씀/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.방과후 과정은 해당 학급 정원 내에서 맞벌이 가정의 자녀를 우선 모집하도록 되어있어요",
+            "norm_text": "A.방과후 과정은 맞벌이 가정의 자녀를 우선 모집하도록 되어있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+방/NNG+과/JC+후/NNG+과정/NNG+은/JX+맞벌이/NNG+가정/NNG+의/JKG+자녀/NNG+를/JKO+우선/MAG+모집/NNG+하/XSV+도록/EC+되/VV+어/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.과정에 우선 모집 유형이 있었나요",
+            "norm_text": "B.과정에 우선 모집 유형이 있었나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+과정/NNG+에/JKB+우선/MAG+모집/NNG+유형/NNG+이/JKS+있/VA+었/EP+나요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.예 방과 후 학교의 목적이 맞벌이 가정의 학부모들이 안심하고 직장 생활을 위함이라서요",
+            "norm_text": "A.예 방과 후 맞벌이 가정의 학부모들이 안심하고 직장 생활을 위함이라서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예방/NNG+과/JC+후/NNG+학교/NNG+의/JKG+목적/NNG+이/JKS+맞벌이/NNG+가정/NNG+의/JKG+학부모/NNG+들/XSN+이/JKS+안심/NNG+하/XSV+고/EC+직장/NNG+생활/NNG+을/JKO+위함/VV+ETN+이/VCP+라서요/EC"
+          },
+          {
+            "id": 16,
+            "text": "B.그런 제약이 있는 줄은 몰랐네요",
+            "norm_text": "B.그런 제약이 있는 줄은 몰랐네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그런/MM+제약/NNG+이/JKS+있/VA+는/ETM+줄/NNB+은/JX+몰랐/VV+EP+네요/EC"
+          },
+          {
+            "id": 17,
+            "text": "A.예 안타깝게도 모든 유아들이 방과 후 과정에서 교육을 받기에는 다소 어려운 실정입니다",
+            "norm_text": "A.예 안타깝게도 모든 유아들이 방과 후 교육을 받기에는 다소 어려운 실정입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+안타깝/VA+게/EC+도/JX+모든/MM+유아/NNG+들/XSN+이/JKS+방/NNG+과/JC+후/NNG+과정/NNG+에서/JKB+교육/NNG+을/JKO+받/VV+기/ETN+에/JKB+는/JX+다소/MAG+어려운/VA+ETM+실정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "B.그래도 외벌이 부부 아이들도 교육을 받을 수는 있는 부분 아닌가요",
+            "norm_text": "B.그래도 외벌이 부부 아이들도 교육을 받을 수는 있는 부분 아닌가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래도/MAJ+외벌/NNG+이/JKS+부부/NNG+아이/NNG+들/XSN+도/JX+교육/NNG+을/JKO+받/VV+을/ETM+수/NNB+는/JX+있/VX+는/ETM+부분/NNG+아닌가요/VCN+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.예 그러시면 제가 학부모님의 의견이 지침에 반영되도록 상급 기관에 적극 건의하도록 하겠습니다",
+            "norm_text": "A.예 제가 학부모님의 의견이 지침에 반영되도록 적극 건의하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+예/IC+그러/VV+시/EP+면/EC+제/NP+가/JKS+학부모/NNP+님/XSN+의/JKG+의견/NNG+이/JKS+지침/NNG+에/JKB+반영/NNG+되/XSV+도록/EC+상급/NNG+기관/NNG+에/JKB+적극/NNG+건의/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 20,
+            "text": "B.예 알겠습니다 혹시 행정 지원과 전화 번호 좀 알 수 있을까요",
+            "norm_text": "B.예 알겠습니다 혹시 행정 지원과 전화 번호 좀 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+알/VV+겠/EP+습니다/EF+혹시/MAG+행정/NNG+지원/NNG+과/JC+전화/NNG+번호/NNG+좀/MAG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 21,
+            "text": "A.예 전화번호 #@전번# 입니다",
+            "norm_text": "A.예 전화번호 #@전번# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+전화/NNG+번호/NNG+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 22,
+            "text": "B.네 알려주셔서 감사합니다 다른 문의 사항 있으면 전화 드릴게요",
+            "norm_text": "B.네 알려주셔서 감사합니다 다른 문의 사항 있으면 전화 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으면/EC+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 23,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

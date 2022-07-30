@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 31168,
+    "name": "s2_20211007_0010_1497_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151413030823/s2_20211007_0010_1497_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151413030823/s2_20211007_0010_1497_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11400,
+      "filename": "s2_20210827_0001_0003_01.txt",
+      "title": "s2_20210827_0001_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 490,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 490,
+        "word_size": 118,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.휴대폰 #@상품# 구입했는데 저장 공간에 저장소 기계 기타가 뭔지 모르겠어요\nB.기타가 팔 기가나 되는데 시스템 데이타라고 되어 있거든요\nA.그게 사용이 되고 있는데 기타가 어떤거냐라는 말씀이세요 고객님\nB.네 아직 개통은 안 하고 최신 소트프웨어 업데이트만 했는데 이게 뭔지 몰라서요\nA.고객님 거기 기타라고 쳤을 때 그 안쪽으로 밑에 쭉 여러가지가 나오시잖아요\nB.예 여러가지 목록이 나오네요\nA.네 시스템 데이터는 휴대폰이 구동하기 위해서 기본적으로 설치된 데이터입니다\nB.그러면 이거는 핸드폰 초기화 시켜도 어차피 생기는 거네요\nB.그럼 이게 추가하면은 몇 기가 더 쓸 수 있죠\nA.네 고객님 말씀하신 제품은 외장메모리가 지원이 되구요\nA.최대 이 테라바이트까지 호환이 가능하신 걸로 확인 됩니다\nB.이 테라바이트까지 확장이 되요 알겠습니다\nA.예 다른 문의사항은 없으십니까\nB.다른 건 없어요 감사합니다\nA.네 감사합니다 예 추운 날씨 건강 조심하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.휴대폰 #@상품# 구입했는데 저장 공간에 저장소 기계 기타가 뭔지 모르겠어요",
+            "norm_text": "B.#@상품# 구입했는데 저장소 기계 기타가 뭔지 모르겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+휴대폰/NNG+#/SY+@/SY+상품/NNG+#/SY+구입/NNG+했/XSV+EP+는데/EC+저장/NNG+공간/NNG+에/JKB+저/MM+장소/NNG+기계/NNG+기타/NNG+가/JKS+뭔지/NP+VCP+EC+모르/VV+겠/EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.기타가 팔 기가나 되는데 시스템 데이타라고 되어 있거든요",
+            "norm_text": "B.기타가 팔 기가나 되는데 시스템 데이타라고 되어 있거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+기타/NNG+가/JKS+팔/VV+기/ETN+가/JKS+나/NP+되/VV+는데/EC+시스템/NNG+데이/NNG+타/VV+라고/EC+되/VV+어/EC+있/VX+거든요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.그게 사용이 되고 있는데 기타가 어떤거냐라는 말씀이세요 고객님",
+            "norm_text": "A.그게 사용이 되고 있는데 기타가 어떤거냐라는 말씀이세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그게/NP+JKS+사용/NNG+이/JKS+되/VV+고/EC+있/VX+는데/EC+기타/NNG+가/JKS+어떤/MM+거/NNB+냐/VCP+EF+라는/ETM+말씀/NNG+이/VCP+세요/EP+EF+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 5,
+            "text": "B.네 아직 개통은 안 하고 최신 소트프웨어 업데이트만 했는데 이게 뭔지 몰라서요",
+            "norm_text": "B.최신 소트프웨어 업데이트만 했는데 이게 뭔지 몰라서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+최신/NNG+소트/NNG+프웨/UNKNOWN+어/IC+업데이트/NNG+만/JX+했/VV+EP+는데/EC+이게/NP+JKS+뭔지/NP+VCP+EC+몰/VV+라서요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.고객님 거기 기타라고 쳤을 때 그 안쪽으로 밑에 쭉 여러가지가 나오시잖아요",
+            "norm_text": "A.고객님 기타라고 쳤을 때 밑에 쭉 여러가지가 나오시잖아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+기타/NNG+라고/VCP+EC+쳤/VV+EP+을/ETM+때/NNG+밑/NNG+에/JKB+쭉/MAG+여러/MM+가지/NNBC+가/JKS+나오/VV+시/EP+잖아요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.예 여러가지 목록이 나오네요",
+            "norm_text": "B.예 여러가지 목록이 나오네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+여러/MM+가지/NNBC+목록/NNG+이/JKS+나오/VV+네요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 시스템 데이터는 휴대폰이 구동하기 위해서 기본적으로 설치된 데이터입니다",
+            "norm_text": "A.네 시스템 데이터는 기본적으로 설치된 데이터입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+시스템/NNG+데이터/NNG+는/JX+휴대폰/NNG+이/JKS+구동/NNG+하/XSV+기/ETN+위해서/VV+EC+기본/NNG+적/XSN+으로/JKB+설치/NNG+된/XSV+ETM+데이터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그러면 이거는 핸드폰 초기화 시켜도 어차피 생기는 거네요",
+            "norm_text": "B.그러면 이거는 핸드폰 초기화 시켜도 어차피 생기는 거네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+이거/NP+는/JX+핸드폰/NNG+초기/NNG+화/XSN+시켜/XSV+EC+도/JX+어차피/MAG+생기/VV+는/ETM+거/NNB+네요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 이게 추가하면은 몇 기가 더 쓸 수 있죠",
+            "norm_text": "B.그럼 이게 추가하면은 몇 기가 더 쓸 수 있죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그럼/MAJ+이게/NP+JKS+추가/NNG+하/XSV+면은/EC+몇/MM+기/NNG+가/JKS+더/MAG+쓸/VV+ETM+수/NNB+있/VV+죠/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 고객님 말씀하신 제품은 외장메모리가 지원이 되구요",
+            "norm_text": "A.네 고객님 말씀하신 제품은 외장메모리가 지원이 되구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+신/EP+ETM+제품/NNG+은/JX+외장/NNG+메모리/NNG+가/JKS+지원/NNG+이/JKS+되/VV+구요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.최대 이 테라바이트까지 호환이 가능하신 걸로 확인 됩니다",
+            "norm_text": "A.최대 이 테라바이트까지 호환이 가능하신 걸로 확인 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+최대/NNG+이/NR+테라바이트/NNBC+까지/JX+호환/NNG+이/JKS+가능/NNG+하/XSV+신/EP+ETM+걸로/NNB+JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.이 테라바이트까지 확장이 되요 알겠습니다",
+            "norm_text": "B.이 테라바이트까지 확장이 되요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+이/MM+테라바이트/NNG+까지/JX+확장/NNG+이/JKS+되/VV+요/EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.예 다른 문의사항은 없으십니까",
+            "norm_text": "A.예 다른 문의사항은 없으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "B.다른 건 없어요 감사합니다",
+            "norm_text": "B.다른 건 없어요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+다른/VA+ETM+건/NNB+JX+없/VA+어요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 감사합니다 예 추운 날씨 건강 조심하세요",
+            "norm_text": "A.네 감사합니다 예 추운 날씨 건강 조심하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+예/IC+추운/VA+ETM+날씨/NNG+건강/NNG+조심/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 95108,
+    "name": "s2_20211102_0002_0304_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110738015544/s2_20211102_0002_0304_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110738015544/s2_20211102_0002_0304_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117240,
+      "filename": "s2_20211028_0025_0006_01.txt",
+      "title": "s2_20211028_0025_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 235,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 235,
+        "word_size": 45,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 궁금한 게 있어서 연락드립니다\nA.네 무엇을 도와드릴까요\nB.#@소속#의 #@상품#을 구입했는데요\nB.터치패드가 작동이 잘 안되네요 어떻게 해야 하나요\nA.네 문의하신 내용에 답변을 드리겠습니다\nA.우선 제품에 #@기타#를 설치 해주시고요\nA.드라이버를 전부 최신버전으로 업데이트 및 설치해주셔야 합니다\nB.친절한 안내 감사합니다\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 궁금한 게 있어서 연락드립니다",
+            "norm_text": "B.안녕하세요 궁금한 게 있어서 연락드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어서/EC+연락/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 무엇을 도와드릴까요",
+            "norm_text": "A.네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속#의 #@상품#을 구입했는데요",
+            "norm_text": "B.#@소속#의 #@상품#을 구입했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+상품/NNG+#/SY+을/JKO+구입/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.터치패드가 작동이 잘 안되네요 어떻게 해야 하나요",
+            "norm_text": "B.터치패드가 작동이 잘 안 되네요 어떻게 해야하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+터치패드/NNP+가/JKS+작동/NNG+이/JKS+잘/MAG+안/MAG+되/VV+네요/EF+어떻게/MAG+해야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 문의하신 내용에 답변을 드리겠습니다",
+            "norm_text": "A.네 문의하신 내용에 답변을 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+문의/NNG+하/XSV+신/EP+ETM+내용/NNG+에/JKB+답변/NNG+을/JKO+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.우선 제품에 #@기타#를 설치 해주시고요",
+            "norm_text": "A.우선 제품에 #@기타#를 설치해주시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+우선/MAG+제품/NNG+에/JKB+#/SY+@/SY+기타/NNG+#/SY+를/JKO+설치/NNG+해/XSV+EC+주/VX+시/EP+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.드라이버를 전부 최신버전으로 업데이트 및 설치해주셔야 합니다",
+            "norm_text": "A.드라이버를 전부 최신버전으로 업데이트 및 설치해주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+드라이버/NNG+를/JKO+전부/MAG+최신/NNG+버전/NNG+으로/JKB+업데이트/NNG+및/MAJ+설치/NNG+해/XSV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.친절한 안내 감사합니다",
+            "norm_text": "B.친절한 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

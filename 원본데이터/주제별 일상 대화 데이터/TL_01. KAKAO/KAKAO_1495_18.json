@@ -1,0 +1,515 @@
+{
+  "dataset": {
+    "identifier": 85192,
+    "name": "KAKAO_1495_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/60/txt20211021110154074783/KAKAO_1495_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/60/txt20211021110154074783/KAKAO_1495_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 83536,
+      "filename": "KAKAO_1495_18.txt",
+      "title": "KAKAO_1495_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-21",
+      "size": 803,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "다자간 대화",
+        "size": 803,
+        "word_size": 270,
+        "text": "1 : 아니 나 운동복 살려고 했는데 공홈보다 쿠팡이 더 싸...\n2 : 엥 그건 쿠팡에서 많이 떼먹어서 그런 건가...?\n3 : 쿠팡은 대량으로 싸게 사와서 창고에 뒀다가 파는 거자나 그래서 싼 거 아닐까\n1 : 그런가?\n1 : 그럴 수도 있겠네 키키\n1 : 그래서 나는 쿠팡에서 샀어...\n2 : 키키 아 더 비싸로 봤었네\n2 : 쿠팡이 근데 편의점이나 마트보다 싸기도 해\n3 : 그렇지\n3 : 주로 인터넷에서 사는 게 싸더라\n1 : 그지 그지\n1 : 그래서 나도 쿠팡 애용해...\n1 : 싸고 배송도 빠르고!\n2 : 그거 했어?\n2 : 쿠팡 멤버십인가 뭔가 하는 거?\n3 : 그래 그거 하면 배송비 다 무료라매\n3 : 근데 이커머스 업체마다 다 구독 서비스 있더라\n1 : 그거 저번에 쿠팡 포인트 받은 거 있어서 그걸로 유지 중이야!\n2 : 쿠팡 진짜 애용하는구나\n2 : 많이 사 거기서?\n3 : 그렇구나\n3 : 쿠팡 어떰 네이버랑 비교하면?\n1 : 나는 네이버보다 쿠팡 애용해 하하\n2 : 그럼 앞으로 뭐 주문할 때 우리 집으로도 부탁해\n3 : 그래 그래 나도 부탁해~ 키키\n1 : 아니 둘 다 좀 돈을 쓸 생각을 해...\n1 : 왜 나 삥 뜯어 먹어...\n2 : 난 돈을 안 버니까 그렇지...\n3 : 내가 돈이 어딨어 너가 사줘야지...\n3 : 나 돈 없어\n1 : 아니... 형은 용돈을 많이 받잖아...\n2 : 아니야\n2 : 많이 못받아...\n2 : 그래서 내일 인천 가야 돼\n3 : 키키 아 가서 받아오는 거임?\n3 : 시스템이 최고네\n1 : 키키 용돈 부족하면 집 가는 거야? 키키\n2 : 키키 밥이라도 집밥으로 해결해야 돈을 덜 쓰지!\n3 : 그래 그래\n3 : 그럼 뭐 좋네 돈 덜 쓰고",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아니 나 운동복 살려고 했는데 공홈보다 쿠팡이 더 싸...",
+            "norm_text": "아니 나 운동복 살려고 했는데 공홈보다 쿠팡이 더 싸...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아니나운동복살려고했는데공홈보다쿠팡이더싸/UNKNOWN+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 엥 그건 쿠팡에서 많이 떼먹어서 그런 건가...?",
+            "norm_text": "엥 그건 쿠팡에서 많이 떼먹어서 그런 건가...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+그건/NP+JX+쿠팡/NNP+에서/JKB+많이/MAG+떼먹/VV+어서/EC+그런/MM+건가/NNB+VCP+EF+./SY+./SY"
+          },
+          {
+            "id": 3,
+            "text": "3 : 쿠팡은 대량으로 싸게 사와서 창고에 뒀다가 파는 거자나 그래서 싼 거 아닐까",
+            "norm_text": "쿠팡은 대량으로 싸게 사와서 창고에 뒀다가 파는 거자나 그래서 싼 거 아닐까",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쿠팡/NNP+은/JX+대량/NNG+으로/JKB+싸/VV+게/EC+사/VV+EC+와서/VV+EC+창고/NNG+에/JKB+뒀/VV+EP+다가/EC+파/VV+는/ETM+거자/NNG+나/JC+그래서/MAJ+싼/VA+ETM+거/NNB+아닐까/VCN+EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 그런가?",
+            "norm_text": "그런가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런가/VA+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그럴 수도 있겠네 키키",
+            "norm_text": "그럴 수도 있겠네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴/VA+ETM+수/NNB+도/JX+있/VA+겠/EP+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "1 : 그래서 나는 쿠팡에서 샀어...",
+            "norm_text": "그래서 나는 쿠팡에서 샀어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+나/NP+는/JX+쿠팡/NNP+에서/JKB+샀/VV+EP+어/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "2 : 키키 아 더 비싸로 봤었네",
+            "norm_text": "키키 아 더 비싸로 봤었네",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/VV+아/EC+더/MAG+비싸/VA+로/JKB+봤었/VV+EP+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 쿠팡이 근데 편의점이나 마트보다 싸기도 해",
+            "norm_text": "쿠팡이 근데 편의점이나 마트보다 싸기도 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "쿠팡/NNP+이/JKS+근데/MAJ+편의점/NNG+이나/JC+마트/NNG+보다/JKB+싸/VA+기/ETN+도/JX+해/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "3 : 그렇지",
+            "norm_text": "그렇지",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그렇/VA+지/EC"
+          },
+          {
+            "id": 10,
+            "text": "3 : 주로 인터넷에서 사는 게 싸더라",
+            "norm_text": "주로 인터넷에서 사는 게 싸더라",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "주로/MAG+인터넷/NNG+에서/JKB+사/VV+는/ETM+게/NNB+JKS+싸/VA+더라/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 그지 그지",
+            "norm_text": "그지 그지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그지/IC+그지/NNG"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그래서 나도 쿠팡 애용해...",
+            "norm_text": "그래서 나도 쿠팡 애용해...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+나/NP+도/JX+쿠팡/NNP+애용/NNG+해/XSV+EF+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 싸고 배송도 빠르고!",
+            "norm_text": "싸고 배송도 빠르고!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "싸/VA+고/EC+배송/NNG+도/JX+빠르/VA+고/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 그거 했어?",
+            "norm_text": "그거 했어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그거/NP+했/VV+EP+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "2 : 쿠팡 멤버십인가 뭔가 하는 거?",
+            "norm_text": "쿠팡 멤버십인가 뭔가 하는 거?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "쿠팡/NNP+멤버십/NNG+인가/VCP+EC+뭔가/NP+VCP+EC+하/VV+는/ETM+거/NNB"
+          },
+          {
+            "id": 16,
+            "text": "3 : 그래 그거 하면 배송비 다 무료라매",
+            "norm_text": "그래 그거 하면 배송비 다 무료라매",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+그거/NP+하/VV+면/EC+배송/NNG+비다/NNP+무료/NNG+라/VCP+EC+매/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "3 : 근데 이커머스 업체마다 다 구독 서비스 있더라",
+            "norm_text": "근데 이커머스 업체마다 다 구독 서비스 있더라",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+이/MM+커머스/NNG+업체/NNG+마다/JX+다/MAG+구독/NNG+서비스/NNG+있/VV+더라/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 그거 저번에 쿠팡 포인트 받은 거 있어서 그걸로 유지 중이야!",
+            "norm_text": "그거 저번에 쿠팡 포인트 받은 거 있어서 그걸로 유지 중이야!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그거/NP+저번/NNG+에/JKB+쿠팡/NNP+포인트/NNG+받/VV+은/ETM+거/NNB+있/VA+어서/EC+그걸로/NP+JKB+유지/NNG+중/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 19,
+            "text": "2 : 쿠팡 진짜 애용하는구나",
+            "norm_text": "쿠팡 진짜 애용하는구나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "쿠팡/NNP+진짜/MAG+애용/NNG+하/XSV+는구나/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 많이 사 거기서?",
+            "norm_text": "많이 사 거기서?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "많이/MAG+사/VV+EC+거기/NP+서/JKB"
+          },
+          {
+            "id": 21,
+            "text": "3 : 그렇구나",
+            "norm_text": "그렇구나",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "그렇/VA+구나/EC"
+          },
+          {
+            "id": 22,
+            "text": "3 : 쿠팡 어떰 네이버랑 비교하면?",
+            "norm_text": "쿠팡 어떰 네이버랑 비교하면?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "쿠팡/NNP+어떰/UNKNOWN+네이버/NNP+랑/JC+비교/NNG+하/XSV+면/EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 나는 네이버보다 쿠팡 애용해 하하",
+            "norm_text": "나는 네이버보다 쿠팡 애용해 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+네이버/NNP+보다/JKB+쿠팡/NNP+애용/NNG+해/XSV+EC+하하/MAG"
+          },
+          {
+            "id": 24,
+            "text": "2 : 그럼 앞으로 뭐 주문할 때 우리 집으로도 부탁해",
+            "norm_text": "그럼 앞으로 뭐 주문할 때 우리 집으로도 부탁해",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "그럼/MAJ+앞/NNG+으로/JKB+뭐/IC+주문/NNG+할/XSV+ETM+때/NNG+우리/NP+집/NNG+으로/JKB+도/JX+부탁/NNG+해/XSV+EC"
+          },
+          {
+            "id": 25,
+            "text": "3 : 그래 그래 나도 부탁해~ 키키",
+            "norm_text": "그래 그래 나도 부탁해~ 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "그래그래/IC+나/NP+도/JX+부탁/NNG+해/XSV+EC+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 아니 둘 다 좀 돈을 쓸 생각을 해...",
+            "norm_text": "아니 둘 다 좀 돈을 쓸 생각을 해...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "아니/IC+둘/NR+다/MAG+좀/MAG+돈/NNG+을/JKO+쓸/VV+ETM+생각/NNG+을/JKO+해/VV+EF+./SY"
+          },
+          {
+            "id": 27,
+            "text": "1 : 왜 나 삥 뜯어 먹어...",
+            "norm_text": "왜 나 삥 뜯어 먹어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "왜/MAG+나/NP+삥/MAG+뜯어먹/VV+어/EF+./SY"
+          },
+          {
+            "id": 28,
+            "text": "2 : 난 돈을 안 버니까 그렇지...",
+            "norm_text": "난 돈을 안 버니까 그렇지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+돈/NNG+을/JKO+안/MAG+버/VV+니까/EC+그렇/VA+지/EF+./SY"
+          },
+          {
+            "id": 29,
+            "text": "3 : 내가 돈이 어딨어 너가 사줘야지...",
+            "norm_text": "내가 돈이 어딨어 너가 사줘야지...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+가/JKS+돈/NNG+이/JKS+어딨/VA+어/EC+너/NP+가/JKS+사/VV+EC+줘야지/VX+EF+./SY"
+          },
+          {
+            "id": 30,
+            "text": "3 : 나 돈 없어",
+            "norm_text": "나 돈 없어",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나돈/VV+ETM+없/VA+어/EC"
+          },
+          {
+            "id": 31,
+            "text": "1 : 아니... 형은 용돈을 많이 받잖아...",
+            "norm_text": "아니... 형은 용돈을 많이 받잖아...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+./SY+형/NNG+은/JX+용돈/NNG+을/JKO+많이/MAG+받/VV+잖아/EF+./SY"
+          },
+          {
+            "id": 32,
+            "text": "2 : 아니야",
+            "norm_text": "아니야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "아니/VCN+야/EC"
+          },
+          {
+            "id": 33,
+            "text": "2 : 많이 못받아...",
+            "norm_text": "많이 못받아...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "많이/MAG+못/MAG+받/VV+아/EF+./SY"
+          },
+          {
+            "id": 34,
+            "text": "2 : 그래서 내일 인천 가야 돼",
+            "norm_text": "그래서 내일 인천 가야 돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(언약) 약속하기(제3자와)/(개인적 수준)",
+            "morpheme": "그래서/MAJ+내일/NNP+인천/NNP+가야/NNG+돼/XSV+EC"
+          },
+          {
+            "id": 35,
+            "text": "3 : 키키 아 가서 받아오는 거임?",
+            "norm_text": "키키 아 가서 받아오는 거임?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/VV+아/EC+가/VX+서/EC+받/VV+아/EC+오/VV+는/ETM+거/NNB+임/VCP+ETN"
+          },
+          {
+            "id": 36,
+            "text": "3 : 시스템이 최고네",
+            "norm_text": "시스템이 최고네",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시스템/NNG+이/JKS+최고/NNG+네/XSN"
+          },
+          {
+            "id": 37,
+            "text": "1 : 키키 용돈 부족하면 집 가는 거야? 키키",
+            "norm_text": "키키 용돈 부족하면 집 가는 거야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+용돈/NNG+부족/NNG+하/XSV+면/EC+집/NNG+가/VV+는/ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 38,
+            "text": "2 : 키키 밥이라도 집밥으로 해결해야 돈을 덜 쓰지!",
+            "norm_text": "키키 밥이라도 집밥으로 해결해야 돈을 덜 쓰지!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+밥/NNG+이/VCP+라도/EC+집/NNG+밥/NNG+으로/JKB+해결/NNG+해야/XSV+EC+돈/NNG+을/JKO+덜쓰/VV+지/EF"
+          },
+          {
+            "id": 39,
+            "text": "3 : 그래 그래",
+            "norm_text": "그래 그래",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+그래/VA+EC"
+          },
+          {
+            "id": 40,
+            "text": "3 : 그럼 뭐 좋네 돈 덜 쓰고",
+            "norm_text": "그럼 뭐 좋네 돈 덜 쓰고",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+뭐/IC+좋/VA+네/EF+돈/NNG+덜/MAG+쓰/VV+고/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

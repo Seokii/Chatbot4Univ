@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 116065,
+    "name": "s3_20211105_0005_0234_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt202111011108260120104/s3_20211105_0005_0234_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt202111011108260120104/s3_20211105_0005_0234_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118930,
+      "filename": "s3_20211006_0009_0002_01.txt",
+      "title": "s3_20211006_0009_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 256,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 256,
+        "word_size": 61,
+        "text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다\nA.고객님 무엇을 도와드릴까요\nB.회원 가입은 아무나 할 수 있나요\nA.십 사 세 이상은 본인 확인 후 가능하구요\nA.십 사 세 미만은 법정 대리인이 회원 가입 후에요\nA.일주일 이내 동의하면 가입이 가능합니다\nA.외국인의 경우는 외국인 등록증이 있는 국내 거주 외국인에 한해 가능하구요\nA.사업자 등록 번호가 있는 법인은 사업자 회원 가입 가능합니다\nB.그렇군요 안내 감사합니다\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다",
+            "norm_text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.고객님 무엇을 도와드릴까요",
+            "norm_text": "A.고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.회원 가입은 아무나 할 수 있나요",
+            "norm_text": "B.회원 가입은 아무나 할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+회원/NNG+가입/NNG+은/JX+아무/NP+나/JX+할/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.십 사 세 이상은 본인 확인 후 가능하구요",
+            "norm_text": "A.십사 세 이상은 본인 확인 후 가능하구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+십/NR+사/NR+세/NNBC+이상/NNG+은/JX+본인/NNG+확인/NNG+후/NNG+가능/NNG+하/XSV+구요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.십 사 세 미만은 법정 대리인이 회원 가입 후에요",
+            "norm_text": "A.십사 세 미만은 법정 대리인이 회원 가입 후에요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+십/NR+사/NR+세/NNBC+미만/NNG+은/JX+법정/NNG+대리인/NNG+이/JKS+회원/NNG+가입/NNG+후/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "A.일주일 이내 동의하면 가입이 가능합니다",
+            "norm_text": "A.일주일 이내 동의하면 가입이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+일/NR+주일/NNBC+이/JKS+내/NP+JKG+동의/NNG+하/XSV+면/EC+가입/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.외국인의 경우는 외국인 등록증이 있는 국내 거주 외국인에 한해 가능하구요",
+            "norm_text": "A.외국인의 경우는 외국인 등록증이 있는 국내 거주 외국인에 한해 가능하구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+외국인/NNG+의/JKG+경우/NNG+는/JX+외국인/NNG+등록증/NNG+이/JKS+있/VA+는/ETM+국내/NNG+거주/NNG+외국인/NNG+에/JKB+한/MM+해/NNG+가능/NNG+하/XSV+구요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.사업자 등록 번호가 있는 법인은 사업자 회원 가입 가능합니다",
+            "norm_text": "A.사업자 등록 번호가 있는 법인은 사업자 회원 가입 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+사업자/NNG+등록번호/NNP+가/JKS+있/VA+는/ETM+법인/NNG+은/JX+사업자/NNG+회원/NNG+가입/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그렇군요 안내 감사합니다",
+            "norm_text": "B.그렇군요 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

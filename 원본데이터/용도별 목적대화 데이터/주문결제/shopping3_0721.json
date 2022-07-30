@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 16282,
+    "name": "s3_20210915_0010_1069_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151421018968/s3_20210915_0010_1069_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151421018968/s3_20210915_0010_1069_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12255,
+      "filename": "s3_20210831_0006_0003_01.txt",
+      "title": "s3_20210831_0006_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 278,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 278,
+        "word_size": 57,
+        "text": "A.감사합니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.예 #@상품#을 좀 사려고요\nB.가격이 이만 육천구백 원이라고 돼 있는데 배송료 포함인가요\nA.해당 상품은 이만 원 이상 무료배송 상품입니다\nA.배송받으실 주소지와 성함 연락처 불러주시겠습니까\nB.여기 경남 창원 #@주소#고 저는 #@이름#이고 #@전번#입니다\nA.결제는 카드 휴대폰결제 무통장입금 중에 어떤 것으로 하시겠습니까\nB.저 카드 결제할게요\nA.지금 보내드린 문자로 전화하셔서 결제하시면 됩니다\nA.즐거운 쇼핑 되십시오 #@소속#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.감사합니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.감사합니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 #@상품#을 좀 사려고요",
+            "norm_text": "B.예 #@상품#을 좀 사려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+상품/NNG+#/SY+을/JKO+좀/MAG+사/VV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.가격이 이만 육천구백 원이라고 돼 있는데 배송료 포함인가요",
+            "norm_text": "B.가격이 이만 육천구백 원이라고 돼 있는데 배송료 포함인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+가격/NNG+이/JKS+이/NR+만/NR+육/NR+천/NR+구/NR+백/NR+원/NNBC+이/VCP+라고/EC+돼/VV+EC+있/VX+는데/EC+배/NNG+송료/NNG+포함/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.해당 상품은 이만 원 이상 무료배송 상품입니다",
+            "norm_text": "A.해당 상품은 이만 원 이상 무료배송 상품입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+상품/NNG+은/JX+이/NR+만/NR+원/NNBC+이상/NNG+무료/NNG+배송/NNG+상품/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.배송받으실 주소지와 성함 연락처 불러주시겠습니까",
+            "norm_text": "A.배송받으실 주소지와 성함 연락처 불러주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+배송/NNG+받/VV+으실/EP+ETM+주소지/NNG+와/JC+성함/NNG+연락처/NNG+불러/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.여기 경남 창원 #@주소#고 저는 #@이름#이고 #@전번#입니다",
+            "norm_text": "B.여기 경남 창원 #@주소#고 저는 #@이름#이고 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+경남/NNP+창원/NNP+#/SY+@/SY+주소/NNG+#/SY+고/JKQ+저/NP+는/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.결제는 카드 휴대폰결제 무통장입금 중에 어떤 것으로 하시겠습니까",
+            "norm_text": "A.결제는 카드 휴대폰결제 무통장입금 중에 어떤 것으로 하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+결제/NNG+는/JX+카드/NNG+휴대폰/NNG+결제/NNG+무/XPN+통장/NNG+입금/NNG+중/NNB+에/JKB+어떤/MM+것/NNB+으로/JKB+하/VV+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.저 카드 결제할게요",
+            "norm_text": "B.저 카드 결제할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+저/MM+카드/NNG+결제/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.지금 보내드린 문자로 전화하셔서 결제하시면 됩니다",
+            "norm_text": "A.지금 보내드린 문자로 전화하셔서 결제하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+지금/MAG+보내/VV+EC+드린/VX+ETM+문자/NNG+로/JKB+전화/NNG+하/XSV+셔서/EP+EC+결제/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.즐거운 쇼핑 되십시오 #@소속#이었습니다",
+            "norm_text": "A.즐거운 쇼핑 되십시오 #@소속#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+쇼핑/NNG+되/XSV+십시오/EP+EC+#/SY+@/SY+소속/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

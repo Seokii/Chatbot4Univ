@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 95075,
+    "name": "s2_20211102_0002_0294_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110735045930/s2_20211102_0002_0294_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110735045930/s2_20211102_0002_0294_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116902,
+      "filename": "s2_20211027_0024_0027_01.txt",
+      "title": "s2_20211027_0024_0027_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 162,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 162,
+        "word_size": 32,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.네 안녕하세요 혹시 선물하기 서비스를 신청했는데요\nB.선물 포장도 해주시나요\nA.선물하기 주문 시 별도의 선물포장 패키지는 제공되지 않습니다\nB.알겠습니다 도움이 많이 되었어요\nA.다른 문의 사항있으시면 #@소속#으로 연락주세요\nB.네 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 혹시 선물하기 서비스를 신청했는데요",
+            "norm_text": "B.네 안녕하세요 혹시 선물하기 서비스를 신청했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+혹시/MAG+선물/NNG+하/XSV+기/ETN+서비스/NNG+를/JKO+신청/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.선물 포장도 해주시나요",
+            "norm_text": "B.선물 포장도 해주시나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+선물/NNG+포장/NNG+도/JX+해/VV+EC+주/VX+시/EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.선물하기 주문 시 별도의 선물포장 패키지는 제공되지 않습니다",
+            "norm_text": "A.선물하기 주문 시 별도의 선물포장 패키지는 제공되지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선물/NNG+하/XSV+기/ETN+주문/NNG+시/NNB+별도/NNG+의/JKG+선물/NNG+포장/NNG+패키지/NNG+는/JX+제공/NNG+되/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.알겠습니다 도움이 많이 되었어요",
+            "norm_text": "B.알겠습니다 도움이 많이 되었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+도움/NNG+이/JKS+많이/MAG+되/VV+었/EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.다른 문의 사항있으시면 #@소속#으로 연락주세요",
+            "norm_text": "A.다른 문의사항 있으시면 #@소속#으로 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 7,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

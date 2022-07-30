@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 87681,
+    "name": "s3_20211101_0002_0044_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110742076988/s3_20211101_0002_0044_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110742076988/s3_20211101_0002_0044_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117774,
+      "filename": "s3_20211001_0019_0007_01.txt",
+      "title": "s3_20211001_0019_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 352,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 352,
+        "word_size": 78,
+        "text": "A.고객님 반갑습니다 #@소속# #@이름# 상담사입니다\nB.안녕하세요 #@소속# 맞으시죠\nA.그렇습니다 무엇을 도와드릴까요\nB.아까 결제를 했는데 이상하게 대기예약이래요\nA.제가 설명해 드리겠습니다 예약번호 알려주세요\nB.#@번호#요 이걸로 조회 부탁해요\nA.네 대기예약은 예약 이후 호텔의 확인이 필요한 예약이에요\nA.위 경우에는 사십 팔시간 내에 호텔에서 승인 후 예약을 확인하게 됩니다\nB.그래요 그러면 취소가 될 수도 있나요\nA.지금이 극성수기시라셔요 가능 객실이 없으면 취소되실 거예요\nB.저는 바로 결제가 끝난 건 줄 알았어요\nA.타 숙소로 예약을 원하시나요\nB.피곤하니까 일단은 기다려볼게요\nA.불편을 끼쳐 드려 죄송합니다 좋은 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 반갑습니다 #@소속# #@이름# 상담사입니다",
+            "norm_text": "A.고객님 반갑습니다 #@소속# #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@소속# 맞으시죠",
+            "norm_text": "B.안녕하세요 #@소속# 맞으시죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+맞/VV+으시/EP+죠/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.그렇습니다 무엇을 도와드릴까요",
+            "norm_text": "A.그렇습니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그렇/VA+습니다/EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.아까 결제를 했는데 이상하게 대기예약이래요",
+            "norm_text": "B.아까 결제를 했는데 이상하게 대기예약이래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아까/MAG+결제/NNG+를/JKO+했/VV+EP+는데/EC+이상/NNG+하/XSV+게/EC+대기/NNG+예약/NNG+이/VCP+래요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.제가 설명해 드리겠습니다 예약번호 알려주세요",
+            "norm_text": "A.제가 설명해 드리겠습니다 예약번호 알려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+제/NP+가/JKS+설명/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+예약/NNG+번호/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.#@번호#요 이걸로 조회 부탁해요",
+            "norm_text": "B.#@번호#요 이걸로 조회 부탁해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+번호/NNG+#/SY+요/JX+이걸로/NP+JKB+조회/NNG+부탁/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 대기예약은 예약 이후 호텔의 확인이 필요한 예약이에요",
+            "norm_text": "A.네 대기예약은 예약 이후 호텔의 확인이 필요한 예약이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+대기/NNG+예약/NNG+은/JX+예약/NNG+이후/NNG+호텔/NNG+의/JKG+확인/NNG+이/JKS+필요/NNG+한/XSA+ETM+예약/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.위 경우에는 사십 팔시간 내에 호텔에서 승인 후 예약을 확인하게 됩니다",
+            "norm_text": "A.사십 팔시간 내에 호텔에서 승인 후 예약을 확인하게 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+위/NNG+경우/NNG+에/JKB+는/JX+사/NR+십/NR+팔/NR+시간/NNG+내/NNB+에/JKB+호텔/NNG+에서/JKB+승인/NNG+후/NNG+예약/NNG+을/JKO+확인/NNG+하/XSV+게/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그래요 그러면 취소가 될 수도 있나요",
+            "norm_text": "B.그래요 그러면 취소가 될 수도 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+그러면/MAJ+취소/NNG+가/JKS+될/VV+ETM+수/NNB+도/JX+있/VA+나요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.지금이 극성수기시라셔요 가능 객실이 없으면 취소되실 거예요",
+            "norm_text": "A.지금이 극성수기시라셔요 가능 객실이 없으면 취소되실 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+지금/MAG+이/MM+극성/NNG+수기/NNG+시라/NNG+셔요/JKS+EP+EF+가능/NNG+객실/NNG+이/JKS+없/VA+으면/EC+취소/NNG+되/XSV+실/EP+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.저는 바로 결제가 끝난 건 줄 알았어요",
+            "norm_text": "B.저는 바로 결제가 끝난 건 줄 알았어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+저/NP+는/JX+바로/MAG+결제/NNG+가/JKS+끝난/VV+ETM+건/NNB+VCP+ETM+줄/NNB+알/VV+았/EP+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.타 숙소로 예약을 원하시나요",
+            "norm_text": "A.타 숙소로 예약을 원하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+타/MM+숙소/NNG+로/JKB+예약/NNG+을/JKO+원하/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 13,
+            "text": "B.피곤하니까 일단은 기다려볼게요",
+            "norm_text": "B.피곤하니까 일단은 기다려볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+피곤/NNG+하/XSV+니까/EC+일단/MAG+은/JX+기다려/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.불편을 끼쳐 드려 죄송합니다 좋은 하루 되세요",
+            "norm_text": "A.불편을 끼쳐 드려 죄송합니다 좋은 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+불편/NNG+을/JKO+끼쳐드려/VV+EC+VX+EC+죄송/XR+합니다/XSA+EF+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

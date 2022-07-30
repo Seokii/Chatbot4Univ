@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 148503,
+    "name": "t4_20211117_0005_0055_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135824077649/t4_20211117_0005_0055_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135824077649/t4_20211117_0005_0055_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 152869,
+      "filename": "t4_0066_0109_02.txt",
+      "title": "t4_0066_0109_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 264,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 264,
+        "word_size": 58,
+        "text": "A.전화주셔서 감사합니다 #@소속# #@이름#입니다\nB.안녕하세요 저 오늘 카트 예약해놔서 가는 중인데요\nB.위치를 모르겠어서요 위치 좀 다시 알려주실래요\nA.#@소속# 검색하시고 오시면 됩니다\nB.#@소속# 쳤는데도 지금 안 나와요 주소 없나요\nA.아네 그럼 주소 알려드릴게요 제주시 #@주소# 입니다\nB.제주시 #@주소# 여기 맞나요\nA.네 맞습니다 거기로 검색하셔서 오시면 될것같아요\nB.네 알겠어요 일단 한번 가볼게요\nA.해보시고 안 되시면 꼭 다시 연락 주세요 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화주셔서 감사합니다 #@소속# #@이름#입니다",
+            "norm_text": "A.전화주셔서 감사합니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 저 오늘 카트 예약해놔서 가는 중인데요",
+            "norm_text": "B.안녕하세요 저 오늘 카트 예약해놔서 가는 중인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+저/IC+오늘/MAG+카트/NNG+예약/NNG+해놔서/XSA+EC+VX+EC+가/VX+는/ETM+중/NNB+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.위치를 모르겠어서요 위치 좀 다시 알려주실래요",
+            "norm_text": "B.위치를 모르겠어서요 위치 좀 다시 알려주실래요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+위치/NNG+를/JKO+모르/VV+겠/EP+어서요/EC+위치/NNG+좀/MAG+다시/MAG+알려/VV+EC+주/VX+실래요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.#@소속# 검색하시고 오시면 됩니다",
+            "norm_text": "A.#@소속# 검색하시고 오시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+검색/NNG+하/XSV+시/EP+고/EC+오/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.#@소속# 쳤는데도 지금 안 나와요 주소 없나요",
+            "norm_text": "B.#@소속# 쳤는데도 지금 안 나와요 주소 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+쳤/VV+EP+는데/EC+도/JX+지금/MAG+안/MAG+나와요/VV+EF+주소/NNG+없/VA+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.아네 그럼 주소 알려드릴게요 제주시 #@주소# 입니다",
+            "norm_text": "A.아 네 그럼 주소 알려드릴게요 제주시 #@주소# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아/IC+네/IC+그럼/MAJ+주소/NNG+알려/VV+EC+드릴게요/VX+EC+제주시/NNP+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.제주시 #@주소# 여기 맞나요",
+            "norm_text": "B.제주시 #@주소# 여기 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+제주시/NNP+#/SY+@/SY+주소/NNG+#/SY+여기/NP+맞/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 맞습니다 거기로 검색하셔서 오시면 될것같아요",
+            "norm_text": "A.네 맞습니다 거기로 검색하셔서 오시면 될 것 같아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+거기/NP+로/JKB+검색/NNG+하/XSV+셔서/EP+EC+오/VX+시/EP+면/EC+될/VV+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠어요 일단 한번 가볼게요",
+            "norm_text": "B.네 알겠어요 일단 한번 가볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+어요/EF+일단/MAG+한/MM+번/NNBC+가/JKS+볼/VV+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.해보시고 안 되시면 꼭 다시 연락 주세요 #@이름#이었습니다",
+            "norm_text": "A.해 보시고 안 되시면 꼭 다시 연락 주세요 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+해/VV+EC+보/VX+시/EP+고/EC+안/MAG+되/VV+시/EP+면/EC+꼭/MAG+다시/MAG+연락/NNG+주세요/NNP+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

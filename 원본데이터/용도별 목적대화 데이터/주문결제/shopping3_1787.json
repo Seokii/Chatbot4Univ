@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 108195,
+    "name": "s3_20211104_0002_0034_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110745061376/s3_20211104_0002_0034_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110745061376/s3_20211104_0002_0034_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118026,
+      "filename": "s3_20211005_0009_0023_01.txt",
+      "title": "s3_20211005_0009_0023_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 246,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 246,
+        "word_size": 53,
+        "text": "A.안녕하세요 #@소속#에서 전화받은 #@이름#입니다\nB.예 수고하십니다 문의 좀 드리려고 그럽니다\nA.네 어떤 부분이십니까\nB.무통장입금 선택 후 입금 기한 내 미입금시 구매취소 문자가 발송되나요\nA.입금기한이 만료되었을 때 구매취소 문자 및 메일은 발송되지 않습니다\nB.그럼 혹시 입금기한 만료 후 입금해도 되나요\nA.입금 기한 이후 가상계좌는 자동으로 폐기되어 입금이 불가능합니다\nB.그래요 알겠습니다 수고하세요\nA.네 감사합니다 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#에서 전화받은 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#에서 전화받은 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+전화/NNG+받/VV+은/ETM+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고하십니다 문의 좀 드리려고 그럽니다",
+            "norm_text": "B.예 수고하십니다 문의 좀 드리려고 그럽니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+하/XSV+십니다/EP+EF+문/NNG+의/JKG+좀/MAG+드리/VV+려고/EC+그럽니다/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 부분이십니까",
+            "norm_text": "A.네 어떤 부분이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+부분/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.무통장입금 선택 후 입금 기한 내 미입금시 구매취소 문자가 발송되나요",
+            "norm_text": "B.무통장입금 선택 후 입금 기한 내 미입금시 구매취소 문자가 발송되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+무/XPN+통장/NNG+입금/NNG+선택/NNG+후입/NNP+금기/NNG+한/XSA+ETM+내미/NNG+입금/NNG+시구/NNG+매취/NNG+소문자/NNG+가/JKS+발송/NNG+되/XSV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.입금기한이 만료되었을 때 구매취소 문자 및 메일은 발송되지 않습니다",
+            "norm_text": "A.입금기한이 만료되었을 때 구매취소 문자 및 메일은 발송되지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+입금/NNG+기한/NNG+이/JKS+만료/NNG+되/XSV+었/EP+을/ETM+때/NNG+구매/NNG+취소/NNG+문자/NNG+및/MAJ+메일/NNG+은/JX+발송/NNG+되/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 혹시 입금기한 만료 후 입금해도 되나요",
+            "norm_text": "B.그럼 혹시 입금기한 만료 후 입금해도 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+혹시/MAG+입금/NNG+기한/NNG+만료/NNG+후/NNG+입금/NNG+해도/XSV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.입금 기한 이후 가상계좌는 자동으로 폐기되어 입금이 불가능합니다",
+            "norm_text": "A.입금 기한 이후 가상계좌는 자동으로 폐기되어 입금이 불가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+입금/NNG+기한/NNG+이후/NNG+가상/NNG+계좌/NNG+는/JX+자동/NNG+으로/JKB+폐기/NNG+되/XSV+어/EC+입금/NNG+이/JKS+불/XPN+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그래요 알겠습니다 수고하세요",
+            "norm_text": "B.그래요 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그래요/VV+EC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 감사합니다 #@이름#이었습니다",
+            "norm_text": "A.네 감사합니다 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

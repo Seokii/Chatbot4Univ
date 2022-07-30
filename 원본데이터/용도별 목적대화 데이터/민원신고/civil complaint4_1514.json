@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 46987,
+    "name": "c4_20211015_0011_0140_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131155072522/c4_20211015_0011_0140_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131155072522/c4_20211015_0011_0140_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56102,
+      "filename": "c4_20210908_0027_0002_01.txt",
+      "title": "c4_20210908_0027_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 256,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 256,
+        "word_size": 51,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.#@주소#에 안전진단 좀 나와주세요\nA.재건축 판정을 위한 안전진단 요청 맞나요\nB.네 맞습니다 #@주소#의 아파트입니다\nA.해당 아파트는 이미 안전진단 대상으로 판단되었습니다\nA.현재 용역비 반영을 위한 행정절차 중에 있습니다\nB.그런가요 네 감사합니다\nA.궁금하신 내용이 있으신 경우에는 대덕구청 주택정책과로 연락바랍니다\nB.네 친절한 설명 감사합니다\nA.감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.#@주소#에 안전진단 좀 나와주세요",
+            "norm_text": "B.#@주소#에 안전진단 좀 나와주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+에/JKB+안전/NNG+진단/NNG+좀/MAG+나와/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.재건축 판정을 위한 안전진단 요청 맞나요",
+            "norm_text": "A.재건축 판정을 위한 안전진단 요청 맞나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+재/XPN+건축/NNG+판정/NNG+을/JKO+위한/VV+ETM+안전/NNG+진단/NNG+요청/NNG+맞/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 맞습니다 #@주소#의 아파트입니다",
+            "norm_text": "B.네 맞습니다 #@주소#의 아파트입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맞/VV+습니다/EF+#/SY+@/SY+주소/NNG+#/SY+의/JKG+아파트/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.해당 아파트는 이미 안전진단 대상으로 판단되었습니다",
+            "norm_text": "A.해당 아파트는 이미 안전진단 대상으로 판단되었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+아파트/NNG+는/JX+이미/MAG+안전/NNG+진단/NNG+대상/NNG+으로/JKB+판단/NNG+되/XSV+었/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.현재 용역비 반영을 위한 행정절차 중에 있습니다",
+            "norm_text": "A.현재 용역비 반영을 위한 행정절차 중에 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+현재/MAG+용역/NNG+비/XPN+반영/NNG+을/JKO+위한/VV+ETM+행정/NNG+절차/NNG+중/NNB+에/JKB+있/VV+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그런가요 네 감사합니다",
+            "norm_text": "B.그런가요 네 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그런/MM+가요/NNG+네/XSN+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.궁금하신 내용이 있으신 경우에는 대덕구청 주택정책과로 연락바랍니다",
+            "norm_text": "A.궁금하신 내용이 있으신 경우에는 대덕구청 주택정책과로 연락바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+궁금/XR+하/XSA+신/EP+ETM+내용/NNG+이/JKS+있/VA+으신/EP+ETM+경우/NNG+에/JKB+는/JX+대덕/NNP+구청/NNG+주택/NNG+정책/NNG+과/NNG+로/JKB+연락/NNG+바랍니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 친절한 설명 감사합니다",
+            "norm_text": "B.네 친절한 설명 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+친절/NNG+한/XSA+ETM+설명/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

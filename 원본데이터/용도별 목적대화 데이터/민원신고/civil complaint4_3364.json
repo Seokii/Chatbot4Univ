@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 110872,
+    "name": "c4_20211104_0045_0310_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/48/txt202109101352440538103/c4_20211104_0045_0310_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/48/txt202109101352440538103/c4_20211104_0045_0310_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 20151,
+      "filename": "c4_20210902_0009_0003_01.txt",
+      "title": "c4_20210902_0009_0003_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-09-10",
+      "size": 355,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 355,
+        "word_size": 74,
+        "text": "A.화창한 아침입니다 #@소속# 상담원 #@이름#입니다\nB.예 수고하십니다 민원 좀 넣어볼라고요\nA.네 어떤 민원이십니까\nB.수도권 광역급행철도 씨 노선에 #@주소#역을 추가해달라구요\nA.네 #@주소#역은 현재 기본계획에 포함되어있지 않아서요 죄송합니다\nB.왜 #@주소#역은 제외되는 겁니까\nA.네 추가 정거장을 포함한 모든 정거장에서 #@주소#역 또는 #@주소#역까지요\nA.소요시간 삼십분 이내가 되도록 해야 하구요\nA.추가 정거장은 세개 이내로 제한해야 하는 부분 때문에 그런 것 같습니다\nB.그래도 민원 좀 넣어 주세요\nA.네 제가 담당부서에 내용 전달은 해드리도록 하겠습니다\nB.그래요 부탁드립니다 수고하세요\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.화창한 아침입니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.화창한 아침입니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+화창/XR+한/XSA+ETM+아침/NNG+입니다/VCP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고하십니다 민원 좀 넣어볼라고요",
+            "norm_text": "B.예 수고하십니다 민원 좀 넣어볼라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+하/XSV+십니다/EP+EF+민원/NNG+좀/MAG+넣/VV+어/EC+볼라/VX+EC+고요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 민원이십니까",
+            "norm_text": "A.네 어떤 민원이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+민원/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.수도권 광역급행철도 씨 노선에 #@주소#역을 추가해달라구요",
+            "norm_text": "B.수도권 광역급행철도 씨 노선에 #@주소#역을 추가해달라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+수도/NNG+권/XSN+광역급행철도/NNP+씨/NNB+노선/NNG+에/JKB+#/SY+@/SY+주소/NNG+#/SY+역/NNG+을/JKO+추가/NNG+해/XSV+EC+달/VX+라구요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 #@주소#역은 현재 기본계획에 포함되어있지 않아서요 죄송합니다",
+            "norm_text": "A.네 #@주소#역은 현재 기본계획에 포함되어있지 않아서요 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+역/NNG+은/JX+현재/MAG+기본/NNG+계획/NNG+에/JKB+포함/NNG+되/XSV+어/EC+있/VX+지/EC+않/VX+아서요/EC+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.왜 #@주소#역은 제외되는 겁니까",
+            "norm_text": "B.왜 #@주소#역은 제외되는 겁니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+왜/MAG+#/SY+@/SY+주소/NNG+#/SY+역/NNG+은/JX+제외/NNG+되/XSV+는/ETM+겁니까/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 추가 정거장을 포함한 모든 정거장에서 #@주소#역 또는 #@주소#역까지요",
+            "norm_text": "A.네 추가 정거장을 포함한 모든 정거장에서 #@주소#역 또는 #@주소#역까지요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+추가/NNG+정거장/NNG+을/JKO+포함/NNG+한/XSA+ETM+모든/MM+정거장/NNG+에서/JKB+#/SY+@/SY+주소/NNG+#/SY+역/NNG+또는/MAJ+#/SY+@/SY+주소/NNG+#/SY+역/NNG+까지/JX+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.소요시간 삼십분 이내가 되도록 해야 하구요",
+            "norm_text": "A.소요시간 삼십분 이내가 되도록 해야 하구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+소요/NNG+시간/NNG+삼/NR+십/NR+분/NNBC+이/JKS+내/NP+가/JKS+되/VV+도록/EC+해야/VV+EC+하/VX+구요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.추가 정거장은 세개 이내로 제한해야 하는 부분 때문에 그런 것 같습니다",
+            "norm_text": "A.추가 정거장은 세개 이내로 제한해야 하는 부분 때문에 그런 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+추가/NNG+정거장/NNG+은/JX+세/MM+개/NNBC+이내/NNG+로/JKB+제한/NNG+해야/XSV+EC+하/VV+는/ETM+부분/NNG+때문/NNB+에/JKB+그런/MM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그래도 민원 좀 넣어 주세요",
+            "norm_text": "B.그래도 민원 좀 넣어 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그래도/MAJ+민원/NNG+좀/MAG+넣/VV+어/EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 제가 담당부서에 내용 전달은 해드리도록 하겠습니다",
+            "norm_text": "A.네 제가 담당부서에 내용 전달은 해드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+제/NP+가/JKS+담당/NNG+부서/NNG+에/JKB+내용/NNG+전달/NNG+은/JX+해/VV+EC+드리/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.그래요 부탁드립니다 수고하세요",
+            "norm_text": "B.그래요 부탁드립니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그래요/VV+EC+부탁드립니다/VV+EC+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

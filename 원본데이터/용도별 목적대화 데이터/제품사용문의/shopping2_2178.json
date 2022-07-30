@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 110065,
+    "name": "s2_20211104_0001_4047_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110644048788/s2_20211104_0001_4047_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110644048788/s2_20211104_0001_4047_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115302,
+      "filename": "s2_20211006_0019_0001_01.txt",
+      "title": "s2_20211006_0019_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 386,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 386,
+        "word_size": 78,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.반갑습니다 이번에 그랜드 투어를 예약했어요\nA.고객님 성함과 예약번호 알려주시겠어요\nB.#@이름#이고 #@번호#입니다 부탁드려요\nA.확인되었습니다 고객님 무엇을 도와드릴까요\nB.그랜드 투어에서 아트갤러리 전문가 수업도 하시지요\nA.잠시 조회해 보겠습니다\nA.그렇습니다 전문가와 함께 박람회에 참가하실 겁니다\nB.상세 일정이 어떻게 되나요\nA.예술품에 대한 안목을 키우는 수업을 들으실 거에요\nB.그래요 혹시 #@소속# 박람회 입장권만 구매도 됩니까\nA.루브르 외에는 따로 예약을 해주셔야 합니다\nB.그러면 #@소속# 예약권은 따로 구매해야 하나요\nA.해당 박람회 홈페이지에서 구매 부탁드려요\nB.알겠습니다 제가 알아볼게요 끊습니다\nA.행복한 여행 준비 되시기를 바라겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.반갑습니다 이번에 그랜드 투어를 예약했어요",
+            "norm_text": "B.반갑습니다 이번에 그랜드 투어를 예약했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+반갑/VA+습니다/EF+이번/NNG+에/JKB+그랜드/NNP+투어/NNG+를/JKO+예약/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 성함과 예약번호 알려주시겠어요",
+            "norm_text": "A.고객님 성함과 예약번호 알려주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+성함/NNG+과/JC+예약/NNG+번호/NNG+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@이름#이고 #@번호#입니다 부탁드려요",
+            "norm_text": "B.#@이름#이고 #@번호#입니다 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+번호/NNG+#/SY+입니다/VCP+EF+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.확인되었습니다 고객님 무엇을 도와드릴까요",
+            "norm_text": "A.확인되었습니다 고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+되/XSV+었/EP+습니다/EF+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그랜드 투어에서 아트갤러리 전문가 수업도 하시지요",
+            "norm_text": "B.그랜드 투어에서 아트갤러리 전문가 수업도 하시지요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+그랜드/NNP+투어/NNG+에서/JKB+아트/NNG+갤러리/NNG+전문가/NNG+수업/NNG+도/JX+하/VV+시/EP+지요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.잠시 조회해 보겠습니다",
+            "norm_text": "A.잠시 조회해 보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+잠시/MAG+조회/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.그렇습니다 전문가와 함께 박람회에 참가하실 겁니다",
+            "norm_text": "A.그렇습니다 전문가와 함께 박람회에 참가하실 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그렇/VA+습니다/EF+전문가/NNG+와/JKB+함께/MAG+박람회/NNG+에/JKB+참가/NNG+하/XSV+실/EP+ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.상세 일정이 어떻게 되나요",
+            "norm_text": "B.상세 일정이 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+상세/NNG+일정/NNG+이/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.예술품에 대한 안목을 키우는 수업을 들으실 거에요",
+            "norm_text": "A.예술품에 대한 안목을 키우는 수업을 들으실 거에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예술품/NNG+에/JKB+대한/VV+ETM+안목/NNG+을/JKO+키우/VV+는/ETM+수업/NNG+을/JKO+들으실/VV+EP+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그래요 혹시 #@소속# 박람회 입장권만 구매도 됩니까",
+            "norm_text": "B.그래요 혹시 #@소속# 박람회 입장권만 구매도 됩니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+혹시/MAG+#/SY+@/SY+소속/NNG+#/SY+박람회/NNG+입장권/NNG+만/JX+구매/NNG+도/JX+됩니까/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.루브르 외에는 따로 예약을 해주셔야 합니다",
+            "norm_text": "A.루브르 외에는 따로 예약을 해주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+루브르/NNG+외/NNB+에/JKB+는/JX+따로/MAG+예약/NNG+을/JKO+해/VV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그러면 #@소속# 예약권은 따로 구매해야 하나요",
+            "norm_text": "B.그러면 #@소속# 예약권은 따로 구매해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러/VV+면/EC+#/SY+@/SY+소속/NNG+#/SY+예약/NNG+권/XSN+은/JX+따로/MAG+구매/NNG+해야/XSV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.해당 박람회 홈페이지에서 구매 부탁드려요",
+            "norm_text": "A.해당 박람회 홈페이지에서 구매 부탁드려요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+해당/NNG+박람회/NNG+홈페이지/NNG+에서/JKB+구매/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.알겠습니다 제가 알아볼게요 끊습니다",
+            "norm_text": "B.알겠습니다 제가 알아볼게요 끊습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+제/NP+가/JKS+알아볼/VV+ETM+게요/NNB+VCP+EC+끊/VV+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "A.행복한 여행 준비 되시기를 바라겠습니다",
+            "norm_text": "A.행복한 여행 준비 되시기를 바라겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+여행/NNG+준비/NNG+되/XSV+시/EP+기/ETN+를/JKO+바라/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

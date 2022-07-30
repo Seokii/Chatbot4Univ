@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 44947,
+    "name": "c4_20211014_0001_1519_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706068921/c4_20211014_0001_1519_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706068921/c4_20211014_0001_1519_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50382,
+      "filename": "c4_20210906_0027_0012_01.txt",
+      "title": "c4_20210906_0027_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 257,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 257,
+        "word_size": 53,
+        "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.여기 #@주소# 도로 긴급 도로 보수 요청합니다\nA.네 #@주소# 말씀이신가요\nB.네 맞습니다 도로가 상태가 안 좋네요\nA.네 그 부분 저희가 도로관리과에 건의하도록 하겠습니다\nB.도로관리과에서 하는 부분인가요\nA.네 그렇습니다 추가 설명이 필요하다면 도로관리과 도로보수팀으로 연락바랍니다\nB.네 빠른 접수 감사합니다\nA.감사합니다 #@이름#이었습니다 좋은 하루 되세요\nB.네 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.여기 #@주소# 도로 긴급 도로 보수 요청합니다",
+            "norm_text": "B.여기 #@주소# 도로 긴급 도로 보수 요청합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+여기/NP+#/SY+@/SY+주소/NNG+#/SY+도로/NNG+긴급/NNG+도로/NNG+보수/NNG+요청/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 #@주소# 말씀이신가요",
+            "norm_text": "A.네 #@주소# 말씀이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+말씀/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 맞습니다 도로가 상태가 안 좋네요",
+            "norm_text": "B.네 맞습니다 도로가 상태가 안 좋네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맞/VV+습니다/EF+도로/NNG+가/JKS+상태/NNG+가/JKS+안/MAG+좋/VA+네요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 그 부분 저희가 도로관리과에 건의하도록 하겠습니다",
+            "norm_text": "A.네 그 부분 저희가 도로관리과에 건의하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+그/MM+부분/NNG+저희/NP+가/JKS+도로/NNG+관리/NNG+과/NNG+에/JKB+건의/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.도로관리과에서 하는 부분인가요",
+            "norm_text": "B.도로관리과에서 하는 부분인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+도로/NNG+관리/NNG+과/NNG+에서/JKB+하/VV+는/ETM+부분/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 그렇습니다 추가 설명이 필요하다면 도로관리과 도로보수팀으로 연락바랍니다",
+            "norm_text": "A.네 그렇습니다 추가 설명이 필요하다면 도로관리과 도로보수팀으로 연락바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+추가/NNG+설명/NNG+이/JKS+필요/NNG+하/XSV+다면/EC+도로/NNG+관리/NNG+과도/NNG+로/JKB+보수/NNG+팀/NNG+으로/JKB+연락/NNG+바랍니다/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 빠른 접수 감사합니다",
+            "norm_text": "B.네 빠른 접수 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+빠른/VA+ETM+접수/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.감사합니다 #@이름#이었습니다 좋은 하루 되세요",
+            "norm_text": "A.감사합니다 #@이름#이었습니다 좋은 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

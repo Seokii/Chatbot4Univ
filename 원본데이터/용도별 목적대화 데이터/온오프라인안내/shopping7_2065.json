@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 120154,
+    "name": "s7_20211105_0010_4385_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110942018754/s7_20211105_0010_4385_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110942018754/s7_20211105_0010_4385_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 121963,
+      "filename": "s7_20211029_0024_0001_01.txt",
+      "title": "s7_20211029_0024_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 171,
+      "annotations": {
+        "subject": "온오프라인 안내",
+        "speaker_type": "1:1",
+        "size": 171,
+        "word_size": 32,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.네 안녕하세요 혹시 판매자 문의는 어떻게 하나요\nA.마이 #@소속#에 들어가시면요 고객님\nA.주문목록을 클릭하시고 판매자에게 문의하기 클릭하시면 됩니다\nB.알겠습니다 많은 도움이 되네요\nA.다른 문의 사항있으시면 #@소속#으로 연락주세요\nB.알겠습니다 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 혹시 판매자 문의는 어떻게 하나요",
+            "norm_text": "B.네 안녕하세요 혹시 판매자 문의는 어떻게 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+혹시/MAG+판매자/NNG+문의/NNG+는/JX+어떻게/MAG+하나/NR+요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.마이 #@소속#에 들어가시면요 고객님",
+            "norm_text": "A.마이 #@소속#에 들어가시면요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+마이/NNP+#/SY+@/SY+소속/NNG+#/SY+에/JKB+들어가/VV+시/EP+면/EC+요/JX+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "A.주문목록을 클릭하시고 판매자에게 문의하기 클릭하시면 됩니다",
+            "norm_text": "A.주문목록을 클릭하시고 판매자에게 문의하기 클릭하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주문/NNG+목록/NNG+을/JKO+클릭/NNG+하/XSV+시/EP+고/EC+판매자/NNG+에게/JKB+문의/NNG+하/XSV+기/ETN+클릭/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.알겠습니다 많은 도움이 되네요",
+            "norm_text": "B.알겠습니다 많은 도움이 되네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+많/VA+은/ETM+도움/NNG+이/JKS+되/VV+네요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.다른 문의 사항있으시면 #@소속#으로 연락주세요",
+            "norm_text": "A.다른 문의 사항있으시면 #@소속#으로 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 7,
+            "text": "B.알겠습니다 감사합니다 수고하세요",
+            "norm_text": "B.알겠습니다 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

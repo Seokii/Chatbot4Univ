@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 139763,
+    "name": "t2_20211115_0002_0116_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135726077697/t2_20211115_0002_0116_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135726077697/t2_20211115_0002_0116_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 149530,
+      "filename": "t2_0069_0036_02.txt",
+      "title": "t2_0069_0036_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 318,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 318,
+        "word_size": 75,
+        "text": "A.기분 좋은 하루시작 상담원 #@이름#입니다\nB.안녕하세요 렌트카 문의가 있어 연락 드렸습니다\nA.아 네 말씀해주세요\nB.저희가 남원으로 가족 여행이 있어서 단체로 이동을 해야 하거든요\nB.한 열 명 넘게 이동해야 하는데 추천하시는 차종이 있나요\nA.그러시면 저희 #@상품# 15인승 차량을 추천 드립니다\nB.여러 명이 타도 충분할까요\nA.네 15분 타셔도 넉넉하고 트렁크가 넓어 편안하게 이용하실 수 있습니다\nB.저희 가족 여행 이동하는데 아주 딱이겠어요\nA.예 예약하시는 분이 많으셔서요\nA.주말 휴일 이용 시 미리 미리 예약하시기 바랍니다\nB.알겠습니다 생각해보고 다시 연락드릴게요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.기분 좋은 하루시작 상담원 #@이름#입니다",
+            "norm_text": "A.기분 좋은 하루시작 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+기분/NNG+좋/VA+은/ETM+하루/NNG+시작/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 렌트카 문의가 있어 연락 드렸습니다",
+            "norm_text": "B.안녕하세요 렌트카 문의가 있어 연락 드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+렌트카/NNG+문의/NNG+가/JKS+있/VA+어/EC+연락/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.아 네 말씀해주세요",
+            "norm_text": "A.아 네 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+아/IC+네/IC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.저희가 남원으로 가족 여행이 있어서 단체로 이동을 해야 하거든요",
+            "norm_text": "B.저희가 남원으로 가족 여행이 있어서 단체로 이동을 해야 하거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+가/JKS+남원/NNG+으로/JKB+가족/NNG+여행/NNG+이/JKS+있/VV+어서/EC+단체/NNG+로/JKB+이동/NNG+을/JKO+해야/VV+EC+하/VX+거든요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.한 열 명 넘게 이동해야 하는데 추천하시는 차종이 있나요",
+            "norm_text": "B.한 열 명 넘게 이동해야 하는데 추천하시는 차종이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+한/MM+열/NR+명/NNBC+넘/VV+게/EC+이동/NNG+해야/XSV+EC+하/VV+는데/EC+추천/NNG+하/XSV+시/EP+는/ETM+차종/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.그러시면 저희 #@상품# 15인승 차량을 추천 드립니다",
+            "norm_text": "A.그러시면 저희 #@상품# 15인승 차량을 추천 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+저희/NP+#/SY+@/SY+상품/NNG+#/SY+15/SN+인승/NNG+차량/NNG+을/JKO+추천/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.여러 명이 타도 충분할까요",
+            "norm_text": "B.여러 명이 타도 충분할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여러/MM+명/NNBC+이/JKS+타/VV+도/EC+충분/XR+할까요/XSA+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 15분 타셔도 넉넉하고 트렁크가 넓어 편안하게 이용하실 수 있습니다",
+            "norm_text": "A.15분 타셔도 넉넉하고 트렁크가 넓어 편안하게 이용하실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/MM+15/SN+분/NNBC+타/VV+셔도/EP+EC+넉넉/XR+하/XSA+고/EC+트렁크/NNG+가/JKS+넓/VA+어/EC+편안/NNG+하/XSV+게/EC+이용/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.저희 가족 여행 이동하는데 아주 딱이겠어요",
+            "norm_text": "B.저희 가족 여행 이동하는데 아주 딱이겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+저희/NP+가족/NNG+여행/NNG+이/JKS+동하/VV+는데/EC+아주/MAG+딱/MAG+이/VCP+겠/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.예 예약하시는 분이 많으셔서요",
+            "norm_text": "A.예 예약하시는 분이 많으셔서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+예약/NNG+하/XSV+시/EP+는/ETM+분/NNB+이/JKS+많/VA+으셔서/EP+EC+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.주말 휴일 이용 시 미리 미리 예약하시기 바랍니다",
+            "norm_text": "A.주말 휴일 이용 시 미리 미리 예약하시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+주말/NNG+휴일/NNG+이/JKS+용시/NNG+미리미리/MAG+예약/NNG+하/XSV+시/EP+기/ETN+바랍니다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.알겠습니다 생각해보고 다시 연락드릴게요",
+            "norm_text": "B.알겠습니다 생각해보고 다시 연락드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+생각/NNG+해/XSV+EC+보/VX+고/EC+다시/MAG+연락/NNG+드릴게요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

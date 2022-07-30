@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 141011,
+    "name": "e1_20211115_0006_0668_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/91/txt20211110140010091690/e1_20211115_0006_0668_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/91/txt20211110140010091690/e1_20211115_0006_0668_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 158645,
+      "filename": "e1_0070_0046_02.txt",
+      "title": "e1_0070_0046_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 371,
+      "annotations": {
+        "subject": "프로그램 문의",
+        "speaker_type": "1:1",
+        "size": 371,
+        "word_size": 91,
+        "text": "A. 감사합니다 #@소속# 상담사 #@이름#입니다\nB. 안녕하세요 문의사항이 있어서 연락드렸어요\nA. 무엇을 도와드릴까요 고객님\nB. 네 저 이거 강의 등록하기 전에 학원 가서 상담을 받고 싶은데요\nA. 고객님 방문상담은 먼저 유선으로 예약이나 온라인 예약을 해주셔야 합니다\nB. 아 그래요 집에서 가까운 곳이 왕십리라 여기로 예약하고 싶은데요\nA. 네 고객님 전화번호를 알려드릴까요\nB. 네 왕십리 캠퍼스 전화번호 알려주세요\nA. 왕십리 캠퍼스 전화번호는 #@전번# 입니다\nB. 아 네 #@전번#이요 네 저장했어요\nA. 캠퍼스에 전화하셔서 방문 상담 예약하신다고 말씀하시면 됩니다\nB. 네 전화해 볼게요 그럼 수고하세요\nA. 예 고객님도 좋은 하루 보내세요 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 감사합니다 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A. 감사합니다 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 문의사항이 있어서 연락드렸어요",
+            "norm_text": "B. 안녕하세요 문의사항이 있어서 연락드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+사항/NNG+이/JKS+있/VV+어서/EC+연락/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A. 무엇을 도와드릴까요 고객님",
+            "norm_text": "A. 무엇을 도와드릴까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B. 네 저 이거 강의 등록하기 전에 학원 가서 상담을 받고 싶은데요",
+            "norm_text": "B. 네 저 이거 강의 등록하기 전에 학원 가서 상담을 받고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+저/IC+이거/NP+강의/NNG+등록/NNG+하/XSV+기/ETN+전/NNG+에/JKB+학원/NNG+가/VV+서/EC+상담/NNG+을/JKO+받/VV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 고객님 방문상담은 먼저 유선으로 예약이나 온라인 예약을 해주셔야 합니다",
+            "norm_text": "A. 고객님 방문상담은 먼저 유선으로 예약이나 온라인 예약을 해주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+방문/NNG+상담/NNG+은/JX+먼저/MAG+유선/NNG+으로/JKB+예약/NNG+이나/JC+온라인/NNG+예약/NNG+을/JKO+해/VV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 아 그래요 집에서 가까운 곳이 왕십리라 여기로 예약하고 싶은데요",
+            "norm_text": "B. 아 그래요 집에서 가까운 곳이 왕십리라 여기로 예약하고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+그래/IC+요집/NNG+에서/JKB+가까운/VA+ETM+곳/NNG+이/JKS+왕/XPN+십/NR+리라/NNBC+여기/NP+로/JKB+예약/NNG+하/XSV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 네 고객님 전화번호를 알려드릴까요",
+            "norm_text": "A. 네 고객님 전화번호를 알려드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+전화/NNG+번호/NNG+를/JKO+알려/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 네 왕십리 캠퍼스 전화번호 알려주세요",
+            "norm_text": "B. 네 왕십리 캠퍼스 전화번호 알려주세요 ",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+왕십리/NNP+캠퍼스/NNG+전화/NNG+번호/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A. 왕십리 캠퍼스 전화번호는 #@전번# 입니다",
+            "norm_text": "A. 왕십리 캠퍼스 전화번호는 #@전번# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+왕십리/NNP+캠퍼스/NNG+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 아 네 #@전번#이요 네 저장했어요",
+            "norm_text": "B. 아 네 #@전번#이요 네 저장했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+아네/NNG+#/SY+@/SY+전번/NNG+#/SY+이/JKS+요네/NNG+저장/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 캠퍼스에 전화하셔서 방문 상담 예약하신다고 말씀하시면 됩니다",
+            "norm_text": "A. 캠퍼스에 전화하셔서 방문 상담 예약하신다고 말씀하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+캠퍼스/NNG+에/JKB+전화/NNG+하/XSV+셔서/EP+EC+방문/NNG+상담/NNG+예약/NNG+하/XSV+신다고/EP+EC+말씀/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B. 네 전화해 볼게요 그럼 수고하세요",
+            "norm_text": "B. 네 전화해 볼게요 그럼 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+전화/NNG+해/XSV+EC+볼게요/VX+EF+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A. 예 고객님도 좋은 하루 보내세요 상담사 #@이름#이었습니다",
+            "norm_text": "A. 예 고객님도 좋은 하루 보내세요 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+도/JX+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

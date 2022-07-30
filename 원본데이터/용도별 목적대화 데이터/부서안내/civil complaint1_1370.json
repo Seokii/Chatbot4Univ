@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 58716,
+    "name": "c1_20211020_0002_0120_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130755004928/c1_20211020_0002_0120_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130755004928/c1_20211020_0002_0120_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50837,
+      "filename": "c1_20210907_0010_0003_01.txt",
+      "title": "c1_20210907_0010_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 543,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 543,
+        "word_size": 121,
+        "text": "A.행복을 드리는 #@소속# 상담사 #@이름#입니다\nB.상담사님 #@소속# 유치원 담당자 연결해주세요\nA.혹시 어떤 불편사항으로 연결 희망하시는지 알 수 있을까요\nB.우리 아이가 여섯살인데 오늘 유치원에서 입학 거부를 당했어요\nB.제가 너무 불쾌해서 이건 #@소속#을 통해 진정을 넣으려구요\nA.고객님 우선 불편을 드려 대신하여 사과의 말씀을 드립니다\nB.아이가 교사 손을 많이 탄다고 입학이 안 된다는 게 말이 되나요\nB.제가 너무 억울해서 유치원 홈페이지에도 민원을 올렸거든요\nB.그런데 그냥 형식적인 사과밖에 없어요\nB.아무래도 #@소속#에서 직접 연락을 해서 시정을 요구해주셨으면 해요\nA.네 알겠습니다 제가 지금 바로 담당자 연결 도와드리겠습니다\nA.연결 도중 끊어질 수 있으니 연락처도 안내 드리겠습니다\nB.네 담당부서랑 담당자님 성함도 알려주세요\nA.네 유아교육과에 #@이름@주무관이시구요 #@전번#입니다\nA.우선 담당자에게 바로 연결하겠습니다\nB.아니에요 그냥 제가 조금 있다가 다시 말씀주신 번호로 전화할게요\nA.네 알겠습니다 혹시 연결 안되시면 이 번호로 다시 연락주세요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.행복을 드리는 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.행복을 드리는 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+을/JKO+드리/VV+는/ETM+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.상담사님 #@소속# 유치원 담당자 연결해주세요",
+            "norm_text": "B.상담사님 #@소속# 유치원 담당자 연결해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+상담/NNG+사/NNG+님/XSN+#/SY+@/SY+소속/NNG+#/SY+유치원/NNG+담당자/NNG+연결/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.혹시 어떤 불편사항으로 연결 희망하시는지 알 수 있을까요",
+            "norm_text": "A.혹시 어떤 불편사항으로 연결 희망하시는지 알 수 있을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+어떤/MM+불편/NNG+사항/NNG+으로/JKB+연결/NNG+희망/NNG+하/XSV+시/EP+는지/EC+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.우리 아이가 여섯살인데 오늘 유치원에서 입학 거부를 당했어요",
+            "norm_text": "B.우리 아이가 여섯살인데 오늘 유치원에서 입학 거부를 당했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+우리/NP+아이/NNG+가/JKS+여섯/NR+살/NNBC+인데/VCP+EC+오늘/MAG+유치원/NNG+에서/JKB+입학/NNG+거부/NNG+를/JKO+당했/VV+EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.제가 너무 불쾌해서 이건 #@소속#을 통해 진정을 넣으려구요",
+            "norm_text": "B.제가 너무 불쾌해서 이건 #@소속#을 통해 진정을 넣으려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+너무/MAG+불쾌/NNG+해서/XSV+EC+이건/NP+JX+#/SY+@/SY+소속/NNG+#/SY+을/JKO+통해/VV+EC+진정/NNG+을/JKO+넣/VV+으려구요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.고객님 우선 불편을 드려 대신하여 사과의 말씀을 드립니다",
+            "norm_text": "A.고객님 우선 불편을 드려 대신하여 사과의 말씀을 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+우선/MAG+불편/NNG+을/JKO+드려/VV+EC+대신/NNG+하/XSV+여/EC+사과/NNG+의/JKG+말씀/NNG+을/JKO+드립니다/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.아이가 교사 손을 많이 탄다고 입학이 안 된다는 게 말이 되나요",
+            "norm_text": "B.아이가 교사 손을 많이 탄다고 입학이 안 된다는 게 말이 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+아이/NNG+가/JKS+교사/NNG+손/NNG+을/JKO+많이/MAG+탄다고/VV+EC+입학/NNG+이/JKS+안/MAG+된다는/VV+ETM+게/NNB+JKS+말/NNG+이/JKS+되/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.제가 너무 억울해서 유치원 홈페이지에도 민원을 올렸거든요",
+            "norm_text": "B.제가 너무 억울해서 유치원 홈페이지에도 민원을 올렸거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+너무/MAG+억울/XR+해서/XSA+EC+유치원/NNG+홈페이지/NNG+에/JKB+도/JX+민원/NNG+을/JKO+올렸/VV+EP+거든요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그런데 그냥 형식적인 사과밖에 없어요",
+            "norm_text": "B.그런데 그냥 형식적인 사과밖에 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그런데/MAJ+그냥/MAG+형식/NNG+적/XSN+인/VCP+ETM+사과/NNG+밖에/JX+없/VA+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.아무래도 #@소속#에서 직접 연락을 해서 시정을 요구해주셨으면 해요",
+            "norm_text": "B.아무래도 #@소속#에서 직접 연락을 해서 시정을 요구해주셨으면 해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아무래도/MAG+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+직접/MAG+연락/NNG+을/JKO+해서/VV+EC+시정/NNG+을/JKO+요구/NNG+해/XSV+EC+주/VX+셨/EP+EP+으면/EC+해요/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 알겠습니다 제가 지금 바로 담당자 연결 도와드리겠습니다",
+            "norm_text": "A.네 알겠습니다 제가 지금 바로 담당자 연결 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+제/NP+가/JKS+지금/MAG+바로/MAG+담당자/NNG+연결/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.연결 도중 끊어질 수 있으니 연락처도 안내 드리겠습니다",
+            "norm_text": "A.연결 도중 끊어질 수 있으니 연락처도 안내 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+연결/NNG+도중/NNG+끊어질/VV+ETM+수/NNB+있/VV+으니/EC+연락처/NNG+도/JX+안/MAG+내드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.네 담당부서랑 담당자님 성함도 알려주세요",
+            "norm_text": "B.네 담당부서랑 담당자님 성함도 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+담당/NNG+부서/NNG+랑/JKB+담당자/NNG+님/XSN+성함/NNG+도/JX+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.네 유아교육과에 #@이름@주무관이시구요 #@전번#입니다",
+            "norm_text": "A.네 유아교육과에 #@이름@주무관이시구요 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+유아/NNG+교육/NNG+과/NNG+에/JKB+#/SY+@/SY+이름/NNG+@/SY+주무관/NNG+이/VCP+시/EP+구요/EF+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.우선 담당자에게 바로 연결하겠습니다",
+            "norm_text": "A.우선 담당자에게 바로 연결하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+우선/MAG+담당자/NNG+에게/JKB+바로/MAG+연결/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.아니에요 그냥 제가 조금 있다가 다시 말씀주신 번호로 전화할게요",
+            "norm_text": "B.아니에요 그냥 제가 조금 있다가 다시 말씀주신 번호로 전화할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+아니/VCN+에요/EF+그냥/MAG+제/NP+가/JKS+조금/MAG+있/VV+다가/EC+다시/MAG+말씀/NNG+주/VV+신/EP+ETM+번호/NNG+로/JKB+전화/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.네 알겠습니다 혹시 연결 안되시면 이 번호로 다시 연락주세요 감사합니다",
+            "norm_text": "A.알겠습니다 혹시 연결 안되시면 이 번호로 다시 연락주세요 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+혹시/MAG+연결/NNG+안/MAG+되/VV+시/EP+면/EC+이/MM+번호/NNG+로/JKB+다시/MAG+연락/NNG+주세요/NNP+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 56547,
+    "name": "c4_20211019_0001_2863_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202110081307020858108/c4_20211019_0001_2863_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202110081307020858108/c4_20211019_0001_2863_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49919,
+      "filename": "c4_20210903_0008_0019_01.txt",
+      "title": "c4_20210903_0008_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 252,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 252,
+        "word_size": 52,
+        "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다\nB.네 과속카메라 설치 좀 부탁 드리려고요\nA.네 과속카메라를 어디에 설치 요청 하시는건가요\nB.#@기타# 초등학교 앞 인도에요\nA.네 해당구간은 비법정도로로 사유지 도로 등이 혼재되어 있어 설치가 어렵습니다\nB.다른 방법은 없는건가요\nA.네 죄송합니다 도로관리과 #@전번#으로 한 번 연락해보세요\nB.네 #@전번#으로요 알겠습니다\nA.감사합니다 상담사 #@이름#이었습니다\nB.문의 사항 있으면 다시 연락드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+친절한/NNP+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 과속카메라 설치 좀 부탁 드리려고요",
+            "norm_text": "B.네 과속카메라 설치 좀 부탁 드리려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+과속/NNG+카메라/NNG+설치/NNG+좀/MAG+부탁/NNG+드리/VV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 과속카메라를 어디에 설치 요청 하시는건가요",
+            "norm_text": "A.네 과속카메라를 어디에 설치 요청 하시는건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+과속/NNG+카메라/NNG+를/JKO+어디/NP+에/JKB+설치/NNG+요청/NNG+하/XSV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@기타# 초등학교 앞 인도에요",
+            "norm_text": "B.#@기타# 초등학교 앞 인도에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+초등/NNG+학교/NNG+앞/NNG+인도/NNP+에/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.네 해당구간은 비법정도로로 사유지 도로 등이 혼재되어 있어 설치가 어렵습니다",
+            "norm_text": "A.네 해당구간은 비법정도로로 사유지 도로 등이 혼재되어 있어 설치가 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+해당/NNG+구간/NNG+은/JX+비법/NNG+정도/NNG+로/JKB+로사/NNG+유지/NNG+도로/NNG+등/NNB+이/JKS+혼재/NNG+되/XSV+어/EC+있/VX+어/EC+설치/NNG+가/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.다른 방법은 없는건가요",
+            "norm_text": "B.다른 방법은 없는건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+다른/MM+방법/NNG+은/JX+없/VA+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 죄송합니다 도로관리과 #@전번#으로 한 번 연락해보세요",
+            "norm_text": "A.네 죄송합니다 도로관리과 #@전번#으로 한 번 연락해보세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+죄송/XR+합니다/XSA+EF+도로/MAG+관리/NNG+과/NNG+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+한번/MAG+연락/NNG+해/XSV+EC+보/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 #@전번#으로요 알겠습니다",
+            "norm_text": "B.네 #@전번#으로요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+요알/NNG+겠/VCP+EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.문의 사항 있으면 다시 연락드리겠습니다",
+            "norm_text": "B.문의 사항 있으면 다시 연락드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+문/NNG+의/JKG+사항/NNG+있/VV+으면/EC+다시/MAG+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

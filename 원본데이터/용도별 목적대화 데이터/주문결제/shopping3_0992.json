@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 123053,
+    "name": "s3_20211008_0006_0028_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111011026479/s3_20211008_0006_0028_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111011026479/s3_20211008_0006_0028_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 122461,
+      "filename": "s3_20210831_0017_0005_01.txt",
+      "title": "s3_20210831_0017_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 149,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 149,
+        "word_size": 29,
+        "text": "A.안녕하십니까 #@소속# 상담사 #@이름#입니다\nB.지금 나온 상품을 구매하려고 하는데요\nA.정확한 상품명이나 번호를 말씀해 주세요\nB.제가 구매할 상품은 #@상품#입니다\nA.고객님 상품명으로는 확인이 안돼서요\nA.상품 번호로 말씀 부탁드립니다\nB.상품 번호는 #@상품#입니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.지금 나온 상품을 구매하려고 하는데요",
+            "norm_text": "B.지금 나온 상품을 구매하려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+나온/VV+ETM+상품/NNG+을/JKO+구매/NNG+하/XSV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.정확한 상품명이나 번호를 말씀해 주세요",
+            "norm_text": "A.정확한 상품명이나 번호를 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+정확/NNG+한/XSA+ETM+상품명/NNG+이나/JC+번호/NNG+를/JKO+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 구매할 상품은 #@상품#입니다",
+            "norm_text": "B.제가 구매할 상품은 #@상품#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+구매/NNG+할/XSV+ETM+상품/NNG+은/JX+#/SY+@/SY+상품/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 상품명으로는 확인이 안돼서요",
+            "norm_text": "A.고객님 상품명으로는 확인이 안돼서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+상품명/NNG+으로/JKB+는/JX+확인/NNG+이/JKS+안/MAG+돼서/VV+EC+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "A.상품 번호로 말씀 부탁드립니다",
+            "norm_text": "A.상품 번호로 말씀 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+상품/NNG+번호/NNG+로/JKB+말씀/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.상품 번호는 #@상품#입니다",
+            "norm_text": "B.상품 번호는 #@상품#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+상품/NNG+번호/NNG+는/JX+#/SY+@/SY+상품/NNG+#/SY+입니다/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

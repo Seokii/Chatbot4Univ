@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 12013,
+    "name": "c1_20210913_0005_0597_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340047429/c1_20210913_0005_0597_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340047429/c1_20210913_0005_0597_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10572,
+      "filename": "c1_20210819_0015_0002_01.txt",
+      "title": "c1_20210819_0015_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 541,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 541,
+        "word_size": 121,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.#@소속# #@이름# 서기관 아직 거기 근무하나요\nA.#@소속#에 #@이름# 서기관이 계셨던 부분은 확인이 됩니다\nA.하나 현재는 교육 및 파견으로 계시지 않는 것으로 확인이 됩니다\nB.그래요 이 분 어디로 파견 나가셨어요\nB.정확한 파견지는 알 수 없나요\nB.혹시 그럼 #@이름# 씨라고 계신가요\nA.제가 확인 후 안내해 드리겠습니다\nA.#@이름# 님 성함으로는 #@소속#에 #@이름# 주무관으로 확인이 됩니다\nB.그러면요 #@소속#이요 원래 오 년 전에 #@소속#라고 있었는데요\nB.이게 바뀌었나 보네요 #@소속#가요\nA.네 현재는 #@소속# 부서 명칭은 확인이 어렵고요\nA.저희 #@소속#과 #@소속# 그리고 #@소속# 부서가 자리하고 있습니다\nB.그러면 #@소속#가 #@소속#인가요 같은 건가요\nB.일단 한번 거기 연결해 주실래요\nA.네 선생님 #@소속#에도 #@소속#이 있습니다\nB.제가 지금 궁금한 건 따로 있어요\nB.증설 공사 승인 건 사업은 어느 부서가 담당하는지요\nA.실례지만 어떤 증설 공사 말씀이십니까\nB.학교에 있는 증설 공사요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속# #@이름# 서기관 아직 거기 근무하나요",
+            "norm_text": "B.#@소속# #@이름# 서기관 아직 거기 근무하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+서기관/NNG+아직/MAG+거기/NP+근무/NNG+하/XSV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.#@소속#에 #@이름# 서기관이 계셨던 부분은 확인이 됩니다",
+            "norm_text": "A.#@소속#에 #@이름# 서기관이 계셨던 부분은 확인이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에/JKB+#/SY+@/SY+이름/NNG+#/SY+서기관/NNG+이/JKS+계셨/VV+EP+던/ETM+부분/NNG+은/JX+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.하나 현재는 교육 및 파견으로 계시지 않는 것으로 확인이 됩니다",
+            "norm_text": "A.하나 현재는 교육 및 파견으로 계시지 않는 것으로 확인이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+하나/NR+현재/NNG+는/JX+교육/NNG+및/MAJ+파견/NNG+으로/JKB+계시/VV+지/EC+않/VX+는/ETM+것/NNB+으로/JKB+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.그래요 이 분 어디로 파견 나가셨어요",
+            "norm_text": "B.그래요 이 분 어디로 파견 나가셨어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+이분/NP+어디/NP+로/JKB+파견/NNG+나가/VV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.정확한 파견지는 알 수 없나요",
+            "norm_text": "B.정확한 파견지는 알 수 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+정확/NNG+한/XSA+ETM+파견지/NNG+는/JX+알/VV+ETM+수/NNB+없/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.혹시 그럼 #@이름# 씨라고 계신가요",
+            "norm_text": "B.혹시 그럼 #@이름# 씨라고 계신가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+그럼/MAJ+#/SY+@/SY+이름/NNG+#/SY+씨/NNG+라고/VCP+EC+계신/VX+ETM+가요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "A.제가 확인 후 안내해 드리겠습니다",
+            "norm_text": "A.제가 확인 후 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.#@이름# 님 성함으로는 #@소속#에 #@이름# 주무관으로 확인이 됩니다",
+            "norm_text": "A.#@이름# 성함은 #@소속#에 #@이름# 주무관으로 확인이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+성함/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+에/JKB+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+으로/JKB+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그러면요 #@소속#이요 원래 오 년 전에 #@소속#라고 있었는데요",
+            "norm_text": "B.그러면요 #@소속#이요 원래 오 년 전에 #@소속#라고 있었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러/VV+면/EC+요/JX+#/SY+@/SY+소속/NNG+#/SY+이/VCP+요/EC+원래/MAG+오/NR+년/NNBC+전/NNG+에/JKB+#/SY+@/SY+소속/NNG+#/SY+라고/JKQ+있/VA+었/EP+는데요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.이게 바뀌었나 보네요 #@소속#가요",
+            "norm_text": "B.이게 바뀌었나 보네요 #@소속#가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이게/NP+JKS+바뀌/VV+었/EP+나/EC+보/VX+네요/EF+#/SY+@/SY+소속/NNG+#/SY+가요/NNG"
+          },
+          {
+            "id": 12,
+            "text": "A.네 현재는 #@소속# 부서 명칭은 확인이 어렵고요",
+            "norm_text": "A.네 현재는 #@소속# 부서 명칭은 확인이 어렵고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+현재/NNG+는/JX+#/SY+@/SY+소속/NNG+#/SY+부서/NNG+명칭/NNG+은/JX+확인/NNG+이/JKS+어렵/VA+고요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.저희 #@소속#과 #@소속# 그리고 #@소속# 부서가 자리하고 있습니다",
+            "norm_text": "A.#@소속#과 #@소속# 그리고 #@소속# 부서가 자리하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+과/JC+#/SY+@/SY+소속/NNG+#/SY+그리고/MAJ+#/SY+@/SY+소속/NNG+#/SY+부서/NNG+가/JKS+자리/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.그러면 #@소속#가 #@소속#인가요 같은 건가요",
+            "norm_text": "B.그러면 #@소속#가 #@소속#인가요 같은 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러/VV+면/EC+#/SY+@/SY+소속/NNG+#/SY+가/JKS+#/SY+@/SY+소속/NNG+#/SY+인가요/VCP+EC+같/VA+은/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.일단 한번 거기 연결해 주실래요",
+            "norm_text": "B.일단 한번 거기 연결해 주실래요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+일단/MAG+한번/MAG+거기/NP+연결/NNG+해/XSV+EC+주/VX+실래요/EP+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 선생님 #@소속#에도 #@소속#이 있습니다",
+            "norm_text": "A.네 선생님 #@소속#에도 #@소속#이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+#/SY+@/SY+소속/NNG+#/SY+에/JKB+도/JX+#/SY+@/SY+소속/NNG+#/SY+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 17,
+            "text": "B.제가 지금 궁금한 건 따로 있어요",
+            "norm_text": "B.제가 지금 궁금한 건 따로 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+지금/MAG+궁금/XR+한/XSA+ETM+건/NNB+JX+따로/MAG+있/VV+어요/EF"
+          },
+          {
+            "id": 18,
+            "text": "B.증설 공사 승인 건 사업은 어느 부서가 담당하는지요",
+            "norm_text": "B.증설 공사 승인 건 사업은 어느 부서가 담당하는지요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+증설/NNG+공사/NNG+승/XSN+인/VCP+ETM+건/NNB+JX+사업/NNG+은/JX+어느/MM+부서/NNG+가/JKS+담당/NNG+하/XSV+는지요/EC"
+          },
+          {
+            "id": 19,
+            "text": "A.실례지만 어떤 증설 공사 말씀이십니까",
+            "norm_text": "A.실례지만 어떤 증설 공사 말씀이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+실례/NNG+지만/VCP+EC+어떤/MM+증설/NNG+공사/NNG+말씀/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 20,
+            "text": "B.학교에 있는 증설 공사요",
+            "norm_text": "B.학교에 있는 증설 공사요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+학교/NNG+에/JKB+있/VV+는/ETM+증설/NNG+공사/NNG+요/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

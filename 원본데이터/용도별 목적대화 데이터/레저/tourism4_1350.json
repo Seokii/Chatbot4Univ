@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 151573,
+    "name": "t4_20211117_0010_0231_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135858088968/t4_20211117_0010_0231_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135858088968/t4_20211117_0010_0231_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 153683,
+      "filename": "t4_0071_0061_02.txt",
+      "title": "t4_0071_0061_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 346,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 346,
+        "word_size": 81,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름# 입니다\nB.안녕하세요 #@기타# 요금 문의 좀 드려요\nA.네 이용 요금 안내해 드릴게요\nA.#@기타#이랑 #@기타# 1회 이용 요금 3만원 이고요\nA.양양군민이나 장애인 국가유공자시면 할인 혜택이 있으신데 해당 되실까요\nB.아니요 거긴 해당 안 되네요\nB.지금 #@기타# 숙박중인데 할인된다고 해서요\nA.지금 숙박 이용 중이시군요 그러시면 지금 비수기 할인 20프로 적용되세요\nB.두 명 탈건데 할인 받으면 총 얼마죠\nA.두 분 20프로 할인 받으시면 총 48000원에 이용 가능하세요\nB.그 정도면 좋네요 정보 감사합니다\nA.네 즐겁게 이용하시고 행복한 하루 되세요 상담원 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@기타# 요금 문의 좀 드려요",
+            "norm_text": "B.안녕하세요 #@기타# 요금 문의 좀 드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+기타/NNG+#/SY+요금문/NNG+의/JKG+좀/MAG+드려요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 이용 요금 안내해 드릴게요",
+            "norm_text": "A.네 이용 요금 안내해 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+이용/NNG+요금/NNG+안내/NNG+해/XSV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.#@기타#이랑 #@기타# 1회 이용 요금 3만원 이고요",
+            "norm_text": "A.#@기타#이랑 #@기타# 1회 이용 요금 3만원 이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+이랑/JC+#/SY+@/SY+기타/NNG+#/SY+1/SN+회/NNBC+이용/NNG+요금/NNG+3/SN+만/NR+원/NNBC+이/VCP+고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.양양군민이나 장애인 국가유공자시면 할인 혜택이 있으신데 해당 되실까요",
+            "norm_text": "A.양양군민이나 장애인 국가유공자시면 할인 혜택이 있으신데 해당 되실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+양양/NNP+군민/NNG+이나/JC+장애/NNG+인/VCP+ETM+국가/NNG+유공/NNG+자시/VV+면/EC+할인/NNG+혜택/NNG+이/JKS+있/VA+으신/EP+ETM+데/NNB+해당/NNG+되/XSV+실까요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.아니요 거긴 해당 안 되네요",
+            "norm_text": "B.아니요 거긴 해당 안 되네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아니요/IC+거긴/NP+JX+해당/NNG+안/MAG+되/VV+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.지금 #@기타# 숙박중인데 할인된다고 해서요",
+            "norm_text": "B.지금 #@기타# 숙박중인데 할인된다고 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+지금/MAG+#/SY+@/SY+기타/NNG+#/SY+숙박/NNG+중/NNB+인데/VCP+EC+할인/NNG+된다고/XSV+EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.지금 숙박 이용 중이시군요 그러시면 지금 비수기 할인 20프로 적용되세요",
+            "norm_text": "A.지금 숙박 이용 중이시군요 그러시면 지금 비수기 할인 20프로 적용되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+지금/MAG+숙박/NNG+이용/NNG+중/NNB+이/VCP+시/EP+군요/EC+그러/VV+시/EP+면/EC+지금/MAG+비수기/NNG+할인/NNG+20/SN+프로/NNG+적용/NNG+되/XSV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.두 명 탈건데 할인 받으면 총 얼마죠",
+            "norm_text": "B.두 명 탈건데 할인 받으면 총 얼마죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+두/MM+명/NNBC+탈/VV+ETM+건데/NNB+VCP+EC+할인/NNG+받/VV+으면/EC+총/MM+얼마/NNG+죠/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.두 분 20프로 할인 받으시면 총 48000원에 이용 가능하세요",
+            "norm_text": "A.두 분 20프로 할인 받으시면 총 48000원에 이용 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+두/MM+분/NNBC+20/SN+프로/NNG+할인/NNG+받/VV+으시/EP+면/EC+총/MM+48000/SN+원/NNBC+에/JKB+이용/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그 정도면 좋네요 정보 감사합니다",
+            "norm_text": "B.그 정도면 좋네요 정보 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그/MM+정도/NNG+면/VCP+EC+좋/VA+네요/EF+정보/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 즐겁게 이용하시고 행복한 하루 되세요 상담원 #@이름# 이었습니다",
+            "norm_text": "A.네 즐겁게 이용하시고 행복한 하루 되세요 상담원 #@이름# 이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+즐겁/VA+게/EC+이용/NNG+하/XSV+시/EP+고/EC+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

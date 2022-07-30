@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 161486,
+    "name": "t3_20211121_0005_0078_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135812076257/t3_20211121_0005_0078_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135812076257/t3_20211121_0005_0078_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 151376,
+      "filename": "t3_0074_0041_02.txt",
+      "title": "t3_0074_0041_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 314,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 314,
+        "word_size": 83,
+        "text": "A. 반갑습니다 #@소속# 안내 센터 상담원 #@이름#입니다\nB. 가족 여행 왔는데 막국수 먹을 수 있는 곳 안내 부탁합니다\nA. 막국수 집으로 안내 드리면 될까요\nB. 수제비도 같이 하는 곳이면 좋겠어요\nA. #@소속#이 있는데 여기로 안내 드릴까요\nB. 네 주소 알려주실래요 네비 찍어서 바로 가게요\nA. 강원도 홍천군 #@주소#입니다\nA. 더 필요하신 거 있으실까요\nB. 혹시 영업 몇 시까지 하나요\nA. 해당 식당은 오후 9시까지 영업하고 있습니다\nB. 예 확인 감사해요\nA. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다\nB. 네 상담사님 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 #@소속# 안내 센터 상담원 #@이름#입니다",
+            "norm_text": "A. 반갑습니다 #@소속# 안내 센터 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+안내/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 가족 여행 왔는데 막국수 먹을 수 있는 곳 안내 부탁합니다",
+            "norm_text": "B. 가족 여행 왔는데 막국수 먹을 수 있는 곳 안내 부탁합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+가족/NNG+여행/NNG+왔/VV+EP+는데/EC+막국수/NNG+먹/VV+을/ETM+수/NNB+있/VV+는/ETM+곳/NNG+안내/NNG+부탁/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 막국수 집으로 안내 드리면 될까요",
+            "norm_text": "A. 막국수 집으로 안내 드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+막국수/NNG+집/NNG+으로/JKB+안/MAG+내드리/VV+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 수제비도 같이 하는 곳이면 좋겠어요",
+            "norm_text": "B. 수제비도 같이 하는 곳이면 좋겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+수제비/NNG+도/JX+같이/MAG+하/VV+는/ETM+곳/NNG+이/VCP+면/EC+좋/VA+겠/EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A. #@소속#이 있는데 여기로 안내 드릴까요",
+            "norm_text": "A. #@소속#이 있는데 여기로 안내 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+이/JKS+있/VV+는데/EC+여기/NP+로/JKB+안/MAG+내/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 네 주소 알려주실래요 네비 찍어서 바로 가게요",
+            "norm_text": "B. 네 주소 알려주실래요 네비 찍어서 바로 가게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+주소/NNG+알려/VV+EC+주/VX+실래요/EP+EC+네비/NNG+찍/VV+어서/EC+바로/MAG+가게/NNG+요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 강원도 홍천군 #@주소#입니다",
+            "norm_text": "A. 강원도 홍천군 #@주소#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+강원도/NNP+홍천군/NNP+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 더 필요하신 거 있으실까요",
+            "norm_text": "A. 더 필요하신 거 있으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+필요/NNG+하/XSV+신/EP+ETM+거/NNB+있/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 9,
+            "text": "B. 혹시 영업 몇 시까지 하나요",
+            "norm_text": "B. 혹시 영업 몇 시까지 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+영업/NNG+몇/MM+시/NNBC+까지/JX+하/VV+나요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 해당 식당은 오후 9시까지 영업하고 있습니다",
+            "norm_text": "A. 해당 식당은 오후 9시까지 영업하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+식당/NNG+은/JX+오후/NNG+9/SN+시/NNBC+까지/JX+영업/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B. 예 확인 감사해요",
+            "norm_text": "B. 예 확인 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+예/IC+확인/NNG+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감기/NNG+조심/NNG+하/XSV+시/EP+고/EC+건강/NNG+하/XSV+세요/EP+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B. 네 상담사님 좋은 하루 보내세요",
+            "norm_text": "B. 네 상담사님 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+상담/NNG+사/NNG+님/XSN+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

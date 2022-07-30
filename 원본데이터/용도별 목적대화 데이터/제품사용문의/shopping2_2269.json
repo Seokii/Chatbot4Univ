@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 110466,
+    "name": "s2_20211104_0001_4143_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202111011106450062105/s2_20211104_0001_4143_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202111011106450062105/s2_20211104_0001_4143_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115370,
+      "filename": "s2_20211006_0024_0028_01.txt",
+      "title": "s2_20211006_0024_0028_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 207,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 207,
+        "word_size": 42,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nB.안녕하세요 #@상품#과 #@상품#으로 에이치형 사용이 가능한가요\nA.#@상품#과 #@상품# 팔백 사이즈는 에이형으로 사용은 가능하지만요\nA.세트 상품이 아니기 때문에 약간의 사이즈 차이는 있을 수 있습니다\nB.알겠습니다 알려주셔서 감사합니다\nA.네 다른 문의 사항 있으시면 #@소속#으로 연락 주세요\nB.네 감사합니다 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@상품#과 #@상품#으로 에이치형 사용이 가능한가요",
+            "norm_text": "B.안녕하세요 #@상품#과 #@상품#으로 에이치형 사용이 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+상품/NNG+#/SY+과/JC+#/SY+@/SY+상품/NNG+#/SY+으로/JKB+에이치/NNG+형/XSN+사용/NNG+이/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.#@상품#과 #@상품# 팔백 사이즈는 에이형으로 사용은 가능하지만요",
+            "norm_text": "A.#@상품#과 #@상품# 팔백 사이즈는 에이형으로 사용은 가능하지만요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+과/JC+#/SY+@/SY+상품/NNG+#/SY+팔/NR+백/NR+사이즈/NNG+는/JX+에이/NNG+형/XSN+으로/JKB+사용/NNG+은/JX+가능/NNG+하/XSV+지만/EC+요/JX"
+          },
+          {
+            "id": 4,
+            "text": "A.세트 상품이 아니기 때문에 약간의 사이즈 차이는 있을 수 있습니다",
+            "norm_text": "A.세트 상품이 아니기 때문에 약간의 사이즈 차이는 있을 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+세트/NNG+상품/NNG+이/JKC+아니/VCN+기/ETN+때문/NNB+에/JKB+약간/NNG+의/JKG+사이즈/NNG+차이/NNG+는/JX+있/VA+을/ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.알겠습니다 알려주셔서 감사합니다",
+            "norm_text": "B.알겠습니다 알려주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 다른 문의 사항 있으시면 #@소속#으로 연락 주세요",
+            "norm_text": "A.네 다른 문의 사항 있으시면 #@소속#으로 연락 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 7,
+            "text": "B.네 감사합니다 좋은 하루 보내세요",
+            "norm_text": "B.네 감사합니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

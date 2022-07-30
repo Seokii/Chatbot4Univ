@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 106015,
+    "name": "c2_20211104_0012_0482_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211101111059063561/c2_20211104_0012_0482_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211101111059063561/c2_20211104_0012_0482_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 124228,
+      "filename": "c2_20210820_0017_0001_01.txt",
+      "title": "c2_20210820_0017_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 213,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 213,
+        "word_size": 42,
+        "text": "A.반갑습니다 #@소속# 콜센터#@이름#입니다 무엇을 도와드릴까요\nB.네 안녕하세요 요양보호사 자격증 거기서 발급해주나요\nA.#@소속#에서 첫 교부받으셨나요\nB.네 첫 교부를 #@소속#에서 받았습니다\nA.첫 교부받으신 지역이 충남 맞으십니까\nB.네 충남에서 첫 교부 합격했어요\nB.자격증은 거기서 발급한다고 들었어요\nA.그러시면 자격증 발급은 신규이십니까\nB.네 요양보호사 자격증 신규 발급입니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 콜센터#@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# 콜센터#@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+콜/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 요양보호사 자격증 거기서 발급해주나요",
+            "norm_text": "B.네 안녕하세요 요양보호사 자격증 거기서 발급해주나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+요양/NNG+보호사/NNG+자격증/NNG+거기/NP+서/JKB+발급/NNG+해/XSV+EC+주/VX+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.#@소속#에서 첫 교부받으셨나요",
+            "norm_text": "A.#@소속#에서 첫 교부받으셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+첫/MM+교부/NNG+받/VV+으셨/EP+EP+EC+나/VX+요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 첫 교부를 #@소속#에서 받았습니다",
+            "norm_text": "B.네 첫 교부를 #@소속#에서 받았습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+첫/MM+교부/NNG+를/JKO+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+받/VV+았/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.첫 교부받으신 지역이 충남 맞으십니까",
+            "norm_text": "A.첫 교부받으신 지역이 충남 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+첫/MM+교부/NNG+받/VV+으신/EP+ETM+지역/NNG+이충남/NNP+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 충남에서 첫 교부 합격했어요",
+            "norm_text": "B.네 충남에서 첫 교부 합격했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+충남/NNP+에서/JKB+첫/MM+교부/NNG+합격/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.자격증은 거기서 발급한다고 들었어요",
+            "norm_text": "B.자격증은 거기서 발급한다고 들었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+자격증/NNG+은/JX+거기/NP+서/JKB+발급/NNG+한다고/XSV+EC+들/VX+었/EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.그러시면 자격증 발급은 신규이십니까",
+            "norm_text": "A.그러시면 자격증 발급은 신규이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+자격증/NNG+발급/NNG+은/JX+신규/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 요양보호사 자격증 신규 발급입니다",
+            "norm_text": "B.네 요양보호사 자격증 신규 발급입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+요양/NNG+보호사/NNG+자격증/NNG+신규/NNG+발급/NNG+입니다/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

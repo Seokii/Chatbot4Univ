@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 162600,
+    "name": "t3_20211122_0005_0009_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135810019430/t3_20211122_0005_0009_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135810019430/t3_20211122_0005_0009_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 151059,
+      "filename": "t3_0070_0069_02.txt",
+      "title": "t3_0070_0069_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 337,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 337,
+        "word_size": 83,
+        "text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다\nB. 안녕하세요 청주 #@주소# 일식집 #@소속# 문의 좀 드릴려구요\nA. 네 무엇을 도와드릴까요\nB. 여기 식당에 개별룸도 있나요\nA. 네 전 객실 개별룸으로 되어 있습니다\nB. 그렇군요 회식 하려고 하는데 단체 예약도 돼요\nA. 네 단체석도 개별룸으로 준비되어 있구요\nA. 미리 예약을 하시면 된다고 합니다\nB. 네 알겠습니다 근데 어떤 메뉴를 많이들 주문하나요\nA. #@기타# 코스 요리가 베스트 메뉴입니다\nB. #@기타#요 예약하면서 좀 여쭈어봐야겠네요\nB. 친절한 상담 감사합니다\nA. 네 감사합니다 지금까지 #@소속# 상담원 #@이름#이었습니다\nB.네 안녕히 계세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 청주 #@주소# 일식집 #@소속# 문의 좀 드릴려구요",
+            "norm_text": "B. 안녕하세요 청주 #@주소# 일식집 #@소속# 문의 좀 드리려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+청주/NNP+#/SY+@/SY+주소/NNG+#/SY+일식집/NNG+#/SY+@/SY+소속/NNG+#/SY+문/NNG+의/JKG+좀/MAG+드릴려구요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 무엇을 도와드릴까요",
+            "norm_text": "A. 네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 여기 식당에 개별룸도 있나요",
+            "norm_text": "B. 여기 식당에 개별룸도 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여기/NP+식당/NNG+에/JKB+개별/NNG+룸/NNG+도/JX+있/VA+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 네 전 객실 개별룸으로 되어 있습니다",
+            "norm_text": "A. 네 전 객실 개별룸으로 되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+전/MM+객실/NNG+개별/NNG+룸/NNG+으로/JKB+되/VV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 그렇군요 회식 하려고 하는데 단체 예약도 돼요",
+            "norm_text": "B. 그렇군요 회식하려고 하는데 단체 예약도 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+회식/NNG+하/XSV+려고/EC+하/VV+는데/EC+단체/NNG+예약/NNG+도/JX+돼요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 네 단체석도 개별룸으로 준비되어 있구요",
+            "norm_text": "A. 네 단체석도 개별룸으로 준비되어 있구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+단체/NNG+석도/NNG+개별/NNG+룸/NNG+으로/JKB+준비/NNG+되/XSV+어/EC+있/VX+구요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A. 미리 예약을 하시면 된다고 합니다",
+            "norm_text": "A. 미리 예약을 하시면 된다고 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+미리/MAG+예약/NNG+을/JKO+하/VV+시/EP+면/EC+된다고/VV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B. 네 알겠습니다 근데 어떤 메뉴를 많이들 주문하나요",
+            "norm_text": "B. 네 알겠습니다 근데 어떤 메뉴를 많이들 주문하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+근데/MAJ+어떤/MM+메뉴/NNG+를/JKO+많이/MAG+들/XSN+주문/NNG+하/XSV+나요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A. #@기타# 코스 요리가 베스트 메뉴입니다",
+            "norm_text": "A. #@기타# 코스 요리가 베스트 메뉴입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+코스/NNG+요리/NNG+가/JKS+베스트/NNG+메뉴/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B. #@기타#요 예약하면서 좀 여쭈어봐야겠네요",
+            "norm_text": "B. #@기타#요 예약하면서 좀 여쭈어봐야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+요/MM+예약/NNG+하/XSV+면서/EC+좀/MAG+여쭈/VV+어/EC+봐야/VX+EC+VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "B. 친절한 상담 감사합니다",
+            "norm_text": "B. 친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A. 네 감사합니다 지금까지 #@소속# 상담원 #@이름#이었습니다",
+            "norm_text": "A. 네 감사합니다 지금까지 #@소속# 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+지금/NNG+까지/JX+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.네 안녕히 계세요",
+            "norm_text": "B.네 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕히/MAG+계세요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

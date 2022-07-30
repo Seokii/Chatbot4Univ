@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 16497,
+    "name": "s2_20210915_0010_1277_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151413073721/s2_20210915_0010_1277_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151413073721/s2_20210915_0010_1277_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11462,
+      "filename": "s2_20210830_0019_0010_01.txt",
+      "title": "s2_20210830_0019_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 385,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 385,
+        "word_size": 92,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다 오전에 통화 주셨네요\nB.#@상품# 잘 되는 거래서 해봤는데 안 돼요\nB.설명서도 있고 인터넷에도 보면 사용 설명서 있잖아요\nB.다 해봐도 블루투스 자체가 인식이 안 되고 안 떠요\nA.고객님 블루투스 오 점 영 이상 맞으십니까\nA.사용 내용은 상세 페이지에 기재돼 있으세요 고객님\nB.단말기가 #@소속# #@상품#인데 좀 오래되었어요\nA.단말기 확인 안 되시고 블루투스 오 점 영 이상이면 지원됩니다\nA.저희 쪽에서 확인했을 때 상품 정상 작동되어요\nA.사용 방법 숙지하시고 재사용 해보셔야 되실 것 같습니다\nB.블루투스 오 점 영 이상이여야 한다구요 그럼 말을 해줬어야지\nB.일단 알았고요 전화 다시 할게요\nA.문의사항 있으시면 전화주세요 #@소속# #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다 오전에 통화 주셨네요",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다 오전에 통화 주셨네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+오전/NNG+에/JKB+통화/NNG+주/VV+셨/EP+EP+네요/EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 잘 되는 거래서 해봤는데 안 돼요",
+            "norm_text": "B.#@상품# 잘 되는 거래서 해봤는데 안 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+잘/MAG+되/VV+는/ETM+거/NNB+래서/VCP+EC+해/VV+EC+봤/VX+EP+는데/EC+안/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.설명서도 있고 인터넷에도 보면 사용 설명서 있잖아요",
+            "norm_text": "B.설명서도 있고 인터넷에도 보면 사용 설명서 있잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+설명서/NNG+도/JX+있/VA+고/EC+인터넷/NNG+에/JKB+도/JX+보/VV+면/EC+사용/NNG+설명서/NNG+있/VV+잖아요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.다 해봐도 블루투스 자체가 인식이 안 되고 안 떠요",
+            "norm_text": "B.다 해봐도 블루투스 자체가 인식이 안 되고 안 떠요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+다/MAG+해봐도/VV+EC+VX+EC+블루투스/NNP+자체/NNG+가/JKS+인식/NNG+이/JKS+안/MAG+되/VV+고/EC+안/MAG+떠요/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 블루투스 오 점 영 이상 맞으십니까",
+            "norm_text": "A.고객님 블루투스 오 점 영 이상 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+블루투스/NNP+오/NR+점/NNBC+영/NR+이상/NNG+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.사용 내용은 상세 페이지에 기재돼 있으세요 고객님",
+            "norm_text": "A.사용 내용은 상세 페이지에 기재돼 있으세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+사용/NNG+내용/NNG+은/JX+상세/NNG+페이지/NNG+에/JKB+기재/NNG+돼/XSV+EC+있/VX+으세요/EP+EP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 7,
+            "text": "B.단말기가 #@소속# #@상품#인데 좀 오래되었어요",
+            "norm_text": "B.단말기가 #@소속# #@상품#인데 좀 오래되었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+단말기/NNG+가/JKS+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+상품/NNG+#/SY+인데/VCP+EC+좀/MAG+오래/MAG+되/VV+었/EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.단말기 확인 안 되시고 블루투스 오 점 영 이상이면 지원됩니다",
+            "norm_text": "A.단말기 확인 안 되시고 블루투스 오 점 영 이상이면 지원됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+단말기/NNG+확인/NNG+안/MAG+되/VV+시/EP+고/EC+블루투스/NNP+오/NR+점/NNBC+영/NR+이상/NNG+이/VCP+면/EC+지원/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.저희 쪽에서 확인했을 때 상품 정상 작동되어요",
+            "norm_text": "A.저희 쪽에서 확인했을 때 상품 정상 작동되어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+쪽/NNB+에서/JKB+확인/NNG+했/XSV+EP+을/ETM+때/NNG+상품/NNG+정상/NNG+작동/NNG+되/XSV+어요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.사용 방법 숙지하시고 재사용 해보셔야 되실 것 같습니다",
+            "norm_text": "A.사용 방법 숙지하시고 재사용 해보셔야 되실 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+사용/NNG+방법/NNG+숙지/NNG+하/XSV+시/EP+고/EC+재/XPN+사용/NNG+해/XSV+EC+보/VX+셔야/EP+EC+되/VV+실/EP+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.블루투스 오 점 영 이상이여야 한다구요 그럼 말을 해줬어야지",
+            "norm_text": "B.블루투스 오 점 영 이상이여야 한다구요 그럼 말을 해줬어야지",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+./SY+블루투스/NNP+오/NR+점/NNBC+영/NR+이상/NNG+이/VCP+여야/EC+한다구요/VX+EF+그럼/MAJ+말/NNG+을/JKO+해/VV+EC+줬/VX+EP+어야지/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.일단 알았고요 전화 다시 할게요",
+            "norm_text": "B.일단 알았고요 전화 다시 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+일단/MAG+알/VV+았/EP+고요/EC+전화/NNG+다시/MAG+할게요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.문의사항 있으시면 전화주세요 #@소속# #@이름#였습니다",
+            "norm_text": "A.문의사항 있으시면 전화주세요 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+전화/NNG+주세요/NNP+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

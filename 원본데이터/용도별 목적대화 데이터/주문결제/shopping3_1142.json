@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 93985,
+    "name": "s3_20211102_0005_0322_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110826079371/s3_20211102_0005_0322_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110826079371/s3_20211102_0005_0322_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119017,
+      "filename": "s3_20211007_0003_0002_01.txt",
+      "title": "s3_20211007_0003_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 376,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 376,
+        "word_size": 86,
+        "text": "A.안녕하세요 고객님 #@소속# 상담원입니다\nB.안녕하세요 제가 결제를 하려다가요\nB.일시불 말고요 무이자 할부를 알고 싶은데요\nA.네 고객님 무이자 할부 어떤 카드사이실까요\nB.시월 기준으로요 최대 몇 개월이 무이자인가요\nA.네 일단은 최대 무이자는 저희가 이 개월에서부터요\nA.팔 개월까지 가능하신 걸로 확인되세요\nB.부분 무이자도 있나요\nA.네 맞습니다 부분 무이자의 경우에는요\nA.일 차에서 이 차까지 또는 일 차에서 삼 차까지요\nA.고객님께서 수수료를 부담하시는데 십이 개월까지요\nA.최대한 할부가 가능한 부분이세요\nB.네 알려주셔서 감사합니다\nB.가능하면 그냥 삼 개월 안으로 긁어야겠어요\nA.네 도움이 되셨으니 다행입니다\nB.네 도움이 많이 됐어요\nA.항상 건강하시고 좋은 일만 가득하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# 상담원입니다",
+            "norm_text": "A.안녕하세요 고객님 #@소속# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 제가 결제를 하려다가요",
+            "norm_text": "B.안녕하세요 제가 결제를 하려다가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+결제/NNG+를/JKO+하/VV+려다/EC+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "B.일시불 말고요 무이자 할부를 알고 싶은데요",
+            "norm_text": "B.일시불 말고요 무이자 할부를 알고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+일시/MAG+불/XPN+말/NNG+고요/NNG+무이자/NNG+할/XSV+ETM+부/NNG+를/JKO+알/VV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 고객님 무이자 할부 어떤 카드사이실까요",
+            "norm_text": "A.네 고객님 무이자 할부 어떤 카드사이실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+무이자/NNG+할/XSV+ETM+부/NNG+어떤/MM+카드/NNG+사이/VCP+실까요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.시월 기준으로요 최대 몇 개월이 무이자인가요",
+            "norm_text": "B.시월 기준으로요 최대 몇 개월이 무이자인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+시월/NNG+기준/NNG+으로/JKB+요/MM+최대/NNG+몇/MM+개월/NNBC+이/JKS+무이자/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 일단은 최대 무이자는 저희가 이 개월에서부터요",
+            "norm_text": "A.네 일단은 최대 무이자는 저희가 이 개월에서부터요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+일단/MAG+은/JX+최대/NNG+무이자/NNG+는/JX+저희/NP+가/JKS+이/NR+개월/NNBC+에서부터/JKB+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.팔 개월까지 가능하신 걸로 확인되세요",
+            "norm_text": "A.팔 개월까지 가능하신 걸로 확인되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+팔/NR+개월/NNBC+까지/JX+가능/NNG+하/XSV+신/EP+ETM+걸로/NNB+JKB+확인/NNG+되/XSV+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.부분 무이자도 있나요",
+            "norm_text": "B.부분 무이자도 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+부분/NNG+무이자/NNG+도/JX+있/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 맞습니다 부분 무이자의 경우에는요",
+            "norm_text": "A.네 맞습니다 부분 무이자의 경우에는요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+부분/NNG+무이자/NNG+의/JKG+경우/NNG+에/JKB+는/JX+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "A.일 차에서 이 차까지 또는 일 차에서 삼 차까지요",
+            "norm_text": "A.일 차에서 이 차까지 또는 일 차에서 삼 차까지요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+일차/NNG+에서/JKB+이/NR+차/NNBC+까지/JX+또는/MAJ+일차/NNG+에서/JKB+삼/NR+차/NNBC+까지/JX+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.고객님께서 수수료를 부담하시는데 십이 개월까지요",
+            "norm_text": "A.고객님께서 수수료를 부담하시는데 십이 개월까지요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+께서/JKS+수수료/NNG+를/JKO+부담/NNG+하/XSV+시/EP+는데/EC+십/NR+이/NR+개월/NNBC+까지/JX+요/JX"
+          },
+          {
+            "id": 12,
+            "text": "A.최대한 할부가 가능한 부분이세요",
+            "norm_text": "A.최대한 할부가 가능한 부분이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+최대한/NNG+할/XSV+ETM+부가/NNG+가능/NNG+한/XSA+ETM+부분/NNG+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.네 알려주셔서 감사합니다",
+            "norm_text": "B.네 알려주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.가능하면 그냥 삼 개월 안으로 긁어야겠어요",
+            "norm_text": "B.가능하면 그냥 삼 개월 안으로 긁어야겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+가능/NNG+하/XSV+면/EC+그냥/MAG+삼/NR+개월/NNBC+안/NNG+으로/JKB+긁/VV+어야/EC+겠어요/VX+EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.네 도움이 되셨으니 다행입니다",
+            "norm_text": "A.네 도움이 되셨으니 다행입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+도움/NNG+이/JKS+되/VV+셨으니/EP+EP+EC+다행/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 도움이 많이 됐어요",
+            "norm_text": "B.네 도움이 많이 됐어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+도움/NNG+이/JKS+많이/MAG+됐/VV+EP+어요/EF"
+          },
+          {
+            "id": 17,
+            "text": "A.항상 건강하시고 좋은 일만 가득하세요",
+            "norm_text": "A.항상 건강하시고 좋은 일만 가득하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+항상/MAG+건강/NNG+하/XSV+시/EP+고/EC+좋/VA+은/ETM+일/NNG+만/JX+가득/MAG+하/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

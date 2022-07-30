@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 106350,
+    "name": "s3_20211103_0005_0173_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110828058468/s3_20211103_0005_0173_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110828058468/s3_20211103_0005_0173_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119244,
+      "filename": "s3_20211022_0024_0018_01.txt",
+      "title": "s3_20211022_0024_0018_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 222,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 222,
+        "word_size": 55,
+        "text": "A.안녕하세요 #@소속 #@이름#입니다\nB.안녕하세요 포인트는 언제 적립이 되나요\nA.배송 완료 팔 일 후 결제 금액 기준으로 적립 됩니다\nB.포인트 소멸은 언제하나요\nA.최종 구매일로부터 이 년 후 자동 소멸 되구요\nA.소멸 예정일 이 주 전에 소멸 예정 안내 문자가 발송 됩니다\nB.알겠습니다 크게 도움이 되었어요\nA.네 다른 문의 사항 있으시면 #@소속#으로 연락 주세요\nB.알겠습니다 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 포인트는 언제 적립이 되나요",
+            "norm_text": "B.안녕하세요 포인트는 언제 적립이 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+포인트/NNG+는/JX+언제/MAG+적립/NNG+이/JKS+되/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.배송 완료 팔 일 후 결제 금액 기준으로 적립 됩니다",
+            "norm_text": "A.배송 완료 팔 일 후 결제 금액 기준으로 적립됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+배송/NNG+완료/NNG+팔/NR+일/NNBC+후/NNG+결제/NNG+금액/NNG+기준/NNG+으로/JKB+적립/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.포인트 소멸은 언제하나요",
+            "norm_text": "B.포인트 소멸은 언제하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+포인트/NNG+소멸/NNG+은/JX+언제/MAG+하나/NR+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.최종 구매일로부터 이 년 후 자동 소멸 되구요",
+            "norm_text": "A.최종 구매일로부터 이 년 후 자동 소멸되구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+최종구/NNP+매일/NNG+로부터/JKB+이/NR+년/NNBC+후/NNG+자동/NNG+소멸/NNG+되/XSV+구요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.소멸 예정일 이 주 전에 소멸 예정 안내 문자가 발송 됩니다",
+            "norm_text": "A.소멸 예정일 이 주 전에 소멸 예정 안내 문자가 발송됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+소멸/NNG+예정일/NNG+이/JKS+주전/NNG+에/JKB+소멸/NNG+예정/NNG+안내/NNG+문자/NNG+가/JKS+발송/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.알겠습니다 크게 도움이 되었어요",
+            "norm_text": "B.알겠습니다 크게 도움이 되었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+크/VA+게/EC+도움/NNG+이/JKS+되/VV+었/EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.네 다른 문의 사항 있으시면 #@소속#으로 연락 주세요",
+            "norm_text": "A.네 다른 문의 사항 있으시면 #@소속#으로 연락 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 9,
+            "text": "B.알겠습니다 감사합니다 수고하세요",
+            "norm_text": "B.알겠습니다 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 115864,
+    "name": "s3_20211105_0005_0029_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110831078123/s3_20211105_0005_0029_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110831078123/s3_20211105_0005_0029_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119635,
+      "filename": "s3_20211027_0019_0004_01.txt",
+      "title": "s3_20211027_0019_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 273,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 273,
+        "word_size": 57,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.안녕하세요 상품 결제 문제로 연락 드려요\nA.그러시군요 고객님 제가 무엇을 도와드릴까요\nB.미확정 요금으로 예약했거든요\nB.결제해서 확정하고 싶어서요\nA.미확정으로 항공권을 결제하셨군요\nA.결제는 항공사에서 가격을 지정한 후에 가능합니다\nB.얼마나 기다려야 하나요\nA.보통 삼 일에서 칠 일 내에 정해집니다\nB.아이고 그렇게 늦게요\nA.최저가 옵션에서 조금의 부가 가격이 더 오를 겁니다\nB.일단은 기다려야죠 알겠습니다\nA.양해해 주셔서 감사합니다 #@소속#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 상품 결제 문제로 연락 드려요",
+            "norm_text": "B.안녕하세요 상품 결제 문제로 연락드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상품/NNG+결제/NNG+문제/NNG+로/JKB+연락/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.그러시군요 고객님 제가 무엇을 도와드릴까요",
+            "norm_text": "A.그러시군요 고객님 제가 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+시/EP+군요/EC+고객/NNG+님/XSN+제/NP+가/JKS+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.미확정 요금으로 예약했거든요",
+            "norm_text": "B.미확정 요금으로 예약했거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+미확정/NNG+요금/NNG+으로/JKB+예약/NNG+했/XSV+EP+거든요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.결제해서 확정하고 싶어서요",
+            "norm_text": "B.결제해서 확정하고 싶어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+결제/NNG+해서/XSV+EC+확정/NNG+하/XSV+고/EC+싶/VX+어서요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.미확정으로 항공권을 결제하셨군요",
+            "norm_text": "A.미확정으로 항공권을 결제하셨군요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+미확정/NNG+으로/JKB+항공/NNG+권/XSN+을/JKO+결제/NNG+하/XSV+셨/EP+EP+군요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.결제는 항공사에서 가격을 지정한 후에 가능합니다",
+            "norm_text": "A.결제는 항공사에서 가격을 지정한 후에 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+결제/NNG+는/JX+항공사/NNG+에서/JKB+가격/NNG+을/JKO+지정/XR+한/XSA+ETM+후/NNG+에/JKB+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.얼마나 기다려야 하나요",
+            "norm_text": "B.얼마나 기다려야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+얼마나/MAG+기다려야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.보통 삼 일에서 칠 일 내에 정해집니다",
+            "norm_text": "A.보통 삼 일에서 칠 일 내에 정해집니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+보통/NNG+삼/NR+일/NNBC+에서/JKB+칠/NR+일/NNBC+내/NNB+에/JKB+정해/VV+EC+집니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.아이고 그렇게 늦게요",
+            "norm_text": "B.아이고 그렇게 늦게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아이고/IC+그렇게/MAG+늦/VA+게요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.최저가 옵션에서 조금의 부가 가격이 더 오를 겁니다",
+            "norm_text": "A.최저가 옵션에서 조금의 부가 가격이 더 오를 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+최저/NNG+가/JKS+옵션/NNG+에서/JKB+조금/NNG+의/JKG+부가/NNG+가격/NNG+이/JKS+더/MAG+오를/VV+ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.일단은 기다려야죠 알겠습니다",
+            "norm_text": "B.일단은 기다려야죠 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+일단/MAG+은/JX+기다려야/VV+EC+VX+죠/EF+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.양해해 주셔서 감사합니다 #@소속#였습니다",
+            "norm_text": "A.양해해 주셔서 감사합니다 #@소속#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+양해/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

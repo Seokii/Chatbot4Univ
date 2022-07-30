@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 64202,
+    "name": "c4_20211022_0012_017_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131233053327/c4_20211022_0012_017_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131233053327/c4_20211022_0012_017_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56975,
+      "filename": "c4_20210927_0028_0026_01.txt",
+      "title": "c4_20210927_0028_0026_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 186,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 186,
+        "word_size": 41,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다\nB.네 여기 #@주소#있는 도로 인데요\nA.선생님 #@주소# 도로 말씀하시는 겁니까\nB.네 #@주소# 도로 맞습니다 이곳에 낙석이 있어서 통행이 불편하네요\nA.낙석 처리 관련 문의 맞으십니까\nA.해당 관련 팀에 조속히 처리하라 하겠습니다\nA.통행에 불편 드려 죄송합니다\nB.네 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 여기 #@주소#있는 도로 인데요",
+            "norm_text": "B.네 여기 #@주소#있는 도로 인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+여기/NP+#/SY+@/SY+주소/NNG+#/SY+있/VA+는/ETM+도로/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.선생님 #@주소# 도로 말씀하시는 겁니까",
+            "norm_text": "A.선생님 #@주소# 도로 말씀하시는 겁니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+#/SY+@/SY+주소/NNG+#/SY+도로/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+겁니까/NNB+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@주소# 도로 맞습니다 이곳에 낙석이 있어서 통행이 불편하네요",
+            "norm_text": "B.네 #@주소# 도로 맞습니다 이곳에 낙석이 있어서 통행이 불편하네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+도로/NNG+맞/VV+습니다/EF+이곳/NP+에/JKB+낙석/NNG+이/JKS+있/VV+어서/EC+통행/NNG+이/JKS+불편/NNG+하/XSV+네요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.낙석 처리 관련 문의 맞으십니까",
+            "norm_text": "A.낙석 처리 관련 문의 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+낙석/NNG+처리/NNG+관련/NNG+문/NNG+의/JKG+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.해당 관련 팀에 조속히 처리하라 하겠습니다",
+            "norm_text": "A.해당 관련 팀에 조속히 처리하라 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+해당/NNG+관련/NNG+팀/NNG+에/JKB+조속히/MAG+처리/NNG+하/XSV+라/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.통행에 불편 드려 죄송합니다",
+            "norm_text": "A.통행에 불편 드려 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+통행/NNG+에/JKB+불편/NNG+드려/VV+EC+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 10932,
+    "name": "s4_20210913_0011_0916_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151451038245/s4_20210913_0011_0916_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151451038245/s4_20210913_0011_0916_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 13505,
+      "filename": "s4_20210831_0028_0007_01.txt",
+      "title": "s4_20210831_0028_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 208,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 208,
+        "word_size": 49,
+        "text": "A.안녕하세요 고객님 상담사 #@이름#입니다\nB.구매를 어제 했는데 아직도 준비 중이라고 나와 있어서 확인 하려구요\nA.주문자분 성함이랑 휴대폰 번호 말씀해 주시겠습니까\nB.#@이름# 이구요 #@전번# 이요\nA.확인 감사합니다 어제 주문 건은 익일 당일 출고 제품이 아니시구요\n배송 기간은 이 일에서 오 일 소요됩니다 고객님\nB.그래요 준비 중으로 계속 나오길래 알겠습니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.구매를 어제 했는데 아직도 준비 중이라고 나와 있어서 확인 하려구요",
+            "norm_text": "B.구매를 어제 했는데 아직도 준비 중이라고 나와 있어서 확인 하려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+구매/NNG+를/JKO+어제/NNG+했/XSV+EP+는데/EC+아직/MAG+도/JX+준비/NNG+중/NNB+이/VCP+라고/EC+나와/VV+EC+있/VX+어서/EC+확인/NNG+하/XSV+려구요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.주문자분 성함이랑 휴대폰 번호 말씀해 주시겠습니까",
+            "norm_text": "A.주문자분 성함이랑 휴대폰 번호 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주문자/NNG+분성/NNG+함/XSV+ETN+이랑/JC+휴대폰/NNG+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@이름# 이구요 #@전번# 이요",
+            "norm_text": "B.#@이름# 이구요 #@전번# 이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+구요/EF+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.확인 감사합니다 어제 주문 건은 익일 당일 출고 제품이 아니시구요",
+            "norm_text": "A.확인 감사합니다 어제 주문 건은 익일 당일 출고 제품이 아니시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+합니다/XSV+EF+어/IC+제주/NNP+문건/NNG+은/JX+익일/NNG+당일/NNG+출고/NNG+제품/NNG+이/JKC+아니/VCN+시/EP+구요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.배송 기간은 이 일에서 오 일 소요됩니다 고객님",
+            "norm_text": "B.배송 기간은 이 일에서 오 일 소요됩니다 고객님",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "배송/NNG+기간/NNG+은/JX+이/NR+일/NNBC+에서/JKB+오일/NNG+소요/NNG+됩니다/XSV+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 7,
+            "text": "B.그래요 준비 중으로 계속 나오길래 알겠습니다 수고하세요",
+            "norm_text": "B.그래요 준비 중으로 계속 나오길래 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그래요/VV+EC+준/VX+ETM+비중/NNG+으로/JKB+계속/MAG+나오/VV+길래/EC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

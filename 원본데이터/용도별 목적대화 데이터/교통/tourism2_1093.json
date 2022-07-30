@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 151280,
+    "name": "t2_20211117_0002_0140_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357240952102/t2_20211117_0002_0140_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357240952102/t2_20211117_0002_0140_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 149279,
+      "filename": "t2_0060_0025_02.txt",
+      "title": "t2_0060_0025_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 334,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 334,
+        "word_size": 72,
+        "text": "A.감사합니다 관광버스 대행사 고객센터 #@이름#입니다\nB.아 네 제가 어제 춘천역에서 해피초원까지 가는 전세버스 예약을 했는데요\nB.날짜를 잘못 말씀 드린 거 같아서요\nA.아 그러십니까 예약자분 성함과 연락처 말씀해 주시겠습니까\nB.네 제 이름은 #@이름#이고요 번호는 #@전번# 입니다\nA.네 확인결과 10월20일 예약하셨네요\nB.그랬죠 10월 21일인데 제가 헷갈렸나봐요\nA.네 그러시면 21일로 변경해 드릴까요\nB.아 네 그래주시면 감사하겠습니다\nA.네 그럼 10월 21일 춘천역에서 출발하는 걸로 변경해 드렸습니다\nB.지금이라도 생각났으니 다행이네요 감사합니다\nA.네 저희 전세버스를 이용해 주셔서 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.감사합니다 관광버스 대행사 고객센터 #@이름#입니다",
+            "norm_text": "A.감사합니다 관광버스 대행사 고객센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+관광버스/NNG+대행사/NNP+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.아 네 제가 어제 춘천역에서 해피초원까지 가는 전세버스 예약을 했는데요",
+            "norm_text": "B.제가 어제 춘천역에서 해피초원까지 가는 전세버스 예약을 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+어제/MAG+춘천역/NNP+에서/JKB+해피/NNG+초원/NNG+까지/JX+가/VV+는/ETM+전세/NNG+버스/NNG+예약/NNG+을/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.날짜를 잘못 말씀 드린 거 같아서요",
+            "norm_text": "B.날짜를 잘못 말씀 드린 거 같아서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+날짜/NNG+를/JKO+잘못/MAG+말씀/NNG+드린/VV+ETM+거/NNB+같/VA+아서요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.아 그러십니까 예약자분 성함과 연락처 말씀해 주시겠습니까",
+            "norm_text": "A.아 그러십니까 예약자분 성함과 연락처 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+아/IC+그러/VV+십니까/EP+EF+예약자/NNG+분성/NNG+함/XSV+ETN+과/JC+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 제 이름은 #@이름#이고요 번호는 #@전번# 입니다",
+            "norm_text": "B.네 제 이름은 #@이름#이고요 번호는 #@전번# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 확인결과 10월20일 예약하셨네요",
+            "norm_text": "A.네 확인결과 10월20일 예약하셨네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+결과/NNG+10/SN+월/NNBC+20/SN+일/NNBC+예약/NNG+하/XSV+셨/EP+EP+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그랬죠 10월 21일인데 제가 헷갈렸나봐요",
+            "norm_text": "B.그랬죠 10월 21일인데 제가 헷갈렸나봐요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그랬/VV+EP+죠/EF+10/SN+월/NNBC+21/SN+일/NNBC+인데/VCP+EC+제/NP+가/JKS+헷갈렸/VV+EP+나/EC+봐요/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 그러시면 21일로 변경해 드릴까요",
+            "norm_text": "A.네 그러시면 21일로 변경해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그러/VV+시/EP+면/EC+21/SN+일/NNBC+로/JKB+변경/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.아 네 그래주시면 감사하겠습니다",
+            "norm_text": "B.아 네 그래주시면 감사하겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아/IC+네/IC+그래/VA+EC+주/VX+시/EP+면/EC+감사/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 그럼 10월 21일 춘천역에서 출발하는 걸로 변경해 드렸습니다",
+            "norm_text": "A.네 그럼 10월 21일 춘천역에서 출발하는 걸로 변경해 드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+10/SN+월/NNBC+21/SN+일/NNBC+춘천역/NNP+에서/JKB+출발/NNG+하/XSV+는/ETM+걸로/NNB+JKB+변경/NNG+해/XSV+EC+드렸/VX+EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.지금이라도 생각났으니 다행이네요 감사합니다",
+            "norm_text": "B.지금이라도 생각났으니 다행이네요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+지금/NNG+이/VCP+라도/EC+생각/NNG+났으니/VV+EP+EC+다행/NNG+이/VCP+네요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 저희 전세버스를 이용해 주셔서 감사합니다",
+            "norm_text": "A.네 저희 전세버스를 이용해 주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+저희/NP+전세/NNG+버스/NNG+를/JKO+이용/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

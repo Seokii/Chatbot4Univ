@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 116577,
+    "name": "s2_20211105_0002_0028_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110736008575/s2_20211105_0002_0028_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110736008575/s2_20211105_0002_0028_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116974,
+      "filename": "s2_20211027_0010_0008_01.txt",
+      "title": "s2_20211027_0010_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 352,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 352,
+        "word_size": 80,
+        "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다 무엇을 도와드릴까요\nB.#@상품# 와이파이 연결 관련해서 문의드리려고 하는데요\nA.네 저한테 말씀해주시면 됩니다 어떤 문제로 전화 주셨나요\nB.와이파이 연결하는데 계속 범위 내에 없음 메시지가 뜨네요\nA.와이파이 자체에 문제는 없으신 건가요\nB.네 핸드폰에 연결되어 있는데 핸드폰은 문제가 없거든요\nA.그 경우 와이파이 비밀번호가 틀렸을 가능성이 큽니다\nA.혹시 한 번 확인해주실 수 있나요\nB.이거 설마 대소문자도 구분해야 하는 건가요\nA.네 맞습니다 대소문자 및 특수문자 모두 구분해주셔야 합니다\nB.그럼 제가 실수한 것 같네요 죄송해요\nA.아닙니다 언제든 문제가 있으신 경우 연락주세요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 와이파이 연결 관련해서 문의드리려고 하는데요",
+            "norm_text": "B.#@상품# 와이파이 연결 관련해서 문의드리려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+와이파이/NNP+연결/NNG+관련/NNG+해서/XSV+EC+문/NNG+의/JKG+드리/VV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 저한테 말씀해주시면 됩니다 어떤 문제로 전화 주셨나요",
+            "norm_text": "A.네 저한테 말씀해주시면 됩니다 어떤 문제로 전화 주셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+저/NP+한테/JKB+말씀/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VV+EF+어떤/MM+문제/NNG+로/JKB+전화/NNG+주/VV+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.와이파이 연결하는데 계속 범위 내에 없음 메시지가 뜨네요",
+            "norm_text": "B.와이파이 연결하는데 계속 범위 내에 없음 메시지가 뜨네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+와이파이/NNP+연결/NNG+하/XSV+는데/EC+계속/MAG+범위/NNG+내/NNB+에/JKB+없/VA+음/ETN+메시지/NNG+가/JKS+뜨/VV+네요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.와이파이 자체에 문제는 없으신 건가요",
+            "norm_text": "A.와이파이 자체에 문제는 없으신 건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+와이파이/NNP+자체/NNG+에/JKB+문제/NNG+는/JX+없/VA+으신/EP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 핸드폰에 연결되어 있는데 핸드폰은 문제가 없거든요",
+            "norm_text": "B.네 핸드폰에 연결되어 있는데 핸드폰은 문제가 없거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+핸드폰/NNG+에/JKB+연결/NNG+되/XSV+어/EC+있/VX+는데/EC+핸드폰/NNG+은/JX+문제/NNG+가/JKS+없/VA+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.그 경우 와이파이 비밀번호가 틀렸을 가능성이 큽니다",
+            "norm_text": "A.그 경우 와이파이 비밀번호가 틀렸을 가능성이 큽니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+경우/NNG+와/JC+이/MM+파이/NNG+비밀번호/NNG+가/JKS+틀렸/VV+EP+을/ETM+가능/NNG+성/XSN+이/JKS+큽니다/VA+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.혹시 한 번 확인해주실 수 있나요",
+            "norm_text": "A.혹시 한 번 확인해주실 수 있나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+한/MM+번/NNBC+확인/NNG+해/XSV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.이거 설마 대소문자도 구분해야 하는 건가요",
+            "norm_text": "B.이거 설마 대소문자도 구분해야 하는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이거/NP+설마/MAG+대소문자/NNP+도/JX+구분/NNG+해야/XSV+EC+하/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 맞습니다 대소문자 및 특수문자 모두 구분해주셔야 합니다",
+            "norm_text": "A.네 맞습니다 대소문자 및 특수문자 모두 구분해주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+대소문자/NNP+및/MAJ+특수/NNG+문자/NNG+모두/MAG+구분/NNG+해/XSV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그럼 제가 실수한 것 같네요 죄송해요",
+            "norm_text": "B.그럼 제가 실수한 것 같네요 죄송해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "B/SL+그럼/MAJ+제/NP+가/JKS+실수/NNG+한/XSA+ETM+것/NNB+같/VA+네요/EF+죄송/XR+해요/XSA+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.아닙니다 언제든 문제가 있으신 경우 연락주세요 감사합니다",
+            "norm_text": "A.아닙니다 언제든 문제가 있으신 경우 연락주세요 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+아닙니다/VCN+EF+언제/NP+든/VCP+EC+문제/NNG+가/JKS+있/VA+으신/EP+ETM+경우/NNG+연락/NNG+주세요/NNP+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 29677,
+    "name": "s1_20211006_0001_1291_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151213031438/s1_20211006_0001_1291_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151213031438/s1_20211006_0001_1291_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 6979,
+      "filename": "s1_20210820_0013_0002_01.txt",
+      "title": "s1_20210820_0013_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 184,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 184,
+        "word_size": 42,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.저희 어른께서 #@상품# 핸드폰을 하셨거든요\nB.근데 그 잠금화면 위젯을 삭제할 수 있나요\nA.네 그거는 기본적으로 되어있기 때문에 없앨 수 있는건 없구요\nA.배경화면은 바꾸실 수 있습니다\nB.어제 한 번 들어가봤더니 배경화면 바꾸는데 홈화면만 바뀌드라구요\nA.이 모델이 가성비 모델로 나온거라서요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저희 어른께서 #@상품# 핸드폰을 하셨거든요",
+            "norm_text": "B.저희 어른께서 #@상품# 핸드폰을 하셨거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+어른/NNG+께서/JKS+#/SY+@/SY+상품/NNG+#/SY+핸드폰/NNG+을/JKO+하/VV+셨/EP+EP+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.근데 그 잠금화면 위젯을 삭제할 수 있나요",
+            "norm_text": "B.근데 그 잠금화면 위젯을 삭제할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+근데/MAJ+그/MM+잠/NNG+금화/NNG+면/VCP+EC+위젯/NNP+을/JKO+삭제/NNG+할/XSV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 그거는 기본적으로 되어있기 때문에 없앨 수 있는건 없구요",
+            "norm_text": "A.네 그거는 기본적으로 되어있기 때문에 없앨 수 있는건 없구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그거/NP+는/JX+기본/NNG+적/XSN+으로/JKB+되/VV+어/EC+있/VX+기/ETN+때문/NNB+에/JKB+없앨/VV+ETM+수/NNB+있/VV+는/ETM+건/NNB+JX+없/VA+구요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.배경화면은 바꾸실 수 있습니다",
+            "norm_text": "A.배경화면은 바꾸실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+배경/NNG+화면/NNG+은/JX+바꾸/VV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.어제 한 번 들어가봤더니 배경화면 바꾸는데 홈화면만 바뀌드라구요",
+            "norm_text": "B.어제 한 번 들어가봤더니 배경화면 바꾸는데 홈화면만 바뀌드라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+어제/MAG+한/MM+번/NNBC+들어가/VV+EC+봤/VX+EP+더니/EC+배경/NNG+화면/NNG+바꾸/VV+는데/EC+홈/NNG+화면/NNG+만/JX+바뀌/VV+드라구요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.이 모델이 가성비 모델로 나온거라서요",
+            "norm_text": "A.이 모델이 가성비 모델로 나온거라서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이/MM+모델/NNG+이/JKS+가성/NNG+비/XPN+모델/NNG+로/JKB+나온/VV+ETM+거/NNB+라서요/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

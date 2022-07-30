@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 159547,
+    "name": "t5_20211119_0010_2222_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135914017173/t5_20211119_0010_2222_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135914017173/t5_20211119_0010_2222_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155677,
+      "filename": "t5_0067_0114_02.txt",
+      "title": "t5_0067_0114_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 263,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 263,
+        "word_size": 60,
+        "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 혹시 거기 온천만 이용해도 괜찮나요\nA.네 객실 이용과 무관하게 온천만 별도 이용 됩니다\nB.그렇군요 이따가 온라인 예약해도 되는 거죠\nA.죄송하지만 온천 예약은 전화로만 예약 가능하세요\nB.그런가요 아직 출발 시간도 못 정해서 그런데요\nB.혹시 몇 시까지 운영하는지 말씀해주세요\nA.온천 운영 마감 시간은 밤 열한 시 삼십 분입니다\nB.그렇군요 참고해서 나중에 다시 전화드릴게요\nA.네 알겠습니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 혹시 거기 온천만 이용해도 괜찮나요",
+            "norm_text": "B.안녕하세요 혹시 거기 온천만 이용해도 괜찮나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+혹시/MAG+거기/NP+온천/NNG+만/JX+이용/NNG+해도/XSV+EC+괜찮/VA+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 객실 이용과 무관하게 온천만 별도 이용 됩니다",
+            "norm_text": "A.네 객실 이용과 무관하게 온천만 별도 이용 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+객실/NNG+이용/NNG+과/JC+무관/XR+하/XSA+게/EC+온천/NNG+만/JX+별도/NNG+이용/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그렇군요 이따가 온라인 예약해도 되는 거죠",
+            "norm_text": "B.그렇군요 이따가 온라인 예약해도 되는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+이따가/MAG+온라인/NNG+예약/NNG+해도/XSV+EC+되/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.죄송하지만 온천 예약은 전화로만 예약 가능하세요",
+            "norm_text": "A.죄송하지만 온천 예약은 전화로만 예약 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+온천/NNG+예약/NNG+은/JX+전화/NNG+로/JKB+만/JX+예약/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그런가요 아직 출발 시간도 못 정해서 그런데요",
+            "norm_text": "B.그런가요 아직 출발 시간도 못 정해서 그런데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그런가요/VA+EC+VCP+EF+아직/MAG+출발/NNG+시간/NNG+도/JX+못정/NNG+해서/XSV+EC+그런데요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.혹시 몇 시까지 운영하는지 말씀해주세요",
+            "norm_text": "B.혹시 몇 시까지 운영하는지 말씀해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+몇/MM+시/NNBC+까지/JX+운영/NNG+하/XSV+는지/EC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.온천 운영 마감 시간은 밤 열한 시 삼십 분입니다",
+            "norm_text": "A.온천 운영 마감 시간은 밤 열한 시 삼십 분입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+온천/NNG+운영/NNG+마감/NNG+시간/NNG+은/JX+밤/NNG+열/NR+한/MM+시/NNBC+삼/NR+십/NR+분/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그렇군요 참고해서 나중에 다시 전화드릴게요",
+            "norm_text": "B.그렇군요 참고해서 나중에 다시 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+참고/NNG+해서/XSV+EC+나중/NNG+에/JKB+다시/MAG+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 알겠습니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.네 알겠습니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

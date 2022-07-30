@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 120101,
+    "name": "s7_20211105_0010_4332_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110942037958/s7_20211105_0010_4332_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110942037958/s7_20211105_0010_4332_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 121986,
+      "filename": "s7_20211029_0024_0024_01.txt",
+      "title": "s7_20211029_0024_0024_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 369,
+      "annotations": {
+        "subject": "온오프라인 안내",
+        "speaker_type": "1:1",
+        "size": 369,
+        "word_size": 73,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.네 안녕하세요 혹시 자꾸 다른 사람의 이름으로요\nB.#@소속#에서 메일이 와서요\nA.#@소속#에서는 회원정보에 등록되어 있는 이메일 주소로요\nA.메일을 보내드리고 있습니다 가입자가 많은 포털사이트의 메일계정은요\nB.네네 듣구있습니다 계속 말씀해주세요\nA.대개 숫자나 영문 한자리로 구분되어 비슷하게 이용되는 가입자가요\nA.많다 보니 다른 고객님께서 실수로 메일주소를 잘못 입력하여서요\nA.메일을 받으시는 경우가 있습니다\nB.그럼 그냥 받아야 하나요\nA.아뇨 #@소속#의 고객센터 #@전번#으로 연락 한번만 부탁드립니다\nB.알겠습니다 많은 도움이 되네요\nA.다른 문의 사항있으시면 #@소속#으로 연락주세요\nB.알겠습니다 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 혹시 자꾸 다른 사람의 이름으로요",
+            "norm_text": "B.네 안녕하세요 혹시 자꾸 다른 사람의 이름으로요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+혹시/MAG+자꾸/MAG+다른/MM+사람/NNG+의/JKG+이름/NNG+으로/JKB+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "B.#@소속#에서 메일이 와서요",
+            "norm_text": "B.#@소속#에서 메일이 와서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+메일/NNG+이/VCP+와서/EC+VX+요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.#@소속#에서는 회원정보에 등록되어 있는 이메일 주소로요",
+            "norm_text": "A.#@소속#에서는 회원정보에 등록되어 있는 이메일 주소로요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+는/JX+회원/NNG+정보/NNG+에/JKB+등록/NNG+되/XSV+어/EC+있/VX+는/ETM+이메일/NNG+주소/NNG+로/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.메일을 보내드리고 있습니다 가입자가 많은 포털사이트의 메일계정은요",
+            "norm_text": "A.메일을 보내드리고 있습니다 가입자가 많은 포털사이트의 메일계정은요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+메일/NNG+을/JKO+보내/VV+EC+드리/VX+고/EC+있/VX+습니다/EF+가입자/NNG+가/JKS+많/VA+은/ETM+포털/NNP+사이트/NNG+의/JKG+메일/NNG+계정/NNG+은/JX+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "B.네네 듣구있습니다 계속 말씀해주세요",
+            "norm_text": "B.네네 듣구있습니다 계속 말씀해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네네/IC+듣/VV+구/EC+있/VX+습니다/EF+계속/MAG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.대개 숫자나 영문 한자리로 구분되어 비슷하게 이용되는 가입자가요",
+            "norm_text": "A.대개 숫자나 영문 한자리로 구분되어 비슷하게 이용되는 가입자가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+대개/MAG+숫자/NNG+나/JC+영문/NNG+한/XSA+ETM+자리/NNG+로/JKB+구분/NNG+되/XSV+어/EC+비슷/XR+하/XSA+게/EC+이용/NNG+되/XSV+는/ETM+가입자/NNG+가요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "A.많다 보니 다른 고객님께서 실수로 메일주소를 잘못 입력하여서요",
+            "norm_text": "A.많다 보니 다른 고객님께서 실수로 메일주소를 잘못 입력하여서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+많/VA+다/EC+보/VX+니/EC+다른/MM+고객/NNG+님/XSN+께서/JKS+실수/NNG+로/JKB+메일/VV+ETM+주소/NNG+를/JKO+잘못/MAG+입력/NNG+하/XSV+여/EC+서요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.메일을 받으시는 경우가 있습니다",
+            "norm_text": "A.메일을 받으시는 경우가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+메일/NNG+을/JKO+받/VV+으시/EP+는/ETM+경우/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 그냥 받아야 하나요",
+            "norm_text": "B.그럼 그냥 받아야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+그냥/MAG+받/VV+아야/EC+하/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.아뇨 #@소속#의 고객센터 #@전번#으로 연락 한번만 부탁드립니다",
+            "norm_text": "A.아뇨 #@소속#의 고객센터 #@전번#으로 연락 한번만 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+아뇨/VCN+EC+#/SY+@/SY+소속/NNG+#/SY+의/JKG+고객/NNG+센터/NNG+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+연락/NNG+한/MM+번/NNBC+만/JX+부탁드립니다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.알겠습니다 많은 도움이 되네요",
+            "norm_text": "B.알겠습니다 많은 도움이 되네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+많/VA+은/ETM+도움/NNG+이/JKS+되/VV+네요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.다른 문의 사항있으시면 #@소속#으로 연락주세요",
+            "norm_text": "A.다른 문의 사항있으시면 #@소속#으로 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 14,
+            "text": "B.알겠습니다 감사합니다 수고하세요",
+            "norm_text": "B.알겠습니다 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

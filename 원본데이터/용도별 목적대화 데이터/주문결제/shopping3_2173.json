@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 116057,
+    "name": "s3_20211105_0005_0226_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110827045011/s3_20211105_0005_0226_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110827045011/s3_20211105_0005_0226_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119102,
+      "filename": "s3_20211008_0006_0028_01.txt",
+      "title": "s3_20211008_0006_0028_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 161,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 161,
+        "word_size": 42,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nB.구매 확정을 제가 기간 동안 안 했어요\nB.이건 어떻게 되는 건가요\nA.배송 완료 후 칠 일 간 구매 확정을 안 해 주시면 자동 확정 됩니다\nB.그러면 적립금도 쌓이죠\nA.네 고객님 적립 되십니다\nB.그래요 다행이네요 감사합니다\nA.네 즐거운 쇼핑 되십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.구매 확정을 제가 기간 동안 안 했어요",
+            "norm_text": "B.구매 확정을 제가 기간 동안 안 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+구매/NNG+확정/NNG+을/JKO+제/NP+가/JKS+기간/NNG+동안/NNG+안/MAG+했/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.이건 어떻게 되는 건가요",
+            "norm_text": "B.이건 어떻게 되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이건/NP+JX+어떻게/MAG+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.배송 완료 후 칠 일 간 구매 확정을 안 해 주시면 자동 확정 됩니다",
+            "norm_text": "A.배송 완료 후 칠 일 간 구매 확정을 안 해 주시면 자동 확정 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+배송/NNG+완료/NNG+후/NNG+칠/NR+일/NNBC+간/NNG+구매/NNG+확정/NNG+을/JKO+안/MAG+해/VV+EC+주/VX+시/EP+면/EC+자동/NNG+확정/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.그러면 적립금도 쌓이죠",
+            "norm_text": "B.그러면 적립금도 쌓이죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+적립금/NNG+도/JX+쌓이/VV+죠/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 고객님 적립 되십니다",
+            "norm_text": "A.네 고객님 적립되십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+적립/NNG+되/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그래요 다행이네요 감사합니다",
+            "norm_text": "B.그래요 다행이네요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그래요/VV+EF+다행/NNG+이/VCP+네요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 즐거운 쇼핑 되십시오",
+            "norm_text": "A.네 즐거운 쇼핑 되십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+즐거운/VA+ETM+쇼핑/NNG+되/XSV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

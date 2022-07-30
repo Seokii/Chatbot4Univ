@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 101904,
+    "name": "s2_20211103_0002_0136_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110734005683/s2_20211103_0002_0136_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110734005683/s2_20211103_0002_0136_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116741,
+      "filename": "s2_20211027_0007_0001_01.txt",
+      "title": "s2_20211027_0007_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 303,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 303,
+        "word_size": 72,
+        "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.네 안녕하세요 문의드릴 게 있어서요\nA.네 어떤 문의이실까요 고객님\nB.상품 사용 후 피부 트러블이 발생했을 때는 어떻게 하나요\nA.화장품 이상반응은 제품에 함유된 성분 중 일부가 맞지 얺는 경우에 일어날 수 있습니다\nB.뭐 화장품에 문제가 있는거 아닌가요\nA.이는 상품 자체 품질 문제로 볼수는 없습니다\nA.화장품으로 인한 이상인 경우에는 제품 사용을 중단하시면 차차 원래 피부 상태로 호전이 됩니다\nB.네 알겠습니다 감사합니다\nA.네 답변이 도움이 되었기를 바랍니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의이실까요 고객님",
+            "norm_text": "A.네 어떤 문의이실까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.상품 사용 후 피부 트러블이 발생했을 때는 어떻게 하나요",
+            "norm_text": "B.상품 사용 후 피부 트러블이 발생했을 때는 어떻게 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+상품/NNG+사용/NNG+후/NNG+피부/NNG+트러블/NNG+이/JKS+발생/NNG+했/XSV+EP+을/ETM+때/NNG+는/JX+어떻게/MAG+하나/NR+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.화장품 이상반응은 제품에 함유된 성분 중 일부가 맞지 얺는 경우에 일어날 수 있습니다",
+            "norm_text": "A.화장품 이상반응은 제품에 함유된 성분 중 일부가 맞지않는 경우에 일어납니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+화장품/NNG+이상/NNG+반응/NNG+은/JX+제품/NNG+에/JKB+함유/NNG+된/XSV+ETM+성분/NNG+중/NNB+일부/NNG+가/JKS+맞/VV+지/EC+않/VX+는/ETM+경우/NNG+에/JKB+일어납니다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.뭐 화장품에 문제가 있는거 아닌가요",
+            "norm_text": "B.뭐 화장품에 문제가 있는거 아닌가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+뭐/IC+화장품/NNG+에/JKB+문제/NNG+가/JKS+있/VA+는/ETM+거/NNB+아닌가요/VCN+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.이는 상품 자체 품질 문제로 볼수는 없습니다",
+            "norm_text": "A.이는 상품 자체 품질 문제로 볼수는 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이/NP+는/JX+상품/NNG+자체/NNG+품질/NNG+문제/NNG+로/JKB+볼/VV+ETM+수/NNB+는/JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.화장품으로 인한 이상인 경우에는 제품 사용을 중단하시면 차차 원래 피부 상태로 호전이 됩니다",
+            "norm_text": "A.화장품으로 인한 이상인 경우에는 제품 사용을 중단하시면 차차 원래 피부 상태로 호전이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+화장품/NNG+으로/JKB+인한/VV+ETM+이상/NNG+인/VCP+ETM+경우/NNG+에/JKB+는/JX+제품/NNG+사용/NNG+을/JKO+중단/NNG+하/XSV+시/EP+면/EC+차차/MAG+원래/MAG+피부/NNG+상태/NNG+로/JKB+호전/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 답변이 도움이 되었기를 바랍니다 감사합니다",
+            "norm_text": "A.네 답변이 도움이 되었기를 바랍니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+답변/NNG+이/JKS+도움/NNG+이/JKS+되/VV+었/EP+기/ETN+를/JKO+바랍니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 43990,
+    "name": "c4_20211014_0011_0040_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131157013997/c4_20211014_0011_0040_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131157013997/c4_20211014_0011_0040_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56258,
+      "filename": "c4_20210923_0016_0003_01.txt",
+      "title": "c4_20210923_0016_0003_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 387,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 387,
+        "word_size": 89,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.네 안녕 하세요 선생님 문의 사항이 있어서 연락 드렸어요\nA.네 고객님 어떤 문의사항이신가요\nB.휴대전화가 요금 미납으로 번호 사용 중지가 되어 있는데요\nB.요금 납부하고 재사용하고자 요청하니 재사용이 불가하다고 합니다\nA.통신사업자를 통해 확인 시 해당 회선은 미납으로 인한 해지가 됐습니다\nA.이용정지 및 등록된 주소지로 직권해지 예고장 발송을 했다고 하고요\nA.그 후 미납이 해소되지 않아 직권해지를 한 상황이라고 합니다\nB.사용 정지가 아니고 해지가 된 거예요\nA.네 직권해지 후에 미납요금을 납부하신 것으로 확인됩니다\nB.그럼 없어진 번호라 어쩔 수가 없겠네요\nA.네 도움 드리지 못해 죄송합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕 하세요 선생님 문의 사항이 있어서 연락 드렸어요",
+            "norm_text": "B.네 안녕 하세요 선생님 문의 사항이 있어서 연락 드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+선생/NNG+님/XSN+문/NNG+의/JKG+사항/NNG+이/JKS+있/VV+어서/EC+연락/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어떤 문의사항이신가요",
+            "norm_text": "A.네 고객님 어떤 문의사항이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어떤/MM+문/NNG+의/JKG+사항/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.휴대전화가 요금 미납으로 번호 사용 중지가 되어 있는데요",
+            "norm_text": "B.휴대전화가 요금 미납으로 번호 사용 중지가 되어 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+휴대/NNG+전화/NNG+가/JKS+요금/NNG+미납/NNG+으로/JKB+번호/NNG+사용/NNG+중지/NNG+가/JKS+되/VV+어/EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.요금 납부하고 재사용하고자 요청하니 재사용이 불가하다고 합니다",
+            "norm_text": "B.요금 납부하고 재사용하고자 요청하니 재사용이 불가하다고 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+요금/NNG+납부/NNG+하/XSV+고/EC+재/XPN+사용/NNG+하/XSV+고자/EC+요청/NNG+하/XSV+니/EC+재/XPN+사용/NNG+이/JKS+불가/NNG+하/XSV+다고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.통신사업자를 통해 확인 시 해당 회선은 미납으로 인한 해지가 됐습니다",
+            "norm_text": "A.통신사업자를 통해 확인 시 해당 회선은 미납으로 인한 해지가 됐습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+통신/NNG+사업자/NNG+를/JKO+통해/VV+EC+확인/NNG+XSV+시/EP+해당/NNG+회선/NNG+은/JX+미납/NNG+으로/JKB+인한/VV+ETM+해지/NNG+가/JKS+됐/VV+EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.이용정지 및 등록된 주소지로 직권해지 예고장 발송을 했다고 하고요",
+            "norm_text": "A.이용정지 및 등록된 주소지로 직권해지 예고장 발송을 했다고 하고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+이용정/NNP+지/XSN+및/MAJ+등록/NNG+된/XSV+ETM+주소지/NNG+로/JKB+직권/NNG+해/XSV+EC+지예/NNG+고장/NNG+발송/NNG+을/JKO+했/VV+EP+다고/EC+하/VV+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.그 후 미납이 해소되지 않아 직권해지를 한 상황이라고 합니다",
+            "norm_text": "A.그 후 미납이 해소되지 않아 직권해지를 한 상황이라고 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+후/NNG+미납/NNG+이/JKS+해소/NNG+되/XSV+지/EC+않/VX+아/EC+직권/NNG+해지/NNG+를/JKO+한/VV+ETM+상황/NNG+이/VCP+라고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.사용 정지가 아니고 해지가 된 거예요",
+            "norm_text": "B.사용 정지가 아니고 해지가 된 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+사용/NNG+정지/NNG+가/JKC+아니/VCN+고/EC+해지/NNG+가/JKS+된/VV+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 직권해지 후에 미납요금을 납부하신 것으로 확인됩니다",
+            "norm_text": "A.네 직권해지 후에 미납요금을 납부하신 것으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+직권/NNG+해/XSV+EC+지후/NNG+에/JKB+미납/NNG+요금/NNG+을/JKO+납부/NNG+하/XSV+신/EP+ETM+것/NNB+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그럼 없어진 번호라 어쩔 수가 없겠네요",
+            "norm_text": "B.그럼 없어진 번호라 어쩔 수가 없겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그럼/MAJ+없/VA+어/EC+진/VX+ETM+번호/NNG+라/VCP+EC+어쩔/VV+ETM+수/NNB+가/JKS+없/VA+겠/EP+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 도움 드리지 못해 죄송합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.네 도움 드리지 못해 죄송합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+네/IC+도움/NNG+드리/VV+지/EC+못해/VX+EC+죄송/XR+합니다/XSA+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

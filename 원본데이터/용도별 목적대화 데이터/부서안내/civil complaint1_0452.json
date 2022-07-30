@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 51972,
+    "name": "c1_20211018_0002_0002_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130759093414/c1_20211018_0002_0002_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130759093414/c1_20211018_0002_0002_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51385,
+      "filename": "c1_20210927_0005_0007_01.txt",
+      "title": "c1_20210927_0005_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 341,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 341,
+        "word_size": 77,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.도로 건설 계획 같은 거도 여기서 알 수 있나요\nA.어떤 도로 건설 계획인지 말씀해주시면 제가 한 번 알아보겠습니다\nB.#@주소#의 도로거든요 거기가 법정도로는 아니고요 그냥 사람이 만든 길이거든요\nB.그런 걸 뭐라고 하는지는 모르겠는데 그거 이름 붙인 도로로 혹시 개발되나 해서요\nA.예 선생님 제가 한 번 알아보겠습니다 잠시만 기다려주세요\nA.선생님 제가 알아보니 도로 관리나 수혜 인구 등을 종합적으로 고려해서요\nA.해당 도로의 개발 계획은 없다고 합니다\nB.그래요 그냥 헛소문이었나보네요 알겠습니다\nA.감사합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.도로 건설 계획 같은 거도 여기서 알 수 있나요",
+            "norm_text": "B.도로 건설 계획 같은 거도 여기서 알 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+도로/NNG+건설/NNG+계획/NNG+같/VA+은/ETM+거/NNB+도/JX+여기/NP+서/JKB+알/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.어떤 도로 건설 계획인지 말씀해주시면 제가 한 번 알아보겠습니다",
+            "norm_text": "A.어떤 도로 건설 계획인지 말씀해주시면 제가 한 번 알아보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+어떤/MM+도로/NNG+건설/NNG+계획/NNG+인지/VCP+EC+말씀/NNG+해/XSV+EC+주/VX+시/EP+면/EC+제/NP+가/JKS+한/MM+번/NNBC+알아보/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@주소#의 도로거든요 거기가 법정도로는 아니고요 그냥 사람이 만든 길이거든요",
+            "norm_text": "B.#@주소#의 도로거든요 거기가 법정도로는 아니고요 그냥 사람이 만든 길이거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+의/JKG+도로/NNG+거든요/VCP+EF+거기/NP+가/JKS+법/NNG+정도/NNG+로/JKB+는/JX+아니/VCN+고요/EC+그냥/MAG+사람/NNG+이/JKS+만든/VV+ETM+길/NNG+이/VCP+거든요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.그런 걸 뭐라고 하는지는 모르겠는데 그거 이름 붙인 도로로 혹시 개발되나 해서요",
+            "norm_text": "B.그런 걸 뭐라고 하는지는 모르겠는데 그거 이름 붙인 도로로 혹시 개발되나 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그런/MM+걸/NNB+JKO+뭐/NP+라고/VCP+EC+하/VV+는지/EC+는/JX+모르/VV+겠/EP+는데/EC+그거/NP+이름/NNG+붙인/VV+ETM+도로/NNG+로/JKB+혹시/MAG+개발/NNG+되/XSV+나/EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.예 선생님 제가 한 번 알아보겠습니다 잠시만 기다려주세요",
+            "norm_text": "A.예 선생님 제가 한 번 알아보겠습니다 잠시만 기다려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+예/IC+선생/NNG+님/XSN+제/NP+가/JKS+한/MM+번/NNBC+알아보/VV+겠/EP+습니다/EF+잠시/NNG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.선생님 제가 알아보니 도로 관리나 수혜 인구 등을 종합적으로 고려해서요",
+            "norm_text": "A.선생님 제가 알아보니 도로 관리나 수혜 인구 등을 종합적으로 고려해서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+제/NP+가/JKS+알아보/VV+니/EC+도로/NNG+관리/NNG+나/JC+수혜/NNG+인구/NNG+등/NNB+을/JKO+종합/NNG+적/XSN+으로/JKB+고려/NNG+해서/XSV+EC+VCP+VCP+요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.해당 도로의 개발 계획은 없다고 합니다",
+            "norm_text": "A.해당 도로의 개발 계획은 없다고 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+도로/NNG+의/JKG+개발/NNG+계획/NNG+은/JX+없/VA+다고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그래요 그냥 헛소문이었나보네요 알겠습니다",
+            "norm_text": "B.그래요 그냥 헛소문이었나보네요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그래요/VV+EF+그냥/MAG+헛소문/NNG+이/VCP+었/EP+나/EC+보/VX+네요/EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 115953,
+    "name": "s3_20211105_0005_0121_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110829026134/s3_20211105_0005_0121_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110829026134/s3_20211105_0005_0121_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119315,
+      "filename": "s3_20211025_0020_0012_01.txt",
+      "title": "s3_20211025_0020_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 255,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 57,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.제가 #@소속# 리워드 회원인데요\nA.네 고객님 무엇을 도와 드릴까요\nB.#@기타# 결제 화면에서 등록된 카드 목록이 보이지 않아서요\nA.등록된 카드의 상태와 잔액을 확인 해주시기 바랍니다\nB.잔액이 없으면 안보이나요\nA.네 잔액이 없거나 분실 실고된 카드는 결제 목록에서 보이지 않습니다\nB.알겠습니다 확인 감사합니다\nA.네 고객님 다른 문의 사항은 없으신가요\nB.네 다른 문의 사항 없어요\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 #@소속# 리워드 회원인데요",
+            "norm_text": "B.제가 #@소속# 리워드 회원인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+리워드/NNP+회원/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 무엇을 도와 드릴까요",
+            "norm_text": "A.네 고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@기타# 결제 화면에서 등록된 카드 목록이 보이지 않아서요",
+            "norm_text": "B.#@기타# 결제 화면에서 등록된 카드 목록이 보이지 않아서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+결제/NNG+화면/NNG+에서/JKB+등록/NNG+된/XSV+ETM+카드/NNG+목록/NNG+이/JKS+보이/VV+지/EC+않/VX+아서요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.등록된 카드의 상태와 잔액을 확인 해주시기 바랍니다",
+            "norm_text": "A.등록된 카드의 상태와 잔액을 확인해 주시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+등록/NNG+된/XSV+ETM+카드/NNG+의/JKG+상태/NNG+와/JC+잔액/NNG+을/JKO+확인/NNG+해/XSV+EC+주/VX+시/EP+기/ETN+바랍니다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.잔액이 없으면 안보이나요",
+            "norm_text": "B.잔액이 없으면 안 보이나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+잔액/NNG+이/JKS+없/VA+으면/EC+안/MAG+보이/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 잔액이 없거나 분실 실고된 카드는 결제 목록에서 보이지 않습니다",
+            "norm_text": "A.네 잔액이 없거나 분실 실고된 카드는 결제 목록에서 보이지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+잔액/NNG+이/JKS+없/VA+거나/EC+분실/NNG+실고/NNG+된/XSV+ETM+카드/NNG+는/JX+결제/NNG+목록/NNG+에서/JKB+보이/VV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.알겠습니다 확인 감사합니다",
+            "norm_text": "B.알겠습니다 확인 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+확인/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 고객님 다른 문의 사항은 없으신가요",
+            "norm_text": "A.네 고객님 다른 문의 사항은 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "B.네 다른 문의 사항 없어요",
+            "norm_text": "B.네 다른 문의 사항 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+다른/MM+문/NNG+의/JKG+사항/NNG+없/VA+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 17129,
+    "name": "s1_20210915_0002_0135_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151256068549/s1_20210915_0002_0135_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151256068549/s1_20210915_0002_0135_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8754,
+      "filename": "s1_20210825_0010_0025_01.txt",
+      "title": "s1_20210825_0010_0025_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 464,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 464,
+        "word_size": 102,
+        "text": "A.반갑습니다 #@소속# 상담사 #@이름# 입니다\nA.무엇을 도와드릴까요 고객님\nB.휴대폰이요 전화를 걸면은 화면이 자꾸 꺼지거든요\nA.전원이 꺼지는 게 아니라 화면이 꺼진다는 말씀이시구요\nB.예 전화만 걸면 화면이 꺼져요\nA.제가 그럼 내용을 한 번 확인해드리겠습니다\nA.사용하시는 전화번호랑 성함은 혹시 어떻게 되세요\nB.#@전번#이구요 #@이름#입니다\nA.네 정확한 상담 위해 성함 전화번호 제공에 동의해주시겠습니까\nB.예 개인정보요 동의하겠습니다\nA.네 수집이용 상세내역은 홈페이지 내에서 확인이 가능합니다\nA.현재 사용 중이신 기종은 따로 등록 안 되어 있으신데 어떤 모델이세요\nB.기종이요 지금 제가 쓰는 게 #@상품#이거든요\nA.네 #@상품#이시고 제가 휴대폰 전문 상담사 연결 도와드리겠습니다\nA.지금 바로 연결 도와드릴텐데 괜찮으실까요\nB.네 그 분한테 얘기하면 되나요 연결 부탁드릴게요\nA.네 바로 연결하겠습니다\nA.즐거운 하루 되세요 고객님",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.무엇을 도와드릴까요 고객님",
+            "norm_text": "A.무엇을 도와드릴까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 3,
+            "text": "B.휴대폰이요 전화를 걸면은 화면이 자꾸 꺼지거든요",
+            "norm_text": "B.휴대폰이요 전화를 걸면은 화면이 자꾸 꺼지거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+휴대폰/NNG+이/VCP+요/EC+전화/NNG+를/JKO+걸/VV+면은/EC+화면/NNG+이/JKS+자꾸/MAG+꺼지/VV+거든요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.전원이 꺼지는 게 아니라 화면이 꺼진다는 말씀이시구요",
+            "norm_text": "A.전원이 꺼지는 게 아니라 화면이 꺼진다는 말씀이시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전원/NNG+이/JKS+꺼지/VV+는/ETM+게/NNB+JKC+아니/VCN+라/EC+화면/NNG+이/JKS+꺼진다는/VV+EC+VX+ETM+말씀/NNG+이/VCP+시/EP+구요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.예 전화만 걸면 화면이 꺼져요",
+            "norm_text": "B.예 전화만 걸면 화면이 꺼져요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+전화/NNG+만/JX+걸/VV+면/EC+화면/NNG+이/JKS+꺼져/VV+EC+VX+EC+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "A.제가 그럼 내용을 한 번 확인해드리겠습니다",
+            "norm_text": "A.제가 그럼 내용을 한 번 확인해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+제/NP+가/JKS+그럼/MAJ+내용/NNG+을/JKO+한번/MAG+확인/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.사용하시는 전화번호랑 성함은 혹시 어떻게 되세요",
+            "norm_text": "A.사용하시는 전화번호랑 성함은 혹시 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+사용/NNG+하/XSV+시/EP+는/ETM+전화/NNG+번호/NNG+랑/JKB+성함/NNG+은/JX+혹시/MAG+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.#@전번#이구요 #@이름#입니다",
+            "norm_text": "B.#@전번#이구요 #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+이/VCP+구요/EF+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 정확한 상담 위해 성함 전화번호 제공에 동의해주시겠습니까",
+            "norm_text": "A.네 정확한 상담 위해 성함 전화번호 제공에 동의해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+정확/XR+한/XSA+ETM+상담/NNG+위해/VV+EC+성함/NNG+전화/NNG+번호/NNG+제공/NNG+에/JKB+동의/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.예 개인정보요 동의하겠습니다",
+            "norm_text": "B.예 개인정보요 동의하겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+개인/NNG+정보/NNG+요/VCP+EC+동의/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 수집이용 상세내역은 홈페이지 내에서 확인이 가능합니다",
+            "norm_text": "A.네 수집이용 상세내역은 홈페이지 내에서 확인이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+수집/NNG+이용상/NNP+세/MM+내역/NNG+은/JX+홈페이지/NNG+내/NNB+에서/JKB+확인/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.현재 사용 중이신 기종은 따로 등록 안 되어 있으신데 어떤 모델이세요",
+            "norm_text": "A.현재 사용 중이신 기종은 따로 등록 안 되어 있으신데 어떤 모델이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+현재/MAG+사용/NNG+중/NNB+이/VCP+신/EP+ETM+기종/NNG+은/JX+따로/MAG+등록/NNG+안/MAG+되/VV+어/EC+있/VX+으신데/EP+EP+EC+어떤/MM+모델/NNG+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.기종이요 지금 제가 쓰는 게 #@상품#이거든요",
+            "norm_text": "B.기종이요 지금 제가 쓰는 게 #@상품#이거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+기종/NNG+이/VCP+요/EC+지금/MAG+제/NP+가/JKS+쓰/VV+는/ETM+게/NNB+JKS+#/SY+@/SY+상품/NNG+#/SY+이/VCP+거든요/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.네 #@상품#이시고 제가 휴대폰 전문 상담사 연결 도와드리겠습니다",
+            "norm_text": "A.네 #@상품#이시고 제가 휴대폰 전문 상담사 연결 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+이/VCP+시/EP+고/EC+제/NP+가/JKS+휴대폰/NNG+전문/NNG+상/XSN+담사/NNG+연결/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.지금 바로 연결 도와드릴텐데 괜찮으실까요",
+            "norm_text": "A.지금 바로 연결 도와드릴텐데 괜찮으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+바로/MAG+연결/NNG+도와/VV+EC+드릴/VX+ETM+텐데/NNB+VCP+EC+괜찮/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 16,
+            "text": "B.네 그 분한테 얘기하면 되나요 연결 부탁드릴게요",
+            "norm_text": "B.네 그 분한테 얘기하면 되나요 연결 부탁드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+그분/NP+한테/JKB+얘기/NNG+하/XSV+면/EC+되/VV+나요/EC+연결/NNG+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.네 바로 연결하겠습니다",
+            "norm_text": "A.네 바로 연결하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+바로/MAG+연결/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 18,
+            "text": "A.즐거운 하루 되세요 고객님",
+            "norm_text": "A.즐거운 하루 되세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+되/XSV+세요/EP+EF+VCP+고/EC+객님/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

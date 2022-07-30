@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 6329,
+    "name": "c1_20210911_0005_0458_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340086754/c1_20210911_0005_0458_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340086754/c1_20210911_0005_0458_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10629,
+      "filename": "c1_20210819_0007_0013_01.txt",
+      "title": "c1_20210819_0007_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 637,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 637,
+        "word_size": 133,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.예 수고많으십니다 다름이 아니고요\nB.우편번호를 찾으려고 해도 없어가지고요 한 번 알아봐주시겠어요\nA.혹시 충남도청 우편번호이십니까\nB.아니요 강원도 군대 우편 번호인데요 아무리 해도 잘 안 나와가지고요\nA.혹시 어느 기관인지 말씀부탁드립니다\nB.주소는 강원도 #@주소#요\nA.네 혹시 사서함 번호 알고 계신가요\nB.네 사서함 번호 #@번호#요\nA.네 제가 확인 후 안내해드리겠습니다 선생님 정확한 부대명칭은 확인이 어려우신가요\nB.#@소속#으로 알고 있습니다\nA.#@소속#으로 확인 후 안내해드리겠습니다\nB.네 정말 감사합니다\nA.기다려주셔서 감사합니다 선생님 죄송하지만 말씀하신 부분만으로는 우편번호가 확인이 어렵습니다 번거로우시겠지만 우체국으로 문의를 주셔야 할 것 같습니다\nB.우체국으로 전화해야 되나요\nA.네 현재 인터넷에서는 말씀하신 주소가 등록이 되어 있지 않아 확인이 어렵습니다\nB.부대 보안 때문인가요\nA.아마 그런 것 같습니다 혹시 다른 문의사항 있으신가요\nB.그럼 우체국 콜센터는 몇 번이에요\nA.우체국 전화번호 확인하겠습니다 메모 가능하십니까\nB.그냥 말씀해주시면 될 거 같아요\nA.네 알겠습니다 #@전번#입니다\nB.네 여기 전화해볼게요 수고하세요\nA.네 감사합니다 #@소속# #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고많으십니다 다름이 아니고요",
+            "norm_text": "B.예 수고많으십니다 다름이 아니고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+많/VA+으십니다/EP+EP+EF+다름/VA+ETN+이/JKC+아니/VCN+고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.우편번호를 찾으려고 해도 없어가지고요 한 번 알아봐주시겠어요",
+            "norm_text": "B.우편번호를 찾으려고 해도 없어가지고요 한 번 알아봐주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+우편번호/NNP+를/JKO+찾/VV+으려고/EC+해도/VV+EC+없/VA+어/EC+가지/VX+고요/EF+한번/MAG+알아봐/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.혹시 충남도청 우편번호이십니까",
+            "norm_text": "A.혹시 충남도청 우편번호이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+충남/NNP+도청/NNP+우편번호/NNP+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.아니요 강원도 군대 우편 번호인데요 아무리 해도 잘 안 나와가지고요",
+            "norm_text": "B.아니요 강원도 군대 우편 번호인데요 아무리 해도 잘 안 나와가지고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+강원도/NNP+군대/NNG+우편/NNG+번호/NNG+인데요/VCP+EF+아무리/MAG+해도/VV+EC+잘/MAG+안/MAG+나와/VV+EC+가지/VX+고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.혹시 어느 기관인지 말씀부탁드립니다",
+            "norm_text": "A.혹시 어느 기관인지 말씀부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+혹시/MAG+어느/MM+기관/NNG+인지/VCP+EC+말씀/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.주소는 강원도 #@주소#요",
+            "norm_text": "B.주소는 강원도 #@주소#요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+주소/NNG+는/JX+강원도/NNP+#/SY+@/SY+주소/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 혹시 사서함 번호 알고 계신가요",
+            "norm_text": "A.네 혹시 사서함 번호 알고 계신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+혹시/MAG+사서함/NNG+번호/NNG+알/VV+고/EC+계신/VX+ETM+가요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "B.네 사서함 번호 #@번호#요",
+            "norm_text": "B.네 사서함 번호 #@번호#요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+사서함/NNG+번호/NNG+#/SY+@/SY+번호/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 제가 확인 후 안내해드리겠습니다 선생님 정확한 부대명칭은 확인이 어려우신가요",
+            "norm_text": "A.선생님 정확한 부대 명칭은 확인이 어려우신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+정확/XR+한/XSA+ETM+부대/NNG+명칭/NNG+은/JX+확인/NNG+이/JKS+어려우신가요/VA+EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.#@소속#으로 알고 있습니다",
+            "norm_text": "B.#@소속#으로 알고 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+알/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.#@소속#으로 확인 후 안내해드리겠습니다",
+            "norm_text": "A.#@소속#으로 확인 후 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.네 정말 감사합니다",
+            "norm_text": "B.네 정말 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+정말/MAG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.기다려주셔서 감사합니다 선생님 죄송하지만 말씀하신 부분만으로는 우편번호가 확인이 어렵습니다 번거로우시겠지만 우체국으로 문의를 주셔야 할 것 같습니다",
+            "norm_text": "A.우편번호가 확인이 어렵습니다 번거로우시겠지만 우체국으로 문의를 해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+선생/NNG+님/XSN+죄송/XR+하/XSA+지만/EC+말씀/NNG+하/XSV+신/EP+ETM+부분/NNG+만/JX+으로/JKB+는/JX+우편번호/NNP+가/JKS+확인/NNG+이/JKS+어렵/VA+습니다/EF+번거로우/VA+시/EP+겠/EP+지만/EC+우체국/NNG+으로/JKB+문의/NNG+를/JKO+주/VV+셔야/EP+EC+할/VX+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.우체국으로 전화해야 되나요",
+            "norm_text": "B.우체국으로 전화해야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+우체국/NNG+으로/JKB+전화/NNG+해야/XSV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 현재 인터넷에서는 말씀하신 주소가 등록이 되어 있지 않아 확인이 어렵습니다",
+            "norm_text": "A.네 현재 인터넷에서는 말씀하신 주소가 등록이 되어 있지 않아 확인이 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+현재/MAG+인터넷/NNG+에서/JKB+는/JX+말씀/NNG+하/XSV+신/EP+ETM+주소/NNG+가/JKS+등록/NNG+이/JKS+되/VV+어/EC+있/VX+지/EC+않/VX+아/EC+확인/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 17,
+            "text": "B.부대 보안 때문인가요",
+            "norm_text": "B.부대 보안 때문인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+부대/NNG+보안/NNG+때문/NNB+인가요/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "A.아마 그런 것 같습니다 혹시 다른 문의사항 있으신가요",
+            "norm_text": "A.아마 그런 것 같습니다 혹시 다른 문의사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+아마/MAG+그런/MM+것/NNB+같/VA+습니다/EF+혹시/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 19,
+            "text": "B.그럼 우체국 콜센터는 몇 번이에요",
+            "norm_text": "B.그럼 우체국 콜센터는 몇 번이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+우체국/NNG+콜/NNG+센터/NNG+는/JX+몇/MM+번/NNBC+이/VCP+에요/EF"
+          },
+          {
+            "id": 20,
+            "text": "A.우체국 전화번호 확인하겠습니다 메모 가능하십니까",
+            "norm_text": "A.우체국 전화번호 확인하겠습니다 메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+우체국/NNG+전화/NNG+번호/NNG+확인/NNG+하/XSV+겠/EP+습니다/EF+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 21,
+            "text": "B.그냥 말씀해주시면 될 거 같아요",
+            "norm_text": "B.그냥 말씀해주시면 될 거 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그냥/MAG+말씀/NNG+해/XSV+EC+주/VX+시/EP+면/EC+될/VV+ETM+거/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 22,
+            "text": "A.네 알겠습니다 #@전번#입니다",
+            "norm_text": "A.네 알겠습니다 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 23,
+            "text": "B.네 여기 전화해볼게요 수고하세요",
+            "norm_text": "B.네 여기 전화해볼게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+여기/NP+전화/NNG+해/XSV+EC+볼게요/VX+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 24,
+            "text": "A.네 감사합니다 #@소속# #@이름#였습니다",
+            "norm_text": "A.네 감사합니다 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

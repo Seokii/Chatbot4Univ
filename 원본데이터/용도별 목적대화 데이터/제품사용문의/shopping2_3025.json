@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 123002,
+    "name": "s2_20211108_0001_4757_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110642062596/s2_20211108_0001_4757_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110642062596/s2_20211108_0001_4757_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115100,
+      "filename": "s2_20211001_0025_0010_01.txt",
+      "title": "s2_20211001_0025_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 314,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 314,
+        "word_size": 64,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 궁금한 게 있어서 연락드립니다\nA.네 무엇을 도와드릴까요\nB.#@소속# 인터넷전화에서 와이파이 연결방법이 궁금합니다\nA.먼저 댁내 와이파이 장비의 전원과 인터넷 신호가 정상인지 확인해 주시고요\nA.인터넷전화에서 무선 연결 메뉴를 선택하고 신호를 검색해주세요\nB.네 했어요 그 다음은요\nA.검색된 목록에서 처음에 확인한 와이파이의 아이디를 선택하고 비번을 입력하고요\nA.액정화면 상단에 통화가능 표시가 뜸녀 정상적으로 연결 완료된 상태에요\nB.친절한 안내 감사합니다\nA.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 궁금한 게 있어서 연락드립니다",
+            "norm_text": "B.안녕하세요 궁금한 게 있어서 연락드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어서/EC+연락/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 무엇을 도와드릴까요",
+            "norm_text": "A.네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속# 인터넷전화에서 와이파이 연결방법이 궁금합니다",
+            "norm_text": "B.#@소속# 인터넷전화에서 와이파이 연결방법이 궁금합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+인터넷/NNG+전화/NNG+에서/JKB+와이파이/NNP+연결/NNG+방법/NNG+이/JKS+궁금/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.먼저 댁내 와이파이 장비의 전원과 인터넷 신호가 정상인지 확인해 주시고요",
+            "norm_text": "A.먼저 댁내 와이파이 장비의 전원과 인터넷 신호가 정상인지 확인해 주시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+먼저/MAG+댁내/NNG+와/JC+이/MM+파이/NNG+장비/NNG+의/JKG+전원/NNG+과/JC+인터넷/NNG+신호/NNG+가/JKS+정상/NNG+인지/VCP+EC+확인/NNG+해/XSV+EC+주/VX+시/EP+고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.인터넷전화에서 무선 연결 메뉴를 선택하고 신호를 검색해주세요",
+            "norm_text": "A.인터넷전화에서 무선 연결 메뉴를 선택하고 신호를 검색해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+인터넷/NNG+전화/NNG+에서/JKB+무선/NNG+연결/NNG+메뉴/NNG+를/JKO+선택/NNG+하/XSV+고/EC+신호/NNG+를/JKO+검색/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.네 했어요 그 다음은요",
+            "norm_text": "B.네 했어요 그 다음은요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+했/VV+EP+어요/EF+그/MM+다음/NNG+은/JX+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.검색된 목록에서 처음에 확인한 와이파이의 아이디를 선택하고 비번을 입력하고요",
+            "norm_text": "A.검색된 목록에서 처음에 확인한 와이파이의 아이디를 선택하고 비번을 입력하고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+검색/NNG+된/XSV+ETM+목록/NNG+에서/JKB+처음/NNG+에/JKB+확인/NNG+한/XSA+ETM+와이파이/NNP+의/JKG+아이디/NNG+를/JKO+선택/NNG+하/XSV+고/EC+비번/NNG+을/JKO+입력/NNG+하/XSV+고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.액정화면 상단에 통화가능 표시가 뜸녀 정상적으로 연결 완료된 상태에요",
+            "norm_text": "A.액정화면 상단에 통화가능 표시가 뜸녀 정상적으로 연결 완료된 상태에요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+액정/NNG+화면/NNG+상단/NNG+에/JKB+통화/NNG+가능/NNG+표시/NNG+가/JKS+뜸/NNG+녀/NNG+정상/NNG+적/XSN+으로/JKB+연결/NNG+완료/NNG+된/XSV+ETM+상태/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "B.친절한 안내 감사합니다",
+            "norm_text": "B.친절한 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+            "norm_text": "A.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

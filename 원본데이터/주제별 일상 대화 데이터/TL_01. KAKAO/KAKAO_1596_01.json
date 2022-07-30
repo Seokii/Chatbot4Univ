@@ -1,0 +1,539 @@
+{
+  "dataset": {
+    "identifier": 100902,
+    "name": "KAKAO_1596_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/77/txt20211025161230074727/KAKAO_1596_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/77/txt20211025161230074727/KAKAO_1596_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 89976,
+      "filename": "KAKAO_1596_01.txt",
+      "title": "KAKAO_1596_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-25",
+      "size": 738,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "다자간 대화",
+        "size": 738,
+        "word_size": 263,
+        "text": "1 : 안녕, 잘 쉬고 있니?\n1 : 주말인데 점심 메뉴 뭐야?\n1 : 뭐 먹어?\n2 : 나는 치킨 먹을 꺼야\n2 : 어제 밤에 먹고 싶은 거 참고 잤어 ㅜㅜ\n3 : 치킨은 못 참는데 참은 게 대단 키키\n3 : 치킨은 밤에 먹어야 하는데 키키\n1 : 치킨은 언제 먹어도 맛있어서 괜찮아 키키\n2 : 맞아!\n2 : 이미 치킨 주문 했지 키키\n3 : 빠르네 키키\n3 : 어디 치킨 시켰어?\n1 : 난 교촌치킨이 제일 맛있던데 키키\n2 : 나는 다사랑 양념 치킨이 제일 좋아 키키\n3 : 맞아\n3 : 둘 다 맛있지 ㅜㅜ\n3 : 나도 다사랑 양념 치킨이 더 좋아 키키\n1 : 다사랑 치킨 양념은 뭔가 중독성이 있어 키키\n2 : 응 그래서 매운데 계속 먹게 돼 ㅜㅜ\n3 : 나도 키키\n3 : 아 생각하니 치킨 먹고 싶네\n1 : 키키 나도\n1 : 점심 먹어야 하는데 메뉴를 못 정했어 ㅠㅠ\n2 : 칼국수 어때?\n2 : 어제 칼국수도 먹고 싶었어 ㅜㅜ\n3 : 지금 날씨에 딱이지 칼국수 키키\n1 : 그럴까\n1 : 칼국수나 먹으러 가볼까?\n2 : 응 키키 점심에 간단히 칼국수 먹어 키키\n3 : 나도 같이 가자 칼국수 먹으러!\n1 : 그래 그럼 키키\n1 : 칼국수 어디가 맛있지 ㅠㅠ\n2 : 칼국수는 시장에 있는 칼국수 집이 짱이지 키키\n3 : 맞아\n3 : 어디든 시장 음식이 맛있어 키키\n1 : 그럼 시장으로 가봐야겠다 키키\n1 : 준비해 데리러 갈께 키키\n2 : 맛있겠다 ㅜㅜ\n2 : 나 대신 맛있게 먹고 와!\n2 : 그리고 다음엔 나도 데려가 ㅠㅠ\n3 : 응 키키 준비하고 있을께\n3 : 오면 연락해!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 안녕, 잘 쉬고 있니?",
+            "norm_text": "안녕, 잘 쉬고 있니?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "안녕/IC+,/SC+잘/MAG+쉬/VV+고/EC+있/VX+니/EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 주말인데 점심 메뉴 뭐야?",
+            "norm_text": "주말인데 점심 메뉴 뭐야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "주말/NNG+인데/VCP+EC+점심/NNG+메뉴/NNG+뭐/NP+야/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 뭐 먹어?",
+            "norm_text": "뭐 먹어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/IC+먹/VV+어/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 나는 치킨 먹을 꺼야",
+            "norm_text": "나는 치킨 먹을 꺼야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+치킨/VV+ETM+먹/NNG+을/JKO+꺼야/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 어제 밤에 먹고 싶은 거 참고 잤어 ㅜㅜ",
+            "norm_text": "어제 밤에 먹고 싶은 거 참고 잤어 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/MAG+밤/NNG+에/JKB+먹/VV+고/EC+싶/VX+은/ETM+거/NNB+참/VV+고/EC+잤/VV+EP+어/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "3 : 치킨은 못 참는데 참은 게 대단 키키",
+            "norm_text": "치킨은 못 참는데 참은 게 대단 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "치킨/NNG+은/JX+못/MAG+참/VV+는데/EC+참/VV+은/ETM+게/NNB+JKS+대단/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "3 : 치킨은 밤에 먹어야 하는데 키키",
+            "norm_text": "치킨은 밤에 먹어야 하는데 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "치킨/NNG+은/JX+밤/NNG+에/JKB+먹/VV+어야/EC+하/VV+는데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 8,
+            "text": "1 : 치킨은 언제 먹어도 맛있어서 괜찮아 키키",
+            "norm_text": "치킨은 언제 먹어도 맛있어서 괜찮아 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "치킨/NNG+은/JX+언제/MAG+먹/VV+어도/EC+맛있/VA+어서/EC+괜찮/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "2 : 맞아!",
+            "norm_text": "맞아!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 이미 치킨 주문 했지 키키",
+            "norm_text": "이미 치킨 주문 했지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이미/MAG+치킨/VV+ETM+주문/NNG+했/XSV+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 11,
+            "text": "3 : 빠르네 키키",
+            "norm_text": "빠르네 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "빠르/VA+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 12,
+            "text": "3 : 어디 치킨 시켰어?",
+            "norm_text": "어디 치킨 시켰어?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어디/NP+치킨/NNG+시켰/XSV+EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 난 교촌치킨이 제일 맛있던데 키키",
+            "norm_text": "난 교촌치킨이 제일 맛있던데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+교촌/NNG+치킨/NNG+이/JKS+제일/MAG+맛있/VA+던데/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 나는 다사랑 양념 치킨이 제일 좋아 키키",
+            "norm_text": "나는 다사랑 양념 치킨이 제일 좋아 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+다사랑/NNP+양념치킨/NNP+이/JKS+제일/MAG+좋/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "3 : 맞아",
+            "norm_text": "맞아",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC"
+          },
+          {
+            "id": 16,
+            "text": "3 : 둘 다 맛있지 ㅜㅜ",
+            "norm_text": "둘 다 맛있지 ㅜㅜ",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "둘다맛있지ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "3 : 나도 다사랑 양념 치킨이 더 좋아 키키",
+            "norm_text": "나도 다사랑 양념 치킨이 더 좋아 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+다/MAG+사랑/NNG+양념치킨/NNP+이/JKS+더/MAG+좋/VA+아/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 18,
+            "text": "1 : 다사랑 치킨 양념은 뭔가 중독성이 있어 키키",
+            "norm_text": "다사랑 치킨 양념은 뭔가 중독성이 있어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다/MAG+사랑/NNG+치킨/NNG+양념/NNG+은/JX+뭔가/NP+VCP+EC+중독/NNG+성/XSN+이/JKS+있/VV+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 응 그래서 매운데 계속 먹게 돼 ㅜㅜ",
+            "norm_text": "응 그래서 매운데 계속 먹게 돼 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+그래서/MAJ+매운데/VA+EC+계속/MAG+먹/VV+게/EC+돼/VV+EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "3 : 나도 키키",
+            "norm_text": "나도 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 21,
+            "text": "3 : 아 생각하니 치킨 먹고 싶네",
+            "norm_text": "아 생각하니 치킨 먹고 싶네",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+생각/NNG+하/XSV+니/EC+치킨/NNG+먹/VV+고/EC+싶/VX+네/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 키키 나도",
+            "norm_text": "키키 나도",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX"
+          },
+          {
+            "id": 23,
+            "text": "1 : 점심 먹어야 하는데 메뉴를 못 정했어 ㅠㅠ",
+            "norm_text": "점심 먹어야 하는데 메뉴를 못 정했어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "점심/NNG+먹/VV+어야/EC+하/VV+는데/EC+메뉴/NNG+를/JKO+못/MAG+정했/VV+EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 칼국수 어때?",
+            "norm_text": "칼국수 어때?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "칼국수/NNG+어때/VA+EF"
+          },
+          {
+            "id": 25,
+            "text": "2 : 어제 칼국수도 먹고 싶었어 ㅜㅜ",
+            "norm_text": "어제 칼국수도 먹고 싶었어 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/MAG+칼국수/NNG+도/JX+먹/VV+고/EC+싶/VX+었/EP+어/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 26,
+            "text": "3 : 지금 날씨에 딱이지 칼국수 키키",
+            "norm_text": "지금 날씨에 딱이지 칼국수 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "지금/MAG+날씨/NNG+에/JKB+딱/MAG+이/VCP+지/EC+칼국수/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 27,
+            "text": "1 : 그럴까",
+            "norm_text": "그럴까",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럴까/VA+EC"
+          },
+          {
+            "id": 28,
+            "text": "1 : 칼국수나 먹으러 가볼까?",
+            "norm_text": "칼국수나 먹으러 가볼까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "칼국수/NNG+나/JX+먹/VV+으러/EC+가/JX+볼까/VX+EF"
+          },
+          {
+            "id": 29,
+            "text": "2 : 응 키키 점심에 간단히 칼국수 먹어 키키",
+            "norm_text": "응 키키 점심에 간단히 칼국수 먹어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+점심/NNG+에/JKB+간단히/MAG+칼국수/NNG+먹/VV+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 30,
+            "text": "3 : 나도 같이 가자 칼국수 먹으러!",
+            "norm_text": "나도 같이 가자 칼국수 먹으러!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+같이/MAG+가/VV+자/EC+칼국수/NNG+먹/VV+으러/EC"
+          },
+          {
+            "id": 31,
+            "text": "1 : 그래 그럼 키키",
+            "norm_text": "그래 그럼 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+그럼/MAJ+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 32,
+            "text": "1 : 칼국수 어디가 맛있지 ㅠㅠ",
+            "norm_text": "칼국수 어디가 맛있지 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "칼국수/NNG+어디/NP+가/JKS+맛있/VA+지/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 33,
+            "text": "2 : 칼국수는 시장에 있는 칼국수 집이 짱이지 키키",
+            "norm_text": "칼국수는 시장에 있는 칼국수 집이 짱이지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "칼국수/NNG+는/JX+시장/NNG+에/JKB+있/VV+는/ETM+칼국수/NNG+집/NNG+이/JKS+짱/NNG+이/VCP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 34,
+            "text": "3 : 맞아",
+            "norm_text": "맞아",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC"
+          },
+          {
+            "id": 35,
+            "text": "3 : 어디든 시장 음식이 맛있어 키키",
+            "norm_text": "어디든 시장 음식이 맛있어 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어디/NP+든/VCP+EC+시장/NNG+음식/NNG+이/JKS+맛있/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 36,
+            "text": "1 : 그럼 시장으로 가봐야겠다 키키",
+            "norm_text": "그럼 시장으로 가봐야겠다 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그럼/MAJ+시장/NNG+으로/JKB+가/VV+봐야/EC+VX+EC+VX+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 37,
+            "text": "1 : 준비해 데리러 갈께 키키",
+            "norm_text": "준비해 데리러 갈께 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "준비/NNG+해/XSV+EC+데리/VV+러/EC+갈께/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 38,
+            "text": "2 : 맛있겠다 ㅜㅜ",
+            "norm_text": "맛있겠다 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맛있/VA+겠/EP+다/EF+ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 39,
+            "text": "2 : 나 대신 맛있게 먹고 와!",
+            "norm_text": "나 대신 맛있게 먹고 와!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+대신/NNG+맛있/VA+게/EC+먹/VV+고/EC+와/VX+EF"
+          },
+          {
+            "id": 40,
+            "text": "2 : 그리고 다음엔 나도 데려가 ㅠㅠ",
+            "norm_text": "그리고 다음엔 나도 데려가 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그리고/MAJ+다음/NNG+엔/JKB+JX+나/NP+도/JX+데려가/VV+EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 41,
+            "text": "3 : 응 키키 준비하고 있을께",
+            "norm_text": "응 키키 준비하고 있을께",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/NNG+준비/NNG+하/XSV+고/EC+있/VX+을께/EC"
+          },
+          {
+            "id": 42,
+            "text": "3 : 오면 연락해!",
+            "norm_text": "오면 연락해!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/VV+면/EC+연락/NNG+해/XSV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

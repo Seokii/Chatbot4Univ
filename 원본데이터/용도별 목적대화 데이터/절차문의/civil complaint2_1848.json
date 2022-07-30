@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 45408,
+    "name": "c2_20211014_0005_0260_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130950025040/c2_20211014_0005_0260_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130950025040/c2_20211014_0005_0260_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 52826,
+      "filename": "c2_20210924_0022_0001_01.txt",
+      "title": "c2_20210924_0022_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 433,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 433,
+        "word_size": 106,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.예 안녕하세요 제가 질문 사항이 있어서 전화드렸습니다\nA.네 여쭤보시고 싶은 게 있으신가요\nB.전산망으로 선박 입출항 신고시 올바른 신고 순서 좀 알려주실 수 있나요\nA.디 이 아이로 입출항 신고 순서 말씀하시는 거 맞으신가요\nB.맞아요 줄여서 뭐라고 했었는데 맞네요\nA.예 우선 선박 입항 신고 후 항만 시설 사용 허가신청을 해주셔야합니다\nB.거기까지가 신고의 끝인가요\nA.아니요 허가 신청을 하시고 선박 출항 신고 후 화물이 있을 경우 화물 반출입 신고도 해주셔야해요\nB.그렇구나 저는 화물은 없으니 괜찮겠네요 혹시 항만 시설 사용 시에는요\nA.네 다음으로 항만 시설 사용 신고 까지 이렇게 순서대로 작성하셔서 전송해주시면 됩니다\nB.그렇군요 알겠습니다 다른 질문 사항 생기면 또 연락 드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 안녕하세요 제가 질문 사항이 있어서 전화드렸습니다",
+            "norm_text": "B.예 안녕하세요 제가 질문 사항이 있어서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 여쭤보시고 싶은 게 있으신가요",
+            "norm_text": "A.네 여쭤보시고 싶은 게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.전산망으로 선박 입출항 신고시 올바른 신고 순서 좀 알려주실 수 있나요",
+            "norm_text": "B.전산망으로 선박 입출항 신고 시 바른 신고 순서 알려주실 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+전산망/NNG+으로/JKB+선박/NNG+입출/NNG+항/XSA+ETM+신/XPN+고시/NNG+바른/VA+ETM+신고/NNG+순서/NNG+알려/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.디 이 아이로 입출항 신고 순서 말씀하시는 거 맞으신가요",
+            "norm_text": "A.디 이 아이로 입출항 신고 순서 말씀하시는 거 맞으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+디이/EC+아이/NNG+로/JKB+입출/NNG+항/XSA+ETM+신고/NNG+순서/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+맞/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 6,
+            "text": "B.맞아요 줄여서 뭐라고 했었는데 맞네요",
+            "norm_text": "B.맞아요 줄여서 뭐라고 했었는데 맞네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맞/VV+아요/EF+줄여서/VV+EC+뭐/NP+라고/VCP+EC+했었/VX+EP+는데/EC+맞/VV+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.예 우선 선박 입항 신고 후 항만 시설 사용 허가신청을 해주셔야합니다",
+            "norm_text": "A.예 선박 입항 신고 후 항만 시설 사용 허가 신청을 해 주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+선박/NNG+입항/NNG+신고/NNG+후항/NNG+만/JX+시설/NNG+사용/NNG+허가/NNG+신청/NNG+을/JKO+해/VV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.거기까지가 신고의 끝인가요",
+            "norm_text": "B.거기까지가 신고의 끝인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+거기/NP+까지/JX+가/JKS+신고/NNG+의/JKG+끝/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.아니요 허가 신청을 하시고 선박 출항 신고 후 화물이 있을 경우 화물 반출입 신고도 해주셔야해요",
+            "norm_text": "A.허가 신청 뒤 선박 출항 신고 후 화물 반출입 신고도 해야 해요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+허가/NNG+신청/NNG+뒤/NNG+선박/NNG+출항/NNG+신고/NNG+후/NNG+화물/NNG+반/NNG+출입/NNG+신고/NNG+도/JX+해야/VV+EC+해요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그렇구나 저는 화물은 없으니 괜찮겠네요 혹시 항만 시설 사용 시에는요",
+            "norm_text": "B.그렇구나 화물은 없으니 괜찮겠네요 혹시 항만 시설 사용 시에는요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+구나/EF+화물/NNG+은/JX+없/VA+으니/EC+괜찮/VA+겠/EP+네요/EF+혹시/MAG+항만/NNG+시설/NNG+사용/NNG+시/NNB+에/JKB+는/JX+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.네 다음으로 항만 시설 사용 신고 까지 이렇게 순서대로 작성하셔서 전송해주시면 됩니다",
+            "norm_text": "A.항만 시설 사용 신고까지 이렇게 순서대로 작성하셔서 전송하면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+항만/NNG+시설/NNG+사용/NNG+신고/NNG+까지/JX+이렇게/MAG+순서/NNG+대로/JX+작성/NNG+하/XSV+셔서/EP+EC+전송/NNG+하/XSV+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그렇군요 알겠습니다 다른 질문 사항 생기면 또 연락 드릴게요",
+            "norm_text": "B.그렇군요 알겠습니다 다른 질문 사항 생기면 또 연락드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF+다른/MM+질문/NNG+사항/NNG+생기/VV+면/EC+또/MAG+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

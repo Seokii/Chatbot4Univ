@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 13439,
+    "name": "c2_20210914_0012_0228_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt202109081515320204108/c2_20210914_0012_0228_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt202109081515320204108/c2_20210914_0012_0228_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 15518,
+      "filename": "c4_20210818_0005_0009_01.txt",
+      "title": "c4_20210818_0005_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 526,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 526,
+        "word_size": 130,
+        "text": "A.반갑습니다 #@소속# 콜센터 #@이름#입니다 무엇을 도와드릴까요\nB.네 안녕하세요 여기는 #@소속#인데요\nB.저희한테 장애 신고 들어온 게 있어서 문의 전화를 드렸어요\nA.네 어떤 장애 신고이십니까\nB.전화번호가 일단 전화번호 좀 알려드릴게요 #@전번#이고요\nB.이 번호로 전화를 걸면 아무 소리도 안나는 지금 현상이 나오거든요\nB.근데 이 번호에 저희 쪽 매개 번호로 이게 또 착신 전환이 돼 있어요\nB.다른 번호로 그 번호로 전화를 하면 정상적으로 통화가 이루어지는데요\nB.금방 불러드린 번호로 전화를 하면 안 되는 현상이에요\nB.그래서 이 번호로 전화 했을 때 저희 쪽으로 들어오지가 않거든요\nB.그래서 그거 좀 확인 좀 할려고 전화를 드렸어요\nA.네 선생님께서 문의 주신 부분 답변할 수 있는 기관 확인 후 안내해드리겠습니다\nA.잠시만 기다려 주시겠습니까 네 선생님 오래 기다리게 해드려 죄송합니다\nA.선생님 문의 주신 부분 저희 쪽 저희 쪽에서는 답변을 드리기 어렵고요\nA.전화국 쪽으로 문의를 해보시는 것이 좋으실 듯 합니다\nB.네 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 콜센터 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# 콜센터 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+콜/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 여기는 #@소속#인데요",
+            "norm_text": "B.네 안녕하세요 여기는 #@소속#인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+여기/NP+는/JX+#/SY+@/SY+소속/NNG+#/SY+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.저희한테 장애 신고 들어온 게 있어서 문의 전화를 드렸어요",
+            "norm_text": "B.저희한테 장애 신고 들어온 게 있어서 문의 전화를 드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+한테/JKB+장애/NNG+신고/NNG+들어온/VV+ETM+게/NNB+JKS+있/VA+어서/EC+문/NNG+의/JKG+전화/NNG+를/JKO+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.네 어떤 장애 신고이십니까",
+            "norm_text": "A.네 어떤 장애 신고이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+장애/NNG+신고/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.전화번호가 일단 전화번호 좀 알려드릴게요 #@전번#이고요",
+            "norm_text": "B.전화번호가 일단 전화번호 좀 알려드릴게요 #@전번#이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+전화/NNG+번호/NNG+가/JKS+일단/MAG+전화/NNG+번호/NNG+좀/MAG+알려/VV+EC+드릴게요/VX+EC+#/SY+@/SY+전번/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.이 번호로 전화를 걸면 아무 소리도 안나는 지금 현상이 나오거든요",
+            "norm_text": "B.이 번호로 전화를 걸면 아무 소리도 안나는 지금 현상이 나오거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이/MM+번호/NNG+로/JKB+전화/NNG+를/JKO+걸/VV+면/EC+아무/MM+소리/NNG+도/JX+안/MAG+나/VV+는/ETM+지금/NNG+현상/NNG+이/JKS+나오/VV+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.근데 이 번호에 저희 쪽 매개 번호로 이게 또 착신 전환이 돼 있어요",
+            "norm_text": "B.근데 이 번호에 저희 쪽 매개 번호로 이게 또 착신 전환이 돼 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+근데/MAJ+이/MM+번호/NNG+에/JKB+저희/NP+쪽/NNB+매개/NNG+번호/NNG+로/JKB+이게/NP+JKS+또/MAG+착신/NNG+전환/NNG+이/JKS+돼/VV+EC+있/VX+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.다른 번호로 그 번호로 전화를 하면 정상적으로 통화가 이루어지는데요",
+            "norm_text": "B.다른 번호로 그 번호로 전화를 하면 정상적으로 통화가 이루어지는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+다른/MM+번호/NNG+로/JKB+그/MM+번호/NNG+로/JKB+전화/NNG+를/JKO+하/VV+면/EC+정상/NNG+적/XSN+으로/JKB+통화/NNG+가/JKS+이루/VV+어/EC+지/VX+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.금방 불러드린 번호로 전화를 하면 안 되는 현상이에요",
+            "norm_text": "B.금방 불러드린 번호로 전화를 하면 안 되는 현상이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+금방/MAG+불러/VV+EC+드린/VX+ETM+번호/NNG+로/JKB+전화/NNG+를/JKO+하/VV+면/EC+안/MAG+되/VV+는/ETM+현상/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그래서 이 번호로 전화 했을 때 저희 쪽으로 들어오지가 않거든요",
+            "norm_text": "B.그래서 이 번호로 전화 했을 때 저희 쪽으로 들어오지가 않거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래서/MAJ+이/MM+번호/NNG+로/JKB+전화/NNG+했/XSV+EP+을/ETM+때/NNG+저희/NP+쪽/NNB+으로/JKB+들어오/VV+지/EC+가/JX+않/VX+거든요/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그래서 그거 좀 확인 좀 할려고 전화를 드렸어요",
+            "norm_text": "B.그래서 그거 좀 확인 좀 할려고 전화를 드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래서/MAJ+그거/NP+좀/MAG+확인/NNG+좀/MAG+할려고/VV+EC+전화/NNG+를/JKO+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.네 선생님께서 문의 주신 부분 답변할 수 있는 기관 확인 후 안내해드리겠습니다",
+            "norm_text": "A.네 선생님께서 문의 주신 부분 답변할 수 있는 기관 확인 후 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+께서/JKS+문/NNG+의/JKG+주신/NNG+부분/NNG+답변/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+기관/NNG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.잠시만 기다려 주시겠습니까 네 선생님 오래 기다리게 해드려 죄송합니다",
+            "norm_text": "A.잠시만 기다려 주시겠습니까 네 선생님 오래 기다리게 해드려 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EF+네/IC+선생/NNG+님/XSN+오래/MAG+기다리/VV+게/EC+해드려/VV+EC+VX+EC+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.선생님 문의 주신 부분 저희 쪽 저희 쪽에서는 답변을 드리기 어렵고요",
+            "norm_text": "A.선생님 문의 주신 부분 저희 쪽 저희 쪽에서는 답변을 드리기 어렵고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+문/NNG+의/JKG+주신/NNG+부분/NNG+저희/NP+쪽/NNB+저희/NP+쪽/NNB+에서/JKB+는/JX+답변/NNG+을/JKO+드리/VV+기/ETN+어렵/VA+고요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.전화국 쪽으로 문의를 해보시는 것이 좋으실 듯 합니다",
+            "norm_text": "A.전화국 쪽으로 문의를 해보시는 것이 좋으실 듯 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+전화국/NNG+쪽/NNB+으로/JKB+문의/NNG+를/JKO+해/VV+EC+보/VX+시/EP+는/ETM+것/NNB+이/JKS+좋/VA+으실/EP+ETM+듯/NNB+합니다/XSA+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

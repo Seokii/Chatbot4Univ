@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 12966,
+    "name": "c1_20210913_0005_1014_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151336043671/c1_20210913_0005_1014_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151336043671/c1_20210913_0005_1014_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 9979,
+      "filename": "c1_20210817_0018_0006_01.txt",
+      "title": "c1_20210817_0018_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 571,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 571,
+        "word_size": 120,
+        "text": "A.안녕하세요 #@소속# 콜센터 #@이름#입니다\nB.네 여보세요 안녕하세요\nA.네 주무관님 실례지만 한 가지 여쭙고자 연락드렸습니다\nB.예 말씀하세요\nA.민원인님께서 국가기술자격증 중 소방설비기사자격증이 #@소속# 소관으로 확인이 된다고 전달 받았습니다\nA.그래서 도청에 발급담당 부서를 문의주셨는데 혹시 #@소속#에서 담당하는 부분이십니까\nB.해당 자격증 발급은 본부에서 하지 않습니다\nA.그렇다면 혹시 자격증은 어느 곳에서 발급하는지 알 수 있을까요\nB.우리 국가 #@소속#에서 발급합니다\nA.예 #@소속#에서 발급하는 거군요\nB.예 맞습니다\nB.그런데 이제 국가기술자격은 #@소속#에서 하는 게 아니고 해당 소속이나 국가기술자격증 소속에서 하죠\nA.민원님께서 자격증 이제 발급 업무만 보시면 된다고 말씀해주셨는데요\nA.정확히 어느 부서로 안내를 해 드려야 하는지 해서요\nB.민원님께 해당 자격증이 국가기술자격인 것인지 아니면 저희 소방기술인정자격인 것인지 확인해야 할 것 같습니다\nA.해당 자격증은 국가기술자격증이라고 하셨습니다\nB.그렇다면 #@소속# 또는 #@소속#에 자격증 관련 문의를 하셔야 될 것 같습니다\nA.네 알겠습니다 확인 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 콜센터 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 콜센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+콜/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 여보세요 안녕하세요",
+            "norm_text": "B.네 여보세요 안녕하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+여보세요/IC+안녕/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 주무관님 실례지만 한 가지 여쭙고자 연락드렸습니다",
+            "norm_text": "A.네 주무관님 실례지만 한 가지 여쭙고자 연락드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+주무관/NNG+님/XSN+실례/NNG+지만/VCP+EC+한/MM+가지/NNBC+여쭙/VV+고/EC+자연/NNG+락/VCP+EC+드렸/VX+EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.예 말씀하세요",
+            "norm_text": "B.예 말씀하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.민원인님께서 국가기술자격증 중 소방설비기사자격증이 #@소속# 소관으로 확인이 된다고 전달 받았습니다",
+            "norm_text": "A.민원인님께서 소방설비기사자격증이 #@소속#소관으로 확인이 된다고 하는대요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+민원인/NNG+님/XSN+께서/JKS+소방/NNG+설비/NNG+기사/NNG+자격증/NNG+이/JKS+#/SY+@/SY+소속/NNG+#/SY+소관/NNG+으로/JKB+확인/NNG+이/JKS+된다고/VV+EC+하/VV+는대요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.그래서 도청에 발급담당 부서를 문의주셨는데 혹시 #@소속#에서 담당하는 부분이십니까",
+            "norm_text": "A.혹시 #@소속#에서 담당하는 부분이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+담당/NNG+하/XSV+는/ETM+부분/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.해당 자격증 발급은 본부에서 하지 않습니다",
+            "norm_text": "B.해당 자격증 발급은 본부에서 하지 않습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+해당/NNG+자격증/NNG+발급/NNG+은/JX+본부/NNG+에서/JKB+하/VV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.그렇다면 혹시 자격증은 어느 곳에서 발급하는지 알 수 있을까요",
+            "norm_text": "A.그렇다면 혹시 자격증은 어느 곳에서 발급하는지 알 수 있을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그렇/VA+다면/EC+혹시/MAG+자격증/NNG+은/JX+어느/MM+곳/NNG+에서/JKB+발급/NNG+하/XSV+는지/EC+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.우리 국가 #@소속#에서 발급합니다",
+            "norm_text": "B.우리 국가 #@소속#에서 발급합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+우리/NP+국가/NNG+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+발급/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.예 #@소속#에서 발급하는 거군요",
+            "norm_text": "A.예 #@소속#에서 발급하는 거군요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+발급/NNG+하/XSV+는/ETM+거/NNB+군요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.예 맞습니다",
+            "norm_text": "B.예 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+맞/VV+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.그런데 이제 국가기술자격은 #@소속#에서 하는 게 아니고 해당 소속이나 국가기술자격증 소속에서 하죠",
+            "norm_text": "B.그런데 이제 국가기술자격은 #@소속#에서 하는 게 아닙니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그런데/MAJ+이제/MAG+국가/NNG+기술/NNG+자격/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+하/VV+는/ETM+게/NNB+JKC+아니/VCN+고/EC+해당/NNG+소속/NNG+이나/JC+국가/NNG+기술/NNG+자격증/NNG+소속/NNG+에서/JKB+하/VV+죠/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.민원님께서 자격증 이제 발급 업무만 보시면 된다고 말씀해주셨는데요",
+            "norm_text": "A.민원님께서 자격증 이제 발급 업무만 보시면 된다고 말씀하셨어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+민원/NNG+님/XSN+께서/JKS+자격증/NNG+이제/MAG+발급/NNG+업무/NNG+만/JX+보/VV+시/EP+면/EC+된다고/VV+EC+말씀/NNG+해/XSV+EC+주/VX+셨/EP+EP+는데요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.정확히 어느 부서로 안내를 해 드려야 하는지 해서요",
+            "norm_text": "A.정확히 어느 부서로 안내를 해 드려야 하는지 해서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+정확히/MAG+어느/MM+부서/NNG+로/JKB+안내/NNG+를/JKO+해/VV+EC+드려야/VX+EC+하/VV+는지/EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 15,
+            "text": "B.민원님께 해당 자격증이 국가기술자격인 것인지 아니면 저희 소방기술인정자격인 것인지 확인해야 할 것 같습니다",
+            "norm_text": "B.민원님께 해당 자격증을 다시 한번 확인 해야할 것 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+민원/NNG+님/XSN+께/JKB+해당/NNG+자격증/NNG+을/JKO+다시/MAG+한/MM+번/NNBC+확인/NNG+해야/XSV+EC+할/VX+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.해당 자격증은 국가기술자격증이라고 하셨습니다",
+            "norm_text": "A.해당 자격증은 국가기술자격증이라고 하셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+자격증/NNG+은/JX+국가/NNG+기술/NNG+자격증/NNG+이/VCP+라고/EC+하/VX+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 17,
+            "text": "B.그렇다면 #@소속# 또는 #@소속#에 자격증 관련 문의를 하셔야 될 것 같습니다",
+            "norm_text": "B.그렇다면 #@소속# 또는 #@소속#에 자격증 관련 문의를 하셔야 될 것 같습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그렇/VA+다면/EC+#/SY+@/SY+소속/NNG+#/SY+또는/MAJ+#/SY+@/SY+소속/NNG+#/SY+에/JKB+자격증/NNG+관련/NNG+문의/NNG+를/JKO+하/VV+셔야/EP+EC+될/VV+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 18,
+            "text": "A.네 알겠습니다 확인 감사합니다",
+            "norm_text": "A.네 알겠습니다 확인 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+확인/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

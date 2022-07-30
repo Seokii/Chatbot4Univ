@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 51480,
+    "name": "c2_20211018_0005_0194_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130946010928/c2_20211018_0005_0194_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130946010928/c2_20211018_0005_0194_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 52350,
+      "filename": "c2_20210923_0029_0017_01.txt",
+      "title": "c2_20210923_0029_0017_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 302,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 302,
+        "word_size": 61,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.#@소속# 홈페이지 회원가입 문의하려고요\nA.반갑습니다 회원가입이 원활하게 이루어지지 않고 있나요\nB.네 인터넷 #@기타#로 접속해도 잘 되질 않네요\nA.#@소속# #@URL#으로 접속하여 회원가입해주세요\nB.그 방법도 해봤는데 잘 되질 않아요\nA.자세한 안내를 위해 담당 부서 안내해 드리겠습니다\nA.#@소속# #@전번#으로 전화하시면 안내받을 수 있습니다\nB.안내해 주셔서 감사합니다 좋은 하루 보내세요\nA.다른 안내 필요한 거 없으신가요\nB.네 다른 문의는 없습니다\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속# 홈페이지 회원가입 문의하려고요",
+            "norm_text": "B.#@소속# 홈페이지 회원가입 문의하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+홈페이지/NNG+회원/NNG+가입/NNG+문의/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.반갑습니다 회원가입이 원활하게 이루어지지 않고 있나요",
+            "norm_text": "A.반갑습니다 회원가입이 원활하게 이루어지지 않고 있나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+회원/NNG+가입/NNG+이/JKS+원활/NNG+하/XSV+게/EC+이루/VV+어/EC+지/VX+지/EC+않/VX+고/EC+있/VX+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 인터넷 #@기타#로 접속해도 잘 되질 않네요",
+            "norm_text": "B.네 인터넷 #@기타#로 접속해도 잘 되질 않네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+인터넷/NNG+#/SY+@/SY+기타/NNG+#/SY+로/JKB+접속/NNG+해도/XSV+EC+잘/MAG+되/VV+질/EC+JX+않/VX+네요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.#@소속# #@URL#으로 접속하여 회원가입해주세요",
+            "norm_text": "A.#@소속# #@URL#으로 접속하여 회원가입 해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+URL/SL+#/SY+으로/JKB+접속/NNG+하/XSV+여/EC+회원/NNG+가입/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그 방법도 해봤는데 잘 되질 않아요",
+            "norm_text": "B.그 방법도 해봤는데 잘 되질 않아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "B/SL+그/MM+방법/NNG+도/JX+해/VV+EC+봤/VX+EP+는데/EC+잘/MAG+되/VV+질/EC+JX+않/VX+아요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.자세한 안내를 위해 담당 부서 안내해 드리겠습니다",
+            "norm_text": "A.자세한 안내를 위해 담당 부서 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+자세/XR+한/XSA+ETM+안내/NNG+를/JKO+위해/VV+EC+담당/NNG+부서/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.#@소속# #@전번#으로 전화하시면 안내받을 수 있습니다",
+            "norm_text": "A.#@소속# #@전번#으로 전화하시면 안내받을 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+전화/NNG+하/XSV+시/EP+면/EC+안/MAG+내받/VV+을/ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.안내해 주셔서 감사합니다 좋은 하루 보내세요",
+            "norm_text": "B.안내해 주셔서 감사합니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+안내/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.다른 안내 필요한 거 없으신가요",
+            "norm_text": "A.다른 안내 필요한 거 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+안내/NNG+필요/NNG+한/XSA+ETM+거/NNB+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "B.네 다른 문의는 없습니다",
+            "norm_text": "B.네 다른 문의는 없습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "B/SL+네/IC+다른/MM+문의/NNG+는/JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

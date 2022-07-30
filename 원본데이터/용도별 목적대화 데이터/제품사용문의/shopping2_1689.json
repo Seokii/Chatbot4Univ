@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 107847,
+    "name": "s2_20211104_0002_0102_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110733096585/s2_20211104_0002_0102_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110733096585/s2_20211104_0002_0102_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116731,
+      "filename": "s2_20211027_0008_0002_01.txt",
+      "title": "s2_20211027_0008_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 228,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 228,
+        "word_size": 54,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.#@상품# 확인 좀 해주세요\nA.네 어떤 문의 내용이신지 먼저 확인할게요\nB.네 #@상품#이 제가 구매한 가격보다 싸져서요\nA.네 판매 가격 변동 말씀이시죠\nB.네 가격 변동으로 인한 차액 환불이 되는 건가요\nA.판매 가격 변동에 따른 차액은 보상하지 않습니다\nB.그럼 비싸게 산 사람은 어떻게 해요\nA.죄송합니다 가격 변동은 판매자의 재량입니다\nB.네 그렇군요 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 확인 좀 해주세요",
+            "norm_text": "B.#@상품# 확인 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+확인/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의 내용이신지 먼저 확인할게요",
+            "norm_text": "A.네 어떤 문의 내용이신지 먼저 확인할게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문/NNG+의/JKG+내용/NNG+이/VCP+신지/EP+EF+먼저/MAG+확인/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@상품#이 제가 구매한 가격보다 싸져서요",
+            "norm_text": "B.네 #@상품#이 제가 구매한 가격보다 싸져서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+이제/NNG+가/JKS+구매/NNG+한/XSA+ETM+가격/NNG+보다/JKB+싸/VV+EC+져/VX+EC+서요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.네 판매 가격 변동 말씀이시죠",
+            "norm_text": "A.네 판매 가격 변동 말씀이시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+판매/NNG+가격/NNG+변동/NNG+말씀/NNG+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 가격 변동으로 인한 차액 환불이 되는 건가요",
+            "norm_text": "B.네 가격 변동으로 인한 차액 환불이 되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+가격/NNG+변동/NNG+으로/JKB+인한/VV+ETM+차액/NNG+환불/NNG+이/JKS+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.판매 가격 변동에 따른 차액은 보상하지 않습니다",
+            "norm_text": "A.판매 가격 변동에 따른 차액은 보상하지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+판매/NNG+가격/NNG+변동/NNG+에/JKB+따른/VV+ETM+차액/NNG+은/JX+보상/NNG+하/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 비싸게 산 사람은 어떻게 해요",
+            "norm_text": "B.그럼 비싸게 산 사람은 어떻게 해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+비싸/VA+게/EC+산사람/NNG+은/JX+어떻/VA+게/EC+해요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.죄송합니다 가격 변동은 판매자의 재량입니다",
+            "norm_text": "A.죄송합니다 가격 변동은 판매자의 재량입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+가격/NNG+변동/NNG+은/JX+판매자/NNG+의/JKG+재량/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 그렇군요 수고하세요",
+            "norm_text": "B.네 그렇군요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+군요/EC+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

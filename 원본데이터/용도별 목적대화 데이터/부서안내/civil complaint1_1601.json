@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 116304,
+    "name": "c1_20211105_0005_0475_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110823035513/c1_20211105_0005_0475_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110823035513/c1_20211105_0005_0475_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118615,
+      "filename": "c1_20210923_0017_0006_01.txt",
+      "title": "c1_20210923_0017_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 235,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 235,
+        "word_size": 49,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 저는 #@소속# 이 학년 학생인데요\nB.#@주소#에서부터 등교 하고 있거든요\nB.근데 저는 교통비 지원이 안돼서요\nA.그럼 주민등록상 주소는 어디인가요\nB.저의 주소는 #@주소#입니다\nA.그러면 경기도로 주소가 되어 있진 않군요\nB.네 주민등록상 주소는 충청남도예요\nA.학생 교통비 관련 지원 사업은요\nA.주민등록상 주소가 경기도여야만 지원이 가능합니다\nB.네 확인 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 저는 #@소속# 이 학년 학생인데요",
+            "norm_text": "B.안녕하세요 저는 #@소속# 이 학년 학생인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+저/NP+는/JX+#/SY+@/SY+소속/NNG+#/SY+이학년/NNP+학생/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.#@주소#에서부터 등교 하고 있거든요",
+            "norm_text": "B.#@주소#에서부터 등교하고 있거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+에서부터/JKB+등교/NNG+하/XSV+고/EC+있/VX+거든요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.근데 저는 교통비 지원이 안돼서요",
+            "norm_text": "B.근데 저는 교통비 지원이 안 돼서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+근데/MAJ+저/NP+는/JX+교통비/NNG+지원/NNG+이/JKS+안/MAG+돼서/VV+EC+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.그럼 주민등록상 주소는 어디인가요",
+            "norm_text": "A.그럼 주민등록상 주소는 어디인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+주민/NNG+등록/NNG+상/XSN+주소/NNG+는/JX+어디/NP+인가요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.저의 주소는 #@주소#입니다",
+            "norm_text": "B.저의 주소는 #@주소#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/NP+의/JKG+주소/NNG+는/JX+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.그러면 경기도로 주소가 되어 있진 않군요",
+            "norm_text": "A.그러면 경기도로 주소가 되어 있진 않군요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러면/MAJ+경기도/NNP+로/JKB+주소/NNG+가/JKS+되/VV+어/EC+있/VX+진/EC+JX+않/VX+군요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 주민등록상 주소는 충청남도예요",
+            "norm_text": "B.네 주민등록상 주소는 충청남도예요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+주민/NNG+등록/NNG+상/XSN+주소/NNG+는/JX+충청남도/NNP+예요/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.학생 교통비 관련 지원 사업은요",
+            "norm_text": "A.학생 교통비 관련 지원 사업은요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+학생/NNG+교통비/NNG+관련/NNG+지원/NNG+사업/NNG+은/JX+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "A.주민등록상 주소가 경기도여야만 지원이 가능합니다",
+            "norm_text": "A.주민등록상 주소가 경기도여야만 지원이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주민/NNG+등록/NNG+상/XSN+주소/NNG+가/JKS+경기도/NNP+여야만/VCP+EC+JX+지원/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 확인 감사합니다",
+            "norm_text": "B.네 확인 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

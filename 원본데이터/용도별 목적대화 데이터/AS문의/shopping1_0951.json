@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 14546,
+    "name": "s1_20210914_0001_0552_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151219097268/s1_20210914_0001_0552_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151219097268/s1_20210914_0001_0552_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7925,
+      "filename": "s1_20210824_0019_0010_01.txt",
+      "title": "s1_20210824_0019_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 477,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 477,
+        "word_size": 114,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.수고하십니다 그 노트북을 #@상품#으로 한 달 전에 구매했는데요\nA.노트북 구입하신 지 한 달이 안 됐구요\nB.윈도우 오에스 세븐 삼십이 비트 깔린 걸 육십사 비트로 바꾸려구요\nA.오에스는 저희 엔지니어 통해서 진행을 하시고 비용이 발생이 되세여\nB.알겠습니다 그러면 안내 부탁드려요\nA.출장 접수 예약해 드릴까요 가까운 센터로 내방을 하시겠습니까\nB.출장하고 내방 중에 하나만 선택해야 하는 건가요\nA.출장도 가능하고 센터로 오시는 것도 가능합니다\nB.출장하고 센터방문하고 금액이 틀린가요\nA.출장점검료 차이입니다 출장점검료 기본은 만 이천 원이구요\nA.기사가 평일 여섯 시 이후나 주말에는 만 오천 원입니다\nB.그럼 설치 비용은 얼만가요 다 종합해서 출장으로 하게 되면요\nA.대략 출장비 포함 한 사 오만 원 사이로 대략 알고 있습니다\nB.뭐가 좋을지 고민 되네요 다시 연락할게요\nA.폭염 주의하세요 지금까지 상담사 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고하십니다 그 노트북을 #@상품#으로 한 달 전에 구매했는데요",
+            "norm_text": "B.수고하십니다 그 노트북을 #@상품#으로 한 달 전에 구매했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+그/MM+노트북/NNG+을/JKO+#/SY+@/SY+상품/NNG+#/SY+으로/JKB+한/MM+달/NNBC+전/NNG+에/JKB+구매/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.노트북 구입하신 지 한 달이 안 됐구요",
+            "norm_text": "A.노트북 구입하신 지 한 달이 안 됐구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+노트북/NNG+구입/NNG+하/XSV+신/EP+ETM+지/NNB+한/MM+달/NNG+이/JKS+안/MAG+됐/VV+EP+구요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.윈도우 오에스 세븐 삼십이 비트 깔린 걸 육십사 비트로 바꾸려구요",
+            "norm_text": "B.윈도우 오에스 세븐 삼십이 비트 깔린 걸 육십사 비트로 바꾸려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+윈도우/NNP+오에스/NNG+세븐/NNG+삼/NR+십/NR+이/NR+비트/NNG+깔린/VV+ETM+걸/NNB+JKO+육/NR+십/NR+사/NR+비트/NNG+로/JKB+바꾸/VV+려구요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.오에스는 저희 엔지니어 통해서 진행을 하시고 비용이 발생이 되세여",
+            "norm_text": "A.오에스는 저희 엔지니어 통해서 진행을 하시고 비용이 발생이 되세여",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+오에스/NNG+는/JX+저희/NP+엔/JKB+JX+지니/VV+어/EC+통해서/VV+EC+진행/NNG+을/JKO+하/VV+시/EP+고/EC+비용/NNG+이/JKS+발생/NNG+이/JKS+되/VV+세여/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.알겠습니다 그러면 안내 부탁드려요",
+            "norm_text": "B.알겠습니다 그러면 안내 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그러면/MAJ+안내/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.출장 접수 예약해 드릴까요 가까운 센터로 내방을 하시겠습니까",
+            "norm_text": "A.출장 접수 예약해 드릴까요 가까운 센터로 내방을 하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+출장/NNG+접수/NNG+예약/NNG+해/XSV+EC+드릴까요/VX+EC+가까운/VA+ETM+센터/NNG+로/JKB+내방/NNG+을/JKO+하/VV+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.출장하고 내방 중에 하나만 선택해야 하는 건가요",
+            "norm_text": "B.출장하고 내방 중에 하나만 선택해야 하는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+출장/NNG+하/XSV+고/EC+내방/NNG+중/NNB+에/JKB+하나/NR+만/JX+선택/NNG+해야/XSV+EC+하/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.출장도 가능하고 센터로 오시는 것도 가능합니다",
+            "norm_text": "A.출장도 가능하고 센터로 오시는 것도 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+출장/NNG+도/JX+가능/NNG+하/XSV+고/EC+센터/NNG+로/JKB+오/VV+시/EP+는/ETM+것/NNB+도/JX+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.출장하고 센터방문하고 금액이 틀린가요",
+            "norm_text": "B.출장하고 센터방문하고 금액이 틀린가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+출장/NNG+하/XSV+고/EC+센터/NNG+방문/NNG+하/XSV+고/EC+금액/NNG+이/JKS+틀린/VV+ETM+가요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "A.출장점검료 차이입니다 출장점검료 기본은 만 이천 원이구요",
+            "norm_text": "A.출장점검료 차이입니다 출장점검료 기본은 만 이천 원이구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+출장점/NNG+검/VA+료/EC+차이/NNG+입니다/VCP+EF+출장점/NNG+검/VA+료/EC+기본/NNG+은/JX+만이천/NR+원/NNBC+이/VCP+구요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.기사가 평일 여섯 시 이후나 주말에는 만 오천 원입니다",
+            "norm_text": "A.기사가 평일 여섯 시 이후나 주말에는 만 오천 원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기사/NNG+가/JKS+평일/NNG+여섯/NR+시/NNBC+이후/NNG+나/JC+주말/NNG+에/JKB+는/JX+만/NR+오/NR+천/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그럼 설치 비용은 얼만가요 다 종합해서 출장으로 하게 되면요",
+            "norm_text": "B.그럼 설치 비용은 얼만가요 다 종합해서 출장으로 하게 되면요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+설치/NNG+비용/NNG+은/JX+얼만가/NNG+VCP+EC+요/JX+다/MAG+종합/NNG+해서/XSV+EC+출장/NNG+으로/JKB+하/VV+게/EC+되/VV+면/EC+요/JX"
+          },
+          {
+            "id": 14,
+            "text": "A.대략 출장비 포함 한 사 오만 원 사이로 대략 알고 있습니다",
+            "norm_text": "A.대략 출장비 포함 한 사 오만 원 사이로 대략 알고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+대략/MAG+출장비/NNG+포함/NNG+한/MM+사오만/NR+원/NNBC+사이/NNG+로/JKB+대략/MAG+알/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.뭐가 좋을지 고민 되네요 다시 연락할게요",
+            "norm_text": "B.뭐가 좋을지 고민 되네요 다시 연락할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+뭐/NP+가/JKS+좋/VA+을지/EC+고민/NNG+되/XSV+네요/EF+다시/MAG+연락/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.폭염 주의하세요 지금까지 상담사 #@이름#였습니다",
+            "norm_text": "A.폭염 주의하세요 지금까지 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+폭염/NNG+주의/NNG+하/XSV+세요/EP+EF+지금/NNG+까지/JX+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "dataset": {
+    "identifier": 60351,
+    "name": "s1_20211021_0002_0147_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151259062125/s1_20211021_0002_0147_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151259062125/s1_20211021_0002_0147_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 9175,
+      "filename": "s1_20210827_0022_0011_01.txt",
+      "title": "s1_20210827_0022_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 543,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 543,
+        "word_size": 119,
+        "text": "A.안녕하세요 고객님 #@소속# #@이름# 상담원입니다\nA.주문하신 상품 주문 도와드리려고 전화드렸어요\nA.고객님 전화번호 한 번만 말씀해 주시겠어요\nB.예 전화번호 #@전번#입니다\nA.네 전화번호가 몇 번이시라고요\nB.#@전번#입니다 들으셨나요\nA.네 #@전번# 이시고요\nA.성함이 어떻게 되세요\nB.네 #@이름# 이에요\nA.네 #@이름# 고객님 받으실 주소 저한테 불러주시면 됩니다\nB.네 경기도 의정부시에요\nA.네 의정부시 맞으신거지요\nB.#@주소#로 보내주시면 될 듯 합니다\nA.네 #@주소# 맞으신 건가요\nB.잠시만요 잠깐만 기다려주세요\nB.정확한 집 주소가 있고 여기 날라오는 국민 연금 그 뭐야 주소가 있거든요\nB.디테일하게 다 써야되는 거죠\nA.네 맞습니다 고객님 이 주소로 고객님께 배송이 가는 거기 때문에요\nA.주소가 좀 잘못되거나 하면은 배송이 안 될 수가 있습니다\nA.정확한 주소 말씀해주시겠어요\nB.네 #@주소# 로 보내주세요\nA.#@주소# 맞으신가요\nB.예 #@주소# 맞습니다\nA.알겠습니다 감사합니다 고객님\nA.말씀해주신 주소로 배송 도와드리겠습니다\nA.그럼 좋은 하루 보내세요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# #@이름# 상담원입니다",
+            "norm_text": "A.안녕하세요 고객님 #@소속# #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.주문하신 상품 주문 도와드리려고 전화드렸어요",
+            "norm_text": "A.주문하신 상품 주문 도와드리려고 전화드렸어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주문/NNG+하/XSV+신/EP+ETM+상품/NNG+주문/NNG+도와/VV+EC+드리/VX+려고/EC+전화/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 전화번호 한 번만 말씀해 주시겠어요",
+            "norm_text": "A.고객님 전화번호 한 번만 말씀해 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+전화/NNG+번호/NNG+한/MM+번/NNBC+만/JX+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.예 전화번호 #@전번#입니다",
+            "norm_text": "B.예 전화번호 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+전화/NNG+번호/NNG+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 전화번호가 몇 번이시라고요",
+            "norm_text": "A.네 전화번호가 몇 번이시라고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+전화/NNG+번호/NNG+가/JKS+몇/MM+번/NNBC+이/VCP+시/EP+라고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.#@전번#입니다 들으셨나요",
+            "norm_text": "B.#@전번#입니다 들으셨나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EF+들으셨나/VV+EP+EP+EC+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.네 #@전번# 이시고요",
+            "norm_text": "A.네 #@전번# 이시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+이/VCP+시/EP+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.성함이 어떻게 되세요",
+            "norm_text": "A.성함이 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+성함/NNG+이/JKS+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 #@이름# 이에요",
+            "norm_text": "B.네 #@이름# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 #@이름# 고객님 받으실 주소 저한테 불러주시면 됩니다",
+            "norm_text": "A.네 #@이름# 고객님 받으실 주소 저한테 불러주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+받/VV+으실/EP+ETM+주소/NNG+저/NP+한테/JKB+불러/VV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 경기도 의정부시에요",
+            "norm_text": "B.네 경기도 의정부시에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+경기도/NNP+의정부/NNP+시에/NNP+요/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 의정부시 맞으신거지요",
+            "norm_text": "A.네 의정부시 맞으신거지요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/NP+의/JKG+정부/NNG+시/XSN+맞/VV+으신/EP+ETM+거/NNB+지요/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.#@주소#로 보내주시면 될 듯 합니다",
+            "norm_text": "B.#@주소#로 보내주시면 될 듯 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+로/JKB+보내/VV+EC+주/VX+시/EP+면/EC+될/VV+ETM+듯/NNB+합니다/XSA+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 #@주소# 맞으신 건가요",
+            "norm_text": "A.네 #@주소# 맞으신 건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+맞/VV+으신/EP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.잠시만요 잠깐만 기다려주세요",
+            "norm_text": "B.잠시만요 잠깐만 기다려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+잠시/NNG+만/JX+요/JX+잠깐/MAG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 16,
+            "text": "B.정확한 집 주소가 있고 여기 날라오는 국민 연금 그 뭐야 주소가 있거든요",
+            "norm_text": "B.여기 국민연금이 오는 주소가 있거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+국민연금/NNG+이/JKS+오/VV+는/ETM+주소/NNG+가/JKS+있/VA+거든요/EF"
+          },
+          {
+            "id": 17,
+            "text": "B.디테일하게 다 써야되는 거죠",
+            "norm_text": "B.디테일하게 다 써야되는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+디테일/NNG+하/XSV+게/EC+다/MAG+써야/VV+EC+되/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "A.네 맞습니다 고객님 이 주소로 고객님께 배송이 가는 거기 때문에요",
+            "norm_text": "A.네 맞습니다 고객님 이 주소로 고객님께 배송이 가는 거기 때문에요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+고객/NNG+님/XSN+이/JKS+주소/NNG+로/JKB+고객/NNG+님/XSN+께/JKB+배송/NNG+이/JKS+가/VV+는/ETM+거/NNB+기/VCP+ETN+때문/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 19,
+            "text": "A.주소가 좀 잘못되거나 하면은 배송이 안 될 수가 있습니다",
+            "norm_text": "A.주소가 좀 잘못되거나 하면은 배송이 안 될 수가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+주소/NNG+가/JKS+좀/MAG+잘못/MAG+되/VV+거나/EC+하/VV+면은/EC+배송/NNG+이/JKS+안/MAG+될/VV+ETM+수/NNB+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 20,
+            "text": "A.정확한 주소 말씀해주시겠어요",
+            "norm_text": "A.정확한 주소 말씀해주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+정확/NNG+한/XSA+ETM+주소/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 21,
+            "text": "B.네 #@주소# 로 보내주세요",
+            "norm_text": "B.네 #@주소# 로 보내주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+로/JKB+보내/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 22,
+            "text": "A.#@주소# 맞으신가요",
+            "norm_text": "A.#@주소# 맞으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+맞/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 23,
+            "text": "B.예 #@주소# 맞습니다",
+            "norm_text": "B.예 #@주소# 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+주소/NNG+#/SY+맞/VV+습니다/EF"
+          },
+          {
+            "id": 24,
+            "text": "A.알겠습니다 감사합니다 고객님",
+            "norm_text": "A.알겠습니다 감사합니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 25,
+            "text": "A.말씀해주신 주소로 배송 도와드리겠습니다",
+            "norm_text": "A.말씀해주신 주소로 배송 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+말씀/NNG+해/XSV+EC+주/VX+신/EP+ETM+주소/NNG+로/JKB+배송/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 26,
+            "text": "A.그럼 좋은 하루 보내세요 감사합니다",
+            "norm_text": "A.그럼 좋은 하루 보내세요 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+그럼/MAJ+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

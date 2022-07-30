@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 52097,
+    "name": "c1_20211018_0002_0069_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt202110081308010161102/c1_20211018_0002_0069_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt202110081308010161102/c1_20211018_0002_0069_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51529,
+      "filename": "c1_20210928_0005_0006_01.txt",
+      "title": "c1_20210928_0005_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 396,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 396,
+        "word_size": 82,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 다름이 아니라요\nB.혹시 임산부나 신생아 관련 의료비 지원이 있나 해서요\nA.네 선생님 구체적인 내용은 말씀하시기 어려우시구요\nB.네 좀 그래서요 일단 말씀해주실 수 있는 건 없나요\nA.고위험임산부의 경우 의료비가 지원되는 부분이 있구요 선생님\nA.미숙아 및 선천성이상아도 의료비가 지원됩니다\nA.선천선대사이상에 대한 검사비도 지원하고 있고요\nA.환아를 관리하는 부분도 지원해드리는 부분이 있습니다\nA.선천성난청 검사와 보청기도 지원해드리고 있어요\nB.혹시 더 자세하게 상담 받을 수 있는 곳은 없나요\nA.그렇다면 선생님 #@소속# 여성가족팀으로 연결해드리겠습니다\nB.예 그러면 그쪽으로 부탁드릴게요\nA.감사합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 다름이 아니라요",
+            "norm_text": "B.안녕하세요 다름이 아니라요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+다름/VA+ETN+이/JKC+아니/VCN+라요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.혹시 임산부나 신생아 관련 의료비 지원이 있나 해서요",
+            "norm_text": "B.혹시 임산부나 신생아 관련 의료비 지원이 있나 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+임산부/NNG+나/JC+신생아/NNG+관련/NNG+의료비/NNG+지원/NNG+이/JKS+있/VV+나/EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 선생님 구체적인 내용은 말씀하시기 어려우시구요",
+            "norm_text": "A.네 선생님 구체적인 내용은 말씀하시기 어려우시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+구체/NNG+적/XSN+인/VCP+ETM+내용/NNG+은/JX+말씀/NNG+하/XSV+시/EP+기/ETN+어려우/VA+시/EP+구요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.네 좀 그래서요 일단 말씀해주실 수 있는 건 없나요",
+            "norm_text": "B.네 좀 그래서요 일단 말씀해주실 수 있는 건 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+좀/MAG+그래서/VA+EC+VCP+요/EC+일단/MAG+말씀/NNG+해/XSV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+는/ETM+건/NNB+JX+없/VA+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.고위험임산부의 경우 의료비가 지원되는 부분이 있구요 선생님",
+            "norm_text": "A.고위험임산부의 경우 의료비가 지원되는 부분이 있구요 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고/JKQ+위험/NNG+임산부/NNG+의/JKG+경우/NNG+의료비/NNG+가/JKS+지원/NNG+되/XSV+는/ETM+부분/NNG+이/JKS+있/VA+구요/EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 7,
+            "text": "A.미숙아 및 선천성이상아도 의료비가 지원됩니다",
+            "norm_text": "A.미숙아 및 선천성이상아도 의료비가 지원됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+미숙아/NNG+및/MAJ+선천성/NNG+이/JKS+상아/NNG+도/JX+의료비/NNG+가/JKS+지원/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.선천선대사이상에 대한 검사비도 지원하고 있고요",
+            "norm_text": "A.선천선대사이상에 대한 검사비도 지원하고 있고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+선/VV+ETM+천선/NNG+대사/NNG+이상/NNG+에/JKB+대한/VV+ETM+검사/NNG+비/NNG+도/JX+지원/NNG+하/XSV+고/EC+있/VX+고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.환아를 관리하는 부분도 지원해드리는 부분이 있습니다",
+            "norm_text": "A.환아를 관리하는 부분도 지원해드리는 부분이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+환/NNG+아/NNG+를/JKO+관리/NNG+하/XSV+는/ETM+부분/NNG+도/JX+지원/NNG+해/XSV+EC+드리/VX+는/ETM+부분/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.선천성난청 검사와 보청기도 지원해드리고 있어요",
+            "norm_text": "A.선천성난청 검사와 보청기도 지원해드리고 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선천성/NNG+난청/NNG+검사/NNG+와/JC+보청기/NNG+도/JX+지원/NNG+해/XSV+EC+드리/VX+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.혹시 더 자세하게 상담 받을 수 있는 곳은 없나요",
+            "norm_text": "B.혹시 더 자세하게 상담 받을 수 있는 곳은 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+더/MAG+자세/XR+하/XSA+게/EC+상담/NNG+받/VV+을/ETM+수/NNB+있/VV+는/ETM+곳/NNG+은/JX+없/VA+나요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.그렇다면 선생님 #@소속# 여성가족팀으로 연결해드리겠습니다",
+            "norm_text": "A.그렇다면 선생님 #@소속# 여성가족팀으로 연결해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그렇/VA+다면/EC+선생/NNG+님/XSN+#/SY+@/SY+소속/NNG+#/SY+여성/NNG+가족/NNG+팀/NNG+으로/JKB+연결/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.예 그러면 그쪽으로 부탁드릴게요",
+            "norm_text": "B.예 그러면 그쪽으로 부탁드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+예/IC+그러면/MAJ+그쪽/NP+으로/JKB+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

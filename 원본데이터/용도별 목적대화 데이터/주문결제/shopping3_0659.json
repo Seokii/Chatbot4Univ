@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 13467,
+    "name": "s3_20210913_0010_1006_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423047478/s3_20210913_0010_1006_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423047478/s3_20210913_0010_1006_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12588,
+      "filename": "s3_20210902_0028_0001_01.txt",
+      "title": "s3_20210902_0028_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 278,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 278,
+        "word_size": 65,
+        "text": "A.안녕하세요 고객님 상담사 #@이름# 입니다\nB.예 제가 방금 전화로 상품 구매를 했거든요\nA.네 고객님 성함 어떻게 되실까요\nB.예 이름은#@이름#입니다\nA.네 #@상품#이랑 #@상품# 주문하신 거 확인되셨습니다\nB.네 요거 결제를 공칠공 전화번호로 하긴 했었어요\nB.그냥 제가 계좌로 지금 송금을 했어요\nA.계좌로 송금을 하셨다는 거세요\nB.예 계좌로 송금했어요\nA.네 알겠습니다 제가 그러면 입금 확인 한번 해 보도록 하구요\nA.그러고 공칠공 번호는 취소 처리해 드리도록 하겠습니다\nB.예 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 상담사 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 고객님 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 제가 방금 전화로 상품 구매를 했거든요",
+            "norm_text": "B.예 제가 방금 전화로 상품 구매를 했거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+제/NP+가/JKS+방금/MAG+전화/NNG+로/JKB+상품/NNG+구매/NNG+를/JKO+했/VV+EP+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 성함 어떻게 되실까요",
+            "norm_text": "A.네 고객님 성함 어떻게 되실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+성함/NNG+어떻게/MAG+되/VV+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.예 이름은#@이름#입니다",
+            "norm_text": "B.예 이름은#@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 #@상품#이랑 #@상품# 주문하신 거 확인되셨습니다",
+            "norm_text": "A.네 #@상품#이랑 #@상품# 주문하신 거 확인되셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+이랑/JC+#/SY+@/SY+상품/NNG+#/SY+주문/NNG+하/XSV+신/EP+ETM+거/NNB+확인/NNG+되/XSV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 요거 결제를 공칠공 전화번호로 하긴 했었어요",
+            "norm_text": "B.네 요거 결제를 공칠공 전화번호로 하긴 했었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+요거/NP+결제/NNG+를/JKO+공/NR+칠/NR+공/NR+전화/NNG+번호/NNG+로/JKB+하/VV+긴/ETN+JX+했었어요/VX+EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그냥 제가 계좌로 지금 송금을 했어요",
+            "norm_text": "B.그냥 제가 계좌로 지금 송금을 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그냥/MAG+제/NP+가/JKS+계좌/NNG+로/JKB+지금/MAG+송금/NNG+을/JKO+했/VV+EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.계좌로 송금을 하셨다는 거세요",
+            "norm_text": "A.계좌로 송금을 하셨다는 거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+계좌/NNG+로/JKB+송금/NNG+을/JKO+하/VV+셨/EP+EP+다는/ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.예 계좌로 송금했어요",
+            "norm_text": "B.예 계좌로 송금했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+계좌/NNG+로/JKB+송금/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 알겠습니다 제가 그러면 입금 확인 한번 해 보도록 하구요",
+            "norm_text": "A.네 알겠습니다 제가 그러면 입금 확인 한번 해 보도록 하구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+제/NP+가/JKS+그러/VV+면/EC+입금/NNG+확인/NNG+한/MM+번/NNBC+해/VV+EC+보/VX+도록/EC+하/VX+구요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.그러고 공칠공 번호는 취소 처리해 드리도록 하겠습니다",
+            "norm_text": "A.그러고 공칠공 번호는 취소 처리해 드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+고/EC+공/NR+칠/NR+공/NR+번호/NNG+는/JX+취소/NNG+처리/NNG+해/XSV+EC+드리/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.예 감사합니다 수고하세요",
+            "norm_text": "B.예 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+예/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

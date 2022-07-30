@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 12729,
+    "name": "c1_20210913_0005_0804_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151338027636/c1_20210913_0005_0804_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151338027636/c1_20210913_0005_0804_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10249,
+      "filename": "c1_20210818_0016_0013_01.txt",
+      "title": "c1_20210818_0016_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 480,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 480,
+        "word_size": 109,
+        "text": "A.반갑습니다 #@소속#입니다 무엇을 도와드릴까요\nB.안녕하세요 여기 신수리 해수욕장인데요\nA.네 신수리 해수욕장 말씀이시죠\nB.여기서 가까운 약국이 어느 쪽에 있나요\nA.심수리 해수욕장 주변 약국 #@소속# 지도 확인 후 안내해 드리겠습니다\nB.확인 감사합니다 문 연 곳을 찾아가려고 합니다\nA.제가 확인해보겠습니다 잠시만 기다려주시겠습니까\nB.네 알겠습니다 선생님\nA.약국은 확인되나 현재 이용 가능 한 약국은 바로 확인이 어렵습니다\nA.의료 정보 센터로 확인을 해 보아야 하는데 시간이 지체될 수 있습니다 괜찮으신가요\nB.네 시간 괜찮습니다\nA.선생님 제가 의료 정보 시스템을 확인을 해 보니까요\nA.지금 #@주소#은 #@주소#에는 해당하는 약국은 확인이 어려웠습니다\nB.조금 떨어진 곳에는 약국이 없나요\nA.#@주소#에 약국 확인됩니다\nB.네 전화 번호 알려주시겠어요\nA.약국 확인돼 전화 번호 안내해 드리겠습니다\nA.지금 위치하신 곳은 어디신가요?\nB.지금 제 위치는 터미널입니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 여기 신수리 해수욕장인데요",
+            "norm_text": "B.안녕하세요 여기 신수리 해수욕장인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+여기/NP+신수리/NNP+해수욕장/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 신수리 해수욕장 말씀이시죠",
+            "norm_text": "A.네 신수리 해수욕장 말씀이시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+신수리/NNP+해수욕장/NNG+말씀/NNG+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.여기서 가까운 약국이 어느 쪽에 있나요",
+            "norm_text": "B.여기서 가까운 약국이 어느 쪽에 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여기/NP+서/JKB+가까운/VA+ETM+약국/NNG+이/JKS+어느/MM+쪽/NNB+에/JKB+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.심수리 해수욕장 주변 약국 #@소속# 지도 확인 후 안내해 드리겠습니다",
+            "norm_text": "A.#@주소# 주변 약국 #@소속# 지도 확인 후 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+주변/NNG+약국/NNG+#/SY+@/SY+소속/NNG+#/SY+지도/NNG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.확인 감사합니다 문 연 곳을 찾아가려고 합니다",
+            "norm_text": "B.확인 감사합니다 문 연 곳을 찾아가려고 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+확인/NNG+감사/NNG+합니다/XSV+EF+문연/NNP+곳/NNG+을/JKO+찾아가/VV+려고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.제가 확인해보겠습니다 잠시만 기다려주시겠습니까",
+            "norm_text": "A.제가 확인해보겠습니다 잠시만 기다려주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+제/NP+가/JKS+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 알겠습니다 선생님",
+            "norm_text": "B.네 알겠습니다 선생님",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 9,
+            "text": "A.약국은 확인되나 현재 이용 가능 한 약국은 바로 확인이 어렵습니다",
+            "norm_text": "A.약국은 확인되나 현재 이용 가능 한 약국은 바로 확인이 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+약국/NNG+은/JX+확인/NNG+되/XSV+나/EC+현재/MAG+이용/NNG+가능/NNG+한/XSA+ETM+약국/NNG+은/JX+바로/MAG+확인/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.의료 정보 센터로 확인을 해 보아야 하는데 시간이 지체될 수 있습니다 괜찮으신가요",
+            "norm_text": "A.의료 정보 센터로 확인을 해야해서 시간이 지체될 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+의료/NNG+정보/NNG+센터/NNG+로/JKB+확인/NNG+을/JKO+해/VV+EC+보/VX+아야/EC+하/VV+는데/EC+시간/NNG+이/JKS+지체/NNG+될/XSV+ETM+수/NNB+있/VV+습니다/EF+괜찮/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "B.네 시간 괜찮습니다",
+            "norm_text": "B.네 시간 괜찮습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+시간/NNG+괜찮/VA+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.선생님 제가 의료 정보 시스템을 확인을 해 보니까요",
+            "norm_text": "A.선생님 제가 의료 정보 시스템을 확인을 해 보니까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+제/NP+가/JKS+의료/NNG+정보/NNG+시스템/NNG+을/JKO+확인/NNG+을/JKO+해/VV+EC+보/VX+니까요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.지금 #@주소#은 #@주소#에는 해당하는 약국은 확인이 어려웠습니다",
+            "norm_text": "A.지금 #@주소#은 #@주소#에는 해당하는 약국은 확인이 어려웠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+지금/MAG+#/SY+@/SY+주소/NNG+#/SY+은/JX+#/SY+@/SY+주소/NNG+#/SY+에/JKB+는/JX+해당/NNG+하/XSV+는/ETM+약국/NNG+은/JX+확인/NNG+이/JKS+어려웠/VA+EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.조금 떨어진 곳에는 약국이 없나요",
+            "norm_text": "B.조금 떨어진 곳에는 약국이 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+조금/MAG+떨어진/VV+ETM+곳/NNG+에/JKB+는/JX+약국/NNG+이/JKS+없/VA+나요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.#@주소#에 약국 확인됩니다",
+            "norm_text": "A.#@주소#에 약국 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+에/JKB+약국/NNG+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 전화 번호 알려주시겠어요",
+            "norm_text": "B.네 전화 번호 알려주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+전화/NNG+번호/NNG+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 17,
+            "text": "A.약국 확인돼 전화 번호 안내해 드리겠습니다",
+            "norm_text": "A.약국 확인돼 전화 번호 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+약국/NNG+확인/NNG+돼/XSV+EC+전화/NNG+번호/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 18,
+            "text": "A.지금 위치하신 곳은 어디신가요?",
+            "norm_text": "A.지금 위치하신 곳은 어디신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+위치/NNG+하/XSV+신/EP+ETM+곳/NNG+은/JX+어디/NP+신가요/VCP+EP+EF"
+          },
+          {
+            "id": 19,
+            "text": "B.지금 제 위치는 터미널입니다",
+            "norm_text": "B.지금 제 위치는 터미널입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+제/MM+위치/NNG+는/JX+터미널/NNG+입니다/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

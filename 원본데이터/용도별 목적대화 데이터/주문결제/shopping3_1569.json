@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 105870,
+    "name": "s3_20211103_0005_0118_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110832050328/s3_20211103_0005_0118_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110832050328/s3_20211103_0005_0118_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119721,
+      "filename": "s3_20211027_0022_0008_01.txt",
+      "title": "s3_20211027_0022_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 346,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 346,
+        "word_size": 79,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 여쭤볼 게 있어서 전화드렸습니다\nA.네 고객님 여쭤보시고 싶은 게 있으신가요\nB.#@소속# 쇼핑몰 맞지요 제가 맞게 전화 걸었나요\nA.네 맞습니다 고객님 어떤 걸 도와드릴까요\nB.쇼핑몰에서 결제 시에요 혹시 다른 사람 명의로 현금 영수증 발급이 되나요\nA.네 고객님 결제 시에 결제 페이지에서 변경 가능합니다\nB.현금영수증 다른 사람 명의로 변경이 가능하다고요\nA.네 고객님 현금 영수증 기입란에 입금자와 은행명을요\nA.고객님이 원하시는 분의 명의로 적어주시면 돼요\nB.그렇군요 알겠습니다 다른 질문 사항 생기면 연락 드리겠습니다\nA.네 감사합니다 상담원 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 여쭤볼 게 있어서 전화드렸습니다",
+            "norm_text": "B.네 안녕하세요 여쭤볼 게 있어서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+여쭤볼/VV+EC+VX+ETM+게/NNB+JKS+있/VA+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 여쭤보시고 싶은 게 있으신가요",
+            "norm_text": "A.네 고객님 여쭤보시고 싶은 게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속# 쇼핑몰 맞지요 제가 맞게 전화 걸었나요",
+            "norm_text": "B.#@소속# 쇼핑몰 맞지요 제가 맞게 전화 걸었나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+쇼핑몰/NNG+맞/VV+지요/EF+제/NP+가/JKS+맞/VV+게/EC+전화/NNG+걸/VV+었/EP+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 맞습니다 고객님 어떤 걸 도와드릴까요",
+            "norm_text": "A.네 맞습니다 고객님 어떤 걸 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+고객/NNG+님/XSN+어떤/MM+걸/NNB+JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.쇼핑몰에서 결제 시에요 혹시 다른 사람 명의로 현금 영수증 발급이 되나요",
+            "norm_text": "B.쇼핑몰에서 결제 시 다른 사람 명의로 현금 영수증 발급이 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+쇼핑몰/NNG+에서/JKB+결제/NNG+시/NNB+다른/MM+사람/NNG+명의/NNG+로/JKB+현금영수증/NNP+발급/NNG+이/JKS+되/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 결제 시에 결제 페이지에서 변경 가능합니다",
+            "norm_text": "A.네 고객님 결제 시에 결제 페이지에서 변경 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+결제/NNG+시/NNB+에/JKB+결제/NNG+페이지/NNG+에서/JKB+변경/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.현금영수증 다른 사람 명의로 변경이 가능하다고요",
+            "norm_text": "B.현금영수증 다른 사람 명의로 변경이 가능하다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+현금영수증/NNP+다른/MM+사람/NNG+명의/NNG+로/JKB+변경/NNG+이/JKS+가능/NNG+하/XSV+다고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 고객님 현금 영수증 기입란에 입금자와 은행명을요",
+            "norm_text": "A.네 고객님 현금 영수증 기입란에 입금자와 은행명을요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+현금영수증/NNP+기입란/NNG+에/JKB+입금/NNG+자/XSN+와/JC+은행/NNG+명/NNG+을/JKO+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "A.고객님이 원하시는 분의 명의로 적어주시면 돼요",
+            "norm_text": "A.고객님이 원하시는 분의 명의로 적어 주시면 돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+이/JKS+원/NNG+하/XSV+시/EP+는/ETM+분/NNB+의/JKG+명의/NNG+로/JKB+적/VV+어/EC+주/VX+시/EP+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그렇군요 알겠습니다 다른 질문 사항 생기면 연락 드리겠습니다",
+            "norm_text": "B.그렇군요 알겠습니다 다른 질문 사항 생기면 연락 드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF+다른/MM+질문/NNG+사항/NNG+생기/VV+면/EC+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.네 감사합니다 상담원 #@이름#였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

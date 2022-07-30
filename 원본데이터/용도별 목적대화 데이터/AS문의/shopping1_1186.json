@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 15702,
+    "name": "s1_20210914_0001_0788_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151218024837/s1_20210914_0001_0788_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151218024837/s1_20210914_0001_0788_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7678,
+      "filename": "s1_20210823_0018_0007_01.txt",
+      "title": "s1_20210823_0018_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 274,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 274,
+        "word_size": 69,
+        "text": "A.고객님 안녕하세요 상담사 #@이름# 입니다\nA.기사님 예약 가능 시간 확인되어 다시 연락 드렸습니다\nB.네 안녕하세요 언제 가능하실까요\nB.저는 외출을 해서 오후 늦게가 좋을 것 같아요\nA.음 오후 늦게라 하시면 다섯 시 반 쯤 괜찮으세요\nB.네 괜찮아요 그때로 해주세요\nA.네 고객님 주소가 #@주소# 맞으신가요\nB.네 주소 거기 맞아요\nA.네 그럼 오늘 다섯 시 반에 #@이름# 기사 방문 예정이고요\nA.점검 상세히 도와드리겠습니다\nB.네 상담사님 감사합니다\nA.제가 더 감사합니다 좋은 하루 보내십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 안녕하세요 상담사 #@이름# 입니다",
+            "norm_text": "A.고객님 안녕하세요 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+안녕/NNG+하/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.기사님 예약 가능 시간 확인되어 다시 연락 드렸습니다",
+            "norm_text": "A.기사님 예약 가능 시간 확인되어 다시 연락 드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기사/NNG+님/XSN+예약/NNG+가능/NNG+시간/NNG+확인/NNG+되/XSV+어/EC+다시/MAG+연락/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.네 안녕하세요 언제 가능하실까요",
+            "norm_text": "B.네 안녕하세요 언제 가능하실까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+언제/MAG+가능/NNG+하/XSV+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.저는 외출을 해서 오후 늦게가 좋을 것 같아요",
+            "norm_text": "B.저는 외출을 해서 오후 늦게가 좋을 것 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+저/NP+는/JX+외출/NNG+을/JKO+해서/VV+EC+오후/NNG+늦/VA+게/EC+가/JKS+좋/VA+을/ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.음 오후 늦게라 하시면 다섯 시 반 쯤 괜찮으세요",
+            "norm_text": "A.음 오후 늦게라 하시면 다섯 시 반 쯤 괜찮으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+음/IC+오후/NNG+늦/VA+게라/EC+하/VX+시/EP+면/EC+다섯/NR+시/NNBC+반/NNG+쯤/XSN+괜찮/VA+으세요/EP+EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 괜찮아요 그때로 해주세요",
+            "norm_text": "B.네 괜찮아요 그때로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+괜찮/VA+아요/EF+그/IC+때로/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 주소가 #@주소# 맞으신가요",
+            "norm_text": "A.네 고객님 주소가 #@주소# 맞으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+주소/NNG+가/JKS+#/SY+@/SY+주소/NNG+#/SY+맞/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "B.네 주소 거기 맞아요",
+            "norm_text": "B.네 주소 거기 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+주소/NNG+거기/NP+맞/VV+아요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 그럼 오늘 다섯 시 반에 #@이름# 기사 방문 예정이고요",
+            "norm_text": "A.네 그럼 오늘 다섯 시 반에 #@이름# 기사 방문 예정이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+오늘/MAG+다섯/NR+시/NNBC+반/NNG+에/JKB+#/SY+@/SY+이름/NNG+#/SY+기사/NNG+방문/NNG+예정/NNG+이/JKS+고요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "A.점검 상세히 도와드리겠습니다",
+            "norm_text": "A.점검 상세히 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+점검/NNG+상세히/MAG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 상담사님 감사합니다",
+            "norm_text": "B.네 상담사님 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+상담/NNG+사/NNG+님/XSN+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.제가 더 감사합니다 좋은 하루 보내십시오",
+            "norm_text": "A.제가 더 감사합니다 좋은 하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+제/NP+가/JKS+더/MAG+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

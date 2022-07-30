@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 18821,
+    "name": "s3_20210916_0010_1300_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151422095811/s3_20210916_0010_1300_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151422095811/s3_20210916_0010_1300_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12514,
+      "filename": "s3_20210901_0025_0003_01.txt",
+      "title": "s3_20210901_0025_0003_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 584,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 584,
+        "word_size": 134,
+        "text": "A.고객님 안녕하세요 무엇을 도와드릴까요\nB.#@상품# 두 개를 주문하고 싶은데요\nA.네 그러면 #@상품# 두 개해서 사만 팔천 원 이걸로 해드리면 될까요\nB.할인은 없어요 그거 보니까 할인은 있던데\nA.이거는 이제 #@소속#어플로 직접 결제해주시면 할인 가능합니다\nB.그냥 돈 송금시킬게요\nA.네 그러면은 이것만 주문해드리면 되죠 고객님\nB.예 그렇게 해주세요\nA.네 송금은 어느 은행사 계좌로 좀 보내드릴까요\nB.저 #@소속#은행로 해주세요\nA.네 #@소속#은행 계좌 보내드리고 상품 받으실 주소지 알려주세요\nB.네 주소는 #@주소#입니다\nA.네 성함과 전화번호가 어떻게 되세요\nB.네 #@이름#이고 #@전번#입니다\nA.네 현금 영수증하실까요\nB.현금영수증 이게 현금으로 하는 거죠\nA.네 고객님 입금하시는 겁니다\nB.네 현금 영수증 해주세요\nA.네 그러면 고객님 핸드폰 번호로 해드리면 될까요\nB.예 그렇게 해주세요\nA.네 그러면 핸드폰 번호로 신청해드리고 주문 완료되었고요\nA.문자로 오분 이내에 계좌 번호랑 주문 내역 발송이 됩니다\nA.확인하시고 이틀 이내 입금해주시면 자동으로 결제 완료 처리됩니다\nB.네 바로 입금할 겁니다 감사합니다\nA.감사합니다 고객님 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 안녕하세요 무엇을 도와드릴까요",
+            "norm_text": "A.고객님 안녕하세요 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+안녕/NNG+하/XSV+세요/EP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 두 개를 주문하고 싶은데요",
+            "norm_text": "B.#@상품# 두 개를 주문하고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+두/MM+개/NNBC+를/JKO+주문/NNG+하/XSV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 그러면 #@상품# 두 개해서 사만 팔천 원 이걸로 해드리면 될까요",
+            "norm_text": "A.네 그러면 #@상품# 두 개해서 사만 팔천 원 이걸로 해드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그러면/MAJ+#/SY+@/SY+상품/NNG+#/SY+두/MM+개/NNBC+해서/VV+EC+사만/NR+팔/NR+천/NR+원/NNBC+이걸로/NP+JKB+해/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.할인은 없어요 그거 보니까 할인은 있던데",
+            "norm_text": "B.할인은 없어요 그거 보니까 할인은 있던데",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+할인/NNG+은/JX+없/VA+어요/EF+그거/NP+보/VV+니까/EC+할인/NNG+은/JX+있/VA+던데/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.이거는 이제 #@소속#어플로 직접 결제해주시면 할인 가능합니다",
+            "norm_text": "A.이거는 이제 #@소속#어플로 직접 결제해주시면 할인 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+이거/NP+는/JX+이제/MAG+#/SY+@/SY+소속/NNG+#/SY+어/IC+플/NNG+로/JKB+직접/MAG+결제/NNG+해/XSV+EC+주/VX+시/EP+면/EC+할인/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그냥 돈 송금시킬게요",
+            "norm_text": "B.그냥 돈 송금시킬게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그냥/MAG+돈/NNG+송금/NNG+시킬/XSV+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 그러면은 이것만 주문해드리면 되죠 고객님",
+            "norm_text": "A.네 그러면은 이것만 주문해드리면 되죠 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그러면은/MAJ+이것/NP+만/JX+주문/NNG+해/XSV+EC+드리/VX+면/EC+되/VV+죠/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.예 그렇게 해주세요",
+            "norm_text": "B.예 그렇게 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+그렇게/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 송금은 어느 은행사 계좌로 좀 보내드릴까요",
+            "norm_text": "A.네 송금은 어느 은행사 계좌로 좀 보내드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+송금/NNG+은/JX+어느/MM+은행/NNG+사/NR+계좌/NNG+로/JKB+좀/MAG+보내/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.저 #@소속#은행로 해주세요",
+            "norm_text": "B.저 #@소속#은행로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+저/NP+#/SY+@/SY+소속/NNG+#/SY+은/JX+행로/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 #@소속#은행 계좌 보내드리고 상품 받으실 주소지 알려주세요",
+            "norm_text": "A.네 #@소속#은행 계좌 보내드리고 상품 받으실 주소지 알려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+은행/NNG+계좌/NNG+보내/VV+EC+드리/VX+고/EC+상품/NNG+받/VV+으실/EP+ETM+주소지/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 주소는 #@주소#입니다",
+            "norm_text": "B.네 주소는 #@주소#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+주소/NNG+는/JX+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 성함과 전화번호가 어떻게 되세요",
+            "norm_text": "A.네 성함과 전화번호가 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+성함/NNG+과/JC+전화/NNG+번호/NNG+가/JKS+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.네 #@이름#이고 #@전번#입니다",
+            "norm_text": "B.네 #@이름#이고 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네 현금 영수증하실까요",
+            "norm_text": "A.네 현금 영수증하실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+현금영수증/NNP+하/VV+실까요/EP+EF"
+          },
+          {
+            "id": 16,
+            "text": "B.현금영수증 이게 현금으로 하는 거죠",
+            "norm_text": "B.현금영수증 이게 현금으로 하는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+현금영수증/NNP+이게/NP+JKS+현금/NNG+으로/JKB+하/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.네 고객님 입금하시는 겁니다",
+            "norm_text": "A.네 고객님 입금하시는 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+입금/NNG+하/XSV+시/EP+는/ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "B.네 현금 영수증 해주세요",
+            "norm_text": "B.네 현금 영수증 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+현금영수증/NNP+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 19,
+            "text": "A.네 그러면 고객님 핸드폰 번호로 해드리면 될까요",
+            "norm_text": "A.네 그러면 고객님 핸드폰 번호로 해드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그러면/MAJ+고객/NNG+님/XSN+핸드폰/NNG+번호/NNG+로/JKB+해/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 20,
+            "text": "B.예 그렇게 해주세요",
+            "norm_text": "B.예 그렇게 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+그렇게/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 21,
+            "text": "A.네 그러면 핸드폰 번호로 신청해드리고 주문 완료되었고요",
+            "norm_text": "A.네 그러면 핸드폰 번호로 신청해드리고 주문 완료되었고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그러면/MAJ+핸드폰/NNG+번호/NNG+로/JKB+신청/NNG+해/XSV+EC+드리/VX+고/EC+주문/NNG+완료/NNG+되/XSV+었/EP+고요/EC"
+          },
+          {
+            "id": 22,
+            "text": "A.문자로 오분 이내에 계좌 번호랑 주문 내역 발송이 됩니다",
+            "norm_text": "A.문자로 오분 이내에 계좌 번호랑 주문 내역 발송이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+문자/NNG+로/JKB+오/NR+분/NNBC+이/JKS+내/NP+에/JKB+계좌/NNG+번호/NNG+랑/JKB+주문/NNG+내역/NNG+발송/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 23,
+            "text": "A.확인하시고 이틀 이내 입금해주시면 자동으로 결제 완료 처리됩니다",
+            "norm_text": "A.확인하시고 이틀 이내 입금해주시면 자동으로 결제 완료 처리됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+확인/NNG+하/XSV+시/EP+고/EC+이틀/NNG+이/JKS+내입금/NNG+해/XSV+EC+주/VX+시/EP+면/EC+자동/NNG+으로/JKB+결제/NNG+완료/NNG+처리/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 24,
+            "text": "B.네 바로 입금할 겁니다 감사합니다",
+            "norm_text": "B.네 바로 입금할 겁니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+바로/MAG+입금/NNG+할/XSV+ETM+겁니다/NNB+VCP+EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 25,
+            "text": "A.감사합니다 고객님 좋은 하루 보내세요",
+            "norm_text": "A.감사합니다 고객님 좋은 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+고객/NNG+님/XSN+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

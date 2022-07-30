@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 10493,
+    "name": "c2_20210913_0014_0028_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151523078024/c2_20210913_0014_0028_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151523078024/c2_20210913_0014_0028_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 14914,
+      "filename": "c2_20210906_0022_0006_01.txt",
+      "title": "c2_20210906_0022_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 578,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 578,
+        "word_size": 127,
+        "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다\nA.예 여쭤보시고 싶은게 있으신가요\nB.초등학교 특수 복합 복도에 씨씨티비 설치가 가능한가 여쭤보고 싶어서요\nA.학교에 씨씨티비를 설치하는게 가능한지 여쭤보시는건가요\nB.네 #@소속# 특수복합 교실 복도에 설치를 할 예정이라고 들어서요\nA.예 우선 복도는 실내 공간으로 분류되어 설치하려면 심의를 거쳐야 합니다\nB.어느 기관의 심의를 거쳐야 하나요\nA.학생과 학부모 교직원등을 대상으로 사전의견 수렴을 해야하고요\nA.그리고 매년 사용 대상자가 전원 동의할 경우에만 운영할 수 있습니다\nB.아 대상자 전원 동의요 전부 동의해야 하는거죠\nA.네 씨씨티비에 찍힐 학생과 선생님들 모두의 동의가 있어야 해요\nA.복도라는 공간이 특정인만 출입하는 곳이 아니라서요\nA.교사나 학부모 학생 모두 출입이 가능한 공간이라서요\nB.그렇겠네요 그럼 매년 동의 절차를 거쳐야 가능하겠네요\nA.네 따라서 복합특수학급 복도에 씨씨티비 설치는 무리가 있을 것으로 보입니다\nB.그렇군요 알려주셔서 감사합니다 다른 문의사항 있으면 전화드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "norm_text": "B.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 여쭤보시고 싶은게 있으신가요",
+            "norm_text": "A.예 여쭤보시고 싶은게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.초등학교 특수 복합 복도에 씨씨티비 설치가 가능한가 여쭤보고 싶어서요",
+            "norm_text": "B.초등학교 특수 복합 복도에 씨씨티비 설치가 가능한가 여쭤보고 싶어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+초등/NNG+학교/NNG+특수/NNG+복합/NNG+복도/NNG+에/JKB+씨씨/IC+티비/NNG+설치/NNG+가/JKS+가능/NNG+한가/XSA+EC+여쭤/VV+EC+보/VX+고/EC+싶/VX+어서요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.학교에 씨씨티비를 설치하는게 가능한지 여쭤보시는건가요",
+            "norm_text": "A.학교에 씨씨티비를 설치하는게 가능한지 여쭤보시는건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+학교/NNG+에/JKB+씨씨/IC+티비/NNG+를/JKO+설치/NNG+하/XSV+는/ETM+게/NNB+JKS+가능/NNG+한지/XSA+EC+여쭤/VV+EC+보/VX+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 #@소속# 특수복합 교실 복도에 설치를 할 예정이라고 들어서요",
+            "norm_text": "B.네 #@소속# 특수복합 교실 복도에 설치를 할 예정이라고 들어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+특수/NNG+복합/NNG+교실/NNG+복도/NNG+에/JKB+설치/NNG+를/JKO+할/VV+ETM+예정/NNG+이/VCP+라고/EC+들/VV+어서요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.예 우선 복도는 실내 공간으로 분류되어 설치하려면 심의를 거쳐야 합니다",
+            "norm_text": "A.예 복도는 실내 공간으로 분류되어 설치하려면 심의를 거쳐야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+우선/MAG+복도/NNG+는/JX+실내/NNG+공간/NNG+으로/JKB+분류/NNG+되/XSV+어/EC+설치/NNG+하/XSV+려면/EC+심의/NNG+를/JKO+거쳐야/VV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.어느 기관의 심의를 거쳐야 하나요",
+            "norm_text": "B.어느 기관의 심의를 거쳐야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+어느/MM+기관/NNG+의/JKG+심의/NNG+를/JKO+거쳐야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.학생과 학부모 교직원등을 대상으로 사전의견 수렴을 해야하고요",
+            "norm_text": "A.학생과 학부모 교직원등을 대상으로 사전의견 수렴을 해야하고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+학생/NNG+과/JC+학부모/NNG+교직원/NNG+등/NNB+을/JKO+대상/NNG+으로/JKB+사전/NNG+의/JKG+견수/NNG+렴/NNG+을/JKO+해야/VV+EC+하/VV+고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.그리고 매년 사용 대상자가 전원 동의할 경우에만 운영할 수 있습니다",
+            "norm_text": "A.그리고 매년 사용 대상자가 전원 동의할 경우에만 운영할 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그리고/MAJ+매년/MAG+사용/NNG+대상자/NNG+가/JKS+전원/NNG+동의/NNG+할/XSV+ETM+경우/NNG+에/JKB+만/JX+운영/NNG+할/XSV+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.아 대상자 전원 동의요 전부 동의해야 하는거죠",
+            "norm_text": "B.아 대상자 전원 동의요 전부 동의해야 하는거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+대상자/NNG+전원/NNG+동의/NNG+요/VCP+EC+전부/MAG+동의/NNG+해야/XSV+EC+하/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 씨씨티비에 찍힐 학생과 선생님들 모두의 동의가 있어야 해요",
+            "norm_text": "A.네 씨씨티비에 찍힐 학생과 선생님들 모두의 동의가 있어야 해요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+씨씨/IC+티비/NNG+에/JKB+찍힐/VV+ETM+학생/NNG+과/JC+선생/NNG+님/XSN+들/XSN+모두/NNG+의/JKG+동의/NNG+가/JKS+있/VA+어야/EC+해요/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.복도라는 공간이 특정인만 출입하는 곳이 아니라서요",
+            "norm_text": "A.복도라는 공간이 특정인만 출입하는 곳이 아니라서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+복도/NNG+라는/VCP+ETM+공간/NNG+이/JKS+특정인/NNG+만/JX+출입/NNG+하/XSV+는/ETM+곳/NNG+이/JKC+아니/VCN+라서요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.교사나 학부모 학생 모두 출입이 가능한 공간이라서요",
+            "norm_text": "A.교사나 학부모 학생 모두 출입이 가능한 공간이라서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+교사/NNG+나/JC+학부모/NNG+학생/NNG+모두/MAG+출입/NNG+이/JKS+가능/NNG+한/XSA+ETM+공간/NNG+이/VCP+라서요/EC"
+          },
+          {
+            "id": 15,
+            "text": "B.그렇겠네요 그럼 매년 동의 절차를 거쳐야 가능하겠네요",
+            "norm_text": "B.그렇겠네요 그럼 매년 동의 절차를 거쳐야 가능하겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+겠/EP+네요/EF+그럼/MAJ+매년/MAG+동의/NNG+절차/NNG+를/JKO+거쳐야/VV+EC+가능/NNG+하/XSV+겠/EP+네요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 따라서 복합특수학급 복도에 씨씨티비 설치는 무리가 있을 것으로 보입니다",
+            "norm_text": "A.네 복합특수학급 복도에 씨씨티비 설치는 무리가 있을 것으로 보입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+복합/NNG+특수/NNG+학급/NNG+복도/NNG+에/JKB+씨씨/IC+티비/NNG+설치/VV+는/ETM+무리/NNG+가/JKS+있/VV+을/ETM+것/NNB+으로/JKB+보입니다/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.그렇군요 알려주셔서 감사합니다 다른 문의사항 있으면 전화드릴게요",
+            "norm_text": "B.그렇군요 알려주셔서 감사합니다 다른 문의사항 있으면 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으면/EC+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 18,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

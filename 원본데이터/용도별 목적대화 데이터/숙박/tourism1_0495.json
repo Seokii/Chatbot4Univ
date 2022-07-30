@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 141310,
+    "name": "t1_20211115_0002_0487_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715077675/t1_20211115_0002_0487_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715077675/t1_20211115_0002_0487_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148113,
+      "filename": "t1_0068_0039_02.txt",
+      "title": "t1_0068_0039_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 331,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 331,
+        "word_size": 74,
+        "text": "A.감사합니다 #@소속# 고객센터 #@이름# 입니다\nB.스탠다드 트윈 객실 3개 예약 가능 한가요\nA.이용 원하시는 날짜 말씀해 주시겠습니까\nB.12월 8일과 9일로 객실 3개 예약 가능 한가요\nA.네 현재 예약 가능 하십니다 성함과 연락처 부탁 드립니다\nB.#@이름# 으로 #@전번# 은 연락처에요\nA.예약 되셨고요 결제는 체크인시 도와 드리겠습니다\nB.조식은 모두 제공되는 건가요\nA.스탠다드 트윈룸 이용 인원수 6명 무료조식 제공되세요\nB.알겠습니다 체크아웃은 몇시까지 인가요\nA.오후 12시까지 입니다 다른 문의 사항 있으신가요\nB.아니요 잘 알겠습니다\nA.#@소속#고객센터 #@이름# 이었습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.감사합니다 #@소속# 고객센터 #@이름# 입니다",
+            "norm_text": "A.감사합니다 #@소속# 고객센터 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.스탠다드 트윈 객실 3개 예약 가능 한가요",
+            "norm_text": "B.스탠다드 트윈 객실 3개 예약 가능 한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+스탠다드/NNP+트윈/NNP+객실/NNG+3/SN+개/NNBC+예약/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.이용 원하시는 날짜 말씀해 주시겠습니까",
+            "norm_text": "A.이용 원하시는 날짜 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+이용원/NNG+하/XSV+시/EP+는/ETM+날짜/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.12월 8일과 9일로 객실 3개 예약 가능 한가요",
+            "norm_text": "B.12월 8일과 9일로 객실 3개 예약 가능 한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+12/SN+월/NNBC+8/SN+일/NNBC+과/JC+9/SN+일/NNBC+로/JKB+객실/NNG+3/SN+개/NNBC+예약/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.네 현재 예약 가능 하십니다 성함과 연락처 부탁 드립니다",
+            "norm_text": "A.네 현재 예약 가능 하십니다 성함과 연락처 부탁 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+현재/MAG+예약/NNG+가능/NNG+하/XSV+십니다/EP+EF+성함/NNG+과/JC+연락처/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.#@이름# 으로 #@전번# 은 연락처에요",
+            "norm_text": "B.#@이름# 으로 #@전번# 은 연락처에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+으로/JKB+#/SY+@/SY+전번/NNG+#/SY+은/JX+연락처/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.예약 되셨고요 결제는 체크인시 도와 드리겠습니다",
+            "norm_text": "A.예약 되셨고요 결제는 체크인시 도와 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+예약/NNG+되/XSV+셨/EP+EP+고/EC+요결/NNG+제/XSN+는/JX+체크인/NNG+시/XSN+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.조식은 모두 제공되는 건가요",
+            "norm_text": "B.조식은 모두 제공되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+조식/NNG+은/JX+모두/MAG+제공/NNG+되/XSV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.스탠다드 트윈룸 이용 인원수 6명 무료조식 제공되세요",
+            "norm_text": "A.스탠다드 트윈룸 이용 인원수 6명 무료조식 제공되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+스탠다드/NNP+트윈/NNP+룸/NNP+이용인/NNP+원수/NNG+6/SN+명/NNBC+무료/NNG+조식/NNG+제공/NNG+되/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 체크아웃은 몇시까지 인가요",
+            "norm_text": "B.알겠습니다 체크아웃은 몇시까지 인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+체크아웃/NNG+은/JX+몇/MM+시/NNBC+까지/JX+인가요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.오후 12시까지 입니다 다른 문의 사항 있으신가요",
+            "norm_text": "A.오후 12시까지 입니다 다른 문의 사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+오후/NNG+12/SN+시/NNBC+까지/JX+입니다/VCP+EF+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 12,
+            "text": "B.아니요 잘 알겠습니다",
+            "norm_text": "B.아니요 잘 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아니요/IC+잘/MAG+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.#@소속#고객센터 #@이름# 이었습니다 감사합니다",
+            "norm_text": "A.#@소속#고객센터 #@이름# 이었습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

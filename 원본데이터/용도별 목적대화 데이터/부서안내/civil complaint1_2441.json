@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 5062,
+    "name": "c1_20210910_0005_0295_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151342080151/c1_20210910_0005_0295_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151342080151/c1_20210910_0005_0295_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10910,
+      "filename": "c1_20210902_0020_0001_01.txt",
+      "title": "c1_20210902_0020_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 566,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 566,
+        "word_size": 132,
+        "text": "A.안녕하세요 상담원 #@이름#입니다\nB.안녕하세요 수질 점검 요청하려면 어디다 전화해야 되나요\nA.살고 계시는 곳 수질 점검 요청하시는 건가요\nB.맞아요 사실 저번에도 수질 점검 요청 했는데\nA.이미 요청하셨나요 선생님\nB.네 근데 재검사 요청 하고 싶어서요\nA.그럼 주소 먼저 확인해 드릴게요\nB.주소는 김포시 #@주소#에요\nA.일단 수질 검사는 #소속# 홈페이지 이용해서 신청하실 수 있구요\nA.선생님께서 말씀하신 주소는 점검을 이미 완료한 걸로 나와 있어요\nA.유월 칠 일에 주변 상수관 세척을 실시 한 걸로 확인이 됩니다\nB.점검 한 건 알고 있는데 그래도요 일단 #@소속# 홈페이지요\nA.네 웹사이트 주소 다시 불러드릴까요\nB.주소 다시 불러 주세요\nA.주소가 #@URL# 입니다 이쪽에 신청 하시면 되구요\nB.그러면 점검 완료를 했다니까 그 결과에 대해서 설명 같은거요\nB.질문이나 그런 거 하려면 어디로 전화해야 되요\nA.더 자세한 문의 사항 있으시면 담당 주무관 연락처 알려드릴게요\nA.#@소속# #@이름#주무관이구요 연락처는 #@전번# 입니다\nB.#@이름# 주무관이요 알겠습니다 감사합니다\nA.감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 수질 점검 요청하려면 어디다 전화해야 되나요",
+            "norm_text": "B.안녕하세요 수질 점검 요청하려면 어디다 전화해야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+수질/NNG+점검/NNG+요청/NNG+하/XSV+려면/EC+어디/NP+다/JX+전화/NNG+해야/XSV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.살고 계시는 곳 수질 점검 요청하시는 건가요",
+            "norm_text": "A.살고 계시는 곳 수질 점검 요청하시는 건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+살/VV+고/EC+계시/VX+는/ETM+곳/NNG+수질/NNG+점검/NNG+요청/NNG+하/XSV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.맞아요 사실 저번에도 수질 점검 요청 했는데",
+            "norm_text": "B.맞아요 사실 저번에도 수질 점검 요청 했는데",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맞/VV+아요/EF+사실/MAG+저번/NNG+에/JKB+도/JX+수질/NNG+점검/NNG+요청/NNG+했/XSV+EP+는데/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.이미 요청하셨나요 선생님",
+            "norm_text": "A.이미 요청하셨나요 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+이미/MAG+요청/NNG+하/XSV+셨/EP+EP+나요/EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 6,
+            "text": "B.네 근데 재검사 요청 하고 싶어서요",
+            "norm_text": "B.네 근데 재검사 요청 하고 싶어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+근데/MAJ+재검사/NNG+요청/NNG+하/XSV+고/EC+싶/VX+어서요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.그럼 주소 먼저 확인해 드릴게요",
+            "norm_text": "A.그럼 주소 먼저 확인해 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그럼/MAJ+주소/NNG+먼저/MAG+확인/NNG+해/XSV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.주소는 김포시 #@주소#에요",
+            "norm_text": "B.주소는 김포시 #@주소#에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+주소/NNG+는/JX+김포시/NNP+#/SY+@/SY+주소/NNG+#/SY+에/JKB+요/JX"
+          },
+          {
+            "id": 9,
+            "text": "A.일단 수질 검사는 #소속# 홈페이지 이용해서 신청하실 수 있구요",
+            "norm_text": "A.일단 수질 검사는 #소속# 홈페이지 이용해서 신청하실 수 있구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+일단/MAG+수질/NNG+검사/NNG+는/JX+#/SY+소속/NNG+#/SY+홈페이지/NNG+이용/NNG+해서/XSV+EC+신청/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+구요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.선생님께서 말씀하신 주소는 점검을 이미 완료한 걸로 나와 있어요",
+            "norm_text": "A.선생님께서 말씀하신 주소는 점검을 이미 완료한 걸로 나와 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+께서/JKS+말씀/NNG+하/XSV+신/EP+ETM+주소/NNG+는/JX+점검/NNG+을/JKO+이미/MAG+완료/NNG+한/XSA+ETM+걸로/NNB+JKB+나와/VV+EC+있/VX+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.유월 칠 일에 주변 상수관 세척을 실시 한 걸로 확인이 됩니다",
+            "norm_text": "A.유월 칠 일에 주변 상수관 세척을 실시 한 걸로 확인이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+유월/NNG+칠/NR+일/NNBC+에/JKB+주변/NNG+상/XSN+수관/NNG+세척/NNG+을/JKO+실시/NNG+한/XSA+ETM+걸로/NNB+JKB+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.점검 한 건 알고 있는데 그래도요 일단 #@소속# 홈페이지요",
+            "norm_text": "B.점검 한 건 알고 있는데 그래도요 일단 #@소속# 홈페이지요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+점검/NNG+한/XSA+ETM+건/NNB+JX+알/VV+고/EC+있/VX+는/ETM+데/NNB+그래도/VV+EC+요/JX+일단/MAG+#/SY+@/SY+소속/NNG+#/SY+홈페이지/NNG+요/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 웹사이트 주소 다시 불러드릴까요",
+            "norm_text": "A.네 웹사이트 주소 다시 불러드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+웹/NNG+사이트/NNG+주소/NNG+다시/MAG+불러/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.주소 다시 불러 주세요",
+            "norm_text": "B.주소 다시 불러 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+주소/NNG+다시/MAG+불러/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.주소가 #@URL# 입니다 이쪽에 신청 하시면 되구요",
+            "norm_text": "A.주소가 #@URL# 입니다 이쪽에 신청 하시면 되구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주소/NNG+가/JKS+#/SY+@/SY+URL/SL+#/SY+입니다/VCP+EF+이쪽/NP+에/JKB+신청/NNG+하/XSV+시/EP+면/EC+되/VV+구요/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.그러면 점검 완료를 했다니까 그 결과에 대해서 설명 같은거요",
+            "norm_text": "B.그러면 점검 완료를 했다니까 그 결과에 대해서 설명 같은거요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러면/MAJ+점검/NNG+완료/NNG+를/JKO+했/VV+EP+다니까/EC+그/MM+결과/NNG+에/JKB+대해서/VV+EC+설명/NNG+같/VA+은/ETM+거/NNB+요/VCP+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.질문이나 그런 거 하려면 어디로 전화해야 되요",
+            "norm_text": "B.질문이나 그런 거 하려면 어디로 전화해야 되요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+질문/NNG+이나/JC+그런/MM+거/NNB+하/VV+려면/EC+어디/NP+로/JKB+전화/NNG+해야/XSV+EC+되/VV+요/EC"
+          },
+          {
+            "id": 18,
+            "text": "A.더 자세한 문의 사항 있으시면 담당 주무관 연락처 알려드릴게요",
+            "norm_text": "A.더 자세한 문의 사항 있으시면 담당 주무관 연락처 알려드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+더/MAG+자세/XR+한/XSA+ETM+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+담당/NNG+주무관/NNG+연락처/NNG+알려/VV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.#@소속# #@이름#주무관이구요 연락처는 #@전번# 입니다",
+            "norm_text": "A.#@소속# #@이름#주무관이구요 연락처는 #@전번# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+이/VCP+구요/EF+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 20,
+            "text": "B.#@이름# 주무관이요 알겠습니다 감사합니다",
+            "norm_text": "B.#@이름# 주무관이요 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+이/VCP+요/EC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 21,
+            "text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

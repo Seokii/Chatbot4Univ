@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 10066,
+    "name": "s3_20210913_0010_0570_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417094050/s3_20210913_0010_0570_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417094050/s3_20210913_0010_0570_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12073,
+      "filename": "s3_20210827_0014_0007_01.txt",
+      "title": "s3_20210827_0014_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 558,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 558,
+        "word_size": 138,
+        "text": "A.반갑습니다 #@소속# #@이름# 입니다\nB.인터넷으로 회원 가입해서 주문했는데 이게 결제가 안 돼요\nA.상품 주문하시려고 하는데 결제가 안 된단 말씀이신가요\nA.어떤 카드 결제예요 고객님\nB.카드 결제인데 결제가 안되서 전화로 하는 거예요\nA.제가 도움드릴 수 있는 거는 제가 전화로 주문 도와드릴 수 있어요\nA.근데 이제 고객님 회원 가입하셔서 무슨 쿠폰 같은 거 사용하실려면요\nA.고객님이 직접 하셔야 되는데요\nB.아니  결제가 안 된다고 나오더라고요\nB.그래서 카드 번호랑 입력도 안 했는데 결제가 안 된다고 나와서요\nA.그러세요 고객님 따로 지금 홈페이지상에 문제는 없구요\nA.아직 공지받은 게 없어가지고 한 번 확인을 해 봐야 될 것 같은데요\nB.다시 한번 해 봐요\nA.지금 만약 안 되시면 다른 결제 방법으로는 어려우시구요\nA.가상 계좌 입금이나 이렇게도 가능은 하시거든요 고객님\nB.카드로만 하느냐고 카드 밖에 몰라요\nA.그럼 카드결제 전화로 주문해 드릴게요\nB.알았어요 그럼 주문 해주세요\nA.통화 종료 후 #@번호#로 전화 갈 거에요 거기서 카드번호 입력하시면 됩니다\nA.감사합니다 #@소속# #@이름# 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름# 입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.인터넷으로 회원 가입해서 주문했는데 이게 결제가 안 돼요",
+            "norm_text": "B.인터넷으로 회원 가입해서 주문했는데 이게 결제가 안 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+인터넷/NNG+으로/JKB+회원/NNG+가입/NNG+해서/XSV+EC+주문/NNG+했/XSV+EP+는데/EC+이게/NP+JKS+결제/NNG+가/JKS+안/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.상품 주문하시려고 하는데 결제가 안 된단 말씀이신가요",
+            "norm_text": "A.상품 주문하시려고 하는데 결제가 안 된단 말씀이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+상품/NNG+주문/NNG+하/XSV+시/EP+려고/EC+하/VV+는데/EC+결제/NNG+가/JKS+안/MAG+된단/VV+ETM+말씀/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.어떤 카드 결제예요 고객님",
+            "norm_text": "A.어떤 카드 결제예요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+카드/NNG+결제/NNG+예요/VCP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 5,
+            "text": "B.카드 결제인데 결제가 안되서 전화로 하는 거예요",
+            "norm_text": "B.카드 결제인데 결제가 안되서 전화로 하는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+카드/NNG+결제/NNG+인데/VCP+EC+결제/NNG+가/JKS+안/MAG+되/VV+서/EC+전화/NNG+로/JKB+하/VV+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.제가 도움드릴 수 있는 거는 제가 전화로 주문 도와드릴 수 있어요",
+            "norm_text": "A.제가 도움드릴 수 있는 거는 제가 전화로 주문 도와드릴 수 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+제/NP+가/JKS+도움/NNG+드릴/VV+ETM+수/NNB+있/VV+는/ETM+거/NNB+는/JX+제/NP+가/JKS+전화/NNG+로/JKB+주문/NNG+도와/VV+EC+드릴/VX+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.근데 이제 고객님 회원 가입하셔서 무슨 쿠폰 같은 거 사용하실려면요",
+            "norm_text": "A.근데 이제 고객님 회원 가입하셔서 무슨 쿠폰 같은 거 사용하실려면요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+근데/MAJ+이제/MAG+고객/NNG+님/XSN+회원/NNG+가입/NNG+하/XSV+셔서/EP+EC+무슨/MM+쿠폰/NNG+같/VA+은/ETM+거/NNB+사용/NNG+하/XSV+실려면/EP+EC+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.고객님이 직접 하셔야 되는데요",
+            "norm_text": "A.고객님이 직접 하셔야 되는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+이/JKS+직접/MAG+하/VV+셔야/EP+EC+되/VV+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.아니  결제가 안 된다고 나오더라고요",
+            "norm_text": "B.아니  결제가 안 된다고 나오더라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아니/IC+결제/NNG+가/JKS+안/MAG+된다고/VV+EC+나오/VV+더라고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그래서 카드 번호랑 입력도 안 했는데 결제가 안 된다고 나와서요",
+            "norm_text": "B.그래서 카드 번호랑 입력도 안 했는데 결제가 안 된다고 나와서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그래서/MAJ+카드/NNG+번호/NNG+랑/JKB+입력/NNG+도/JX+안/MAG+했/VV+EP+는데/EC+결제/NNG+가/JKS+안/MAG+된다고/VV+EC+나와/VV+EC+서요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "A.그러세요 고객님 따로 지금 홈페이지상에 문제는 없구요",
+            "norm_text": "A.그러세요 고객님 따로 지금 홈페이지상에 문제는 없구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+세요/EP+EF+고객/NNG+님/XSN+따로/MAG+지금/MAG+홈페이지/NNG+상/XSN+에/JKB+문제/NNG+는/JX+없/VA+구요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.아직 공지받은 게 없어가지고 한 번 확인을 해 봐야 될 것 같은데요",
+            "norm_text": "A.아직 공지받은 게 없어가지고 한 번 확인을 해 봐야 될 것 같은데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아직/MAG+공지/NNG+받/VV+은/ETM+게/NNB+JKS+없/VA+어/EC+가지/VX+고/EC+한/MM+번/NNBC+확인/NNG+을/JKO+해/VV+EC+봐야/VX+EC+될/VV+ETM+것/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 13,
+            "text": "B.다시 한번 해 봐요",
+            "norm_text": "B.다시 한번 해 봐요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+다시/MAG+한/MM+번/NNBC+해봐요/VV+EC+VX+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.지금 만약 안 되시면 다른 결제 방법으로는 어려우시구요",
+            "norm_text": "A.지금 만약 안 되시면 다른 결제 방법으로는 어려우시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+지금/MAG+만약/MAG+안/MAG+되/VV+시/EP+면/EC+다른/MM+결제/NNG+방법/NNG+으로/JKB+는/JX+어려우/VA+시/EP+구요/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.가상 계좌 입금이나 이렇게도 가능은 하시거든요 고객님",
+            "norm_text": "A.가상 계좌 입금이나 이렇게도 가능은 하시거든요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+가상/NNG+계좌/NNG+입금/NNG+이나/JC+이렇게/MAG+도/JX+가능/NNG+은/JX+하/VV+시/EP+거든요/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 16,
+            "text": "B.카드로만 하느냐고 카드 밖에 몰라요",
+            "norm_text": "B.카드로만 하느냐고 카드 밖에 몰라요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+카드/NNG+로/JKB+만/JX+하/VV+느냐고/EC+카드/NNG+밖에/JX+몰라요/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.그럼 카드결제 전화로 주문해 드릴게요",
+            "norm_text": "A.그럼 카드결제 전화로 주문해 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그럼/MAJ+카드/NNG+결제/NNG+전화/NNG+로/JKB+주문/NNG+해/XSV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 18,
+            "text": "B.알았어요 그럼 주문 해주세요",
+            "norm_text": "B.알았어요 그럼 주문 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+알/VV+았/EP+어요/EF+그럼/MAJ+주문/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 19,
+            "text": "A.통화 종료 후 #@번호#로 전화 갈 거에요 거기서 카드번호 입력하시면 됩니다",
+            "norm_text": "A.통화 종료 후 #@번호#로 전화 갈 거예요 카드번호 입력하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+통화/NNG+종료/NNG+후/NNG+#/SY+@/SY+번호/NNG+#/SY+로/JKB+전화/NNG+갈/VV+ETM+거/NNB+에요/VCP+EF+거기/NP+서/JKB+카드/NNG+번호/NNG+입력/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 20,
+            "text": "A.감사합니다 #@소속# #@이름# 였습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름# 였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 158219,
+    "name": "t5_20211119_0010_2091_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135913015115/t5_20211119_0010_2091_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135913015115/t5_20211119_0010_2091_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155546,
+      "filename": "t5_0066_0148_02.txt",
+      "title": "t5_0066_0148_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 246,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 246,
+        "word_size": 54,
+        "text": "A.늦게 받아 죄송합니다 #@소속# #@이름#입니다\nB.안녕하세요 혹시 당일 예약 가능할까요\nA.네 당일 예약도 가능하십니다\nB.네 감사해요 그럼 홈페이지로 할게요\nA.고객님 잠시만요 당일 예약은 전화로만 가능하세요\nB.아 그래요 그럼 #@이름# 외 3명 오늘 3시 20분으로 예약해주세요\nA.탑승자분들 나이가 어떻게 되시나요 대인 소인 중 골라주세요\nB.두명은 대인 두명은 소인입니다\nA.네 그럼 예약해드리겠습니다 감사합니다\nB.네 부탁드릴게요 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.늦게 받아 죄송합니다 #@소속# #@이름#입니다",
+            "norm_text": "A.늦게 받아 죄송합니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+늦/VA+게/EC+받/VV+아/EC+죄송/XR+합니다/XSA+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 혹시 당일 예약 가능할까요",
+            "norm_text": "B.안녕하세요 혹시 당일 예약 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+혹시/MAG+당일/NNG+예약/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 당일 예약도 가능하십니다",
+            "norm_text": "A.네 당일 예약도 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+당일/NNG+예약/NNG+도/JX+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 감사해요 그럼 홈페이지로 할게요",
+            "norm_text": "B.네 감사해요 그럼 홈페이지로 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+해요/XSV+EF+그럼/MAJ+홈페이지/NNG+로/JKB+할게요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 잠시만요 당일 예약은 전화로만 가능하세요",
+            "norm_text": "A.고객님 잠시만요 당일 예약은 전화로만 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+잠시/NNG+만/JX+요/JX+당일/NNG+예약/NNG+은/JX+전화/NNG+로/JKB+만/JX+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.아 그래요 그럼 #@이름# 외 3명 오늘 3시 20분으로 예약해주세요",
+            "norm_text": "B.그럼 #@이름# 외 3명 오늘 3시 20분으로 예약해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+#/SY+@/SY+이름/NNG+#/SY+외/NNB+3/SN+명/NNBC+오늘/MAG+3/SN+시/NNBC+20/SN+분/NNBC+으로/JKB+예약/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.탑승자분들 나이가 어떻게 되시나요 대인 소인 중 골라주세요",
+            "norm_text": "A.탑승자분들 나이가 어떻게 되시나요 대인 소인 중 골라주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+탑승자/NNG+분/NNB+들/XSN+나이/NNG+가/JKS+어떻게/MAG+되/VV+시/EP+나요/EF+대인/NNG+소인/NNG+중/NNB+골라/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.두명은 대인 두명은 소인입니다",
+            "norm_text": "B.두명은 대인 두명은 소인입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+두/MM+명/NNBC+은/JX+대인/NNG+두/MM+명/NNBC+은/JX+소인/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 그럼 예약해드리겠습니다 감사합니다",
+            "norm_text": "A.네 그럼 예약해드리겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+예약/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 부탁드릴게요 수고하세요",
+            "norm_text": "B.네 부탁드릴게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+부탁/NNG+드릴게요/VV+EC+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

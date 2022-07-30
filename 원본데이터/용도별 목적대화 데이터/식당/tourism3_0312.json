@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 141731,
+    "name": "t3_20211115_0002_0015_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135730071880/t3_20211115_0002_0015_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135730071880/t3_20211115_0002_0015_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 150062,
+      "filename": "t3_0052_0058_02.txt",
+      "title": "t3_0052_0058_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 276,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 276,
+        "word_size": 59,
+        "text": "A.안녕하세요 경주문화관광 친절한 상담사 #@이름#입니다\nB.안녕하세요 지금 경주 여행중인데요 가정식 식사를 할 수 있는 곳이 있나요\nA.네 고객님 한식 말씀이신가요\nB.한식이든 다른 나라 음식이든 가정식을 먹고 싶은데요\nA.그러면 혹시 일본 가정식은 어떠세요\nB.일본 가정식 식당도 있나요\nA.네 황남동에 황남가라고 일본 가정식 식당이 있습니다\nB.일본식도 아주 좋아요 황남동 어디쯤인가요\nA.주소는 경주시 #@주소#입니다\nB.알겠습니다 친절한 안내 감사합니다\nA.즐거운 여행되십시오 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 경주문화관광 친절한 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 친절한 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+친절/NNG+한상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 지금 경주 여행중인데요 가정식 식사를 할 수 있는 곳이 있나요",
+            "norm_text": "B.안녕하세요 경주 여행 중 가정식 식사를 할 수 있는 곳이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+경주/NNP+여행/NNG+중/NNB+가/JKS+정식/NNG+식사/NNG+를/JKO+할/VV+ETM+수/NNB+있/VV+는/ETM+곳/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 한식 말씀이신가요",
+            "norm_text": "A.네 고객님 한식 말씀이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+한식/NNG+말씀/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.한식이든 다른 나라 음식이든 가정식을 먹고 싶은데요",
+            "norm_text": "B.한식이든 다른 나라 음식이든 가정식을 먹고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+한식/NNG+이/VCP+든/EC+다른/MM+나라/NNG+음식/NNG+이/VCP+든가/EC+정식/NNG+을/JKO+먹/VV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.그러면 혹시 일본 가정식은 어떠세요",
+            "norm_text": "A.그러면 혹시 일본 가정식은 어떠세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러면/MAJ+혹시/MAG+일본/NNP+가/JKS+정식/NNG+은/JX+어떠세요/VA+EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.일본 가정식 식당도 있나요",
+            "norm_text": "B.일본 가정식 식당도 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+일본/NNP+가/JKS+정식/NNG+식당/NNG+도/JX+있/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 황남동에 황남가라고 일본 가정식 식당이 있습니다",
+            "norm_text": "A.네 황남동에 황남가라고 일본 가정식 식당이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+황남동/NNP+에/JKB+황남/NNG+가/VV+라고/EC+일본/NNP+가/JKS+정식/NNG+식당/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.일본식도 아주 좋아요 황남동 어디쯤인가요",
+            "norm_text": "B.일본식도 아주 좋아요 황남동 어디쯤인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+일본식/NNG+도/JX+아주/MAG+좋/VA+아요/EF+황남동/NNP+어디/NP+쯤/XSN+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.주소는 경주시 #@주소#입니다",
+            "norm_text": "A.주소는 경주시 #@주소#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주소/NNG+는/JX+경주시/NNP+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 친절한 안내 감사합니다",
+            "norm_text": "B.알겠습니다 친절한 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.즐거운 여행되십시오 상담사 #@이름#이었습니다",
+            "norm_text": "A.즐거운 여행되십시오 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+여행/NNG+되/XSV+십/NR+시/NNBC+오상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

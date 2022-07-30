@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 146545,
+    "name": "t1_20211116_0002_0042_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135713053658/t1_20211116_0002_0042_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135713053658/t1_20211116_0002_0042_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147816,
+      "filename": "t1_0066_0002_02.txt",
+      "title": "t1_0066_0002_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 261,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 261,
+        "word_size": 51,
+        "text": "A.감사합니다 #@소속# #@이름#입니다\nB.안녕하세요 거기 리조트에 편의시설이 있다던데요\nA.네 다양한 편의시설이 있습니다 어떤거 말씀하시는건가요\nB.아 사우나요 사우나 있는거 맞죠\nA.네 #@소속# 지하 일층에 사우나가 있습니다\nB.제가 거기 묵으면서 사우나 방문할까 하는데 영업시간좀 알려주세요\nA.사우나의 경우엔 일곱시부터 오후 아홉시까지 운영합니다\nB.아 일곱시부터 아홉시까지요 알겠습니다\nB.알려주셔서 감사해요 수고하세요\nA.네 감사합니다 지금까지 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.감사합니다 #@소속# #@이름#입니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 거기 리조트에 편의시설이 있다던데요",
+            "norm_text": "B.안녕하세요 거기 리조트에 편의시설이 있다던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+거기/NP+리조트/NNG+에/JKB+편의/NNG+시설/NNG+이/JKS+있/VV+다던데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 다양한 편의시설이 있습니다 어떤거 말씀하시는건가요",
+            "norm_text": "A.네 다양한 편의시설이 있습니다 어떤거 말씀하시는건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+다양/NNG+한편/NNG+의/JKG+시설/NNG+이/JKS+있/VA+습니다/EF+어떤/MM+거/NNB+말씀/NNG+하/XSV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.아 사우나요 사우나 있는거 맞죠",
+            "norm_text": "B.아 사우나요 사우나 있는거 맞죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+사우나/NNG+요/VCP+EC+사우나/NNG+있/VA+는/ETM+거/NNB+맞/VV+죠/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 #@소속# 지하 일층에 사우나가 있습니다",
+            "norm_text": "A.네 #@소속# 지하 일층에 사우나가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+지하/NNG+일/NNG+층/XSN+에/JKB+사우나/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.제가 거기 묵으면서 사우나 방문할까 하는데 영업시간좀 알려주세요",
+            "norm_text": "B.제가 거기 묵으면서 사우나 방문할까 하는데 영업시간좀 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+제/NP+가/JKS+거기/NP+묵/VV+으면서/EC+사우나/NNG+방문/NNG+할까/XSV+EC+하/VV+는데/EC+영업/NNG+시간/NNG+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.사우나의 경우엔 일곱시부터 오후 아홉시까지 운영합니다",
+            "norm_text": "A.사우나의 경우엔 일곱시부터 오후 아홉시까지 운영합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+사우나/NNG+의/JKG+경우/NNG+엔/JKB+JX+일곱/NR+시/NNBC+부터/JX+오후/NNG+아홉/NR+시/NNBC+까지/JX+운영/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.아 일곱시부터 아홉시까지요 알겠습니다",
+            "norm_text": "B.아 일곱시부터 아홉시까지요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+일곱/NR+시/NNBC+부터/JX+아홉/NR+시/NNBC+까지/JX+요/JX+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.알려주셔서 감사해요 수고하세요",
+            "norm_text": "B.알려주셔서 감사해요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+해요/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 감사합니다 지금까지 #@이름# 이었습니다",
+            "norm_text": "A.네 감사합니다 지금까지 #@이름# 이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+지금/NNG+까지/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 140790,
+    "name": "t1_20211115_0002_0318_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714041197/t1_20211115_0002_0318_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714041197/t1_20211115_0002_0318_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147944,
+      "filename": "t1_0066_0130_02.txt",
+      "title": "t1_0066_0130_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 298,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 298,
+        "word_size": 74,
+        "text": "A.소중히 모시겠습니다 #@소속# #@이름#입니다\nB.안녕하세요#@소속# 숙박 예약 하려는 데 궁금한 게 있어서요\nA.안녕하십니까 네 어떤 점이 궁금하신가요\nB.기존 숙박 인원이 2인이고 최대 숙박 인원이 4명이잖아요\nB.그러면 기준 숙박 인원 초과 시에 추가 요금이 붙는 건가요\nA.네 그렇습니다 기존 숙박 인원 2인 초과 시에 1인 당 추가 요금이 붙습니다\nB.아 그렇군요 혹시 추가 요금은 얼마 정도 일까요\nA.1인 당 이 만원 추가 요금을 받고 있습니다\nB.네 알겠습니다 참고할게요 감사해요\nA.주말 잘 보내시길 바랍니다 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.소중히 모시겠습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.소중히 모시겠습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+소중히/MAG+모시/VV+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요#@소속# 숙박 예약 하려는 데 궁금한 게 있어서요",
+            "norm_text": "B.안녕하세요#@소속# 숙박 예약 하려는 데 궁금한 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+숙박/NNG+예약/NNG+하/XSV+려는데/EC+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.안녕하십니까 네 어떤 점이 궁금하신가요",
+            "norm_text": "A.안녕하십니까 네 어떤 점이 궁금하신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+네/IC+어떤/MM+점/NNG+이/JKS+궁금/XR+하/XSA+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.기존 숙박 인원이 2인이고 최대 숙박 인원이 4명이잖아요",
+            "norm_text": "B.기존 숙박 인원이 2인이고 최대 숙박 인원이 4명이잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+기존/NNG+숙박/NNG+인원/NNG+이/JKS+2/SN+인/NNG+이/VCP+고/EC+최대/NNG+숙박/NNG+인원/NNG+이/JKS+4/SN+명/NNBC+이/VCP+잖아요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.그러면 기준 숙박 인원 초과 시에 추가 요금이 붙는 건가요",
+            "norm_text": "B.그러면 기준 숙박 인원 초과 시에 추가 요금이 붙는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+기준/NNG+숙박인/NNG+원초/NNG+과시/NNG+에/JKB+추가/NNG+요금/NNG+이/JKS+붙/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 그렇습니다 기존 숙박 인원 2인 초과 시에 1인 당 추가 요금이 붙습니다",
+            "norm_text": "A.네 그렇습니다 인원 2인 초과 시에 1인 당 추가 요금이 붙습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+기존/NNG+숙박/NNG+인원/NNG+2/SN+인초/NNG+과시/NNG+에/JKB+1/SN+인/NNG+당/XSN+추가/NNG+요금/NNG+이/JKS+붙/VV+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.아 그렇군요 혹시 추가 요금은 얼마 정도 일까요",
+            "norm_text": "B.아 그렇군요 혹시 추가 요금은 얼마 정도 일까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그렇/VA+군요/EF+혹시/MAG+추가/NNG+요금/NNG+은/JX+얼마/NNG+정도/NNG+일까요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.1인 당 이 만원 추가 요금을 받고 있습니다",
+            "norm_text": "A.1인 당 이 만원 추가 요금을 받고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+1/SN+인당/NNG+이/JKS+만/NR+원/NNBC+추가/NNG+요금/NNG+을/JKO+받/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠습니다 참고할게요 감사해요",
+            "norm_text": "B.네 알겠습니다 참고할게요 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+참고/NNG+할게요/XSV+EC+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.주말 잘 보내시길 바랍니다 #@이름# 이었습니다",
+            "norm_text": "A.주말 잘 보내시길 바랍니다 #@이름# 이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+주말/NNG+잘/MAG+보내/VV+시/EP+길/ETN+JKO+바랍니다/VV+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

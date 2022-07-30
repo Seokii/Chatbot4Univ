@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 10981,
+    "name": "s3_20210913_0010_0706_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416094518/s3_20210913_0010_0706_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416094518/s3_20210913_0010_0706_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11929,
+      "filename": "s3_20210826_0010_0008_01.txt",
+      "title": "s3_20210826_0010_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 363,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 363,
+        "word_size": 79,
+        "text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요\nB.네 납부 방법을 카드로 바꾸려고요\nA.확인 후 안내 도와드릴텐데요 등록 되어있는 연락처 몇 번이실까요\nB.제 번호는 #@전번#이에요\nA.네 계약자님 성함이랑 현재 주소지가 어떻게 되실까요\nB.#@이름#이고요 #@주소#에요\nA.정보확인 감사합니다 계약자 본인 맞으신 거죠\nB.네 제가 계약자 본인 맞습니다\nA.카드는 어떤 걸로 변경 도와드릴까요\nB.#@소속# 신용카드로 바꾸려고요\nA.네 카드번호 불러주세요\nB.제가 지금 카드를 안 가지고 있어서요 앱으로 한번 확인해볼게요\nB.죄송한데 확인하고 다시 전화드려도 될까요\nA.네 고객님 확인하시고 이 번호로 다시 연락 주시겠어요\nA.변경 진행 도와드리겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 납부 방법을 카드로 바꾸려고요",
+            "norm_text": "B.네 납부 방법을 카드로 바꾸려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+납부/NNG+방법/NNG+을/JKO+카드/NNG+로/JKB+바꾸/VV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.확인 후 안내 도와드릴텐데요 등록 되어있는 연락처 몇 번이실까요",
+            "norm_text": "A.확인 후 안내 도와드릴텐데요 등록 되어있는 연락처 몇 번이실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+후/NNG+안내/NNG+도와/VV+EC+드릴/VX+ETM+텐데요/NNB+VCP+EC+등록/NNG+되/XSV+어/EC+있/VX+는/ETM+연락처/NNG+몇/MM+번/NNBC+이/VCP+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.제 번호는 #@전번#이에요",
+            "norm_text": "B.제 번호는 #@전번#이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 계약자님 성함이랑 현재 주소지가 어떻게 되실까요",
+            "norm_text": "A.네 계약자님 성함이랑 현재 주소지가 어떻게 되실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+계약자/NNG+님/XSN+성함/NNG+이랑/JKB+현재/MAG+주소지/NNG+가/JKS+어떻게/MAG+되/VV+실까요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.#@이름#이고요 #@주소#에요",
+            "norm_text": "B.#@이름#이고요 #@주소#에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+#/SY+@/SY+주소/NNG+#/SY+에/JKB+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.정보확인 감사합니다 계약자 본인 맞으신 거죠",
+            "norm_text": "A.정보확인 감사합니다 계약자 본인 맞으신 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+정보/NNG+확인/NNG+감사/NNG+합니다/XSV+EF+계약자/NNG+본인/NNG+맞/VV+으신/EP+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 제가 계약자 본인 맞습니다",
+            "norm_text": "B.네 제가 계약자 본인 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+계약자/NNG+본인/NNG+맞/VV+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.카드는 어떤 걸로 변경 도와드릴까요",
+            "norm_text": "A.카드는 어떤 걸로 변경 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+카드/NNG+는/JX+어떤/MM+걸로/NNB+JKB+변경/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.#@소속# 신용카드로 바꾸려고요",
+            "norm_text": "B.#@소속# 신용카드로 바꾸려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+신용/NNG+카드/NNG+로/JKB+바꾸/VV+려고요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 카드번호 불러주세요",
+            "norm_text": "A.네 카드번호 불러주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+카드/NNG+번호/NNG+불러/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.제가 지금 카드를 안 가지고 있어서요 앱으로 한번 확인해볼게요",
+            "norm_text": "B.제가 지금 카드를 안 가지고 있어서요 앱으로 한번 확인해볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "B/SL+제/NP+가/JKS+지금/MAG+카드/NNG+를/JKO+안/MAG+가지/VV+고/EC+있/VX+어서요/EC+앱/NNG+으로/JKB+한번/MAG+확인/NNG+해/XSV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.죄송한데 확인하고 다시 전화드려도 될까요",
+            "norm_text": "B.죄송한데 확인하고 다시 전화드려도 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+죄송/XR+한데/XSA+EC+확인/NNG+하/XSV+고/EC+다시/MAG+전화/NNG+드려도/VV+EC+될까요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 고객님 확인하시고 이 번호로 다시 연락 주시겠어요",
+            "norm_text": "A.네 고객님 확인하시고 이 번호로 다시 연락 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+확인/NNG+하/XSV+시/EP+고/EC+이/MM+번호/NNG+로/JKB+다시/MAG+연락/NNG+주/VV+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.변경 진행 도와드리겠습니다 감사합니다",
+            "norm_text": "A.변경 진행 도와드리겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+변경/NNG+진행/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

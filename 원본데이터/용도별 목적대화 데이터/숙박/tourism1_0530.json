@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 141409,
+    "name": "t1_20211115_0002_0522_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135716005732/t1_20211115_0002_0522_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135716005732/t1_20211115_0002_0522_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148148,
+      "filename": "t1_0068_0074_02.txt",
+      "title": "t1_0068_0074_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 380,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 380,
+        "word_size": 88,
+        "text": "A.자연과 함께 힐링하는 곳 평창 #@소속# #@이름# 입니다\nB.객실 좀 알아 보고 있는데요 12월 24일 예약 가능한가요\nA.고객님 어떤 객실로 예약 원하시나요\nB.스탠다드킹 룸으로 12월 24일 숙박이요\nA.고객님 잔여 객실이 있는데 예약 도와 드릴까요\nB.네 예약 할게요 12월 24일 1박이요\nA.예약하실 고객님의 성함과 연락처 이메일 주소 말씀 부탁 드립니다\nB.이름은 #@이름# 연락처는 #@전번# 번 이고요\nB.메일 주소는 #@계정# 입니다\nA.한개의 킹베드가 있는 스탠다드킹 룸으로 예약 하셨습니다\nB.룸서비스 라스트오더는 언제까지 가능한가요\nA.주문 마감은 오후 9시 30분 입니다\nB.자세히 알려 주셔서 감사합니다 수고하세요\nA.편안하고 즐거운 시간 되세요 상담사 #@이름# 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.자연과 함께 힐링하는 곳 평창 #@소속# #@이름# 입니다",
+            "norm_text": "A.자연과 함께 힐링하는 곳 평창 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+자연/NNG+과/JKB+함께/MAG+힐링/NNG+하/XSV+는/ETM+곳/NNB+평창/NNP+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.객실 좀 알아 보고 있는데요 12월 24일 예약 가능한가요",
+            "norm_text": "B.객실 좀 알아 보고 있는데요 12월 24일 예약 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+객실/NNG+좀/MAG+알아보/VV+고/EC+있/VX+는데요/EC+12/SN+월/NNBC+24/SN+일/NNBC+예약/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 어떤 객실로 예약 원하시나요",
+            "norm_text": "A.고객님 어떤 객실로 예약 원하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+어떤/MM+객실/NNG+로/JKB+예/IC+약원/NNG+하/XSV+시/EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.스탠다드킹 룸으로 12월 24일 숙박이요",
+            "norm_text": "B.스탠다드킹 룸으로 12월 24일 숙박이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+스탠다드/NNP+킹/NNP+룸/NNG+으로/JKB+12/SN+월/NNBC+24/SN+일/NNBC+숙박/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 잔여 객실이 있는데 예약 도와 드릴까요",
+            "norm_text": "A.고객님 잔여 객실이 있는데 예약 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+잔여/NNG+객실/NNG+이/JKS+있/VV+는데/EC+예약/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 예약 할게요 12월 24일 1박이요",
+            "norm_text": "B.네 예약 할게요 12월 24일 1박이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+예약/NNG+할게요/XSV+EC+12/SN+월/NNBC+24/SN+일/NNBC+1/SN+박/NNBC+이/VCP+요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.예약하실 고객님의 성함과 연락처 이메일 주소 말씀 부탁 드립니다",
+            "norm_text": "A.예약하실 고객님의 성함과 연락처 이메일 주소 말씀 부탁 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+예약/NNG+하/XSV+실/EP+ETM+고객/NNG+님/XSN+의/JKG+성함/NNG+과/JC+연락처/NNG+이메일/NNG+주소/NNG+말씀/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.이름은 #@이름# 연락처는 #@전번# 번 이고요",
+            "norm_text": "B.이름은 #@이름# 연락처는 #@전번# 번 이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+번이/NNG+고요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "B.메일 주소는 #@계정# 입니다",
+            "norm_text": "B.메일 주소는 #@계정# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+메일/VV+ETM+주소/NNG+는/JX+#/SY+@/SY+계정/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.한개의 킹베드가 있는 스탠다드킹 룸으로 예약 하셨습니다",
+            "norm_text": "A.한개의 킹베드가 있는 스탠다드킹 룸으로 예약 하셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+한/MM+개/NNBC+의/JKG+킹/MAG+베드/NNG+가/JKS+있/VA+는/ETM+스탠다드/NNG+킹/MAG+룸/NNG+으로/JKB+예약/NNG+하/XSV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.룸서비스 라스트오더는 언제까지 가능한가요",
+            "norm_text": "B.룸서비스 라스트오더는 언제까지 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+룸서비스/NNG+라스트/NNG+오더/NNG+는/JX+언제/NP+까지/JX+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 12,
+            "text": "A.주문 마감은 오후 9시 30분 입니다",
+            "norm_text": "A.주문 마감은 오후 9시 30분 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주문/NNG+마감/NNG+은/JX+오후/NNG+9/SN+시/NNBC+30/SN+분/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.자세히 알려 주셔서 감사합니다 수고하세요",
+            "norm_text": "B.자세히 알려 주셔서 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+자세히/MAG+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.편안하고 즐거운 시간 되세요 상담사 #@이름# 였습니다",
+            "norm_text": "A.편안하고 즐거운 시간 되세요 상담사 #@이름# 였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+편안/NNG+하/XSV+고/EC+즐거운/VA+ETM+시간/NNG+되/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

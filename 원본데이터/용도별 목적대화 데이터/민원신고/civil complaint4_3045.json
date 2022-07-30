@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 63227,
+    "name": "c4_20211022_0014_0042_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt202110081312330333108/c4_20211022_0014_0042_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt202110081312330333108/c4_20211022_0014_0042_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56952,
+      "filename": "c4_20210927_0028_0003_01.txt",
+      "title": "c4_20210927_0028_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 208,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 208,
+        "word_size": 48,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다\nB.네 민원 한 가지 하려고 하는데요\nB.아파트 단지내부에 버스노선을 확대 좀 해달라고요\nA.민원 내용이 아파트 단지 내의 버스 노선 확대 맞으십니까\nB.네 버스노선 확대 좀 해주세요\nA.노선확대는 운송업체와 노선이요\nA.경유하는 관할 지자체 동의가 필수인 사항입니다\nB.그럼 버스 배차라도 늘려줘요 버스가 안와서 어딜 갈수가 있어야지요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 민원 한 가지 하려고 하는데요",
+            "norm_text": "B.네 민원 한 가지 하려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+민원/NNG+한가지/NNG+하/XSV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.아파트 단지내부에 버스노선을 확대 좀 해달라고요",
+            "norm_text": "B.아파트 단지내부에 버스노선을 확대 좀 해달라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+아파트/NNG+단지/MAG+내부/NNG+에/JKB+버스/NNG+노선/NNG+을/JKO+확대/NNG+좀/MAG+해/VV+EC+달/VX+라고요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.민원 내용이 아파트 단지 내의 버스 노선 확대 맞으십니까",
+            "norm_text": "A.민원 내용이 아파트 단지 내의 버스 노선 확대 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+민원/NNG+내용/NNG+이/JKS+아파트/NNG+단지/MAG+내/NP+의/JKG+버스/NNG+노선/NNG+확대/NNG+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.네 버스노선 확대 좀 해주세요",
+            "norm_text": "B.네 버스노선 확대 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+버스/NNG+노선/NNG+확대/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.노선확대는 운송업체와 노선이요",
+            "norm_text": "A.노선확대는 운송업체와 노선이요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+노선/NNG+확대/NNG+는/JX+운송/NNG+업체/NNG+와/JC+노선/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.경유하는 관할 지자체 동의가 필수인 사항입니다",
+            "norm_text": "A.경유하는 관할 지자체 동의가 필수인 사항입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+경유/NNG+하/XSV+는/ETM+관할지/NNG+자체/NNG+동의/NNG+가/JKS+필수/NNG+인/VCP+ETM+사항/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 버스 배차라도 늘려줘요 버스가 안와서 어딜 갈수가 있어야지요",
+            "norm_text": "B.그럼 버스 배차라도 늘려줘요 버스가 안와서 어딜 갈수가 있어야지요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그럼/MAJ+버스/NNG+배차/NNG+라도/VCP+EC+늘려/VV+EC+줘요/VX+EF+버스/NNG+가/JKS+안/MAG+와서/VV+EC+어딜/NP+JKO+갈/VV+ETM+수/NNB+가/JKS+있/VA+어야지요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

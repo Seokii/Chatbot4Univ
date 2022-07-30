@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 51436,
+    "name": "c4_20211018_0024_0176_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131234099286/c4_20211018_0024_0176_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131234099286/c4_20211018_0024_0176_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57140,
+      "filename": "c4_20210927_0022_0009_01.txt",
+      "title": "c4_20210927_0022_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 316,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 316,
+        "word_size": 64,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.예 안녕하세요 제가 질문사항이 있어서 전화드렸습니다\nA.네 여쭤보시고 싶은게 있으신가요\nB.항만시설을 정당한 절차없이 출입한 경우 어떻게 되나요\nA.우선 항만은 국가기반 시설이라서요 출입절차 없이 출입하시는 경우 과태료가 부과됩니다\nB.과태료가 부과된다 하면 어느정도 부과되나요\nA.정당한 출입절차 없이 무단으로 출입한 자는 삼백만원 이하의 과태료가 부과되고 있습니다\nB.삼백만원 과태료가 부과된다고요\nA.현재로서는 그렇습니다 선생님\nB.알겠습니다 다른 질문사항 생기면 또 연락드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "norm_text": "B.예 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "norm_text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.항만시설을 정당한 절차없이 출입한 경우 어떻게 되나요",
+            "norm_text": "B.항만시설을 정당한 절차없이 출입한 경우 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+항만/NNG+시설/NNG+을/JKO+정당/XR+한/XSA+ETM+절차/NNG+없이/MAG+출입/NNG+한/XSA+ETM+경우/NNG+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.우선 항만은 국가기반 시설이라서요 출입절차 없이 출입하시는 경우 과태료가 부과됩니다",
+            "norm_text": "A.항만은 국가기반 시설이라 절차 없이 출입할 경우 과태료가 부과됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+항만/NNG+은/JX+국가/NNG+기반/NNG+시설/NNG+이/VCP+라/EC+절차/NNG+없이/MAG+출입/NNG+할/XSV+ETM+경우/NNG+과태료/NNG+가/JKS+부과/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.과태료가 부과된다 하면 어느정도 부과되나요",
+            "norm_text": "B.과태료가 부과된다 하면 어느정도 부과되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+과태료/NNG+가/JKS+부과/NNG+된다/XSV+EC+하/VV+면/EC+어느/MM+정도/NNG+부과/NNG+되/XSV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.정당한 출입절차 없이 무단으로 출입한 자는 삼백만원 이하의 과태료가 부과되고 있습니다",
+            "norm_text": "A.무단으로 출입한 자는 삼백만원 이하의 과태료가 부과되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+정당/XR+한/XSA+ETM+출입/NNG+절차/NNG+없이/MAG+무단/NNG+으로/JKB+출입/NNG+한/XSA+ETM+자/NNB+는/JX+삼/NR+백만/NR+원/NNBC+이하/NNG+의/JKG+과태료/NNG+가/JKS+부과/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.삼백만원 과태료가 부과된다고요",
+            "norm_text": "B.삼백만원 과태료가 부과된다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+삼/NR+백만/NR+원/NNBC+과태료/NNG+가/JKS+부과/NNG+된다/XSV+EC+고요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.현재로서는 그렇습니다 선생님",
+            "norm_text": "A.현재로서는 그렇습니다 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+현재/NNG+로서/JKB+는/JX+그렇/VA+습니다/EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 다른 질문사항 생기면 또 연락드릴게요",
+            "norm_text": "B.알겠습니다 다른 질문사항 생기면 또 연락드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+다른/MM+질문/NNG+사항/NNG+생기/VV+면/EC+또/MAG+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 10413,
+    "name": "s3_20210913_0010_0599_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417073725/s3_20210913_0010_0599_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417073725/s3_20210913_0010_0599_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12044,
+      "filename": "s3_20210827_0030_0005_01.txt",
+      "title": "s3_20210827_0030_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 538,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 538,
+        "word_size": 121,
+        "text": "A.네 고객님 성함 어떻게 되세요\nB.이름은 #@이름#인데요 이거 법인 카드로 되죠\nA.카드 결제는 저희가 전화 종료 후에요 #@전번# 번호 보내드릴 거니니까요\nA.그쪽으로 직접 통화 하셔가지고 고객님께서 결제를 해주셔야 돼고요\nA.번거로우시면 가상계좌 번호 알려드립니다\nB.그니까 이제 법인 카드로 되나요\nA.카드 결제는 십 분 안으로 해서 저희가 보내드릴 예정이니까요\nA.조금 기다리셔야 돼요 휴대전화 번호 말씀 부탁드릴게요\nB.휴대전화는 #@전번#으로 해주세요\nA.네 고객님 받으시는 주소 어떻게 되실까요\nB.도로명으로 해야지 주소가 #@주소#입니다\nA.일단은 저희가 가상 계좌 번호는 임의로 나가는 거라 그거는 무시해주시면 되구요\nA.말씀해주셨던 휴대전화 번호로 해서 저희가 #@전번# 번호 하나 보내드릴 거예요\nA.그럼 그쪽으로 전화하셔서 직접 카드 결제 해주시면 되구요\nB.지금 #@전번#  문자 왔나본데요\nA.십오 분 안에 발송되실 거고요 고객님\nA.지금 불러주신 휴대 전화 통신사가 어떻게 되세요\nB.휴대폰 통신사는 #@소속#입니다\nA.이쪽으로 발송해드리도록 하겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 고객님 성함 어떻게 되세요",
+            "norm_text": "A.네 고객님 성함 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+성함/NNG+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 2,
+            "text": "B.이름은 #@이름#인데요 이거 법인 카드로 되죠",
+            "norm_text": "B.이름은 #@이름#인데요 이거 법인 카드로 되죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+인데요/VCP+EF+이거/NP+법인/NNG+카드/NNG+로/JKB+되/VV+죠/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.카드 결제는 저희가 전화 종료 후에요 #@전번# 번호 보내드릴 거니니까요",
+            "norm_text": "A.카드 결제는 저희가 전화 종료 후에요 #@전번# 번호 보내드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+카드/NNG+결제/NNG+는/JX+저희/NP+가/JKS+전화/NNG+종료/NNG+후/NNG+에/JKB+요/JX+#/SY+@/SY+전번/NNG+#/SY+번호/NNG+보내/VV+EC+드릴/VX+ETM+거/NNB+니/VCP+EF+니까요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.그쪽으로 직접 통화 하셔가지고 고객님께서 결제를 해주셔야 돼고요",
+            "norm_text": "A.그쪽으로 직접 통화 하셔가지고 고객님께서 결제를 해주셔야 돼고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그쪽/NP+으로/JKB+직접/MAG+통화/NNG+하/XSV+셔/EP+EC+가지/VX+고/EC+고객/NNG+님/XSN+께서/JKS+결제/NNG+를/JKO+해/VV+EC+주/VX+셔야/EP+EC+돼/VV+EC+고요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.번거로우시면 가상계좌 번호 알려드립니다",
+            "norm_text": "A.번거로우시면 가상계좌 번호 알려드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+번거로우/VA+시/EP+면/EC+가상/NNG+계좌/NNG+번호/NNG+알려/VV+EC+드립니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그니까 이제 법인 카드로 되나요",
+            "norm_text": "B.그니까 이제 법인 카드로 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그니까/MAJ+이제/MAG+법인/NNG+카드/NNG+로/JKB+되/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.카드 결제는 십 분 안으로 해서 저희가 보내드릴 예정이니까요",
+            "norm_text": "A.카드 결제는 십 분 안으로 해서 저희가 보내드릴 예정이니까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+카드/NNG+결제/NNG+는/JX+십/NR+분/NNBC+안/NNG+으로/JKB+해서/VV+EC+저희/NP+가/JKS+보내/VV+EC+드릴/VX+ETM+예정/NNG+이/VCP+니까요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.조금 기다리셔야 돼요 휴대전화 번호 말씀 부탁드릴게요",
+            "norm_text": "A.조금 기다리셔야 돼요 휴대전화 번호 말씀 부탁드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+조금/MAG+기다리/VV+셔야/EP+EC+돼요/VV+EF+휴대/NNG+전화/NNG+번호/NNG+말씀/NNG+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.휴대전화는 #@전번#으로 해주세요",
+            "norm_text": "B.휴대전화는 #@전번#으로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+휴대/NNG+전화/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 고객님 받으시는 주소 어떻게 되실까요",
+            "norm_text": "A.네 고객님 받으시는 주소 어떻게 되실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+받/VV+으시/EP+는/ETM+주소/NNG+어떻게/MAG+되/VV+실까요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.도로명으로 해야지 주소가 #@주소#입니다",
+            "norm_text": "B.도로명으로 해야지 주소가 #@주소#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+도로/NNG+명/XSN+으로/JKB+해야지/VV+EC+주소/NNG+가/JKS+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.일단은 저희가 가상 계좌 번호는 임의로 나가는 거라 그거는 무시해주시면 되구요",
+            "norm_text": "A.저희가 보내드리는 가상 계좌 번호는 무시해ㅊ주시면 되고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+일단/MAG+은/JX+저희/NP+가/JKS+가상/NNG+계좌/NNG+번호/NNG+는/JX+임의/NNG+로/JKB+나가/VV+는/ETM+거/NNB+라/VCP+EC+그거/NP+는/JX+무시/NNG+해/XSV+EC+주/VX+시/EP+면/EC+되/VV+구요/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.말씀해주셨던 휴대전화 번호로 해서 저희가 #@전번# 번호 하나 보내드릴 거예요",
+            "norm_text": "A.휴대전화로 저희가 #@전번# 번호 하나 보내드릴 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+말씀/NNG+해/XSV+EC+주/VX+셨/EP+EP+던/ETM+휴대/NNG+전화/NNG+번호/NNG+로/JKB+해서/VV+EC+저희/NP+가/JKS+#/SY+@/SY+전번/NNG+#/SY+번호/NNG+하나/NR+보내/VV+EC+드릴/VX+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.그럼 그쪽으로 전화하셔서 직접 카드 결제 해주시면 되구요",
+            "norm_text": "A.그럼 그쪽으로 전화하셔서 직접 카드 결제 해주시면 되구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그럼/MAJ+그쪽/NP+으로/JKB+전화/NNG+하/XSV+셔서/EP+EC+직접/MAG+카드/NNG+결제/NNG+해/XSV+EC+주/VX+시/EP+면/EC+되/VV+구요/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.지금 #@전번#  문자 왔나본데요",
+            "norm_text": "B.지금 #@전번#  문자 왔나본데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+#/SY+@/SY+전번/NNG+#/SY+문자/NNG+왔/VV+EP+나/EC+본데요/VX+EF"
+          },
+          {
+            "id": 16,
+            "text": "A.십오 분 안에 발송되실 거고요 고객님",
+            "norm_text": "A.십오 분 안에 발송되실 거고요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+십/NR+오/NR+분/NNBC+안/NNG+에/JKB+발송/NNG+되/XSV+실/EP+ETM+거/NNB+고요/VCP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 17,
+            "text": "A.지금 불러주신 휴대 전화 통신사가 어떻게 되세요",
+            "norm_text": "A.지금 불러주신 휴대 전화 통신사가 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+불러/VV+EC+주/VX+신/EP+ETM+휴대/NNG+전화/NNG+통신사/NNG+가/JKS+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 18,
+            "text": "B.휴대폰 통신사는 #@소속#입니다",
+            "norm_text": "B.휴대폰 통신사는 #@소속#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+휴대폰/NNG+통신사/NNG+는/JX+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.이쪽으로 발송해드리도록 하겠습니다 감사합니다",
+            "norm_text": "A.이쪽으로 발송해드리도록 하겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+이쪽/NP+으로/JKB+발송/NNG+해/XSV+EC+드리/VX+도록/EC+하/VX+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

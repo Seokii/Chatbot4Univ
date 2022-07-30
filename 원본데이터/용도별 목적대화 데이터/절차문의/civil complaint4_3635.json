@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 13422,
+    "name": "c2_20210914_0012_0211_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151533004664/c2_20210914_0012_0211_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151533004664/c2_20210914_0012_0211_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 15642,
+      "filename": "c4_20210819_0010_0011_01.txt",
+      "title": "c4_20210819_0010_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 363,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 363,
+        "word_size": 80,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요\nB.예 안녕하세요 군산에요 우리은행이 있나요\nA.죄송합니다만 말씀하신 지역이 금산이십니까\nB.아니요 군산군이라고 했습니다\nA.네 군산에 우리은행 확인 후 안내해드리겠습니다 잠시만 기다리겠습니까\nB.네 군산에 있는 우리은행 위치 확인 부탁해요\nA.기다려 주셔서 감사합니다 전북 군산시 내에 우리은행 세 지점 확인됩니다\nA.위치는 나운동과 중앙로 이가 소룡동 세 곳으로 확인 됩니다\nA.선생님 혹시 제 음성 들리십니까\nB.잠깐만요 뭐 좀 하고 있어서요\nA.네 통화 연결 기다리겠습니다\nB.죄송합니다 제가 지금 통화가 어렵겠네요 이따가 다시 걸겠습니다\nA.네 전화주셔서 동일한 문의사항으로 말씀해주십시오 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 안녕하세요 군산에요 우리은행이 있나요",
+            "norm_text": "B.예 안녕하세요 군산에요 우리은행이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+안녕/NNG+하/XSV+세요/EP+EF+군산/NNG+에/JKB+요/JX+우리/NP+은행/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.죄송합니다만 말씀하신 지역이 금산이십니까",
+            "norm_text": "A.죄송합니다만 말씀하신 지역이 금산이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+죄송/XR+합니다만/XSA+EC+말씀/NNG+하/XSV+신/EP+ETM+지역/NNG+이/JKS+금산/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.아니요 군산군이라고 했습니다",
+            "norm_text": "B.아니요 군산군이라고 했습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+군산/NNP+군/NNB+이/VCP+라고/EC+했/VX+EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 군산에 우리은행 확인 후 안내해드리겠습니다 잠시만 기다리겠습니까",
+            "norm_text": "A.네 군산에 우리은행 확인 후 안내해드리겠습니다 잠시만 기다리겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+군산/NNG+에/JKB+우리/NP+은행/NNG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+잠시/NNG+만/JX+기다리/VV+겠/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 군산에 있는 우리은행 위치 확인 부탁해요",
+            "norm_text": "B.네 군산에 있는 우리은행 위치 확인 부탁해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+군산/NNG+에/JKB+있/VV+는/ETM+우리은행/NNP+위치/NNG+확인/NNG+부탁/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.기다려 주셔서 감사합니다 전북 군산시 내에 우리은행 세 지점 확인됩니다",
+            "norm_text": "A.기다려 주셔서 감사합니다 전북 군산시 내에 우리은행 세 지점 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+전북/NNP+군산/NNP+시내/NNG+에/JKB+우리/NP+은/JX+행세/NNG+지점/NNG+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.위치는 나운동과 중앙로 이가 소룡동 세 곳으로 확인 됩니다",
+            "norm_text": "A.위치는 나운동과 중앙로 이가 소룡동 세 곳으로 확인 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+위치/NNG+는/JX+나운동/NNP+과/JC+중앙/NNG+로/JKB+이/NP+가/JKS+소룡동/NNP+세/MM+곳/NNG+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.선생님 혹시 제 음성 들리십니까",
+            "norm_text": "A.선생님 혹시 제 음성 들리십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+혹시/MAG+제/MM+음성/NNG+들리/VV+십니까/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.잠깐만요 뭐 좀 하고 있어서요",
+            "norm_text": "B.잠깐만요 뭐 좀 하고 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+잠깐/MAG+만/JX+요/JX+뭐/IC+좀/MAG+하/VV+고/EC+있/VX+어서요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 통화 연결 기다리겠습니다",
+            "norm_text": "A.네 통화 연결 기다리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+통화/NNG+연결/NNG+기다리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.죄송합니다 제가 지금 통화가 어렵겠네요 이따가 다시 걸겠습니다",
+            "norm_text": "B.죄송합니다 제가 지금 통화가 어렵겠네요 이따가 다시 걸겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "B/SL+죄송/XR+합니다/XSA+EF+제/NP+가/JKS+지금/MAG+통화/NNG+가/JKS+어렵/VA+겠/EP+네요/EF+이따가/MAG+다시/MAG+걸/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.네 전화주셔서 동일한 문의사항으로 말씀해주십시오 감사합니다",
+            "norm_text": "A.네 전화주셔서 동일한 문의사항으로 말씀해주십시오 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+전화/NNG+주/VV+셔서/EP+EC+동일/NNG+한문/NNG+의/JKG+사항/NNG+으로/JKB+말씀/NNG+해/XSV+EC+주/VX+십시오/EP+EC+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 30226,
+    "name": "s3_20211006_0010_1417_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420044984/s3_20211006_0010_1417_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420044984/s3_20211006_0010_1417_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12147,
+      "filename": "s3_20210830_0020_0001_01.txt",
+      "title": "s3_20210830_0020_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 169,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 169,
+        "word_size": 40,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.노래방 기기 좀 주문하려고요\nA.네 죄송하지만 다시 한 번만 말씀해주세요 고객님\nB.노래방 기기 좀 주문 할려구요\nA.정확한 상품명 알려주실 수 있나요\nA.상품 이름 알려 주셔야 주문 가능하세요\nB.알겠어요 확인해보고 다시 할게요\nA.감사합니다 확인하시고 다시 연락 주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.노래방 기기 좀 주문하려고요",
+            "norm_text": "B.노래방 기기 좀 주문하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+노래방/NNG+기기/NNG+좀/MAG+주문/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 죄송하지만 다시 한 번만 말씀해주세요 고객님",
+            "norm_text": "A.네 죄송하지만 다시 한 번만 말씀해주세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+죄송/XR+하/XSA+지만/EC+다시/MAG+한/MM+번/NNBC+만/JX+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.노래방 기기 좀 주문 할려구요",
+            "norm_text": "B.노래방 기기 좀 주문 할려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+노래방/NNG+기기/NNG+좀/MAG+주문/NNG+할려구요/XSV+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.정확한 상품명 알려주실 수 있나요",
+            "norm_text": "A.정확한 상품명 알려주실 수 있나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+정확/NNG+한/XSA+ETM+상품명/NNG+알려/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.상품 이름 알려 주셔야 주문 가능하세요",
+            "norm_text": "A.상품 이름 알려 주셔야 주문 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+상품/NNG+이름/NNG+알려/VV+EC+주/VX+셔야/EP+EC+주문/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.알겠어요 확인해보고 다시 할게요",
+            "norm_text": "B.알겠어요 확인해보고 다시 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+어요/EF+확인/NNG+해/XSV+EC+보/VX+고/EC+다시/MAG+할게요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.감사합니다 확인하시고 다시 연락 주세요",
+            "norm_text": "A.감사합니다 확인하시고 다시 연락 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+확인/NNG+하/XSV+시/EP+고/EC+다시/MAG+연락/NNG+주세요/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

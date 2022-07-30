@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 46055,
+    "name": "c3_20211014_0010_2372_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211008131041085430/c3_20211014_0010_2372_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211008131041085430/c3_20211014_0010_2372_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 54345,
+      "filename": "c3_20210924_0007_0007_01.txt",
+      "title": "c3_20210924_0007_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 337,
+      "annotations": {
+        "subject": "서류 문의",
+        "speaker_type": "1:1",
+        "size": 337,
+        "word_size": 72,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 문의할 게 있어서요\nA.네 어떤 문의이실까요\nB.연말정산 가족 중 형이 장애인인데 함께 거주하고 있지 않습니다\nB.장애인등록증을 제가 받았는데 주민등록상 함께 거주하지 않아요\nB.그럴경우 장애인 공제를 받을 수 없나요\nA.장애인공제를 받기 위해서는 주민등록표상의 동거가족이어야합니다\nB.그럼 안 되는 건가요\nA.근로소득자와 현실적으로 생계를 같이 하여야 하는 것인데요\nA.동거하다가 일시적으로 퇴거한 경우라면 부양가족 공제 가능합니다\nA.이 경우에는 증명 서류를 첨부하여 제출해야합니다\nB.네 감사합니다 그렇게 할게요\nA.네 도움이 되어 다행입니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의할 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의할 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문의/NNG+할/XSV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의이실까요",
+            "norm_text": "A.네 어떤 문의이실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.연말정산 가족 중 형이 장애인인데 함께 거주하고 있지 않습니다",
+            "norm_text": "B.연말정산 가족 중 형이 장애인인데 함께 거주하고 있지 않습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+연말/NNG+정산/NNG+가족/NNG+중형/NNG+이/JKS+장애인/NNG+인데/VCP+EC+함께/MAG+거주/NNG+하/XSV+고/EC+있/VX+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.장애인등록증을 제가 받았는데 주민등록상 함께 거주하지 않아요",
+            "norm_text": "B.장애인등록증을 제가 받았는데 주민등록상 함께 거주하지 않아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+장애/NNG+인/VCP+ETM+등록증/NNG+을/JKO+제/NP+가/JKS+받/VV+았/EP+는데/EC+주민/NNG+등록/NNG+상/XSN+함께/MAG+거주/NNG+하/XSV+지/EC+않/VX+아요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그럴경우 장애인 공제를 받을 수 없나요",
+            "norm_text": "B.그럴경우 장애인 공제를 받을 수 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럴/VV+ETM+경우/NNG+장애/NNG+인/VCP+ETM+공제/NNG+를/JKO+받/VV+을/ETM+수/NNB+없/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.장애인공제를 받기 위해서는 주민등록표상의 동거가족이어야합니다",
+            "norm_text": "A.장애인공제를 받기 위해서는 주민등록표상의 동거가족이어야합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+장애/NNG+인/VCP+ETM+공제/NNG+를/JKO+받/VV+기/ETN+위해서/VV+EC+는/JX+주민/NNG+등록/NNG+표상/NNG+의/JKG+동거/NNG+가족/NNG+이/VCP+어야/EC+합니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 안 되는 건가요",
+            "norm_text": "B.그럼 안 되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+그럼/MAJ+안/MAG+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.근로소득자와 현실적으로 생계를 같이 하여야 하는 것인데요",
+            "norm_text": "A.근로소득자와 현실적으로 생계를 같이 하여야 하는 것인데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+근로/NNG+소득/NNG+자/XSN+와/JC+현실/NNG+적/XSN+으로/JKB+생계/NNG+를/JKO+같이/MAG+하/VV+여야/EC+하/VV+는/ETM+것/NNB+인데요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.동거하다가 일시적으로 퇴거한 경우라면 부양가족 공제 가능합니다",
+            "norm_text": "A.동거하다가 일시적으로 퇴거한 경우라면 부양가족 공제 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+동거/NNG+하/XSV+다가/EC+일시/NNG+적/XSN+으로/JKB+퇴거/NNG+한/XSA+ETM+경우/NNG+라면/VCP+EC+부양/NNG+가족/NNG+공제/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.이 경우에는 증명 서류를 첨부하여 제출해야합니다",
+            "norm_text": "A.이 경우에는 증명 서류를 첨부하여 제출해야합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이/MM+경우/NNG+에/JKB+는/JX+증명/NNG+서류/NNG+를/JKO+첨부/NNG+하/XSV+여/EC+제출/NNG+해야/XSV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.네 감사합니다 그렇게 할게요",
+            "norm_text": "B.네 감사합니다 그렇게 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+그렇게/MAG+할게요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 도움이 되어 다행입니다 감사합니다",
+            "norm_text": "A.네 도움이 되어 다행입니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+도움/NNG+이/JKS+되/VV+어/EC+다행/NNG+입니다/VCP+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

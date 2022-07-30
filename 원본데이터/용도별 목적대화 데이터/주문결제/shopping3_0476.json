@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 10549,
+    "name": "s3_20210913_0010_0617_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417061345/s3_20210913_0010_0617_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417061345/s3_20210913_0010_0617_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12026,
+      "filename": "s3_20210827_0023_0004_01.txt",
+      "title": "s3_20210827_0023_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 250,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 250,
+        "word_size": 53,
+        "text": "A.안녕하십니까 무엇을 도와드릴까요\nB.#@상품# 구매하기로 했는데 계좌번호가 안 왔어요\nA.고객님 우선 성함 어떻게 되세요\nB.#@이름# 이라고 합니다\nA.고객님 휴대전화번호 #@전번#이 맞으십니까\nB.아니에요 #@전번# 이에요\nA.죄송합니다 고객님 번호 입력에서 실수가 있었습니다\nA.#@전번#으로 계좌 다시 발송해드리겠습니다\nB.그러면은 제가 한 며칠 정도면은 받아볼 수 있을까요\nA.평일 기준으로 이틀에서 오 일 정도 소요 됩니다\nB.네 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하십니까 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 구매하기로 했는데 계좌번호가 안 왔어요",
+            "norm_text": "B.#@상품# 구매하기로 했는데 계좌번호가 안 왔어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+구매/NNG+하/XSV+기/ETN+로/JKB+했/VV+EP+는데/EC+계좌/NNG+번호/NNG+가/JKS+안/MAG+왔어요/VV+EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 우선 성함 어떻게 되세요",
+            "norm_text": "A.고객님 우선 성함 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+우선/MAG+성함/NNG+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@이름# 이라고 합니다",
+            "norm_text": "B.#@이름# 이라고 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+이라고/JKQ+합니다/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 휴대전화번호 #@전번#이 맞으십니까",
+            "norm_text": "A.고객님 휴대전화번호 #@전번#이 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+휴대/NNG+전화/NNG+번호/NNG+#/SY+@/SY+전번/NNG+#/SY+이/JKS+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.아니에요 #@전번# 이에요",
+            "norm_text": "B.아니에요 #@전번# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+아니/VCN+에요/EF+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.죄송합니다 고객님 번호 입력에서 실수가 있었습니다",
+            "norm_text": "A.죄송합니다 고객님 번호 입력에서 실수가 있었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+고객/NNG+님/XSN+번호/NNG+입력/NNG+에서/JKB+실수/NNG+가/JKS+있/VA+었/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.#@전번#으로 계좌 다시 발송해드리겠습니다",
+            "norm_text": "A.#@전번#으로 계좌 다시 발송해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+계좌/NNG+다시/MAG+발송/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그러면은 제가 한 며칠 정도면은 받아볼 수 있을까요",
+            "norm_text": "B.그러면은 제가 한 며칠 정도면은 받아볼 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면은/MAJ+제/NP+가/JKS+한/MM+며칠/NNG+정도/NNG+면은/VCP+EC+받/VV+아/EC+볼/VX+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.평일 기준으로 이틀에서 오 일 정도 소요 됩니다",
+            "norm_text": "A.평일 기준으로 이틀에서 오 일 정도 소요 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+평일/NNG+기준/NNG+으로/JKB+이틀/NNG+에서/JKB+오일/NNG+정도/NNG+소요/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

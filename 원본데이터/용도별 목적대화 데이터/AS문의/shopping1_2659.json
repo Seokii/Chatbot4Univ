@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 60346,
+    "name": "s1_20211021_0002_0143_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151259045237/s1_20211021_0002_0143_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151259045237/s1_20211021_0002_0143_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 9151,
+      "filename": "s1_20210827_0027_0013_01.txt",
+      "title": "s1_20210827_0027_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 263,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 263,
+        "word_size": 58,
+        "text": "A.안녕하세요 고객님 다름이 아니라요\nA.배송을 받기 위한 주소를 알려주세요\nB.네 인천시 연수구 #@주소#입니다\nA.#@주소#요 맞나요 #@주소#\nB.네 #@주소# 맞습니다 거기로 해주세요\nA.네 입금 어느 은행이 편하십니까\nB.#@소속#은행이요 저기로 입금해주세요\nA.네 현금 영수증 신청하십니까\nB.현금 영수증 필요 없어요\nA.네 입금 계좌 번호랑 금액 #@소속#으로 십 분 내로 발송되실 거고요\nA.금액은 내일까지 보내주시면 됩니다\nB.네 알겠습니다 감사합니다\nA.네 감사합니다 고객님",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 다름이 아니라요",
+            "norm_text": "A.안녕하세요 고객님 다름이 아니라요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+고객/NNG+님/XSN+다름/VA+ETN+이/JKC+아니/VCN+라요/EC"
+          },
+          {
+            "id": 2,
+            "text": "A.배송을 받기 위한 주소를 알려주세요",
+            "norm_text": "A.배송을 받기 위한 주소를 알려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+배송/NNG+을/JKO+받/VV+기/ETN+위한/VV+ETM+주소/NNG+를/JKO+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "B.네 인천시 연수구 #@주소#입니다",
+            "norm_text": "B.네 인천시 연수구 #@주소#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+인천시/NNP+연수구/NNP+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.#@주소#요 맞나요 #@주소#",
+            "norm_text": "A.#@주소#요 맞나요 #@주소#",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+요/VCP+EC+맞/VV+나요/EC+#/SY+@/SY+주소/NNG+#/SY"
+          },
+          {
+            "id": 5,
+            "text": "B.네 #@주소# 맞습니다 거기로 해주세요",
+            "norm_text": "B.네 #@주소# 맞습니다 거기로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+맞/VV+습니다/EF+거기/NP+로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 입금 어느 은행이 편하십니까",
+            "norm_text": "A.네 입금 어느 은행이 편하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+입금/NNG+어느/MM+은행/NNG+이/JKS+편하/VA+십니까/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.#@소속#은행이요 저기로 입금해주세요",
+            "norm_text": "B.#@소속#은행이요 저기로 입금해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+은행/NNG+이/VCP+요/EC+저기/NP+로/JKB+입금/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.네 현금 영수증 신청하십니까",
+            "norm_text": "A.네 현금 영수증 신청하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+현금영수증/NNP+신청/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.현금 영수증 필요 없어요",
+            "norm_text": "B.현금 영수증 필요 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+현금영수증/NNP+필요/NNG+없/VA+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 입금 계좌 번호랑 금액 #@소속#으로 십 분 내로 발송되실 거고요",
+            "norm_text": "A.네 입금 계좌 번호랑 금액 십 분 내로 발송되실 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+입금/NNG+계좌/NNG+번호/NNG+랑/JKB+금액/NNG+십/NR+분/NNBC+내/NNB+로/JKB+발송/NNG+되/XSV+실/EP+ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.금액은 내일까지 보내주시면 됩니다",
+            "norm_text": "A.금액은 내일까지 보내주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+금액/NNG+은/JX+내일/NNG+까지/JX+보내/VV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 감사합니다 고객님",
+            "norm_text": "A.네 감사합니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

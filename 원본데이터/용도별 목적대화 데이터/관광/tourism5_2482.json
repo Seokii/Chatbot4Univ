@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 160232,
+    "name": "t5_20211119_0010_2847_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135919013227/t5_20211119_0010_2847_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135919013227/t5_20211119_0010_2847_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 156302,
+      "filename": "t5_0071_0098_02.txt",
+      "title": "t5_0071_0098_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 274,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 274,
+        "word_size": 62,
+        "text": "A.#@소속#에 오신 것을 환영합니다 상담사 #@이름# 입니다\nB.안녕하세요 #@소속# 문의 좀 드립니다\nA.네 편하게 문의 주세요\nB.가족과 #@소속#에 방문 하려고 하는데요 혹시 반려동물도 입장 되나요\nA.안타깝게도 저희 #@소속#는 반려동물은 출입불가 합니다\nB.아 그렇군요 운영시간은 어떻게 될까요\nA.매일 오전 6시부터 오후 5시 30분까지 입장 가능하시구요\nA.퇴장은 오후 6시 30분까지 입니다\nB.네 알겠습니다 방문 시 참고하겠습니다\nA.네 또 문의 주시구요 저는 상담원 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속#에 오신 것을 환영합니다 상담사 #@이름# 입니다",
+            "norm_text": "A.#@소속#에 오신 것을 환영합니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에/JKB+오/VV+신/EP+ETM+것/NNB+을/JKO+환영/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@소속# 문의 좀 드립니다",
+            "norm_text": "B.안녕하세요 #@소속# 문의 좀 드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+문/NNG+의/JKG+좀/MAG+드립니다/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 편하게 문의 주세요",
+            "norm_text": "A.네 편하게 문의 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+편하/VA+게/EC+문/NNG+의/JKG+주세요/NNP"
+          },
+          {
+            "id": 4,
+            "text": "B.가족과 #@소속#에 방문 하려고 하는데요 혹시 반려동물도 입장 되나요",
+            "norm_text": "B.가족과 #@소속#에 방문 하려고 하는데요 혹시 반려동물도 입장 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+가족/NNG+과/JC+#/SY+@/SY+소속/NNG+#/SY+에/JKB+방문/NNG+하/XSV+려고/EC+하/VX+는데요/EF+혹시/MAG+반려/NNG+동물/NNG+도/JX+입장/NNG+되/XSV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.안타깝게도 저희 #@소속#는 반려동물은 출입불가 합니다",
+            "norm_text": "A.안타깝게도 저희 #@소속#는 반려동물은 출입불가 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+안타깝/VA+게/EC+도/JX+저희/NP+#/SY+@/SY+소속/NNG+#/SY+는/JX+반려/NNG+동물/NNG+은/JX+출입/NNG+불가/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아 그렇군요 운영시간은 어떻게 될까요",
+            "norm_text": "B.아 그렇군요 운영시간은 어떻게 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그렇/VA+군요/EC+운영/NNG+시간/NNG+은/JX+어떻게/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.매일 오전 6시부터 오후 5시 30분까지 입장 가능하시구요",
+            "norm_text": "A.매일 오전 6시부터 오후 5시 30분까지 입장 가능하시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+매일/MAG+오전/NNG+6/SN+시/NNBC+부터/JX+오후/NNG+5/SN+시/NNBC+30/SN+분/NNBC+까지/JX+입장/NNG+가능/NNG+하/XSV+시/EP+구요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.퇴장은 오후 6시 30분까지 입니다",
+            "norm_text": "A.퇴장은 오후 6시 30분까지 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+퇴장/NNG+은/JX+오후/NNG+6/SN+시/NNBC+30/SN+분/NNBC+까지/JX+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠습니다 방문 시 참고하겠습니다",
+            "norm_text": "B.네 알겠습니다 방문 시 참고하겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+방문/NNG+시/NNB+참고/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 또 문의 주시구요 저는 상담원 #@이름# 이었습니다",
+            "norm_text": "A.네 또 문의 주시구요 저는 상담원 #@이름# 이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+또/MAG+문/NNG+의/JKG+주/VV+시/EP+구요/EF+저/NP+는/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

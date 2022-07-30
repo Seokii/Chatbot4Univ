@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 10963,
+    "name": "s3_20210913_0010_0701_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416097952/s3_20210913_0010_0701_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416097952/s3_20210913_0010_0701_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11934,
+      "filename": "s3_20210826_0010_0013_01.txt",
+      "title": "s3_20210826_0010_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 593,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 593,
+        "word_size": 132,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다 통화 괜찮으신가요\nB.네 저희 세탁기도 옆에 달 수 있는 건가요\nA.고객님 저희도 설명서를 보고 답변을 드리고 있다보니 동일한 기능인데\nA.제품 사양이 조금씩 틀린 모델이 있어 안내가 부정확했던 것 같습니다\nA.죄송하지만 고객님 사용 중이신 모델은 옆 면 거름망이 있지는 않습니다\nB.그러면 아까 얘기드린 필터망만 두 개 주문 해주세요\nA.네 저희가 택배요청 해 드릴 거구요\nA.고객님 성함과 연락받으실 수 있는 전화번호가 어떻게 되십니까\nB.#@이름#이고요 전화번호가 #@전번#입니다\nA.감사합니다 고객님 배송 받으실 주소지도 말씀해주시겠습니까\nB.네 전남 완도군 #@주소#요\nA.확인 감사드리구요 말씀해주신 개인정보 제공에 동의해주시겠습니까\nA.개인정보 수집이용 상세내역은 홈페이지 내에서 확인 가능하십니다\nB.네 개인정보 꼭 동의해야 하는 거에요\nA.아닙니다 고객님 추후 서비스 만족도 조사를 위한 부분입니다\nB.네 그러면 동의할게요\nA.감사합니다 고객님께서 주로 이용하시는 은행이 어떻게 되시나요\nB.제 주거래 계좌는 #@소속#입니다\nA.감사합니다 통화 후에 입금하실 금액과 계좌번호 문자 안내 드리겠습니다\nB.예 처리해주셔서 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다 통화 괜찮으신가요",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다 통화 괜찮으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+통화/NNG+괜찮/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 2,
+            "text": "B.네 저희 세탁기도 옆에 달 수 있는 건가요",
+            "norm_text": "B.네 저희 세탁기도 옆에 달 수 있는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+저희/NP+세탁기/NNG+도/JX+옆/NNG+에/JKB+달/VV+ETM+수/NNB+있/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 저희도 설명서를 보고 답변을 드리고 있다보니 동일한 기능인데",
+            "norm_text": "A.고객님 저희도 설명서를 보고 답변을 드리고 있다보니 동일한 기능인데",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+저희/NP+도/JX+설명서/NNG+를/JKO+보/VV+고/EC+답변/NNG+을/JKO+드리/VV+고/EC+있/VX+다/EC+보/VX+니/EC+동일/XR+한/XSA+ETM+기능/NNG+인데/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.제품 사양이 조금씩 틀린 모델이 있어 안내가 부정확했던 것 같습니다",
+            "norm_text": "A.제품 사양이 조금씩 틀린 모델이 있어 안내가 부정확했던 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+제품/NNG+사양/NNG+이/JKS+조금/MAG+씩/XSN+틀린/VV+ETM+모델/NNG+이/JKS+있/VV+어/EC+안내/NNG+가/JKS+부정확/NNG+했/XSV+EP+던/ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.죄송하지만 고객님 사용 중이신 모델은 옆 면 거름망이 있지는 않습니다",
+            "norm_text": "A.죄송하지만 고객님 사용 중이신 모델은 옆 면 거름망이 있지는 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+고객/NNG+님/XSN+사용/NNG+중/NNB+이/VCP+신/EP+ETM+모델/NNG+은/JX+옆면/NNG+거름망/NNG+이/JKS+있/VV+지/EC+는/JX+않/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그러면 아까 얘기드린 필터망만 두 개 주문 해주세요",
+            "norm_text": "B.그러면 아까 얘기드린 필터망만 두 개 주문 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그러면/MAJ+아까/MAG+얘기/NNG+드린/VV+ETM+필터/NNG+망/NNG+만/JX+두/MM+개/NNBC+주문/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 저희가 택배요청 해 드릴 거구요",
+            "norm_text": "A.네 저희가 택배요청 해 드릴 거구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+가/JKS+택배/NNG+요청/NNG+해/XSV+EC+드릴/VX+ETM+거/NNB+구요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.고객님 성함과 연락받으실 수 있는 전화번호가 어떻게 되십니까",
+            "norm_text": "A.고객님 성함과 연락받으실 수 있는 전화번호가 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+성함/NNG+과/JC+연락/NNG+받/VV+으실/EP+ETM+수/NNB+있/VV+는/ETM+전화/NNG+번호/NNG+가/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.#@이름#이고요 전화번호가 #@전번#입니다",
+            "norm_text": "B.#@이름#이고요 전화번호가 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+전화/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.감사합니다 고객님 배송 받으실 주소지도 말씀해주시겠습니까",
+            "norm_text": "A.감사합니다 고객님 배송 받으실 주소지도 말씀해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+배송/NNG+받/VV+으실/EP+ETM+주소지/NNG+도/JX+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 전남 완도군 #@주소#요",
+            "norm_text": "B.네 전남 완도군 #@주소#요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+전남/NNP+완도군/NNP+#/SY+@/SY+주소/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.확인 감사드리구요 말씀해주신 개인정보 제공에 동의해주시겠습니까",
+            "norm_text": "A.확인 감사드리구요 말씀해주신 개인정보 제공에 동의해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+드리/VV+구요/EF+말씀/NNG+해/XSV+EC+주/VX+신/EP+ETM+개인/NNG+정보/NNG+제공/NNG+에/JKB+동의/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.개인정보 수집이용 상세내역은 홈페이지 내에서 확인 가능하십니다",
+            "norm_text": "A.개인정보 수집이용 상세내역은 홈페이지 내에서 확인 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+개인/NNG+정보/NNG+수집/NNG+이용상/NNP+세/MM+내역/NNG+은/JX+홈페이지/NNG+내/NNB+에서/JKB+확인/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.네 개인정보 꼭 동의해야 하는 거에요",
+            "norm_text": "B.네 개인정보 꼭 동의해야 하는 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/MM+개/NNBC+인/VCP+ETM+정보/NNG+꼭/MAG+동의/NNG+해야/XSV+EC+하/VV+는/ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.아닙니다 고객님 추후 서비스 만족도 조사를 위한 부분입니다",
+            "norm_text": "A.아닙니다 고객님 추후 서비스 만족도 조사를 위한 부분입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+아닙니다/VCN+EC+고객/NNG+님/XSN+추후/NNG+서비스/NNG+만족/NNG+도/JX+조사/NNG+를/JKO+위한/VV+ETM+부분/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 그러면 동의할게요",
+            "norm_text": "B.네 그러면 동의할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그러면/MAJ+동의/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.감사합니다 고객님께서 주로 이용하시는 은행이 어떻게 되시나요",
+            "norm_text": "A.감사합니다 고객님께서 주로 이용하시는 은행이 어떻게 되시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+고객/NNG+님/XSN+께서/JKS+주로/MAG+이용/NNG+하/XSV+시/EP+는/ETM+은행/NNG+이/JKS+어떻게/MAG+되/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 18,
+            "text": "B.제 주거래 계좌는 #@소속#입니다",
+            "norm_text": "B.제 주거래 계좌는 #@소속#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+제주/NNP+거래/NNG+계좌/NNG+는/JX+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.감사합니다 통화 후에 입금하실 금액과 계좌번호 문자 안내 드리겠습니다",
+            "norm_text": "A.감사합니다 통화 후에 입금하실 금액과 계좌번호 문자 안내 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+통화/NNG+후/NNG+에/JKB+입금/NNG+하/XSV+실/EP+ETM+금액/NNG+과/JC+계좌/NNG+번호/NNG+문자/NNG+안/MAG+내드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 20,
+            "text": "B.예 처리해주셔서 감사합니다 수고하세요",
+            "norm_text": "B.예 처리해주셔서 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+처리/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

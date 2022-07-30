@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 141468,
+    "name": "t1_20211115_0002_0539_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357160186104/t1_20211115_0002_0539_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357160186104/t1_20211115_0002_0539_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148165,
+      "filename": "t1_0068_0091_02.txt",
+      "title": "t1_0068_0091_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 379,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 379,
+        "word_size": 87,
+        "text": "A.살 고싶은 쉼 터 #@소속#호텔 상담사 #@이름# 입니다\nB.안녕하세요 예약 변경 가능한지 여쭈어 보려고 합니다\nA.예약하신 고객님의 성함과 연락처 말씀해 주시겠어요\nB.제 이름은 #@이름# 이고요 연락처는 #@전번# 번 이요\nA.#@이름# 고객님 4일 금요일에 2박 예약하신 걸로 확인 됩니다\nB.스탠다드 트윈베드룸으로 예약했었거든요\nA.네 맞습니다 룸 변경을 원하시나요\nB.네 주니어스위트 투베드룸으로 예약 변경 가능한가요\nA.추가 금액이 발생 돼도 예약 변경 하시겠습니까\nB.네 가능하다면 변경 부탁 드립니다\nA.예약 변경 해드렸고요\nA.기존에 주신 메일 주소로 변경 내용 보내드리겠습니다\nB.빠른 처리 감사합니다 그럼 수고하세요\nA.살고 싶은 쉼 터 #@소속#호텔 상담사 #@이름# 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.살 고싶은 쉼 터 #@소속#호텔 상담사 #@이름# 입니다",
+            "norm_text": "A.살고싶은 쉼터 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+살/VV+고/EC+싶/VX+은/ETM+쉼터/NNG+#/SY+@/SY+소속/NNG+#/SY+호텔/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 예약 변경 가능한지 여쭈어 보려고 합니다",
+            "norm_text": "B.안녕하세요 예약 변경 가능한지 여쭈어 보려고 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+예약/NNG+변경/NNG+가능/NNG+한지/XSA+EC+여쭈/VV+어/EC+보/VX+려고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.예약하신 고객님의 성함과 연락처 말씀해 주시겠어요",
+            "norm_text": "A.예약하신 고객님의 성함과 연락처 말씀해 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+예약/NNG+하/XSV+신/EP+ETM+고객/NNG+님/XSN+의/JKG+성함/NNG+과/JC+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.제 이름은 #@이름# 이고요 연락처는 #@전번# 번 이요",
+            "norm_text": "B.제 이름은 #@이름# 이고요 연락처는 #@전번# 번이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+이요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.#@이름# 고객님 4일 금요일에 2박 예약하신 걸로 확인 됩니다",
+            "norm_text": "A.#@이름# 고객님 4일 금요일에 2박 예약하신 걸로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+4/SN+일/NNBC+금요일/NNG+에/JKB+2/SN+박/NNBC+예약/NNG+하/XSV+신/EP+ETM+걸로/NNB+JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.스탠다드 트윈베드룸으로 예약했었거든요",
+            "norm_text": "B.스탠다드 트윈베드룸으로 예약했었거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+스탠다드/NNP+트윈/NNP+베드/NNG+룸/NNG+으로/JKB+예약/NNG+했었/XSV+EP+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 맞습니다 룸 변경을 원하시나요",
+            "norm_text": "A.네 맞습니다 룸 변경을 원하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+룸/NNG+변경/NNG+을/JKO+원하/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 주니어스위트 투베드룸으로 예약 변경 가능한가요",
+            "norm_text": "B.네 주니어스위트 투베드룸으로 예약 변경 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+주니어/NNG+스위트/NNG+투/NR+베드/NNG+룸/NNG+으로/JKB+예약/NNG+변경/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.추가 금액이 발생 돼도 예약 변경 하시겠습니까",
+            "norm_text": "A.추가 금액이 발생 돼도 예약 변경 하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+추가/NNG+금액/NNG+이/JKS+발생/NNG+돼도/XSV+EC+예약/NNG+변경/NNG+하/XSV+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 가능하다면 변경 부탁 드립니다",
+            "norm_text": "B.네 가능하다면 변경 부탁 드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+가능/NNG+하/XSV+다면/EC+변경/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.예약 변경 해드렸고요",
+            "norm_text": "A.예약 변경 해드렸고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예약/NNG+변경/NNG+해/XSV+EC+드렸/VX+EP+고요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.기존에 주신 메일 주소로 변경 내용 보내드리겠습니다",
+            "norm_text": "A.기존에 주신 메일 주소로 변경 내용 보내드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기존/NNG+에/JKB+주/VV+신/EP+ETM+메일/NNG+주소/NNG+로/JKB+변경/NNG+내용/NNG+보내/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.빠른 처리 감사합니다 그럼 수고하세요",
+            "norm_text": "B.빠른 처리 감사합니다 그럼 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+빠른/VA+ETM+처리/NNG+감사/NNG+합니다/XSV+EF+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.살고 싶은 쉼 터 #@소속#호텔 상담사 #@이름# 였습니다",
+            "norm_text": "A.살고 싶은 쉼 터 #@소속#호텔 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+살/VV+고/EC+싶/VX+은/ETM+쉼터/NNG+#/SY+@/SY+소속/NNG+#/SY+호텔/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

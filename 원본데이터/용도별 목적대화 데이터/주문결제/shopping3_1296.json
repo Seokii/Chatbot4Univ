@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 95158,
+    "name": "s3_20211102_0005_0539_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110830092514/s3_20211102_0005_0539_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110830092514/s3_20211102_0005_0539_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119523,
+      "filename": "s3_20211026_0028_0020_01.txt",
+      "title": "s3_20211026_0028_0020_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 214,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 214,
+        "word_size": 49,
+        "text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다\nB.비회원으로 주문을 했는데 주문 번호가 기억이 안 나요\nA.고객님의 성함과 번호 말씀해 주시겠습니까\nB.이름은 #@이름#이고 #@전번#이 전화번호예요\nA.네 #@이름# 고객님 #@상품# 맞으신가요\nB.네 #@상품# 맞아요 번호는 문자로 보내 주실 수 있나요\nA.네 지금 통화 거신 번호로 문자 발송해 드리면 될까요\nB.네 이 번호로 보내 주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+의상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.비회원으로 주문을 했는데 주문 번호가 기억이 안 나요",
+            "norm_text": "B.비회원으로 주문을 했는데 주문 번호가 기억이 안 나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+비회원/NNG+으로/JKB+주문/NNG+을/JKO+했/VV+EP+는데/EC+주문/NNG+번호/NNG+가/JKS+기억/NNG+이/JKS+안/MAG+나/VV+요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님의 성함과 번호 말씀해 주시겠습니까",
+            "norm_text": "A.고객님의 성함과 번호 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+의/JKG+성함/NNG+과/JC+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.이름은 #@이름#이고 #@전번#이 전화번호예요",
+            "norm_text": "B.이름은 #@이름#이고 #@전번#이 전화번호예요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+전번/NNG+#/SY+이/JKS+전화/NNG+번호/NNG+예요/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 #@이름# 고객님 #@상품# 맞으신가요",
+            "norm_text": "A.네 #@이름# 고객님 #@상품# 맞으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+#/SY+@/SY+상품/NNG+#/SY+맞/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 6,
+            "text": "B.네 #@상품# 맞아요 번호는 문자로 보내 주실 수 있나요",
+            "norm_text": "B.네 #@상품# 맞아요 번호는 문자로 보내 주실 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+맞/VV+아요/EF+번호/NNG+는/JX+문자/NNG+로/JKB+보내/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 지금 통화 거신 번호로 문자 발송해 드리면 될까요",
+            "norm_text": "A.네 지금 통화 거신 번호로 문자 발송해 드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+지금/MAG+통화/NNG+거신/VV+EP+ETM+번호/NNG+로/JKB+문자/NNG+발송/NNG+해/XSV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 이 번호로 보내 주세요",
+            "norm_text": "B.네 이 번호로 보내 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+이/MM+번호/NNG+로/JKB+보내/VV+EC+주/VX+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 52108,
+    "name": "c1_20211018_0002_0075_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130800082814/c1_20211018_0002_0075_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130800082814/c1_20211018_0002_0075_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51488,
+      "filename": "c1_20210928_0019_0003_01.txt",
+      "title": "c1_20210928_0019_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 333,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 333,
+        "word_size": 66,
+        "text": "A.안녕하십니까 #@소속# 일반행정과 #@이름# 주무관입니다\nB.반갑습니다 #@소속#시설 문제는 어디에다 문의하나요\nA.우선 제가 민원접수 후 안내해 드릴게요\nB.#@소속#에서 축구를 하는 아이들이 많은데요\nB.공이 도로변으로 날아오는 경우가 있어요\nA.정말 많이 걱정되시겠습니다\nB.일단 아이들도 걱정되고 차량쪽도 걱정이죠\nA.건의사항 말씀해 주시겠습니까\nB.공넘이 방지 그물망을 높게 보수해 주세요\nA.제가 #@소속# 학교시설지원과로 말씀드릴게요\nB.지원과가 있나요 제가 직접 말씀드리고 싶어요\nA.그러신가요 그러면 제가 지금 연결해드릴까요\nB.바로 연결 부탁드려요\nA.끊지 말고 대기 부탁드립니다 #@소속#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 일반행정과 #@이름# 주무관입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 일반행정과 #@이름# 주무관입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+일반/NNG+행정/NNG+과/JC+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.반갑습니다 #@소속#시설 문제는 어디에다 문의하나요",
+            "norm_text": "B.반갑습니다 #@소속#시설 문제는 어디에다 문의하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+시설/NNG+문제/NNG+는/JX+어디/NP+에다/JKB+문의/NNG+하/XSV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.우선 제가 민원접수 후 안내해 드릴게요",
+            "norm_text": "A.우선 제가 민원접수 후 안내해 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+우선/MAG+제/NP+가/JKS+민원/NNG+접수/NNG+후/NNG+안내/NNG+해/XSV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속#에서 축구를 하는 아이들이 많은데요",
+            "norm_text": "B.#@소속#에서 축구를 하는 아이들이 많은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+축구/NNG+를/JKO+하/VV+는/ETM+아이/NNG+들/XSN+이/JKS+많/VA+은데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.공이 도로변으로 날아오는 경우가 있어요",
+            "norm_text": "B.공이 도로변으로 날아오는 경우가 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+공/NNG+이/JKS+도로변/NNG+으로/JKB+날아오/VV+는/ETM+경우/NNG+가/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.정말 많이 걱정되시겠습니다",
+            "norm_text": "A.정말 많이 걱정되시겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+정말/MAG+많이/MAG+걱정/NNG+되/XSV+시/EP+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.일단 아이들도 걱정되고 차량쪽도 걱정이죠",
+            "norm_text": "B.일단 아이들도 걱정되고 차량쪽도 걱정이죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+일단/MAG+아이/NNG+들/XSN+도/JX+걱정/NNG+되/XSV+고/EC+차량/NNG+쪽/NNB+도/JX+걱정/NNG+이/VCP+죠/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.건의사항 말씀해 주시겠습니까",
+            "norm_text": "A.건의사항 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+건의/NNG+사항/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.공넘이 방지 그물망을 높게 보수해 주세요",
+            "norm_text": "B.공넘이 방지 그물망을 높게 보수해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+공/NNG+넘/MAG+이/MM+방지/NNG+그물망/NNG+을/JKO+높/VA+게/EC+보수/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.제가 #@소속# 학교시설지원과로 말씀드릴게요",
+            "norm_text": "A.제가 #@소속# 학교시설지원과로 말씀드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+학교/NNG+시설/NNG+지원/NNG+과/NNG+로/JKB+말씀/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.지원과가 있나요 제가 직접 말씀드리고 싶어요",
+            "norm_text": "B.지원과가 있나요 제가 직접 말씀드리고 싶어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+지원/NNG+과/NNG+가/JKS+있/VA+나요/EF+제/NP+가/JKS+직접/MAG+말씀/NNG+드리/VV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.그러신가요 그러면 제가 지금 연결해드릴까요",
+            "norm_text": "A.그러신가요 그러면 제가 지금 연결해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그러/VV+신가요/EP+EF+그러면/MAJ+제/NP+가/JKS+지금/MAG+연결/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.바로 연결 부탁드려요",
+            "norm_text": "B.바로 연결 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+바로/MAG+연결/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.끊지 말고 대기 부탁드립니다 #@소속#였습니다",
+            "norm_text": "A.끊지 말고 대기 부탁드립니다 #@소속#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+끊/VV+지/EC+말/VX+고/EC+대/VX+기/ETN+부탁드립니다/VV+EC+#/SY+@/SY+소속/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

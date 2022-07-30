@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 48359,
+    "name": "c4_20211015_0001_1919_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130705028882/c4_20211015_0001_1919_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130705028882/c4_20211015_0001_1919_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50207,
+      "filename": "c4_20210906_0029_0003_01.txt",
+      "title": "c4_20210906_0029_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 358,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 358,
+        "word_size": 81,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nA.#@이름#님 맞으신가요 #@소속# #@이름#주무관입니다\nB.네 저 맞아요 메모 전달 받으셨나요\nA.네 전달 받았습니다 학교 청소 소음 문의 맞으시죠\nB.청소를 안 할 수는 없지만 시간 변경은 가능할 것 같아서요\nA.초등학교 현장을 방문하여 학교 관계자와 점검을 하였습니다\nB.점검 결과가 어떻게 되었나요\nA.현장에서 송풍기 사용을 하고 있어서 소음이 발생되었습니다\nA.주말과 이른 아침 시간 사용 시 피해가 가지 않도록 조정했습니다\nB.그래요 어떻게 변경 되었나요\nA.시간 조정 및 소음이 발생하지 않는 작업 도구 사용을 조치하였습니다\nB.네 힘써주셔서 정말 감사합니다\nA.네 감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.#@이름#님 맞으신가요 #@소속# #@이름#주무관입니다",
+            "norm_text": "A.#@이름#님 맞으신가요 #@소속# #@이름#주무관입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+님/XSN+맞/VV+으신/EP+ETM+가요/NNG+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 저 맞아요 메모 전달 받으셨나요",
+            "norm_text": "B.네 저 맞아요 메모 전달 받으셨나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+저/NP+맞/VV+아요/EF+메모/NNG+전달/NNG+받/VV+으셨/EP+EP+EC+나/VX+요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 전달 받았습니다 학교 청소 소음 문의 맞으시죠",
+            "norm_text": "A.네 전달 받았습니다 학교 청소 소음 문의 맞으시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+전달/NNG+받/VV+았/EP+습니다/EF+학교/NNG+청소/NNG+소음/NNG+문/NNG+의/JKG+맞/VV+으시/EP+죠/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.청소를 안 할 수는 없지만 시간 변경은 가능할 것 같아서요",
+            "norm_text": "B.청소를 안 할 수는 없지만 시간 변경은 가능할 것 같아서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+청소/NNG+를/JKO+안/MAG+할/VV+ETM+수/NNB+는/JX+없/VA+지만/EC+시간/NNG+변경/NNG+은/JX+가능/NNG+할/XSV+ETM+것/NNB+같/VA+아서요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.초등학교 현장을 방문하여 학교 관계자와 점검을 하였습니다",
+            "norm_text": "A.초등학교 현장을 방문하여 학교 관계자와 점검을 하였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+초등/NNG+학교/NNG+현장/NNG+을/JKO+방문/NNG+하/XSV+여/EC+학교/NNG+관계자/NNG+와/JC+점검/NNG+을/JKO+하/VV+였/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.점검 결과가 어떻게 되었나요",
+            "norm_text": "B.점검 결과가 어떻게 되었나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+점검/NNG+결과/NNG+가/JKS+어떻게/MAG+되/VV+었/EP+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.현장에서 송풍기 사용을 하고 있어서 소음이 발생되었습니다",
+            "norm_text": "A.현장에서 송풍기 사용을 하고 있어서 소음이 발생되었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+현장/NNG+에서/JKB+송풍기/NNG+사용/NNG+을/JKO+하/VV+고/EC+있/VX+어서/EC+소음/NNG+이/JKS+발생/NNG+되/XSV+었/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.주말과 이른 아침 시간 사용 시 피해가 가지 않도록 조정했습니다",
+            "norm_text": "A.주말과 이른 아침 시간 사용 시 피해가 가지 않도록 조정했습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주말/NNG+과/JKB+이른/VA+ETM+아침/NNG+시간/NNG+사용/NNG+시/NNB+피해/NNG+가/JKS+가/VV+지/EC+않/VX+도록/EC+조정/NNG+했/XSV+EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그래요 어떻게 변경 되었나요",
+            "norm_text": "B.그래요 어떻게 변경 되었나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+어떻게/MAG+변경/NNG+되/XSV+었/EP+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.시간 조정 및 소음이 발생하지 않는 작업 도구 사용을 조치하였습니다",
+            "norm_text": "A.시간 조정 및 소음이 발생하지 않는 작업 도구 사용을 조치하였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+시간/NNG+조정/NNG+및/MAJ+소음/NNG+이/JKS+발생/NNG+하/XSV+지/EC+않/VX+는/ETM+작업/NNG+도구/NNG+사용/NNG+을/JKO+조치/NNG+하/XSV+였/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 힘써주셔서 정말 감사합니다",
+            "norm_text": "B.네 힘써주셔서 정말 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+힘써/VV+EC+주/VX+셔서/EP+EC+정말/MAG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.네 감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

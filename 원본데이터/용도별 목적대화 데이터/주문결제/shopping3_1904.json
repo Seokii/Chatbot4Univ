@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 110412,
+    "name": "s3_20211104_0002_0151_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744023277/s3_20211104_0002_0151_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744023277/s3_20211104_0002_0151_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117927,
+      "filename": "s3_20211001_0022_0006_01.txt",
+      "title": "s3_20211001_0022_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 405,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 405,
+        "word_size": 83,
+        "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다\nB.예 수고가 많으십니다 제가 질문사항이 있어서 전화드렸어요\nA.네 여쭤보시고 싶은게 있으신가요\nB.#@소속# 쇼핑몰 맞나요 물어볼게 있어서 전화했습니다\nA.네 고객님 말씀하세요 어떤게 궁금하신가요\nB.혹시 비회원으로도 사이트에서 구매가 가능한가요\nA.비회원 구매 말씀하시는건가요\nB.네 제가 가입하지 않고 물건을 구매하려고 하는데요\nA.네 비회원의 경우에도 주문 결제 가능하세요 고객님\nB.그럼 구매후에 배송 상태라던지 제 주문건을 확인하려면 어떻게 해야하나요\nA.비회원 결제건은 고객님께서 주문번호나 이름으로 조회하실 수 있어요\nA.그러므로 주문번호는 별도로 메모 해주셔야 합니다\nB.그렇군요 알겠습니다 다른 질문사항 생기면 연락드리겠습니다\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+친절한/NNP+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고가 많으십니다 제가 질문사항이 있어서 전화드렸어요",
+            "norm_text": "B.예 수고가 많으십니다 제가 질문사항이 있어서 전화드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+가/JKS+많/VA+으십니다/EP+EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "norm_text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속# 쇼핑몰 맞나요 물어볼게 있어서 전화했습니다",
+            "norm_text": "B.#@소속# 쇼핑몰 맞나요 물어볼게 있어서 전화했습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+쇼핑몰/NNG+맞/VV+나요/EC+물어볼/VV+ETM+게/NNB+JKS+있/VA+어서/EC+전화/NNG+했/XSV+EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 말씀하세요 어떤게 궁금하신가요",
+            "norm_text": "A.네 고객님 말씀하세요 어떤게 궁금하신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+세요/EP+EF+어떤/MM+게/NNB+JKS+궁금/XR+하/XSA+신가요/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.혹시 비회원으로도 사이트에서 구매가 가능한가요",
+            "norm_text": "B.혹시 비회원으로도 사이트에서 구매가 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+비회원/NNG+으로/JKB+도/JX+사이트/NNG+에서/JKB+구매/NNG+가/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.비회원 구매 말씀하시는건가요",
+            "norm_text": "A.비회원 구매 말씀하시는건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+비회원/NNG+구매/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 제가 가입하지 않고 물건을 구매하려고 하는데요",
+            "norm_text": "B.네 제가 가입하지 않고 물건을 구매하려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+가입/NNG+하/XSV+지/EC+않/VX+고/EC+물건/NNG+을/JKO+구매/NNG+하/XSV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 비회원의 경우에도 주문 결제 가능하세요 고객님",
+            "norm_text": "A.네 비회원의 경우에도 주문 결제 가능하세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+비회원/NNG+의/JKG+경우/NNG+에/JKB+도/JX+주문/NNG+결제/NNG+가능/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 구매후에 배송 상태라던지 제 주문건을 확인하려면 어떻게 해야하나요",
+            "norm_text": "B.그럼 구매후 제 주문건을 확인하려면 어떻게 해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+구매/NNG+후/NNG+제주/NNP+문건/NNG+을/JKO+확인/NNG+하/XSV+려면/EC+어떻게/MAG+해야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.비회원 결제건은 고객님께서 주문번호나 이름으로 조회하실 수 있어요",
+            "norm_text": "A.비회원 결제건은 고객님께서 주문번호나 이름으로 조회하실 수 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+비회원/NNG+결제/NNG+건/NNG+은/JX+고객/NNG+님/XSN+께서/JKS+주문/NNG+번호/NNG+나/JC+이름/NNG+으로/JKB+조회/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.그러므로 주문번호는 별도로 메모 해주셔야 합니다",
+            "norm_text": "A.그러므로 주문번호는 별도로 메모 해주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러므로/MAJ+주문/NNG+번호/NNG+는/JX+별도/NNG+로/JKB+메모/NNG+해/XSV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그렇군요 알겠습니다 다른 질문사항 생기면 연락드리겠습니다",
+            "norm_text": "B.그렇군요 알겠습니다 다른 질문사항 생기면 연락드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF+다른/MM+질문/NNG+사항/NNG+생기/VV+면/EC+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

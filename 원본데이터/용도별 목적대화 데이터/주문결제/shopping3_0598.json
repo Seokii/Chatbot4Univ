@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 11095,
+    "name": "s3_20210913_0010_0739_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416070267/s3_20210913_0010_0739_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416070267/s3_20210913_0010_0739_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11894,
+      "filename": "s3_20210826_0030_0003_01.txt",
+      "title": "s3_20210826_0030_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 316,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 316,
+        "word_size": 69,
+        "text": "A.무엇을 도와드릴까요 고객님\nB.제가 거기 물건을 하나 주문한 게 있는데요\nB.가상계좌를 받았어요 #@소속#이요\nB.근데 그 계좌가 입금이 안 들어가는데요\nA.그러세요 먼저 주문자분 성함이랑 휴대폰 번호 한번 말씀해주시겠습니까\nB.이름은 #@이름#이고 번호는 #@전번#입니다\nA.확인 감사합니다 고객님 십월 삼 일날 주문 건 확인되시는데요\nA.저희가 이틀안으로 입금을 해주셔야 되는데 이틀내 미입금시에는 주문건 자동 취소가 됩니다\nB.일이 그렇게 된건가요\nA.네 이거는 다시 접수해주셔서 입금해주시면 됩니다\nB.다시 처음부터 하면 되나요 알겠습니다\nA.감사합니다 좋은 하루 보내십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.무엇을 도와드릴까요 고객님",
+            "norm_text": "A.무엇을 도와드릴까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 거기 물건을 하나 주문한 게 있는데요",
+            "norm_text": "B.제가 거기 물건을 하나 주문한 게 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+거기/NP+물건/NNG+을/JKO+하나/NR+주문/NNG+한/XSA+ETM+게/NNB+JKS+있/VA+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.가상계좌를 받았어요 #@소속#이요",
+            "norm_text": "B.가상계좌를 받았어요 #@소속#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+가상/NNG+계좌/NNG+를/JKO+받/VV+았/EP+어요/EF+#/SY+@/SY+소속/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.근데 그 계좌가 입금이 안 들어가는데요",
+            "norm_text": "B.근데 그 계좌가 입금이 안 들어가는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+근데/MAJ+그/MM+계좌/NNG+가/JKS+입금/NNG+이/JKS+안/MAG+들어가/VV+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.그러세요 먼저 주문자분 성함이랑 휴대폰 번호 한번 말씀해주시겠습니까",
+            "norm_text": "A.그러세요 먼저 주문자분 성함이랑 휴대폰 번호 한번 말씀해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+세요/EP+EF+먼저/MAG+주문자/NNG+분성/NNG+함/XSV+ETN+이랑/JC+휴대폰/NNG+번호/NNG+한/MM+번/NNBC+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.이름은 #@이름#이고 번호는 #@전번#입니다",
+            "norm_text": "B.이름은 #@이름#이고 번호는 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.확인 감사합니다 고객님 십월 삼 일날 주문 건 확인되시는데요",
+            "norm_text": "A.확인 감사합니다 고객님 십월 삼 일날 주문 건 확인되시는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+십/NR+월/NNBC+삼/NR+일/NNBC+날/NNG+주문건/NNP+확인/NNG+되/XSV+시/EP+는데요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.저희가 이틀안으로 입금을 해주셔야 되는데 이틀내 미입금시에는 주문건 자동 취소가 됩니다",
+            "norm_text": "A.저희가 이틀 내에 입금을 안 해주시면 자동으로 주문 취소가 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+이틀/NNG+내/NNB+에/JKB+입금/NNG+을/JKO+안/MAG+해/VV+EC+주/VX+시/EP+면/EC+자동/NNG+으로/JKB+주문/NNG+취소/NNG+가/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.일이 그렇게 된건가요",
+            "norm_text": "B.일이 그렇게 된건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+일/NNG+이/JKS+그렇게/MAG+된/VV+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 이거는 다시 접수해주셔서 입금해주시면 됩니다",
+            "norm_text": "A.네 이거는 다시 접수해주셔서 입금해주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+이거/NP+는/JX+다시/MAG+접수/NNG+해/XSV+EC+주/VX+셔서/EP+EC+입금/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.다시 처음부터 하면 되나요 알겠습니다",
+            "norm_text": "B.다시 처음부터 하면 되나요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+다시/MAG+처음/NNG+부터/JX+하/VV+면/EC+되/VV+나요/EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 좋은 하루 보내십시오",
+            "norm_text": "A.감사합니다 좋은 하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

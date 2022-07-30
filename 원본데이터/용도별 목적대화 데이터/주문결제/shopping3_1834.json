@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 108287,
+    "name": "s3_20211104_0002_0081_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110745051339/s3_20211104_0002_0081_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110745051339/s3_20211104_0002_0081_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118015,
+      "filename": "s3_20211005_0009_0012_01.txt",
+      "title": "s3_20211005_0009_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 224,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 224,
+        "word_size": 48,
+        "text": "A.늦게 받아 죄송합니다 #@소속# #@이름#입니다\nB.문의 좀 드리려고 전화드렸습니다\nA.네 혹시 어떤 문의이신가요\nB.상품을 전화로도 주문할 수 있나요\nA.#@기타# 서비스를 통해 구매대행 가능하십니다\nA.다만 무통장 입금 결제수단만 가능한 점 참고 부탁드립니다\nB.네 그럼 혹시 #@기타# 전화번호 알 수 있을까요\nA.네 전화번호 #@전번#입니다\nB.네 감사합니다 수고하세요\nA.네 감사합니다 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.늦게 받아 죄송합니다 #@소속# #@이름#입니다",
+            "norm_text": "A.늦게 받아 죄송합니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+늦/VA+게/EC+받/VV+아/EC+죄송/XR+합니다/XSA+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.문의 좀 드리려고 전화드렸습니다",
+            "norm_text": "B.문의 좀 드리려고 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+문/NNG+의/JKG+좀/MAG+드리/VV+려고/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 혹시 어떤 문의이신가요",
+            "norm_text": "A.네 혹시 어떤 문의이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+혹시/MAG+어떤/MM+문의/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.상품을 전화로도 주문할 수 있나요",
+            "norm_text": "B.상품을 전화로도 주문할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+상품/NNG+을/JKO+전화/NNG+로/JKB+도/JX+주문/NNG+할/XSV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.#@기타# 서비스를 통해 구매대행 가능하십니다",
+            "norm_text": "A.#@기타# 서비스를 통해 구매대행 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+서비스/NNG+를/JKO+통해/VV+EC+구매/NNG+대행/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.다만 무통장 입금 결제수단만 가능한 점 참고 부탁드립니다",
+            "norm_text": "A.다만 무통장 입금 결제수단만 가능한 점 참고 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+다만/MAJ+무/XPN+통장/NNG+입금/NNG+결제/NNG+수단/NNG+만/JX+가능/NNG+한/MM+점/NNBC+참고/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 그럼 혹시 #@기타# 전화번호 알 수 있을까요",
+            "norm_text": "B.네 그럼 혹시 #@기타# 전화번호 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+혹시/MAG+#/SY+@/SY+기타/NNG+#/SY+전화/NNG+번호/NNG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 전화번호 #@전번#입니다",
+            "norm_text": "A.네 전화번호 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+전화/NNG+번호/NNG+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 감사합니다 #@이름#이었습니다",
+            "norm_text": "A.네 감사합니다 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

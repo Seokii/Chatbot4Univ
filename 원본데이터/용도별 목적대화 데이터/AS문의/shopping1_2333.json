@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 29928,
+    "name": "s1_20211006_0001_1457_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151213050049/s1_20211006_0001_1457_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151213050049/s1_20211006_0001_1457_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7006,
+      "filename": "s1_20210820_0005_0013_01.txt",
+      "title": "s1_20210820_0005_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 243,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 243,
+        "word_size": 52,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.수고하십니다 제주돈데요 냉장고가 불은 들어오는데 냉동이나 냉장이 안 되네\nA.불편하시겠습니다 냉장고가 그럼 일반이세요 양문냉장곤가요\nB.네 일반 냉장고고요\nA.구매하신 진 일 년이 넘었습니까\nB.예 넘었죠 일 년\nA.네 얼른 기사님 가시도록 일정 확인 해봐드릴게요\nA.고객님 전화번호가 어떻게 되십니까\nB.여기 전화번호가 #@전번#번요\nA.네 #@전번#번이요 성함은 어떻게 되십니까\nB.네 제 이름이 #@이름#요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고하십니다 제주돈데요 냉장고가 불은 들어오는데 냉동이나 냉장이 안 되네",
+            "norm_text": "B.수고하십니다 제주돈데요 냉장고가 불은 들어오는데 냉동이나 냉장이 안 되네",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+제주/NNP+돈/NNG+데요/VCP+EF+냉장고/NNG+가/JKS+불/NNG+은/JX+들어오/VV+는데/EC+냉동/NNG+이나/JC+냉장/NNG+이/JKS+안/MAG+되/VV+네/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.불편하시겠습니다 냉장고가 그럼 일반이세요 양문냉장곤가요",
+            "norm_text": "A.불편하시겠습니다 냉장고가 그럼 일반이세요 양문냉장곤가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+불편/NNG+하/XSV+시/EP+겠/EP+습니다/EF+냉장고/NNG+가/JKS+그럼/MAJ+일반/NNG+이/VCP+세요/EP+EF+양문/NNG+냉장/NNG+곤가/NNG+요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 일반 냉장고고요",
+            "norm_text": "B.네 일반 냉장고고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+일반/NNG+냉장고/NNG+고요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.구매하신 진 일 년이 넘었습니까",
+            "norm_text": "A.구매하신 진 일 년이 넘었습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+구매/NNG+하/XSV+신/EP+ETM+진/XPN+일/NR+년/NNBC+이/JKS+넘/VV+었/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예 넘었죠 일 년",
+            "norm_text": "B.예 넘었죠 일 년",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+넘/VV+었/EP+죠/EF+일/NR+년/NNBC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 얼른 기사님 가시도록 일정 확인 해봐드릴게요",
+            "norm_text": "A.네 얼른 기사님 가시도록 일정 확인 해봐드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+얼른/MAG+기사/NNG+님/XSN+가/VV+시/EP+도록/EC+일정/NNG+확인/NNG+해/XSV+EC+봐/VX+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.고객님 전화번호가 어떻게 되십니까",
+            "norm_text": "A.고객님 전화번호가 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+전화/NNG+번호/NNG+가/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.여기 전화번호가 #@전번#번요",
+            "norm_text": "B.여기 전화번호가 #@전번#번요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+전화/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "A.네 #@전번#번이요 성함은 어떻게 되십니까",
+            "norm_text": "A.네 #@전번#번이요 성함은 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+이요/JX+성함/NNG+은/JX+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 제 이름이 #@이름#요",
+            "norm_text": "B.네 제 이름이 #@이름#요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+JKG+이름/NNG+이/JKS+#/SY+@/SY+이름/NNG+#/SY+요/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

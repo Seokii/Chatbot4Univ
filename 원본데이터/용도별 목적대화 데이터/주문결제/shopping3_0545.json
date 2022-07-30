@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 10832,
+    "name": "s3_20210913_0010_0686_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417008230/s3_20210913_0010_0686_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417008230/s3_20210913_0010_0686_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11949,
+      "filename": "s3_20210826_0010_0028_01.txt",
+      "title": "s3_20210826_0010_0028_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 514,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 514,
+        "word_size": 105,
+        "text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요\nB.네 지금 #@소속# 렌탈 카드를 만들었거든요 그래서 혜택 좀 받으려고요\nA.네 카드 발급 받으셨구요 먼저 렌탈 정보 확인하겠습니다\nA.계약자분 성함과 등록하신 전화번호가 어떻게 되십니까\nB.#@이름#이고 전화번호는 #@전번#입니다\nA.네 본인 확인을 위해서 계약자분 주소도 말씀해주시겠습니까\nB.지금 여기는 경산시 #@주소#에요\nA.네 계약자분 본인 되시는 거죠\nB.네 제 명의로 되어있어요\nA.네 확인 감사합니다 #@소속#카드시고 본인 카드 맞으시죠\nB.네 제 명의고 #@소속#카드 맞아요\nA.예 그럼 카드번호와 유효기간이 어떻게 되십니까\nB.카드번호는 #@금융#이구요 유효기간은 #@금융#입니다\nA.본인확인을 위해 생년월일 여섯자리 불러 주시겠습니까\nB.네 제 생년월일은 #@신원#이요\nA.네 고객님 #@소속#카드로 변경해드렸습니다 다른 문의사항 있으십니까\nB.그러면 변경은 제대로 된거죠 다른 문의사항은 없어요 수고하세요\nA.감사합니다 행복한 하루 보내세요 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 지금 #@소속# 렌탈 카드를 만들었거든요 그래서 혜택 좀 받으려고요",
+            "norm_text": "B.지금 #@소속# 렌탈 카드를 만들었거든요 그래서 혜택 좀 받으려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+지금/MAG+#/SY+@/SY+소속/NNG+#/SY+렌탈/NNP+카드/NNG+를/JKO+만들/VV+었/EP+거든요/EF+그래서/MAJ+혜택/NNG+좀/MAG+받/VV+으려/EC+고요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.네 카드 발급 받으셨구요 먼저 렌탈 정보 확인하겠습니다",
+            "norm_text": "A.네 카드 발급 받으셨구요 먼저 렌탈 정보 확인하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+카드/NNG+발급/NNG+받/VV+으셨/EP+EP+구요/EF+먼저/MAG+렌탈/NNP+정보/NNG+확인/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.계약자분 성함과 등록하신 전화번호가 어떻게 되십니까",
+            "norm_text": "A.계약자분 성함과 등록하신 전화번호가 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+계약자/NNG+분성/NNG+함/XSV+ETN+과/JC+등록/NNG+하/XSV+신/EP+ETM+전화/NNG+번호/NNG+가/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.#@이름#이고 전화번호는 #@전번#입니다",
+            "norm_text": "B.#@이름#이고 전화번호는 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 본인 확인을 위해서 계약자분 주소도 말씀해주시겠습니까",
+            "norm_text": "A.네 본인 확인을 위해서 계약자분 주소도 말씀해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+본인/NNG+확인/NNG+을/JKO+위해서/VV+EC+계약/NNG+자분/NNG+주소/NNG+도/JX+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.지금 여기는 경산시 #@주소#에요",
+            "norm_text": "B.지금 여기는 경산시 #@주소#에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+여기/NP+는/JX+경산시/NNP+#/SY+@/SY+주소/NNG+#/SY+에/JKB+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.네 계약자분 본인 되시는 거죠",
+            "norm_text": "A.네 계약자분 본인 되시는 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+계약/NNG+자분/NNG+본인/NNG+되/XSV+시/EP+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 제 명의로 되어있어요",
+            "norm_text": "B.네 제 명의로 되어있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+JKG+명의/NNG+로/JKB+되/VV+어/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 확인 감사합니다 #@소속#카드시고 본인 카드 맞으시죠",
+            "norm_text": "A.네 확인 감사합니다 #@소속#카드시고 본인 카드 맞으시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+카드/NNG+시/EP+고/EC+본인/NNG+카드/NNG+맞/VV+으시/EP+죠/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 제 명의고 #@소속#카드 맞아요",
+            "norm_text": "B.네 제 명의고 #@소속#카드 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제명/NNG+의/JKG+고/NNG+#/SY+@/SY+소속/NNG+#/SY+카드/NNG+맞/VV+아요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.예 그럼 카드번호와 유효기간이 어떻게 되십니까",
+            "norm_text": "A.예 그럼 카드번호와 유효기간이 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+그럼/MAJ+카드/NNG+번호/NNG+와/JC+유효/NNG+기간/NNG+이/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.카드번호는 #@금융#이구요 유효기간은 #@금융#입니다",
+            "norm_text": "B.카드번호는 #@금융#이구요 유효기간은 #@금융#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+카드/NNG+번호/NNG+는/JX+#/SY+@/SY+금융/NNG+#/SY+이/VCP+구요/EF+유효/NNG+기간/NNG+은/JX+#/SY+@/SY+금융/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.본인확인을 위해 생년월일 여섯자리 불러 주시겠습니까",
+            "norm_text": "A.본인확인을 위해 생년월일 여섯자리 불러 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+본인/NNG+확인/NNG+을/JKO+위해/VV+EC+생년월일/NNG+여섯/NR+자리/NNG+불러/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 15,
+            "text": "B.네 제 생년월일은 #@신원#이요",
+            "norm_text": "B.네 제 생년월일은 #@신원#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+JKG+생년월일/NNG+은/JX+#/SY+@/SY+신원/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 고객님 #@소속#카드로 변경해드렸습니다 다른 문의사항 있으십니까",
+            "norm_text": "A.네 고객님 #@소속#카드로 변경해드렸습니다 다른 문의사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+#/SY+@/SY+소속/NNG+#/SY+카드/NNG+로/JKB+변경/NNG+해/XSV+EC+드렸/VX+EP+습니다/EF+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "B.그러면 변경은 제대로 된거죠 다른 문의사항은 없어요 수고하세요",
+            "norm_text": "B.그러면 변경은 제대로 된거죠 다른 문의사항은 없어요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그러면/MAJ+변경/NNG+은/JX+제대로/MAG+된/VV+ETM+거/NNB+죠/VCP+EF+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+어요/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 18,
+            "text": "A.감사합니다 행복한 하루 보내세요 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 행복한 하루 보내세요 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+행복/NNG+한/XSA+ETM+하루/NNG+보내/VV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

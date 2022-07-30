@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 157689,
+    "name": "t5_20211119_0010_1611_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135909054524/t5_20211119_0010_1611_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135909054524/t5_20211119_0010_1611_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155066,
+      "filename": "t5_0060_0005_02.txt",
+      "title": "t5_0060_0005_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 385,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 385,
+        "word_size": 89,
+        "text": "A.안녕하십니까  #@소속# 상담원 #@이름#입니다\nB.제가 온라인에서 체험원 예약을 했는데요 확인 좀 하려구요\nA.그러십니까 정보확인을 위해서 성함과 연락처 말씀해주시겠습니까\nB.네 이름은 #@이름#이구요 번호는 #@전번# 이에요\nA.확인 감사합니다 9월 27일 월요일 예약이 맞으십니까\nB.네 맞아요 예약이 된 건가요\nA.저희가 실시간으로 예약을 하시면 승인절차를 거쳐서 예약이 확정되는데요\nA.아직 승인이 나지 않은 상태이십니다\nB.그래요 그럼 언제 승인이 되는 건가요\nA.네 승인은 보통 3일에서 4일 정도 소요됩니다\nB.그럼 결과는 어떻게 알 수 있나요\nA.네 예약하실 때 적어주신 번호로 문자 전송해 드립니다\nB.그래요 좀 더 기다려보죠 알겠습니다\nA.네 저희  #@소속#에 관심가져 주셔서 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까  #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까  #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 온라인에서 체험원 예약을 했는데요 확인 좀 하려구요",
+            "norm_text": "B.제가 온라인에서 체험원 예약을 했는데요 확인 좀 하려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+제/NP+가/JKS+온라인/NNG+에서/JKB+체험/NNG+원/NNG+예약/NNG+을/JKO+했/VV+EP+는데요/EF+확인/NNG+좀/MAG+하/VV+려구요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.그러십니까 정보확인을 위해서 성함과 연락처 말씀해주시겠습니까",
+            "norm_text": "A.그러십니까 정보확인을 위해서 성함과 연락처 말씀해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+그러/VV+십니까/EP+EF+정보/NNG+확인/NNG+을/JKO+위해서/VV+EC+성함/NNG+과/JC+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 이름은 #@이름#이구요 번호는 #@전번# 이에요",
+            "norm_text": "B.네 이름은 #@이름#이구요 번호는 #@전번# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+구요/EF+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.확인 감사합니다 9월 27일 월요일 예약이 맞으십니까",
+            "norm_text": "A.확인 감사합니다 9월 27일 월요일 예약이 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+합니다/XSV+EC+9/SN+월/NNBC+27/SN+일/NNBC+월요일/NNG+예약/NNG+이/JKS+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 맞아요 예약이 된 건가요",
+            "norm_text": "B.네 맞아요 예약이 된 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+예약/NNG+이/JKS+된/VV+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.저희가 실시간으로 예약을 하시면 승인절차를 거쳐서 예약이 확정되는데요",
+            "norm_text": "A.저희가 실시간으로 예약을 하시면 승인절차를 거쳐서 예약이 확정되는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+실시간/NNG+으로/JKB+예약/NNG+을/JKO+하/VV+시/EP+면/EC+승인/NNG+절차/NNG+를/JKO+거쳐서/VV+EC+예약/NNG+이/JKS+확정/NNG+되/XSV+는데요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.아직 승인이 나지 않은 상태이십니다",
+            "norm_text": "A.아직 승인이 나지 않은 상태이십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아직/MAG+승인/NNG+이/JKS+나/VV+지/EC+않/VX+은/ETM+상태/NNG+이/VCP+십니다/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그래요 그럼 언제 승인이 되는 건가요",
+            "norm_text": "B.그래요 그럼 언제 승인이 되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+언제/MAG+승인/NNG+이/JKS+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 승인은 보통 3일에서 4일 정도 소요됩니다",
+            "norm_text": "A.네 승인은 보통 3일에서 4일 정도 소요됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+승인/NNG+은/JX+보통/NNG+3/SN+일/NNBC+에서/JKB+4/SN+일/NNBC+정도/NNG+소요/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그럼 결과는 어떻게 알 수 있나요",
+            "norm_text": "B.그럼 결과는 어떻게 알 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+결과/NNG+는/JX+어떻게/MAG+알/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 예약하실 때 적어주신 번호로 문자 전송해 드립니다",
+            "norm_text": "A.네 예약하실 때 적어주신 번호로 문자 전송해 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+예약/NNG+하/XSV+실/EP+ETM+때/NNG+적/VA+어/EC+주/VX+신/EP+ETM+번호/NNG+로/JKB+문자/NNG+전송/NNG+해/XSV+EC+드립니다/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그래요 좀 더 기다려보죠 알겠습니다",
+            "norm_text": "B.그래요 좀 더 기다려보죠 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+좀더/MAG+기다려/VV+EC+보/VX+죠/EF+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.네 저희  #@소속#에 관심가져 주셔서 감사합니다",
+            "norm_text": "A.네 저희  #@소속#에 관심가져 주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+저희/NP+#/SY+@/SY+소속/NNG+#/SY+에/JKB+관심/NNG+가져/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 47850,
+    "name": "c4_20211015_0001_1750_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130705033997/c4_20211015_0001_1750_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130705033997/c4_20211015_0001_1750_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50213,
+      "filename": "c4_20210906_0029_0009_01.txt",
+      "title": "c4_20210906_0029_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 308,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 308,
+        "word_size": 66,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.인천시 아동급식카드 가맹점에 대해 건의 하려고요\nA.반갑습니다 어떤 건의인가요\nB.현재 가맹점이 음식점과 편의점 정도로 알고 있습니다\nA.네 맞습니다 의견 주시면 참고하도록 하겠습니다\nB.가맹점의 다양성을 위해 확대를 요청드려요\nA.가맹점 확대를 위해 시스템 운영사와 함께 노력하겠습니다\nB.그럼 혹시 가맹점 신청을 할 수 있나요\nA.네 #@URL#을 통해 신청할 수 있습니다\nA.가맹점 등록은 가맹업체의 동의가 있어야 가능한 점 안내드립니다\nB.안내 감사합니다 좋은 하루 보내세요\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.인천시 아동급식카드 가맹점에 대해 건의 하려고요",
+            "norm_text": "B.인천시 아동급식카드 가맹점에 대해 건의 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+인천시/NNP+아동/NNG+급식/NNG+카드/NNG+가/JKS+맹점/NNG+에/JKB+대해/VV+EC+건의/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.반갑습니다 어떤 건의인가요",
+            "norm_text": "A.반갑습니다 어떤 건의인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+어떤/MM+건의/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.현재 가맹점이 음식점과 편의점 정도로 알고 있습니다",
+            "norm_text": "B.현재 가맹점이 음식점과 편의점 정도로 알고 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+현재/NNG+가/JKS+맹점/NNG+이/JKS+음식점/NNG+과/JC+편의점/NNG+정도/NNG+로/JKB+알/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 맞습니다 의견 주시면 참고하도록 하겠습니다",
+            "norm_text": "A.네 맞습니다 의견 주시면 참고하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+의/JKG+견주/VV+시/EP+면/EC+참고/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.가맹점의 다양성을 위해 확대를 요청드려요",
+            "norm_text": "B.가맹점의 다양성을 위해 확대를 요청드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+가맹점/NNG+의/JKG+다양/NNG+성/XSN+을/JKO+위해/VV+EC+확대/NNG+를/JKO+요청/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.가맹점 확대를 위해 시스템 운영사와 함께 노력하겠습니다",
+            "norm_text": "A.가맹점 확대를 위해 시스템 운영사와 함께 노력하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가맹점/NNG+확대/NNG+를/JKO+위해/VV+EC+시스템/NNG+운영/NNG+사/NNG+와/JKB+함께/MAG+노력/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 혹시 가맹점 신청을 할 수 있나요",
+            "norm_text": "B.그럼 혹시 가맹점 신청을 할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+혹시/MAG+가맹점/NNG+신청/NNG+을/JKO+할/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 #@URL#을 통해 신청할 수 있습니다",
+            "norm_text": "A.네 #@URL#을 통해 신청할 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+URL/SL+#/SY+을/JKO+통해/VV+EC+신청/NNG+할/XSV+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.가맹점 등록은 가맹업체의 동의가 있어야 가능한 점 안내드립니다",
+            "norm_text": "A.가맹점 등록은 가맹업체의 동의가 있어야 가능한 점 안내드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가맹점/NNG+등록/NNG+은/JX+가맹/NNG+업체/NNG+의/JKG+동의/NNG+가/JKS+있/VA+어야/EC+가능/NNG+한/MM+점/NNBC+안내/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.안내 감사합니다 좋은 하루 보내세요",
+            "norm_text": "B.안내 감사합니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안내/NNG+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 118680,
+    "name": "s2_20211105_0002_0165_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110737025226/s2_20211105_0002_0165_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110737025226/s2_20211105_0002_0165_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117110,
+      "filename": "s2_20211028_0004_0029_01.txt",
+      "title": "s2_20211028_0004_0029_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 343,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 343,
+        "word_size": 78,
+        "text": "A.행복한 하루 시작 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 궁금한 게 있어 전화했습니다\nA.네 고객님 어떤 문의실까요 편히 말씀해 주세요\nB.스팀 청소기에 뜨거운 물을 넣어도 되나요\nA.네 고객님 제가 확인 후 바로 말씀드릴 수 있도록 하겠습니다\nB.알겠습니다 확인하시고 말씀 부탁드립니다\nA.고객님 기다려주셔서 감사합니다 말씀드릴게요\nA.사십 도 이상의 물로 사용하지 말아주세요\nB.그렇군요 혹시 이유가 따로 있을까요\nA.고온의 물로 인하여 물통의 변형이 발생할 수 있거든요\nA.그리고 화재의 위험이 있습니다\nB.알겠습니다 주의할게요 친절한 안내 감사해요\nA.추가 문의 사항 언제든지 연락 주세요 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.행복한 하루 시작 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.행복한 하루 시작 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+시작/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 궁금한 게 있어 전화했습니다",
+            "norm_text": "B.안녕하세요 궁금한 게 있어 전화했습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어/EC+전화/NNG+했/XSV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어떤 문의실까요 편히 말씀해 주세요",
+            "norm_text": "A.네 고객님 어떤 문의실까요 편히 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어떤/MM+문/NNG+의/JKG+실까요/EP+EF+편히/MAG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.스팀 청소기에 뜨거운 물을 넣어도 되나요",
+            "norm_text": "B.스팀 청소기에 뜨거운 물을 넣어도 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+스팀/NNG+청소기/NNG+에/JKB+뜨거운/VA+ETM+물/NNG+을/JKO+넣/VV+어도/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 제가 확인 후 바로 말씀드릴 수 있도록 하겠습니다",
+            "norm_text": "A.네 고객님 제가 확인 후 바로 말씀드릴 수 있도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+제/NP+가/JKS+확인/NNG+후/NNG+바로/MAG+말씀/NNG+드릴/VV+ETM+수/NNB+있/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.알겠습니다 확인하시고 말씀 부탁드립니다",
+            "norm_text": "B.알겠습니다 확인하시고 말씀 부탁드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+확인/NNG+하/XSV+시/EP+고/EC+말씀/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.고객님 기다려주셔서 감사합니다 말씀드릴게요",
+            "norm_text": "A.고객님 기다려주셔서 감사합니다 말씀드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+말씀/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.사십 도 이상의 물로 사용하지 말아주세요",
+            "norm_text": "A.사십 도 이상의 물로 사용하지 말아주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+사/NR+십/NR+도/NNBC+이상/NNG+의/JKG+물/NNG+로/JKB+사용/NNG+하/XSV+지/EC+말/VX+아/EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그렇군요 혹시 이유가 따로 있을까요",
+            "norm_text": "B.그렇군요 혹시 이유가 따로 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+혹시/MAG+이유/NNG+가/JKS+따로/MAG+있/VV+을까요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.고온의 물로 인하여 물통의 변형이 발생할 수 있거든요",
+            "norm_text": "A.고온의 물로 인하여 물통의 변형이 발생할 수 있거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고온/NNG+의/JKG+물/NNG+로/JKB+인하/NNG+여물통/NNG+의/JKG+변형/NNG+이/JKS+발생/NNG+할/XSV+ETM+수/NNB+있/VV+거든요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.그리고 화재의 위험이 있습니다",
+            "norm_text": "A.그리고 화재의 위험이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그리고/MAJ+화재/NNG+의/JKG+위험/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.알겠습니다 주의할게요 친절한 안내 감사해요",
+            "norm_text": "B.알겠습니다 주의할게요 친절한 안내 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+주의/NNG+할게요/XSV+EC+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.추가 문의 사항 언제든지 연락 주세요 상담사 #@이름#이었습니다",
+            "norm_text": "A.추가 문의 사항 언제든지 연락 주세요 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+추가/NNG+문/NNG+의/JKG+사항/NNG+언제든지/MAG+연락/NNG+주세/NNG+요상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

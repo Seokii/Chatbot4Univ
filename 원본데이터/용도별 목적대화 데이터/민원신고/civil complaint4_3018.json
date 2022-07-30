@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 63182,
+    "name": "c4_20211022_0014_0015_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131234000921/c4_20211022_0014_0015_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131234000921/c4_20211022_0014_0015_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57026,
+      "filename": "c4_20210927_0005_0021_01.txt",
+      "title": "c4_20210927_0005_0021_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 371,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 371,
+        "word_size": 87,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.다름이 아니라요 #@소속# 앞에 버스정류장이 하나 있거든요\nA.예 #@소속# 앞 정류장 말씀이십니까\nB.네 거기 #@번호# 버스가 안 서고 그냥 가거든요\nA.#@번호# 버스가 정차하지 않는다는 말씀이시죠\nB.네 그런데 그 길을 지나가긴 하는데 왜 안 서는지 모르겠어서요\nB.정차할 수 있게 할 수는 없나요\nA.네 제가 지금 확인 좀 해보겠습니다\nA.해당 버스는 열 여섯 대가 일 일에 오십 칠 회 운행되고 있습니다\nA.말씀하신 정류장은 운송업체와 협의 중인 사항으로 확인됩니다\nA.빠른 시일 내에 정차할 수 있도록 조치하겠습니다\nB.이미 논의 중이었군요 알겠습니다\nA.감사합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.다름이 아니라요 #@소속# 앞에 버스정류장이 하나 있거든요",
+            "norm_text": "B.다름이 아니라요 #@소속# 앞에 버스정류장이 하나 있거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+다름/VA+ETN+이/JKC+아니/VCN+라요/EC+#/SY+@/SY+소속/NNG+#/SY+앞/NNG+에/JKB+버스/NNG+정류장/NNG+이/JKS+하/VV+나/EC+있/VX+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 #@소속# 앞 정류장 말씀이십니까",
+            "norm_text": "A.예 #@소속# 앞 정류장 말씀이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+#/SY+@/SY+소속/NNG+#/SY+앞/NNG+정류장/NNG+말씀/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 거기 #@번호# 버스가 안 서고 그냥 가거든요",
+            "norm_text": "B.네 거기 #@번호# 버스가 안 서고 그냥 가거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+거기/NP+#/SY+@/SY+번호/NNG+#/SY+버스/NNG+가/JKS+안/MAG+서/VV+고/EC+그냥/MAG+가/VV+거든요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.#@번호# 버스가 정차하지 않는다는 말씀이시죠",
+            "norm_text": "A.#@번호# 버스가 정차하지 않는다는 말씀이시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+번호/NNG+#/SY+버스/NNG+가/JKS+정차/NNG+하/XSV+지/EC+않/VX+는다는/ETM+말씀/NNG+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 그런데 그 길을 지나가긴 하는데 왜 안 서는지 모르겠어서요",
+            "norm_text": "B.네 그런데 그 길을 지나가긴 하는데 왜 안 서는지 모르겠어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그런데/MAJ+그/MM+길/NNG+을/JKO+지나가/VV+긴/ETN+JX+하/VX+는데/EC+왜/MAG+안/MAG+서/VV+는지/EC+모르/VV+겠/EP+어서요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.정차할 수 있게 할 수는 없나요",
+            "norm_text": "B.정차할 수 있게 할 수는 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+정차/NNG+할/XSV+ETM+수/NNB+있/VV+게/EC+할/VX+ETM+수/NNB+는/JX+없/VA+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 제가 지금 확인 좀 해보겠습니다",
+            "norm_text": "A.네 제가 지금 확인 좀 해보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+제/NP+가/JKS+지금/MAG+확인/NNG+좀/MAG+해/VV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.해당 버스는 열 여섯 대가 일 일에 오십 칠 회 운행되고 있습니다",
+            "norm_text": "A.해당 버스는 열 여섯 대가 일 일에 오십 칠 회 운행되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+버스/NNG+는/JX+열/NR+여섯/NR+대/NNBC+가/JKS+일/NR+일/NNBC+에/JKB+오/NR+십/NR+칠/NR+회/NNBC+운행/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.말씀하신 정류장은 운송업체와 협의 중인 사항으로 확인됩니다",
+            "norm_text": "A.말씀하신 정류장은 운송업체와 협의 중인 사항으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+말씀/NNG+하/XSV+신/EP+ETM+정류장/NNG+은/JX+운송/NNG+업체/NNG+와/JC+협의/NNG+중/NNB+인/VCP+ETM+사항/NNG+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.빠른 시일 내에 정차할 수 있도록 조치하겠습니다",
+            "norm_text": "A.빠른 시일 내에 정차할 수 있도록 조치하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+빠른/VA+ETM+시일/NNG+내/NNB+에/JKB+정차/NNG+할/XSV+ETM+수/NNB+있/VV+도록/EC+조치/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.이미 논의 중이었군요 알겠습니다",
+            "norm_text": "B.이미 논의 중이었군요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이미/MAG+논의/NNG+중/NNB+이/VCP+었/EP+군요/EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

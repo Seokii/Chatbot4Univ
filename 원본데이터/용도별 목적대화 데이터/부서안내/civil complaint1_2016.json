@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 12694,
+    "name": "c1_20210913_0005_0770_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339029362/c1_20210913_0005_0770_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339029362/c1_20210913_0005_0770_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10398,
+      "filename": "c1_20210818_0010_0015_01.txt",
+      "title": "c1_20210818_0010_0015_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 524,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 524,
+        "word_size": 105,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.여보세요 예 도지사님 비서실에 전 비서관님 좀 바꿔주세요\nA.혹시 #@이름# 비서관 문의십니까\nB.예 #@이름# 비서관님 맞습니다\nA.네 확인 후에 안내해드리겠습니다\nA.현재 #@이름# 사무관은 #@소속# 근무자로 확인이 어렵습니다\nB.그럼 지금은 #@소속#에 안 계세요\nA.네 #@소속#에 계시지 않는 것으로 확인됩니다\nB.그럼 다른 부서로 옮기신 건가요\nA.네 맞습니다 현재 #@소속# 사무관님으로 확인됩니다\nB.그러면은 잠깐만요 #@이름#한테 바꿔주세요\nA.찾으시는 분이 #@소속# #@이름# 맞으십니까\nB.예 #@소속# #@이름# 찾고 있어요\nA.죄송하지만 선생님께서 말씀해주신 성함으로는 확인이 어렵습니다\nB.제가 알기로는 #@이름#이 맞는데요\nA.현재 인사발령으로 도청 근무자 확인 어려웠습니다\nB.그럼 그냥 #@소속#로 바꿔주세요\nA.선생님 죄송합니다 찾으시는 #@이름#은 #@소속#에 계시네요\nB.그럼 #@이름# 사무관 바꿔주세요\nA.네 바로 연결 도와드리겠습니다 연결되시면 통화하시면 됩니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여보세요 예 도지사님 비서실에 전 비서관님 좀 바꿔주세요",
+            "norm_text": "B.여보세요 예 도지사님 비서실에 전 비서관님 좀 바꿔주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+여보세요/IC+예/IC+도지사/NNP+님/XSN+비서실/NNG+에/JKB+전/MM+비서관/NNG+님/XSN+좀/MAG+바꿔/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.혹시 #@이름# 비서관 문의십니까",
+            "norm_text": "A.혹시 #@이름# 비서관 문의십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+#/SY+@/SY+이름/NNG+#/SY+비서관/NNG+문의/NNG+십니까/VCP+EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.예 #@이름# 비서관님 맞습니다",
+            "norm_text": "B.예 #@이름# 비서관님 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+이름/NNG+#/SY+비서관/NNG+님/XSN+맞/VV+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 확인 후에 안내해드리겠습니다",
+            "norm_text": "A.네 확인 후에 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+확인/NNG+후/NNG+에/JKB+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.현재 #@이름# 사무관은 #@소속# 근무자로 확인이 어렵습니다",
+            "norm_text": "A.현재 #@이름# 사무관은 #@소속# 근무자로 확인이 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+현재/MAG+#/SY+@/SY+이름/NNG+#/SY+사무관/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+근무자/NNG+로/JKB+확인/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그럼 지금은 #@소속#에 안 계세요",
+            "norm_text": "B.그럼 지금은 #@소속#에 안 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+지금/MAG+은/JX+#/SY+@/SY+소속/NNG+#/SY+에/JKB+안/MAG+계세요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 #@소속#에 계시지 않는 것으로 확인됩니다",
+            "norm_text": "A.네 #@소속#에 계시지 않는 것으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+에/JKB+계시/VV+지/EC+않/VX+는/ETM+것/NNB+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그럼 다른 부서로 옮기신 건가요",
+            "norm_text": "B.그럼 다른 부서로 옮기신 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+다른/MM+부서/NNG+로/JKB+옮기/VV+신/EP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 맞습니다 현재 #@소속# 사무관님으로 확인됩니다",
+            "norm_text": "A.네 맞습니다 현재 #@소속# 사무관님으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+현재/MAG+#/SY+@/SY+소속/NNG+#/SY+사무관/NNG+님/XSN+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그러면은 잠깐만요 #@이름#한테 바꿔주세요",
+            "norm_text": "B.그러면은 잠깐만요 #@이름#한테 바꿔주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그러면은/MAJ+잠깐/MAG+만/JX+요/JX+#/SY+@/SY+이름/NNG+#/SY+한테/JKB+바꿔/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.찾으시는 분이 #@소속# #@이름# 맞으십니까",
+            "norm_text": "A.찾으시는 분이 #@소속# #@이름# 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+찾/VV+으시/EP+는/ETM+분/NNB+이/JKS+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.예 #@소속# #@이름# 찾고 있어요",
+            "norm_text": "B.예 #@소속# #@이름# 찾고 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+찾/VV+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.죄송하지만 선생님께서 말씀해주신 성함으로는 확인이 어렵습니다",
+            "norm_text": "A.죄송하지만 선생님께서 말씀해주신 성함으로는 확인이 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+선생/NNG+님/XSN+께서/JKS+말씀/NNG+해/XSV+EC+주/VX+신/EP+ETM+성함/NNG+으로/JKB+는/JX+확인/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.제가 알기로는 #@이름#이 맞는데요",
+            "norm_text": "B.제가 알기로는 #@이름#이 맞는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+알/VV+기/ETN+로/JKB+는/JX+#/SY+@/SY+이름/NNG+#/SY+이/JKS+맞/VV+는데요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.현재 인사발령으로 도청 근무자 확인 어려웠습니다",
+            "norm_text": "A.현재 인사발령으로 도청 근무자 확인 어려웠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+현재/MAG+인사/NNG+발령/NNG+으로/JKB+도청/NNG+근무자/NNG+확인/NNG+어려웠/VA+EP+습니다/EF"
+          },
+          {
+            "id": 17,
+            "text": "B.그럼 그냥 #@소속#로 바꿔주세요",
+            "norm_text": "B.그럼 그냥 #@소속#로 바꿔주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+그냥/MAG+#/SY+@/SY+소속/NNG+#/SY+로/JKB+바꿔/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 18,
+            "text": "A.선생님 죄송합니다 찾으시는 #@이름#은 #@소속#에 계시네요",
+            "norm_text": "A.선생님 죄송합니다 찾으시는 #@이름#은 #@소속#에 계시네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+죄송/XR+합니다/XSA+EF+찾/VV+으시/EP+는/ETM+#/SY+@/SY+이름/NNG+#/SY+은/JX+#/SY+@/SY+소속/NNG+#/SY+에/JKB+계시/VV+네요/EC"
+          },
+          {
+            "id": 19,
+            "text": "B.그럼 #@이름# 사무관 바꿔주세요",
+            "norm_text": "B.그럼 #@이름# 사무관 바꿔주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+#/SY+@/SY+이름/NNG+#/SY+사무관/NNG+바꿔/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 20,
+            "text": "A.네 바로 연결 도와드리겠습니다 연결되시면 통화하시면 됩니다",
+            "norm_text": "A.네 바로 연결 도와드리겠습니다 연결되시면 통화하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+바로/MAG+연결/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF+연결/NNG+되/XSV+시/EP+면/EC+통화/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

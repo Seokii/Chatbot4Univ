@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 17212,
+    "name": "s1_20210915_0002_0170_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151258017037/s1_20210915_0002_0170_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151258017037/s1_20210915_0002_0170_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8969,
+      "filename": "s1_20210826_0021_0005_01.txt",
+      "title": "s1_20210826_0021_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 402,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 402,
+        "word_size": 87,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.에어컨 사용중인데 이게 자꾸 오류가 떠요\nA.사용중인 제품이 천장형 에어컨이십니까\nB.아니요 저 스탠드요\nA.에어콘 잠시만 확인해드리겠습니다 혹시 에러 메세지가 어떤게 뜨나요\nB.오류코드 #@기타#라고 뜨거든요\nA.#@기타#는 실외기쪽 문제인데 팬에 문제가 있으면 뜨는 에러입니다\nA.혹시 눈이 왔다거나 그런 부분이 있을까요 고객님\nB.아니요 그런거 없습니다\nA.그럼 저희 혹시 에어컨 전원 차단기 위치 아실까요\nA.내렸다가 한 오분이나 십분 후에 올려보셨을까요\nB.그렇게 안하고 전원만 껐었거든요\nA.전원말고 전원차단기를 내렸다가 키면 초기화가 되거든요\nA.해보시고 다시 에러가 뜬다면 기사분이 가셔야되구요\nB.오분 후에 다시 한번 확인하고 전화드리겠습니다\nA.고객님 감사합니다 즐거운 하루 보내십시요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.에어컨 사용중인데 이게 자꾸 오류가 떠요",
+            "norm_text": "B.에어컨 사용중인데 이게 자꾸 오류가 떠요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+에어컨/NNG+사용/NNG+중/NNB+인데/VCP+EC+이게/NP+JKS+자꾸/MAG+오류/NNG+가/JKS+떠요/VV+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.사용중인 제품이 천장형 에어컨이십니까",
+            "norm_text": "A.사용중인 제품이 천장형 에어컨이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+사용/NNG+중/NNB+인/VCP+ETM+제품/NNG+이/JKS+천장/NNG+형/XSN+에어컨/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.아니요 저 스탠드요",
+            "norm_text": "B.아니요 저 스탠드요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+저/MM+스탠드/NNG+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.에어콘 잠시만 확인해드리겠습니다 혹시 에러 메세지가 어떤게 뜨나요",
+            "norm_text": "A.에어콘 잠시만요 혹시 에러 메세지가 어떤게 뜨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+에/JKB+어/IC+콘/NNG+잠시/NNG+만/JX+요/JX+혹시/MAG+에러/NNG+메세지/NNG+가/JKS+어떤/MM+게/NNB+JKS+뜨/VA+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.오류코드 #@기타#라고 뜨거든요",
+            "norm_text": "B.오류코드 #@기타#라고 뜨거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+오류/NNG+코드/NNG+#/SY+@/SY+기타/NNG+#/SY+라고/JKQ+뜨/VV+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.#@기타#는 실외기쪽 문제인데 팬에 문제가 있으면 뜨는 에러입니다",
+            "norm_text": "A.#@기타#는 실외기쪽 문제인데 팬에 문제가 있으면 뜨는 에러입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+는/JX+실외기/NNG+쪽/NNB+문제/NNG+인데/VCP+EC+팬/NNG+에/JKB+문제/NNG+가/JKS+있/VA+으면/EC+뜨/VV+는/ETM+에러/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.혹시 눈이 왔다거나 그런 부분이 있을까요 고객님",
+            "norm_text": "A.혹시 눈이 왔다거나 그런 부분이 있을까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+눈/NNG+이/JKS+왔/VV+EP+다거나/EC+그런/MM+부분/NNG+이/JKS+있/VV+을까요/EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 9,
+            "text": "B.아니요 그런거 없습니다",
+            "norm_text": "B.아니요 그런거 없습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+그런/MM+거/NNB+없/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.그럼 저희 혹시 에어컨 전원 차단기 위치 아실까요",
+            "norm_text": "A.그럼 저희 혹시 에어컨 전원 차단기 위치 아실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+저희/NP+혹시/MAG+에어컨/NNG+전원/NNG+차단기/NNG+위치/NNG+아실까/VV+EP+EC+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.내렸다가 한 오분이나 십분 후에 올려보셨을까요",
+            "norm_text": "A.내렸다가 한 오분이나 십분 후에 올려보셨을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+내렸/VV+EP+다가/EC+한/MM+오/NR+분/NNBC+이나/JC+십/NR+분/NNBC+후/NNG+에/JKB+올려/VV+EC+보/VX+셨/EP+EP+을까요/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그렇게 안하고 전원만 껐었거든요",
+            "norm_text": "B.그렇게 안하고 전원만 껐었거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그렇게/MAG+안/MAG+하/VV+고/EC+전원/NNG+만/JX+껐/VV+EP+었/EP+거든요/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.전원말고 전원차단기를 내렸다가 키면 초기화가 되거든요",
+            "norm_text": "A.전원말고 전원차단기를 내렸다가 키면 초기화가 되거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전원/NNG+말/VV+고/EC+전원/NNG+차단기/NNG+를/JKO+내렸/VV+EP+다가/EC+키/VV+면/EC+초기/NNG+화/XSN+가/JKC+되/VV+거든요/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.해보시고 다시 에러가 뜬다면 기사분이 가셔야되구요",
+            "norm_text": "A.해보시고 다시 에러가 뜬다면 기사분이 가셔야되구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+해/VV+EC+보/VX+시/EP+고/EC+다시/MAG+에러/NNG+가/JKS+뜬다면/VV+EC+기사/NNG+분/NNB+이/JKS+가셔야/VV+EC+되/VV+구요/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.오분 후에 다시 한번 확인하고 전화드리겠습니다",
+            "norm_text": "B.오분 후에 다시 한번 확인하고 전화드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+오/NR+분/NNBC+후/NNG+에/JKB+다시/MAG+한/MM+번/NNBC+확인/NNG+하/XSV+고/EC+전화/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "A.고객님 감사합니다 즐거운 하루 보내십시요",
+            "norm_text": "A.고객님 감사합니다 즐거운 하루 보내십시요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+감사/NNG+합니다/XSV+EF+즐거운/VA+ETM+하루/NNG+보내/VV+십시요/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

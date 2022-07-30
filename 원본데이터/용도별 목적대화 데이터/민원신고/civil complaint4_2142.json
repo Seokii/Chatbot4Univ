@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 50657,
+    "name": "c4_20211018_0012_0127_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131238098094/c4_20211018_0012_0127_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131238098094/c4_20211018_0012_0127_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57635,
+      "filename": "c4_20210929_0024_0007_01.txt",
+      "title": "c4_20210929_0024_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 313,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 313,
+        "word_size": 61,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nB.안녕하세요 인천공항 탑승동 이동은 어떻게 하나요\nA.인천공항 탑승동 이동은 인천공항 셔틀트레인을 타고 이동합니다\nB..셔틀트레인이 무엇 인가요\nA.여객터미널과 탑승동간의 출입국 및 환승여객을 수송하기위해서요\nA.지하에 설치된 주행로를 따라 사람을 수송하는 경전철형 이동수단입니다\nB.게이트가 백 삼번인데 어디서 타야 하나요\nA.터미널 지하 일층에서 셔틀트레인을 탑승하여 탑승동으로 이동합니다\nB.알겠습니다 도움이 되었습니다 감사합니다\nA.이와 관련하여 보다 궁금한 사항이 있으시면 #@소속#으로 연락주세요\nB.예 수고하세요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 인천공항 탑승동 이동은 어떻게 하나요",
+            "norm_text": "B.안녕하세요 인천공항 탑승동 이동은 어떻게 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+인천/NNP+공항/NNG+탑승/NNG+동/NNG+이동/NNG+은/JX+어떻게/MAG+하나/NR+요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.인천공항 탑승동 이동은 인천공항 셔틀트레인을 타고 이동합니다",
+            "norm_text": "A.인천공항 탑승동 이동은 인천공항 셔틀트레인을 타고 이동합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+인천/NNP+공항/NNG+탑승/NNG+동/NNG+이동/NNG+은/JX+인천/NNP+공항/NNG+셔틀/NNG+트레인/NNG+을/JKO+타/VV+고/EC+이동/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B..셔틀트레인이 무엇 인가요",
+            "norm_text": "B..셔틀트레인이 무엇 인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+셔틀/NNG+트레인/NNG+이/JKS+무엇/NP+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.여객터미널과 탑승동간의 출입국 및 환승여객을 수송하기위해서요",
+            "norm_text": "A.여객터미널과 탑승동간의 출입국 및 환승여객을 수송하기위해서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+여객/NNG+터미널/NNG+과/JC+탑승/NNG+동간/NNG+의/JKG+출입국/NNG+및/MAJ+환승/NNG+여객/NNG+을/JKO+수송/NNG+하/XSV+기/ETN+위해서요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.지하에 설치된 주행로를 따라 사람을 수송하는 경전철형 이동수단입니다",
+            "norm_text": "A.지하에 설치된 주행로를 따라 사람을 수송하는 경전철형 이동수단입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+지하/NNG+에/JKB+설치/NNG+된/XSV+ETM+주행로/NNG+를/JKO+따라/VV+EC+사람/NNG+을/JKO+수송/NNG+하/XSV+는/ETM+경전철/NNG+형/XSN+이동/NNG+수단/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.게이트가 백 삼번인데 어디서 타야 하나요",
+            "norm_text": "B.게이트가 백 삼번인데 어디서 타야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+게이트/NNG+가/JKS+백/NR+삼/NR+번/NNBC+인데/VCP+EC+어디/NP+서/JKB+타/VV+야/EF+하나/NR+요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.터미널 지하 일층에서 셔틀트레인을 탑승하여 탑승동으로 이동합니다",
+            "norm_text": "A.터미널 지하 일층에서 셔틀트레인을 탑승하여 탑승동으로 이동합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+터미널/NNG+지하/NNG+일/NNG+층/XSN+에서/JKB+셔틀/NNG+트레인/NNG+을/JKO+탑승/NNG+하/XSV+여/EC+탑승/NNG+동/NNG+으로/JKB+이동/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.알겠습니다 도움이 되었습니다 감사합니다",
+            "norm_text": "B.알겠습니다 도움이 되었습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+도움/NNG+이/JKS+되/VV+었/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.이와 관련하여 보다 궁금한 사항이 있으시면 #@소속#으로 연락주세요",
+            "norm_text": "A.이와 관련하여 보다 궁금한 사항이 있으시면 #@소속#으로 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+이/NP+와/JKB+관련/NNG+하/XSV+여/EC+보다/MAG+궁금/XR+한/XSA+ETM+사항/NNG+이/JKS+있/VA+으시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 11,
+            "text": "B.예 수고하세요 감사합니다",
+            "norm_text": "B.예 수고하세요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+하/XSV+세요/EP+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

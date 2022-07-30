@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 47903,
+    "name": "c4_20211015_0001_1798_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130703090025/c4_20211015_0001_1798_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130703090025/c4_20211015_0001_1798_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50044,
+      "filename": "c4_20210903_0020_0015_01.txt",
+      "title": "c4_20210903_0020_0015_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 420,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 420,
+        "word_size": 90,
+        "text": "A.안녕하세요 상담원 #@이름# 입니다\nB.#@소속#중학교 관련 민원이 있어서 전화했는데요\nA.어떤 민원이 있으신가요\nB.#@소속#중학교가 과밀 학급인 걸 해결한다고 학기 중간에요\nB.반을 다시 나눴어요 아직 학기가 반이 남아있는데요\nA.#@소속#중학교 학급 재편성 문제요\nB.애들 적응 문제도 있고 이제 고등학교 진학을 해야 되는데\nB.이제와서 반을 바꾸면 누가 책임을 집니까\nA.그러십니까 그럼 이 부분 민원 접수 해드릴게요\nB.학생들한테 상의도 없이 마음대로 처리하고 사과도 없고 말이죠\nA.이 문제에 대해서 학생들에게 사과를 원한다는 말씀이시죠\nB.맞아요 사과도 하고 문제에 대해서 대책을 세워야지요\nA.알겠습니다 그렇게 접수해 드리겠습니다\nA.선생님 성함과 연락처 남겨 주시겠습니까\nB.이름은 #@이름# 전화번호는 #@전번#입니다\nA.감사합니다 상담원 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담원 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 상담원 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속#중학교 관련 민원이 있어서 전화했는데요",
+            "norm_text": "B.#@소속#중학교 관련 민원이 있어서 전화했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+중학교/NNG+관련/NNG+민원/NNG+이/JKS+있/VV+어서/EC+전화/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.어떤 민원이 있으신가요",
+            "norm_text": "A.어떤 민원이 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+민원/NNG+이/JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속#중학교가 과밀 학급인 걸 해결한다고 학기 중간에요",
+            "norm_text": "B.#@소속#중학교가 과밀 학급인 걸 해결한다고 학기 중간에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+중학교/NNG+가/JKS+과밀/NNG+학급/NNG+인/VCP+ETM+걸/NNB+JKO+해결/NNG+한다고/XSV+EC+학기/NNG+중간/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "B.반을 다시 나눴어요 아직 학기가 반이 남아있는데요",
+            "norm_text": "B.반을 다시 나눴어요 아직 학기가 반이 남아있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+반/NNG+을/JKO+다시/MAG+나눴/VV+EP+어요/EF+아직/MAG+학기/NNG+가/JKS+반/NNG+이/JKS+남/VV+아/EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.#@소속#중학교 학급 재편성 문제요",
+            "norm_text": "A.#@소속#중학교 학급 재편성 문제요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+중학교/NNG+학급/NNG+재/XPN+편성/NNG+문제/NNG+요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.애들 적응 문제도 있고 이제 고등학교 진학을 해야 되는데",
+            "norm_text": "B.애들 적응 문제도 있고 이제 고등학교 진학을 해야 되는데",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+애/NNG+들/XSN+적응/NNG+문제/NNG+도/JX+있/VA+고/EC+이제/MAG+고등/NNG+학교/NNG+진학/NNG+을/JKO+해야/VV+EC+되/VV+는데/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.이제와서 반을 바꾸면 누가 책임을 집니까",
+            "norm_text": "B.이제와서 반을 바꾸면 누가 책임을 집니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이제/MAG+와서/VV+EC+반/NNG+을/JKO+바꾸/VV+면/EC+누가/NP+JKS+책임/NNG+을/JKO+집/VV+니까/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그러십니까 그럼 이 부분 민원 접수 해드릴게요",
+            "norm_text": "A.그러십니까 그럼 이 부분 민원 접수 해드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그러/VV+십니까/EP+EF+그럼/MAJ+이/MM+부분/NNG+민원/NNG+접수/NNG+해/XSV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.학생들한테 상의도 없이 마음대로 처리하고 사과도 없고 말이죠",
+            "norm_text": "B.학생들한테 상의도 없이 마음대로 처리하고 사과도 없고 말이죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+학생/NNG+들/XSN+한테/JKB+상의/NNG+도/JX+없이/MAG+마음대로/MAG+처리/NNG+하/XSV+고/EC+사과/NNG+도/JX+없/VA+고/EC+말/NNG+이/VCP+죠/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.이 문제에 대해서 학생들에게 사과를 원한다는 말씀이시죠",
+            "norm_text": "A.이 문제에 대해서 학생들에게 사과를 원한다는 말씀이시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+이/MM+문제/NNG+에/JKB+대해서/VV+EC+학생/NNG+들/XSN+에게/JKB+사과/NNG+를/JKO+원한다는/VV+ETM+말씀/NNG+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.맞아요 사과도 하고 문제에 대해서 대책을 세워야지요",
+            "norm_text": "B.맞아요 사과도 하고 문제에 대해서 대책을 세워야지요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맞/VV+아요/EF+사과/NNG+도/JX+하/VV+고/EC+문제/NNG+에/JKB+대해서/VV+EC+대책/NNG+을/JKO+세워야/VV+EC+VX+지요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.알겠습니다 그렇게 접수해 드리겠습니다",
+            "norm_text": "A.알겠습니다 그렇게 접수해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+그렇게/MAG+접수/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.선생님 성함과 연락처 남겨 주시겠습니까",
+            "norm_text": "A.선생님 성함과 연락처 남겨 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+성함/NNG+과/JC+연락처/NNG+남겨/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 15,
+            "text": "B.이름은 #@이름# 전화번호는 #@전번#입니다",
+            "norm_text": "B.이름은 #@이름# 전화번호는 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.감사합니다 상담원 #@이름#였습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

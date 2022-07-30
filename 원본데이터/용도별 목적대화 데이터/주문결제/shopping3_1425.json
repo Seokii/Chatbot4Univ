@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 96447,
+    "name": "s3_20211102_0005_0672_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110829071994/s3_20211102_0005_0672_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110829071994/s3_20211102_0005_0672_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119363,
+      "filename": "s3_20211025_0021_0001_01.txt",
+      "title": "s3_20211025_0021_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 326,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 326,
+        "word_size": 69,
+        "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 결제 관련해서 문의 좀 드리겠습니다\nA.무엇이든 성심성의껏 도와드리겠습니다\nB.#@상품# 구매하고 현금결제를 했는데 카드결제로 바꿀 수 있을까요\nA.결제 완료 후에도 결제방식 변경은 가능합니다 바로 도와드릴까요\nB.아니요 지금 카드를 안 가지고 있어서 다시 전화드릴게요\nA.참고로 기존 주문 건을 취소하시고 재주문하시는 방법도 있습니다\nB.네 그렇게 해도 되겠네요 상담 감사합니다\nA.더 문의하실 내용이나 궁금한 점은 없으실까요\nB.없습니다 그럼 수고하시고 좋은 하루 보내세요\nA.감사합니다 고객님의 가정에 행복이 가득하시길 기원하겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 결제 관련해서 문의 좀 드리겠습니다",
+            "norm_text": "B.안녕하세요 결제 관련해서 문의 좀 드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+결제/NNG+관련/NNG+해서/XSV+EC+문/NNG+의/JKG+좀/MAG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.무엇이든 성심성의껏 도와드리겠습니다",
+            "norm_text": "A.무엇이든 성심성의껏 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+무엇/NP+이/VCP+든/EC+성심성의껏/MAG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@상품# 구매하고 현금결제를 했는데 카드결제로 바꿀 수 있을까요",
+            "norm_text": "B.#@상품# 구매하고 현금결제를 했는데 카드결제로 바꿀 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+구매/NNG+하/XSV+고/EC+현금/NNG+결제/NNG+를/JKO+했/VV+EP+는데/EC+카드/NNG+결제/NNG+로/JKB+바꿀/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.결제 완료 후에도 결제방식 변경은 가능합니다 바로 도와드릴까요",
+            "norm_text": "A.결제 완료 후에도 결제방식 변경은 가능합니다 바로 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+결제/NNG+완료/NNG+후/NNG+에/JKB+도/JX+결제/NNG+방식/NNG+변경/NNG+은/JX+가능/NNG+합니다/XSV+EF+바로/MAG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아니요 지금 카드를 안 가지고 있어서 다시 전화드릴게요",
+            "norm_text": "B.아니요 지금 카드를 안 가지고 있어서 다시 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+지금/MAG+카드/NNG+를/JKO+안/MAG+가지/VV+고/EC+있/VX+어서/EC+다시/MAG+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.참고로 기존 주문 건을 취소하시고 재주문하시는 방법도 있습니다",
+            "norm_text": "A.참고로 기존 주문 건을 취소하시고 재주문하시는 방법도 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+참고/NNG+로/JKB+기존/NNG+주문건/NNP+을/JKO+취소/NNG+하/XSV+시/EP+고/EC+재/XPN+주문/NNG+하/XSV+시/EP+는/ETM+방법/NNG+도/JX+있/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 그렇게 해도 되겠네요 상담 감사합니다",
+            "norm_text": "B.네 그렇게 해도 되겠네요 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+그렇게/MAG+해도/VV+EC+되/VV+겠/EP+네요/EF+상담/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.더 문의하실 내용이나 궁금한 점은 없으실까요",
+            "norm_text": "A.더 문의하실 내용이나 궁금한 점은 없으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+문의/NNG+하/XSV+실/EP+ETM+내용/NNG+이나/JC+궁금/XR+한/XSA+ETM+점/NNG+은/JX+없/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 10,
+            "text": "B.없습니다 그럼 수고하시고 좋은 하루 보내세요",
+            "norm_text": "B.없습니다 그럼 수고하시고 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+없/VA+습니다/EF+그럼/MAJ+수고/NNG+하/XSV+시/EP+고/EC+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 고객님의 가정에 행복이 가득하시길 기원하겠습니다",
+            "norm_text": "A.감사합니다 고객님의 가정에 행복이 가득하시길 기원하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+의/JKG+가정/NNG+에/JKB+행복/NNG+이/JKS+가득/MAG+하/VV+시/EP+길/ETN+JKO+기원/NNG+하/XSV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

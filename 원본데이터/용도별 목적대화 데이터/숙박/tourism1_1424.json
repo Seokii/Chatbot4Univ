@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 150917,
+    "name": "t1_20211117_0002_0379_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720020140/t1_20211117_0002_0379_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720020140/t1_20211117_0002_0379_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148681,
+      "filename": "t1_0074_0097_02.txt",
+      "title": "t1_0074_0097_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 276,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 276,
+        "word_size": 64,
+        "text": "A. 좋은 아침입니다 #@소속# 고객센터 상담원 #@이름#입니다\nB. 홍천 행복동산펜션 예약 해뒀는데요\nB. 픽업서비스가 가능한가해서 문의드려요\nA. 해당 펜션은 픽업서비스를 하고 있지 않습니다\nB. 터미널 도착을 했는데 아직 가지를 못했네요 주소 불러주실래요\nA. 강원도 홍천군 #@주소# 입니다 여기로 가시면 됩니다\nB. 급하게 택시라도 타고 가야겠네요 알겠습니다\nA. 네 더 필요하신거 있으실까요\nB. 아뇨 주소면 충분합니다 수고하세요\nA. 행복한 하루 되시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 좋은 아침입니다 #@소속# 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A. 좋은 아침입니다 #@소속# 고객센터 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+좋/VA+은/ETM+아침/NNG+입니다/VCP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 홍천 행복동산펜션 예약 해뒀는데요",
+            "norm_text": "B. 홍천 행복동산펜션 예약 해뒀는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+홍천/NNG+행복/NNG+동산/NNG+펜션/NNG+예약/NNG+해뒀/XSV+EC+VX+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B. 픽업서비스가 가능한가해서 문의드려요",
+            "norm_text": "B. 픽업서비스가 가능한가해서 문의드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+픽업/NNG+서비스/NNG+가/JKS+가능/NNG+한가/XSA+EC+해서/VV+EC+문/NNG+의/JKG+드려요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A. 해당 펜션은 픽업서비스를 하고 있지 않습니다",
+            "norm_text": "A. 해당 펜션은 픽업서비스를 하고 있지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+해당/NNG+펜션/NNG+은/JX+픽업/NNG+서비스/NNG+를/JKO+하/VV+고/EC+있/VX+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B. 터미널 도착을 했는데 아직 가지를 못했네요 주소 불러주실래요",
+            "norm_text": "B. 터미널 도착을 했는데 아직 가지를 못했네요 주소 불러주실래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+터미널/NNG+도착/NNG+을/JKO+했/VV+EP+는데/EC+아직/MAG+가지/NNG+를/JKO+못/MAG+했/VV+EP+네요/EF+주소/NNG+불러/VV+EC+주/VX+실래요/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A. 강원도 홍천군 #@주소# 입니다 여기로 가시면 됩니다",
+            "norm_text": "A. 강원도 홍천군 #@주소# 입니다 여기로 가시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+강원도/NNP+홍천군/NNP+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EF+여기/NP+로/JKB+가/VV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 급하게 택시라도 타고 가야겠네요 알겠습니다",
+            "norm_text": "B. 급하게 택시라도 타고 가야겠네요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+급하/VA+게/EC+택시/NNG+라도/VCP+EC+타/VV+고/EC+가/VX+야/EC+VX+겠/EP+네요/EF+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A. 네 더 필요하신거 있으실까요",
+            "norm_text": "A. 네 더 필요하신거 있으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+더/MAG+필요/NNG+하/XSV+신/EP+ETM+거/NNB+있/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 9,
+            "text": "B. 아뇨 주소면 충분합니다 수고하세요",
+            "norm_text": "B. 아뇨 주소면 충분합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아뇨/IC+주소/NNG+면/VCP+EC+충분/XR+합니다/XSA+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A. 행복한 하루 되시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 행복한 하루 되시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

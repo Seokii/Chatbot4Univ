@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 101103,
+    "name": "s6_20211103_0011_0486_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111016037518/s6_20211103_0011_0486_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111016037518/s6_20211103_0011_0486_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 123089,
+      "filename": "s6_20211001_0012_0005_01.txt",
+      "title": "s6_20211001_0012_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 269,
+      "annotations": {
+        "subject": "이벤트",
+        "speaker_type": "1:1",
+        "size": 269,
+        "word_size": 57,
+        "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름#입니다\nB.캐시백 이벤트 물어볼게요\nA.네 고객님 지금 진행하는 캐시백 팡팡 이벤트 문의이신가요\nB.네 거기서 상품 사면 언제 포인트가 들어오는 건가요\nA.제품 구매 수령 확인 후 한 달 이내에 고객님 계정으로 지급됩니다\nB.그래요 그럼 포인트는 유효기간이 있는 건가요\nA.포인트 유효기간은 없습니다 고객님\nB.그럼 다행이고요 #@상품#도 해당되나요\nA.네 #@상품#도 포함됩니다\nB.예 감사합니다 수고하세요\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객만족센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+만족/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.캐시백 이벤트 물어볼게요",
+            "norm_text": "B.캐시백 이벤트 물어볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+캐시/NNG+백/NR+이벤트/NNG+물어볼/VV+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 지금 진행하는 캐시백 팡팡 이벤트 문의이신가요",
+            "norm_text": "A.네 고객님 지금 진행하는 캐시백 팡팡 이벤트 문의이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+지금/MAG+진행/NNG+하/XSV+는/ETM+캐시/NNG+백/NR+팡팡/MAG+이벤트/NNG+문의/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 거기서 상품 사면 언제 포인트가 들어오는 건가요",
+            "norm_text": "B.네 거기서 상품 사면 언제 포인트가 들어오는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+거기/NP+서/JKB+상품/NNG+사면/NNG+언제/MAG+포인트/NNG+가/JKS+들어오/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.제품 구매 수령 확인 후 한 달 이내에 고객님 계정으로 지급됩니다",
+            "norm_text": "A.제품 구매 수령 확인 후 한 달 이내에 고객님 계정으로 지급됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+제품/NNG+구매/NNG+수령/NNG+확인/NNG+후/NNG+한/XSA+ETM+달/NNG+이/JKS+내/NP+에/JKB+고객/NNG+님/XSN+계정/NNG+으로/JKB+지급/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그래요 그럼 포인트는 유효기간이 있는 건가요",
+            "norm_text": "B.그래요 그럼 포인트는 유효기간이 있는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+포인트/NNG+는/JX+유효/NNG+기간/NNG+이/JKS+있/VA+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.포인트 유효기간은 없습니다 고객님",
+            "norm_text": "A.포인트 유효기간은 없습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+포인트/NNG+유효/NNG+기간/NNG+은/JX+없/VA+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 다행이고요 #@상품#도 해당되나요",
+            "norm_text": "B.그럼 다행이고요 #@상품#도 해당되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+다행/NNG+이/JKS+고요/NNG+#/SY+@/SY+상품/NNG+#/SY+도/JX+해당/NNG+되/XSV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 #@상품#도 포함됩니다",
+            "norm_text": "A.네 #@상품#도 포함됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+도/JX+포함/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.예 감사합니다 수고하세요",
+            "norm_text": "B.예 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 11071,
+    "name": "s3_20210913_0010_0731_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416075934/s3_20210913_0010_0731_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416075934/s3_20210913_0010_0731_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11902,
+      "filename": "s3_20210826_0021_0001_01.txt",
+      "title": "s3_20210826_0021_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 496,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 496,
+        "word_size": 111,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름# 입니다 무엇을 도와 드릴까요\nB.육만구천원 짜리 상품을 앱으로 결제하려고 하는데 가격이 이상해요\nA.상품명이나 상품번호 말씀해 주세요\nB.잠시만요 지금 보고있는데 이거네요 #@상품#요\nA.말씀 하신 제품이 #@상품# 이신데 어떤게 이상하나요\nB.앱으로 구매하면 육만구천원인데 결제하려고 보니 도로 칠만천원이에요\nA.혹시 결제 수단 #@소속# 선택해주셨나요\nA.#@소속#는 적용 안 되시고 일반 다른 결제 수단 이용해 주셔야 돼요\nB.일반 다른 수단 어떤 게 있죠\nA.결제 들어가서 즉시 결제 쪽으로 넘어가시면 되세요\nB.즉시 결제로 해야 돼요 그러면 처음부터 다시 해야 되나요\nB.혹시 전화상으로는 안되는 거에요\nA.전화상으로는 앱 구매가로 구매가 안됩니다\nB.그럼 #@기타#로 들어가지 말고 그냥 일반으로 들어가요\nA.앱으로 들어가셨다면은 #@소속# 구매 옆에 주황색으로 간편 구매있습니다\nB.간편 구매로 하면 되는군요 감사합니다.\nA.감사합니다 그럼 즐거운 쇼핑 하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름# 입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름# 입니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.육만구천원 짜리 상품을 앱으로 결제하려고 하는데 가격이 이상해요",
+            "norm_text": "B.육만구천원 짜리 상품을 앱으로 결제하려고 하는데 가격이 이상해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+육만/NR+구천/NR+원/NNBC+짜리/XSN+상품/NNG+을/JKO+앱/NNG+으로/JKB+결제/NNG+하/XSV+려고/EC+하/VV+는데/EC+가격/NNG+이/JKS+이상/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.상품명이나 상품번호 말씀해 주세요",
+            "norm_text": "A.상품명이나 상품번호 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+상품명/NNG+이나/JC+상품/NNG+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.잠시만요 지금 보고있는데 이거네요 #@상품#요",
+            "norm_text": "B.잠시만요 지금 보고있는데 이거네요 #@상품#요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+잠시/NNG+만/JX+요/JX+지금/MAG+보/VV+고/EC+있/VX+는데/EC+이거/NP+네/XSN+요/JX+#/SY+@/SY+상품/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.말씀 하신 제품이 #@상품# 이신데 어떤게 이상하나요",
+            "norm_text": "A.말씀 하신 제품이 #@상품# 이신데 어떤게 이상하나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+말씀/NNG+하/XSV+신/EP+ETM+제품/NNG+이/JKS+#/SY+@/SY+상품/NNG+#/SY+이/VCP+신데/EP+EC+어떤/MM+게/NNB+JKS+이상/NNG+하/XSV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.앱으로 구매하면 육만구천원인데 결제하려고 보니 도로 칠만천원이에요",
+            "norm_text": "B.앱으로 구매하면 육만구천원인데 결제하려고 보니 도로 칠만천원이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+앱/NNG+으로/JKB+구매/NNG+하/XSV+면/EC+육만/NR+구천/NR+원/NNBC+인데/VCP+EC+결제/NNG+하/XSV+려고/EC+보/VX+니/EC+도로/NNG+칠만/NR+천/NR+원/NNBC+이/VCP+에요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.혹시 결제 수단 #@소속# 선택해주셨나요",
+            "norm_text": "A.혹시 결제 수단 #@소속# 선택해주셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+결제/NNG+수단/NNG+#/SY+@/SY+소속/NNG+#/SY+선택/NNG+해/XSV+EC+주/VX+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.#@소속#는 적용 안 되시고 일반 다른 결제 수단 이용해 주셔야 돼요",
+            "norm_text": "A.#@소속#는 적용 안 되시고 일반 다른 결제 수단 이용해 주셔야 돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+는/JX+적용/NNG+안/MAG+되/VV+시/EP+고/EC+일반/NNG+다른/MM+결제/NNG+수단/NNG+이용/NNG+해/XSV+EC+주/VX+셔야/EP+EC+돼요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.일반 다른 수단 어떤 게 있죠",
+            "norm_text": "B.일반 다른 수단 어떤 게 있죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+일반/NNG+다른/MM+수단/NNG+어떤/MM+게/NNB+JKS+있/VA+죠/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.결제 들어가서 즉시 결제 쪽으로 넘어가시면 되세요",
+            "norm_text": "A.결제 들어가서 즉시 결제 쪽으로 넘어가시면 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+결제/NNG+들어가/VV+서/EC+즉시/MAG+결제/NNG+쪽/NNB+으로/JKB+넘어가/VV+시/EP+면/EC+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.즉시 결제로 해야 돼요 그러면 처음부터 다시 해야 되나요",
+            "norm_text": "B.즉시 결제로 해야 돼요 그러면 처음부터 다시 해야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+즉시/MAG+결제/NNG+로/JKB+해야/VV+EC+돼요/VV+EF+그러면/MAJ+처음/NNG+부터/JX+다시/MAG+해야/VV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.혹시 전화상으로는 안되는 거에요",
+            "norm_text": "B.혹시 전화상으로는 안되는 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+혹시/MAG+전화/NNG+상/XSN+으로/JKB+는/JX+안/MAG+되/VV+는/ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.전화상으로는 앱 구매가로 구매가 안됩니다",
+            "norm_text": "A.전화상으로는 앱 구매가로 구매가 안됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+전화/NNG+상/XSN+으로/JKB+는/JX+앱/NNG+구매/NNG+가로/NNG+구매/NNG+가/JKS+안/MAG+됩니다/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.그럼 #@기타#로 들어가지 말고 그냥 일반으로 들어가요",
+            "norm_text": "B.그럼 #@기타#로 들어가지 말고 그냥 일반으로 들어가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+#/SY+@/SY+기타/NNG+#/SY+로/JKB+들어가/VV+지/EC+말/VX+고/EC+그냥/MAG+일반/NNG+으로/JKB+들어가/VV+요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.앱으로 들어가셨다면은 #@소속# 구매 옆에 주황색으로 간편 구매있습니다",
+            "norm_text": "A.앱으로 들어가시면 #@소속# 구매 옆에 주황색으로 간편 구매있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+앱/NNG+으로/JKB+들어가/VV+셨/EP+EP+다면은/EC+#/SY+@/SY+소속/NNG+#/SY+구매/NNG+옆/NNG+에/JKB+주황색/NNG+으로/JKB+간편/XR+구매/NNG+있/VA+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.간편 구매로 하면 되는군요 감사합니다.",
+            "norm_text": "B.간편 구매로 하면 되는군요 감사합니다.",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+간편/XR+구매/NNG+로/JKB+하/VV+면/EC+되/VV+는군요/EC+감사/NNG+합니다/XSV+EF"
+          },
+          {
+            "id": 17,
+            "text": "A.감사합니다 그럼 즐거운 쇼핑 하세요",
+            "norm_text": "A.감사합니다 그럼 즐거운 쇼핑 하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+그럼/MAJ+즐거운/VA+ETM+쇼핑/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

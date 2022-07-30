@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 48773,
+    "name": "c4_20211015_0012_0014_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt202110081312410496106/c4_20211015_0012_0014_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt202110081312410496106/c4_20211015_0012_0014_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57947,
+      "filename": "c4_20211029_0017_0005_01.txt",
+      "title": "c4_20211029_0017_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 296,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 296,
+        "word_size": 60,
+        "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다\nB.저희 가게 앞에 교통신호제거기 때문에 전화드렸어요\nA.선생님 어떤 문의이신가요\nB.가게가 있는 상가 앞에 바로 교통신호제어기가 있어서요\nB.영업권이 지장받고 있어요\nA.불편을 드려 죄송합니다\nA.다른 애로사항이 또 있나요\nB.해당 신호기 밑에 시민들이 쓰레기도 무단투리도 해요\nA.교통신호제어기는 #@소속#에서 관리하고 있어서요\nA.협의하여 우선 순위에 따라서요\nA.슬립형 교통신호제어기로 교체할 계획입니다\nB.언제 되는 지는 모르나요\nA.정확한 시행일은 안내하기가 어렵습니다\nB.빨리 좀 처리해주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저희 가게 앞에 교통신호제거기 때문에 전화드렸어요",
+            "norm_text": "B.저희 가게 앞에 교통신호제거기 때문에 전화드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+가/VV+게/EC+앞/NNG+에/JKB+교통/NNG+신호/NNG+제/XSN+거기/NP+때문/NNB+에/JKB+전화/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.선생님 어떤 문의이신가요",
+            "norm_text": "A.선생님 어떤 문의이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+어떤/MM+문의/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.가게가 있는 상가 앞에 바로 교통신호제어기가 있어서요",
+            "norm_text": "B.가게가 있는 상가 앞에 바로 교통신호제어기가 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+가게/NNG+가/JKS+있/VA+는/ETM+상가/NNG+앞/NNG+에/JKB+바로/MAG+교통/NNG+신호/NNG+제어기/NNG+가/JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.영업권이 지장받고 있어요",
+            "norm_text": "B.영업권이 지장받고 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+영업권/NNG+이/JKS+지장/NNG+받/VV+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.불편을 드려 죄송합니다",
+            "norm_text": "A.불편을 드려 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+불편/NNG+을/JKO+드려/VV+EC+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.다른 애로사항이 또 있나요",
+            "norm_text": "A.다른 애로사항이 또 있나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+애/NNG+로/JKB+사항/NNG+이/JKS+또/MAG+있/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.해당 신호기 밑에 시민들이 쓰레기도 무단투리도 해요",
+            "norm_text": "B.해당 신호기 밑에 시민들이 쓰레기도 무단투리도 해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+해당/NNG+신호기/NNG+밑/NNG+에/JKB+시민/NNG+들/XSN+이/JKS+쓰레기/NNG+도/JX+무단/NNG+투리/NNG+도/JX+해요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.교통신호제어기는 #@소속#에서 관리하고 있어서요",
+            "norm_text": "A.교통신호제어기는 #@소속#에서 관리하고 있어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+교통/NNG+신호/NNG+제어기/NNG+는/JX+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+관리/NNG+하/XSV+고/EC+있/VX+어서요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.협의하여 우선 순위에 따라서요",
+            "norm_text": "A.협의하여 우선 순위에 따라서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+협의/NNG+하/XSV+여/EC+우선/MAG+순위/NNG+에/JKB+따라서/VV+EC+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.슬립형 교통신호제어기로 교체할 계획입니다",
+            "norm_text": "A.슬립형 교통신호제어기로 교체할 계획입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+슬립/NNG+형/XSN+교통/NNG+신호/NNG+제어기/NNG+로/JKB+교체/NNG+할/XSV+ETM+계획/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.언제 되는 지는 모르나요",
+            "norm_text": "B.언제 되는 지는 모르나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+언제/MAG+되/VV+는지/EC+는/JX+모르/VV+나요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.정확한 시행일은 안내하기가 어렵습니다",
+            "norm_text": "A.정확한 시행일은 안내하기가 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+정확/NNG+한/XSA+ETM+시행/NNG+일/NNG+은/JX+안내/NNG+하/XSV+기/ETN+가/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.빨리 좀 처리해주세요",
+            "norm_text": "B.빨리 좀 처리해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+빨리/MAG+좀/MAG+처리/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

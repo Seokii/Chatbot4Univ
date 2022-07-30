@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 60190,
+    "name": "s1_20211021_0002_0021_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151259060731/s1_20211021_0002_0021_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151259060731/s1_20211021_0002_0021_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 9173,
+      "filename": "s1_20210827_0022_0009_01.txt",
+      "title": "s1_20210827_0022_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 393,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 393,
+        "word_size": 94,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.안녕하세요 뭐 좀 문의 드리겠습니다\nA.네 고객님 말씀하세요\nB.카카오페인가 뭔가 그거 개설해야한다고 해서 전화드렸는데요\nA.네 카카오페이 말씀하시는거세요\nB.네 그걸로 주문하는게 간편한데 제가 많이 사용해본 적이 없어서요\nB.전화 주문도 되는 건가요\nA.전화 주문됩니다 고객님 어느 상품 보셨을까요\nA.네 고객님 여보세요 들리지 않습니다 여보세요\nB.#@상품# 라고 블랙 마스크있죠\nA.네 #@상품# 블랙 마스크 보셨나요\nA.해당 상품 옵션이 육십 매 있고 백 이십 매 있는데\nA.어느 색상 어느 매로 주문 도와드리면 될까요\nB.제가 그렇게 많이는 필요 없어서 한 육십 매 정도로 부탁드려요\nA.네 육십 매 짜리로 구매 도와드릴까요\nB.네 고객님 육십 매 짜리로 구매 도와드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 뭐 좀 문의 드리겠습니다",
+            "norm_text": "B.안녕하세요 뭐 좀 문의 드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+뭐/IC+좀/MAG+문/NNG+의/JKG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀하세요",
+            "norm_text": "A.네 고객님 말씀하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.카카오페인가 뭔가 그거 개설해야한다고 해서 전화드렸는데요",
+            "norm_text": "B.카카오페인가 뭔가 그거 개설해야한다고 해서 전화드렸는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+카카/NNP+오페/NNP+인가/VCP+EC+뭔가/NP+VCP+EC+그거/NP+개설/NNG+해야/XSV+EC+한다고/VX+EC+해서/VV+EC+전화/NNG+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 카카오페이 말씀하시는거세요",
+            "norm_text": "A.네 카카오페이 말씀하시는거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+카카오/NNP+페이/NNP+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 그걸로 주문하는게 간편한데 제가 많이 사용해본 적이 없어서요",
+            "norm_text": "B.네 그걸로 주문하는게 간편한데 제가 많이 사용해본 적이 없어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+그걸로/NP+JKB+주문/NNG+하/XSV+는/ETM+게/NNB+JKS+간편/XR+한데/XSA+EC+제/NP+가/JKS+많이/MAG+사용/NNG+해/XSV+EC+본/VX+ETM+적/NNB+이/JKS+없/VA+어서요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.전화 주문도 되는 건가요",
+            "norm_text": "B.전화 주문도 되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+전화/NNG+주문도/NNG+되/XSV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.전화 주문됩니다 고객님 어느 상품 보셨을까요",
+            "norm_text": "A.전화 주문됩니다 고객님 어느 상품 보셨을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주문/NNG+됩니다/XSV+EC+고객/NNG+님/XSN+어느/MM+상품/NNG+보/VV+셨/EP+EP+을까요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 고객님 여보세요 들리지 않습니다 여보세요",
+            "norm_text": "A.네 고객님 여보세요 들리지 않습니다 여보세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+여보세요/IC+들리/VV+지/EC+않/VX+습니다/EF+여보세요/IC"
+          },
+          {
+            "id": 10,
+            "text": "B.#@상품# 라고 블랙 마스크있죠",
+            "norm_text": "B.#@상품# 라고 블랙 마스크있죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+라고/JKQ+블랙/NNG+마스크/NNG+있/VA+죠/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 #@상품# 블랙 마스크 보셨나요",
+            "norm_text": "A.네 #@상품# 블랙 마스크 보셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+블랙/NNG+마스크/NNG+보/VV+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.해당 상품 옵션이 육십 매 있고 백 이십 매 있는데",
+            "norm_text": "A.해당 상품 옵션이 육십 매 있고 백 이십 매 있는데",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+상품/NNG+옵션/NNG+이/JKS+육/NR+십/NR+매/NNBC+있/VV+고/EC+백/NR+이/NR+십/NR+매/NNBC+있/VV+는데/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.어느 색상 어느 매로 주문 도와드리면 될까요",
+            "norm_text": "A.어느 색상 어느 매로 주문 도와드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어느/MM+색상/NNG+어느/MM+매/NNG+로/JKB+주문/NNG+도와/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.제가 그렇게 많이는 필요 없어서 한 육십 매 정도로 부탁드려요",
+            "norm_text": "B.제가 그렇게 많이는 필요 없어서 한 육십 매 정도로 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+제/NP+가/JKS+그렇게/MAG+많이/MAG+는/JX+필요/NNG+없/VA+어서/EC+한/MM+육/NR+십/NR+매/NNBC+정도/NNG+로/JKB+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네 육십 매 짜리로 구매 도와드릴까요",
+            "norm_text": "A.네 육십 매 짜리로 구매 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+육/NR+십/NR+매/NNBC+짜리/XSN+로/JKB+구매/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 고객님 육십 매 짜리로 구매 도와드리겠습니다",
+            "norm_text": "B.네 고객님 육십 매 짜리로 구매 도와드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+고객/NNG+님/XSN+육/NR+십/NR+매/NNBC+짜리/XSN+로/JKB+구매/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 12659,
+    "name": "c1_20210913_0005_0735_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339052431/c1_20210913_0005_0735_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339052431/c1_20210913_0005_0735_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10433,
+      "filename": "c1_20210818_0001_0005_01.txt",
+      "title": "c1_20210818_0001_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 304,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 304,
+        "word_size": 66,
+        "text": "A.반갑습니다 #@소속#  #@이름#입니다 무엇을 도와드릴까요\nB.저기 #@소속# 연결해주세요\nA.네 실례지만 현재 업무 시간이 종료되어 연결이 지연될 수 있습니다\nB.아니에요 연결해봐요\nB.직원 있을 거예요\nA.네 그럼 바로 연결해드리겠습니다\nA.실례지만 어디시라고 전달해드릴까요\nB.일단 저 약속있는 사람인데요\nB.지금 전화 통화가 안 돼가지고 그래요\nA.네 알겠습니다 바로 연결하겠습니다\nA.죄송하지만 현재 연결이 지연되고 있습니다\nA.잠시만 기다려주시겠습니까\nB.예 다시 좀 해주세요\nB.약속을 잡아놨는데 왜 연락이 안 되지요\nA.네 그럼 다시 연결해드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속#  #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속#  #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저기 #@소속# 연결해주세요",
+            "norm_text": "B.저기 #@소속# 연결해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+저기/NP+#/SY+@/SY+소속/NNG+#/SY+연결/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 실례지만 현재 업무 시간이 종료되어 연결이 지연될 수 있습니다",
+            "norm_text": "A.네 실례지만 현재 업무 시간이 종료되어 연결이 지연될 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+실례/NNG+지만/VCP+EC+현재/MAG+업무/NNG+시간/NNG+이/JKS+종료/NNG+되/XSV+어/EC+연결/NNG+이/JKS+지연/NNG+될/XSV+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.아니에요 연결해봐요",
+            "norm_text": "B.아니에요 연결해봐요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/VCN+에요/EF+연결/NNG+해봐요/XSV+EC+VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.직원 있을 거예요",
+            "norm_text": "B.직원 있을 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+직원/NNG+있/VV+을/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 그럼 바로 연결해드리겠습니다",
+            "norm_text": "A.네 그럼 바로 연결해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+바로/MAG+연결/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.실례지만 어디시라고 전달해드릴까요",
+            "norm_text": "A.실례지만 어디시라고 전달해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+실례/NNG+지만/VCP+EC+어디/NP+시/VCP+EP+라고/EC+전달/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.일단 저 약속있는 사람인데요",
+            "norm_text": "B.일단 저 약속있는 사람인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+일단/MAG+저/MM+약속/NNG+있/VA+는/ETM+사람/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.지금 전화 통화가 안 돼가지고 그래요",
+            "norm_text": "B.지금 전화 통화가 안 돼가지고 그래요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+전화/NNG+통화/NNG+가/JKS+안/MAG+돼/VV+EC+가지/VX+고/EC+그래요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 알겠습니다 바로 연결하겠습니다",
+            "norm_text": "A.네 알겠습니다 바로 연결하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+바로/MAG+연결/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.죄송하지만 현재 연결이 지연되고 있습니다",
+            "norm_text": "A.죄송하지만 현재 연결이 지연되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+현재/MAG+연결/NNG+이/JKS+지연/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.잠시만 기다려주시겠습니까",
+            "norm_text": "A.잠시만 기다려주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 13,
+            "text": "B.예 다시 좀 해주세요",
+            "norm_text": "B.예 다시 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+다시/MAG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.약속을 잡아놨는데 왜 연락이 안 되지요",
+            "norm_text": "B.약속을 잡아놨는데 왜 연락이 안 되지요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+약속/NNG+을/JKO+잡/VV+아/EC+놨는데/VX+EP+EF+왜/MAG+연락/NNG+이/JKS+안/MAG+되/VV+지요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네 그럼 다시 연결해드리겠습니다",
+            "norm_text": "A.네 그럼 다시 연결해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+다시/MAG+연결/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

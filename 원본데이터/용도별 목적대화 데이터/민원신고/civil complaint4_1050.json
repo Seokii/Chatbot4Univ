@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 45620,
+    "name": "c4_20211014_0001_1666_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706072587/c4_20211014_0001_1666_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706072587/c4_20211014_0001_1666_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50387,
+      "filename": "c4_20210906_0027_0017_01.txt",
+      "title": "c4_20210906_0027_0017_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 265,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 265,
+        "word_size": 59,
+        "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.#@주소# 쪽 도로에 돌 좀 치워주세요\nA.우선 구정에 관심을 가지고 교통 환경 개선에 적극 참여해 주셔서 감사합니다\nA.차량 통행에 불편함이 최소화 되도록 노력을 다해 나가겠습니다\nB.네 감사합니다 도로가 위험해서요\nA.네 현장 확인 하에 실시하도록 하겠습니다\nB.네 빠른 접수 감사합니다\nA.신고사항이나 기타 문의 사항이 있을 경우 남구청 교통 행정과로 연락바랍니다\nA.감사합니다 민원인 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.#@주소# 쪽 도로에 돌 좀 치워주세요",
+            "norm_text": "B.#@주소# 쪽 도로에 돌 좀 치워주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+쪽/NNB+도로/NNG+에/JKB+돌/NNG+좀/MAG+치워/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.우선 구정에 관심을 가지고 교통 환경 개선에 적극 참여해 주셔서 감사합니다",
+            "norm_text": "A.우선 구정에 관심을 가지고 교통 환경 개선에 적극 참여해 주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+우선/MAG+구정/NNG+에/JKB+관심/NNG+을/JKO+가지/VV+고/EC+교통/NNG+환경/NNG+개선/NNG+에/JKB+적극/NNG+참여/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.차량 통행에 불편함이 최소화 되도록 노력을 다해 나가겠습니다",
+            "norm_text": "A.차량 통행에 불편함이 최소화 되도록 노력을 다해 나가겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+차량/NNG+통행/NNG+에/JKB+불편/NNG+함/XSV+ETN+이/JKS+최소/NNG+화/XSN+되/XSV+도록/EC+노력/NNG+을/JKO+다/MAG+해/VV+EC+나가/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 감사합니다 도로가 위험해서요",
+            "norm_text": "B.네 감사합니다 도로가 위험해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+도로/NNG+가/JKS+위험/NNG+해서/XSV+EC+VCP+VCP+요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 현장 확인 하에 실시하도록 하겠습니다",
+            "norm_text": "A.네 현장 확인 하에 실시하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+현장/NNG+확인/NNG+하/XSN+에/JKB+실시/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 빠른 접수 감사합니다",
+            "norm_text": "B.네 빠른 접수 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+빠른/VA+ETM+접수/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.신고사항이나 기타 문의 사항이 있을 경우 남구청 교통 행정과로 연락바랍니다",
+            "norm_text": "A.신고사항이나 기타 문의 사항이 있을 경우 남구청 교통 행정과로 연락바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+신고/NNG+사항/NNG+이나/JC+기타/NNG+문/NNG+의/JKG+사항/NNG+이/JKS+있/VV+을/ETM+경우/NNG+남/NNG+구청/NNG+교통/NNG+행정과/NNG+로/JKB+연락/NNG+바랍니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.감사합니다 민원인 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 민원인 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

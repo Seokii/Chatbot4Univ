@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 123058,
+    "name": "s3_20211008_0006_0033_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111011049547/s3_20211008_0006_0033_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111011049547/s3_20211008_0006_0033_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 122495,
+      "filename": "s3_20211001_0017_0001_01.txt",
+      "title": "s3_20211001_0017_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 243,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 243,
+        "word_size": 57,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.#@소속#에서 지금 오늘 배송 제품을 구매했는데요\nB.취소를 하고 싶어요\nA.고객님 정보 확인 후 도와드리겠습니다\nA.주문자 연락처와 성함 말씀해 주세요\nB.제 이름은 #@이름# 이고요\nB.제 전화번호는 #@전번# 이에요\nA.확인해 보니 주문을 금일 열 시 전에 하셨죠\nA.오늘 배송 상품의 경우 열시 오십 분까지만 취소가 됩니다\nA.현재 오후 한 시여서 취소가 어렵습니다\nB.그렇군요 확인 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속#에서 지금 오늘 배송 제품을 구매했는데요",
+            "norm_text": "B.#@소속#에서 지금 오늘 배송 제품을 구매했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+지금/MAG+오늘/MAG+배송/NNG+제품/NNG+을/JKO+구매/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.취소를 하고 싶어요",
+            "norm_text": "B.취소를 하고 싶어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+취소/NNG+를/JKO+하/VV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.고객님 정보 확인 후 도와드리겠습니다",
+            "norm_text": "A.고객님 정보 확인 후 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+정보/NNG+확인/NNG+후/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.주문자 연락처와 성함 말씀해 주세요",
+            "norm_text": "A.주문자 연락처와 성함 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+주문자/NNG+연락처/NNG+와/JC+성함/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.제 이름은 #@이름# 이고요",
+            "norm_text": "B.제 이름은 #@이름# 이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.제 전화번호는 #@전번# 이에요",
+            "norm_text": "B.제 전화번호는 #@전번# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.확인해 보니 주문을 금일 열 시 전에 하셨죠",
+            "norm_text": "A.확인해 보니 주문을 금일 열 시 전에 하셨죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+해/XSV+EC+보/VX+니/EC+주문/NNG+을/JKO+금일/NNG+열/NR+시/NNBC+전/NNG+에/JKB+하/VV+셨/EP+EP+죠/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.오늘 배송 상품의 경우 열시 오십 분까지만 취소가 됩니다",
+            "norm_text": "A.오늘 배송 상품의 경우 열시 오십 분까지만 취소가 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+오늘/MAG+배송/NNG+상품/NNG+의/JKG+경우/NNG+열/NR+시/NNBC+오/NR+십/NR+분/NNBC+까지/JX+만/JX+취소/NNG+가/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.현재 오후 한 시여서 취소가 어렵습니다",
+            "norm_text": "A.현재 오후 한 시여서 취소가 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+현재/MAG+오후/NNG+한/MM+시/NNBC+여서/NR+취소/NNG+가/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그렇군요 확인 감사합니다",
+            "norm_text": "B.그렇군요 확인 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+확인/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

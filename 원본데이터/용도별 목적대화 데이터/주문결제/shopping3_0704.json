@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 16072,
+    "name": "s3_20210914_0010_1052_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151421089170/s3_20210914_0010_1052_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151421089170/s3_20210914_0010_1052_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12357,
+      "filename": "s3_20210831_0030_0006_01.txt",
+      "title": "s3_20210831_0030_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 343,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 343,
+        "word_size": 74,
+        "text": "A.주문 바로 도와드리겠습니다 고객님 성함이랑 연락처 말씀 부탁 드립니다\nB.이름은 #@이름#이고요 연락처는 #@전번#입니다\nA.확인 감사합니다 주소 확인도 부탁 드립니다\nB.제 주소 말씀드릴게요 #@주소#입니다\nA.입금 편하신 은행 어디로 도와드릴까요\nB.예 #@소속#은행으로 해주시면 됩니다\nA.계좌 번호 #@소속#으로 안내해 드려도 되겠습니까\nB.카드 결제 하고 싶은데 어쩌나요\nA.추후 전화 가실 거에요 카드사에서요\nB.알았어요 그건 그렇게 할건데 혹시 상담센터 번호 알려주실 수 있어요\nB.혹시 모르니 알고 싶어서요\nA.문의하실 상담센터 번호는 #@전번#입니다\nB.예 그렇게 알겠습니다 수고하세요\nA.감사합니다 좋은 하루 되십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.주문 바로 도와드리겠습니다 고객님 성함이랑 연락처 말씀 부탁 드립니다",
+            "norm_text": "A.주문 바로 도와드리겠습니다 고객님 성함이랑 연락처 말씀 부탁 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주문/NNG+바로/MAG+도와/VV+EC+드리/VX+겠/EP+습니다/EF+고객/NNG+님/XSN+성함/NNG+이랑/JKB+연락처/NNG+말씀/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.이름은 #@이름#이고요 연락처는 #@전번#입니다",
+            "norm_text": "B.이름은 #@이름#이고요 연락처는 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.확인 감사합니다 주소 확인도 부탁 드립니다",
+            "norm_text": "A.확인 감사합니다 주소 확인도 부탁 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+합니다/XSV+EF+주소/NNG+확인/NNG+도/JX+부탁드립니다/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.제 주소 말씀드릴게요 #@주소#입니다",
+            "norm_text": "B.제 주소 말씀드릴게요 #@주소#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+주소/NNG+말씀/NNG+드릴게요/VV+EC+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.입금 편하신 은행 어디로 도와드릴까요",
+            "norm_text": "A.입금 편하신 은행 어디로 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+입금/NNG+편하/VA+신/EP+ETM+은행/NNG+어디/NP+로/JKB+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예 #@소속#은행으로 해주시면 됩니다",
+            "norm_text": "B.예 #@소속#은행으로 해주시면 됩니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+소속/NNG+#/SY+은행/NNG+으로/JKB+해/VV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.계좌 번호 #@소속#으로 안내해 드려도 되겠습니까",
+            "norm_text": "A.계좌 번호 #@소속#으로 안내해 드려도 되겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+계좌/NNG+번호/NNG+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+안내/NNG+해/XSV+EC+드려도/VX+EC+되/VV+겠/EP+습니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.카드 결제 하고 싶은데 어쩌나요",
+            "norm_text": "B.카드 결제 하고 싶은데 어쩌나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+카드/NNG+결제/NNG+하/XSV+고/EC+싶/VX+은데/EC+어쩌/VV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.추후 전화 가실 거에요 카드사에서요",
+            "norm_text": "A.추후 전화 가실 거에요 카드사에서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+추후/NNG+전화/NNG+가실/VV+ETM+거/NNB+에요/VCP+EF+카드/NNG+사/NNG+에서/JKB+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "B.알았어요 그건 그렇게 할건데 혹시 상담센터 번호 알려주실 수 있어요",
+            "norm_text": "B.알았어요 그건 그렇게 할건데 혹시 상담센터 번호 알려주실 수 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+알/VV+았/EP+어요/EF+그건/NP+JX+그렇/VA+게/EC+할/VX+ETM+건데/NNB+VCP+EC+혹시/MAG+상담/NNG+센터/NNG+번호/NNG+알려/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.혹시 모르니 알고 싶어서요",
+            "norm_text": "B.혹시 모르니 알고 싶어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+혹시/MAG+모르/VV+니/EC+알/VV+고/EC+싶/VX+어서요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.문의하실 상담센터 번호는 #@전번#입니다",
+            "norm_text": "A.문의하실 상담센터 번호는 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+문의/NNG+하/XSV+실/EP+ETM+상담/NNG+센터/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.예 그렇게 알겠습니다 수고하세요",
+            "norm_text": "B.예 그렇게 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+그렇게/MAG+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.감사합니다 좋은 하루 되십시오",
+            "norm_text": "A.감사합니다 좋은 하루 되십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+되/XSV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 110866,
+    "name": "c4_20211104_0045_0306_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135244086838/c4_20211104_0045_0306_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135244086838/c4_20211104_0045_0306_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 20167,
+      "filename": "c4_20210902_0009_0019_01.txt",
+      "title": "c4_20210902_0009_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-10",
+      "size": 303,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 303,
+        "word_size": 64,
+        "text": "A.안녕하세요 #@소속#에서 전화 받은 상담원 #@이름#입니다\nB.예 수고하십니다 #@주소# 버스 시간표가 바뀐 것 같은데요\nA.#@주소# 버스 시간표 말씀이십니까\nB.네 확인 좀 부탁드립니다\nA.네 잠시만요 확인해보겠습니다\nB.네 기다리도록 하겠습니다\nA.확인 결과 시내버스 노선이 전면 개편된 것으로 보입니다\nA.노선 중 불합리하고 중복된 노선은 조정하였다고 나오는데요\nB.어쩐지 타던 버스가 정시에 오지를 않아서요\nA.네 불편하셨겠습니다 시간표가 바뀌어 다시 확인해보셔야 할 것 같습니다\nB.네 알았습니다 감사합니다\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#에서 전화 받은 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#에서 전화 받은 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+전화/NNG+받/VV+은/ETM+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고하십니다 #@주소# 버스 시간표가 바뀐 것 같은데요",
+            "norm_text": "B.예 수고하십니다 #@주소# 버스 시간표가 바뀐 것 같은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+하/XSV+십니다/EP+EF+#/SY+@/SY+주소/NNG+#/SY+버스/NNG+시간표/NNG+가/JKS+바뀐/VV+ETM+것/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.#@주소# 버스 시간표 말씀이십니까",
+            "norm_text": "A.#@주소# 버스 시간표 말씀이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+버스/NNG+시간표/NNG+말씀/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 확인 좀 부탁드립니다",
+            "norm_text": "B.네 확인 좀 부탁드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+좀/MAG+부탁드립니다/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 잠시만요 확인해보겠습니다",
+            "norm_text": "A.네 잠시만요 확인해보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+잠시/MAG+만요/NNP+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 기다리도록 하겠습니다",
+            "norm_text": "B.네 기다리도록 하겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+기다리/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.확인 결과 시내버스 노선이 전면 개편된 것으로 보입니다",
+            "norm_text": "A.확인 결과 시내버스 노선이 전면 개편된 것으로 보입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+확인/NNG+결과/NNG+시내버스/NNG+노선/NNG+이/JKS+전면/NNG+개편/NNG+된/XSV+ETM+것/NNB+으로/JKB+보입니다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.노선 중 불합리하고 중복된 노선은 조정하였다고 나오는데요",
+            "norm_text": "A.노선 중 불합리하고 중복된 노선은 조정하였다고 나오는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+노선/NNG+중/NNB+불/XPN+합리/XR+하/XSA+고/EC+중복/NNG+된/XSV+ETM+노선/NNG+은/JX+조정/NNG+하/XSV+였/EP+다고/EC+나오/VV+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.어쩐지 타던 버스가 정시에 오지를 않아서요",
+            "norm_text": "B.어쩐지 타던 버스가 정시에 오지를 않아서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+어쩐지/MAG+타/VV+던/ETM+버스/NNG+가/JKS+정시/NNG+에/JKB+오지/NNG+를/JKO+않/VV+아서요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 불편하셨겠습니다 시간표가 바뀌어 다시 확인해보셔야 할 것 같습니다",
+            "norm_text": "A.네 불편하셨겠습니다 시간표가 바뀌어 다시 확인해보셔야 할 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+네/IC+불편/NNG+하/XSV+셨/EP+EP+겠/EP+습니다/EF+시간표/NNG+가/JKS+바뀌/VV+어/EC+다시/MAG+확인/NNG+해/XSV+EC+보/VX+셔야/EP+EC+할/VX+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 알았습니다 감사합니다",
+            "norm_text": "B.네 알았습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+았/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

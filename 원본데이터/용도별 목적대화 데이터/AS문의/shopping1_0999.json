@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 14637,
+    "name": "s1_20210914_0001_0601_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151219056932/s1_20210914_0001_0601_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151219056932/s1_20210914_0001_0601_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7866,
+      "filename": "s1_20210824_0004_0010_01.txt",
+      "title": "s1_20210824_0004_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 394,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 394,
+        "word_size": 97,
+        "text": "A.예 반갑습니다 상담사 #@이름# 입니다\nB.예 지금 냉동실 맨 밑에 칸 뚜껑이 부러져서 그러는데요\nB.어떻게 살 수 있나 싶어서 전화 드렸어요\nA.예 고객님 이 건은 택배는 안 되시고요\nA.고객님께서 직접 그 센터에 방문하셔서 구매하시면 되시는데요\nA.혹시 모델 번호가 어떻게 되십니까\nB.모델 번호가 #@상품# 입니다\nA.예 #@상품#이시고요 구매하신 지는 얼마나 되셨습니까\nB.모르겠어요 한 육칠 년 됐나 칠 년 모르겠네\nA.예 칠 년 되셨고요 냉동실 맨 밑에 칸이요\nB.맨 밑에 칸 뚜껑이 잘라졌어\nA.네 그럼 구매 가능하십니다 지역이 어느 쪽이십니까\nB.여기 #@주소#이요 #@주소# 근데 얼만데요\nA.네 확인해 안내해 드리겠습니다 잠시만 기다려 주시겠습니까\nA.고객님 확인하는데 시간이 걸려서요 다시 전화 드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.예 반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.예 반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+예/IC+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 지금 냉동실 맨 밑에 칸 뚜껑이 부러져서 그러는데요",
+            "norm_text": "B.예 지금 냉동실 맨 밑에 칸 뚜껑이 부러져서 그러는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+지금/MAG+냉동실/NNG+맨/MM+밑/NNG+에/JKB+칸/VV+ETM+뚜껑/NNG+이/JKS+부러져서/VV+EC+그러/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.어떻게 살 수 있나 싶어서 전화 드렸어요",
+            "norm_text": "B.어떻게 살 수 있나 싶어서 전화 드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+어떻게/MAG+살/VV+ETM+수/NNB+있/VV+나/EC+싶/VX+어서/EC+전화/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.예 고객님 이 건은 택배는 안 되시고요",
+            "norm_text": "A.예 고객님 이 건은 택배는 안 되시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+이건/NP+JX+은/JX+택배/NNG+는/JX+안/MAG+되/VV+시/EP+고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님께서 직접 그 센터에 방문하셔서 구매하시면 되시는데요",
+            "norm_text": "A.고객님께서 직접 그 센터에 방문하셔서 구매하시면 되시는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+께서/JKS+직접/MAG+그/MM+센터/NNG+에/JKB+방문/NNG+하/XSV+셔서/EP+EC+구매/NNG+하/XSV+시/EP+면/EC+되/VV+시/EP+는데요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.혹시 모델 번호가 어떻게 되십니까",
+            "norm_text": "A.혹시 모델 번호가 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+모델/NNG+번호/NNG+가/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.모델 번호가 #@상품# 입니다",
+            "norm_text": "B.모델 번호가 #@상품# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+모델/NNG+번호/NNG+가/JKS+#/SY+@/SY+상품/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.예 #@상품#이시고요 구매하신 지는 얼마나 되셨습니까",
+            "norm_text": "A.예 #@상품#이시고요 구매하신 지는 얼마나 되셨습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+#/SY+@/SY+상품/NNG+#/SY+이/VCP+시/EP+고요/EC+구매/NNG+하/XSV+신지/EP+EC+는/JX+얼마나/MAG+되/VV+셨/EP+EP+습니까/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.모르겠어요 한 육칠 년 됐나 칠 년 모르겠네",
+            "norm_text": "B.모르겠어요 한 육칠 년 됐나 칠 년 모르겠네",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+모르/VV+겠/EP+어요/EF+한/MM+육/NR+칠/NR+년/NNBC+됐/VV+EP+나/EF+칠/NR+년/NNBC+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.예 칠 년 되셨고요 냉동실 맨 밑에 칸이요",
+            "norm_text": "A.예 칠 년 되셨고요 냉동실 맨 밑에 칸이요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+칠/NR+년/NNBC+되/VV+셨/EP+EP+고요/EC+냉동실/NNG+맨/MM+밑/NNG+에/JKB+칸/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.맨 밑에 칸 뚜껑이 잘라졌어",
+            "norm_text": "B.맨 밑에 칸 뚜껑이 잘라졌어",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맨/MM+밑/NNG+에/JKB+칸/VV+ETM+뚜껑/NNG+이/JKS+잘라졌/VV+EC+VX+EP+어/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 그럼 구매 가능하십니다 지역이 어느 쪽이십니까",
+            "norm_text": "A.네 그럼 구매 가능하십니다 지역이 어느 쪽이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+구매/NNG+가능/NNG+하/XSV+십니다/EP+EF+지역/NNG+이/JKS+어느/MM+쪽/NNB+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.여기 #@주소#이요 #@주소# 근데 얼만데요",
+            "norm_text": "B.여기 #@주소#이요 #@주소# 근데 얼만데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여기/NP+#/SY+@/SY+주소/NNG+#/SY+이/VCP+요/EC+#/SY+@/SY+주소/NNG+#/SY+근데/MAJ+얼만데요/NNG+VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.네 확인해 안내해 드리겠습니다 잠시만 기다려 주시겠습니까",
+            "norm_text": "A.네 확인해 안내해 드리겠습니다 잠시만 기다려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+해/XSV+EC+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.고객님 확인하는데 시간이 걸려서요 다시 전화 드리겠습니다",
+            "norm_text": "A.고객님 확인하는데 시간이 걸려서요 다시 전화 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+확인/NNG+하/XSV+는/ETM+데/NNB+시간/NNG+이/JKS+걸려서/VV+EC+요/JX+다시/MAG+전화/NNG+드리/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

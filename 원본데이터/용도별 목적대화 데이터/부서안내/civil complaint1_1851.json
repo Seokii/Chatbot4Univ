@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 12070,
+    "name": "c1_20210913_0005_0615_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340035371/c1_20210913_0005_0615_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340035371/c1_20210913_0005_0615_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10554,
+      "filename": "c1_20210819_0006_0006_01.txt",
+      "title": "c1_20210819_0006_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 233,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 233,
+        "word_size": 49,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.예 #@소속# 있나요\nA.#@소속# 전화 번호 확인 후 안내해드리겠습니다\nA.잠시만 기다려주시겠습니까 선생님\nA.#@소속#에 #@소속# 운영 담당자가 있습니다\nB.네 그럼 거기 운영 담당자랑 연결해주세요\nA.혹시 실례지만 연결 시 어떤 업무라고 전달해 드리면 될까요\nB.예 지금 여기가 군이거든요\nB.군관 협조할 사항이 있어 가지고요\nA.#@소속#에 바로 연결하겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 #@소속# 있나요",
+            "norm_text": "B.예 #@소속# 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+소속/NNG+#/SY+있/VA+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.#@소속# 전화 번호 확인 후 안내해드리겠습니다",
+            "norm_text": "A.#@소속# 전화 번호 확인 후 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+전화/NNG+번호/NNG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.잠시만 기다려주시겠습니까 선생님",
+            "norm_text": "A.잠시만 기다려주시겠습니까 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 5,
+            "text": "A.#@소속#에 #@소속# 운영 담당자가 있습니다",
+            "norm_text": "A.#@소속#에 #@소속# 운영 담당자가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에/JKB+#/SY+@/SY+소속/NNG+#/SY+운영/NNG+담당자/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 그럼 거기 운영 담당자랑 연결해주세요",
+            "norm_text": "B.네 그럼 거기 운영 담당자랑 연결해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+거기/NP+운영/NNG+담당자/NNG+랑/JKB+연결/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.혹시 실례지만 연결 시 어떤 업무라고 전달해 드리면 될까요",
+            "norm_text": "A.혹시 실례지만 연결 시 어떤 업무라고 전달해 드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+실례/NNG+지만/VCP+EC+연결/NNG+시/NNB+어떤/MM+업무/NNG+라고/VCP+EC+전달/NNG+해/XSV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.예 지금 여기가 군이거든요",
+            "norm_text": "B.예 지금 여기가 군이거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+지금/MAG+여기/NP+가/JKS+군/NNG+이/VCP+거든요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.군관 협조할 사항이 있어 가지고요",
+            "norm_text": "B.군관 협조할 사항이 있어 가지고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+군관/NNG+협조/NNG+할/XSV+ETM+사항/NNG+이/JKS+있/VV+어/EC+가지/VX+고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.#@소속#에 바로 연결하겠습니다",
+            "norm_text": "A.#@소속#에 바로 연결하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에/JKB+바로/MAG+연결/NNG+하/XSV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

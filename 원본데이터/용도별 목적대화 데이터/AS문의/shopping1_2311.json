@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 29896,
+    "name": "s1_20211006_0001_1435_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151213028021/s1_20211006_0001_1435_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151213028021/s1_20211006_0001_1435_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 6974,
+      "filename": "s1_20210820_0016_0006_01.txt",
+      "title": "s1_20210820_0016_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 433,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 433,
+        "word_size": 97,
+        "text": "A.반갑습니다 상담사 #@성명#입니다\nB.다름이 아니라 #@기타#이 고장이 났거든요\nB.이게 지금 냄새가 계속 나요 바로 점화가 안됩니다\nA.그러세요 고객님 불편하셨겠습니다\nA.제품은 구매하셨나요 일 이 년 넘으셨나요 모델명도 알고계십니까 고객님\nB.예 넘었어요 그냥 #@기타# 제일 큰 건데 가만 있어봐요\nB.잠깐만요 제가 옆에 가서 볼게요 이게 모델명이 어디써있을까 #@번호#\nA.네 지금 점화가 아예 안 된다 하셨는데요 고객님\nB.작동하면 씨오 라는 말이떠요 착화불량\nA.그러세요 완전히 껐다켜도 그러신가요 껐다켜도 계속 그러시고요 고객님\nB.예 완전히 껏다켜도 계속 그래요\nA.처리해드리겠습니다 전화번호 몇 번 이십니까\nB.네 제 전화번호는 #@전번# 이에요\nA.확인 하겠습니다 #@전번# 성함이 #@이름# 님이시구요\nA.주소는 강원도 춘천시 #@주소# 맞으세요\nB.네 #@이름# 주소 맞습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@성명#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@성명#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+성명/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.다름이 아니라 #@기타#이 고장이 났거든요",
+            "norm_text": "B.다름이 아니라 #@기타#이 고장이 났거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+다름/VA+ETN+이/JKC+아니/VCN+라/EC+#/SY+@/SY+기타/NNG+#/SY+이/JKS+고장/NNG+이/JKS+났/VV+EP+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.이게 지금 냄새가 계속 나요 바로 점화가 안됩니다",
+            "norm_text": "B.이게 지금 냄새가 계속 나요 바로 점화가 안됩니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이게/NP+JKS+지금/MAG+냄새/NNG+가/JKS+계속/MAG+나/NP+요/JX+바로/MAG+점화/NNG+가/JKS+안/MAG+됩니다/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.그러세요 고객님 불편하셨겠습니다",
+            "norm_text": "A.그러세요 고객님 불편하셨겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+그러/VV+세요/EP+EF+VCP+고/EC+객님/NNG+불편/NNG+하/XSV+셨/EP+EP+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.제품은 구매하셨나요 일 이 년 넘으셨나요 모델명도 알고계십니까 고객님",
+            "norm_text": "A.제품은 구매하셨나요 일 이 년 넘으셨나요 모델명도 알고계십니까 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+제품/NNG+은/JX+구매/NNG+하/XSV+셨/EP+EP+나요/EF+일/NR+이/NR+년/NNBC+넘/VV+으셨/EP+EP+나요/EF+모델/NNG+명/XSN+도/JX+알/VV+고/EC+계십니까/VX+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 6,
+            "text": "B.예 넘었어요 그냥 #@기타# 제일 큰 건데 가만 있어봐요",
+            "norm_text": "B.예 넘었어요 그냥 #@기타# 제일 큰 건데 가만 있어봐요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+넘/VV+었/EP+어요/EF+그냥/MAG+#/SY+@/SY+기타/NNG+#/SY+제일/MAG+큰/VA+ETM+건데/NNB+VCP+EC+가만있/VV+어/EC+봐요/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.잠깐만요 제가 옆에 가서 볼게요 이게 모델명이 어디써있을까 #@번호#",
+            "norm_text": "B.잠깐만요 제가 옆에 가서 볼게요 이게 모델명이 어디써있을까 #@번호#",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+잠깐/MAG+만/JX+요/JX+제/NP+가/JKS+옆/NNG+에/JKB+가/VV+서/EC+볼게요/VX+EF+이게/NP+JKS+모델/NNG+명/NNG+이/JKS+어디/NP+써/VV+EC+있/VX+을까/EC+#/SY+@/SY+번호/NNG+#/SY"
+          },
+          {
+            "id": 8,
+            "text": "A.네 지금 점화가 아예 안 된다 하셨는데요 고객님",
+            "norm_text": "A.네 지금 점화가 아예 안 된다 하셨는데요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+지금/MAG+점화/NNG+가/JKS+아예/MAG+안/MAG+된다/VV+EC+하/VX+셨/EP+EP+는데요/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 9,
+            "text": "B.작동하면 씨오 라는 말이떠요 착화불량",
+            "norm_text": "B.작동하면 씨오 라는 말이떠요 착화불량",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+작동/NNG+하/XSV+면/EC+씨오/NNP+라는/VCP+ETM+말/NNG+이/JKS+떠요/VV+EF+착화/NNG+불량/NNG"
+          },
+          {
+            "id": 10,
+            "text": "A.그러세요 완전히 껐다켜도 그러신가요 껐다켜도 계속 그러시고요 고객님",
+            "norm_text": "A.그러세요 완전히 껐다켜도 그러신가요 껐다켜도 계속 그러시고요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+세요/EP+EF+완전히/MAG+껐/VV+EP+다/EC+켜/VV+도/EC+그러/VV+신가요/EP+EC+껐/VV+EP+다/EC+켜/VV+도/EC+계속/MAG+그러/VV+시/EP+고요/EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 11,
+            "text": "B.예 완전히 껏다켜도 계속 그래요",
+            "norm_text": "B.예 완전히 껏다켜도 계속 그래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+완전히/MAG+껏/NNB+다/MAG+켜/VV+도/EC+계속/MAG+그래요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.처리해드리겠습니다 전화번호 몇 번 이십니까",
+            "norm_text": "A.처리해드리겠습니다 전화번호 몇 번 이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+처리/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+전화/NNG+번호/NNG+몇/MM+번/NNBC+이/NR+십/NR+니까/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.네 제 전화번호는 #@전번# 이에요",
+            "norm_text": "B.네 제 전화번호는 #@전번# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+JKG+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.확인 하겠습니다 #@전번# 성함이 #@이름# 님이시구요",
+            "norm_text": "A.확인 하겠습니다 #@전번# 성함이 #@이름# 님이시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+확인/NNG+하/XSV+겠/EP+습니다/EF+#/SY+@/SY+전번/NNG+#/SY+성함/NNG+이/JKS+#/SY+@/SY+이름/NNG+#/SY+님/XSN+이/VCP+시/EP+구요/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.주소는 강원도 춘천시 #@주소# 맞으세요",
+            "norm_text": "A.주소는 강원도 춘천시 #@주소# 맞으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주소/NNG+는/JX+강원도/NNP+춘천시/NNP+#/SY+@/SY+주소/NNG+#/SY+맞/VV+으세요/EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 #@이름# 주소 맞습니다",
+            "norm_text": "B.네 #@이름# 주소 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+주소/NNG+맞/VV+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

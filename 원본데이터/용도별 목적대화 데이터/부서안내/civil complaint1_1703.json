@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 13539,
+    "name": "c1_20210913_0005_0105_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339005721/c1_20210913_0005_0105_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339005721/c1_20210913_0005_0105_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10363,
+      "filename": "c1_20210818_0002_0010_01.txt",
+      "title": "c1_20210818_0002_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 512,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 512,
+        "word_size": 121,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.예 수고하십니다 제가 부서 이름을 잘 몰라서 그러는데요\nB.장례 문화 관련 부서가 있을까요\nA.실례지만 장례 문화에 대한 어떤 문의이십니까\nB.공동 묘지 같은 데 관장하는 부서가 없을까요\nA.네 장례 문화나 공동 묘지 관련해서는 지역의 시군청으로 문의를 주시면 됩니다\nA.실례지만 공동 묘지가 위치한 지역이 어떻게 될까요\nB.그게 아니라 공동 묘지를 찾으려고 그러는 거예요\nA.그러십니까 공동 묘지를 찾으시는 문의시군요\nB.네 수목장이나 잔디장하는 데가 있는지 물어보니까 홍성군 관내에는 없다고 그러더라고요\nB.그래서 다시 한 번 물어보는 거예요\nA.그럼 제가 담당자 확인 후 안내해 드리겠습니다 잠시만 기다려 주시겠습니까\nB.예 감사합니다 기다리겠습니다\nA.선생님 불편드려 정말 죄송합니다\nA.담당자가 연가로 오후에 출근한다 전달 받았습니다\nB.예 그럼 오후에 전화 다시 드릴게요\nA.네 한 시 이후로 전화를 주시면 좋으실 듯합니다\nB.네 그 때 걸겠습니다\nA.네 선생님 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고하십니다 제가 부서 이름을 잘 몰라서 그러는데요",
+            "norm_text": "B.예 수고하십니다 제가 부서 이름을 잘 몰라서 그러는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+하/XSV+십니다/EP+EF+제/NP+가/JKS+부서/NNG+이름/NNG+을/JKO+잘/MAG+몰라서/VV+EC+그러/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.장례 문화 관련 부서가 있을까요",
+            "norm_text": "B.장례 문화 관련 부서가 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+장례/NNG+문화/NNG+관련/NNG+부서/NNG+가/JKS+있/VA+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.실례지만 장례 문화에 대한 어떤 문의이십니까",
+            "norm_text": "A.실례지만 장례 문화에 대한 어떤 문의이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+실례/NNG+지만/VCP+EC+장례/NNG+문화/NNG+에/JKB+대한/VV+ETM+어떤/MM+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.공동 묘지 같은 데 관장하는 부서가 없을까요",
+            "norm_text": "B.공동 묘지 같은 데 관장하는 부서가 없을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+공동묘지/NNG+같/VA+은데/EC+관장/NNG+하/XSV+는/ETM+부서/NNG+가/JKS+없/VA+을까요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 장례 문화나 공동 묘지 관련해서는 지역의 시군청으로 문의를 주시면 됩니다",
+            "norm_text": "A.네 장례 문화나 공동 묘지 관련해서는 지역의 시군청으로 문의를 주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+장례/NNG+문화/NNG+나/JC+공동묘지/NNG+관련/NNG+해서/XSV+EC+는/JX+지역/NNG+의/JKG+시/NNG+군청/NNG+으로/JKB+문의/NNG+를/JKO+주/VV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.실례지만 공동 묘지가 위치한 지역이 어떻게 될까요",
+            "norm_text": "A.실례지만 공동 묘지가 위치한 지역이 어떻게 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+실례/NNG+지만/VCP+EC+공동묘지/NNG+가/JKS+위치/NNG+한/XSA+ETM+지역/NNG+이/JKS+어떻게/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그게 아니라 공동 묘지를 찾으려고 그러는 거예요",
+            "norm_text": "B.그게 아니라 공동 묘지를 찾으려고 그러는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그게/NP+JKC+아니/VCN+라/EC+공동묘지/NNG+를/JKO+찾/VV+으려고/EC+그러/VV+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.그러십니까 공동 묘지를 찾으시는 문의시군요",
+            "norm_text": "A.그러십니까 공동 묘지를 찾으시는 문의시군요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+십니까/EP+EF+공동묘지/NNG+를/JKO+찾/VV+으시/EP+는/ETM+문/NNG+의/JKG+시군/NNG+요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 수목장이나 잔디장하는 데가 있는지 물어보니까 홍성군 관내에는 없다고 그러더라고요",
+            "norm_text": "B.네 홍성군 관내에는 없다고 그러더라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+홍성군/NNG+관내/NNG+에/JKB+는/JX+없/VA+다고/EC+그러/VV+더라고요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그래서 다시 한 번 물어보는 거예요",
+            "norm_text": "B.그래서 다시 한 번 물어보는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래서/MAJ+다시/MAG+한/MM+번/NNBC+물/VV+어/EC+보/VX+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.그럼 제가 담당자 확인 후 안내해 드리겠습니다 잠시만 기다려 주시겠습니까",
+            "norm_text": "A.그럼 제가 담당자 확인 후 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그럼/MAJ+제/NP+가/JKS+담당자/NNG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 13,
+            "text": "B.예 감사합니다 기다리겠습니다",
+            "norm_text": "B.예 감사합니다 기다리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+예/IC+감사/NNG+합니다/XSV+EF+기다리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.선생님 불편드려 정말 죄송합니다",
+            "norm_text": "A.선생님 불편드려 정말 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+불편/NNG+드려/VV+EC+정말/MAG+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.담당자가 연가로 오후에 출근한다 전달 받았습니다",
+            "norm_text": "A.담당자가 연가로 오후에 출근한다 전달 받았습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+담당자/NNG+가/JKS+연가/NNG+로/JKB+오후/NNG+에/JKB+출근/NNG+한다/XSV+EC+전달/NNG+받/VV+았/EP+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.예 그럼 오후에 전화 다시 드릴게요",
+            "norm_text": "B.예 그럼 오후에 전화 다시 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+그럼/MAJ+오후/NNG+에/JKB+전화/NNG+다시/MAG+드릴게요/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.네 한 시 이후로 전화를 주시면 좋으실 듯합니다",
+            "norm_text": "A.네 한 시 이후로 전화를 주시면 좋으실 듯합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+네/IC+한/MM+시/NNBC+이후/NNG+로/JKB+전화/NNG+를/JKO+주/VV+시/EP+면/EC+좋/VA+으실/EP+ETM+듯/NNB+합니다/XSA+EC"
+          },
+          {
+            "id": 18,
+            "text": "B.네 그 때 걸겠습니다",
+            "norm_text": "B.네 그 때 걸겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그때/NNG+걸/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 19,
+            "text": "A.네 선생님 감사합니다",
+            "norm_text": "A.네 선생님 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 116107,
+    "name": "s3_20211105_0005_0278_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110825086794/s3_20211105_0005_0278_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110825086794/s3_20211105_0005_0278_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118899,
+      "filename": "s3_20211005_0018_0004_01.txt",
+      "title": "s3_20211005_0018_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 246,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 246,
+        "word_size": 60,
+        "text": "A.고객을 위한 상담사 #@이름# 입니다\nB.수고하십니다 현금 영수증 발행 문의 하려고 하는데요\nA.네 고객님 발행 요청 건 이십니까\nB.그렇긴 한데 포인트 결제분에 대한 발행도 가능한가요\nA.포인트 사용 건에 대한 현금 영수증 발행은 어렵습니다\nB.어떤 이유인지 알 수 있을까요\nA.조세 특례 제한법에 따라 규정 되어 있습니다\nB.법으로 정해져 있다는 거죠\nA.네 그렇습니다 고객님\nB.그럼 어쩔 수 없네요 알겠습니다\nA.감사합니다 상담사 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객을 위한 상담사 #@이름# 입니다",
+            "norm_text": "A.고객을 위한 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+을/JKO+위한/VV+ETM+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고하십니다 현금 영수증 발행 문의 하려고 하는데요",
+            "norm_text": "B.수고하십니다 현금 영수증 발행 문의 하려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+현금영수증/NNP+발행/NNG+문의/NNG+하/XSV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 발행 요청 건 이십니까",
+            "norm_text": "A.네 고객님 발행 요청 건이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+발행/NNG+요/VCP+EC+청건/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그렇긴 한데 포인트 결제분에 대한 발행도 가능한가요",
+            "norm_text": "B.그렇긴 한데 포인트 결제분에 대한 발행도 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+긴/ETN+JX+한데/VX+EC+포인트/NNG+결제/NNG+분/NNB+에/JKB+대한/VV+ETM+발행/NNG+도/JX+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.포인트 사용 건에 대한 현금 영수증 발행은 어렵습니다",
+            "norm_text": "A.포인트 사용 건에 대한 현금 영수증 발행은 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+포인트/NNG+사용/NNG+건/NNBC+에/JKB+대한/VV+ETM+현금영수증/NNP+발행/NNG+은/JX+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.어떤 이유인지 알 수 있을까요",
+            "norm_text": "B.어떤 이유인지 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+어떤/MM+이유/NNG+인지/VCP+EC+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.조세 특례 제한법에 따라 규정 되어 있습니다",
+            "norm_text": "A.조세 특례 제한법에 따라 규정되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+조세/NNG+특례/NNG+제한/NNG+법/NNG+에/JKB+따라/VV+EC+규정/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.법으로 정해져 있다는 거죠",
+            "norm_text": "B.법으로 정해져 있다는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+법/NNG+으로/JKB+정해져/VV+EC+VX+EC+있/VX+다는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 그렇습니다 고객님",
+            "norm_text": "A.네 그렇습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 어쩔 수 없네요 알겠습니다",
+            "norm_text": "B.그럼 어쩔 수 없네요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그럼/MAJ+어쩔/VV+ETM+수/NNB+없/VA+네요/EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담사 #@이름#였습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

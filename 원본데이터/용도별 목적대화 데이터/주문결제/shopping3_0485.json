@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 10594,
+    "name": "s3_20210913_0010_0626_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417055131/s3_20210913_0010_0626_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417055131/s3_20210913_0010_0626_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12017,
+      "filename": "s3_20210827_0026_0001_01.txt",
+      "title": "s3_20210827_0026_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 320,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 320,
+        "word_size": 70,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.#@상품#을 앱에서 하면 싸게 된다던데요\nB.제가 앱을 다운 받아서 깔기는 깔았거든요\nB.근데 할인이 안돼서 내가 전화를 드렸어요\nB.#@소속#페이 이거는 #@소속#에서 결제하는 거예요\nA.네 맞습니다 근데 그걸로 하시면 그 할인 금액 적용이 안돼요\nB.어떤 걸 하면요\nA.#@소속#페이로 결제하시면 할인이 안돼요\nB.그러면 #@소속# 페이는요\nA.#@소속# 페이는 가능하다고 하세요\nB.그러면 더 싸게 해준다는 게 뭐로 결제를 해야 되는 거예요\nA.#@소속# 페이 제외하고는 적용되세요\nB.그렇구나 알겠어요 감사합니다\nA.네 감사합니다 즐거운 쇼핑하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품#을 앱에서 하면 싸게 된다던데요",
+            "norm_text": "B.#@상품#을 앱에서 하면 싸게 된다던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+을/JKO+앱/NNG+에서/JKB+하/VV+면/EC+싸/VX+게/EC+된/VV+다던데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.제가 앱을 다운 받아서 깔기는 깔았거든요",
+            "norm_text": "B.제가 앱을 다운 받아서 깔기는 깔았거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+앱/NNG+을/JKO+다운/NNG+받/VV+아서/EC+깔/VV+기/ETN+는/JX+깔/VV+았/EP+거든요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.근데 할인이 안돼서 내가 전화를 드렸어요",
+            "norm_text": "B.근데 할인이 안돼서 내가 전화를 드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+근데/MAJ+할인/NNG+이/JKS+안/MAG+돼서/VV+EC+내/NP+가/JKS+전화/NNG+를/JKO+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.#@소속#페이 이거는 #@소속#에서 결제하는 거예요",
+            "norm_text": "B.#@소속#페이 이거는 #@소속#에서 결제하는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+페이/NNP+이거/NP+는/JX+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+결제/NNG+하/XSV+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 맞습니다 근데 그걸로 하시면 그 할인 금액 적용이 안돼요",
+            "norm_text": "A.네 맞습니다 근데 그걸로 하시면 그 할인 금액 적용이 안돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+근데/MAJ+그걸로/NP+JKB+하/VV+시/EP+면/EC+그/MM+할인/NNG+금액/NNG+적용/NNG+이/JKS+안/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.어떤 걸 하면요",
+            "norm_text": "B.어떤 걸 하면요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+어떤/MM+걸/NNB+JKO+하/VV+면/EC+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.#@소속#페이로 결제하시면 할인이 안돼요",
+            "norm_text": "A.#@소속#페이로 결제하시면 할인이 안돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+페이/NNP+로/JKB+결제/NNG+하/XSV+시/EP+면/EC+할인/NNG+이/JKS+안/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그러면 #@소속# 페이는요",
+            "norm_text": "B.그러면 #@소속# 페이는요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러/VV+면/EC+#/SY+@/SY+소속/NNG+#/SY+페이/NNP+는/JX+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "A.#@소속# 페이는 가능하다고 하세요",
+            "norm_text": "A.#@소속# 페이는 가능하다고 하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+페이/NNP+는/JX+가능/NNG+하/XSV+다고/EC+하/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그러면 더 싸게 해준다는 게 뭐로 결제를 해야 되는 거예요",
+            "norm_text": "B.그러면 더 싸게 해준다는 게 뭐로 결제를 해야 되는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+더/MAG+싸/VA+게/EC+해준다는/VX+EC+VX+ETM+게/NNB+JKS+뭐/NP+로/JKB+결제/NNG+를/JKO+해야/VV+EC+되/VV+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.#@소속# 페이 제외하고는 적용되세요",
+            "norm_text": "A.#@소속# 페이 제외하고는 적용되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+페이제/NNP+외/NNB+하고/JKB+는/JX+적용/NNG+되/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.그렇구나 알겠어요 감사합니다",
+            "norm_text": "B.그렇구나 알겠어요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+구나/EC+알/VV+겠/EP+어요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 감사합니다 즐거운 쇼핑하세요",
+            "norm_text": "A.네 감사합니다 즐거운 쇼핑하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+즐거운/VA+ETM+쇼핑/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

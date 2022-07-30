@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 11006,
+    "name": "s3_20210913_0010_0711_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416091195/s3_20210913_0010_0711_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416091195/s3_20210913_0010_0711_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11924,
+      "filename": "s3_20210826_0010_0003_01.txt",
+      "title": "s3_20210826_0010_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 424,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 424,
+        "word_size": 110,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.냉장고 서랍 좀 주문할려고 하거든요\nA.그러신가요 사용중이신 저희 제품 모델이 어떻게 되세요\nB.모델이 #@번호#요 #@상품#냉장고이거든요\nA.확인 감사합니다 혹시 몇 번째 서랍이 필요하신 건가요 고객님\nB.냉장고 안에 첫 번째 야채칸에 있는 첫 번째 서랍 있잖아요\nA.세 개 중에 맨 위에꺼 말씀하시는 거예요\nB.네 맨 위에 있는 서랍 맞아요\nA.맨 위 서랍은 현재 가격이 만 육천 오백 원으로 확인되구요\nB.네 그거 하구 문에 있는 큰 서랍에서 두 번째 서랍도 구매할거 거든요\nA.문 쪽에 서랍 말구 병꽂이 말씀하시는 거예요\nB.병꽂이 말고 병꽂이 밑에 있는 서랍이거든요\nB.그거랑 맨 밑에 투명한 서랍 또 다 깨졌어요\nB.죄송한데 제가 조금 있다가 다시 전화 드릴게요 뭐를 흘려서요\nA.네 고객님 이 번호로 전화주시면 됩니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.냉장고 서랍 좀 주문할려고 하거든요",
+            "norm_text": "B.냉장고 서랍 좀 주문할려고 하거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+냉장고/NNG+서랍/NNG+좀/MAG+주문/NNG+할려고/XSV+EC+하/VX+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.그러신가요 사용중이신 저희 제품 모델이 어떻게 되세요",
+            "norm_text": "A.그러신가요 사용중이신 저희 제품 모델이 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+신가요/EP+EC+사용/NNG+중/NNB+이/VCP+신/EP+ETM+저희/NP+제품/NNG+모델/NNG+이/JKS+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.모델이 #@번호#요 #@상품#냉장고이거든요",
+            "norm_text": "B.모델이 #@번호#요 #@상품#냉장고이거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+모델/NNG+이/JKS+#/SY+@/SY+번호/NNG+#/SY+요/JX+#/SY+@/SY+상품/NNG+#/SY+냉장고/NNG+이/VCP+거든요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.확인 감사합니다 혹시 몇 번째 서랍이 필요하신 건가요 고객님",
+            "norm_text": "A.확인 감사합니다 혹시 몇 번째 서랍이 필요하신 건가요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+합니다/XSV+EF+혹시/MAG+몇/MM+번/NNBC+째/XSN+서랍/NNG+이/JKS+필요/NNG+하/XSV+신/EP+ETM+건가요/NNB+VCP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 6,
+            "text": "B.냉장고 안에 첫 번째 야채칸에 있는 첫 번째 서랍 있잖아요",
+            "norm_text": "B.냉장고 안에 첫 번째 야채칸에 있는 첫 번째 서랍 있잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+냉장고/NNG+안/NNG+에/JKB+첫/MM+번/NNBC+째/XSN+야채/NNG+칸/NNG+에/JKB+있/VV+는/ETM+첫/MM+번/NNBC+째/XSN+서랍/NNG+있/VV+잖아요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.세 개 중에 맨 위에꺼 말씀하시는 거예요",
+            "norm_text": "A.세 개 중에 맨 위에꺼 말씀하시는 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+세/MM+개/NNBC+중/NNB+에/JKB+맨/MM+위/NNG+에/JKB+꺼/VV+EC+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 맨 위에 있는 서랍 맞아요",
+            "norm_text": "B.네 맨 위에 있는 서랍 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맨/MM+위/NNG+에/JKB+있/VV+는/ETM+서랍/NNG+맞/VV+아요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.맨 위 서랍은 현재 가격이 만 육천 오백 원으로 확인되구요",
+            "norm_text": "A.맨 위 서랍은 현재 가격이 만 육천 오백 원으로 확인되구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+맨/MM+위/NNG+서랍/NNG+은/JX+현재/MAG+가격/NNG+이/JKS+만/NR+육/NR+천/NR+오/NR+백/NR+원/NNBC+으로/JKB+확인/NNG+되/XSV+구요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 그거 하구 문에 있는 큰 서랍에서 두 번째 서랍도 구매할거 거든요",
+            "norm_text": "B.네 그거 하구 문에 있는 큰 서랍에서 두 번째 서랍도 구매할거 거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그거/NP+하구/JKB+문/NNG+에/JKB+있/VV+는/ETM+큰/VA+ETM+서랍/NNG+에서/JKB+두/MM+번/NNBC+째/XSN+서랍/NNG+도/JX+구매/NNG+할/XSV+ETM+거/NNB+거든요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.문 쪽에 서랍 말구 병꽂이 말씀하시는 거예요",
+            "norm_text": "A.문 쪽에 서랍 말구 병꽂이 말씀하시는 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+문쪽/NNG+에서/JKB+랍/NNG+말/NNG+구병/NNG+꽂이/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.병꽂이 말고 병꽂이 밑에 있는 서랍이거든요",
+            "norm_text": "B.병꽂이 말고 병꽂이 밑에 있는 서랍이거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+병/NNG+꽂이/NNG+말/NNG+고병/NNG+꽂이/NNG+밑/NNG+에/JKB+있/VV+는/ETM+서랍/NNG+이/VCP+거든요/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.그거랑 맨 밑에 투명한 서랍 또 다 깨졌어요",
+            "norm_text": "B.그거랑 맨 밑에 투명한 서랍 또 다 깨졌어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+그거/NP+랑/JKB+맨/MM+밑/NNG+에/JKB+투명/NNG+한/XSA+ETM+서랍/NNG+또/MAG+다/MAG+깨/VV+EC+졌어요/VX+EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.죄송한데 제가 조금 있다가 다시 전화 드릴게요 뭐를 흘려서요",
+            "norm_text": "B.죄송한데 제가 조금 있다가 다시 전화 드릴게요 뭐를 흘려서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+죄송/XR+한데/XSA+EC+제/NP+가/JKS+조금/MAG+있/VV+다가/EC+다시/MAG+전화/NNG+드릴게요/VV+EC+뭐/NP+를/JKO+흘려/VV+EC+서요/NNG"
+          },
+          {
+            "id": 15,
+            "text": "A.네 고객님 이 번호로 전화주시면 됩니다 감사합니다",
+            "norm_text": "A.네 고객님 이 번호로 전화주시면 됩니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+이/JKS+번호/NNG+로/JKB+전화/NNG+주/VV+시/EP+면/EC+됩니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

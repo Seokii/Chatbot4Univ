@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 94148,
+    "name": "s2_20211102_0002_0015_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110738062198/s2_20211102_0002_0015_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110738062198/s2_20211102_0002_0015_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117301,
+      "filename": "s2_20211028_0001_0011_01.txt",
+      "title": "s2_20211028_0001_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 236,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 236,
+        "word_size": 61,
+        "text": "A.안녕하세요 #@소속#의 #@이름#입니다\nB.여기 #@상품# 상세 페이지 세트로 된 거 있잖아요\nA.네 고객님 #@상품#이요\nB.그거 세트 구성품은 못 바꿔요\nA.네 세트로 된 건 할인이 더 들어간 거라 구성품 변경은 어려우세요\nB.그럼 그냥 이렇게 묶인 거 사거나 따로따로 사야 되는 거예요\nA.네 고객님 원하시는 상품 조합이 없으시면 따로 사셔야 돼요\nB.하나가 마음에 안 드는데 예 일단 알겠어요\nA.네 고객님 즐거운 쇼핑 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#의 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#의 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여기 #@상품# 상세 페이지 세트로 된 거 있잖아요",
+            "norm_text": "B.여기 #@상품# 상세 페이지 세트로 된 거 있잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+#/SY+@/SY+상품/NNG+#/SY+상세/NNG+페이지/NNG+세트/NNG+로/JKB+된/VV+ETM+거/NNB+있/VA+잖아요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 #@상품#이요",
+            "norm_text": "A.네 고객님 #@상품#이요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+#/SY+@/SY+상품/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그거 세트 구성품은 못 바꿔요",
+            "norm_text": "B.그거 세트 구성품은 못 바꿔요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그거/NP+세트/NNG+구성/NNG+품/NNG+은/JX+못/MAG+바꿔요/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 세트로 된 건 할인이 더 들어간 거라 구성품 변경은 어려우세요",
+            "norm_text": "A.네 세트로 된 건 할인이 더 들어간 거라 구성품 변경은 어려우세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+세트/NNG+로/JKB+된/VV+ETM+건/NNB+JX+할인/NNG+이/JKS+더/MAG+들어간/VV+ETM+거/NNB+라구/VCP+EC+성품/NNG+변경/NNG+은/JX+어려우세요/VA+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 그냥 이렇게 묶인 거 사거나 따로따로 사야 되는 거예요",
+            "norm_text": "B.그럼 그냥 이렇게 묶인 거 사거나 따로따로 사야 되는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+그냥/MAG+이렇게/MAG+묶인/VV+ETM+거/NNB+사/VV+거나/EC+따로따로/MAG+사/VV+야/EC+되/VV+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 원하시는 상품 조합이 없으시면 따로 사셔야 돼요",
+            "norm_text": "A.네 고객님 원하시는 상품 조합이 없으시면 따로 사셔야 돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+원/NNG+하/XSV+시/EP+는/ETM+상품/NNG+조합/NNG+이/JKS+없/VA+으시/EP+면/EC+따로/MAG+사셔야/VV+EP+EC+돼요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.하나가 마음에 안 드는데 예 일단 알겠어요",
+            "norm_text": "B.하나가 마음에 안 드는데 예 일단 알겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+하나/NR+가/JKS+마음/NNG+에/JKB+안/MAG+드/VV+는데/EC+예/IC+일단/MAG+알/VV+겠/EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 고객님 즐거운 쇼핑 되세요",
+            "norm_text": "A.네 고객님 즐거운 쇼핑 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+즐거운/VA+ETM+쇼핑/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

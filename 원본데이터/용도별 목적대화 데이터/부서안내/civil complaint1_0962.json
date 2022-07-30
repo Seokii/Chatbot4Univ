@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 53234,
+    "name": "c1_20211018_0001_2552_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130657072497/c1_20211018_0001_2552_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130657072497/c1_20211018_0001_2552_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49313,
+      "filename": "c1_20210906_0009_0009_01.txt",
+      "title": "c1_20210906_0009_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 227,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 227,
+        "word_size": 44,
+        "text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.네 제가 양도하려는 주택의 취득일이요\nB.신규주택의 분양권 취득일이 보다 앞선 경우인데요\nB.비과세 여부 어디에 문의해야 하죠\nA.이부분 기획재정부 재산세제과에 문의주시면 됩니다\nB.그래요 그럼 거기 전화번호 알려주세요\nA.네 기획재정부 재산세제과 전화번호가 #@전번#입니다\nB.네 알겠습니다 감사합니다\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 제가 양도하려는 주택의 취득일이요",
+            "norm_text": "B.네 제가 양도하려는 주택의 취득일이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+양도/NNG+하/XSV+려는/ETM+주택/NNG+의/JKG+취득/NNG+일/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.신규주택의 분양권 취득일이 보다 앞선 경우인데요",
+            "norm_text": "B.신규주택의 분양권 취득일이 보다 앞선 경우인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+신규/NNG+주택/NNG+의/JKG+분양/NNG+권/XSN+취득/NNG+일/NNG+이/JKS+보다/MAG+앞선/VV+ETM+경우/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.비과세 여부 어디에 문의해야 하죠",
+            "norm_text": "B.비과세 여부 어디에 문의해야 하죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+비/XPN+과세/NNG+여부/NNG+어디/NP+에/JKB+문의/NNG+해야/XSV+EC+하/VX+죠/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.이부분 기획재정부 재산세제과에 문의주시면 됩니다",
+            "norm_text": "A.이부분 기획재정부 재산세제과에 문의주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+이/MM+부분/NNG+기획/NNG+재정부/NNG+재산세/NNG+제과/NNG+에/JKB+문/NNG+의/JKG+주/VV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그래요 그럼 거기 전화번호 알려주세요",
+            "norm_text": "B.그래요 그럼 거기 전화번호 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+거기/NP+전화/NNG+번호/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 기획재정부 재산세제과 전화번호가 #@전번#입니다",
+            "norm_text": "A.네 기획재정부 재산세제과 전화번호가 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+기획/NNG+재정부/NNG+재산세/NNG+제/XSN+과/JC+전화/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

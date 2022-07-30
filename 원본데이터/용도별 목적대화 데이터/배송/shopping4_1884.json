@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 106303,
+    "name": "s4_20211103_0010_3184_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110932087032/s4_20211103_0010_3184_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110932087032/s4_20211103_0010_3184_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 120796,
+      "filename": "s4_20211026_0027_0002_01.txt",
+      "title": "s4_20211026_0027_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 239,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 239,
+        "word_size": 50,
+        "text": "A.안녕하세요 #@소속# 고객센터입니다\nA.어떤 도움 필요하세요 고객님\nB.네 제가 #@상품#이랑 #@상품# 시켰습니다\nB.한가지만 배송이 왔는데 문제가 생긴건가요\nA.각 브랜드 별로만 묶음 배송이 가능합니다\nA.말씀하신 두 제품이 다른 브랜드여서 각각 출고됩니다\nB.아예 따로 오는거에요 그럼\nA.각각 출고되어 다른 배송사로 배송처리 됩니다\nB.그렇군요 저는 누락인가 해서요\nB.알겠습니다 그럼 수고하세요\nA.감사합니다 고객님 #@소속#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객센터입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객센터입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움 필요하세요 고객님",
+            "norm_text": "A.어떤 도움 필요하세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+필요/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 3,
+            "text": "B.네 제가 #@상품#이랑 #@상품# 시켰습니다",
+            "norm_text": "B.네 제가 #@상품#이랑 #@상품# 시켰습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+#/SY+@/SY+상품/NNG+#/SY+이랑/JC+#/SY+@/SY+상품/NNG+#/SY+시켰/VV+EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.한가지만 배송이 왔는데 문제가 생긴건가요",
+            "norm_text": "B.한가지만 배송이 왔는데 문제가 생긴건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+한/MM+가지/NNBC+만/JX+배송/NNG+이/JKS+왔/VV+EP+는데/EC+문제/NNG+가/JKS+생긴/VV+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.각 브랜드 별로만 묶음 배송이 가능합니다",
+            "norm_text": "A.각 브랜드 별로만 묶음 배송이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+각/MM+브랜드/NNG+별/XSN+로/JKB+만/JX+묶음/NNG+배송/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.말씀하신 두 제품이 다른 브랜드여서 각각 출고됩니다",
+            "norm_text": "A.말씀하신 두 제품이 다른 브랜드여서 각각 출고됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+말씀/NNG+하/XSV+신/EP+ETM+두/MM+제품/NNG+이/JKS+다른/MM+브랜드/NNG+여서/VCP+EC+각각/MAG+출고/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.아예 따로 오는거에요 그럼",
+            "norm_text": "B.아예 따로 오는거에요 그럼",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아예/MAG+따로/MAG+오/VV+는/ETM+거/NNB+에요/VCP+EF+그럼/MAJ"
+          },
+          {
+            "id": 8,
+            "text": "A.각각 출고되어 다른 배송사로 배송처리 됩니다",
+            "norm_text": "A.각각 출고되어 다른 배송사로 배송처리 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+각각/MAG+출고/NNG+되/XSV+어/EC+다른/MM+배/NNG+송사/NNG+로/JKB+배송/NNG+처리/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그렇군요 저는 누락인가 해서요",
+            "norm_text": "B.그렇군요 저는 누락인가 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+저/NP+는/JX+누락/NNG+인가/VCP+EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 그럼 수고하세요",
+            "norm_text": "B.알겠습니다 그럼 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 고객님 #@소속#였습니다",
+            "norm_text": "A.감사합니다 고객님 #@소속#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

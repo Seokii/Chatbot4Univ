@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 51982,
+    "name": "c1_20211018_0002_0008_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130759056844/c1_20211018_0002_0008_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130759056844/c1_20211018_0002_0008_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51345,
+      "filename": "c1_20210927_0016_0006_01.txt",
+      "title": "c1_20210927_0016_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 407,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 407,
+        "word_size": 93,
+        "text": "A.행복한 하루 시작 #@소속# 상담원 #@이름#입니다\nB.예 수고하십니다 한 가지 제가 문의해 볼게요\nA.네 고객님 말씀 하시면 답변드리겠습니다\nB.각 교도소의 사망자 명단 공개가 되나요\nA.교도소 사망자 명단은 개인 정보라 공개되기 어렵습니다\nB.사망자도 개인정보가 있나요\nA.사망이나 실종선고 등 법령에 의해 사망한 것으로 간주되는 자는요\nA.사실 개인 정보로 볼 수는 없는 게 맞습니다\nB.저도 그렇게 알고 있어서 요청드리는 거예요\nA.하지만 사망자의 정보가 유족 등의 사생활을 침해하는 등의 경우에는요\nA.사망자 정보인 동시에 관계되는 유족의 정보이기도 합니다\nA.따라서 개인에 관한 사항으로 포함될 수 있습니다\nB.알겠습니다 공개되기는 힘들다는 거네요\nA.네 그렇습니다 양해 부탁드리며 상담원 #@이름#이었습니다\nB.상담 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.행복한 하루 시작 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.행복한 하루 시작 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+시작/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고하십니다 한 가지 제가 문의해 볼게요",
+            "norm_text": "B.예 수고하십니다 한 가지 제가 문의해 볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+하/XSV+십니다/EP+EF+한/MM+가지/NNBC+제/NP+가/JKS+문의/NNG+해/XSV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀 하시면 답변드리겠습니다",
+            "norm_text": "A.네 고객님 말씀 하시면 답변드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+시/EP+면/EC+답변/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.각 교도소의 사망자 명단 공개가 되나요",
+            "norm_text": "B.각 교도소의 사망자 명단 공개가 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+각/MM+교도소/NNG+의/JKG+사망자/NNG+명단/NNG+공개/NNG+가/JKS+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.교도소 사망자 명단은 개인 정보라 공개되기 어렵습니다",
+            "norm_text": "A.교도소 사망자 명단은 개인 정보라 공개되기 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+교도소/NNG+사망자/NNG+명단/NNG+은/JX+개인/NNG+정보/NNG+라/VCP+EC+공개/NNG+되/XSV+기/ETN+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.사망자도 개인정보가 있나요",
+            "norm_text": "B.사망자도 개인정보가 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+사망자/NNG+도/JX+개인/NNG+정보/NNG+가/JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.사망이나 실종선고 등 법령에 의해 사망한 것으로 간주되는 자는요",
+            "norm_text": "A.사망이나 실종선고 등 법령에 의해 사망한 것으로 간주되는 자는요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+사망/NNG+이나/JC+실종/NNG+선고/NNG+등/NNB+법령/NNG+에/JKB+의해/VV+EC+사망/NNG+한/XSA+ETM+것/NNB+으로/JKB+간주/NNG+되/XSV+는/ETM+자/NNB+는/JX+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.사실 개인 정보로 볼 수는 없는 게 맞습니다",
+            "norm_text": "A.사실 개인 정보로 볼 수는 없는 게 맞습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+사실/MAG+개인/NNG+정보/NNG+로/JKB+볼/VV+ETM+수/NNB+는/JX+없/VA+는/ETM+게/NNB+JKS+맞/VV+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.저도 그렇게 알고 있어서 요청드리는 거예요",
+            "norm_text": "B.저도 그렇게 알고 있어서 요청드리는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+저/NP+도/JX+그렇게/MAG+알/VV+고/EC+있/VX+어서/EC+요청/NNG+드리/VV+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.하지만 사망자의 정보가 유족 등의 사생활을 침해하는 등의 경우에는요",
+            "norm_text": "A.하지만 사망자의 정보가 유족 등의 사생활을 침해하는 등의 경우에는요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+하지만/MAJ+사망자/NNG+의/JKG+정보/NNG+가/JKS+유족/NNG+등/NNB+의/JKG+사생활/NNG+을/JKO+침해/NNG+하/XSV+는/ETM+등/NNB+의/JKG+경우/NNG+에/JKB+는/JX+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.사망자 정보인 동시에 관계되는 유족의 정보이기도 합니다",
+            "norm_text": "A.사망자 정보인 동시에 관계되는 유족의 정보이기도 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+사망자/NNG+정보/NNG+인/VCP+ETM+동시/NNG+에/JKB+관계/NNG+되/XSV+는/ETM+유족/NNG+의/JKG+정보/NNG+이/VCP+기/ETN+도/JX+합니다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.따라서 개인에 관한 사항으로 포함될 수 있습니다",
+            "norm_text": "A.따라서 개인에 관한 사항으로 포함될 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+따라서/MAJ+개인/NNG+에/JKB+관한/VV+ETM+사항/NNG+으로/JKB+포함/NNG+될/XSV+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.알겠습니다 공개되기는 힘들다는 거네요",
+            "norm_text": "B.알겠습니다 공개되기는 힘들다는 거네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+공개/NNG+되/XSV+기/ETN+는/JX+힘들/VA+다는/ETM+거/NNB+네요/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 그렇습니다 양해 부탁드리며 상담원 #@이름#이었습니다",
+            "norm_text": "A.네 그렇습니다 양해 부탁드리며 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+양해/NNG+부탁/NNG+드리/VV+며/EC+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.상담 감사합니다 수고하세요",
+            "norm_text": "B.상담 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+상담/NNG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

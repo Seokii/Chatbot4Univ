@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 31114,
+    "name": "s3_20211007_0010_1450_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420041446/s3_20211007_0010_1450_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420041446/s3_20211007_0010_1450_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12142,
+      "filename": "s3_20210830_0023_0006_01.txt",
+      "title": "s3_20210830_0023_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 378,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 378,
+        "word_size": 87,
+        "text": "A.고객님 무엇을 도와드릴까요\nB.#@상품# 블랙으로 하나 주문해주세요\nA.만 구천구백 원이구요 고객님 성함과 휴대폰 번호 어떻게 되십니까\nB.이름은 #@이름# 번호는 #@전번# 이요\nA.받아보시는 주소는 어디로 하시겠습니까\nB.인천 부평구 #@주소# 요\nA.어느 은행으로 송금하시겠습니까\nB. #@소속# 은행으로 해주세요\nA.현금 영수증은 신청하시겠습니까\nB.상품 줄 때 그 속에 넣어주면 안 되나요\nA.신청하시면 국세청에 자동으로 넘어가고 종이를 따로 드리진 않습니다\nB.그러면 이거 핸드폰으로 해 줘요 그리고 뭐 어떻게 해야 돼요\nA.나중에 국세청에서 조회 가능하십니다\nB.내가 뭐 안 해도 자동으로 들어가는 거에요\nA.네 고객님 맞습니다 신청 해 드릴까요\nB.예 그러면 현금영수증도 신청 해주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 무엇을 도와드릴까요",
+            "norm_text": "A.고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 블랙으로 하나 주문해주세요",
+            "norm_text": "B.#@상품# 블랙으로 하나 주문해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+블랙/NNG+으로/JKB+하나/NR+주문/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.만 구천구백 원이구요 고객님 성함과 휴대폰 번호 어떻게 되십니까",
+            "norm_text": "A.만 구천구백 원이구요 고객님 성함과 휴대폰 번호 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+만/NR+구천/NR+구/NR+백/NR+원/NNBC+이/VCP+구요/EF+고객/NNG+님/XSN+성함/NNG+과/JC+휴대폰/NNG+번호/NNG+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.이름은 #@이름# 번호는 #@전번# 이요",
+            "norm_text": "B.이름은 #@이름# 번호는 #@전번# 이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.받아보시는 주소는 어디로 하시겠습니까",
+            "norm_text": "A.받아보시는 주소는 어디로 하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+받/VV+아/EC+보/VX+시/EP+는/ETM+주소/NNG+는/JX+어디/NP+로/JKB+하/VV+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.인천 부평구 #@주소# 요",
+            "norm_text": "B.인천 부평구 #@주소# 요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+인천/NNP+부평구/NNP+#/SY+@/SY+주소/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.어느 은행으로 송금하시겠습니까",
+            "norm_text": "A.어느 은행으로 송금하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어느/MM+은행/NNG+으로/JKB+송금/NNG+하/XSV+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "B. #@소속# 은행으로 해주세요",
+            "norm_text": "B. #@소속# 은행으로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+은행/NNG+으로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.현금 영수증은 신청하시겠습니까",
+            "norm_text": "A.현금 영수증은 신청하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+현금영수증/NNP+은/JX+신청/NNG+하/XSV+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.상품 줄 때 그 속에 넣어주면 안 되나요",
+            "norm_text": "B.상품 줄 때 그 속에 넣어주면 안 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+상품/NNG+줄때/NNG+그/MM+속/NNG+에/JKB+넣/VV+어/EC+주/VX+면/EC+안/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.신청하시면 국세청에 자동으로 넘어가고 종이를 따로 드리진 않습니다",
+            "norm_text": "A.신청하시면 국세청에 자동으로 넘어가고 종이를 따로 드리진 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+신청/NNG+하/XSV+시/EP+면/EC+국세청/NNG+에/JKB+자동/NNG+으로/JKB+넘어가/VV+고/EC+종이/NNG+를/JKO+따로/MAG+드리/VV+진/EC+JX+않/VX+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.그러면 이거 핸드폰으로 해 줘요 그리고 뭐 어떻게 해야 돼요",
+            "norm_text": "B.그러면 이거 핸드폰으로 해 줘요 그리고 뭐 어떻게 해야 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+이거/NP+핸드폰/NNG+으로/JKB+해/VV+EC+줘요/VX+EF+그리고/MAJ+뭐/IC+어떻게/MAG+해야/VV+EC+돼요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.나중에 국세청에서 조회 가능하십니다",
+            "norm_text": "A.나중에 국세청에서 조회 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+나중/NNG+에/JKB+국세청/NNG+에서/JKB+조회/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.내가 뭐 안 해도 자동으로 들어가는 거에요",
+            "norm_text": "B.내가 뭐 안 해도 자동으로 들어가는 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+내/NP+가/JKS+뭐/IC+안/MAG+해도/VV+EC+자동/NNG+으로/JKB+들어가/VV+는/ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.네 고객님 맞습니다 신청 해 드릴까요",
+            "norm_text": "A.네 고객님 맞습니다 신청 해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+맞/VV+습니다/EF+신청/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.예 그러면 현금영수증도 신청 해주세요",
+            "norm_text": "B.예 그러면 현금영수증도 신청 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+그러면/MAJ+현금영수증/NNP+도/JX+신청/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

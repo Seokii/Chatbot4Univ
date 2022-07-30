@@ -1,0 +1,527 @@
+{
+  "dataset": {
+    "identifier": 114037,
+    "name": "KAKAO_1823_19_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/80/txt20211102173312069818/KAKAO_1823_19_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/80/txt20211102173312069818/KAKAO_1823_19_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 131831,
+      "filename": "KAKAO_1823_19.txt",
+      "title": "KAKAO_1823_19",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-11-02",
+      "size": 798,
+      "annotations": {
+        "subject": "방송/연예",
+        "speaker_type": "다자간 대화",
+        "size": 798,
+        "word_size": 268,
+        "text": "1 : 요즘 어떤 프로그램 봐?\n1 : 삭제된 메시지입니다.\n2 : 스트릿 우먼 파이트 엠넷에서 하는 건데 진짜 재밌어 키키\n3 : 나는 쇼미더머니 봐! 키키\n1 : 오 난 드라마나 예능 보는뎅 하하\n2 : 요즘 무슨 드라마 봐?\n2 : 나는 홍천기랑 원더우먼!\n3 : 나는!\n3 : 마이네임봐써!\n3 : 한소희 씨 미인이시더랑...\n1 : 오 나도 원더우먼 봤는뎅!\n1 : 한소희는... 진짜 미인 인정 ...\n1 : 전에 알고 있지만서도\n1 : 재밌게 봤는뎅\n1 : 이정하 나오는 하하\n2 : 나두 하하\n2 : 그리고 쇼미는 웃긴 거 있으면 컷으로 봐\n3 : 오홍... 고렇고만\n3 : 그럼 dp도 다들 봤어?\n1 : 웅웅 DP 재밋었오\n1 : 난 군대 관련 다 보는 거 같아\n1 : 장삐쭈라고 유투버 알아?\n1 : 걔 신병 시리즈도 재밌었는데 요번에 끝났어ㅠㅠ\n2 : 오 나는 둘 다 안봐서 모르겠당\n2 : 나는 오징어게임도 못봤어...ㅠ\n3 :  볼 게 많은 건 오히려 좋아...\n3 : 장삐쭈 신병은 내가 봤을 땐 진짜 내가 봤던 군대 관련 영상 2번째로 잘 만든 거 같아\n1 : 진짜 재밌는 거 많당 ...\n1 : 재밌는 거 추천해죠!\n2 : 스우파도 봐줘\n2 : 언니들이 정말 춤도 잘 추고 완전 예뻐!\n3 : 난 노제만...\n3 : 봐버렸어 ... 쥬륵...\n1 : 근데 진짜 스우파는 요즘 다 보는 것 같아\n2 : 당연하지\n2 : 진짜 재밌어ㅠㅠ\n2 : 어제 파이널 했거든\n2 : 근데 진짜 언니들 다 잘해서 일등을 가릴 수가 없어 ㅠㅠ\n2 : 서바이벌 프로그램 정말 재밌는 것 같아 하하\n3 : 요즘 근데 유튜브 방송 컨텐츠도 정말 핫한 거 같아...\n3 : 나 진짜 많이 보거든",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 어떤 프로그램 봐?",
+            "norm_text": "요즘 어떤 프로그램 봐?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/MAG+어떤/MM+프로그램/NNG+봐/VV+EF"
+          },
+          {
+            "id": 2,
+            "text": "1 : 삭제된 메시지입니다.",
+            "norm_text": "삭제된 메시지입니다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "삭제/NNG+된/XSV+ETM+메시지/NNG+입니다/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 스트릿 우먼 파이트 엠넷에서 하는 건데 진짜 재밌어 키키",
+            "norm_text": "스트릿 우먼 파이트 엠넷에서 하는 건데 진짜 재밌어 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "스트릿/NNP+우먼/NNG+파이트/NNP+엠/NNG+넷/NR+에서/JKB+하/VV+는/ETM+건데/NNB+VCP+EC+진짜/MAG+재밌/VA+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 4,
+            "text": "3 : 나는 쇼미더머니 봐! 키키",
+            "norm_text": "나는 쇼미더머니 봐! 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+쇼/NNG+미/NNG+더/MAG+머/VV+니/EC+봐/VX+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오 난 드라마나 예능 보는뎅 하하",
+            "norm_text": "오 난 드라마나 예능 보는뎅 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오난/NNG+드라마/NNG+나/JC+예능/NNG+보/VV+는/ETM+뎅/MAG+하하/MAG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 요즘 무슨 드라마 봐?",
+            "norm_text": "요즘 무슨 드라마 봐?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "요즘/MAG+무슨/MM+드라마/NNG+봐/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나는 홍천기랑 원더우먼!",
+            "norm_text": "나는 홍천기랑 원더우먼!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+홍천/NNG+기/XSN+랑/JC+원/NNG+더우/VA+먼/EF"
+          },
+          {
+            "id": 8,
+            "text": "3 : 나는!",
+            "norm_text": "나는!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX"
+          },
+          {
+            "id": 9,
+            "text": "3 : 마이네임봐써!",
+            "norm_text": "마이네임봐써!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "마이네임/NNP+봐/VV+EC+써/VV+EF"
+          },
+          {
+            "id": 10,
+            "text": "3 : 한소희 씨 미인이시더랑...",
+            "norm_text": "한소희 씨 미인이시더랑...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한소희/NNP+씨/NNB+미인/NNG+이/JKS+시더/NNG+랑/JKB+./SY"
+          },
+          {
+            "id": 11,
+            "text": "1 : 오 나도 원더우먼 봤는뎅!",
+            "norm_text": "오 나도 원더우먼 봤는뎅!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오나/NNP+도원/NNP+더우먼/NNP+봤/VV+EP+는/ETM+뎅/MAG"
+          },
+          {
+            "id": 12,
+            "text": "1 : 한소희는... 진짜 미인 인정 ...",
+            "norm_text": "한소희는... 진짜 미인 인정 ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한소희/NNP+는/JX+./SY+진짜/MAG+미인/NNG+인정/NNG+./SY+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 전에 알고 있지만서도",
+            "norm_text": "전에 알고 있지만서도",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "전/NNG+에/JKB+알/VV+고/EC+있/VX+지만서도/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 재밌게 봤는뎅",
+            "norm_text": "재밌게 봤는뎅",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "재밌/VA+게/EC+봤/VX+EP+는/ETM+뎅/NNP"
+          },
+          {
+            "id": 15,
+            "text": "1 : 이정하 나오는 하하",
+            "norm_text": "이정하 나오는 하하",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이정하/NNP+나오/VV+는/ETM+하하/NNP"
+          },
+          {
+            "id": 16,
+            "text": "2 : 나두 하하",
+            "norm_text": "나두 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+두/JX+하하/MAG"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그리고 쇼미는 웃긴 거 있으면 컷으로 봐",
+            "norm_text": "그리고 쇼미는 웃긴 거 있으면 컷으로 봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그리고/MAJ+쇼/NNG+미/NNP+는/JX+웃긴/VV+ETM+거/NNB+있/VA+으면/EC+컷/NNG+으로/JKB+봐/VV+EC"
+          },
+          {
+            "id": 18,
+            "text": "3 : 오홍... 고렇고만",
+            "norm_text": "오홍... 고렇고만",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+홍/NNG+./SY+./SY+고렇/VA+고/EC+만/JX"
+          },
+          {
+            "id": 19,
+            "text": "3 : 그럼 dp도 다들 봤어?",
+            "norm_text": "그럼 dp도 다들 봤어?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+dp/SL+도/JX+다/MAG+들/XSN+봤/VV+EP+어/EF"
+          },
+          {
+            "id": 20,
+            "text": "1 : 웅웅 DP 재밋었오",
+            "norm_text": "웅웅 DP 재밋었오",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "웅웅/MAG+DP/SL+재밋었오/UNKNOWN"
+          },
+          {
+            "id": 21,
+            "text": "1 : 난 군대 관련 다 보는 거 같아",
+            "norm_text": "난 군대 관련 다 보는 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+군대/NNG+관련/NNG+다/MAG+보/VV+는/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 장삐쭈라고 유투버 알아?",
+            "norm_text": "장삐쭈라고 유투버 알아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "장/NNG+삐쭈/UNKNOWN+라고/VCP+EC+유투/NNP+버/NNP+알/VV+아/EF"
+          },
+          {
+            "id": 23,
+            "text": "1 : 걔 신병 시리즈도 재밌었는데 요번에 끝났어ㅠㅠ",
+            "norm_text": "걔 신병 시리즈도 재밌었는데 요번에 끝났어ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "걔/NP+신병/NNG+시리즈/NNG+도/JX+재밌/VA+었/EP+는데/EC+요번/NNG+에/JKB+끝났/VV+EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "2 : 오 나는 둘 다 안봐서 모르겠당",
+            "norm_text": "오 나는 둘 다 안봐서 모르겠당",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오/IC+나/NP+는/JX+둘/NR+다/MAG+안/MAG+봐서/VV+EC+모르/VV+겠/EP+당/XSN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 나는 오징어게임도 못봤어...ㅠ",
+            "norm_text": "나는 오징어게임도 못봤어...ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+오징어/NNG+게임/NNG+도/JX+못/MAG+봤/VV+EP+어/EF+./SY+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 26,
+            "text": "3 :  볼 게 많은 건 오히려 좋아...",
+            "norm_text": "볼 게 많은 건 오히려 좋아...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "볼/VV+ETM+게/NNB+JKS+많/VA+은/ETM+건/NNB+JX+오히려/MAJ+좋/VA+아/EF+./SY"
+          },
+          {
+            "id": 27,
+            "text": "3 : 장삐쭈 신병은 내가 봤을 땐 진짜 내가 봤던 군대 관련 영상 2번째로 잘 만든 거 같아",
+            "norm_text": "장삐쭈 신병은 내가 봤을 땐 진짜 내가 봤던 군대 관련 영상 2번째로 잘 만든 거 같아",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "장삐쭈신병은내가봤을땐진짜내가봤던군대관련영상/UNKNOWN+2/SN+번/NNBC+째/XSN+로/JKB+잘/MAG+만든/VV+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 28,
+            "text": "1 : 진짜 재밌는 거 많당 ...",
+            "norm_text": "진짜 재밌는 거 많당 ...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+재밌/VA+는/ETM+거/NNB+많/VA+당/EF+./SY"
+          },
+          {
+            "id": 29,
+            "text": "1 : 재밌는 거 추천해죠!",
+            "norm_text": "재밌는 거 추천해죠!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "재밌/VA+는/ETM+거추/NNG+천해/NNG+죠/VCP+EF"
+          },
+          {
+            "id": 30,
+            "text": "2 : 스우파도 봐줘",
+            "norm_text": "스우파도 봐줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "스/IC+우파/NNG+도/JX+봐줘/VV+EC"
+          },
+          {
+            "id": 31,
+            "text": "2 : 언니들이 정말 춤도 잘 추고 완전 예뻐!",
+            "norm_text": "언니들이 정말 춤도 잘 추고 완전 예뻐!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+들/XSN+이/JKS+정말/MAG+춤/NNG+도/JX+잘/MAG+추/VV+고/EC+완전/MAG+예뻐/VA+EF"
+          },
+          {
+            "id": 32,
+            "text": "3 : 난 노제만...",
+            "norm_text": "난 노제만...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+노제/NNG+만/JX+./SY"
+          },
+          {
+            "id": 33,
+            "text": "3 : 봐버렸어 ... 쥬륵...",
+            "norm_text": "봐버렸어 ... 쥬륵...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "봐버렸/VV+EC+VX+EP+어/EF+./SY+쥬/EC+륵/NNG+./SY+./SY"
+          },
+          {
+            "id": 34,
+            "text": "1 : 근데 진짜 스우파는 요즘 다 보는 것 같아",
+            "norm_text": "근데 진짜 스우파는 요즘 다 보는 것 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+진짜/MAG+스/IC+우파/NNG+는/JX+요즘/MAG+다/MAG+보/VV+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 35,
+            "text": "2 : 당연하지",
+            "norm_text": "당연하지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연/XR+하/XSA+지/EC"
+          },
+          {
+            "id": 36,
+            "text": "2 : 진짜 재밌어ㅠㅠ",
+            "norm_text": "진짜 재밌어ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+재밌/VA+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 37,
+            "text": "2 : 어제 파이널 했거든",
+            "norm_text": "어제 파이널 했거든",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/MAG+파이널/NNG+했/XSV+EP+거든/EC"
+          },
+          {
+            "id": 38,
+            "text": "2 : 근데 진짜 언니들 다 잘해서 일등을 가릴 수가 없어 ㅠㅠ",
+            "norm_text": "근데 진짜 언니들 다 잘해서 일등을 가릴 수가 없어 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+진짜/MAG+언니/NNG+들/XSN+다/MAG+잘/MAG+해서/VV+EC+일등/NNG+을/JKO+가릴/VV+ETM+수/NNB+가/JKS+없/VA+어/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 39,
+            "text": "2 : 서바이벌 프로그램 정말 재밌는 것 같아 하하",
+            "norm_text": "서바이벌 프로그램 정말 재밌는 것 같아 하하",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "서바이벌/NNP+프로그램/NNG+정말/MAG+재밌/VA+는/ETM+것/NNB+같/VA+아/EC+하하/MAG"
+          },
+          {
+            "id": 40,
+            "text": "3 : 요즘 근데 유튜브 방송 컨텐츠도 정말 핫한 거 같아...",
+            "norm_text": "요즘 근데 유튜브 방송 컨텐츠도 정말 핫한 거 같아...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/MAG+근데/MAJ+유튜브/NNP+방송/NNG+컨텐츠/NNG+도/JX+정말/MAG+핫/NNG+한/XSA+ETM+거/NNB+같/VA+아/EF+./SY"
+          },
+          {
+            "id": 41,
+            "text": "3 : 나 진짜 많이 보거든",
+            "norm_text": "나 진짜 많이 보거든",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+진짜/MAG+많이/MAG+보/VV+거든/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

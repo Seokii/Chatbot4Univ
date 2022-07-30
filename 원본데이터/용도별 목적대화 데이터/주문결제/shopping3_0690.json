@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 13509,
+    "name": "s3_20210913_0010_1037_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423026190/s3_20210913_0010_1037_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423026190/s3_20210913_0010_1037_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12557,
+      "filename": "s3_20210902_0015_0014_01.txt",
+      "title": "s3_20210902_0015_0014_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 323,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 323,
+        "word_size": 74,
+        "text": "A.안녕하세요 고객님 #@소속# 상담사 #@이름#입니다\nB.예 제가 #@상품#을 찾고 있고 있는데요 금액이 얼마예요\nA.예 해당 상품 확인해 보니 개당 삼 천 원이세요\nB.그래요 내가 백 개는 주문하려고요 국산이 맞지요\nA.네 국내에서 생산하는 상품이에요\nB.네 그러면 #@상품#이 검정색이 있나요\nA.색깔은 하나밖에 없으세요 화이트 색상이요\nB.아쉽네요 검정색을 사고 싶은데요\nA.저희가 해당 상품은 화이트만 나와서요 죄송합니다\nB.아닙니다 어쩔 수 없죠 그걸로 할게요\nA.예 그럼 주소지와 성함 그리고 번호 알려 주시겠어요\nB.예 경기도 #@주소#이고요\nB.제 이름은 #@이름#에 #@전번#번이요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 고객님 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 제가 #@상품#을 찾고 있고 있는데요 금액이 얼마예요",
+            "norm_text": "B.예 제가 #@상품#을 찾고 있고 있는데요 금액이 얼마예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+제/NP+가/JKS+#/SY+@/SY+상품/NNG+#/SY+을/JKO+찾/VV+고/EC+있/VX+고/EC+있/VX+는데요/EC+금액/NNG+이/JKS+얼마/NNG+예요/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 해당 상품 확인해 보니 개당 삼 천 원이세요",
+            "norm_text": "A.예 해당 상품 확인해 보니 개당 삼 천 원이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+해당/NNG+상품/NNG+확인/NNG+해/XSV+EC+보/VX+니/EC+개당/NNG+삼/NR+천/NR+원/NNBC+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그래요 내가 백 개는 주문하려고요 국산이 맞지요",
+            "norm_text": "B.그래요 내가 백 개는 주문하려고요 국산이 맞지요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+내/NP+가/JKS+백/NR+개/NNBC+는/JX+주문/NNG+하/XSV+려고요/EC+국산/NNG+이/JKS+맞/VV+지요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 국내에서 생산하는 상품이에요",
+            "norm_text": "A.네 국내에서 생산하는 상품이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+국내/NNG+에서/JKB+생산/NNG+하/XSV+는/ETM+상품/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 그러면 #@상품#이 검정색이 있나요",
+            "norm_text": "B.네 그러면 #@상품#이 검정색이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그러면/MAJ+#/SY+@/SY+상품/NNG+#/SY+이검/NNG+정색/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.색깔은 하나밖에 없으세요 화이트 색상이요",
+            "norm_text": "A.색깔은 하나밖에 없으세요 화이트 색상이요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+색깔/NNG+은/JX+하나/NR+밖에/JX+없/VA+으세요/EP+EP+EC+화이트/NNP+색상/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.아쉽네요 검정색을 사고 싶은데요",
+            "norm_text": "B.아쉽네요 검정색을 사고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아쉽/VA+네요/EF+검정/NNG+색/NNG+을/JKO+사/VV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.저희가 해당 상품은 화이트만 나와서요 죄송합니다",
+            "norm_text": "A.저희가 해당 상품은 화이트만 나와서요 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+해당/NNG+상품/NNG+은/JX+화이트/NNP+만/JX+나와서/VV+EC+요/JX+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.아닙니다 어쩔 수 없죠 그걸로 할게요",
+            "norm_text": "B.아닙니다 어쩔 수 없죠 그걸로 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아닙니다/VCN+EC+어쩔/VV+ETM+수/NNB+없/VA+죠/EF+그걸로/NP+JKB+할게요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.예 그럼 주소지와 성함 그리고 번호 알려 주시겠어요",
+            "norm_text": "A.예 그럼 주소지와 성함 그리고 번호 알려 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+그럼/MAJ+주소지/NNG+와/JC+성함/NNG+그리고/MAJ+번호/NNG+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.예 경기도 #@주소#이고요",
+            "norm_text": "B.예 경기도 #@주소#이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+경기도/NNP+#/SY+@/SY+주소/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 13,
+            "text": "B.제 이름은 #@이름#에 #@전번#번이요",
+            "norm_text": "B.제 이름은 #@이름#에 #@전번#번이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+에/JKB+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+이요/JX"
+          }
+        ]
+      }
+    }
+  ]
+}

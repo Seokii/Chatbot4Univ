@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 110705,
+    "name": "c4_20211104_0045_0218_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135242012126/c4_20211104_0045_0218_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135242012126/c4_20211104_0045_0218_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 20115,
+      "filename": "c4_20210902_0008_0025_01.txt",
+      "title": "c4_20210902_0008_0025_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-09-10",
+      "size": 292,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 292,
+        "word_size": 65,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.네 #@주소#인데요 문의 좀 합시다\nA.네 선생님 어떤 문의 이십니까\nB.여기 공사장이 하나 있는데 불법주정차가 심해요\nA.네 현재 공사 현장 주정차 문제는 시에서도 인지하고있습니다\nB.인지만 하고있잖아요 단속을 해줘야 할거 아닙니까\nA.죄송합니다 공사현장 주변은 단속 가능한 구역이 아닙니다\nB.단속 구역이 아니면 불법주정차해서 사고가 나면 어쩝니까\nA.네 죄송합니다 주정차 단속반을 통하여 질서계도 조치하도록 하겠습니다\nB.단속 좀 제대로 해주세요\nA.네 죄송합니다 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 #@주소#인데요 문의 좀 합시다",
+            "norm_text": "B.네 #@주소#인데요 문의 좀 합시다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+인데/VCP+EC+요문/NNG+의/JKG+좀/MAG+합시다/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 선생님 어떤 문의 이십니까",
+            "norm_text": "A.네 선생님 어떤 문의이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+어떤/MM+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.여기 공사장이 하나 있는데 불법주정차가 심해요",
+            "norm_text": "B.여기 공사장이 하나 있는데 불법 주정차가 심해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+여기/NP+공사장/NNG+이/JKS+하/VV+나/EC+있/VX+는데/EC+불법/NNG+주정차/NNG+가/JKS+심해요/VA+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 현재 공사 현장 주정차 문제는 시에서도 인지하고있습니다",
+            "norm_text": "A.네 현재 공사 현장 주정차 문제는 시에서도 인지하고있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+현재/MAG+공사/NNG+현장/NNG+주정차/NNG+문제/NNG+는/JX+시/NNG+에서/JKB+도/JX+인지/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.인지만 하고있잖아요 단속을 해줘야 할거 아닙니까",
+            "norm_text": "B.인지만 하고 있잖아요 단속을 해줘야 할거 아닙니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+./SY+인지/VCP+EC+만/JX+하/VV+고/EC+있/VX+잖아요/EC+단속/NNG+을/JKO+해/VV+EC+줘야/VX+EC+할/VX+ETM+거/NNB+아닙니까/VCN+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.죄송합니다 공사현장 주변은 단속 가능한 구역이 아닙니다",
+            "norm_text": "A.죄송합니다 공사현장 주변은 단속가능한 구역이 아닙니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+공사/NNG+현장/NNG+주변/NNG+은/JX+단속/NNG+가능/NNG+한/XSA+ETM+구역/NNG+이/JKC+아닙니다/VCN+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.단속 구역이 아니면 불법주정차해서 사고가 나면 어쩝니까",
+            "norm_text": "B.단속 구역이 아니면 불법 주정차해서 사고가 나면 어쩝니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+단속/NNG+구역/NNG+이/JKC+아니/VCN+면/EC+불법/NNG+주정차/NNG+해서/XSV+EC+사고/NNG+가/JKS+나/VV+면/EC+어쩝니까/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 죄송합니다 주정차 단속반을 통하여 질서계도 조치하도록 하겠습니다",
+            "norm_text": "A.네 죄송합니다 주정차 단속반을 통하여 질서계도 조치하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+죄송/XR+합니다/XSA+EF+주정차/NNG+단속/NNG+반/NNG+을/JKO+통하/VV+여/EC+질서/NNG+계/XSN+도/JX+조치/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.단속 좀 제대로 해주세요",
+            "norm_text": "B.단속 좀 제대로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+단속/NNG+좀/MAG+제대로/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 죄송합니다 좋은 하루 보내세요",
+            "norm_text": "A.네 죄송합니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+죄송/XR+합니다/XSA+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

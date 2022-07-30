@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 44710,
+    "name": "c2_20211014_0002_0113_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130807025331/c2_20211014_0002_0113_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130807025331/c2_20211014_0002_0113_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 52267,
+      "filename": "c2_20210908_0010_0014_01.txt",
+      "title": "c2_20210908_0010_0014_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 528,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 528,
+        "word_size": 128,
+        "text": "A.#@소속# 교원인사과 #@이름# 장학사입니다\nB.네 안녕하세요 저는 #@소속# 교사인데요\nB.이번에 가족돌봄휴가를 사용하려고 하는데 연간 몇 일을 사용할 수 있나요\nA.지금 현재 자녀 분이 몇 분이세요\nB.아들이랑 딸 총 두 명 있어요\nA.우선 연간 총 삼일의 범위에서 유급 가족돌봄휴가를 받으실 수 있는데\nA.사용여부에 관해 자녀의 구분 기준이 없거든요\nA.그래서 한 자녀에 대해 삼일 사용이 가능한 것으로 확인 됩니다\nB.그러면 연가 관련해서도 한 가지 여쭤볼게요\nB.제가 알기로 연가 사용 가능일수가 십일일 인걸로 아는데 맞나요\nA.네 연가는 십일일 범위 내에서 사용 가능합니다\nB.그 범위 내라는 게 십일일을 단 몇시간도 초과해선 안 된다는 건가요\nA.네 선생님 십일일 이내이기 때문에 그 부분은 초과한 것으로 간주합니다\nB.이번에 연가 일자를 보니 제가 십일일 세시간을 사용했다고 하더라구요\nA.그 경우에는 가능 일수에서 세시간을 초과하여 사용한 것으로 계산됩니다\nB.그렇군요 답변 감사합니다 수고하세요\nA.네 도움이 되셨기를 바랍니다 #@이름# 장학사였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속# 교원인사과 #@이름# 장학사입니다",
+            "norm_text": "A.#@소속# 교원인사과 #@이름# 장학사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+교원/NNG+인/VCP+ETM+사과/NNG+#/SY+@/SY+이름/NNG+#/SY+장학사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 저는 #@소속# 교사인데요",
+            "norm_text": "B.네 안녕하세요 저는 #@소속# 교사인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+저/NP+는/JX+#/SY+@/SY+소속/NNG+#/SY+교사/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.이번에 가족돌봄휴가를 사용하려고 하는데 연간 몇 일을 사용할 수 있나요",
+            "norm_text": "B.가족돌봄휴가를 사용하려고 하는데 연간 몇 일을 사용할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+이번/NNG+에/JKB+가족/NNG+돌봄/VV+ETN+휴가/NNG+를/JKO+사용/NNG+하/XSV+려고/EC+하/VV+는데/EC+연간/NNG+몇일/NNG+을/JKO+사용/NNG+할/XSV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.지금 현재 자녀 분이 몇 분이세요",
+            "norm_text": "A.지금 현재 자녀 분이 몇 분이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+현재/MAG+자녀/NNG+분/NNB+이/JKS+몇/MM+분/NNBC+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.아들이랑 딸 총 두 명 있어요",
+            "norm_text": "B.아들이랑 딸 총 두 명 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+아들/NNG+이랑/JKB+딸/NNG+총/MM+두/MM+명/NNBC+있/VA+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.우선 연간 총 삼일의 범위에서 유급 가족돌봄휴가를 받으실 수 있는데",
+            "norm_text": "A.연간 총 삼일의 범위에서 유급 가족돌봄휴가를 받으실 수 있는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+우선/MAG+연간/NNG+총/MM+삼/NR+일/NNBC+의/JKG+범위/NNG+에서/JKB+유급/NNG+가족/NNG+돌봄/VV+ETN+휴가/NNG+를/JKO+받/VV+으실/EP+ETM+수/NNB+있/VV+는데/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.사용여부에 관해 자녀의 구분 기준이 없거든요",
+            "norm_text": "A.사용여부에 관해 자녀의 구분 기준이 없거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+사용/NNG+여부/NNG+에/JKB+관해/VV+EC+자녀/NNG+의/JKG+구분/NNG+기준/NNG+이/JKS+없/VA+거든요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.그래서 한 자녀에 대해 삼일 사용이 가능한 것으로 확인 됩니다",
+            "norm_text": "A.그래서 한 자녀에 대해 삼일 사용이 가능한 것으로 확인 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그래서/MAJ+한/MM+자녀/NNG+에/JKB+대해/VV+EC+삼/NR+일/NNBC+사용/NNG+이/JKS+가능/NNG+한/XSA+ETM+것/NNB+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그러면 연가 관련해서도 한 가지 여쭤볼게요",
+            "norm_text": "B.그러면 연가 관련해서도 한 가지 여쭤볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그러면/MAJ+연가/NNG+관련/NNG+해서/XSV+EC+도/JX+한/MM+가지/NNBC+여쭤볼/VV+EC+VX+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.제가 알기로 연가 사용 가능일수가 십일일 인걸로 아는데 맞나요",
+            "norm_text": "B.제가 알기로 연가 사용 가능일수가 십일일 인걸로 아는데 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+제/NP+가/JKS+알/VV+기/ETN+로/JKB+연가/NNG+사용/NNG+가능/NNG+일/VCP+ETM+수/NNB+가/JKS+십/NR+일/NR+일/NNBC+인/VCP+ETM+걸로/NNB+JKB+아/VV+는/ETM+데/NNB+맞/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 연가는 십일일 범위 내에서 사용 가능합니다",
+            "norm_text": "A.네 연가는 십일일 범위 내에서 사용 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+연가/NNG+는/JX+십/NR+일/NR+일/NNBC+범위/NNG+내/NNB+에서/JKB+사용/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그 범위 내라는 게 십일일을 단 몇시간도 초과해선 안 된다는 건가요",
+            "norm_text": "B.그 범위 내라는 게 십일일을 단 몇시간도 초과해선 안 된다는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그/MM+범위/NNG+내/NNB+라는/VCP+ETM+게/NNB+JKS+십/NR+일/NR+일/NNBC+을/JKO+단/MM+몇/MM+시간/NNG+도/JX+초과/NNG+해선/XSV+EC+JX+안/MAG+된다는/VV+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 선생님 십일일 이내이기 때문에 그 부분은 초과한 것으로 간주합니다",
+            "norm_text": "A.네 선생님 십일일 이내이기 때문에 그 부분은 초과한 것으로 간주합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+십/NR+일/NR+일/NR+이/JKS+내이/VV+기/ETN+때문/NNB+에/JKB+그/MM+부분/NNG+은/JX+초과/NNG+한/XSA+ETM+것/NNB+으로/JKB+간주/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.이번에 연가 일자를 보니 제가 십일일 세시간을 사용했다고 하더라구요",
+            "norm_text": "B.이번에 연가 일자를 보니 제가 십일일 세시간을 사용했다고 하더라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+이번/NNG+에/JKB+연가/NNG+일자/NNG+를/JKO+보/VV+니/EC+제/NP+가/JKS+십/NR+일/NR+일/NR+세/MM+시간/NNG+을/JKO+사용/NNG+했/XSV+EP+다고/EC+하/VV+더라구요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.그 경우에는 가능 일수에서 세시간을 초과하여 사용한 것으로 계산됩니다",
+            "norm_text": "A.그 경우에는 가능 일수에서 세시간을 초과하여 사용한 것으로 계산됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+경우/NNG+에/JKB+는/JX+가능/NNG+일수/NNG+에서/JKB+세/MM+시간/NNG+을/JKO+초과/NNG+하/XSV+여/EC+사용/NNG+한/XSA+ETM+것/NNB+으로/JKB+계산/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.그렇군요 답변 감사합니다 수고하세요",
+            "norm_text": "B.그렇군요 답변 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+답변/NNG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "A.네 도움이 되셨기를 바랍니다 #@이름# 장학사였습니다",
+            "norm_text": "A.네 도움이 되셨기를 바랍니다 #@이름# 장학사였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+도움/NNG+이/JKS+되/VV+셨/EP+EP+기/ETN+를/JKO+바랍니다/VV+EF+#/SY+@/SY+이름/NNG+#/SY+장학사/NNG+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

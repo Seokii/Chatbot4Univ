@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 109033,
+    "name": "s2_20211104_0001_3397_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110646055825/s2_20211104_0001_3397_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110646055825/s2_20211104_0001_3397_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115561,
+      "filename": "s2_20211012_0012_0002_01.txt",
+      "title": "s2_20211012_0012_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 259,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 259,
+        "word_size": 57,
+        "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다\nB.안녕하세요 #@상품#은 한 세트에 몇 개가 들어있나요\nA.네 고객님 잠시만 기다려 주시겠습니까\nB.네 수량 확인 부탁해요\nA.기다려주셔서 감사합니다 한 세트에 일곱 개 들어있습니다\nB.그래요 그래서 하루 한 개라고 쓰여 있는 거구나\nA.네 고객님 일주일치 분량입니다\nB.네 그렇군요 알겠습니다\nA.다른 문의사항 있으신가요 고객님\nB.아니요 없어요 감사합니다\nA.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+만족/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@상품#은 한 세트에 몇 개가 들어있나요",
+            "norm_text": "B.안녕하세요 #@상품#은 한 세트에 몇 개가 들어있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+상품/NNG+#/SY+은/JX+한/MM+세트/NNG+에/JKB+몇/MM+개/NNBC+가/JKS+들/VV+어/EC+있/VX+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 잠시만 기다려 주시겠습니까",
+            "norm_text": "A.네 고객님 잠시만 기다려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 수량 확인 부탁해요",
+            "norm_text": "B.네 수량 확인 부탁해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+수량/NNG+확인/NNG+부탁/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.기다려주셔서 감사합니다 한 세트에 일곱 개 들어있습니다",
+            "norm_text": "A.기다려주셔서 감사합니다 한 세트에 일곱 개 들어있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+한/MM+세트/NNG+에/JKB+일곱/NR+개/NNBC+들/VV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그래요 그래서 하루 한 개라고 쓰여 있는 거구나",
+            "norm_text": "B.그래요 그래서 하루 한 개라고 쓰여 있는 거구나",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+그래서/MAJ+하루/NNG+한/MM+개/NNBC+라고/VCP+EC+쓰여/VV+EC+있/VX+는/ETM+거/NNB+구나/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 일주일치 분량입니다",
+            "norm_text": "A.네 고객님 일주일치 분량입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+일주/NNG+일치/NNG+분량/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 그렇군요 알겠습니다",
+            "norm_text": "B.네 그렇군요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.다른 문의사항 있으신가요 고객님",
+            "norm_text": "A.다른 문의사항 있으신가요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.아니요 없어요 감사합니다",
+            "norm_text": "B.아니요 없어요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아니요/IC+없/VA+어요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+            "norm_text": "A.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+추가/NNG+문/NNG+의/JKG+사항/NNG+언제든지/MAG+연락/NNG+주세요/NNP+#/SY+@/SY+소속/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

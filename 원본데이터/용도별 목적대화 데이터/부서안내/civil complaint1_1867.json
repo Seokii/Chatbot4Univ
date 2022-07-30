@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 12114,
+    "name": "c1_20210913_0005_0632_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340023890/c1_20210913_0005_0632_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340023890/c1_20210913_0005_0632_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10537,
+      "filename": "c1_20210819_0008_0015_01.txt",
+      "title": "c1_20210819_0008_0015_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 200,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 200,
+        "word_size": 42,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.#@소속# 좀 연결 해주세요\nA.네 죄송합니다 어느 시청이십니까\nB.네  #@소속# 이요\nA.죄송하지만 저희 쪽에서는 #@소속# 대표 번호로 안내가 가능합니다\nA.#@소속# 대표번호는 #@전번#입니다\nB.#@전번#이요 예 알았어요\nA.예 더 다른 문의사항 없으십니까\nB.예 다른 문의 사항 없습니다 고생하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속# 좀 연결 해주세요",
+            "norm_text": "B.#@소속# 좀 연결 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+좀/MAG+연결/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 죄송합니다 어느 시청이십니까",
+            "norm_text": "A.네 죄송합니다 어느 시청이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+죄송/XR+합니다/XSA+EF+어느/MM+시청/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네  #@소속# 이요",
+            "norm_text": "B.네  #@소속# 이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.죄송하지만 저희 쪽에서는 #@소속# 대표 번호로 안내가 가능합니다",
+            "norm_text": "A.죄송하지만 저희 쪽에서는 #@소속# 대표 번호로 안내가 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+저희/NP+쪽/NNB+에서/JKB+는/JX+#/SY+@/SY+소속/NNG+#/SY+대표/NNG+번호/NNG+로/JKB+안내/NNG+가/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.#@소속# 대표번호는 #@전번#입니다",
+            "norm_text": "A.#@소속# 대표번호는 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+대표/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.#@전번#이요 예 알았어요",
+            "norm_text": "B.#@전번#이요 예 알았어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+이/JKS+요예/NNG+알/VV+았/EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.예 더 다른 문의사항 없으십니까",
+            "norm_text": "A.예 더 다른 문의사항 없으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+더/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+없/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.예 다른 문의 사항 없습니다 고생하세요",
+            "norm_text": "B.예 다른 문의 사항 없습니다 고생하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+다른/MM+문/NNG+의/JKG+사항/NNG+없/VA+습니다/EF+고생/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

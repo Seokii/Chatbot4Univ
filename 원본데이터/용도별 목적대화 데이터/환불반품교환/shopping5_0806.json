@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 49675,
+    "name": "s5_20211015_0001_2197_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130709023777/s5_20211015_0001_2197_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130709023777/s5_20211015_0001_2197_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50660,
+      "filename": "s5_20210830_0028_0015_01.txt",
+      "title": "s5_20210830_0028_0015_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 142,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 142,
+        "word_size": 31,
+        "text": "A.고객님 배송 주문 이력 먼저 확인 후 안내해드리겠습니다\nA.주문자분 성함이 되십니까\nB.제 이름은 #@이름# 입니다\nA.네 #@이름#님 휴대폰 번호는 몇 번이신가요\nB.제 전화번호는 #@전번#입니다\nA.네 고객님 잠시만 기다려주시겠어요\nB.네 기다리고 있겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 배송 주문 이력 먼저 확인 후 안내해드리겠습니다",
+            "norm_text": "A.고객님 배송 주문 이력 먼저 확인 후 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+배송/NNG+주문/NNG+이력/NNG+먼저/MAG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 2,
+            "text": "A.주문자분 성함이 되십니까",
+            "norm_text": "A.주문자분 성함이 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주문자/NNG+분성/NNG+함/XSV+ETN+이/JKS+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.제 이름은 #@이름# 입니다",
+            "norm_text": "B.제 이름은 #@이름# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 #@이름#님 휴대폰 번호는 몇 번이신가요",
+            "norm_text": "A.네 #@이름#님 휴대폰 번호는 몇 번이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+님/XSN+휴대폰/NNG+번호/NNG+는/JX+몇/MM+번/NNBC+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.제 전화번호는 #@전번#입니다",
+            "norm_text": "B.제 전화번호는 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 고객님 잠시만 기다려주시겠어요",
+            "norm_text": "A.네 고객님 잠시만 기다려주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.네 기다리고 있겠습니다",
+            "norm_text": "B.네 기다리고 있겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+기다리/VV+고/EC+있/VX+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

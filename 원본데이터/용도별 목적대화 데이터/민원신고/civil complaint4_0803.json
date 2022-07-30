@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 43968,
+    "name": "c4_20211014_0011_0021_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131156034567/c4_20211014_0011_0021_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131156034567/c4_20211014_0011_0021_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56168,
+      "filename": "c4_20210908_0022_0005_01.txt",
+      "title": "c4_20210908_0022_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 467,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 467,
+        "word_size": 98,
+        "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다\nA.예 여쭤보시고 싶은게 어떤 사항이신가요\nB.얼마전에 지인이 과전류에 의해 사고를 입어서 입원한 적이 있었어요\nA.그러셨나요 정말 큰일날 뻔하셨네요 위험하셨을텐데요\nB.예 그래서 그러는데 화재수신기 기능 기준이 어떻게 되나요\nA.과전류를 감지하는 수신기 말씀하시는건가요\nB.아 그게 화재수신기 아닌가요 그렇게 알고있었는데\nA.네 맞아요 저희가 전원선 등에 대한 내성시험을 할 때 사용하기도 합니다\nB.그럼 사고가 있었을 시 왜 수신기가 제대로 작동하지 않았을까요\nA.전원선 등에 대한 내성에 문제가 생겼을 것으로 보이는데요\nB.원인을 저희도 모르겠어서 답답할 따름입니다\nA.그러시면 저희쪽으로 수신기를 가져오셔서 제품검사를 받아보시는건 어떠세요\nB.그렇군요 찾아가보겠습니다 다른 문의사항 있으면 전화드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "norm_text": "B.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 여쭤보시고 싶은게 어떤 사항이신가요",
+            "norm_text": "A.예 여쭤보시고 싶은게 어떤 사항이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+어떤/MM+사항/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.얼마전에 지인이 과전류에 의해 사고를 입어서 입원한 적이 있었어요",
+            "norm_text": "B.얼마전에 지인이 과전류에 의해 사고를 입어서 입원한 적이 있었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+얼마/NNG+전/NNG+에/JKB+지인/NNG+이/JKS+과전류/NNG+에/JKB+의해/VV+EC+사고/NNG+를/JKO+입/VV+어서/EC+입원/NNG+한/XSA+ETM+적/NNB+이/JKS+있/VA+었/EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.그러셨나요 정말 큰일날 뻔하셨네요 위험하셨을텐데요",
+            "norm_text": "A.그러셨나요 정말 큰일날 뻔하셨네요 위험하셨을텐데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+셨/EP+EP+나요/EF+정말/MAG+큰일날/VV+ETM+뻔/NNB+하/XSA+셨/EP+EP+네요/EF+위험/NNG+하/XSV+셨/EP+EP+을/ETM+텐데요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예 그래서 그러는데 화재수신기 기능 기준이 어떻게 되나요",
+            "norm_text": "B.예 그래서 그러는데 화재수신기 기능 기준이 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+그래서/MAJ+그러/VV+는데/EC+화재/NNG+수신기/NNG+기능/NNG+기준/NNG+이/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.과전류를 감지하는 수신기 말씀하시는건가요",
+            "norm_text": "A.과전류를 감지하는 수신기 말씀하시는건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+과전류/NNG+를/JKO+감지/NNG+하/XSV+는/ETM+수신기/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.아 그게 화재수신기 아닌가요 그렇게 알고있었는데",
+            "norm_text": "B.아 그게 화재수신기 아닌가요 그렇게 알고있었는데",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그게/NP+JKS+화재/NNG+수신기/NNG+아닌가요/VCN+EF+그렇게/MAG+알/VV+고/EC+있/VX+었/EP+는데/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 맞아요 저희가 전원선 등에 대한 내성시험을 할 때 사용하기도 합니다",
+            "norm_text": "A.네 맞아요 저희가 전원선 등에 대한 내성시험을 할 때 사용하기도 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+아요/EF+저희/NP+가/JKS+전원/NNG+선등/NNG+에/JKB+대한/VV+ETM+내성/NNP+시험/NNG+을/JKO+할/VV+ETM+때/NNG+사용/NNG+하/XSV+기/ETN+도/JX+합니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 사고가 있었을 시 왜 수신기가 제대로 작동하지 않았을까요",
+            "norm_text": "B.그럼 사고가 있었을 시 왜 수신기가 제대로 작동하지 않았을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+사고/NNG+가/JKS+있/VA+었/EP+을시/EC+왜/MAG+수신기/NNG+가/JKS+제대로/MAG+작동/NNG+하/XSV+지/EC+않/VX+았/EP+을까요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.전원선 등에 대한 내성에 문제가 생겼을 것으로 보이는데요",
+            "norm_text": "A.전원선 등에 대한 내성에 문제가 생겼을 것으로 보이는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전원/NNG+선등/NNG+에/JKB+대한/VV+ETM+내성/NNP+에/JKB+문제/NNG+가/JKS+생겼/VV+EP+을/ETM+것/NNB+으로/JKB+보이/VV+는데요/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.원인을 저희도 모르겠어서 답답할 따름입니다",
+            "norm_text": "B.원인을 저희도 모르겠어서 답답할 따름입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+원인/NNG+을/JKO+저희/NP+도/JX+모르/VV+겠/EP+어서/EC+답답/XR+할/XSA+ETM+따름/NNB+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.그러시면 저희쪽으로 수신기를 가져오셔서 제품검사를 받아보시는건 어떠세요",
+            "norm_text": "A.그러시면 저희쪽으로 수신기를 가져오셔서 제품검사를 받아보시는건 어떠세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+저희/NP+쪽/NNB+으로/JKB+수신기/NNG+를/JKO+가져오/VV+셔서/EP+EC+제품/NNG+검사/NNG+를/JKO+받/VV+아/EC+보/VX+시/EP+는/ETM+건/NNB+JX+어떠세요/VA+EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.그렇군요 찾아가보겠습니다 다른 문의사항 있으면 전화드릴게요",
+            "norm_text": "B.그렇군요 찾아가보겠습니다 다른 문의사항 있으면 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+그렇/VA+군요/EC+찾아가/VV+EC+보/VX+겠/EP+습니다/EF+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으면/EC+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

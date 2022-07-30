@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 44005,
+    "name": "c4_20211014_0011_0052_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131155093044/c4_20211014_0011_0052_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131155093044/c4_20211014_0011_0052_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56124,
+      "filename": "c4_20210908_0027_0024_01.txt",
+      "title": "c4_20210908_0027_0024_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 282,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 282,
+        "word_size": 59,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.여기 #@주소#에 가로등 보조등이라고 하나요\nB.인도에 비치는 등 그거 수리 좀 해주세요\nA.네 선생님 우선 주소 좀 말해주세요\nB.여기가 #@주소#입니다 가능한가요\nA.네 가로등 고장으로 보수를 위한 자재를 준비해야 합니다\nA.최대한 조속히 처리될 수 있도록 하겠습니다\nB.처리가 된다니 다행이네요 감사합니다\nA.추가 사항은 도로관리사업소 도로관리과 기전시설팀으로 연락주세요\nB.네 빠른 접수 감사합니다\nA.아닙니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.여기 #@주소#에 가로등 보조등이라고 하나요",
+            "norm_text": "B.여기 #@주소#에 가로등 보조등이라고 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여기/NP+#/SY+@/SY+주소/NNG+#/SY+에/JKB+가로등/NNG+보조/NNG+등/NNB+이/VCP+라고/EC+하/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.인도에 비치는 등 그거 수리 좀 해주세요",
+            "norm_text": "B.인도에 비치는 등 그거 수리 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+인도/NNP+에/JKB+비치/VV+는/ETM+등/NNB+그거/NP+수리/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 선생님 우선 주소 좀 말해주세요",
+            "norm_text": "A.네 선생님 우선 주소 좀 말해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+우선/MAG+주소/NNG+좀/MAG+말/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.여기가 #@주소#입니다 가능한가요",
+            "norm_text": "B.여기가 #@주소#입니다 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여기/NP+가/JKS+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EF+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.네 가로등 고장으로 보수를 위한 자재를 준비해야 합니다",
+            "norm_text": "A.네 가로등 고장으로 보수를 위한 자재를 준비해야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+가로등/NNG+고장/NNG+으로/JKB+보수/NNG+를/JKO+위한/VV+ETM+자재/NNG+를/JKO+준비/NNG+해야/XSV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.최대한 조속히 처리될 수 있도록 하겠습니다",
+            "norm_text": "A.최대한 조속히 처리될 수 있도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+최대한/MAG+조속히/MAG+처리/NNG+될/XSV+ETM+수/NNB+있/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.처리가 된다니 다행이네요 감사합니다",
+            "norm_text": "B.처리가 된다니 다행이네요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+처리/NNG+가/JKS+된다니/VV+EC+다행/NNG+이/VCP+네요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.추가 사항은 도로관리사업소 도로관리과 기전시설팀으로 연락주세요",
+            "norm_text": "A.추가 사항은 도로관리사업소 도로관리과 기전시설팀으로 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+추가/NNG+사항/NNG+은/JX+도로/NNG+관리/NNG+사업소/NNG+도로/NNG+관리/NNG+과기/NNG+전/NNG+시설/NNG+팀/NNG+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 11,
+            "text": "B.네 빠른 접수 감사합니다",
+            "norm_text": "B.네 빠른 접수 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+빠른/VA+ETM+접수/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.아닙니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.아닙니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+아닙니다/VCN+EC+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

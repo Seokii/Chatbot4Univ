@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 56390,
+    "name": "c4_20211019_0001_2796_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130702073512/c4_20211019_0001_2796_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130702073512/c4_20211019_0001_2796_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49905,
+      "filename": "c4_20210903_0008_0005_01.txt",
+      "title": "c4_20210903_0008_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 297,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 297,
+        "word_size": 65,
+        "text": "A.무엇이든 도와드리겠습니다 #@소속# 상담원 #@이름#입니다\nB.어린이 공원에 놀이터 좀 보수해주셨으면 좋겠거든요\nA.네 어느 지역이십니까\nB.네 여기 창원시 의창구 #@주소#에요\nA.네 어린이 공원 이름을 아십니까\nB.달빛 어린이 공원 이거든요\nA.네 어린이 공원 확인됩니다 어떤 문의 이십니까\nB.공원 내에 그네줄이 끊어져서 보수 요청하려고요\nA.네 죄송합니다 그네줄은 부품 조달에 시간이 소요되어 즉각 교체가 어렵습니다\nB.즉각 교체가 어려우면 오는대로라도 보수 좀 해주세요\nA.네 알겠습니다 부품 조달되는대로 조치하도록 하겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.무엇이든 도와드리겠습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.무엇이든 도와드리겠습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+무엇/NP+이/VCP+든/EC+도와/VV+EC+드리/VX+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.어린이 공원에 놀이터 좀 보수해주셨으면 좋겠거든요",
+            "norm_text": "B.어린이 공원에 놀이터 좀 보수해주셨으면 좋겠거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+어린이/NNG+공원/NNG+에/JKB+놀이터/NNG+좀/MAG+보수/NNG+해/XSV+EC+주/VX+셨/EP+EP+으면/EC+좋/VA+겠/EP+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어느 지역이십니까",
+            "norm_text": "A.네 어느 지역이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어느/MM+지역/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 여기 창원시 의창구 #@주소#에요",
+            "norm_text": "B.네 여기 창원시 의창구 #@주소#에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+여기/NP+창원시/NNP+의/JKG+창구/NNG+#/SY+@/SY+주소/NNG+#/SY+에/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.네 어린이 공원 이름을 아십니까",
+            "norm_text": "A.네 어린이 공원 이름을 아십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어린이/NNG+공원/NNG+이름/NNG+을/JKO+아십니까/VV+EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.달빛 어린이 공원 이거든요",
+            "norm_text": "B.달빛 어린이 공원 이거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+달빛/NNG+어린이/NNG+공원/NNG+이/VCP+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 어린이 공원 확인됩니다 어떤 문의 이십니까",
+            "norm_text": "A.네 어린이 공원 확인됩니다 어떤 문의 이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어린이/NNG+공원/NNG+확인/NNG+됩니다/XSV+EF+어떤/MM+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.공원 내에 그네줄이 끊어져서 보수 요청하려고요",
+            "norm_text": "B.공원 내에 그네줄이 끊어져서 보수 요청하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+공원/NNG+내/NNB+에/JKB+그/NP+네/XSN+줄/NNG+이/JKS+끊어져서/VV+EC+보수/NNG+요청/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 죄송합니다 그네줄은 부품 조달에 시간이 소요되어 즉각 교체가 어렵습니다",
+            "norm_text": "A.네 죄송합니다 그네줄은 부품 조달에 시간이 소요되어 즉각 교체가 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+네/IC+죄송/XR+합니다/XSA+EF+그/NP+네/XSN+줄/NNG+은/JX+부품/NNG+조달/NNG+에/JKB+시간/NNG+이/JKS+소요/NNG+되/XSV+어/EC+즉각/MAG+교체/NNG+가/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.즉각 교체가 어려우면 오는대로라도 보수 좀 해주세요",
+            "norm_text": "B.즉각 교체가 어려우면 오는대로라도 보수 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+즉각/MAG+교체/NNG+가/JKS+어려우/VA+면/EC+오/VV+는/ETM+대로/NNB+라도/VCP+EC+보수/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 알겠습니다 부품 조달되는대로 조치하도록 하겠습니다 감사합니다",
+            "norm_text": "A.네 알겠습니다 부품 조달되는대로 조치하도록 하겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+부품/NNG+조달/NNG+되/XSV+는/ETM+대로/NNB+조치/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

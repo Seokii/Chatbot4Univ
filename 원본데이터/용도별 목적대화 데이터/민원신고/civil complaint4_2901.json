@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 60863,
+    "name": "c4_20211021_0023_0066_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131233091615/c4_20211021_0023_0066_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131233091615/c4_20211021_0023_0066_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57016,
+      "filename": "c4_20210927_0005_0011_01.txt",
+      "title": "c4_20210927_0005_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 456,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 456,
+        "word_size": 103,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.제가 #@주소# 아파트 살거든요 근데 거기 가는 보행로가 너무 어두워요\nA.#@주소# 아파트 말씀이십니까 선생님\nB.네 거기 #@소속# 회사 아파트가 올라가고 있는데 대책 없이 집만 짓고요\nB.원래 살던 주민들 다니는 길이 어두컴컴하고 외지게 되었어요\nA.네 그러십니까 그러면 이 부분 담당자에게 전달해서요\nA.해당 아파트 준공 전에 보행 환경 불편 사항 반영하여 개선작업 진행하겠습니다\nB.이 일대가 다 가로등도 낡았고 꺼져 있는 것도 많아요\nA.예 그런 부분도 노후 가로등을 고효율 엘이디 등으로 교체하고요\nA.필요한 곳에는 추가 설치할 수 있도록 검토하도록 하겠습니다\nB.혹시 담당자 연락처 알 수 있을까요\nA.담당자는 #@소속# 건설도로과 #@이름# 주무관 #@전번#입니다\nB.고맙습니다 메모 했습니다 끊을게요\nA.감사합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 #@주소# 아파트 살거든요 근데 거기 가는 보행로가 너무 어두워요",
+            "norm_text": "B.제가 #@주소# 아파트 살거든요 근데 거기 가는 보행로가 너무 어두워요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+#/SY+@/SY+주소/NNG+#/SY+아파트/NNG+살/VV+거든요/EF+근데/MAJ+거기/NP+가/VV+는/ETM+보행로/NNG+가/JKS+너무/MAG+어두워/VA+EC+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.#@주소# 아파트 말씀이십니까 선생님",
+            "norm_text": "A.#@주소# 아파트 말씀이십니까 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+아파트/NNG+말씀/NNG+이/VCP+십니까/EP+EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.네 거기 #@소속# 회사 아파트가 올라가고 있는데 대책 없이 집만 짓고요",
+            "norm_text": "B.네 거기 #@소속# 회사 아파트가 올라가고 있는데 대책 없이 집만 짓고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+거기/NP+#/SY+@/SY+소속/NNG+#/SY+회사/NNG+아파트/NNG+가/JKS+올라가/VV+고/EC+있/VX+는데/EC+대책/NNG+없이/MAG+집/NNG+만/JX+짓/VV+고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.원래 살던 주민들 다니는 길이 어두컴컴하고 외지게 되었어요",
+            "norm_text": "B.원래 살던 주민들 다니는 길이 어두컴컴하고 외지게 되었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+원래/MAG+살/VV+던/ETM+주민/NNG+들/XSN+다니/VV+는/ETM+길/NNG+이/JKS+어두컴컴/XR+하/XSA+고/EC+외지/VA+게/EC+되/VV+었/EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 그러십니까 그러면 이 부분 담당자에게 전달해서요",
+            "norm_text": "A.네 그러십니까 그러면 이 부분 담당자에게 전달해서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그러/VV+십니까/EP+EF+그러면/MAJ+이/MM+부분/NNG+담당자/NNG+에게/JKB+전달/NNG+해서/XSV+EC+VCP+VCP+요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.해당 아파트 준공 전에 보행 환경 불편 사항 반영하여 개선작업 진행하겠습니다",
+            "norm_text": "A.해당 아파트 준공 전에 보행 환경 불편 사항 반영하여 개선작업 진행하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+해당/NNG+아파트/NNG+준공/NNG+전/NNG+에/JKB+보행/NNG+환경/NNG+불편/NNG+사항/NNG+반영/NNG+하/XSV+여/EC+개선/NNG+작업/NNG+진행/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.이 일대가 다 가로등도 낡았고 꺼져 있는 것도 많아요",
+            "norm_text": "B.이 일대가 다 가로등도 낡았고 꺼져 있는 것도 많아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이/MM+일대/NNG+가/JKS+다/MAG+가로등/NNG+도/JX+낡/VA+았/EP+고/EC+꺼져/VV+EC+VX+EC+있/VX+는/ETM+것/NNB+도/JX+많/VA+아요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.예 그런 부분도 노후 가로등을 고효율 엘이디 등으로 교체하고요",
+            "norm_text": "A.예 그런 부분도 노후 가로등을 고효율 엘이디 등으로 교체하고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+그런/MM+부분/NNG+도/JX+노후/NNG+가로등/NNG+을/JKO+고/XPN+효율/NNG+엘이디/NNG+등/NNB+으로/JKB+교체/NNG+하/XSV+고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.필요한 곳에는 추가 설치할 수 있도록 검토하도록 하겠습니다",
+            "norm_text": "A.필요한 곳에는 추가 설치할 수 있도록 검토하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+필요/NNG+한/XSA+ETM+곳/NNG+에/JKB+는/JX+추가/NNG+설치/NNG+할/XSV+ETM+수/NNB+있/VV+도록/EC+검토/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.혹시 담당자 연락처 알 수 있을까요",
+            "norm_text": "B.혹시 담당자 연락처 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+담당자/NNG+연락처/NNG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.담당자는 #@소속# 건설도로과 #@이름# 주무관 #@전번#입니다",
+            "norm_text": "A.담당자는 #@소속# 건설도로과 #@이름# 주무관 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+담당자/NNG+는/JX+#/SY+@/SY+소속/NNG+#/SY+건설/NNG+도로/NNG+과/NNG+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.고맙습니다 메모 했습니다 끊을게요",
+            "norm_text": "B.고맙습니다 메모 했습니다 끊을게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+고맙/VA+습니다/EF+메모/NNG+했/XSV+EP+습니다/EF+끊/VV+을게요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

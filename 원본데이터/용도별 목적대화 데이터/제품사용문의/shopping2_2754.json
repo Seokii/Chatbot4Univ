@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 118191,
+    "name": "s2_20211105_0001_4347_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110650097727/s2_20211105_0001_4347_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110650097727/s2_20211105_0001_4347_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116070,
+      "filename": "s2_20211026_0012_0001_01.txt",
+      "title": "s2_20211026_0012_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 251,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 251,
+        "word_size": 51,
+        "text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다\nB.오늘 택배 받았는데 건전지가 안 들어있네요\nA.고객님 어떤 제품인가요\nB.그게 #@상품#인데 건전지가 없어요\nA.확인 후 안내드리겠습니다 고객님\nA.고객님 #@상품#은 건전지를 따로 구매하셔야 합니다\nB.그래요 보통 들어있던데요\nA.죄송하지만 #@상품#은 건전지 불포함입니다\nB.예 알겠습니다 사야죠\nA.네 고객님 다른 문의사항 있으신가요\nB.아니요 아닙니다 수고하세요\nA.날씨가 많이 추운데 건강 유의하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.오늘 택배 받았는데 건전지가 안 들어있네요",
+            "norm_text": "B.오늘 택배 받았는데 건전지가 안 들어있네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+오늘/MAG+택배/NNG+받/VV+았/EP+는데/EC+건전지/NNG+가/JKS+안/MAG+들/VV+어/EC+있/VX+네요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 어떤 제품인가요",
+            "norm_text": "A.고객님 어떤 제품인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+어떤/MM+제품/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그게 #@상품#인데 건전지가 없어요",
+            "norm_text": "B.그게 #@상품#인데 건전지가 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그게/NP+JKS+#/SY+@/SY+상품/NNG+#/SY+인데/VCP+EC+건전지/NNG+가/JKS+없/VA+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.확인 후 안내드리겠습니다 고객님",
+            "norm_text": "A.확인 후 안내드리겠습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+확인/NNG+후/NNG+안/MAG+내드리/VV+겠/EP+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 6,
+            "text": "A.고객님 #@상품#은 건전지를 따로 구매하셔야 합니다",
+            "norm_text": "A.고객님 #@상품#은 건전지를 따로 구매하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+#/SY+@/SY+상품/NNG+#/SY+은/JX+건전지/NNG+를/JKO+따로/MAG+구매/NNG+하/XSV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그래요 보통 들어있던데요",
+            "norm_text": "B.그래요 보통 들어있던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+보통/NNG+들/VV+어/EC+있/VX+던데요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.죄송하지만 #@상품#은 건전지 불포함입니다",
+            "norm_text": "A.죄송하지만 #@상품#은 건전지 불포함입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+#/SY+@/SY+상품/NNG+#/SY+은/JX+건전지/NNG+불/XPN+포함/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.예 알겠습니다 사야죠",
+            "norm_text": "B.예 알겠습니다 사야죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+알/VV+겠/EP+습니다/EF+사/VV+야죠/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 고객님 다른 문의사항 있으신가요",
+            "norm_text": "A.네 고객님 다른 문의사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "B.아니요 아닙니다 수고하세요",
+            "norm_text": "B.아니요 아닙니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아니요/IC+아닙니다/VCN+EC+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.날씨가 많이 추운데 건강 유의하세요",
+            "norm_text": "A.날씨가 많이 추운데 건강 유의하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+날씨/NNG+가/JKS+많이/MAG+추운데/VA+EC+건강/NNG+유의/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

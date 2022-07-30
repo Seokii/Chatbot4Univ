@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 8123,
+    "name": "KAKAO_2563_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/47/txt20210910100345081263/KAKAO_2563_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/47/txt20210910100345081263/KAKAO_2563_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 18968,
+      "filename": "KAKAO_2563_03.txt",
+      "title": "KAKAO_2563_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-09-10",
+      "size": 602,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 602,
+        "word_size": 190,
+        "text": "1 : 출퇴근 할 때 차 몰고 다니면 기름값 많이 나오려나?\n1 : 지하철로 다니면 8,9만원 내외로 나오던데\n2 : 뭐야 정액권 안쓰는거야?\n1 : 정액권 쓰면 그 정도 나와\n2 : 아닌데 55000원 60회인데 ?\n1 : 아, 분당에서 다닐 때\n1 : 그러면 서울은 차 몰고 다니는 것보다 그냥 지하철 타는 게 낫겠네\n2 : 정액권 충전하는거 귀찮다고 사용 안하는거 아니겠지?\n2 : 그리고 비용도 그렇지만 막히잖아~\n1 : 어~차 타고 다니려면 시간대 잘 생각해서 나와야지 안 그러면 막힘\n1 : 아침에 우리 동네 도로도 보면 차들 엄청 많잖아\n2 : 내 회사쪽도 거의 다 와서 최소 30분은 막힌데.\n2 : 터널쪽은 답 없대\n1 : 여의도 방면은 그렇게 안 많은데\n1 : 강남쪽은 엄청 많음\n2 : 여의도는 괜찮고\n2 : 그래도 오늘같이 비오는날은 차 몰고 가고 싶다\n1 : 서서 지하철 가려니까 다리도 아프다\n1 : 오늘 조금 늦게 나왔더니 고터에서도 자리가 안 나네\n1 : 평소 시간에는 고터에서 자리 좀 나는데\n2 : 나도 거의 서서 가다가 내리기 10분전에 앉아 ㅠ\n2 : **이 임신때도 매번 이랬음\n1 : 여보는 차 몰고 다니려면 운전부터 배워\n2 : 그러게 말이다.\n2 : 첨부터 다 다시해야 할판.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 출퇴근 할 때 차 몰고 다니면 기름값 많이 나오려나?",
+            "norm_text": "출퇴근 할 때 차 몰고 다니면 기름값 많이 나오려나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "출퇴근할때차몰고다니면기름값많이나오려나/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "1 : 지하철로 다니면 8,9만원 내외로 나오던데",
+            "norm_text": "지하철로 다니면 8,9만원 내외로 나오던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지하철/NNG+로/JKB+다니/VV+면/EC+8/SN+,/SC+9/SN+만/NR+원/NNBC+내외/NNG+로/JKB+나오/VV+던데/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 뭐야 정액권 안쓰는거야?",
+            "norm_text": "뭐야 정액권 안쓰는거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/NP+야/VCP+EF+정액/NNG+권/XSN+안/MAG+쓰/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 정액권 쓰면 그 정도 나와",
+            "norm_text": "정액권 쓰면 그 정도 나와",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "정액권/NNG+쓰/VV+면/EC+그/MM+정도/NNG+나와/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 아닌데 55000원 60회인데 ?",
+            "norm_text": "아닌데 55000원 60회인데 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아닌데/VCN+EC+55000/SN+원/NNBC+60/SN+회/NNBC+인데/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아, 분당에서 다닐 때",
+            "norm_text": "아, 분당에서 다닐 때",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+,/SC+분당/NNP+에서/JKB+다닐/VV+ETM+때/NNG"
+          },
+          {
+            "id": 7,
+            "text": "1 : 그러면 서울은 차 몰고 다니는 것보다 그냥 지하철 타는 게 낫겠네",
+            "norm_text": "그러면 서울은 차 몰고 다니는 것보다 그냥 지하철 타는 게 낫겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그러면/MAJ+서울/NNP+은/JX+차/NNG+몰/VV+고/EC+다니/VV+는/ETM+것/NNB+보다/JKB+그냥/MAG+지하철/NNG+타/VV+는/ETM+게/NNB+JKS+낫/VA+겠/EP+네/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 정액권 충전하는거 귀찮다고 사용 안하는거 아니겠지?",
+            "norm_text": "정액권 충전하는거 귀찮다고 사용 안하는거 아니겠지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "정액/NNG+권/XSN+충전/NNG+하/XSV+는/ETM+거/NNB+귀찮/VA+다고/EC+사용/NNG+안/MAG+하/VV+는/ETM+거/NNB+아니/VCN+겠/EP+지/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그리고 비용도 그렇지만 막히잖아~",
+            "norm_text": "그리고 비용도 그렇지만 막히잖아~",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그리고/MAJ+비용/NNG+도/JX+그렇/VA+지만/EC+막히/VV+잖아/EC+~/SY"
+          },
+          {
+            "id": 10,
+            "text": "1 : 어~차 타고 다니려면 시간대 잘 생각해서 나와야지 안 그러면 막힘",
+            "norm_text": "어~차 타고 다니려면 시간대 잘 생각해서 나와야지 안 그러면 막힘",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+~/SY+차타고다니려면시간대잘생각해서나와야지안그러면막힘/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "1 : 아침에 우리 동네 도로도 보면 차들 엄청 많잖아",
+            "norm_text": "아침에 우리 동네 도로도 보면 차들 엄청 많잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아침/NNG+에/JKB+우리/NP+동네/NNG+도로/NNG+도/JX+보/VV+면/EC+차/NNG+들/XSN+엄청/MAG+많/VA+잖아/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 내 회사쪽도 거의 다 와서 최소 30분은 막힌데.",
+            "norm_text": "내 회사쪽도 거의 다 와서 최소 30분은 막힌데.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+JKG+회사/NNG+쪽/NNB+도/JX+거의/MAG+다/MAG+와서/VV+EC+최소/NNG+30/SN+분/NNBC+은/JX+막힌/VV+ETM+데/NNB"
+          },
+          {
+            "id": 13,
+            "text": "2 : 터널쪽은 답 없대",
+            "norm_text": "터널쪽은 답 없대",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "터널/NNG+쪽/NNB+은/JX+답/NNG+없/VA+대/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 여의도 방면은 그렇게 안 많은데",
+            "norm_text": "여의도 방면은 그렇게 안 많은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여의도/NNP+방면/NNG+은/JX+그렇게/MAG+안/MAG+많/VA+은데/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 강남쪽은 엄청 많음",
+            "norm_text": "강남쪽은 엄청 많음",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "강남/NNP+쪽/NNB+은/JX+엄청/MAG+많/VA+음/ETN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 여의도는 괜찮고",
+            "norm_text": "여의도는 괜찮고",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "여의도/NNP+는/JX+괜찮/VA+고/EC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 그래도 오늘같이 비오는날은 차 몰고 가고 싶다",
+            "norm_text": "그래도 오늘같이 비오는날은 차 몰고 가고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+오늘/MAG+같이/MAG+비오/VV+는/ETM+날/NNG+은/JX+차/NNG+몰고가/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 서서 지하철 가려니까 다리도 아프다",
+            "norm_text": "서서 지하철 가려니까 다리도 아프다",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "서서지하철가려니까다리도아프다/UNKNOWN"
+          },
+          {
+            "id": 19,
+            "text": "1 : 오늘 조금 늦게 나왔더니 고터에서도 자리가 안 나네",
+            "norm_text": "오늘 조금 늦게 나왔더니 고터에서도 자리가 안 나네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오늘/MAG+조금/MAG+늦/VA+게/EC+나왔/VV+EP+더니/EC+고/XPN+터/NNG+에서/JKB+도/JX+자리/NNG+가/JKS+안/MAG+나/NP+네/XSN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 평소 시간에는 고터에서 자리 좀 나는데",
+            "norm_text": "평소 시간에는 고터에서 자리 좀 나는데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "평소/NNG+시간/NNG+에/JKB+는/JX+고/XPN+터/NNG+에서/JKB+자리/NNG+좀/MAG+나/VV+는데/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 나도 거의 서서 가다가 내리기 10분전에 앉아 ㅠ",
+            "norm_text": "나도 거의 서서 가다가 내리기 10분전에 앉아 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+거의/MAG+서/VV+서/EC+가/VX+다가/EC+내리/VV+기/ETN+10/SN+분전에앉아ㅠ/UNKNOWN"
+          },
+          {
+            "id": 22,
+            "text": "2 : **이 임신때도 매번 이랬음",
+            "norm_text": "**이 임신때도 매번 이랬음",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "*/SY+*/SY+이/JKS+임신/NNG+때/NNG+도/JX+매번/MAG+이랬/VV+EP+음/ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 여보는 차 몰고 다니려면 운전부터 배워",
+            "norm_text": "여보는 차 몰고 다니려면 운전부터 배워",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "40대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "여보/NNG+는/JX+차/NNG+몰/VV+고/EC+다니/VV+려면/EC+운전/NNG+부터/JX+배워/VV+EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 그러게 말이다.",
+            "norm_text": "그러게 말이다.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "그러/VV+게/EC+말/NNG+이/VCP+다/EF"
+          },
+          {
+            "id": 25,
+            "text": "2 : 첨부터 다 다시해야 할판.",
+            "norm_text": "첨부터 다 다시해야 할판.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "40대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "첨/NNG+부터/JX+다/MAG+다시/MAG+해야/VV+EC+할/VX+ETM+판/NNB"
+          }
+        ]
+      }
+    }
+  ]
+}

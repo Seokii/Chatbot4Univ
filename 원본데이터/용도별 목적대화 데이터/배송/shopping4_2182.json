@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 120159,
+    "name": "s4_20211105_0010_4390_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110930027296/s4_20211105_0010_4390_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110930027296/s4_20211105_0010_4390_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 120458,
+      "filename": "s4_20211008_0007_0015_01.txt",
+      "title": "s4_20211008_0007_0015_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 256,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 256,
+        "word_size": 61,
+        "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.네 안녕하세요 문의드릴 게 있어서요\nA.네 어떤 문의이실까요 고객님\nB.이미 상품을 수령했는데 출고했다는 알림이 왔어요\nA.운송장 번호를 입력하여 출고 완료로 변경되면 알림이 전송됩니다\nA.상품을 발송한 뒤 운송장 번호를 늦게 입력한 경우입니다\nB.그럼 또 출고 되고 이런 건 아닌 거죠\nA.네 아니세요 너무 걱정 마세요 고객님\nB.네 정말 감사합니다\nA.네 좋은 하루 되시길 바랍니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의이실까요 고객님",
+            "norm_text": "A.네 어떤 문의이실까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.이미 상품을 수령했는데 출고했다는 알림이 왔어요",
+            "norm_text": "B.이미 상품을 수령했는데 출고했다는 알림이 왔어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이미/MAG+상품/NNG+을/JKO+수령/NNG+했/XSV+EP+는데/EC+출고/NNG+했/XSV+EP+다는/ETM+알림/VV+ETN+이/JKS+왔어요/VV+EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.운송장 번호를 입력하여 출고 완료로 변경되면 알림이 전송됩니다",
+            "norm_text": "A.운송장 번호를 입력하여 출고 완료로 변경되면 알림이 전송됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+운송장/NNG+번호/NNG+를/JKO+입력/NNG+하/XSV+여/EC+출고/NNG+완료/NNG+로/JKB+변경/NNG+되/XSV+면/EC+알림/VV+ETN+이/JKS+전송/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.상품을 발송한 뒤 운송장 번호를 늦게 입력한 경우입니다",
+            "norm_text": "A.상품을 발송한 뒤 운송장 번호를 늦게 입력한 경우입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+상품/NNG+을/JKO+발송/NNG+한/XSA+ETM+뒤/NNG+운송장/NNG+번호/NNG+를/JKO+늦/VV+게/EC+입력/NNG+한/XSA+ETM+경우/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그럼 또 출고 되고 이런 건 아닌 거죠",
+            "norm_text": "B.그럼 또 출고 되고 이런 건 아닌 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+또/MAG+출고/NNG+되/XSV+고/EC+이런/MM+건/NNB+JX+아닌/VCN+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 아니세요 너무 걱정 마세요 고객님",
+            "norm_text": "A.네 아니세요 너무 걱정 마세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+아니/VCN+세요/EP+EF+너무/MAG+걱정/NNG+마세요/VV+EP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 9,
+            "text": "B.네 정말 감사합니다",
+            "norm_text": "B.네 정말 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+정말/MAG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 좋은 하루 되시길 바랍니다 감사합니다",
+            "norm_text": "A.네 좋은 하루 되시길 바랍니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

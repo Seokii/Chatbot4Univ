@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 108223,
+    "name": "s2_20211104_0001_3277_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202111011106510144109/s2_20211104_0001_3277_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202111011106510144109/s2_20211104_0001_3277_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116090,
+      "filename": "s2_20211026_0007_0002_01.txt",
+      "title": "s2_20211026_0007_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 278,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 278,
+        "word_size": 62,
+        "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 문의드릴 게 있어서요\nA.네 어떤 문의이실까요 고객님\nB.#@소속# 오메가 쓰리의 원료로 사용되는 어류는 어떤 종류인가요\nA.#@소속#의 오메가 쓰리는 일반적으로 불포화 지방산이 풍부한 어류에서 추출한 피쉬 오일을 그 원료로 합니다\nB.그게 정확히 어떤 종류인가요\nA.특정 어류로 한정하지는 않지만 고등어 연어 정어리 등의 피쉬 오일을 주로 사용합니다\nB.네 그렇군요 알겠습니다 수고하세요\nA.네 답변이 도움이 되었기를 바랍니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의이실까요 고객님",
+            "norm_text": "A.네 어떤 문의이실까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속# 오메가 쓰리의 원료로 사용되는 어류는 어떤 종류인가요",
+            "norm_text": "B.#@소속# 오메가 쓰리의 원료로 사용되는 어류는 어떤 종류인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+오메가/NNG+쓰리/NNG+의/JKG+원료/NNG+로/JKB+사용/NNG+되/XSV+는/ETM+어류/NNG+는/JX+어떤/MM+종류/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.#@소속#의 오메가 쓰리는 일반적으로 불포화 지방산이 풍부한 어류에서 추출한 피쉬 오일을 그 원료로 합니다",
+            "norm_text": "A.#@소속#의 오메가 쓰리는 일반적으로 불포화 지방산이 풍부한 어류에서 추출한 피쉬 오일을 그 원료로 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+의/JKG+오메가/NNG+쓰리/VV+는/ETM+일반/NNG+적/XSN+으로/JKB+불포화/NNG+지방산/NNG+이/JKS+풍부/XR+한/XSA+ETM+어류/NNG+에서/JKB+추출/NNG+한/XSA+ETM+피쉬/NNP+오일/NNG+을/JKO+그/MM+원료/NNG+로/JKB+합니다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그게 정확히 어떤 종류인가요",
+            "norm_text": "B.그게 정확히 어떤 종류인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그게/NP+JKS+정확히/MAG+어떤/MM+종류/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.특정 어류로 한정하지는 않지만 고등어 연어 정어리 등의 피쉬 오일을 주로 사용합니다",
+            "norm_text": "A.특정 어류로 한정하지는 않지만 고등어 연어 정어리 등의 피쉬 오일을 주로 사용합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+특정/NNG+어류/NNG+로/JKB+한정/NNG+하/XSV+지/EC+는/JX+않/VX+지만/EC+고등어/NNG+연어/NNG+정어리/NNG+등/NNB+의/JKG+피쉬/NNP+오일/NNG+을/JKO+주로/MAG+사용/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 그렇군요 알겠습니다 수고하세요",
+            "norm_text": "B.네 그렇군요 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 답변이 도움이 되었기를 바랍니다 감사합니다",
+            "norm_text": "A.네 답변이 도움이 되었기를 바랍니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+답변/NNG+이/JKS+도움/NNG+이/JKS+되/VV+었/EP+기/ETN+를/JKO+바랍니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

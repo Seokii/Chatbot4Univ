@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 145858,
+    "name": "e4_20211116_0001_1782_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135630033314/e4_20211116_0001_1782_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135630033314/e4_20211116_0001_1782_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147155,
+      "filename": "e4_0080_0002_02.txt",
+      "title": "e4_0080_0002_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 464,
+      "annotations": {
+        "subject": "일정 문의",
+        "speaker_type": "1:1",
+        "size": 464,
+        "word_size": 111,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.안녕하세요 태블릿 전원이 켜지지 않아서 전화드렸습니다\nA.네 혹시 배터리가 완전히 방전되었었나요\nB.아 네 네 방전돼서 충전기를 연결했는데도 안 켜져서요\nA.아 방전이 되었을 경우 저전압 특성상 바로 전원이 켜지지 않을 수 있습니다\nA.그럴 경우에는 최소 15분 정도 충전 후에 사용해 주시면 됩니다\nB.그럼 고장 난 게 아니시란 말씀이시죠\nA.어 확답은 못 드리지만 직전에 방전이 되셨다고 하셔서요\nA.해당 증상은 방전 직후에 문의주시는 경우가 많아서 답변드린 거고요\nA.만약 충전 후 일정 시간이 지났는데도 전원이 안 들어오신다 하면요\nA.해당 학습기 제조사 에이에스 센터에 방문하여 수리받으셔야 해요\nB.아 네 알겠습니다 그럼 일단 좀 기다려 볼게요 감사합니다\nA.네 알겠습니다 문제 있으시면 언제든 다시 전화 주시고요\nA.그럼 행복한 하루 보내세요 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 태블릿 전원이 켜지지 않아서 전화드렸습니다",
+            "norm_text": "B.안녕하세요 태블릿 전원이 켜지지 않아서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+태블릿/NNP+전원/NNG+이/JKS+켜/VV+EC+지/VX+지/EC+않/VX+아서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 혹시 배터리가 완전히 방전되었었나요",
+            "norm_text": "A.네 혹시 배터리가 완전히 방전되었었나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+혹시/MAG+배터리/NNG+가/JKS+완전히/MAG+방전/NNG+되/XSV+었었/EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.아 네 네 방전돼서 충전기를 연결했는데도 안 켜져서요",
+            "norm_text": "B.아 네 네 방전돼서 충전기를 연결했는데도 안 켜져서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+네네/IC+방전/NNG+돼서/XSV+EC+충전기/NNG+를/JKO+연결/NNG+했/XSV+EP+는데/EC+도/JX+안/MAG+켜/VV+져/EC+VX+EC+서요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.아 방전이 되었을 경우 저전압 특성상 바로 전원이 켜지지 않을 수 있습니다",
+            "norm_text": "A.방전이 될 경우 저전압 특성상 바로 전원이 켜지지 않을 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+방전/NNG+이/JKS+될/VV+ETM+경우/NNG+저전압/NNG+특성/NNG+상/XSN+바로/MAG+전원/NNG+이/JKS+켜/VV+EC+지/VX+지/EC+않/VX+을/ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.그럴 경우에는 최소 15분 정도 충전 후에 사용해 주시면 됩니다",
+            "norm_text": "A.그럴 경우에는 최소 15분 정도 충전 후에 사용해 주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그럴/VV+ETM+경우/NNG+에/JKB+는/JX+최소/NNG+15/SN+분/NNBC+정도/NNG+충전/NNG+후/NNG+에/JKB+사용/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그럼 고장 난 게 아니시란 말씀이시죠",
+            "norm_text": "B.그럼 고장 난 게 아니시란 말씀이시죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+고장난/VV+ETM+게/NNB+JKC+아니/VCN+시/EP+란/ETM+말씀/NNG+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.어 확답은 못 드리지만 직전에 방전이 되셨다고 하셔서요",
+            "norm_text": "A.어 확답은 못 드리지만 직전에 방전이 되셨다고 하셔서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+어/IC+확답/NNG+은/JX+못/MAG+드리/VV+지만/EC+직전/NNG+에/JKB+방전/NNG+이/JKS+되/VV+셨/EP+EP+다고/EC+하/VX+셔서/EP+EC+요/JX"
+          },
+          {
+            "id": 9,
+            "text": "A.해당 증상은 방전 직후에 문의주시는 경우가 많아서 답변드린 거고요",
+            "norm_text": "A.해당 증상은 방전 직후에 문의주시는 경우가 많아서 답변드린 거고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+증상/NNG+은/JX+방전/NNG+직후/NNG+에/JKB+문/NNG+의/JKG+주시/NNG+는/JX+경우/NNG+가/JKS+많/VA+아서/EC+답변/NNG+드린/VV+ETM+거/NNB+고요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "A.만약 충전 후 일정 시간이 지났는데도 전원이 안 들어오신다 하면요",
+            "norm_text": "A.만약 충전 후 일정 시간이 지났는데도 전원이 안 들어오신다 하면요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+만약/NNG+충전/NNG+후/NNG+일정/NNG+시간/NNG+이/JKS+지났/VV+EP+는데/EC+도/JX+전원/NNG+이/JKS+안/MAG+들어오/VV+신다/EP+EC+하/VV+면/EC+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.해당 학습기 제조사 에이에스 센터에 방문하여 수리받으셔야 해요",
+            "norm_text": "A.해당 학습기 제조사 에이에스 센터에 방문하여 수리받으셔야 해요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+해당/NNG+학습/NNG+기제/NNG+조사/NNG+에/JKB+이/MM+에스/NNG+센터/NNG+에/JKB+방문/NNG+하/XSV+여/EC+수리/NNG+받/VV+으셔야/EP+EC+해요/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.아 네 알겠습니다 그럼 일단 좀 기다려 볼게요 감사합니다",
+            "norm_text": "B.아 네 알겠습니다 그럼 일단 좀 기다려 볼게요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아/IC+네/IC+알/VV+겠/EP+습니다/EF+그럼/MAJ+일단/MAG+좀/MAG+기다려/VV+EC+볼게요/VX+EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 알겠습니다 문제 있으시면 언제든 다시 전화 주시고요",
+            "norm_text": "A.네 알겠습니다 문제 있으시면 언제든 다시 전화 주시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+문제/NNG+있/VV+으시/EP+면/EC+언제/NP+든/VCP+EC+다시/MAG+전화/NNG+주/VV+시/EP+고요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.그럼 행복한 하루 보내세요 상담원 #@이름#이었습니다",
+            "norm_text": "A.그럼 행복한 하루 보내세요 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+그럼/MAJ+행복/NNG+한/XSA+ETM+하루/NNG+보내/VV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

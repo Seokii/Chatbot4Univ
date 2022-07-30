@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 10802,
+    "name": "s3_20210913_0010_0676_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417015739/s3_20210913_0010_0676_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417015739/s3_20210913_0010_0676_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11960,
+      "filename": "s3_20210826_0014_0009_01.txt",
+      "title": "s3_20210826_0014_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 379,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 379,
+        "word_size": 91,
+        "text": "A.반갑습니다 #@소속# #@이름# 입니다\nB #@상품# 오더하는 거 맞아요\nA.죄송한데 고객님 말씀이 너무 작게 들려서요\nA.제가 못 알아들었습니다 한 번만 더 말씀해주시겠어요\nB.저도 작게 들리는데요\nA.지금 잘 들리십니까\nB.저기  #@상품# 이요\nB.마스크 오더 여기를 통해서 하는 거 맞나요\nA.네 저희 통해서 주문해주시면 되는데 마스크 상품이 여러 개여서요\nA.정확한 상품명이나 번호를 말씀해주셔야 됩니다\nB.상품명이  #@상품# 그렇게 돼 있는데요\nA.고객님 정확한 상품명이 저희 전체 상품명이 있으실 텐 있을 텐데요\nA.그 부분 확인부탁 드립니다\nB.그건 모르겠는 데요\nA.상품명을 확인 해야 주문이 가능해요\nB.그럼 제가 확인 하고 연락 드릴게요\nA.감사합니다 #@소속# #@이름# 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름# 입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B #@상품# 오더하는 거 맞아요",
+            "norm_text": "B #@상품# 오더하는 거 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+#/SY+@/SY+상품/NNG+#/SY+오더/NNG+하/XSV+는/ETM+거/NNB+맞/VV+아요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.죄송한데 고객님 말씀이 너무 작게 들려서요",
+            "norm_text": "A.죄송한데 고객님 말씀이 너무 작게 들려서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+한데/XSA+EC+고객/NNG+님/XSN+말씀/NNG+이/JKS+너무/MAG+작/VA+게/EC+들려/VV+서요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.제가 못 알아들었습니다 한 번만 더 말씀해주시겠어요",
+            "norm_text": "A.제가 못 알아들었습니다 한 번만 더 말씀해주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+제/NP+가/JKS+못/MAG+알아들/VV+었/EP+습니다/EF+한/MM+번/NNBC+만/JX+더/MAG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.저도 작게 들리는데요",
+            "norm_text": "B.저도 작게 들리는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+저/NP+도/JX+작/VA+게/EC+들리/VV+는데요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.지금 잘 들리십니까",
+            "norm_text": "A.지금 잘 들리십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+잘/MAG+들리/VV+십니까/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.저기  #@상품# 이요",
+            "norm_text": "B.저기  #@상품# 이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저기/NP+#/SY+@/SY+상품/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.마스크 오더 여기를 통해서 하는 거 맞나요",
+            "norm_text": "B.마스크 오더 여기를 통해서 하는 거 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+마스크/IC+오/IC+더/MAG+여기/NP+를/JKO+통해서/VV+EC+하/VV+는/ETM+거/NNB+맞/VV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 저희 통해서 주문해주시면 되는데 마스크 상품이 여러 개여서요",
+            "norm_text": "A.네 저희 통해서 주문해주시면 되는데 마스크 상품이 여러 개여서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+통해서/VV+EC+주문/NNG+해/XSV+EC+주/VX+시/EP+면/EC+되/VV+는데/EC+마스크/NNG+상품/NNG+이/JKS+여러/MM+개/NNBC+여서요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.정확한 상품명이나 번호를 말씀해주셔야 됩니다",
+            "norm_text": "A.정확한 상품명이나 번호를 말씀해주셔야 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+정확/NNG+한/XSA+ETM+상품명/NNG+이나/JC+번호/NNG+를/JKO+말씀/NNG+해/XSV+EC+주/VX+셔야/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.상품명이  #@상품# 그렇게 돼 있는데요",
+            "norm_text": "B.상품명이  #@상품# 그렇게 돼 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+./SY+상품명/NNG+이/JKS+#/SY+@/SY+상품/NNG+#/SY+그렇게/MAG+돼/VV+EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.고객님 정확한 상품명이 저희 전체 상품명이 있으실 텐 있을 텐데요",
+            "norm_text": "A.고객님 정확한 상품명이 저희 전체 상품명이 있을텐데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+정확/XR+한/XSA+ETM+상품명/NNG+이/JKS+저희/NP+전체/NNG+상품명/NNG+이/JKS+있/VA+으실/EP+ETM+텐/NNG+있/VV+을/ETM+텐데요/NNB+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.그 부분 확인부탁 드립니다",
+            "norm_text": "A.그 부분 확인부탁 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+부분/NNG+확인/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.그건 모르겠는 데요",
+            "norm_text": "B.그건 모르겠는 데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+그건/NP+JX+모르/VV+겠/EP+는데요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.상품명을 확인 해야 주문이 가능해요",
+            "norm_text": "A.상품명을 확인 해야 주문이 가능해요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+상품명/NNG+을/JKO+확인/NNG+해야/XSV+EC+주문/NNG+이/JKS+가능/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.그럼 제가 확인 하고 연락 드릴게요",
+            "norm_text": "B.그럼 제가 확인 하고 연락 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+그럼/MAJ+제/NP+가/JKS+확인/NNG+하/XSV+고/EC+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.감사합니다 #@소속# #@이름# 였습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름# 였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 109274,
+    "name": "s1_20211104_0001_3624_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110642006636/s1_20211104_0001_3624_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110642006636/s1_20211104_0001_3624_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115031,
+      "filename": "s1_20211025_0012_0002_01.txt",
+      "title": "s1_20211025_0012_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 271,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 271,
+        "word_size": 55,
+        "text": "A.안녕하세요 #@소속# #@이름# 상담사입니다\nB.예 수리 접수 하려고 합니다\nA.고객님 수리는 제조업체 고객센터로 하셔야 합니다\nB.그래요 여기서 구매했는데요\nA.네 고객님 저희는 판매 대행이기 때문에 제조사에 문의하셔야 합니다\nB.그래요 제조사 전화번호 알려주세요\nA.고객님 제품 박스에 보시면 보통 고객센터 전화번호가 있습니다\nB.박스는 진작에 버렸는데요\nA.그러시면 인터넷에서 제품명으로 검색해 보시겠어요\nB.인터넷으로요 네 알겠습니다 수고하세요\nA.코로나 조심하세요 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수리 접수 하려고 합니다",
+            "norm_text": "B.예 수리 접수 하려고 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+수리/NNG+접수/NNG+하/XSV+려고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 수리는 제조업체 고객센터로 하셔야 합니다",
+            "norm_text": "A.고객님 수리는 제조업체 고객센터로 하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+수리/NNG+는/JX+제조/NNG+업체/NNG+고객/NNG+센터/NNG+로/JKB+하/VV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그래요 여기서 구매했는데요",
+            "norm_text": "B.그래요 여기서 구매했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+여기/NP+서/JKB+구매/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 저희는 판매 대행이기 때문에 제조사에 문의하셔야 합니다",
+            "norm_text": "A.네 고객님 저희는 판매 대행이기 때문에 제조사에 문의하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+저희/NP+는/JX+판매/NNG+대행/NNG+이/VCP+기/ETN+때문/NNB+에/JKB+제조사/NNG+에/JKB+문의/NNG+하/XSV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그래요 제조사 전화번호 알려주세요",
+            "norm_text": "B.그래요 제조사 전화번호 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+제/NP+JKG+조사/NNG+전화/NNG+번호/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.고객님 제품 박스에 보시면 보통 고객센터 전화번호가 있습니다",
+            "norm_text": "A.고객님 제품 박스에 보시면 보통 고객센터 전화번호가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+제품/NNG+박스/NNG+에/JKB+보/VV+시/EP+면/EC+보통/NNG+고객/NNG+센터/NNG+전화/NNG+번호/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.박스는 진작에 버렸는데요",
+            "norm_text": "B.박스는 진작에 버렸는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+박스/NNG+는/JX+진작/NNG+에/JKB+버렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그러시면 인터넷에서 제품명으로 검색해 보시겠어요",
+            "norm_text": "A.그러시면 인터넷에서 제품명으로 검색해 보시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+인터넷/NNG+에서/JKB+제/XPN+품명/NNG+으로/JKB+검색/NNG+해/XSV+EC+보/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.인터넷으로요 네 알겠습니다 수고하세요",
+            "norm_text": "B.인터넷으로요 네 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+인터넷/NNG+으로/JKB+요네/NNG+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.코로나 조심하세요 상담사 #@이름#이었습니다",
+            "norm_text": "A.코로나 조심하세요 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+코로나/NNG+조심/NNG+하/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

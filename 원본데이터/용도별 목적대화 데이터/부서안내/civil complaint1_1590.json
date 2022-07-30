@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 116288,
+    "name": "c1_20211105_0005_0459_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110823039237/c1_20211105_0005_0459_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110823039237/c1_20211105_0005_0459_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118620,
+      "filename": "c1_20210927_0017_0003_01.txt",
+      "title": "c1_20210927_0017_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 249,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 249,
+        "word_size": 48,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.저희 동네에 광역 버스가 다니는데요\nB.#@주소#에도 정차하면 안되나요\nA.정확한 위치를 알려주세요\nB.#@주소#에 있는 #@기타#예요\nA.#@기타#는 도로와 보도가 서울시 관할 구역인데요\nA.그래서 정차 정류소를 등록하려면요\nA.서울시와 협의가 필요합니다\nA.해당 문의는 서울시 #@소속#에 전달하도록 하겠습니다\nB.담당자 연락처를 알려주실 수 있나요\nA.담당자 전화번호는 #@전번#입니다\nB.네 확인 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저희 동네에 광역 버스가 다니는데요",
+            "norm_text": "B.저희 동네에 광역 버스가 다니는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+동네/NNG+에/JKB+광역버스/NNP+가/JKS+다니/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.#@주소#에도 정차하면 안되나요",
+            "norm_text": "B.#@주소#에도 정차하면 안되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+에/JKB+도/JX+정차/NNG+하/XSV+면/EC+안/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.정확한 위치를 알려주세요",
+            "norm_text": "A.정확한 위치를 알려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+정확/NNG+한/XSA+ETM+위치/NNG+를/JKO+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.#@주소#에 있는 #@기타#예요",
+            "norm_text": "B.#@주소#에 있는 #@기타#예요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+에/JKB+있/VV+는/ETM+#/SY+@/SY+기타/NNG+#/SY+예요/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.#@기타#는 도로와 보도가 서울시 관할 구역인데요",
+            "norm_text": "A.#@기타#는 도로와 보도가 서울시 관할 구역인데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+는/JX+도로/NNG+와/JC+보도/NNG+가/JKS+서울시/NNP+관할/NNG+구역/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.그래서 정차 정류소를 등록하려면요",
+            "norm_text": "A.그래서 정차 정류소를 등록하려면요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그래서/MAJ+정차/NNG+정류소/NNG+를/JKO+등록/NNG+하/XSV+려면/EC+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.서울시와 협의가 필요합니다",
+            "norm_text": "A.서울시와 협의가 필요합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+서울시/NNP+와/JC+협의/NNG+가/JKS+필요/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.해당 문의는 서울시 #@소속#에 전달하도록 하겠습니다",
+            "norm_text": "A.해당 문의는 서울시 #@소속#에 전달하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+해당/NNG+문의/NNG+는/JX+서울시/NNP+#/SY+@/SY+소속/NNG+#/SY+에/JKB+전달/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.담당자 연락처를 알려주실 수 있나요",
+            "norm_text": "B.담당자 연락처를 알려 주실 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+담당자/NNG+연락처/NNG+를/JKO+알려/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.담당자 전화번호는 #@전번#입니다",
+            "norm_text": "A.담당자 전화번호는 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+담당자/NNG+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.네 확인 감사합니다",
+            "norm_text": "B.네 확인 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

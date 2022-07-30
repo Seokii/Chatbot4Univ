@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 117898,
+    "name": "s3_20211105_0002_0053_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744028286/s3_20211105_0002_0053_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744028286/s3_20211105_0002_0053_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117933,
+      "filename": "s3_20211001_0010_0002_01.txt",
+      "title": "s3_20211001_0010_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 418,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 418,
+        "word_size": 92,
+        "text": "A.행복을 드리는 #@소속# 상담사 #@이름#입니다\nB.상담사님 오케이캐쉬백 포인트 사용법 좀 알려주세요\nA.네 고객님 혹시 어떤 기기로 주문하시고 계신가요\nB.지금 컴퓨터로 물건 봐두고 결제하려고 하거든요\nA.네 그러시면 결제하기 눌러보시겠어요\nB.지금 결제창인데 #@소속# 포인트가 안 보여요\nA.우선 외부상품권 #@소속# 포인트라는 버튼이 보이세요\nB.예 결제방법란에 있는 거 말씀하시는 거죠\nA.맞습니다 거기 누르시면 #@소속# 포인트가 보이실거에요\nB.있네요 여기서 찾는 거구나 이걸 몰라서 헤맸네요\nA.네 사용하고 계신 카드번호 열여섯 자리와 비밀번호 입력하시면 되고요\nA.조회 누르셔서 보유 포인트 확인 후에 원하는 만큼 입력해주시면 됩니다\nB.예 덕분에 포인트 사용할 수 있게 됐네요 감사합니다\nA.감사합니다 즐거운 쇼핑 되시길 바랍니다 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.행복을 드리는 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.행복을 드리는 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+을/JKO+드리/VV+는/ETM+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.상담사님 오케이캐쉬백 포인트 사용법 좀 알려주세요",
+            "norm_text": "B.상담사님 오케이캐쉬백 포인트 사용법 좀 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+상담/NNG+사/NNG+님/XSN+오/JC+케이캐쉬/NNP+백/NR+포인트/NNBC+사용법/NNG+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 혹시 어떤 기기로 주문하시고 계신가요",
+            "norm_text": "A.네 고객님 혹시 어떤 기기로 주문하시고 계신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+혹시/MAG+어떤/MM+기기/NNG+로/JKB+주문/NNG+하/XSV+시/EP+고/EC+계신/VX+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.지금 컴퓨터로 물건 봐두고 결제하려고 하거든요",
+            "norm_text": "B.지금 컴퓨터로 물건 봐두고 결제하려고 하거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+컴퓨터/NNG+로/JKB+물건/NNG+봐/VV+EC+두/VX+고/EC+결제/NNG+하/XSV+려고/EC+하/VX+거든요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 그러시면 결제하기 눌러보시겠어요",
+            "norm_text": "A.네 그러시면 결제하기 눌러보시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그러/VV+시/EP+면/EC+결제/NNG+하/XSV+기/ETN+눌러/VV+EC+보/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.지금 결제창인데 #@소속# 포인트가 안 보여요",
+            "norm_text": "B.지금 결제창인데 #@소속# 포인트가 안 보여요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+결제/NNG+창/NNG+인데/VCP+EC+#/SY+@/SY+소속/NNG+#/SY+포인트/NNG+가/JKS+안/MAG+보여요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.우선 외부상품권 #@소속# 포인트라는 버튼이 보이세요",
+            "norm_text": "A.우선 외부상품권 #@소속# 포인트라는 버튼이 보이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+우선/MAG+외부/NNG+상품권/NNG+#/SY+@/SY+소속/NNG+#/SY+포인트/NNG+라는/VCP+ETM+버튼/NNG+이/JKS+보이/VV+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.예 결제방법란에 있는 거 말씀하시는 거죠",
+            "norm_text": "B.예 결제방법란에 있는 거 말씀하시는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+결제/NNG+방법/NNG+란/NNG+에/JKB+있/VV+는/ETM+거/NNB+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.맞습니다 거기 누르시면 #@소속# 포인트가 보이실거에요",
+            "norm_text": "A.맞습니다 거기 누르시면 #@소속# 포인트가 보이실거에요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+맞/VV+습니다/EF+거기/NP+누르/VV+시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+포인트/NNG+가/JKS+보이/VV+실/EP+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.있네요 여기서 찾는 거구나 이걸 몰라서 헤맸네요",
+            "norm_text": "B.있네요 여기서 찾는 거구나 이걸 몰라서 헤맸네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+있/VA+네요/EF+여기/NP+서/JKB+찾/VV+는/ETM+거/NNB+구나/VCP+EF+이걸/NP+JKO+몰라서/VV+EC+헤맸/VV+EP+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 사용하고 계신 카드번호 열여섯 자리와 비밀번호 입력하시면 되고요",
+            "norm_text": "A.네 사용하고 계신 카드번호 열여섯 자리와 비밀번호 입력하시면 되고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+사용/NNG+하/XSV+고/EC+계신/VX+ETM+카드/NNG+번호/NNG+열/NR+여섯/NR+자리/NNG+와/JC+비밀번호/NNG+입력/NNG+하/XSV+시/EP+면/EC+되/VV+고요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.조회 누르셔서 보유 포인트 확인 후에 원하는 만큼 입력해주시면 됩니다",
+            "norm_text": "A.조회 누르셔서 보유 포인트 확인 후에 원하는 만큼 입력해주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+조회/NNG+누르/VV+셔서/EP+EC+보유/NNG+포인트/NNG+확인/NNG+후/NNG+에/JKB+원/NNG+하/XSV+는/ETM+만큼/NNB+입력/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.예 덕분에 포인트 사용할 수 있게 됐네요 감사합니다",
+            "norm_text": "B.예 덕분에 포인트 사용할 수 있게 됐네요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+예/IC+덕분/NNG+에/JKB+포인트/NNG+사용/NNG+할/XSV+ETM+수/NNB+있/VV+게/EC+됐/VV+EP+네요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.감사합니다 즐거운 쇼핑 되시길 바랍니다 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 즐거운 쇼핑 되시길 바랍니다 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+즐거운/VA+ETM+쇼핑/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

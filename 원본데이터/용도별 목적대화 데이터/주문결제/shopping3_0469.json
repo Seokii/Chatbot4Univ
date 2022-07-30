@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 10472,
+    "name": "s3_20210913_0010_0610_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417066240/s3_20210913_0010_0610_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417066240/s3_20210913_0010_0610_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12033,
+      "filename": "s3_20210827_0020_0002_01.txt",
+      "title": "s3_20210827_0020_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 343,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 343,
+        "word_size": 79,
+        "text": "A.조금 전에 통화했던 상담사 #@이름#입니다\nA.#@이름# 고객님 맞으시죠\nB.맞아요 택배를 언제 받을지 알 수 있나요\nB.토요일 오후 이후부터 받을 수 있어서요\nA.담당 부서에 확인했구요 원하시는 날짜에 받게끔 해드릴게요\nB.그게 좀 옛날 모델 티빈데 있나요 그 거치대가\nA.해당 제품 있는 것으로 확인이 됐구요\nA.택배는 고객님 이삼일 정도는 걸리는데요\nB.그럼 어차피 상관없겠네요\nA.토요일에 받고싶다고 요청 사항으로 남겨 드릴게요\nB. 알겠습니다 그렇게 해주세요\nA.알겠습니다 그럼 문자 받으시고 금액 입금하시면요\nA.바로 확인 되는대로 보내드리도록 하겠습니다\nB.입금 하겠습니다 감사합니다\nA.감사합니다 기분 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.조금 전에 통화했던 상담사 #@이름#입니다",
+            "norm_text": "A.조금 전에 통화했던 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+조금/MAG+전/NNG+에/JKB+통화/NNG+했/XSV+EP+던/ETM+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.#@이름# 고객님 맞으시죠",
+            "norm_text": "A.#@이름# 고객님 맞으시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+맞/VV+으시/EP+죠/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.맞아요 택배를 언제 받을지 알 수 있나요",
+            "norm_text": "B.맞아요 택배를 언제 받을지 알 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+맞/VV+아요/EF+택배/NNG+를/JKO+언제/MAG+받/VV+을지/EC+알/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.토요일 오후 이후부터 받을 수 있어서요",
+            "norm_text": "B.토요일 오후 이후부터 받을 수 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+토요일/NNG+오후/NNG+이후/NNG+부터/JX+받/VV+을/ETM+수/NNB+있/VV+어서요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.담당 부서에 확인했구요 원하시는 날짜에 받게끔 해드릴게요",
+            "norm_text": "A.담당 부서에 확인했구요 원하시는 날짜에 받게끔 해드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+담당/NNG+부서/NNG+에/JKB+확인/NNG+했/XSV+EP+구/EC+요원/NNG+하/XSV+시/EP+는/ETM+날짜/NNG+에/JKB+받/VV+게끔/EC+해/VV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그게 좀 옛날 모델 티빈데 있나요 그 거치대가",
+            "norm_text": "B.그게 좀 옛날 모델 티빈데 있나요 그 거치대가",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그게/NP+JKS+좀/MAG+옛날/NNG+모델/NNG+티/NNG+빈/VV+ETM+데/NNB+있/VV+나요/EF+그거/NP+치대/NNG+가/JKS"
+          },
+          {
+            "id": 7,
+            "text": "A.해당 제품 있는 것으로 확인이 됐구요",
+            "norm_text": "A.해당 제품 있는 것으로 확인이 됐구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+제품/NNG+있/VA+는/ETM+것/NNB+으로/JKB+확인/NNG+이/JKS+됐/VV+EP+구요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.택배는 고객님 이삼일 정도는 걸리는데요",
+            "norm_text": "A.택배는 고객님 이삼일 정도는 걸리는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+택배/NNG+는/JX+고객/NNG+님/XSN+이/JKS+삼/NR+일/NNBC+정도/NNG+는/JX+걸리/VV+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그럼 어차피 상관없겠네요",
+            "norm_text": "B.그럼 어차피 상관없겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그럼/MAJ+어차피/MAG+상관없/VA+겠/EP+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.토요일에 받고싶다고 요청 사항으로 남겨 드릴게요",
+            "norm_text": "A.토요일에 받고싶다고 요청 사항으로 남겨 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+토요일/NNG+에/JKB+받/VV+고/EC+싶/VX+다고/EC+요청/NNG+사항/NNG+으로/JKB+남겨/VV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B. 알겠습니다 그렇게 해주세요",
+            "norm_text": "B. 알겠습니다 그렇게 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그렇게/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.알겠습니다 그럼 문자 받으시고 금액 입금하시면요",
+            "norm_text": "A.알겠습니다 그럼 문자 받으시고 금액 입금하시면요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+그럼/MAJ+문자/NNG+받/VV+으시/EP+고/EC+금액/NNG+입금/NNG+하/XSV+시/EP+면/EC+요/JX"
+          },
+          {
+            "id": 13,
+            "text": "A.바로 확인 되는대로 보내드리도록 하겠습니다",
+            "norm_text": "A.바로 확인 되는대로 보내드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+바로/MAG+확인/NNG+되/XSV+는/ETM+대로/NNB+보내/VV+EC+드리/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.입금 하겠습니다 감사합니다",
+            "norm_text": "B.입금 하겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+입금/NNG+하/XSV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.감사합니다 기분 좋은 하루 보내세요",
+            "norm_text": "A.감사합니다 기분 좋은 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+기분/NNG+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

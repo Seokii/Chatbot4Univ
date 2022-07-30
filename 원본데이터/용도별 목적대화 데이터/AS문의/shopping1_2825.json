@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 109330,
+    "name": "s1_20211104_0001_3633_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110641065892/s1_20211104_0001_3633_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110641065892/s1_20211104_0001_3633_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 114981,
+      "filename": "s1_20211012_0012_0001_01.txt",
+      "title": "s1_20211012_0012_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 254,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 254,
+        "word_size": 56,
+        "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다\nB.#@상품# 모니터랑 연결하는 거 도와주세요\nA.네 고객님 모니터는 어떤 제품인가요\nB.모니터는 #@소속# 제품인데요\nA.네 혹시 모니터 뒷면에 에이치디엠아이 꼽는 곳이 있나요\nB.아니요 그거 안 보여요\nA.그럼 조금 오래된 모니터인가 보내요\nB.네 십 년이 넘었어요\nA.그럼 변환 커넥터를 구매하셔야 합니다\nB.네 그래요 한번 알아볼게요 감사합니다\nA.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+만족/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 모니터랑 연결하는 거 도와주세요",
+            "norm_text": "B.#@상품# 모니터랑 연결하는 거 도와주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+모니터/NNG+랑/JKB+연결/NNG+하/XSV+는/ETM+거/NNB+도와/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 모니터는 어떤 제품인가요",
+            "norm_text": "A.네 고객님 모니터는 어떤 제품인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+모니터/NNG+는/JX+어떤/MM+제품/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.모니터는 #@소속# 제품인데요",
+            "norm_text": "B.모니터는 #@소속# 제품인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+모니터/NNG+는/JX+#/SY+@/SY+소속/NNG+#/SY+제품/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 혹시 모니터 뒷면에 에이치디엠아이 꼽는 곳이 있나요",
+            "norm_text": "A.네 혹시 모니터 뒷면에 에이치디엠아이 꼽는 곳이 있나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+혹시/MAG+모니터/NNG+뒷면/NNG+에/JKB+에이치/NNG+디엠/NNG+아이/NNG+꼽/VV+는/ETM+곳/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아니요 그거 안 보여요",
+            "norm_text": "B.아니요 그거 안 보여요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+그거/NP+안/MAG+보여요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.그럼 조금 오래된 모니터인가 보내요",
+            "norm_text": "A.그럼 조금 오래된 모니터인가 보내요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+그럼/MAJ+조금/MAG+오래/MAG+된/VV+ETM+모니터/NNG+인가/VCP+EC+보내/VV+요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 십 년이 넘었어요",
+            "norm_text": "B.네 십 년이 넘었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+십/NR+년/NNBC+이/JKS+넘/VV+었/EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.그럼 변환 커넥터를 구매하셔야 합니다",
+            "norm_text": "A.그럼 변환 커넥터를 구매하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그럼/MAJ+변환/NNG+커넥터/NNG+를/JKO+구매/NNG+하/XSV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 그래요 한번 알아볼게요 감사합니다",
+            "norm_text": "B.네 그래요 한번 알아볼게요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+그래요/VV+EF+한번/MAG+알아볼/VV+ETM+게/NNB+JKS+요/MM+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+            "norm_text": "A.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+추가/NNG+문/NNG+의/JKG+사항/NNG+언제든지/MAG+연락/NNG+주세요/NNP+#/SY+@/SY+소속/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

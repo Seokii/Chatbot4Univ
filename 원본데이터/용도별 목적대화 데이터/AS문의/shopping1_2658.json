@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 60345,
+    "name": "s1_20211021_0002_0142_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151256086652/s1_20211021_0002_0142_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151256086652/s1_20211021_0002_0142_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8780,
+      "filename": "s1_20210825_0001_0008_01.txt",
+      "title": "s1_20210825_0001_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 510,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 510,
+        "word_size": 120,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.예 #@기타#에서 오는 문자메세지가 차단이 됐는데 아까 전화해서 물어봤거든요\nB.그래서 뭐 스팸 목록 지우고 어플에서 제거하래서 했는데 그래도 안 돼요\nB.그냥 에이에스 센터에 가서 풀어달라 하고 싶은데\nA.그러셨어요 센터로 오시면 기사분이 도움을 드릴 수는 있습니다\nA.아니면 전문 상담원이 원격으로 들어가서 확인을 해드려볼까요 고객님\nB.이렇게 해서는 안 될 것 같아 그냥 가볼게요\nA.그러시면 시간 되실 때 센터로 오셔서 점검 가능하신데요\nA.방문 예정 알려주시면 기다리지 않도록 저희가 미리 예약도 해드릴 수가 있구요\nB.예 그래요 그면은 월요일날 열시 의정부로 해주세요\nA.잠시만요 의정부 센터 다음주 월요일 열시요\nA.네 고객님 성함이 어떻게 되시나요\nB.이름이요 #@이름# 입니다\nA.그럼 열시에 고객님 성함으로 센터 오셔서 점검할 수 있도록 예약을 해드리겠습니다\nB.예 알겠습니다 감사합니다\nA.예 오셔서 만족스런 서비스 받으십시오\nB.네 감사합니다 수고하세요\nA.네 감사합니다 고객님",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 #@기타#에서 오는 문자메세지가 차단이 됐는데 아까 전화해서 물어봤거든요",
+            "norm_text": "B.예 문자 차단때문에 아까 전화해서 물어봤거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+기타/NNG+#/SY+에서/JKB+오/VV+는/ETM+문자/NNG+메세지/NNG+가/JKS+차단/NNG+이/JKS+됐/VV+EP+는데/EC+아까/MAG+전화/NNG+해서/XSV+EC+물/VV+어/EC+봤/VX+EP+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.그래서 뭐 스팸 목록 지우고 어플에서 제거하래서 했는데 그래도 안 돼요",
+            "norm_text": "B.하라는대로 스팸목록 지웠는데도 안 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+하/VV+라는/ETM+대로/NNB+스팸/NNP+목록/NNG+지웠/VV+EP+는데/EC+도/JX+안/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그냥 에이에스 센터에 가서 풀어달라 하고 싶은데",
+            "norm_text": "B.그냥 에이에스 센터에 가서 풀어달라 하고 싶은데",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그냥/MAG+에이에스/NNG+센터/NNG+에/JKB+가/VV+서/EC+풀/VV+어/EC+달/VX+라/EC+하/VV+고/EC+싶/VX+은데/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.그러셨어요 센터로 오시면 기사분이 도움을 드릴 수는 있습니다",
+            "norm_text": "A.그러셨어요 센터로 오시면 기사분이 도움을 드릴 수는 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+셨/EP+EP+어요/EF+센터/NNG+로/JKB+오/VV+시/EP+면/EC+기사/NNG+분/NNB+이/JKS+도움/NNG+을/JKO+드릴/VV+ETM+수/NNB+는/JX+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.아니면 전문 상담원이 원격으로 들어가서 확인을 해드려볼까요 고객님",
+            "norm_text": "A.아니면 전문 상담원이 원격으로 들어가서 확인을 해드려볼까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+아니면/MAJ+전문/NNG+상담원/NNG+이/JKS+원격/NNG+으로/JKB+들어가/VV+서/EC+확인/NNG+을/JKO+해드려/VV+EC+VX+EC+볼까요/VX+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 7,
+            "text": "B.이렇게 해서는 안 될 것 같아 그냥 가볼게요",
+            "norm_text": "B.이렇게 해서는 안 될 것 같아 그냥 가볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+이렇게/MAG+해서/VV+EC+는/JX+안/MAG+될/VV+ETM+것/NNB+같/VA+아/EC+그냥/MAG+가/VV+볼게요/EC+VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.그러시면 시간 되실 때 센터로 오셔서 점검 가능하신데요",
+            "norm_text": "A.그러시면 시간 되실 때 센터로 오셔서 점검 가능하신데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+시간/NNG+되/XSV+실/EP+ETM+때/NNG+센터/NNG+로/JKB+오/VV+셔서/EP+EC+점검/NNG+가능/NNG+하/XSV+신데요/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.방문 예정 알려주시면 기다리지 않도록 저희가 미리 예약도 해드릴 수가 있구요",
+            "norm_text": "A.방문 예정 알려주시면 저희가 미리 예약도 해드릴 수가 있구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+방문/NNG+예정/NNG+알려/VV+EC+주/VX+시/EP+면/EC+기다리/VV+지/EC+않/VX+도록/EC+저희/NP+가/JKS+미리/MAG+예약/NNG+도/JX+해/VV+EC+드릴/VX+ETM+수/NNB+가/JKS+있/VA+구요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.예 그래요 그면은 월요일날 열시 의정부로 해주세요",
+            "norm_text": "B.예 그래요 그면은 월요일날 열시 의정부로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+그래요/VV+EF+그면은/MAJ+월요일/NNG+날/NNG+열/NR+시/NNBC+의/JKG+정부/NNG+로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.잠시만요 의정부 센터 다음주 월요일 열시요",
+            "norm_text": "A.잠시만요 의정부 센터 다음주 월요일 열시요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+잠시/MAG+만요/NNP+의/JKG+정부/NNG+센터/NNG+다음/NNG+주/NNG+월요일/NNG+열/NR+시/NNBC+요/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 고객님 성함이 어떻게 되시나요",
+            "norm_text": "A.네 고객님 성함이 어떻게 되시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+성함/NNG+이/JKS+어떻게/MAG+되/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 13,
+            "text": "B.이름이요 #@이름# 입니다",
+            "norm_text": "B.이름이요 #@이름# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+이/VCP+요/EC+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.그럼 열시에 고객님 성함으로 센터 오셔서 점검할 수 있도록 예약을 해드리겠습니다",
+            "norm_text": "A.그럼 열시에 고객님 성함으로 예약 해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그럼/MAJ+열/NR+시/NNBC+에/JKB+고객/NNG+님/XSN+성함/NNG+으로/JKB+센터/NNG+오/VV+셔서/EP+EC+점검/NNG+할/XSV+ETM+수/NNB+있/VV+도록/EC+예약/NNG+을/JKO+해/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.예 알겠습니다 감사합니다",
+            "norm_text": "B.예 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+예/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.예 오셔서 만족스런 서비스 받으십시오",
+            "norm_text": "A.예 오셔서 만족스런 서비스 받으십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+예/IC+오/VV+셔서/EP+EC+만족/NNG+스런/XSA+ETM+서비스/NNG+받/VV+으십시오/EP+EP+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 18,
+            "text": "A.네 감사합니다 고객님",
+            "norm_text": "A.네 감사합니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

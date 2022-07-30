@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 107305,
+    "name": "s5_20211104_0010_3319_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110936022920/s5_20211104_0010_3319_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110936022920/s5_20211104_0010_3319_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 121208,
+      "filename": "s5_20211005_0019_0006_01.txt",
+      "title": "s5_20211005_0019_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 393,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 393,
+        "word_size": 85,
+        "text": "A.안녕하세요 #@소속# #@이름# 상담사 입니다\nB.아까 항공사 취소 문의로 전화했던 #@이름#이에요\nA.그러시군요 고객님 다른 문제가 있으십니까\nB.취소가 안 되던데 왜 이래요\nA.고객님 성함과 예약번호 말씀해 주세요\nB.#@이름#이고 #@번호#에요\nA.고객님 우선 출발 귀가편 각각 취소해주셔야 합니다\nB.아 그럼 귀가편 번호도 말해줄게요\nA.그 부분이 문제가 아니십니다\nB.그러면 뭐 때문에 취소가 안 되는 건데요\nA.사전좌석지정 예약건을 취소하실 때는 항공사에 말씀하셔야 해요\nB.아 #@소속# 에 직접요 혹시 번호 아세요\nA.제가 찾아드리겠습니다 #@전번#입니다\nB.#@전번#이라고 했지요 맞나요\nA.맞으십니다 고객님 다른 질문사항 없으신가요\nB.아뇨 빨리 끊고 저쪽에 전화해봐야겠어요\nA.원활한 해결 되시길 바라겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름# 상담사 입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름# 상담사 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.아까 항공사 취소 문의로 전화했던 #@이름#이에요",
+            "norm_text": "B.아까 항공사 취소 문의로 전화했던 #@이름#이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아까/MAG+항공/NNG+사취/NNG+소문/NNG+의/JKG+로전/NNG+화/XSN+했/XSV+EP+던/ETM+#/SY+@/SY+이름/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.그러시군요 고객님 다른 문제가 있으십니까",
+            "norm_text": "A.그러시군요 고객님 다른 문제가 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+시/EP+군요/EC+고객/NNG+님/XSN+다른/MM+문제/NNG+가/JKS+있/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.취소가 안 되던데 왜 이래요",
+            "norm_text": "B.취소가 안 되던데 왜 이래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+취소/NNG+가/JKS+안/MAG+되/VV+던데/EC+왜/MAG+이래요/VA+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 성함과 예약번호 말씀해 주세요",
+            "norm_text": "A.고객님 성함과 예약번호 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+성함/NNG+과/JC+예약/NNG+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.#@이름#이고 #@번호#에요",
+            "norm_text": "B.#@이름#이고 #@번호#에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+번호/NNG+#/SY+에/JKB+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.고객님 우선 출발 귀가편 각각 취소해주셔야 합니다",
+            "norm_text": "A.고객님 우선 출발 귀가편 각각 취소해주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+우선/MAG+출발/NNG+귀/NNG+가편/NNG+각각/MAG+취소/NNG+해/XSV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.아 그럼 귀가편 번호도 말해줄게요",
+            "norm_text": "B.아 그럼 귀가편 번호도 말해줄게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+그럼/MAJ+귀/NNG+가/JKS+편/VV+ETM+번호/NNG+도/JX+말/NNG+해/XSV+EC+줄/VX+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그 부분이 문제가 아니십니다",
+            "norm_text": "A.그 부분이 문제가 아니십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+그/MM+부분/NNG+이/JKS+문제/NNG+가/JKC+아니/VCN+십니다/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그러면 뭐 때문에 취소가 안 되는 건데요",
+            "norm_text": "B.그러면 뭐 때문에 취소가 안 되는 건데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+뭐/NP+때문/NNB+에/JKB+취소/NNG+가/JKS+안/MAG+되/VV+는/ETM+건데요/NNB+VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.사전좌석지정 예약건을 취소하실 때는 항공사에 말씀하셔야 해요",
+            "norm_text": "A.사전좌석지정 예약건을 취소하실 때는 항공사에 말씀하셔야 해요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+사전/NNG+좌석/NNG+지정/NNG+예/NNG+약건/NNG+을/JKO+취소/NNG+하/XSV+실/EP+ETM+때/NNG+는/JX+항공사/NNG+에/JKB+말씀/NNG+하/XSV+셔야/EP+EC+해요/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.아 #@소속# 에 직접요 혹시 번호 아세요",
+            "norm_text": "B.아 #@소속# 에 직접요 혹시 번호 아세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+#/SY+@/SY+소속/NNG+#/SY+에/JKB+직접/MAG+요/JX+혹시/MAG+번호/NNG+아세요/VV+EP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.제가 찾아드리겠습니다 #@전번#입니다",
+            "norm_text": "A.제가 찾아드리겠습니다 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+제/NP+가/JKS+찾/VV+아/EC+드리/VX+겠/EP+습니다/EF+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.#@전번#이라고 했지요 맞나요",
+            "norm_text": "B.#@전번#이라고 했지요 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+이라고/JKQ+했/VV+EP+지요/EF+맞/VV+나요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.맞으십니다 고객님 다른 질문사항 없으신가요",
+            "norm_text": "A.맞으십니다 고객님 다른 질문사항 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+맞/VV+으십니다/EP+EP+EF+고객/NNG+님/XSN+다른/MM+질문/NNG+사항/NNG+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 16,
+            "text": "B.아뇨 빨리 끊고 저쪽에 전화해봐야겠어요",
+            "norm_text": "B.아뇨 빨리 끊고 저쪽에 전화해봐야겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아뇨/IC+빨리/MAG+끊/VV+고/EC+저쪽/NP+에/JKB+전화/NNG+해봐야/XSV+EC+VX+EC+VX+겠/EP+어요/EF"
+          },
+          {
+            "id": 17,
+            "text": "A.원활한 해결 되시길 바라겠습니다",
+            "norm_text": "A.원활한 해결 되시길 바라겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+원활/NNG+한/XSA+ETM+해결/NNG+되/XSV+시/EP+길/ETN+JKO+바라/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

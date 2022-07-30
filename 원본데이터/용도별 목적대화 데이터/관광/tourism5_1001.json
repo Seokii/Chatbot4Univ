@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 157111,
+    "name": "t5_20211118_0010_1355_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135907057925/t5_20211118_0010_1355_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135907057925/t5_20211118_0010_1355_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 154810,
+      "filename": "t5_0054_0069_02.txt",
+      "title": "t5_0054_0069_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 288,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 288,
+        "word_size": 60,
+        "text": "A.전화주셔서 감사합니다 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 #@소속#에 방문하려고 합니다\nA.네 포은 정몽주를 기리는 유교문화 교육의 산실 임고서원에 가려고 하십니까\nB.네 그렇기도 하고 가을에 너무 예쁘다고 해서요\nA.네 맞습니다 가을에 너무 예쁘죠\nB.#@소속# 오픈 시간이 몇 시인지요\nA.10시에 오픈하고 17시에 닫습니다\nB.아 그래요 외부관람도 17시까지인가요\nA.외부관람은 시간 외에도 이용이 가능합니다\nB.네 자세한 안내 감사합니다\nA.#@소속#에서 좋은 추억 만드시길 바랍니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화주셔서 감사합니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.전화주셔서 감사합니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@소속#에 방문하려고 합니다",
+            "norm_text": "B.안녕하세요 #@소속#에 방문하려고 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+에/JKB+방문/NNG+하/XSV+려고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 포은 정몽주를 기리는 유교문화 교육의 산실 임고서원에 가려고 하십니까",
+            "norm_text": "A.네 유교문화 교육의 산실 임고서원에 가려고 하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+유교/NNG+문화/NNG+교육/NNG+의/JKG+산실/NNG+임/VCP+ETN+고/EC+서원/NNG+에/JKB+가/VV+려고/EC+하/VX+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 그렇기도 하고 가을에 너무 예쁘다고 해서요",
+            "norm_text": "B.네 그렇기도 하고 가을에 너무 예쁘다고 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+기/ETN+도/JX+하/VV+고/EC+가을/NNG+에/JKB+너무/MAG+예쁘/VA+다고/EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 맞습니다 가을에 너무 예쁘죠",
+            "norm_text": "A.네 맞습니다 가을에 너무 예쁘죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+가을/NNG+에/JKB+너무/MAG+예쁘/VA+죠/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.#@소속# 오픈 시간이 몇 시인지요",
+            "norm_text": "B.#@소속# 오픈 시간이 몇 시인지요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+오픈/NNG+시간/NNG+이/JKS+몇/MM+시/NNBC+인지요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.10시에 오픈하고 17시에 닫습니다",
+            "norm_text": "A.10시에 오픈하고 17시에 닫습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+10/SN+시/NNBC+에/JKB+오픈/NNG+하/XSV+고/EC+17/SN+시/NNBC+에/JKB+닫/VV+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.아 그래요 외부관람도 17시까지인가요",
+            "norm_text": "B.아 그래요 외부관람도 17시까지인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그래요/IC+외부/NNG+관람/NNG+도/JX+17/SN+시/NNBC+까지/JX+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.외부관람은 시간 외에도 이용이 가능합니다",
+            "norm_text": "A.외부관람은 시간 외에도 이용이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+외부/NNG+관람/NNG+은/JX+시간/NNG+외/NNB+에/JKB+도/JX+이용/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 자세한 안내 감사합니다",
+            "norm_text": "B.네 자세한 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+자세/XR+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.#@소속#에서 좋은 추억 만드시길 바랍니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.#@소속#에서 좋은 추억 만드시길 바랍니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+좋/VA+은/ETM+추억/NNG+만드/VV+시/EP+길/ETN+JKO+바랍니다/VV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

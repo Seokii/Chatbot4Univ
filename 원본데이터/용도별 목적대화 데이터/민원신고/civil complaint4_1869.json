@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 49525,
+    "name": "c4_20211015_0001_2142_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202110081307070353100/c4_20211015_0001_2142_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202110081307070353100/c4_20211015_0001_2142_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50460,
+      "filename": "c4_20210906_0022_0002_01.txt",
+      "title": "c4_20210906_0022_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 510,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 510,
+        "word_size": 128,
+        "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 제가 질문 사항이 있어서 전화 드렸습니다\nA.예 여쭤보시고 싶은 게 있으신가요\nB.제가 어업에 종사하는 업종으로 이번에 이직을 하게 됐는데요\nA.예 어업쪽으로요 어떤 게 필요하신 건데요\nB.네 다른 게 아니고 소형 어선 승선 시에 해기사 면허가 필요한가요\nA.고객님 해기사 면허 말씀 하시는 거 맞으세요\nB.네 같이 일하시는 분들이 다 갖고 계시다 그래서요\nA.우선 해기사 면허에 대한 자격을 정한 선박직원법에서는 자격을 정하고 있지 않아요\nA.그런데 총 톤 수 오 톤 미만의 선박은 제외네요\nB.그렇지요 제가 소형 어선으로 일을 나가는데\nA.네 그래도 오 톤 미만 어선이라도 어업을 하기 위해 신고되었다면 필요합니다\nB.해기사 자격증이 필요하긴 하다 이 말이신 거죠\nA.네 맞습니다 고객님 낚시 관리 육성 법에 따르면 소형 선백 조종 면허가 필요하네요\nB.그렇군요 알려주셔서 감사합니다 다른 문의 사항 있으면 전화 드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 제가 질문 사항이 있어서 전화 드렸습니다",
+            "norm_text": "B.네 안녕하세요 제가 질문 사항이 있어서 전화 드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 여쭤보시고 싶은 게 있으신가요",
+            "norm_text": "A.예 여쭤보시고 싶은 게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 어업에 종사하는 업종으로 이번에 이직을 하게 됐는데요",
+            "norm_text": "B.제가 어업에 종사하는 업종으로 이번에 이직을 하게 됐는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+어업/NNG+에/JKB+종사/NNG+하/XSV+는/ETM+업종/NNG+으로/JKB+이번/NNG+에/JKB+이직/NNG+을/JKO+하/VV+게/EC+됐/VV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 어업쪽으로요 어떤 게 필요하신 건데요",
+            "norm_text": "A.예 어업쪽으로요 어떤 게 필요하신 건데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+어업/NNG+쪽/NNB+으로/JKB+요/JX+어떤/MM+게/NNB+JKS+필요/NNG+하/XSV+신/EP+ETM+건데요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 다른 게 아니고 소형 어선 승선 시에 해기사 면허가 필요한가요",
+            "norm_text": "B.네 다른 게 아니고 소형 어선 승선 시에 해기사 면허가 필요한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+다른/MM+게/NNB+JKC+아니/VCN+고/EC+소형/NNG+어/IC+선승/NNG+선시/NNG+에/JKB+해/VV+EC+기사/NNG+면허/NNG+가/JKS+필요/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.고객님 해기사 면허 말씀 하시는 거 맞으세요",
+            "norm_text": "A.고객님 해기사 면허 말씀 하시는 거 맞으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고/JKQ+객님/NNG+해/XSV+EC+기사/NNG+면허/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+맞/VV+으세요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 같이 일하시는 분들이 다 갖고 계시다 그래서요",
+            "norm_text": "B.네 같이 일하시는 분들이 다 갖고 계시다 그래서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+같이/MAG+일/NNG+하/XSV+시/EP+는/ETM+분/NNB+들/XSN+이/VCP+다/EC+갖/VX+고/EC+계시/VX+다/EF+그래서/MAJ+요/MM"
+          },
+          {
+            "id": 9,
+            "text": "A.우선 해기사 면허에 대한 자격을 정한 선박직원법에서는 자격을 정하고 있지 않아요",
+            "norm_text": "A.해기사 면허에 대한 자격을 정한 선박직원법에서는 자격을 정하고 있지 않아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+우선/MAG+해기사/NNG+면허/NNG+에/JKB+대한/VV+ETM+자격/NNG+을/JKO+정한/VV+ETM+선박/NNG+직원/NNG+법/NNG+에서/JKB+는/JX+자격/NNG+을/JKO+정하/VV+고/EC+있/VX+지/EC+않/VX+아요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.그런데 총 톤 수 오 톤 미만의 선박은 제외네요",
+            "norm_text": "A.그런데 총 톤 수 오 톤 미만의 선박은 제외네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그런데/MAJ+총톤수/NNG+오톤/NNP+미만/NNG+의/JKG+선박/NNG+은/JX+제외/NNG+네요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그렇지요 제가 소형 어선으로 일을 나가는데",
+            "norm_text": "B.그렇지요 제가 소형 어선으로 일을 나가는데",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그렇/VA+지요/EF+제/NP+가/JKS+소형/NNG+어선/NNG+으로/JKB+일/NNG+을/JKO+나가/VV+는데/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 그래도 오 톤 미만 어선이라도 어업을 하기 위해 신고되었다면 필요합니다",
+            "norm_text": "A.네 그래도 오 톤 미만 어선이라도 어업을 하기 위해 신고되었다면 필요합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그래도/MAJ+오톤/NNP+미만/NNG+어선/NNG+이/VCP+라도/EC+어업/NNG+을/JKO+하/VV+기/ETN+위해/VV+EC+신고/NNG+되/XSV+었/EP+다면/EC+필요/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.해기사 자격증이 필요하긴 하다 이 말이신 거죠",
+            "norm_text": "B.해기사 자격증이 필요하긴 하다 이 말이신 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+해기사/NNG+자격증/NNG+이/JKS+필요/NNG+하/XSV+긴/ETN+JX+하/VX+다/EF+이/MM+말/NNG+이/VCP+신/EP+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 맞습니다 고객님 낚시 관리 육성 법에 따르면 소형 선백 조종 면허가 필요하네요",
+            "norm_text": "A.네 맞습니다 낚시 관리 육성 법에 따르면 소형 선백 조종 면허가 필요하네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+낚시/NNG+관리/NNG+육성/NNG+법/NNG+에/JKB+따르/VV+면/EC+소형선/NNG+백/NR+조종/NNG+면허/NNG+가/JKS+필요/NNG+하/XSV+네요/EC"
+          },
+          {
+            "id": 15,
+            "text": "B.그렇군요 알려주셔서 감사합니다 다른 문의 사항 있으면 전화 드릴게요",
+            "norm_text": "B.그렇군요 알려주셔서 감사합니다 다른 문의 사항 있으면 전화 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으면/EC+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 150735,
+    "name": "t1_20211117_0002_0342_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719044162/t1_20211117_0002_0342_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719044162/t1_20211117_0002_0342_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148572,
+      "filename": "t1_0083_0047_02.txt",
+      "title": "t1_0083_0047_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 267,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 267,
+        "word_size": 72,
+        "text": "A. 안녕하십니까 #@소속# #@이름#입니다\nB. 안녕하세요 저 여쭤볼 게 있는데요\nA. 네 고객님 말씀하십시오\nB. 인원 초과 시 추가요금은 얼마인가요\nA. 인원 초과의 경우 추가요금 적용은 없습니다\nB. 아 그런가요 다른 곳은 보통 추가 요금을 내는 것 같던데요\nA. 저희는 침구 추가 시 1채당 만 원의 추가요금이 적용되고 있습니다\nB. 아 그렇게 적용이 되고 있군요\nA. 그렇습니다 추가 문의사항이 있으실까요\nB. 아니요 해결해 주셔서 이제 괜찮아요\nA. 네 행복한 하루 보내시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 안녕하십니까 #@소속# #@이름#입니다",
+            "norm_text": "A. 안녕하십니까 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 저 여쭤볼 게 있는데요",
+            "norm_text": "B. 안녕하세요 저 여쭤볼 게 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+저/NP+여쭤볼/VV+EC+VX+ETM+게/NNB+JKS+있/VA+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 고객님 말씀하십시오",
+            "norm_text": "A. 네 고객님 말씀하십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+십시오/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 인원 초과 시 추가요금은 얼마인가요",
+            "norm_text": "B. 인원 초과 시 추가요금은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+인원/NNG+초과/NNG+시추/NNG+가/JKS+요금/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 인원 초과의 경우 추가요금 적용은 없습니다",
+            "norm_text": "A. 인원 초과의 경우 추가요금 적용은 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+인원/NNG+초과/NNG+의/JKG+경우/NNG+추가/NNG+요금/NNG+적용/NNG+은/JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 아 그런가요 다른 곳은 보통 추가 요금을 내는 것 같던데요",
+            "norm_text": "B. 아 그런가요 다른 곳은 보통 추가 요금을 내는 것 같던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아/IC+그런가요/VA+EC+VCP+EF+다른/MM+곳/NNG+은/JX+보통/NNG+추가/NNG+요금/NNG+을/JKO+내/VV+는/ETM+것/NNB+같/VA+던데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 저희는 침구 추가 시 1채당 만 원의 추가요금이 적용되고 있습니다",
+            "norm_text": "A. 저희는 침구 추가 시 1채당 만 원의 추가요금이 적용되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+는/JX+침구/NNG+추가/NNG+시/XSN+1/SN+채/NNBC+당/XSN+만/NR+원/NNBC+의/JKG+추가/NNG+요금/NNG+이/JKS+적용/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B. 아 그렇게 적용이 되고 있군요",
+            "norm_text": "B. 아 그렇게 적용이 되고 있군요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아/IC+그렇게/MAG+적용/NNG+이/JKS+되/VV+고/EC+있/VX+군요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 그렇습니다 추가 문의사항이 있으실까요",
+            "norm_text": "A. 그렇습니다 추가 문의사항이 있으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그렇/VA+습니다/EF+추가/NNG+문/NNG+의/JKG+사항/NNG+이/JKS+있/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 10,
+            "text": "B. 아니요 해결해 주셔서 이제 괜찮아요",
+            "norm_text": "B. 아니요 해결해 주셔서 이제 괜찮아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아니요/IC+해결/NNG+해/XSV+EC+주/VX+셔서/EP+EC+이제/MAG+괜찮/VA+아요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 네 행복한 하루 보내시길 바랍니다",
+            "norm_text": "A. 네 행복한 하루 보내시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+행복/NNG+한/XSA+ETM+하루/NNG+보내/VV+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

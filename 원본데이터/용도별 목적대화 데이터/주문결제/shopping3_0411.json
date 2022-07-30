@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 9967,
+    "name": "s3_20210913_0010_0552_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151418006899/s3_20210913_0010_0552_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151418006899/s3_20210913_0010_0552_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12091,
+      "filename": "s3_20210830_0006_0001_01.txt",
+      "title": "s3_20210830_0006_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 384,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 384,
+        "word_size": 83,
+        "text": "A.#@소속# #@이름#입니다 무엇을 도와드릴까요\nB.저 방금 #@상품# 문의했었는데요\nB.그거 대형 블랙으로 오십 매 플러스 열 매 구매할게요\nA.배송받으실 분 성함 연락처 그리고 주소 말씀해 주세요\nB.이름은 #@이름# #@전번#이고 경기 부천시 #@주소#예요\nA.결제방식은 무통장입금 카드 결제 휴대폰 결제 중에 어떤 걸로 하시겠습니까\nB.무통장 입금으로 할게요\nA.입금 은행은 어디로 하시겠습니까\nB.혹시 #@소속#이 지금 가능할까요\nA.네 #@소속#으로 삼만 팔천구백원 주문자 이름으로 입금해 주시면 됩니다\nA.계좌는 알림톡으로 안내 갈겁 니다\nB.알겠습니다 입금하면 바로 배송되는 거죠\nA.업체에서 주문 확인하여 이 일에서 오 일안으로 출고합니다\nA.지금까지 #@소속# #@이름#이었습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.#@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저 방금 #@상품# 문의했었는데요",
+            "norm_text": "B.저 방금 #@상품# 문의했었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/IC+방금/MAG+#/SY+@/SY+상품/NNG+#/SY+문의/NNG+했었/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.그거 대형 블랙으로 오십 매 플러스 열 매 구매할게요",
+            "norm_text": "B.그거 대형 블랙으로 오십 매 플러스 열 매 구매할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그/MM+거대/NNG+형/XSN+블랙/NNG+으로/JKB+오/NR+십/NR+매/NNBC+플러스/NNG+열매/NNG+구매/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.배송받으실 분 성함 연락처 그리고 주소 말씀해 주세요",
+            "norm_text": "A.배송받으실 분 성함 연락처 그리고 주소 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+배송/NNG+받/VV+으실/EP+ETM+분성/NNG+함/XSV+ETN+연락처/NNG+그리고/MAJ+주소/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.이름은 #@이름# #@전번#이고 경기 부천시 #@주소#예요",
+            "norm_text": "B.이름은 #@이름# #@전번#이고 경기 부천시 #@주소#예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY+이/VCP+고/EC+경기/NNG+부천시/NNP+#/SY+@/SY+주소/NNG+#/SY+예요/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.결제방식은 무통장입금 카드 결제 휴대폰 결제 중에 어떤 걸로 하시겠습니까",
+            "norm_text": "A.결제는 무통장입금 카드 결제 휴대폰 결제 중에 어떤 걸로 하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+결제/NNG+는/JX+무/XPN+통장/NNG+입금/NNG+카드/NNG+결제/NNG+휴대폰/NNG+결제/NNG+중/NNB+에/JKB+어떤/MM+걸로/NNB+JKB+하/VV+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.무통장 입금으로 할게요",
+            "norm_text": "B.무통장 입금으로 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+무/XPN+통장/NNG+입금/NNG+으로/JKB+할게요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.입금 은행은 어디로 하시겠습니까",
+            "norm_text": "A.입금 은행은 어디로 하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+입금/NNG+은행/NNG+은/JX+어디/NP+로/JKB+하/VV+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.혹시 #@소속#이 지금 가능할까요",
+            "norm_text": "B.혹시 #@소속#이 지금 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+#/SY+@/SY+소속/NNG+#/SY+이/JKS+지금/MAG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 #@소속#으로 삼만 팔천구백원 주문자 이름으로 입금해 주시면 됩니다",
+            "norm_text": "A.네 #@소속#으로 삼만 팔천구백원 주문자 이름으로 입금해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+삼/NR+만/NR+팔/NR+천/NR+구/NR+백/NR+원/NNBC+주문자/NNG+이름/NNG+으로/JKB+입금/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.계좌는 알림톡으로 안내 갈겁 니다",
+            "norm_text": "A.계좌는 알림톡으로 안내 갈겁 니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+계좌/NNG+는/JX+알림/VV+ETN+톡/NNG+으로/JKB+안/MAG+내갈/VV+ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.알겠습니다 입금하면 바로 배송되는 거죠",
+            "norm_text": "B.알겠습니다 입금하면 바로 배송되는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+입금/NNG+하/XSV+면/EC+바로/MAG+배송/NNG+되/XSV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.업체에서 주문 확인하여 이 일에서 오 일안으로 출고합니다",
+            "norm_text": "A.업체에서 주문 확인하여 이 일에서 오 일안으로 출고합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+업체/NNG+에서/JKB+주문/NNG+확인/NNG+하/XSV+여/EC+이/NR+일/NNBC+에서/JKB+오일/NNG+안/NNG+으로/JKB+출고/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.지금까지 #@소속# #@이름#이었습니다 감사합니다",
+            "norm_text": "A.지금까지 #@소속# #@이름#이었습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+./SY+지금/NNG+까지/JX+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

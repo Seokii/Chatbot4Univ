@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140842,
+    "name": "t1_20211115_0002_0352_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714067797/t1_20211115_0002_0352_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714067797/t1_20211115_0002_0352_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147978,
+      "filename": "t1_0067_0034_02.txt",
+      "title": "t1_0067_0034_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 331,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 331,
+        "word_size": 86,
+        "text": "A. 반갑습니다 #@소속# #@이름# 상담원입니다\nB. 아 네 저 방금 예약한 #@이름#인데요 취소 문의 좀 요\nA. 네 #@이름#님 예약하셨던 연락처 말씀해주세요\nB. #@전번# 이구요 예약한지 30분도 안됐어요\nA. 네 지금 바로 취소 처리 해드리면 될까요\nB. 네 아 근데 설마 수수료 물어야 되는 건 아니겠죠\nA. 죄송하지만 모든 예약 취소 시 10%의 수수료가 발생합니다\nB. 아니 방금 한 건데도 수수료 내야 된다니 어이 없네요\nA. 죄송합니다 사이트에도 기재된 규정이니 양해부탁 드립니다\nB. 일단 알겠습니다 그럼 생각해보고 다시 전화 드릴게요\nA. 네 언제든 전화주세요 상담원 #@이름#이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 #@소속# #@이름# 상담원입니다",
+            "norm_text": "A. 반갑습니다 #@소속# #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 아 네 저 방금 예약한 #@이름#인데요 취소 문의 좀 요",
+            "norm_text": "B. 아 네 저 방금 예약한 #@이름#인데요 취소 문의하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+네/IC+저/IC+방금/MAG+예약/NNG+한/XSA+ETM+#/SY+@/SY+이름/NNG+#/SY+인데요/VCP+EC+취소/NNG+문의/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 #@이름#님 예약하셨던 연락처 말씀해주세요",
+            "norm_text": "A. 네 #@이름#님 예약하셨던 연락처 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+님/XSN+예약/NNG+하/XSV+셨/EP+EP+던/ETM+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B. #@전번# 이구요 예약한지 30분도 안됐어요",
+            "norm_text": "B. #@전번# 이구요 예약한지 30분도 안됐어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+이/VCP+구요/EF+예/IC+약한지/VA+EC+30/SN+분/NNBC+도/JX+안/MAG+됐/VV+EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A. 네 지금 바로 취소 처리 해드리면 될까요",
+            "norm_text": "A. 네 지금 바로 취소 처리 해드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+지금/MAG+바로/MAG+취소/NNG+처리/NNG+해/XSV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 네 아 근데 설마 수수료 물어야 되는 건 아니겠죠",
+            "norm_text": "B. 네 아 근데 설마 수수료 물어야 되는 건 아니겠죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+아/IC+근데/MAJ+설마/MAG+수수료/NNG+물어야/VV+EC+되/VV+는/ETM+건/NNB+JX+아니/VCN+겠/EP+죠/EF"
+          },
+          {
+            "id": 7,
+            "text": "A. 죄송하지만 모든 예약 취소 시 10%의 수수료가 발생합니다",
+            "norm_text": "A. 죄송하지만 모든 예약 취소 시 10%의 수수료가 발생합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+모든/MM+예약/NNG+취소/NNG+시/XSN+10/SN+%/SY+의/JKG+수수료/NNG+가/JKS+발생/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 아니 방금 한 건데도 수수료 내야 된다니 어이 없네요",
+            "norm_text": "B. 아니 방금 한 건데도 수수료 내야 된다니 어이없네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/IC+방금/MAG+한/XSA+ETM+건데/NNB+VCP+EC+도/JX+수수료/NNG+내야/NNG+된다니/XSV+EC+어이없/VA+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 죄송합니다 사이트에도 기재된 규정이니 양해부탁 드립니다",
+            "norm_text": "A. 죄송합니다 사이트에도 기재된 규정이니 양해부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+사이트/NNG+에/JKB+도/JX+기재/NNG+된/XSV+ETM+규정/NNG+이/VCP+니/EC+양해/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 일단 알겠습니다 그럼 생각해보고 다시 전화 드릴게요",
+            "norm_text": "B. 일단 알겠습니다 그럼 생각해보고 다시 전화 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+일단/MAG+알/VV+겠/EP+습니다/EF+그럼/MAJ+생각/NNG+해/XSV+EC+보/VX+고/EC+다시/MAG+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 네 언제든 전화주세요 상담원 #@이름#이였습니다",
+            "norm_text": "A. 네 언제든 전화주세요 상담원 #@이름#이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+언제/MAG+든/VV+ETM+전화/NNG+주세요/NNP+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

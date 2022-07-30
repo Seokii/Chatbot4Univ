@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 17390,
+    "name": "s1_20210915_0001_0850_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151216083584/s1_20210915_0001_0850_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151216083584/s1_20210915_0001_0850_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7476,
+      "filename": "s1_20210823_0020_0038_01.txt",
+      "title": "s1_20210823_0020_0038_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 305,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 305,
+        "word_size": 70,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.좀전에 통화했는데요 티비 전원이 안 들어와서요\nA.일단 성함과 연락처 말씀해 주시겠습니까\nB.전화번호는 #@전번# 이름은 #@이름# 입니다\nA.방문 시간은 언제로 해드릴까요\nB.내일 열한 시 반이요\nA.기사님 방문하시면 출장비 만 이천 원과 추가 수리비 나올 수 있고요\nA.정확한 건 기사님이 말씀해 주실 겁니다\nB.알겠습니다 잘 고쳐주세요\nA.기사님께 더 잘 봐달라고 전달드리겠습니다\nA.다른 문의사항은 없으십니까\nB.없어요 그냥 티비만 고치면 돼요\nA.알겠습니다 추운 날씨 건강 유의 하시고요\nA.점검 잘 받아보시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.좀전에 통화했는데요 티비 전원이 안 들어와서요",
+            "norm_text": "B.좀전에 통화했는데요 티비 전원이 안 들어와서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+좀/MAG+전/NNG+에/JKB+통화/NNG+했/XSV+EP+는데요/EF+티비/NNG+전원/NNG+이/JKS+안/MAG+들어와서/VV+EC+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.일단 성함과 연락처 말씀해 주시겠습니까",
+            "norm_text": "A.일단 성함과 연락처 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+일단/MAG+성함/NNG+과/JC+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.전화번호는 #@전번# 이름은 #@이름# 입니다",
+            "norm_text": "B.전화번호는 #@전번# 이름은 #@이름# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.방문 시간은 언제로 해드릴까요",
+            "norm_text": "A.방문 시간은 언제로 해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+방문/NNG+시간/NNG+은/JX+언제/NP+로/JKB+해드릴까요/VV+EC+VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.내일 열한 시 반이요",
+            "norm_text": "B.내일 열한 시 반이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+내일/MAG+열/NR+한/MM+시/NNBC+반/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.기사님 방문하시면 출장비 만 이천 원과 추가 수리비 나올 수 있고요",
+            "norm_text": "A.기사님 방문하시면 출장비 만 이천 원과 추가 수리비 나올 수 있고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기사/NNG+님/XSN+방문/NNG+하/XSV+시/EP+면/EC+출장비/NNG+만/JX+이/JKS+천/NR+원/NNBC+과/JC+추가/NNG+수리비/NNG+나올/VV+ETM+수/NNB+있/VV+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.정확한 건 기사님이 말씀해 주실 겁니다",
+            "norm_text": "A.정확한 건 기사님이 말씀해 주실 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+정확/NNG+한/XSA+ETM+건/NNB+JX+기사/NNG+님/XSN+이/JKS+말씀/NNG+해/XSV+EC+주/VX+실/EP+ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.알겠습니다 잘 고쳐주세요",
+            "norm_text": "B.알겠습니다 잘 고쳐주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+잘/MAG+고쳐/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.기사님께 더 잘 봐달라고 전달드리겠습니다",
+            "norm_text": "A.기사님께 더 잘 봐달라고 전달드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+기사/NNG+님/XSN+께/JKB+더/MAG+잘/MAG+봐/VV+EC+달/VX+라고/EC+전달/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.다른 문의사항은 없으십니까",
+            "norm_text": "A.다른 문의사항은 없으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.없어요 그냥 티비만 고치면 돼요",
+            "norm_text": "B.없어요 그냥 티비만 고치면 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+없/VA+어요/EF+그냥/MAG+티비/NNG+만/JX+고치/VV+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.알겠습니다 추운 날씨 건강 유의 하시고요",
+            "norm_text": "A.알겠습니다 추운 날씨 건강 유의 하시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+추운/VA+ETM+날씨/NNG+건강/NNG+유의/NNG+하/XSV+시/EP+고요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.점검 잘 받아보시길 바랍니다",
+            "norm_text": "A.점검 잘 받아보시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+점검/NNG+잘/MAG+받/VV+아/EC+보/VX+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

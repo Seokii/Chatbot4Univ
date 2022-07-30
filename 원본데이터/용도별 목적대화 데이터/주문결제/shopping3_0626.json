@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 11189,
+    "name": "s3_20210913_0010_0767_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416050617/s3_20210913_0010_0767_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416050617/s3_20210913_0010_0767_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11866,
+      "filename": "s3_20210826_0026_0004_01.txt",
+      "title": "s3_20210826_0026_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 323,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 323,
+        "word_size": 74,
+        "text": "A.#@소속# 상담사 #@이름#입니다\nB.예 아까 #@상품# 주문했었는데요\nB.혹시 현금 영수증 사업자로 내줄 수 있나요\nA.네 가능합니다 번호 불러주세요\nB.사업자 번호요 #@번호#\nA.혹시 상호명은 어떻게 되세요\nB.여기 #@소속# 이에요\nA.알겠습니다 말씀해 주신 사업자로 현금 영수증 신청하겠습니다\nB.전에 먼저 주문 한 것도 가능한가요 하나도\nA.네 그러면 이것도 같이 해드릴게요 고객님\nB.네 좋아요 감사합니다\nA.네 #@소속# #@이름#이었습니다\nB.오늘 내일 배송 오나 오늘 오나요\nA.저희 오늘 출고 마감되셨고 내일 빨간 날이어서요\nA.다음 주에 출고되실 겁니다\nB.네 그렇군요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.#@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 아까 #@상품# 주문했었는데요",
+            "norm_text": "B.예 아까 #@상품# 주문했었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+아까/MAG+#/SY+@/SY+상품/NNG+#/SY+주문/NNG+했었/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.혹시 현금 영수증 사업자로 내줄 수 있나요",
+            "norm_text": "B.혹시 현금 영수증 사업자로 내줄 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+현금영수증/NNP+사업자/NNG+로/JKB+내줄/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 가능합니다 번호 불러주세요",
+            "norm_text": "A.네 가능합니다 번호 불러주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+가능/NNG+합니다/XSV+EF+번호/NNG+불러/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.사업자 번호요 #@번호#",
+            "norm_text": "B.사업자 번호요 #@번호#",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+사업자/NNG+번호/NNG+요/VCP+EC+#/SY+@/SY+번호/NNG+#/SY"
+          },
+          {
+            "id": 6,
+            "text": "A.혹시 상호명은 어떻게 되세요",
+            "norm_text": "A.혹시 상호명은 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+상호/NNG+명/XSN+은/JX+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.여기 #@소속# 이에요",
+            "norm_text": "B.여기 #@소속# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+#/SY+@/SY+소속/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.알겠습니다 말씀해 주신 사업자로 현금 영수증 신청하겠습니다",
+            "norm_text": "A.알겠습니다 말씀해 주신 사업자로 현금 영수증 신청하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+말씀/NNG+해/XSV+EC+주/VX+신/EP+ETM+사업자/NNG+로/JKB+현금영수증/NNP+신청/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.전에 먼저 주문 한 것도 가능한가요 하나도",
+            "norm_text": "B.전에 먼저 주문 한 것도 가능한가요 하나도",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+전/NNG+에/JKB+먼저/MAG+주문/NNG+한/XSA+ETM+것/NNB+도/JX+가능/NNG+한/XSA+ETM+가요/NNG+하나/NR+도/JX"
+          },
+          {
+            "id": 10,
+            "text": "A.네 그러면 이것도 같이 해드릴게요 고객님",
+            "norm_text": "A.네 그러면 이것도 같이 해드릴게요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+그러면/MAJ+이것/NP+도/JX+같이/MAG+해/VV+EC+드릴게요/VX+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 11,
+            "text": "B.네 좋아요 감사합니다",
+            "norm_text": "B.네 좋아요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+좋/VA+아요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 #@소속# #@이름#이었습니다",
+            "norm_text": "A.네 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.오늘 내일 배송 오나 오늘 오나요",
+            "norm_text": "B.오늘 내일 배송 오나 오늘 오나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+오늘/MAG+내일/MAG+배송/NNG+오/VV+나/EC+오늘/MAG+오/VV+나요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.저희 오늘 출고 마감되셨고 내일 빨간 날이어서요",
+            "norm_text": "A.저희 오늘 출고 마감되셨고 내일 빨간 날이어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+오늘/MAG+출고/NNG+마감/NNG+되/XSV+셨/EP+EP+고/EC+내일/MAG+빨간/VA+ETM+날/NNG+이/VCP+어서요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.다음 주에 출고되실 겁니다",
+            "norm_text": "A.다음 주에 출고되실 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+다음/NNG+주/NNG+에/JKB+출고/NNG+되/XSV+실/EP+ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 그렇군요 감사합니다",
+            "norm_text": "B.네 그렇군요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+군요/EC+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

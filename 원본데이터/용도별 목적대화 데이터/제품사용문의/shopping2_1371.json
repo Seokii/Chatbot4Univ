@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 102681,
+    "name": "s2_20211103_0002_0208_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110738072573/s2_20211103_0002_0208_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110738072573/s2_20211103_0002_0208_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117314,
+      "filename": "s2_20211029_0012_0012_01.txt",
+      "title": "s2_20211029_0012_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 242,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 242,
+        "word_size": 55,
+        "text": "A.안녕하세요 #@소속# 상담센터 #@이름#입니다\nB.제가 남성용은 알겠는데 여성용을 몰라요\nA.네 고객님 어떤 거를 모르신다는 거죠\nB.그게 #@상품#요 색깔요\nA.네 #@상품# 여성용 색상 문의이신가요\nB.네 여성용 어떤 색 있는지 알려주세요\nA.네 여성용은 블랙 옐로 퍼플 버건디가 있습니다\nB.여성은 그레이 색상은 없나요\nA.네 그레이는 남성용에만 있습니다\nB.그레이가 없다니 네 알겠습니다 수고하세요\nA.네 날씨가 많이 추운데 건강 유의하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담센터 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 남성용은 알겠는데 여성용을 몰라요",
+            "norm_text": "B.제가 남성용은 알겠는데 여성용을 몰라요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+제/NP+가/JKS+남성/NNG+용/XSN+은/JX+알/VV+겠/EP+는데/EC+여성/NNG+용/XSN+을/JKO+몰라요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어떤 거를 모르신다는 거죠",
+            "norm_text": "A.네 고객님 어떤 거를 모르신다는 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어떤/MM+거/NNB+를/JKO+모르/VV+신다는/EP+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그게 #@상품#요 색깔요",
+            "norm_text": "B.그게 #@상품#요 색깔요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그게/NP+JKS+#/SY+@/SY+상품/NNG+#/SY+요색/NNG+깔/VV+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 #@상품# 여성용 색상 문의이신가요",
+            "norm_text": "A.네 #@상품# 여성용 색상 문의이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+여성/NNG+용/XSN+색상/NNG+문의/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 여성용 어떤 색 있는지 알려주세요",
+            "norm_text": "B.네 여성용 어떤 색 있는지 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+여성/NNG+용/XSN+어떤/MM+색/NNG+있/VV+는지/EC+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 여성용은 블랙 옐로 퍼플 버건디가 있습니다",
+            "norm_text": "A.네 여성용은 블랙 옐로 퍼플 버건디가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+여성/NNG+용/XSN+은/JX+블랙/NNG+옐로/NNG+퍼플/NNP+버건/NNP+디/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.여성은 그레이 색상은 없나요",
+            "norm_text": "B.여성은 그레이 색상은 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+여성/NNG+은/JX+그레이/NNP+색상/NNG+은/JX+없/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 그레이는 남성용에만 있습니다",
+            "norm_text": "A.네 그레이는 남성용에만 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/MM+그레이/NNBC+는/JX+남성/NNG+용/XSN+에/JKB+만/JX+있/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그레이가 없다니 네 알겠습니다 수고하세요",
+            "norm_text": "B.그레이가 없다니 네 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+그레이/NNP+가/JKS+없/VA+다니/EC+네/IC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 날씨가 많이 추운데 건강 유의하세요",
+            "norm_text": "A.네 날씨가 많이 추운데 건강 유의하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+날씨/NNG+가/JKS+많이/MAG+추운데/VA+EC+건강/NNG+유의/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

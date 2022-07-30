@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 49204,
+    "name": "c4_20211015_0012_0097_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131237080289/c4_20211015_0012_0097_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131237080289/c4_20211015_0012_0097_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57505,
+      "filename": "c4_20210928_0014_01_0018.txt",
+      "title": "c4_20210928_0014_01_0018",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 324,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 324,
+        "word_size": 64,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 문의 드릴게 있어서 연락드렸어요\nA.네 말씀 주시면 답변 드리겠습니다\nB.횡단보도 설치를 요청합니다\nA.어디쪽 말씀하시는건 가요\nB.#@주소# 여기 사거리 횡단보도 대각선으로 교차하는 횡단보도 설치해주세요\nA.대각선 횡단보도는 설치기준이 따로 있어서요\nB.기준이 어떻게 되는데요\nA.횡단길이 30센치이하 해당구역사거리는 50미터 왕복 오차로 도로에 해당해서요\nA.설치가 어려울 것 같습니다\nB.아 기준이 있는거네요 알겠어요\nA.네 더 문의사항 있으신가요\nB.아니요 없습니다 감사합니다 수고 하세요\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 문의 드릴게 있어서 연락드렸어요",
+            "norm_text": "B.안녕하세요 문의 드릴게 있어서 연락드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서/EC+연락/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 말씀 주시면 답변 드리겠습니다",
+            "norm_text": "A.네 말씀 주시면 답변 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+말씀/NNG+주/VV+시/EP+면/EC+답변/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.횡단보도 설치를 요청합니다",
+            "norm_text": "B.횡단보도 설치를 요청합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+횡단보도/NNG+설치/NNG+를/JKO+요청/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.어디쪽 말씀하시는건 가요",
+            "norm_text": "A.어디쪽 말씀하시는건 가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어디/NP+쪽/NNB+말씀/NNG+하/XSV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.#@주소# 여기 사거리 횡단보도 대각선으로 교차하는 횡단보도 설치해주세요",
+            "norm_text": "B.#@주소# 여기 사거리 횡단보도 대각선으로 교차하는 횡단보도 설치해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+여기/NP+사거리/NNG+횡단보도/NNG+대각선/NNG+으로/JKB+교차/NNG+하/XSV+는/ETM+횡단보도/NNG+설치/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.대각선 횡단보도는 설치기준이 따로 있어서요",
+            "norm_text": "A.대각선 횡단보도는 설치기준이 따로 있어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+대각선/NNG+횡단보도/NNG+는/JX+설치/NNG+기준/NNG+이/JKS+따로/MAG+있/VV+어서요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.기준이 어떻게 되는데요",
+            "norm_text": "B.기준이 어떻게 되는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+기준/NNG+이/JKS+어떻게/MAG+되/VV+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.횡단길이 30센치이하 해당구역사거리는 50미터 왕복 오차로 도로에 해당해서요",
+            "norm_text": "A.횡단길이 삼십센치이하 여야 하는데요 ",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+횡단/NNG+길/NNG+이/JKS+30/SN+센치/NNP+이하/NNG+해/XSV+EC+당구/NNG+역사/NNG+거리/XSV+는/ETM+50/SN+미터/NNBC+왕복/NNG+오/NR+차/NNBC+로/JKB+도로/NNG+에/JKB+해당/NNG+해서/XSV+EC+VCP+VCP+요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.설치가 어려울 것 같습니다",
+            "norm_text": "A.해당구역은 오십미터 왕복 오차로 도로라 설치가 어려울 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+설치/NNG+가/JKS+어려울/VA+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.아 기준이 있는거네요 알겠어요",
+            "norm_text": "B.아 기준이 있는거네요 알겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+기준/NNG+이/JKS+있/VA+는/ETM+거/NNB+네요/VCP+EC+알/VV+겠/EP+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.네 더 문의사항 있으신가요",
+            "norm_text": "A.네 더 문의사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+더/MAG+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 13,
+            "text": "B.아니요 없습니다 감사합니다 수고 하세요",
+            "norm_text": "B.아니요 없습니다 감사합니다 수고 하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아니요/IC+없/VA+습니다/EF+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

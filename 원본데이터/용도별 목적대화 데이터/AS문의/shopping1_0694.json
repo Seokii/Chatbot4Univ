@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 7911,
+    "name": "s1_20210913_0001_0285_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151220029416/s1_20210913_0001_0285_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151220029416/s1_20210913_0001_0285_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7972,
+      "filename": "s1_20210824_0026_0039_01.txt",
+      "title": "s1_20210824_0026_0039_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 453,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 453,
+        "word_size": 103,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.안녕하세요 저희가 냉동고를 사용을 하고 있는데여 전원이 갑자기 나가서요\nA.혹시 다른 전원 콘센트에 꽂아도 마찬가지십니까\nB.콘센트 같이 사용하고 있는 다른 냉장고는 정상적으로 작동이 되는데요\nB.이 냉동고만 지금 전원이 나가서요\nA.전기 쪽에 이상이 아니시라면 점검 받아 보셔야 되는데요\nA.제품의 모델명 혹시 확인 가능 하신가요\nB.모델명이 #@상품#구요\nA.네 #@상품# 모델이시구요\nA.사용한 기간은 일 년 이상은 되신 거세요\nB.제가 구매한 게 아니라서 근데 기간 일년 넘었구요\nA.아 네 확인 감사합니다 통화 가능한 전화번호는 어떻게 되십니까\nB.#@전번# 이름은 #@이름#이요\nA.예 방문 해야 되는 주소 부탁 드리겠습니다\nB.여기 대전광역시 우성구 #@주소#이여\nA.네 말씀해 주신 주소가 대전 유성구 #@주소#이라고 하셨는데요\nA.저희가 빠르게 기사님 확인해서 바로 연락드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 저희가 냉동고를 사용을 하고 있는데여 전원이 갑자기 나가서요",
+            "norm_text": "B.안녕하세요 저희가 냉동고를 사용을 하고 있는데여 전원이 갑자기 나가서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+저희/NP+가/JKS+냉동고/NNG+를/JKO+사용/NNG+을/JKO+하/VV+고/EC+있/VX+는데/EC+여/NNG+전원/NNG+이/JKS+갑자기/MAG+나가/VV+서요/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.혹시 다른 전원 콘센트에 꽂아도 마찬가지십니까",
+            "norm_text": "A.혹시 다른 전원 콘센트에 꽂아도 마찬가지십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+다른/MM+전원/NNG+콘센트/NNG+에/JKB+꽂/VV+아도/EC+마찬가지/NNG+십니까/VCP+EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.콘센트 같이 사용하고 있는 다른 냉장고는 정상적으로 작동이 되는데요",
+            "norm_text": "B.콘센트 같이 사용하고 있는 다른 냉장고는 정상적으로 작동이 되는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+콘센트/NNG+같이/JKB+사용/NNG+하/XSV+고/EC+있/VX+는/ETM+다른/MM+냉장고/NNG+는/JX+정상/NNG+적/XSN+으로/JKB+작동/NNG+이/JKS+되/VV+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.이 냉동고만 지금 전원이 나가서요",
+            "norm_text": "B.이 냉동고만 지금 전원이 나가서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이/MM+냉동고/NNG+만/JX+지금/MAG+전원/NNG+이/JKS+나가/VV+서요/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.전기 쪽에 이상이 아니시라면 점검 받아 보셔야 되는데요",
+            "norm_text": "A.전기 쪽에 이상이 아니시라면 점검 받아 보셔야 되는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+전기/NNG+쪽/NNB+에/JKB+이상/NNG+이/JKC+아니/VCN+시/EP+라면/EC+점검/NNG+받/VV+아/EC+보/VX+셔야/EP+EC+되/VV+는데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.제품의 모델명 혹시 확인 가능 하신가요",
+            "norm_text": "A.제품의 모델명 혹시 확인 가능 하신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+제품/NNG+의/JKG+모델/NNG+명/XSN+혹시/MAG+확인/NNG+가능/NNG+하/XSV+신가요/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.모델명이 #@상품#구요",
+            "norm_text": "B.모델명이 #@상품#구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+모델/NNG+명이/NNG+#/SY+@/SY+상품/NNG+#/SY+구요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.네 #@상품# 모델이시구요",
+            "norm_text": "A.네 #@상품# 모델이시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+모델/NNG+이/VCP+시/EP+구요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.사용한 기간은 일 년 이상은 되신 거세요",
+            "norm_text": "A.사용한 기간은 일 년 이상은 되신 거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+사용/NNG+한/XSA+ETM+기간/NNG+은/JX+일/NR+년/NNBC+이상/NNG+은/JX+되/VV+신/EP+ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.제가 구매한 게 아니라서 근데 기간 일년 넘었구요",
+            "norm_text": "B.제가 구매한 게 아니라서 근데 기간 일년 넘었구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+구매/NNG+한/XSA+ETM+게/NNB+JKC+아니/VCN+라서/EC+근데/MAJ+기간/NNG+일/NR+년/NNBC+넘/VV+었/EP+구요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.아 네 확인 감사합니다 통화 가능한 전화번호는 어떻게 되십니까",
+            "norm_text": "A.아 네 확인 감사합니다 통화 가능한 전화번호는 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+아/IC+네/IC+확인/NNG+감사/NNG+합니다/XSV+EF+통화/NNG+가능/NNG+한/XSA+ETM+전화/NNG+번호/NNG+는/JX+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.#@전번# 이름은 #@이름#이요",
+            "norm_text": "B.#@전번# 이름은 #@이름#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.예 방문 해야 되는 주소 부탁 드리겠습니다",
+            "norm_text": "A.예 방문 해야 되는 주소 부탁 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+예/IC+방문/NNG+해야/XSV+EC+되/VV+는/ETM+주소/NNG+부탁/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.여기 대전광역시 우성구 #@주소#이여",
+            "norm_text": "B.여기 대전광역시 우성구 #@주소#이여",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+대전광역시/NNP+우성구/NNP+#/SY+@/SY+주소/NNG+#/SY+이/VCP+여/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 말씀해 주신 주소가 대전 유성구 #@주소#이라고 하셨는데요",
+            "norm_text": "A.네 말씀해 주신 주소가 대전 유성구 #@주소#이라고 하셨는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+말씀/NNG+해/XSV+EC+주/VX+신/EP+ETM+주소/NNG+가/JKS+대전/NNP+유성구/NNP+#/SY+@/SY+주소/NNG+#/SY+이라고/JKQ+하/VV+셨/EP+EP+는데요/EC"
+          },
+          {
+            "id": 17,
+            "text": "A.저희가 빠르게 기사님 확인해서 바로 연락드리겠습니다",
+            "norm_text": "A.저희가 빠르게 기사님 확인해서 바로 연락드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+저희/NP+가/JKS+빠르/VA+게/EC+기사/NNG+님/XSN+확인/NNG+해서/XSV+EC+바로/MAG+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

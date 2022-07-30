@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 10443,
+    "name": "s3_20210913_0010_0603_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417071152/s3_20210913_0010_0603_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417071152/s3_20210913_0010_0603_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12040,
+      "filename": "s3_20210827_0030_0001_01.txt",
+      "title": "s3_20210827_0030_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 375,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 375,
+        "word_size": 90,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.수고하십니다 팔찌 하나 구입하고 싶은데요\nA.고객님 정확한 상품명 다시 불러주실 수 있을까요\nB.상품명이요 잠시만요 #@상품#입니다\nA.네 고객님 #@상품# 구매하시고 싶으신거죠\nA.사만 구천 팔백 원 제품 보신 거죠 고객님\nB.네 그 제품이 맞습니다\nA.네 옵션은 어떻게 도와드리면 될까요\nB.남녀 하나씩으로 사고 싶은데요\nA.팔찌 아니면 목걸이 어떤 걸로 도와드릴까요\nB.팔찌로 구매하고 싶습니다\nA.둘 다 남성용 팔찌 여성용 팔찌 이렇게 두 개 주문 도와드리면 될까요\nB.네 그렇게 해주시면 됩니다\nA.네 색상은 어떻게 도와드릴까요\nB.다 검정색으로 했으면 좋겠는데요\nA.남성용 블랙 하나 여성용 팔찌 블랙 하나 총 두 개 주문 도와드리도록 하겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고하십니다 팔찌 하나 구입하고 싶은데요",
+            "norm_text": "B.수고하십니다 팔찌 하나 구입하고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+팔찌/NNG+하나/NR+구입/NNG+하/XSV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 정확한 상품명 다시 불러주실 수 있을까요",
+            "norm_text": "A.고객님 정확한 상품명 다시 불러주실 수 있을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+정확/XR+한/XSA+ETM+상품명/NNG+다시/MAG+불러/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.상품명이요 잠시만요 #@상품#입니다",
+            "norm_text": "B.상품명이요 잠시만요 #@상품#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+상품명/NNG+이/VCP+요/EC+잠시/NNG+만/JX+요/JX+#/SY+@/SY+상품/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 #@상품# 구매하시고 싶으신거죠",
+            "norm_text": "A.네 고객님 #@상품# 구매하시고 싶으신거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+#/SY+@/SY+상품/NNG+#/SY+구매/NNG+하/XSV+시/EP+고/EC+싶/VX+으신/EP+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.사만 구천 팔백 원 제품 보신 거죠 고객님",
+            "norm_text": "A.사만 구천 팔백 원 제품 보신 거죠 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+사만/NR+구천/NR+팔/NR+백/NR+원/NNBC+제품/NNG+보/VV+신/EP+ETM+거/NNB+죠/VCP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 7,
+            "text": "B.네 그 제품이 맞습니다",
+            "norm_text": "B.네 그 제품이 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그/MM+제품/NNG+이/JKS+맞/VV+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.네 옵션은 어떻게 도와드리면 될까요",
+            "norm_text": "A.네 옵션은 어떻게 도와드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+옵션/NNG+은/JX+어떻게/MAG+도와/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.남녀 하나씩으로 사고 싶은데요",
+            "norm_text": "B.남녀 하나씩으로 사고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+남녀/NNG+하나/NR+씩/XSN+으로/JKB+사/VV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.팔찌 아니면 목걸이 어떤 걸로 도와드릴까요",
+            "norm_text": "A.팔찌 아니면 목걸이 어떤 걸로 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+팔찌/NNG+아니/VCN+면/EC+목걸이/NNG+어떤/MM+걸로/NNB+JKB+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.팔찌로 구매하고 싶습니다",
+            "norm_text": "B.팔찌로 구매하고 싶습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+팔찌/NNG+로/JKB+구매/NNG+하/XSV+고/EC+싶/VX+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.둘 다 남성용 팔찌 여성용 팔찌 이렇게 두 개 주문 도와드리면 될까요",
+            "norm_text": "A.둘 다 남성용 팔찌 여성용 팔찌 이렇게 두 개 주문 도와드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+둘/NR+다/MAG+남성/NNG+용/XSN+팔찌/NNG+여성/NNG+용/XSN+팔찌/NNG+이렇게/MAG+두/MM+개/NNBC+주문/NNG+도와/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.네 그렇게 해주시면 됩니다",
+            "norm_text": "B.네 그렇게 해주시면 됩니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그렇게/MAG+해/VV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 색상은 어떻게 도와드릴까요",
+            "norm_text": "A.네 색상은 어떻게 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+색상/NNG+은/JX+어떻게/MAG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.다 검정색으로 했으면 좋겠는데요",
+            "norm_text": "B.다 검정색으로 했으면 좋겠는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+다/MAG+검정/NNG+색/NNG+으로/JKB+했/VV+EP+으면/EC+좋/VA+겠/EP+는데요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.남성용 블랙 하나 여성용 팔찌 블랙 하나 총 두 개 주문 도와드리도록 하겠습니다",
+            "norm_text": "A.남성용 블랙 하나 여성용 팔찌 블랙 하나 총 두 개 주문 도와드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+남성/NNG+용/XSN+블랙/NNG+하나/NR+여성/NNG+용/XSN+팔찌/NNG+블랙/NNG+하나/NR+총/MM+두/MM+개/NNBC+주문/NNG+도와/VV+EC+드리/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

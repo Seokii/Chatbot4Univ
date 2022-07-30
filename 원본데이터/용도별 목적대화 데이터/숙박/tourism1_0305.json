@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 140759,
+    "name": "t1_20211115_0002_0296_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714024394/t1_20211115_0002_0296_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714024394/t1_20211115_0002_0296_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147922,
+      "filename": "t1_0066_0108_02.txt",
+      "title": "t1_0066_0108_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 300,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 300,
+        "word_size": 72,
+        "text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다\nB.제가 지금 일정이 변경돼서 예약 취소를 해야 해서요\nB.혹시 예약 취소가 가능할지 알 수 있을까요\nA.네 어떤 날짜로 예약하신 상품 취소 하시려는 건가요\nB.2월 16일 날짜로 예약했었어요 이름 #@이름#로요\nA.네 확인 되었습니다 현재 체크인 2일전이라 무료 취소 가능합니다\nB.아 그래요 무료 취소면 위약금 따로 없다는 거죠\nA.네 비수기의 경우엔 체크인 2일 전까지 무료 취소로 해드리고 있어요\nB.아하 그렇군요 잘됐네요 감사합니다\nA.다음번엔 꼭 #@소속#에서 뵙길 바랍니다 안녕히 계세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다",
+            "norm_text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 지금 일정이 변경돼서 예약 취소를 해야 해서요",
+            "norm_text": "B.제가 지금 일정이 변경돼서 예약 취소를 해야 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+제/NP+가/JKS+지금/MAG+일정/NNG+이/JKS+변경/NNG+돼서/XSV+EC+예약/NNG+취소/NNG+를/JKO+해야/VV+EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.혹시 예약 취소가 가능할지 알 수 있을까요",
+            "norm_text": "B.혹시 예약 취소가 가능할지 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+예약/NNG+취소/NNG+가/JKS+가능/NNG+할지/XSV+EC+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 어떤 날짜로 예약하신 상품 취소 하시려는 건가요",
+            "norm_text": "A.네 어떤 날짜로 예약하신 상품 취소 하시려는 건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+날짜/NNG+로/JKB+예약/NNG+하/XSV+신/EP+ETM+상품/NNG+취소/NNG+하/XSV+시/EP+려는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.2월 16일 날짜로 예약했었어요 이름 #@이름#로요",
+            "norm_text": "B.2월 16일 날짜로 예약했었어요 이름 #@이름#로요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+2/SN+월/NNBC+16/SN+일/NNBC+날짜/NNG+로/JKB+예약/NNG+했었어요/XSV+EP+EF+이름/NNG+#/SY+@/SY+이름/NNG+#/SY+로요/NNP"
+          },
+          {
+            "id": 6,
+            "text": "A.네 확인 되었습니다 현재 체크인 2일전이라 무료 취소 가능합니다",
+            "norm_text": "A.네 확인 되었습니다 현재 체크인 2일전이라 무료 취소 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+되/XSV+었/EP+습니다/EF+현재/MAG+체크인/NNG+2/SN+일/NNBC+전이/NNG+라/VCP+EC+무료/NNG+취소/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.아 그래요 무료 취소면 위약금 따로 없다는 거죠",
+            "norm_text": "B.아 그래요 무료 취소면 위약금 따로 없다는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그래요/IC+무료/NNG+취소/NNG+면/VCP+EC+위약금/NNG+따로/MAG+없/VA+다는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 비수기의 경우엔 체크인 2일 전까지 무료 취소로 해드리고 있어요",
+            "norm_text": "A.네 비수기의 경우엔 체크인 2일 전까지 무료 취소로 해드리고 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+비수기/NNG+의/JKG+경우/NNG+엔/JKB+JX+체크인/NNG+2/SN+일/NNBC+전/NNG+까지/JX+무료/NNG+취소/NNG+로/JKB+해/VV+EC+드리/VX+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.아하 그렇군요 잘됐네요 감사합니다",
+            "norm_text": "B.아하 그렇군요 잘됐네요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아하/IC+그렇/VA+군요/EF+잘/MAG+됐/VV+EP+네요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.다음번엔 꼭 #@소속#에서 뵙길 바랍니다 안녕히 계세요",
+            "norm_text": "A.다음번엔 꼭 #@소속#에서 뵙길 바랍니다 안녕히 계세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+다음/NNG+번/NNBC+엔/JKB+JX+꼭/MAG+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+뵙/VV+길/ETN+JKO+바랍니다/VV+EF+안녕히/MAG+계세요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

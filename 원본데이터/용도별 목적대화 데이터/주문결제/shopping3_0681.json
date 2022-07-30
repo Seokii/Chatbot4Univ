@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 13494,
+    "name": "s3_20210913_0010_1028_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423032218/s3_20210913_0010_1028_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423032218/s3_20210913_0010_1028_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12566,
+      "filename": "s3_20210902_0015_0023_01.txt",
+      "title": "s3_20210902_0015_0023_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 280,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 280,
+        "word_size": 65,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다\nB.네 전화 주문을 하려고요\nA.그러세요 고객님 혹시 주문 원하시는 상품 확인 가능할까요\nB.네 #@상품#으로 해서요 색상은 블랙이요\nA.네 고객님 잠시만요 재고를 확인해 보겠습니다\nA.기다려 주셔서 감사합니다 고객님 제가 해당 상품 확인해 봤고요\nB.네 재고가 있나 보네요\nA.네 사이즈는 소형과 대형이 있으신데 어떤 사이즈로 하시겠어요\nB.소형이면 어린아이들이 하는 거예요\nA.네 아이들 얼굴 사이즈에 맞게 나온 제품이에요\nB.그럼 소형으로 해서요 이십 매 주문할게요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 전화 주문을 하려고요",
+            "norm_text": "B.네 전화 주문을 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+전화/NNG+주문/NNG+을/JKO+하/VV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.그러세요 고객님 혹시 주문 원하시는 상품 확인 가능할까요",
+            "norm_text": "A.그러세요 고객님 혹시 주문 원하시는 상품 확인 가능할까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그러/VV+세요/EP+EF+고객/NNG+님/XSN+혹시/MAG+주/NNG+문원/NNG+하/XSV+시/EP+는/ETM+상품/NNG+확인/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@상품#으로 해서요 색상은 블랙이요",
+            "norm_text": "B.네 #@상품#으로 해서요 색상은 블랙이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+으로/JKB+해서/VV+EC+요/MM+색상/NNG+은/JX+블랙/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 잠시만요 재고를 확인해 보겠습니다",
+            "norm_text": "A.네 고객님 잠시만요 재고를 확인해 보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+잠시/NNG+만/JX+요/JX+재고/NNG+를/JKO+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.기다려 주셔서 감사합니다 고객님 제가 해당 상품 확인해 봤고요",
+            "norm_text": "A.기다려 주셔서 감사합니다 고객님 제가 해당 상품 확인해 봤고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+고객/NNG+님/XSN+제/NP+가/JKS+해당/NNG+상품/NNG+확인/NNG+해/XSV+EC+봤/VX+EP+고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 재고가 있나 보네요",
+            "norm_text": "B.네 재고가 있나 보네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+재고/NNG+가/JKS+있/VA+나/EC+보/VX+네요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 사이즈는 소형과 대형이 있으신데 어떤 사이즈로 하시겠어요",
+            "norm_text": "A.네 사이즈는 소형과 대형이 있으신데 어떤 사이즈로 하시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+사이즈/NNG+는/JX+소형/NNG+과/JC+대형/NNG+이/JKS+있/VA+으신데/EP+EP+EC+어떤/MM+사이즈/NNG+로/JKB+하/VV+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.소형이면 어린아이들이 하는 거예요",
+            "norm_text": "B.소형이면 어린아이들이 하는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+소형/NNG+이/VCP+면/EC+어린아이/NNG+들/XSN+이/JKS+하/VV+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 아이들 얼굴 사이즈에 맞게 나온 제품이에요",
+            "norm_text": "A.네 아이들 얼굴 사이즈에 맞게 나온 제품이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+아이/NNG+들/XSN+얼굴/NNG+사이즈/NNG+에/JKB+맞/VV+게/EC+나온/VV+ETM+제품/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그럼 소형으로 해서요 이십 매 주문할게요",
+            "norm_text": "B.그럼 소형으로 해서요 이십 매 주문할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+소형/NNG+으로/JKB+해서요/VV+EF+이/NR+십/NR+매/NNBC+주문/NNG+할게요/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

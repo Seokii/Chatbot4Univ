@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 56109,
+    "name": "c1_20211019_0002_0015_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130757046740/c1_20211019_0002_0015_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130757046740/c1_20211019_0002_0015_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51114,
+      "filename": "c1_20210924_0029_0003_01.txt",
+      "title": "c1_20210924_0029_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 274,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 274,
+        "word_size": 55,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.수고하십니다 부서 안내 부탁드려요\nA.반갑습니다 부서 안내를 위해 문의사항 말씀해 주세요\nB.학원이나 교습소 관련해서 문의하려고요\nA.신청에 필요한 구비서류 안내인가요\nB.아니요 교습시간과 그 외에 다른 문의입니다\nA.네 자세한 안내를 위해 부서 안내해드릴게요\nA.#@소속# #@전번#으로 전화하시면 안내받을 수 있습니다\nB.안내해 주셔서 감사합니다 수고하세요\nA.혹시 다른 문의는 없으신가요\nB.네 다른 문의는 없습니다\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고하십니다 부서 안내 부탁드려요",
+            "norm_text": "B.수고하십니다 부서 안내 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+부서/NNG+안내/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.반갑습니다 부서 안내를 위해 문의사항 말씀해 주세요",
+            "norm_text": "A.반갑습니다 부서 안내를 위해 문의사항 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+부서/NNG+안내/NNG+를/JKO+위해/VV+EC+문/NNG+의/JKG+사항/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.학원이나 교습소 관련해서 문의하려고요",
+            "norm_text": "B.학원이나 교습소 관련해서 문의하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+학원/NNG+이나/JC+교습소/NNG+관련/NNG+해서/XSV+EC+문의/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.신청에 필요한 구비서류 안내인가요",
+            "norm_text": "A.신청에 필요한 구비서류 안내인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+신청/NNG+에/JKB+필요/NNG+한/XSA+ETM+구비/NNG+서류/NNG+안내/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아니요 교습시간과 그 외에 다른 문의입니다",
+            "norm_text": "B.아니요 교습시간과 그 외에 다른 문의입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+아니요/IC+교습/NNG+시간/NNG+과/JC+그/MM+외/NNB+에/JKB+다른/MM+문의/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 자세한 안내를 위해 부서 안내해드릴게요",
+            "norm_text": "A.네 자세한 안내를 위해 부서 안내해드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+자세/XR+한/XSA+ETM+안내/NNG+를/JKO+위해/VV+EC+부서/NNG+안내/NNG+해/XSV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.#@소속# #@전번#으로 전화하시면 안내받을 수 있습니다",
+            "norm_text": "A.#@소속# #@전번#으로 전화하시면 안내받을 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+전화/NNG+하/XSV+시/EP+면/EC+안/MAG+내받/VV+을/ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.안내해 주셔서 감사합니다 수고하세요",
+            "norm_text": "B.안내해 주셔서 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안내/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.혹시 다른 문의는 없으신가요",
+            "norm_text": "A.혹시 다른 문의는 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+다른/MM+문의/NNG+는/JX+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "B.네 다른 문의는 없습니다",
+            "norm_text": "B.네 다른 문의는 없습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+다른/MM+문의/NNG+는/JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

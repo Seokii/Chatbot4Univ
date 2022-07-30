@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 17138,
+    "name": "s1_20210915_0002_0140_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151256040023/s1_20210915_0002_0140_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151256040023/s1_20210915_0002_0140_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8713,
+      "filename": "s1_20210825_0022_0013_01.txt",
+      "title": "s1_20210825_0022_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 393,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 393,
+        "word_size": 89,
+        "text": "A.네 고객님 안녕하십니까 #@소속# 상담원 #@이름# 입니다 #@이름# 고객님 맞으세요\nB.아닌데요 여기 #@이름# 아버지입니다\nA.네 고객님 죄송합니다 아버지시라구요\nB.무슨 일 때문이신데요\nA.네 다름이 아니라 그 노트북 관련으로 저희가 #@소속#데 연락을 드린거거든요\nA.저희가 이제 노트북 관련 일로 연락을 드렸는데요\nB.노트북이요 저는 지금 여기가 서울인데요 몇개는 대전꺼일텐데\nA.네 고객님 혹시 그 제품을 자녀분이 사용하고 계신가요\nA.아버지가 사용하고 계신다고 아 고객님께서 사용하고 계신다고요\nB.사용하는 노트북이 어떻길래요\nA.다름이 아니라 그 노트북 충전하시는 선 중에서 컴퓨터 있죠\nB.글쎄 그걸 난 잘 모르겠는데\nA.아 고객님 그러시면 제가 누구랑 통화를 하면 될까요\nA.제가 그쪽으로 연락을 드릴게요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 고객님 안녕하십니까 #@소속# 상담원 #@이름# 입니다 #@이름# 고객님 맞으세요",
+            "norm_text": "A.네 #@소속# 상담원 #@이름# 입니다 #@이름# 고객님 맞으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+맞/VV+으세요/EC"
+          },
+          {
+            "id": 2,
+            "text": "B.아닌데요 여기 #@이름# 아버지입니다",
+            "norm_text": "B.아닌데요 여기 #@이름# 아버지입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아닌데요/VCN+EC+여기/NP+#/SY+@/SY+이름/NNG+#/SY+아버지/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 죄송합니다 아버지시라구요",
+            "norm_text": "A.네 고객님 죄송합니다 아버지시라구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+죄송/XR+합니다/XSA+EF+아버지/NNG+시라구/NNG+요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.무슨 일 때문이신데요",
+            "norm_text": "B.무슨 일 때문이신데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+무슨/MM+일/NNG+때문/NNB+이/VCP+신데요/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 다름이 아니라 그 노트북 관련으로 저희가 #@소속#데 연락을 드린거거든요",
+            "norm_text": "A.네 노트북 관련으로 저희가 #@소속#데 연락을 드린거거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+다름/VA+ETN+이/JKC+아니/VCN+라/EC+그/MM+노트북/NNG+관련/NNG+으로/JKB+저희/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+데/NNB+연락/NNG+을/JKO+드린/VV+ETM+거/NNB+거든요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.저희가 이제 노트북 관련 일로 연락을 드렸는데요",
+            "norm_text": "A.저희가 이제 노트북 관련 일로 연락을 드렸는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+이제/MAG+노트북/NNG+관련/NNG+일/NNG+로/JKB+연락/NNG+을/JKO+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.노트북이요 저는 지금 여기가 서울인데요 몇개는 대전꺼일텐데",
+            "norm_text": "B.노트북이요 저는 지금 여기가 서울인데요 몇개는 대전꺼일텐데",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+노트북/NNG+이/VCP+요/EC+저/NP+는/JX+지금/MAG+여기/NP+가/JKS+서울/NNP+인데요/VCP+EF+몇/MM+개/NNBC+는/JX+대전/NNP+꺼/NNB+VCP+일/ETM+텐데/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 고객님 혹시 그 제품을 자녀분이 사용하고 계신가요",
+            "norm_text": "A.네 고객님 혹시 그 제품을 자녀분이 사용하고 계신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+혹시/MAG+그/MM+제품/NNG+을/JKO+자녀/NNG+분/NNB+이/JKS+사용/NNG+하/XSV+고/EC+계신/VX+ETM+가요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.아버지가 사용하고 계신다고 아 고객님께서 사용하고 계신다고요",
+            "norm_text": "A.아버지가 사용하고 계신다고 아 고객님께서 사용하고 계신다고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+아버지/NNG+가/JKS+사용/NNG+하/XSV+고/EC+계신다고/VX+EC+아/IC+고객/NNG+님/XSN+께서/JKS+사용/NNG+하/XSV+고/EC+계신다/VX+EC+고요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "B.사용하는 노트북이 어떻길래요",
+            "norm_text": "B.사용하는 노트북이 어떻길래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+사용/NNG+하/XSV+는/ETM+노트북/NNG+이/JKS+어떻/VA+길래요/ETN+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.다름이 아니라 그 노트북 충전하시는 선 중에서 컴퓨터 있죠",
+            "norm_text": "A.다름이 아니라 그 노트북 충전하시는 선 중에서 컴퓨터 있죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다름/VA+ETN+이/JKC+아니/VCN+라/EC+그/MM+노트북/NNG+충전/NNG+하/XSV+시/EP+는/ETM+선중/NNG+에서/JKB+컴퓨터/NNG+있/VA+죠/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.글쎄 그걸 난 잘 모르겠는데",
+            "norm_text": "B.글쎄 그걸 난 잘 모르겠는데",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+글쎄/IC+그걸/NP+JKO+난/NP+JX+잘/MAG+모르/VV+겠/EP+는데/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.아 고객님 그러시면 제가 누구랑 통화를 하면 될까요",
+            "norm_text": "A.아 고객님 그러시면 제가 누구랑 통화를 하면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+아/IC+고객/NNG+님/XSN+그러/VV+시/EP+면/EC+제/NP+가/JKS+누구/NP+랑/JKB+통화/NNG+를/JKO+하/VV+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.제가 그쪽으로 연락을 드릴게요",
+            "norm_text": "A.제가 그쪽으로 연락을 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+그쪽/NP+으로/JKB+연락/NNG+을/JKO+드릴게요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

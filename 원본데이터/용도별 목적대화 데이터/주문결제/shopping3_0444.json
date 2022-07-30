@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 10341,
+    "name": "s3_20210913_0010_0585_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417083573/s3_20210913_0010_0585_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417083573/s3_20210913_0010_0585_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12058,
+      "filename": "s3_20210827_0010_0002_01.txt",
+      "title": "s3_20210827_0010_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 647,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 647,
+        "word_size": 151,
+        "text": "A.고객님 조금 전에 통화했던 #@소속#의 #@이름#입니다\nA.현재 진주 서비스센터에 물건이 없다고 하네요 제가 예약을 도와드릴까요\nB.빨리 필요한건데 그러면 바로 예약해주세요\nA.네 오늘 예약하시면 내일쯤 도착하구요\nA.오늘 못하시는 경우에는 내일 모레나 다음주까지 넘어갈 수도 있습니다\nB.이거 할인 이런 건 안됩니까 어차피 단종된 거 아닙니까\nA.저희가 별도로 할인되거나 그러진 않구요\nA.가격은 정해져 있기 때문에 별도로 할인은 없습니다\nA.혹시 고객님 지금 스탠드로 바꾸실거면 티비는 벽에서 떼어 놓신 거예요\nB.아니요 이거 떼진 않았구요 이사를 할 건데 벽에 못을 안 박을려구 일부러\nA.그러시군요 그러면 제가 진주 서비스센터에 물건 예약 도와드리겠습니다\nA.벽걸이 티비는 이사업체에서 떼주시는 건가요\nB.그래야 될 것 같은데 이사 날짜가 이월 십육일이라 많이 남았어요\nA.네 우선 지금 제가 서비스센테에 고객님 핸드폰 물건 예약했구요\nA.시간 되실때 오셔서 결제하시면 될 것 같습니다\nB.그러면 가서 콜센터로 예약했다고 하면 센터에서 물건을 내주시는 건가요\nA.네 부품 관리하는 자재실에 방문하셔서 핸드폰 번호 말씀해주시구요\nA.주문했던 내역들 확인 받으시고 물건 받으시면 됩니다\nB.네 알겠습니다 확인 감사합니다\nA.네 고맙습니다 좋은 하루 되십시오 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 조금 전에 통화했던 #@소속#의 #@이름#입니다",
+            "norm_text": "A.고객님 조금 전에 통화했던 #@소속#의 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+조금/MAG+전/NNG+에/JKB+통화/NNG+했/XSV+EP+던/ETM+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.현재 진주 서비스센터에 물건이 없다고 하네요 제가 예약을 도와드릴까요",
+            "norm_text": "A.현재 진주 서비스센터에 물건이 없다고 하네요 제가 예약을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+현재/MAG+진주/NNP+서비스/NNG+센터/NNG+에/JKB+물건/NNG+이/JKS+없/VA+다고/EC+하/VX+네요/EF+제/NP+가/JKS+예약/NNG+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.빨리 필요한건데 그러면 바로 예약해주세요",
+            "norm_text": "B.빨리 필요한건데 그러면 바로 예약해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+빨리/MAG+필요/NNG+한/XSA+ETM+건데/NNB+VCP+EC+그러/VV+면/EC+바로/MAG+예약/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.네 오늘 예약하시면 내일쯤 도착하구요",
+            "norm_text": "A.네 오늘 예약하시면 내일쯤 도착하구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+오늘/MAG+예약/NNG+하/XSV+시/EP+면/EC+내일/NNG+쯤/XSN+도착/NNG+하/XSV+구요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.오늘 못하시는 경우에는 내일 모레나 다음주까지 넘어갈 수도 있습니다",
+            "norm_text": "A.오늘 못하시는 경우에는 내일 모레나 다음주까지 넘어갈 수도 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+오늘/MAG+못/MAG+하/VV+시/EP+는/ETM+경우/NNG+에/JKB+는/JX+내일모레/NNG+나/JC+다음/NNG+주/NNG+까지/JX+넘어갈/VV+ETM+수/NNB+도/JX+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.이거 할인 이런 건 안됩니까 어차피 단종된 거 아닙니까",
+            "norm_text": "B.이거 할인 이런 건 안됩니까 어차피 단종된 거 아닙니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이거/NP+할인/NNG+이런/MM+건/NNB+JX+안/MAG+됩니까/VV+EF+어차피/MAG+단종/NNG+된/XSV+ETM+거/NNB+아닙니까/VCN+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.저희가 별도로 할인되거나 그러진 않구요",
+            "norm_text": "A.저희가 별도로 할인되거나 그러진 않구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+별도/NNG+로/JKB+할인/NNG+되/XSV+거나/EC+그러/VV+진/EC+JX+않/VX+구요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.가격은 정해져 있기 때문에 별도로 할인은 없습니다",
+            "norm_text": "A.가격은 정해져 있기 때문에 별도로 할인은 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가격/NNG+은/JX+정해져/VV+EC+VX+EC+있/VX+기/ETN+때문/NNB+에/JKB+별도/NNG+로/JKB+할인/NNG+은/JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.혹시 고객님 지금 스탠드로 바꾸실거면 티비는 벽에서 떼어 놓신 거예요",
+            "norm_text": "A.혹시 고객님 지금 스탠드로 바꾸실거면 티비는 벽에서 떼어 놓신 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+고객/NNG+님/XSN+지금/MAG+스탠드/NNG+로/JKB+바꾸/VV+실/EP+ETM+거/NNB+면/VCP+EC+티비/NNG+는/JX+벽/NNG+에서/JKB+떼/VV+어/EC+놓/VX+신/EP+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.아니요 이거 떼진 않았구요 이사를 할 건데 벽에 못을 안 박을려구 일부러",
+            "norm_text": "B.이거 떼진 않았구요 이사를 할 건데 벽에 못을 안 박을려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+이거/NP+떼/VV+진/EC+JX+않/VX+았/EP+구요/EF+이사/NNG+를/JKO+할/VV+ETM+건데/NNB+VCP+EC+벽/NNG+에/JKB+못/NNG+을/JKO+안/MAG+박/VV+을려구/EC+일부러/MAG"
+          },
+          {
+            "id": 11,
+            "text": "A.그러시군요 그러면 제가 진주 서비스센터에 물건 예약 도와드리겠습니다",
+            "norm_text": "A.그러시군요 그러면 제가 진주 서비스센터에 물건 예약 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그러/VV+시/EP+군요/EF+그러면/MAJ+제/NP+가/JKS+진주/NNP+서비스/NNG+센터/NNG+에/JKB+물건/NNG+예약/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.벽걸이 티비는 이사업체에서 떼주시는 건가요",
+            "norm_text": "A.벽걸이 티비는 이사업체에서 떼주시는 건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+벽걸이/NNG+티비/NNG+는/JX+이사/NNG+업체/NNG+에서/JKB+떼/VV+EC+주/VX+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그래야 될 것 같은데 이사 날짜가 이월 십육일이라 많이 남았어요",
+            "norm_text": "B.그래야 될 것 같은데 이사 날짜가 이월 십육일이라 많이 남았어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래야/VV+EC+될/VV+ETM+것/NNB+같/VA+은데/EC+이사/NNG+날짜/NNG+가/JKS+이월/NNG+십/NR+육/NR+일/NNBC+이/VCP+라/EC+많이/MAG+남/VV+았/EP+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.네 우선 지금 제가 서비스센테에 고객님 핸드폰 물건 예약했구요",
+            "norm_text": "A.네 우선 지금 제가 서비스센테에 고객님 핸드폰 물건 예약했구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+우선/MAG+지금/MAG+제/NP+가/JKS+서비스/NNG+센/VA+ETM+테/NNG+에/JKB+고객/NNG+님/XSN+핸드폰/NNG+물건/NNG+예약/NNG+했/XSV+EP+구요/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.시간 되실때 오셔서 결제하시면 될 것 같습니다",
+            "norm_text": "A.시간 되실때 오셔서 결제하시면 될 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+시간/NNG+되/XSV+실/EP+ETM+때/NNG+오/VV+셔서/EP+EC+결제/NNG+하/XSV+시/EP+면/EC+될/VV+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.그러면 가서 콜센터로 예약했다고 하면 센터에서 물건을 내주시는 건가요",
+            "norm_text": "B.그러면 콜센터로 예약했다고 하면 센터에서 물건을 내주시는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러/VV+면/EC+가/VX+서/EC+콜/NNG+센터/NNG+로/JKB+예약/NNG+했/XSV+EP+다고/EC+하/VV+면/EC+센터/NNG+에서/JKB+물건/NNG+을/JKO+내주/VV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.네 부품 관리하는 자재실에 방문하셔서 핸드폰 번호 말씀해주시구요",
+            "norm_text": "A.네 부품 관리하는 자재실에 방문하셔서 핸드폰 번호 말씀해주시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+부품/NNG+관리/NNG+하/XSV+는/ETM+자/NNB+재실/NNG+에/JKB+방문/NNG+하/XSV+셔서/EP+EC+핸드폰/NNG+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+구요/EF"
+          },
+          {
+            "id": 18,
+            "text": "A.주문했던 내역들 확인 받으시고 물건 받으시면 됩니다",
+            "norm_text": "A.주문했던 내역들 확인 받으시고 물건 받으시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주문/NNG+했/XSV+EP+던/ETM+내역/NNG+들/XSN+확인/NNG+받/VV+으시/EP+고/EC+물건/NNG+받/VV+으시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 19,
+            "text": "B.네 알겠습니다 확인 감사합니다",
+            "norm_text": "B.네 알겠습니다 확인 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+확인/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 20,
+            "text": "A.네 고맙습니다 좋은 하루 되십시오 상담사 #@이름#이었습니다",
+            "norm_text": "A.네 고맙습니다 좋은 하루 되십시오 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고맙/VA+습니다/EF+좋/VA+은/ETM+하루/NNG+되/XSV+십/NR+시/NNBC+오상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

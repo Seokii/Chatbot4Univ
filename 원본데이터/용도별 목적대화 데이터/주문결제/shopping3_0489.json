@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 10613,
+    "name": "s3_20210913_0010_0630_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514170524109/s3_20210913_0010_0630_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514170524109/s3_20210913_0010_0630_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12013,
+      "filename": "s3_20210827_0016_0015_01.txt",
+      "title": "s3_20210827_0016_0015_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 326,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 326,
+        "word_size": 78,
+        "text": "A.삼만 구천구백 원으로 확인되는데 이 상품 맞으세요 고객님\nB.예 그 상품 맞습니다\nA.그럼 #@상품# 한 개만 주문 도와드리면 될까요\nB.네 한개만 주문 할게요\nA.주문하시는 분 성함이 어떻게 되십니까\nB.제 이름은 #@이름# 입니다\nA.전화로 상품 주문 도와 드리고 있습니다\nA.#@이름# 고객님이시구요 휴대폰 번호 어떻게 되시나요\nB.제 번호는 #@전번# 이에요\nA.받아보실 주소지 말씀 부탁드릴게요\nB.경북 #@주소#로 적어 주세요\nA.이하 주소는 없으신 건가요 그냥 단독주택인가요 고객님\nB.예 따로 이하 주소는 없어요\nA.그럼 단독주택이라고 기재 하면 되나요\nB.네 단독주택으로 기재 하시면 되요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.삼만 구천구백 원으로 확인되는데 이 상품 맞으세요 고객님",
+            "norm_text": "A.삼만 구천구백 원으로 확인되는데 이 상품 맞으세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+삼/NR+만/NR+구천/NR+구/NR+백/NR+원/NNBC+으로/JKB+확인/NNG+되/XSV+는데/EC+이/MM+상품/NNG+맞/VV+으세요/EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 2,
+            "text": "B.예 그 상품 맞습니다",
+            "norm_text": "B.예 그 상품 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+그/MM+상품/NNG+맞/VV+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.그럼 #@상품# 한 개만 주문 도와드리면 될까요",
+            "norm_text": "A.그럼 #@상품# 한 개만 주문 도와드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+#/SY+@/SY+상품/NNG+#/SY+한/MM+개/NNBC+만/JX+주문/NNG+도와/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 한개만 주문 할게요",
+            "norm_text": "B.네 한개만 주문 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+한/MM+개/NNBC+만/JX+주문/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.주문하시는 분 성함이 어떻게 되십니까",
+            "norm_text": "A.주문하시는 분 성함이 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주문/NNG+하/XSV+시/EP+는/ETM+분성/NNG+함/XSV+ETN+이/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.제 이름은 #@이름# 입니다",
+            "norm_text": "B.제 이름은 #@이름# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.전화로 상품 주문 도와 드리고 있습니다",
+            "norm_text": "A.전화로 상품 주문 도와 드리고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+전화/NNG+로/JKB+상품/NNG+주문/NNG+도와/VV+EC+드리/VX+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.#@이름# 고객님이시구요 휴대폰 번호 어떻게 되시나요",
+            "norm_text": "A.#@이름# 고객님이시구요 휴대폰 번호 어떻게 되시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+이/VCP+시/EP+구요/EF+휴대폰/NNG+번호/NNG+어떻게/MAG+되/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.제 번호는 #@전번# 이에요",
+            "norm_text": "B.제 번호는 #@전번# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.받아보실 주소지 말씀 부탁드릴게요",
+            "norm_text": "A.받아보실 주소지 말씀 부탁드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+받/VV+아/EC+보/VX+실/EP+ETM+주소지/NNG+말씀/NNG+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.경북 #@주소#로 적어 주세요",
+            "norm_text": "B.경북 #@주소#로 적어 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+경북/NNP+#/SY+@/SY+주소/NNG+#/SY+로/JKB+적/VV+어/EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.이하 주소는 없으신 건가요 그냥 단독주택인가요 고객님",
+            "norm_text": "A.이하 주소는 없으신 건가요 그냥 단독주택인가요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+이하/NNG+주소/NNG+는/JX+없/VA+으신/EP+ETM+건가요/NNB+VCP+EC+그냥/MAG+단독/NNG+주택/NNG+인가요/VCP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 13,
+            "text": "B.예 따로 이하 주소는 없어요",
+            "norm_text": "B.예 따로 이하 주소는 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+따로/MAG+이하/NNG+주소/NNG+는/JX+없/VA+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.그럼 단독주택이라고 기재 하면 되나요",
+            "norm_text": "A.그럼 단독주택이라고 기재 하면 되나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+단독/NNG+주택/NNG+이/VCP+라고/EC+기재/NNG+하/XSV+면/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 15,
+            "text": "B.네 단독주택으로 기재 하시면 되요",
+            "norm_text": "B.네 단독주택으로 기재 하시면 되요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+단독/NNG+주택/NNG+으로/JKB+기재/NNG+하/XSV+시/EP+면/EC+되/VV+요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

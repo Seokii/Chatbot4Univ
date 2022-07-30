@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 11103,
+    "name": "s3_20210913_0010_0741_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416068711/s3_20210913_0010_0741_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416068711/s3_20210913_0010_0741_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11892,
+      "filename": "s3_20210826_0030_0001_01.txt",
+      "title": "s3_20210826_0030_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 482,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 482,
+        "word_size": 123,
+        "text": "A.반갑습니다 무엇을 도와드릴까요\nB.저기 #@상품# 그거 좀 여쭤 볼라는데요 이게 몇 개예요\nA.잠시만 기다려 주시겠습니까\nA.고객님 상품 옵션 보시면은 구십사 해서 오십 매 추가하시 오십 매하고요\nA.열 매로 증정되는 상품이랑 백 매랑 이십 매 추가돼서 증정되는 상품이 있습니다\nB.백 매 이십 매 추가되면 얼마예요\nA.대형 기준 육만 구천팔백 원입니다\nB.하얀 걸로 해서 좀 주문해도 될까요\nA.네 저희 주문 도와드리면 되겠습니까\nA.고객님 주문하시는 상품이 #@상품# 상품 맞으십니까\nB.네 그게 맞습니다\nA.이거 블랙 화이트 중에 어떤 걸로 주문 도와드릴까요\nB.화이트로 주문 부탁합니다\nA.화이트 백 매 하고 이십 매 추가되는 거 맞으십니까\nB.네 그거를 반반 섞어서는 안 되나요\nA.네 그렇게는 불가능합니다\nB.이십 매 추가되는 거도 블랙으로 안 되고요\nA.네 고객님 맞습니다\nB.그러면 화이트로 해 주세요 전부 다요\nA.그럼 화이트 백 매하고 이십 매 추가해서 주문 도와드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저기 #@상품# 그거 좀 여쭤 볼라는데요 이게 몇 개예요",
+            "norm_text": "B.저기 #@상품# 그거 좀 여쭤 볼라는데요 이게 몇 개예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+저기/NP+#/SY+@/SY+상품/NNG+#/SY+그거/NP+좀/MAG+여쭤/VV+EC+볼/VX+라는/ETM+데/NNB+요/JX+이게/NP+JKS+몇/MM+개/NNBC+예요/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.잠시만 기다려 주시겠습니까",
+            "norm_text": "A.잠시만 기다려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.고객님 상품 옵션 보시면은 구십사 해서 오십 매 추가하시 오십 매하고요",
+            "norm_text": "A.고객님 오십 매 구매시 십 매 추가 증정되는 옵션이 있고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+오/NR+십/NR+매구/NNG+매시/MAG+십/NR+매추/NNG+가/JKS+증정/NNG+되/XSV+는/ETM+옵션/NNG+이/JKS+있/VV+고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.열 매로 증정되는 상품이랑 백 매랑 이십 매 추가돼서 증정되는 상품이 있습니다",
+            "norm_text": "A.아니시면 백 매랑 이십 매 추가돼서 증정되는 상품이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아니/VCN+시/EP+면/EC+백매/NNG+랑/JC+이/NR+십/NR+매추/NNG+가/JKS+돼서/VV+EC+증정/NNG+되/XSV+는/ETM+상품/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.백 매 이십 매 추가되면 얼마예요",
+            "norm_text": "B.백 매 이십 매 추가되면 얼마예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+백매/NNG+이/NR+십/NR+매추/NNG+가/JKS+되/VV+면/EC+얼마/NNG+예요/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.대형 기준 육만 구천팔백 원입니다",
+            "norm_text": "A.대형 기준 육만 구천팔백 원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+대형/NNG+기준/NNG+육만/NR+구천/NR+팔/NR+백/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.하얀 걸로 해서 좀 주문해도 될까요",
+            "norm_text": "B.하얀 걸로 해서 좀 주문해도 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+하얀/VA+ETM+걸로/NNB+JKB+해서/VV+EC+좀/MAG+주문/NNG+해도/XSV+EC+될까요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 저희 주문 도와드리면 되겠습니까",
+            "norm_text": "A.네 저희 주문 도와드리면 되겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+저희/NP+주문/NNG+도와/VV+EC+드리/VX+면/EC+되/VV+겠/EP+습니까/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.고객님 주문하시는 상품이 #@상품# 상품 맞으십니까",
+            "norm_text": "A.고객님 주문하시는 상품이 #@상품# 상품 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+주문/NNG+하/XSV+시/EP+는/ETM+상품/NNG+이/JKS+#/SY+@/SY+상품/NNG+#/SY+상품/NNG+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 그게 맞습니다",
+            "norm_text": "B.네 그게 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그게/NP+JKS+맞/VV+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.이거 블랙 화이트 중에 어떤 걸로 주문 도와드릴까요",
+            "norm_text": "A.이거 블랙 화이트 중에 어떤 걸로 주문 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+이거/NP+블랙/NNG+화이트/NNP+중/NNB+에/JKB+어떤/MM+걸로/NNB+JKB+주문/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.화이트로 주문 부탁합니다",
+            "norm_text": "B.화이트로 주문 부탁합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+화이트로/NNP+주문/NNG+부탁/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.화이트 백 매 하고 이십 매 추가되는 거 맞으십니까",
+            "norm_text": "A.화이트 백 매 하고 이십 매 추가되는 거 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+화이트/NNP+백매/NNG+하/XSV+고/EC+이/NR+십/NR+매추/NNG+가/JKS+되/VV+는/ETM+거/NNB+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "B.네 그거를 반반 섞어서는 안 되나요",
+            "norm_text": "B.네 그거를 반반 섞어서는 안 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그거/NP+를/JKO+반반/MAG+섞/VV+어서/EC+는/JX+안/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 그렇게는 불가능합니다",
+            "norm_text": "A.네 그렇게는 불가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+네/IC+그렇게/MAG+는/JX+불/XPN+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.이십 매 추가되는 거도 블랙으로 안 되고요",
+            "norm_text": "B.이십 매 추가되는 거도 블랙으로 안 되고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이/NR+십/NR+매추/NNG+가/JKS+되/VV+는/ETM+거/NNB+도/JX+블랙/NNG+으로/JKB+안/MAG+되/VV+고요/EC"
+          },
+          {
+            "id": 18,
+            "text": "A.네 고객님 맞습니다",
+            "norm_text": "A.네 고객님 맞습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+맞/VV+습니다/EF"
+          },
+          {
+            "id": 19,
+            "text": "B.그러면 화이트로 해 주세요 전부 다요",
+            "norm_text": "B.그러면 화이트로 해 주세요 전부 다요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그러면/MAJ+화이트/NNP+로/JKB+해/VV+EC+주/VX+세요/EP+EF+전부/MAG+다요/NNG"
+          },
+          {
+            "id": 20,
+            "text": "A.그럼 화이트 백 매하고 이십 매 추가해서 주문 도와드리겠습니다",
+            "norm_text": "A.그럼 화이트 백 매하고 이십 매 추가해서 주문 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그럼/MAJ+화이트/NNP+백매/NNG+하/XSV+고/EC+이/NR+십/NR+매추/NNG+가/JKS+해서/VV+EC+주문/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 148529,
+    "name": "t1_20211117_0002_0079_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135717035540/t1_20211117_0002_0079_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135717035540/t1_20211117_0002_0079_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148309,
+      "filename": "t1_0069_0103_02.txt",
+      "title": "t1_0069_0103_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 275,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 275,
+        "word_size": 64,
+        "text": "A.문의주셔서 감사합니다 #@이름# 상담원입니다\nB.네 안녕하세요 숙박 요금에 대해 궁금한 게 있어서요\nA.아 네 말씀해주세요\nB.주말 요금은 토요일 일요일에 적용이 되는건가요\nA.예 그 외에도 공휴일 전일부터 휴무기간은 주말 요금 적용합니다\nB.비수기 성수기 기준은 뭔가요\nA.저희 성수기가 7월 8월 12월인데요\nA.성수기 외 기간은 모두 비수기 금액이 적용됩니다\nB.네 감사합니다 잘 알겠어요\nA.네 고객님 다른 문의 사항은 없으시고요\nB.없습니다 감사해요 수고하세요\nA.날씨가 많이 추운데 건강 유의하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.문의주셔서 감사합니다 #@이름# 상담원입니다",
+            "norm_text": "A.문의주셔서 감사합니다 #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+문/NNG+의/JKG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 숙박 요금에 대해 궁금한 게 있어서요",
+            "norm_text": "B.네 안녕하세요 숙박 요금에 대해 궁금한 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+숙박/NNG+요금/NNG+에/JKB+대해/VV+EC+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.아 네 말씀해주세요",
+            "norm_text": "A.아 네 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+아/IC+네/IC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.주말 요금은 토요일 일요일에 적용이 되는건가요",
+            "norm_text": "B.주말 요금은 토요일 일요일에 적용이 되는건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+주말/NNG+요금/NNG+은/JX+토요일/NNG+일요일/NNG+에/JKB+적용/NNG+이/JKS+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 그 외에도 공휴일 전일부터 휴무기간은 주말 요금 적용합니다",
+            "norm_text": "A.예 그 외에도 공휴일 전일부터 휴무기간은 주말 요금 적용합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+그/MM+외/NNB+에/JKB+도/JX+공휴일/NNG+전일/NNG+부터/JX+휴무/NNG+기간/NNG+은/JX+주말/NNG+요금/NNG+적용/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.비수기 성수기 기준은 뭔가요",
+            "norm_text": "B.비수기 성수기 기준은 뭔가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+비수기/NNG+성수기/NNG+기준/NNG+은/JX+뭔/MM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.저희 성수기가 7월 8월 12월인데요",
+            "norm_text": "A.저희 성수기가 7월 8월 12월인데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+성수기/NNG+가/JKS+7/SN+월/NNBC+8/SN+월/NNBC+12/SN+월/NNBC+인데요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.성수기 외 기간은 모두 비수기 금액이 적용됩니다",
+            "norm_text": "A.성수기 외 기간은 모두 비수기 금액이 적용됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+성수/NNG+기외/NNG+기간/NNG+은/JX+모두/MAG+비수기/NNG+금액/NNG+이/JKS+적용/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 감사합니다 잘 알겠어요",
+            "norm_text": "B.네 감사합니다 잘 알겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+잘/MAG+알/VV+겠/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 고객님 다른 문의 사항은 없으시고요",
+            "norm_text": "A.네 고객님 다른 문의 사항은 없으시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+으시/EP+고요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.없습니다 감사해요 수고하세요",
+            "norm_text": "B.없습니다 감사해요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+없/VA+습니다/EF+감사/NNG+해요/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.날씨가 많이 추운데 건강 유의하세요",
+            "norm_text": "A.날씨가 많이 추운데 건강 유의하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+날씨/NNG+가/JKS+많이/MAG+추운데/VA+EC+건강/NNG+유의/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

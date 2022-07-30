@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 164693,
+    "name": "t3_20211123_0005_0156_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135805063651/t3_20211123_0005_0156_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135805063651/t3_20211123_0005_0156_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 150531,
+      "filename": "t3_0066_0056_02.txt",
+      "title": "t3_0066_0056_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 280,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 280,
+        "word_size": 67,
+        "text": "A.소중히 모시겠습니다 #@소속#입니다\nB.수고 많으십니다 #@소속#이죠\nA.네 안녕하세요 #@소속#입니다\nB.거기 룸이 있다고 하던데 예약 할 수 있을까요\nA.네 예약 가능하십니다 언제로 해 드릴까요\nB.2월 11일 오전 11시로 예약 해 주시겠어요\nA.네 그럼 2월 11일 11시로 예약 도와드릴게요\nA.룸으로 배정 해 드리면 될까요\nB.네 가족 모임이여서요 룸 배정 부탁드려요\nA.네 룸으로 예약 해 드렸습니다\nB.바로 해 주셔서 감사해요 11일에 갈게요\nA.오늘도 좋은 하루 보내세요 감사합니다\nB.네 안녕히 계세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.소중히 모시겠습니다 #@소속#입니다",
+            "norm_text": "A.소중히 모시겠습니다 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+소중히/MAG+모시/VV+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고 많으십니다 #@소속#이죠",
+            "norm_text": "B.수고 많으십니다 #@소속#이죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+수고/NNG+많/VA+으십니다/EP+EP+EF+#/SY+@/SY+소속/NNG+#/SY+이/VCP+죠/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 안녕하세요 #@소속#입니다",
+            "norm_text": "A.네 안녕하세요 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.거기 룸이 있다고 하던데 예약 할 수 있을까요",
+            "norm_text": "B.거기 룸이 있다고 하던데 예약할 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+거기/NP+룸/NNG+이/JKS+있/VV+다고/EC+하/VV+던데/EC+예약/NNG+할/XSV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 예약 가능하십니다 언제로 해 드릴까요",
+            "norm_text": "A.네 예약 가능하십니다 언제로 해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+예약/NNG+가능/NNG+하/XSV+십니다/EP+EF+언제/NP+로/JKB+해드릴까요/VV+EC+VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.2월 11일 오전 11시로 예약 해 주시겠어요",
+            "norm_text": "B.2월 11일 오전 11시로 예약해 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+2/SN+월/NNBC+11/SN+일/NNBC+오전/NNG+11/SN+시/NNBC+로/JKB+예약/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 그럼 2월 11일 11시로 예약 도와드릴게요",
+            "norm_text": "A.네 그럼 2월 11일 11시로 예약 도와드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+2/SN+월/NNBC+11/SN+일/NNBC+11/SN+시/NNBC+로/JKB+예약/NNG+도와/VV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.룸으로 배정 해 드리면 될까요",
+            "norm_text": "A.룸으로 배정해 드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+룸/NNG+으로/JKB+배정/NNG+해/XSV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 가족 모임이여서요 룸 배정 부탁드려요",
+            "norm_text": "B.네 가족 모임이여서요 룸 배정 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+가족/NNG+모임/NNG+이/VCP+여서/EC+요/MM+룸/NNG+배정/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 룸으로 예약 해 드렸습니다",
+            "norm_text": "A.네 룸으로 예약해 드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+룸/NNG+으로/JKB+예약/NNG+해/XSV+EC+드렸/VX+EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.바로 해 주셔서 감사해요 11일에 갈게요",
+            "norm_text": "B.바로 해 주셔서 감사해요 11일에 갈게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+바로/MAG+해/VV+EC+주/VX+셔서/EP+EC+감사/NNG+해요/XSV+EC+11/SN+일/NNBC+에/JKB+갈게요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.오늘도 좋은 하루 보내세요 감사합니다",
+            "norm_text": "A.오늘도 좋은 하루 보내세요 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+오늘/NNG+도/JX+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.네 안녕히 계세요",
+            "norm_text": "B.네 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕히/MAG+계세요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

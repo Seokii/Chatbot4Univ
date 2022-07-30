@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 13615,
+    "name": "c1_20210913_0005_1122_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151336006147/c1_20210913_0005_1122_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151336006147/c1_20210913_0005_1122_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 9924,
+      "filename": "c1_20210817_0009_0004_01.txt",
+      "title": "c1_20210817_0009_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 401,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 401,
+        "word_size": 91,
+        "text": "A.예 여보세요 #@이름#입니다\nB.안녕하세요 #@소속# #@이름#입니다\nA.네 무슨 일이시죠\nB.네 현재 민원인께서 비영리 단체를 운영하고 계신데 그걸 사단법인으로 전환하고 싶다고 하십니다\nA.어떤 비영리 단체를 말씀하시는 거예요\nB.어르신들이 본인 의지에 따라 중환자실에 가지 않고요\nB.집이나 일반실에서 편안하게 죽음을 맞을 수 있도록 교육과 홍보를 하는 단체라고 말씀하셨습니다\nB.이 단체를 사단법인으로 전환하고 싶으셔서 법인 담당자 연결을 요청하시는데요\nB.담당하시는 업무가 맞으십니까\nA.아니에요 이거는 호스피스 쪽일 것 같은데 정확히 모르겠네요\nB.그러면 병원 법인 관련으로 안내를 해 드리면 될까요\nA.글쎄요 조금 애매하긴 한데 그쪽으로 연락 한 번 해보셔야 될 거 같아요\nB.예 알겠습니다 확인 감사드립니다\nA.네 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.예 여보세요 #@이름#입니다",
+            "norm_text": "A.예 여보세요 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+예/IC+여보세요/IC+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "B.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 무슨 일이시죠",
+            "norm_text": "A.네 무슨 일이시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무슨/MM+일/NNG+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 현재 민원인께서 비영리 단체를 운영하고 계신데 그걸 사단법인으로 전환하고 싶다고 하십니다",
+            "norm_text": "B.네 비영리 단체를 운영하고 계신데 그걸 사단법인으로 전환하고 싶다고 하십니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+현재/MAG+민원인/NNG+께서/JKS+비/XPN+영리/NNG+단체/NNG+를/JKO+운영/NNG+하/XSV+고/EC+계신데/VX+EC+그걸/NP+JKO+사단/NNG+법인/NNG+으로/JKB+전환/NNG+하/XSV+고/EC+싶/VX+다고/EC+하/VX+십니다/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.어떤 비영리 단체를 말씀하시는 거예요",
+            "norm_text": "A.어떤 비영리 단체를 말씀하시는 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+비/XPN+영리/NNG+단체/NNG+를/JKO+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.어르신들이 본인 의지에 따라 중환자실에 가지 않고요",
+            "norm_text": "B.어르신들이 본인 의지에 따라 중환자실에 가지 않고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+어르신/NNG+들/XSN+이/JKS+본인/NNG+의지/NNG+에/JKB+따라/VV+EC+중환자실/NNG+에/JKB+가/VV+지/EC+않/VX+고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.집이나 일반실에서 편안하게 죽음을 맞을 수 있도록 교육과 홍보를 하는 단체라고 말씀하셨습니다",
+            "norm_text": "B.편안하게 죽음을 맞을 수 있도록 교육과 홍보를 하는 단체라고 말씀하셨습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+집/NNG+이나/JC+일/NR+반실/NNG+에서/JKB+편안/NNG+하/XSV+게/EC+죽음/NNG+을/JKO+맞/VV+을/ETM+수/NNB+있/VV+도록/EC+교육/NNG+과/JC+홍보/NNG+를/JKO+하/VV+는/ETM+단체/NNG+라고/VCP+EC+말씀/NNG+하/XSV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.이 단체를 사단법인으로 전환하고 싶으셔서 법인 담당자 연결을 요청하시는데요",
+            "norm_text": "B.이 단체를 사단법인으로 전환하고 싶으셔서 법인 담당자 연결을 요청하시는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이/MM+단체/NNG+를/JKO+사단/NNG+법인/NNG+으로/JKB+전환/NNG+하/XSV+고/EC+싶/VX+으셔서/EP+EC+법인/NNG+담당자/NNG+연결/NNG+을/JKO+요청/NNG+하/XSV+시/EP+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.담당하시는 업무가 맞으십니까",
+            "norm_text": "B.담당하시는 업무가 맞으십니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+담당/NNG+하/XSV+시/EP+는/ETM+업무/NNG+가/JKS+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.아니에요 이거는 호스피스 쪽일 것 같은데 정확히 모르겠네요",
+            "norm_text": "A.아니에요 이거는 호스피스 쪽일 것 같은데 정확히 모르겠네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아니/VCN+에요/EF+이거/NP+는/JX+호스피스/NNG+쪽/NNB+일/VCP+ETM+것/NNB+같/VA+은데/EC+정확히/MAG+모르/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그러면 병원 법인 관련으로 안내를 해 드리면 될까요",
+            "norm_text": "B.그러면 병원 법인 관련으로 안내를 해 드리면 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+병원/NNG+법인/NNG+관련/NNG+으로/JKB+안내/NNG+를/JKO+해/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.글쎄요 조금 애매하긴 한데 그쪽으로 연락 한 번 해보셔야 될 거 같아요",
+            "norm_text": "A.글쎄요 조금 애매하긴 한데 그쪽으로 연락 한 번 해보셔야 될 거 같아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+글쎄요/IC+조금/MAG+애매/XR+하/XSA+긴/ETN+JX+한데/VX+EC+그쪽/NP+으로/JKB+연락/NNG+한/MM+번/NNBC+해/VV+EC+보/VX+셔야/EP+EC+될/VV+ETM+거/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 13,
+            "text": "B.예 알겠습니다 확인 감사드립니다",
+            "norm_text": "B.예 알겠습니다 확인 감사드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+예/IC+알/VV+겠/EP+습니다/EF+확인/NNG+감사/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 수고하세요",
+            "norm_text": "A.네 수고하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

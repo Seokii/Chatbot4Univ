@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 156527,
+    "name": "t5_20211118_0010_0999_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135904089786/t5_20211118_0010_0999_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135904089786/t5_20211118_0010_0999_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 154454,
+      "filename": "t5_0052_0049_02.txt",
+      "title": "t5_0052_0049_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 263,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 263,
+        "word_size": 60,
+        "text": "A.안녕하세요 #@소속# 스마일 상담사 #@이름#입니다\nB.네 안녕하세요 경주 미소빵을 사고 싶은데요\nA.네 고객님 수막새 경주 미소빵 말씀이시군요\nB.네 맞아요 가격과 매장 운영 시간을 알 수 있을까요\nA.네 가격은 하나에 700원 정도입니다\nB.하나에 700원이군요\nA.네 매장 운영 시간은 오전 여덟시반부터 밤 열시입니다\nB.매장은 휴무일이 없나요\nA.네 따로 휴무일 없이 연중무휴입니다\nB.아 그렇군요 안내 감사드립니다\nA.네 고객님 행복한 하루 보내세요 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 스마일 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 스마일 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+스마/NNP+일상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 경주 미소빵을 사고 싶은데요",
+            "norm_text": "B.네 안녕하세요 경주 미소빵을 사고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+경주/NNP+미소/NNG+빵/NNG+을/JKO+사/VV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 수막새 경주 미소빵 말씀이시군요",
+            "norm_text": "A.네 고객님 수막새 경주 미소빵 말씀이시군요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+수막새/NNG+경주/NNP+미소/NNG+빵/NNG+말씀/NNG+이/VCP+시/EP+군요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 맞아요 가격과 매장 운영 시간을 알 수 있을까요",
+            "norm_text": "B.네 맞아요 가격과 매장 운영 시간을 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+가격/NNG+과/JC+매장/NNG+운영/NNG+시간/NNG+을/JKO+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 가격은 하나에 700원 정도입니다",
+            "norm_text": "A.네 가격은 하나에 700원 정도입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+가격/NNG+은/JX+하나/NR+에/JKB+700/SN+원/NNBC+정도/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.하나에 700원이군요",
+            "norm_text": "B.하나에 700원이군요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+하나/NR+에/JKB+700/SN+원/NNBC+이/VCP+군요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 매장 운영 시간은 오전 여덟시반부터 밤 열시입니다",
+            "norm_text": "A.네 매장 운영 시간은 오전 여덟시반부터 밤 열시입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+매장/NNG+운영/NNG+시간/NNG+은/JX+오전/NNG+여덟/NR+시/NNBC+반/NNG+부터/JX+밤/NNG+열/NR+시/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.매장은 휴무일이 없나요",
+            "norm_text": "B.매장은 휴무일이 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+매장/NNG+은/JX+휴무일/NNG+이/JKS+없/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 따로 휴무일 없이 연중무휴입니다",
+            "norm_text": "A.네 따로 휴무일 없이 연중무휴입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+따로/MAG+휴무일/NNG+없이/MAG+연중무휴/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.아 그렇군요 안내 감사드립니다",
+            "norm_text": "B.아 그렇군요 안내 감사드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아/IC+그렇/VA+군요/EC+안내/NNG+감사/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 고객님 행복한 하루 보내세요 상담사 #@이름#이었습니다",
+            "norm_text": "A.네 고객님 행복한 하루 보내세요 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+행복/NNG+한/XSA+ETM+하루/NNG+보내/VV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

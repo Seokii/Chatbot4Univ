@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 123074,
+    "name": "s3_20211008_0006_0048_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111011024578/s3_20211008_0006_0048_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111011024578/s3_20211008_0006_0048_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 122458,
+      "filename": "s3_20210831_0017_0002_01.txt",
+      "title": "s3_20210831_0017_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 230,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 230,
+        "word_size": 53,
+        "text": "A.반갑습니다 #@소속# 콜센터 #@이름#입니다\nB.#@상품#의 개수가 어떻게 되나요\nB.한 개인 것도 있고 세 개도 있던데요\nA.고객님 한 개짜리가 있고요\nA.원 플러스 원 상품도 있습니다\nA.내용물은 #@상품# #@상품# #@상품#세트로 배송됩니다\nB.원 플러스 원 상품은 얼마인가요\nA.해당 상품의 가격은 이만 구천 원입니다\nB.그럼 한 개짜리 상품은 얼마인가요\nA.해당 상품의 가격은 만 오천 원입니다\nB.네 확인감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 콜센터 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 콜센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+콜/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품#의 개수가 어떻게 되나요",
+            "norm_text": "B.#@상품#의 개수가 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+의/JKG+개수/NNG+가/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.한 개인 것도 있고 세 개도 있던데요",
+            "norm_text": "B.한 개인 것도 있고 세 개도 있던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+한/MM+개/NNBC+인/VCP+ETM+것/NNB+도/JX+있/VA+고/EC+세/MM+개/NNBC+도/JX+있/VA+던데요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.고객님 한 개짜리가 있고요",
+            "norm_text": "A.고객님 한 개짜리가 있고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+한/MM+개/NNBC+짜리/XSN+가/JKS+있/VA+고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.원 플러스 원 상품도 있습니다",
+            "norm_text": "A.원 플러스 원 상품도 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+원/IC+플러스/NNG+원/NNG+상품/NNG+도/JX+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.내용물은 #@상품# #@상품# #@상품#세트로 배송됩니다",
+            "norm_text": "A.내용물은 #@상품# #@상품# #@상품#세트로 배송됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+내용물/NNG+은/JX+#/SY+@/SY+상품/NNG+#/SY+#/SY+@/SY+상품/NNG+#/SY+#/SY+@/SY+상품/NNG+#/SY+세트/NNG+로/JKB+배송/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.원 플러스 원 상품은 얼마인가요",
+            "norm_text": "B.원 플러스 원 상품은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+원/IC+플러스/NNG+원/NNG+상품/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.해당 상품의 가격은 이만 구천 원입니다",
+            "norm_text": "A.해당 상품의 가격은 이만 구천 원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+상품/NNG+의/JKG+가격/NNG+은/JX+이/NR+만/NR+구천/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그럼 한 개짜리 상품은 얼마인가요",
+            "norm_text": "B.그럼 한 개짜리 상품은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+한/MM+개/NNBC+짜리/XSN+상품/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.해당 상품의 가격은 만 오천 원입니다",
+            "norm_text": "A.해당 상품의 가격은 만 오천 원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+상품/NNG+의/JKG+가격/NNG+은/JX+만/NR+오/NR+천/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 확인감사합니다",
+            "norm_text": "B.네 확인감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

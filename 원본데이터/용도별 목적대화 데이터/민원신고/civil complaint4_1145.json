@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 49106,
+    "name": "c4_20211015_0012_0076_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131239032344/c4_20211015_0012_0076_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131239032344/c4_20211015_0012_0076_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57674,
+      "filename": "c4_20210929_0027_0009_01.txt",
+      "title": "c4_20210929_0027_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 280,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 280,
+        "word_size": 59,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.네 지하철 입구에서 담배를 피거든요\nB.#@주소#에 병원 환자들이 엄청 피웁니다\nA.네 #@주소# 병원 앞에요\nB.네 이거 냄새 심한데 단속 좀 해주세요\nA.해당 지역은 흡연 적발 시 과태료 이만원이 부과되는 법적 금연구역입니다\nA.금연단속반을 해당구역으로 방문하겠습니다\nB.네 빠른 조치 감사합니다\nA.앞으로도 흡연 예방에 지속적으로 노력할 것을 알려드립니다\nB.네 감사합니다 수고하세요\nA.네 금연환경 조성에 협조해주셔 감사합니다\nA.지금까지 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 지하철 입구에서 담배를 피거든요",
+            "norm_text": "B.네 지하철 입구에서 담배를 피거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+지하철/NNG+입구/NNG+에서/JKB+담배/NNG+를/JKO+피/VV+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.#@주소#에 병원 환자들이 엄청 피웁니다",
+            "norm_text": "B.#@주소#에 병원 환자들이 엄청 피웁니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+에/JKB+병원/NNG+환자/NNG+들/XSN+이/JKS+엄청/MAG+피웁니다/VV+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.네 #@주소# 병원 앞에요",
+            "norm_text": "A.네 #@주소# 병원 앞에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+병원/NNG+앞/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "B.네 이거 냄새 심한데 단속 좀 해주세요",
+            "norm_text": "B.네 이거 냄새 심한데 단속 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+이거/NP+냄새/NNG+심한/VA+ETM+데/NNB+단속/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.해당 지역은 흡연 적발 시 과태료 이만원이 부과되는 법적 금연구역입니다",
+            "norm_text": "A.해당 지역은 흡연 적발 시 과태료 이만원이 부과되는 법적 금연구역입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+지역/NNG+은/JX+흡연/NNG+적/XSN+발/NNG+시/NNB+과태료/NNG+이/NR+만/NR+원/NNBC+이/JKS+부과/NNG+되/XSV+는/ETM+법/NNG+적/XSN+금연/NNG+구역/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.금연단속반을 해당구역으로 방문하겠습니다",
+            "norm_text": "A.금연단속반을 해당구역으로 방문하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+금연/NNG+단속/NNG+반/NNG+을/JKO+해당/NNG+구역/NNG+으로/JKB+방문/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 빠른 조치 감사합니다",
+            "norm_text": "B.네 빠른 조치 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+빠른/VA+ETM+조치/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.앞으로도 흡연 예방에 지속적으로 노력할 것을 알려드립니다",
+            "norm_text": "A.앞으로도 흡연 예방에 지속적으로 노력할 것을 알려드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+앞/NNG+으로/JKB+도/JX+흡연/NNG+예방/NNG+에/JKB+지속/NNG+적/XSN+으로/JKB+노력/NNG+할/XSV+ETM+것/NNB+을/JKO+알려/VV+EC+드립니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 금연환경 조성에 협조해주셔 감사합니다",
+            "norm_text": "A.네 금연환경 조성에 협조해주셔 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+금연/NNG+환경/NNG+조성/NNG+에/JKB+협조/NNG+해/XSV+EC+주/VX+셔/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.지금까지 #@소속# #@이름#이었습니다",
+            "norm_text": "A.지금까지 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+지금/NNG+까지/JX+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

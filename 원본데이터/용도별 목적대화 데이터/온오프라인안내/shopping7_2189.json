@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 118424,
+    "name": "s7_20211105_0001_3835_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110653028139/s7_20211105_0001_3835_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110653028139/s7_20211105_0001_3835_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116345,
+      "filename": "s7_20211027_0019_0003_01.txt",
+      "title": "s7_20211027_0019_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 267,
+      "annotations": {
+        "subject": "온오프라인 안내",
+        "speaker_type": "1:1",
+        "size": 267,
+        "word_size": 57,
+        "text": "A.안녕하세요 #@소속# #@이름# 상담사 입니다\nB.이번에 #@이름# 결제 어플을 다운받았는데요\nB.이게 여기 #@소속# 에서 바로 이용이 안 되더라구요\nA.컴퓨터로 결제하시려는 건가요\nB.네 모바일로 하기에는 액수가 크니까요\nA.결제화면에서 #@이름# 선택 후 결제버튼 눌러주세요\nB.거기까지는 했어요 아무것도 안 떠요\nA.팝업설정 들어가서 허용해주시구요\nA.에이알에스 인증을 하셔야 합니다\nB.그래요 그게 문제였나보다 제가 그냥 끊었거든요\nB.다시 해 볼게요 고맙습니다\nA.행복한 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름# 상담사 입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름# 상담사 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.이번에 #@이름# 결제 어플을 다운받았는데요",
+            "norm_text": "B.이번에 #@이름# 결제 어플을 다운받았는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이번/NNG+에/JKB+#/SY+@/SY+이름/NNG+#/SY+결제/NNG+어/IC+플/NNG+을/JKO+다운/NNG+받/VV+았/EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.이게 여기 #@소속# 에서 바로 이용이 안 되더라구요",
+            "norm_text": "B.이게 여기 #@소속# 에서 바로 이용이 안 되더라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이게/NP+JKS+여기/NP+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+바로/MAG+이용/NNG+이/JKS+안/MAG+되/VV+더라구요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.컴퓨터로 결제하시려는 건가요",
+            "norm_text": "A.컴퓨터로 결제하시려는 건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+컴퓨터/NNG+로/JKB+결제/NNG+하/XSV+시/EP+려는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 모바일로 하기에는 액수가 크니까요",
+            "norm_text": "B.네 모바일로 하기에는 액수가 크니까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+모바일/NNP+로/JKB+하/VV+기/ETN+에/JKB+는/JX+액수/NNG+가/JKS+크/VA+니까요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.결제화면에서 #@이름# 선택 후 결제버튼 눌러주세요",
+            "norm_text": "A.결제화면에서 #@이름# 선택 후 결제버튼 눌러주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+결제/NNG+화면/NNG+에서/JKB+#/SY+@/SY+이름/NNG+#/SY+선택/NNG+후/NNG+결제/NNG+버튼/NNG+눌러/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.거기까지는 했어요 아무것도 안 떠요",
+            "norm_text": "B.거기까지는 했어요 아무것도 안 떠요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+거기/NP+까지/JX+는/JX+했/VV+EP+어요/EF+아무것/NP+도/JX+안/MAG+떠요/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.팝업설정 들어가서 허용해주시구요",
+            "norm_text": "A.팝업설정 들어가서 허용해주시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+팝업/NNG+설정/NNG+들어가/VV+서/EC+허용/NNG+해/XSV+EC+주/VX+시/EP+구요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.에이알에스 인증을 하셔야 합니다",
+            "norm_text": "A.에이알에스 인증을 하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+에이알/NNP+에스/NNG+인증/NNG+을/JKO+하/VV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그래요 그게 문제였나보다 제가 그냥 끊었거든요",
+            "norm_text": "B.그래요 그게 문제였나보다 제가 그냥 끊었거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+그게/NP+JKS+문제/NNG+였/VCP+EP+나/NP+보다/JKB+제/NP+가/JKS+그냥/MAG+끊/VV+었/EP+거든요/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.다시 해 볼게요 고맙습니다",
+            "norm_text": "B.다시 해 볼게요 고맙습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+다시/MAG+해/VV+EC+볼게요/VX+EF+고맙/VA+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.행복한 하루 되세요",
+            "norm_text": "A.행복한 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

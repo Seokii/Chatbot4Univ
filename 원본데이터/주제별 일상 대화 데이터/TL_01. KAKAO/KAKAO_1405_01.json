@@ -1,0 +1,455 @@
+{
+  "dataset": {
+    "identifier": 81688,
+    "name": "KAKAO_1405_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/60/txt20211019132410074370/KAKAO_1405_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/60/txt20211019132410074370/KAKAO_1405_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 76406,
+      "filename": "KAKAO_1405_01.txt",
+      "title": "KAKAO_1405_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-19",
+      "size": 798,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "다자간 대화",
+        "size": 798,
+        "word_size": 255,
+        "text": "1 : 갑자기 출출해졌어 야식 뭐 시켜 먹을까\n2 : 나는 내일 참치 김치찌개를 해 먹을 거야\n3 : 이 시간에 야식이라니 건강에 해로워\n1 : 다이어트 해야 하는데 그럼 샐러드로 시켜 먹어볼까\n2 : 나는 야식으로 쥐포를 구어 먹을 거야\n2 : 고소해라\n3 : 참치 김치찌개라니 정말 맛있겠다\n3 : 요즘은 맛있는 곳도 많은 것 같아\n1 : 참치 김치찌개면 계란 후라이는 무조건 필수인 거 알지?\n2 : 야식으로 구운 치킨을 시켜 먹으려고 해\n2 : 단백질만 먹는 거지\n3 : 구운 치킨이라니 진짜 다이어트 되고 단백질도 챙기고 좋다\n1 : 요즘은 샐러드도 잘 나와서 먹기 좋아졌어\n1 : 샐러드 배달 시킬까\n2 : 이따 소고기 미역국을 해서 먹어야겠다\n2 : 생각만 해도 좋아\n3 : 소고기 미역국은 맛집이 많아서 외식하는 게 좋을 것 같아\n1 : 소고기 미역국은 다 먹고 난 뒤 수제비를 넣어 먹으면 너무 맛있지\n2 : 연어 샐러드가 맛있을 것 같아\n2 : 올리브 오일을 뿌려서 먹자구\n3 : 밥 먹고 난 뒤에는 디저트는 뭐 먹지\n1 : 디저트는 깔끔하게 아이스 아메리카노 어떰\n2 : 올리브 잔뜩 들어간 피자를 시켜 먹자 우리\n3 : 올리브 잔뜩 들어간 피자는 무조건 씬 피자로 먹어줘야 해\n1 : 피자는 칼로리가 높을수록 맛있어\n1 : 브랜드 피자 시킬까\n2 : 나는 아이스 바닐라 라떼를 먹을게!\n2 : 달달하고 시원해서 좋아\n3 : 브랜드 피자의 맛은 무조건 보장되어 있어서 좋아\n1 : 나는 아포카토 먹고 싶어\n1 : 아포카토 맛집 좀 추천해줘\n2 : 알았어\n2 : 내가 내일 찾아볼게\n2 : 같이 가자\n3 : 그래 나는 스타벅스에서 내 마음대로 넣어서 만들어 먹어야겠어~",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 갑자기 출출해졌어 야식 뭐 시켜 먹을까",
+            "norm_text": "갑자기 출출해졌어 야식 뭐 시켜 먹을까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "갑자기/MAG+출출/XR+해졌/XSA+EC+VX+EP+어/EC+야식/NNG+뭐/IC+시켜/VV+EC+먹/VV+을까/EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 내일 참치 김치찌개를 해 먹을 거야",
+            "norm_text": "나는 내일 참치 김치찌개를 해 먹을 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+내일/MAG+참치/NNG+김치찌개/NNG+를/JKO+해/VV+EC+먹/VV+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "3 : 이 시간에 야식이라니 건강에 해로워",
+            "norm_text": "이 시간에 야식이라니 건강에 해로워",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이/MM+시간/NNG+에/JKB+야식/NNG+이/VCP+라니/EC+건강/NNG+에/JKB+해로워/VA+EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 다이어트 해야 하는데 그럼 샐러드로 시켜 먹어볼까",
+            "norm_text": "다이어트 해야 하는데 그럼 샐러드로 시켜 먹어볼까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "다이어트/NNG+해야/XSV+EC+하/VV+는데/EC+그럼/MAJ+샐러드/NNG+로/JKB+시켜/VV+EC+먹/VV+어/EC+볼까/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "2 : 나는 야식으로 쥐포를 구어 먹을 거야",
+            "norm_text": "나는 야식으로 쥐포를 구어 먹을 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+야식/NNG+으로/JKB+쥐포/NNG+를/JKO+구/VV+어/EC+먹/VV+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "2 : 고소해라",
+            "norm_text": "고소해라",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "고소/XR+해라/XSA+EC"
+          },
+          {
+            "id": 7,
+            "text": "3 : 참치 김치찌개라니 정말 맛있겠다",
+            "norm_text": "참치 김치찌개라니 정말 맛있겠다",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "참치/NNG+김치찌개/NNG+라니/VCP+EC+정말/MAG+맛있/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 8,
+            "text": "3 : 요즘은 맛있는 곳도 많은 것 같아",
+            "norm_text": "요즘은 맛있는 곳도 많은 것 같아",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+은/JX+맛있/VA+는/ETM+곳/NNG+도/JX+많/VA+은/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 9,
+            "text": "1 : 참치 김치찌개면 계란 후라이는 무조건 필수인 거 알지?",
+            "norm_text": "참치 김치찌개면 계란 후라이는 무조건 필수인 거 알지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "참치/NNG+김치찌개/NNG+면계/NNG+란/JX+후/NNG+라이/NNG+는/JX+무조건/MAG+필수/NNG+인/VCP+ETM+거/NNB+알/VV+지/EF"
+          },
+          {
+            "id": 10,
+            "text": "2 : 야식으로 구운 치킨을 시켜 먹으려고 해",
+            "norm_text": "야식으로 구운 치킨을 시켜 먹으려고 해",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "야식/NNG+으로/JKB+구운/VV+ETM+치킨/NNG+을/JKO+시켜/VV+EC+먹/VV+으려고/EC+해/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 단백질만 먹는 거지",
+            "norm_text": "단백질만 먹는 거지",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "단백질/NNG+만/JX+먹/VV+는/ETM+거/NNB+지/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "3 : 구운 치킨이라니 진짜 다이어트 되고 단백질도 챙기고 좋다",
+            "norm_text": "구운 치킨이라니 진짜 다이어트 되고 단백질도 챙기고 좋다",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "구운/VV+ETM+치킨/NNG+이/VCP+라니/EC+진짜/MAG+다이어트/NNG+되/XSV+고/EC+단백질/NNG+도/JX+챙기/VV+고/EC+좋/VA+다/EC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 요즘은 샐러드도 잘 나와서 먹기 좋아졌어",
+            "norm_text": "요즘은 샐러드도 잘 나와서 먹기 좋아졌어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "요즘/NNG+은/JX+샐러드/NNG+도/JX+잘/MAG+나와서/VV+EC+먹/VV+기/ETN+좋/VA+아/EC+졌/VX+EP+어/EC"
+          },
+          {
+            "id": 14,
+            "text": "1 : 샐러드 배달 시킬까",
+            "norm_text": "샐러드 배달 시킬까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "샐러드/NNG+배달/NNG+시킬까/XSV+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 이따 소고기 미역국을 해서 먹어야겠다",
+            "norm_text": "이따 소고기 미역국을 해서 먹어야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "이따/MAG+소고기/NNG+미역국/NNG+을/JKO+해서/VV+EC+먹/VV+어야/EC+겠다/VX+EP+EC"
+          },
+          {
+            "id": 16,
+            "text": "2 : 생각만 해도 좋아",
+            "norm_text": "생각만 해도 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "생각/NNG+만/JX+해도/VV+EC+좋/VA+아/EC"
+          },
+          {
+            "id": 17,
+            "text": "3 : 소고기 미역국은 맛집이 많아서 외식하는 게 좋을 것 같아",
+            "norm_text": "소고기 미역국은 맛집이 많아서 외식하는 게 좋을 것 같아",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "소고기/NNG+미역국/NNG+은/JX+맛집/NNG+이/JKS+많/VA+아서/EC+외식/NNG+하/XSV+는/ETM+게/NNB+JKS+좋/VA+을/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 소고기 미역국은 다 먹고 난 뒤 수제비를 넣어 먹으면 너무 맛있지",
+            "norm_text": "소고기 미역국은 다 먹고 난 뒤 수제비를 넣어 먹으면 너무 맛있지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "소고기/NNG+미역국/NNG+은/JX+다/MAG+먹/VV+고/EC+난/VX+ETM+뒤/NNG+수제비/NNG+를/JKO+넣/VV+어/EC+먹/VV+으면/EC+너무/MAG+맛있/VA+지/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 연어 샐러드가 맛있을 것 같아",
+            "norm_text": "연어 샐러드가 맛있을 것 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "연어/NNG+샐러드/NNG+가/JKS+맛있/VA+을/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 올리브 오일을 뿌려서 먹자구",
+            "norm_text": "올리브 오일을 뿌려서 먹자구",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "올리브/NNG+오일/NNG+을/JKO+뿌려서/VV+EC+먹/VV+자구/EC"
+          },
+          {
+            "id": 21,
+            "text": "3 : 밥 먹고 난 뒤에는 디저트는 뭐 먹지",
+            "norm_text": "밥 먹고 난 뒤에는 디저트는 뭐 먹지",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "밥/NNG+먹/VV+고/EC+난/VX+ETM+뒤/NNG+에/JKB+는/JX+디저트/NNG+는/JX+뭐/IC+먹/VV+지/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 디저트는 깔끔하게 아이스 아메리카노 어떰",
+            "norm_text": "디저트는 깔끔하게 아이스 아메리카노 어떰",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "디저트/NNG+는/JX+깔끔/XR+하/XSA+게/EC+아이스/NNP+아메리카노/NNP+어떰/UNKNOWN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 올리브 잔뜩 들어간 피자를 시켜 먹자 우리",
+            "norm_text": "올리브 잔뜩 들어간 피자를 시켜 먹자 우리",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "올리브/NNG+잔뜩/MAG+들어간/VV+ETM+피자/NNG+를/JKO+시켜/VV+EC+먹/VV+자/EC+우리/NP"
+          },
+          {
+            "id": 24,
+            "text": "3 : 올리브 잔뜩 들어간 피자는 무조건 씬 피자로 먹어줘야 해",
+            "norm_text": "올리브 잔뜩 들어간 피자는 무조건 씬 피자로 먹어줘야 해",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "올리브/NNG+잔뜩/MAG+들어간/VV+ETM+피자/NNG+는/JX+무조건/MAG+씬/NNP+피자/NNG+로/JKB+먹/VV+어/EC+줘야해/VX+EC+VX+EC"
+          },
+          {
+            "id": 25,
+            "text": "1 : 피자는 칼로리가 높을수록 맛있어",
+            "norm_text": "피자는 칼로리가 높을수록 맛있어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "피자/NNG+는/JX+칼로리/NNG+가/JKS+높/VA+을수록/EC+맛있/VA+어/EC"
+          },
+          {
+            "id": 26,
+            "text": "1 : 브랜드 피자 시킬까",
+            "norm_text": "브랜드 피자 시킬까",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "브랜드/NNG+피자/NNG+시킬까/XSV+EC"
+          },
+          {
+            "id": 27,
+            "text": "2 : 나는 아이스 바닐라 라떼를 먹을게!",
+            "norm_text": "나는 아이스 바닐라 라떼를 먹을게!",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+아이스/NNG+바닐라/NNG+라떼/NNG+를/JKO+먹/VV+을/ETM+게/NNB+JKS"
+          },
+          {
+            "id": 28,
+            "text": "2 : 달달하고 시원해서 좋아",
+            "norm_text": "달달하고 시원해서 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "달달/MAG+하/VV+고/EC+시원/XR+해서/XSA+EC+좋/VA+아/EC"
+          },
+          {
+            "id": 29,
+            "text": "3 : 브랜드 피자의 맛은 무조건 보장되어 있어서 좋아",
+            "norm_text": "브랜드 피자의 맛은 무조건 보장되어 있어서 좋아",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "브랜드/NNG+피자/NNG+의/JKG+맛/NNG+은/JX+무조건/MAG+보장/NNG+되/XSV+어/EC+있/VX+어서/EC+좋/VA+아/EC"
+          },
+          {
+            "id": 30,
+            "text": "1 : 나는 아포카토 먹고 싶어",
+            "norm_text": "나는 아포카토 먹고 싶어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+아포/NNP+카토/NNP+먹/VV+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 31,
+            "text": "1 : 아포카토 맛집 좀 추천해줘",
+            "norm_text": "아포카토 맛집 좀 추천해줘",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아포/NNP+카토/NNP+맛집/NNG+좀/MAG+추천/NNG+해/XSV+EC+줘/VX+EC"
+          },
+          {
+            "id": 32,
+            "text": "2 : 알았어",
+            "norm_text": "알았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "알/VV+았/EP+어/EC"
+          },
+          {
+            "id": 33,
+            "text": "2 : 내가 내일 찾아볼게",
+            "norm_text": "내가 내일 찾아볼게",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "내/NP+가/JKS+내일/MAG+찾아볼/VV+ETM+게/NNB+JKS"
+          },
+          {
+            "id": 34,
+            "text": "2 : 같이 가자",
+            "norm_text": "같이 가자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "같이/MAG+가/VV+자/EC"
+          },
+          {
+            "id": 35,
+            "text": "3 : 그래 나는 스타벅스에서 내 마음대로 넣어서 만들어 먹어야겠어~",
+            "norm_text": "그래 나는 스타벅스에서 내 마음대로 넣어서 만들어 먹어야겠어~",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래/IC+나/NP+는/JX+스타/NNG+벅스/NNP+에서/JKB+내/NP+JKG+마음/NNG+대로/JKB+넣/VV+어서/EC+만들/VV+어/EC+먹/VV+어야/EC+겠어/VX+EP+EC+~/SY"
+          }
+        ]
+      }
+    }
+  ]
+}

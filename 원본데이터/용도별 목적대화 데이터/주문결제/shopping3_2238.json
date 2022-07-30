@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 116129,
+    "name": "s3_20211105_0005_0299_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt202111011108250308103/s3_20211105_0005_0299_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt202111011108250308103/s3_20211105_0005_0299_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118830,
+      "filename": "s3_20210926_0017_0002_01.txt",
+      "title": "s3_20210926_0017_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 340,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 340,
+        "word_size": 74,
+        "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다\nB.제가 지금 신발을 샀는대요\nB.무통장 입금으로 구매를 했거든요\nB.깜빡하고 현금 영수증을 못 헀어요 어떻게 해요\nA.네 고객님 바로 도와드리겠습니다\nA.혹시 입금은 하셨나요\nB.네 방금 입금했어요\nA.먼저 고객님의 이름과 연락처를 알려주세요\nB.제 이름은 #@이름# 이고요\nB.제 전화번호는 #@전번# 이에요\nA.입금 확인이 완료되어 소득 공제를 진행 할 텐데요\nA.같은 연락처로 공제를 원하시나요\nB.아니요 남편 핸드폰으로 할꼐요\nA.그럼 현금영수증을 발급 받으실 전화번호를 알려주세요\nB.#@전번#으로 현금영수증을 해주시면 되요\nA.네 처리 완료하였습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 지금 신발을 샀는대요",
+            "norm_text": "B.제가 지금 신발을 샀는대요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+지금/MAG+신발/NNG+을/JKO+샀/VV+EP+는대요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.무통장 입금으로 구매를 했거든요",
+            "norm_text": "B.무통장 입금으로 구매를 했거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+무/XPN+통장/NNG+입금/NNG+으로/JKB+구매/NNG+를/JKO+했/VV+EP+거든요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.깜빡하고 현금 영수증을 못 헀어요 어떻게 해요",
+            "norm_text": "B.깜빡하고 현금 영수증을 못 헀어요 어떻게 해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+깜빡하/VV+고/EC+현금영수증/NNP+을/JKO+못/MAG+헀/VV+EP+어요/EF+어떻게/MAG+해요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 바로 도와드리겠습니다",
+            "norm_text": "A.네 고객님 바로 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+바로/MAG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.혹시 입금은 하셨나요",
+            "norm_text": "A.혹시 입금은 하셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+입금/NNG+은/JX+하/VV+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 방금 입금했어요",
+            "norm_text": "B.네 방금 입금했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+방금/MAG+입금/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.먼저 고객님의 이름과 연락처를 알려주세요",
+            "norm_text": "A.먼저 고객님의 이름과 연락처를 알려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+먼저/MAG+고객/NNG+님/XSN+의/JKG+이름/NNG+과/JC+연락처/NNG+를/JKO+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.제 이름은 #@이름# 이고요",
+            "norm_text": "B.제 이름은 #@이름# 이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.제 전화번호는 #@전번# 이에요",
+            "norm_text": "B.제 전화번호는 #@전번# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+제/NP+JKG+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.입금 확인이 완료되어 소득 공제를 진행 할 텐데요",
+            "norm_text": "A.입금 확인이 완료되어 소득 공제를 진행 할 텐데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+입금/NNG+확인/NNG+이/JKS+완료/NNG+되/XSV+어/EC+소득/NNG+공제/NNG+를/JKO+진행할/VV+ETM+텐데요/NNB+VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.같은 연락처로 공제를 원하시나요",
+            "norm_text": "A.같은 연락처로 공제를 원하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+같/VA+은/ETM+연락처/NNG+로/JKB+공제/NNG+를/JKO+원하/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 13,
+            "text": "B.아니요 남편 핸드폰으로 할꼐요",
+            "norm_text": "B.아니요 남편 핸드폰으로 할께요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+남편/NNG+핸드폰/NNG+으로/JKB+할께요/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.그럼 현금영수증을 발급 받으실 전화번호를 알려주세요",
+            "norm_text": "A.그럼 현금영수증을 발급 받으실 전화번호를 알려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그럼/MAJ+현금영수증/NNP+을/JKO+발급/NNG+받/VV+으실/EP+ETM+전화/NNG+번호/NNG+를/JKO+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "B.#@전번#으로 현금영수증을 해주시면 되요",
+            "norm_text": "B.#@전번#으로 현금영수증을 등록하시면 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+현금영수증/NNP+을/JKO+등록/NNG+하/XSV+시/EP+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 처리 완료하였습니다",
+            "norm_text": "A.네 처리 완료하였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+처리/NNG+완료/NNG+하/XSV+였/EP+습니다/EF"
+          },
+          {
+            "id": 17,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

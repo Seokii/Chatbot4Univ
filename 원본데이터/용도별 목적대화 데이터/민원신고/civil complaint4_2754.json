@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 60412,
+    "name": "c4_20211021_0012_0001_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151531099326/c4_20211021_0012_0001_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151531099326/c4_20211021_0012_0001_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 15489,
+      "filename": "c4_20210817_0012_0005_01.txt",
+      "title": "c4_20210817_0012_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 860,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 860,
+        "word_size": 191,
+        "text": "A.네 안녕하세요 태안군청입니다\nB.네 안녕하세요 #@소속# #@이름#입니다 네 한 가지 내용 전달차 전화 드렸습니다\nB.현재 태안 원북면에 거주하시는 #@이름# 님이 기초수급자이심에도 불구하고\nA.그러면요 그쪽 부서로 저희가 연결드려 볼게요 네 실례지만 전화받으신 교환실이고요 그 담당부서가 따로 있어요 잠시만요\nB.네 알겠습니다 연결해주세요 감사합니다\nA.네 안녕하세요 무슨 일이시죠\nB.안녕하십니까 일이공 충남콜센터 #@이름#입니다 제가 내용 한 가지 전달차 전화 드렸습니다\nB.현재 태안 원북면에 거주하시는 #@이름#님이 기차 기초수급자이심에도 불구하고 수해 피해로 원북 면사무소와 태안군청에 문의를 하였는데요\nB.해결이 안되서 저희 측에서 #@기타#에 전달 원하십니다 내용 아시나요\nA.아니요 어떤 거 때문에 그러시는 거죠\nB.수해피해로 원북면사무소와 태안군청에 여러 번 민원제기를 하였으나 해결이 되지 않았다고 저희 쪽으로 전화를 주셨습니다\nA.어떤 민원인지 수해피해를 입으신 부분입니까 수해복구를 원하시는 부분입니까\nB.네 수해복구를 원하십니다\nA.그럼 저희는 문화예술팀인데요\nB.그러십니까 처음에 전화를 받으신 분이 담당부서로 돌려주셔서 제가 전화를 드린 부분인데요\nB.현재 그러시면 기초수급자 관련해서는 어느 부서와 통화를 해야 되는 부분인지\nA.단순히 기초수급자 관련이면 저희 복지과에서 할 테고요 수해 관련해서 하면 다른 과가 아닐까 싶은데 제가 그 부분에 대해서는 잘 몰라서요\nB.그러시면 혹시 내용 전달 부탁드려도 될까요\nA.네 내용 전달이요 그럼 제가 내용을 한번 적어 볼게요\nB.네 현재 태안 원북면에 거주를 하시는 #@이름#님이십니다 민원인 연락처는 #@전번# 번입니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하세요 태안군청입니다",
+            "norm_text": "A.네 안녕하세요 태안군청입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+태안/NNP+군청/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 #@소속# #@이름#입니다 네 한 가지 내용 전달차 전화 드렸습니다",
+            "norm_text": "B.네 안녕하세요 #@소속# #@이름#입니다 내용 전달차 전화 드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+네/IC+한/MM+가지/NNBC+내용/NNG+전달/NNG+차/NNG+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.현재 태안 원북면에 거주하시는 #@이름# 님이 기초수급자이심에도 불구하고",
+            "norm_text": "B.태안 원북면에 거주하시는 #@이름# 님이 기초수급자이심에도 불구하고",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+현재/MAG+태안/NNP+원북면/NNP+에/JKB+거주/NNG+하/XSV+시/EP+는/ETM+#/SY+@/SY+이름/NNG+#/SY+님/XSN+이/JKS+기초/NNG+수급/NNG+자/XSN+이/VCP+심/EP+ETN+에/JKB+도/JX+불구/XR+하/XSA+고/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.그러면요 그쪽 부서로 저희가 연결드려 볼게요 네 실례지만 전화받으신 교환실이고요 그 담당부서가 따로 있어요 잠시만요",
+            "norm_text": "A.담당 부서로 연결 할게요 저희는 교환실이고요 담당부서가 따로 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+담당/NNG+부서/NNG+로/JKB+연결/NNG+할게요/XSV+EF+저희/NP+는/JX+교환/NNG+실/NNG+이/JKS+고요/NNG+담당/NNG+부서/NNG+가/JKS+따로/MAG+있/VV+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.네 알겠습니다 연결해주세요 감사합니다",
+            "norm_text": "B.네 알겠습니다 연결해주세요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+연결/NNG+해/XSV+EC+주/VX+세요/EP+EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 안녕하세요 무슨 일이시죠",
+            "norm_text": "A.네 안녕하세요 무슨 일이시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+무슨/MM+일/NNG+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.안녕하십니까 일이공 충남콜센터 #@이름#입니다 제가 내용 한 가지 전달차 전화 드렸습니다",
+            "norm_text": "B.안녕하십니까 #@소속# #@이름#입니다 내용 전달차 전화 드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+내용/NNG+전달/NNG+차/NNG+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.현재 태안 원북면에 거주하시는 #@이름#님이 기차 기초수급자이심에도 불구하고 수해 피해로 원북 면사무소와 태안군청에 문의를 하였는데요",
+            "norm_text": "B.기초수급자가 있는데 수해피해로 #@기타#와 #@기타#에 문의를 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+기초/NNG+수급/NNG+자/XSN+가/JKS+있/VA+는/ETM+데수/NNG+해/XSV+EC+피해/NNG+로/JKB+#/SY+@/SY+기타/NNG+#/SY+와/JC+#/SY+@/SY+기타/NNG+#/SY+에/JKB+문의/NNG+를/JKO+했/VV+EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.해결이 안되서 저희 측에서 #@기타#에 전달 원하십니다 내용 아시나요",
+            "norm_text": "B.해결이 안되서 저희 측에서 #@기타#에 전달 원하십니다 내용 아시나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+해결/NNG+이/JKS+안/MAG+되/VV+서/EC+저희/NP+측/NNB+에서/JKB+#/SY+@/SY+기타/NNG+#/SY+에/JKB+전달/NNG+원/NNG+하/XSV+십니다/EP+EF+내용/NNG+아시나/NNP+요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.아니요 어떤 거 때문에 그러시는 거죠",
+            "norm_text": "A.아니요 어떤 거 때문에 그러시는 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+아니요/IC+어떤/MM+거/NNB+때문/NNB+에/JKB+그러/VV+시/EP+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.수해피해로 원북면사무소와 태안군청에 여러 번 민원제기를 하였으나 해결이 되지 않았다고 저희 쪽으로 전화를 주셨습니다",
+            "norm_text": "B.수해피해로 여러 번 민원제기를 했는데 해결이 되지 않았다고 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+수해/NNG+피해/NNG+로/JKB+여러/MM+번/NNBC+민원/NNG+제기/NNG+를/JKO+했/VV+EP+는데/EC+해결/NNG+이/JKS+되/VV+지/EC+않/VX+았/EP+다고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.어떤 민원인지 수해피해를 입으신 부분입니까 수해복구를 원하시는 부분입니까",
+            "norm_text": "A.수해피해를 입으신 부분입니까 수해복구를 원하시는 부분입니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+수해/NNG+피해/NNG+를/JKO+입/VV+으신/EP+ETM+부분/NNG+입니까/VCP+EC+수해/NNG+복구/NNG+를/JKO+원하/VV+시/EP+는/ETM+부분/NNG+입니까/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.네 수해복구를 원하십니다",
+            "norm_text": "B.네 수해복구를 원하십니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+수해/NNG+복구/NNG+를/JKO+원하/VV+십니다/EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.그럼 저희는 문화예술팀인데요",
+            "norm_text": "A.그럼 저희는 문화예술팀인데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그럼/MAJ+저희/NP+는/JX+문화/NNG+예술/NNG+팀/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.그러십니까 처음에 전화를 받으신 분이 담당부서로 돌려주셔서 제가 전화를 드린 부분인데요",
+            "norm_text": "B.처음에 전화를 받으신 분이 담당부서로 돌려주셔서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+처음/NNG+에/JKB+전화/NNG+를/JKO+받/VV+으신/EP+ETM+분/NNB+이/JKS+담당/NNG+부서/NNG+로/JKB+돌려주/VV+셔서/EP+EC+요/JX"
+          },
+          {
+            "id": 16,
+            "text": "B.현재 그러시면 기초수급자 관련해서는 어느 부서와 통화를 해야 되는 부분인지",
+            "norm_text": "B.그러면 기초수급자 관련해서는 어느 부서와 통화를 해야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+현재/MAG+그러/VV+시/EP+면/EC+기초/NNG+수급/NNG+자/XSN+관련/NNG+해서/XSV+EC+는/JX+어느/MM+부서/NNG+와/JC+통화/NNG+를/JKO+해야/VV+EC+되/VV+는/ETM+부분/NNG+인지/VCP+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.단순히 기초수급자 관련이면 저희 복지과에서 할 테고요 수해 관련해서 하면 다른 과가 아닐까 싶은데 제가 그 부분에 대해서는 잘 몰라서요",
+            "norm_text": "A.기초수급자 관련이면 저희고요 수해 관련해서 하면 다른 과 입니다 ",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기초/NNG+수급/NNG+자/XSN+관련/NNG+이/VCP+면/EC+저희/NP+고/VCP+EC+요수/NNG+해/XSV+EC+관련/NNG+해서/XSV+EC+하/VV+면/EC+다른/MM+과/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "B.그러시면 혹시 내용 전달 부탁드려도 될까요",
+            "norm_text": "B.그러시면 혹시 내용 전달 부탁드려도 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러/VV+시/EP+면/EC+혹시/MAG+내용/NNG+전달/NNG+부탁/NNG+드려도/VV+EC+될까요/VV+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.네 내용 전달이요 그럼 제가 내용을 한번 적어 볼게요",
+            "norm_text": "A.네 내용 전달이요 그럼 제가 내용을 한번 적어 볼게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+내용/NNG+전달/NNG+이/VCP+요/EC+그럼/MAJ+제/NP+가/JKS+내용/NNG+을/JKO+한번/MAG+적/VV+어/EC+볼게요/VX+EF"
+          },
+          {
+            "id": 20,
+            "text": "B.네 현재 태안 원북면에 거주를 하시는 #@이름#님이십니다 민원인 연락처는 #@전번# 번입니다",
+            "norm_text": "B.#@주소#에 거주하는  #@이름#님입니다 연락처는 #@전번# 번입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+에/JKB+거주/NNG+하/XSV+는/ETM+#/SY+@/SY+이름/NNG+#/SY+님/XSN+입니다/VCP+EF+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+입니다/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

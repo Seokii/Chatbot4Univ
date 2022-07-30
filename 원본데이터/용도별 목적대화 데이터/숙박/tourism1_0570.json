@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 141558,
+    "name": "t1_20211115_0002_0562_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135716036465/t1_20211115_0002_0562_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135716036465/t1_20211115_0002_0562_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148188,
+      "filename": "t1_0068_0114_02.txt",
+      "title": "t1_0068_0114_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 344,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 344,
+        "word_size": 79,
+        "text": "A.#@소속#여행 #@이름# 입니다\nB.국민여가캠핑장에 가보려고 하는데요 예약 관련해서 문의사항이 있어요\nA.고객님 어떤 문의 사항이 있으신가요\nB.3자녀 가족인데 요금 할인 혜택을 받을 수 있을까요\nA.네 5인 실까지만 가능하고 타인이나 가족 동반 아닐경우 혜택 안되세요\nB.그럼 3자녀 할인 받을 때 필요한 증빙서류가 있나요\nA.주민등록등본이나 가족관계증명서 제출하시면 됩니다\nB.그럼 5인 가족이니 특대형 사이트에 예약하면 되지요\nA.네 특대형 사이트는 텐트 8과 9 입니다\nB.캠핑 여행은 처음이라 서요 혹시 전기나 수도는 어떻게 되나요\nA.전기와 수도 모두 제공됩니다\nB.잘 알겠습니다 그럼 예약은 온라인으로 할게요 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속#여행 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+여행/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.국민여가캠핑장에 가보려고 하는데요 예약 관련해서 문의사항이 있어요",
+            "norm_text": "B.국민여가캠핑장에 가보려고 하는데요 예약 관련해서 문의사항이 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+국민/NNG+여/XSN+가/JKS+캠핑/NNG+장에/NNG+가/JKS+보/VV+려고/EC+하/VV+는데요/EC+예약/NNG+관련/NNG+해서/XSV+EC+문/NNG+의/JKG+사항/NNG+이/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 어떤 문의 사항이 있으신가요",
+            "norm_text": "A.고객님 어떤 문의 사항이 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+어떤/MM+문/NNG+의/JKG+사항/NNG+이/JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.3자녀 가족인데 요금 할인 혜택을 받을 수 있을까요",
+            "norm_text": "B.3자녀 가족인데 요금 할인 혜택을 받을 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+3/SN+자녀/NNG+가족/NNG+인데/VCP+EC+요금/NNG+할인/NNG+혜택/NNG+을/JKO+받/VV+을/ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 5인 실까지만 가능하고 타인이나 가족 동반 아닐경우 혜택 안되세요",
+            "norm_text": "A.네 5인실까지만 가능하고 타인이나 가족 동반 아닐경우 혜택 안 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+네/MM+5/SN+인/NNG+실/NNG+까지/JX+만/JX+가능/NNG+하/XSV+고/EC+타인/NNG+이나/JC+가족/NNG+동반/NNG+아닐/VCN+ETM+경우/NNG+혜택/NNG+안/MAG+됩니다/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 3자녀 할인 받을 때 필요한 증빙서류가 있나요",
+            "norm_text": "B.그럼 3자녀 할인 받을 때 필요한 증빙서류가 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+3/SN+자녀/NNG+할인/NNG+받/VV+을/ETM+때/NNG+필요/NNG+한/XSA+ETM+증빙/NNG+서류/NNG+가/JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.주민등록등본이나 가족관계증명서 제출하시면 됩니다",
+            "norm_text": "A.주민등록등본이나 가족관계증명서 제출하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주민/NNG+등록/NNG+등본/NNG+이나/JC+가족/NNG+관계/NNG+증명서/NNG+제출/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 5인 가족이니 특대형 사이트에 예약하면 되지요",
+            "norm_text": "B.그럼 5인 가족이니 특대형 사이트에 예약하면 되지요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+5/SN+인/NNG+가족/NNG+이/VCP+니/EC+특대/NNG+형/XSN+사이트/NNG+에/JKB+예약/NNG+하/XSV+면/EC+되/VV+지요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 특대형 사이트는 텐트 8과 9 입니다",
+            "norm_text": "A.네 특대형 사이트는 텐트 8과 9입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+특대/NNG+형/XSN+사이트/NNG+는/JX+텐트/NNG+8/SN+과/NNG+9/SN+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.캠핑 여행은 처음이라 서요 혹시 전기나 수도는 어떻게 되나요",
+            "norm_text": "B.캠핑 여행은 처음이라 서요 혹시 전기나 수도는 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+캠핑/NNG+여행/NNG+은/JX+처음/NNG+이/VCP+라서요/EF+혹시/MAG+전기/NNG+나/JC+수도/NNG+는/JX+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.전기와 수도 모두 제공됩니다",
+            "norm_text": "A.전기와 수도 모두 제공됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전기/NNG+와/JC+수도/NNG+모두/MAG+제공/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.잘 알겠습니다 그럼 예약은 온라인으로 할게요 수고하세요",
+            "norm_text": "B.잘 알겠습니다 그럼 예약은 온라인으로 할게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+잘/MAG+알/VV+겠/EP+습니다/EF+그럼/MAJ+예약/NNG+은/JX+온라인/NNG+으로/JKB+할게요/VV+EC+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

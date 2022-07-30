@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 51277,
+    "name": "c2_20211018_0024_0075_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151520036911/c2_20211018_0024_0075_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151520036911/c2_20211018_0024_0075_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 14424,
+      "filename": "c2_20210902_0020_0008_01.txt",
+      "title": "c2_20210902_0020_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 374,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 374,
+        "word_size": 71,
+        "text": "A.안녕하세요 상담원 #@이름# 입니다\nB.중학교 전학 관련해서 뭐 여쭤보려고 하는데요\nA.현재 거주지에서 이사를 가실 예정이신가요\nB.맞아요 지금 #@소속#중학교를 다니고 있는데 #@주소#로 가요\nA.이사 간 주소로 전학 가능한 중학교를 확인해 드릴까요\nB.#@주소#면 #@소속#중학교로 전학이 가능한가요\nA.확인해 드리겠습니다 우선 #@소속#중학교는 남부#@소속# 학구이구요\nA.#@소속#중학교는 #@주소#의 #@소속# 학구에요\nB.저는 공동학교군이라 안되는 줄 알았거든요\nA.공동학교군이라는 건 두개의 #@소속#이 공동으로 관리하는 걸 뜻하구요\nA.말씀하신 두 중학교는 학교군이 다르기 때문에 전학 가능합니다\nB.알겠습니다 확인해주셔서 감사합니다\nA.감사합니다 상담원 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담원 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 상담원 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.중학교 전학 관련해서 뭐 여쭤보려고 하는데요",
+            "norm_text": "B.중학교 전학 관련해서 뭐 여쭤보려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+중학교/NNG+전학/NNG+관련/NNG+해서/XSV+EC+뭐/IC+여쭤/VV+EC+보/VX+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.현재 거주지에서 이사를 가실 예정이신가요",
+            "norm_text": "A.현재 거주지에서 이사를 가실 예정이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+현재/MAG+거주지/NNG+에서/JKB+이사/NNG+를/JKO+가실/VV+ETM+예정/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.맞아요 지금 #@소속#중학교를 다니고 있는데 #@주소#로 가요",
+            "norm_text": "B.맞아요 지금 #@소속#중학교를 다니고 있는데 #@주소#로 가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맞/VV+아요/EF+지금/MAG+#/SY+@/SY+소속/NNG+#/SY+중학교/NNG+를/JKO+다니/VV+고/EC+있/VX+는데/EC+#/SY+@/SY+주소/NNG+#/SY+로/JKB+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.이사 간 주소로 전학 가능한 중학교를 확인해 드릴까요",
+            "norm_text": "A.이사 간 주소로 전학 가능한 중학교를 확인해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+이사/NNG+간/NNB+주소/NNG+로/JKB+전학/NNG+가능/NNG+한/XSA+ETM+중학교/NNG+를/JKO+확인/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.#@주소#면 #@소속#중학교로 전학이 가능한가요",
+            "norm_text": "B.#@소속#중학교로 전학이 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+면/NNG+#/SY+@/SY+소속/NNG+#/SY+중학교/NNG+로/JKB+전학/NNG+이/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.확인해 드리겠습니다 우선 #@소속#중학교는 남부#@소속# 학구이구요",
+            "norm_text": "A.확인해 드리겠습니다 우선 #@소속#중학교는 남부#@소속#이구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+확인/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+우선/MAG+#/SY+@/SY+소속/NNG+#/SY+중학교/NNG+는/JX+남부/NNG+#/SY+@/SY+소속/NNG+#/SY+학구/NNG+이/VCP+구요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.#@소속#중학교는 #@주소#의 #@소속# 학구에요",
+            "norm_text": "A.#@소속#중학교는 #@주소#의 #@소속# 학구에요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+중학교/NNG+는/JX+#/SY+@/SY+주소/NNG+#/SY+의/JKG+#/SY+@/SY+소속/NNG+#/SY+학구/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 9,
+            "text": "B.저는 공동학교군이라 안되는 줄 알았거든요",
+            "norm_text": "B.저는 공동학교군이라 안되는 줄 알았거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/NP+는/JX+공동/NNG+학교/NNG+군/NNG+이/VCP+라/EC+안/MAG+되/VV+는/ETM+줄/NNB+알/VV+았/EP+거든요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.공동학교군이라는 건 두개의 #@소속#이 공동으로 관리하는 걸 뜻하구요",
+            "norm_text": "A.공동학교군이라는 건 두개의 #@소속#이 공동으로 관리하는 걸 뜻하구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+공동/NNG+학교/NNG+군/NNG+이/VCP+라는/ETM+건/NNB+JX+두/MM+개/NNBC+의/JKG+#/SY+@/SY+소속/NNG+#/SY+이/JKS+공동/NNG+으로/JKB+관리/NNG+하/XSV+는/ETM+걸/NNB+JKO+뜻/NNG+하/XSV+구요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.말씀하신 두 중학교는 학교군이 다르기 때문에 전학 가능합니다",
+            "norm_text": "A.말씀하신 두 중학교는 학교군이 다르기 때문에 전학 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+말씀/NNG+하/XSV+신/EP+ETM+두/MM+중학교/NNG+는/JX+학교/NNG+군/NNG+이/JKS+다르/VA+기/ETN+때문/NNB+에/JKB+전학/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.알겠습니다 확인해주셔서 감사합니다",
+            "norm_text": "B.알겠습니다 확인해주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+확인/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.감사합니다 상담원 #@이름#였습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

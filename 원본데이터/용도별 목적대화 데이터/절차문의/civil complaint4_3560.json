@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 13203,
+    "name": "c2_20210914_0012_0136_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151533055716/c2_20210914_0012_0136_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151533055716/c2_20210914_0012_0136_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 15717,
+      "filename": "c4_20210820_0007_0012_01.txt",
+      "title": "c4_20210820_0007_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 512,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 512,
+        "word_size": 105,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.네 계룡 거기 계룡대까지 사십육번이 오는지 그거랑 몇시에 오는 건지 지금부터\nA.선생님 죄송하지만 인터넷 #@소속#지도로 또는 #@소속#지도로 교통을 안내를 해드려서 도착 시간까지는 안내가 어렵습니다\nB.그러면 어떻게 알아야 되는데 그거를요\nA.교통 시스템이구축되어있는 #@소속#에 문의를 주시는 부분이 좋으실 듯 합니다\nB.그래서 #@소속#에 전화하니까 #@소속#에 전화를 하라잖아요\nA.네 버스시간은 해당 버스회사에 문의를 주셔야 확인이 가능합니다\nA.버스회사 번호를 안내해드릴까요\nB.네 버스회사 번호 안내해주세요\nA.사십오번 버스 회사 번호 확인 후 안내해드리겠습니다\nB.사십육번 버스도 확인 부탁합니다\nA.네 알겠습니다 사십육번도 확인해보겠습니다\nB.사십육번이 오는지 사십오번이 오는지 사십오번이 오는지 몰라요\nA.사십육번버스 사십오번 버스 모두 확인해드리겠습니다 선생님\nB.한 개밖에 안 와요 버스\nA.네 알겠습니다 계룡지역 맞으십니까\nB.네 계룡대에 위치하고 있습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 계룡 거기 계룡대까지 사십육번이 오는지 그거랑 몇시에 오는 건지 지금부터",
+            "norm_text": "B.네 계룡 거기 계룡대까지 사십육번이 오는지 그거랑 몇시에 오는 건지 지금부터",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+계룡/NNP+거기/NP+계룡대/NNP+까지/JX+사/NR+십/NR+육/NR+번/NNBC+이/JKS+오/VV+는지/EC+그거/NP+랑/JC+몇/MM+시/NNBC+에/JKB+오/VV+는/ETM+건지/NNB+VCP+EC+지금/NNG+부터/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.선생님 죄송하지만 인터넷 #@소속#지도로 또는 #@소속#지도로 교통을 안내를 해드려서 도착 시간까지는 안내가 어렵습니다",
+            "norm_text": "A.선생님 죄송하지만 인터넷 #@소속#지도로 또는 #@소속#지도로 교통을 안내를 해드려서 도착 시간까지는 안내가 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+죄송/XR+하/XSA+지만/EC+인터넷/NNG+#/SY+@/SY+소속/NNG+#/SY+지도/NNG+로/JKB+또는/MAJ+#/SY+@/SY+소속/NNG+#/SY+지도/NNG+로/JKB+교통/NNG+을/JKO+안내/NNG+를/JKO+해드려서/VV+EC+VX+EC+도착/NNG+시간/NNG+까지/JX+는/JX+안내/NNG+가/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그러면 어떻게 알아야 되는데 그거를요",
+            "norm_text": "B.그러면 어떻게 알아야 되는데 그거를요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+어떻게/MAG+알/VV+아야/EC+되/VV+는데/EC+그거/NP+를/JKO+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.교통 시스템이구축되어있는 #@소속#에 문의를 주시는 부분이 좋으실 듯 합니다",
+            "norm_text": "A.교통 시스템이구축되어있는 #@소속#에 문의를 주시는 부분이 좋으실 듯 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+교통/NNG+시스템/NNG+이/JKS+구축/NNG+되/XSV+어/EC+있/VX+는/ETM+#/SY+@/SY+소속/NNG+#/SY+에/JKB+문의/NNG+를/JKO+주/VV+시/EP+는/ETM+부분/NNG+이/JKS+좋/VA+으실/EP+ETM+듯/NNB+합니다/XSA+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그래서 #@소속#에 전화하니까 #@소속#에 전화를 하라잖아요",
+            "norm_text": "B.그래서 #@소속#에 전화하니까 #@소속#에 전화를 하라잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+그래서/MAJ+#/SY+@/SY+소속/NNG+#/SY+에/JKB+전화/NNG+하/XSV+니까/EC+#/SY+@/SY+소속/NNG+#/SY+에/JKB+전화/NNG+를/JKO+하/VV+라/EC+잖아요/VCP+EC+VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 버스시간은 해당 버스회사에 문의를 주셔야 확인이 가능합니다",
+            "norm_text": "A.네 버스시간은 해당 버스회사에 문의를 주셔야 확인이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+버스/NNG+시간/NNG+은/JX+해당/NNG+버스/NNG+회사/NNG+에/JKB+문의/NNG+를/JKO+주/VV+셔야/EP+EC+확인/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.버스회사 번호를 안내해드릴까요",
+            "norm_text": "A.버스회사 번호를 안내해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+버스/NNG+회사/NNG+번호/NNG+를/JKO+안내/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 버스회사 번호 안내해주세요",
+            "norm_text": "B.네 버스회사 번호 안내해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+버스/NNG+회사/NNG+번호/NNG+안내/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.사십오번 버스 회사 번호 확인 후 안내해드리겠습니다",
+            "norm_text": "A.사십오번 버스 회사 번호 확인 후 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+사/NR+십/NR+오/NR+번/NNBC+버스/NNG+회사/NNG+번호/NNG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.사십육번 버스도 확인 부탁합니다",
+            "norm_text": "B.사십육번 버스도 확인 부탁합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+사/NR+십/NR+육/NR+번/NNBC+버스/NNG+도/JX+확인/NNG+부탁/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 알겠습니다 사십육번도 확인해보겠습니다",
+            "norm_text": "A.네 알겠습니다 사십육번도 확인해보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+사/NR+십/NR+육/NR+번/NNBC+도/JX+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.사십육번이 오는지 사십오번이 오는지 사십오번이 오는지 몰라요",
+            "norm_text": "B.사십육번이 오는지 사십오번이 오는지 사십오번이 오는지 몰라요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+사/NR+십/NR+육/NR+번/NNBC+이/JKS+오/VV+는지/EC+사/NR+십/NR+오/NR+번/NNBC+이/JKS+오/VV+는지/EC+사/NR+십/NR+오/NR+번/NNBC+이/JKS+오/VV+는지/EC+몰라요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.사십육번버스 사십오번 버스 모두 확인해드리겠습니다 선생님",
+            "norm_text": "A.사십육번버스 사십오번 버스 모두 확인해드리겠습니다 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+사/NR+십/NR+육/NR+번/NNBC+버스/NNG+사/NR+십/NR+오/NR+번/NNBC+버스/NNG+모두/MAG+확인/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 15,
+            "text": "B.한 개밖에 안 와요 버스",
+            "norm_text": "B.한 개밖에 안 와요 버스",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+한/MM+개/NNBC+밖에/JX+안/MAG+와요/VV+EC+버스/NNG"
+          },
+          {
+            "id": 16,
+            "text": "A.네 알겠습니다 계룡지역 맞으십니까",
+            "norm_text": "A.네 알겠습니다 계룡지역 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+계룡/NNP+지역/NNG+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "B.네 계룡대에 위치하고 있습니다",
+            "norm_text": "B.네 계룡대에 위치하고 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+계룡대/NNP+에/JKB+위치/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

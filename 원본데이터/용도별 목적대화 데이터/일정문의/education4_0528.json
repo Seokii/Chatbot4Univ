@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 145816,
+    "name": "e4_20211116_0001_1740_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135630002753/e4_20211116_0001_1740_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135630002753/e4_20211116_0001_1740_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147113,
+      "filename": "e4_0074_0082_02.txt",
+      "title": "e4_0074_0082_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 297,
+      "annotations": {
+        "subject": "일정 문의",
+        "speaker_type": "1:1",
+        "size": 297,
+        "word_size": 64,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 신입생입니다\nB.로그인하고 강의실 들어가보니 등록한 수강과목이 없다고 나와요\nA.재로그인 하셔서 확인 해보셨을까요\nB 네 핸드폰으로도 확인했는데 마찬가지예요\nA.잠시만 기다려주세요 확인해보겠습니다\nB.네네 기다리고 있겠습니다\nA. 기다려주셔서 감사합니다 혹시 수강신청 목록에서 수강확정 버튼을 누르셨을까요\nB. 아 그걸 누르면 강의 표기가 될까요\nA. 네 알아본 결과 그 차이라고 하네요\nB. 아 상담원님 말대로 하니까 이제 나오네요\nA. 네 감사합니다 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 신입생입니다",
+            "norm_text": "B.안녕하세요 신입생입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+신입/NNG+생/XSN+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.로그인하고 강의실 들어가보니 등록한 수강과목이 없다고 나와요",
+            "norm_text": "B.로그인하고 강의실 들어가보니 등록한 수강과목이 없다고 나와요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+로그인/NNG+하/XSV+고/EC+강의실/NNG+들어가/VV+EC+보/VX+니/EC+등록/NNG+한/XSA+ETM+수강/NNG+과목/NNG+이/JKS+없/VA+다고/EC+나와요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.재로그인 하셔서 확인 해보셨을까요",
+            "norm_text": "A.재로그인 하셔서 확인 해보셨을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+재/XPN+로그인/NNG+하/XSV+셔서/EP+EC+확인/NNG+해/XSV+EC+보/VX+셨/EP+EP+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B 네 핸드폰으로도 확인했는데 마찬가지예요",
+            "norm_text": "B 네 핸드폰으로도 확인했는데 마찬가지예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/XSN+핸드폰/NNG+으로/JKB+도/JX+확인/NNG+했/XSV+EP+는데/EC+마찬가지/NNG+예요/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.잠시만 기다려주세요 확인해보겠습니다",
+            "norm_text": "A.잠시만 기다려주세요 확인해보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+잠시/NNG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.네네 기다리고 있겠습니다",
+            "norm_text": "B.네네 기다리고 있겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네네/IC+기다리/VV+고/EC+있/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A. 기다려주셔서 감사합니다 혹시 수강신청 목록에서 수강확정 버튼을 누르셨을까요",
+            "norm_text": "A. 혹시 수강신청 목록에서 수강확정 버튼을 누르셨을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+수강/NNG+신청/NNG+목록/NNG+에서/JKB+수강/NNG+확정/NNG+버튼/NNG+을/JKO+누르/VV+셨/EP+EP+을까요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B. 아 그걸 누르면 강의 표기가 될까요",
+            "norm_text": "B. 아 그걸 누르면 강의 표기가 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그걸/NP+JKO+누르/VV+면/EC+강의/NNG+표기/NNG+가/JKS+될까요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 알아본 결과 그 차이라고 하네요",
+            "norm_text": "A. 네 알아본 결과 그 차이라고 하네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+알아본/VV+ETM+결과/NNG+그/MM+차이/NNG+라고/VCP+EC+하/VV+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B. 아 상담원님 말대로 하니까 이제 나오네요",
+            "norm_text": "B. 아 상담원님 말대로 하니까 이제 나오네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+상담원/NNG+님/XSN+말/NNG+대로/JKB+하/VV+니까/EC+이제/MAG+나오/VV+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A. 네 감사합니다 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 네 감사합니다 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

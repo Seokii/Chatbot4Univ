@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 12147,
+    "name": "c1_20210913_0005_0644_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340015579/c1_20210913_0005_0644_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340015579/c1_20210913_0005_0644_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10525,
+      "filename": "c1_20210819_0008_0003_01.txt",
+      "title": "c1_20210819_0008_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 499,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 499,
+        "word_size": 122,
+        "text": "B.예 #@이름#입니다\nA.안녕하세요  #@소속# 콜센터 #@이름#입니다\nA.주무관님 실례지만 한 가지 여쭙고자 연락 드렸습니다\nA.네 먼저 제가 #@소속#에 문의를 한 부분인데요\nA.민원님께서 공공체육시설에 인조잔디 입찰 관계로 시청에서는 적절한 답변을 받지 못하셨다고 합니다\nA.그 외 상담 가능한 담당자분 찾고 계신데 혹시 담당자분 알고 계실까요\nB.예 인조잔디요 잠깐만 인조잔디는 물품 쪽인데\nB.일단 전화를 한번 주시고요\nB.내용이 어떤 건지 봐가지고 저희도 저는 공사 담당자라서요\nB.뭐 통화해야 될 것 같은데요\nB.내용이 어떤 건인지 공사 설치 시공 건인지 아니면 인조잔디지 알아야 해요\nA.그러시면 혹시 죄송하지만 제가 다시 민원님께 연락을 드리기로 한 부분인데요\nB.그 저기가 정확히 물품 쪽이라 뭐 이게 물품 쪽이라 그러면 저희 관한 거고요\nB.그 다음에 그 인조잔디 설치라 그러면 일반 공사잖아요\nB.그런 것들은 제가 하는 거고요\nA.네 잠깐 민원님께 연락 드려서 확인 후에 연결하겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "B.예 #@이름#입니다",
+            "norm_text": "B.예 #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.안녕하세요  #@소속# 콜센터 #@이름#입니다",
+            "norm_text": "A.안녕하세요  #@소속# 콜센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+콜/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.주무관님 실례지만 한 가지 여쭙고자 연락 드렸습니다",
+            "norm_text": "A.주무관님 실례지만 한 가지 여쭙고자 연락 드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주무관/NNG+님/XSN+실례/NNG+지만/VCP+EC+한/MM+가지/NNBC+여쭙/VV+고/EC+자연/NNG+락/VCP+EC+드렸/VX+EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.네 먼저 제가 #@소속#에 문의를 한 부분인데요",
+            "norm_text": "A.네 먼저 제가 #@소속#에 문의를 한 부분인데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+먼저/MAG+제/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+에/JKB+문의/NNG+를/JKO+한/VV+ETM+부분/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.민원님께서 공공체육시설에 인조잔디 입찰 관계로 시청에서는 적절한 답변을 받지 못하셨다고 합니다",
+            "norm_text": "A.인조잔디 입찰 관계로 시청에서 적절한 답변을 받지 못했다 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+인조잔디/NNP+입찰/NNG+관계/NNG+로/JKB+시청/NNG+에서/JKB+적절/XR+한/XSA+ETM+답변/NNG+을/JKO+받/VV+지/EC+못했/VX+EP+다/EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.그 외 상담 가능한 담당자분 찾고 계신데 혹시 담당자분 알고 계실까요",
+            "norm_text": "A.그 외 상담 가능한 담당자분 찾고 계신데 혹시 담당자분 알고 계실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그/MM+외상/NNG+담/NNG+가능/NNG+한/XSA+ETM+담당자/NNG+분/NNB+찾/VV+고/EC+계신데/VX+EC+혹시/MAG+담당자/NNG+분/NNB+알/VV+고/EC+계실까/VX+EC+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "B.예 인조잔디요 잠깐만 인조잔디는 물품 쪽인데",
+            "norm_text": "B.예 인조잔디요 잠깐만 인조잔디는 물품 쪽인데",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+인조잔디/NNP+요/VCP+EC+잠깐/MAG+만/JX+인조잔디/NNP+는/JX+물품/NNG+쪽/NNB+인데/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.일단 전화를 한번 주시고요",
+            "norm_text": "B.일단 전화를 한번 주시고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+일단/MAG+전화/NNG+를/JKO+한번/MAG+주/VV+시/EP+고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.내용이 어떤 건지 봐가지고 저희도 저는 공사 담당자라서요",
+            "norm_text": "B.내용이 어떤 건지 봐가지고 저희도 저는 공사 담당자라서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+내용/NNG+이/JKS+어떤/MM+건지/NNB+VCP+EC+봐/VX+EC+가지/VX+고/EC+저희/NP+도/JX+저/NP+는/JX+공사/NNG+담당자/NNG+라서요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.뭐 통화해야 될 것 같은데요",
+            "norm_text": "B.뭐 통화해야 될 것 같은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+뭐/IC+통화/NNG+해야/XSV+EC+될/VV+ETM+것/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.내용이 어떤 건인지 공사 설치 시공 건인지 아니면 인조잔디지 알아야 해요",
+            "norm_text": "B.내용이 공사 설치 시공 건인지 아니면 인조잔디지 알아야 해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+내용/NNG+이/JKS+공사/NNG+설치/VV+시/EP+공건/NNG+인지/VCP+EC+아니/VCN+면/EC+인조잔디/NNP+지/VCP+EC+알/VV+아야/EC+해요/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.그러시면 혹시 죄송하지만 제가 다시 민원님께 연락을 드리기로 한 부분인데요",
+            "norm_text": "A.죄송하지만 제가 다시 민원님께 연락을 드리기로 한 부분인데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+제/NP+가/JKS+다시/MAG+민원/NNG+님/XSN+께/JKB+연락/NNG+을/JKO+드리/VV+기/ETN+로/JKB+한/MM+부분/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그 저기가 정확히 물품 쪽이라 뭐 이게 물품 쪽이라 그러면 저희 관한 거고요",
+            "norm_text": "B.정확히 물품 쪽이라 뭐 이게 물품 쪽이라 그러면 저희 관한 거고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+정확히/MAG+물품/NNG+쪽/NNB+이/VCP+라/EC+뭐/IC+이게/NP+JKS+물품/NNG+쪽/NNB+이/VCP+라/EC+그러/VV+면/EC+저희/NP+관한/VV+ETM+거/NNB+고요/NNG"
+          },
+          {
+            "id": 14,
+            "text": "B.그 다음에 그 인조잔디 설치라 그러면 일반 공사잖아요",
+            "norm_text": "B.그 다음에 그 인조잔디 설치라 그러면 일반 공사잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그/MM+다음/NNG+에/JKB+그/IC+인조잔디/NNP+설치/VV+라/EC+그러/VV+면/EC+일반/NNG+공사/NNG+잖아요/VCP+EC+VX+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.그런 것들은 제가 하는 거고요",
+            "norm_text": "B.그런 것들은 제가 하는 거고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그런/MM+것/NNB+들/XSN+은/JX+제/NP+가/JKS+하/VV+는/ETM+거/NNB+고요/NNG"
+          },
+          {
+            "id": 16,
+            "text": "A.네 잠깐 민원님께 연락 드려서 확인 후에 연결하겠습니다 감사합니다",
+            "norm_text": "A.네 잠깐 민원님께 연락 드려서 확인 후에 연결하겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+잠깐/MAG+민원/NNG+님/XSN+께/JKB+연락/NNG+드려서/VV+EC+확인/NNG+후/NNG+에/JKB+연결/NNG+하/XSV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

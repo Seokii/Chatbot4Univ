@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 10712,
+    "name": "s3_20210913_0010_0653_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417036361/s3_20210913_0010_0653_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417036361/s3_20210913_0010_0653_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11990,
+      "filename": "s3_20210827_0009_0002_01.txt",
+      "title": "s3_20210827_0009_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 352,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 352,
+        "word_size": 70,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.마스크를 백매 주문을 했거든요 그랬는데 전화를 했더니 오십매라고만 해요\nA.확인을 좀 해보도록 하겠습니다\nA.주문하신 성함이랑 연락처 확인 좀 부탁드리겠습니다\nB.#@이름#구요 번호가 #@전번#이요\nA.백이십매 짜리로 화이트 대형으로 잘 주문을 하셨고요\nA.#@상품#는 상품 이름이 그렇게 되어 있어서 나온 거기 때문에요\nA.백이십매가 육만 구천팔백 원이 맞습니다\nB.맞아요 백이십매요\nA.네 육만 구천팔백원 입금하시면은 백이십매로 출고될 예정입니다\nB.알겠습니다 전자음성으로 오십매라 그래가지고요\nA.백이십매로 잘 구매하셨어요\nB.알겠습니다 그러면 결제하겠습니다 법인 카드로 결제할게요\nA.알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.마스크를 백매 주문을 했거든요 그랬는데 전화를 했더니 오십매라고만 해요",
+            "norm_text": "B.마스크를 백매 주문을 했거든요 전화를 했더니 오십매라고만 해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+마스크/NNG+를/JKO+백매/NNG+주문/NNG+을/JKO+했/VV+EP+거든요/EF+전화/NNG+를/JKO+했/VV+EP+더니/EC+오/NR+십/NR+매/NNBC+라고/VCP+EC+만/JX+해요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.확인을 좀 해보도록 하겠습니다",
+            "norm_text": "A.확인을 좀 해보도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+확인/NNG+을/JKO+좀/MAG+해/VV+EC+보/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.주문하신 성함이랑 연락처 확인 좀 부탁드리겠습니다",
+            "norm_text": "A.주문하신 성함이랑 연락처 확인 좀 부탁드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주문/NNG+하/XSV+신/EP+ETM+성함/NNG+이랑/JKB+연락처/NNG+확인/NNG+좀/MAG+부탁/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.#@이름#구요 번호가 #@전번#이요",
+            "norm_text": "B.#@이름#구요 번호가 #@전번#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+구요/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.백이십매 짜리로 화이트 대형으로 잘 주문을 하셨고요",
+            "norm_text": "A.백이십매 짜리로 화이트 대형으로 잘 주문을 하셨고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+백/NR+이/NR+십/NR+매/NNBC+짜리/XSN+로/JKB+화이트/NNP+대형/NNG+으로/JKB+잘/MAG+주문/NNG+을/JKO+하/VV+셨/EP+EP+고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.#@상품#는 상품 이름이 그렇게 되어 있어서 나온 거기 때문에요",
+            "norm_text": "A.#@상품#는 상품 이름이 그렇게 되어 있어서 나온 거기 때문에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+는/JX+상품/NNG+이름/NNG+이/JKS+그렇게/MAG+되/VV+어/EC+있/VX+어서/EC+나온/VV+ETM+거/NNB+기/VCP+ETN+때문/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.백이십매가 육만 구천팔백 원이 맞습니다",
+            "norm_text": "A.백이십매가 육만 구천팔백 원이 맞습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+백/NR+이/NR+십/NR+매/NNBC+가/JKS+육만/NR+구천/NR+팔/NR+백/NR+원/NNBC+이/JKS+맞/VV+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.맞아요 백이십매요",
+            "norm_text": "B.맞아요 제가 사려고 한게 백이십매요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맞/VV+아요/EF+백/NR+이/NR+십/NR+매요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "A.네 육만 구천팔백원 입금하시면은 백이십매로 출고될 예정입니다",
+            "norm_text": "A.네 육만 구천팔백원 입금하시면은 백이십매로 출고될 예정입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+육만/NR+구천/NR+팔/NR+백/NR+원/NNBC+입금/NNG+하/XSV+시/EP+면은/EC+백/NR+이/NR+십/NR+매/NNBC+로/JKB+출고/NNG+될/XSV+ETM+예정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.알겠습니다 전자음성으로 오십매라 그래가지고요",
+            "norm_text": "B.알겠습니다 전자음성으로 오십매라 그래가지고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+전자음/NNG+성/XSN+으로/JKB+오/NR+십/NR+매/VV+라/EC+그래/VV+EC+가지/VX+고요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.백이십매로 잘 구매하셨어요",
+            "norm_text": "A.백이십매로 잘 구매하셨어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+백/NR+이/NR+십/NR+매/NNBC+로/JKB+잘/MAG+구매/NNG+하/XSV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.알겠습니다 그러면 결제하겠습니다 법인 카드로 결제할게요",
+            "norm_text": "B.알겠습니다 그러면 결제하겠습니다 법인 카드로 결제할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그러면/MAJ+결제/NNG+하/XSV+겠/EP+습니다/EF+법인/NNG+카드/NNG+로/JKB+결제/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.알겠습니다 감사합니다",
+            "norm_text": "A.알겠습니다 고객님 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

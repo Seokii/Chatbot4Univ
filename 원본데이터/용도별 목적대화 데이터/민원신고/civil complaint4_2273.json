@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 51199,
+    "name": "c4_20211018_0024_0032_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131237025713/c4_20211018_0024_0032_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131237025713/c4_20211018_0024_0032_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57441,
+      "filename": "c4_20210928_0022_0019_01.txt",
+      "title": "c4_20210928_0022_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 372,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 372,
+        "word_size": 80,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.예 안녕하세요 제가 질문사항이 있어서 전화드렸습니다\nA.네 여쭤보시고 싶은게 있으신가요\nB.제가 이천팔년경에 상조에 가입했었는데요\nA.네 어떤 문제가 있으신건가요\nB.상조에 연락이 되지 않아서 그러는데 어떻게 해야하는지 알 수 있을까요\nA.고객님께서 가입하신 상조가 전화가 안되신다는 말씀인가요\nB.네 전화가 안되네요 방법이 없을까요\nA.할부거래에 관한 법류에 따르면요\nA.선불식할부거래업자로 등록이 안 됐을 시 연락처 확인이 어렵습니다\nB.상조업체 전화번호 확인이 안 된다고요\nA.네 저희 위원회에서 해당 업체 정보를 확인할 수가 없어요\nB.알겠습니다 다른 질문사항 생기면 또 연락드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "norm_text": "B.예 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "norm_text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 이천팔년경에 상조에 가입했었는데요",
+            "norm_text": "B.제가 이천팔년경에 상조에 가입했었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+이/NR+천/NR+팔/NR+년/NNBC+경/XSN+에/JKB+상조/NNG+에/JKB+가입/NNG+했었/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 어떤 문제가 있으신건가요",
+            "norm_text": "A.네 어떤 문제가 있으신건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문제/NNG+가/JKS+있/VA+으신/EP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.상조에 연락이 되지 않아서 그러는데 어떻게 해야하는지 알 수 있을까요",
+            "norm_text": "B.상조에 연락이 되지 않아서 그러는데 어떻게 해야하는지 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+상조/NNG+에/JKB+연락/NNG+이/JKS+되/VV+지/EC+않/VX+아서/EC+그러/VV+는데/EC+어떻게/MAG+해야/VV+EC+하/VV+는지/EC+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.고객님께서 가입하신 상조가 전화가 안되신다는 말씀인가요",
+            "norm_text": "A.고객님께서 가입하신 상조가 전화가 안되신다는 말씀인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+께서/JKS+가입/NNG+하/XSV+신/EP+ETM+상조/NNG+가/JKS+전화/NNG+가/JKS+안/MAG+되/VV+신다는/EP+ETM+말씀/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 전화가 안되네요 방법이 없을까요",
+            "norm_text": "B.네 전화가 안되네요 방법이 없을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+전화/NNG+가/JKS+안/MAG+되/VV+네요/EF+방법/NNG+이/JKS+없/VA+을까요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.할부거래에 관한 법류에 따르면요",
+            "norm_text": "A.할부거래에 관한 법류에 따르면요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+할부/NNG+거래/NNG+에/JKB+관한/VV+ETM+법류/NNG+에/JKB+따르/VV+면/EC+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "A.선불식할부거래업자로 등록이 안 됐을 시 연락처 확인이 어렵습니다",
+            "norm_text": "A.선불식할부거래업자로 등록이 안 됐을 시 연락처 확인이 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+선/VV+ETM+불식/NNG+할/XSV+ETM+부/XPN+거래/NNG+업자/NNG+로/JKB+등록/NNG+이/JKS+안/MAG+됐/VV+EP+을시/EC+연락처/NNG+확인/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.상조업체 전화번호 확인이 안 된다고요",
+            "norm_text": "B.상조업체 전화번호 확인이 안 된다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+상조/NNG+업체/NNG+전화/NNG+번호/NNG+확인/NNG+이/JKS+안/MAG+된다/VV+EC+고요/NNG"
+          },
+          {
+            "id": 12,
+            "text": "A.네 저희 위원회에서 해당 업체 정보를 확인할 수가 없어요",
+            "norm_text": "A.네 저희 위원회에서 해당 업체 정보를 확인할 수가 없어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+위원회/NNG+에서/JKB+해당/NNG+업체/NNG+정보/NNG+를/JKO+확인/NNG+할/XSV+ETM+수/NNB+가/JKS+없/VA+어요/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.알겠습니다 다른 질문사항 생기면 또 연락드릴게요",
+            "norm_text": "B.알겠습니다 다른 질문사항 생기면 또 연락드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+다른/MM+질문/NNG+사항/NNG+생기/VV+면/EC+또/MAG+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

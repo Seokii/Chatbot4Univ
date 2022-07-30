@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 11167,
+    "name": "s3_20210913_0010_0761_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514160548106/s3_20210913_0010_0761_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514160548106/s3_20210913_0010_0761_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11872,
+      "filename": "s3_20210826_0020_0005_01.txt",
+      "title": "s3_20210826_0020_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 584,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 584,
+        "word_size": 134,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.냉장이 시원하지가 않아요 냉동은 얼음 잘 어는데\nA.김치냉장고 말씀 하세요 그냥 냉장고 말씀이세요\nB.아니요 일반 일반냉장고요\nA.양문형이세요 그냥 일반냉장고에요\nB.아니요 그냥 일반냉장고 있잖아요\nA.냉동실이랑 냉장실 두개가 있는데 냉장실만 안 시원하신 거에요\nB.바람이 약하게 되더라고요 오래되서 그런가 이거\nA.온도 조절 같은 거 하셔도 전혀 상관없이 똑같이 그러시는 거구요\nB.예예 온도 조절해도 안 시원해져요\nA.고객님 일단은 그럼 점검을 해보시는 게 좋을 것 같은데 기사 보내드릴까요\nB.그래요 기사 보내주세요\nA.고객님 이거 냉장고 지금 모델명 혹시 확인해 주실 수 있는 거세요\nB.오래되가지고 모델명이 #@번호#에요\nA.확인 감사합니다 접수 좀 해드릴께요\nA.주소는 아까와 동일하게 #@주소# 연락처도 #@전번# 맞으시구요\nA.주소 전화번호 다 맞습니다\nA.방문 시간은 그럼 언제쯤이 좋으세요\nB.오전이든 오후든 편할대로 전화주고 오라 그러세요\nA.열한 시까지 방문해도 괜찮으세요\nB.열한 시까지 오셔도 됩니다\nA.열한 시 출장비 만이천원이 있으실 거구요 고객님\nA.부품이랑 수리비는 제품 기사가 보고 방문 드릴께요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.냉장이 시원하지가 않아요 냉동은 얼음 잘 어는데",
+            "norm_text": "B.냉장이 시원하지가 않아요 냉동은 얼음 잘 어는데",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+냉장/NNG+이/JKS+시원/XR+하/XSA+지/EC+가/JX+않/VX+아요/EF+냉동/NNG+은/JX+얼음/NNG+잘/MAG+어/VV+는데/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.김치냉장고 말씀 하세요 그냥 냉장고 말씀이세요",
+            "norm_text": "A.김치냉장고 말씀 하세요 그냥 냉장고 말씀이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+김치냉장고/NNG+말씀/NNG+하/XSV+세요/EP+EF+그냥/MAG+냉장고/NNG+말씀/NNG+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.아니요 일반 일반냉장고요",
+            "norm_text": "B.아니요 일반 일반냉장고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+일반/NNG+일반/NNG+냉장고/NNG+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.양문형이세요 그냥 일반냉장고에요",
+            "norm_text": "A.양문형이세요 그냥 일반냉장고에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+양문/NNG+형/XSN+이/VCP+세요/EP+EF+그냥/MAG+일반/NNG+냉장고/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "B.아니요 그냥 일반냉장고 있잖아요",
+            "norm_text": "B.아니요 그냥 일반냉장고 있잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+그냥/MAG+일반/NNG+냉장고/NNG+있/VV+잖아요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.냉동실이랑 냉장실 두개가 있는데 냉장실만 안 시원하신 거에요",
+            "norm_text": "A.냉동실이랑 냉장실 두개가 있는데 냉장실만 안 시원하신 거에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+냉동실/NNG+이랑/JKB+냉장실/NNG+두/MM+개/NNBC+가/JKS+있/VA+는데/EC+냉장실/NNG+만/JX+안/MAG+시원/XR+하/XSA+신/EP+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.바람이 약하게 되더라고요 오래되서 그런가 이거",
+            "norm_text": "B.바람이 약하게 되더라고요 오래되서 그런가 이거",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+바람/NNG+이/JKS+약하/VA+게/EC+되/VV+더라고요/EC+오래/MAG+되/VV+서/EC+그런가/VA+EC+이거/NP"
+          },
+          {
+            "id": 9,
+            "text": "A.온도 조절 같은 거 하셔도 전혀 상관없이 똑같이 그러시는 거구요",
+            "norm_text": "A.온도 조절 같은 거 하셔도 전혀 상관없이 똑같이 그러시는 거구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+온도/NNG+조절/NNG+같/VA+은/ETM+거/NNB+하/VV+셔도/EP+EC+전혀/MAG+상관없이/MAG+똑같이/MAG+그러/VV+시/EP+는/ETM+거/NNB+구요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.예예 온도 조절해도 안 시원해져요",
+            "norm_text": "B.예예 온도 조절해도 안 시원해져요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+예/IC+온도/NNG+조절/NNG+해도/XSV+EC+안/MAG+시원/XR+해져요/XSA+EC+VX+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.고객님 일단은 그럼 점검을 해보시는 게 좋을 것 같은데 기사 보내드릴까요",
+            "norm_text": "A.고객님 그럼 점검을 해보시는 게 좋을 것 같은데 기사 보내드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+일단/MAG+은/JX+그럼/MAJ+점검/NNG+을/JKO+해/VV+EC+보/VX+시/EP+는/ETM+게/NNB+JKS+좋/VA+을/ETM+것/NNB+같/VA+은데/EC+기사/NNG+보내/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그래요 기사 보내주세요",
+            "norm_text": "B.그래요 기사 보내주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그래요/VV+EF+기사/NNG+보내/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.고객님 이거 냉장고 지금 모델명 혹시 확인해 주실 수 있는 거세요",
+            "norm_text": "A.고객님 이거 냉장고 지금 모델명 혹시 확인해 주실 수 있는 거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+이거/NP+냉장고/NNG+지금/MAG+모델/NNG+명/XSN+혹시/MAG+확인/NNG+해/XSV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+는/ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.오래되가지고 모델명이 #@번호#에요",
+            "norm_text": "B.오래되가지고 모델명이 #@번호#에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+오래/VA+되/EC+가지/VX+고/EC+모델/NNG+명이/NNG+#/SY+@/SY+번호/NNG+#/SY+에/JKB+요/JX"
+          },
+          {
+            "id": 15,
+            "text": "A.확인 감사합니다 접수 좀 해드릴께요",
+            "norm_text": "A.확인 감사합니다 접수 좀 해드릴께요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+합니다/XSV+EF+접수/NNG+좀/MAG+해/VV+EC+드릴께요/VX+EF"
+          },
+          {
+            "id": 16,
+            "text": "A.주소는 아까와 동일하게 #@주소# 연락처도 #@전번# 맞으시구요",
+            "norm_text": "A.주소는 아까와 동일하게 #@주소# 연락처도 #@전번# 맞으시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주소/NNG+는/JX+아까/NNG+와/JC+동일/NNG+하/XSV+게/EC+#/SY+@/SY+주소/NNG+#/SY+연락처/NNG+도/JX+#/SY+@/SY+전번/NNG+#/SY+맞/VV+으시/EP+구요/EF"
+          },
+          {
+            "id": 17,
+            "text": "A.주소 전화번호 다 맞습니다",
+            "norm_text": "A.주소 전화번호 다 맞습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주소/NNG+전화/NNG+번호/NNG+다/MAG+맞/VV+습니다/EF"
+          },
+          {
+            "id": 18,
+            "text": "A.방문 시간은 그럼 언제쯤이 좋으세요",
+            "norm_text": "A.방문 시간은 그럼 언제쯤이 좋으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+방문/NNG+시간/NNG+은/JX+그럼/MAJ+언제/NP+쯤/XSN+이/JKS+좋/VA+으세요/EP+EP+EC"
+          },
+          {
+            "id": 19,
+            "text": "B.오전이든 오후든 편할대로 전화주고 오라 그러세요",
+            "norm_text": "B.오전이든 오후든 편할대로 전화주고 오라 그러세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+오전/NNG+이/VCP+든/EC+오후/NNG+든/VCP+EC+편할/VA+ETM+대로/NNB+전화/NNG+주/VV+고/EC+오/VV+라/EC+그러/VV+세요/EP+EF"
+          },
+          {
+            "id": 20,
+            "text": "A.열한 시까지 방문해도 괜찮으세요",
+            "norm_text": "A.열한 시까지 방문해도 괜찮으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+열/NR+한/MM+시/NNBC+까지/JX+방문/NNG+해도/XSV+EC+괜찮/VA+으세요/EP+EP+EC"
+          },
+          {
+            "id": 21,
+            "text": "B.열한 시까지 오셔도 됩니다",
+            "norm_text": "B.열한 시까지 오셔도 됩니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+열/NR+한/MM+시/NNBC+까지/JX+오/VV+셔도/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 22,
+            "text": "A.열한 시 출장비 만이천원이 있으실 거구요 고객님",
+            "norm_text": "A.열한 시 출장비 만이천원이 있으실 거구요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+열/NR+한/MM+시/NNBC+출장비/NNG+만/JX+이/JKS+천/NR+원/NNBC+이/JKS+있/VA+으실/EP+ETM+거/NNB+구요/VCP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 23,
+            "text": "A.부품이랑 수리비는 제품 기사가 보고 방문 드릴께요 감사합니다",
+            "norm_text": "A.부품이랑 수리비는 제품 기사가 보고 방문 드릴께요 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+부품/NNG+이랑/JKB+수리비/NNG+는/JX+제품/NNG+기사/NNG+가/JKS+보/VV+고/EC+방문/NNG+드릴께요/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

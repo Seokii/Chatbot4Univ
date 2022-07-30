@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 19181,
+    "name": "s3_20210916_0010_1352_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420070450/s3_20210916_0010_1352_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420070450/s3_20210916_0010_1352_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12183,
+      "filename": "s3_20210830_0002_0001_01.txt",
+      "title": "s3_20210830_0002_0001_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 251,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 251,
+        "word_size": 58,
+        "text": "A.네 상담사 #@이름#입니다\nA.기다려주셔서 감사합니다 고객님\nB.네 확인이 됐나요\nA.말씀하신 실리콘 케이스는 기본 옵션으로 확인이 됩니다\nB.그렇죠 상품 페이지를 그렇게 써놔서 헷갈렸네요\nB.그럼 추가 구매하는 케이스는 뭐예요\nA.그건 실리콘이 아닌 하드 케이스를 추가하는 옵션입니다 고객님\nB.그래요 뭐 그것까진 필요없으니까 안 사도 돼요\nA.다른 문의 사항은 없으십니까\nB.네 다른 건 없어요\nB.전화 끊으면 되죠\nA.고객님 먼저 종료해주시면 됩니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 상담사 #@이름#입니다",
+            "norm_text": "A.네 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.기다려주셔서 감사합니다 고객님",
+            "norm_text": "A.기다려주셔서 감사합니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 3,
+            "text": "B.네 확인이 됐나요",
+            "norm_text": "B.네 확인이 됐나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+이/JKS+됐/VV+EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.말씀하신 실리콘 케이스는 기본 옵션으로 확인이 됩니다",
+            "norm_text": "A.말씀하신 실리콘 케이스는 기본 옵션으로 확인이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+말씀/NNG+하/XSV+신/EP+ETM+실리콘/NNG+케이스/NNG+는/JX+기본/NNG+옵션/NNG+으로/JKB+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.그렇죠 상품 페이지를 그렇게 써놔서 헷갈렸네요",
+            "norm_text": "B.그렇죠 상품 페이지를 그렇게 써놔서 헷갈렸네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+죠/EF+상품/NNG+페이지/NNG+를/JKO+그렇게/MAG+써/VV+EC+놔서/VX+EC+헷갈렸/VV+EP+네요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 추가 구매하는 케이스는 뭐예요",
+            "norm_text": "B.그럼 추가 구매하는 케이스는 뭐예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+추가/NNG+구매/NNG+하/XSV+는/ETM+케이스/NNG+는/JX+뭐/NP+예요/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.그건 실리콘이 아닌 하드 케이스를 추가하는 옵션입니다 고객님",
+            "norm_text": "A.그건 실리콘이 아닌 하드 케이스를 추가하는 옵션입니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그건/NP+JX+실리콘/NNG+이/JKC+아닌/VCN+ETM+하드/NNG+케이스/NNG+를/JKO+추가/NNG+하/XSV+는/ETM+옵션/NNG+입니다/VCP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.그래요 뭐 그것까진 필요없으니까 안 사도 돼요",
+            "norm_text": "B.그래요 뭐 그것까진 필요없으니까 안 사도 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "B/SL+그래요/VV+EF+뭐/IC+그것/NP+까진/JX+VCP+ETM+필요/NNG+없/VA+으니까/EC+안사/NNG+도/JX+돼요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.다른 문의 사항은 없으십니까",
+            "norm_text": "A.다른 문의 사항은 없으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 다른 건 없어요",
+            "norm_text": "B.네 다른 건 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "B/SL+네/IC+다른/MM+건/NNB+JX+없/VA+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.전화 끊으면 되죠",
+            "norm_text": "B.전화 끊으면 되죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+전화/NNG+끊/VV+으면/EC+되/VV+죠/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.고객님 먼저 종료해주시면 됩니다 감사합니다",
+            "norm_text": "A.고객님 먼저 종료해주시면 됩니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+먼저/MAG+종료/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

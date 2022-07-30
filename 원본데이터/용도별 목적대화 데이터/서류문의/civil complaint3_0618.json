@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 40055,
+    "name": "c3_20211012_0010_1775_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211008131046056075/c3_20211012_0010_1775_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211008131046056075/c3_20211012_0010_1775_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 54849,
+      "filename": "c3_20210929_0005_0009_01.txt",
+      "title": "c3_20210929_0005_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 295,
+      "annotations": {
+        "subject": "서류 문의",
+        "speaker_type": "1:1",
+        "size": 295,
+        "word_size": 66,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.#@소속#에서 전입신고 하면 돈을 준다던데요 누가 받을 수 있나 해서요\nA.선생님 혹시 #@소속# 인구증가 시책 전입지원금 말씀이십니까\nB.그랬던 것 같아요 아무튼 지원금 준다 그래서요\nA.예 선생님 우리 시로 전입 신고 하신 후 육 개월 이상 거주하셨습니까\nB.네 올해 초에 왔으니까요\nA.네 그러면 대상이 맞으십니다\nB.알겠어요 그러면 신청해야겠네요\nA.네 수월한 업무 처리 되시기 바라겠습니다\nB.예 수고하세요 상담사님\nA.감사합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속#에서 전입신고 하면 돈을 준다던데요 누가 받을 수 있나 해서요",
+            "norm_text": "B.#@소속#에서 전입신고 하면 돈을 준다던데 누가 받을 수 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+전입/NNG+신고/NNG+하/XSV+면/EC+돈/NNG+을/JKO+준다던데/VV+EC+누가/NP+JKS+받/VV+을/ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.선생님 혹시 #@소속# 인구증가 시책 전입지원금 말씀이십니까",
+            "norm_text": "A.선생님 혹시 #@소속# 인구증가 시책 전입지원금 말씀이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+혹시/MAG+#/SY+@/SY+소속/NNG+#/SY+인구/NNG+증가/NNG+시책/NNG+전입/NNG+지원금/NNG+말씀/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그랬던 것 같아요 아무튼 지원금 준다 그래서요",
+            "norm_text": "B.그랬던 것 같아요 아무튼 지원금 준다 그래서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그랬/VV+EP+던/ETM+것/NNB+같/VA+아요/EF+아무튼지/MAG+원금/NNG+준다/VV+EF+그래서/MAJ+요/MM"
+          },
+          {
+            "id": 5,
+            "text": "A.예 선생님 우리 시로 전입 신고 하신 후 육 개월 이상 거주하셨습니까",
+            "norm_text": "A.예 우리 시로 전입 신고 하신 후 육 개월 이상 거주하셨습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+우리/NP+시/NNG+로/JKB+전입/NNG+신고/NNG+하/XSV+신/EP+ETM+후/NNG+육/NR+개월/NNBC+이상/NNG+거주/NNG+하/XSV+셨/EP+EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 올해 초에 왔으니까요",
+            "norm_text": "B.네 올해 초에 왔으니까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+올해/NNG+초/NNB+에/JKB+왔/VV+EP+으니까요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 그러면 대상이 맞으십니다",
+            "norm_text": "A.네 그러면 대상이 맞으십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그러면/MAJ+대상/NNG+이/JKS+맞/VV+으십니다/EP+EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.알겠어요 그러면 신청해야겠네요",
+            "norm_text": "B.알겠어요 그러면 신청해야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+겠/EP+어요/EF+그러면/MAJ+신청/NNG+해야/XSV+EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 수월한 업무 처리 되시기 바라겠습니다",
+            "norm_text": "A.네 수월한 업무 처리 되시기 바라겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "A/SL+네/IC+수월/XR+한/XSA+ETM+업무/NNG+처리/NNG+되/XSV+시/EP+기/ETN+바라/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.예 수고하세요 상담사님",
+            "norm_text": "B.예 수고하세요 상담사님",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+하/XSV+세요/EP+EF+상담/NNG+사/NNG+님/XSN"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

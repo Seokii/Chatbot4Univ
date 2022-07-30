@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 150866,
+    "name": "t1_20211117_0002_0365_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720009851/t1_20211117_0002_0365_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720009851/t1_20211117_0002_0365_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148667,
+      "filename": "t1_0074_0083_02.txt",
+      "title": "t1_0074_0083_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 326,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 326,
+        "word_size": 74,
+        "text": "A. 행복 여행을 책임지겠습니다 #@소속# 고객센터 상담원 #@이름#입니다\nB. 홍천 힐하우스에서 글램핑이 가능하다고 들어서요\nA. 네 맞습니다 해당 펜션에서 글램핑 가능하세요\nB. 그러면 혹시 가격이 어떻게 되는지 알 수 있을까요\nA. 죄송합니다 전화문의로만 예약 가능하셔서 구체적 금액은 저희쪽에도 기재되어있지 않네요\nB. 아 그러면 직접 전화해보는 수밖에 없는걸까요\nA. 그렇습니다 번호 안내 드릴까요\nB. 그래야겠네요 번호 알려주실래요\nA. #@전번# 여기로 전화하셔서 글램핑 문의하시면 됩니다\nB. 네 전화해볼게요 수고하세요\nA. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 행복 여행을 책임지겠습니다 #@소속# 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A. 행복 여행을 책임지겠습니다 #@소속# 고객센터 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+여행/NNG+을/JKO+책임지/VV+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 홍천 힐하우스에서 글램핑이 가능하다고 들어서요",
+            "norm_text": "B. 홍천 힐하우스에서 글램핑이 가능하다고 들어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+홍천/NNP+힐/NNP+하우스/NNP+에서/JKB+글램/NNP+핑/NNG+이/JKS+가능/NNG+하/XSV+다고/EC+들/VV+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 맞습니다 해당 펜션에서 글램핑 가능하세요",
+            "norm_text": "A. 네 맞습니다 해당 펜션에서 글램핑 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+해당/NNG+펜션/NNG+에서/JKB+글램/NNP+핑/NNP+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 그러면 혹시 가격이 어떻게 되는지 알 수 있을까요",
+            "norm_text": "B. 그러면 혹시 가격이 어떻게 되는지 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+혹시/MAG+가격/NNG+이/JKS+어떻게/MAG+되/VV+는지/EC+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 죄송합니다 전화문의로만 예약 가능하셔서 구체적 금액은 저희쪽에도 기재되어있지 않네요",
+            "norm_text": "A. 죄송합니다 구체적 금액은 저희쪽에도 기재되어있지 않네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+구체/NNG+적/XSN+금액/NNG+은/JX+저희/NP+쪽/NNB+에/JKB+도/JX+기재/NNG+되/XSV+어/EC+있/VX+지/EC+않/VX+네요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 아 그러면 직접 전화해보는 수밖에 없는걸까요",
+            "norm_text": "B. 아 그러면 직접 전화해보는 수밖에 없는걸까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그러면/MAJ+직접/MAG+전화/NNG+해/XSV+EC+보/VX+는/ETM+수/NNB+밖에/JX+없/VA+는/ETM+걸까요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 그렇습니다 번호 안내 드릴까요",
+            "norm_text": "A. 그렇습니다 번호 안내 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그렇/VA+습니다/EF+번호/NNG+안/MAG+내/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 그래야겠네요 번호 알려주실래요",
+            "norm_text": "B. 그래야겠네요 번호 알려주실래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그래야/VA+EC+VX+겠/EP+네요/EF+번호/NNG+알려/VV+EC+주/VX+실래요/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A. #@전번# 여기로 전화하셔서 글램핑 문의하시면 됩니다",
+            "norm_text": "A. #@전번# 여기로 전화하셔서 글램핑 문의하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+여기/NP+로/JKB+전화/NNG+하/XSV+셔서/EP+EC+글/NNG+램/NNG+핑/NNG+문의/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 네 전화해볼게요 수고하세요",
+            "norm_text": "B. 네 전화해볼게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+전화/NNG+해/XSV+EC+볼게요/VX+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감기/NNG+조심/NNG+하/XSV+시/EP+고/EC+건강/NNG+하/XSV+세요/EP+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 58791,
+    "name": "c1_20211020_0002_0181_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130755000976/c1_20211020_0002_0181_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130755000976/c1_20211020_0002_0181_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50833,
+      "filename": "c1_20210907_0022_0003_01.txt",
+      "title": "c1_20210907_0022_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 443,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 443,
+        "word_size": 95,
+        "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다\nA.예 여쭤보시고 싶은게 어떤 사항이신가요\nB.국립해양조사원 본원 외 지방사무소를 알 수 있을까요\nA.본원 외의 지방 사무소 말씀하시는 건가요\nB.예 세군데 지방사무소가 있다고 알고 있어서요\nA.맞습니다 남해 해양조사사무소 동해 해양조사사무소 서해 해양조사사무소이렇게 세 곳입니다\nB.감사합니다 혹시 세 지방 사무소 연락처도 알려주실 수 있을까요\nA.예 알겠습니다 우선 남해 해양 조사 사무소 연락처는 #@전번#입니다\nB.감사합니다 동해 해양 조사 사무소 연락처도 알려주실 수 있나요\nA.네 동해 해양 조사 사무소 연락처는 #@전번#입니다\nA.서해 해양 조사 사무소 연락처는 #@전번#입니다 고객님\nB.그렇군요 알려주셔서 감사합니다 다른 문의사항 있으면 전화드릴게요\nA.네 감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "norm_text": "B.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 여쭤보시고 싶은게 어떤 사항이신가요",
+            "norm_text": "A.예 여쭤보시고 싶은게 어떤 사항이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+어떤/MM+사항/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.국립해양조사원 본원 외 지방사무소를 알 수 있을까요",
+            "norm_text": "B.국립해양조사원 본원 외 지방사무소를 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+국립/NNG+해/XSV+EC+양조/NNG+사원본/NNG+원외/NNG+지방/NNG+사무소/NNG+를/JKO+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.본원 외의 지방 사무소 말씀하시는 건가요",
+            "norm_text": "A.본원 외의 지방 사무소 말씀하시는 건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+본/VV+ETM+원외/NNG+의/JKG+지방/NNG+사무소/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예 세군데 지방사무소가 있다고 알고 있어서요",
+            "norm_text": "B.예 세군데 지방사무소가 있다고 알고 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+세/MM+군데/NNBC+지방/NNG+사무소/NNG+가/JKS+있/VA+다고/EC+알/VV+고/EC+있/VX+어서요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.맞습니다 남해 해양조사사무소 동해 해양조사사무소 서해 해양조사사무소이렇게 세 곳입니다",
+            "norm_text": "A.맞습니다 남해 동해 서해 이렇게 세 곳입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+맞/VV+습니다/EF+남해/NNP+동해/NNP+서해/NNP+이렇게/MAG+세/MM+곳/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.감사합니다 혹시 세 지방 사무소 연락처도 알려주실 수 있을까요",
+            "norm_text": "B.감사합니다 혹시 세 지방 사무소 연락처도 알려주실 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+혹시/MAG+세/MM+지방/NNG+사무소/NNG+연락처/NNG+도/JX+알려/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.예 알겠습니다 우선 남해 해양 조사 사무소 연락처는 #@전번#입니다",
+            "norm_text": "A.예 알겠습니다 우선 남해 해양 조사 사무소 연락처는 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+알/VV+겠/EP+습니다/EF+우선/MAG+남/NNG+해/XSV+EC+해양/NNG+조사/NNG+사무소/NNG+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.감사합니다 동해 해양 조사 사무소 연락처도 알려주실 수 있나요",
+            "norm_text": "B.감사합니다 동해 해양 조사 사무소 연락처도 알려주실 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+동해/NNP+해양/NNG+조사/NNG+사무소/NNG+연락처/NNG+도/JX+알려/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 동해 해양 조사 사무소 연락처는 #@전번#입니다",
+            "norm_text": "A.네 동해 해양 조사 사무소 연락처는 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+동해/NNP+해양/NNG+조사/NNG+사무소/NNG+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.서해 해양 조사 사무소 연락처는 #@전번#입니다 고객님",
+            "norm_text": "A.서해 해양 조사 사무소 연락처는 #@전번#입니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+서해/NNP+해양/NNG+조사/NNG+사무소/NNG+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 13,
+            "text": "B.그렇군요 알려주셔서 감사합니다 다른 문의사항 있으면 전화드릴게요",
+            "norm_text": "B.그렇군요 알려주셔서 감사합니다 다른 문의사항 있으면 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으면/EC+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

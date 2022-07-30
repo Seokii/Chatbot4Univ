@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 136528,
+    "name": "t2_20211112_0002_0051_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135727072558/t2_20211112_0002_0051_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135727072558/t2_20211112_0002_0051_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 149636,
+      "filename": "t2_0071_0012_02.txt",
+      "title": "t2_0071_0012_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 378,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 378,
+        "word_size": 80,
+        "text": "A.정성을 다하겠습니다 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 단체로 태백시 여행가려고 하는데요\nB.혹시 단체 버스 대절 예약 가능할까요\nA.네 고객님 가능하시구요 날짜랑 인원 말씀해주시겠어요\nB.11월 30일 1박2일 이구요 인원은 총 22명이예요\nA.22명이시면 25인승 전세버스로 대절 가능하시구요\nA.1박2일 비용은 왕복 50만원입니다\nB.네 단체인데 할인되는 건 없나요\nA.10프로 단체 할인 적용되셔서 45만원에 이용 가능하세요\nB.아 네 그럼 예약은 어떻게 해야할까요\nA.예약은 버스 대절 업체로 직접 해주시면 되구요\nA.업체명은 태백행복전세버스구요 전화번호는 #@전번# 입니다\nB.네 감사합니다 전화해볼게요\nA.네 자세한 내용 확인하시구요 오늘 하루도 마무리 잘하시기 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.정성을 다하겠습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.정성을 다하겠습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+정성/NNG+을/JKO+다/MAG+하/VV+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 단체로 태백시 여행가려고 하는데요",
+            "norm_text": "B.안녕하세요 단체로 태백시 여행가려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+단체/NNG+로/JKB+태백시/NNP+여행/NNG+가/VV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.혹시 단체 버스 대절 예약 가능할까요",
+            "norm_text": "B.혹시 단체 버스 대절 예약 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+단체/NNG+버스/NNG+대절/NNG+예약/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 고객님 가능하시구요 날짜랑 인원 말씀해주시겠어요",
+            "norm_text": "A.네 고객님 가능하시구요 날짜랑 인원 말씀해주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+가능/NNG+하/XSV+시/EP+구요/EF+날짜/NNG+랑/JKB+인원/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.11월 30일 1박2일 이구요 인원은 총 22명이예요",
+            "norm_text": "B.11월 30일 1박2일 이구요 인원은 총 22명이예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+11/SN+월/NNBC+30/SN+일/NNBC+1/SN+박/NNBC+2/SN+일/NNBC+이/VCP+구요/EF+인원/NNG+은/JX+총/MM+22/SN+명/NNBC+이/VCP+예요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.22명이시면 25인승 전세버스로 대절 가능하시구요",
+            "norm_text": "A.22명이시면 25인승 전세버스로 대절 가능하시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+22/SN+명/NNBC+이/VCP+시/EP+면/EC+25/SN+인승/NNG+전세/NNG+버스/NNG+로/JKB+대절/NNG+가능/NNG+하/XSV+시/EP+구요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.1박2일 비용은 왕복 50만원입니다",
+            "norm_text": "A.1박2일 비용은 왕복 50만원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+1/SN+박/NNBC+2/SN+일/NNBC+비용/NNG+은/JX+왕복/NNG+50/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 단체인데 할인되는 건 없나요",
+            "norm_text": "B.네 단체인데 할인되는 건 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+단체/NNG+인데/VCP+EC+할인/NNG+되/XSV+는/ETM+건/NNB+JX+없/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.10프로 단체 할인 적용되셔서 45만원에 이용 가능하세요",
+            "norm_text": "A.10프로 단체 할인 적용되셔서 45만원에 이용 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+10/SN+프로/NNG+단체/NNG+할인/NNG+적용/NNG+되/XSV+셔서/EP+EC+45/SN+만/NR+원/NNBC+에/JKB+이용/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.아 네 그럼 예약은 어떻게 해야할까요",
+            "norm_text": "B.아 네 그럼 예약은 어떻게 해야할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+네/IC+그럼/MAJ+예약/NNG+은/JX+어떻게/MAG+해야/VV+EC+할까요/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.예약은 버스 대절 업체로 직접 해주시면 되구요",
+            "norm_text": "A.예약은 버스 대절 업체로 직접 해주시면 되구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예약/NNG+은/JX+버스/NNG+대절/NNG+업체/NNG+로/JKB+직접/MAG+해/VV+EC+주/VX+시/EP+면/EC+되/VV+구요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.업체명은 태백행복전세버스구요 전화번호는 #@전번# 입니다",
+            "norm_text": "A.업체명은 태백행복전세버스구요 전화번호는 #@전번# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+업체/NNG+명/XSN+은/JX+태백/NNP+행복/NNG+전세/NNG+버스/NNG+구요/VCP+EF+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.네 감사합니다 전화해볼게요",
+            "norm_text": "B.네 감사합니다 전화해볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+전화/NNG+해/XSV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.네 자세한 내용 확인하시구요 오늘 하루도 마무리 잘하시기 바랍니다",
+            "norm_text": "A.네 자세한 내용 확인하시구요 오늘 하루도 마무리 잘하시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+자세/XR+한/XSA+ETM+내용/NNG+확인/NNG+하/XSV+시/EP+구요/EF+오늘/MAG+하루/NNG+도/JX+마무리/NNG+잘/MAG+하/VV+시/EP+기/ETN+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

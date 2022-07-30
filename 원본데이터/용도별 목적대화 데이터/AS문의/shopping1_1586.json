@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 17683,
+    "name": "s1_20210915_0001_0897_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151216073414/s1_20210915_0001_0897_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151216073414/s1_20210915_0001_0897_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7462,
+      "filename": "s1_20210823_0020_0024_01.txt",
+      "title": "s1_20210823_0020_0024_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 352,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 352,
+        "word_size": 81,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.여기 #@주소#에 있는 #@주소#인데요\nA.어떤 문의사항이십니까 고객님\nB.저번에 에이에스 접수한 게 있는데 취소 좀 해주세요\nA.접수하실 때 등록된 번호가 몇 번이십니까\nB.등록번호는 #@번호#이요\nA.주소는 어떻게 되십니까\nB.주소는 경산시 #@주소#이요\nA.오늘 열 시 사십 분에 티비 점검 예약하신 거 맞죠 고객님\nB.오늘 열 시 사십 분에 점검 맞습니다\nA.그럼 기사님 방문 안 하셔도 된다는 말씀이시죠\nB.그냥 취소 좀 해주세요\nA.취소해 드렸습니다 다른 문의사항은 없으십니까\nB.아뇨 취소만 하려고 전화했어요\nA.알겠습니다 다른 문의사항이 있으시면 언제든 전화주세요\nA.고객님 추운 날씨 건강 유의하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여기 #@주소#에 있는 #@주소#인데요",
+            "norm_text": "B.여기 #@주소#에 있는 #@주소#인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+#/SY+@/SY+주소/NNG+#/SY+에/JKB+있/VV+는/ETM+#/SY+@/SY+주소/NNG+#/SY+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.어떤 문의사항이십니까 고객님",
+            "norm_text": "A.어떤 문의사항이십니까 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+문/NNG+의/JKG+사항/NNG+이/VCP+십니까/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.저번에 에이에스 접수한 게 있는데 취소 좀 해주세요",
+            "norm_text": "B.저번에 에이에스 접수한 게 있는데 취소 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+저번/NNG+에/JKB+에이에스/NNG+접수/NNG+한/XSA+ETM+게/NNB+JKS+있/VA+는데/EC+취소/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.접수하실 때 등록된 번호가 몇 번이십니까",
+            "norm_text": "A.접수하실 때 등록된 번호가 몇 번이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+접수/NNG+하/XSV+실/EP+ETM+때/NNG+등록/NNG+된/XSV+ETM+번호/NNG+가/JKS+몇/MM+번/NNBC+이/NR+십/NR+니까/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.등록번호는 #@번호#이요",
+            "norm_text": "B.등록번호는 #@번호#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+등록번호/NNP+는/JX+#/SY+@/SY+번호/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.주소는 어떻게 되십니까",
+            "norm_text": "A.주소는 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주소/NNG+는/JX+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.주소는 경산시 #@주소#이요",
+            "norm_text": "B.주소는 경산시 #@주소#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+주소/NNG+는/JX+경산시/NNP+#/SY+@/SY+주소/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.오늘 열 시 사십 분에 티비 점검 예약하신 거 맞죠 고객님",
+            "norm_text": "A.오늘 열 시 사십 분에 티비 점검 예약하신 거 맞죠 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+오늘/MAG+열/NR+시/NNBC+사/NR+십/NR+분/NNBC+에/JKB+티비/NNG+점검/NNG+예약/NNG+하/XSV+신/EP+ETM+거/NNB+맞/VV+죠/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.오늘 열 시 사십 분에 점검 맞습니다",
+            "norm_text": "B.오늘 열 시 사십 분에 점검 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+오늘/MAG+열/NR+시/NNBC+사/NR+십/NR+분/NNBC+에/JKB+점검/NNG+맞/VV+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.그럼 기사님 방문 안 하셔도 된다는 말씀이시죠",
+            "norm_text": "A.그럼 기사님 방문 안 하셔도 된다는 말씀이시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+기사/NNG+님/XSN+방문/NNG+안/MAG+하/VV+셔도/EP+EC+된다는/VV+ETM+말씀/NNG+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.그냥 취소 좀 해주세요",
+            "norm_text": "B.그냥 취소 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그냥/MAG+취소/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.취소해 드렸습니다 다른 문의사항은 없으십니까",
+            "norm_text": "A.취소해 드렸습니다 다른 문의사항은 없으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+취소/NNG+해/XSV+EC+드렸/VX+EP+습니다/EF+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.아뇨 취소만 하려고 전화했어요",
+            "norm_text": "B.아뇨 취소만 하려고 전화했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아뇨/IC+취소/NNG+만/JX+하/VV+려고/EC+전화/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.알겠습니다 다른 문의사항이 있으시면 언제든 전화주세요",
+            "norm_text": "A.알겠습니다 다른 문의사항이 있으시면 언제든 전화주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+다른/MM+문/NNG+의/JKG+사항/NNG+이/JKS+있/VA+으시/EP+면/EC+언제/NP+든/VCP+EC+전화/NNG+주세요/NNP"
+          },
+          {
+            "id": 16,
+            "text": "A.고객님 추운 날씨 건강 유의하세요",
+            "norm_text": "A.고객님 추운 날씨 건강 유의하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+추운/VA+ETM+날씨/NNG+건강/NNG+유의/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "dataset": {
+    "identifier": 94491,
+    "name": "s3_20211102_0005_0482_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt202111011108320105104/s3_20211102_0005_0482_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt202111011108320105104/s3_20211102_0005_0482_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119673,
+      "filename": "s3_20211027_0028_0028_01.txt",
+      "title": "s3_20211027_0028_0028_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 158,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 158,
+        "word_size": 31,
+        "text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다\nB.무통장 입금 한도 초과가 떠서요 해지가 가능한가요\nA.네 가능합니다 고객님 성함과 번호 부탁드립니다\nB.이름은 #@이름#이고 #@전번#이 전화번호예요\nA.#@이름# 고객님 무통장입금 한도 초과 해지해 드렸습니다\nB.네 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+의상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.무통장 입금 한도 초과가 떠서요 해지가 가능한가요",
+            "norm_text": "B.무통장 입금 한도 초과가 떠서요 해지가 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+무/XPN+통장/NNG+입금/NNG+한도/NNG+초과/NNG+가/JKS+떠서/VV+EC+요해지/NNG+가/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.네 가능합니다 고객님 성함과 번호 부탁드립니다",
+            "norm_text": "A.네 가능합니다 고객님 성함과 번호 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+가능/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+성함/NNG+과/JC+번호/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.이름은 #@이름#이고 #@전번#이 전화번호예요",
+            "norm_text": "B.이름은 #@이름#이고 #@전번#이 전화번호예요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+전번/NNG+#/SY+이/JKS+전화/NNG+번호/NNG+예요/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.#@이름# 고객님 무통장입금 한도 초과 해지해 드렸습니다",
+            "norm_text": "A.#@이름# 고객님 무통장입금 한도 초과 해지해 드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+무/XPN+통장/NNG+입금/NNG+한도/NNG+초과/NNG+해지/NNG+해/XSV+EC+드렸/VX+EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

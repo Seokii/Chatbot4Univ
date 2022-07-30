@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 10697,
+    "name": "s3_20210913_0010_0650_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417038451/s3_20210913_0010_0650_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417038451/s3_20210913_0010_0650_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11993,
+      "filename": "s3_20210827_0009_0005_01.txt",
+      "title": "s3_20210827_0009_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 513,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 513,
+        "word_size": 112,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.#@이름# 있죠 백장 포장이 어떤 거예요\nA.육십매 있으시고요 백이십매 이렇게 있습니다\nB.그러믄 육십 화이트 육십 블랙 그런 건가 아니면 어떻게 된 거예요\nA.그냥 화이트로만 가능하시고요 컬러를 섞어서는 어려우세요\nA.거기다가 열매 플러스 되시고요\nB.제주도는 택배비가 별도로 들어가죠\nA.제주도는 별도로 들어갈 순 있으세요 도선료 같은 거요\nB.네 그럼 주문 진행해 주세요\nA.옵션을 어떻게 해드리면 될까요\nB.화이트로 해서 소형 육십 개 대형 육십 개요\nA.네 성함이랑 연락처 주소 말씀 부탁드립니다\nB.#@이름#구요 번호가 #@전번#이요 주소는 제주도 서귀포시 #@주소#요\nA.은행 어디로 해드릴까요\nB.#@소속#으로 하구요 제 며느리 번호로 현금 영수증 해주세요\nA.#@소속#으로 해드렸고 며느리분 번호만 불러주시면 됩니다\nB.며느리 번호가 #@전번#입니다\nA.네 문자로 계좌랑 넣어드릴테니까요 이틀 이내로 입금 부탁드리겠습니다\nB.이틀 안에 알았어요 수고하세요\nA.감사합니다 상담사 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@이름# 있죠 백장 포장이 어떤 거예요",
+            "norm_text": "B.#@이름# 있죠 백장 포장이 어떤 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+있/VA+죠/EF+백장/NNG+포장/NNG+이/JKS+어떤/MM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.육십매 있으시고요 백이십매 이렇게 있습니다",
+            "norm_text": "A.육십매 있으시고요 백이십매 이렇게 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+육/NR+십/NR+매/NNBC+있/VA+으시/EP+고요/EF+백/NR+이/NR+십/NR+매/NNBC+이렇/VA+게/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그러믄 육십 화이트 육십 블랙 그런 건가 아니면 어떻게 된 거예요",
+            "norm_text": "B.그러믄 육십 화이트 육십 블랙 그런 건가 아니면 어떻게 된 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러믄/MAJ+육/NR+십/NR+화이트/NNP+육/NR+십/NR+블랙/NNG+그런/MM+건가/NNB+VCP+EC+아니/VCN+면/EC+어떻게/MAG+된/VV+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.그냥 화이트로만 가능하시고요 컬러를 섞어서는 어려우세요",
+            "norm_text": "A.그냥 화이트로만 가능하시고요 컬러를 섞어서는 어려우세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그냥/MAG+화이트로/NNP+만/JX+가능/NNG+하/XSV+시/EP+고요/EC+컬러/NNG+를/JKO+섞/VV+어서/EC+는/JX+어려우세요/VA+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.거기다가 열매 플러스 되시고요",
+            "norm_text": "A.거기다가 열매 플러스 되시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+거기/NP+다가/JX+열매/NNG+플러스/NNG+되/XSV+시/EP+고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.제주도는 택배비가 별도로 들어가죠",
+            "norm_text": "B.제주도는 택배비가 별도로 들어가죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+제주도/NNP+는/JX+택배/NNG+비/NNG+가/JKS+별도/NNG+로/JKB+들어가/VV+죠/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.제주도는 별도로 들어갈 순 있으세요 도선료 같은 거요",
+            "norm_text": "A.제주도는 별도로 들어갈 순 있으세요 도선료 같은 거요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+제주도/NNP+는/JX+별도/NNG+로/JKB+들/VV+어/EC+갈순/VX+ETM+NNB+JX+있/VX+으세요/EP+EP+EC+도선료/NNG+같/VA+은/ETM+거/NNB+요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 그럼 주문 진행해 주세요",
+            "norm_text": "B.네 그럼 주문 진행해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+주문/NNG+진행/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.옵션을 어떻게 해드리면 될까요",
+            "norm_text": "A.옵션을 어떻게 해드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+옵션/NNG+을/JKO+어떻게/MAG+해/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.화이트로 해서 소형 육십 개 대형 육십 개요",
+            "norm_text": "B.화이트로 해서 소형 육십 개 대형 육십 개요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+화이트/NNP+로/JKB+해서/VV+EC+소형/NNG+육/NR+십/NR+개/NNBC+대형/NNG+육/NR+십/NR+개/NNBC+요/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 성함이랑 연락처 주소 말씀 부탁드립니다",
+            "norm_text": "A.네 성함이랑 연락처 주소 말씀 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+성함/NNG+이랑/JKB+연락처/NNG+주소/NNG+말씀/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.#@이름#구요 번호가 #@전번#이요 주소는 제주도 서귀포시 #@주소#요",
+            "norm_text": "B.#@이름#구요 #@전번#이요 주소는 제주도 서귀포시 #@주소#요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+구요/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC+주소/NNG+는/JX+제주도/NNP+서귀포시/NNP+#/SY+@/SY+주소/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.은행 어디로 해드릴까요",
+            "norm_text": "A.은행 어디로 해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+은행/NNG+어디/NP+로/JKB+해드릴까요/VV+EC+VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.#@소속#으로 하구요 제 며느리 번호로 현금 영수증 해주세요",
+            "norm_text": "B.#@소속#으로 하구요 제 며느리 번호로 현금 영수증 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+하/VV+구요/EF+제/NP+JKG+며느리/NNG+번호/NNG+로/JKB+현금영수증/NNP+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 16,
+            "text": "A.#@소속#으로 해드렸고 며느리분 번호만 불러주시면 됩니다",
+            "norm_text": "A.#@소속#으로 해드렸고 며느리분 번호만 불러주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+해/VV+EC+드렸/VX+EP+고/EC+며느리/NNG+분/NNB+번호/NNG+만/JX+불러/VV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.며느리 번호가 #@전번#입니다",
+            "norm_text": "B.며느리 번호가 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+며느리/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "A.네 문자로 계좌랑 넣어드릴테니까요 이틀 이내로 입금 부탁드리겠습니다",
+            "norm_text": "A.네 문자로 계좌랑 넣어드릴테니까요 이틀 이내로 입금 부탁드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+문자/NNG+로/JKB+계좌/NNG+랑/JKB+넣/VV+어/EC+드릴/VX+ETM+테/NNB+VCP+니까요/EC+이틀/NNG+이/JKS+내/NP+로/JKB+입금/NNG+부탁/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 19,
+            "text": "B.이틀 안에 알았어요 수고하세요",
+            "norm_text": "B.이틀 안에 알았어요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+이틀/NNG+안/NNG+에/JKB+알/VV+았/EP+어요/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 20,
+            "text": "A.감사합니다 상담사 #@이름#였습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

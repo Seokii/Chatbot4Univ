@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 11261,
+    "name": "s3_20210913_0010_0787_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416036533/s3_20210913_0010_0787_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416036533/s3_20210913_0010_0787_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11846,
+      "filename": "s3_20210826_0019_0005_01.txt",
+      "title": "s3_20210826_0019_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 398,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 398,
+        "word_size": 88,
+        "text": "A.반갑습니다 #@소속# #@상품#입니다 무엇을 도와드릴까요\nB.여기 #@상품# 구입할라 그러거든요\nA.대표 상품명이나 상품번호 말씀해주시겠습니까\nB.상품 번호가 어디있나 여기에\nA.페이지 맨 상단으로 올리시면 굵은 글씨로 대표 상품명 있구요\nA.위쪽에 상품번호 있어요 상품명이나 상품번호 좀 말씀해 주시겠습니까\nB.어디있는걸 보라는건지 모르겠네요\nA.지금 휴대폰으로 보고 계세요 컴퓨터로 보고 계세요\nB.핸드폰으로 보고 있는데요\nA.그거 맨 위로 올려보시겠어요\nB.맨 위로 올리면 맨 위로 쭉 올리고 #@번호#\nA.다시 한 번 말씀 해주시겠어요 지금 읽으신거\nB.잘 안보여요 컴퓨터 켜야 하나\nA.그러시면 저희 피씨로 접속 후에 전화 부탁드립니다\nB.알았어요 그럼 조금만 기다려요\nA.알겠습니다 제가 이번엔 전화드릴게요 #@소속# 입니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@상품#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@상품#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+상품/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여기 #@상품# 구입할라 그러거든요",
+            "norm_text": "B.여기 #@상품# 구입할라 그러거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+여기/NP+#/SY+@/SY+상품/NNG+#/SY+구입/NNG+할라/XSV+EC+그러/VV+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.대표 상품명이나 상품번호 말씀해주시겠습니까",
+            "norm_text": "A.대표 상품명이나 상품번호 말씀해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+대표/NNG+상품명/NNG+이나/JC+상품/NNG+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.상품 번호가 어디있나 여기에",
+            "norm_text": "B.상품 번호가 어디있나 여기에",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+상품/NNG+번호/NNG+가/JKS+어디/NP+있/VA+나/EC+여기/NP+에/JKB"
+          },
+          {
+            "id": 5,
+            "text": "A.페이지 맨 상단으로 올리시면 굵은 글씨로 대표 상품명 있구요",
+            "norm_text": "A.페이지 맨 상단으로 올리시면 굵은 글씨로 대표 상품명 있구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+페이지/NNG+맨/MM+상단/NNG+으로/JKB+올리/VV+시/EP+면/EC+굵/VA+은/ETM+글씨/NNG+로/JKB+대표/NNG+상품명/NNG+있/VA+구요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.위쪽에 상품번호 있어요 상품명이나 상품번호 좀 말씀해 주시겠습니까",
+            "norm_text": "A.위쪽에 상품번호 있어요 상품명이나 상품번호 좀 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+위쪽/NNG+에/JKB+상품/NNG+번호/NNG+있/VA+어요/EF+상품명/NNG+이나/JC+상품/NNG+번호/NNG+좀/MAG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.어디있는걸 보라는건지 모르겠네요",
+            "norm_text": "B.어디있는걸 보라는건지 모르겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+어디/NP+있/VA+는/ETM+걸/NNB+JKO+보/VV+라는/ETM+건지/NNB+VCP+EC+모르/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.지금 휴대폰으로 보고 계세요 컴퓨터로 보고 계세요",
+            "norm_text": "A.지금 휴대폰으로 보고 계세요 컴퓨터로 보고 계세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+휴대폰/NNG+으로/JKB+보/VV+고/EC+계세요/VX+EC+컴퓨터/NNG+로/JKB+보/VV+고/EC+계세요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.핸드폰으로 보고 있는데요",
+            "norm_text": "B.핸드폰으로 보고 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+핸드폰/NNG+으로/JKB+보/VV+고/EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.그거 맨 위로 올려보시겠어요",
+            "norm_text": "A.그거 맨 위로 올려보시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그거/NP+맨/MM+위/NNG+로/JKB+올려/VV+EC+보/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.맨 위로 올리면 맨 위로 쭉 올리고 #@번호#",
+            "norm_text": "B.맨 위로 올리면 맨 위로 쭉 올리고 #@번호#에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맨/MM+위/NNG+로/JKB+올리/VV+면/EC+맨/MM+위/NNG+로/JKB+쭉/MAG+올리/VV+고/EC+#/SY+@/SY+번호/NNG+#/SY"
+          },
+          {
+            "id": 12,
+            "text": "A.다시 한 번 말씀 해주시겠어요 지금 읽으신거",
+            "norm_text": "A.상품명 좀 다시 말씀 부탁드려요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다시/MAG+한/MM+번/NNBC+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF+지금/MAG+읽/VV+으신/EP+ETM+거/NNB"
+          },
+          {
+            "id": 13,
+            "text": "B.잘 안보여요 컴퓨터 켜야 하나",
+            "norm_text": "B.잘 안보여요 컴퓨터 켜야 하나",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+잘/MAG+안/MAG+보여요/VV+EC+컴퓨터/NNG+켜/VV+야/EF+하나/NR"
+          },
+          {
+            "id": 14,
+            "text": "A.그러시면 저희 피씨로 접속 후에 전화 부탁드립니다",
+            "norm_text": "A.그러시면 저희 피씨로 접속 후에 전화 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+저희/NP+피/NNP+씨/NNB+로/JKB+접속/NNG+후/NNG+에/JKB+전화/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.알았어요 그럼 조금만 기다려요",
+            "norm_text": "B.알았어요 그럼 조금만 기다려요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+알/VV+았/EP+어요/EF+그럼/MAJ+조금/MAG+만/JX+기다려요/VV+EF"
+          },
+          {
+            "id": 16,
+            "text": "A.알겠습니다 제가 이번엔 전화드릴게요 #@소속# 입니다",
+            "norm_text": "A.알겠습니다 제가 이번엔 전화드릴게요 #@소속# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+제/NP+가/JKS+이번/NNG+엔/JKB+JX+전화/NNG+드릴게요/VV+EC+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

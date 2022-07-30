@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 16340,
+    "name": "s3_20210915_0010_1126_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514200792109/s3_20210915_0010_1126_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514200792109/s3_20210915_0010_1126_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12196,
+      "filename": "s3_20210830_0011_0001_01.txt",
+      "title": "s3_20210830_0011_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 195,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 195,
+        "word_size": 38,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.네 #@상품# 주문하려고요\nA.네 고객님 #@상품# 보셨나요\nB.#@상품# 말하는거죠 그거 맞아요\nA.고객님 잠시만 기다려주세요\nB.네 기다리고 있겠습니다\nA.고객님 기다려 주셔서 감사합니다\nA.블랙이랑 화이트 이렇게 옵션이 있습니다\nA.어떤 색상으로 도와드릴까요\nB.잠시만요 화이트로 해주세요\nA.고객님 화이트로 도와드릴까요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 #@상품# 주문하려고요",
+            "norm_text": "B.네 #@상품# 주문하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+주문/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 #@상품# 보셨나요",
+            "norm_text": "A.네 고객님 #@상품# 보셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+#/SY+@/SY+상품/NNG+#/SY+보/VV+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@상품# 말하는거죠 그거 맞아요",
+            "norm_text": "B.#@상품# 말하는거죠 그거 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+말/NNG+하/XSV+는/ETM+거/NNB+죠/VCP+EF+그거/NP+맞/VV+아요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 잠시만 기다려주세요",
+            "norm_text": "A.고객님 잠시만 기다려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+잠시/NNG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 기다리고 있겠습니다",
+            "norm_text": "B.네 기다리고 있겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+기다리/VV+고/EC+있/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.고객님 기다려 주셔서 감사합니다",
+            "norm_text": "A.고객님 기다려 주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.블랙이랑 화이트 이렇게 옵션이 있습니다",
+            "norm_text": "A.블랙이랑 화이트 이렇게 옵션이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+블랙/NNG+이랑/JC+화이트/NNP+이렇게/MAG+옵션/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.어떤 색상으로 도와드릴까요",
+            "norm_text": "A.어떤 색상으로 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+색상/NNG+으로/JKB+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.잠시만요 화이트로 해주세요",
+            "norm_text": "B.잠시만요 화이트로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+잠시/NNG+만/JX+요/JX+화이트/NNP+로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.고객님 화이트로 도와드릴까요",
+            "norm_text": "A.고객님 화이트로 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+화이트/NNP+로/JKB+도와/VV+EC+드릴까요/VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

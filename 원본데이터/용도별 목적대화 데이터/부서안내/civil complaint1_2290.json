@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 12978,
+    "name": "c1_20210913_0005_1022_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151336037912/c1_20210913_0005_1022_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151336037912/c1_20210913_0005_1022_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 9971,
+      "filename": "c1_20210817_0010_0007_01.txt",
+      "title": "c1_20210817_0010_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 422,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 422,
+        "word_size": 93,
+        "text": "A.네 #@소속# #@이름#니다\nB.안녕하세요 #@소속# #@이름#입니다\nA.네 무슨 일로 전화주셨죠\nB.저희쪽으로 민원인께서 문의를 주셨는데요\nB.아산 지역 산업단지 인허가 관련으로 담당자 연결 요청하셨습니다\nA.지금 아산 지역 담당자분이 안 계신데요\nB.담당자분이 #@이름# 주사님 맞으십니까\nA.예 #@이름# 주사님 담당 맞으십니다\nB.언제쯤 통화 가능하시다 전달해드릴까요\nA.글쎄요 멀리는 안 가신 것 같거든요\nB.그럼 제가 십 분 후에 통화 가능하시다 전달해드리면 될까요\nA.정확히 어떤 내용으로 문의 주신건가요\nB.아산 지역에 산업단지 인허가 관련 문의라고만 하셨습니다\nA.그래요 우선 이십 분 정도 후에 가능하다고 말씀해주시고요\nA.#@이름# 주사님 안 들어오시면 제가 직접 민원인께 통화할게요\nB.네 민원인께 이십 분 후에 통화 가능하시다고 말씀드리겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 #@소속# #@이름#니다",
+            "norm_text": "A.네 #@소속# #@이름#니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+니다/NNP"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "B.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 무슨 일로 전화주셨죠",
+            "norm_text": "A.네 무슨 일로 전화주셨죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+무슨/MM+일/NNG+로/JKB+전화/NNG+주/VV+셨/EP+EP+죠/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.저희쪽으로 민원인께서 문의를 주셨는데요",
+            "norm_text": "B.저희쪽으로 민원인께서 문의를 주셨는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+쪽/NNB+으로/JKB+민원인/NNG+께서/JKS+문의/NNG+를/JKO+주/VV+셨/EP+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.아산 지역 산업단지 인허가 관련으로 담당자 연결 요청하셨습니다",
+            "norm_text": "B.아산 지역 산업단지 인허가 관련으로 담당자 연결 요청하셨습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+아산/NNP+지역/NNG+산업/NNG+단지/MAG+인허/NNG+가/JKS+관련/NNG+으로/JKB+담당자/NNG+연결/NNG+요청/NNG+하/XSV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.지금 아산 지역 담당자분이 안 계신데요",
+            "norm_text": "A.지금 아산 지역 담당자분이 안 계신데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+지금/MAG+아산/NNP+지역/NNG+담당/NNG+자분/NNG+이/JKS+안/MAG+계신데요/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.담당자분이 #@이름# 주사님 맞으십니까",
+            "norm_text": "B.담당자분이 #@이름# 주사님 맞으십니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+담당/NNG+자분/NNG+이/JKS+#/SY+@/SY+이름/NNG+#/SY+주사/NNG+님/XSN+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.예 #@이름# 주사님 담당 맞으십니다",
+            "norm_text": "A.예 #@이름# 주사님 담당 맞으십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+#/SY+@/SY+이름/NNG+#/SY+주사/NNG+님/XSN+담당/NNG+맞/VV+으십니다/EP+EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.언제쯤 통화 가능하시다 전달해드릴까요",
+            "norm_text": "B.언제쯤 통화 가능하시다 전달해드릴까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "B/SL+언제/NP+쯤/XSN+통화/NNG+가능/NNG+하/XSV+시/EP+다/EC+전달/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.글쎄요 멀리는 안 가신 것 같거든요",
+            "norm_text": "A.글쎄요 멀리는 안 가신 것 같거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+글쎄요/IC+멀리/MAG+는/JX+안/MAG+가신/VV+ETM+것/NNB+같/VA+거든요/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그럼 제가 십 분 후에 통화 가능하시다 전달해드리면 될까요",
+            "norm_text": "B.그럼 제가 십 분 후에 통화 가능하시다 전달해드리면 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "B/SL+그럼/MAJ+제/NP+가/JKS+십/NR+분/NNBC+후/NNG+에/JKB+통화/NNG+가능/NNG+하/XSV+시/EP+다/EC+전달/NNG+해/XSV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.정확히 어떤 내용으로 문의 주신건가요",
+            "norm_text": "A.정확히 어떤 내용으로 문의 주신건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+정확히/MAG+어떤/MM+내용/NNG+으로/JKB+문/NNG+의/JKG+주/VV+신/EP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.아산 지역에 산업단지 인허가 관련 문의라고만 하셨습니다",
+            "norm_text": "B.아산 지역에 산업단지 인허가 관련 문의라고만 하셨습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+아산/NNP+지역/NNG+에/JKB+산업단지/NNP+인허/NNG+가/JKS+관련/NNG+문의/NNG+라고/VCP+EC+만하/VX+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.그래요 우선 이십 분 정도 후에 가능하다고 말씀해주시고요",
+            "norm_text": "A.그래요 우선 이십 분 정도 후에 가능하다고 말씀해주시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그래요/VV+EF+우선/MAG+이/NR+십/NR+분/NNBC+정도/NNG+후/NNG+에/JKB+가능/NNG+하/XSV+다고/EC+말씀/NNG+해/XSV+EC+주/VX+시/EP+고요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.#@이름# 주사님 안 들어오시면 제가 직접 민원인께 통화할게요",
+            "norm_text": "A.#@이름# 주사님 안 들어오시면 제가 직접 민원인께 연락할게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+주사/NNG+님/XSN+안/MAG+들어오/VV+시/EP+면/EC+제/NP+가/JKS+직접/MAG+민원인/NNG+께/JKB+연락/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 민원인께 이십 분 후에 통화 가능하시다고 말씀드리겠습니다 감사합니다",
+            "norm_text": "B.네 민원인께 이십 분 후에 통화 가능하시다고 말씀드리겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+민원인/NNG+께/JKB+이/NR+십/NR+분/NNBC+후/NNG+에/JKB+통화/NNG+가능/NNG+하/XSV+시/EP+다고/EC+말씀/NNG+드리/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

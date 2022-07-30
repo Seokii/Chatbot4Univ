@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 141304,
+    "name": "t2_20211115_0002_0258_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135729021047/t2_20211115_0002_0258_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135729021047/t2_20211115_0002_0258_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 149831,
+      "filename": "t2_0074_0009_02.txt",
+      "title": "t2_0074_0009_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 322,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 322,
+        "word_size": 71,
+        "text": "A. 반갑습니다 논산시 문화관광 고객센터 상담원 #@이름#입니다\nB. 지금 여행중인데 어느 산골 마을쪽으로 왔다가 버스가 일찍 끊겨버려서요\nB. 콜택시를 불러야할거 같은데 번호나 요금 안내 부탁드려요\nA. 논산콜택시와 예스민콜택시 두개 안내드리는데 어느쪽으로 안내원하실까요\nB. 아무래도 지역 이름 있는쪽이 나아보이네요 논산콜택시로 부탁합니다\nA. #@전번# 이쪽으로 콜택시 호출하시면 됩니다\nB. 요금은 어느정도 나올까요\nA. 거리 비례 금액이라 제가 어림잡아 말씀드리기 어렵습니다\nB. 콜 부르면서 한번 물어봐야겠네요 알겠습니다\nA. 즐거운 하루 되세요 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 논산시 문화관광 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 지금 여행중인데 어느 산골 마을쪽으로 왔다가 버스가 일찍 끊겨버려서요",
+            "norm_text": "B. 여행중인데 어느 산골 마을쪽으로 왔다가 버스가 일찍 끊겨버려서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+여행/NNG+중/NNB+인데/VCP+EC+어느/MM+산골/NNG+마을/NNG+쪽/NNB+으로/JKB+왔/VV+EP+다가/EC+버스/NNG+가/JKS+일찍/MAG+끊겨/VV+EC+버려/VX+EC+서요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "B. 콜택시를 불러야할거 같은데 번호나 요금 안내 부탁드려요",
+            "norm_text": "B. 콜택시를 불러야할거 같은데 번호나 요금 안내 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+콜택시/NNG+를/JKO+불러야/VV+EC+할/VX+ETM+거/NNB+같/VA+은데/EC+번호/NNG+나/JC+요금/NNG+안내/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A. 논산콜택시와 예스민콜택시 두개 안내드리는데 어느쪽으로 안내원하실까요",
+            "norm_text": "A. 논산콜택시와 예스민콜택시 두개 안내드리는데 어느쪽으로 안내원하실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+논산/NNP+콜택시/NNG+와/JC+예/NNG+스민/VV+ETM+콜택시/NNG+두/MM+개/NNBC+안/MAG+내드리/VV+는데/EC+어느/MM+쪽/NNB+으로/JKB+안내원/NNG+하/XSV+실까요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B. 아무래도 지역 이름 있는쪽이 나아보이네요 논산콜택시로 부탁합니다",
+            "norm_text": "B. 아무래도 지역 이름 있는쪽이 나아보이네요 논산콜택시로 부탁합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+아무래도/MAG+지역/NNG+이름/NNG+있/VA+는/ETM+쪽/NNB+이나/JC+아보/NNG+이/VCP+네요/EF+논산/NNP+콜택시/NNG+로/JKB+부탁/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A. #@전번# 이쪽으로 콜택시 호출하시면 됩니다",
+            "norm_text": "A. #@전번# 이쪽으로 콜택시 호출하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+이쪽/NP+으로/JKB+콜택시/NNG+호출/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 요금은 어느정도 나올까요",
+            "norm_text": "B. 요금은 어느정도 나올까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+요금/NNG+은/JX+어느/MM+정도/NNG+나/JX+올까요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 거리 비례 금액이라 제가 어림잡아 말씀드리기 어렵습니다",
+            "norm_text": "A. 거리 비례 금액이라 제가 어림잡아 말씀드리기 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+거리/NNG+비례/NNG+금액/NNG+이/VCP+라/EC+제/NP+가/JKS+어림잡/VV+아/EC+말씀/NNG+드리/VV+기/ETN+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 콜 부르면서 한번 물어봐야겠네요 알겠습니다",
+            "norm_text": "B. 콜 부르면서 한번 물어봐야겠네요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+콜/NNG+부르/VV+면서/EC+한/MM+번/NNBC+물어봐야/VV+EC+VX+겠/EP+네요/EF+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A. 즐거운 하루 되세요 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 즐거운 하루 되세요 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+되/XSV+세요/EP+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

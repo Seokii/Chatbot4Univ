@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 118158,
+    "name": "s3_20211105_0002_0090_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt202111011107440291110/s3_20211105_0002_0090_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt202111011107440291110/s3_20211105_0002_0090_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117934,
+      "filename": "s3_20211001_0010_0003_01.txt",
+      "title": "s3_20211001_0010_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 359,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 359,
+        "word_size": 81,
+        "text": "A.기쁨으로 함께하는 #@소속# 상담사 #@이름#입니다\nB.안녕하세요 지금 어플로 결제를 진행하려고 하거든요\nA.네 모바일 결제 관련 어떤 문의가 있으신가요\nB.#@소속#포인트로 일부 결제를 하려고 하는데\nB.혹시 이거 백원 단위도 결제할 수가 있나요\nA.네 #@소속# 포인트는 십원 단위로 사용이 가능합니다\nB.그러면 이거 포인트 쓰면 제가 가진 포인트가 차감 되는거죠\nA.맞습니다 현재 보유하고 계신 포인트에서 결제금액만큼 차감 됩니다\nB.예 우선 얼마나 있는지 조회를 해봐야겠네요\nA.네 조회 후 필요한 금액만큼 사용하시면 되고요 다른 문의사항 있으신가요\nB.아니요 다른 문의사항은 없습니다\nA.네 즐거운 하루 보내세요 상담사 #@이름#이었습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.기쁨으로 함께하는 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.기쁨으로 함께하는 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+기쁨/NNG+으로/JKB+함께/MAG+하/VV+는/ETM+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 지금 어플로 결제를 진행하려고 하거든요",
+            "norm_text": "B.안녕하세요 지금 어플로 결제를 진행하려고 하거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+지금/MAG+어/IC+플로/NNG+결제/NNG+를/JKO+진행/NNG+하/XSV+려고/EC+하/VX+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 모바일 결제 관련 어떤 문의가 있으신가요",
+            "norm_text": "A.네 모바일 결제 관련 어떤 문의가 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+모바일/NNP+결제/NNG+관련/NNG+어떤/MM+문의/NNG+가/JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속#포인트로 일부 결제를 하려고 하는데",
+            "norm_text": "B.#@소속#포인트로 일부 결제를 하려고 하는데",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+포인트/NNG+로/JKB+일부/NNG+결제/NNG+를/JKO+하/VV+려고/EC+하/VV+는데/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.혹시 이거 백원 단위도 결제할 수가 있나요",
+            "norm_text": "B.혹시 이거 백원 단위도 결제할 수가 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+이거/NP+백/NR+원/NNBC+단위/NNG+도/JX+결제/NNG+할/XSV+ETM+수/NNB+가/JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 #@소속# 포인트는 십원 단위로 사용이 가능합니다",
+            "norm_text": "A.네 #@소속# 포인트는 십원 단위로 사용이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+포인트/NNG+는/JX+십/NR+원/NNBC+단위/NNG+로/JKB+사용/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그러면 이거 포인트 쓰면 제가 가진 포인트가 차감 되는거죠",
+            "norm_text": "B.그러면 이거 포인트 쓰면 제가 가진 포인트가 차감 되는거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+이거/NP+포인트/NNG+쓰/VV+면/EC+제/NP+가/JKS+가진/VV+ETM+포인트/NNG+가/JKS+차감/NNG+되/XSV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.맞습니다 현재 보유하고 계신 포인트에서 결제금액만큼 차감 됩니다",
+            "norm_text": "A.맞습니다 현재 보유하고 계신 포인트에서 결제금액만큼 차감됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+맞/VV+습니다/EF+현재/MAG+보유/NNG+하/XSV+고/EC+계신/VX+ETM+포인트/NNG+에서/JKB+결제/NNG+금액/NNG+만큼/JKB+차감/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.예 우선 얼마나 있는지 조회를 해봐야겠네요",
+            "norm_text": "B.예 우선 얼마나 있는지 조회를 해봐야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+우선/MAG+얼마나/MAG+있/VA+는지/EC+조회/NNG+를/JKO+해/VV+EC+봐야/VX+EC+VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 조회 후 필요한 금액만큼 사용하시면 되고요 다른 문의사항 있으신가요",
+            "norm_text": "A.네 조회 후 필요한 금액만큼 사용하시면 되고요 다른 문의사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+조회/NNG+후/NNG+필요/NNG+한/XSA+ETM+금액/NNG+만큼/JKB+사용/NNG+하/XSV+시/EP+면/EC+되/VV+고요/EC+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "B.아니요 다른 문의사항은 없습니다",
+            "norm_text": "B.아니요 다른 문의사항은 없습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.네 즐거운 하루 보내세요 상담사 #@이름#이었습니다 감사합니다",
+            "norm_text": "A.네 즐거운 하루 보내세요 상담사 #@이름#이었습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+즐거운/VA+ETM+하루/NNG+보내/VV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 110463,
+    "name": "s3_20211104_0002_0165_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110743014352/s3_20211104_0002_0165_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110743014352/s3_20211104_0002_0165_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117821,
+      "filename": "s3_20211001_0028_0014_01.txt",
+      "title": "s3_20211001_0028_0014_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 192,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 192,
+        "word_size": 47,
+        "text": "A.안녕하세요 #@소속#의 #@이름#입니다\nB.휴대폰으로 결제 시 월 한도 금액이 있나요\nA.각 통신사 회원 등급 및 결제 한도 별로 상이하지만요\nA.#@소속#에서는 월 최대 오십만 원 까지 결제 가능합니다\nB.그럼 통신사에서 등급이랑 한도 확인해야 하나요\nA.네 등급 및 한도 확인 등 자세한 사항은 각 통신사로 문의해주세요\nB.네 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#의 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#의 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.휴대폰으로 결제 시 월 한도 금액이 있나요",
+            "norm_text": "B.휴대폰으로 결제 시 월 한도 금액이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+휴대폰/NNG+으로/JKB+결제/NNG+시월/NNG+한/XSA+ETM+도금액/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.각 통신사 회원 등급 및 결제 한도 별로 상이하지만요",
+            "norm_text": "A.각 통신사 회원 등급 및 결제 한도 별로 상이하지만요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+각/MM+통신사/NNG+회원/NNG+등급/NNG+및/MAJ+결제/NNG+한도/NNG+별/XSN+로/JKB+상이/XR+하/XSA+지만/EC+요/JX"
+          },
+          {
+            "id": 4,
+            "text": "A.#@소속#에서는 월 최대 오십만 원 까지 결제 가능합니다",
+            "norm_text": "A.#@소속#에서는 월 최대 오십만 원 까지 결제 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+는/JX+월/NNG+최대/NNG+오/NR+십/NR+만/NR+원/NNBC+까지/JX+결제/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.그럼 통신사에서 등급이랑 한도 확인해야 하나요",
+            "norm_text": "B.그럼 통신사에서 등급이랑 한도 확인해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+통신사/NNG+에서/JKB+등급/NNG+이랑/JKB+한도/NNG+확인/NNG+해야/XSV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 등급 및 한도 확인 등 자세한 사항은 각 통신사로 문의해주세요",
+            "norm_text": "A.네 자세한 사항은 각 통신사로 문의해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+자세/XR+한/XSA+ETM+사항/NNG+은/JX+각/MM+통신사/NNG+로/JKB+문의/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

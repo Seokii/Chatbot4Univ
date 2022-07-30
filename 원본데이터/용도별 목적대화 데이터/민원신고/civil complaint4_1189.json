@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 49356,
+    "name": "c4_20211015_0012_0133_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151532023718/c4_20211015_0012_0133_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151532023718/c4_20211015_0012_0133_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 15523,
+      "filename": "c4_20210819_0012_0001_01.txt",
+      "title": "c4_20210819_0012_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 456,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 456,
+        "word_size": 90,
+        "text": "A.네 안녕하세요 #@전번# #@소속# #@이름#상담사입니다\nB.네 안녕하세요 상담사님\nA.음성 터미널에서 천안 터미널까지 대중교통 경로 문의주신 분이 맞으십니까\nB.네 방금 그 사람 맞습니다\nA.진천 종합터미널을 경유하는 경로가 확인되어 전화드렸습니다\nB.진천 터미널 경유 말입니까\nA.네 진철 터미널 경유입니다\nB.네 경로 말씀해주세요\nA.선생님 먼저 음성 공용버스터미널에서 진천 종합터미널로 이동해 주세요\nA.그리고 진천종합버스터미널에서 천안종합버스터미널로 이동하는 경로입니다\nB.먼저 음성터미널에서 진천터미널까지 이동하잖아요\nB.그럼 음성터미널에서 진천터미널까지 몇 번을 이용을 해야 되는가요\nA.선생님 제가 버스 시간 제가 버스시간 안내해 드리겠습니다\nB.네 버스시간 알려주세요\nA.선생님 문자로 전송해드릴까요 시간대가 많이 있습니다\nB.네 알겠습니다 문자로 보내주세요 수고하세요\nA.문자로 전송해드렸습니다 #@소속#였습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하세요 #@전번# #@소속# #@이름#상담사입니다",
+            "norm_text": "A.네 안녕하세요 #@전번# #@소속# #@이름#상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+전번/NNG+#/SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 상담사님",
+            "norm_text": "B.네 안녕하세요 상담사님",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+상담/NNG+사/NNG+님/XSN"
+          },
+          {
+            "id": 3,
+            "text": "A.음성 터미널에서 천안 터미널까지 대중교통 경로 문의주신 분이 맞으십니까",
+            "norm_text": "A.음성 터미널에서 천안까지 대중교통 경로 문의주신 분이 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+음성/NNG+터미널/NNG+에서/JKB+천안/NNP+까지/JX+대중교통/NNG+경로/NNG+문/NNG+의/JKG+주/NNG+신분/NNG+이/JKS+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 방금 그 사람 맞습니다",
+            "norm_text": "B.네 방금 그 사람 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+방금/MAG+그/MM+사람/NNG+맞/VV+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.진천 종합터미널을 경유하는 경로가 확인되어 전화드렸습니다",
+            "norm_text": "A.진천 종합터미널을 경유하는 경로가 확인되어 전화드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+진천/NNG+종합/NNG+터미널/NNG+을/JKO+경유/NNG+하/XSV+는/ETM+경로/NNG+가/JKS+확인/NNG+되/XSV+어/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.진천 터미널 경유 말입니까",
+            "norm_text": "B.진천 터미널 경유 말입니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+진천/NNG+터미널/NNG+경유/NNG+말/NNG+입니까/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 진철 터미널 경유입니다",
+            "norm_text": "A.네 진철 터미널 경유입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+진철/NNP+터미널/NNG+경유/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 경로 말씀해주세요",
+            "norm_text": "B.네 경로 말씀해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+경로/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.선생님 먼저 음성 공용버스터미널에서 진천 종합터미널로 이동해 주세요",
+            "norm_text": "A.선생님 먼저 음성 공용버스터미널에서 진천 종합터미널로 이동해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+먼저/MAG+음성/NNG+공용/NNG+버스/NNG+터미널/NNG+에서/JKB+진천/NNG+종합/NNG+터미널/NNG+로/JKB+이동/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.그리고 진천종합버스터미널에서 천안종합버스터미널로 이동하는 경로입니다",
+            "norm_text": "A.그리고 진천종합버스터미널에서 천안종합버스터미널로 이동하는 경로입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그리고/MAJ+진천/NNG+종합/NNG+버스/NNG+터미널/NNG+에서/JKB+천안/NNP+종합/NNG+버스/NNG+터미널/NNG+로/JKB+이동/NNG+하/XSV+는/ETM+경로/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.먼저 음성터미널에서 진천터미널까지 이동하잖아요",
+            "norm_text": "B.먼저 음성터미널에서 진천터미널까지 이동하잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+먼저/MAG+음성/NNG+터미널/NNG+에서/JKB+진천/NNG+터미널/NNG+까지/JX+이동/NNG+하/XSV+잖아요/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그럼 음성터미널에서 진천터미널까지 몇 번을 이용을 해야 되는가요",
+            "norm_text": "B.그럼 음성터미널에서 진천터미널까지 몇 번을 이용을 해야 되는가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+음성/NNG+터미널/NNG+에서/JKB+진천/NNG+터미널/NNG+까지/JX+몇/MM+번/NNBC+을/JKO+이용/NNG+을/JKO+해야/VV+EC+되/VV+는/ETM+가요/NNG"
+          },
+          {
+            "id": 13,
+            "text": "A.선생님 제가 버스 시간 제가 버스시간 안내해 드리겠습니다",
+            "norm_text": "A.선생님 제가 버스 시간 제가 버스시간 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+제/NP+가/JKS+버스/NNG+시간/NNG+제/NP+가/JKS+버스/NNG+시간/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.네 버스시간 알려주세요",
+            "norm_text": "B.네 버스시간 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+버스/NNG+시간/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.선생님 문자로 전송해드릴까요 시간대가 많이 있습니다",
+            "norm_text": "A.선생님 문자로 전송해드릴까요 시간대가 많이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+문자/NNG+로/JKB+전송/NNG+해/XSV+EC+드릴까요/VX+EC+시간대/NNG+가/JKS+많이/MAG+있/VA+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.네 알겠습니다 문자로 보내주세요 수고하세요",
+            "norm_text": "B.네 알겠습니다 문자로 보내주세요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+문자/NNG+로/JKB+보내/VV+EC+주/VX+세요/EP+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "A.문자로 전송해드렸습니다 #@소속#였습니다 감사합니다",
+            "norm_text": "A.문자로 전송해드렸습니다 #@소속#였습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+문자/NNG+로/JKB+전송/NNG+해/XSV+EC+드렸/VX+EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+였/VCP+EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

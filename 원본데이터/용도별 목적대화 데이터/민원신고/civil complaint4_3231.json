@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 110604,
+    "name": "c4_20211104_0045_0098_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135240056998/c4_20211104_0045_0098_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135240056998/c4_20211104_0045_0098_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 20094,
+      "filename": "c4_20210902_0008_0004_01.txt",
+      "title": "c4_20210902_0008_0004_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-09-10",
+      "size": 334,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 334,
+        "word_size": 73,
+        "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다\nB.네 여기 남양주 #@주소#거든요\nA.네 실례지만 어떤 문의 이십니까\nB.제가 불법주정차 때문에 전화 했는데요\nA.네 불법주정차 불편 문의 이십니까\nB.아니요 카메라 좀 설치 해달라고요\nA.단속 카메라의 경우 매년 다음해 설치 장소를 검토하여 추진하고 있습니다\nB.그럼 올해는 설치를 못한다는 건가요\nA.네 올해는 설치가 불가능 하시구요 다음해에도 검토를 해봐야합니다\nB.여기 불법주정차 때문에 다니기가 위험해서 그래요\nA.해당 구간은 현장 단속을 강화하여 민원해결에 최선을 다하겠습니다\nB.예 단속이라도 많이 해주세요\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+친절한/NNP+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 여기 남양주 #@주소#거든요",
+            "norm_text": "B.네 여기 남양주 #@주소#거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+여기/NP+남양주/NNG+#/SY+@/SY+주소/NNG+#/SY+거든요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.네 실례지만 어떤 문의 이십니까",
+            "norm_text": "A.네 실례지만 어떤 문의 이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+실례/NNG+지만/VCP+EC+어떤/MM+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 불법주정차 때문에 전화 했는데요",
+            "norm_text": "B.제가 불법주정차 때문에 전화 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+불법/NNG+주정차/NNG+때문/NNB+에/JKB+전화/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 불법주정차 불편 문의 이십니까",
+            "norm_text": "A.네 불법주정차 불편 문의 이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+불법/NNG+주정차/NNG+불/XPN+편문/NNG+의/JKG+이/NR+십/NR+니까/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아니요 카메라 좀 설치 해달라고요",
+            "norm_text": "B.아니요 카메라 좀 설치 해달라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+아니요/IC+카메라/NNG+좀/MAG+설치/NNG+해/XSV+EC+달/VX+라고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.단속 카메라의 경우 매년 다음해 설치 장소를 검토하여 추진하고 있습니다",
+            "norm_text": "A.단속 카메라의 경우 매년 다음해 설치 장소를 검토하여 추진하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+단속/NNG+카메라/NNG+의/JKG+경우/NNG+매년/MAG+다음/NNG+해/XSV+EC+설치/NNG+장소/NNG+를/JKO+검토/NNG+하/XSV+여/EC+추진/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 올해는 설치를 못한다는 건가요",
+            "norm_text": "B.그럼 올해는 설치를 못한다는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+올해/NNG+는/JX+설치/NNG+를/JKO+못/MAG+한다는/VV+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 올해는 설치가 불가능 하시구요 다음해에도 검토를 해봐야합니다",
+            "norm_text": "A.네 올해는 설치가 불가능 하시구요 다음해에도 검토를 해봐야합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+올해/NNG+는/JX+설치/NNG+가/JKS+불/XPN+가능/NNG+하/XSV+시/EP+구요/EF+다음/NNG+해/NNG+에/JKB+도/JX+검토/NNG+를/JKO+해/VV+EC+봐야/VX+EC+합니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.여기 불법주정차 때문에 다니기가 위험해서 그래요",
+            "norm_text": "B.여기 불법주정차 때문에 다니기가 위험해서 그래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+불법/NNG+주정차/NNG+때문/NNB+에/JKB+다니/VV+기/ETN+가/JKS+위험/NNG+해서/XSV+EC+그래요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.해당 구간은 현장 단속을 강화하여 민원해결에 최선을 다하겠습니다",
+            "norm_text": "A.해당 구간은 현장 단속을 강화하여 민원해결에 최선을 다하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+구간/NNG+은/JX+현장/NNG+단속/NNG+을/JKO+강화/NNG+하/XSV+여/EC+민원/NNG+해결/NNG+에/JKB+최선/NNG+을/JKO+다/MAG+하/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.예 단속이라도 많이 해주세요",
+            "norm_text": "B.예 단속이라도 많이 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+단속/NNG+이/VCP+라도/EC+많이/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

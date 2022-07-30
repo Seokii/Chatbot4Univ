@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 115947,
+    "name": "s3_20211105_0005_0115_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt202111011108310859105/s3_20211105_0005_0115_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt202111011108310859105/s3_20211105_0005_0115_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119644,
+      "filename": "s3_20211027_0016_0003_01.txt",
+      "title": "s3_20211027_0016_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 346,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 346,
+        "word_size": 87,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 문의 사항 있어서 연락 드렸어요\nA.네 고객님 어떤 문의 사항이신가요\nB.첫 구매 감사 쿠폰이 있는데 적용이 안 되네요 이유를 알 수 있나요\nA.현재 해당 관련 담당자님이 휴가 중이라서요\nB.휴가요 담당자만 답변을 주실 수 있는 건가요\nA.네 업무가 나누어져 있어서요 제가 그 부분은 알 수가 없습니다\nB.그럼 대체 직원이 있어야 하는 거 아닌가요\nB.저 말고도 문의 하시는 분이 있을 텐데요\nA.죄송하지만 시 월 십 팔 일에 문자로 답변 내용 전달드리도록 하겠습니다\nB.네 알겠습니다 그때 문자 주세요\nA.감사합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의 사항 있어서 연락 드렸어요",
+            "norm_text": "B.네 안녕하세요 문의 사항 있어서 연락드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+사항/NNG+있/VV+어서/EC+연락/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어떤 문의 사항이신가요",
+            "norm_text": "A.네 고객님 어떤 문의 사항이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어떤/MM+문/NNG+의/JKG+사항/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.첫 구매 감사 쿠폰이 있는데 적용이 안 되네요 이유를 알 수 있나요",
+            "norm_text": "B.첫 구매 감사 쿠폰이 있는데 적용이 안 되네요 이유를 알 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+첫/MM+구매/NNG+감사/NNG+쿠폰/NNG+이/JKS+있/VV+는데/EC+적용/NNG+이/JKS+안/MAG+되/VV+네요/EF+이유/NNG+를/JKO+알/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.현재 해당 관련 담당자님이 휴가 중이라서요",
+            "norm_text": "A.현재 해당 관련 담당자님이 휴가 중이라서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+현재/MAG+해당/NNG+관련/NNG+담당자/NNG+님/XSN+이/JKS+휴가/NNG+중/NNB+이/VCP+라서요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.휴가요 담당자만 답변을 주실 수 있는 건가요",
+            "norm_text": "B.휴가요 담당자만 답변을 주실 수 있는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+휴가/NNG+요/VCP+EC+담당자/NNG+만/JX+답변/NNG+을/JKO+주/VV+실/EP+ETM+수/NNB+있/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 업무가 나누어져 있어서요 제가 그 부분은 알 수가 없습니다",
+            "norm_text": "A.네 업무가 나누어져 있어서요 제가 그 부분은 알 수가 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+업무/NNG+가/JKS+나누/VV+어/EC+져/VX+EC+있/VX+어서/EC+요제/NNG+가/JKS+그/MM+부분/NNG+은/JX+알/VV+ETM+수/NNB+가/JKS+없/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 대체 직원이 있어야 하는 거 아닌가요",
+            "norm_text": "B.그럼 대체 직원이 있어야 하는 거 아닌가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+대체/MAG+직원/NNG+이/JKS+있/VV+어야/EC+하/VV+는/ETM+거/NNB+아닌가요/VCN+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.저 말고도 문의 하시는 분이 있을 텐데요",
+            "norm_text": "B.저 말고도 문의 하시는 분이 있을 텐데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/NP+말/VV+고/EC+도/JX+문의/NNG+하/XSV+시/EP+는/ETM+분/NNB+이/JKS+있/VV+을/ETM+텐데요/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.죄송하지만 시 월 십 팔 일에 문자로 답변 내용 전달드리도록 하겠습니다",
+            "norm_text": "A.죄송하지만 시 월 십 팔 일에 문자로 답변 내용 전달드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+시월/NNG+십/NR+팔/NR+일/NNBC+에/JKB+문자/NNG+로/JKB+답변/NNG+내용/NNG+전달/NNG+드리/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 알겠습니다 그때 문자 주세요",
+            "norm_text": "B.네 알겠습니다 그때 문자 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+그/MM+때문/NNB+자주/MAG+세요/NNG"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

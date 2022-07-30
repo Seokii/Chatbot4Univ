@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 11019,
+    "name": "s3_20210913_0010_0715_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416087758/s3_20210913_0010_0715_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416087758/s3_20210913_0010_0715_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11919,
+      "filename": "s3_20210826_0011_0016_01.txt",
+      "title": "s3_20210826_0011_0016_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 288,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 288,
+        "word_size": 65,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.#@상품# 전화로 주문하려고 그러는데요\nB.검정색으로 선택 할 거고요\nA.네 검정색으로 도와 드릴게요\nB.그거하고 #@상품#하고 차이가 있어요\nA.그냥 #@상품#이라고 하시는 게 어떤 말씀인지 여쭤봐도 될까요\nB.오만 얼마짜리 그거랑 어떤 차이가 있나요\nA.업체가 달라서요 고객님\nA.고객님이 원하는 기능 있는 상품으로 주문해 주시면 됩니다\nB.그게 기능이 달라요 두 가지가요\nA.네 다른 업체 다른 제품이다 보니까요\nA.기능이 다를 수가 있습니다\nA.비교해 보시고 원하시는 거 주문해 주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 전화로 주문하려고 그러는데요",
+            "norm_text": "B.#@상품# 전화로 주문하려고 그러는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+전화/NNG+로/JKB+주문/NNG+하/XSV+려고/EC+그러/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.검정색으로 선택 할 거고요",
+            "norm_text": "B.검정색으로 선택 할 거고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+검정/NNG+색/NNG+으로/JKB+선택/NNG+할/XSV+ETM+거/NNB+고요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "A.네 검정색으로 도와 드릴게요",
+            "norm_text": "A.네 검정색으로 도와 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+검정/NNG+색/NNG+으로/JKB+도와/VV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.그거하고 #@상품#하고 차이가 있어요",
+            "norm_text": "B.그거하고 #@상품#하고 차이가 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그거/NP+하고/JKB+#/SY+@/SY+상품/NNG+#/SY+하고/JKQ+차이/NNG+가/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.그냥 #@상품#이라고 하시는 게 어떤 말씀인지 여쭤봐도 될까요",
+            "norm_text": "A.그냥 #@상품#이라고 하시는 게 어떤 말씀인지 여쭤봐도 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+그냥/MAG+#/SY+@/SY+상품/NNG+#/SY+이라고/JKQ+하/VV+시/EP+는/ETM+게/NNB+JKS+어떤/MM+말씀/NNG+인지/VCP+EC+여쭤봐도/VV+EC+VX+EC+될까요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.오만 얼마짜리 그거랑 어떤 차이가 있나요",
+            "norm_text": "B.오만 얼마짜리 그거랑 어떤 차이가 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+오만/MM+얼마/NNG+짜리/XSN+그거/NP+랑/JC+어떤/MM+차이/NNG+가/JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.업체가 달라서요 고객님",
+            "norm_text": "A.업체가 달라서요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+업체/NNG+가/JKS+달/VV+라서요/EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 9,
+            "text": "A.고객님이 원하는 기능 있는 상품으로 주문해 주시면 됩니다",
+            "norm_text": "A.고객님이 원하는 기능 있는 상품으로 주문해 주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+이/JKS+원/NNG+하/XSV+는/ETM+기능/NNG+있/VA+는/ETM+상품/NNG+으로/JKB+주문/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그게 기능이 달라요 두 가지가요",
+            "norm_text": "B.그게 기능이 달라요 두 가지가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그게/NP+JKS+기능/NNG+이/JKS+달라요/VA+EC+두/MM+가지/NNBC+가요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "A.네 다른 업체 다른 제품이다 보니까요",
+            "norm_text": "A.네 다른 업체 다른 제품이다 보니까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+다른/MM+업체/NNG+다른/MM+제품/NNG+이/VCP+다/EC+보/VX+니까요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.기능이 다를 수가 있습니다",
+            "norm_text": "A.기능이 다를 수가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기능/NNG+이/JKS+다를/VA+ETM+수/NNB+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.비교해 보시고 원하시는 거 주문해 주세요",
+            "norm_text": "A.비교해 보시고 원하시는 거 주문해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+비교/NNG+해/XSV+EC+보/VX+시/EP+고/EC+원/NNG+하/XSV+시/EP+는/ETM+거/NNB+주문/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

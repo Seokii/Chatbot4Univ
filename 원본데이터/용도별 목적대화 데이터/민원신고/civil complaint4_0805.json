@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 43970,
+    "name": "c4_20211014_0011_0023_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131155095743/c4_20211014_0011_0023_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131155095743/c4_20211014_0011_0023_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56127,
+      "filename": "c4_20210908_0027_0027_01.txt",
+      "title": "c4_20210908_0027_0027_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 240,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 240,
+        "word_size": 49,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.제가 건설기계를 운영하는데요\nB.지금 번호판이 훼손되었습니다\nA.네 번호판을 알아보기 어렵게 된 경우에는 이를 신청하여야 합니다\nA.등록번호표를 부착 및 봉인하지 아니한 건설기계를 운행하여서는 안됩니다\nB.이런 경우도 과태료가 나옵니까\nA.해당 민원은 과태료 부과 대상이 아닌 것으로 판단됩니다\nB.네 친절한 설명 감사합니다\nA.감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.제가 건설기계를 운영하는데요",
+            "norm_text": "B.제가 건설기계를 운영하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+건설/NNG+기계/NNG+를/JKO+운영/NNG+하/XSV+는데요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.지금 번호판이 훼손되었습니다",
+            "norm_text": "B.지금 번호판이 훼손되었습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+번호판/NNG+이/JKS+훼손/NNG+되/XSV+었/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 번호판을 알아보기 어렵게 된 경우에는 이를 신청하여야 합니다",
+            "norm_text": "A.네 번호판을 알아보기 어렵게 된 경우에는 이를 신청하여야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+번호판/NNG+을/JKO+알아보/VV+기/ETN+어렵/VA+게/EC+된/VV+ETM+경우/NNG+에/JKB+는/JX+이/NP+를/JKO+신청/NNG+하/XSV+여야/EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.등록번호표를 부착 및 봉인하지 아니한 건설기계를 운행하여서는 안됩니다",
+            "norm_text": "A.등록번호표를 부착 및 봉인하지 아니한 건설기계를 운행하여서는 안됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+등록/NNG+번호표/NNG+를/JKO+부착/NNG+및/MAJ+봉인/NNG+하/XSV+지/EC+아니한/VX+ETM+건설/NNG+기계/NNG+를/JKO+운행/NNG+하/XSV+여서는/EC+JX+안/MAG+됩니다/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.이런 경우도 과태료가 나옵니까",
+            "norm_text": "B.이런 경우도 과태료가 나옵니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이런/MM+경우/NNG+도/JX+과태료/NNG+가/JKS+나옵니까/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.해당 민원은 과태료 부과 대상이 아닌 것으로 판단됩니다",
+            "norm_text": "A.해당 민원은 과태료 부과 대상이 아닌 것으로 판단됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+민원/NNG+은/JX+과태료/NNG+부과/NNG+대상/NNG+이/JKC+아닌/VCN+ETM+것/NNB+으로/JKB+판단/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 친절한 설명 감사합니다",
+            "norm_text": "B.네 친절한 설명 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+친절/NNG+한/XSA+ETM+설명/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

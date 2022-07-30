@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 12925,
+    "name": "c1_20210913_0005_0987_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151336092439/c1_20210913_0005_0987_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151336092439/c1_20210913_0005_0987_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10052,
+      "filename": "c1_20210818_0008_0019_01.txt",
+      "title": "c1_20210818_0008_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 456,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 456,
+        "word_size": 108,
+        "text": "A.반갑습니다 #@소속# 콜센터 #@이름#입니다 무엇을 도와 드릴까요\nB.예 수고가 많습니다 그 저 산진 그거를 알아볼라믄 어느 부서로 알아보면 돼요\nA.죄송하지만 선생님 말씀해주신 문의내용 다시 한 번만 말씀 부탁드립니다\nB.충청남도 쪽에 산이 있잖아요 그런 거를 외곽으로 나온 거를 살려고 그러는데요 어느 부서에다 이야기하면 가능한가요\nA.매입 관련 문의십니까\nB.예 우리는 매입을 할려고 그러는데요\nA.혹시 그 국유지 매입 관련이십니까\nB.국유지 매입이 쉬운 거에요 거기 인허가가 쉽지 않잖아요\nA.국유지 관련이시면 네 국유지라고 하더라도 해당 지역에 시청 또는 군청으로 문의를 주셔야 합니다\nB.여기는 어디에요 도청이에요\nA.네 연결된 곳은 #@소속# 콜센터입니다\nB.그럼 그러면 군청이나 시청에 이야기해야 되는 거에요\nA.네 그 선생님 매입하실려는 지역에 시청 또는 군청으로 문의를 주시면 됩니다\nB.군청 전화 번호가 몇 번입니까",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 콜센터 #@이름#입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# 콜센터 #@이름#입니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+콜/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고가 많습니다 그 저 산진 그거를 알아볼라믄 어느 부서로 알아보면 돼요",
+            "norm_text": "B.예 그 저 산진 그거를 알아볼라믄 어느 부서로 알아보면 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+그저/MAG+산진/NNG+그거/NP+를/JKO+알/VV+아/EC+볼/VX+라믄/EC+어느/MM+부서/NNG+로/JKB+알아보/VV+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.죄송하지만 선생님 말씀해주신 문의내용 다시 한 번만 말씀 부탁드립니다",
+            "norm_text": "A.죄송하지만 선생님 말씀해주신 문의내용 다시 한 번만 말씀 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+선생/NNG+님/XSN+말씀/NNG+해/XSV+EC+주신문/NNG+의/JKG+내용/NNG+다시/MAG+한/MM+번/NNBC+만/JX+말씀/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.충청남도 쪽에 산이 있잖아요 그런 거를 외곽으로 나온 거를 살려고 그러는데요 어느 부서에다 이야기하면 가능한가요",
+            "norm_text": "B.충청남도 쪽에 산을 사려고 하는데 어느 부서에다 이야기하면 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+충청남도/NNP+쪽/NNB+에/JKB+산/NNG+이/JKS+있/VA+잖아요/EF+그런/MM+거/NNB+를/JKO+외곽/NNG+으로/JKB+나온/VV+ETM+거/NNB+를/JKO+살/VV+려고/EC+그러/VV+는데요/EF+어느/MM+부서/NNG+에다/JKB+이야기/NNG+하/XSV+면/EC+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.매입 관련 문의십니까",
+            "norm_text": "A.매입 관련 문의십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+매입/NNG+관련/NNG+문의/NNG+십니까/VCP+EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예 우리는 매입을 할려고 그러는데요",
+            "norm_text": "B.예 우리는 매입을 할려고 그러는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+우리/NP+는/JX+매입/NNG+을/JKO+할려고/VV+EC+그러/VV+는데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.혹시 그 국유지 매입 관련이십니까",
+            "norm_text": "A.혹시 그 국유지 매입 관련이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+그/MM+국유지/NNG+매입/NNG+관련/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.국유지 매입이 쉬운 거에요 거기 인허가가 쉽지 않잖아요",
+            "norm_text": "B.국유지 매입이 쉬운 거에요 거기 인허가가 쉽지 않잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+국유지/NNG+매입/NNG+이/JKS+쉬운/VA+ETM+거/NNB+에요/VCP+EF+거기/NP+인/VCP+ETM+허가/NNG+가/JKS+쉽/VA+지/EC+않/VX+잖아요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.국유지 관련이시면 네 국유지라고 하더라도 해당 지역에 시청 또는 군청으로 문의를 주셔야 합니다",
+            "norm_text": "A.네 국유지라고 하더라도 해당 지역에 시군청으로 문의를 주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+네/IC+국유지/NNG+라고/VCP+EC+하/VV+더라도/EC+해당/NNG+지역/NNG+에/JKB+시/NNG+군청/NNG+으로/JKB+문의/NNG+를/JKO+주/VV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.여기는 어디에요 도청이에요",
+            "norm_text": "B.여기는 어디에요 도청이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여기/NP+는/JX+어디/NP+에/JKB+요도/NNG+청이/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.네 연결된 곳은 #@소속# 콜센터입니다",
+            "norm_text": "A.네 연결된 곳은 #@소속# 콜센터입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+연결/NNG+된/XSV+ETM+곳/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+콜/NNG+센터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그럼 그러면 군청이나 시청에 이야기해야 되는 거에요",
+            "norm_text": "B.그럼 그러면 군청이나 시청에 이야기해야 되는 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+그러면/MAJ+군청/NNG+이나/JC+시청/NNG+에/JKB+이야기/NNG+해야/XSV+EC+되/VV+는/ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.네 그 선생님 매입하실려는 지역에 시청 또는 군청으로 문의를 주시면 됩니다",
+            "norm_text": "A.네 그 선생님 매입하실려는 지역에 시군청으로 문의를 주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+네/IC+그/MM+선생/NNG+님/XSN+매입/NNG+하/XSV+실/EP+ETM+려는/ETM+지역/NNG+에/JKB+시/NNG+군청/NNG+으로/JKB+문의/NNG+를/JKO+주/VV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.군청 전화 번호가 몇 번입니까",
+            "norm_text": "B.군청 전화 번호가 몇 번입니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+군청/NNG+전화/NNG+번호/NNG+가/JKS+몇/MM+번/NNBC+입/VV+니까/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

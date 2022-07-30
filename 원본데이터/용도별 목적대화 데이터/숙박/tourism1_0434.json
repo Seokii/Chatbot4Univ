@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 141172,
+    "name": "t1_20211115_0002_0426_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715026544/t1_20211115_0002_0426_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715026544/t1_20211115_0002_0426_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148052,
+      "filename": "t1_0067_0108_02.txt",
+      "title": "t1_0067_0108_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 278,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 278,
+        "word_size": 71,
+        "text": "A. 안녕하세요 대나무 향 가득한 #@소속# 입니다\nB. 네 저희 가족 숙박 예약 좀 하려고 전화드렸습니다\nA. 네 반갑습니다 원하시는 객실과 날짜 말씀해주시겠어요\nB. 혹시 이번주 금요일 새콤 객실 예약 가능할까요\nA. 음 확인해보니 예약 마감됐네요 죄송합니다\nB. 아 그래요 그럼 토요일로 예약은 될지요\nA. 죄송하지만 토요일은 전 객실 마감됐구요\nA. 괜찮으시면 일요일 예약 비어있어 일요일로 가능합니다\nB. 음 일요일은 너무 늦는데 생각해보고 다시 전화할게요\nA. 네 알겠습니다 언제든 연락주세요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 안녕하세요 대나무 향 가득한 #@소속# 입니다",
+            "norm_text": "A. 안녕하세요 대나무 향 가득한 #@소속# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+대나무/NNG+향/NNG+가득/MAG+한/XSA+ETM+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 네 저희 가족 숙박 예약 좀 하려고 전화드렸습니다",
+            "norm_text": "B. 네 저희 가족 숙박 예약 좀 하려고 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+저희/NP+가족/NNG+숙박/NNG+예약/NNG+좀/MAG+하/VV+려고/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 반갑습니다 원하시는 객실과 날짜 말씀해주시겠어요",
+            "norm_text": "A. 네 반갑습니다 원하시는 객실과 날짜 말씀해주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+반갑/VA+습니다/EF+원/NNG+하/XSV+시/EP+는/ETM+객실/NNG+과/JC+날짜/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 혹시 이번주 금요일 새콤 객실 예약 가능할까요",
+            "norm_text": "B. 혹시 이번주 금요일 새콤 객실 예약 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+이번/NNG+주/NNG+금요일/NNG+새콤/MAG+객실/NNG+예약/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 음 확인해보니 예약 마감됐네요 죄송합니다",
+            "norm_text": "A. 음 확인해보니 예약 마감됐네요 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+음/IC+확인/NNG+해/XSV+EC+보/VX+니/EC+예약/NNG+마감/NNG+됐/XSV+EP+네요/EF+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 아 그래요 그럼 토요일로 예약은 될지요",
+            "norm_text": "B. 아 그래요 그럼 토요일로 예약은 될지요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그래요/VV+EF+그럼/MAJ+토요일/NNG+로/JKB+예약/NNG+은/JX+될/VV+ETM+지요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A. 죄송하지만 토요일은 전 객실 마감됐구요",
+            "norm_text": "A. 죄송하지만 토요일은 전 객실 마감됐구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+토요일/NNG+은/JX+전/MM+객실/NNG+마감/NNG+됐/XSV+EP+구요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A. 괜찮으시면 일요일 예약 비어있어 일요일로 가능합니다",
+            "norm_text": "A. 괜찮으시면 일요일 예약 비어있어 일요일로 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+괜찮/VA+으시/EP+면/EC+일요일/NNG+예약/NNG+비/VV+어/EC+있/VX+어/EC+일요일/NNG+로/JKB+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B. 음 일요일은 너무 늦는데 생각해보고 다시 전화할게요",
+            "norm_text": "B. 음 일요일은 너무 늦는데 생각해보고 다시 전화할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+음/IC+일요일/NNG+은/JX+너무/MAG+늦/VA+는데/EC+생각/NNG+해/XSV+EC+보/VX+고/EC+다시/MAG+전화/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 알겠습니다 언제든 연락주세요 감사합니다",
+            "norm_text": "A. 네 알겠습니다 언제든 연락주세요 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+언제/NP+든/VCP+EC+연락/NNG+주세요/NNP+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 12210,
+    "name": "c1_20210913_0005_0670_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339097055/c1_20210913_0005_0670_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339097055/c1_20210913_0005_0670_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10499,
+      "filename": "c1_20210819_0012_0005_01.txt",
+      "title": "c1_20210819_0012_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 457,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 457,
+        "word_size": 97,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.안녕하세요 #@주소# 문자로 보내주세요\nA.네 알겠습니다 선생님께 같이 문자로 발송해드리겠습니다\nA.다른 문의 사항 있으십니까 선생님\nB.아니에요 지도 상으로 알려주세요\nA.하차 하신 곳에서 지도 확인 후에 안내 해드리겠습니다\nA.하차 하신 곳에서 버스 반대 방향으로 지도 상으로는 #@소속# 확인됩니다\nB.그니까 지도상 반대 방향이요\nA.네 하차 하신 버스 반대방향으로 이동하시면 #@소속# 방향입니다\nA.그러면 #@소속# 그리고 #@소속#가 있습니다\nB.편의점 하나가 있고요\nA.네 #@소속#에서 #@주소# 사이에 골목으로 이동하시면 빌라촌이 보입니다\nA. #@주소#로 확인됩니다\nB.#@주소# 거기 있는 거 맞다고요 일단 문자 보내주세요\nA.연락 주신 번호로 문자 발송 해드리겠습니다\nB.네 문자 보내주세요\nA.환절기 건강 유의하세요 #@소속#입니다\nB.네 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@주소# 문자로 보내주세요",
+            "norm_text": "B.안녕하세요 #@주소# 문자로 보내주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+주소/NNG+#/SY+문자/NNG+로/JKB+보내/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 알겠습니다 선생님께 같이 문자로 발송해드리겠습니다",
+            "norm_text": "A.네 알겠습니다 선생님께 같이 문자로 발송해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+선생/NNG+님/XSN+께/JKB+같이/MAG+문자/NNG+로/JKB+발송/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.다른 문의 사항 있으십니까 선생님",
+            "norm_text": "A.다른 문의 사항 있으십니까 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 5,
+            "text": "B.아니에요 지도 상으로 알려주세요",
+            "norm_text": "B.아니에요 지도 상으로 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+아니/VCN+에요/EF+지도/NNG+상/XSN+으로/JKB+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.하차 하신 곳에서 지도 확인 후에 안내 해드리겠습니다",
+            "norm_text": "A.하차 하신 곳에서 지도 확인 후에 안내 해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+하차/NNG+하/XSV+신/EP+ETM+곳/NNG+에서/JKB+지도/NNG+확인/NNG+후/NNG+에/JKB+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.하차 하신 곳에서 버스 반대 방향으로 지도 상으로는 #@소속# 확인됩니다",
+            "norm_text": "A.하차하신 곳에서 버스 반대 방향으로 지도 상 #@소속# 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+하차/NNG+하/XSV+신/EP+ETM+곳/NNG+에서/JKB+버스/NNG+반대/NNG+방향/NNG+으로/JKB+지도/NNG+상/XSN+#/SY+@/SY+소속/NNG+#/SY+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그니까 지도상 반대 방향이요",
+            "norm_text": "B.그니까 지도상 반대 방향이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그니/NP+까지/JX+도상/NNG+반대/NNG+방향/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 하차 하신 버스 반대방향으로 이동하시면 #@소속# 방향입니다",
+            "norm_text": "A.네 하차 하신 버스 반대방향으로 이동하시면 #@소속# 방향입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+하차/NNG+하/XSV+신/EP+ETM+버스/NNG+반대/NNG+방향/NNG+으로/JKB+이동/NNG+하/XSV+시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+방향/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.그러면 #@소속# 그리고 #@소속#가 있습니다",
+            "norm_text": "A.그러면 #@소속# 그리고 #@소속#가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+면/EC+#/SY+@/SY+소속/NNG+#/SY+그리고/MAJ+#/SY+@/SY+소속/NNG+#/SY+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.편의점 하나가 있고요",
+            "norm_text": "B.편의점 하나가 있고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+편의점/NNG+하나/NR+가/JKS+있/VA+고요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 #@소속#에서 #@주소# 사이에 골목으로 이동하시면 빌라촌이 보입니다",
+            "norm_text": "A.네 #@소속#에서 #@주소# 사이 골목으로 가시면 빌라촌이 보입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+#/SY+@/SY+주소/NNG+#/SY+사이/NNG+골목/NNG+으로/JKB+가/VV+시/EP+면/EC+빌라/NNG+촌/NNG+이/JKS+보입니다/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A. #@주소#로 확인됩니다",
+            "norm_text": "A. #@주소#로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.#@주소# 거기 있는 거 맞다고요 일단 문자 보내주세요",
+            "norm_text": "B.#@주소# 거기 있는 거 맞다고요 일단 문자 보내주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+거기/NP+있/VA+는/ETM+거/NNB+맞/VV+다고요/EC+일단/MAG+문자/NNG+보내/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.연락 주신 번호로 문자 발송 해드리겠습니다",
+            "norm_text": "A.연락 주신 번호로 문자 발송 해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+연락/NNG+주/VV+신/EP+ETM+번호/NNG+로/JKB+문자/NNG+발송/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.네 문자 보내주세요",
+            "norm_text": "B.네 문자 보내주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+문자/NNG+보내/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "A.환절기 건강 유의하세요 #@소속#입니다",
+            "norm_text": "A.환절기 건강 유의하세요 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+환절기/NNG+건강/NNG+유의/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 44914,
+    "name": "s1_20211014_0001_1509_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130708071638/s1_20211014_0001_1509_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130708071638/s1_20211014_0001_1509_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50606,
+      "filename": "s1_20210824_0013_0003_01.txt",
+      "title": "s1_20210824_0013_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 298,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 298,
+        "word_size": 61,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.네 방송보고 전화드렸는데 제가 쓰는게 불나는 제품인가 싶어서요\nA.네 고객님 상품명을 알려주시겠어요\nB.네 상품명은 #@상품#입니다\nA.네 확인해보겠습니다 잠시만 기다려주시겠어요\nB.네 확인해주세요 기다릴게요\nA.네 확인해본 결과 그 제품은 아니구요 다른제품입니다\nA.그 제품은 이상이 없습니다\nB.아니 방송에서 김치냉장고 불난다길래 불안해서요\nA.네 고객님 많이 불안하셨죠 죄송합니다\nB.그래도 내꺼가 아니니까 다행이네요\nA.네 저도 다행이라 생각합니다\nA.더 필요하신 부분은 없으실까요\nB.네 없습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 방송보고 전화드렸는데 제가 쓰는게 불나는 제품인가 싶어서요",
+            "norm_text": "B.네 방송보고 전화드렸는데 제가 쓰는게 불나는 제품인가 싶어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+방송/NNG+보고/JKB+전화/NNG+드렸/VV+EP+는데/EC+제/NP+가/JKS+쓰/VV+는/ETM+게/NNB+JKS+불나/VV+는/ETM+제품/NNG+인가/VCP+EC+싶/VX+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 상품명을 알려주시겠어요",
+            "norm_text": "A.네 고객님 상품명을 알려주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+상품명/NNG+을/JKO+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 상품명은 #@상품#입니다",
+            "norm_text": "B.네 상품명은 #@상품#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+상품명/NNG+은/JX+#/SY+@/SY+상품/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 확인해보겠습니다 잠시만 기다려주시겠어요",
+            "norm_text": "A.네 확인해보겠습니다 잠시만 기다려주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 확인해주세요 기다릴게요",
+            "norm_text": "B.네 확인해주세요 기다릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+해/XSV+EC+주/VX+세요/EP+EF+VCP+기/ETN+다릴/VV+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 확인해본 결과 그 제품은 아니구요 다른제품입니다",
+            "norm_text": "A.네 확인해본 결과 그 제품은 아니구요 다른제품입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+해/XSV+EC+본/VX+ETM+결과/NNG+그/MM+제품/NNG+은/JX+아니/VCN+구요/EF+다른/MM+제품/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.그 제품은 이상이 없습니다",
+            "norm_text": "A.그 제품은 이상이 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+제품/NNG+은/JX+이상/NNG+이/JKS+없/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.아니 방송에서 김치냉장고 불난다길래 불안해서요",
+            "norm_text": "B.아니 방송에서 김치냉장고 불난다길래 불안해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/IC+방송/NNG+에서/JKB+김치냉장고/NNG+불/XPN+난다/NNG+길래/VCP+EC+불안/NNG+해서/XSV+EC+VCP+VCP+요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 고객님 많이 불안하셨죠 죄송합니다",
+            "norm_text": "A.네 고객님 많이 불안하셨죠 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+많이/MAG+불안/NNG+하/XSV+셨/EP+EP+죠/EF+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그래도 내꺼가 아니니까 다행이네요",
+            "norm_text": "B.그래도 내꺼가 아니니까 다행이네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래도/MAJ+내/MM+꺼/NNB+VCP+가/JKC+아니/VCN+니까/EC+다행/NNG+이/VCP+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 저도 다행이라 생각합니다",
+            "norm_text": "A.네 저도 다행이라 생각합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저/NP+도/JX+다행/NNG+이/VCP+라/EC+생각/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.더 필요하신 부분은 없으실까요",
+            "norm_text": "A.더 필요하신 부분은 없으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+필요/NNG+하/XSV+신/EP+ETM+부분/NNG+은/JX+없/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 14,
+            "text": "B.네 없습니다 감사합니다",
+            "norm_text": "B.네 없습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+없/VA+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

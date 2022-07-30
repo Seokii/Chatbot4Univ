@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 48050,
+    "name": "c2_20211015_0023_0001_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151520035446/c2_20211015_0023_0001_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151520035446/c2_20211015_0023_0001_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 14422,
+      "filename": "c2_20210902_0020_0006_01.txt",
+      "title": "c2_20210902_0020_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 586,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 586,
+        "word_size": 130,
+        "text": "A.안녕하세요 상담원 #@이름# 입니다\nB.안녕하세요 #@주소# 십오 단지에 살고 있는데요\nA.세종시 #@주소# 맞으십니까\nB.맞습니다 #@주소# 십오단지에서 갈 수 있는 중학교는 어디인가요\nA.확인해 드리겠습니다 잠시만요 혹시 몇 동인지 말씀해주시겠어요\nB.저는 #@주소#에 살고 있어요\nA.천 오백칠동의 경우는 근거리 학교가 #@소속#중학교 입니다\nB.그럼 나머지 다른 동은 다른 학교인가요\nA.나머지 동은 근거리 학교가 #@소속#중학교 입니다\nB.그러면 무조건 근거리 학교로 배정이 되나요\nA.일단은 일지망 이지망 신청하셨잖아요\nA.일지망 지원 인원이 신입생 배정 인원보다 적거나 같은 경우에는요\nA.지원한 전원 일지망 학교에 배정이 됩니다\nB.그럼 배정 인원보다 지원한 인원이 많으면 어떻게 되요\nA.만약에 #@소속#중의 정원보다 지원자가 많다면요\nA.정원의 백퍼센트를 근거리 중학교 순위로 추첨 배정을 해요\nB.그럼 그 근거리 순위 라는걸 어떻게 정하는 거에요\nA.아파트는 동 출입구에서 학교 정문이나 후문까지의 거리를 재는데요\nA.일반적인 통행로 중에 가장 가까운 길로 측정을 합니다\nB.알겠습니다 자세히 설명해 주셔서 감사합니다\nA.감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담원 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 상담원 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@주소# 십오 단지에 살고 있는데요",
+            "norm_text": "B.안녕하세요 #@주소# 십오 단지에 살고 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+주소/NNG+#/SY+십/NR+오/NR+단지/NNBC+에/JKB+살/VV+고/EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.세종시 #@주소# 맞으십니까",
+            "norm_text": "A.세종시 #@주소# 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+세/MM+종시/NNG+#/SY+@/SY+주소/NNG+#/SY+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.맞습니다 #@주소# 십오단지에서 갈 수 있는 중학교는 어디인가요",
+            "norm_text": "B.맞습니다 #@주소#에서 갈 수 있는 중학교는 어디인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+맞/VV+습니다/EF+#/SY+@/SY+주소/NNG+#/SY+십/NR+오/NR+단지/NNBC+에서/JKB+갈/VV+ETM+수/NNB+있/VV+는/ETM+중학교/NNG+는/JX+어디/NP+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.확인해 드리겠습니다 잠시만요 혹시 몇 동인지 말씀해주시겠어요",
+            "norm_text": "A.확인해 드리겠습니다 잠시만요 혹시 몇 동인지 말씀해주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+잠시/NNG+만/JX+요/JX+혹시/MAG+몇/MM+동/NNBC+인지/VCP+EC+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.저는 #@주소#에 살고 있어요",
+            "norm_text": "B.저는 #@주소#에 살고 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/NP+는/JX+#/SY+@/SY+주소/NNG+#/SY+에/JKB+살/VV+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.천 오백칠동의 경우는 근거리 학교가 #@소속#중학교 입니다",
+            "norm_text": "A.#@주소#의 경우는 근거리 학교가 #@소속#중학교 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+천/NR+오/NR+백/NR+칠/NR+동/NNBC+의/JKG+경우/NNG+는/JX+근거리/NNG+학교/NNG+가/JKS+#/SY+@/SY+소속/NNG+#/SY+중학교/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 나머지 다른 동은 다른 학교인가요",
+            "norm_text": "B.그럼 나머지 다른 동은 다른 학교인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+나머지/NNG+다른/MM+동/NNG+은/JX+다른/MM+학교/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.나머지 동은 근거리 학교가 #@소속#중학교 입니다",
+            "norm_text": "A.나머지 동은 근거리 학교가 #@소속#중학교 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+나머지/NNG+동/NNG+은/JX+근거리/NNG+학교/NNG+가/JKS+#/SY+@/SY+소속/NNG+#/SY+중학교/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그러면 무조건 근거리 학교로 배정이 되나요",
+            "norm_text": "B.그러면 무조건 근거리 학교로 배정이 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+무조건/MAG+근거리/NNG+학교/NNG+로/JKB+배정/NNG+이/JKS+되/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.일단은 일지망 이지망 신청하셨잖아요",
+            "norm_text": "A.일단은 일지망 이지망 신청하셨잖아요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+일단/MAG+은/JX+일/NNG+지망/NNG+이/JKS+지망/NNG+신청/NNG+하/XSV+셨잖아요/EP+EP+EC+VX+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.일지망 지원 인원이 신입생 배정 인원보다 적거나 같은 경우에는요",
+            "norm_text": "A.일지망 지원 인원이 신입생 배정 인원보다 적거나 같은 경우에는요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+일/NNG+지망/NNG+지원/NNG+인원/NNG+이/JKS+신입/NNG+생/XSN+배정/NNG+인원/NNG+보다/JKB+적/VA+거나/EC+같/VA+은/ETM+경우/NNG+에/JKB+는/JX+요/JX"
+          },
+          {
+            "id": 13,
+            "text": "A.지원한 전원 일지망 학교에 배정이 됩니다",
+            "norm_text": "A.지원한 전원 일지망 학교에 배정이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+지원/NNG+한/XSA+ETM+전원일/NNP+지망/NNG+학교/NNG+에/JKB+배정/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.그럼 배정 인원보다 지원한 인원이 많으면 어떻게 되요",
+            "norm_text": "B.그럼 배정 인원보다 지원한 인원이 많으면 어떻게 되요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+배정/NNG+인원/NNG+보다/JKB+지원/NNG+한/XSA+ETM+인원/NNG+이/JKS+많/VA+으면/EC+어떻게/MAG+되/VV+요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.만약에 #@소속#중의 정원보다 지원자가 많다면요",
+            "norm_text": "A.만약에 #@소속#중의 정원보다 지원자가 많다면요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+만약/NNG+에/JKB+#/SY+@/SY+소속/NNG+#/SY+중/NNB+의/JKG+정원/NNG+보다/JKB+지원자/NNG+가/JKS+많/VA+다면/EC+요/JX"
+          },
+          {
+            "id": 16,
+            "text": "A.정원의 백퍼센트를 근거리 중학교 순위로 추첨 배정을 해요",
+            "norm_text": "A.정원의 백퍼센트를 근거리 중학교 순위로 추첨 배정을 해요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+정원/NNG+의/JKG+백/NR+퍼센트/NNBC+를/JKO+근거리/NNG+중학교/NNG+순위/NNG+로/JKB+추첨/NNG+배정/NNG+을/JKO+해요/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.그럼 그 근거리 순위 라는걸 어떻게 정하는 거에요",
+            "norm_text": "B.그럼 그 근거리 순위 라는걸 어떻게 정하는 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+그/MM+근거리/NNG+순위/NNG+라는/VCP+ETM+걸/NNB+JKO+어떻게/MAG+정하/VV+는/ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 18,
+            "text": "A.아파트는 동 출입구에서 학교 정문이나 후문까지의 거리를 재는데요",
+            "norm_text": "A.아파트는 동 출입구에서 학교 정문이나 후문까지의 거리를 재는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+아파트/NNG+는/JX+동/MM+출입구/NNG+에서/JKB+학교/NNG+정문/NNG+이나/JC+후문/NNG+까지/JX+의/JKG+거리/NNG+를/JKO+재/VV+는데요/EC"
+          },
+          {
+            "id": 19,
+            "text": "A.일반적인 통행로 중에 가장 가까운 길로 측정을 합니다",
+            "norm_text": "A.일반적인 통행로 중에 가장 가까운 길로 측정을 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+일반/NNG+적/XSN+인/VCP+ETM+통행로/NNG+중/NNB+에/JKB+가장/MAG+가까운/VA+ETM+길/NNG+로/JKB+측정/NNG+을/JKO+합니다/VV+EC"
+          },
+          {
+            "id": 20,
+            "text": "B.알겠습니다 자세히 설명해 주셔서 감사합니다",
+            "norm_text": "B.알겠습니다 자세히 설명해 주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+자세히/MAG+설명/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 21,
+            "text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 141863,
+    "name": "t1_20211115_0002_0677_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135717098429/t1_20211115_0002_0677_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135717098429/t1_20211115_0002_0677_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148382,
+      "filename": "t1_0070_0046_02.txt",
+      "title": "t1_0070_0046_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 419,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 419,
+        "word_size": 98,
+        "text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다\nB. 안녕하세요 숙박 관련해서도 상담을 해주시나요\nA. 네 편하게 말씀해 주세요 고객님\nB. 네 6명이서 속리산 말티재자연휴양림을 가려고 하는데요\nB. 어떤 방을 예약해야 되나요 알려주세요\nA. 네 고객님 6인실을 예약해 주시면 되는데요\nB. 6인실이요 숲속의집으로 예약하고 싶은데 어디를 예약하면 돼요\nA. 네 601호 602호 603호가 모두 6인실이구요 여기를 예약하시면 돼요\nB. 여기 601호 부엉이 602호 뻐꾸기 603호 소쩍새 말씀하시는 거죠\nA. 네 맞습니다 모두 6인이 이용하실 수 있으세요\nB. 여기 요금은 얼마예요\nA. 네 평일요금은 67000원 주말요금은 119000원입니다\nB. 그렇군요 상담해 주셔서 고맙습니다 수고하세요\nA. 네 고맙습니다 #@소속# 상담원 #@이름#이었습니다 좋은 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 숙박 관련해서도 상담을 해주시나요",
+            "norm_text": "B. 안녕하세요 숙박 관련해서도 상담을 해주시나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+숙박/NNG+관련/NNG+해서/XSV+EC+도/JX+상담/NNG+을/JKO+해/VV+EC+주/VX+시/EP+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 편하게 말씀해 주세요 고객님",
+            "norm_text": "A. 네 편하게 말씀해 주세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+편하/VA+게/EC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B. 네 6명이서 속리산 말티재자연휴양림을 가려고 하는데요",
+            "norm_text": "B. 네 6명이서 속리산 말티재자연휴양림을 가려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/MM+6/SN+명/NNBC+이/XSN+서/JKS+속리산/NNG+말/NNG+티/NNG+재/XPN+자연/NNG+휴양림/NNG+을/JKO+가/VV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B. 어떤 방을 예약해야 되나요 알려주세요",
+            "norm_text": "B. 어떤 방을 예약해야 되나요 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+어떤/MM+방/NNG+을/JKO+예약/NNG+해야/XSV+EC+되/VV+나요/EC+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A. 네 고객님 6인실을 예약해 주시면 되는데요",
+            "norm_text": "A. 네 고객님 6인실을 예약해 주시면 되는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+6/SN+인/NNG+실/NNG+을/JKO+예약/NNG+해/XSV+EC+주/VX+시/EP+면/EC+되/VV+는데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 6인실이요 숲속의집으로 예약하고 싶은데 어디를 예약하면 돼요",
+            "norm_text": "B. 숲속의집으로 예약하고 싶은데 어디를 예약하면 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+6/SN+인/NNG+실/NNG+이/VCP+요/EC+숲/NNG+속/NNG+의/JKG+집/NNG+으로/JKB+예약/NNG+하/XSV+고/EC+싶/VX+은데/EC+어디/NP+를/JKO+예약/NNG+하/XSV+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 네 601호 602호 603호가 모두 6인실이구요 여기를 예약하시면 돼요",
+            "norm_text": "A. 네 601호 602호 603호가 모두 6인실입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/MM+601/SN+호/NNBC+602/SN+호/NNBC+603/SN+호/NNBC+가/JKS+모두/MAG+6/SN+인/NNG+실/NNG+이/VCP+구요/EF+여기/NP+를/JKO+예약/NNG+하/XSV+시/EP+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B. 여기 601호 부엉이 602호 뻐꾸기 603호 소쩍새 말씀하시는 거죠",
+            "norm_text": "B. 방이름이 부엉이 뻐꾸기 소쩍새맞죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여기/NP+601/SN+호/NNBC+부엉이/NNG+602/SN+호/NNBC+뻐꾸기/NNG+603/SN+호/NNBC+소쩍새/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 맞습니다 모두 6인이 이용하실 수 있으세요",
+            "norm_text": "A. 네 맞습니다 모두 6인이 이용하실 수 있으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+모두/MAG+6/SN+인/NNG+이/JKS+이용/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+으세요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B. 여기 요금은 얼마예요",
+            "norm_text": "B. 여기 요금은 얼마예요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여기/NP+요금/NNG+은/JX+얼마/NNG+예요/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A. 네 평일요금은 67000원 주말요금은 119000원입니다",
+            "norm_text": "A. 네 평일요금은 67000원 주말요금은 119000원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+평일/NNG+요금/NNG+은/JX+67000/SN+원/NNBC+주말/NNG+요금/NNG+은/JX+119000/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B. 그렇군요 상담해 주셔서 고맙습니다 수고하세요",
+            "norm_text": "B. 그렇군요 상담해 주셔서 고맙습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+상담/NNG+해/XSV+EC+주/VX+셔서/EP+EC+고맙/VA+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A. 네 고맙습니다 #@소속# 상담원 #@이름#이었습니다 좋은 하루 되세요",
+            "norm_text": "A. 네 고맙습니다 #@소속# 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고맙/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 115937,
+    "name": "s3_20211105_0005_0105_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110831004233/s3_20211105_0005_0105_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110831004233/s3_20211105_0005_0105_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119540,
+      "filename": "s3_20211026_0028_0037_01.txt",
+      "title": "s3_20211026_0028_0037_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 338,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 338,
+        "word_size": 82,
+        "text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다\nB.결제가 자꾸 안 되서 전화 했어요 왜 안 되는 건가요\nA.네 고객님 확인을 위해 고객님의 성함과 전화 번호를 말해 주세요\nB.이름은 #@이름#이고요 #@전번#이 전화번호에요\nA.네 고객님 제가 확인 해 보니까요 잔액 부족 코드가 계속 떠 있습니다\nB.네 잔액 부족이라고요 아닌데 백만 원 이상이 들어 있는 계좌 카드인데요\nA.고객님 #@소속# 카드로 결제 하셨는데 맞으신가요\nB.아니요 #@소속# 카드로 결제 시도했는데 #@소속#으로 되있어요\nA.네 고객님 다시 결제 시 카드가 안 바뀌어 있는지 확인 하시고요\nA.결제를 다시 시도해 보세요\nB.네 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+의상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.결제가 자꾸 안 되서 전화 했어요 왜 안 되는 건가요",
+            "norm_text": "B.결제가 자꾸 안 돼서 전화했어요 왜 안 되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+결제/NNG+가/JKS+자꾸/MAG+안/MAG+돼서/VV+EC+전화/NNG+했/XSV+EP+어요/EF+왜/MAG+안/MAG+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 확인을 위해 고객님의 성함과 전화 번호를 말해 주세요",
+            "norm_text": "A.네 고객님 확인을 위해 고객님의 성함과 전화 번호를 말해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+확인/NNG+을/JKO+위해/VV+EC+고객/NNG+님/XSN+의/JKG+성함/NNG+과/JC+전화/NNG+번호/NNG+를/JKO+말/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.이름은 #@이름#이고요 #@전번#이 전화번호에요",
+            "norm_text": "B.이름은 #@이름#이고요 #@전번#이 전화번호예요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+#/SY+@/SY+전번/NNG+#/SY+이/JKS+전화/NNG+번호/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 제가 확인 해 보니까요 잔액 부족 코드가 계속 떠 있습니다",
+            "norm_text": "A.네 고객님 제가 확인하니까요 잔액 부족 코드가 계속 떠 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+제/NP+가/JKS+확인/NNG+하/XSV+니까요/EC+잔액/NNG+부족/NNG+코드/NNG+가/JKS+계속/MAG+떠/VV+EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 잔액 부족이라고요 아닌데 백만 원 이상이 들어 있는 계좌 카드인데요",
+            "norm_text": "B.네 잔액 부족이라고요 백만 원 이상이 들어 있는 계좌 카드인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+잔액/NNG+부족/NNG+이/VCP+라고요/EF+백만/NR+원/NNBC+이상/NNG+이/JKS+들/VV+어/EC+있/VX+는/ETM+계좌/NNG+카드/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.고객님 #@소속# 카드로 결제 하셨는데 맞으신가요",
+            "norm_text": "A.고객님 #@소속# 카드로 결제하셨는데 맞으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+#/SY+@/SY+소속/NNG+#/SY+카드/NNG+로/JKB+결제/NNG+하/XSV+셨/EP+EP+는데/EC+맞/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "B.아니요 #@소속# 카드로 결제 시도했는데 #@소속#으로 되있어요",
+            "norm_text": "B.아니요 #@소속# 카드로 결제 시도했는데 #@소속#으로 돼 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/VCN+요/EC+#/SY+@/SY+소속/NNG+#/SY+카드/NNG+로/JKB+결제/NNG+시도/NNG+했/XSV+EP+는데/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+돼/VV+EC+있/VX+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 고객님 다시 결제 시 카드가 안 바뀌어 있는지 확인 하시고요",
+            "norm_text": "A.네 고객님 다시 결제 시 카드가 안 바뀌어 있는지 확인하시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+다시/MAG+결제/NNG+시/NNG+카드/NNG+가/JKS+안/MAG+바뀌/VV+어/EC+있/VX+는지/EC+확인/NNG+하/XSV+시/EP+고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.결제를 다시 시도해 보세요",
+            "norm_text": "A.결제를 다시 시도해 보세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+결제/NNG+를/JKO+다시/MAG+시도/NNG+해/XSV+EC+보/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 16364,
+    "name": "s3_20210915_0010_1150_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514160009104/s3_20210915_0010_1150_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514160009104/s3_20210915_0010_1150_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11795,
+      "filename": "s2_20210906_0015_0004_01.txt",
+      "title": "s2_20210906_0015_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 235,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 235,
+        "word_size": 50,
+        "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다\nB.네 제가 #@상품#을 대여하려고요\nA.네 고객님 대여 서비스 도와드리겠습니다\nA.명의 받으실 저희 고객님 성함은 어떻게 되세요\nB.네 제 이름이 #@이름#이에요\nA.감사합니다 생년월일이 어떻게 되십니까\nB.예 제가 #@신원#입니다\nA.네 별도로 사업자가 있으신 건 아니시구요\nB.여기 사업장이에요 #@소속#입니다\nA.그러면 사업자로 해 드릴까요\nB.사업자 이름으로 하면 할인이 더 되나요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 제가 #@상품#을 대여하려고요",
+            "norm_text": "B.네 제가 #@상품#을 대여하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+#/SY+@/SY+상품/NNG+#/SY+을/JKO+대여/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 대여 서비스 도와드리겠습니다",
+            "norm_text": "A.네 고객님 대여 서비스 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+대여/NNG+서비스/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.명의 받으실 저희 고객님 성함은 어떻게 되세요",
+            "norm_text": "A.명의 받으실 저희 고객님 성함은 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+명의/NNG+받/VV+으실/EP+ETM+저희/NP+고객/NNG+님/XSN+성함/NNG+은/JX+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.네 제 이름이 #@이름#이에요",
+            "norm_text": "B.네 제 이름이 #@이름#이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+JKG+이름/NNG+이/JKS+#/SY+@/SY+이름/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.감사합니다 생년월일이 어떻게 되십니까",
+            "norm_text": "A.감사합니다 생년월일이 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+생년월일/NNG+이/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.예 제가 #@신원#입니다",
+            "norm_text": "B.예 제가 #@신원#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+제/NP+가/JKS+#/SY+@/SY+신원/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 별도로 사업자가 있으신 건 아니시구요",
+            "norm_text": "A.네 별도로 사업자가 있으신 건 아니시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+별도/NNG+로/JKB+사업자/NNG+가/JKS+있/VA+으신/EP+ETM+건/NNB+JX+아니/VCN+시/EP+구요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.여기 사업장이에요 #@소속#입니다",
+            "norm_text": "B.여기 사업장이에요 #@소속#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+사업장/NNG+이/VCP+에요/EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.그러면 사업자로 해 드릴까요",
+            "norm_text": "A.그러면 사업자로 해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러면/MAJ+사업자/NNG+로/JKB+해드릴까요/VV+EC+VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.사업자 이름으로 하면 할인이 더 되나요",
+            "norm_text": "B.사업자 이름으로 하면 할인이 더 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+사업자/NNG+이름/NNG+으로/JKB+하/VV+면/EC+할인/NNG+이/JKS+더/MAG+되/VV+나요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

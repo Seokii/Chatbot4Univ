@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 30472,
+    "name": "c1_20211006_0005_0027_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341045589/c1_20211006_0005_0027_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341045589/c1_20211006_0005_0027_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10713,
+      "filename": "c1_20210819_0016_0014_01.txt",
+      "title": "c1_20210819_0016_0014_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 383,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 383,
+        "word_size": 77,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.감사합니다 #@소속# #@이름# 입니다\nA.민원인께서 데이터베이스 담당을 말씀하시며 전산 담당자를 찾고 계십니다\nA.혹시#@소속#에서는 답변이 가능하실까요 어떤 서버인지는 모르겠는데요\nB.서버를 확실히 알아야 답변이 가능합니다\nA.그렇습니까 현재 민원인께서 데이터베이스라고만 하셨습니다\nB.어떤 업무 때문에 그러시는지 디비 서버는 이제 여러 사람이 담당하고 있는데요\nB.저희 쪽에 문의하시는 거보다 정보자원시스템 유지 보수하시는 분이 있습니다\nB.#@이름# 주무관님이시거든요 #@전번# 으로 연락하시는 게 더 빠를 것 같아요\nA.네 알겠습니다 안내 감사합니다\nB.네 지금 그쪽으로 돌려드릴까요\nA.아닙니다 주사님 제가 민원인께 안내 후 연결하겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.감사합니다 #@소속# #@이름# 입니다",
+            "norm_text": "B.감사합니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.민원인께서 데이터베이스 담당을 말씀하시며 전산 담당자를 찾고 계십니다",
+            "norm_text": "A.민원인께서 데이터베이스 담당을 말씀하시며 전산 담당자를 찾고 계십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+민원인/NNG+께서/JKS+데이터베이스/NNG+담당/NNG+을/JKO+말씀/NNG+하/XSV+시/EP+며/EC+전산/NNG+담당자/NNG+를/JKO+찾/VV+고/EC+계십니다/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.혹시#@소속#에서는 답변이 가능하실까요 어떤 서버인지는 모르겠는데요",
+            "norm_text": "A.혹시#@소속#에서는 답변이 가능하실까요 어떤 서버인지는 모르겠는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+는/JX+답변/NNG+이/JKS+가능/NNG+하/XSV+실까요/EP+EF+어떤/MM+서버/NNG+인지/VCP+EC+는/JX+모르/VV+겠/EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.서버를 확실히 알아야 답변이 가능합니다",
+            "norm_text": "B.서버를 확실히 알아야 답변이 가능합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+서버/NNG+를/JKO+확실히/MAG+알/VV+아야/EC+답변/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.그렇습니까 현재 민원인께서 데이터베이스라고만 하셨습니다",
+            "norm_text": "A.그렇습니까 현재 민원인께서 데이터베이스라고만 하셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그렇/VA+습니까/EF+현재/MAG+민원인/NNG+께서/JKS+데이터베이스/NNG+라고/VCP+EC+만하/VX+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.어떤 업무 때문에 그러시는지 디비 서버는 이제 여러 사람이 담당하고 있는데요",
+            "norm_text": "B.어떤 업무 때문에 그러시는지 디비 서버는 이제 여러 사람이 담당하고 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+어떤/MM+업무/NNG+때문/NNB+에/JKB+그러/VV+시/EP+는지/EC+디비/NNG+서버/NNG+는/JX+이제/MAG+여러/MM+사람/NNG+이/JKS+담당/NNG+하/XSV+고/EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.저희 쪽에 문의하시는 거보다 정보자원시스템 유지 보수하시는 분이 있습니다",
+            "norm_text": "B.저희 쪽에 문의하시는 거보다 정보자원시스템 유지 보수하시는 분이 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+쪽/NNB+에/JKB+문의/NNG+하/XSV+시/EP+는/ETM+거/NNB+보다/JKB+정보/NNG+자원/NNG+시스템/NNG+유지/NNG+보수/NNG+하/XSV+시/EP+는/ETM+분/NNB+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.#@이름# 주무관님이시거든요 #@전번# 으로 연락하시는 게 더 빠를 것 같아요",
+            "norm_text": "B.#@이름# 주무관님이시거든요 #@전번# 으로 연락하시는 게 더 빠를 것 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+님/XSN+이/VCP+시/EP+거든요/EF+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+연락/NNG+하/XSV+시/EP+는/ETM+게/NNB+JKS+더/MAG+빠를/VA+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 알겠습니다 안내 감사합니다",
+            "norm_text": "A.네 알겠습니다 안내 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 지금 그쪽으로 돌려드릴까요",
+            "norm_text": "B.네 지금 그쪽으로 돌려드릴까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+지금/MAG+그쪽/NP+으로/JKB+돌려/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.아닙니다 주사님 제가 민원인께 안내 후 연결하겠습니다 감사합니다",
+            "norm_text": "A.아닙니다 주사님 제가 민원인께 안내 후 연결하겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+아닙니다/VCN+EC+주사/NNG+님/XSN+제/NP+가/JKS+민원인/NNG+께/JKB+안내/NNG+후/NNG+연결/NNG+하/XSV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

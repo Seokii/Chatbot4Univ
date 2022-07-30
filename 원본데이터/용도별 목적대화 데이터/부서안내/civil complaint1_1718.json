@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 13553,
+    "name": "c1_20210913_0005_0119_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151338096291/c1_20210913_0005_0119_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151338096291/c1_20210913_0005_0119_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10349,
+      "filename": "c1_20210818_0045_0036_01.txt",
+      "title": "c1_20210818_0045_0036_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 524,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 524,
+        "word_size": 119,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.안녕하세요 문의사항이 있어 전화 드렸습니다\nB.티비 시청 때문에 궁금한 사항이 있어 전화드렸어요\nA.그러시군요 티비 시청은 가입하신 해당 통신사에 문의 주시면 좋으실 듯 싶습니다\nB.제가 지금 티비를 보고 있는데 유선방송 있잖아요\nB.그 유선 방송 센터가 #@소속# 아닌가요\nA.선생님 죄송하지만 #@소속#은 유선방송을 가입 하는 곳이 아닙니다\nA.#@소속#은 #@소속# 홈페이지 이름입니다\nB.그랬군요 제가 몰랐습니다\nA.혹시 지금 이용 중이신 #@소속# 방송 관련 문의이십니까\nB.네 유선 티비 보는 거에 대해 문의사항이 있어서요\nA.유선방송도 지금 가입 하신 통신사에 따라 문의 하시는 곳이 달라 집니다\nA.혹시 지금 이용하시는 티비 방송 통신사가 #@소속#이십니까\nB.아니요 지금 확인 해보니 #@소속#네요\nB.그럼 #@소속#에로 전화를 해야 되는 거네요\nA.네 맞습니다 선생님 #@소속#에 문의를 주시면 좋을 듯 싶습니다\nB.알겠습니다 그럼 그렇게 하겠습니다\nA.예 더 다른 문의사항 있으십니까",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 문의사항이 있어 전화 드렸습니다",
+            "norm_text": "B.안녕하세요 문의사항이 있어 전화 드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+사항/NNG+이/JKS+있/VV+어/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.티비 시청 때문에 궁금한 사항이 있어 전화드렸어요",
+            "norm_text": "B.티비 시청 때문에 궁금한 사항이 있어 전화드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+티비/NNG+시청/NNG+때문/NNB+에/JKB+궁금/XR+한/XSA+ETM+사항/NNG+이/JKS+있/VV+어/EC+전화/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.그러시군요 티비 시청은 가입하신 해당 통신사에 문의 주시면 좋으실 듯 싶습니다",
+            "norm_text": "A.그러시군요 티비 시청은 해당 통신사에 문의 주시면 좋으실 듯 싶습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+그러/VV+시/EP+군요/EC+티비/NNG+시청/NNG+은/JX+해당/NNG+통신사/NNG+에/JKB+문/NNG+의/JKG+주/VV+시/EP+면/EC+좋/VA+으실/EP+ETM+듯/NNB+싶/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.제가 지금 티비를 보고 있는데 유선방송 있잖아요",
+            "norm_text": "B.제가 지금 티비를 보고 있는데 유선방송 있잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+지금/MAG+티비/NNG+를/JKO+보/VV+고/EC+있/VX+는데/EC+유선/NNG+방송/NNG+있/VV+잖아요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그 유선 방송 센터가 #@소속# 아닌가요",
+            "norm_text": "B.그 유선 방송 센터가 #@소속# 아닌가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그/MM+유선/NNG+방송/NNG+센터/NNG+가/JKS+#/SY+@/SY+소속/NNG+#/SY+아닌가요/VCN+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.선생님 죄송하지만 #@소속#은 유선방송을 가입 하는 곳이 아닙니다",
+            "norm_text": "A.선생님 죄송하지만 #@소속#은 유선방송을 가입 하는 곳이 아닙니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+죄송/XR+하/XSA+지만/EC+#/SY+@/SY+소속/NNG+#/SY+은/JX+유선/NNG+방송/NNG+을/JKO+가입/NNG+하/XSV+는/ETM+곳/NNG+이/JKC+아닙니다/VCN+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.#@소속#은 #@소속# 홈페이지 이름입니다",
+            "norm_text": "A.#@소속#은 #@소속# 홈페이지 이름입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+은/JX+#/SY+@/SY+소속/NNG+#/SY+홈페이지/NNG+이름/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그랬군요 제가 몰랐습니다",
+            "norm_text": "B.그랬군요 제가 몰랐습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그랬/VV+EP+군요/EF+제/NP+가/JKS+몰랐/VV+EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.혹시 지금 이용 중이신 #@소속# 방송 관련 문의이십니까",
+            "norm_text": "A.혹시 지금 이용 중이신 #@소속# 방송 관련 문의이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+지금/MAG+이용/NNG+중/NNB+이/VCP+신/EP+ETM+#/SY+@/SY+소속/NNG+#/SY+방송/NNG+관련/NNG+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 유선 티비 보는 거에 대해 문의사항이 있어서요",
+            "norm_text": "B.네 유선 티비 보는 거에 대해 문의사항이 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+유선/NNG+티비/NNG+보/VV+는/ETM+거/NNB+에/JKB+대해/VV+EC+문/NNG+의/JKG+사항/NNG+이/JKS+있/VV+어서요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.유선방송도 지금 가입 하신 통신사에 따라 문의 하시는 곳이 달라 집니다",
+            "norm_text": "A.유선방송도 지금 가입 하신 통신사에 따라 문의 하시는 곳이 달라 집니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+유선/NNG+방송/NNG+도/JX+지금/MAG+가입/NNG+하/XSV+신/EP+ETM+통신사/NNG+에/JKB+따라/VV+EC+문의/NNG+하/XSV+시/EP+는/ETM+곳/NNG+이/JKS+달라집니다/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.혹시 지금 이용하시는 티비 방송 통신사가 #@소속#이십니까",
+            "norm_text": "A.혹시 지금 이용하시는 티비 방송 통신사가 #@소속#이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+지금/MAG+이용/NNG+하/XSV+시/EP+는/ETM+티비/NNG+방송/NNG+통신사/NNG+가/JKS+#/SY+@/SY+소속/NNG+#/SY+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.아니요 지금 확인 해보니 #@소속#네요",
+            "norm_text": "B.아니요 지금 확인 해보니 #@소속#네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+지금/MAG+확인/NNG+해/XSV+EC+보/VX+니/EC+#/SY+@/SY+소속/NNG+#/SY+네요/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.그럼 #@소속#에로 전화를 해야 되는 거네요",
+            "norm_text": "B.그럼 #@소속#에로 전화를 해야 되는 거네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그럼/MAJ+#/SY+@/SY+소속/NNG+#/SY+에로/NNG+전화/NNG+를/JKO+해야/VV+EC+되/VV+는/ETM+거/NNB+네요/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 맞습니다 선생님 #@소속#에 문의를 주시면 좋을 듯 싶습니다",
+            "norm_text": "A.네 맞습니다 선생님 #@소속#에 문의를 주시면 좋을 듯 싶습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+선생/NNG+님/XSN+#/SY+@/SY+소속/NNG+#/SY+에/JKB+문의/NNG+를/JKO+주/VV+시/EP+면/EC+좋/VA+을/ETM+듯/NNB+싶/VX+습니다/EF"
+          },
+          {
+            "id": 17,
+            "text": "B.알겠습니다 그럼 그렇게 하겠습니다",
+            "norm_text": "B.알겠습니다 그럼 그렇게 하겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그럼/MAJ+그렇게/MAG+하/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 18,
+            "text": "A.예 더 다른 문의사항 있으십니까",
+            "norm_text": "A.예 더 다른 문의사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+더/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

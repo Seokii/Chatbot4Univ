@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 141286,
+    "name": "t1_20211115_0002_0478_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715070398/t1_20211115_0002_0478_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715070398/t1_20211115_0002_0478_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148104,
+      "filename": "t1_0068_0030_02.txt",
+      "title": "t1_0068_0030_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 309,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 309,
+        "word_size": 64,
+        "text": "A.즐거운 여행 #@소속# #@이름# 입니다\nB.20여명의 단체가 고택체험과 문화체험 가능한 숙박시설 추천해 주세요\nA.달성군에 위치한 대니골 니암고택 추천해 드리겠습니다\nB.여기 숙박시설에서는 어떤 것들이 제공되나요\nA.농촌체험 전통놀이체험이 가능하고 토종닭으로 만든 음식 제공도 됩니다\nB.대니골 니암고택 연락처 주시겠어요\nA.#@전번# 입니다 다른 문의 사항 있으신가요\nB.한 가지만 더 여쭈어 볼게요 샤워시설은 마련되어 있나요\nA.공용샤워실이 마련되어 있습니다\nB.알겠습니다 다른 문의는 주신 연락처로 할게요 감사합니다\nA.#@소속# #@이름# 였습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.즐거운 여행 #@소속# #@이름# 입니다",
+            "norm_text": "A.즐거운 여행 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+여행/NNG+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.20여명의 단체가 고택체험과 문화체험 가능한 숙박시설 추천해 주세요",
+            "norm_text": "B.20여명의 단체가 고택체험과 문화체험 가능한 숙박시설 추천해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+20/SN+여/XSN+명/NNBC+의/JKG+단체/NNG+가/JKS+고택/NNG+체험/NNG+과/JC+문화/NNG+체험/NNG+가능/NNG+한/XSA+ETM+숙박/NNG+시설/NNG+추천/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.달성군에 위치한 대니골 니암고택 추천해 드리겠습니다",
+            "norm_text": "A.달성군에 위치한 대니골 니암고택 추천해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+달성군/NNG+에/JKB+위치/NNG+한/XSA+ETM+대니/NNP+골/NNP+니암/NNP+고택/NNG+추천/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.여기 숙박시설에서는 어떤 것들이 제공되나요",
+            "norm_text": "B.여기 숙박시설에서는 어떤 것들이 제공되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여기/NP+숙박/NNG+시설/NNG+에서/JKB+는/JX+어떤/MM+것/NNB+들/XSN+이/JKS+제공/NNG+되/XSV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.농촌체험 전통놀이체험이 가능하고 토종닭으로 만든 음식 제공도 됩니다",
+            "norm_text": "A.농촌체험 전통놀이체험이 가능하고 토종닭으로 만든 음식 제공도 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+농촌/NNG+체험/NNG+전통/NNG+놀이/NNG+체험/NNG+이/JKS+가능/NNG+하/XSV+고/EC+토종닭/NNG+으로/JKB+만든/VV+ETM+음식/NNG+제공/NNG+도/JX+됩니다/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.대니골 니암고택 연락처 주시겠어요",
+            "norm_text": "B.대니골 니암고택 연락처 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+대니/NNP+골/NNP+니암/NNP+고택/NNG+연락처/NNG+주/VV+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.#@전번# 입니다 다른 문의 사항 있으신가요",
+            "norm_text": "A.#@전번# 입니다 다른 문의 사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EF+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "B.한 가지만 더 여쭈어 볼게요 샤워시설은 마련되어 있나요",
+            "norm_text": "B.한 가지만 더 여쭈어 볼게요 샤워시설은 마련되어 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+한/MM+가지/NNBC+만/JX+더/MAG+여쭈/VV+어/EC+볼게요/VX+EF+샤워/NNG+시설/NNG+은/JX+마련/NNG+되/XSV+어/EC+있/VX+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.공용샤워실이 마련되어 있습니다",
+            "norm_text": "A.공용샤워실이 마련되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+공용/NNG+샤워실/MAG+이/MM+마련/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 다른 문의는 주신 연락처로 할게요 감사합니다",
+            "norm_text": "B.알겠습니다 다른 문의는 주신 연락처로 할게요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+다른/MM+문의/NNG+는/JX+주/VX+신/EP+ETM+연락처/NNG+로/JKB+할게요/VV+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.#@소속# #@이름# 였습니다 감사합니다",
+            "norm_text": "A.#@소속# #@이름# 였습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

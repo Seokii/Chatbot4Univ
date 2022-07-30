@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 31161,
+    "name": "s2_20211007_0010_1491_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151413021284/s2_20211007_0010_1491_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151413021284/s2_20211007_0010_1491_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11386,
+      "filename": "s2_20210827_0002_0003_01.txt",
+      "title": "s2_20210827_0002_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 281,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 281,
+        "word_size": 64,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.예 제습기 뒤 쪽에 필터를 꽂는 공간이 있잖아요\nB.거기에 먼지가 많이 쌓여서 청소법 좀 여쭤보려고요\nA.혹시 제습기 모델명 확인 되십니까 고객님\nB.네 이게 #@상품#이거든요\nA.네 확인해주셔서 감사합니다\nA.말씀주신 부분은 담당 부서에서 따로 안내를 드려야 할 것 같아요 고객님\nA.괜찮으시면 성함과 연락처 좀 알려주시겠어요\nB.네 #@전번#에 #@이름#입니다\nA.우선 부서에 확인을 먼저 해보고 다시 말씀드리겠습니다 고객님\nB.네 그렇게 해 주세요\nA.네 금방 연락드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 제습기 뒤 쪽에 필터를 꽂는 공간이 있잖아요",
+            "norm_text": "B.예 제습기 뒤 쪽에 필터를 꽂는 공간이 있잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+제습기/NNP+뒤쪽/NNG+에/JKB+필터/NNG+를/JKO+꽂/VV+는/ETM+공간/NNG+이/JKS+있/VV+잖아요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.거기에 먼지가 많이 쌓여서 청소법 좀 여쭤보려고요",
+            "norm_text": "B.거기에 먼지가 많이 쌓여서 청소법 좀 여쭤보려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+거기/NP+에/JKB+먼지/NNG+가/JKS+많이/MAG+쌓여서/VV+EC+청소/NNG+법/NNG+좀/MAG+여쭤/VV+EC+보/VX+려고요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.혹시 제습기 모델명 확인 되십니까 고객님",
+            "norm_text": "A.혹시 제습기 모델명 확인 되십니까 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+제습기/NNP+모델/NNG+명/XPN+확인/NNG+되/XSV+십니까/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 5,
+            "text": "B.네 이게 #@상품#이거든요",
+            "norm_text": "B.네 이게 #@상품#이거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+이게/NP+JKS+#/SY+@/SY+상품/NNG+#/SY+이/VCP+거든요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 확인해주셔서 감사합니다",
+            "norm_text": "A.네 확인해주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.말씀주신 부분은 담당 부서에서 따로 안내를 드려야 할 것 같아요 고객님",
+            "norm_text": "A.말씀주신 부분은 담당 부서에서 따로 안내를 드려야 할 것 같아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+말씀/NNG+주/VV+신/EP+ETM+부분/NNG+은/JX+담당/NNG+부서/NNG+에서/JKB+따로/MAG+안내/NNG+를/JKO+드려야/VV+EC+할/VX+ETM+것/NNB+같/VA+아요/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "A.괜찮으시면 성함과 연락처 좀 알려주시겠어요",
+            "norm_text": "A.괜찮으시면 성함과 연락처 좀 알려주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+괜찮/VA+으시/EP+면/EC+성함/NNG+과/JC+연락처/NNG+좀/MAG+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 #@전번#에 #@이름#입니다",
+            "norm_text": "B.네 #@전번#에 #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+에/JKB+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.우선 부서에 확인을 먼저 해보고 다시 말씀드리겠습니다 고객님",
+            "norm_text": "A.우선 부서에 확인을 먼저 해보고 다시 말씀드리겠습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+우선/MAG+부서/NNG+에/JKB+확인/NNG+을/JKO+먼저/MAG+해/VV+EC+보/VX+고/EC+다시/MAG+말씀/NNG+드리/VV+겠/EP+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 11,
+            "text": "B.네 그렇게 해 주세요",
+            "norm_text": "B.네 그렇게 해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+그렇게/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.네 금방 연락드리겠습니다",
+            "norm_text": "A.네 금방 연락드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+금방/MAG+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

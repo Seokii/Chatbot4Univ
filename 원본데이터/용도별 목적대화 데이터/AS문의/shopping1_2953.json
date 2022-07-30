@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 122786,
+    "name": "s1_20211108_0001_4690_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110640095498/s1_20211108_0001_4690_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110640095498/s1_20211108_0001_4690_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 114898,
+      "filename": "s1_20211006_0026_0011_01.txt",
+      "title": "s1_20211006_0026_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 275,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 275,
+        "word_size": 64,
+        "text": "A.#@소속# 상담사 #@이름#입니다\nB.휴대폰에 저장한 동영상 재생이 안돼서요\nA.혹시 미지원 동영상 포맷 코덱인 경우 재생되지 않습니다\nB.그런 건 잘 모르겠는데 어떡하죠\nA.우선 휴대폰 재부팅을 한 번 해보시겠어요\nB.네 지금 껐다가 켜볼게요\nA.일시적 오류나 충돌로 동영상이 재생되지 않을 수 있어서요\nB.껐다 켰는데도 안돼요\nA.그러시면 다른 휴대폰에 이동해서요\nA.혹시 파일이 손상된 것은 아닌지 확인해 주시기 바랍니다\nB.그래요 그럼 나중에 해봐야겠어요 감사합니다\nA.네 고객님 좋은 하루 보내십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.#@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.휴대폰에 저장한 동영상 재생이 안돼서요",
+            "norm_text": "B.휴대폰에 저장한 동영상 재생이 안돼서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+휴대폰/NNG+에/JKB+저장/NNG+한/XSA+ETM+동영상/NNG+재생/NNG+이/JKS+안/MAG+돼서/VV+EC+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.혹시 미지원 동영상 포맷 코덱인 경우 재생되지 않습니다",
+            "norm_text": "A.혹시 미지원 동영상 포맷 코덱인 경우 재생되지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+혹시/MAG+미/NNP+지원/NNG+동영상/NNG+포맷/NNG+코덱/NNP+인/VCP+ETM+경우/NNG+재생/NNG+되/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그런 건 잘 모르겠는데 어떡하죠",
+            "norm_text": "B.그런 건 잘 모르겠는데 어떡하죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그런/MM+건/NNB+JX+잘/MAG+모르/VV+겠/EP+는데/EC+어떡/XR+하/XSA+죠/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.우선 휴대폰 재부팅을 한 번 해보시겠어요",
+            "norm_text": "A.우선 휴대폰 재부팅을 한 번 해보시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+우선/MAG+휴대폰/NNG+재/XPN+부팅/NNG+을/JKO+한번/MAG+해/VV+EC+보/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 지금 껐다가 켜볼게요",
+            "norm_text": "B.네 지금 껐다가 켜볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+지금/MAG+껐/VV+EP+다가/EC+켜/VV+볼게요/EC+VX+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.일시적 오류나 충돌로 동영상이 재생되지 않을 수 있어서요",
+            "norm_text": "A.일시적 오류나 충돌로 동영상이 재생되지 않을 수 있어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+일시/NNG+적/XSN+오류/NNG+나/JC+충돌/NNG+로/JKB+동영상/NNG+이/JKS+재생/NNG+되/XSV+지/EC+않/VX+을/ETM+수/NNB+있/VV+어서요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.껐다 켰는데도 안돼요",
+            "norm_text": "B.껐다 켰는데도 안돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+껐/VV+EP+다/EC+켰/VV+EP+는데/EC+도/JX+안/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그러시면 다른 휴대폰에 이동해서요",
+            "norm_text": "A.그러시면 다른 휴대폰에 이동해서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+다른/MM+휴대폰/NNG+에/JKB+이동/NNG+해서/XSV+EC+VCP+VCP+요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.혹시 파일이 손상된 것은 아닌지 확인해 주시기 바랍니다",
+            "norm_text": "A.혹시 파일이 손상된 것은 아닌지 확인해 주시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+혹시/MAG+파일/NNG+이/JKS+손상/NNG+된/XSV+ETM+것/NNB+은/JX+아닌지/VCN+EC+확인/NNG+해/XSV+EC+주/VX+시/EP+기/ETN+바랍니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그래요 그럼 나중에 해봐야겠어요 감사합니다",
+            "norm_text": "B.그래요 그럼 나중에 해봐야겠어요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+나중/NNG+에/JKB+해/VV+EC+봐야/VX+EC+VV+겠/EP+어요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 고객님 좋은 하루 보내십시오",
+            "norm_text": "A.네 고객님 좋은 하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+좋/VA+은/ETM+하루/NNG+보내/VV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 11038,
+    "name": "s3_20210913_0010_0720_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416084273/s3_20210913_0010_0720_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416084273/s3_20210913_0010_0720_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11914,
+      "filename": "s3_20210826_0011_0011_01.txt",
+      "title": "s3_20210826_0011_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 268,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 268,
+        "word_size": 65,
+        "text": "A.주문 접수 도와 드리겠습니다\nA.배송비 포함되어 총 만 육천 사백 원이시고요\nB.선생님 이게 얼마입니까 여섯 개면\nA.상품 금액 만 삼천 구백 원이시고요\nA.배송비 이천 오백 원 발생됩니다\nB.이거는 그러면 무통장 입금할게요\nA.입금 어느 은행이 편하십니까\nB.은행은 #@소속#으로 해주세요\nA.#@소속#이요 현금 영수증 신청하십니까\nB.아니요 현금 영수증 안 합니다\nA.입금 계좌 번호랑 금액 문자로 십분 내로 발송 되실 거고요\nA.내일까지 입금해 주시면 됩니다\nB.네 알겠습니다 안내 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.주문 접수 도와 드리겠습니다",
+            "norm_text": "A.주문 접수 도와 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+주문/NNG+접수/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 2,
+            "text": "A.배송비 포함되어 총 만 육천 사백 원이시고요",
+            "norm_text": "A.배송비 포함되어 총 만 육천 사백 원이시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+배송/NNG+비/XPN+포함/NNG+되/XSV+어/EC+총/MM+만/NR+육/NR+천/NR+사/NR+백/NR+원/NNBC+이/VCP+시/EP+고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.선생님 이게 얼마입니까 여섯 개면",
+            "norm_text": "B.선생님 이게 얼마입니까 여섯 개면",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+선생/NNG+님/XSN+이게/NP+JKS+얼마/NNG+입니까/VCP+EF+여섯/NR+개/NNBC+면/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.상품 금액 만 삼천 구백 원이시고요",
+            "norm_text": "A.상품 금액 만 삼천 구백 원이시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+상품/NNG+금액/NNG+만/JX+삼/NR+천/NR+구/NR+백/NR+원/NNBC+이/VCP+시/EP+고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.배송비 이천 오백 원 발생됩니다",
+            "norm_text": "A.배송비 이천 오백 원 발생됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+배송/NNG+비/XPN+이/NR+천/NR+오/NR+백/NR+원/NNBC+발생/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.이거는 그러면 무통장 입금할게요",
+            "norm_text": "B.이거는 그러면 무통장 입금할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+이거/NP+는/JX+그러/VV+면/EC+무/XPN+통장/NNG+입금/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.입금 어느 은행이 편하십니까",
+            "norm_text": "A.입금 어느 은행이 편하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+입금/NNG+어느/MM+은행/NNG+이/JKS+편하/VA+십니까/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.은행은 #@소속#으로 해주세요",
+            "norm_text": "B.은행은 #@소속#으로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+은행/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.#@소속#이요 현금 영수증 신청하십니까",
+            "norm_text": "A.#@소속#이요 현금 영수증 신청하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+이/VCP+요/EC+현금영수증/NNP+신청/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.아니요 현금 영수증 안 합니다",
+            "norm_text": "B.아니요 현금 영수증 안 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "B/SL+아니요/IC+현금영수증/NNP+안/MAG+합니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.입금 계좌 번호랑 금액 문자로 십분 내로 발송 되실 거고요",
+            "norm_text": "A.입금 계좌 번호랑 금액 문자로 십분 내로 발송 되실 거고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+입금/NNG+계좌/NNG+번호/NNG+랑/JKB+금액/NNG+문자/NNG+로/JKB+십/NR+분/NNBC+내/NNB+로/JKB+발송/NNG+되/XSV+실/EP+ETM+거/NNB+고요/NNG"
+          },
+          {
+            "id": 12,
+            "text": "A.내일까지 입금해 주시면 됩니다",
+            "norm_text": "A.내일까지 입금해 주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+내일/NNG+까지/JX+입금/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.네 알겠습니다 안내 감사합니다",
+            "norm_text": "B.네 알겠습니다 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+안내/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

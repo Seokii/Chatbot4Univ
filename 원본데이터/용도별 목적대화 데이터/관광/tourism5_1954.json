@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 159635,
+    "name": "t5_20211119_0010_2310_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135914087933/t5_20211119_0010_2310_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135914087933/t5_20211119_0010_2310_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155765,
+      "filename": "t5_0068_0043_02.txt",
+      "title": "t5_0068_0043_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 260,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 260,
+        "word_size": 58,
+        "text": "A.친절한 상담으로 모시겠습니다 #@소속# #@이름# 상담원 입니다\nB.안녕하세요 족욕체험 예약 할게요\nA.고객님 성함과 연락처 말씀해 주시겠어요\nB.#@이름# 이고요 #@전번# 번 입니다\nA.이용 원하시는 날짜랑 체험객 인원 말씀해 주세요\nB.1일 일요일 오전 11시 4명이요\nA.예약 되셨고요 총 20분간 체험 가능 하십니다\nB.체험료는 얼마인가요\nA.한방 입욕제 포함해서 1인 5천원 입니다\nB.알겠습니다 그럼 된 건가요\nA.예약 되셨습니다 #@소속# #@이름# 상담원 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.친절한 상담으로 모시겠습니다 #@소속# #@이름# 상담원 입니다",
+            "norm_text": "A.친절한 상담으로 모시겠습니다 #@소속# #@이름# 상담원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+으로/JKB+모시/VV+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 족욕체험 예약 할게요",
+            "norm_text": "B.안녕하세요 족욕체험 예약 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+족욕/NNG+체험/NNG+예약/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 성함과 연락처 말씀해 주시겠어요",
+            "norm_text": "A.고객님 성함과 연락처 말씀해 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+성함/NNG+과/JC+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@이름# 이고요 #@전번# 번 입니다",
+            "norm_text": "B.#@이름# 이고요 #@전번# 번 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.이용 원하시는 날짜랑 체험객 인원 말씀해 주세요",
+            "norm_text": "A.이용 원하시는 날짜랑 체험객 인원 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+이용원/NNG+하/XSV+시/EP+는/ETM+날짜/NNG+랑/JKB+체험/NNG+객/NNG+인원/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.1일 일요일 오전 11시 4명이요",
+            "norm_text": "B.1일 일요일 오전 11시 4명이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+1/SN+일/NNBC+일요일/NNG+오전/NNG+11/SN+시/NNBC+4/SN+명/NNBC+이요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.예약 되셨고요 총 20분간 체험 가능 하십니다",
+            "norm_text": "A.예약 되셨고요 총 20분간 체험 가능 하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예약/NNG+되/XSV+셨/EP+EP+고요/EC+총/MM+20/SN+분/NNBC+간/NNG+체험/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.체험료는 얼마인가요",
+            "norm_text": "B.체험료는 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+체험/NNG+료/NNG+는/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.한방 입욕제 포함해서 1인 5천원 입니다",
+            "norm_text": "A.한방 입욕제 포함해서 1인 5천원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+한방/NNG+입욕제/NNG+포함/NNG+해서/XSV+EC+1/SN+인/NNG+5/SN+천/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 그럼 된 건가요",
+            "norm_text": "B.알겠습니다 그럼 된 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그럼/MAJ+된/VV+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.예약 되셨습니다 #@소속# #@이름# 상담원 였습니다",
+            "norm_text": "A.예약 되셨습니다 #@소속# #@이름# 상담원 였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+예약/NNG+되/XSV+셨/EP+EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

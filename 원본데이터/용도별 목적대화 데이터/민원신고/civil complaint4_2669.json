@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 56046,
+    "name": "c4_20211019_0001_2764_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130703049375/c4_20211019_0001_2764_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130703049375/c4_20211019_0001_2764_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49996,
+      "filename": "c4_20210903_0019_0012_01.txt",
+      "title": "c4_20210903_0019_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 379,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 379,
+        "word_size": 74,
+        "text": "A.#@주소#에서 노력하겠습니다 #@소속#교육지원과입니다\nB.구시대적인 학교를 바꿔야겠어요 화가 나네요\nA.선생님 무슨 연유이신지 말해주시면 처리 도와드릴게요\nB.저희 아들이 이제 중학생이라 사춘기로 예민한데요\nB.성적이 안 좋은 부분이 단점이 되나요\nA.제가 헷갈려서요 어떤 부분 말씀이신지요\nB.들어봐요 중간고사 결과 이후 담임선생님께서요\nB.아이들을 성적순으로 앉게 했다는 겁니다\nA.부당하다고 느끼실 수 있으시지요\nB.제가 바라는건 남은 학기 아이가 잘 지내는 거에요\nA.저희측에서 선생님께 건의드리겠습니다\nB.#@이름#중학교 #@소속#이에요 익명 부탁해요\nA.알겠습니다 저희가 일차적으로 처리할게요\nB.믿어볼게요 자리 배치 고쳐달라고 해주세요\nA.알겠습니다 #@소속#였습니다 좋은 저녁 되십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@주소#에서 노력하겠습니다 #@소속#교육지원과입니다",
+            "norm_text": "A.#@주소#에서 노력하겠습니다 #@소속#교육지원과입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+에서/JKB+노력/NNG+하/XSV+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+교육/NNG+지원/NNG+과/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.구시대적인 학교를 바꿔야겠어요 화가 나네요",
+            "norm_text": "B.구시대적인 학교를 바꿔야겠어요 화가 나네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+구/EC+시대/NNG+적/XSN+인/VCP+ETM+학교/NNG+를/JKO+바꿔야/VV+EC+VX+겠/EP+어/EC+요화/NNG+가/JKS+나/NP+네요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.선생님 무슨 연유이신지 말해주시면 처리 도와드릴게요",
+            "norm_text": "A.선생님 무슨 연유이신지 말해주시면 처리 도와드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+무슨/MM+연유/NNG+이/VCP+신지/EP+EC+말/NNG+해/XSV+EC+주/VX+시/EP+면/EC+처리/NNG+도와/VV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.저희 아들이 이제 중학생이라 사춘기로 예민한데요",
+            "norm_text": "B.저희 아들이 이제 중학생이라 사춘기로 예민한데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+아들/NNG+이/JKS+이제/MAG+중학/NNG+생/XSN+이/VCP+라/EC+사춘기/NNG+로/JKB+예민/XR+한데요/XSA+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.성적이 안 좋은 부분이 단점이 되나요",
+            "norm_text": "B.성적이 안 좋은 부분이 단점이 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+성적/NNG+이/JKS+안/MAG+좋/VA+은/ETM+부분/NNG+이/JKS+단점/NNG+이/JKS+되/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.제가 헷갈려서요 어떤 부분 말씀이신지요",
+            "norm_text": "A.제가 헷갈려서요 어떤 부분 말씀이신지요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+제/NP+가/JKS+헷갈려서/VV+EC+요/JX+어떤/MM+부분/NNG+말씀/NNG+이/VCP+신/EP+ETM+지요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "B.들어봐요 중간고사 결과 이후 담임선생님께서요",
+            "norm_text": "B.들어봐요 중간고사 결과 이후 담임선생님께서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+들/VV+어/EC+봐요/VX+EF+중간고사/NNG+결과/NNG+이후/NNG+담임/NNG+선생/NNG+님/XSN+께서/JKS+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "B.아이들을 성적순으로 앉게 했다는 겁니다",
+            "norm_text": "B.아이들을 성적순으로 앉게 했다는 겁니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+아이/NNG+들/XSN+을/JKO+성적순/NNG+으로/JKB+앉/VV+게/EC+했/VX+EP+다는/ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.부당하다고 느끼실 수 있으시지요",
+            "norm_text": "A.부당하다고 느끼실 수 있으시지요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+부당/NNG+하/XSV+다고/EC+느끼/VV+실/EP+ETM+수/NNB+있/VV+으시/EP+지요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.제가 바라는건 남은 학기 아이가 잘 지내는 거에요",
+            "norm_text": "B.제가 바라는건 남은 학기 아이가 잘 지내는 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+바라/VV+는/ETM+건/NNB+JX+남/VV+은/ETM+학기/NNG+아이/NNG+가/JKS+잘/MAG+지내/VV+는/ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.저희측에서 선생님께 건의드리겠습니다",
+            "norm_text": "A.저희측에서 선생님께 건의드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+저희/NP+측/NNB+에서/JKB+선생/NNG+님/XSN+께/JKB+건의/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.#@이름#중학교 #@소속#이에요 익명 부탁해요",
+            "norm_text": "B.#@이름#중학교 #@소속#이에요 익명 부탁해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+중학교/NNG+#/SY+@/SY+소속/NNG+#/SY+이/VCP+에요/EF+익명/NNG+부탁/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.알겠습니다 저희가 일차적으로 처리할게요",
+            "norm_text": "A.알겠습니다 저희가 일차적으로 처리할게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+저희/NP+가/JKS+일/NR+차/NNBC+적/XSN+으로/JKB+처리/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.믿어볼게요 자리 배치 고쳐달라고 해주세요",
+            "norm_text": "B.믿어볼게요 자리 배치 고쳐달라고 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+믿/VV+어/EC+볼게요/VX+EF+자리/NNG+배치/NNG+고쳐/VV+EC+달/VX+라고/EC+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.알겠습니다 #@소속#였습니다 좋은 저녁 되십시오",
+            "norm_text": "A.알겠습니다 #@소속#였습니다 좋은 저녁 되십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+였/VCP+EP+습니다/EF+좋/VA+은/ETM+저녁/NNG+되/XSV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

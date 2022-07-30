@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 44711,
+    "name": "c2_20211014_0002_0114_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130806081441/c2_20211014_0002_0114_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130806081441/c2_20211014_0002_0114_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 52219,
+      "filename": "c2_20210908_0024_0010_01.txt",
+      "title": "c2_20210908_0024_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 306,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 306,
+        "word_size": 71,
+        "text": "A.안녕하세요 #@소속# #@이름# 입니다\nB.#@소속# 수족관입니다 저희가 폐원을 하게 되었는데요\nB.이거 신고를 어디다가 해야하죠 시청에 하면 되나요\nA.네 고객님 그러시면요 여기 목포시 #@주소# 방문 해주시거나요\nA.아니면 같은 주소로 우편으로 신고서랑 이거 문자로 보내드릴게요\nB.예 뭐 서류가 많이 필요해요\nA.아뇨 많이는 아닌데 말로 설명드리면 좀 헷갈릴 거 같아서요\nB.그래요 네 감사합니다 이거 그냥 방문이나 우편이라는 거죠\nA.네네 그러시면 됩니다 고객님\nB.알겠어요 수고하세요 감사합니다\nA.네 고객님 좋은 하루 보내세요\nB.네 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속# 수족관입니다 저희가 폐원을 하게 되었는데요",
+            "norm_text": "B.#@소속# 수족관입니다 저희가 폐원을 하게 되었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+수족관/NNG+입니다/VCP+EF+저희/NP+가/JKS+폐원/NNG+을/JKO+하/VV+게/EC+되/VV+었/EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.이거 신고를 어디다가 해야하죠 시청에 하면 되나요",
+            "norm_text": "B.이거 신고를 어디다가 해야하죠 시청에 하면 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이거/NP+신고/NNG+를/JKO+어디/NP+다가/JX+해야/VV+EC+하/VX+죠/EF+시청/NNG+에/JKB+하/VV+면/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 고객님 그러시면요 여기 목포시 #@주소# 방문 해주시거나요",
+            "norm_text": "A.네 고객님 그러시면요 여기 목포시 #@주소# 방문 해주시거나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+그러/VV+시/EP+면/EC+요/JX+여기/NP+목포시/NNP+#/SY+@/SY+주소/NNG+#/SY+방문/NNG+해/XSV+EC+주/VX+시/EP+거나/EC+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.아니면 같은 주소로 우편으로 신고서랑 이거 문자로 보내드릴게요",
+            "norm_text": "A.아니면 같은 주소로 우편으로 신고서랑 이거 문자로 보내드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+아니면/MAJ+같/VA+은/ETM+주소/NNG+로/JKB+우편/NNG+으로/JKB+신/XPN+고서/NNG+랑/JC+이거/NP+문자/NNG+로/JKB+보내/VV+드릴게요/EC+VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예 뭐 서류가 많이 필요해요",
+            "norm_text": "B.예 뭐 서류가 많이 필요해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+뭐/IC+서류/NNG+가/JKS+많이/MAG+필요/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.아뇨 많이는 아닌데 말로 설명드리면 좀 헷갈릴 거 같아서요",
+            "norm_text": "A.아뇨 많이는 아닌데 말로 설명드리면 좀 헷갈릴 거 같아서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+아뇨/IC+많이/MAG+는/JX+아닌데/VCN+EC+말/NNG+로/JKB+설명/NNG+드리/VV+면/EC+좀/MAG+헷갈릴/VV+ETM+거/NNB+같/VA+아서요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그래요 네 감사합니다 이거 그냥 방문이나 우편이라는 거죠",
+            "norm_text": "B.그래요 네 감사합니다 이거 그냥 방문이나 우편이라는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+네/IC+감사/NNG+합니다/XSV+EF+이거/NP+그냥/MAG+방문/NNG+이나/JC+우편/NNG+이/VCP+라는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네네 그러시면 됩니다 고객님",
+            "norm_text": "A.네네 그러시면 됩니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네네/IC+그러/VV+시/EP+면/EC+됩니다/VV+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠어요 수고하세요 감사합니다",
+            "norm_text": "B.알겠어요 수고하세요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+어요/EF+수고/NNG+하/XSV+세요/EP+EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 고객님 좋은 하루 보내세요",
+            "norm_text": "A.네 고객님 좋은 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 좋은 하루 보내세요",
+            "norm_text": "B.네 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

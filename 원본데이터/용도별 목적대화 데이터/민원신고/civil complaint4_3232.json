@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 110605,
+    "name": "c4_20211104_0045_0099_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135236025552/c4_20211104_0045_0099_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135236025552/c4_20211104_0045_0099_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 19996,
+      "filename": "c4_20210823_0001_0005_01.txt",
+      "title": "c4_20210823_0001_0005_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-09-10",
+      "size": 257,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 257,
+        "word_size": 56,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.예 예산 터미널에서 #@주소#까지 오는 버스 회사가 어디에요\nA.네 제가 확인 후에 안내를 해드리겠습니다\nA.예산 터미널에서 #@주소#까지 가는 버스 회사 예산교통으로 확인이 됩니다\nB.그럼 거기 버스 회사 전화번호 알려주세요\nA.네 혹시 메모 가능하십니까\nB.네 됩니다 불러주세요\nA.예 번호는 #@번호#번입니다\nB.#@번호#이요 예 알겠습니다\nA.다른 문의사항 있으십니까\nB.아뇨 다른 건 더 없어요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 예산 터미널에서 #@주소#까지 오는 버스 회사가 어디에요",
+            "norm_text": "B.예 예산 터미널에서 #@주소#까지 오는 버스 회사가 어디에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+예산/NNG+터미널/NNG+에서/JKB+#/SY+@/SY+주소/NNG+#/SY+까지/JX+오/VV+는/ETM+버스/NNG+회사/NNG+가/JKS+어디/NP+에/JKB+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.네 제가 확인 후에 안내를 해드리겠습니다",
+            "norm_text": "A.네 제가 확인 후에 안내를 해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+제/NP+가/JKS+확인/NNG+후/NNG+에/JKB+안내/NNG+를/JKO+해/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.예산 터미널에서 #@주소#까지 가는 버스 회사 예산교통으로 확인이 됩니다",
+            "norm_text": "A.예산 터미널에서 #@주소#까지 가는 버스 회사 예산교통으로 확인이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예산/NNG+터미널/NNG+에서/JKB+#/SY+@/SY+주소/NNG+#/SY+까지/JX+가/VV+는/ETM+버스/NNG+회사/NNG+예산/NNG+교통/NNG+으로/JKB+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.그럼 거기 버스 회사 전화번호 알려주세요",
+            "norm_text": "B.그럼 거기 버스 회사 전화번호 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+거기/NP+버스/NNG+회사/NNG+전화/NNG+번호/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 혹시 메모 가능하십니까",
+            "norm_text": "A.네 혹시 메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+혹시/MAG+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 됩니다 불러주세요",
+            "norm_text": "B.네 됩니다 불러주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+됩니다/VV+EF+불러/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.예 번호는 #@번호#번입니다",
+            "norm_text": "A.예 번호는 #@번호#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+번호/NNG+는/JX+#/SY+@/SY+번호/NNG+#/SY+번/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.#@번호#이요 예 알겠습니다",
+            "norm_text": "B.#@번호#이요 예 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+번호/NNG+#/SY+이/JKS+요예/NNG+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.다른 문의사항 있으십니까",
+            "norm_text": "A.다른 문의사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.아뇨 다른 건 더 없어요 감사합니다",
+            "norm_text": "B.아뇨 다른 건 더 없어요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아뇨/IC+다른/MM+건/NNB+JX+더/MAG+없/VA+어요/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

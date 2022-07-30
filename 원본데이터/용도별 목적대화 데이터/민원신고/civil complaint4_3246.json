@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 110642,
+    "name": "c4_20211104_0045_0177_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135236039770/c4_20211104_0045_0177_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135236039770/c4_20211104_0045_0177_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 20011,
+      "filename": "c4_20210824_0008_0003_01.txt",
+      "title": "c4_20210824_0008_0003_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-09-10",
+      "size": 626,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 626,
+        "word_size": 146,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.네 여기 에스케이 엔카 앞인데요 여기서 충무체육관 가는 법 좀 알려주세요\nA.#@소속# 지도 길찾기 검색 해보겠습니다\nA.에스케이 엔카 대전 지점에서 충무 실내체육관으로 이동하는 경로 확인되어 안내해 드리겠습니다\nB.네 안내 해주세요\nA.지금 메모 가능하십니까\nB.네 말씀해 주세요\nA.에스케이 엔카 대전지점에서 성호동산 정류장까지 도보로 약 사분 정도 이동을 하십니다\nB.정류장 이름이 뭐라고요\nA.네 성호동산 정류장입니다\nB.네 여기 있네요\nA.그곳에서 간선 삼백십일 번 버스 승차 하십니다\nB.간선 버스 삼백십일 번이요\nA.네 맞습니다 승차 후 #@주소#정류장에서 하차 하십니다\nA.하차하신 후 그곳에서 급행 이 번 버스 승차하시고요\nB.네 급행 이 번 버스 타고요\nA.한밭종합운동장 정류장에서 하차하시는 부분으로 확인이 됩니다\nB.그면 예 총시간이 얼마나 걸리나요\nA.네 도보 도보 이동 시간까지 총 사십오분 정도 소요되는 부분으로 확인됩니다\nB.네 뭐 근데 여기에 계신 분은 지하철을 뭐 타고 오면 된다는데요\nA.지하철은 경로 확인이 어렵습니다\nB.경로 확인이 어렵다고요\nA.네 지하철은 #@소속# 지도 길찾기 결과가 없습니다\nB.지하철은 없다고요 알겠습니다 감사해요\nA.네 감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 여기 에스케이 엔카 앞인데요 여기서 충무체육관 가는 법 좀 알려주세요",
+            "norm_text": "B.여기 에스케이 엔카 앞인데요 충무체육관 가는 법 좀 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+여기/NP+에스/NNG+케이/XSV+EC+JKS+엔카/NNP+앞/NNG+인데/VCP+EC+요충/NNG+무/XPN+체육관/NNG+가/VV+는/ETM+법/NNB+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.#@소속# 지도 길찾기 검색 해보겠습니다",
+            "norm_text": "A.#@소속# 지도 길찾기 검색 해보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+지도/NNG+길/NNG+찾/VV+기/ETN+검색/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.에스케이 엔카 대전 지점에서 충무 실내체육관으로 이동하는 경로 확인되어 안내해 드리겠습니다",
+            "norm_text": "A.에스케이 엔카에서 충무 실내체육관으로 이동하는 경로 안내 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+에스/NNG+케이/XSV+EC+JKS+엔카/NNP+에서/JKB+충무/NNP+실내/NNG+체육관/NNG+으로/JKB+이동/NNG+하/XSV+는/ETM+경로/NNG+안/MAG+내드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.네 안내 해주세요",
+            "norm_text": "B.네 안내 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+안내/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.지금 메모 가능하십니까",
+            "norm_text": "A.지금 메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 말씀해 주세요",
+            "norm_text": "B.네 말씀해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.에스케이 엔카 대전지점에서 성호동산 정류장까지 도보로 약 사분 정도 이동을 하십니다",
+            "norm_text": "A.에스케이 엔카 대전지점에서 성호동산 정류장까지 도보로 사분 정도 이동 하시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+에스/NNG+케이/XSV+EC+JKS+엔카/NNP+대전/NNP+지점/NNG+에서/JKB+성호동/NNP+산/XSN+정류장/NNG+까지/JX+도/JX+보로/NNG+사/NR+분/NNBC+정도/NNG+이동/NNG+하/XSV+시/EP+구요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.정류장 이름이 뭐라고요",
+            "norm_text": "B.정류장 이름이 뭐라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+정류장/NNG+이름/NNG+이/JKS+뭐/NP+라고요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 성호동산 정류장입니다",
+            "norm_text": "A.네 성호동산 정류장입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+성호동/NNP+산/XSN+정류장/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 여기 있네요",
+            "norm_text": "B.네 여기 있네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+여기/NP+있/VA+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.그곳에서 간선 삼백십일 번 버스 승차 하십니다",
+            "norm_text": "A.그곳에서 간선 삼백십일 번 버스 승차 하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그곳/NP+에서/JKB+간선/NNG+삼/NR+백/NR+십/NR+일/NR+번/NNBC+버스/NNG+승차/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.간선 버스 삼백십일 번이요",
+            "norm_text": "B.간선 버스 삼백십일 번이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+간선버스/NNP+삼/NR+백/NR+십/NR+일/NR+번/NNBC+이요/JX"
+          },
+          {
+            "id": 14,
+            "text": "A.네 맞습니다 승차 후 #@주소#정류장에서 하차 하십니다",
+            "norm_text": "A.네 맞습니다 승차 후 #@주소#정류장에서 하차 하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+승차/NNG+후/NNG+#/SY+@/SY+주소/NNG+#/SY+정류장/NNG+에서/JKB+하차/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.하차하신 후 그곳에서 급행 이 번 버스 승차하시고요",
+            "norm_text": "A.하차하신 후 그곳에서 급행 이 번 버스 승차하시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+하차/NNG+하/XSV+신/EP+ETM+후/NNG+그곳/NP+에서/JKB+급행/NNG+이번/NNG+버스/NNG+승차/NNG+하/XSV+시/EP+고요/EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 급행 이 번 버스 타고요",
+            "norm_text": "B.네 급행 이 번 버스 타고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+급행/NNG+이번/NNG+버스타/NNP+고요/NNG"
+          },
+          {
+            "id": 17,
+            "text": "A.한밭종합운동장 정류장에서 하차하시는 부분으로 확인이 됩니다",
+            "norm_text": "A.한밭종합운동장 정류장에서 하차하시는 부분으로 확인이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+한밭/NNG+종합/NNG+운동장/NNG+정류장/NNG+에서/JKB+하차/NNG+하/XSV+시/EP+는/ETM+부분/NNG+으로/JKB+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "B.그면 예 총시간이 얼마나 걸리나요",
+            "norm_text": "B.그면 예 총시간이 얼마나 걸리나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그면/MAJ+예총/NNG+시간/NNG+이/JKS+얼마나/MAG+걸리/VV+나요/EC"
+          },
+          {
+            "id": 19,
+            "text": "A.네 도보 도보 이동 시간까지 총 사십오분 정도 소요되는 부분으로 확인됩니다",
+            "norm_text": "A.네 도보 이동 시간까지 총 사십오분 정도 소요되는 것으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+도보/NNG+도보/NNG+이동/NNG+시간/NNG+까지/JX+총/MM+사/NR+십/NR+오/NR+분/NNBC+정도/NNG+소요/NNG+되/XSV+는/ETM+부분/NNG+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 20,
+            "text": "B.네 뭐 근데 여기에 계신 분은 지하철을 뭐 타고 오면 된다는데요",
+            "norm_text": "B.네 뭐 근데 여기에 계신 분은 지하철을 뭐 타고 오면 된다는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+네/IC+뭐/IC+근데/MAJ+여기/NP+에/JKB+계신/VV+ETM+분/NNB+은/JX+지하철/NNG+을/JKO+뭐/IC+타/VV+고/EC+오/VV+면/EC+된다는/VV+ETM+데/NNB+요/VCP+EC"
+          },
+          {
+            "id": 21,
+            "text": "A.지하철은 경로 확인이 어렵습니다",
+            "norm_text": "A.지하철은 경로 확인이 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+./SY+지하철/NNG+은/JX+경로/NNG+확인/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 22,
+            "text": "B.경로 확인이 어렵다고요",
+            "norm_text": "B.경로 확인이 어렵다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+경로/NNG+확인/NNG+이/JKS+어렵/VA+다고요/EC"
+          },
+          {
+            "id": 23,
+            "text": "A.네 지하철은 #@소속# 지도 길찾기 결과가 없습니다",
+            "norm_text": "A.네 지하철은 #@소속# 지도 길찾기 결과가 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+지하철/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+지도/NNG+길/NNG+찾/VV+기/ETN+결과/NNG+가/JKS+없/VA+습니다/EF"
+          },
+          {
+            "id": 24,
+            "text": "B.지하철은 없다고요 알겠습니다 감사해요",
+            "norm_text": "B.지하철은 없다고요 알겠습니다 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+지하철/NNG+은/JX+없/VA+다고요/EC+알/VV+겠/EP+습니다/EF+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 25,
+            "text": "A.네 감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.네 감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

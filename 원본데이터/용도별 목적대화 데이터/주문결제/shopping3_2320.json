@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 117965,
+    "name": "s3_20211105_0002_0064_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744040858/s3_20211105_0002_0064_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744040858/s3_20211105_0002_0064_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117948,
+      "filename": "s3_20211001_0014_01_0031.txt",
+      "title": "s3_20211001_0014_01_0031",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 277,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 277,
+        "word_size": 59,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 문의 드릴게 있어서요\nA.네 어떤 문의 이신가요\nB.제가 #@소속# 상품권이 있는데 사용 가능한가요\nA.#@소속# 방문 하셔서 전환신청 해야합니다\nB.본인이 가야지 가능한가요\nA.네 대리인은 전환이 어려우셔서 본인이 직접 가셔야 합니다\nB.그럼 제가 당일 신청하면 당일에 바로 가능한가요\nA.네 익일 부여 가능합니다\nB.네 알겠습니다 답변 감사합니다\nA.더 문의사항 있으신가요\nB.아니요 없습니다 감사합니다\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의 드릴게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의 드릴게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의 이신가요",
+            "norm_text": "A.네 어떤 문의 이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 #@소속# 상품권이 있는데 사용 가능한가요",
+            "norm_text": "B.제가 #@소속# 상품권이 있는데 사용 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+제/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+상품권/NNG+이/JKS+있/VV+는데/EC+사용/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.#@소속# 방문 하셔서 전환신청 해야합니다",
+            "norm_text": "A.#@소속# 방문 하셔서 전환신청 해야합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+방문/NNG+하/XSV+셔서/EP+EC+전환/NNG+신청/NNG+해야/XSV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.본인이 가야지 가능한가요",
+            "norm_text": "B.본인이 가야지 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+본인/NNG+이/JKS+가/VV+야지/EC+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.네 대리인은 전환이 어려우셔서 본인이 직접 가셔야 합니다",
+            "norm_text": "A.네 대리인은 전환이 어려우셔서 본인이 직접 가셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+대리인/NNG+은/JX+전환/NNG+이/JKS+어려우/VA+셔서/EP+EC+본인/NNG+이/JKS+직접/MAG+가셔야/VV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 제가 당일 신청하면 당일에 바로 가능한가요",
+            "norm_text": "B.그럼 제가 당일 신청하면 당일에 바로 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+제/NP+가/JKS+당일/NNG+신청/NNG+하/XSV+면/EC+당일/NNG+에/JKB+바로/MAG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.네 익일 부여 가능합니다",
+            "norm_text": "A.네 익일 부여 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+익일/NNG+부여/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 알겠습니다 답변 감사합니다",
+            "norm_text": "B.네 알겠습니다 답변 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+답변/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.더 문의사항 있으신가요",
+            "norm_text": "A.더 문의사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 12,
+            "text": "B.아니요 없습니다 감사합니다",
+            "norm_text": "B.아니요 없습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아니요/IC+없/VA+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

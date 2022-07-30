@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 116819,
+    "name": "s2_20211105_0002_0099_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110737039681/s2_20211105_0002_0099_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110737039681/s2_20211105_0002_0099_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117131,
+      "filename": "s2_20211028_0019_0010_01.txt",
+      "title": "s2_20211028_0019_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 302,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 302,
+        "word_size": 70,
+        "text": "A.만나서 반갑습니다 #@소속# 고객센터 #@이름#입니다\nB.알짜항공권 구매한지가 언제인데 이거 왜 이래요\nA.고객님 무슨 일이신지 조금 더 자세히 말씀 부탁드려요\nB.아니 아직도 출발이 미확정이라뇨 일주일도 안남았는데\nA.알짜항공권은 최소 출발인원이 넘어야 확정이 되세요\nA.그 과정부터 최종 처리까지 비행기 이륙 하루 전에 확정됩니다\nB.뭐라구요 그럼 하루 전이라구요\nA.세금 변동이 심하기도 해서요\nB.그러면 그런 말을 써 둬야 할 것 아니에요\nA.맨 아래 보시면 적혀 있습니다\nB.그걸 누가 읽어봐요 하여튼 끊어요\nA.죄송합니다 저희가 더 개선하겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.만나서 반갑습니다 #@소속# 고객센터 #@이름#입니다",
+            "norm_text": "A.만나서 반갑습니다 #@소속# 고객센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+만나/VV+서/EC+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.알짜항공권 구매한지가 언제인데 이거 왜 이래요",
+            "norm_text": "B.알짜항공권 구매한지가 언제인데 이거 왜 이래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+알짜/NNG+항공권/NNG+구매/NNG+한/XSA+ETM+지/NNB+가/JKS+언제/NP+인데/VCP+EC+이거/NP+왜/MAG+이래요/VA+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 무슨 일이신지 조금 더 자세히 말씀 부탁드려요",
+            "norm_text": "A.고객님 무슨 일이신지 조금 더 자세히 말씀 부탁드려요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+무슨/MM+일/NNG+이/VCP+신지/EP+EF+조금/MAG+더/MAG+자세히/MAG+말씀/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.아니 아직도 출발이 미확정이라뇨 일주일도 안남았는데",
+            "norm_text": "B.아니 아직도 출발이 미확정이라뇨 일주일도 안남았는데",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/IC+아직/MAG+도/JX+출발/NNG+이/JKS+미확정/NNG+이/VCP+라뇨/EC+EF+일/NR+주일/NNBC+도/JX+안/MAG+남/VV+았/EP+는데/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.알짜항공권은 최소 출발인원이 넘어야 확정이 되세요",
+            "norm_text": "A.알짜항공권은 최소 출발인원이 넘어야 확정이 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+알짜/NNG+항공권/NNG+은/JX+최소/NNG+출발/NNG+인원/NNG+이/JKS+넘/VV+어야/EC+확정/NNG+이/JKS+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.그 과정부터 최종 처리까지 비행기 이륙 하루 전에 확정됩니다",
+            "norm_text": "A.그 과정부터 최종 처리까지 비행기 이륙 하루 전에 확정됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+과정/NNG+부터/JX+최종/NNG+처리/NNG+까지/JX+비행기/NNG+이/NR+륙/NR+하루/NNG+전/NNG+에/JKB+확정/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.뭐라구요 그럼 하루 전이라구요",
+            "norm_text": "B.뭐라구요 그럼 하루 전이라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+뭐/NP+라구요/VCP+EF+그럼/MAJ+하루/NNG+전이/NNG+라구요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.세금 변동이 심하기도 해서요",
+            "norm_text": "A.세금 변동이 심하기도 해서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+세금/NNG+변동/NNG+이/JKS+심하/VA+기/ETN+도/JX+해서/VV+EC+요/JX"
+          },
+          {
+            "id": 9,
+            "text": "B.그러면 그런 말을 써 둬야 할 것 아니에요",
+            "norm_text": "B.그러면 그런 말을 써 둬야 할 것 아니에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+그러면/MAJ+그런/MM+말/NNG+을/JKO+써/VV+EC+둬야/VX+EC+할/VX+ETM+것/NNB+아니/VCN+에요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.맨 아래 보시면 적혀 있습니다",
+            "norm_text": "A.맨 아래 보시면 적혀 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+맨/MM+아래/NNG+보/VV+시/EP+면/EC+적혀/VV+EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그걸 누가 읽어봐요 하여튼 끊어요",
+            "norm_text": "B.그걸 누가 읽어봐요 하여튼 끊어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+그걸/NP+JKO+누가/NP+JKS+읽/VV+어/EC+봐요/VX+EF+하여튼/MAG+끊/VV+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.죄송합니다 저희가 더 개선하겠습니다",
+            "norm_text": "A.죄송합니다 저희가 더 개선하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+저희/NP+가/JKS+더/MAG+개선/NNG+하/XSV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

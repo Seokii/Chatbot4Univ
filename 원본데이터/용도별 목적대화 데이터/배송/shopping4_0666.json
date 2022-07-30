@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 10683,
+    "name": "s4_20210913_0011_0864_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151452026228/s4_20210913_0011_0864_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151452026228/s4_20210913_0011_0864_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 13634,
+      "filename": "s4_20210901_0008_0014_01.txt",
+      "title": "s4_20210901_0008_0014_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 269,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 269,
+        "word_size": 66,
+        "text": "A.안녕하세요 #@소속# #@이름# 입니다\nB.내가 저번에 저번 주에 시킨 게 있는데 아직 안 왔어요\nA.네 고객님 주문 건 확인해 보겠습니다 성함과 핸드폰 번호 부탁드릴게요\nB.네 #@이름# #@전번# 입니다\nA.#@상품#은 이제 배송 완료가 된 것으로 확인이 되시구요\nA.#@상품#은 아마 금일 중으로 배송 되실거에요\nB.네 오늘 언제요\nA.세 시에서 다섯 시 사이에 배달 완료될 것으로 예상하고 있습니다\nB.네 세 시에서 다섯 시요 알겠습니다\nA.네 감사합니다 #@소속# #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.내가 저번에 저번 주에 시킨 게 있는데 아직 안 왔어요",
+            "norm_text": "B.내가 저번에 저번 주에 시킨 게 있는데 아직 안 왔어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+내/NP+가/JKS+저번/NNG+에/JKB+저번/NNG+주/NNG+에/JKB+시킨/VV+ETM+게/NNB+JKS+있/VA+는데/EC+아직/MAG+안/MAG+왔어요/VV+EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 주문 건 확인해 보겠습니다 성함과 핸드폰 번호 부탁드릴게요",
+            "norm_text": "A.네 고객님 주문 건 확인해 보겠습니다 성함과 핸드폰 번호 부탁드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+주문건/NNP+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF+성함/NNG+과/JC+핸드폰/NNG+번호/NNG+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@이름# #@전번# 입니다",
+            "norm_text": "B.네 #@이름# #@전번# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.#@상품#은 이제 배송 완료가 된 것으로 확인이 되시구요",
+            "norm_text": "A.#@상품#은 이제 배송 완료가 된 것으로 확인이 되시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+은/JX+이제/MAG+배송/NNG+완료/NNG+가/JKS+된/VV+ETM+것/NNB+으로/JKB+확인/NNG+이/JKS+되/VV+시/EP+구요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.#@상품#은 아마 금일 중으로 배송 되실거에요",
+            "norm_text": "A.#@상품#은 아마 금일 중으로 배송 되실거에요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+은/JX+아마/MAG+금일/NNG+중/NNB+으로/JKB+배송/NNG+되/XSV+실/EP+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.네 오늘 언제요",
+            "norm_text": "B.네 오늘 언제요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+오늘/MAG+언제/NP+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.세 시에서 다섯 시 사이에 배달 완료될 것으로 예상하고 있습니다",
+            "norm_text": "A.세 시에서 다섯 시 사이에 배달 완료될 것으로 예상하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+세/MM+시/NNBC+에서/JKB+다섯/NR+시/NNBC+사이/NNG+에/JKB+배달/NNG+완료/NNG+될/XSV+ETM+것/NNB+으로/JKB+예상/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 세 시에서 다섯 시요 알겠습니다",
+            "norm_text": "B.네 세 시에서 다섯 시요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+세/MM+시/NNBC+에서/JKB+다섯/NR+시/NNBC+요/VCP+EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 감사합니다 #@소속# #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 #@소속# #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

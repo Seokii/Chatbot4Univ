@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 6081,
+    "name": "c1_20210911_0005_0439_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341084812/c1_20210911_0005_0439_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341084812/c1_20210911_0005_0439_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10770,
+      "filename": "c1_20210820_0006_0003_01.txt",
+      "title": "c1_20210820_0006_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 307,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 307,
+        "word_size": 71,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다 통화 가능하십니까\nB.네 지금 통화 가능합니다\nA.민원인께서 제조업 회사라고 하셨습니다\nA.행정 처분 사실 확인서라는 서류를 받고자 하시는데요 담당 부서 맞나요\nA.회사 명칭이 #@소속#이라고 하셨습니다\nB.어떤 회사고 무슨 행정처분 관련인가요\nA.기계 수리 관련 제조업 회사라고 하셨습니다\nA.관청 점검에 적발된 사고에 대한 행정 처분 사실 확인서라고 하셨습니다\nB.저희가 일반 업체에다가 행정 처분 내리는 업무는 안 보거든요\nB.민원 업무는 거의 없는 부서라서 저희 부서는 아닌 거 같아요\nA.예 알겠습니다 확인 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다 통화 가능하십니까",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다 통화 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+통화/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 지금 통화 가능합니다",
+            "norm_text": "B.네 지금 통화 가능합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+지금/MAG+통화/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.민원인께서 제조업 회사라고 하셨습니다",
+            "norm_text": "A.민원인께서 제조업 회사라고 하셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+민원인/NNG+께서/JKS+제조업/NNG+회사/NNG+라고/VCP+EC+하/VX+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.행정 처분 사실 확인서라는 서류를 받고자 하시는데요 담당 부서 맞나요",
+            "norm_text": "A.행정 처분 사실 확인서라는 서류를 받고자 하시는데요 담당 부서 맞나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+행정/NNG+처분/NNG+사실/MAG+확인/NNG+XSV+서라는/EC+VCP+ETM+서류/NNG+를/JKO+받/VV+고자/EC+하/VX+시/EP+는데요/EF+담당/NNG+부서/NNG+맞/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.회사 명칭이 #@소속#이라고 하셨습니다",
+            "norm_text": "A.회사 명칭이 #@소속#이라고 하셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+회사/NNG+명칭/NNG+이/JKS+#/SY+@/SY+소속/NNG+#/SY+이라고/JKQ+하/VV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.어떤 회사고 무슨 행정처분 관련인가요",
+            "norm_text": "B.어떤 회사고 무슨 행정처분 관련인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+어떤/MM+회사/NNG+고/VCP+EC+무슨/MM+행정/NNG+처분/NNG+관련/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.기계 수리 관련 제조업 회사라고 하셨습니다",
+            "norm_text": "A.기계 수리 관련 제조업 회사라고 하셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기계/NNG+수리/NNG+관련/NNG+제조업/NNG+회사/NNG+라고/VCP+EC+하/VX+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.관청 점검에 적발된 사고에 대한 행정 처분 사실 확인서라고 하셨습니다",
+            "norm_text": "A.관청 점검에 적발된 사고에 대한 행정 처분 사실 확인서라고 하셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+관청/NNG+점검/NNG+에/JKB+적발/NNG+된/XSV+ETM+사고/NNG+에/JKB+대한/VV+ETM+행정/NNG+처분/NNG+사실/MAG+확인서/NNG+라고/VCP+EC+하/VX+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.저희가 일반 업체에다가 행정 처분 내리는 업무는 안 보거든요",
+            "norm_text": "B.저희가 일반 업체에다가 행정 처분 내리는 업무는 안 보거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+가/JKS+일반/NNG+업체/NNG+에다가/JKB+행정/NNG+처분/NNG+내리/VV+는/ETM+업무/NNG+는/JX+안/MAG+보/VV+거든요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.민원 업무는 거의 없는 부서라서 저희 부서는 아닌 거 같아요",
+            "norm_text": "B.민원 업무는 거의 없는 부서라서 저희 부서는 아닌 거 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+민원/NNG+업무/NNG+는/JX+거의/MAG+없/VA+는/ETM+부서/NNG+라서/VCP+EC+저희/NP+부서/NNG+는/JX+아닌/VCN+ETM+거/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.예 알겠습니다 확인 감사합니다",
+            "norm_text": "A.예 알겠습니다 확인 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+예/IC+알/VV+겠/EP+습니다/EF+확인/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

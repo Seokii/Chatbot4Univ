@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 48809,
+    "name": "c4_20211015_0001_2014_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704054036/c4_20211015_0001_2014_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704054036/c4_20211015_0001_2014_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50119,
+      "filename": "c4_20210903_0027_0020_01.txt",
+      "title": "c4_20210903_0027_0020_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 270,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 270,
+        "word_size": 53,
+        "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.제가 동대문구 관내 도로를 주행하고 있습니다\nB.횡단보도 정지선을 위반한 차량을 발견하여 신고합니다\nA.네 우선 불법 주정차 신고에 대하여 감사드립니다\nB.차량 번호#@번호#입니다 사진 보내겠습니다\nA.선생님께서 신고하신 횡단보도 정지선 위반 차량에게 과태료 부과하겠습니다\nB.네 빠른 접수 감사합니다\nA.만족스러운 답변이 되었기를 바랍니다 감사합니다\nB.예 감사합니다 수고하세요\nA.감사합니다 민원인 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.제가 동대문구 관내 도로를 주행하고 있습니다",
+            "norm_text": "B.제가 동대문구 관내 도로를 주행하고 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+동대문구/NNP+관내/NNG+도로/NNG+를/JKO+주행/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.횡단보도 정지선을 위반한 차량을 발견하여 신고합니다",
+            "norm_text": "B.횡단보도 정지선을 위반한 차량을 발견하여 신고합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+횡단보도/NNG+정지선/NNG+을/JKO+위반/NNG+한/XSA+ETM+차량/NNG+을/JKO+발견/NNG+하/XSV+여/EC+신고/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 우선 불법 주정차 신고에 대하여 감사드립니다",
+            "norm_text": "A.네 우선 불법 주정차 신고에 대하여 감사드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+우선/MAG+불법/NNG+주정차/NNG+신고/NNG+에/JKB+대하/VV+여/EC+감사/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.차량 번호#@번호#입니다 사진 보내겠습니다",
+            "norm_text": "B.차량 번호#@번호#입니다 사진 보내겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+차량/NNG+번호/NNG+#/SY+@/SY+번호/NNG+#/SY+입니다/VCP+EF+사진/NNG+보내/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.선생님께서 신고하신 횡단보도 정지선 위반 차량에게 과태료 부과하겠습니다",
+            "norm_text": "A.선생님께서 신고하신 횡단보도 정지선 위반 차량에게 과태료 부과하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+께서/JKS+신고/NNG+하/XSV+신/EP+ETM+횡단보도/NNG+정지선/NNG+위반/NNG+차량/NNG+에게/JKB+과태료/NNG+부과/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 빠른 접수 감사합니다",
+            "norm_text": "B.네 빠른 접수 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+빠른/VA+ETM+접수/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.만족스러운 답변이 되었기를 바랍니다 감사합니다",
+            "norm_text": "A.만족스러운 답변이 되었기를 바랍니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+./SY+만족/NNG+스러운/XSA+ETM+답변/NNG+이/JKS+되/VV+었/EP+기/ETN+를/JKO+바랍니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.예 감사합니다 수고하세요",
+            "norm_text": "B.예 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 민원인 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 민원인 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

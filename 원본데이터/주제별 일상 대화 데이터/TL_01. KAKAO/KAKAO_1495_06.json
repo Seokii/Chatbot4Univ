@@ -1,0 +1,527 @@
+{
+  "dataset": {
+    "identifier": 84582,
+    "name": "KAKAO_1495_06_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/60/txt20211021110154063012/KAKAO_1495_06_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/60/txt20211021110154063012/KAKAO_1495_06_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 83524,
+      "filename": "KAKAO_1495_06.txt",
+      "title": "KAKAO_1495_06",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-21",
+      "size": 888,
+      "annotations": {
+        "subject": "교육",
+        "speaker_type": "다자간 대화",
+        "size": 888,
+        "word_size": 295,
+        "text": "1 : 요즘 강의 듣는 거 너무 힘들다...\n1 : 공부 안 하다가 할라니까 더 힘든 거 같아\n2 : 그니까 이제 슬슬 중간고사 기간인데...\n3 : 아... 내일 조 과제 발표도 있고, 요즘 너무 많아짐 과제\n1 : 그니까... 공부는 너무 힘들다...\n1 : 주변에 보면 학교 공부하면서 자기계발 열심히 하는 사람들도 많던데\n2 : 너도 그런 편 아니야?\n2 : 디게 열심히 사는 거 같은데\n3 : 그니까 다들 공부 열심히 하네\n3 : 나도 열심히 해야지\n1 : 나는 따로 공부는 안 하니까...\n1 : 공부 별로 안하고 운동만 해\n2 : 그래도 그게 어디야\n2 : 난 운동도 안 하고 공부도 안 하는데\n3 : 아 그렇구나\n3 : 난 이제 공부해야지\n1 : 키키 그래 그래\n1 : 나도 공부 열심히 해야지...\n1 : 시험 기간이니까 열심히 해야지\n2 : 이제 슬슬 1주차 강의부터 시작해야 돼 후\n3 : 오랜만에 조모임 하니까 적응 안되더라\n3 : 너무 바빠짐\n1 : 조 모임은 뭔데?\n1 : 팀 프로젝트야?\n1 : 빡세긴 하지 ㅠ\n2 : 팀프 좀 그만 하고 싶다\n2 : 혼자 공부하는 게 낫지\n3 : 조 모임 발표하거든\n3 : 일주일하고 어제 제출하고 내일 발표해\n1 : 엥? 왜케 빡센 거야?\n1 : 나는 저번 주에 발표하고 다음 발표는 언젠지 모르겠네\n2 : 발표를 직접 가서 하는 거야?\n3 : 그니까 비대면 조 모임은 또 불편하긴 하더라\n1 : 비대면 조 모임 하면 줌으로 카메라 키고 하는 건가?\n1 : 그래도 시간 맞추기는 좀 더 편하지 않아?\n2 : 그래도 만나서 하는 게 더 빠르긴 하지 진행이\n3 : 그래도 시험 다음 주에 몰려있고 월말 과제만 끝나면 끝 후후\n1 : 와우... 시험 다음 주면 그래도 빨리 끝나네\n2 : 벌써 다음 주가 시험인 날이 됐나...\n2 : 말 안되는데\n3 : 그니까... 얼른 끝나고 다른 것들 해야지...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 요즘 강의 듣는 거 너무 힘들다...",
+            "norm_text": "요즘 강의 듣는 거 너무 힘들다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+강의/NNG+듣/VV+는/ETM+거/NNB+너무/MAG+힘들/VA+다/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "1 : 공부 안 하다가 할라니까 더 힘든 거 같아",
+            "norm_text": "공부 안 하다가 할라니까 더 힘든 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "공부/NNG+안/MAG+하/VV+다가/EC+할/VX+라니까/EC+더/MAG+힘든/VA+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 그니까 이제 슬슬 중간고사 기간인데...",
+            "norm_text": "그니까 이제 슬슬 중간고사 기간인데...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+이제/MAG+슬슬/MAG+중간고사/NNG+기간/NNG+인데/VCP+EC+./SY+./SY"
+          },
+          {
+            "id": 4,
+            "text": "3 : 아... 내일 조 과제 발표도 있고, 요즘 너무 많아짐 과제",
+            "norm_text": "아... 내일 조 과제 발표도 있고, 요즘 너무 많아짐 과제",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+내일/MAG+조/NNG+과제/NNG+발표/NNG+도/JX+있/VA+고/EC+,/SC+요즘/MAG+너무/MAG+많/VA+아/EC+짐/NNG+과제/NNG"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그니까... 공부는 너무 힘들다...",
+            "norm_text": "그니까... 공부는 너무 힘들다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+./SY+공부/NNG+는/JX+너무/MAG+힘들/VA+다/EF+./SY"
+          },
+          {
+            "id": 6,
+            "text": "1 : 주변에 보면 학교 공부하면서 자기계발 열심히 하는 사람들도 많던데",
+            "norm_text": "주변에 보면 학교 공부하면서 자기계발 열심히 하는 사람들도 많던데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "주변/NNG+에/JKB+보/VV+면/EC+학교/NNG+공부/NNG+하/XSV+면서/EC+자기/NP+계발/NNG+열심히/MAG+하/VV+는/ETM+사람/NNG+들/XSN+도/JX+많/VA+던데/EC"
+          },
+          {
+            "id": 7,
+            "text": "2 : 너도 그런 편 아니야?",
+            "norm_text": "너도 그런 편 아니야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+도/JX+그런/MM+편/NNB+아니/VCN+야/EF"
+          },
+          {
+            "id": 8,
+            "text": "2 : 디게 열심히 사는 거 같은데",
+            "norm_text": "디게 열심히 사는 거 같은데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "디게/MAG+열심히/MAG+사/VV+는/ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 9,
+            "text": "3 : 그니까 다들 공부 열심히 하네",
+            "norm_text": "그니까 다들 공부 열심히 하네",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그니까/MAJ+다/MAG+들/XSN+공부/NNG+열심히/MAG+하/VV+네/EC"
+          },
+          {
+            "id": 10,
+            "text": "3 : 나도 열심히 해야지",
+            "norm_text": "나도 열심히 해야지",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+열심히/MAG+해야지/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 나는 따로 공부는 안 하니까...",
+            "norm_text": "나는 따로 공부는 안 하니까...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+따로/MAG+공부/NNG+는/JX+안/MAG+하/VV+니까/EC+./SY+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 공부 별로 안하고 운동만 해",
+            "norm_text": "공부 별로 안하고 운동만 해",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "공부/NNG+별로/MAG+안/MAG+하/VV+고/EC+운동/NNG+만/JX+해/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 그래도 그게 어디야",
+            "norm_text": "그래도 그게 어디야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+그게/NP+JKS+어디/NP+야/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "2 : 난 운동도 안 하고 공부도 안 하는데",
+            "norm_text": "난 운동도 안 하고 공부도 안 하는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+운동/NNG+도/JX+안/MAG+하/VV+고/EC+공부/NNG+도/JX+안/MAG+하/VV+는데/EC"
+          },
+          {
+            "id": 15,
+            "text": "3 : 아 그렇구나",
+            "norm_text": "아 그렇구나",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "아/IC+그렇/VA+구나/EC"
+          },
+          {
+            "id": 16,
+            "text": "3 : 난 이제 공부해야지",
+            "norm_text": "난 이제 공부해야지",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+이제/MAG+공부/NNG+해야지/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 키키 그래 그래",
+            "norm_text": "키키 그래 그래",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래/JX+그래/VA+EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 나도 공부 열심히 해야지...",
+            "norm_text": "나도 공부 열심히 해야지...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+공부/NNG+열심히/MAG+해야지/VV+EF+./SY"
+          },
+          {
+            "id": 19,
+            "text": "1 : 시험 기간이니까 열심히 해야지",
+            "norm_text": "시험 기간이니까 열심히 해야지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "시험/NNG+기간/NNG+이/VCP+니까/EC+열심히/MAG+해야지/VV+EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 이제 슬슬 1주차 강의부터 시작해야 돼 후",
+            "norm_text": "이제 슬슬 1주차 강의부터 시작해야 돼 후",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이제/MAG+슬슬/MAG+1/SN+주/NNBC+차/XSN+강의/NNG+부터/JX+시작/NNG+해야/XSV+EC+돼/VV+EC+후/NNG"
+          },
+          {
+            "id": 21,
+            "text": "3 : 오랜만에 조모임 하니까 적응 안되더라",
+            "norm_text": "오랜만에 조모임 하니까 적응 안되더라",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오랜만/NNG+에/JKB+조/NNG+모임/NNG+하/XSV+니까/EC+적응/NNG+안/MAG+되/VV+더라/EC"
+          },
+          {
+            "id": 22,
+            "text": "3 : 너무 바빠짐",
+            "norm_text": "너무 바빠짐",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너무/MAG+바빠/VA+EC+짐/NNG"
+          },
+          {
+            "id": 23,
+            "text": "1 : 조 모임은 뭔데?",
+            "norm_text": "조 모임은 뭔데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "조/NNG+모임/NNG+은/JX+뭔데/NP+VCP+EF"
+          },
+          {
+            "id": 24,
+            "text": "1 : 팀 프로젝트야?",
+            "norm_text": "팀 프로젝트야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "팀/NNG+프로젝트/NNG+야/VCP+EF"
+          },
+          {
+            "id": 25,
+            "text": "1 : 빡세긴 하지 ㅠ",
+            "norm_text": "빡세긴 하지 ㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "빡세긴하지ㅠ/UNKNOWN"
+          },
+          {
+            "id": 26,
+            "text": "2 : 팀프 좀 그만 하고 싶다",
+            "norm_text": "팀프 좀 그만 하고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "팀프/UNKNOWN+좀/MAG+그만/MAG+하/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 27,
+            "text": "2 : 혼자 공부하는 게 낫지",
+            "norm_text": "혼자 공부하는 게 낫지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "혼자/NNG+공부/NNG+하/XSV+는/ETM+게/NNB+JKS+낫/VA+지/EC"
+          },
+          {
+            "id": 28,
+            "text": "3 : 조 모임 발표하거든",
+            "norm_text": "조 모임 발표하거든",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "조/NNG+모임/NNG+발표/NNG+하/XSV+거든/EC"
+          },
+          {
+            "id": 29,
+            "text": "3 : 일주일하고 어제 제출하고 내일 발표해",
+            "norm_text": "일주일하고 어제 제출하고 내일 발표해",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "일주일/NNG+하/XSV+고/EC+어제/MAG+제출/NNG+하/XSV+고/EC+내일/MAG+발표/NNG+해/XSV+EC"
+          },
+          {
+            "id": 30,
+            "text": "1 : 엥? 왜케 빡센 거야?",
+            "norm_text": "엥? 왜케 빡센 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+왜/MAG+케/XSA+EC+빡센/VA+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 31,
+            "text": "1 : 나는 저번 주에 발표하고 다음 발표는 언젠지 모르겠네",
+            "norm_text": "나는 저번 주에 발표하고 다음 발표는 언젠지 모르겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+저번/NNG+주/NNG+에/JKB+발표/NNG+하/XSV+고/EC+다음/NNG+발표/NNG+는/JX+언젠지/NP+VCP+EC+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 32,
+            "text": "2 : 발표를 직접 가서 하는 거야?",
+            "norm_text": "발표를 직접 가서 하는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "발표/NNG+를/JKO+직접/MAG+가/VV+서/EC+하/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 33,
+            "text": "3 : 그니까 비대면 조 모임은 또 불편하긴 하더라",
+            "norm_text": "그니까 비대면 조 모임은 또 불편하긴 하더라",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+비대/NNG+면조/NNG+모임/NNG+은/JX+또/MAG+불편/NNG+하/XSV+긴/ETN+JX+하/VX+더라/EC"
+          },
+          {
+            "id": 34,
+            "text": "1 : 비대면 조 모임 하면 줌으로 카메라 키고 하는 건가?",
+            "norm_text": "비대면 조 모임 하면 줌으로 카메라 키고 하는 건가?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "비대/NNG+면조/NNG+모임/NNG+하/XSV+면/EC+줌/VX+ETN+으로/JKB+카메라/NNG+키/VV+고/EC+하/VV+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 35,
+            "text": "1 : 그래도 시간 맞추기는 좀 더 편하지 않아?",
+            "norm_text": "그래도 시간 맞추기는 좀 더 편하지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+시간/NNG+맞추/VV+기/ETN+는/JX+좀/MAG+더/MAG+편하/VA+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 36,
+            "text": "2 : 그래도 만나서 하는 게 더 빠르긴 하지 진행이",
+            "norm_text": "그래도 만나서 하는 게 더 빠르긴 하지 진행이",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+만나/VV+서/EC+하/VV+는/ETM+게/NNB+JKS+더/MAG+빠르/VA+긴/ETN+JX+하/VX+지/EC+진행/NNG+이/JKS"
+          },
+          {
+            "id": 37,
+            "text": "3 : 그래도 시험 다음 주에 몰려있고 월말 과제만 끝나면 끝 후후",
+            "norm_text": "그래도 시험 다음 주에 몰려있고 월말 과제만 끝나면 끝 후후",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+시험/NNG+다음/NNG+주/NNG+에/JKB+몰려/VV+EC+있/VX+고/EC+월말/NNG+과제/NNG+만/JX+끝나/VV+면/EC+끝/NNG+후후/NNP"
+          },
+          {
+            "id": 38,
+            "text": "1 : 와우... 시험 다음 주면 그래도 빨리 끝나네",
+            "norm_text": "와우... 시험 다음 주면 그래도 빨리 끝나네",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와우/IC+./SY+시험/NNG+다음/NNG+주/VV+면/EC+그래도/VV+EC+빨리/MAG+끝/NNG+나/NP+네/XSN"
+          },
+          {
+            "id": 39,
+            "text": "2 : 벌써 다음 주가 시험인 날이 됐나...",
+            "norm_text": "벌써 다음 주가 시험인 날이 됐나...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "벌써/MAG+다음/NNG+주가/NNG+시험/NNG+인/VCP+ETM+날/NNG+이/JKS+됐/VV+EP+나/EF+./SY"
+          },
+          {
+            "id": 40,
+            "text": "2 : 말 안되는데",
+            "norm_text": "말 안되는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "말/NNG+안/MAG+되/VV+는데/EC"
+          },
+          {
+            "id": 41,
+            "text": "3 : 그니까... 얼른 끝나고 다른 것들 해야지...",
+            "norm_text": "그니까... 얼른 끝나고 다른 것들 해야지...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+./SY+얼른/MAG+끝나/VV+고/EC+다른/MM+것/NNB+들/XSN+해야지/VV+EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

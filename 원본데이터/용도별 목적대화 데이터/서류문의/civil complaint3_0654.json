@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 40108,
+    "name": "c3_20211012_0010_1811_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211008131049072948/c3_20211012_0010_1811_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211008131049072948/c3_20211012_0010_1811_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 55198,
+      "filename": "c3_20210930_0007_0001_01.txt",
+      "title": "c3_20210930_0007_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 253,
+      "annotations": {
+        "subject": "서류 문의",
+        "speaker_type": "1:1",
+        "size": 253,
+        "word_size": 54,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 문의할 게 있어서요\nA.네 어떤 문의이실까요\nB.상가를 임차해서 사업자등록을 하려고 하는데요\nB.이때 어떤 서류가 필요하나요\nA.사업자등록을 위해서는 본인이 방문할 때와 대리인이 방문할 때의 경우에 차이가 있습니다\nB.네 본인이 방문할 거에요\nA.본인방문 시 사업자등록신청서 임대차계약서 사본 인허가증 대표자 본인 신분증이 필요하세요\nB.네 알겠습니다 감사해요\nA.네 도움이 되었기를 바랍니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의할 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의할 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문의/NNG+할/XSV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의이실까요",
+            "norm_text": "A.네 어떤 문의이실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.상가를 임차해서 사업자등록을 하려고 하는데요",
+            "norm_text": "B.상가를 임차해서 사업자등록을 하려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+상가/NNG+를/JKO+임차/NNG+해서/XSV+EC+사업자/NNG+등록/NNG+을/JKO+하/VV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.이때 어떤 서류가 필요하나요",
+            "norm_text": "B.이때 어떤 서류가 필요하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+이때/NNG+어떤/MM+서류/NNG+가/JKS+필요/NNG+하/XSV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.사업자등록을 위해서는 본인이 방문할 때와 대리인이 방문할 때의 경우에 차이가 있습니다",
+            "norm_text": "A.사업자등록 서류는 본인 방문과 대리인의 방문할 때 각각 차이가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+사업자/NNG+등록/NNG+서류/NNG+는/JX+본인/NNG+방문/NNG+과/JC+대리인/NNG+의/JKG+방문/NNG+할/XSV+ETM+때/NNG+각각/MAG+차이/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.네 본인이 방문할 거에요",
+            "norm_text": "B.네 본인이 방문할 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+본인/NNG+이/JKS+방문/NNG+할/XSV+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.본인방문 시 사업자등록신청서 임대차계약서 사본 인허가증 대표자 본인 신분증이 필요하세요",
+            "norm_text": "A.사업자등록신청서 임대차계약서 사본 인허가증 신분증이 필요하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+사업자/NNG+등록/NNG+신청서/NNG+임대차/NNG+계약서/NNG+사본/NNG+인/VCP+ETM+허가증/NNG+신분증/NNG+이/JKS+필요/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠습니다 감사해요",
+            "norm_text": "B.네 알겠습니다 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 도움이 되었기를 바랍니다 감사합니다",
+            "norm_text": "A.네 도움이 되었기를 바랍니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+도움/NNG+이/JKS+되/VV+었/EP+기/ETN+를/JKO+바랍니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

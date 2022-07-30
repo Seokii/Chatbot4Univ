@@ -1,0 +1,107 @@
+{
+  "dataset": {
+    "identifier": 16482,
+    "name": "s2_20210915_0010_1262_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514130839106/s2_20210915_0010_1262_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514130839106/s2_20210915_0010_1262_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11477,
+      "filename": "s2_20210830_0028_0006_01.txt",
+      "title": "s2_20210830_0028_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 138,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 138,
+        "word_size": 28,
+        "text": "A.안녕하세요 고객님 상담사 #@이름#입니다\nB.네 제가 하나 물어볼라고 하는데요\nA.네 고객님 말씀하세요\nB.예 상품보다 왔는데 #@상품#라고 이것은 어떤 거예요\nA.정확한 상품명이나 상품번호를 말씀해주셔야 됩니다\nB.잠시 만요 상품번호가 #@번호#입니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 제가 하나 물어볼라고 하는데요",
+            "norm_text": "B.네 제가 하나 물어볼라고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+하나/NR+물/VV+어/EC+볼/VX+라고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀하세요",
+            "norm_text": "A.네 고객님 말씀하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.예 상품보다 왔는데 #@상품#라고 이것은 어떤 거예요",
+            "norm_text": "B.예 상품보다 왔는데 #@상품#라고 이것은 어떤 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+상품/NNG+보다/JKB+왔/VV+EP+는데/EC+#/SY+@/SY+상품/NNG+#/SY+라고/JKQ+이것/NP+은/JX+어떤/MM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.정확한 상품명이나 상품번호를 말씀해주셔야 됩니다",
+            "norm_text": "A.정확한 상품명이나 상품번호를 말씀해주셔야 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+정확/NNG+한/XSA+ETM+상품명/NNG+이나/JC+상품/NNG+번호/NNG+를/JKO+말씀/NNG+해/XSV+EC+주/VX+셔야/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.잠시 만요 상품번호가 #@번호#입니다",
+            "norm_text": "B.잠시 만요 상품번호가 #@번호#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+잠시/MAG+만요/NNP+상품/NNG+번호/NNG+가/JKS+#/SY+@/SY+번호/NNG+#/SY+입니다/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

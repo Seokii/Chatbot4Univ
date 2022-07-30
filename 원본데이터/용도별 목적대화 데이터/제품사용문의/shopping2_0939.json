@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 94522,
+    "name": "s2_20211102_0002_0149_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110739058777/s2_20211102_0002_0149_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110739058777/s2_20211102_0002_0149_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117423,
+      "filename": "s2_20211029_0009_0004_01.txt",
+      "title": "s2_20211029_0009_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 280,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 280,
+        "word_size": 64,
+        "text": "A.무엇이든 도와드리겠습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.구입한 밥곹에 밥을 하는데 밥이 너무 질거나 된밥이 돼요\nA.메뉴 선택은 맞게 하셨습니까\nB.네 잡곡하려고 해서 잡곡 눌렀는데요\nA.선택한 메뉴에 맞게 물 조절은 정확히 하셨습니까\nB.대충 눈대중으로 맞게 한 것 같은데요\nA.선택한 메뉴에 맞게 계량컵의 개수에 맞춰 정해진 눈금에 물을 맞춰주십시오\nA.그게 원인일 수도 있거든요\nB.설명서 보고 계량에 맞게 다시 해봐야 겠네요\nB.상담 감사합니다 수고하세요\nA.네 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.무엇이든 도와드리겠습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.무엇이든 도와드리겠습니다 #@소속# #@이름#입니다 ",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+무엇/NP+이/VCP+든/EC+도와/VV+EC+드리/VX+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.구입한 밥곹에 밥을 하는데 밥이 너무 질거나 된밥이 돼요",
+            "norm_text": "B.구입한 밥곹에 밥을 하는데 밥이 너무 질거나 된밥이 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+구입/NNG+한/XSA+ETM+밥곹/UNKNOWN+에/JKB+밥/NNG+을/JKO+하/VV+는데/EC+밥/NNG+이/JKS+너무/MAG+질/VA+거나/EC+된/VV+ETM+밥/NNG+이/JKS+돼요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.메뉴 선택은 맞게 하셨습니까",
+            "norm_text": "A.메뉴 선택은 맞게 하셨습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+메뉴/NNG+선택/NNG+은/JX+맞/VV+게/EC+하/VX+셨/EP+EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 잡곡하려고 해서 잡곡 눌렀는데요",
+            "norm_text": "B.네 잡곡하려고 해서 잡곡 눌렀는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+잡곡/NNG+하/XSV+려고/EC+해서/VV+EC+잡/VV+곡/EC+눌렀/VV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.선택한 메뉴에 맞게 물 조절은 정확히 하셨습니까",
+            "norm_text": "A.선택한 메뉴에 맞게 물 조절은 정확히 하셨습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선택/NNG+한/XSA+ETM+메뉴/NNG+에/JKB+맞/VV+게/EC+물/NNG+조절/NNG+은/JX+정확히/MAG+하/VV+셨/EP+EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.대충 눈대중으로 맞게 한 것 같은데요",
+            "norm_text": "B.대충 눈대중으로 맞게 한 것 같은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+대충/MAG+눈대중/NNG+으로/JKB+맞/VV+게/EC+한/VX+ETM+것/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.선택한 메뉴에 맞게 계량컵의 개수에 맞춰 정해진 눈금에 물을 맞춰주십시오",
+            "norm_text": "A.선택한 메뉴에 맞게 정해진 눈금에 물을 맞춰주십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선택/NNG+한/XSA+ETM+메뉴/NNG+에/JKB+맞/VV+게/EC+계량컵/NNG+의/JKG+개수/NNG+에/JKB+맞춰/VV+EC+정해진/VV+EC+VX+ETM+눈금/NNG+에/JKB+물/NNG+을/JKO+맞춰/VV+EC+주/VX+십시오/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.그게 원인일 수도 있거든요",
+            "norm_text": "A.그게 원인일 수도 있거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그게/NP+JKS+원인/NNG+일/VCP+ETM+수/NNB+도/JX+있/VA+거든요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.설명서 보고 계량에 맞게 다시 해봐야 겠네요",
+            "norm_text": "B.설명서 보고 계량에 맞게 다시 해봐야 겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+설명서/NNG+보고/JKB+계량/NNG+에/JKB+맞/VV+게/EC+다시/MAG+해/VV+EC+봐야/VX+EC+VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.상담 감사합니다 수고하세요",
+            "norm_text": "B.상담 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+상담/NNG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 상담사 #@이름#이었습니다",
+            "norm_text": "A.네 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

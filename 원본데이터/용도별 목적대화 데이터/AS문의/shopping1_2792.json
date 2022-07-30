@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 109201,
+    "name": "s1_20211104_0001_3600_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110641071219/s1_20211104_0001_3600_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110641071219/s1_20211104_0001_3600_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 114987,
+      "filename": "s1_20211012_0012_0007_01.txt",
+      "title": "s1_20211012_0012_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 245,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 245,
+        "word_size": 54,
+        "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다\nB.안녕하세요 방문 예약해주세요\nA.네 고객님 수리 방문 예약하시나요\nB.네 배터리 교체하려고요\nA.네 고객님 어느 지점으로 예약해드릴까요\nB.네 이천 #@주소#에 있는 지점요\nA.네 방문 날짜와 성함 연락처 말씀해주시겠어요\nB.네 내일 오후 두 시 #@이름# #@전번#\nA.네 고객님 내일 오후 두 시 예약 완료되었습니다\nB.네 감사합니다 수고하세요\nA.언제든지 연락 주세요 #@소속#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+만족/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 방문 예약해주세요",
+            "norm_text": "B.안녕하세요 방문 예약해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+방문/NNG+예약/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 수리 방문 예약하시나요",
+            "norm_text": "A.네 고객님 수리 방문 예약하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+수리/NNG+방문/NNG+예약/NNG+하/XSV+시/EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 배터리 교체하려고요",
+            "norm_text": "B.네 배터리 교체하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+배터리/NNG+교체/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 어느 지점으로 예약해드릴까요",
+            "norm_text": "A.네 고객님 어느 지점으로 예약해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어느/MM+지점/NNG+으로/JKB+예약/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 이천 #@주소#에 있는 지점요",
+            "norm_text": "B.네 이천 #@주소#에 있는 지점요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+이/NR+천/NR+#/SY+@/SY+주소/NNG+#/SY+에/JKB+있/VV+는/ETM+지점/NNG+요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 방문 날짜와 성함 연락처 말씀해주시겠어요",
+            "norm_text": "A.네 방문 날짜와 성함 연락처 말씀해주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+방문/NNG+날짜/NNG+와/JC+성함/NNG+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 내일 오후 두 시 #@이름# #@전번#",
+            "norm_text": "B.네 내일 오후 두 시 #@이름# #@전번#",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+내일/MAG+오후/NNG+두/MM+시/NNBC+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY"
+          },
+          {
+            "id": 9,
+            "text": "A.네 고객님 내일 오후 두 시 예약 완료되었습니다",
+            "norm_text": "A.네 고객님 내일 오후 두 시 예약 완료되었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+내일/NNG+오후/NNG+두/MM+시/NNBC+예약/NNG+완료/NNG+되/XSV+었/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.언제든지 연락 주세요 #@소속#이었습니다",
+            "norm_text": "A.언제든지 연락 주세요 #@소속#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+언제/NP+든지/VCP+EC+연락/NNG+주세요/NNP+#/SY+@/SY+소속/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

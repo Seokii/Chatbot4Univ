@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 12804,
+    "name": "c1_20210913_0005_0879_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151337075214/c1_20210913_0005_0879_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151337075214/c1_20210913_0005_0879_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10174,
+      "filename": "c1_20210818_0017_0022_01.txt",
+      "title": "c1_20210818_0017_0022_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 486,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 486,
+        "word_size": 105,
+        "text": "A.반갑습니다 #@소속# 콜센터 #@이름#입니다 무엇을 도와 드릴까요\nB.어디로 전화를 해야 되나 #@소속# 에 #@소속# 가 맞나 모르겠네요\nA.업무 내용 말씀해주시면 제가 담당자 확인 후에 안내해드리겠습니다\nB.네 제가 서울이구요 홍성리 공사하고 있는 #@소속#에다가 압류를 신청했는데요\nB.관할부서가 어딘지를 모르겠네요\nA.홍성군 위치한 #@소속#에 압류를 신청했다는 말씀 맞으십니까\nB.예 맞습니다 홍성군 #@주소# 교차로 공사하고 있는 #@소속#에 압류를 했어요\nB.그래 가지고 지금 결정문이 법원에서 나왔는데 그 담당 부서가 어딘지를 모르겠네요\nA.혹시 #@소속#에서 담당하는 부분인가요\nB.아닙니다 여기 #@소속#법원 앞이구요\nA.해당 담당기관이 도청이 맞으십니까 선생님\nB.예 담당기관이 도청이 맞습니다\nA.도외 교차로 관련 공사로 확인 후 안내해드리겠습니다 잠시만 기다려 주시겠습니까\nB.예 기다리고 있겠습니다\nA.네 선생님 기다려 주셔서 감사합니다 실례지만 교차로가 지방도이십니까",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 콜센터 #@이름#입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# 콜센터 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+콜/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.어디로 전화를 해야 되나 #@소속# 에 #@소속# 가 맞나 모르겠네요",
+            "norm_text": "B.#@소속#에 #@소속#으로 전화해도 맞나 모르겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+어디/NP+로/JKB+전화/NNG+를/JKO+해야/VV+EC+되/VV+나/EC+#/SY+@/SY+소속/NNG+#/SY+에/JKB+#/SY+@/SY+소속/NNG+#/SY+가/JKS+맞/VV+나/EC+모르/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.업무 내용 말씀해주시면 제가 담당자 확인 후에 안내해드리겠습니다",
+            "norm_text": "A.업무 내용 말씀하시면 담당자 확인 후에 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+업무/NNG+내용/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+면/EC+제/NP+가/JKS+담당자/NNG+확인/NNG+후/NNG+에/JKB+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 제가 서울이구요 홍성리 공사하고 있는 #@소속#에다가 압류를 신청했는데요",
+            "norm_text": "B.저는 서울이구요 #@주소#에서 공사 중인 #@소속#에 압류를 신청했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+서울/NNP+이/VCP+구/EC+요홍/NNP+성리/NNG+공사/NNG+하/XSV+고/EC+있/VX+는/ETM+#/SY+@/SY+소속/NNG+#/SY+에다가/JKB+압류/NNG+를/JKO+신청/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.관할부서가 어딘지를 모르겠네요",
+            "norm_text": "B.관할부서가 어딘지를 모르겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+관할/NNG+부서/NNG+가/JKS+어딘지/NP+VCP+EC+를/JKO+모르/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.홍성군 위치한 #@소속#에 압류를 신청했다는 말씀 맞으십니까",
+            "norm_text": "A.홍성군 위치한 #@소속#에 압류를 신청했다는 말씀 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+홍성군/NNG+위치/NNG+한/XSA+ETM+#/SY+@/SY+소속/NNG+#/SY+에/JKB+압류/NNG+를/JKO+신청/NNG+했/XSV+EP+다는/ETM+말씀/NNG+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.예 맞습니다 홍성군 #@주소# 교차로 공사하고 있는 #@소속#에 압류를 했어요",
+            "norm_text": "B.예 #@주소# 교차로 공사하고 있는 #@소속#에 압류를 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+맞/VV+습니다/EF+홍성군/NNP+#/SY+@/SY+주소/NNG+#/SY+교차로/NNG+공사/NNG+하/XSV+고/EC+있/VX+는/ETM+#/SY+@/SY+소속/NNG+#/SY+에/JKB+압류/NNG+를/JKO+했/VV+EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그래 가지고 지금 결정문이 법원에서 나왔는데 그 담당 부서가 어딘지를 모르겠네요",
+            "norm_text": "B.그래서 지금 결정문이 법원에서 나왔는데 담당 부서가 어딘지를 모르겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래/VA+EC+가지/VX+고/EC+지금/MAG+결정/NNG+문/NNG+이/JKS+법원/NNG+에서/JKB+나왔/VV+EP+는데/EC+그/MM+담당/NNG+부서/NNG+가/JKS+어딘지/NP+VCP+EC+를/JKO+모르/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.혹시 #@소속#에서 담당하는 부분인가요",
+            "norm_text": "A.혹시 #@소속#에서 담당하는 부분인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+담당/NNG+하/XSV+는/ETM+부분/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.아닙니다 여기 #@소속#법원 앞이구요",
+            "norm_text": "B.아닙니다 여기 #@소속#법원 앞이구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아닙니다/VCN+EF+여기/NP+#/SY+@/SY+소속/NNG+#/SY+법원/NNG+앞/NNG+이/VCP+구요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.해당 담당기관이 도청이 맞으십니까 선생님",
+            "norm_text": "A.해당 담당 기관이 도청이 맞으십니까 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+해당/NNG+담당/NNG+기관/NNG+이/JKS+도청/NNG+이/JKS+맞/VV+으십니까/EP+EP+EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 12,
+            "text": "B.예 담당기관이 도청이 맞습니다",
+            "norm_text": "B.예 담당 기관이 도청이 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+담당/NNG+기관/NNG+이/JKS+도청/NNG+이/JKS+맞/VV+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.도외 교차로 관련 공사로 확인 후 안내해드리겠습니다 잠시만 기다려 주시겠습니까",
+            "norm_text": "A.도외 교차로 관련 확인 후 안내해 드리겠습니다 기다려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+도외/NNG+교차로/NNG+관련/NNG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 14,
+            "text": "B.예 기다리고 있겠습니다",
+            "norm_text": "B.예 기다리고 있겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+기다리/VV+고/EC+있/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.네 선생님 기다려 주셔서 감사합니다 실례지만 교차로가 지방도이십니까",
+            "norm_text": "A.네 기다려 주셔서 감사합니다 실례지만 교차로가 지방도이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+실례/NNG+지만/VCP+EC+교차로/NNG+가/JKS+지방도/NNG+이/VCP+십니까/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

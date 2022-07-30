@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 60865,
+    "name": "c4_20211021_0023_0068_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131233088828/c4_20211021_0023_0068_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131233088828/c4_20211021_0023_0068_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57013,
+      "filename": "c4_20210927_0005_0008_01.txt",
+      "title": "c4_20210927_0005_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 340,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 340,
+        "word_size": 70,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.#@주소# 앞에 보도가 부서져서요 위험해보이거든요\nA.#@주소# 앞 보도 파손에 대한 건이십니까\nB.예 위험하기도 하고 요즘에 애들 킥보드도 많이 타고 다니는데\nB.그냥 다니기에도 불편해요 언제 공사 안 하나요\nA.이 건에 관하여 담당자에게 연결하여 현장을 확인하고요\nA.통행에 불편이 더 발생하지 않도록 보수공사를 준비하겠습니다\nB.얼마나 걸리는지는 모르죠\nA.아무래도 원상복구까지는 시간이 걸릴 듯 싶습니다\nA.그동안은 통행에 다소 불편함이 있으시더라도 양해 부탁드립니다\nB.그래요 알겠습니다 수고하세요\nA.감사합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@주소# 앞에 보도가 부서져서요 위험해보이거든요",
+            "norm_text": "B.#@주소# 앞에 보도가 부서져서요 위험해보이거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+앞/NNG+에/JKB+보도/NNG+가/JKS+부서져서/VV+EC+요/MM+위험/NNG+해/XSV+EC+보이/VV+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.#@주소# 앞 보도 파손에 대한 건이십니까",
+            "norm_text": "A.#@주소# 앞 보도 파손에 대한 건이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+앞/NNG+보도/NNG+파손/NNG+에/JKB+대한/VV+ETM+건/NNB+JX+이/NP+십니까/VCP+EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.예 위험하기도 하고 요즘에 애들 킥보드도 많이 타고 다니는데",
+            "norm_text": "B.예 위험하기도 하고 요즘에 애들 킥보드도 많이 타고 다니는데",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+위험/NNG+하/XSV+기/ETN+도/JX+하/VV+고/EC+요즘/NNG+에/JKB+애/NNG+들/XSN+킥/MAG+보드/NNP+도/JX+많이/MAG+타/VV+고/EC+다니/VV+는데/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.그냥 다니기에도 불편해요 언제 공사 안 하나요",
+            "norm_text": "B.그냥 다니기에도 불편해요 언제 공사 안 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그냥/MAG+다니/VV+기/ETN+에/JKB+도/JX+불편/NNG+해요/XSV+EF+언제/MAG+공사/NNG+안/MAG+하/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.이 건에 관하여 담당자에게 연결하여 현장을 확인하고요",
+            "norm_text": "A.이 건에 관하여 담당자에게 연결하여 현장을 확인하고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+이건/NNG+에/JKB+관하/VV+여/EC+담당자/NNG+에게/JKB+연결/NNG+하/XSV+여/EC+현장/NNG+을/JKO+확인/NNG+하/XSV+고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.통행에 불편이 더 발생하지 않도록 보수공사를 준비하겠습니다",
+            "norm_text": "A.통행에 불편이 더 발생하지 않도록 보수공사를 준비하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+통행/NNG+에/JKB+불편/NNG+이/JKS+더/MAG+발생/NNG+하/XSV+지/EC+않/VX+도록/EC+보수/NNG+공사/NNG+를/JKO+준비/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.얼마나 걸리는지는 모르죠",
+            "norm_text": "B.얼마나 걸리는지는 모르죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+얼마나/MAG+걸리/VV+는지/EC+는/JX+모르/VV+죠/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.아무래도 원상복구까지는 시간이 걸릴 듯 싶습니다",
+            "norm_text": "A.아무래도 원상복구까지는 시간이 걸릴 듯 싶습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아무래도/MAG+원상/NNG+복구/NNG+까지/JX+는/JX+시간/NNG+이/JKS+걸릴/VV+ETM+듯/NNB+싶/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.그동안은 통행에 다소 불편함이 있으시더라도 양해 부탁드립니다",
+            "norm_text": "A.그동안은 통행에 다소 불편함이 있으시더라도 양해 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+그동안/NNG+은/JX+통행/NNG+에/JKB+다소/MAG+불편/NNG+함/XSV+ETN+이/JKS+있/VA+으시/EP+더라도/EC+양해/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그래요 알겠습니다 수고하세요",
+            "norm_text": "B.그래요 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그래요/VV+EC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

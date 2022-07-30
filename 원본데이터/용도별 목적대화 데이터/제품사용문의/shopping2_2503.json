@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 118630,
+    "name": "s2_20211105_0002_0131_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110732091927/s2_20211105_0002_0131_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110732091927/s2_20211105_0002_0131_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116626,
+      "filename": "s2_20211026_0005_0020_01.txt",
+      "title": "s2_20211026_0005_0020_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 228,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 228,
+        "word_size": 52,
+        "text": "A.건강한 하루를 선물합니다 #@소속# 상담원 #@이름#입니다\nB.#@상품# 이게 열 여섯 가지 프로바이오틱 균주 이렇게 적혀 있는데요\nA.네 고객님 #@상품# 말씀이십니까\nB.예 그거 균주가 열 여섯 개 라는 거면 유산균 종류가 열 여섯 개 라는 건가요\nA.네 맞습니다 고객님 다양한 종류의 균주로 이루어진 제품입니다\nB.그렇구나 신기하네 알겠어요\nA.감사합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.건강한 하루를 선물합니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.건강한 하루를 선물합니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+건강/NNG+한/XSA+ETM+하루/NNG+를/JKO+선물/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 이게 열 여섯 가지 프로바이오틱 균주 이렇게 적혀 있는데요",
+            "norm_text": "B.#@상품# 이게 열 여섯 가지 프로바이오틱 균주 이렇게 적혀 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+이게/NP+JKS+열/NR+여섯/NR+가지/NNBC+프로/NNG+바이오/NNP+틱/XSN+균주/NNG+이렇게/MAG+적혀/VV+EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 #@상품# 말씀이십니까",
+            "norm_text": "A.네 고객님 #@상품# 말씀이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+#/SY+@/SY+상품/NNG+#/SY+말씀/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.예 그거 균주가 열 여섯 개 라는 거면 유산균 종류가 열 여섯 개 라는 건가요",
+            "norm_text": "B.예 그거 균주가 열 여섯 개 라는 거면 유산균 종류가 열 여섯 개 라는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+그거/NP+균주/NNG+가/JKS+열/NR+여섯/NR+개/NNBC+라는/VCP+ETM+거/NNB+면/VCP+EC+유산균/NNG+종류/NNG+가/JKS+열/NR+여섯/NR+개/NNBC+라는/VCP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 맞습니다 고객님 다양한 종류의 균주로 이루어진 제품입니다",
+            "norm_text": "A.네 맞습니다 고객님 다양한 종류의 균주로 이루어진 제품입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+고객/NNG+님/XSN+다양/XR+한/XSA+ETM+종류/NNG+의/JKG+균주/NNG+로/JKB+이루어진/VV+ETM+제품/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그렇구나 신기하네 알겠어요",
+            "norm_text": "B.그렇구나 신기하네 알겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그렇/VA+구나/EF+신기/XR+하/XSA+네/EF+알/VV+겠/EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

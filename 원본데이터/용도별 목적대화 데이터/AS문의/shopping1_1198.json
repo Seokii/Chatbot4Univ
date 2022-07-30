@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 16760,
+    "name": "s1_20210915_0002_0009_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151258017635/s1_20210915_0002_0009_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151258017635/s1_20210915_0002_0009_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8970,
+      "filename": "s1_20210826_0021_0006_01.txt",
+      "title": "s1_20210826_0021_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 600,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 600,
+        "word_size": 128,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름# 입니다\nA.#@상품# 모델 음악 플레이 사용중에 끊긴다고 문의를 남기셨죠\nA.지금 #@상품# #@상품#버전 인가요 아니면 #@상품#버전 인가요\nB.지금 제 거는 #@상품# 버전 사용중이에요\nA.#@상품#이세요 끊기는게 어떤식으로 끊기는 거세요\nB.뮤직 플레이를 실행하면 계속 돌아야 되는데 중간중간 끊겨요\nA.랜덤으로 어떤 곡이든 간에 재생을 하다보면 갑자기 끊긴다는 거세요\nB.파일을 실행하면 정지하지않고 쭉 돌아가야 되는데 정지해 버려요\nA.특정 알림이 오거나 그런게 아닌데 갑자기 멈추신다는거세요\nA.음악어플 초기화는 해보셨습니까 데이터 지우기로 한번 해보신거세요\nB.글쎄요 이게 #@상품#버전 업그레이드는 된거 같은데요\nA.업그레이드 후에 그런거면 버전적인 문제로 오동작이 날 수 있거든요\nA.안전모드에서 음악을 실행해서 정상적으로 작동이 되는지 보시겠어요\nB.안전모드는 어떻게 실행하는거죠\nA.핸드폰 전원 꺼진 상태에서 볼륨과 전원 버튼을 길게 눌러 주세요\nA.부팅화면이 뜨면 볼륨 버튼으로 조정해서 안전모드 실행해주세요\nB.이렇게 실행해도 끊겨요\nA.그러면 이건 기계적인 문제로 보이는데 센터로 내방해 주셔야 해요\nB.알겠습니다 그러면 센터로 가볼게요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.#@상품# 모델 음악 플레이 사용중에 끊긴다고 문의를 남기셨죠",
+            "norm_text": "A.#@상품# 모델 음악 플레이 사용중에 끊긴다고 문의를 남기셨죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+모델/NNG+음악/NNG+플레이/NNG+사용/NNG+중/NNB+에/JKB+끊/VV+긴/ETN+JX+다/VX+고/EC+문의/NNG+를/JKO+남기/VV+셨/EP+EP+죠/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.지금 #@상품# #@상품#버전 인가요 아니면 #@상품#버전 인가요",
+            "norm_text": "A.지금 #@상품# #@상품#버전 인가요 아니면 #@상품#버전 인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+#/SY+@/SY+상품/NNG+#/SY+#/SY+@/SY+상품/NNG+#/SY+버전/NNG+인가요/VCP+EC+아니/VCN+면/EC+#/SY+@/SY+상품/NNG+#/SY+버전/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.지금 제 거는 #@상품# 버전 사용중이에요",
+            "norm_text": "B.지금 제 거는 #@상품# 버전 사용중이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+제거/NNG+는/JX+#/SY+@/SY+상품/NNG+#/SY+버전/NNG+사용/NNG+중/NNB+이/VCP+에요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.#@상품#이세요 끊기는게 어떤식으로 끊기는 거세요",
+            "norm_text": "A.#@상품#이세요 끊기는게 어떤식으로 끊기는 거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+이/VCP+세요/EP+EF+끊기/VV+는/ETM+게/NNB+JKS+어떤/MM+식/NNB+으로/JKB+끊기/VV+는/ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.뮤직 플레이를 실행하면 계속 돌아야 되는데 중간중간 끊겨요",
+            "norm_text": "B.뮤직 플레이를 실행하면 계속 돌아야 되는데 중간중간 끊겨요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+뮤직/NNG+플레이/NNG+를/JKO+실행/NNG+하/XSV+면/EC+계속/MAG+돌/VV+아야/EC+되/VV+는데/EC+중간중간/MAG+끊겨/VV+EC+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.랜덤으로 어떤 곡이든 간에 재생을 하다보면 갑자기 끊긴다는 거세요",
+            "norm_text": "A.랜덤으로 어떤 곡이든 간에 재생을 하다보면 갑자기 끊긴다는 거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+랜덤/NNG+으로/JKB+어떤/MM+곡/NNG+이/VCP+든/EC+간/NNB+에/JKB+재생/NNG+을/JKO+하/VV+다/EC+보/VX+면/EC+갑자기/MAG+끊긴다는/VV+ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.파일을 실행하면 정지하지않고 쭉 돌아가야 되는데 정지해 버려요",
+            "norm_text": "B.파일을 실행하면 정지하지않고 쭉 돌아가야 되는데 정지해 버려요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+파일/NNG+을/JKO+실행/NNG+하/XSV+면/EC+정지/NNG+하/XSV+지/EC+않/VX+고/EC+쭉/MAG+돌아가/VV+야/EC+되/VV+는데/EC+정지/NNG+해/XSV+EC+버려요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.특정 알림이 오거나 그런게 아닌데 갑자기 멈추신다는거세요",
+            "norm_text": "A.특정 알림이 오거나 그런게 아닌데 갑자기 멈추신다는거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+특정/NNG+알림/VV+ETN+이/JKS+오/VV+거나/EC+그런/MM+게/NNB+JKC+아닌데/VCN+EC+갑자기/MAG+멈추/VV+신다는/EP+ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.음악어플 초기화는 해보셨습니까 데이터 지우기로 한번 해보신거세요",
+            "norm_text": "A.음악어플 초기화는 해보셨습니까 데이터 지우기로 한번 해보신거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+음/IC+악어/NNG+플/NNG+초기/NNG+화/XSN+는/JX+해/VV+EC+보/VX+셨/EP+EP+습니까/EF+데이터/NNG+지우/VV+기/ETN+로/JKB+한번/MAG+해/VV+EC+보/VX+신/EP+ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.글쎄요 이게 #@상품#버전 업그레이드는 된거 같은데요",
+            "norm_text": "B.글쎄요 이게 #@상품#버전 업그레이드는 된거 같은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+글쎄요/IC+이게/NP+JKS+#/SY+@/SY+상품/NNG+#/SY+버전/NNG+업그레이드/NNG+는/JX+된/VV+ETM+거/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.업그레이드 후에 그런거면 버전적인 문제로 오동작이 날 수 있거든요",
+            "norm_text": "A.업그레이드 후에 그런거면 버전적인 문제로 오동작이 날 수 있거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+업그레이드/NNG+후/NNG+에/JKB+그런/MM+거/NNB+면/VCP+EC+버전/NNG+적/XSN+인/VCP+ETM+문제/NNG+로/JKB+오동작/NNG+이/JKS+날/VV+ETM+수/NNB+있/VV+거든요/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.안전모드에서 음악을 실행해서 정상적으로 작동이 되는지 보시겠어요",
+            "norm_text": "A.안전모드에서 음악을 실행해서 정상적으로 작동이 되는지 보시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+안전/NNG+모드/NNG+에서/JKB+음악/NNG+을/JKO+실행/NNG+해서/XSV+EC+정상/NNG+적/XSN+으로/JKB+작동/NNG+이/JKS+되/VV+는지/EC+보/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.안전모드는 어떻게 실행하는거죠",
+            "norm_text": "B.안전모드는 어떻게 실행하는거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안전/NNG+모드/NNG+는/JX+어떻게/MAG+실행/NNG+하/XSV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.핸드폰 전원 꺼진 상태에서 볼륨과 전원 버튼을 길게 눌러 주세요",
+            "norm_text": "A.핸드폰 전원 꺼진 상태에서 볼륨과 전원 버튼을 길게 눌러 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+핸드폰/NNG+전원/NNG+꺼진/VV+ETM+상태/NNG+에서/JKB+볼륨/NNG+과/JC+전원/NNG+버튼/NNG+을/JKO+길/VA+게/EC+눌러/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 16,
+            "text": "A.부팅화면이 뜨면 볼륨 버튼으로 조정해서 안전모드 실행해주세요",
+            "norm_text": "A.부팅화면이 뜨면 볼륨 버튼으로 조정해서 안전모드 실행해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+부팅/NNG+화면/NNG+이/JKS+뜨/VV+면/EC+볼륨/NNG+버튼/NNG+으로/JKB+조정/NNG+해서/XSV+EC+안전/NNG+모드/NNG+실행/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "B.이렇게 실행해도 끊겨요",
+            "norm_text": "B.이렇게 실행해도 끊겨요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이렇게/MAG+실행/NNG+해도/XSV+EC+끊겨/VV+EC+요/JX"
+          },
+          {
+            "id": 18,
+            "text": "A.그러면 이건 기계적인 문제로 보이는데 센터로 내방해 주셔야 해요",
+            "norm_text": "A.그러면 이건 기계적인 문제로 보이는데 센터로 내방해 주셔야 해요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+그러면/MAJ+이건/NP+JX+기계/NNG+적/XSN+인/VCP+ETM+문제/NNG+로/JKB+보이/VV+는데/EC+센터/NNG+로/JKB+내방/NNG+해/XSV+EC+주/VX+셔야/EP+EC+해요/VX+EC"
+          },
+          {
+            "id": 19,
+            "text": "B.알겠습니다 그러면 센터로 가볼게요",
+            "norm_text": "B.알겠습니다 그러면 센터로 가볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그러면/MAJ+센터/NNG+로/JKB+가/VV+볼게요/EC+VX+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

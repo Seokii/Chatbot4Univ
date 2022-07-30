@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 12900,
+    "name": "c1_20210913_0005_0970_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151337005866/c1_20210913_0005_0970_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151337005866/c1_20210913_0005_0970_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10072,
+      "filename": "c1_20210818_0006_0013_01.txt",
+      "title": "c1_20210818_0006_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 319,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 319,
+        "word_size": 72,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.시청 전화번호 알 수 있나요\nA.어느 시청 번호 문의이십니까\nB.아니 시청 말고 국세청 전화번호요\nB.제 목소리 잘 안 들리세요\nA.죄송합니다 선생님 시청으로 잘 못 들었습니다\nA.국세청 대표번호는 #@전번# 번입니다 선생님\nB.그렇군요 친절한 안내 감사합니다\nA.아닙니다 제가 더 감사합니다\nA.혹시 다른 문의 사항 있으십니까\nB.아니요 다른 건 됐어요\nA.네 원활한 업무 처리되시길 바라겠습니다\nA.지금까지 #@소속# #@이름#였습니다 감사합니다\nB.친절한 상담 감사합니다 좋은 하루 보내세요\nA.네 선생님도 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.시청 전화번호 알 수 있나요",
+            "norm_text": "B.시청 전화번호 알 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+시청/NNG+전화/NNG+번호/NNG+알/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.어느 시청 번호 문의이십니까",
+            "norm_text": "A.어느 시청 번호 문의이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어느/MM+시청/NNG+번호/NNG+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.아니 시청 말고 국세청 전화번호요",
+            "norm_text": "B.아니 시청 말고 국세청 전화번호요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+아니/IC+시청/NNG+말/VV+고/EC+국세청/NNG+전화/NNG+번호/NNG+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.제 목소리 잘 안 들리세요",
+            "norm_text": "B.제 목소리 잘 안 들리세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+제/NP+JKG+목소리/NNG+잘/MAG+안/MAG+들리/VV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.죄송합니다 선생님 시청으로 잘 못 들었습니다",
+            "norm_text": "A.죄송합니다 선생님 시청으로 잘 못 들었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+선생/NNG+님/XSN+시청/NNG+으로/JKB+잘못/MAG+들/VV+었/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.국세청 대표번호는 #@전번# 번입니다 선생님",
+            "norm_text": "A.국세청 대표번호는 #@전번# 번입니다 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+국세청/NNG+대표/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+입니다/VCP+EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.그렇군요 친절한 안내 감사합니다",
+            "norm_text": "B.그렇군요 친절한 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.아닙니다 제가 더 감사합니다",
+            "norm_text": "A.아닙니다 제가 더 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+아닙니다/VCN+EF+제/NP+가/JKS+더/MAG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.혹시 다른 문의 사항 있으십니까",
+            "norm_text": "A.혹시 다른 문의 사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.아니요 다른 건 됐어요",
+            "norm_text": "B.아니요 다른 건 됐어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+다른/MM+건/NNB+JX+됐/VV+EP+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.네 원활한 업무 처리되시길 바라겠습니다",
+            "norm_text": "A.네 원활한 업무 처리되시길 바라겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+원활/NNG+한/XSA+ETM+업무/NNG+처리/NNG+되/XSV+시/EP+길/ETN+JKO+바라/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.지금까지 #@소속# #@이름#였습니다 감사합니다",
+            "norm_text": "A.지금까지 #@소속# #@이름#였습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+지금/NNG+까지/JX+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.친절한 상담 감사합니다 좋은 하루 보내세요",
+            "norm_text": "B.친절한 상담 감사합니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.네 선생님도 좋은 하루 보내세요",
+            "norm_text": "A.네 선생님도 좋은 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+도/JX+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

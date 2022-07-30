@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 110551,
+    "name": "c4_20211104_0045_0061_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135245006265/c4_20211104_0045_0061_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135245006265/c4_20211104_0045_0061_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 20181,
+      "filename": "c4_20210902_0026_0001_01.txt",
+      "title": "c4_20210902_0026_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-10",
+      "size": 342,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 342,
+        "word_size": 76,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요  #@주소#에 살고 있는데요\nB.여기 방치되어있는 건축폐기물들 처리요청하려구요\nA.네 고객님 혹시 정확한 위치 말씀해주시겠어요\nB.네 경기도 파주시 #@주소#입니다\nA.네 고객님 혹시 폐기물 양이 얼마 정도 될까요\nB.꽤 있어요 그냥 다 갖다 버린 것 같아요\nA.네 고객님 접수되셨구요\nA.무단 방치된 폐기물은 투기자 확인이 불가하여 전량 회수 할 예정입니다\nA.또 조속한 시일내에 이동식 씨씨티비를 설치하겠습니다\nB.네 빠른 처리 감사드립니다\nA.네 상담사 #@이름#이었습니다\nA.기타 궁금한 사항 있으시면 #@전번#으로 연락 주시기 바랍니다\nB.네 알겠습니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요  #@주소#에 살고 있는데요",
+            "norm_text": "B.안녕하세요  #@주소#에 살고 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+주소/NNG+#/SY+에/JKB+살/VV+고/EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.여기 방치되어있는 건축폐기물들 처리요청하려구요",
+            "norm_text": "B.여기 방치되어있는 건축폐기물들 처리요청하려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+여기/NP+방치/NNG+되/XSV+어/EC+있/VX+는/ETM+건축/NNG+폐기물/NNG+들/XSN+처리/NNG+요청/NNG+하/XSV+려구요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 고객님 혹시 정확한 위치 말씀해주시겠어요",
+            "norm_text": "A.네 고객님 혹시 정확한 위치 말씀해주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+혹시/MAG+정확/XR+한/XSA+ETM+위치/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.네 경기도 파주시 #@주소#입니다",
+            "norm_text": "B.네 경기도 파주시 #@주소#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+경기도/NNP+파주시/NNP+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 고객님 혹시 폐기물 양이 얼마 정도 될까요",
+            "norm_text": "A.네 고객님 혹시 폐기물 양이 얼마 정도 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+혹시/MAG+폐기물/NNG+양/NNG+이/JKS+얼마/NNG+정도/NNG+될까요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.꽤 있어요 그냥 다 갖다 버린 것 같아요",
+            "norm_text": "B.꽤 있어요 그냥 다 갖다 버린 것 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+꽤/MAG+있/VA+어요/EF+그냥/MAG+다/MAG+갖/VV+다/EC+버린/VX+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 고객님 접수되셨구요",
+            "norm_text": "A.네 고객님 접수되셨구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+접수/NNG+되/XSV+셨/EP+EP+구요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.무단 방치된 폐기물은 투기자 확인이 불가하여 전량 회수 할 예정입니다",
+            "norm_text": "A.무단 방치된 폐기물은 투기자 확인이 불가하여 전량 회수 할 예정입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+무단/NNG+방치/NNG+된/XSV+ETM+폐기물/NNG+은/JX+투기자/NNG+확인/NNG+이/JKS+불가/NNG+하/XSV+여/EC+전량/NNG+회수/NNG+할/XSV+ETM+예정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.또 조속한 시일내에 이동식 씨씨티비를 설치하겠습니다",
+            "norm_text": "A.또 조속한 시일내에 이동식 씨씨티비를 설치하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+또/MAG+조속/XR+한/XSA+ETM+시일/NNG+내/NNB+에/JKB+이동식/NNP+씨/NNB+씨/NNB+티비/NNG+를/JKO+설치/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 빠른 처리 감사드립니다",
+            "norm_text": "B.네 빠른 처리 감사드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+빠른/VA+ETM+처리/NNG+감사/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 상담사 #@이름#이었습니다",
+            "norm_text": "A.네 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.기타 궁금한 사항 있으시면 #@전번#으로 연락 주시기 바랍니다",
+            "norm_text": "A.기타 궁금한 사항 있으시면 #@전번#으로 연락 주시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+기타/NNG+궁금/XR+한/XSA+ETM+사항/NNG+있/VV+으시/EP+면/EC+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+연락/NNG+주/VV+시/EP+기/ETN+바랍니다/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.네 알겠습니다 수고하세요",
+            "norm_text": "B.네 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

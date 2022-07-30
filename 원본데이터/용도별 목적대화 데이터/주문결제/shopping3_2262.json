@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 116195,
+    "name": "s3_20211105_0005_0364_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110825031644/s3_20211105_0005_0364_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110825031644/s3_20211105_0005_0364_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118831,
+      "filename": "s3_20210926_0017_0003_01.txt",
+      "title": "s3_20210926_0017_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 252,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 252,
+        "word_size": 54,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.물건을 구매하려고 하는대요\nB.청구 할인이라는게 있던데 그게 뭐예요\nA.지정된 카드로 결제하면요\nA.카드사 자체에서 할인을 해주는 제도입니다\nB.그럼 혹시 #@상품#도 가능한가요\nA.잠시만 확인 후 안내 도와드리겠습니다\nB.네 기다릴테니 말씀해주세요\nA.확인해보니 #@상품#는 현재 청구 할인 적용이 안 되네요\nB.그럼 어느 카드가 되나요\nA.#@상품#과 #@상품# 총 두 가지 카드만 해당됩니다\nB.네 확인 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.물건을 구매하려고 하는대요",
+            "norm_text": "B.물건을 구매하려고 하는대요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+물건/NNG+을/JKO+구매/NNG+하/XSV+려고/EC+하/VV+는대요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.청구 할인이라는게 있던데 그게 뭐예요",
+            "norm_text": "B.청구 할인이라는 게 있던데 그게 뭐예요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+청구/NNP+할인/NNG+이/VCP+라는/ETM+게/NNB+JKS+있/VA+던데/EC+그게/NP+JKS+뭐/NP+예요/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.지정된 카드로 결제하면요",
+            "norm_text": "A.지정된 카드로 결제하면요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+지정/NNG+된/XSV+ETM+카드/NNG+로/JKB+결제/NNG+하/XSV+면/EC+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.카드사 자체에서 할인을 해주는 제도입니다",
+            "norm_text": "A.카드사 자체에서 할인을 해주는 제도입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+카드/NNG+사/NR+자체/NNG+에서/JKB+할인/NNG+을/JKO+해/VV+EC+주/VX+는/ETM+제도/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 혹시 #@상품#도 가능한가요",
+            "norm_text": "B.그럼 혹시 #@상품#도 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+혹시/MAG+#/SY+@/SY+상품/NNG+#/SY+도/JX+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.잠시만 확인 후 안내 도와드리겠습니다",
+            "norm_text": "A.잠시만 확인 후 안내 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+잠시/NNG+만/JX+확인/NNG+후/NNG+안내/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 기다릴테니 말씀해주세요",
+            "norm_text": "B.네 기다릴 테니 말씀해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+기다릴테/VV+ETM+NNB+VCP+니/EC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.확인해보니 #@상품#는 현재 청구 할인 적용이 안 되네요",
+            "norm_text": "A.확인해보니 #@상품#는 현재 청구 할인 적용이 안 되네요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+확인/NNG+해/XSV+EC+보/VX+니/EC+#/SY+@/SY+상품/NNG+#/SY+는/JX+현재/MAG+청구/NNP+할인/NNG+적용/NNG+이/JKS+안/MAG+되/VV+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 어느 카드가 되나요",
+            "norm_text": "B.그럼 어느 카드가 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+어느/MM+카드/NNG+가/JKS+되/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.#@상품#과 #@상품# 총 두 가지 카드만 해당됩니다",
+            "norm_text": "A.#@상품#과 #@상품# 총 두 가지 카드만 해당됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+과/JC+#/SY+@/SY+상품/NNG+#/SY+총/MM+두/MM+가지/NNBC+카드/NNG+만/JX+해당/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.네 확인 감사합니다",
+            "norm_text": "B.네 확인 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

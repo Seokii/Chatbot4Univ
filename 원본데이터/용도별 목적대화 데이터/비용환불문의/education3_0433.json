@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 145356,
+    "name": "e3_20211116_0001_0562_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135620099423/e3_20211116_0001_0562_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135620099423/e3_20211116_0001_0562_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 145954,
+      "filename": "e3_0079_0005_02.txt",
+      "title": "e3_0079_0005_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 356,
+      "annotations": {
+        "subject": "비용/환불 문의",
+        "speaker_type": "1:1",
+        "size": 356,
+        "word_size": 80,
+        "text": "A.기분 좋은 하루 시작 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.교재가 배송되어 왔는데 다른 게 왔어요\nA.네 고객님 성함이랑 연락처 말씀해 주시겠어요\nB.네 #@이름# #@전번# 이요\nA.네 확인 감사합니다 고객님 어떤 교재를 신청하셨을까요\nB.네#@상품#했는데 #@상품#으로 왔어요\nA.네 그럼#@상품#으로 다시 보내드릴게요\nB.네 그럼 배송비 따로 다시 내야하나요\nA.아뇨 이건 판매자 실수로 잘못 보내드린 경우라 반품 또는 교환 모두 무료입니다\nB.네 그럼 같은 주소로 보내주세요\nA.네 주소 확인해 드리겠습니다 서울특별시 서초구 #@주소# 맞습니까\nB.네 주소 맞습니다\nA.네 좋은 하루 되세요 #@소속# 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.기분 좋은 하루 시작 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.#@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+기분/NNG+좋/VA+은/ETM+하루/NNG+시작/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.교재가 배송되어 왔는데 다른 게 왔어요",
+            "norm_text": "B.교재가 배송되어 왔는데 다른 게 왔어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+교재/NNG+가/JKS+배송/NNG+되/XSV+어/EC+왔/VX+EP+는데/EC+다른/MM+게/NNB+JKS+왔어요/VV+EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 성함이랑 연락처 말씀해 주시겠어요",
+            "norm_text": "A.네 고객님 성함이랑 연락처 말씀해 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+성함/NNG+이랑/JKB+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@이름# #@전번# 이요",
+            "norm_text": "B.네 #@이름# #@전번# 이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 확인 감사합니다 고객님 어떤 교재를 신청하셨을까요",
+            "norm_text": "A.네 확인 감사합니다 고객님 어떤 교재를 신청하셨을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+어떤/MM+교재/NNG+를/JKO+신청/NNG+하/XSV+셨/EP+EP+을까요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네#@상품#했는데 #@상품#으로 왔어요",
+            "norm_text": "B.네#@상품#했는데 #@상품#으로 왔어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+했/VV+EP+는데/EC+#/SY+@/SY+상품/NNG+#/SY+으로/JKB+왔어요/VV+EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 그럼#@상품#으로 다시 보내드릴게요",
+            "norm_text": "A.네 그럼#@상품#으로 다시 보내드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+#/SY+@/SY+상품/NNG+#/SY+으로/JKB+다시/MAG+보내/VV+드릴게요/EC+VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 그럼 배송비 따로 다시 내야하나요",
+            "norm_text": "B.네 그럼 배송비 따로 다시 내야하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+배송/NNG+비/NNG+따로/MAG+다시/MAG+내/NP+야/VCP+EF+하나/NR+요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.아뇨 이건 판매자 실수로 잘못 보내드린 경우라 반품 또는 교환 모두 무료입니다",
+            "norm_text": "A.아뇨 이건 판매자 실수라 반품 또는 교환 모두 무료입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아뇨/IC+이건/NP+JX+판매자/NNG+실수/NNG+라/VCP+EC+반품/NNG+또는/MAJ+교환/NNG+모두/MAG+무료/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 그럼 같은 주소로 보내주세요",
+            "norm_text": "B.네 그럼 같은 주소로 보내주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+같/VA+은/ETM+주소/NNG+로/JKB+보내/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 주소 확인해 드리겠습니다 서울특별시 서초구 #@주소# 맞습니까",
+            "norm_text": "A.네 주소 확인해 드리겠습니다 서울특별시 서초구 #@주소# 맞습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+주소/NNG+확인/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+서울특별시/NNP+서초구/NNP+#/SY+@/SY+주소/NNG+#/SY+맞/VV+습니까/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.네 주소 맞습니다",
+            "norm_text": "B.네 주소 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+주소/NNG+맞/VV+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.네 좋은 하루 되세요 #@소속# 상담원 #@이름#이었습니다",
+            "norm_text": "A.네 좋은 하루 되세요 #@소속# 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

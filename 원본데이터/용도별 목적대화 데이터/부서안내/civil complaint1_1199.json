@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 56325,
+    "name": "c1_20211019_0002_0179_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130757020553/c1_20211019_0002_0179_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130757020553/c1_20211019_0002_0179_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51084,
+      "filename": "c1_20210923_0011_0004_01.txt",
+      "title": "c1_20210923_0011_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 415,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 415,
+        "word_size": 89,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다\nA.무엇을 도와 드릴까요\nB.아파트 단지내 소방차 전용 구역 설치 규격 물어보려구요\nB.소방차 전용 구역이 설치되는 바닥 경계석을 포함해도 되나요\nA.관련된 법령상 규정은 없습니다\nA.그러나 입법 취지가 소방차가 장애요소 없이 현장에 진입하는 것이고요\nA.원활하게 소방활동을 하기 위함입니다\nA.그래서 평탄한 지면 위에 소방차 전용구역이 설치되어야 합니다\nB.그럼 바닥 경계석을 포함하면 안 되겠네요\nA.네 규정에 적합하지 않습니다\nB.그래요 알겠습니다 감사합니다\nA.네 추가로 궁금하신 사항 있으시면 #@소속#에 연락주세요\nA.친절히 안내해 드리도록 하겠습니다\nB.번호가 어떻게 되나요\nA.#@전번#으로 연락주시면 됩니다\nB.네 다시 한번 찾아보고 연락드릴게요\nA.즐거운 하루 되시구요 지금까지 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.무엇을 도와 드릴까요",
+            "norm_text": "A.무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.아파트 단지내 소방차 전용 구역 설치 규격 물어보려구요",
+            "norm_text": "B.아파트 단지내 소방차 전용 구역 설치 규격 물어보려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+아파트/NNG+단지/MAG+내/NP+JKG+소방차/NNG+전용/NNG+구역/NNG+설치/NNG+규격/NNG+물/VV+어/EC+보/VX+려구요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.소방차 전용 구역이 설치되는 바닥 경계석을 포함해도 되나요",
+            "norm_text": "B.소방차 전용 구역이 설치되는 바닥 경계석을 포함해도 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+소방차/NNG+전용/NNG+구역/NNG+이/JKS+설치/NNG+되/XSV+는/ETM+바닥/NNG+경계석/NNG+을/JKO+포함/NNG+해도/XSV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.관련된 법령상 규정은 없습니다",
+            "norm_text": "A.관련된 법령상 규정은 없는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+관련/NNG+된/XSV+ETM+법령/NNG+상/XSN+규정/NNG+은/JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.그러나 입법 취지가 소방차가 장애요소 없이 현장에 진입하는 것이고요",
+            "norm_text": "A.입법 취지가 소방차가 장애요소 없이 현장에 진입하는 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러나/MAJ+입법/NNG+취지/NNG+가/JKS+소방차/NNG+가/JKS+장애/NNG+요소/NNG+없이/MAG+현장/NNG+에/JKB+진입/NNG+하/XSV+는/ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.원활하게 소방활동을 하기 위함입니다",
+            "norm_text": "A.원활할 소방활동을 하기 위함이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+원활/NNG+할/XSV+ETM+소방/NNG+활동/NNG+을/JKO+하/VV+기/ETN+위함인데/VV+ETN+VCP+EC+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.그래서 평탄한 지면 위에 소방차 전용구역이 설치되어야 합니다",
+            "norm_text": "A.그래서 평탄한 지면 위에 소방차 전용구역이 설치되어야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그래서/MAJ+평탄/XR+한/XSA+ETM+지면/NNG+위/NNG+에/JKB+소방차/NNG+전용/NNG+구역/NNG+이/JKS+설치/NNG+되/XSV+어야/EC+합니다/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그럼 바닥 경계석을 포함하면 안 되겠네요",
+            "norm_text": "B.그럼 바닥 경계석을 포함하면 안 되겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+바닥/NNG+경계석/NNG+을/JKO+포함/NNG+하/XSV+면/EC+안/MAG+되/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 규정에 적합하지 않습니다",
+            "norm_text": "A.네 규정에 적합하지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+규정/NNG+에/JKB+적합/NNG+하/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그래요 알겠습니다 감사합니다",
+            "norm_text": "B.그래요 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그래요/VV+EC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 추가로 궁금하신 사항 있으시면 #@소속#에 연락주세요",
+            "norm_text": "A.네 추가로 궁금하신 사항 있으시면 #@소속#에 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+추가/NNG+로/JKB+궁금/XR+하/XSA+신/EP+ETM+사항/NNG+있/VV+으시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+에/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 13,
+            "text": "A.친절히 안내해 드리도록 하겠습니다",
+            "norm_text": "A.친절히 안내해 드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+친절히/MAG+안내/NNG+해/XSV+EC+드리/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.번호가 어떻게 되나요",
+            "norm_text": "B.번호가 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+번호/NNG+가/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.#@전번#으로 연락주시면 됩니다",
+            "norm_text": "A.#@전번#으로 연락주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+연락/NNG+주/VV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 다시 한번 찾아보고 연락드릴게요",
+            "norm_text": "B.네 다시 한번 찾아보고 연락드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+다시/MAG+한/MM+번/NNBC+찾아보/VV+고/EC+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.즐거운 하루 되시구요 지금까지 상담사 #@이름#이었습니다",
+            "norm_text": "A.즐거운 하루 되시구요 지금까지 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+되/XSV+시/EP+구요/EF+지금/NNG+까지/JX+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 141771,
+    "name": "t1_20211115_0002_0648_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357170745102/t1_20211115_0002_0648_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357170745102/t1_20211115_0002_0648_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148353,
+      "filename": "t1_0070_0017_02.txt",
+      "title": "t1_0070_0017_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 338,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 338,
+        "word_size": 75,
+        "text": "A. 전화주셔서 감사합니다 #@소속# 상담사 #@이름#입니다\nB. 안녕하세요 제천 숙소 관련해서 여쭈어보려구요\nA. 네 편하게 말씀해주세요\nB. 클럽이에스 제천리조트에 패밀리룸은 몇명까지 이용할 수 있죠\nA. 네 패밀리룸 객실정원은 5인이구요 인원추가는 2명까지 가능합니다\nB. 그렇군요 리조트에 취사 가능한가요\nA. 네 인덕션과 전기밥솥이 구비되어 있어서 이용하시면 됩니다\nB. 네 알겠습니다 예약은 어디서 하면 될까요\nA. 예약은 클럽이에스 제천리조트 홈페이지나 호텔예약사이트에서 해주시면 돼요\nB. 음 그래요 홈페이지에서 예약할게요 수고하세요\nA. 네 행복한 여행 되세요 지금까지 #@소속# 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 전화주셔서 감사합니다 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A. 전화주셔서 감사합니다 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 제천 숙소 관련해서 여쭈어보려구요",
+            "norm_text": "B. 안녕하세요 제천 숙소 관련해서 여쭈어보려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+제천/NNG+숙소/NNG+관련/NNG+해서/XSV+EC+여쭈/VV+어/EC+보/VX+려구요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 편하게 말씀해주세요",
+            "norm_text": "A. 네 편하게 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+편하/VA+게/EC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 클럽이에스 제천리조트에 패밀리룸은 몇명까지 이용할 수 있죠",
+            "norm_text": "B. 클럽이에스 제천리조트에 패밀리룸은 몇명까지 이용할 수 있죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+클럽/NNG+이/JKS+에스/NNG+제천/NNG+리조트/NNG+에/JKB+패밀리/NNG+룸/NNG+은/JX+몇/MM+명/NNBC+까지/JX+이용/NNG+할/XSV+ETM+수/NNB+있/VV+죠/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 네 패밀리룸 객실정원은 5인이구요 인원추가는 2명까지 가능합니다",
+            "norm_text": "A. 네 패밀리룸 객실정원은 5인이구요 인원추가는 2명까지 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+패밀리/NNG+룸/NNG+객실/NNG+정원/NNG+은/JX+5/SN+인/NNG+이/VCP+구요/EF+인원/NNG+추가/NNG+는/JX+2/SN+명/NNBC+까지/JX+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 그렇군요 리조트에 취사 가능한가요",
+            "norm_text": "B. 그렇군요 리조트에 취사 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+리조트/NNG+에/JKB+취사/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A. 네 인덕션과 전기밥솥이 구비되어 있어서 이용하시면 됩니다",
+            "norm_text": "A. 네 인덕션과 전기밥솥이 구비되어 있어서 이용하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+인덕션/NNP+과/JC+전기밥솥/NNG+이/JKS+구비/NNG+되/XSV+어/EC+있/VX+어서/EC+이용/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 네 알겠습니다 예약은 어디서 하면 될까요",
+            "norm_text": "B. 네 알겠습니다 예약은 어디서 하면 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+예약/NNG+은/JX+어디/NP+서/JKB+하/VV+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 예약은 클럽이에스 제천리조트 홈페이지나 호텔예약사이트에서 해주시면 돼요",
+            "norm_text": "A. 예약은 홈페이지나 호텔예약사이트에서 해주시면 돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예약/NNG+은/JX+홈페이지/NNG+나/JC+호텔/NNG+예약/NNG+사이트/NNG+에서/JKB+해/VV+EC+주/VX+시/EP+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 음 그래요 홈페이지에서 예약할게요 수고하세요",
+            "norm_text": "B. 음 그래요 홈페이지에서 예약할게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+음/IC+그래요/IC+홈페이지/NNG+에서/JKB+예약/NNG+할게요/XSV+EC+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A. 네 행복한 여행 되세요 지금까지 #@소속# 상담사 #@이름#이었습니다",
+            "norm_text": "A. 네 행복한 여행 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+행복/NNG+한/XSA+ETM+여행/NNG+되/XSV+세요/EP+EF+지금/NNG+까지/JX+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 19374,
+    "name": "s1_20210916_0002_0189_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151254056770/s1_20210916_0002_0189_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151254056770/s1_20210916_0002_0189_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8446,
+      "filename": "s1_20210825_0017_0026_01.txt",
+      "title": "s1_20210825_0017_0026_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 269,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 269,
+        "word_size": 59,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름# 입니다\nB.네 제가 바빠서 빠르게 말씀해주세요\nA.고객님 지금 통화 어려우신가요\nB.지금 제가 바쁜데 무슨 일이신가요\nA.프린터 연결이 안되는 부분 때문에 연락 드렸어요\nA.지금 프린터도 #@상품#인가요\nB.컴퓨터에 #@상품#라고 적혀있던데요\nA.지난 번에 컴퓨터 수리를 받으셨죠\nB.네 어제 받았어요\nA.어제 수리받으셨을 때 #@상품#은 재설치가 되셨어요\nA.포맷이 되신 상태기 때문에요\nA.컴퓨터 내 #@상품#를 재설치하셔야 합니다\nB.네 그건 알고 있어요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 제가 바빠서 빠르게 말씀해주세요",
+            "norm_text": "B.네 제가 바빠서 빠르게 말씀해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+바빠서/VA+EC+빠르/VA+게/EC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 지금 통화 어려우신가요",
+            "norm_text": "A.고객님 지금 통화 어려우신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+지금/MAG+통화/NNG+어려우신가요/VA+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.지금 제가 바쁜데 무슨 일이신가요",
+            "norm_text": "B.지금 제가 바쁜데 무슨 일이신가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+지금/MAG+제/NP+가/JKS+바쁜데/VA+EC+무슨/MM+일/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.프린터 연결이 안되는 부분 때문에 연락 드렸어요",
+            "norm_text": "A.프린터 연결이 안되는 부분 때문에 연락 드렸어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+프린터/NNG+연결/NNG+이/JKS+안/MAG+되/VV+는/ETM+부분/NNG+때문/NNB+에/JKB+연락/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.지금 프린터도 #@상품#인가요",
+            "norm_text": "A.지금 프린터도 #@상품#인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+프린터/NNG+도/JX+#/SY+@/SY+상품/NNG+#/SY+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.컴퓨터에 #@상품#라고 적혀있던데요",
+            "norm_text": "B.컴퓨터에 #@상품#라고 적혀있던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+컴퓨터/NNG+에/JKB+#/SY+@/SY+상품/NNG+#/SY+라고/JKQ+적혀/VV+EC+있/VX+던데요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.지난 번에 컴퓨터 수리를 받으셨죠",
+            "norm_text": "A.지난 번에 컴퓨터 수리를 받으셨죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+지난번/NNG+에/JKB+컴퓨터/NNG+수리/NNG+를/JKO+받/VV+으셨/EP+EP+죠/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 어제 받았어요",
+            "norm_text": "B.네 어제 받았어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+어제/MAG+받/VV+았/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.어제 수리받으셨을 때 #@상품#은 재설치가 되셨어요",
+            "norm_text": "A.어제 수리받으셨을 때 #@상품#은 재설치가 되셨어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+어제/MAG+수리/NNG+받/VV+으셨을/EP+EP+ETM+때/NNG+#/SY+@/SY+상품/NNG+#/SY+은/JX+재/XPN+설치/NNG+가/JKS+되/VV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.포맷이 되신 상태기 때문에요",
+            "norm_text": "A.포맷이 되신 상태기 때문에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+포맷/NNG+이/JKS+되/VV+신/EP+ETM+상태기/NNG+때문/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 12,
+            "text": "A.컴퓨터 내 #@상품#를 재설치하셔야 합니다",
+            "norm_text": "A.컴퓨터 내 #@상품#를 재설치하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+컴퓨터/NNG+내/NNB+#/SY+@/SY+상품/NNG+#/SY+를/JKO+재/XPN+설치/NNG+하/XSV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.네 그건 알고 있어요",
+            "norm_text": "B.네 그건 알고 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+그건/NP+JX+알/VV+고/EC+있/VX+어요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

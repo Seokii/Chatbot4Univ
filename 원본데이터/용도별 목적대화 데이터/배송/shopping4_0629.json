@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 10482,
+    "name": "s4_20210913_0011_0826_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151452051559/s4_20210913_0011_0826_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151452051559/s4_20210913_0011_0826_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 13672,
+      "filename": "s4_20210901_0028_0001_01.txt",
+      "title": "s4_20210901_0028_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 179,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 179,
+        "word_size": 49,
+        "text": "A.안녕하세요 고객님 상담사 #@이름#입니다\nB.예 다름이 아니고 제가 저번 주에 주문을 했는데요\nA.저번 주에 주문하신 상품이 있다고요\nB.네 세 종류를 했는데 두 개는 날아왔는데요\nB.한 개가 안 날아와서요 요거 확인 좀 해주세요\nA.네 우선 한 개를 수령 못 하셨다는 말씀 맞으실까요\nB.예 세 가지 중에서 한 개가 안 왔어요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 다름이 아니고 제가 저번 주에 주문을 했는데요",
+            "norm_text": "B.예 다름이 아니고 제가 저번 주에 주문을 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+다름/VA+ETN+이/JKC+아니/VCN+고/EC+제/NP+가/JKS+저번/NNG+주/NNG+에/JKB+주문/NNG+을/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.저번 주에 주문하신 상품이 있다고요",
+            "norm_text": "A.저번 주에 주문하신 상품이 있다고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+저번/NNG+주/NNG+에/JKB+주문/NNG+하/XSV+신/EP+ETM+상품/NNG+이/JKS+있/VV+다고요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 세 종류를 했는데 두 개는 날아왔는데요",
+            "norm_text": "B.네 세 종류를 했는데 두 개는 날아왔는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+세/MM+종류/NNG+를/JKO+했/VV+EP+는데/EC+두/MM+개/NNBC+는/JX+날아왔/VV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.한 개가 안 날아와서요 요거 확인 좀 해주세요",
+            "norm_text": "B.한 개가 안 날아와서요 요거 확인 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+한/MM+개/NNBC+가/JKS+안/MAG+날아와서/VV+EC+요/JX+요거/NP+확인/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 우선 한 개를 수령 못 하셨다는 말씀 맞으실까요",
+            "norm_text": "A.네 우선 한 개를 수령 못 하셨다는 말씀 맞으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+우선/MAG+한/MM+개/NNBC+를/JKO+수령/NNG+못/MAG+하/VV+셨/EP+EP+다는/ETM+말씀/NNG+맞/VV+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 7,
+            "text": "B.예 세 가지 중에서 한 개가 안 왔어요",
+            "norm_text": "B.예 세 가지 중에서 한 개가 안 왔어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+세/MM+가지/NNBC+중/NNB+에서/JKB+한/MM+개/NNBC+가/JKS+안/MAG+왔어요/VV+EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

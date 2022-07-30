@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 47855,
+    "name": "c4_20211015_0001_1755_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706069650/c4_20211015_0001_1755_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706069650/c4_20211015_0001_1755_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50383,
+      "filename": "c4_20210906_0027_0013_01.txt",
+      "title": "c4_20210906_0027_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 284,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 284,
+        "word_size": 55,
+        "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.네 #@기타#박물관에 출입구 좀 만들어주세요\nA.네 농업기술센터 고#@기타#박물관 말씀이신가요\nA.출입구 설치는 센터 보안 및 청사관리에 어려움이 있어 고려하고 있지 않습니다\nA.때문에 다소 불편하시더라도 기존 출입구를 이용해 주시기 바랍니다\nB.기존 출입구요 알겠습니다\nA.네 양해해 주셔서 감사합니다\nA.궁금하신 사항이 있으시면 농업정책과 농업정책팀으로 연락 바랍니다\nB.네 알겠습니다 감사합니다\nA.감사합니다 민원인 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 #@기타#박물관에 출입구 좀 만들어주세요",
+            "norm_text": "B.네 #@기타#박물관에 출입구 좀 만들어주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+기타/NNG+#/SY+박물관/NNG+에/JKB+출입구/NNG+좀/MAG+만들/VV+어/EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.네 농업기술센터 고#@기타#박물관 말씀이신가요",
+            "norm_text": "A.네 농업기술센터 고#@기타#박물관 말씀이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+농업기술센터/NNP+고/EC+#/SY+@/SY+기타/NNG+#/SY+박물관/NNG+말씀/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.출입구 설치는 센터 보안 및 청사관리에 어려움이 있어 고려하고 있지 않습니다",
+            "norm_text": "A.출입구 설치는 센터 보안 및 청사관리에 어려움이 있어 고려하고 있지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+출입구/NNG+설치/VV+는/ETM+센터/NNG+보안/NNG+및/MAJ+청사/NNG+관리/NNG+에/JKB+어려움/NNG+이/JKS+있/VV+어/EC+고려/NNG+하/XSV+고/EC+있/VX+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.때문에 다소 불편하시더라도 기존 출입구를 이용해 주시기 바랍니다",
+            "norm_text": "A.때문에 다소 불편하시더라도 기존 출입구를 이용해 주시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+때문/NNB+에/JKB+다소/MAG+불편/NNG+하/XSV+시/EP+더라도/EC+기존/NNG+출입구/NNG+를/JKO+이용/NNG+해/XSV+EC+주/VX+시/EP+기/ETN+바랍니다/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.기존 출입구요 알겠습니다",
+            "norm_text": "B.기존 출입구요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+기존/NNG+출입구/NNG+요/VCP+EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.네 양해해 주셔서 감사합니다",
+            "norm_text": "A.네 양해해 주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+양해/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.궁금하신 사항이 있으시면 농업정책과 농업정책팀으로 연락 바랍니다",
+            "norm_text": "A.궁금하신 사항이 있으시면 농업정책과 농업정책팀으로 연락 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+궁금/XR+하/XSA+신/EP+ETM+사항/NNG+이/JKS+있/VA+으시/EP+면/EC+농업/NNG+정책/NNG+과/JC+농업/NNG+정책/NNG+팀/NNG+으로/JKB+연락/NNG+바랍니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 민원인 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 민원인 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

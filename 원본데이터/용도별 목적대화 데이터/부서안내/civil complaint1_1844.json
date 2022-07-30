@@ -1,0 +1,107 @@
+{
+  "dataset": {
+    "identifier": 12052,
+    "name": "c1_20210913_0005_0608_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340040093/c1_20210913_0005_0608_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340040093/c1_20210913_0005_0608_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10561,
+      "filename": "c1_20210819_0006_0013_01.txt",
+      "title": "c1_20210819_0006_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 164,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 164,
+        "word_size": 37,
+        "text": "A.네 감사합니다 #@소속#  #@이름#입니다\nB.태안 지역에 태양광 발전 관련으로 #@이름# 주사님께 전화 드렸는데요\nA.지금 잠시 자리 비우셨어요\nB.그럼 혹시 대신 답변 가능하신 분 계실까요\nA.잠시만요 다른 분 바꿔드릴게요\nB.태안 지역 태양광 발전 문의주셨습니다 연결하겠습니다 통화하시면 됩니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 감사합니다 #@소속#  #@이름#입니다",
+            "norm_text": "A.네 감사합니다 #@소속#  #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.태안 지역에 태양광 발전 관련으로 #@이름# 주사님께 전화 드렸는데요",
+            "norm_text": "B.태안 지역 태양광 발전 관련으로 #@이름# 주사님께 전화 드렸는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+태안/NNP+지역/NNG+태양광/NNG+발전/NNG+관련/NNG+으로/JKB+#/SY+@/SY+이름/NNG+#/SY+주사/NNG+님/XSN+께/JKB+전화/NNG+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.지금 잠시 자리 비우셨어요",
+            "norm_text": "A.지금 잠시 자리 비우셨어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+지금/MAG+잠시/MAG+자리/NNG+비우/VV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그럼 혹시 대신 답변 가능하신 분 계실까요",
+            "norm_text": "B.그럼 혹시 대신 답변 가능하신 분 계실까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+혹시/MAG+대신/NNG+답변/NNG+가능/NNG+하/XSV+신/EP+ETM+분/NNB+계실까/VV+EC+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.잠시만요 다른 분 바꿔드릴게요",
+            "norm_text": "A.잠시만요 다른 분 바꿔드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+잠시/NNG+만/JX+요/JX+다른/MM+분/NNB+바꿔/VV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.태안 지역 태양광 발전 문의주셨습니다 연결하겠습니다 통화하시면 됩니다",
+            "norm_text": "B.태안 지역 태양광 발전 문의주셨습니다 연결하겠습니다 통화하면 됩니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": "B/SL+./SY+태안/NNP+지역/NNG+태양광/NNG+발/NNG+전문/NNG+의/JKG+주/VV+셨/EP+EP+습니다/EF+연결/NNG+하/XSV+겠/EP+습니다/EF+통화/NNG+하/XSV+면/EC+됩니다/VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

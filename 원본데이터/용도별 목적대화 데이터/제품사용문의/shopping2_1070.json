@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 94801,
+    "name": "s2_20211102_0002_0281_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110735026743/s2_20211102_0002_0281_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110735026743/s2_20211102_0002_0281_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116879,
+      "filename": "s2_20211027_0024_0004_01.txt",
+      "title": "s2_20211027_0024_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 272,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 272,
+        "word_size": 57,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.네 안녕하세요 #@상품#을 구매했었는데\nB.가격이 달라졌더라구요 왜 이런거죠\nA.#@소속#은  구매하시는 시점을 기준으로 상품을 결제합니다\nA.이벤트 프로모션 등에 의해 가격이 달라질 수 있구요\nB.네 그럼 가격이 변경되면 어떡해요 달라지는게 있어요\nA.아니요 주문 결제 이후 상품 가격이 변경되더라도요\nA.최초 주문 금액이 적용되어 배송됩니다\nB.알겠습니다 도움이 많이 되었어요\nA.다른 문의 사항있으시면 #@소속#으로 연락주세요\nB.네 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 #@상품#을 구매했었는데",
+            "norm_text": "B.네 안녕하세요 #@상품#을 구매했었는데",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+상품/NNG+#/SY+을/JKO+구매/NNG+했었/XSV+EP+는데/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.가격이 달라졌더라구요 왜 이런거죠",
+            "norm_text": "B.가격이 달라졌더라구요 왜 이런거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+가격/NNG+이/JKS+달라졌/VV+EP+더라구요/EF+왜/MAG+이런/MM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.#@소속#은  구매하시는 시점을 기준으로 상품을 결제합니다",
+            "norm_text": "A.#@소속#은  구매하시는 시점을 기준으로 상품을 결제합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+은/JX+구매/NNG+하/XSV+시/EP+는/ETM+시점/NNG+을/JKO+기준/NNG+으로/JKB+상품/NNG+을/JKO+결제/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.이벤트 프로모션 등에 의해 가격이 달라질 수 있구요",
+            "norm_text": "A.이벤트 프로모션 등에 의해 가격이 달라질 수 있구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+이벤트/NNG+프로모션/NNG+등/NNB+에/JKB+의해/VV+EC+가격/NNG+이/JKS+달라질/VV+ETM+수/NNB+있/VV+구요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 그럼 가격이 변경되면 어떡해요 달라지는게 있어요",
+            "norm_text": "B.네 그럼 가격이 변경되면 어떡해요 달라지는게 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+가격/NNG+이/JKS+변경/NNG+되/XSV+면/EC+어떡/XR+해요/XSA+EF+달라지/VV+는/ETM+게/NNB+JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.아니요 주문 결제 이후 상품 가격이 변경되더라도요",
+            "norm_text": "A.아니요 주문 결제 이후 상품 가격이 변경되더라도요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아니요/IC+주문/NNG+결제/NNG+이후/NNG+상품/NNG+가격/NNG+이/JKS+변경/NNG+되/XSV+더라도/EC+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.최초 주문 금액이 적용되어 배송됩니다",
+            "norm_text": "A.최초 주문 금액이 적용되어 배송됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+최초/NNG+주문/NNG+금액/NNG+이/JKS+적용/NNG+되/XSV+어/EC+배송/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.알겠습니다 도움이 많이 되었어요",
+            "norm_text": "B.알겠습니다 도움이 많이 되었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+도움/NNG+이/JKS+많이/MAG+되/VV+었/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.다른 문의 사항있으시면 #@소속#으로 연락주세요",
+            "norm_text": "A.다른 문의 사항있으시면 #@소속#으로 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 11,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

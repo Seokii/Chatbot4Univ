@@ -1,0 +1,587 @@
+{
+  "dataset": {
+    "identifier": 84609,
+    "name": "KAKAO_1495_20_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/60/txt20211021110154076659/KAKAO_1495_20_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/60/txt20211021110154076659/KAKAO_1495_20_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 83538,
+      "filename": "KAKAO_1495_20.txt",
+      "title": "KAKAO_1495_20",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-21",
+      "size": 886,
+      "annotations": {
+        "subject": "영화/만화",
+        "speaker_type": "다자간 대화",
+        "size": 886,
+        "word_size": 292,
+        "text": "1 : 넷플릭스에 극주부도였나? 그거 새로 나온 거 있는데 꼭 봐\n2 : 극주부도?\n2 : 처음 들어봐\n2 : 애니메이션이야?\n3 : 싫어\n3 : 안 볼 건데?\n3 : 너가 추천해주는 거 안 볼 건데?\n1 : 엉엉 만환데 넷플릭스 오리지널 시리즈\n2 : 키키 근데 쟤 추천이면 재미없을 거 같긴 한데\n3 : 무슨 내용인지 설명해봐\n3 : 들어보고 결정하게\n1 : 키키 나는 뉴스 보고 봤는데 괜찮더라고,\n1 : 코믹인데 야쿠자가 전업 주부하는 내용이야\n2 : 오 그런 건 재밌겠다\n2 : 나중에 한번 볼께 중간고사 끝나고\n3 : 그렇구만\n3 : 전업주부 무섭네... 아큐자라니...\n1 : 넷플릭스 신규 애니메이션 프로젝트에 껴 있는 거라서 재밌는 거 같아\n2 : 난 아직 그 귀멸의 칼날도 안 봐 가지고, 다들 재밌다던데\n3 : 고렇구만\n3 : 그게 재밌어?\n3 : 넷플릭스 애니메이션? 키키\n1 : 귀멸의 칼날은 시즌 1 보고 안 봐서...\n1 : 작가가 돈 엄청 쓸어 담았다고 하긴 하더라\n2 : 귀멸의 칼날 시즌 1은 어땠는데?\n3 : 좋겠다... 재밌게 봐서\n3 : 난 재미없더라\n3 : 무슨 재미인지 모르겠어\n1 : 시즌 1은 되게 재밌게 봤어!\n2 : 근데 왜 시즌 2부턴 안 봤어\n2 : 바빠서?\n3 : 고렇구만\n3 : 그래 또 추천해 보거라\n3 : 생각해보겠다\n1 : 애니메이션으로 시즌 2가 안 나왔을걸?\n1 : 영화로 나왔는데 그건 그냥 안 봤어 키키\n2 : 키키 아 그런가\n2 : 일단 중간고사가 끝나야 멀 정주행 하던가 할 텐데 ㅠ\n3 : 그렇군\n3 : 결국은 중간고사가 빨리 끝나야겠따\n1 : 형 어짜피 공부도 안 하는데 그냥 봐 바.\n1 : 어짜피 한편 보면 무조건 정주행 해야 돼... 키키\n2 : 키키 아니 여태 안 했으니 중간고사 기간에라도 해야지\n2 : 애니 추천은 그 때 해줘\n3 : 그래 그래\n3 : 다음에 또 추천해줘~ 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 넷플릭스에 극주부도였나? 그거 새로 나온 거 있는데 꼭 봐",
+            "norm_text": "넷플릭스에 극주부도였나? 그거 새로 나온 거 있는데 꼭 봐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "넷플릭스/NNP+에/JKB+극/NNG+주/NNG+부도/NNG+였/VCP+EP+나/EF+그거/NP+새로/MAG+나온/VV+ETM+거/NNB+있/VA+는데/EC+꼭/MAG+봐/VV+EC"
+          },
+          {
+            "id": 2,
+            "text": "2 : 극주부도?",
+            "norm_text": "극주부도?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "극/NNG+주부/NNG+도/JX"
+          },
+          {
+            "id": 3,
+            "text": "2 : 처음 들어봐",
+            "norm_text": "처음 들어봐",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "처음/MAG+들/VV+어/EC+봐/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "2 : 애니메이션이야?",
+            "norm_text": "애니메이션이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "애니메이션/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 5,
+            "text": "3 : 싫어",
+            "norm_text": "싫어",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "싫/VA+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "3 : 안 볼 건데?",
+            "norm_text": "안 볼 건데?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "안/MAG+볼/VV+ETM+건데/NNB+VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "3 : 너가 추천해주는 거 안 볼 건데?",
+            "norm_text": "너가 추천해주는 거 안 볼 건데?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "너/NP+가/JKS+추천/NNG+해/XSV+EC+주/VX+는/ETM+거/NNB+안/MAG+볼/VV+ETM+건데/NNB+VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 엉엉 만환데 넷플릭스 오리지널 시리즈",
+            "norm_text": "엉엉 만환데 넷플릭스 오리지널 시리즈",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "엉엉/MAG+만환/NNG+데/NNB+넷플릭스/NNP+오리지널/NNG+시리즈/NNG"
+          },
+          {
+            "id": 9,
+            "text": "2 : 키키 근데 쟤 추천이면 재미없을 거 같긴 한데",
+            "norm_text": "키키 근데 쟤 추천이면 재미없을 거 같긴 한데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "키/NNG+키/XSV+ETN+근데/MAJ+쟤/NP+추천/NNG+이/VCP+면/EC+재미없/VA+을/ETM+거/NNB+같/VA+긴/ETN+JX+한데/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "3 : 무슨 내용인지 설명해봐",
+            "norm_text": "무슨 내용인지 설명해봐",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "무슨/MM+내용/NNG+인지/VCP+EC+설명/NNG+해/XSV+EC+봐/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "3 : 들어보고 결정하게",
+            "norm_text": "들어보고 결정하게",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "들/VV+어/EC+보/VX+고/EC+결정/NNG+하/XSV+게/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 키키 나는 뉴스 보고 봤는데 괜찮더라고,",
+            "norm_text": "키키 나는 뉴스 보고 봤는데 괜찮더라고,",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+는/JX+뉴스/NNG+보/VV+고/EC+봤/VX+EP+는데/EC+괜찮/VA+더라고/EF+,/SC"
+          },
+          {
+            "id": 13,
+            "text": "1 : 코믹인데 야쿠자가 전업 주부하는 내용이야",
+            "norm_text": "코믹인데 야쿠자가 전업 주부하는 내용이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "코믹/NNG+인데/VCP+EC+야쿠자/NNG+가/JKS+전업주부/NNG+하/XSV+는/ETM+내용/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 오 그런 건 재밌겠다",
+            "norm_text": "오 그런 건 재밌겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "오/IC+그런/MM+건/NNB+JX+재밌/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 나중에 한번 볼께 중간고사 끝나고",
+            "norm_text": "나중에 한번 볼께 중간고사 끝나고",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "나중/NNG+에/JKB+한/MM+번/NNBC+볼께/VV+EF+중간고사/NNG+끝/NNG+나/VV+고/EC"
+          },
+          {
+            "id": 16,
+            "text": "3 : 그렇구만",
+            "norm_text": "그렇구만",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "그렇/VA+구만/EC"
+          },
+          {
+            "id": 17,
+            "text": "3 : 전업주부 무섭네... 아큐자라니...",
+            "norm_text": "전업주부 무섭네... 아큐자라니...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "전업주부/NNG+무섭/VA+네/EF+./SY+아/IC+큐/MAG+자라/VV+니/EF+./SY"
+          },
+          {
+            "id": 18,
+            "text": "1 : 넷플릭스 신규 애니메이션 프로젝트에 껴 있는 거라서 재밌는 거 같아",
+            "norm_text": "넷플릭스 신규 애니메이션 프로젝트에 껴 있는 거라서 재밌는 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "넷플릭스/NNP+신규/NNG+애니메이션/NNG+프로젝트/NNG+에/JKB+껴/VV+EC+있/VX+는/ETM+거/NNB+라서/VCP+EC+재밌/VA+는/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 19,
+            "text": "2 : 난 아직 그 귀멸의 칼날도 안 봐 가지고, 다들 재밌다던데",
+            "norm_text": "난 아직 그 귀멸의 칼날도 안 봐 가지고, 다들 재밌다던데",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "난/NP+JX+아직/MAG+그/MM+귀/NNG+멸/NNG+의/JKG+칼날/NNG+도/JX+안/MAG+봐/VV+EC+가지/VX+고/EC+,/SC+다/MAG+들/XSN+재밌/VA+다던데/EC"
+          },
+          {
+            "id": 20,
+            "text": "3 : 고렇구만",
+            "norm_text": "고렇구만",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "고렇/VA+구만/EC"
+          },
+          {
+            "id": 21,
+            "text": "3 : 그게 재밌어?",
+            "norm_text": "그게 재밌어?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "그게/NP+JKS+재밌/VA+어/EF"
+          },
+          {
+            "id": 22,
+            "text": "3 : 넷플릭스 애니메이션? 키키",
+            "norm_text": "넷플릭스 애니메이션? 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "넷플릭스/NNP+애니메이션/NNP+?/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 23,
+            "text": "1 : 귀멸의 칼날은 시즌 1 보고 안 봐서...",
+            "norm_text": "귀멸의 칼날은 시즌 1 보고 안 봐서...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "귀/NNG+멸/NNG+의/JKG+칼날/NNG+은/JX+시즌/NNG+1/SN+보고/NNG+안/MAG+봐서/VV+EF+./SY"
+          },
+          {
+            "id": 24,
+            "text": "1 : 작가가 돈 엄청 쓸어 담았다고 하긴 하더라",
+            "norm_text": "작가가 돈 엄청 쓸어 담았다고 하긴 하더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "작가/NNG+가/JKS+돈/NNG+엄청/MAG+쓸/VV+어/EC+담/VV+았/EP+다고/EC+하/VV+긴/ETN+JX+하/VX+더라/EC"
+          },
+          {
+            "id": 25,
+            "text": "2 : 귀멸의 칼날 시즌 1은 어땠는데?",
+            "norm_text": "귀멸의 칼날 시즌 1은 어땠는데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "귀/NNG+멸/NNG+의/JKG+칼날/NNG+시즌/NNG+1/SN+은/JX+어땠/VA+EP+는데/EF"
+          },
+          {
+            "id": 26,
+            "text": "3 : 좋겠다... 재밌게 봐서",
+            "norm_text": "좋겠다... 재밌게 봐서",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "좋/VA+겠/EP+다/EF+./SY+재밌/VA+게/EC+봐서/VV+EC"
+          },
+          {
+            "id": 27,
+            "text": "3 : 난 재미없더라",
+            "norm_text": "난 재미없더라",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "난/NP+JX+재미없/VA+더라/EC"
+          },
+          {
+            "id": 28,
+            "text": "3 : 무슨 재미인지 모르겠어",
+            "norm_text": "무슨 재미인지 모르겠어",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "무슨/MM+재미/NNG+인지/VCP+EC+모르/VV+겠/EP+어/EC"
+          },
+          {
+            "id": 29,
+            "text": "1 : 시즌 1은 되게 재밌게 봤어!",
+            "norm_text": "시즌 1은 되게 재밌게 봤어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "시즌/NNG+1/SN+은/JX+되게/MAG+재밌/VA+게/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 30,
+            "text": "2 : 근데 왜 시즌 2부턴 안 봤어",
+            "norm_text": "근데 왜 시즌 2부턴 안 봤어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+왜/MAG+시즌/NNG+2/SN+부턴/JX+JX+안/MAG+봤/VV+EP+어/EC"
+          },
+          {
+            "id": 31,
+            "text": "2 : 바빠서?",
+            "norm_text": "바빠서?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "바빠서/VA+EF"
+          },
+          {
+            "id": 32,
+            "text": "3 : 고렇구만",
+            "norm_text": "고렇구만",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "고렇/VA+구만/EC"
+          },
+          {
+            "id": 33,
+            "text": "3 : 그래 또 추천해 보거라",
+            "norm_text": "그래 또 추천해 보거라",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+또/MAG+추천/NNG+해/XSV+EC+보/VX+거라/EC"
+          },
+          {
+            "id": 34,
+            "text": "3 : 생각해보겠다",
+            "norm_text": "생각해보겠다",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "생각/NNG+해/XSV+EC+보/VX+겠/EP+다/EC"
+          },
+          {
+            "id": 35,
+            "text": "1 : 애니메이션으로 시즌 2가 안 나왔을걸?",
+            "norm_text": "애니메이션으로 시즌 2가 안 나왔을걸?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "애니메이션/NNG+으로/JKB+시즌/NNG+2/SN+가/JKS+안/MAG+나왔/VV+EP+을걸/EF"
+          },
+          {
+            "id": 36,
+            "text": "1 : 영화로 나왔는데 그건 그냥 안 봤어 키키",
+            "norm_text": "영화로 나왔는데 그건 그냥 안 봤어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "영화/NNG+로/JKB+나왔/VV+EP+는데/EC+그건/NP+JX+그냥/MAG+안/MAG+봤/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 37,
+            "text": "2 : 키키 아 그런가",
+            "norm_text": "키키 아 그런가",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "키/NNG+키/VV+아/EC+그런가/VA+EC"
+          },
+          {
+            "id": 38,
+            "text": "2 : 일단 중간고사가 끝나야 멀 정주행 하던가 할 텐데 ㅠ",
+            "norm_text": "일단 중간고사가 끝나야 멀 정주행 하던가 할 텐데 ㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "일단/MAG+중간고사/NNG+가/JKS+끝/NNG+나야/VV+EC+멀정/XR+주행/NNG+하/XSV+던가/EC+할/VX+ETM+텐데/NNB+VCP+EC+ㅠ/UNKNOWN"
+          },
+          {
+            "id": 39,
+            "text": "3 : 그렇군",
+            "norm_text": "그렇군",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "그렇/VA+군/EC"
+          },
+          {
+            "id": 40,
+            "text": "3 : 결국은 중간고사가 빨리 끝나야겠따",
+            "norm_text": "결국은 중간고사가 빨리 끝나야겠따",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "결국/MAG+은/JX+중간고사/NNG+가/JKS+빨리/MAG+끝/NNG+나/NP+야/VCP+EF+겠/EP+따/EF"
+          },
+          {
+            "id": 41,
+            "text": "1 : 형 어짜피 공부도 안 하는데 그냥 봐 바.",
+            "norm_text": "형 어짜피 공부도 안 하는데 그냥 봐 바.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "형/NNG+어짜피/MAG+공부/NNG+도/JX+안/MAG+하/VV+는데/EC+그냥/MAG+봐/VV+EC+바/NNB"
+          },
+          {
+            "id": 42,
+            "text": "1 : 어짜피 한편 보면 무조건 정주행 해야 돼... 키키",
+            "norm_text": "어짜피 한편 보면 무조건 정주행 해야 돼... 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어짜피한편보면무조건정주행해야돼/UNKNOWN+./SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 43,
+            "text": "2 : 키키 아니 여태 안 했으니 중간고사 기간에라도 해야지",
+            "norm_text": "키키 아니 여태 안 했으니 중간고사 기간에라도 해야지",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "키/NNG+키/XSV+ETN+아니/VCN+여태/MAG+안/MAG+했으니/VV+EP+EC+중간고사/NNG+기간/NNG+에/JKB+라도/VCP+EC+해야지/VX+EC"
+          },
+          {
+            "id": 44,
+            "text": "2 : 애니 추천은 그 때 해줘",
+            "norm_text": "애니 추천은 그 때 해줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "애니/NNP+추천/NNG+은/JX+그때/NNG+해/XSV+EC+줘/VX+EC"
+          },
+          {
+            "id": 45,
+            "text": "3 : 그래 그래",
+            "norm_text": "그래 그래",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "그래/IC+그래/VA+EC"
+          },
+          {
+            "id": 46,
+            "text": "3 : 다음에 또 추천해줘~ 키키",
+            "norm_text": "다음에 또 추천해줘~ 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "다음/NNG+에/JKB+또/MAG+추천/NNG+해/XSV+EC+줘/VX+EC+~/SY+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

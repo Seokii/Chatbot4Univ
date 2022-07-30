@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 13063,
+    "name": "c2_20210914_0012_0099_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151533085679/c2_20210914_0012_0099_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151533085679/c2_20210914_0012_0099_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 15754,
+      "filename": "c4_20210820_0002_0010_01.txt",
+      "title": "c4_20210820_0002_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 246,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 246,
+        "word_size": 49,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.예 여보세요 #@이름#씨 연결 해주세요\nA.네 선생님 경제정책과에 #@이름# 사무관으로 확인됩니다\nB.예 그 쪽으로 좀 돌려줘봐요\nA.네 실례지만 어디라고 전달해 드릴까요\nB.천안 #@이름#이라고 전달해줄래요\nA.네 알겠습니다 지금 연결 하겠습니다\nA.선생님 죄송하지만 #@이름# 사무관이 지금 출장중이십니다\nA.그리고 내일부터 휴가라 통화가 어렵다고 전달받았습니다\nB.그래요 일단 알겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 여보세요 #@이름#씨 연결 해주세요",
+            "norm_text": "B.예 여보세요 #@이름#씨 연결 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+예/IC+여보세요/IC+#/SY+@/SY+이름/NNG+#/SY+씨/IC+연결/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 선생님 경제정책과에 #@이름# 사무관으로 확인됩니다",
+            "norm_text": "A.네 선생님 경제정책과에 #@이름# 사무관으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+경제/NNG+정책/NNG+과/NNG+에/JKB+#/SY+@/SY+이름/NNG+#/SY+사무관/NNG+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.예 그 쪽으로 좀 돌려줘봐요",
+            "norm_text": "B.예 그 쪽으로 좀 돌려줘봐요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+예/IC+그쪽/NP+으로/JKB+좀/MAG+돌려/VV+EC+줘/VX+EC+봐요/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 실례지만 어디라고 전달해 드릴까요",
+            "norm_text": "A.네 실례지만 어디라고 전달해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+실례/NNG+지만/VCP+EC+어디/NP+라고/VCP+EC+전달/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.천안 #@이름#이라고 전달해줄래요",
+            "norm_text": "B.천안 #@이름#이라고 전달해줄래요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+천안/NNP+#/SY+@/SY+이름/NNG+#/SY+이라고/JKQ+전달/NNG+해/XSV+EC+줄래요/VX+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 알겠습니다 지금 연결 하겠습니다",
+            "norm_text": "A.네 알겠습니다 지금 연결 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+지금/MAG+연결/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.선생님 죄송하지만 #@이름# 사무관이 지금 출장중이십니다",
+            "norm_text": "A.선생님 죄송하지만 #@이름# 사무관이 지금 출장중이십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+죄송/XR+하/XSA+지만/EC+#/SY+@/SY+이름/NNG+#/SY+사무관/NNG+이/JKS+지금/MAG+출장/NNG+중/NNB+이/VCP+십니다/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그리고 내일부터 휴가라 통화가 어렵다고 전달받았습니다",
+            "norm_text": "A.그리고 내일부터 휴가라 통화가 어렵다고 전달받았습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그리고/MAJ+내일/NNG+부터/JX+휴가/NNG+라/VCP+EC+통화/NNG+가/JKS+어렵/VA+다고/EC+전달/NNG+받/VV+았/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그래요 일단 알겠습니다",
+            "norm_text": "B.그래요 일단 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+일단/MAG+알/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

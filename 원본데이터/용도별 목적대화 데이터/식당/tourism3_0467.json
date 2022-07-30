@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 160033,
+    "name": "t3_20211119_0005_0300_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135814038024/t3_20211119_0005_0300_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135814038024/t3_20211119_0005_0300_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 151573,
+      "filename": "t3_0079_0108_02.txt",
+      "title": "t3_0079_0108_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 235,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 235,
+        "word_size": 57,
+        "text": "A.행복 가득한 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.네 민속박물관 근처에 있는 식당 예약 되나요\nA.네 식당 이름 말씀해 주세요\nB.잠깐만요 식당 이름이 #@소속#입니다\nA.네 오늘 몇 시로 예약 넣어드릴까요\nB.오후 1시쯤 괜찮나요\nA.네 인원은 몇 명일까요\nB.네 4명 예약 해주세요\nA.네 오늘 오후 한 시 네 분 예약 완료되었습니다\nB.네 예약해주셔서 감사합니다\nA.네 좋은 하루 되세요 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.행복 가득한 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.행복 가득한 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+가득/MAG+한/XSA+ETM+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 민속박물관 근처에 있는 식당 예약 되나요",
+            "norm_text": "B.네 민속박물관 근처에 있는 식당 예약되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+민속/NNG+박물관/NNG+근처/NNG+에/JKB+있/VV+는/ETM+식당/NNG+예약/NNG+되/XSV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 식당 이름 말씀해 주세요",
+            "norm_text": "A.네 식당 이름 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+식당/NNG+이름/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.잠깐만요 식당 이름이 #@소속#입니다",
+            "norm_text": "B.잠깐만요 식당 이름이 #@소속#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+잠깐/MAG+만/JX+요/JX+식당/NNG+이름/NNG+이/JKS+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 오늘 몇 시로 예약 넣어드릴까요",
+            "norm_text": "A.네 오늘 몇 시로 예약 넣어 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+오늘/MAG+몇/MM+시/NNBC+로/JKB+예약/NNG+넣/VV+어/EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.오후 1시쯤 괜찮나요",
+            "norm_text": "B.오후 한 시쯤 괜찮나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+오후/NNG+1/SN+시/NNBC+쯤/XSN+괜찮/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 인원은 몇 명일까요",
+            "norm_text": "A.네 인원은 몇 명일까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+인원/NNG+은/JX+몇/MM+명/NNBC+일까요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 4명 예약 해주세요",
+            "norm_text": "B.네 네 명 예약해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/MM+4/SN+명/NNBC+예약/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 오늘 오후 한 시 네 분 예약 완료되었습니다",
+            "norm_text": "A.네 오늘 오후 한 시 네 분 예약 완료되었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+오늘/MAG+오후/NNG+한/MM+시/NNBC+네/MM+분/NNBC+예약/NNG+완료/NNG+되/XSV+었/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 예약해주셔서 감사합니다",
+            "norm_text": "B.네 예약해 주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+예약/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 좋은 하루 되세요 #@소속# #@이름#이었습니다",
+            "norm_text": "A.네 좋은 하루 되세요 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

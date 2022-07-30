@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 58584,
+    "name": "c1_20211020_0002_0029_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt202110081307540748106/c1_20211020_0002_0029_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt202110081307540748106/c1_20211020_0002_0029_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50804,
+      "filename": "c1_20210907_0009_0019_01.txt",
+      "title": "c1_20210907_0009_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 237,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 237,
+        "word_size": 46,
+        "text": "A.전화주셔서 감사합니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.여기 남양주시 #@주소# 공영주차장인데요 주차 공간이 부족해요\nB.그래서 주차공간 확장 요청하려고 하는데 어디에 말씀드리면 되죠\nA.그부분 주차관리과 주차계획팀으로 요청주시면 됩니다\nB.연락처 좀 알 수 있을까요\nA.네 메모 가능하십니까\nB.불러 주세요 적을게요\nA.네 전화번호가 #@전번#입니다\nB.네 감사합니다 수고하세요\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화주셔서 감사합니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.전화주셔서 감사합니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여기 남양주시 #@주소# 공영주차장인데요 주차 공간이 부족해요",
+            "norm_text": "B.여기 남양주시 #@주소# 공영주차장인데요 주차 공간이 부족해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+여기/NP+남양주시/NNP+#/SY+@/SY+주소/NNG+#/SY+공영/NNG+주차장/NNG+인데요/VCP+EC+주차/NNG+공간/NNG+이/JKS+부족/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.그래서 주차공간 확장 요청하려고 하는데 어디에 말씀드리면 되죠",
+            "norm_text": "B.그래서 주차공간 확장 요청하려고 하는데 어디에 말씀드리면 되죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래서/MAJ+주차/NNG+공간/NNG+확장/NNG+요청/NNG+하/XSV+려고/EC+하/VV+는데/EC+어디/NP+에/JKB+말씀/NNG+드리/VV+면/EC+되/VV+죠/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.그부분 주차관리과 주차계획팀으로 요청주시면 됩니다",
+            "norm_text": "A.그부분 주차관리과 주차계획팀으로 요청주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+부분/NNG+주차/NNG+관리/NNG+과/JC+주차/NNG+계획/NNG+팀/NNG+으로/JKB+요청/NNG+주/VV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.연락처 좀 알 수 있을까요",
+            "norm_text": "B.연락처 좀 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+연락처/NNG+좀/MAG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 메모 가능하십니까",
+            "norm_text": "A.네 메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.불러 주세요 적을게요",
+            "norm_text": "B.불러 주세요 적을게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+불러/VV+EC+주/VX+세요/EP+EF+적/VA+을게요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 전화번호가 #@전번#입니다",
+            "norm_text": "A.네 전화번호가 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+전화/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

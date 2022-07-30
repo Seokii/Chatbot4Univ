@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 8162,
+    "name": "s1_20210913_0001_0318_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202109081512170855110/s1_20210913_0001_0318_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202109081512170855110/s1_20210913_0001_0318_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7623,
+      "filename": "s1_20210823_0025_0005_01.txt",
+      "title": "s1_20210823_0025_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 275,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 275,
+        "word_size": 62,
+        "text": "A.예 안녕하세요 고객님 #@소속# 상담실입니다 통화 가능하십니까\nB.여보세요 네 괜찮습니다\nA.네 고객님 지금 방문시간 확인해드릴텐데요\nA.성함을 #@이름#님으로 접수해도 상관없으신거죠\nB.네 상관없어요 괜찮아요\nA.그럼 오늘 한 시 반까지 찾아뵐 수가 있는데 괜찮으세요\nB.한 시 반이면 네 괜찮아요\nB.이 정도면 대략 수리비 얼마 나와요\nA.비용적인 부분은 정확한 안내가 어려워서 기사가 방문 전 연락을 드리도록 전달하겠습니다\nB.네 알겠습니다 감사합니다\nA.네 만족한 서비스 받으시구요 건강 조심하십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.예 안녕하세요 고객님 #@소속# 상담실입니다 통화 가능하십니까",
+            "norm_text": "A.예 안녕하세요 고객님 #@소속# 상담실입니다 통화 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+예/IC+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+실/NNG+입니다/VCP+EF+통화/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여보세요 네 괜찮습니다",
+            "norm_text": "B.여보세요 네 괜찮습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여보세요/IC+네/IC+괜찮/VA+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 지금 방문시간 확인해드릴텐데요",
+            "norm_text": "A.네 고객님 지금 방문시간 확인해드릴텐데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+지금/MAG+방문/NNG+시간/NNG+확인/NNG+해/XSV+EC+드릴/VX+ETM+텐데요/NNB+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.성함을 #@이름#님으로 접수해도 상관없으신거죠",
+            "norm_text": "A.성함을 #@이름#님으로 접수해도 상관없으신거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+성함/NNG+을/JKO+#/SY+@/SY+이름/NNG+#/SY+님/XSN+으로/JKB+접수/NNG+해도/XSV+EC+상관없/VA+으신/EP+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 상관없어요 괜찮아요",
+            "norm_text": "B.네 상관없어요 괜찮아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+상관없/VA+어요/EF+괜찮/VA+아요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.그럼 오늘 한 시 반까지 찾아뵐 수가 있는데 괜찮으세요",
+            "norm_text": "A.그럼 오늘 한 시 반까지 찾아뵐 수가 있는데 괜찮으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+오늘/MAG+한/MM+시/NNBC+반/NNG+까지/JX+찾/VV+아/EC+뵐/VV+ETM+수/NNB+가/JKS+있/VA+는데/EC+괜찮/VA+으세요/EP+EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.한 시 반이면 네 괜찮아요",
+            "norm_text": "B.한 시 반이면 네 괜찮아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+한/MM+시/NNBC+반/NNG+이/VCP+면/EC+네/IC+괜찮/VA+아요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.이 정도면 대략 수리비 얼마 나와요",
+            "norm_text": "B.이 정도면 대략 수리비 얼마 나와요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이/MM+정도/NNG+면/VCP+EC+대략/MAG+수리비/NNG+얼마나/MAG+와요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.비용적인 부분은 정확한 안내가 어려워서 기사가 방문 전 연락을 드리도록 전달하겠습니다",
+            "norm_text": "A.비용적인 부분은 정확한 안내가 어려워서 기사가 방문 전 연락을 드리도록 전달하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+비용/NNG+적/XSN+인/VCP+ETM+부분/NNG+은/JX+정확/NNG+한/XSA+ETM+안내/NNG+가/JKS+어려워서/VA+EC+기사/NNG+가/JKS+방/NNG+문전/NNG+연락/NNG+을/JKO+드리/VV+도록/EC+전달/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 만족한 서비스 받으시구요 건강 조심하십시오",
+            "norm_text": "A.네 만족한 서비스 받으시구요 건강 조심하십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+만족/NNG+한/XSA+ETM+서비스/NNG+받/VV+으시/EP+구요/EF+건강/NNG+조심/NNG+하/XSV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

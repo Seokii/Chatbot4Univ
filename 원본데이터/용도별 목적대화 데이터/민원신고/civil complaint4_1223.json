@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 49574,
+    "name": "c4_20211015_0012_0175_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151532094180/c4_20211015_0012_0175_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151532094180/c4_20211015_0012_0175_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 15627,
+      "filename": "c4_20210819_0011_0036_01.txt",
+      "title": "c4_20210819_0011_0036_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 487,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 487,
+        "word_size": 109,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nA.선생님 대구에서 보령 머드축제까지 가는 경로 문의 주신 분 맞으세요\nA.문의 내용 확인되어 연락드립니다\nB.네 제가 문의준 사람 맞습니다\nB.보령 경유해서 태안군으로 가는 거죠\nA.네 기다려 주셔서 감사합니다\nA.대구에서 보령 머드축제까지는 약 세 시간 이십분 소요되는 걸로 확인이 됩니다\nA.경로는 경부고속도로에서 당진영덕고속도로로 가시고요\nA.그리고 서천공주고속도로로 가는 경로로 확인됩니다\nB.그런가요 그럼 태안까지는요\nA.선생님 혹시 태안군 어디로 가십니까\nB.거기가 태안군 #@주소#이요\nA.보령 머드축제 장소에서 충청남도 태안군 #@주소#까지 경로이고요\nA.소요 시간은 약 한 시간 삼십분 정도로 생각하시면 됩니다\nB.생각보다 되게 머네요\nB.그럼 보령 안 거치고 태안으로 바로 가면 어떻게 됩니까\nA.네 그렇게 바로 가시면 세 시간 삼십분 정도 소요됩니다\nB.그럼 한 군데만 가야 되겠네요 감사합니다\nA.네 감사합니다 #@소속# #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.선생님 대구에서 보령 머드축제까지 가는 경로 문의 주신 분 맞으세요",
+            "norm_text": "A.선생님 대구에서 보령 머드축제까지 가는 경로 문의 주신 분 맞으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+대구/NNP+에서/JKB+보령/NNG+머드/NNG+축제/NNG+까지/JX+가/VV+는/ETM+경로/NNG+문/NNG+의/JKG+주/NNG+신분/NNG+맞/VV+으세요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.문의 내용 확인되어 연락드립니다",
+            "norm_text": "A.문의 내용 확인되어 연락드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+문/NNG+의/JKG+내용/NNG+확인/NNG+되/XSV+어/EC+연락/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 제가 문의준 사람 맞습니다",
+            "norm_text": "B.네 제가 문의준 사람 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+JKG+가문/NNG+의/JKG+준/XPN+사람/NNG+맞/VV+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.보령 경유해서 태안군으로 가는 거죠",
+            "norm_text": "B.보령 경유해서 태안군으로 가는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+보령/NNG+경유/NNG+해서/XSV+EC+태안군/NNG+으로/JKB+가/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 기다려 주셔서 감사합니다",
+            "norm_text": "A.네 기다려 주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.대구에서 보령 머드축제까지는 약 세 시간 이십분 소요되는 걸로 확인이 됩니다",
+            "norm_text": "A.대구에서 보령까지 약 세 시간 이십분 소요됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+대구/NNP+에서/JKB+보령/NNG+머드/NNG+축제/NNG+까지/JX+는/JX+약세/NNG+시간/NNG+이/JKS+십/NR+분/NNBC+소요/NNG+되/XSV+는/ETM+걸로/NNB+JKB+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.경로는 경부고속도로에서 당진영덕고속도로로 가시고요",
+            "norm_text": "A.경로는 경부고속도로에서 당진영덕고속도로로 가시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+경로/NNG+는/JX+경부고속도로/NNP+에서/JKB+당진/NNP+영덕/NNP+고속도로/NNP+로/JKB+가/VV+시/EP+고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그리고 서천공주고속도로로 가는 경로로 확인됩니다",
+            "norm_text": "A.그리고 서천공주고속도로로 가는 경로로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그리고/MAJ+서천/NNG+공주/NNG+고속/NNG+도로/NNG+로/JKB+가/VV+는/ETM+경로/NNG+로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그런가요 그럼 태안까지는요",
+            "norm_text": "B.그런가요 그럼 태안까지는요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그런가요/VA+EC+VCP+EF+그럼/MAJ+태안/NNG+까지/JX+는/JX+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.선생님 혹시 태안군 어디로 가십니까",
+            "norm_text": "A.선생님 혹시 태안군 어디로 가십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+혹시/MAG+태안군/NNG+어디/NP+로/JKB+가/VV+십니까/EP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.거기가 태안군 #@주소#이요",
+            "norm_text": "B.거기가 태안군 #@주소#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+거기/NP+가/JKS+태안군/NNG+#/SY+@/SY+주소/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.보령 머드축제 장소에서 충청남도 태안군 #@주소#까지 경로이고요",
+            "norm_text": "A.보령 머드축제 장소에서 충청남도 태안군 #@주소#까지 경로이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+보령/NNG+머드/NNG+축제/NNG+장소/NNG+에서/JKB+충청남도/NNP+태안군/NNP+#/SY+@/SY+주소/NNG+#/SY+까지/JX+경로/NNG+이/VCP+고요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.소요 시간은 약 한 시간 삼십분 정도로 생각하시면 됩니다",
+            "norm_text": "A.소요 시간은 약 한 시간 삼십분 정도로 생각하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+소요/NNG+시간/NNG+은/JX+약한/VA+ETM+시간/NNG+삼/NR+십/NR+분/NNBC+정도/NNG+로/JKB+생각/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.생각보다 되게 머네요",
+            "norm_text": "B.생각보다 되게 머네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+생각/NNG+보다/JKB+되게/MAG+머/NP+네요/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.그럼 보령 안 거치고 태안으로 바로 가면 어떻게 됩니까",
+            "norm_text": "B.그럼 보령 안 거치고 태안으로 바로 가면 어떻게 됩니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+보령/NNG+안/MAG+거치/VV+고/EC+태안/NNG+으로/JKB+바로/MAG+가/VV+면/EC+어떻게/MAG+됩니까/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.네 그렇게 바로 가시면 세 시간 삼십분 정도 소요됩니다",
+            "norm_text": "A.네 그렇게 바로 가시면 세 시간 삼십분 정도 소요됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇게/MAG+바로/MAG+가/VV+시/EP+면/EC+세/MM+시간/NNG+삼/NR+십/NR+분/NNBC+정도/NNG+소요/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 18,
+            "text": "B.그럼 한 군데만 가야 되겠네요 감사합니다",
+            "norm_text": "B.그럼 한 군데만 가야 되겠네요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그럼/MAJ+한/MM+군데/NNBC+만/JX+가/VV+야/EC+되/VV+겠/EP+네요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.네 감사합니다 #@소속# #@이름#였습니다",
+            "norm_text": "A.네 감사합니다 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 143613,
+    "name": "e3_20211115_0001_0491_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135620038946/e3_20211115_0001_0491_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135620038946/e3_20211115_0001_0491_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 145883,
+      "filename": "e3_0074_0035_02.txt",
+      "title": "e3_0074_0035_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 282,
+      "annotations": {
+        "subject": "비용/환불 문의",
+        "speaker_type": "1:1",
+        "size": 282,
+        "word_size": 66,
+        "text": "A. 좋은 아침입니다 #@소속# 상담원 #@이름#입니다\nB. 장학금 타기 위한 기본 조건은 어떻게 될까요\nA. 혹시 궁금하신 장학금 유형이 있으실까요\nB. 대학원성곡장학금 대해서 알고 싶어요\nA. 본교 학부 출신자로 평점 평균4.0 이상이셔야 하구요\nA. 석사과정 혹은 석박사통합과정으로 유지조건을 충족하실경우 최대 4학기까지 100% 가능하세요\nB. 아 그게 기본 조건일까요\nA. 네 그렇습니다 다른 질문사항 있으실까요\nB. 아 아뇨 괜찮습니다 궁금한건 해결했어요\nA. 네 감사합니다 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 좋은 아침입니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A. 좋은 아침입니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+좋/VA+은/ETM+아침/NNG+입니다/VCP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 장학금 타기 위한 기본 조건은 어떻게 될까요",
+            "norm_text": "B. 장학금 타기 위한 기본 조건은 어떻게 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+장학금/NNG+타/VV+기/ETN+위한/VV+ETM+기본/NNG+조건/NNG+은/JX+어떻게/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 혹시 궁금하신 장학금 유형이 있으실까요",
+            "norm_text": "A. 혹시 궁금하신 장학금 유형이 있으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+궁금/XR+하/XSA+신/EP+ETM+장학금/NNG+유형/NNG+이/JKS+있/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 4,
+            "text": "B. 대학원성곡장학금 대해서 알고 싶어요",
+            "norm_text": "B. 대학원성곡장학금 대해서 알고 싶어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+대학원/NNG+성곡/NNP+장학금/NNG+대해서/VV+EC+알/VV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A. 본교 학부 출신자로 평점 평균4.0 이상이셔야 하구요",
+            "norm_text": "A. 본교 학부 출신자로 평점 평균4.0 이상이셔야 하구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+본교/NNG+학부/NNG+출신자/NNG+로/JKB+평점/NNG+평균/NNG+4/SN+./SY+0/SN+이상/NNG+이/VCP+셔야/EP+EC+하/VX+구요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A. 석사과정 혹은 석박사통합과정으로 유지조건을 충족하실경우 최대 4학기까지 100% 가능하세요",
+            "norm_text": "A. 석사과정 유지조건 충족 시 최대 4학기까지 백프로 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+석사/NNG+과정/NNG+유지/NNG+조건/NNG+충족/NNG+시/NNB+최대/NNG+4/SN+학기/NNG+까지/JX+백/NR+프로/NNBC+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B. 아 그게 기본 조건일까요",
+            "norm_text": "B. 아 그게 기본 조건일까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+그게/NP+JKS+기본/NNG+조건/NNG+일까요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 네 그렇습니다 다른 질문사항 있으실까요",
+            "norm_text": "A. 네 그렇습니다 다른 질문사항 있으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+다른/MM+질문/NNG+사항/NNG+있/VV+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 9,
+            "text": "B. 아 아뇨 괜찮습니다 궁금한건 해결했어요",
+            "norm_text": "B. 아 아뇨 괜찮습니다 궁금한건 해결했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아아뇨/VCN+EF+괜찮/VA+습니다/EF+궁금/XR+한/XSA+ETM+건/NNB+JX+해결/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 감사합니다 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 네 감사합니다 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

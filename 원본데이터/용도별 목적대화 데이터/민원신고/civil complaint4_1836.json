@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 48973,
+    "name": "c4_20211015_0001_2044_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704046436/c4_20211015_0001_2044_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704046436/c4_20211015_0001_2044_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50110,
+      "filename": "c4_20210903_0027_0011_01.txt",
+      "title": "c4_20210903_0027_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 369,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 369,
+        "word_size": 78,
+        "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.네 여기 #@주소#가 어린이보호구역이거든요\nB.불법 주정차를 신고하려 합니다 #@번호#\nB.해당 차주에게 도로교통법 위반에 따른 과태료 부과를 요구합니다\nA.선생님께서 신고하신 불법 주정차 차량은 어린이 보호 구역 내인 것으로 확인되었습니다\nA.주정차 절대 금지 구역에 해당하므로 도로교통법 위반에 따른 불법주정차 과태료 부과하겠습니다\nB.네 그럼 과태료가 얼마입니까\nA.규정에 따라 일반 불법 주정차 과태료의 두 배에 해당하는 팔만원을 부과 예정입니다\nB.친절한 접수 감사합니다\nA.만족스러운 답변이길 바라며 추가 설명은 동대문구 주차 행정과로 연락 주세요\nA.감사합니다 민원인 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 여기 #@주소#가 어린이보호구역이거든요",
+            "norm_text": "B.네 여기 #@주소#가 어린이보호구역이거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+여기/NP+#/SY+@/SY+주소/NNG+#/SY+가/JKS+어린/VA+ETM+이보호/NNP+구역/NNG+이/VCP+거든요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.불법 주정차를 신고하려 합니다 #@번호#",
+            "norm_text": "B.불법 주정차를 신고하려 합니다 #@번호#",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+불법/NNG+주정차/NNG+를/JKO+신고/NNG+하/XSV+려/EC+합니다/VX+EF+#/SY+@/SY+번호/NNG+#/SY"
+          },
+          {
+            "id": 5,
+            "text": "B.해당 차주에게 도로교통법 위반에 따른 과태료 부과를 요구합니다",
+            "norm_text": "B.해당 차주에게 도로교통법 위반에 따른 과태료 부과를 요구합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+해당/NNG+차주/NNG+에게/JKB+도로/NNG+교통/NNG+법/NNG+위반/NNG+에/JKB+따른/VV+ETM+과태료/NNG+부과/NNG+를/JKO+요구/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.선생님께서 신고하신 불법 주정차 차량은 어린이 보호 구역 내인 것으로 확인되었습니다",
+            "norm_text": "A.선생님께서 신고하신 불법 주정차 차량은 어린이 보호 구역 내인 것으로 확인되었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+께서/JKS+신고/NNG+하/XSV+신/EP+ETM+불법/NNG+주정차/NNG+차량/NNG+은/JX+어린이/NNG+보호구역/NNP+내/NNB+인/VCP+ETM+것/NNB+으로/JKB+확인/NNG+되/XSV+었/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.주정차 절대 금지 구역에 해당하므로 도로교통법 위반에 따른 불법주정차 과태료 부과하겠습니다",
+            "norm_text": "A.주정차 절대 금지 구역에 해당하므로 도로교통법 위반에 따른 불법주정차 과태료 부과하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+주정차/NNG+절대/MAG+금지/NNG+구역/NNG+에/JKB+해당/NNG+하/XSV+므로/EC+도로/NNG+교통/NNG+법/NNG+위반/NNG+에/JKB+따른/VV+ETM+불법/NNG+주정차/NNG+과태료/NNG+부과/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 그럼 과태료가 얼마입니까",
+            "norm_text": "B.네 그럼 과태료가 얼마입니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+과태료/NNG+가/JKS+얼마/NNG+입니까/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.규정에 따라 일반 불법 주정차 과태료의 두 배에 해당하는 팔만원을 부과 예정입니다",
+            "norm_text": "A.규정에 따라 일반 불법 주정차 과태료의 두 배에 해당하는 팔만원을 부과 예정입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+규정/NNG+에/JKB+따라/VV+EC+일반/NNG+불법/NNG+주정차/NNG+과태료/NNG+의/JKG+두/MM+배/NNG+에/JKB+해당/NNG+하/XSV+는/ETM+팔/NR+만/NR+원/NNBC+을/JKO+부과/NNG+예정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.친절한 접수 감사합니다",
+            "norm_text": "B.친절한 접수 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+접수/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.만족스러운 답변이길 바라며 추가 설명은 동대문구 주차 행정과로 연락 주세요",
+            "norm_text": "A.만족스러운 답변이길 바라며 추가 설명은 동대문구 주차 행정과로 연락 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+만족/NNG+스러운/XSA+ETM+답변/NNG+이/VCP+길/ETN+JKO+바라/VV+며/EC+추가/NNG+설명/NNG+은/JX+동대문구/NNP+주차/NNG+행정과/NNG+로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 민원인 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 민원인 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

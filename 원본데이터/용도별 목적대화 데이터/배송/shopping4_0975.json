@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 13776,
+    "name": "s4_20210914_0011_1178_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151448040234/s4_20210914_0011_1178_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151448040234/s4_20210914_0011_1178_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 13070,
+      "filename": "s4_20210827_0010_0007_01.txt",
+      "title": "s4_20210827_0010_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 484,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 484,
+        "word_size": 120,
+        "text": "A.안녕하세요 #@이름# 고객님 #@소속# 상담 입니다\nA.배송 문의 관련하여 다시 연락 드렸습니다\nA.현재 택배사가 물량이 많아 연락이 지연되고 있습니다\nB.제가 #@소속# 택배에 전화해도 계속 통화가 안 돼요\nA.예 맞습니다 제가 확인 하려 하는데도 현재 연결이 안됩니다\nA.전화를 한다고 해도 기사님께만 독촉이 갈 거라서요\nB.아니 조회 해보면 아직도 집하 중이에요\nB.무슨 사흘 동안 집하는 하는 게 어디 있어요\nB.추석 연휴에 주문한 다른 물건은 다 왔어요\nB.보아하니 물건이 훼손 됐거나 잃어버린 상황 아닙니까\nA.현재 상품이 지금 이동 중이고 연휴라 지연되는 것 같습니다\nB.집하 중이라고요 이동 중이 아니에요\nA.네 택배사로 확인 해보아야 하는 부분이라서요 고객님\nA.연결이 닿으면 제가 바로 확인하고 다시 연락 드리겠습니다\nB.예 그럼 그래 주세요\nA.네 고객님 죄송합니다 오늘까지 시간 양해 부탁 드릴게요\nB.네 연락주세요 알겠어요\nA.네 감사합니다 상담사 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@이름# 고객님 #@소속# 상담 입니다",
+            "norm_text": "A.안녕하세요 #@이름# 고객님 #@소속# 상담 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.배송 문의 관련하여 다시 연락 드렸습니다",
+            "norm_text": "A.배송 문의 관련하여 다시 연락 드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+배/NNG+송문/NNG+의/JKG+관련/NNG+하/XSV+여/EC+다시/MAG+연락/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.현재 택배사가 물량이 많아 연락이 지연되고 있습니다",
+            "norm_text": "A.현재 택배사가 물량이 많아 연락이 지연되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+현재/MAG+택배/NNG+사/NNG+가/JKS+물량/NNG+이/JKS+많/VA+아/EC+연락/NNG+이/JKS+지연/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 #@소속# 택배에 전화해도 계속 통화가 안 돼요",
+            "norm_text": "B.제가 #@소속# 택배에 전화해도 계속 통화가 안 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+택배/NNG+에/JKB+전화/NNG+해도/XSV+EC+계속/MAG+통화/NNG+가/JKS+안/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 맞습니다 제가 확인 하려 하는데도 현재 연결이 안됩니다",
+            "norm_text": "A.예 맞습니다 제가 확인 하려 하는데도 현재 연결이 안됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+맞/VV+습니다/EF+제/NP+가/JKS+확인/NNG+하/XSV+려/EC+하/VV+는/ETM+데/NNB+도/JX+현재/MAG+연결/NNG+이/JKS+안/MAG+됩니다/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.전화를 한다고 해도 기사님께만 독촉이 갈 거라서요",
+            "norm_text": "A.전화를 한다고 해도 기사님께만 독촉이 갈 거라서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전화/NNG+를/JKO+한다고/VV+EC+해도/VV+EC+기사/NNG+님/XSN+께/JKB+만/JX+독촉/NNG+이/JKS+갈/VV+ETM+거/NNB+라서요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.아니 조회 해보면 아직도 집하 중이에요",
+            "norm_text": "B.아니 조회 해보면 아직도 집하 중이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+아니/IC+조회/NNG+해/XSV+EC+보/VX+면/EC+아직/MAG+도/JX+집하/NNG+중/NNB+이/VCP+에요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.무슨 사흘 동안 집하는 하는 게 어디 있어요",
+            "norm_text": "B.무슨 사흘 동안 집하는 하는 게 어디 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+무슨/MM+사흘/NNG+동안/NNG+집/NNG+하/XSV+는/ETM+하/VV+는/ETM+게/NNB+JKS+어디/NP+있/VA+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.추석 연휴에 주문한 다른 물건은 다 왔어요",
+            "norm_text": "B.추석 연휴에 주문한 다른 물건은 다 왔어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+추석/NNG+연휴/NNG+에/JKB+주문/NNG+한/XSA+ETM+다른/MM+물건/NNG+은/JX+다/MAG+왔어요/VV+EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.보아하니 물건이 훼손 됐거나 잃어버린 상황 아닙니까",
+            "norm_text": "B.보아하니 물건이 훼손 됐거나 잃어버린 상황 아닙니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+보아하니/MAG+물건/NNG+이/JKS+훼손/NNG+됐/XSV+EP+거나/EC+잃어버린/VV+ETM+상황/NNG+아닙니까/VCN+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.현재 상품이 지금 이동 중이고 연휴라 지연되는 것 같습니다",
+            "norm_text": "A.현재 상품이 지금 이동 중이고 연휴라 지연되는 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+현재/MAG+상품/NNG+이/JKS+지금/MAG+이동/NNG+중/NNB+이/VCP+고/EC+연휴/NNG+라/VCP+EC+지연/NNG+되/XSV+는/ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.집하 중이라고요 이동 중이 아니에요",
+            "norm_text": "B.집하 중이라고요 이동 중이 아니에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+./SY+집하/NNG+중/NNB+이/VCP+라고요/EF+이/MM+동중/NNG+이/JKC+아니/VCN+에요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 택배사로 확인 해보아야 하는 부분이라서요 고객님",
+            "norm_text": "A.네 택배사로 확인 해보아야 하는 부분이라서요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+택배/NNG+사/NNG+로/JKB+확인/NNG+해/XSV+EC+보/VX+아야/EC+하/VV+는/ETM+부분/NNG+이/VCP+라서요/EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 14,
+            "text": "A.연결이 닿으면 제가 바로 확인하고 다시 연락 드리겠습니다",
+            "norm_text": "A.연결이 닿으면 제가 바로 확인하고 다시 연락 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+연결/NNG+이/JKS+닿/VV+으면/EC+제/NP+가/JKS+바로/MAG+확인/NNG+하/XSV+고/EC+다시/MAG+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.예 그럼 그래 주세요",
+            "norm_text": "B.예 그럼 그래 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+그럼/MAJ+그래/VA+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 16,
+            "text": "A.네 고객님 죄송합니다 오늘까지 시간 양해 부탁 드릴게요",
+            "norm_text": "A.네 고객님 죄송합니다 오늘까지 시간 양해 부탁 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+죄송/XR+합니다/XSA+EF+오늘/NNG+까지/JX+시간/NNG+양해/NNG+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.네 연락주세요 알겠어요",
+            "norm_text": "B.네 연락주세요 알겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+연락/NNG+주세요/NNP+알/VV+겠/EP+어요/EF"
+          },
+          {
+            "id": 18,
+            "text": "A.네 감사합니다 상담사 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담사 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

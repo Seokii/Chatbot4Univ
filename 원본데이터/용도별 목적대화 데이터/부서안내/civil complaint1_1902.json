@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 12202,
+    "name": "c1_20210913_0005_0666_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt202109081513390997109/c1_20210913_0005_0666_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt202109081513390997109/c1_20210913_0005_0666_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10503,
+      "filename": "c1_20210819_0012_0009_01.txt",
+      "title": "c1_20210819_0012_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 542,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 542,
+        "word_size": 120,
+        "text": "A.반갑습니다 #@소속#입니다 무엇을 도와 드릴까요\nB.네 안녕하세요 다름이 아니라 태평역에 #@소속# 혹시 검색이 될까요\nB.제가 지금 태평역 오 번 출구에 있습니다\nA.태평역 주변에 #@소속#인가요\nB.네 태평역 주변이면 돼요\nA.인터넷 확인 후 안내해드리겠습니다 잠시만 기다려 주시겠습니까\nB.네 확인해봐 주세요 제가 인터넷이 안 됩니다\nA.기다려 주셔서 감사합니다 태평역에 #@주소#로 확인됩니다\nA.위치는 #@주소#에 있는 #@소속# 확인됩니다\nB.아마 태평역이 거기가 주소지가 아닐 텐데요\nA.제가 태평역으로 확인해보니 수정구 #@주소#으로 나옵니다\nB.수진구라뇨 그게 어디 있는 거예요\nA.태평이 성남에 있는 태평 아니십니까\nB.예 맞아요 성남 태평역 거기 전화번호 찾아졌어요\nA.다시 한 번 확인해보겠습니다 잠시만 더 기다려 주시겠습니까\nB.네 전화 번호 한 번 찾아봐주세요\nA.선생님 #@소속# 직영점으로 확인됩니다 찾으시는 곳이 맞으십니까\nB.다시 한 번 말씀해주세요 죄송합니다\nA.#@소속#으로 확인됩니다\nB.중앙 직영점이요 #@소속# 네 알겠습니다\nA.네 선생님 즐거운 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속#입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.반갑습니다 #@소속#입니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 다름이 아니라 태평역에 #@소속# 혹시 검색이 될까요",
+            "norm_text": "B.네 안녕하세요 다름이 아니라 태평역에 #@소속# 혹시 검색이 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+다름/VA+ETN+이/JKC+아니/VCN+라/EC+태평역/NNP+에/JKB+#/SY+@/SY+소속/NNG+#/SY+혹시/MAG+검색/NNG+이/JKS+될까요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.제가 지금 태평역 오 번 출구에 있습니다",
+            "norm_text": "B.제가 지금 태평역 오 번 출구에 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+지금/MAG+태평역/NNP+오/NR+번/NNBC+출구/NNG+에/JKB+있/VV+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.태평역 주변에 #@소속#인가요",
+            "norm_text": "A.태평역 주변에 #@소속#인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+태평역/NNP+주변/NNG+에/JKB+#/SY+@/SY+소속/NNG+#/SY+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 태평역 주변이면 돼요",
+            "norm_text": "B.네 태평역 주변이면 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+태평역/NNP+주변/NNG+이/VCP+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.인터넷 확인 후 안내해드리겠습니다 잠시만 기다려 주시겠습니까",
+            "norm_text": "A.인터넷 확인 후 안내해드리겠습니다 잠시만 기다려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+인터넷/NNG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 확인해봐 주세요 제가 인터넷이 안 됩니다",
+            "norm_text": "B.네 확인해봐 주세요 제가 인터넷이 안 됩니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+해/XSV+EC+봐/VX+EC+주/VX+세요/EP+EF+제/NP+가/JKS+인터넷/NNG+이/JKS+안/MAG+됩니다/VV+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.기다려 주셔서 감사합니다 태평역에 #@주소#로 확인됩니다",
+            "norm_text": "A.기다려 주셔서 감사합니다 태평역에 #@주소#로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+태평역/NNP+에/JKB+#/SY+@/SY+주소/NNG+#/SY+로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.위치는 #@주소#에 있는 #@소속# 확인됩니다",
+            "norm_text": "A.위치는 #@주소#에 있는 #@소속# 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+위치/NNG+는/JX+#/SY+@/SY+주소/NNG+#/SY+에/JKB+있/VV+는/ETM+#/SY+@/SY+소속/NNG+#/SY+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.아마 태평역이 거기가 주소지가 아닐 텐데요",
+            "norm_text": "B.아마 태평역이 거기가 주소지가 아닐 텐데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아마/MAG+태평역/NNP+이/JKS+거기/NP+가/JKS+주소지/NNG+가/JKC+아닐/VCN+ETM+텐데요/NNB+VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.제가 태평역으로 확인해보니 수정구 #@주소#으로 나옵니다",
+            "norm_text": "A.제가 태평역으로 확인해보니 수정구 #@주소#으로 나옵니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+제/NP+가/JKS+태평역/NNP+으로/JKB+확인/NNG+해/XSV+EC+보/VX+니/EC+수정구/NNG+#/SY+@/SY+주소/NNG+#/SY+으로/JKB+나옵니다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.수진구라뇨 그게 어디 있는 거예요",
+            "norm_text": "B.수진구라뇨 그게 어디 있는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+수진/NNG+구/VV+라뇨/EC+EF+그게/NP+JKS+어디/NP+있/VA+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.태평이 성남에 있는 태평 아니십니까",
+            "norm_text": "A.태평이 성남에 있는 태평 아니십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+태평/NNG+이/JKS+성남/NNP+에/JKB+있/VV+는/ETM+태평/NNG+아니/VCN+십니까/EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.예 맞아요 성남 태평역 거기 전화번호 찾아졌어요",
+            "norm_text": "B.예 맞아요 성남 태평역 거기 전화번호 찾아졌어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+맞/VV+아요/EF+성남/NNP+태평역/NNP+거기/NP+전화/NNG+번호/NNG+찾/VV+아/EC+졌어요/VX+EP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.다시 한 번 확인해보겠습니다 잠시만 더 기다려 주시겠습니까",
+            "norm_text": "A.다시 한 번 확인해보겠습니다 잠시만 더 기다려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+다시/MAG+한/MM+번/NNBC+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF+잠시/NNG+만/JX+더/MAG+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 전화 번호 한 번 찾아봐주세요",
+            "norm_text": "B.네 전화 번호 한 번 찾아봐주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+전화/NNG+번호/NNG+한/MM+번/NNBC+찾아봐/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "A.선생님 #@소속# 직영점으로 확인됩니다 찾으시는 곳이 맞으십니까",
+            "norm_text": "A.선생님 #@소속# 직영점으로 확인됩니다 찾으시는 곳이 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+#/SY+@/SY+소속/NNG+#/SY+직영/NNG+점/NNG+으로/JKB+확인/NNG+됩니다/XSV+EC+찾/VV+으시/EP+는/ETM+곳/NNG+이/JKS+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 18,
+            "text": "B.다시 한 번 말씀해주세요 죄송합니다",
+            "norm_text": "B.다시 한 번 말씀해주세요 죄송합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "B/SL+다시/MAG+한/MM+번/NNBC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.#@소속#으로 확인됩니다",
+            "norm_text": "A.#@소속#으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 20,
+            "text": "B.중앙 직영점이요 #@소속# 네 알겠습니다",
+            "norm_text": "B.중앙 직영점이요 #@소속# 네 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+중앙직영점이요/UNKNOWN+#/SY+@/SY+소속/NNG+#/SY+네/IC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 21,
+            "text": "A.네 선생님 즐거운 하루 보내세요",
+            "norm_text": "A.네 선생님 즐거운 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+즐거운/VA+ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 159458,
+    "name": "t5_20211119_0010_2164_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135913072743/t5_20211119_0010_2164_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135913072743/t5_20211119_0010_2164_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155619,
+      "filename": "t5_0067_0056_02.txt",
+      "title": "t5_0067_0056_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 280,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 280,
+        "word_size": 70,
+        "text": "A. 안녕하세요 영월관광 상담원 #@이름#입니다\nB. 네 저 영월 지질명소 위치 문의 좀 할게요\nA. 네 관심있으신 지질명소 따로 있으신가요\nB. 저희가 지금 #@이름#에서 숙박하고 있는데요\nB. 여기서 좀 가까우면서 제일 유명한 지질명소 어딘가요\nA. #@이름# 쪽이시면 #@기타#방문이 편하실 듯 합니다\nB. 아 얼핏 들어본 것 같은데 정확한 위치 부탁드려요\nA. 네 #@기타#은 영월읍 #@주소#에 위치해있습니다\nB. 지금 보니 진짜 가깝네요 정보 감사합니다\nA. 네 좋은 하루 되세요 상담원 #@이름#이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 안녕하세요 영월관광 상담원 #@이름#입니다",
+            "norm_text": "A. 안녕하세요 영월관광 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+영월/NNG+관광/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 네 저 영월 지질명소 위치 문의 좀 할게요",
+            "norm_text": "B. 네 저 영월 지질명소 위치 문의 좀 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+저영/NNP+월지/NNG+질명/NNG+소위/NNG+치문/NNG+의/JKG+좀/MAG+할게요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 관심있으신 지질명소 따로 있으신가요",
+            "norm_text": "A. 네 관심있으신 지질명소 따로 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+관심/NNG+있/VV+으신/EP+ETM+지질/NNG+명소/NNG+따로/MAG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B. 저희가 지금 #@이름#에서 숙박하고 있는데요",
+            "norm_text": "B. 저희가 지금 #@이름#에서 숙박하고 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+가/JKS+지금/MAG+#/SY+@/SY+이름/NNG+#/SY+에서/JKB+숙박/NNG+하/XSV+고/EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B. 여기서 좀 가까우면서 제일 유명한 지질명소 어딘가요",
+            "norm_text": "B. 여기서 좀 가까우면서 제일 유명한 지질명소 어딘가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여기/NP+서/JKB+좀/MAG+가까우/VA+면서/EC+제일/MAG+유명/NNG+한/XSA+ETM+지질/NNG+명소/NNG+어딘가요/NP+VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A. #@이름# 쪽이시면 #@기타#방문이 편하실 듯 합니다",
+            "norm_text": "A. #@이름# 쪽이시면 #@기타#방문이 편하실 듯 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+쪽/NNB+이/VCP+시/EP+면/EC+#/SY+@/SY+기타/NNG+#/SY+방문/NNG+이/JKS+편하/VA+실/EP+ETM+듯/NNB+합니다/XSA+EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 아 얼핏 들어본 것 같은데 정확한 위치 부탁드려요",
+            "norm_text": "B. 아 얼핏 들어본 것 같은데 정확한 위치 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+아/IC+얼핏/MAG+들/VV+어/EC+본/VX+ETM+것/NNB+같/VA+은데/EC+정확/XR+한/XSA+ETM+위치/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 네 #@기타#은 영월읍 #@주소#에 위치해있습니다",
+            "norm_text": "A. 네 #@기타#은 영월읍 #@주소#에 위치해있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+기타/NNG+#/SY+은/JX+영월읍/NNP+#/SY+@/SY+주소/NNG+#/SY+에/JKB+위치/NNG+해/XSV+EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 지금 보니 진짜 가깝네요 정보 감사합니다",
+            "norm_text": "B. 지금 보니 진짜 가깝네요 정보 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+지금/MAG+보/VV+니/EC+진짜/MAG+가깝/VA+네요/EF+정보/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 좋은 하루 되세요 상담원 #@이름#이였습니다",
+            "norm_text": "A. 네 좋은 하루 되세요 상담원 #@이름#이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

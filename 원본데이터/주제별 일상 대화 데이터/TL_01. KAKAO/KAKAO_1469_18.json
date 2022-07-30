@@ -1,0 +1,395 @@
+{
+  "dataset": {
+    "identifier": 85083,
+    "name": "KAKAO_1469_18_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/60/txt20211021104717068153/KAKAO_1469_18_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/60/txt20211021104717068153/KAKAO_1469_18_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 83336,
+      "filename": "KAKAO_1469_18.txt",
+      "title": "KAKAO_1469_18",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-21",
+      "size": 744,
+      "annotations": {
+        "subject": "상거래 전반",
+        "speaker_type": "다자간 대화",
+        "size": 744,
+        "word_size": 250,
+        "text": "1 : 나 어제도 쇼핑몰에서 셔츠 주문했다!\n2 : 너 또 셔츠야?\n2 : 또 쇼핑몰이야?\n2 : 키키 그만 사는 게 어때?\n3 : 어제 그 쇼핑몰 세일했지?\n3 : 나한테도 문자 왔어!\n1 : 어 키키 역쉬~ 뭘 좀 안다니까 키키 무료배송이길래 셔츠 하나만 샀어\n2 : 그 쇼핑몰은 참 세일을 자주 하네?\n3 : 응 하하 거의 주말마다 하는 것 같아\n1 : 너무 좋지 않나 키키 원래 가격도 저렴한데 세일도 자주하고\n2 : 그럼 세일 안 하는 가격엔 누가 사?\n3 : 내가 사 키키 사실 많이 할인해주진 않거든 !\n1 : 어 키키 그럴 땐 쇼핑몰 어플에서 주는 쿠폰 쓰면 됨!\n2 : 지독하다... 그만 살 생각은 없어?\n3 : 당연히 없지 ~\n3 : 뭘 새삼스럽게 물어봐 키키\n1 : 당연히 없지!\n1 : 아직도 날 잘 모르네 키키\n2 : 너 옷 살 때마다 최저 가격 알아보고 사는 거 맞지?\n3 : 이 쇼핑몰은 자체 제작이라서 가격 비교를 할 수가 없어!\n1 : 어 키키 내가 사는 셔츠는 자체 제작 아이템이야!\n2 : 와... 그런 게 있어?\n2 : 그럼 그 옷은 쇼핑몰에서만 파는 거야?\n3 : 응! 여기는 자체제작 아이템을 되게 잘 뽑아!\n1 : 마자 키키 그래서 계속 그 쇼핑몰만 쓰잖아\n2 : 너 한때는 거기 신상 올라오는 거 다 샀었지?\n3 : 마자 키키 그 때는 지금보다 훨씬 더했었지 키키\n1 : 어 키키 대학생 때 용돈 받으면 10만원 남기고 다 거기서 썼었지\n2 : 그나마 가격이 합리적이라서 다행이야\n3 : 마자 키키 가격 비쌌음 언니 거지 됐을 거야 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나 어제도 쇼핑몰에서 셔츠 주문했다!",
+            "norm_text": "나 어제도 쇼핑몰에서 셔츠 주문했다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+어/IC+제도/NNG+쇼핑몰/NNG+에서/JKB+셔츠/NNG+주문/NNG+했/XSV+EP+다/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 너 또 셔츠야?",
+            "norm_text": "너 또 셔츠야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+또/MAG+셔츠/NNG+야/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "2 : 또 쇼핑몰이야?",
+            "norm_text": "또 쇼핑몰이야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "또/MAG+쇼핑몰/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 키키 그만 사는 게 어때?",
+            "norm_text": "키키 그만 사는 게 어때?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그만/MAG+사/VV+는/ETM+게/NNB+JKS+어때/VA+EF"
+          },
+          {
+            "id": 5,
+            "text": "3 : 어제 그 쇼핑몰 세일했지?",
+            "norm_text": "어제 그 쇼핑몰 세일했지?",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어제/MAG+그/MM+쇼핑몰/NNG+세일/NNG+했/XSV+EP+지/EF"
+          },
+          {
+            "id": 6,
+            "text": "3 : 나한테도 문자 왔어!",
+            "norm_text": "나한테도 문자 왔어!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+한테/JKB+도/JX+문자/NNG+왔/VV+EP+어/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 어 키키 역쉬~ 뭘 좀 안다니까 키키 무료배송이길래 셔츠 하나만 샀어",
+            "norm_text": "어 키키 역쉬~ 뭘 좀 안다니까 키키 무료배송이길래 셔츠 하나만 샀어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+키/NNG+키/NNG+역쉬/NNG+~/SY+뭘좀안다니까키키무료배송이길래셔츠하나만샀어/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "2 : 그 쇼핑몰은 참 세일을 자주 하네?",
+            "norm_text": "그 쇼핑몰은 참 세일을 자주 하네?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그/MM+쇼핑몰/NNG+은/JX+참/MAG+세일/NNG+을/JKO+자주/MAG+하/VV+네/EF"
+          },
+          {
+            "id": 9,
+            "text": "3 : 응 하하 거의 주말마다 하는 것 같아",
+            "norm_text": "응 하하 거의 주말마다 하는 것 같아",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+하하/MAG+거의/MAG+주말/NNG+마다/JX+하/VV+는/ETM+것/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 너무 좋지 않나 키키 원래 가격도 저렴한데 세일도 자주하고",
+            "norm_text": "너무 좋지 않나 키키 원래 가격도 저렴한데 세일도 자주하고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+좋/VA+지/EC+않/VX+나/EC+키/NNG+키/XSV+ETN+원래/MAG+가격/NNG+도/JX+저렴/XR+한데/XSA+EC+세일/NNG+도/JX+자주/MAG+하/VV+고/EC"
+          },
+          {
+            "id": 11,
+            "text": "2 : 그럼 세일 안 하는 가격엔 누가 사?",
+            "norm_text": "그럼 세일 안 하는 가격엔 누가 사?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+세일/NNG+안/MAG+하/VV+는/ETM+가격/NNG+엔/JKB+JX+누가/NP+JKS+사/VV+EF"
+          },
+          {
+            "id": 12,
+            "text": "3 : 내가 사 키키 사실 많이 할인해주진 않거든 !",
+            "norm_text": "내가 사 키키 사실 많이 할인해주진 않거든 !",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+가사/NNG+키/NNG+키/XSV+ETN+사실/MAG+많이/MAG+할인/NNG+해/XSV+EC+주/VX+진/EC+JX+않/VX+거든/EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 어 키키 그럴 땐 쇼핑몰 어플에서 주는 쿠폰 쓰면 됨!",
+            "norm_text": "어 키키 그럴 땐 쇼핑몰 어플에서 주는 쿠폰 쓰면 됨!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "어/IC+키/NNG+키/XSV+ETN+그럴/VV+ETM+땐/NNG+JX+쇼핑몰/NNG+어/IC+플/NNG+에서/JKB+주/VV+는/ETM+쿠폰/NNG+쓰/VV+면/EC+됨/VV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 지독하다... 그만 살 생각은 없어?",
+            "norm_text": "지독하다... 그만 살 생각은 없어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "지독/XR+하/XSA+다/EF+./SY+그만/MAG+살/VV+ETM+생각/NNG+은/JX+없/VA+어/EF"
+          },
+          {
+            "id": 15,
+            "text": "3 : 당연히 없지 ~",
+            "norm_text": "당연히 없지 ~",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연히/MAG+없/VA+지/EC+~/SY"
+          },
+          {
+            "id": 16,
+            "text": "3 : 뭘 새삼스럽게 물어봐 키키",
+            "norm_text": "뭘 새삼스럽게 물어봐 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭘/NP+JKO+새삼/MAG+스럽/XSA+게/EC+물어봐/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "1 : 당연히 없지!",
+            "norm_text": "당연히 없지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연히/MAG+없/VA+지/EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 아직도 날 잘 모르네 키키",
+            "norm_text": "아직도 날 잘 모르네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아직/MAG+도/JX+날/NNG+잘/MAG+모르/VV+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 너 옷 살 때마다 최저 가격 알아보고 사는 거 맞지?",
+            "norm_text": "너 옷 살 때마다 최저 가격 알아보고 사는 거 맞지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+옷/NNG+살/VV+ETM+때/NNG+마다/JX+최저/NNG+가격/NNG+알아보/VV+고/EC+사/VV+는/ETM+거/NNB+맞/VV+지/EF"
+          },
+          {
+            "id": 20,
+            "text": "3 : 이 쇼핑몰은 자체 제작이라서 가격 비교를 할 수가 없어!",
+            "norm_text": "이 쇼핑몰은 자체 제작이라서 가격 비교를 할 수가 없어!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이/MM+쇼핑몰/NNG+은/JX+자체/NNG+제작/NNG+이/VCP+라서/EC+가격/NNG+비교/NNG+를/JKO+할/VV+ETM+수/NNB+가/JKS+없/VA+어/EF"
+          },
+          {
+            "id": 21,
+            "text": "1 : 어 키키 내가 사는 셔츠는 자체 제작 아이템이야!",
+            "norm_text": "어 키키 내가 사는 셔츠는 자체 제작 아이템이야!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어/IC+키/NNG+키/XSV+ETN+내/NP+가/JKS+사/VV+는/ETM+셔츠/NNG+는/JX+자체/NNG+제작/NNG+아이템/NNG+이/VCP+야/EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 와... 그런 게 있어?",
+            "norm_text": "와... 그런 게 있어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "와/IC+./SY+그런/MM+게/NNB+JKS+있/VA+어/EF"
+          },
+          {
+            "id": 23,
+            "text": "2 : 그럼 그 옷은 쇼핑몰에서만 파는 거야?",
+            "norm_text": "그럼 그 옷은 쇼핑몰에서만 파는 거야?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+그/MM+옷/NNG+은/JX+쇼핑몰/NNG+에서/JKB+만/JX+파/VV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 24,
+            "text": "3 : 응! 여기는 자체제작 아이템을 되게 잘 뽑아!",
+            "norm_text": "응! 여기는 자체제작 아이템을 되게 잘 뽑아!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+여기/NP+는/JX+자체/NNG+제작/NNG+아이템/NNG+을/JKO+되게/MAG+잘/MAG+뽑/VV+아/EF"
+          },
+          {
+            "id": 25,
+            "text": "1 : 마자 키키 그래서 계속 그 쇼핑몰만 쓰잖아",
+            "norm_text": "마자 키키 그래서 계속 그 쇼핑몰만 쓰잖아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마자/NNG+키/NNG+키/XSV+ETN+그래서/MAJ+계속/MAG+그/MM+쇼핑몰/NNG+만/JX+쓰/VV+잖아/EC"
+          },
+          {
+            "id": 26,
+            "text": "2 : 너 한때는 거기 신상 올라오는 거 다 샀었지?",
+            "norm_text": "너 한때는 거기 신상 올라오는 거 다 샀었지?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+한때/NNG+는/JX+거기/NP+신상/NNG+올라오/VV+는/ETM+거/NNB+다/MAG+샀었/VV+EP+지/EF"
+          },
+          {
+            "id": 27,
+            "text": "3 : 마자 키키 그 때는 지금보다 훨씬 더했었지 키키",
+            "norm_text": "마자 키키 그 때는 지금보다 훨씬 더했었지 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마자/NNG+키/NNG+키/NNG+그때/NNG+는/JX+지금/NNG+보다/JKB+훨씬/MAG+더/MAG+했었/VV+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 28,
+            "text": "1 : 어 키키 대학생 때 용돈 받으면 10만원 남기고 다 거기서 썼었지",
+            "norm_text": "어 키키 대학생 때 용돈 받으면 10만원 남기고 다 거기서 썼었지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어키키대학생때용돈받으면/UNKNOWN+10/SN+만/NR+원/NNBC+남기/VV+고/EC+다/MAG+거기/NP+서/JKB+썼었/VV+EP+지/EC"
+          },
+          {
+            "id": 29,
+            "text": "2 : 그나마 가격이 합리적이라서 다행이야",
+            "norm_text": "그나마 가격이 합리적이라서 다행이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그나마/MAG+가격/NNG+이/JKS+합리/NNG+적/XSN+이/VCP+라서/EC+다행/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 30,
+            "text": "3 : 마자 키키 가격 비쌌음 언니 거지 됐을 거야 키키",
+            "norm_text": "마자 키키 가격 비쌌음 언니 거지 됐을 거야 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마자/NNG+키/NNG+키가/XSV+ETN+JKS+격비/NNG+쌌/VV+EP+음/ETN+언니/NNG+거지/NNG+됐/XSV+EP+을/ETM+거/NNB+야/VCP+EF+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

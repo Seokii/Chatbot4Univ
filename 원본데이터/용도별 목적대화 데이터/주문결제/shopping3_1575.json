@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 106192,
+    "name": "s3_20211103_0005_0124_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt202111011108280183107/s3_20211103_0005_0124_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt202111011108280183107/s3_20211103_0005_0124_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119197,
+      "filename": "s3_20211022_0019_0005_01.txt",
+      "title": "s3_20211022_0019_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 270,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 270,
+        "word_size": 65,
+        "text": "A.안녕하세요 #@소속# 고객 센터 #@이름# 상담사입니다\nB.안녕하세요 다른 게 아니라요 뭐더라 잠시만요\nA.고객님 천천히 말씀하셔요\nB.여권이랑 항공권 영문이 틀려요\nB.저는 케이 오 엠 인데 여기 케이 이 엠 으로 되었네요\nA.그러시군요 항공사에 변경 요청 하시면 수정해 주실 겁니다\nB.이미 시도해봤는데 답이 없어요\nA.안 되는 경우에는 취소 후 다시 요청하셔야 해요\nA.항공사에 직접 연락 부탁 드려요\nB.번거롭네요 여러모로 알겠습니다\nA.빠른 해결 되시기를 바라겠습니다\nB.네 말씀 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객 센터 #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객 센터 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 다른 게 아니라요 뭐더라 잠시만요",
+            "norm_text": "B.안녕하세요 다른 게 아니라요 뭐더라 잠시만요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+다른/MM+게/NNB+JKC+아니/VCN+라요/EC+뭐/NP+더라/VCP+EC+잠시/NNG+만/JX+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 천천히 말씀하셔요",
+            "norm_text": "A.고객님 천천히 말씀하셔요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+천천히/MAG+말씀/NNG+하/XSV+셔요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.여권이랑 항공권 영문이 틀려요",
+            "norm_text": "B.여권이랑 항공권 영문이 틀려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+여권/NNG+이랑/JKB+항공권/NNG+영문/NNG+이/JKS+틀려요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.저는 케이 오 엠 인데 여기 케이 이 엠 으로 되었네요",
+            "norm_text": "B.저는 케이 오 엠 인데 여기 케이 이 엠 으로 되었네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/NP+는/JX+케이오/NNG+엠/NNG+인데/VCP+EC+여기/NNG+케이/XSV+EC+JKS+이/MM+엠/NNG+으로/JKB+되/VV+었/EP+네요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.그러시군요 항공사에 변경 요청 하시면 수정해 주실 겁니다",
+            "norm_text": "A.그러시군요 항공사에 변경 요청하시면 수정해 주실 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+그러/VV+시/EP+군요/EC+항공사/NNG+에/JKB+변경/NNG+요청/NNG+하/XSV+시/EP+면/EC+수정/NNG+해/XSV+EC+주/VX+실/EP+ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.이미 시도해봤는데 답이 없어요",
+            "norm_text": "B.이미 시도해 봤는데 답이 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이미/MAG+시도/NNG+해/XSV+EC+봤/VX+EP+는데/EC+답/NNG+이/JKS+없/VA+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.안 되는 경우에는 취소 후 다시 요청하셔야 해요",
+            "norm_text": "A.안 되는 경우에는 취소 후 다시 요청하셔야 해요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+안/MAG+되/VV+는/ETM+경우/NNG+에/JKB+는/JX+취소/NNG+후/NNG+다시/MAG+요청/NNG+하/XSV+셔야/EP+EC+해요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.항공사에 직접 연락 부탁 드려요",
+            "norm_text": "A.항공사에 직접 연락 부탁 드려요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+항공사/NNG+에/JKB+직접/MAG+연락/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.번거롭네요 여러모로 알겠습니다",
+            "norm_text": "B.번거롭네요 여러모로 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+번거롭/VA+네요/EF+여러모로/MAG+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.빠른 해결 되시기를 바라겠습니다",
+            "norm_text": "A.빠른 해결 되시기를 바라겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+빠른/VA+ETM+해결/NNG+되/XSV+시/EP+기/ETN+를/JKO+바라/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 말씀 감사합니다",
+            "norm_text": "B.네 말씀 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+말씀/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

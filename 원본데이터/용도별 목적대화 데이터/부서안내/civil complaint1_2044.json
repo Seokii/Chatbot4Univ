@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 12720,
+    "name": "c1_20210913_0005_0795_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339012551/c1_20210913_0005_0795_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339012551/c1_20210913_0005_0795_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10373,
+      "filename": "c1_20210818_0011_0007_01.txt",
+      "title": "c1_20210818_0011_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 399,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 399,
+        "word_size": 86,
+        "text": "A.#@소속# #@이름#입니다\nB.안녕하세요 #@소속# #@이름#상담사입니다\nA.네 안녕하십니까 어떤 일로 그러시죠\nB.네 민원인께서 #@기타# 해수욕장 내에 위치한 카트장 불편 민원 연락주셨습니다\nB.담당자분으로부터 연락올 수 있도록 해달라고 하셔서요\nB.저희 쪽에서 메모 전달하려고 연락을 드렸습니다\nA.네 #@주소# 쪽 카트장이요\nB.네 #@주소# 쪽 카트장 관련입니다\nB.민원인 전화번호와 성함은 전달받아 놓은 상태입니다\nA.그게 저희가 담당 부서가 아닌데요\nA.어디에 전달해드려야 할까요\nB.카트장 관련은 군청 어느 곳에서 담당하시는 건가요\nA.제가 알기로는요 이게 관련 법이 없어서 담당부서가 따로 없어요\nA.이게 안전 관련이면 #@소속#에서 챙기셔야 할 거 같은데요\nA.인허가나 업종에 대해서는 따로 안내해드릴 부분이 없거든요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속# #@이름#입니다",
+            "norm_text": "A.#@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@소속# #@이름#상담사입니다",
+            "norm_text": "B.안녕하세요 #@소속# #@이름#상담사입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 안녕하십니까 어떤 일로 그러시죠",
+            "norm_text": "A.네 안녕하십니까 어떤 일로 그러시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+십니까/EP+EF+어떤/MM+일/NNG+로/JKB+그러/VV+시/EP+죠/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 민원인께서 #@기타# 해수욕장 내에 위치한 카트장 불편 민원 연락주셨습니다",
+            "norm_text": "B.네 #@기타# 해수욕장 내에 위치한 카트장 불편 민원 연락주셨습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+기타/NNG+#/SY+해수욕장/NNG+내/NNB+에/JKB+위치/NNG+한/XSA+ETM+카트/NNG+장/NNG+불편/NNG+민원/NNG+연락/NNG+주/VV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.담당자분으로부터 연락올 수 있도록 해달라고 하셔서요",
+            "norm_text": "B.담당자분으로부터 연락올 수 있도록 해달라고 하셔서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+담당/NNG+자분/NNG+으로부터/JKB+연락/NNG+올/VV+ETM+수/NNB+있/VV+도록/EC+해/VV+EC+달/VX+라고/EC+하/VX+셔서/EP+EC+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "B.저희 쪽에서 메모 전달하려고 연락을 드렸습니다",
+            "norm_text": "B.저희 쪽에서 메모 전달하려고 연락을 드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+쪽/NNB+에서/JKB+메모/NNG+전달/NNG+하/XSV+려고/EC+연락/NNG+을/JKO+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 #@주소# 쪽 카트장이요",
+            "norm_text": "A.네 #@주소# 쪽 카트장이요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+쪽카트장이요/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "B.네 #@주소# 쪽 카트장 관련입니다",
+            "norm_text": "B.네 #@주소# 쪽 카트장 관련입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+쪽/NNB+카트/NNG+장/NNG+관련/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.민원인 전화번호와 성함은 전달받아 놓은 상태입니다",
+            "norm_text": "B.민원인 전화번호와 성함은 전달받아 놓은 상태입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+민원인/NNG+전화/NNG+번호/NNG+와/JC+성함/NNG+은/JX+전달/NNG+받/VV+아/EC+놓/VX+은/ETM+상태/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.그게 저희가 담당 부서가 아닌데요",
+            "norm_text": "A.그게 저희가 담당 부서가 아닌데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그게/NP+JKS+저희/NP+가/JKS+담당/NNG+부서/NNG+가/JKC+아닌데요/VCN+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.어디에 전달해드려야 할까요",
+            "norm_text": "A.어디에 전달해드려야 할까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어디/NP+에/JKB+전달/NNG+해드려야/XSV+EC+VX+EC+할까요/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.카트장 관련은 군청 어느 곳에서 담당하시는 건가요",
+            "norm_text": "B.카트장 관련은 군청 어느 곳에서 담당하시는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+카트/NNG+장/NNG+관련/NNG+은/JX+군청/NNG+어느/MM+곳/NNG+에서/JKB+담당/NNG+하/XSV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.제가 알기로는요 이게 관련 법이 없어서 담당부서가 따로 없어요",
+            "norm_text": "A.제가 알기로는요 이게 관련 법이 없어서 담당부서가 따로 없어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+제/NP+가/JKS+알/VV+기/ETN+로/JKB+는/JX+요/JX+이게/NP+JKS+관련/NNG+법/NNG+이/JKS+없/VA+어서/EC+담당/NNG+부서/NNG+가/JKS+따로/MAG+없/VA+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.이게 안전 관련이면 #@소속#에서 챙기셔야 할 거 같은데요",
+            "norm_text": "A.이게 안전 관련이면 #@소속#에서 챙기셔야 할 거 같은데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+이게/NP+JKS+안전/NNG+관련/NNG+이/VCP+면/EC+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+챙기/VV+셔야/EP+EC+할/VX+ETM+거/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.인허가나 업종에 대해서는 따로 안내해드릴 부분이 없거든요",
+            "norm_text": "A.인허가나 업종에 대해서는 따로 안내해드릴 부분이 없거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+인허가/NNG+나/JC+업종/NNG+에/JKB+대해서/VV+EC+는/JX+따로/MAG+안내/NNG+해/XSV+EC+드릴/VX+ETM+부분/NNG+이/JKS+없/VA+거든요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

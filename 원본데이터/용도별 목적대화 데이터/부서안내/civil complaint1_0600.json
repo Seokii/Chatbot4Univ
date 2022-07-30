@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 52222,
+    "name": "c1_20211018_0002_0136_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130802020791/c1_20211018_0002_0136_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130802020791/c1_20211018_0002_0136_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51664,
+      "filename": "c1_20210929_0016_0007_01.txt",
+      "title": "c1_20210929_0016_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 345,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 345,
+        "word_size": 78,
+        "text": "A.안녕하세요 #@소속#에서 전화 받은 상담원 #@이름#입니다\nB.안녕하세요 거기가 @#소속@이 맞나요\nA.네 맞습니다 고객님 어떤 문의이신가요\nB.혹시 반달곰과 마주치게 된다면 어떻게 해야 하나요\nA.소리를 내거나 손을 들어 몸집이 커 보이게 하면서 곰을 피해 가세요\nB.그럼 곰이 해치지 않나요\nA.위험 요인이 아니라고 알게 하면 곰은 즉시 도망갈 것입니다\nB.그래요 그럼 만약에 가까이에서 곰을 만난 경우는요\nA.소리를 지르지 말고 멈춰서 예의주시하며 뒷걸음질로 벗어나시고요\nA.곰에게 돌이나 물건을 던지지 마세요\nB.예 자세하게 설명해 주셔서 도움이 많이 됐습니다\nA.감사합니다 상담사 #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#에서 전화 받은 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#에서 전화 받은 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+전화/NNG+받/VV+은/ETM+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 거기가 @#소속@이 맞나요",
+            "norm_text": "B.안녕하세요 거기가 @#소속@이 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+거기/NP+가/JKS+@/SY+#/SY+소속/NNG+@/SY+이/JKS+맞/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 맞습니다 고객님 어떤 문의이신가요",
+            "norm_text": "A.네 맞습니다 고객님 어떤 문의이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+고객/NNG+님/XSN+어떤/MM+문의/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.혹시 반달곰과 마주치게 된다면 어떻게 해야 하나요",
+            "norm_text": "B.혹시 반달곰과 마주치게 된다면 어떻게 해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+반달곰/NNG+과/JKB+마주치/VV+게/EC+된다면/VV+EC+어떻게/MAG+해야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.소리를 내거나 손을 들어 몸집이 커 보이게 하면서 곰을 피해 가세요",
+            "norm_text": "A.소리를 내거나 손을 들어 몸집이 커 보이게 하면서 곰을 피해 가세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+소리/NNG+를/JKO+내/VV+거나/EC+손/NNG+을/JKO+들/VV+어/EC+몸집/NNG+이/JKS+커/VA+EC+보이/VV+게/EC+하/VV+면서/EC+곰/NNG+을/JKO+피해/VV+EC+가/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 곰이 해치지 않나요",
+            "norm_text": "B.그럼 곰이 해치지 않나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+곰/NNG+이/JKS+해치/VV+지/EC+않/VX+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.위험 요인이 아니라고 알게 하면 곰은 즉시 도망갈 것입니다",
+            "norm_text": "A.위험 요인이 아니라고 알게 하면 곰은 즉시 도망갈 것입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+위험/NNG+요인/NNG+이/JKC+아니/VCN+라고/EC+알/VV+게/EC+하/VV+면/EC+곰/NNG+은/JX+즉시/MAG+도망갈/VV+ETM+것/NNB+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그래요 그럼 만약에 가까이에서 곰을 만난 경우는요",
+            "norm_text": "B.그래요 그럼 만약에 가까이에서 곰을 만난 경우는요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+만약/NNG+에/JKB+가까이/NNG+에서/JKB+곰/NNG+을/JKO+만난/VV+ETM+경우/NNG+는/JX+요/JX"
+          },
+          {
+            "id": 9,
+            "text": "A.소리를 지르지 말고 멈춰서 예의주시하며 뒷걸음질로 벗어나시고요",
+            "norm_text": "A.소리를 지르지 말고 멈춰서 예의주시하며 뒷걸음질로 벗어나시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+소리/NNG+를/JKO+지르/VV+지/EC+말/VX+고/EC+멈춰/VV+EP+서/EC+예/NNG+의/JKG+주시/NNG+하/XSV+며/EC+뒷걸음질/NNG+로/JKB+벗어나/VV+시/EP+고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.곰에게 돌이나 물건을 던지지 마세요",
+            "norm_text": "A.곰에게 돌이나 물건을 던지지 마세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+곰/NNG+에게/JKB+돌/NNG+이나/JC+물건/NNG+을/JKO+던지/VV+지/EC+마세요/VX+EP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.예 자세하게 설명해 주셔서 도움이 많이 됐습니다",
+            "norm_text": "B.예 자세하게 설명해 주셔서 도움이 많이 됐습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+자세/XR+하/XSA+게/EC+설명/NNG+해/XSV+EC+주/VX+셔서/EP+EC+도움/NNG+이/JKS+많이/MAG+됐/VV+EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

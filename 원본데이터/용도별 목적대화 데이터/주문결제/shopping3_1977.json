@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 115860,
+    "name": "s3_20211105_0005_0025_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110831096116/s3_20211105_0005_0025_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110831096116/s3_20211105_0005_0025_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119656,
+      "filename": "s3_20211027_0028_0011_01.txt",
+      "title": "s3_20211027_0028_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 213,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 213,
+        "word_size": 53,
+        "text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다\nB.#@소속# 페이로 결제하는데 자꾸 잔액 부족이 뜨네요\nB.분명히 잔액이 결제 하려는 것보다 더 많을 텐데 어떻게 해결 하나요\nA.페이에 연동된 계좌가 두 개이실 경우에 계좌 선택을 하셔야 됩니다\nB.그래서 안 됐던 거구나 계좌 선택을 해야 그 계좌로 선택 되는 건가요\nA.네 선택을 하셔서 지정을 하셔야 합니다\nB.네 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+의상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속# 페이로 결제하는데 자꾸 잔액 부족이 뜨네요",
+            "norm_text": "B.#@소속# 페이로 결제하는데 자꾸 잔액 부족이 뜨네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+페이/NNP+로/JKB+결제/NNG+하/XSV+는데/EC+자꾸/MAG+잔액/NNG+부족/NNG+이/JKS+뜨/VV+네요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.분명히 잔액이 결제 하려는 것보다 더 많을 텐데 어떻게 해결 하나요",
+            "norm_text": "B.분명히 잔액이 결제하려는 것보다 더 많을 텐데 어떻게 해결해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+분명히/MAG+잔액/NNG+이/JKS+결제/NNG+하/XSV+려는/ETM+것/NNB+보다/JKB+더/MAG+많/VA+을/ETM+텐데/NNB+VCP+EC+어떻게/MAG+해결/NNG+하/XSV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.페이에 연동된 계좌가 두 개이실 경우에 계좌 선택을 하셔야 됩니다",
+            "norm_text": "A.페이에 연동된 계좌가 두 개이실 경우에 계좌 선택을 하셔야 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+페이/NNP+에/JKB+연동/NNG+된/XSV+ETM+계좌/NNG+가/JKS+두/MM+개/NNBC+이/VCP+실/EP+ETM+경우/NNG+에/JKB+계좌/NNG+선택/NNG+을/JKO+하/VV+셔야/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.그래서 안 됐던 거구나 계좌 선택을 해야 그 계좌로 선택 되는 건가요",
+            "norm_text": "B.그래서 안 됐던 거구나 계좌 선택을 해야 그 계좌로 선택되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래서/MAJ+안/MAG+됐/VV+EP+던/ETM+거/NNB+구나/VCP+EC+계좌/NNG+선택/NNG+을/JKO+해야/VV+EC+그/MM+계좌/NNG+로/JKB+선택/NNG+되/XSV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 선택을 하셔서 지정을 하셔야 합니다",
+            "norm_text": "A.네 선택을 하셔서 지정을 하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+네/IC+선택/NNG+을/JKO+하/VV+셔서/EP+EC+지정/NNG+을/JKO+하/VV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

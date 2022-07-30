@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 120038,
+    "name": "s4_20211105_0010_4269_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110932080463/s4_20211105_0010_4269_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110932080463/s4_20211105_0010_4269_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 120786,
+      "filename": "s4_20211026_0007_0003_01.txt",
+      "title": "s4_20211026_0007_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 372,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 372,
+        "word_size": 87,
+        "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.네 안녕하세요 문의드릴 게 있어서요\nA.네 어떤 문의일까요 고객님\nB.일부 상품이 누락되어 배송 되었어요 어떻게 해야 하나요\nA.#@소속#에서는 고객 여러분께서 하루라도 빨리 제품을 받아보실 수 있도록요\nA.재고가 있는 상품이 먼저 출고되고 나머지 상품들은 추후 분리 배송되는 경우가 종종 있습니다\nB.그래서 따로 배송이 오는거라구요\nA.상품 발송 완료 안내 이메일에 해당일에 출고된 제품명을 함께 안내해 드리고요\nA.만약 같은 날짜에 출고된 상품이 아니라면 조금만 더 기다려 주세요\nA.수일 내로 받아보실 수 있을 것입니다\nB.네 그렇게 할게요 감사합니다\nA.네 답변이 도움이 되었기를 바랍니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의일까요 고객님",
+            "norm_text": "A.네 어떤 문의일까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+일까요/VCP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.일부 상품이 누락되어 배송 되었어요 어떻게 해야 하나요",
+            "norm_text": "B.일부 상품이 누락되어 배송 되었어요 어떻게 해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+일부/NNG+상품/NNG+이/JKS+누락/NNG+되/XSV+어/EC+배송/NNG+되/XSV+었/EP+어요/EF+어떻게/MAG+해야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.#@소속#에서는 고객 여러분께서 하루라도 빨리 제품을 받아보실 수 있도록요",
+            "norm_text": "A.#@소속#에서는 고객님께 하루라도 빨리 제품을 받아보실 수 있도록요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+는/JX+고객/NNG+여러분/NP+께서/JKS+하루/NNG+라도/VCP+EC+빨리/MAG+제품/NNG+을/JKO+받/VV+아/EC+보/VX+실/EP+ETM+수/NNB+있/VV+도록/EC+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "A.재고가 있는 상품이 먼저 출고되고 나머지 상품들은 추후 분리 배송되는 경우가 종종 있습니다",
+            "norm_text": "A.재고가 있는 상품이 먼저 출고되고 나머지 상품들은 추후 배송됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+재고/NNG+가/JKS+있/VA+는/ETM+상품/NNG+이/JKS+먼저/MAG+출고/NNG+되/XSV+고/EC+나머지/NNG+상품/NNG+들/XSN+은/JX+추후/NNG+분리/NNG+배송/NNG+되/XSV+는/ETM+경우/NNG+가/JKS+종종/MAG+있/VV+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그래서 따로 배송이 오는거라구요",
+            "norm_text": "B.그래서 따로 배송이 오는거라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래서/MAJ+따로/MAG+배송/NNG+이/JKS+오/VV+는/ETM+거/NNB+라구요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.상품 발송 완료 안내 이메일에 해당일에 출고된 제품명을 함께 안내해 드리고요",
+            "norm_text": "A.발송 안내 이메일은 해당일에 출고된 제품명을 함께 안내해 드려요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+발송/NNG+안내/NNG+이메일/NNG+은/JX+해당/NNG+일/NNG+에/JKB+출고/NNG+된/XSV+ETM+제/XPN+품명/NNG+을/JKO+함께/MAG+안내/NNG+해/XSV+EC+드려요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.만약 같은 날짜에 출고된 상품이 아니라면 조금만 더 기다려 주세요",
+            "norm_text": "A.만약 같은 날짜에 출고된 상품이 아니라면 조금만 더 기다려 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+만약/MAG+같/VA+은/ETM+날짜/NNG+에/JKB+출고/NNG+된/XSV+ETM+상품/NNG+이/JKC+아니/VCN+라면/EC+조금/MAG+만/JX+더/MAG+기다려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.수일 내로 받아보실 수 있을 것입니다",
+            "norm_text": "A.수일 내로 받아보실 수 있을 것입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+수일/NNG+내/NNB+로/JKB+받/VV+아/EC+보/VX+실/EP+ETM+수/NNB+있/VV+을/ETM+것/NNB+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 그렇게 할게요 감사합니다",
+            "norm_text": "B.네 그렇게 할게요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+그렇게/MAG+할게요/VV+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 답변이 도움이 되었기를 바랍니다 감사합니다",
+            "norm_text": "A.네 답변이 도움이 되었기를 바랍니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+답변/NNG+이/JKS+도움/NNG+이/JKS+되/VV+었/EP+기/ETN+를/JKO+바랍니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

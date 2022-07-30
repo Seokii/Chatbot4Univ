@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 45789,
+    "name": "c3_20211014_0010_2106_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt202110081310430823106/c3_20211014_0010_2106_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt202110081310430823106/c3_20211014_0010_2106_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 54551,
+      "filename": "c3_20210927_0001_0002_01.txt",
+      "title": "c3_20210927_0001_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 331,
+      "annotations": {
+        "subject": "서류 문의",
+        "speaker_type": "1:1",
+        "size": 331,
+        "word_size": 72,
+        "text": "A.반갑습니다 #@소속#의 #@이름#입니다 무엇을 도와드릴까요\nB.예 저 사업자등록을 하려는데 혹시 세무서 같은 데서 도와주는 서비스가 따로 있나요\nA.개인사업자를 위한 세무서 서비스로는 영세납세자지원 서비스가 있습니다\nB.영세납세자지원 서비스요 뭘 도와주는 거예요\nA.신청하시면 창업부터 사업개시 후 최초 부가가치세 및 소득세 신고 방법을 알려드리고요\nA.홈택스 이용요령 및 세금제도 등에 대해 안내해 드립니다\nB.그럼 세금 신고하는 것도 다 알려주는 거죠\nA.네 사업에 필요한 세금제도 모두 안내해 드립니다\nB.예 알겠습니다 그럼 신청해 봐야겠네 감사합니다\nA.네 감사합니다 #@소속#의 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속#의 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속#의 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 저 사업자등록을 하려는데 혹시 세무서 같은 데서 도와주는 서비스가 따로 있나요",
+            "norm_text": "B.사업자등록할 때 세무서 같은 곳에서 도와주는 서비스가 따로 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+사업자/NNG+등록/NNG+할/XSV+ETM+때/NNG+세무서/NNG+같/VA+은/ETM+곳/NNG+에서/JKB+도와/VV+EC+주/VX+는/ETM+서비스/NNG+가/JKS+따로/MAG+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.개인사업자를 위한 세무서 서비스로는 영세납세자지원 서비스가 있습니다",
+            "norm_text": "A.개인사업자를 위한 세무서 서비스로는 영세납세자지원 서비스가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+개인/NNG+사업자/NNG+를/JKO+위한/VV+ETM+세무서/NNG+서비스/NNG+로/JKB+는/JX+영세/NNG+납세자/NNG+지원/NNG+서비스/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.영세납세자지원 서비스요 뭘 도와주는 거예요",
+            "norm_text": "B.영세납세자지원 서비스요 뭘 도와주는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+영세/NNG+납세자/NNG+지원/NNG+서비스/NNG+요/VCP+EC+뭘/NP+JKO+도와/VV+EC+주/VX+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.신청하시면 창업부터 사업개시 후 최초 부가가치세 및 소득세 신고 방법을 알려드리고요",
+            "norm_text": "A.창업부터 사업 개시 후 최초 부가가치세 및 소득세 신고를 알려드려요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+창업/NNG+부터/JX+사업/NNG+개시/NNG+후/NNG+최초/NNG+부가가치세/NNP+및/MAJ+소득세/NNG+신고/NNG+를/JKO+알려/VV+EC+드려요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.홈택스 이용요령 및 세금제도 등에 대해 안내해 드립니다",
+            "norm_text": "A.홈택스 이용요령 및 세금제도 등에 대해 안내해 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+홈/NNG+택스/NNG+이용/NNG+요령/NNG+및/MAJ+세금/NNG+제도/NNG+등/NNB+에/JKB+대해/VV+EC+안내/NNG+해/XSV+EC+드립니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그럼 세금 신고하는 것도 다 알려주는 거죠",
+            "norm_text": "B.그럼 세금 신고하는 것도 다 알려주는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+세금/NNG+신고/NNG+하/XSV+는/ETM+것/NNB+도/JX+다/MAG+알려/VV+EC+주/VX+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 사업에 필요한 세금제도 모두 안내해 드립니다",
+            "norm_text": "A.네 사업에 필요한 세금제도 모두 안내해 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+사업/NNG+에/JKB+필요/NNG+한/XSA+ETM+세금/NNG+제도/NNG+모두/MAG+안내/NNG+해/XSV+EC+드립니다/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.예 알겠습니다 그럼 신청해 봐야겠네 감사합니다",
+            "norm_text": "B.예 알겠습니다 그럼 신청해 봐야겠네 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+알/VV+겠/EP+습니다/EF+그럼/MAJ+신청/NNG+해봐야/XSV+EC+VX+EC+VX+겠/EP+네/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 감사합니다 #@소속#의 #@이름#였습니다",
+            "norm_text": "A.네 감사합니다 #@소속#의 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

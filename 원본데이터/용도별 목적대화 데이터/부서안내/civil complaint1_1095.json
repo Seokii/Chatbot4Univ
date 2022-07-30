@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 56229,
+    "name": "c1_20211019_0002_0086_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130758062938/c1_20211019_0002_0086_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130758062938/c1_20211019_0002_0086_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51240,
+      "filename": "c1_20210924_0018_0006_01.txt",
+      "title": "c1_20210924_0018_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 304,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 304,
+        "word_size": 66,
+        "text": "A.함께하는 교육 상담사 #@이름#입니다\nB.안녕하세요 성적처리관련 부서 있을까요\nA.네 있습니다 혹시 어떤 성적처리 문의이십니까\nB.독감 때문에 시험에 결시 했는데 성적처리 때문에요\nA.그러시군요 관련 부서 안내 드릴게요\nB.네 안내 해주세요\nA.기관은 #@소속#이고 #@소속#부서 확인하시면 됩니다\nB.#@소속#기관에 #@소속#부서가 있는 거죠\nA.네 그렇습니다 담당 부서가 자리하고 있습니다\nB.죄송한데 담당자명 알 수 있나요\nA.정확한 담당자명은 확인이 어렵습니다\nB.감사합니다 그럼 제가 전화해 볼게요\nA.네 선생님 업무 처리 잘 되시기 바랍니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.함께하는 교육 상담사 #@이름#입니다",
+            "norm_text": "A.함께하는 교육 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+함께/MAG+하/VV+는/ETM+교육/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 성적처리관련 부서 있을까요",
+            "norm_text": "B.안녕하세요 성적처리관련 부서 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+성적/NNG+처리/NNG+관련/NNG+부서/NNG+있/VV+을까요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 있습니다 혹시 어떤 성적처리 문의이십니까",
+            "norm_text": "A.네 있습니다 혹시 어떤 성적처리 문의이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+있/VA+습니다/EF+혹시/MAG+어떤/MM+성적/NNG+처리/NNG+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.독감 때문에 시험에 결시 했는데 성적처리 때문에요",
+            "norm_text": "B.독감 때문에 시험에 결시 했는데 성적처리 때문에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+독감/NNG+때문/NNB+에/JKB+시험/NNG+에/JKB+결시/NNG+했/XSV+EP+는데/EC+성적/NNG+처리/NNG+때문/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.그러시군요 관련 부서 안내 드릴게요",
+            "norm_text": "A.그러시군요 관련 부서 안내 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그러/VV+시/EP+군요/EC+관련/NNG+부서/NNG+안/MAG+내/VV+드릴게요/EC+VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 안내 해주세요",
+            "norm_text": "B.네 안내 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+안내/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.기관은 #@소속#이고 #@소속#부서 확인하시면 됩니다",
+            "norm_text": "A.기관은 #@소속#이고 #@소속#부서 확인하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기관/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+소속/NNG+#/SY+부서/NNG+확인/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.#@소속#기관에 #@소속#부서가 있는 거죠",
+            "norm_text": "B.#@소속#기관에 #@소속#부서가 있는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+기관/NNG+에/JKB+#/SY+@/SY+소속/NNG+#/SY+부서/NNG+가/JKS+있/VA+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 그렇습니다 담당 부서가 자리하고 있습니다",
+            "norm_text": "A.네 그렇습니다 담당 부서가 자리하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+담당/NNG+부서/NNG+가/JKS+자리/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.죄송한데 담당자명 알 수 있나요",
+            "norm_text": "B.죄송한데 담당자명 알 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+죄송/XR+한데/XSA+EC+담당/NNG+자명/NNG+알/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.정확한 담당자명은 확인이 어렵습니다",
+            "norm_text": "A.정확한 담당자명은 확인이 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+정확/NNG+한/XSA+ETM+담당/NNG+자명/NNG+은/JX+확인/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.감사합니다 그럼 제가 전화해 볼게요",
+            "norm_text": "B.감사합니다 그럼 제가 전화해 볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+그럼/MAJ+제/NP+가/JKS+전화/NNG+해/XSV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.네 선생님 업무 처리 잘 되시기 바랍니다 감사합니다",
+            "norm_text": "A.네 선생님 업무 처리 잘 되시기 바랍니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+업무/NNG+처리/NNG+잘/MAG+되/VV+시/EP+기/ETN+바랍니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

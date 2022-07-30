@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 10370,
+    "name": "s3_20210913_0010_0591_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417079453/s3_20210913_0010_0591_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417079453/s3_20210913_0010_0591_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12052,
+      "filename": "s3_20210827_0025_0002_01.txt",
+      "title": "s3_20210827_0025_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 187,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 187,
+        "word_size": 41,
+        "text": "A.안녕하세요 고객님 무엇을 도와드릴까요\nB.다름이 아니고요 결제창에 들어가서 무통장 입금하려고 하는데요\nB.무통장 입금할 때 정보표시가 좀 덜 돼 있는지 #@소속#으로 뜨거든요 맞나요\nA.예 #@소속# 맞아요 고객님\nB.예 결제창에서는 #@소속#이 맞는지 그게 안 떠가지고요\nB.네 알겠습니다 감사합니다\nA.감사합니다 고객님 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.다름이 아니고요 결제창에 들어가서 무통장 입금하려고 하는데요",
+            "norm_text": "B.다름이 아니고요 결제창에 들어가서 무통장 입금하려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+다름/VA+ETN+이/JKC+아니/VCN+고/EC+요결/NNG+제창/NNG+에/JKB+들어가/VV+서/EC+무/XPN+통장/NNG+입금/NNG+하/XSV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.무통장 입금할 때 정보표시가 좀 덜 돼 있는지 #@소속#으로 뜨거든요 맞나요",
+            "norm_text": "B.무통장 입금할 때 #@소속#으로 뜨거든요 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+무/XPN+통장/NNG+입금/NNG+할/XSV+ETM+때/NNG+정보/NNG+표시/NNG+가/JKS+좀/MAG+덜/MAG+돼/VV+EC+있/VX+는지/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+뜨/VV+거든요/EF+맞/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.예 #@소속# 맞아요 고객님",
+            "norm_text": "A.예 #@소속# 맞아요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+#/SY+@/SY+소속/NNG+#/SY+맞/VV+아요/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 5,
+            "text": "B.예 결제창에서는 #@소속#이 맞는지 그게 안 떠가지고요",
+            "norm_text": "B.예 결제창에서는 #@소속#이 맞는지 그게 안 떠가지고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+예결/NNG+제창/NNG+에서/JKB+는/JX+#/SY+@/SY+소속/NNG+#/SY+이/JKS+맞/VV+는지/EC+그게/NP+JKS+안/MAG+떠/VV+EC+가지/VX+고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.감사합니다 고객님 좋은 하루 보내세요",
+            "norm_text": "A.감사합니다 고객님 좋은 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+고객/NNG+님/XSN+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

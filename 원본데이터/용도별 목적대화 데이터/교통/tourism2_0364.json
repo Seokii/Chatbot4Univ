@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 139268,
+    "name": "t2_20211115_0002_0050_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135726014357/t2_20211115_0002_0050_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135726014357/t2_20211115_0002_0050_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 149439,
+      "filename": "t2_0068_0008_02.txt",
+      "title": "t2_0068_0008_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 321,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 321,
+        "word_size": 68,
+        "text": "A.#@소속# 고객센터 #@이름# 입니다\nB.#@소속#에서 춘천고속버스터미널까지 소요시간은 얼마인가요\nA.3시간 40분 정도 소요 된다고 생각하시면 됩니다\nB.일반이랑 우등 모두 요금 안내해 주세요\nA.우등은 28700원 일반은 19400원 입니다 예약 도와 드릴까요\nB.우등으로 10시 출발하는 차편이 있으면 예약해 주세요\nA.우등 10시 출발이 있습니다 성함과 연락처 주시겠어요\nB.제 이름은 #@이름# 이고요 #@전번# 이에요\nA.출발 10분전 까지 오셔서 결제와 발권 하셔야 합니다\nB.알겠습니다 빠른 처리 감사합니다 안녕히 계세요\nA.#@소속# 상담원 #@이름# 이었습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속# 고객센터 #@이름# 입니다",
+            "norm_text": "A.#@소속# 고객센터 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속#에서 춘천고속버스터미널까지 소요시간은 얼마인가요",
+            "norm_text": "B.#@소속#에서 춘천고속버스터미널까지 소요시간은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+춘천/NNP+고속버스/NNG+터미널/NNG+까지/JX+소요/NNG+시간/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.3시간 40분 정도 소요 된다고 생각하시면 됩니다",
+            "norm_text": "A.3시간 40분 정도 소요 된다고 생각하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+3/SN+시간/NNG+40/SN+분/NNBC+정도/NNG+소요/NNG+된다고/XSV+EC+생각/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.일반이랑 우등 모두 요금 안내해 주세요",
+            "norm_text": "B.일반이랑 우등 모두 요금 안내해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+일반/NNG+이랑/JKB+우등/NNG+모두/MAG+요금/NNG+안내/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.우등은 28700원 일반은 19400원 입니다 예약 도와 드릴까요",
+            "norm_text": "A.우등은 28700원 일반은 19400원 입니다 예약 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+우등/NNG+은/JX+28700/SN+원/NNBC+일반/NNG+은/JX+19400/SN+원/NNBC+입니다/VCP+EF+예약/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.우등으로 10시 출발하는 차편이 있으면 예약해 주세요",
+            "norm_text": "B.우등으로 10시 출발하는 차편이 있으면 예약해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+우등/NNG+으로/JKB+10/SN+시/NNBC+출발/NNG+하/XSV+는/ETM+차편/NNG+이/JKS+있/VV+으면/EC+예약/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.우등 10시 출발이 있습니다 성함과 연락처 주시겠어요",
+            "norm_text": "A.우등 10시 출발이 있습니다 성함과 연락처 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+우등/NNG+10/SN+시/NNBC+출발/NNG+이/JKS+있/VA+습니다/EF+성함/NNG+과/JC+연락처/NNG+주/VV+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.제 이름은 #@이름# 이고요 #@전번# 이에요",
+            "norm_text": "B.제 이름은 #@이름# 이고요 #@전번# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.출발 10분전 까지 오셔서 결제와 발권 하셔야 합니다",
+            "norm_text": "A.출발 10분전 까지 오셔서 결제와 발권 하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+출발/NNG+10/SN+분전/NNG+까지/JX+오/VV+셔서/EP+EC+결제/NNG+와/JC+발권/NNG+하/XSV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 빠른 처리 감사합니다 안녕히 계세요",
+            "norm_text": "B.알겠습니다 빠른 처리 감사합니다 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+빠른/VA+ETM+처리/NNG+감사/NNG+합니다/XSV+EF+안녕히/MAG+계세요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.#@소속# 상담원 #@이름# 이었습니다 감사합니다",
+            "norm_text": "A.#@소속# 상담원 #@이름# 이었습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

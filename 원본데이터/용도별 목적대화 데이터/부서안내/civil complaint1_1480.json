@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 6079,
+    "name": "c1_20210911_0005_0437_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341086255/c1_20210911_0005_0437_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341086255/c1_20210911_0005_0437_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10772,
+      "filename": "c1_20210820_0009_0002_01.txt",
+      "title": "c1_20210820_0009_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 409,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 409,
+        "word_size": 94,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.예 야간에 민원받는데 있나요\nA.어떤 민원이십니까 선생님\nB.충남 아산 #@주소#인데요 지하 누수가 안 잡혀서요\nA.지하 누수 관련 민원이시면 아산시청에 문의주셔야 합니다\nB.오늘 시청에 문의했는데 시장님이 자기와 관련 없다 우리집도 하자 있다 하대요\nB.시민의 소리를 하나도 안 듣고 있으니 거기다 무슨 민원을 내죠\nA.시장에 대한 불편이시면 정부민원 콜센터 #@전번#으로 접수가능 합니다\nB.네 답변 감사합니다 지금 이 시간에도 돼요\nA.정부민원 콜센터는 평일은 여섯 시까지로 확인이 돼서요\nA.도청 당직실로 접수를 해보시는 부분이 좋으실 듯 합니다\nB.도청 당직실이 몇 번이죠\nA.네 당직실 번호가 #@전번#입니다\nB.네 알았어요 감사합니다 수고하세요\nA.네 업무처리 잘 되시길 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 야간에 민원받는데 있나요",
+            "norm_text": "B.예 야간에 민원받는데 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+야간/NNG+에/JKB+민원/NNG+받/VV+는데/EC+있/VX+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.어떤 민원이십니까 선생님",
+            "norm_text": "A.어떤 민원이십니까 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+어떤/MM+민원/NNG+이/VCP+십니까/EP+EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.충남 아산 #@주소#인데요 지하 누수가 안 잡혀서요",
+            "norm_text": "B.충남 아산 #@주소#인데요 지하 누수가 안 잡혀서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+충남/NNP+아산/NNP+#/SY+@/SY+주소/NNG+#/SY+인데요/VCP+EC+지하/NNG+누수/NNG+가/JKS+안/MAG+잡혀/VV+EC+서요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.지하 누수 관련 민원이시면 아산시청에 문의주셔야 합니다",
+            "norm_text": "A.지하 누수 관련 민원이시면 아산시청에 문의주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+지하/NNG+누수/NNG+관련/NNG+민원/NNG+이/VCP+시/EP+면/EC+아산/NNP+시청/NNG+에/JKB+문/NNG+의/JKG+주/VV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.오늘 시청에 문의했는데 시장님이 자기와 관련 없다 우리집도 하자 있다 하대요",
+            "norm_text": "B.시에 문의했는데 시장님이 자기와 관련 없다 우리집도 하자 있다 하대요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+시/NNG+에/JKB+문의/NNG+했/XSV+EP+는데/EC+시장/NNG+님/XSN+이/JKS+자기/NP+와/JKB+관련/NNG+없/VA+다/EF+우리/NP+집도/NNG+하/XSV+자/EC+있/VX+다/EC+하/VV+대요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.시민의 소리를 하나도 안 듣고 있으니 거기다 무슨 민원을 내죠",
+            "norm_text": "B.시민의 소리를 하나도 안 듣고 있으니 거기다 무슨 민원을 내죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+시민/NNG+의/JKG+소리/NNG+를/JKO+하나/NR+도/JX+안/MAG+듣/VV+고/EC+있/VX+으니/EC+거기/NP+다/JX+무슨/MM+민원/NNG+을/JKO+내/VV+죠/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.시장에 대한 불편이시면 정부민원 콜센터 #@전번#으로 접수가능 합니다",
+            "norm_text": "A.시장에 대한 불편이면 정부민원 콜센터 #@전번#으로 접수가능 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+시장/NNG+에/JKB+대한/VV+ETM+불편/NNG+이/VCP+면/EC+정부/NNG+민원/NNG+콜/NNG+센터/NNG+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+접수/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 답변 감사합니다 지금 이 시간에도 돼요",
+            "norm_text": "B.네 답변 감사합니다 지금 이 시간에도 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+답변/NNG+감사/NNG+합니다/XSV+EF+지금/MAG+이/MM+시간/NNG+에/JKB+도/JX+돼요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.정부민원 콜센터는 평일은 여섯 시까지로 확인이 돼서요",
+            "norm_text": "A.정부민원 콜센터는 평일은 여섯 시까지로 확인이 돼서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+정부/NNG+민원/NNG+콜/NNG+센터/NNG+는/JX+평일/NNG+은/JX+여섯/NR+시/NNBC+까지/JX+로/JKB+확인/NNG+이/JKS+돼서/VV+EC+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.도청 당직실로 접수를 해보시는 부분이 좋으실 듯 합니다",
+            "norm_text": "A.도청 당직실로 접수를 해보시는 부분이 좋으실 듯 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+도청/NNG+당직실/NNG+로/JKB+접수/NNG+를/JKO+해/VV+EC+보/VX+시/EP+는/ETM+부분/NNG+이/JKS+좋/VA+으실/EP+ETM+듯/NNB+합니다/XSA+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.도청 당직실이 몇 번이죠",
+            "norm_text": "B.도청 당직실이 몇 번이죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+도청/NNG+당직실/NNG+이/JKS+몇/MM+번/NNBC+이/VCP+죠/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.네 당직실 번호가 #@전번#입니다",
+            "norm_text": "A.네 당직실 번호가 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+당직실/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.네 알았어요 감사합니다 수고하세요",
+            "norm_text": "B.네 알았어요 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+았/EP+어요/EF+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.네 업무처리 잘 되시길 바랍니다",
+            "norm_text": "A.네 업무처리 잘 되시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+업무/NNG+처리/NNG+잘/MAG+되/VV+시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

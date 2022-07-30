@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 11023,
+    "name": "s3_20210913_0010_0716_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416087088/s3_20210913_0010_0716_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416087088/s3_20210913_0010_0716_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11918,
+      "filename": "s3_20210826_0011_0015_01.txt",
+      "title": "s3_20210826_0011_0015_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 314,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 314,
+        "word_size": 69,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.뭐 좀 물어보려고 그러는데요\nB.#@상품#전화로 주문하려고 그러는데요\nA.네 고객님 정확한 상품 이름이 #@상품#인가요\nB.아니요 #@상품# 육만 구천 구백 원짜리요\nA.고객님 #@상품# 제품 육만 구천 구백 원 이거 보셨죠\nB.네 맞아요 그거 봤어요\nA.잠시만요 고객님 옵션 선택 도와드릴게요\nA.색깔은 어떻게 도와드릴까요\nB.뭐가 좀 많이 나가요\nA.글쎄요 고객님 취향의 문제라서요\nA.조금 화려한 거 좋아하시면 로즈골드 색상도 괜찮고요\nA.심플한 거 좋아하시면 검은색이나 은색 상품 괜찮습니다 고객님\nB.생각해보고 다시 연락드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.뭐 좀 물어보려고 그러는데요",
+            "norm_text": "B.뭐 좀 물어보려고 그러는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+뭐/IC+좀/MAG+물/VV+어/EC+보/VX+려고/EC+그러/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.#@상품#전화로 주문하려고 그러는데요",
+            "norm_text": "B.#@상품#전화로 주문하려고 그러는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+전화/NNG+로/JKB+주문/NNG+하/XSV+려고/EC+그러/VV+는데요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 고객님 정확한 상품 이름이 #@상품#인가요",
+            "norm_text": "A.네 고객님 정확한 상품 이름이 #@상품#인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+정확/XR+한/XSA+ETM+상품/NNG+이름/NNG+이/JKS+#/SY+@/SY+상품/NNG+#/SY+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.아니요 #@상품# 육만 구천 구백 원짜리요",
+            "norm_text": "B.아니요 #@상품# 육만 구천 구백 원짜리요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+아니/VCN+요/EC+#/SY+@/SY+상품/NNG+#/SY+육만/NR+구천/NR+구/NR+백/NR+원/NNBC+짜리/XSN+요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.고객님 #@상품# 제품 육만 구천 구백 원 이거 보셨죠",
+            "norm_text": "A.고객님 #@상품# 제품 육만 구천 구백 원 이거 보셨죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+#/SY+@/SY+상품/NNG+#/SY+제품/NNG+육만/NR+구천/NR+구/NR+백/NR+원/NNBC+이거/NP+보/VV+셨/EP+EP+죠/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.네 맞아요 그거 봤어요",
+            "norm_text": "B.네 맞아요 그거 봤어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+그거/NP+봤/VV+EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.잠시만요 고객님 옵션 선택 도와드릴게요",
+            "norm_text": "A.잠시만요 고객님 옵션 선택 도와드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+잠시/MAG+만요/NNP+고객/NNG+님/XSN+옵션/NNG+선택/NNG+도와/VV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.색깔은 어떻게 도와드릴까요",
+            "norm_text": "A.색깔은 어떻게 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+색깔/NNG+은/JX+어떻게/MAG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.뭐가 좀 많이 나가요",
+            "norm_text": "B.뭐가 좀 많이 나가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+뭐/NP+가/JKS+좀/MAG+많이/MAG+나가/VV+요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.글쎄요 고객님 취향의 문제라서요",
+            "norm_text": "A.글쎄요 고객님 취향의 문제라서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+글쎄요/IC+고객/NNG+님/XSN+취향/NNG+의/JKG+문제/NNG+라서요/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.조금 화려한 거 좋아하시면 로즈골드 색상도 괜찮고요",
+            "norm_text": "A.조금 화려한 거 좋아하시면 로즈골드 색상도 괜찮고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+조금/MAG+화려/XR+한/XSA+ETM+거/NNB+좋/VA+아/EC+하/VX+시/EP+면/EC+로즈/NNP+골드색/NNP+상/NNG+도/JX+괜찮/VA+고요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.심플한 거 좋아하시면 검은색이나 은색 상품 괜찮습니다 고객님",
+            "norm_text": "A.심플한 거 좋아하시면 검은색이나 은색 상품 괜찮습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+심플/NNP+한/XSA+ETM+거/NNB+좋/VA+아/EC+하/VX+시/EP+면/EC+검은색/NNG+이나/JC+은색/NNG+상품/NNG+괜찮/VA+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 14,
+            "text": "B.생각해보고 다시 연락드리겠습니다",
+            "norm_text": "B.생각해보고 다시 연락드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "B/SL+./SY+생각/NNG+해/XSV+EC+보/VX+고/EC+다시/MAG+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

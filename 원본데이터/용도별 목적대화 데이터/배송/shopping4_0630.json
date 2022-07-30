@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 10497,
+    "name": "s4_20210913_0011_0827_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151452050865/s4_20210913_0011_0827_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151452050865/s4_20210913_0011_0827_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 13671,
+      "filename": "s4_20210901_0026_0003_01.txt",
+      "title": "s4_20210901_0026_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 269,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 269,
+        "word_size": 61,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.지난주에 #@상품# 주문했는데 뭐 이래 안 와요\nA.죄송합니다 고객님 주문자분 성함이랑 번호 한번 말씀해 주시겠습니까\nB.네 이름 #@이름# 이고 #@전번#\nA.네 확인 감사합니다\nA.예 고객님 #@소속# 구매해 주신지 거 확인되시구요\nA.상품 오늘 출고되신 것으로 나옵니다\nB.그럼 언제 도착해요\nA.영업일 기준 지연 없으시면 하루에서 이틀 내로 수령 가능합니다\nB.참 아이구야 뭐 일주일이나 걸려 알았어요\nA.네 고객님 죄송합니다 상담사 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.지난주에 #@상품# 주문했는데 뭐 이래 안 와요",
+            "norm_text": "B.지난주에 #@상품# 주문했는데 뭐 이래 안 와요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+./SY+지난주/NNG+에/JKB+#/SY+@/SY+상품/NNG+#/SY+주문/NNG+했/XSV+EP+는데/EC+뭐/IC+이래/MAG+안/MAG+와요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.죄송합니다 고객님 주문자분 성함이랑 번호 한번 말씀해 주시겠습니까",
+            "norm_text": "A.죄송합니다 고객님 주문자분 성함이랑 번호 한번 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+고객/NNG+님/XSN+주문자/NNG+분성/NNG+함/XSV+ETN+이랑/JC+번호/NNG+한/MM+번/NNBC+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 이름 #@이름# 이고 #@전번#",
+            "norm_text": "B.네 이름 #@이름# 이고 #@전번#",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+이름/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+전번/NNG+#/SY"
+          },
+          {
+            "id": 5,
+            "text": "A.네 확인 감사합니다",
+            "norm_text": "A.네 확인 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.예 고객님 #@소속# 구매해 주신지 거 확인되시구요",
+            "norm_text": "A.예 고객님 #@소속# 구매해 주신지 거 확인되시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+#/SY+@/SY+소속/NNG+#/SY+구매/NNG+해/XSV+EC+주/VX+신지/EP+EF+거/NP+확인/NNG+되/XSV+시/EP+구요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.상품 오늘 출고되신 것으로 나옵니다",
+            "norm_text": "A.상품 오늘 출고되신 것으로 나옵니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+상품/NNG+오늘/NNG+출고/NNG+되/XSV+신/EP+ETM+것/NNB+으로/JKB+나옵니다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 언제 도착해요",
+            "norm_text": "B.그럼 언제 도착해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+언제/MAG+도착/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.영업일 기준 지연 없으시면 하루에서 이틀 내로 수령 가능합니다",
+            "norm_text": "A.영업일 기준 지연 없으시면 하루에서 이틀 내로 수령 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+영업/NNG+일/VCP+ETM+기준/NNG+지연/NNG+없/VA+으시/EP+면/EC+하루/NNG+에서/JKB+이틀/NNG+내/NNB+로/JKB+수령/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.참 아이구야 뭐 일주일이나 걸려 알았어요",
+            "norm_text": "B.참 아이구야 뭐 일주일이나 걸려 알았어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+참/IC+아이구/IC+야/IC+뭐/IC+일/NR+주일/NNBC+이나/JX+걸려/VV+EC+알/VV+았/EP+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 고객님 죄송합니다 상담사 #@이름#였습니다",
+            "norm_text": "A.네 고객님 죄송합니다 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+죄송/XR+합니다/XSA+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

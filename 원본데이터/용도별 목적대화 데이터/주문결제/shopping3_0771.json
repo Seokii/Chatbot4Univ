@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 16334,
+    "name": "s3_20210915_0010_1120_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420083366/s3_20210915_0010_1120_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420083366/s3_20210915_0010_1120_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12202,
+      "filename": "s3_20210830_0011_0007_01.txt",
+      "title": "s3_20210830_0011_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 276,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 276,
+        "word_size": 60,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.#@상품#를 구입하고 싶은데요\nA.고객님 전화 주문 가능합니다\nA.보셨던 상품이 #@상품# 제품 보신 거 맞으실까요\nB.네 그거 맞아요 그거 주문하려고요\nB.#@상품# 제품 보신거 맞으시죠\nB.고객님 색상은 어떻게 도와드릴까요\nB.색상은 무슨 색상있나요\nA.네 골드 실버 로즈골드 있습니다\nB.로즈골드는 어떤 거에요\nA.로즈골드는 약간 붉은 빛이 도는 골드 색상입니다\nA.네 어떻게 도와드릴까요\nB.그러면 그냥 실버로요\nA.네 실버로 #@상품# 실버로 하나 도와드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품#를 구입하고 싶은데요",
+            "norm_text": "B.#@상품#를 구입하고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+를/JKO+구입/NNG+하/XSV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 전화 주문 가능합니다",
+            "norm_text": "A.고객님 전화 주문 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+전화/NNG+주문/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.보셨던 상품이 #@상품# 제품 보신 거 맞으실까요",
+            "norm_text": "A.보셨던 상품이 #@상품# 제품 보신 거 맞으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+보/VV+셨/EP+EP+던/ETM+상품/NNG+이/JKS+#/SY+@/SY+상품/NNG+#/SY+제품/NNG+보/VV+신/EP+ETM+거/NNB+맞/VV+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 5,
+            "text": "B.네 그거 맞아요 그거 주문하려고요",
+            "norm_text": "B.네 그거 맞아요 그거 주문하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+그거/NP+맞/VV+아요/EF+그거/NP+주문/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.#@상품# 제품 보신거 맞으시죠",
+            "norm_text": "B.#@상품# 제품 보신거 맞으시죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+제품/NNG+보/VV+신/EP+ETM+거/NNB+맞/VV+으시/EP+죠/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.고객님 색상은 어떻게 도와드릴까요",
+            "norm_text": "B.고객님 색상은 어떻게 도와드릴까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+고객/NNG+님/XSN+색상/NNG+은/JX+어떻게/MAG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.색상은 무슨 색상있나요",
+            "norm_text": "B.색상은 무슨 색상있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+색상/NNG+은/JX+무슨/MM+색상/NNG+있/VV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 골드 실버 로즈골드 있습니다",
+            "norm_text": "A.네 골드 실버 로즈골드 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+골/NNG+드실/VV+EP+ETM+버로즈/NNP+골드/NNP+있/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.로즈골드는 어떤 거에요",
+            "norm_text": "B.로즈골드는 어떤 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+로즈/NNP+골드/NNP+는/JX+어떤/MM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.로즈골드는 약간 붉은 빛이 도는 골드 색상입니다",
+            "norm_text": "A.로즈골드는 약간 붉은 빛이 도는 골드 색상입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+로즈/NNP+골드/NNP+는/JX+약간/MAG+붉/VA+은/ETM+빛/NNG+이/JKS+도는/VV+ETM+골드색/NNP+상/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 어떻게 도와드릴까요",
+            "norm_text": "A.네 어떻게 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떻게/MAG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그러면 그냥 실버로요",
+            "norm_text": "B.그러면 그냥 실버로요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그러면/MAJ+그냥/MAG+실버/NNP+로요/NNP"
+          },
+          {
+            "id": 14,
+            "text": "A.네 실버로 #@상품# 실버로 하나 도와드리겠습니다",
+            "norm_text": "A.네 실버로 #@상품# 실버로 하나 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+실버/NNP+로/JKB+#/SY+@/SY+상품/NNG+#/SY+실버/NNP+로/JKB+하나/NR+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

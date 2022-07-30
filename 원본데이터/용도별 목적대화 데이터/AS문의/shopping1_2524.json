@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 60171,
+    "name": "s1_20211021_0002_0008_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151252019170/s1_20211021_0002_0008_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151252019170/s1_20211021_0002_0008_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8383,
+      "filename": "s1_20210825_0015_0019_01.txt",
+      "title": "s1_20210825_0015_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 190,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 190,
+        "word_size": 45,
+        "text": "A.네 안녕하십니까 상담사 #@이름#입니다\nA.혹시 품명 확인되셨나요 고객님\nB.예 어제 알아봤는데 #@상품#이 맞습니다\nA.네 그러면 제가 새로운 전원 코드 발송해 드리겠습니다\nA.택배 받으시는 분 성함이 어떻게 되시죠\nB.제가 받을 거고요 #@이름#입니다\nA.네 전화번호는 지금 통화하고 계신 번호가 맞는 거고요\nB.네 이 번호로 등록해 주시면 돼요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하십니까 상담사 #@이름#입니다",
+            "norm_text": "A.네 안녕하십니까 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+십니까/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.혹시 품명 확인되셨나요 고객님",
+            "norm_text": "A.혹시 품명 확인되셨나요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+품명/NNG+확인/NNG+되/XSV+셨/EP+EP+나요/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 3,
+            "text": "B.예 어제 알아봤는데 #@상품#이 맞습니다",
+            "norm_text": "B.예 어제 알아봤는데 #@상품#이 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+어제/MAG+알/VV+아/EC+봤/VX+EP+는데/EC+#/SY+@/SY+상품/NNG+#/SY+이/JKS+맞/VV+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.네 그러면 제가 새로운 전원 코드 발송해 드리겠습니다",
+            "norm_text": "A.네 그러면 제가 새로운 전원 코드 발송해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+그러면/MAJ+제/NP+가/JKS+새로운/VA+ETM+전원/NNG+코드/NNG+발송/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.택배 받으시는 분 성함이 어떻게 되시죠",
+            "norm_text": "A.택배 받으시는 분 성함이 어떻게 되시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+택배/NNG+받/VV+으시/EP+는/ETM+분성/NNG+함/XSV+ETN+이/JKS+어떻게/MAG+되/VV+시/EP+죠/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.제가 받을 거고요 #@이름#입니다",
+            "norm_text": "B.제가 받을 거고요 #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+받/VV+을/ETM+거/NNB+고요/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 전화번호는 지금 통화하고 계신 번호가 맞는 거고요",
+            "norm_text": "A.네 전화번호는 지금 통화하고 계신 번호가 맞는 거고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+전화/NNG+번호/NNG+는/JX+지금/MAG+통화/NNG+하/XSV+고/EC+계신/VX+ETM+번호/NNG+가/JKS+맞/VV+는/ETM+거/NNB+고요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "B.네 이 번호로 등록해 주시면 돼요",
+            "norm_text": "B.네 이 번호로 등록해 주시면 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+이/MM+번호/NNG+로/JKB+등록/NNG+해/XSV+EC+주/VX+시/EP+면/EC+돼요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

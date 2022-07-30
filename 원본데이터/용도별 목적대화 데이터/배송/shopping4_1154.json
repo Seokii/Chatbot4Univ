@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 14130,
+    "name": "s4_20210914_0011_1357_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151447010494/s4_20210914_0011_1357_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151447010494/s4_20210914_0011_1357_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12882,
+      "filename": "s4_20210826_0030_0001_01.txt",
+      "title": "s4_20210826_0030_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 331,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 331,
+        "word_size": 75,
+        "text": "A.안녕하세요 고객님 상담사 #@이름# 입니다\nB.제가 #@상품#  두 개 하고 또 #@상품# 그 추가로 해가지고요\nB.총 사만 사천 원을 입금을 했는데 #@상품# 두 개만 왔거든요\nA.그러셨어요 죄송합니다 주문자분 성함이랑 휴대폰 번호 한 번 말씀해 주시겠습니까\nB.이름은 #@이름#이고 전화번호는 #@전번# 입니다\nA.확인 감사합니다 고객님 확인해 보니까요\nA.#@상품#이랑 #@상품#랑 출고 업체가 다르신데요\nA.#@상품#은 수성 배달지에 도착돼 있으셔서 오늘 중으로 배송되실 예정입니다\nB.두 개가 서로 틀린가요\nA.네 출고 업체가 다릅니다\nB.네 알겠습니다 참고할게요\nA.감사합니다 좋은 하루 보내십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 상담사 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 고객님 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 #@상품#  두 개 하고 또 #@상품# 그 추가로 해가지고요",
+            "norm_text": "B.제가 #@상품#  두 개 하고 또 #@상품# 그 추가로 해가지고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+#/SY+@/SY+상품/NNG+#/SY+두/MM+개/NNBC+하고/JKB+또/MAG+#/SY+@/SY+상품/NNG+#/SY+그/MM+추가/NNG+로/JKB+해/VV+EC+가지/VX+고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.총 사만 사천 원을 입금을 했는데 #@상품# 두 개만 왔거든요",
+            "norm_text": "B.총 사만 사천 원을 입금을 했는데 #@상품# 두 개만 왔거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+총/MM+사만/NR+사/NR+천/NR+원/NNBC+을/JKO+입금/NNG+을/JKO+했/VV+EP+는데/EC+#/SY+@/SY+상품/NNG+#/SY+두/MM+개/NNBC+만/JX+왔/VV+EP+거든요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.그러셨어요 죄송합니다 주문자분 성함이랑 휴대폰 번호 한 번 말씀해 주시겠습니까",
+            "norm_text": "A.그러셨어요 죄송합니다 주문자분 성함이랑 휴대폰 번호 한 번 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+그러/VV+셨/EP+EP+어요/EF+죄송/XR+합니다/XSA+EF+주문자/NNG+분성/NNG+함/XSV+ETN+이랑/JC+휴대폰/NNG+번호/NNG+한/MM+번/NNBC+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.이름은 #@이름#이고 전화번호는 #@전번# 입니다",
+            "norm_text": "B.이름은 #@이름#이고 전화번호는 #@전번# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.확인 감사합니다 고객님 확인해 보니까요",
+            "norm_text": "A.확인 감사합니다 고객님 확인해 보니까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+확인/NNG+해/XSV+EC+보/VX+니까요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.#@상품#이랑 #@상품#랑 출고 업체가 다르신데요",
+            "norm_text": "A.#@상품#이랑 #@상품#랑 출고 업체가 다르신데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+이랑/JC+#/SY+@/SY+상품/NNG+#/SY+랑/JC+출고/NNG+업체/NNG+가/JKS+다르/VA+신데요/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.#@상품#은 수성 배달지에 도착돼 있으셔서 오늘 중으로 배송되실 예정입니다",
+            "norm_text": "A.#@상품#은 수성 배달지에 도착돼 있으셔서 오늘 중으로 배송되실 예정입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+은/JX+수성/NNG+배/NNG+달지/NNP+에/JKB+도착/NNG+돼/XSV+EC+있/VX+으셔서/EP+EC+오늘/NNG+중/NNB+으로/JKB+배송/NNG+되/XSV+실/EP+ETM+예정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.두 개가 서로 틀린가요",
+            "norm_text": "B.두 개가 서로 틀린가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+두/MM+개/NNBC+가/JKS+서로/MAG+틀린/VV+ETM+가요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "A.네 출고 업체가 다릅니다",
+            "norm_text": "A.네 출고 업체가 다릅니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+출고/NNG+업체/NNG+가/JKS+다릅니다/VA+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 알겠습니다 참고할게요",
+            "norm_text": "B.네 알겠습니다 참고할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+참고/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 좋은 하루 보내십시오",
+            "norm_text": "A.감사합니다 좋은 하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 161301,
+    "name": "t3_20211120_0005_0191_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135813090958/t3_20211120_0005_0191_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135813090958/t3_20211120_0005_0191_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 151510,
+      "filename": "t3_0079_0045_02.txt",
+      "title": "t3_0079_0045_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 281,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 281,
+        "word_size": 62,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.네 #@소속# 펜션 근처에 애견 동반 식당이 있을까요\nA.네 #@소속#이라고 하는 식당 있습니다\nB.네 어떤 메뉴를 파는 곳인가요\nA.네 파스타 필라프 등이 있습니다\nB.반려견도 먹을 수 있는 메뉴가 있을까요\nA.따로 메뉴는 없습니다\nB.그냥 동반만 가능한 거네요\nA.네 그렇습니다 다음에 오셨을 때 메뉴가 생길 수 있도록 전해드리겠습니다\nB.친절한 말씀 감사합니다\nA.네 감사합니다 건강하세요 #@소속# #@이름#이었습니다\nB.상담사님도 건강하시기 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 #@소속# 펜션 근처에 애견 동반 식당이 있을까요",
+            "norm_text": "B.네 #@소속# 펜션 근처에 애견 동반 식당이 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+펜션/NNG+근처/NNG+에/JKB+애견/NNG+동반/NNG+식당/NNG+이/JKS+있/VV+을까요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 #@소속#이라고 하는 식당 있습니다",
+            "norm_text": "A.네 #@소속#이라고 하는 식당 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+이라고/JKQ+하/VV+는/ETM+식당/NNG+있/VA+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 어떤 메뉴를 파는 곳인가요",
+            "norm_text": "B.네 어떤 메뉴를 파는 곳인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+어떤/MM+메뉴/NNG+를/JKO+파/VV+는/ETM+곳/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 파스타 필라프 등이 있습니다",
+            "norm_text": "A.네 파스타 필라프 등이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+파스타/NNG+필라프/NNP+등/NNB+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.반려견도 먹을 수 있는 메뉴가 있을까요",
+            "norm_text": "B.반려견도 먹을 수 있는 메뉴가 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+반려/NNG+견도/NNG+먹/VV+을/ETM+수/NNB+있/VV+는/ETM+메뉴/NNG+가/JKS+있/VA+을까요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.따로 메뉴는 없습니다",
+            "norm_text": "A.따로 메뉴는 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+따로/MAG+메뉴/NNG+는/JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그냥 동반만 가능한 거네요",
+            "norm_text": "B.그냥 동반만 가능한 거네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그냥/MAG+동반/NNG+만/JX+가능/NNG+한/XSA+ETM+거/NNB+네요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 그렇습니다 다음에 오셨을 때 메뉴가 생길 수 있도록 전해드리겠습니다",
+            "norm_text": "A.네 그렇습니다 다음에 오셨을 때 메뉴가 생길 수 있도록 전해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+다음/NNG+에/JKB+오/VV+셨/EP+EP+을/ETM+때/NNG+메뉴/NNG+가/JKS+생길/VV+ETM+수/NNB+있/VV+도록/EC+전해/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.친절한 말씀 감사합니다",
+            "norm_text": "B.친절한 말씀 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+말씀/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 감사합니다 건강하세요 #@소속# #@이름#이었습니다",
+            "norm_text": "A.네 감사합니다 건강하세요 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+건강/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.상담사님도 건강하시기 바랍니다",
+            "norm_text": "B.상담사님도 건강하시기 바랍니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+상담/NNG+사/NNG+님/XSN+도/JX+건강/NNG+하/XSV+시/EP+기/ETN+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 16054,
+    "name": "c1_20210914_0005_1046_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt202109081513360897109/c1_20210914_0005_1046_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt202109081513360897109/c1_20210914_0005_1046_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10048,
+      "filename": "c1_20210818_0008_0015_01.txt",
+      "title": "c1_20210818_0008_0015_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 387,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 387,
+        "word_size": 87,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.안녕하세요 #@소속# 콜센터 #@이름#입니다 저 한 가지 문의 드리고자 전화 드렸습니다\nB.지금 현재 #@소속#에서 전자 접수로 공문을 보내셨는데 도지사님 특강 요청 공문을 보내셨다고 하시면서요\nA.네 맞습니다 비서실로 좀 안내 드려야 할 것 같은데요\nB.비서실에서는 모르는 업무라고 했다고 하셔서 지금 문서 접수를 받고 계시는 분을 찾고 계시는데요\nB.전자 문서 접수를 받고 계시는 담당자 확인 가능한가 해서 전화를 드렸습니다\nB.지금 #@소속#로 되어 있다고 하셨습니다\nA.문서접수는 저희 #@이름# 주사님이 하시기는 하는데요\nB.그러십니까 제가 #@이름# 주사님께로 다시 한 번 안내를 해드리겠습니다 확인 감사드립니다\nA.예 그렇게 안내 부탁합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@소속# 콜센터 #@이름#입니다 저 한 가지 문의 드리고자 전화 드렸습니다",
+            "norm_text": "B.안녕하세요 한 가지 문의 드리고자 전화 드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+콜/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+저/MM+한/MM+가지/NNBC+문/NNG+의/JKG+드리/VV+고자/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.지금 현재 #@소속#에서 전자 접수로 공문을 보내셨는데 도지사님 특강 요청 공문을 보내셨다고 하시면서요",
+            "norm_text": "B.지금 현재 #@소속#에서 도지사님 특강 요청 공문을 보내셨다고 하시면서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+현재/MAG+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+도지사/NNP+님/XSN+특강/NNG+요청/NNG+공문/NNG+을/JKO+보내/VV+셨/EP+EP+다고/EC+하/VX+시/EP+면서/EC+요/JX"
+          },
+          {
+            "id": 4,
+            "text": "A.네 맞습니다 비서실로 좀 안내 드려야 할 것 같은데요",
+            "norm_text": "A.네 맞습니다 비서실로 좀 안내 드려야 할 것 같은데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+비서실/NNG+로/JKB+좀/MAG+안/MAG+내/VV+드려야/EC+VX+EC+VX+할/EC+VX+ETM+것/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.비서실에서는 모르는 업무라고 했다고 하셔서 지금 문서 접수를 받고 계시는 분을 찾고 계시는데요",
+            "norm_text": "B.비서실에서는 모른다고 하셔서 문서 접수를 받고 계시는 분을 찾고 계시는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+비서실/NNG+에서/JKB+는/JX+모르/VV+는/ETM+업무/NNG+라고/VCP+EC+했/VX+EP+다고/EC+하/VX+셔서/EP+EC+지금/MAG+문서/NNG+접수/NNG+를/JKO+받/VV+고/EC+계시/VX+는/ETM+분/NNB+을/JKO+찾/VV+고/EC+계시/VX+는데요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.전자 문서 접수를 받고 계시는 담당자 확인 가능한가 해서 전화를 드렸습니다",
+            "norm_text": "B.전자 문서 접수를 받고 계시는 담당자 확인 가능한가 해서 전화를 드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+전자/NNG+문서/NNG+접수/NNG+를/JKO+받/VV+고/EC+계시/VX+는/ETM+담당자/NNG+확인/NNG+가능/NNG+한가/XSA+EC+해서/VV+EC+전화/NNG+를/JKO+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.지금 #@소속#로 되어 있다고 하셨습니다",
+            "norm_text": "B.지금 #@소속#로 되어 있다고 하셨습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+#/SY+@/SY+소속/NNG+#/SY+로/JKB+되/VV+어/EC+있/VX+다고/EC+하/VX+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.문서접수는 저희 #@이름# 주사님이 하시기는 하는데요",
+            "norm_text": "A.문서접수는 저희 #@이름# 주사님이 하시기는 하는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+문서/NNG+접수/NNG+는/JX+저희/NP+#/SY+@/SY+이름/NNG+#/SY+주사/NNG+님/XSN+이/JKS+하/VV+시/EP+기/ETN+는/JX+하/VV+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그러십니까 제가 #@이름# 주사님께로 다시 한 번 안내를 해드리겠습니다 확인 감사드립니다",
+            "norm_text": "B.그러십니까 제가 #@이름# 주사님께로 다시 한 번 안내를 해드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그러/VV+십니까/EP+EF+제/NP+가/JKS+#/SY+@/SY+이름/NNG+#/SY+주사/NNG+님/XSN+께로/JKB+다시/MAG+한/MM+번/NNBC+안내/NNG+를/JKO+해/VV+EC+드리/VX+겠/EP+습니다/EF+확인/NNG+감사/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.예 그렇게 안내 부탁합니다 수고하세요",
+            "norm_text": "A.예 그렇게 안내 부탁합니다 수고하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+그렇게/MAG+안내/NNG+부탁/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

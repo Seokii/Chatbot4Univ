@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 109240,
+    "name": "s1_20211104_0001_3621_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110640027652/s1_20211104_0001_3621_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110640027652/s1_20211104_0001_3621_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 114819,
+      "filename": "s1_20211001_0002_0001_01.txt",
+      "title": "s1_20211001_0002_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 292,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 292,
+        "word_size": 70,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다\nA.어떤 문의가 있습니까\nB.네 신발 밑창이 다 떨어져서요\nB.수선 접수는 어떻게 하나요\nA.챗봇 상담이나 고객 센터로 접수해 주시면 됩니다\nA.또는 가까운 #@소속# 매장 방문 후 접수해 주셔도 됩니다\nB.제가 매장 구매를 한 거거든요\nB.그래도 온라인 접수가 되나요\nA.죄송하지만 매장 구매 건은 매장 접수만 가능합니다\nA.가까운 매장에 방문해 주세요\nB.그래요 네 알겠습니다\nB.샀던 곳으로 다시 가봐야겠네요\nA.네 고객님 그렇게 해주시면 좋을 것 같습니다\nA.앞으로도 많은 이용 부탁드립니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 문의가 있습니까",
+            "norm_text": "A.어떤 문의가 있습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+문의/NNG+가/JKS+있/VA+습니까/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 신발 밑창이 다 떨어져서요",
+            "norm_text": "B.네 신발 밑창이 다 떨어져서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+신발/NNG+밑창/NNG+이/JKS+다/MAG+떨어져/VV+EC+서요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.수선 접수는 어떻게 하나요",
+            "norm_text": "B.수선 접수는 어떻게 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+수선/NNG+접수/NNG+는/JX+어떻게/MAG+하나/NR+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.챗봇 상담이나 고객 센터로 접수해 주시면 됩니다",
+            "norm_text": "A.챗봇 상담이나 고객 센터로 접수해 주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+챗/NNG+봇/NNG+상담/NNG+이나/JC+고객/NNG+센터/NNG+로/JKB+접수/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.또는 가까운 #@소속# 매장 방문 후 접수해 주셔도 됩니다",
+            "norm_text": "A.또는 가까운 #@소속# 매장 방문 후 접수해 주셔도 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+또는/MAJ+가까운/VA+ETM+#/SY+@/SY+소속/NNG+#/SY+매장/NNG+방문/NNG+후/NNG+접수/NNG+해/XSV+EC+주/VX+셔도/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.제가 매장 구매를 한 거거든요",
+            "norm_text": "B.제가 매장 구매를 한 거거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+매장/NNG+구매/NNG+를/JKO+한/VV+ETM+거/NNB+거든요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그래도 온라인 접수가 되나요",
+            "norm_text": "B.그래도 온라인 접수가 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래도/MAJ+온라인/NNG+접수/NNG+가/JKS+되/VV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.죄송하지만 매장 구매 건은 매장 접수만 가능합니다",
+            "norm_text": "A.죄송하지만 매장 구매 건은 매장 접수만 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+매장/NNG+구매/NNG+건/NNG+은/JX+매장/NNG+접수/NNG+만/JX+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.가까운 매장에 방문해 주세요",
+            "norm_text": "A.가까운 매장에 방문해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+가까운/VA+ETM+매장/NNG+에/JKB+방문/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그래요 네 알겠습니다",
+            "norm_text": "B.그래요 네 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+네/IC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.샀던 곳으로 다시 가봐야겠네요",
+            "norm_text": "B.샀던 곳으로 다시 가봐야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+샀/VV+EP+던/ETM+곳/NNG+으로/JKB+다시/MAG+가/VV+봐야/EC+VX+EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 고객님 그렇게 해주시면 좋을 것 같습니다",
+            "norm_text": "A.네 고객님 그렇게 해주시면 좋을 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+그렇게/MAG+해/VV+EC+주/VX+시/EP+면/EC+좋/VA+을/ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.앞으로도 많은 이용 부탁드립니다",
+            "norm_text": "A.앞으로도 많은 이용 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+앞/NNG+으로/JKB+도/JX+많/VA+은/ETM+이용/NNG+부탁/NNG+드립니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

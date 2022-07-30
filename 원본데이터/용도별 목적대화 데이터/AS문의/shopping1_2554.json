@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 60211,
+    "name": "s1_20211021_0002_0038_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151259043137/s1_20211021_0002_0038_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151259043137/s1_20211021_0002_0038_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 9148,
+      "filename": "s1_20210827_0027_0010_01.txt",
+      "title": "s1_20210827_0027_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 256,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 256,
+        "word_size": 54,
+        "text": "A.안녕하세요 상담사 #@이름#입니다\nB.네 수고하십니다 말씀 좀 묻겠는데요\nA.네 고객님 말씀하세요\nB.제가 거기서 제품을 구입을 하고 바로 취소를 했는데\nB.운송비는 빠지고 환불이 되나요\nA.아닙니다 접수 상태에서는 배송비가 남아있는 걸로 노출은 되는데요\nA.혹시 불안하다면 제가 확인해보겠습니다\nA.구매하실 때 입력하신 성함이랑 휴대폰 번호 말씀해 주세요\nB.#@이름#이고요 #@전번#이요 #@전번#\nA.네 소중한 정보 확인 감사합니다\nA.빠르게 확인하여 연락드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 수고하십니다 말씀 좀 묻겠는데요",
+            "norm_text": "B.네 수고하십니다 말씀 좀 묻겠는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+수고/NNG+하/XSV+십니다/EP+EF+말씀/NNG+좀/MAG+묻/VV+겠/EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀하세요",
+            "norm_text": "A.네 고객님 말씀하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 거기서 제품을 구입을 하고 바로 취소를 했는데",
+            "norm_text": "B.제가 거기서 제품을 구입을 하고 바로 취소를 했는데",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+거기/NP+서/JKB+제품/NNG+을/JKO+구입/NNG+을/JKO+하/VV+고/EC+바로/MAG+취소/NNG+를/JKO+했/VV+EP+는데/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.운송비는 빠지고 환불이 되나요",
+            "norm_text": "B.운송비는 빠지고 환불이 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+운송비/NNG+는/JX+빠지/VV+고/EC+환불/NNG+이/JKS+되/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.아닙니다 접수 상태에서는 배송비가 남아있는 걸로 노출은 되는데요",
+            "norm_text": "A.아닙니다 접수 상태에서는 배송비가 남아있는 걸로 노출은 되는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아닙니다/VCN+EC+접수/NNG+상태/NNG+에서/JKB+는/JX+배송/NNG+비/NNG+가/JKS+남/VV+아/EC+있/VX+는/ETM+걸로/NNB+JKB+노출/NNG+은/JX+되/VV+는데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.혹시 불안하다면 제가 확인해보겠습니다",
+            "norm_text": "A.혹시 불안하다면 제가 확인해보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+혹시/MAG+불안/NNG+하/XSV+다면/EC+제/NP+가/JKS+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.구매하실 때 입력하신 성함이랑 휴대폰 번호 말씀해 주세요",
+            "norm_text": "A.구매하실 때 입력하신 성함이랑 휴대폰 번호 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+구매/NNG+하/XSV+실/EP+ETM+때/NNG+입력/NNG+하/XSV+신/EP+ETM+성함/NNG+이랑/JKB+휴대폰/NNG+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.#@이름#이고요 #@전번#이요 #@전번#",
+            "norm_text": "B.#@이름#이고요 #@전번#이요 #@전번#",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC+#/SY+@/SY+전번/NNG+#/SY"
+          },
+          {
+            "id": 10,
+            "text": "A.네 소중한 정보 확인 감사합니다",
+            "norm_text": "A.네 소중한 정보 확인 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+소중/XR+한/XSA+ETM+정보/NNG+확인/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.빠르게 확인하여 연락드리겠습니다",
+            "norm_text": "A.빠르게 확인하여 연락드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+빠르/VA+게/EC+확인/NNG+하/XSV+여/EC+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

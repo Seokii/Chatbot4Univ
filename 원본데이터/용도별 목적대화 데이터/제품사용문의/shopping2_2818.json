@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 118661,
+    "name": "s2_20211105_0001_4411_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110649073214/s2_20211105_0001_4411_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110649073214/s2_20211105_0001_4411_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115910,
+      "filename": "s2_20211025_0003_0011_01.txt",
+      "title": "s2_20211025_0003_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 352,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 352,
+        "word_size": 80,
+        "text": "A.안녕하세요 행복을 드리는 상담원 #@이름#입니다\nB.네 수고가 많으신데요 제가 다이어트 약을요\nA.네 다이어트 약 어떤 거요\nB.#@기타#를 샀는데요 네\nB.이거 먹으면 정말 효과가 있나 해서요\nA.네 고객님 문의 주셔서 감사합니다\nA.일단은요 수분을 같이 많이 섭취하시고요\nA.드시는게 좋다고는 하고요\nA.그리고 개인차는 있어서요 다이어트에 특별히요\nA.도움이 몇키로가 된다 안된다 지방이 얼마나 빠진다고요\nA.그렇게 말씀드리기는 어려운 부분입니다\nB.네 감사합니다 아무래도 그렇긴 하겠네요\nA.네 도움이 되셨으면 좋겠습니다\nB.네 도움이 됐어요 감사합니다\nA.더 다른 문의 사항 있으실까요\nB.아니요 없습니다 괜찮아요\nA.네 오늘도 건강한 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 행복을 드리는 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 행복을 드리는 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+행복/NNG+을/JKO+드리/VV+는/ETM+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 수고가 많으신데요 제가 다이어트 약을요",
+            "norm_text": "B.네 수고가 많으신데요 제가 다이어트 약을요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+수고/NNG+가/JKS+많/VA+으신/EP+ETM+데/NNB+요제/NNG+가/JKS+다이어트/NNG+약/NNG+을/JKO+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.네 다이어트 약 어떤 거요",
+            "norm_text": "A.네 다이어트 약 어떤 거요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+다이어트/NNG+약/MM+어떤/MM+거/NNB+요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@기타#를 샀는데요 네",
+            "norm_text": "B.#@기타#를 샀는데요 네",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+를/JKO+샀/VV+EP+는데/EC+요네/NNG"
+          },
+          {
+            "id": 5,
+            "text": "B.이거 먹으면 정말 효과가 있나 해서요",
+            "norm_text": "B.이거 먹으면 정말 효과가 있나 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이거/NP+먹/VV+으면/EC+정말/MAG+효과/NNG+가/JKS+있/VA+나/EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 고객님 문의 주셔서 감사합니다",
+            "norm_text": "A.네 고객님 문의 주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+문/NNG+의/JKG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.일단은요 수분을 같이 많이 섭취하시고요",
+            "norm_text": "A.일단은요 수분을 같이 많이 섭취하시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+일단/MAG+은/JX+요/JX+수분/NNG+을/JKO+같이/MAG+많이/MAG+섭취/NNG+하/XSV+시/EP+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.드시는게 좋다고는 하고요",
+            "norm_text": "A.드시는게 좋다고는 하고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+드/VV+시/EP+는/ETM+게/NNB+JKS+좋/VA+다고/EC+는/JX+하/VV+고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그리고 개인차는 있어서요 다이어트에 특별히요",
+            "norm_text": "A.그리고 개인차는 있어서요 다이어트에 특별히요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그리고/MAJ+개인차/NNG+는/JX+있/VX+어서요/EC+다이어트/NNG+에/JKB+특별히/MAG+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "A.도움이 몇키로가 된다 안된다 지방이 얼마나 빠진다고요",
+            "norm_text": "A.도움이 몇키로가 된다 안된다 지방이 얼마나 빠진다고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+도움/NNG+이/JKS+몇/MM+키/NNG+로/JKB+가/VV+EC+된다/VV+EC+안/MAG+된다/VV+EC+지방/NNG+이/JKS+얼마나/MAG+빠진다/VV+EC+고요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "A.그렇게 말씀드리기는 어려운 부분입니다",
+            "norm_text": "A.그렇게 말씀드리기는 어려운 부분입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그렇게/MAG+말씀/NNG+드리/VV+기/ETN+는/JX+어려운/VA+ETM+부분/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.네 감사합니다 아무래도 그렇긴 하겠네요",
+            "norm_text": "B.네 감사합니다 아무래도 그렇긴 하겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+아무래도/MAG+그렇/VA+긴/ETN+JX+하/VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 도움이 되셨으면 좋겠습니다",
+            "norm_text": "A.네 도움이 되셨으면 좋겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+도움/NNG+이/JKS+되/VV+셨/EP+EP+으면/EC+좋/VA+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.네 도움이 됐어요 감사합니다",
+            "norm_text": "B.네 도움이 됐어요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+도움/NNG+이/JKS+됐/VV+EP+어요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.더 다른 문의 사항 있으실까요",
+            "norm_text": "A.더 다른 문의 사항 있으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 16,
+            "text": "B.아니요 없습니다 괜찮아요",
+            "norm_text": "B.아니요 없습니다 괜찮아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+없/VA+습니다/EF+괜찮/VA+아요/EC"
+          },
+          {
+            "id": 17,
+            "text": "A.네 오늘도 건강한 하루 되세요",
+            "norm_text": "A.네 오늘도 건강한 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+오늘/NNG+도/JX+건강/NNG+한/XSA+ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

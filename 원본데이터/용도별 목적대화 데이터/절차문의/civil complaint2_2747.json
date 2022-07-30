@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 50330,
+    "name": "c2_20211017_0005_0002_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130947080117/c2_20211017_0005_0002_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130947080117/c2_20211017_0005_0002_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 52553,
+      "filename": "c2_20210924_0012_0001_01.txt",
+      "title": "c2_20210924_0012_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 347,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 347,
+        "word_size": 88,
+        "text": "A.전화 주셔서 감사합니다 #@소속#입니다\nB.공유 수면 매립 기본 계획에 반영된 공유 수면 매립 공사를 하려고 합니다\nA.네 공유 수면 매립 공사 말씀이신가요\nB.네 전 못 찾겠네요\nA.네 확인 후 안내해드리겠습니다\nB.네 담당 부서도 알려주세요\nA.담당은 해양 수산 환경과에서 하고 있습니다\nB.그럼 매립 면허를 받아야 하는지 처리 절차 알려주세요\nA.네 잠시만 기다려주세요\nA.면허 신청은 환경 영향 평가서를 작성해서 환경부와 사전 협의를 해야 합니다\nB.그래요 환경부도 거쳐야 하나요\nA.네 선생님 환경부와 사전 협의를 하셔야 합니다\nB.그래요 그럼 일단 환경부 문의 먼저 해볼게요 수고하세요\nA.네 추가 문의 사항 언제든지 연락 주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화 주셔서 감사합니다 #@소속#입니다",
+            "norm_text": "A.전화 주셔서 감사합니다 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.공유 수면 매립 기본 계획에 반영된 공유 수면 매립 공사를 하려고 합니다",
+            "norm_text": "B.공유 수면 매립 기본 계획에 반영된 공사를 하려고 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+공유/NNG+수면/NNG+매립/NNG+기본/NNG+계획/NNG+에/JKB+반영/NNG+된/XSV+ETM+공사/NNG+를/JKO+하/VV+려고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 공유 수면 매립 공사 말씀이신가요",
+            "norm_text": "A.네 공유 수면 매립 공사 말씀이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+공유/NNG+수면/NNG+매립/NNG+공사/NNG+말씀/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 전 못 찾겠네요",
+            "norm_text": "B.네 전 못 찾겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+전/NP+JX+못/MAG+찾/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 확인 후 안내해드리겠습니다",
+            "norm_text": "A.네 확인 후 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 담당 부서도 알려주세요",
+            "norm_text": "B.네 담당 부서도 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+담당/NNG+부서/NNG+도/JX+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.담당은 해양 수산 환경과에서 하고 있습니다",
+            "norm_text": "A.담당은 해양 수산 환경과에서 하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+담당/NNG+은/JX+해/VV+EC+양수산/NNP+환경/NNG+과/NNG+에서/JKB+하/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 매립 면허를 받아야 하는지 처리 절차 알려주세요",
+            "norm_text": "B.그럼 매립 면허를 받아야 하는지 처리 절차 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+매립/NNG+면허/NNG+를/JKO+받/VV+아야/EC+하/VV+는지/EC+처리/NNG+절차/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 잠시만 기다려주세요",
+            "norm_text": "A.네 잠시만 기다려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+잠시/NNG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.면허 신청은 환경 영향 평가서를 작성해서 환경부와 사전 협의를 해야 합니다",
+            "norm_text": "A.신청은 환경 영향 평가서를 작성해 환경부와 사전 협의를 해야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+신청/NNG+은/JX+환경/NNG+영향/NNG+평가서/NNG+를/JKO+작성/NNG+해/XSV+EC+환경부/NNG+와/JC+사전/NNG+협의/NNG+를/JKO+해야/VV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그래요 환경부도 거쳐야 하나요",
+            "norm_text": "B.그래요 환경부도 거쳐야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+환경부/NNG+도/JX+거쳐야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 선생님 환경부와 사전 협의를 하셔야 합니다",
+            "norm_text": "A.네 선생님 환경부와 사전 협의를 하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+환경부/NNG+와/JC+사전/NNG+협의/NNG+를/JKO+하/VV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그래요 그럼 일단 환경부 문의 먼저 해볼게요 수고하세요",
+            "norm_text": "B.그래요 그럼 일단 환경부 문의 먼저 해볼게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+일단/MAG+환경/NNG+부문/NNG+의/JKG+먼저/MAG+해/VV+EC+볼게요/VX+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.네 추가 문의 사항 언제든지 연락 주세요",
+            "norm_text": "A.네 추가 문의 사항 언제든지 연락 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+추가/NNG+문/NNG+의/JKG+사항/NNG+언제든지/MAG+연락/NNG+주세요/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

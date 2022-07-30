@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 160301,
+    "name": "t5_20211119_0010_2916_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135919066627/t5_20211119_0010_2916_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135919066627/t5_20211119_0010_2916_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 156371,
+      "filename": "t5_0083_0006_02.txt",
+      "title": "t5_0083_0006_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 296,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 296,
+        "word_size": 69,
+        "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 문의 좀 드릴게요\nA.네 고객님 말씀하세요\nB.거기 Big-5라는 한 장으로 5번 타는 입장권이 있잖아요\nA.네 맞습니다 고객님\nB.혹시 이 한장으로 여러명이 탈 수 있나요\nA.Big-5는 한 분이 여러 놀이 기종을 타실 수 있도록 할인을 해드리는 겁니다\nA.간혹 2분 이상이 한 장으로 같이 이용하시려 하는데 1인 1매가 원칙입니다\nB.앗 그렇군요 죄송합니다 각각 구매해서 기구를 타야겠네요\nA.감사합니다 고객님 원칙을 지켜주시기 바랍니다\nB.네 감사합니다 바쁘실텐데 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의 좀 드릴게요",
+            "norm_text": "B.네 안녕하세요 문의 좀 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+좀/MAG+드릴게요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀하세요",
+            "norm_text": "A.네 고객님 말씀하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.거기 Big-5라는 한 장으로 5번 타는 입장권이 있잖아요",
+            "norm_text": "B.거기 Big-5라는 한 장으로 5번 타는 입장권이 있잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+거기/NP+Big/SL+-/SY+5/SN+라는/VCP+ETM+한/MM+장/NNBC+으로/JKB+5/SN+번/NNBC+타/VV+는/ETM+입장권/NNG+이/JKS+있/VV+잖아요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 맞습니다 고객님",
+            "norm_text": "A.네 맞습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 6,
+            "text": "B.혹시 이 한장으로 여러명이 탈 수 있나요",
+            "norm_text": "B.혹시 이 한장으로 여러명이 탈 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+이/MM+한/MM+장/NNBC+으로/JKB+여러/MM+명/NNBC+이/JKS+탈/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.Big-5는 한 분이 여러 놀이 기종을 타실 수 있도록 할인을 해드리는 겁니다",
+            "norm_text": "A.Big-5는 여러 기종을 타실 수 있도록 할인을 해드리는 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+Big/SL+-/SY+5/SN+는/JX+한/MM+분/NNBC+이/JKS+여러/MM+놀이/NNG+기종/NNG+을/JKO+타/VV+실/EP+ETM+수/NNB+있/VV+도록/EC+할인/NNG+을/JKO+해/VV+EC+드리/VX+는/ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.간혹 2분 이상이 한 장으로 같이 이용하시려 하는데 1인 1매가 원칙입니다",
+            "norm_text": "A.2분이 한 장으로 같이 이용하시려 하는데 1인 1매가 원칙입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+2/SN+분/NNBC+이상/NNG+이/JKS+한/MM+장/NNBC+으로/JKB+같이/MAG+이용/NNG+하/XSV+시/EP+려/EC+하/VV+는/ETM+데/NNB+1/SN+인/NNG+1/SN+매/NNBC+가/JKS+원칙/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.앗 그렇군요 죄송합니다 각각 구매해서 기구를 타야겠네요",
+            "norm_text": "B.앗 그렇군요 죄송합니다 각각 구매해서 기구를 타야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "B/SL+앗/IC+그렇/VA+군요/EC+죄송/XR+합니다/XSA+EF+각각/MAG+구매/NNG+해서/XSV+EC+기구/NNG+를/JKO+타/VV+야/EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.감사합니다 고객님 원칙을 지켜주시기 바랍니다",
+            "norm_text": "A.감사합니다 고객님 원칙을 지켜주시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+원칙/NNG+을/JKO+지켜/VV+EC+주/VX+시/EP+기/ETN+바랍니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 감사합니다 바쁘실텐데 수고하세요",
+            "norm_text": "B.네 감사합니다 바쁘실텐데 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+바쁘/VA+실/EP+ETM+텐데/NNB+VCP+EC+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

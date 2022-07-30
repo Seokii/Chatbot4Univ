@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 56341,
+    "name": "c1_20211019_0002_0194_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130758021139/c1_20211019_0002_0194_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130758021139/c1_20211019_0002_0194_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51196,
+      "filename": "c1_20210924_0016_0003_01.txt",
+      "title": "c1_20210924_0016_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 428,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 428,
+        "word_size": 93,
+        "text": "A.화창한 아침입니다 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 제가 궁금한 게 있어서요\nA.네 고객님 말씀해 주세요\nB.네 제가 기초수급자인데요 교통위반을 했어요\nB.수급자는 과태료를 없애준다는 걸로 알고 있거든요\nA.네 고객님 문의주신 내용 답변 드리겠습니다\nA.기초생활수급자나 한부모가족 일 급에서 삼 급 장애인도 해당이고요\nA.유공자 또는 미성년자는 과태료 감경 대상입니다\nB.그래요 그럼 저도 감경이 되겠네요\nA.네 사전통지 기간 내에 의견 진술해주시면요\nA.과태료 오십 프로 감경받을 수 있습니다\nA.고객님 감경제도는 과태료만 해당되며 범칙금은 감경제도가 없습니다\nB.알겠습니다 범칙금은 해당이 안 된다고요\nA.맞습니다 고객님 만족스러운 답변이 되었을까요\nB.네 만족했습니다 감사합니다\nA.오늘 하루 행복한 일들만 가득하셨음 좋겠습니다\nB.상담사님도 좋은 하루 보내시기 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.화창한 아침입니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.화창한 아침입니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+화창/XR+한/XSA+ETM+아침/NNG+입니다/VCP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 제가 궁금한 게 있어서요",
+            "norm_text": "B.안녕하세요 제가 궁금한 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀해 주세요",
+            "norm_text": "A.네 고객님 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 제가 기초수급자인데요 교통위반을 했어요",
+            "norm_text": "B.네 제가 기초수급자인데요 교통위반을 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+기초/NNG+수급/NNG+자/XSN+인데요/VCP+EF+교통위반/NNP+을/JKO+했/VV+EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.수급자는 과태료를 없애준다는 걸로 알고 있거든요",
+            "norm_text": "B.수급자는 과태료를 없애준다는 걸로 알고 있거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+수급/NNG+자/XSN+는/JX+과태료/NNG+를/JKO+없애/VV+EC+준다는/VX+ETM+걸로/NNB+JKB+알/VV+고/EC+있/VX+거든요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 고객님 문의주신 내용 답변 드리겠습니다",
+            "norm_text": "A.네 고객님 문의주신 내용 답변 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+문/NNG+의/JKG+주신/NNG+내용/NNG+답변/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.기초생활수급자나 한부모가족 일 급에서 삼 급 장애인도 해당이고요",
+            "norm_text": "A.기초생활수급자나 한부모가족 일 급에서 삼 급 장애인도 해당이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기초/NNG+생활/NNG+수급/NNG+자나/NNG+한/XSA+ETM+부모/NNG+가족/NNG+일/VCP+ETM+급/NNG+에서/JKB+삼/NR+급장/NNG+애인/NNG+도/JX+해당/NNG+이/JKS+고요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "A.유공자 또는 미성년자는 과태료 감경 대상입니다",
+            "norm_text": "A.유공자 또는 미성년자는 과태료 감경 대상입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+유공자/NNG+또는/MAJ+미성년자/NNG+는/JX+과태료/NNG+감경/NNG+대상/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그래요 그럼 저도 감경이 되겠네요",
+            "norm_text": "B.그래요 그럼 저도 감경이 되겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+저/NP+도/JX+감경/NNG+이/JKS+되/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 사전통지 기간 내에 의견 진술해주시면요",
+            "norm_text": "A.네 사전통지 기간 내에 의견 진술해주시면요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+사전/NNG+통지/NNG+기간/NNG+내/NNB+에/JKB+의견/NNG+진술/NNG+해/XSV+EC+주/VX+시/EP+면/EC+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.과태료 오십 프로 감경받을 수 있습니다",
+            "norm_text": "A.과태료 오십 프로 감경받을 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+과태료/NNG+오/NR+십/NR+프로/NNBC+감경/NNG+받/VV+을/ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.고객님 감경제도는 과태료만 해당되며 범칙금은 감경제도가 없습니다",
+            "norm_text": "A.고객님 감경제도는 과태료만 해당되며 범칙금은 감경제도가 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+감경/NNG+제도/NNG+는/JX+과태료/NNG+만/JX+해당/NNG+되/XSV+며/EC+범칙금/NNG+은/JX+감경/NNG+제도/NNG+가/JKS+없/VA+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.알겠습니다 범칙금은 해당이 안 된다고요",
+            "norm_text": "B.알겠습니다 범칙금은 해당이 안 된다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+범칙금/NNG+은/JX+해당/NNG+이/JKS+안/MAG+된다/VV+EC+고요/NNG"
+          },
+          {
+            "id": 14,
+            "text": "A.맞습니다 고객님 만족스러운 답변이 되었을까요",
+            "norm_text": "A.맞습니다 고객님 만족스러운 답변이 되었을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+맞/VV+습니다/EF+고객/NNG+님/XSN+만족/NNG+스러운/XSA+ETM+답변/NNG+이/JKS+되/VV+었/EP+을까요/EC"
+          },
+          {
+            "id": 15,
+            "text": "B.네 만족했습니다 감사합니다",
+            "norm_text": "B.네 만족했습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+만족/NNG+했/XSV+EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.오늘 하루 행복한 일들만 가득하셨음 좋겠습니다",
+            "norm_text": "A.오늘 하루 행복한 일들만 가득하셨음 좋겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+오늘/MAG+하루/NNG+행복/NNG+한/XSA+ETM+일/NNG+들/XSN+만/JX+가득/MAG+하/VV+셨/EP+EP+음/ETN+좋/VA+겠/EP+습니다/EF"
+          },
+          {
+            "id": 17,
+            "text": "B.상담사님도 좋은 하루 보내시기 바랍니다",
+            "norm_text": "B.상담사님도 좋은 하루 보내시기 바랍니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+상담/NNG+사/NNG+님/XSN+도/JX+좋/VA+은/ETM+하루/NNG+보내/VV+시/EP+기/ETN+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 51708,
+    "name": "c4_20211015_0014_0225_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131235011340/c4_20211015_0014_0225_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131235011340/c4_20211015_0014_0225_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57155,
+      "filename": "c4_20210927_0022_0024_01.txt",
+      "title": "c4_20210927_0022_0024_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 383,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 383,
+        "word_size": 79,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.예 안녕하세요 제가 질문사항이 있어서 전화드렸습니다\nA.네 여쭤보시고 싶은게 있으신가요\nB.혹시 어항의 지정권자를 알 수 있을까요\nA.국가 어항과 지방 어항등을 말하는 어항 말씀이세요\nB.네 맞아요 지정권자를 좀 알고싶어서요\nA.네 우선 어항에는 국가어항 지방어항 어촌정주어항 그리고 마늘공동어항이 있는데요\nB.네 어떤 어항들이 있는지는 알고 있어요\nA.네 각 어항의 지정권자는 국가어항은 해양수산부장관이고요\nB.아 네 지방어항은 어디지요\nA.지방어항은 시나 도지사가 지정권자입니다\nA.그리고 어촌정주어항이나 마을공동어항은 군수나 시장 구청장등이 맡고있습니다\nB.알겠습니다 다른 질문사항 생기면 또 연락드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "norm_text": "B.예 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "norm_text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.혹시 어항의 지정권자를 알 수 있을까요",
+            "norm_text": "B.혹시 어항의 지정권자를 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+어항/NNG+의/JKG+지정/NNG+권/XSN+자/XSN+를/JKO+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.국가 어항과 지방 어항등을 말하는 어항 말씀이세요",
+            "norm_text": "A.국가 어항과 지방 어항등을 말하는 어항 말씀이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+국가/NNG+어항/NNG+과/JC+지방/NNG+어항/NNG+등/NNB+을/JKO+말/NNG+하/XSV+는/ETM+어항/NNG+말씀/NNG+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 맞아요 지정권자를 좀 알고싶어서요",
+            "norm_text": "B.네 맞아요 지정권자를 좀 알고싶어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아/EC+요지/NNG+정권/NNG+자/XSN+를/JKO+좀/MAG+알/VV+고/EC+싶/VX+어서요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 우선 어항에는 국가어항 지방어항 어촌정주어항 그리고 마늘공동어항이 있는데요",
+            "norm_text": "A.어항에는 국가어항 지방어항 어촌정주어항 그리고 마늘공동어항이 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+어항/NNG+에/JKB+는/JX+국가/NNG+어항/NNG+지방/NNG+어항/NNG+어촌/NNG+정주/NNG+어항/NNG+그리고/MAJ+마늘/NNG+공동/NNG+어항/NNG+이/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 어떤 어항들이 있는지는 알고 있어요",
+            "norm_text": "B.네 어떤 어항들이 있는지는 알고 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+어떤/MM+어항/NNG+들/XSN+이/JKS+있/VV+는지/EC+는/JX+알/VV+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 각 어항의 지정권자는 국가어항은 해양수산부장관이고요",
+            "norm_text": "A.네 각 어항의 지정권자는 국가어항은 해양수산부장관이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+각/MM+어항/NNG+의/JKG+지정/NNG+권/XSN+자/XSN+는/JX+국가/NNG+어항/NNG+은/JX+해양수산부/NNP+장관/NNG+이/JKS+고요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "B.아 네 지방어항은 어디지요",
+            "norm_text": "B.아 네 지방어항은 어디지요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+네/IC+지방/NNG+어항/NNG+은/JX+어디/NP+지요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.지방어항은 시나 도지사가 지정권자입니다",
+            "norm_text": "A.지방어항은 시나 도지사가 지정권자입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+지방/NNG+어항/NNG+은/JX+시/NNG+나/JC+도지사/NNG+가/JKS+지정/NNG+권/XSN+자/XSN+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.그리고 어촌정주어항이나 마을공동어항은 군수나 시장 구청장등이 맡고있습니다",
+            "norm_text": "A.어촌정주어항이나 마을공동어항은 군수나 시장 구청장등이 맡고있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+어촌/NNG+정주/NNG+어항/NNG+이나/JC+마을/NNG+공동/NNG+어항/NNG+은/JX+군수/NNG+나/JC+시장/NNG+구청장/NNG+등/NNB+이/JKS+맡/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.알겠습니다 다른 질문사항 생기면 또 연락드릴게요",
+            "norm_text": "B.알겠습니다 다른 질문사항 생기면 또 연락드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+다른/MM+질문/NNG+사항/NNG+생기/VV+면/EC+또/MAG+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

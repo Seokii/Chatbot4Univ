@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 40433,
+    "name": "c3_20211012_0010_2046_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211008131050004760/c3_20211012_0010_2046_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211008131050004760/c3_20211012_0010_2046_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 55232,
+      "filename": "c3_20210930_0004_0010_01.txt",
+      "title": "c3_20210930_0004_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 526,
+      "annotations": {
+        "subject": "서류 문의",
+        "speaker_type": "1:1",
+        "size": 526,
+        "word_size": 117,
+        "text": "A.기분 좋은 아침입니다 #@소속# 상담원 #@이름#입니다\nB.제가 미성년자인데요 학생인데 여권을 잃어버렸요\nB.부모님이 같이 안 가도 재발급이 될까요 그리고 주소지도 바뀌었어요\nA.선생님 문의 주신 부분 제가 확인 후 안내해드리겠습니다\nA.제가 확인해보니 주소지는 상관이 없다고 확인이 됩니다\nA.혹시 미성년자 본인이 직접 방문하실 예정이십니까 몇년생이실까요\nB.저 혼자서 가려구요 저는 공공년생이에요\nA.제가 구비서류 확인 후 안내해드리겠습니다\nA.지금 메모 가능하세요\nB.메모 가능해요 말씀하세요\nA.우선 신청서 양식은 민원실 창구에 비치되어 있습니다\nA.내방하신 후 작성하시면 됩니다\nA.그리고 미성년자이실 경우 학생증 지참하시어 방문하시면 됩니다\nB.구비 서류요 학생증 외에는 또 없는 거예요\nA.그리고 최근 육개월 이내에 촬영한 여권용 사진 한 장이 필요합니다\nA.오염이나 훼손이 있을 시 업무 처리가 어려울 수 있어요\nA.여유분으로 한장 더 준비해주시면 업무 처리에 도움이 될 거예요\nB.알겠습니다 알려주셔서 감사합니다\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.기분 좋은 아침입니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.기분 좋은 아침입니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+기분/NNG+좋/VA+은/ETM+아침/NNG+입니다/VCP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 미성년자인데요 학생인데 여권을 잃어버렸요",
+            "norm_text": "B.제가 미성년자인데요 학생인데 여권을 잃어버렸요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+제/NP+가/JKS+미성년자/NNG+인데요/VCP+EC+학생/NNG+인데/VCP+EC+여권/NNG+을/JKO+잃어버렸/VV+EP+요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.부모님이 같이 안 가도 재발급이 될까요 그리고 주소지도 바뀌었어요",
+            "norm_text": "B.부모님이 같이 안 가도 재발급이 될까요 그리고 주소지도 바뀌었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+부모/NNG+님/XSN+이/JKS+같이/MAG+안/MAG+가/VV+도/EC+재/XPN+발급/NNG+이/JKS+될까요/VV+EF+그리고/MAJ+주소지/NNG+도/JX+바뀌/VV+었/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.선생님 문의 주신 부분 제가 확인 후 안내해드리겠습니다",
+            "norm_text": "A.선생님 문의 주신 부분 제가 확인 후 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+문/NNG+의/JKG+주/NNG+신부/NNG+분제/NNG+가/JKS+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.제가 확인해보니 주소지는 상관이 없다고 확인이 됩니다",
+            "norm_text": "A.제가 확인해보니 주소지는 상관이 없다고 확인이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+제/NP+가/JKS+확인/NNG+해/XSV+EC+보/VX+니/EC+주소지/NNG+는/JX+상관/NNG+이/JKS+없/VA+다고/EC+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.혹시 미성년자 본인이 직접 방문하실 예정이십니까 몇년생이실까요",
+            "norm_text": "A.혹시 미성년자 본인이 직접 방문하실 예정이십니까 몇년생이실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+미성년자/NNG+본인/NNG+이/JKS+직접/MAG+방문/NNG+하/XSV+실/EP+ETM+예정/NNG+이/VCP+십니까/EP+EF+몇/MM+년/NNBC+생/XSN+이/VCP+실까요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.저 혼자서 가려구요 저는 공공년생이에요",
+            "norm_text": "B.저 혼자서 가려구요 저는 공공년생이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+저/MM+혼자/NNG+서/JKB+가/VV+려구요/EC+저/NP+는/JX+공/NR+공/NR+년/NNBC+생/XSN+이/VCP+에요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.제가 구비서류 확인 후 안내해드리겠습니다",
+            "norm_text": "A.제가 구비서류 확인 후 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+제/NP+가/JKS+구비/NNG+서류/NNG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.지금 메모 가능하세요",
+            "norm_text": "A.지금 메모 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+메모/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.메모 가능해요 말씀하세요",
+            "norm_text": "B.메모 가능해요 말씀하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+메모/NNG+가능/NNG+해요/XSV+EF+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.우선 신청서 양식은 민원실 창구에 비치되어 있습니다",
+            "norm_text": "A.우선 신청서 양식은 민원실 창구에 비치되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+우선/MAG+신청서/NNG+양식/NNG+은/JX+민원실/NNG+창구/NNG+에/JKB+비치/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.내방하신 후 작성하시면 됩니다",
+            "norm_text": "A.내방하신 후 작성하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+내방/NNG+하/XSV+신/EP+ETM+후/NNG+작성/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.그리고 미성년자이실 경우 학생증 지참하시어 방문하시면 됩니다",
+            "norm_text": "A.그리고 미성년자이실 경우 학생증 지참하시어 방문하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그리고/MAJ+미성년자/NNG+이/VCP+실/EP+ETM+경우/NNG+학생증/NNG+지참/NNG+하/XSV+시/EP+어/EC+방문/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.구비 서류요 학생증 외에는 또 없는 거예요",
+            "norm_text": "B.구비 서류요 학생증 외에는 또 없는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+구비/NNG+서류/NNG+요/VCP+EC+학생증/NNG+외/NNB+에/JKB+는/JX+또/MAG+없/VA+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.그리고 최근 육개월 이내에 촬영한 여권용 사진 한 장이 필요합니다",
+            "norm_text": "A.그리고 최근 육개월 이내에 촬영한 여권용 사진 한 장이 필요합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그리고/MAJ+최근/NNG+육/NR+개월/NNBC+이내/NNG+에/JKB+촬영/NNG+한/XSA+ETM+여권/NNG+용/XSN+사진/NNG+한/MM+장/NNBC+이/JKS+필요/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.오염이나 훼손이 있을 시 업무 처리가 어려울 수 있어요",
+            "norm_text": "A.오염이나 훼손이 있을 시 업무 처리가 어려울 수 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+오염/NNG+이나/JC+훼손/NNG+이/JKS+있/VV+을시/EC+업무/NNG+처리/NNG+가/JKS+어려울/VA+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 17,
+            "text": "A.여유분으로 한장 더 준비해주시면 업무 처리에 도움이 될 거예요",
+            "norm_text": "A.여유분으로 한장 더 준비해주시면 업무 처리에 도움이 될 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+여유/NNG+분/NNB+으로/JKB+한/MM+장/NNBC+더/MAG+준비/NNG+해/XSV+EC+주/VX+시/EP+면/EC+업무/NNG+처리/NNG+에/JKB+도움/NNG+이/JKS+될/VV+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 18,
+            "text": "B.알겠습니다 알려주셔서 감사합니다",
+            "norm_text": "B.알겠습니다 알려주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

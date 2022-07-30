@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 13336,
+    "name": "s1_20210913_0001_0528_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151220016088/s1_20210913_0001_0528_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151220016088/s1_20210913_0001_0528_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7952,
+      "filename": "s1_20210824_0026_0019_01.txt",
+      "title": "s1_20210824_0026_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 232,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 232,
+        "word_size": 50,
+        "text": "A.감사합니다 상담사 #@이름#입니다\nB.언니 저 #@상품# 쓰는데 컨트리락 풀려고요\nA.네 #@상품# 사용하시구여 고객님\nA.그럼 제가 바로 전문부서로 내용전달 해드릴텐데요\nA.전화번호 어떻게 되십니까\nB.이거 번호 #@전번#이여\nA.네 #@전번# 성함이 어떻게 되십니까 고객님\nB.네 이름 #@이름#이여\nA.네 저희 담당부서 고객님 한두 시간 안쪽이에요\nA.최대한 바로 연락드리겠습니다\nB.네 언니 감사해요\nA.네 고객님 고맙습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.감사합니다 상담사 #@이름#입니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.언니 저 #@상품# 쓰는데 컨트리락 풀려고요",
+            "norm_text": "B.언니 저 #@상품# 쓰는데 컨트리락 풀려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+언니/NNG+저/NNG+#/SY+@/SY+상품/NNG+#/SY+쓰/VV+는데/EC+컨트리/NNG+락/VCP+EC+풀/VV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 #@상품# 사용하시구여 고객님",
+            "norm_text": "A.네 #@상품# 사용하시구여 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+사용/NNG+하/XSV+시/EP+구/EC+여고/NNG+객님/NNG"
+          },
+          {
+            "id": 4,
+            "text": "A.그럼 제가 바로 전문부서로 내용전달 해드릴텐데요",
+            "norm_text": "A.그럼 제가 바로 전문부서로 내용전달 해드릴텐데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그럼/MAJ+제/NP+가/JKS+바로/MAG+전문/NNG+부서/NNG+로/JKB+내용/NNG+전달/NNG+해/XSV+EC+드릴/VX+ETM+텐데요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.전화번호 어떻게 되십니까",
+            "norm_text": "A.전화번호 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+전화/NNG+번호/NNG+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.이거 번호 #@전번#이여",
+            "norm_text": "B.이거 번호 #@전번#이여",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이거/NP+번호/NNG+#/SY+@/SY+전번/NNG+#/SY+이/VCP+여/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 #@전번# 성함이 어떻게 되십니까 고객님",
+            "norm_text": "A.네 #@전번# 성함이 어떻게 되십니까 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+성함/NNG+이/JKS+어떻게/MAG+되/VV+십니까/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.네 이름 #@이름#이여",
+            "norm_text": "B.네 이름 #@이름#이여",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+이름/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+여/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 저희 담당부서 고객님 한두 시간 안쪽이에요",
+            "norm_text": "A.네 저희 담당부서 고객님 한두 시간 안쪽이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+담당/NNG+부서/NNG+고객/NNG+님/XSN+한두/MM+시간/NNG+안쪽/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.최대한 바로 연락드리겠습니다",
+            "norm_text": "A.최대한 바로 연락드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+최대한/MAG+바로/MAG+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 언니 감사해요",
+            "norm_text": "B.네 언니 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+언니/NNG+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 고객님 고맙습니다",
+            "norm_text": "A.네 고객님 고맙습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+고맙/VA+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

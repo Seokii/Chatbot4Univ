@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 150914,
+    "name": "t1_20211117_0002_0378_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720019467/t1_20211117_0002_0378_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720019467/t1_20211117_0002_0378_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148680,
+      "filename": "t1_0074_0096_02.txt",
+      "title": "t1_0074_0096_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 278,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 278,
+        "word_size": 65,
+        "text": "A. 상쾌한 하루시작 #@소속# 고객센터 상담원 #@이름#입니다\nB. 홍천 행복동산펜션 가격 안내 부탁드려요\nB. 당일 예약도 가능한걸까요\nA. 네 당일 예약도 가능하세요 몇인실 가격 안내드릴까요\nB. 2인실 가격으로 알려주시겠어요\nA. 8만원부터 11만원까지 있습니다\nB. 옵션이 크게 차이 나나요\nA. 방이 조금 더 넓고 인테리어가 방마다 다른것 외에는 동일합니다\nB. 아 알겠습니다 홈페이지로 마저 보고 여기로 빨리 예약해야겠네요 감사합니다\nA. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 상쾌한 하루시작 #@소속# 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A. 상쾌한 하루시작 #@소속# 고객센터 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+상쾌/XR+한/XSA+ETM+하루/NNG+시작/NNG+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 홍천 행복동산펜션 가격 안내 부탁드려요",
+            "norm_text": "B. 홍천 행복동산펜션 가격 안내 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+홍천/NNG+행복/NNG+동산/NNG+펜션/NNG+가격/NNG+안내/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "B. 당일 예약도 가능한걸까요",
+            "norm_text": "B. 당일 예약도 가능한걸까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+당일/NNG+예약/NNG+도/JX+가능/NNG+한/XSA+ETM+걸까요/NNB+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A. 네 당일 예약도 가능하세요 몇인실 가격 안내드릴까요",
+            "norm_text": "A. 네 당일 예약도 가능하세요 몇인실 가격 안내드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+당일/NNG+예약/NNG+도/JX+가능/NNG+하/XSV+세요/EP+EF+몇/MM+인/NNG+실/NNG+가격/NNG+안/MAG+내/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B. 2인실 가격으로 알려주시겠어요",
+            "norm_text": "B. 2인실 가격으로 알려주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+2/SN+인/NNG+실/NNG+가격/NNG+으로/JKB+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A. 8만원부터 11만원까지 있습니다",
+            "norm_text": "A. 8만원부터 11만원까지 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+8/SN+만/NR+원/NNBC+부터/JX+11/SN+만/NR+원/NNBC+까지/JX+있/VV+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B. 옵션이 크게 차이 나나요",
+            "norm_text": "B. 옵션이 크게 차이 나나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+옵션/NNG+이/JKS+크/VA+게/EC+차이/NNG+나/JC+나/NP+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A. 방이 조금 더 넓고 인테리어가 방마다 다른것 외에는 동일합니다",
+            "norm_text": "A. 방이 조금 더 넓고 인테리어가 방마다 다른것 외에는 동일합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+방/NNG+이/JKS+조금/MAG+더/MAG+넓/VA+고/EC+인테리어/NNG+가/JKS+방/NNG+마다/JX+다른/VA+ETM+것/NNB+외/NNB+에/JKB+는/JX+동일/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B. 아 알겠습니다 홈페이지로 마저 보고 여기로 빨리 예약해야겠네요 감사합니다",
+            "norm_text": "B. 홈페이지로 마저 보고 여기로 빨리 예약해야겠네요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+홈페이지/NNG+로/JKB+마저/JX+보/VV+고/EC+여기/NP+로/JKB+빨리/MAG+예약/NNG+해야/XSV+EC+VX+겠/EP+네요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감기/NNG+조심/NNG+하/XSV+시/EP+고/EC+건강/NNG+하/XSV+세요/EP+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

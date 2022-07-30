@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 120248,
+    "name": "s5_20211105_0010_4479_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110933051371/s5_20211105_0010_4479_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110933051371/s5_20211105_0010_4479_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 120885,
+      "filename": "s5_20210901_0025_0006_01.txt",
+      "title": "s5_20210901_0025_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 559,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 559,
+        "word_size": 130,
+        "text": "A.고객님 안녕하세요 무엇을 도와드릴까요\nB.안녕하세요 #@소속#인데요 출고 전 취소 좀 요청하려고요\nA.주문자 분 성함 좀 말씀해주세요\nB.네 알겠습니다 #@이름#고객님이요\nA.잠시만요 혹시 대략 주문을 언제쯤 하셨나요\nB.시월 팔 일 주문 건이에요\nA.동명이인이 있으셔서 주문번호 좀 불러주세요\nB.네 주문번호가 #@번호#입니다\nA.네 이제 좀 확인되셨고 #@상품#으로 확인되시고요\nA.출고 대기까지 넘어가서 취소 안 될 수도 있어서 연락은 해봐야 되는겠는데요\nA.혹시 이거 뭐 취소 안 되면 어떻게 좀 안내를 드릴까요\nB.취소 안 되면 저희가 이미 출고됐다고 전해야겠네요\nA.그러면 저희가 확인해서 가능하면은 만약에 그냥 취소 처리하고요\nA.안 되면 그냥 우선 냅두도록 하면 될까요\nB.만약에 배송이 나갔으면 이제 저희한테 송장 번호만 알려주시면 됩니다\nB.출고 취소가 가능한 거면 저희한테 좀 알려주시면되시 거든요 언제 쯤가능할까요\nA.지금 삼십 분 내로 가능하세요 송장 번호는 이미 나왔거든요\nA.저희가 한번 확인해보고요 취소 가능 여부부터 확인하고 연락드릴게요\nB.네 알겠습니다 감사합니다\nA.감사합니다 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 안녕하세요 무엇을 도와드릴까요",
+            "norm_text": "A.고객님 안녕하세요 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+안녕/NNG+하/XSV+세요/EP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@소속#인데요 출고 전 취소 좀 요청하려고요",
+            "norm_text": "B.안녕하세요 #@소속#인데요 출고 전 취소 좀 요청하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+인데/VCP+EC+요출/NNG+고전/NNG+취소/NNG+좀/MAG+요청/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.주문자 분 성함 좀 말씀해주세요",
+            "norm_text": "A.주문자 분 성함 좀 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+주문자/NNG+분성/NNG+함/XSV+ETN+좀/MAG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 알겠습니다 #@이름#고객님이요",
+            "norm_text": "B.네 알겠습니다 #@이름#고객님이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.잠시만요 혹시 대략 주문을 언제쯤 하셨나요",
+            "norm_text": "A.잠시만요 혹시 대략 주문을 언제쯤 하셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+잠시/NNG+만/JX+요/JX+혹시/MAG+대략/MAG+주문/NNG+을/JKO+언제/NP+쯤/XSN+하/VV+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.시월 팔 일 주문 건이에요",
+            "norm_text": "B.시월 팔 일 주문 건이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+시월/NNG+팔/NR+일/NNBC+주문건/NNP+이/VCP+에요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.동명이인이 있으셔서 주문번호 좀 불러주세요",
+            "norm_text": "A.동명이인이 있으셔서 주문번호 좀 불러주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+동명이인/NNG+이/JKS+있/VA+으셔서/EP+EC+주문/NNG+번호/NNG+좀/MAG+불러/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 주문번호가 #@번호#입니다",
+            "norm_text": "B.네 주문번호가 #@번호#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+주문/NNG+번호/NNG+가/JKS+#/SY+@/SY+번호/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 이제 좀 확인되셨고 #@상품#으로 확인되시고요",
+            "norm_text": "A.네 이제 좀 확인되셨고 #@상품#으로 확인되시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+이제/MAG+좀/MAG+확인/NNG+되/XSV+셨/EP+EP+고/EC+#/SY+@/SY+상품/NNG+#/SY+으로/JKB+확인/NNG+되/XSV+시/EP+고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.출고 대기까지 넘어가서 취소 안 될 수도 있어서 연락은 해봐야 되는겠는데요",
+            "norm_text": "A.출고 대기까지 넘어가서 취소 안 될 수도 있어서 연락은 해봐야겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+출고/NNG+대기/NNG+까지/JX+넘어가/VV+서/EC+취소/NNG+안/MAG+될/VV+ETM+수/NNB+도/JX+있/VA+어서/EC+연락/NNG+은/JX+해/VV+EC+봐야/VX+EC+되/VV+는/ETM+겠/EP+는데요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.혹시 이거 뭐 취소 안 되면 어떻게 좀 안내를 드릴까요",
+            "norm_text": "A.혹시 이거 뭐 취소 안 되면 어떻게 좀 안내를 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+이거/NP+뭐/IC+취소/NNG+안/MAG+되/VV+면/EC+어떻게/MAG+좀/MAG+안내/NNG+를/JKO+드릴까요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.취소 안 되면 저희가 이미 출고됐다고 전해야겠네요",
+            "norm_text": "B.취소 안 되면 저희가 이미 출고됐다고 전해야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+취소/NNG+안/MAG+되/VV+면/EC+저희/NP+가/JKS+이미/MAG+출고/NNG+됐/XSV+EP+다고/EC+전해야/VV+EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.그러면 저희가 확인해서 가능하면은 만약에 그냥 취소 처리하고요",
+            "norm_text": "A.그러면 저희가 확인해서 가능하면은 만약에 그냥 취소 처리하고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러면/MAJ+저희/NP+가/JKS+확인/NNG+해서/XSV+EC+가능/NNG+하/XSV+면은/EC+만약/NNG+에/JKB+그냥/MAG+취소/NNG+처리/NNG+하/XSV+고요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.안 되면 그냥 우선 냅두도록 하면 될까요",
+            "norm_text": "A.안 되면 그냥 우선 냅두도록 하면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+안/MAG+되/VV+면/EC+그냥/MAG+우선/MAG+냅두/VV+도록/EC+하/VV+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.만약에 배송이 나갔으면 이제 저희한테 송장 번호만 알려주시면 됩니다",
+            "norm_text": "B.만약에 배송이 나갔으면 이제 저희한테 송장 번호만 알려주시면 됩니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+만약/NNG+에/JKB+배송/NNG+이/JKS+나갔/VV+EP+으면/EC+이제/MAG+저희/NP+한테/JKB+송장/NNG+번호/NNG+만/JX+알려/VV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.출고 취소가 가능한 거면 저희한테 좀 알려주시면되시 거든요 언제 쯤가능할까요",
+            "norm_text": "B.출고 취소가 가능하면 알려주세요 언제쯤 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+출고/NNG+취소/NNG+가/JKS+가능/NNG+한/XSA+ETM+거/NNB+면/VCP+EC+저희/NP+한테/JKB+좀/MAG+알려/VV+EC+주/VX+시/EP+면/EC+되/VV+시/EP+거든요/EF+언제/NP+쯤/XSN+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.지금 삼십 분 내로 가능하세요 송장 번호는 이미 나왔거든요",
+            "norm_text": "A.지금 삼십 분 내로 가능하세요 송장 번호는 이미 나왔거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+지금/MAG+삼/NR+십/NR+분/NNBC+내/NNB+로/JKB+가능/NNG+하/XSV+세요/EP+EF+송장/NNG+번호/NNG+는/JX+이미/MAG+나왔/VV+EP+거든요/EF"
+          },
+          {
+            "id": 18,
+            "text": "A.저희가 한번 확인해보고요 취소 가능 여부부터 확인하고 연락드릴게요",
+            "norm_text": "A.저희가 한번 확인해보고요 취소 가능 여부부터 확인하고 연락드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+한/MM+번/NNBC+확인/NNG+해/XSV+EC+보/VX+고요/EC+취소/NNG+가능/NNG+여부/NNG+부터/JX+확인/NNG+하/XSV+고/EC+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 19,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 20,
+            "text": "A.감사합니다 좋은 하루 보내세요",
+            "norm_text": "A.감사합니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

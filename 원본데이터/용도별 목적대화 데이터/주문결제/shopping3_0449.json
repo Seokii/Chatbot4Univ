@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 10367,
+    "name": "s3_20210913_0010_0590_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417080120/s3_20210913_0010_0590_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417080120/s3_20210913_0010_0590_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12053,
+      "filename": "s3_20210827_0011_0001_01.txt",
+      "title": "s3_20210827_0011_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 257,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 257,
+        "word_size": 51,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.#@상품# 때문으로 그러는데요\nA.네 어떤 상품보셨어요\nA.정확한 상품명이 필요합니다 고객님\nA.모델명말구요 고객님 보셨던 상품의 이름이 있잖아요\nB.상품의 이름이 #@상품#이라고 돼 있어요\nB.이름이 고급형 모델이라고 쓰여 있고요\nA.잠시만요 이름이 혹시 #@상품#인가요\nB.상품명이 #@상품#이라고 쓰여있는데요\nA.잠시만요 그런 제품은 나와있지가 않은데요\nA.그 인터넷 보고 전화하신거에요\nB.네 맞아요 지금 인터넷 보고 연락드린겁니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 때문으로 그러는데요",
+            "norm_text": "B.#@상품# 때문으로 그러는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+때문/NNB+으로/JKB+그러/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 상품보셨어요",
+            "norm_text": "A.네 어떤 상품보셨어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+상품/NNG+보/VV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.정확한 상품명이 필요합니다 고객님",
+            "norm_text": "A.정확한 상품명이 필요합니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+정확/NNG+한/XSA+ETM+상품명/NNG+이/JKS+필요/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.모델명말구요 고객님 보셨던 상품의 이름이 있잖아요",
+            "norm_text": "A.모델명말구요 고객님 보셨던 상품의 이름이 있잖아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+모델/NNG+명/XSN+말/VV+구요/EF+고객/NNG+님/XSN+보/VV+셨/EP+EP+던/ETM+상품/NNG+의/JKG+이름/NNG+이/JKS+있/VV+잖아요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.상품의 이름이 #@상품#이라고 돼 있어요",
+            "norm_text": "B.상품의 이름이 #@상품#이라고 돼 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+상품/NNG+의/JKG+이름/NNG+이/JKS+#/SY+@/SY+상품/NNG+#/SY+이라고/JKQ+돼/VV+EC+있/VX+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.이름이 고급형 모델이라고 쓰여 있고요",
+            "norm_text": "B.이름이 고급형 모델이라고 쓰여 있고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+이/JKS+고급/NNG+형/XSN+모델/NNG+이/VCP+라고/EC+쓰여/VV+EC+있/VX+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.잠시만요 이름이 혹시 #@상품#인가요",
+            "norm_text": "A.잠시만요 이름이 혹시 #@상품#인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+잠시/MAG+만요/NNP+이름/NNG+이/JKS+혹시/MAG+#/SY+@/SY+상품/NNG+#/SY+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.상품명이 #@상품#이라고 쓰여있는데요",
+            "norm_text": "B.상품명이 #@상품#이라고 쓰여있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+상품명/NNG+이/JKS+#/SY+@/SY+상품/NNG+#/SY+이라고/JKQ+쓰여/VV+EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.잠시만요 그런 제품은 나와있지가 않은데요",
+            "norm_text": "A.잠시만요 그런 제품은 나와있지가 않은데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+잠시/NNG+만/JX+요/JX+그런/MM+제품/NNG+은/JX+나와/VV+EC+있/VX+지/EC+가/JX+않/VX+은데요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.그 인터넷 보고 전화하신거에요",
+            "norm_text": "A.그 인터넷 보고 전화하신거에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그/MM+인터넷/NNG+보고/JKB+전화/NNG+하/XSV+신/EP+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 맞아요 지금 인터넷 보고 연락드린겁니다",
+            "norm_text": "B.네 맞아요 지금 인터넷 보고 연락드린겁니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+지금/MAG+인터넷/NNG+보고/JKB+연락/NNG+드린/VV+ETM+겁니다/NNB+VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

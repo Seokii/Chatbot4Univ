@@ -1,0 +1,323 @@
+{
+  "dataset": {
+    "identifier": 13492,
+    "name": "s3_20210913_0010_1027_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423032973/s3_20210913_0010_1027_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423032973/s3_20210913_0010_1027_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12567,
+      "filename": "s3_20210902_0007_0001_01.txt",
+      "title": "s3_20210902_0007_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 645,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 645,
+        "word_size": 161,
+        "text": "A.네 안녕하세요 고객님 #@이름# 상담원 입니다\nB.예 #@상품# 있잖아요 이게 나이 든 사람도 먹어도 괜찮아요\nA.네 괜찮습니다 고객님\nB.이게 얼마 정도 먹으면 효과가 있어요\nA.저희가 보통 효과 나타나는 거는 이제 한 달 정도 주기를 보고 있어요\nA.운동 같이 병행하시면 조금 더 효과가 뛰어나다 라고 나와있습니다\nB.그러니까 이게 한 병이 한 달입니까\nA.네 하루에 한 알씩 해서 삼십 알 들어있어요\nB.이게 그러면 먹고 나면 감량은 어느 정도 됩니까\nA.그거는 이제 고객님들마다 다 달라요\nA.운동을 병행하지 않으면 효과가 나타나지 않을 수도 있어요\nA.상품 페이지에도 보시면은 운동 꼭 병행해달라라고 나와 있습니다\nB.운동을 반드시 해야 되는구나\nA.네 운동을 병행했을 때 가장 효과가 뛰어난 다이어트 보조 식품입니다\nB.그러면요 무통장으로 해서 입금을 #@전번#에 보내주세요\nA.네 #@상품# 그러면은 하나 주문 도와드릴까요\nB.네 무통장 입금으로 해가 계좌 보내주세요\nA.네 그럼 고객님 성함과 연락처 어떻게 되시나요\nB.네 #@이름#이고 번호는 #@전번# 이요\nA.네 상품 받으실 주소지 한 번 알려주시겠어요\nB.대구 #@주소#로 배송해 주세요\nA.네 그러면 제가 문자로 계좌 번호랑 입금 금액이랑 해서 보내드릴게요\nB.예 그렇게 해주세요\nA.네 감사합니다 좋은 하루 되십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하세요 고객님 #@이름# 상담원 입니다",
+            "norm_text": "A.네 안녕하세요 고객님 #@이름# 상담원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 #@상품# 있잖아요 이게 나이 든 사람도 먹어도 괜찮아요",
+            "norm_text": "B.예 #@상품# 있잖아요 이게 나이 든 사람도 먹어도 괜찮아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+상품/NNG+#/SY+있/VA+잖아요/EF+이게/NP+JKS+나/NP+이/VCP+든/EC+사람/NNG+도/JX+먹/VV+어도/EC+괜찮/VA+아요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 괜찮습니다 고객님",
+            "norm_text": "A.네 괜찮습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+괜찮/VA+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.이게 얼마 정도 먹으면 효과가 있어요",
+            "norm_text": "B.이게 얼마 정도 먹으면 효과가 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이게/NP+JKS+얼마/NNG+정도/NNG+먹/VV+으면/EC+효과/NNG+가/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.저희가 보통 효과 나타나는 거는 이제 한 달 정도 주기를 보고 있어요",
+            "norm_text": "A.저희가 보통 효과 나타나는 거는 이제 한 달 정도 주기를 보고 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+보통/NNG+효과/NNG+나타나/VV+는/ETM+거/NNB+는/JX+이제/MAG+한/MM+달/NNBC+정도/NNG+주기/NNG+를/JKO+보/VV+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.운동 같이 병행하시면 조금 더 효과가 뛰어나다 라고 나와있습니다",
+            "norm_text": "A.운동 같이 병행하시면 조금 더 효과가 뛰어나다 라고 나와있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+운동/NNG+같이/JKB+병행/NNG+하/XSV+시/EP+면/EC+조금/MAG+더/MAG+효과/NNG+가/JKS+뛰어나/VA+다/EF+라고/JKQ+나와/VV+EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그러니까 이게 한 병이 한 달입니까",
+            "norm_text": "B.그러니까 이게 한 병이 한 달입니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러니까/MAJ+이게/NP+JKS+한/MM+병/NNG+이/JKS+한/MM+달/NNG+입니까/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 하루에 한 알씩 해서 삼십 알 들어있어요",
+            "norm_text": "A.네 하루에 한 알씩 해서 삼십 알 들어있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+하루/NNG+에/JKB+한/MM+알/NNBC+씩/XSN+해서/VV+EC+삼/NR+십/NR+알/NNBC+들/VV+어/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.이게 그러면 먹고 나면 감량은 어느 정도 됩니까",
+            "norm_text": "B.이게 그러면 먹고 나면 감량은 어느 정도 됩니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이게/NP+JKS+그러/VV+면/EC+먹/VV+고/EC+나/VX+면/EC+감량/NNG+은/JX+어느/MM+정도/NNG+됩니까/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.그거는 이제 고객님들마다 다 달라요",
+            "norm_text": "A.그거는 이제 고객님들마다 다 달라요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그거/NP+는/JX+이제/MAG+고객/NNG+님/XSN+들/XSN+마다/JX+다/MAG+달라요/VA+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.운동을 병행하지 않으면 효과가 나타나지 않을 수도 있어요",
+            "norm_text": "A.운동을 병행하지 않으면 효과가 나타나지 않을 수도 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+운동/NNG+을/JKO+병행/NNG+하/XSV+지/EC+않/VX+으면/EC+효과/NNG+가/JKS+나타나/VV+지/EC+않/VX+을/ETM+수/NNB+도/JX+있/VA+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.상품 페이지에도 보시면은 운동 꼭 병행해달라라고 나와 있습니다",
+            "norm_text": "A.상품 페이지에도 보시면은 운동 꼭 병행해달라라고 나와 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+상품/NNG+페이지/NNG+에/JKB+도/JX+보/VV+시/EP+면은/EC+운동/NNG+꼭/MAG+병행/NNG+해/XSV+EC+달/VX+라라고/EC+나와/VV+EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.운동을 반드시 해야 되는구나",
+            "norm_text": "B.운동을 반드시 해야 되는구나",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+운동/NNG+을/JKO+반드시/MAG+해야/VV+EC+되/VV+는구나/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 운동을 병행했을 때 가장 효과가 뛰어난 다이어트 보조 식품입니다",
+            "norm_text": "A.네 운동을 병행했을 때 효과가 뛰어난 다이어트 보조 식품입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+운동/NNG+을/JKO+병행/NNG+했/XSV+EP+을/ETM+때/NNG+효과/NNG+가/JKS+뛰어난/VA+ETM+다이어트/NNG+보조/NNG+식품/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.그러면요 무통장으로 해서 입금을 #@전번#에 보내주세요",
+            "norm_text": "B.그러면요 무통장으로 해서 입금을 #@전번#에 보내주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그러면/MAJ+요무/NNG+통장/NNG+으로/JKB+해서/VV+EC+입금/NNG+을/JKO+#/SY+@/SY+전번/NNG+#/SY+에/JKB+보내/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 16,
+            "text": "A.네 #@상품# 그러면은 하나 주문 도와드릴까요",
+            "norm_text": "A.네 #@상품# 그러면은 하나 주문 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+그러면은/MAJ+하나/NR+주문/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.네 무통장 입금으로 해가 계좌 보내주세요",
+            "norm_text": "B.네 무통장 입금할게요 계좌 보내주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+무/XPN+통장/NNG+입금/NNG+할게요/XSV+EC+계좌/NNG+보내/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 18,
+            "text": "A.네 그럼 고객님 성함과 연락처 어떻게 되시나요",
+            "norm_text": "A.네 그럼 고객님 성함과 연락처 어떻게 되시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+고객/NNG+님/XSN+성함/NNG+과/JC+연락처/NNG+어떻게/MAG+되/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 19,
+            "text": "B.네 #@이름#이고 번호는 #@전번# 이요",
+            "norm_text": "B.네 #@이름#이고 번호는 #@전번# 이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 20,
+            "text": "A.네 상품 받으실 주소지 한 번 알려주시겠어요",
+            "norm_text": "A.네 상품 받으실 주소지 한 번 알려주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+상품/NNG+받/VV+으실/EP+ETM+주소지/NNG+한/MM+번/NNBC+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 21,
+            "text": "B.대구 #@주소#로 배송해 주세요",
+            "norm_text": "B.대구 #@주소#로 배송해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+대구/NNP+#/SY+@/SY+주소/NNG+#/SY+로/JKB+배송/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 22,
+            "text": "A.네 그러면 제가 문자로 계좌 번호랑 입금 금액이랑 해서 보내드릴게요",
+            "norm_text": "A.네 문자로 계좌 번호랑 입금 금액이랑 해서 보내드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+문자/NNG+로/JKB+계좌/NNG+번호/NNG+랑/JKB+입금/NNG+금액/NNG+이랑/JKB+해서/VV+EC+보내/VV+드릴게요/EC+VX+EC"
+          },
+          {
+            "id": 23,
+            "text": "B.예 그렇게 해주세요",
+            "norm_text": "B.예 그렇게 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+그렇게/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 24,
+            "text": "A.네 감사합니다 좋은 하루 되십시오",
+            "norm_text": "A.네 감사합니다 좋은 하루 되십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+되/XSV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

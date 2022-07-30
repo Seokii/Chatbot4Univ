@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 60275,
+    "name": "s1_20211021_0002_0087_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151252038270/s1_20211021_0002_0087_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151252038270/s1_20211021_0002_0087_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8411,
+      "filename": "s1_20210825_0015_0047_01.txt",
+      "title": "s1_20210825_0015_0047_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 336,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 336,
+        "word_size": 79,
+        "text": "A.안녕하세요 고객님 무엇을 도와드릴까요\nB.예 제가 김치냉장고 사용법 때문에 홈페이지에 문의를 남겼어요\nA.네 #@이름# 고객님 확인되셨구요 말씀해 주세요\nB.#@상품#이고요 어렵진 않으시죠\nA.네 모델명 확인했고요 제가 제품을 찾아보니까요\nA.전원을 끄는 기능은 따로 없고요 메뉴만 변경 가능해요\nB.그럼 끄지는 못한다는 거죠\nA.네 맞습니다 끄려면 전원 코드를 빼셔야 하는데요\nA.그러면 다 꺼지기 때문에 아예 사용을 덜하실 칸 메뉴를요\nB.잠시만요 천천히 말씀해 주세요\nA.네 고객님 야채 과일로 설정하시면 가장 냉기가 덜한 온도여서요\nA.이쪽이 전기세는 좀 덜 나오게 될 겁니다\nB.그래요 답변해 주셔서 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 제가 김치냉장고 사용법 때문에 홈페이지에 문의를 남겼어요",
+            "norm_text": "B.예 제가 김치냉장고 사용법 때문에 홈페이지에 문의를 남겼어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+제/NP+가/JKS+김치냉장고/NNG+사용법/NNG+때문/NNB+에/JKB+홈페이지/NNG+에/JKB+문의/NNG+를/JKO+남겼/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 #@이름# 고객님 확인되셨구요 말씀해 주세요",
+            "norm_text": "A.네 #@이름# 고객님 확인되셨구요 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+확인/NNG+되/XSV+셨/EP+EP+구요/EF+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@상품#이고요 어렵진 않으시죠",
+            "norm_text": "B.#@상품#이고요 어렵진 않으시죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+이/VCP+고요/EC+어렵/VA+진/EC+JX+않/VX+으시/EP+죠/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 모델명 확인했고요 제가 제품을 찾아보니까요",
+            "norm_text": "A.네 모델명 확인했고요 제가 제품을 찾아보니까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+네모/NNG+델/NNB+JKO+명/XPN+확인/NNG+했/XSV+EP+고/EC+요제/NNG+가/JKS+제품/NNG+을/JKO+찾아보/VV+니까요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.전원을 끄는 기능은 따로 없고요 메뉴만 변경 가능해요",
+            "norm_text": "A.전원을 끄는 기능은 따로 없고요 메뉴만 변경 가능해요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전원/NNG+을/JKO+끄/VV+는/ETM+기능/NNG+은/JX+따로/MAG+없/VA+고요/EC+메뉴/NNG+만/JX+변경/NNG+가능/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그럼 끄지는 못한다는 거죠",
+            "norm_text": "B.그럼 끄지는 못한다는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+끄/VV+지/EC+는/JX+못/MAG+한다는/VV+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 맞습니다 끄려면 전원 코드를 빼셔야 하는데요",
+            "norm_text": "A.네 맞습니다 끄려면 전원 코드를 빼셔야 하는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+끄/VV+려면/EC+전원/NNG+코드/NNG+를/JKO+빼/VV+셔야/EP+EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그러면 다 꺼지기 때문에 아예 사용을 덜하실 칸 메뉴를요",
+            "norm_text": "A.그러면 다 꺼지기 때문에 아예 사용을 덜하실 칸 메뉴를요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러면/MAJ+다/MAG+꺼지/VV+기/ETN+때문/NNB+에/JKB+아예/MAG+사용/NNG+을/JKO+덜하/VV+실/EP+ETM+칸/NNG+메뉴/NNG+를/JKO+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "B.잠시만요 천천히 말씀해 주세요",
+            "norm_text": "B.잠시만요 천천히 말씀해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+잠시/NNG+만/JX+요/JX+천천히/MAG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 고객님 야채 과일로 설정하시면 가장 냉기가 덜한 온도여서요",
+            "norm_text": "A.네 고객님 야채 과일로 설정하시면 가장 냉기가 덜한 온도여서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+야채/NNG+과일/NNG+로/JKB+설정/NNG+하/XSV+시/EP+면/EC+가장/MAG+냉기/NNG+가/JKS+덜한/VA+ETM+온도/NNG+여서요/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.이쪽이 전기세는 좀 덜 나오게 될 겁니다",
+            "norm_text": "A.이쪽이 전기세는 좀 덜 나오게 될 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+이쪽/NP+이/JKS+전기세/NNG+는/JX+좀/MAG+덜/MAG+나오/VV+게/EC+될/VV+ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그래요 답변해 주셔서 감사합니다",
+            "norm_text": "B.그래요 답변해 주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그래요/VV+EF+답변/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

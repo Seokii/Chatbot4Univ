@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140676,
+    "name": "t1_20211115_0002_0237_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357130343100/t1_20211115_0002_0237_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357130343100/t1_20211115_0002_0237_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147784,
+      "filename": "t1_0060_0010_02.txt",
+      "title": "t1_0060_0010_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 287,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 287,
+        "word_size": 69,
+        "text": "A.안녕하십니까 #@소속# 입니다\nB.아 네 게스트하우스 예약한 사람인데요 픽업 예약을 하려고요\nA.네 그러세요 예약 확인을 위해서 성함과 연락처 말씀부탁 드립니다\nB.네 #@이름#이고요 #@전번# 입니다\nA.10월 20일 예약하셨네요 총 몇 분이 이동하시나요\nB.아 3명 이서 갈 거에요\nA.네 픽업은 오후 5시에 춘천역에서 해드립니다\nB.음 오후 5시요 조금 늦은 시간이네요 그전에는 안될까요\nA.네 죄송하지만 예약하신 다른 분들도 계셔서요\nB.그렇네요 할 수 없죠 뭐 그럼 5시에 뵐게요\nA.네 그럼 그때 뵙겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.아 네 게스트하우스 예약한 사람인데요 픽업 예약을 하려고요",
+            "norm_text": "B.아 네 게스트하우스 예약한 사람인데요 픽업 예약을 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아/IC+네게스트/NNP+하우스/NNP+예약/NNG+한/XSA+ETM+사람/NNG+인데요/VCP+EC+픽업/NNG+예약/NNG+을/JKO+하/VV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 그러세요 예약 확인을 위해서 성함과 연락처 말씀부탁 드립니다",
+            "norm_text": "A.네 그러세요 예약 확인을 위해서 성함과 연락처 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+그러/VV+세요/EP+EF+예약/NNG+확인/NNG+을/JKO+위해서/VV+EC+성함/NNG+과/JC+연락처/NNG+말씀/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@이름#이고요 #@전번# 입니다",
+            "norm_text": "B.네 #@이름#이고요 #@전번# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.10월 20일 예약하셨네요 총 몇 분이 이동하시나요",
+            "norm_text": "A.10월 20일 예약하셨네요 총 몇 분이 이동하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+10/SN+월/NNBC+20/SN+일/NNBC+예약/NNG+하/XSV+셨/EP+EP+네요/EF+총/MM+몇/MM+분/NNBC+이/JKS+이동/NNG+하/XSV+시/EP+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아 3명 이서 갈 거에요",
+            "norm_text": "B.아 3명 이서 갈 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아/IC+3/SN+명/NNBC+이/XSN+서/JKS+갈/VV+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 픽업은 오후 5시에 춘천역에서 해드립니다",
+            "norm_text": "A.네 픽업은 오후 5시에 춘천역에서 해드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+픽업/NNG+은/JX+오후/NNG+5/SN+시/NNBC+에/JKB+춘천역/NNP+에서/JKB+해/VV+EC+드립니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.음 오후 5시요 조금 늦은 시간이네요 그전에는 안될까요",
+            "norm_text": "B.음 오후 5시요 조금 늦은 시간이네요 그전에는 안될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+음/IC+오후/NNG+5/SN+시/NNBC+요/JX+조금/MAG+늦/VA+은/ETM+시간/NNG+이/VCP+네요/EF+그/MM+전/NNG+에/JKB+는/JX+안/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 죄송하지만 예약하신 다른 분들도 계셔서요",
+            "norm_text": "A.네 죄송하지만 예약하신 다른 분들도 계셔서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+죄송/XR+하/XSA+지만/EC+예약/NNG+하/XSV+신/EP+ETM+다른/MM+분/NNB+들/XSN+도/JX+계셔/VV+EC+서요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "B.그렇네요 할 수 없죠 뭐 그럼 5시에 뵐게요",
+            "norm_text": "B.그렇네요 할 수 없죠 뭐 그럼 5시에 뵐게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그렇/VA+네요/EC+할/VX+ETM+수/NNB+없/VA+죠/EF+뭐/IC+그럼/MAJ+5/SN+시/NNBC+에/JKB+뵐/VV+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 그럼 그때 뵙겠습니다 감사합니다",
+            "norm_text": "A.네 그럼 그때 뵙겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+그때/NNG+뵙/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

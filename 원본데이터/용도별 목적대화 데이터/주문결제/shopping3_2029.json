@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 115913,
+    "name": "s3_20211105_0005_0079_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110831073824/s3_20211105_0005_0079_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110831073824/s3_20211105_0005_0079_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119630,
+      "filename": "s3_20211027_0007_0008_01.txt",
+      "title": "s3_20211027_0007_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 256,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 256,
+        "word_size": 55,
+        "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.네 안녕하세요 문의 드릴 게 있어서요\nA.네 어떤 문의이실까요 고객님\nB.#@소속# 쿠폰은 어떻게 사용하나요\nA.신규 회원에게 발급되는 쿠폰으로 온오프라인 매장에서 사용 가능합니다\nB.오프라인도 사용이 가능하다고요\nA.가입일로부터 삼십 일 이내에만 사용 가능합니다\nB.네 알겠습니다 감사합니다\nA.또 다른 문의 사항 있으십니까\nB.아뇨 없습니다 감사합니다 수고하세요\nA.네 좋은 하루 되십시오 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 고객님 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의 드릴 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의이실까요 고객님",
+            "norm_text": "A.네 어떤 문의이실까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속# 쿠폰은 어떻게 사용하나요",
+            "norm_text": "B.#@소속# 쿠폰은 어떻게 사용하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+쿠폰/NNG+은/JX+어떻게/MAG+사용/NNG+하/XSV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.신규 회원에게 발급되는 쿠폰으로 온오프라인 매장에서 사용 가능합니다",
+            "norm_text": "A.신규 회원에게 발급되는 쿠폰으로 온오프라인 매장에서 사용 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+신규/NNG+회원/NNG+에게/JKB+발급/NNG+되/XSV+는/ETM+쿠폰/NNG+으로/JKB+온/VV+ETM+오프라인/NNG+매장/NNG+에서/JKB+사용/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.오프라인도 사용이 가능하다고요",
+            "norm_text": "B.오프라인도 사용이 가능하다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+오프라인/NNG+도/JX+사용/NNG+이/JKS+가능/NNG+하/XSV+다고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.가입일로부터 삼십 일 이내에만 사용 가능합니다",
+            "norm_text": "A.가입일로부터 삼십 일 이내에만 사용 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가입/NNG+일/NNG+로부터/JKB+삼/NR+십/NR+일/NNBC+이내/NNG+에/JKB+만/JX+사용/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.또 다른 문의 사항 있으십니까",
+            "norm_text": "A.또 다른 문의 사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+또/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.아뇨 없습니다 감사합니다 수고하세요",
+            "norm_text": "B.아뇨 없습니다 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아뇨/IC+없/VA+습니다/EF+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 좋은 하루 되십시오 감사합니다",
+            "norm_text": "A.네 좋은 하루 되십시오 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+되/XSV+십시오/EP+EC+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 58591,
+    "name": "c1_20211020_0002_0036_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130755097112/c1_20211020_0002_0036_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130755097112/c1_20211020_0002_0036_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50940,
+      "filename": "c1_20210908_0022_0001_01.txt",
+      "title": "c1_20210908_0022_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 461,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 461,
+        "word_size": 99,
+        "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다\nA.예 여쭤보시고 싶은게 어떤 사항이신가요\nB.제가 사는 지역이 시골인데요 도로가 너무 없어서요\nA.예 고객님 거주하시는 지역이 어디신가요\nB.네 영양군 수비면 #@주소# 쪽입니다\nA.예 확인 감사합니다 고객님 거주중이신 지역에 통행에 어려움이 있다는 말씀이신거죠\nB.예 워낙 시골이라 차도 잘 못다니는 길들이 태반이에요\nA.많이 불편하시겠습니다 저희가 확인을 해봤는데요\nA.말씀하신 지역이 토석 채취 야생동물등의 서식지라 훼손행위가 제한되고 있어요\nB.그럼 이 불편한 길을 고칠 수 없는 건가요\nA.해당 지자체 담당부서로 한번 연락을 해보심이 어떠실까요\nB.이 지역 담당 부서 전화번호가 어떻게 되는데요\nA.불러드릴게요 전화번호 #@전번#입니다\nB.그렇군요 알겠습니다 다른 문의사항 있으면 전화드릴게요\nA.네 감사합니다 상담원 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "norm_text": "B.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 여쭤보시고 싶은게 어떤 사항이신가요",
+            "norm_text": "A.예 여쭤보시고 싶은게 어떤 사항이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+어떤/MM+사항/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 사는 지역이 시골인데요 도로가 너무 없어서요",
+            "norm_text": "B.제가 사는 지역이 시골인데요 도로가 너무 없어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+제/NP+가/JKS+사/VV+는/ETM+지역/NNG+이/JKS+시골/NNG+인데요/VCP+EC+도로/NNG+가/JKS+너무/MAG+없/VA+어서요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 고객님 거주하시는 지역이 어디신가요",
+            "norm_text": "A.예 고객님 거주하시는 지역이 어디신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+거주/NNG+하/XSV+시/EP+는/ETM+지역/NNG+이/JKS+어디/NP+신가요/VCP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 영양군 수비면 #@주소# 쪽입니다",
+            "norm_text": "B.네 영양군 수비면 #@주소# 쪽입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+영양군/NNP+수비면/NNP+#/SY+@/SY+주소/NNG+#/SY+쪽/NNB+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.예 확인 감사합니다 고객님 거주중이신 지역에 통행에 어려움이 있다는 말씀이신거죠",
+            "norm_text": "A.예 고객님 거주중이신 지역에 통행에 어려움이 있다는 말씀이신거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+확인/NNG+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+거주/NNG+중/NNB+이/VCP+신/EP+ETM+지역/NNG+에/JKB+통행/NNG+에/JKB+어려움/NNG+이/JKS+있/VV+다는/ETM+말씀/NNG+이/VCP+신/EP+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.예 워낙 시골이라 차도 잘 못다니는 길들이 태반이에요",
+            "norm_text": "B.예 워낙 시골이라 차도 잘 못다니는 길들이 태반이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+워낙/MAG+시골/NNG+이/VCP+라/EC+차/NNG+도/JX+잘못/MAG+다니/VV+는/ETM+길/NNG+들/XSN+이/JKS+태반/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.많이 불편하시겠습니다 저희가 확인을 해봤는데요",
+            "norm_text": "A.많이 불편하시겠습니다 저희가 확인을 해봤는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+많이/MAG+불편/NNG+하/XSV+시/EP+겠/EP+습니다/EF+저희/NP+가/JKS+확인/NNG+을/JKO+해/VV+EC+봤/VX+EP+는데요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.말씀하신 지역이 토석 채취 야생동물등의 서식지라 훼손행위가 제한되고 있어요",
+            "norm_text": "A.그 지역이 토석 채취 야생동물등의 서식지라 훼손행위가 제한되고 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+지역/NNG+이/JKS+토석/NNG+채취/NNG+야생/NNG+동물/NNG+등/NNB+의/JKG+서식지/NNG+라/VCP+EC+훼손/NNG+행위/NNG+가/JKS+제한/NNG+되/XSV+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그럼 이 불편한 길을 고칠 수 없는 건가요",
+            "norm_text": "B.그럼 이 불편한 길을 고칠 수 없는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+이/MM+불편/NNG+한길/NNG+을/JKO+고칠/VV+ETM+수/NNB+없/VA+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.해당 지자체 담당부서로 한번 연락을 해보심이 어떠실까요",
+            "norm_text": "A.해당 지자체 담당부서로 한번 연락을 해보심이 어떠실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+해당/NNG+지자체/NNG+담당/NNG+부서/NNG+로/JKB+한번/MAG+연락/NNG+을/JKO+해/VV+EC+보/VX+심/EP+ETN+이/JKS+어떠실까/VA+EP+EC+요/JX"
+          },
+          {
+            "id": 13,
+            "text": "B.이 지역 담당 부서 전화번호가 어떻게 되는데요",
+            "norm_text": "B.이 지역 담당 부서 전화번호가 어떻게 되는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이/MM+지역/NNG+담당/NNG+부서/NNG+전화/NNG+번호/NNG+가/JKS+어떻게/MAG+되/VV+는데요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.불러드릴게요 전화번호 #@전번#입니다",
+            "norm_text": "A.불러드릴게요 전화번호 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+불러/VV+EC+드릴게요/VX+EC+전화/NNG+번호/NNG+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.그렇군요 알겠습니다 다른 문의사항 있으면 전화드릴게요",
+            "norm_text": "B.그렇군요 알겠습니다 다른 문의사항 있으면 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으면/EC+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 감사합니다 상담원 #@이름#였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

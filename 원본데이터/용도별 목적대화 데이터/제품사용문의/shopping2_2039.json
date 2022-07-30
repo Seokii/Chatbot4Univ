@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 109034,
+    "name": "s2_20211104_0001_3398_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110642037499/s2_20211104_0001_3398_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110642037499/s2_20211104_0001_3398_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115069,
+      "filename": "s2_20211001_0019_0008_01.txt",
+      "title": "s2_20211001_0019_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 299,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 299,
+        "word_size": 67,
+        "text": "A.안녕하십니까 #@소속# #@이름#상담사 입니다\nB.수고하십니다 제가 문의할 게 있어서 전화 드려요\nA.그러시군요 문의 사항 말씀해주세요\nB.체크인 시 바우처를 꼭 제시해야 하나요\nA.국내숙박 문의 맞으시지요\nB.달리 어딜 가나요 맞아요\nA.입실 시 바우처 지참이 필수는 아니십니다\nA.하지만 빠른 체크인에 도움이 되실 수 있어요\nB.그러니까 필수는 아니지만 지참하라는 겁니까\nA.편의성 부분에서 도움 되실 거에요\nB.알겠습니다 그러면 지참할게요\nA.더 필요하신 문의 사항 있으십니까\nB.아니요 없어요 수고하세요\nA.즐거운 하루 되십시오 #@소속# 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# #@이름#상담사 입니다",
+            "norm_text": "A.안녕하십니까 #@소속# #@이름#상담사 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고하십니다 제가 문의할 게 있어서 전화 드려요",
+            "norm_text": "B.수고하십니다 제가 문의할 게 있어서 전화 드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+제/NP+가/JKS+문의/NNG+할/XSV+ETM+게/NNB+JKS+있/VA+어서/EC+전화/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.그러시군요 문의 사항 말씀해주세요",
+            "norm_text": "A.그러시군요 문의 사항 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그러/VV+시/EP+군요/EC+문/NNG+의/JKG+사항/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.체크인 시 바우처를 꼭 제시해야 하나요",
+            "norm_text": "B.체크인 시 바우처를 꼭 제시해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+체크/NNG+인시/NNG+바우처/NNG+를/JKO+꼭/MAG+제시/NNG+해야/XSV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.국내숙박 문의 맞으시지요",
+            "norm_text": "A.국내숙박 문의 맞으시지요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+국내/NNG+숙박/NNG+문/NNG+의/JKG+맞/VV+으시/EP+지요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.달리 어딜 가나요 맞아요",
+            "norm_text": "B.달리 어딜 가나요 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+달리/MAG+어딜/NP+JKO+가/VV+나요/EC+맞/VV+아요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.입실 시 바우처 지참이 필수는 아니십니다",
+            "norm_text": "A.입실 시 바우처 지참이 필수는 아니십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+입/NNG+실시/NNG+바우처/NNG+지참/NNG+이/JKS+필수/NNG+는/JX+아니/VCN+십니다/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.하지만 빠른 체크인에 도움이 되실 수 있어요",
+            "norm_text": "A.하지만 빠른 체크인에 도움이 되실 수 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+하지만/MAJ+빠른/VA+ETM+체크인/NNG+에/JKB+도움/NNG+이/JKS+되/VV+실/EP+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그러니까 필수는 아니지만 지참하라는 겁니까",
+            "norm_text": "B.그러니까 필수는 아니지만 지참하라는 겁니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러니까/MAJ+필수/NNG+는/JX+아니/VCN+지만/EC+지참/NNG+하/XSV+라는/ETM+겁니까/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.편의성 부분에서 도움 되실 거에요",
+            "norm_text": "A.편의성 부분에서 도움 되실 거에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+편의/NNG+성/XSN+부분/NNG+에서/JKB+도움/NNG+되/XSV+실/EP+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.알겠습니다 그러면 지참할게요",
+            "norm_text": "B.알겠습니다 그러면 지참할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그러면/MAJ+지참/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.더 필요하신 문의 사항 있으십니까",
+            "norm_text": "A.더 필요하신 문의 사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+필요/NNG+하/XSV+신/EP+ETM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.아니요 없어요 수고하세요",
+            "norm_text": "B.아니요 없어요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아니요/IC+없/VA+어요/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.즐거운 하루 되십시오 #@소속# 였습니다",
+            "norm_text": "A.즐거운 하루 되십시오 #@소속# 였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+되/XSV+십시오/EP+EC+#/SY+@/SY+소속/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

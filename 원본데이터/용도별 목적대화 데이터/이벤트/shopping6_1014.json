@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 100734,
+    "name": "s6_20211103_0011_0418_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111017054384/s6_20211103_0011_0418_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111017054384/s6_20211103_0011_0418_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 123233,
+      "filename": "s6_20211006_0007_0001_01.txt",
+      "title": "s6_20211006_0007_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 293,
+      "annotations": {
+        "subject": "이벤트",
+        "speaker_type": "1:1",
+        "size": 293,
+        "word_size": 69,
+        "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.네 안녕하세요 문의드릴 게 있어서요\nA.네 어떤 문의이실까요 고객님\nB.쿠폰이나 이벤트 코드 같은 고객 혜택 수단이 적용순서가 어떻게 되나요\nA.#@소속#의 회원으로 가입하시면 삼 프로의 할인 혜택을 적용해드립니다\nA.쿠폰과 이벤트 코드는 이 회원가를 기준으로 적용됩니다\nB.그럼 회원 혜택인 삼 프로가 먼저 적용이 되고 그 후에 쿠폰이 적용이 되는 거네요\nA.네 말씀 하신 대로입니다\nB.네 알겠습니다 정말 감사해요\nA.네 좋은 하루 되시길 바랍니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의이실까요 고객님",
+            "norm_text": "A.네 어떤 문의이실까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.쿠폰이나 이벤트 코드 같은 고객 혜택 수단이 적용순서가 어떻게 되나요",
+            "norm_text": "B.쿠폰이나 이벤트 코드 같은 고객 혜택 수단이 적용순서가 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+쿠폰/NNG+이나/JC+이벤트/NNG+코드/NNG+같/VA+은/ETM+고객/NNG+혜택/NNG+수단/NNG+이/JKS+적용/NNG+순서/NNG+가/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.#@소속#의 회원으로 가입하시면 삼 프로의 할인 혜택을 적용해드립니다",
+            "norm_text": "A.#@소속#의 회원으로 가입하시면 삼 프로의 할인 혜택을 적용해드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+의/JKG+회원/NNG+으로/JKB+가입/NNG+하/XSV+시/EP+면/EC+삼/NR+프로/NNBC+의/JKG+할인/NNG+혜택/NNG+을/JKO+적용/NNG+해/XSV+EC+드립니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.쿠폰과 이벤트 코드는 이 회원가를 기준으로 적용됩니다",
+            "norm_text": "A.쿠폰과 이벤트 코드는 이 회원가를 기준으로 적용됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+쿠폰/NNG+과/JC+이벤트/NNG+코드/NNG+는/JX+이회/NNG+원가/NNG+를/JKO+기준/NNG+으로/JKB+적용/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그럼 회원 혜택인 삼 프로가 먼저 적용이 되고 그 후에 쿠폰이 적용이 되는 거네요",
+            "norm_text": "B.그럼 회원 혜택인 삼 프로가 먼저 적용이 되고 그 후에 쿠폰이 적용이 되는 거네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+회원/NNG+혜택/NNG+인/VCP+ETM+삼/NR+프로/NNBC+가/JKS+먼저/MAG+적용/NNG+이/JKS+되/VV+고/EC+그/MM+후/NNG+에/JKB+쿠폰/NNG+이/JKS+적용/NNG+이/JKS+되/VV+는/ETM+거/NNB+네요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 말씀 하신 대로입니다",
+            "norm_text": "A.네 말씀 하신 대로입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+말씀/NNG+하/XSV+신/EP+ETM+대로/NNB+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠습니다 정말 감사해요",
+            "norm_text": "B.네 알겠습니다 정말 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+정말/MAG+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 좋은 하루 되시길 바랍니다 감사합니다",
+            "norm_text": "A.네 좋은 하루 되시길 바랍니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

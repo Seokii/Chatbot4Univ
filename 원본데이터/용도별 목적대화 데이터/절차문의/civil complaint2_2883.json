@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 50423,
+    "name": "c2_20211018_0005_0034_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130947000572/c2_20211018_0005_0034_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130947000572/c2_20211018_0005_0034_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 52464,
+      "filename": "c2_20210923_0024_0003_01.txt",
+      "title": "c2_20210923_0024_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 279,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 279,
+        "word_size": 61,
+        "text": "A.반갑습니다 #@소속# #@이름# 상담원입니다\nB.안녕하세요 제가 사료 제조업 등록증을 잃어버려서요\nB.이거 재발급 신청 하려는데 어떻게 해야 하죠\nA.네 고객님 이거는 방문이나 우편 팩스로 가능하십니다\nB.팩스기는 없고요 이거 #@소속#으로 방문하면 되나요\nA.네 고객님 그 쪽으로 방문해주시거나 #@소속#으로 우편 보내셔도 되요\nB.우편은 불편해서요 알겠어요 방문할게요\nA.네 고객님 알겠습니다 다른 문의 사항은 없으신가요\nB.네 없어요 감사합니다\nA.좋은 하루 보내세요 고객님\nB.수고하세요 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름# 상담원입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 제가 사료 제조업 등록증을 잃어버려서요",
+            "norm_text": "B.안녕하세요 제가 사료 제조업 등록증을 잃어버려서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+사료/NNG+제조업/NNG+등록증/NNG+을/JKO+잃어버려/VV+EC+서요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "B.이거 재발급 신청 하려는데 어떻게 해야 하죠",
+            "norm_text": "B.이거 재발급 신청을 하려는데 어떻게 해야 하죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이거/NP+재/XPN+발급/NNG+신청/NNG+하/XSV+려는데/EC+어떻게/MAG+해야/VV+EC+하/VX+죠/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.네 고객님 이거는 방문이나 우편 팩스로 가능하십니다",
+            "norm_text": "A.네 고객님 이거는 방문이나 우편 팩스로 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+이거/NP+는/JX+방문/NNG+이나/JC+우편/NNG+팩스/NNG+로/JKB+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.팩스기는 없고요 이거 #@소속#으로 방문하면 되나요",
+            "norm_text": "B.팩스기는 없고요 #@소속#으로 방문하면 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+팩/MAG+스/VV+기/ETN+는/JX+없/VA+고요/EF+이거/NP+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+방문/NNG+하/XSV+면/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 고객님 그 쪽으로 방문해주시거나 #@소속#으로 우편 보내셔도 되요",
+            "norm_text": "A.고객님 그쪽으로 방문해 주시거나 #@소속#으로 우편을 보내셔도 돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+그쪽/NP+으로/JKB+방문/NNG+해/XSV+EC+주/VX+시/EP+거나/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+우편/NNG+을/JKO+보내/VV+셔도/EP+EC+돼요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.우편은 불편해서요 알겠어요 방문할게요",
+            "norm_text": "B.우편은 불편해서요 알겠어요 방문할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+우편/NNG+은/JX+불편/NNG+해서/XSV+EC+요알/NNG+겠/VCP+EP+어요/EF+방문/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 고객님 알겠습니다 다른 문의 사항은 없으신가요",
+            "norm_text": "A.네 고객님 알겠습니다 다른 문의 사항은 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+알/VV+겠/EP+습니다/EF+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "B.네 없어요 감사합니다",
+            "norm_text": "B.네 없어요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+없/VA+어요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.좋은 하루 보내세요 고객님",
+            "norm_text": "A.좋은 하루 보내세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 11,
+            "text": "B.수고하세요 좋은 하루 보내세요",
+            "norm_text": "B.수고하세요 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+세요/EP+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

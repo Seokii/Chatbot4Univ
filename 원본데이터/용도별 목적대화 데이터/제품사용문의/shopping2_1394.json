@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 102861,
+    "name": "s2_20211103_0002_0231_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110733086361/s2_20211103_0002_0231_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110733086361/s2_20211103_0002_0231_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116720,
+      "filename": "s2_20211027_0012_0001_01.txt",
+      "title": "s2_20211027_0012_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 234,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 234,
+        "word_size": 56,
+        "text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다\nB.네 커튼 사이즈 알 수 있을까요\nA.상품명이 뭔지 말씀해주시겠어요\nB.그게 #@상품#인 거 같아요\nA.네 확인해보겠습니다 가로 세로 사이즈 안내드릴까요\nB.네 제가 작은 창문에 할 건데 세로가 중요해요\nA.네 가로는 백삼십이고 세로는 백칠십입니다\nB.그래요 세로 조금 더 짧은 거는 없나요\nA.네 다 동일 규격입니다\nB.동일 규격요 네 알겠습니다\nA.감사합니다 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다",
+            "norm_text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 커튼 사이즈 알 수 있을까요",
+            "norm_text": "B.네 커튼 사이즈 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+커튼/NNG+사이즈/NNG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.상품명이 뭔지 말씀해주시겠어요",
+            "norm_text": "A.상품명이 뭔지 말씀해주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+상품명/NNG+이/JKS+뭔지/NP+VCP+EC+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그게 #@상품#인 거 같아요",
+            "norm_text": "B.그게 #@상품#인 거 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그게/NP+JKS+#/SY+@/SY+상품/NNG+#/SY+인/VCP+ETM+거/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 확인해보겠습니다 가로 세로 사이즈 안내드릴까요",
+            "norm_text": "A.네 확인해보겠습니다 가로 세로 사이즈 안내드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF+가로세로/NNG+사이즈/NNG+안/MAG+내/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 제가 작은 창문에 할 건데 세로가 중요해요",
+            "norm_text": "B.네 제가 작은 창문에 할 건데 세로가 중요해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+작/VA+은/ETM+창문/NNG+에/JKB+할/VV+ETM+건데/NNB+VCP+EC+세로/NNG+가/JKS+중요/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 가로는 백삼십이고 세로는 백칠십입니다",
+            "norm_text": "A.네 가로는 백삼십이고 세로는 백칠십입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+가로/NNG+는/JX+백/NR+삼/NR+십/NR+이/VCP+고/EC+세로/NNG+는/JX+백/NR+칠/NR+십/NR+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그래요 세로 조금 더 짧은 거는 없나요",
+            "norm_text": "B.그래요 세로 조금 더 짧은 거는 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래/IC+요세/NNG+로/JKB+조금/MAG+더/MAG+짧/VA+은/ETM+거/NNB+는/JX+없/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 다 동일 규격입니다",
+            "norm_text": "A.네 다 동일 규격입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+다/MAG+동일/NNG+규격/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.동일 규격요 네 알겠습니다",
+            "norm_text": "B.동일 규격요 네 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+동일/NNG+규격/NNG+요네/NNG+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 좋은 하루 보내세요",
+            "norm_text": "A.감사합니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

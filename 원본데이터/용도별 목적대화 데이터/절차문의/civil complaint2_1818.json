@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 45209,
+    "name": "c2_20211014_0005_0230_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130950087788/c2_20211014_0005_0230_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130950087788/c2_20211014_0005_0230_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 52896,
+      "filename": "c2_20210924_0014_0010_01.txt",
+      "title": "c2_20210924_0014_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 524,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 524,
+        "word_size": 132,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.저 문화 누리 카드 사용 중인데요\nA.네 말씀 주시면 답변 드리겠습니다\nB.문화 누리 카드 결제가 안 되서 문의 드릴려구요\nA.일단 문화 누리 카드 이용에 불편을 드려 죄송합니다\nA..혹시 영수증 제출 해주셨을 까요\nB.네 영수증 제출 했어요\nA.네 주소 말씀 주시면 안내드리겠습니다\nB.네 주소는 #@주소# 입니다\nA.네 확인 감사합니다\nA.조회 했을 때 결제에 문제가 있는 가맹점은 #@소속#으로 확인됩니다\nA.언제 결제 하셨는 지 확인 해 주세요\nB.팔 월 십 이 일에 결제 했어요\nA.#@기타# 카드로 결제 하신 거 맞으시죠\nB.네 맞아요 그걸로 결제 했어요\nA.현재 가맹점 번호를 신규로 등록해서 발생한 오류 같습니다\nB.그럼 어떻게 해야 하나요\nA.저희 쪽에서 문화 누리 카드로 결제 가능하도록 조치 했습니다\nA.그리고 담당자에게 직접 찾아가서 정상적으로 결제 되고 있는지요\nA.직접 찾아서 한 번 더 확인 해 보겠습니다\nB.네 알겠습니다 자세한 답변 너무 감사합니다\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저 문화 누리 카드 사용 중인데요",
+            "norm_text": "B.저 문화 누리 카드 사용 중인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/MM+문화/NNG+누리/NNG+카드/NNG+사용/NNG+중/NNB+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 말씀 주시면 답변 드리겠습니다",
+            "norm_text": "A.네 말씀 주시면 답변 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+말씀/NNG+주/VV+시/EP+면/EC+답변/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.문화 누리 카드 결제가 안 되서 문의 드릴려구요",
+            "norm_text": "B.문화 누리 카드 결제가 안 되서 문의 드릴려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+문화/NNG+누리/NNG+카드/NNG+결제/NNG+가/JKS+안/MAG+되/VV+서/EC+문/NNG+의/JKG+드릴려구요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.일단 문화 누리 카드 이용에 불편을 드려 죄송합니다",
+            "norm_text": "A.일단 문화 누리 카드 이용에 불편을 드려 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+일단/MAG+문화/NNG+누리/NNG+카드/NNG+이용/NNG+에/JKB+불편/NNG+을/JKO+드려/VV+EC+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 6,
+            "text": "A..혹시 영수증 제출 해주셨을 까요",
+            "norm_text": "A..혹시 영수증 제출 해주셨을 까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+혹시/MAG+영수증/NNG+제출/NNG+해/XSV+EC+주/VX+셨/EP+EP+을까요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 영수증 제출 했어요",
+            "norm_text": "B.네 영수증 제출 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+영수증/NNG+제출/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 주소 말씀 주시면 안내드리겠습니다",
+            "norm_text": "A.네 주소 말씀 주시면 안내드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+주소/NNG+말씀/NNG+주/VV+시/EP+면/EC+안/MAG+내드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 주소는 #@주소# 입니다",
+            "norm_text": "B.네 주소는 #@주소# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+주소/NNG+는/JX+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 확인 감사합니다",
+            "norm_text": "A.네 확인 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.조회 했을 때 결제에 문제가 있는 가맹점은 #@소속#으로 확인됩니다",
+            "norm_text": "A.조회 했을 때 결제에 문제가 있는 가맹점은 #@소속#으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+조회/NNG+했/XSV+EP+을/ETM+때/NNG+결제/NNG+에/JKB+문제/NNG+가/JKS+있/VA+는/ETM+가맹점/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.언제 결제 하셨는 지 확인 해 주세요",
+            "norm_text": "A.언제 결제 하셨는 지 확인 해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+언제/MAG+결제/NNG+하/XSV+셨/EP+EP+는지/EC+확인/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.팔 월 십 이 일에 결제 했어요",
+            "norm_text": "B.팔 월 십 이 일에 결제 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+팔월/NNG+십/NR+이/NR+일/NNBC+에/JKB+결제/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.#@기타# 카드로 결제 하신 거 맞으시죠",
+            "norm_text": "A.#@기타# 카드로 결제 하신 거 맞으시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+카드/NNG+로/JKB+결제/NNG+하/XSV+신/EP+ETM+거/NNB+맞/VV+으시/EP+죠/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.네 맞아요 그걸로 결제 했어요",
+            "norm_text": "B.네 맞아요 그걸로 결제 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+그걸로/NP+JKB+결제/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.현재 가맹점 번호를 신규로 등록해서 발생한 오류 같습니다",
+            "norm_text": "A.현재 가맹점 번호를 신규로 등록해서 발생한 오류 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+현재/NNG+가/JKS+맹점/NNG+번호/NNG+를/JKO+신규/NNG+로/JKB+등록/NNG+해서/XSV+EC+발생/NNG+한/XSA+ETM+오류/NNG+같/VA+습니다/EF"
+          },
+          {
+            "id": 17,
+            "text": "B.그럼 어떻게 해야 하나요",
+            "norm_text": "B.그럼 어떻게 해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+어떻게/MAG+해야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 18,
+            "text": "A.저희 쪽에서 문화 누리 카드로 결제 가능하도록 조치 했습니다",
+            "norm_text": "A.저희 쪽에서 문화 누리 카드로 결제 가능하도록 조치 했습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+쪽/NNB+에서/JKB+문화/NNG+누리/NNG+카드/NNG+로/JKB+결제/NNG+가능/NNG+하/XSV+도록/EC+조치/NNG+했/XSV+EP+습니다/EF"
+          },
+          {
+            "id": 19,
+            "text": "A.그리고 담당자에게 직접 찾아가서 정상적으로 결제 되고 있는지요",
+            "norm_text": "A.그리고 담당자에게 직접 찾아가서 정상적으로 결제 되고 있는지요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그리고/MAJ+담당자/NNG+에게/JKB+직접/MAG+찾아가/VV+서/EC+정상/NNG+적/XSN+으로/JKB+결제/NNG+되/XSV+고/EC+있/VX+는지요/EC"
+          },
+          {
+            "id": 20,
+            "text": "A.직접 찾아서 한 번 더 확인 해 보겠습니다",
+            "norm_text": "A.직접 찾아서 한 번 더 확인 해 보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+직접/MAG+찾/VV+아서/EC+한/MM+번/NNBC+더/MAG+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 21,
+            "text": "B.네 알겠습니다 자세한 답변 너무 감사합니다",
+            "norm_text": "B.네 알겠습니다 자세한 답변 너무 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+자세/XR+한/XSA+ETM+답변/NNG+너무/MAG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 22,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 100076,
+    "name": "s2_20211103_0001_3057_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110644050647/s2_20211103_0001_3057_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110644050647/s2_20211103_0001_3057_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115303,
+      "filename": "s2_20211006_0019_0002_01.txt",
+      "title": "s2_20211006_0019_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 353,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 353,
+        "word_size": 80,
+        "text": "A.안녕하십니까 #@소속# #@이름# 항공사 입니다\nB.안녕하세요 이번에 일본 여행 가려고 하는데요\nA.그러시군요 무엇을 도와드릴까요\nB.#@소속# 아직 운항하나요\nA.항공노선이 많이 줄었습니다 어느 도시로 가고 싶으십니까\nB.이번에 삿포로 가려구요\nA.삿포로는 오전 오후 한 번 씩 있으시네요\nB.아 사실 이거 말고 수화물 물어보려고 했는데요\nB.#@소속# 수화물 규정에 대해 알려주세요\nA.위탁 수화물은 십오 키로 까지 무료세요\nB.초과 요금은 얼마에요\nA.삼십이키로 초과 시 위탁 불가하고 킬로당 이천원씩 입니다\nB.기내 수화물도 알려주세요\nA.십 키로그램 이하만 가능하세요\nB.알았어요 그렇게 알고 있을게요 끊어요\nA.즐거운 여행 준비 되십시오 고객님",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# #@이름# 항공사 입니다",
+            "norm_text": "A.안녕하십니까 #@소속# #@이름# 항공사 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+항공사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 이번에 일본 여행 가려고 하는데요",
+            "norm_text": "B.안녕하세요 이번에 일본 여행 가려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+이번/NNG+에/JKB+일본/NNP+여행/NNG+가/VV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.그러시군요 무엇을 도와드릴까요",
+            "norm_text": "A.그러시군요 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+시/EP+군요/EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속# 아직 운항하나요",
+            "norm_text": "B.#@소속# 아직 운항하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+아직/MAG+운항/NNG+하/XSV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.항공노선이 많이 줄었습니다 어느 도시로 가고 싶으십니까",
+            "norm_text": "A.항공노선이 많이 줄었습니다 어느 도시로 가고 싶으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+항공/NNG+노선/NNG+이/JKS+많이/MAG+줄/VV+었/EP+습니다/EF+어느/MM+도시/NNG+로/JKB+가/VV+고/EC+싶/VX+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.이번에 삿포로 가려구요",
+            "norm_text": "B.이번에 삿포로 가려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이번/NNG+에/JKB+삿포로/NNP+가/VV+려구요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.삿포로는 오전 오후 한 번 씩 있으시네요",
+            "norm_text": "A.삿포로는 오전 오후 한 번 씩 있으시네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+삿포로/NNP+는/JX+오전/NNG+오후/NNG+한/MM+번/NNBC+씩/XSN+있/VA+으시/EP+네요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.아 사실 이거 말고 수화물 물어보려고 했는데요",
+            "norm_text": "B.아 사실 이거 말고 수화물 물어보려고 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아/IC+사실/MAG+이거/NP+말/VV+고/EC+수화물/NNG+물/VV+어/EC+보/VX+려고/EC+했/VX+EP+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.#@소속# 수화물 규정에 대해 알려주세요",
+            "norm_text": "B.#@소속# 수화물 규정에 대해 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+수화물/NNG+규정/NNG+에/JKB+대해/VV+EC+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.위탁 수화물은 십오 키로 까지 무료세요",
+            "norm_text": "A.위탁 수화물은 십오 키로 까지 무료세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+위탁/NNG+수화물/NNG+은/JX+십/NR+오/NR+키로/XSV+ETN+JKB+까지/JX+무료/NNG+세요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "B.초과 요금은 얼마에요",
+            "norm_text": "B.초과 요금은 얼마에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+초과/NNG+요금/NNG+은/JX+얼마/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 12,
+            "text": "A.삼십이키로 초과 시 위탁 불가하고 킬로당 이천원씩 입니다",
+            "norm_text": "A.삼십이키로 초과 시 위탁 불가하고 킬로당 이천원씩 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+삼/NR+십/NR+이/NR+키로/XSV+ETN+JKB+초/XPN+과시/NNG+위탁/NNG+불가/NNG+하/XSV+고/EC+킬로/NNG+당/XSN+이/NR+천/NR+원/NNBC+씩/XSN+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.기내 수화물도 알려주세요",
+            "norm_text": "B.기내 수화물도 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+기내/NNG+수화물/NNG+도/JX+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.십 키로그램 이하만 가능하세요",
+            "norm_text": "A.십 키로그램 이하만 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+십/NNG+키로/XSV+ETN+JKB+그램/NNG+이하/NNG+만/JX+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "B.알았어요 그렇게 알고 있을게요 끊어요",
+            "norm_text": "B.알았어요 그렇게 알고 있을게요 끊어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+았/EP+어요/EF+그렇게/MAG+알/VV+고/EC+있/VX+을게요/EC+끊/VV+어요/EF"
+          },
+          {
+            "id": 16,
+            "text": "A.즐거운 여행 준비 되십시오 고객님",
+            "norm_text": "A.즐거운 여행 준비 되십시오 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+여행/NNG+준비/NNG+되/XSV+십시오/EP+EC+고객/NNG+님/XSN"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 142283,
+    "name": "t1_20211115_0002_0787_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719063330/t1_20211115_0002_0787_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719063330/t1_20211115_0002_0787_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148600,
+      "filename": "t1_0074_0016_02.txt",
+      "title": "t1_0074_0016_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 296,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 296,
+        "word_size": 70,
+        "text": "A. 안녕하십니까 #@소속# 상담원 #@이름#입니다\nB. 휴랑민박 예약하려고 하는데요 그전에 여쭤볼게 있어서요\nA. 네 무엇을 도와드릴까요\nB. 애견 동반이 가능한지랑 이용금액 문의드립니다\nA. 애견 동반 안되시구요 이용금액은 4인 기준 10만원입니다\nB. 초과인원 금액은 어떻게 되나요\nA. 인당 만원 추가시구요 A타입은 최대 10명 B타입은 최대 9명입니다\nB. 알겠습니다 배달 같은 외부음식 반입 되나요\nA. 네 피자나 치킨 같은 배달음식 가능하십니다\nB. 네 감사합니다 수고하세요\nA. 즐거운 여행 되세요 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A. 안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 휴랑민박 예약하려고 하는데요 그전에 여쭤볼게 있어서요",
+            "norm_text": "B. 휴랑민박 예약하려고 하는데요 그전에 여쭤볼게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+휴/NNP+랑/JC+민박/NNG+예약/NNG+하/XSV+려고/EC+하/VX+는데요/EF+그/MM+전/NNG+에/JKB+여쭤볼/VV+EC+VX+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 무엇을 도와드릴까요",
+            "norm_text": "A. 네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 애견 동반이 가능한지랑 이용금액 문의드립니다",
+            "norm_text": "B. 애견 동반이 가능한지랑 이용금액 문의드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+애견/NNG+동반/NNG+이/JKS+가능/NNG+한/XSA+ETM+지랑/NNG+이용/NNG+금액/NNG+문/NNG+의/JKG+드립니다/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 애견 동반 안되시구요 이용금액은 4인 기준 10만원입니다",
+            "norm_text": "A. 애견 동반 안되시구요 이용금액은 4인 기준 10만원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+애견/NNG+동반/NNG+안/MAG+되/VV+시/EP+구요/EF+이용/NNG+금액/NNG+은/JX+4/SN+인기/NNG+준/XPN+10/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 초과인원 금액은 어떻게 되나요",
+            "norm_text": "B. 초과인원 금액은 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+초과/NNG+인원/NNG+금액/NNG+은/JX+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 인당 만원 추가시구요 A타입은 최대 10명 B타입은 최대 9명입니다",
+            "norm_text": "A. 인당 만원 추가시구요 A타입은 최대 10명 B타입은 최대 9명입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+인/VCP+ETM+당/NNG+만/JX+원추/NNG+가/VV+시/EP+구요/EF+A/SL+타입/NNG+은/JX+최대/NNG+10/SN+명/NNBC+B/SL+타입/NNG+은/JX+최대/NNG+9/SN+명/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 알겠습니다 배달 같은 외부음식 반입 되나요",
+            "norm_text": "B. 알겠습니다 배달 같은 외부음식 반입 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+배달/NNG+같/VA+은/ETM+외부/NNG+음식/NNG+반입/NNG+되/XSV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 네 피자나 치킨 같은 배달음식 가능하십니다",
+            "norm_text": "A. 네 피자나 치킨 같은 배달음식 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+피자/NNG+나/JC+치킨/NNG+같/VA+은/ETM+배달/NNG+음식/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 네 감사합니다 수고하세요",
+            "norm_text": "B. 네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A. 즐거운 여행 되세요 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 즐거운 여행 되세요 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+여행/NNG+되/XSV+세요/EP+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 56350,
+    "name": "c1_20211019_0002_0201_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130757097391/c1_20211019_0002_0201_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130757097391/c1_20211019_0002_0201_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51171,
+      "filename": "c1_20210924_0009_0009_01.txt",
+      "title": "c1_20210924_0009_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 208,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 208,
+        "word_size": 40,
+        "text": "A.전화주셔서 감사합니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.여기 처인구 경안천 산책로 제초작업 미이행 민원 어디에 제기하면 됩니까\nB.풀이 너무 무성하네요\nA.그부분 처인구청 하천관리팀에 건의주시면 됩니다\nB.그래요 그럼 거기 전화번호 알려주세요\nA.네 처인구청 하천관리팀 전화번호가 #@전번#입니다\nB.네 알겠습니다 감사합니다\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화주셔서 감사합니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.전화주셔서 감사합니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여기 처인구 경안천 산책로 제초작업 미이행 민원 어디에 제기하면 됩니까",
+            "norm_text": "B.처인구 경안천 산책로 제초작업 미이행 민원 어디에 제기하면 됩니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+처인구/NNP+경안천/NNP+산책/NNG+로/JKB+제초/NNG+작업/NNG+미/NNP+이행/NNG+민원/NNG+어디/NP+에/JKB+제기/NNG+하/XSV+면/EC+됩니까/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.풀이 너무 무성하네요",
+            "norm_text": "B.풀이 너무 무성하네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+풀/NNG+이/JKS+너무/MAG+무성/XR+하/XSA+네요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.그부분 처인구청 하천관리팀에 건의주시면 됩니다",
+            "norm_text": "A.그부분 처인구청 하천관리팀에 건의주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그/MM+부분/NNG+처인구/NNP+청하천/NNP+관리/NNG+팀/NNG+에/JKB+건의/NNG+주/VV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.그래요 그럼 거기 전화번호 알려주세요",
+            "norm_text": "B.그래요 그럼 거기 전화번호 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+거기/NP+전화/NNG+번호/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 처인구청 하천관리팀 전화번호가 #@전번#입니다",
+            "norm_text": "A.네 처인구청 하천관리팀 전화번호가 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+처인구/NNP+청하천/NNP+관리/NNG+팀/NNG+전화/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

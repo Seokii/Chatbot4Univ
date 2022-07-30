@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 60860,
+    "name": "c4_20211021_0012_0011_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131233097213/c4_20211021_0012_0011_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131233097213/c4_20211021_0012_0011_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57022,
+      "filename": "c4_20210927_0005_0017_01.txt",
+      "title": "c4_20210927_0005_0017_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 441,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 441,
+        "word_size": 99,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.#@주소# 아파트 입주자인데요 계약 사항이랑 욕실 환기팬이 달라서요\nA.죄송하지만 어떤 부분이 다르게 시공되었습니까\nB.너무 작은 것 같아요 환기가 잘 되는지도 모르겠고요\nA.관련 내용 확인 후에 답변드려도 괜찮으시겠습니까\nB.네 확인 한 번 해봐 주세요\nA.선생님 제가 확인해본 결과 세대 내 욕실 환기팬 장비 용량 변경은요\nA.시공 과정에서 감리자의 기술검토를 거쳐 승인된 사항임을 알 수 있었습니다\nB.누가 감리를 했는데요\nA.그런 부분은 제 쪽에서는 정확히 확인이 안 되고요\nA.감리보고서 및 감리자 의견서로 제출되었다고 합니다\nB.그거 누구랑 이야기하면 돼요 담당자가 누구예요\nA.네 선생님 메모 가능하십니까 #@소속# #@이름# 주무관 #@전번#입니다\nB.예 제가 직접 이야기해볼게요\nA.감사합니다 #@소속# #@이름#이었습니다\nB.네 그래요 고생하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@주소# 아파트 입주자인데요 계약 사항이랑 욕실 환기팬이 달라서요",
+            "norm_text": "B.#@주소# 아파트 입주자인데요 계약 사항이랑 욕실 환기팬이 달라서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+아파트/NNG+입주자/NNG+인데요/VCP+EC+계약/NNG+사항/NNG+이랑/JKB+욕실/NNG+환기팬/NNG+이/JKS+달/VV+라서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.죄송하지만 어떤 부분이 다르게 시공되었습니까",
+            "norm_text": "A.죄송하지만 어떤 부분이 다르게 시공되었습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+어떤/MM+부분/NNG+이/JKS+다르/VA+게/EC+시공/NNG+되/XSV+었/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.너무 작은 것 같아요 환기가 잘 되는지도 모르겠고요",
+            "norm_text": "B.너무 작은 것 같아요 환기가 잘 되는지도 모르겠고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+너무/MAG+작/VA+은/ETM+것/NNB+같/VA+아요/EF+환기/NNG+가/JKS+잘/MAG+되/VV+는지/EC+도/JX+모르/VV+겠/EP+고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.관련 내용 확인 후에 답변드려도 괜찮으시겠습니까",
+            "norm_text": "A.관련 내용 확인 후에 답변드려도 괜찮으시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+관련/NNG+내용/NNG+확인/NNG+후/NNG+에/JKB+답변/NNG+드려/VV+EC+도/JX+괜찮/VA+으시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 확인 한 번 해봐 주세요",
+            "norm_text": "B.네 확인 한 번 해봐 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+한/MM+번/NNBC+해/VV+EC+봐/VX+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.선생님 제가 확인해본 결과 세대 내 욕실 환기팬 장비 용량 변경은요",
+            "norm_text": "A.선생님 제가 확인해본 결과 세대 내 욕실 환기팬 장비 용량 변경은요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+제/NP+가/JKS+확인/NNG+해/XSV+EC+본/VX+ETM+결과/NNG+세대/NNG+내/NNB+욕실/NNG+환기팬/NNG+장비/NNG+용량/NNG+변경/NNG+은/JX+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.시공 과정에서 감리자의 기술검토를 거쳐 승인된 사항임을 알 수 있었습니다",
+            "norm_text": "A.시공 과정에서 감리자의 기술검토를 거쳐 승인된 사항임을 알 수 있었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+시공/NNG+과정/NNG+에서/JKB+감리/NNG+자/XSN+의/JKG+기술/NNG+검토/NNG+를/JKO+거쳐/VV+EC+승인/NNG+된/XSV+ETM+사항/NNG+임/VCP+ETN+을/JKO+알/VV+ETM+수/NNB+있/VV+었/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.누가 감리를 했는데요",
+            "norm_text": "B.누가 감리를 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+누가/NP+JKS+감리/NNG+를/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.그런 부분은 제 쪽에서는 정확히 확인이 안 되고요",
+            "norm_text": "A.그런 부분은 제 쪽에서는 정확히 확인이 안 되고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그런/MM+부분/NNG+은/JX+제/NP+JKG+쪽/NNB+에서/JKB+는/JX+정확히/MAG+확인/NNG+이/JKS+안/MAG+되/VV+고요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.감리보고서 및 감리자 의견서로 제출되었다고 합니다",
+            "norm_text": "A.감리보고서 및 감리자 의견서로 제출되었다고 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+감리/NNG+보고서/NNG+및/MAJ+감리/NNG+자/XSN+의견서/NNG+로/JKB+제출/NNG+되/XSV+었/EP+다고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그거 누구랑 이야기하면 돼요 담당자가 누구예요",
+            "norm_text": "B.그거 누구랑 이야기하면 돼요 담당자가 누구예요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그거/NP+누구/NP+랑/JKB+이야기/NNG+하/XSV+면/EC+돼요/VV+EF+담당자/NNG+가/JKS+누구/NP+예요/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.네 선생님 메모 가능하십니까 #@소속# #@이름# 주무관 #@전번#입니다",
+            "norm_text": "A.네 선생님 메모 가능하십니까 #@소속# #@이름# 주무관 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+메모/NNG+가능/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.예 제가 직접 이야기해볼게요",
+            "norm_text": "B.예 제가 직접 이야기해볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+제/NP+가/JKS+직접/MAG+이야기/NNG+해/XSV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.네 그래요 고생하세요",
+            "norm_text": "B.네 그래요 고생하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+그래요/IC+고생/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

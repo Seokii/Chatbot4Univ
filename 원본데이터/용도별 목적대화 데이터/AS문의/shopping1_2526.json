@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 60174,
+    "name": "s1_20211021_0002_0010_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151259066386/s1_20211021_0002_0010_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151259066386/s1_20211021_0002_0010_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 9181,
+      "filename": "s1_20210827_0010_0004_01.txt",
+      "title": "s1_20210827_0010_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 388,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 388,
+        "word_size": 87,
+        "text": "A.안녕하세요 상담사 #@이름#입니다 무엇을 도와드릴까요\nB.네 방금까지 통화했었는데요 #@상품#건으로요\nB.가상 계좌 예금주도 똑같더라구요 #@기타#인가 맞죠\nA.네 예금주는 #@기타# 맞습니다\nB.그래서 두 건 다 예금주는 똑같고 가상 계좌 번호만 틀렸거든요\nB.근데 입금된 건 없다고 하시고 조금 황당하네요\nA.네 고객님 내용은 확인을 했구요 이 건은 저희가 심층적인 확인이 필요합니다\nA.저희가 확인 후에 다시 연락을 드려야 할 것 같은데 괜찮으실까요\nB.지금 여러차례 확인하셨잖아요 얼마나 걸려요 정확하게 확인하는데\nA.네 금일 오후 안에는 고객님께 연락드려서 정확한 답변 드리도록 하겠습니다\nB.예 그러면 자세히 알아봐 주시고 연락주세요\nA.네 이해해주셔서 감사합니다 확인 후 연락드리겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 방금까지 통화했었는데요 #@상품#건으로요",
+            "norm_text": "B.네 방금까지 통화했었는데요 #@상품#건으로요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+방금/NNG+까지/JX+통화/NNG+했었/XSV+EP+는데요/EF+#/SY+@/SY+상품/NNG+#/SY+건/NNBC+으로/JKB+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "B.가상 계좌 예금주도 똑같더라구요 #@기타#인가 맞죠",
+            "norm_text": "B.가상 계좌 예금주도 똑같더라구요 #@기타#인가 맞죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+가상/NNG+계좌/NNG+예금주/NNG+도/JX+똑같/VA+더라구요/EF+#/SY+@/SY+기타/NNG+#/SY+인가/VCP+EC+맞/VV+죠/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 예금주는 #@기타# 맞습니다",
+            "norm_text": "A.네 예금주는 #@기타# 맞습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+예금주/NNG+는/JX+#/SY+@/SY+기타/NNG+#/SY+맞/VV+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.그래서 두 건 다 예금주는 똑같고 가상 계좌 번호만 틀렸거든요",
+            "norm_text": "B.그래서 두 건 다 예금주는 똑같고 가상 계좌 번호만 틀렸거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래서/MAJ+두건/NNG+다/MAG+예금주/NNG+는/JX+똑같/VA+고/EC+가상/NNG+계좌/NNG+번호/NNG+만/JX+틀렸/VV+EP+거든요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.근데 입금된 건 없다고 하시고 조금 황당하네요",
+            "norm_text": "B.근데 입금된 건 없다고 하시고 조금 황당하네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+근데/MAJ+입금/NNG+된/XSV+ETM+건/NNB+JX+없/VA+다고/EC+하/VX+시/EP+고/EC+조금/MAG+황당/XR+하/XSA+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 내용은 확인을 했구요 이 건은 저희가 심층적인 확인이 필요합니다",
+            "norm_text": "A.네 고객님 내용은 확인을 했구요 이 건은 저희가 심층적인 확인이 필요합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+내용/NNG+은/JX+확인/NNG+을/JKO+했/VV+EP+구요/EF+이건/NP+JX+은/JX+저희/NP+가/JKS+심층/NNG+적/XSN+인/VCP+ETM+확인/NNG+이/JKS+필요/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.저희가 확인 후에 다시 연락을 드려야 할 것 같은데 괜찮으실까요",
+            "norm_text": "A.저희가 확인 후에 다시 연락을 드려야 할 것 같은데 괜찮으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+확인/NNG+후/NNG+에/JKB+다시/MAG+연락/NNG+을/JKO+드려야/VV+EC+할/VX+ETM+것/NNB+같/VA+은/ETM+데/NNB+괜찮/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 9,
+            "text": "B.지금 여러차례 확인하셨잖아요 얼마나 걸려요 정확하게 확인하는데",
+            "norm_text": "B.지금 여러차례 확인하셨잖아요 얼마나 걸려요 정확하게 확인하는데",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+지금/MAG+여러/MM+차례/NNG+확인/NNG+하/XSV+셨잖아요/EP+EP+EC+VX+EF+얼마나/MAG+걸려요/VV+EF+정확/NNG+하/XSV+게/EC+확인/NNG+하/XSV+는데/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 금일 오후 안에는 고객님께 연락드려서 정확한 답변 드리도록 하겠습니다",
+            "norm_text": "A.네 금일 오후 안에는 고객님께 연락드려서 정확한 답변 드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+금일/NNG+오후/NNG+안/NNG+에/JKB+는/JX+고객/NNG+님/XSN+께/JKB+연락/NNG+드려서/VV+EC+정확/XR+한/XSA+ETM+답변/NNG+드리/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.예 그러면 자세히 알아봐 주시고 연락주세요",
+            "norm_text": "B.예 그러면 자세히 알아봐 주시고 연락주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+그러면/MAJ+자세히/MAG+알아봐/VV+EC+주/VX+시/EP+고/EC+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 12,
+            "text": "A.네 이해해주셔서 감사합니다 확인 후 연락드리겠습니다 감사합니다",
+            "norm_text": "A.네 이해해주셔서 감사합니다 확인 후 연락드리겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+이해/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+확인/NNG+후연/NNG+락/VCP+EC+드리/VX+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 160409,
+    "name": "t5_20211119_0010_3024_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135920044119/t5_20211119_0010_3024_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135920044119/t5_20211119_0010_3024_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 156479,
+      "filename": "t5_0083_0114_02.txt",
+      "title": "t5_0083_0114_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 255,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 57,
+        "text": "A.안녕하십니까 #@소속# 상담센터 #@이름#입니다\nB.네 안녕하세요 뭐 좀 여쭤볼게요\nA.네 고객님 말씀하세요\nB.제가 홈페이지를 보는 도중에 숲해설을 해준다는 글을 봤어요\nA.아 네네 고객님\nB.10인 미만일 경우 현장접수를 통해서 신청을 하면 되는거죠\nA.네 맞습니다 별도의 예약 없이 현장접수해 주시면 됩니다\nA.또한 유아숲 체험은 미취학 아동만 가능한 점 참고 부탁드립니다\nB.네 알겠습니다 이용에 참고할게요\nA.네 고객님 찾아주셔서 감사합니다 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담센터 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 뭐 좀 여쭤볼게요",
+            "norm_text": "B.네 안녕하세요 뭐 좀 여쭤볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+뭐/IC+좀/MAG+여쭤볼/VV+EC+VX+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀하세요",
+            "norm_text": "A.네 고객님 말씀하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 홈페이지를 보는 도중에 숲해설을 해준다는 글을 봤어요",
+            "norm_text": "B.제가 홈페이지를 보는 도중에 숲해설을 해준다는 글을 봤어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+홈페이지/NNG+를/JKO+보/VV+는/ETM+도중/NNG+에/JKB+숲/NNG+해설/NNG+을/JKO+해/VV+EC+준다는/VX+ETM+글/NNG+을/JKO+봤/VV+EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.아 네네 고객님",
+            "norm_text": "A.아 네네 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아/IC+네네/IC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 6,
+            "text": "B.10인 미만일 경우 현장접수를 통해서 신청을 하면 되는거죠",
+            "norm_text": "B.10인 미만일 경우 현장접수를 통해서 신청을 하면 되는거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+10/SN+인/NNG+미만/NNG+일/VCP+ETM+경우/NNG+현장/NNG+접수/NNG+를/JKO+통해서/VV+EC+신청/NNG+을/JKO+하/VV+면/EC+되/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 맞습니다 별도의 예약 없이 현장접수해 주시면 됩니다",
+            "norm_text": "A.네 맞습니다 별도의 예약 없이 현장접수해 주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+별도/NNG+의/JKG+예약/NNG+없이/MAG+현장/NNG+접수/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.또한 유아숲 체험은 미취학 아동만 가능한 점 참고 부탁드립니다",
+            "norm_text": "A.또한 유아숲 체험은 미취학 아동만 가능한 점 참고 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+또한/MAJ+유아/NNG+숲/NNG+체험/NNG+은/JX+미취학/NNG+아동/NNG+만/JX+가능/NNG+한/MM+점/NNBC+참고/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠습니다 이용에 참고할게요",
+            "norm_text": "B.네 알겠습니다 이용에 참고할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+이용/NNG+에/JKB+참고/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 고객님 찾아주셔서 감사합니다 #@이름#이었습니다",
+            "norm_text": "A.네 고객님 찾아주셔서 감사합니다 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+찾/VV+아/EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

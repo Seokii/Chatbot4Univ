@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 107060,
+    "name": "s3_20211104_0005_0092_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110832054914/s3_20211104_0005_0092_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110832054914/s3_20211104_0005_0092_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119726,
+      "filename": "s3_20211028_0007_0001_01.txt",
+      "title": "s3_20211028_0007_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 253,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 253,
+        "word_size": 64,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nA.고객님 무엇을 도와드릴까요\nB.네 안녕하세요 문의 드릴 게 있어서요\nA.네 어떤 문의이실까요 고객님\nB.주문 건에 대해 결제 금액 영수증을 출력 하고 싶어요\nA.공식 온라인몰 주문 건에 대한 문의 주신 결제 금액 영수증 출력은요\nA.마이 페이지 주문 배송 현황 증빙 서류 발급을 통해 영수증 출력 가능합니다\nB.네 안내 감사합니다\nA.또 다른 문의 사항 있으십니까\nB.아뇨 없습니다 수고하세요\nA.네 좋은 하루 되십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.고객님 무엇을 도와드릴까요",
+            "norm_text": "A.고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 안녕하세요 문의 드릴 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 어떤 문의이실까요 고객님",
+            "norm_text": "A.네 어떤 문의이실까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 5,
+            "text": "B.주문 건에 대해 결제 금액 영수증을 출력 하고 싶어요",
+            "norm_text": "B.주문 건에 대해 결제 금액 영수증을 출력하고 싶어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+주문건/NNP+에/JKB+대해/VV+EC+결제/NNG+금액/NNG+영수증/NNG+을/JKO+출력/NNG+하/XSV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.공식 온라인몰 주문 건에 대한 문의 주신 결제 금액 영수증 출력은요",
+            "norm_text": "A.공식 온라인몰 주문 건에 대한 문의 주신 결제 금액 영수증 출력은요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+공식/NNG+온라인/NNG+몰/VV+ETM+주문건/NNP+에/JKB+대한문/NNG+의/JKG+주신/NNG+결제/NNG+금액/NNG+영수증/NNG+출력/NNG+은/JX+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.마이 페이지 주문 배송 현황 증빙 서류 발급을 통해 영수증 출력 가능합니다",
+            "norm_text": "A.주문 배송현황의 증빙 서류 발급을 통해 영수증 출력 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주문/NNG+배송/NNG+현황/NNG+의/JKG+증빙/NNG+서류/NNG+발급/NNG+을/JKO+통해/VV+EC+영수증/NNG+출력/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 안내 감사합니다",
+            "norm_text": "B.네 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.또 다른 문의 사항 있으십니까",
+            "norm_text": "A.또 다른 문의 사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+또/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.아뇨 없습니다 수고하세요",
+            "norm_text": "B.아뇨 없습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아뇨/IC+없/VA+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 좋은 하루 되십시오",
+            "norm_text": "A.네 좋은 하루 되십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+되/XSV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 37947,
+    "name": "c2_20211011_0005_0056_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130954046279/c2_20211011_0005_0056_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130954046279/c2_20211011_0005_0056_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 53301,
+      "filename": "c2_20210928_0019_0001_01.txt",
+      "title": "c2_20210928_0019_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 342,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 342,
+        "word_size": 72,
+        "text": "A.안녕하세요 #@소속# 총무과 #@이름# 주무관 입니다\nB.안녕하세요 #@소속# 맞으시죠 제가 물어볼 게 있어서요\nA.선생님 제가 어떤 것을 도와드릴까요\nB.#@URL#로 제기한 민원을 취소하려고요\nA.죄송하지만 어떤 이유신지 여쭤봐도 되겠습니까\nB.신청했던 민원사항이 해결이 되었더라구요\nA.그러시면 #@URL#의 나의 이용내역에 들어가 주세요\nA.그후 나의 민원 들어가셔서 취하사유 작성해 주세요\nB.그렇게 하면 전부 처리 가능한가요\nA.처리완료 된 민원은 취하가 불가능합니다\nB.처리 중인 민원만 취하가 가능한가요\nA.아무래도 그렇습니다 선생님\nB.알았어요 그럼 끊을게요 수고하세요\nA.오늘도 좋은 하루 되세요 #@소속#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 총무과 #@이름# 주무관 입니다",
+            "norm_text": "A.안녕하세요 #@소속# 총무과 #@이름# 주무관 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+총무과/NNG+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@소속# 맞으시죠 제가 물어볼 게 있어서요",
+            "norm_text": "B.안녕하세요 #@소속# 맞으시죠 제가 물어볼 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+맞/VV+으시/EP+죠/EF+제/NP+가/JKS+물어볼/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.선생님 제가 어떤 것을 도와드릴까요",
+            "norm_text": "A.선생님 제가 어떤 것을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+제/NP+가/JKS+어떤/MM+것/NNB+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@URL#로 제기한 민원을 취소하려고요",
+            "norm_text": "B.#@URL#로 제기한 민원을 취소하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+URL/SL+#/SY+로/JKB+제기/NNG+한/XSA+ETM+민원/NNG+을/JKO+취소/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.죄송하지만 어떤 이유신지 여쭤봐도 되겠습니까",
+            "norm_text": "A.죄송하지만 어떤 이유신지 여쭤봐도 되겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+어떤/MM+이유/NNG+신지/JKS+EP+EC+여쭤봐도/VV+EC+VX+EC+되/VV+겠/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.신청했던 민원사항이 해결이 되었더라구요",
+            "norm_text": "B.신청했던 민원사항이 해결이 되었더라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+신청/NNG+했/XSV+EP+던/ETM+민원/NNG+사항/NNG+이/JKS+해결/NNG+이/JKS+되/VV+었/EP+더라구요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.그러시면 #@URL#의 나의 이용내역에 들어가 주세요",
+            "norm_text": "A.그러시면 #@URL#의 나의 이용내역에 들어가 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+#/SY+@/SY+URL/SL+#/SY+의/JKG+나/NP+의/JKG+이용/NNG+내역/NNG+에/JKB+들어가/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.그후 나의 민원 들어가셔서 취하사유 작성해 주세요",
+            "norm_text": "A.그후 나의 민원 들어가셔서 취하 사유를 작성해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그/MM+후/NNG+나/NP+의/JKG+민원/NNG+들어가/VV+셔서/EP+EC+취하/NNG+사유/NNG+를/JKO+작성/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그렇게 하면 전부 처리 가능한가요",
+            "norm_text": "B.그렇게 하면 전부 처리 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇게/MAG+하/VV+면/EC+전부/MAG+처리/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "A.처리완료 된 민원은 취하가 불가능합니다",
+            "norm_text": "A.처리완료 된 민원은 취하가 불가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+처리/NNG+완료/NNG+된/XSV+ETM+민원/NNG+은/JX+취하/NNG+가/JKS+불/XPN+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.처리 중인 민원만 취하가 가능한가요",
+            "norm_text": "B.처리 중인 민원만 취하가 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+처리/NNG+중/NNB+인/VCP+ETM+민원/NNG+만/JX+취하/NNG+가/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 12,
+            "text": "A.아무래도 그렇습니다 선생님",
+            "norm_text": "A.아무래도 그렇습니다 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아무래도/MAG+그렇/VA+습니다/EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 13,
+            "text": "B.알았어요 그럼 끊을게요 수고하세요",
+            "norm_text": "B.알았어요 그럼 끊을게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+았/EP+어요/EF+그럼/MAJ+끊/VV+을게요/EC+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.오늘도 좋은 하루 되세요 #@소속#였습니다",
+            "norm_text": "A.오늘도 좋은 하루 되세요 #@소속#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+오늘/NNG+도/JX+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

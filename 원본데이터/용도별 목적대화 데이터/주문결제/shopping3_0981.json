@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 123042,
+    "name": "s3_20211008_0006_0017_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111011034313/s3_20211008_0006_0017_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111011034313/s3_20211008_0006_0017_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 122473,
+      "filename": "s3_20210901_0017_0007_01.txt",
+      "title": "s3_20210901_0017_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 206,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 206,
+        "word_size": 41,
+        "text": "A.안녕하십니까 #@소속# 상담사 #@이름#입니다\nB.#@상품#을 구매하려고 하는데요\nA.고객님 전화로 주문을 도와드리면 되나요\nB.#@상품#의 가격은 얼마인가요\nA.#@상품#의 가격은 삼만 육천구백 원입니다\nB.앱에 보니까 최종가 삼만 이천팔백 원으로 나오는데요\nB.그건 어떻게 받는 건가요\nA.#@소속#의 앱을 설치하시고요\nA.회원가입 후에 구매하시면 됩니다\nB.네 확인 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품#을 구매하려고 하는데요",
+            "norm_text": "B.#@상품#을 구매하려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+을/JKO+구매/NNG+하/XSV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 전화로 주문을 도와드리면 되나요",
+            "norm_text": "A.고객님 전화로 주문을 도와드리면 되나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+전화/NNG+로/JKB+주문/NNG+을/JKO+도와/VV+EC+드리/VX+면/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@상품#의 가격은 얼마인가요",
+            "norm_text": "B.#@상품#의 가격은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+의/JKG+가격/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.#@상품#의 가격은 삼만 육천구백 원입니다",
+            "norm_text": "A.#@상품#의 가격은 삼만 육천구백 원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+의/JKG+가격/NNG+은/JX+삼/NR+만/NR+육/NR+천/NR+구/NR+백/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.앱에 보니까 최종가 삼만 이천팔백 원으로 나오는데요",
+            "norm_text": "B.앱에 보니까 최종가 삼만 이천팔백 원으로 나오는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+./SY+앱/NNG+에/JKB+보/VV+니까/EC+최종/NNG+가/XSN+삼/NR+만이천/NR+팔/NR+백/NR+원/NNBC+으로/JKB+나오/VV+는데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그건 어떻게 받는 건가요",
+            "norm_text": "B.그건 어떻게 받는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그건/NP+JX+어떻/VA+게/EC+받/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.#@소속#의 앱을 설치하시고요",
+            "norm_text": "A.#@소속#의 앱을 설치하시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+의/JKG+앱/NNG+을/JKO+설치/NNG+하/XSV+시/EP+고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.회원가입 후에 구매하시면 됩니다",
+            "norm_text": "A.회원가입 후에 구매하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+회원/NNG+가입/NNG+후/NNG+에/JKB+구매/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 확인 감사합니다",
+            "norm_text": "B.네 확인 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

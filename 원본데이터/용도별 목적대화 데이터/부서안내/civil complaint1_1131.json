@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 56260,
+    "name": "c1_20211019_0002_0117_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130758078381/c1_20211019_0002_0117_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130758078381/c1_20211019_0002_0117_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51255,
+      "filename": "c1_20210927_0012_0005_01.txt",
+      "title": "c1_20210927_0012_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 268,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 268,
+        "word_size": 56,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.도로점용허가 갱신기간에 대해서 질문합니다\nB.십 년마다 갱신하여야 한다고 들었습니다\nA.네 도로법에 의해 허가기간이 십 년이 내로 하고 있습니다\nB.그런데 서울 쪽에서는 오 년이라고 하는데 어떤 게 맞나요\nA.관리청이 정한 지침에 따라 지역별로 허가기간이 다를 수도 있습니다\nB.그래요 그럼 이거는 어디에 문의를 해야 하나요\nA.담당부서는 국토관리사무소 도로안전운영과 입니다\nB.그래요 알겠습니다 수고하세요\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.도로점용허가 갱신기간에 대해서 질문합니다",
+            "norm_text": "B.도로점용허가 갱신기간에 대해서 질문합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+도로/NNG+점용/NNG+허가/NNG+갱신/NNG+기간/NNG+에/JKB+대해서/VV+EC+질문/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.십 년마다 갱신하여야 한다고 들었습니다",
+            "norm_text": "B.십 년마다 갱신하여야 한다고 들었습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+십/NR+년/NNBC+마다/JX+갱신/NNG+하/XSV+여야/EC+한다고/VX+EC+들/VX+었/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.네 도로법에 의해 허가기간이 십 년이 내로 하고 있습니다",
+            "norm_text": "A.네 도로법에 의해 허가기간이 십 년이 내로 하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+도로법/NNG+에/JKB+의해/VV+EC+허가/NNG+기간/NNG+이/JKS+십/NR+년/NNBC+이내/NNG+로/JKB+하/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.그런데 서울 쪽에서는 오 년이라고 하는데 어떤 게 맞나요",
+            "norm_text": "B.그런데 서울 쪽에서는 오 년이라고 하는데 어떤 게 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그런데/MAJ+서울/NNP+쪽/NNB+에서/JKB+는/JX+오/NR+년/NNBC+이/VCP+라고/EC+하/VV+는데/EC+어떤/MM+게/NNB+JKS+맞/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.관리청이 정한 지침에 따라 지역별로 허가기간이 다를 수도 있습니다",
+            "norm_text": "A.관리청이 정한 지침에 따라 지역별로 허가기간이 다를 수도 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+관리/NNG+청/NNG+이/JKS+정한/VV+ETM+지침/NNG+에/JKB+따라/VV+EC+지역/NNG+별/XSN+로/JKB+허가/NNG+기간/NNG+이/JKS+다를/VA+ETM+수/NNB+도/JX+있/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그래요 그럼 이거는 어디에 문의를 해야 하나요",
+            "norm_text": "B.그래요 그럼 이거는 어디에 문의를 해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+이거/NP+는/JX+어디/NP+에/JKB+문의/NNG+를/JKO+해야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.담당부서는 국토관리사무소 도로안전운영과 입니다",
+            "norm_text": "A.담당부서는 국토관리사무소 도로안전운영과 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+담당/NNG+부서/NNG+는/JX+국토/NNG+관리/NNG+사무소/NNG+도로/NNG+안전/NNG+운영/NNG+과/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그래요 알겠습니다 수고하세요",
+            "norm_text": "B.그래요 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그래요/VV+EC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

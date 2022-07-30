@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 116196,
+    "name": "s3_20211105_0005_0365_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110825069326/s3_20211105_0005_0365_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110825069326/s3_20211105_0005_0365_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118878,
+      "filename": "s3_20211005_0025_0025_01.txt",
+      "title": "s3_20211005_0025_0025_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 281,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 281,
+        "word_size": 67,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 궁금한 게 있어서 연락 드립니다\nA.네 무엇을 도와드릴까요\nB.여러 개의 상품을 구매 하려 하는데요\nB.무통장 입금 이용 시 한꺼번에 입금 해도 되나요\nA.네 문의 하신 내용에 답변을 드리겠습니다\nA.하나의 주문 번호로 주문이 완료 되었다면요\nA.총 금액을 해당 주문 번호에 부여된 계좌로 입금 하면 됩니다\nA.그게 아니고 여러 개의 주문 번호라면 각각의 계좌에 입금해야 합니다\nB.친절한 안내 감사합니다\nA.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 궁금한 게 있어서 연락 드립니다",
+            "norm_text": "B.안녕하세요 궁금한 게 있어서 연락 드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어서/EC+연락/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 무엇을 도와드릴까요",
+            "norm_text": "A.네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.여러 개의 상품을 구매 하려 하는데요",
+            "norm_text": "B.여러 개의 상품을 구매하려 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여러/MM+개/NNBC+의/JKG+상품/NNG+을/JKO+구매/NNG+하/XSV+려/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.무통장 입금 이용 시 한꺼번에 입금 해도 되나요",
+            "norm_text": "B.무통장 입금 이용 시 한꺼번에 입금해도 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+무/XPN+통장/NNG+입금/NNG+이/JKS+용시/NNG+한꺼번에/MAG+입금/NNG+해도/XSV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 문의 하신 내용에 답변을 드리겠습니다",
+            "norm_text": "A.네 문의 하신 내용에 답변을 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+문의/NNG+하/XSV+신/EP+ETM+내용/NNG+에/JKB+답변/NNG+을/JKO+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.하나의 주문 번호로 주문이 완료 되었다면요",
+            "norm_text": "A.하나의 주문 번호로 주문이 완료되었다면요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+하나/NR+의/JKG+주문/NNG+번호/NNG+로/JKB+주문/NNG+이/JKS+완료/NNG+되/XSV+었/EP+다면/EC+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.총 금액을 해당 주문 번호에 부여된 계좌로 입금 하면 됩니다",
+            "norm_text": "A.총 금액을 주문 번호에 부여된 계좌로 입금하면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+총/MM+금액/NNG+을/JKO+주문/NNG+번호/NNG+에/JKB+부여/NNG+된/XSV+ETM+계좌/NNG+로/JKB+입금/NNG+하/XSV+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그게 아니고 여러 개의 주문 번호라면 각각의 계좌에 입금해야 합니다",
+            "norm_text": "A.그게 아니고 여러 개의 주문 번호라면 각각의 계좌에 입금해야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그게/NP+JKC+아니/VCN+고/EC+여러/MM+개/NNBC+의/JKG+주문/NNG+번호/NNG+라면/VCP+EC+각각/NNG+의/JKG+계좌/NNG+에/JKB+입금/NNG+해야/XSV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.친절한 안내 감사합니다",
+            "norm_text": "B.친절한 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+            "norm_text": "A.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

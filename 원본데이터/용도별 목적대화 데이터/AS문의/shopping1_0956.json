@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 14557,
+    "name": "s1_20210914_0001_0558_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151219090363/s1_20210914_0001_0558_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151219090363/s1_20210914_0001_0558_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7915,
+      "filename": "s1_20210824_0009_0024_01.txt",
+      "title": "s1_20210824_0009_0024_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 467,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 467,
+        "word_size": 108,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.예 수고하십니다 휴대폰 에이에스 좀 받으려고 하는데요\nB.에이에스 받는 동안 혹시 대체기기를 제공 받을 수 있을까 해서요\nA.공기계라는 건 센터 사정마다 있을 수도 없을 수도 있기 때문에요\nA.일단은 전화를 하고 내방을 해주시는 것도 좋으신데요\nA.혹시 어디 센터로 내방을 하실 거세요\nB.경기도 용인시 처인구 쪽이요\nA.고객님 거기는 분점이기 때문에 간단수리 건만 가능한 센터인데요\nB.그래요 간단한 것만요 그럼 어디가 가깝죠\nA.오리역 직통번호 안내해 드리겠습니다 혹시 메모 가능하십니까\nB.네 오리역이요 제가 알아봐야 되나요\nA.저희가 서비스 콜센터이기 때문에 바로 확인은 불가능합니다\nB.지난 번에 콜센터에서 해주셨는데 일단 번호 알려주세요\nA.네 전화번호 #@전번# 번입니다\nB.알겠습니다 이쪽에 물어보면 된다는 거죠\nA.네 바로 연결 도와드릴까요\nB.예 그럼 바로 해주세요\nA.연결하겠습니다 대기해 주시기 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고하십니다 휴대폰 에이에스 좀 받으려고 하는데요",
+            "norm_text": "B.예 수고하십니다 휴대폰 에이에스 좀 받으려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+하/XSV+십니다/EP+EF+휴대폰/NNG+에/JKB+이/MM+에스/NNG+좀/MAG+받/VV+으려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.에이에스 받는 동안 혹시 대체기기를 제공 받을 수 있을까 해서요",
+            "norm_text": "B.에이에스 받는 동안 혹시 대체기기를 제공 받을 수 있을까 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+에이에스/NNG+받/VV+는/ETM+동안/NNG+혹시/MAG+대체/MAG+기기/NNG+를/JKO+제공/NNG+받/VV+을/ETM+수/NNB+있/VV+을까/EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.공기계라는 건 센터 사정마다 있을 수도 없을 수도 있기 때문에요",
+            "norm_text": "A.공기계라는 건 센터 사정마다 있을 수도 없을 수도 있기 때문에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+공기/NNG+계/XSN+라는/VCP+ETM+건/NNB+JX+센터/NNG+사정/NNG+마다/JX+있/VA+을/ETM+수/NNB+도/JX+없/VA+을/ETM+수/NNB+도/JX+있/VX+기/ETN+때문/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.일단은 전화를 하고 내방을 해주시는 것도 좋으신데요",
+            "norm_text": "A.일단은 전화를 하고 내방을 해주시는 것도 좋으신데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+일단/MAG+은/JX+전화/NNG+를/JKO+하/VV+고/EC+내방/NNG+을/JKO+해/VV+EC+주/VX+시/EP+는/ETM+것/NNB+도/JX+좋/VA+으신/EP+ETM+데/NNB+요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.혹시 어디 센터로 내방을 하실 거세요",
+            "norm_text": "A.혹시 어디 센터로 내방을 하실 거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+어디/NP+센터/NNG+로/JKB+내방/NNG+을/JKO+하/VV+실/EP+ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.경기도 용인시 처인구 쪽이요",
+            "norm_text": "B.경기도 용인시 처인구 쪽이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+경기도/NNP+용인/NNP+시처/NNG+인구/NNG+쪽/NNB+이/VCP+요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.고객님 거기는 분점이기 때문에 간단수리 건만 가능한 센터인데요",
+            "norm_text": "A.고객님 거기는 분점이기 때문에 간단수리 건만 가능한 센터인데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+거기/NP+는/JX+분점/NNG+이/VCP+기/ETN+때문/NNB+에/JKB+간단/VV+ETM+수리/NNG+건만/VCP+EC+가능/NNG+한/XSA+ETM+센터/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그래요 간단한 것만요 그럼 어디가 가깝죠",
+            "norm_text": "B.그래요 간단한 것만요 그럼 어디가 가깝죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+간단/XR+한/XSA+ETM+것/NNB+만/JX+요/JX+그럼/MAJ+어디/NP+가/JKS+가깝/VA+죠/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.오리역 직통번호 안내해 드리겠습니다 혹시 메모 가능하십니까",
+            "norm_text": "A.오리역 직통번호 안내해 드리겠습니다 혹시 메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+오리역/NNP+직통/NNG+번호/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+혹시/MAG+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 오리역이요 제가 알아봐야 되나요",
+            "norm_text": "B.네 오리역이요 제가 알아봐야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+오리역/NNP+이/JKS+요제/NNG+가/JKS+알/VV+아/EC+봐야/VX+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.저희가 서비스 콜센터이기 때문에 바로 확인은 불가능합니다",
+            "norm_text": "A.저희가 서비스 콜센터이기 때문에 바로 확인은 불가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+서비스/NNG+콜/NNG+센터/NNG+이/VCP+기/ETN+때문/NNB+에/JKB+바로/MAG+확인/NNG+은/JX+불/XPN+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.지난 번에 콜센터에서 해주셨는데 일단 번호 알려주세요",
+            "norm_text": "B.지난 번에 콜센터에서 해주셨는데 일단 번호 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+지난번/NNG+에/JKB+콜/NNG+센터/NNG+에서/JKB+해/VV+EC+주/VX+셨/EP+EP+는데/EC+일단/MAG+번호/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.네 전화번호 #@전번# 번입니다",
+            "norm_text": "A.네 전화번호 #@전번# 번입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+전화/NNG+번호/NNG+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.알겠습니다 이쪽에 물어보면 된다는 거죠",
+            "norm_text": "B.알겠습니다 이쪽에 물어보면 된다는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+이쪽/NP+에/JKB+물/VV+어/EC+보/VX+면/EC+된다는/VV+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 바로 연결 도와드릴까요",
+            "norm_text": "A.네 바로 연결 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+바로/MAG+연결/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.예 그럼 바로 해주세요",
+            "norm_text": "B.예 그럼 바로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+그럼/MAJ+바로/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 18,
+            "text": "A.연결하겠습니다 대기해 주시기 바랍니다",
+            "norm_text": "A.연결하겠습니다 대기해 주시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+연결/NNG+하/XSV+겠/EP+습니다/EF+대기/NNG+해/XSV+EC+주/VX+시/EP+기/ETN+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

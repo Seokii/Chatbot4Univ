@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 48709,
+    "name": "c4_20211015_0001_1994_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202110081307060337109/c4_20211015_0001_1994_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202110081307060337109/c4_20211015_0001_1994_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50342,
+      "filename": "c4_20210906_0013_0019_01.txt",
+      "title": "c4_20210906_0013_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 238,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 238,
+        "word_size": 56,
+        "text": "A.네 안녕하세요 #@소속# #@이름# 주무관입니다\nB.이번에 뭐 좀 폐업 하려는데요\nA.네 선생님 혹시 정확히 어떤 업종 폐업이신가요\nB.이게 도선 사업 폐업이요\nA.네 그러시면 필요 서류가 있는데 안내해드릴까요\nB.네 서류 안내해주세요 적을게요\nA.이게 사업자등록증이랑 신분증 필요하세요 선생님\nB.그리고 더 필요한 건 없는 거죠\nA.신청서 있긴 한데 그거는 오셔서 작성하시면 되세요\nA.더 궁금하신 거 없으실까요\nB.네 없습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하세요 #@소속# #@이름# 주무관입니다",
+            "norm_text": "A.네 안녕하세요 #@소속# #@이름# 주무관입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.이번에 뭐 좀 폐업 하려는데요",
+            "norm_text": "B.이번에 뭐 좀 폐업 하려는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이번/NNG+에/JKB+뭐/IC+좀/MAG+폐업/NNG+하/XSV+려는/ETM+데/NNB+요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 선생님 혹시 정확히 어떤 업종 폐업이신가요",
+            "norm_text": "A.네 선생님 혹시 정확히 어떤 업종 폐업이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+혹시/MAG+정확히/MAG+어떤/MM+업종/NNG+폐업/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.이게 도선 사업 폐업이요",
+            "norm_text": "B.이게 도선 사업 폐업이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이게/NP+JKS+도선/NNG+사업/NNG+폐업/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 그러시면 필요 서류가 있는데 안내해드릴까요",
+            "norm_text": "A.네 그러시면 필요 서류가 있는데 안내해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그러/VV+시/EP+면/EC+필요/NNG+서류/NNG+가/JKS+있/VA+는데/EC+안내/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 서류 안내해주세요 적을게요",
+            "norm_text": "B.네 서류 안내해주세요 적을게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+서류/NNG+안내/NNG+해/XSV+EC+주/VX+세요/EP+EF+적/VA+을게요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.이게 사업자등록증이랑 신분증 필요하세요 선생님",
+            "norm_text": "A.이게 사업자등록증이랑 신분증 필요하세요 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이게/NP+JKS+사업자/NNG+등록증/NNG+이랑/JKB+신분증/NNG+필요/NNG+하/XSV+세요/EP+EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.그리고 더 필요한 건 없는 거죠",
+            "norm_text": "B.그리고 더 필요한 건 없는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그리고/MAJ+더/MAG+필요/NNG+한/XSA+ETM+건/NNB+JX+없/VA+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.신청서 있긴 한데 그거는 오셔서 작성하시면 되세요",
+            "norm_text": "A.신청서 있긴 한데 그거는 오셔서 작성하시면 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+신청서/NNG+있/VV+긴/ETN+JX+한데/VX+EC+그거/NP+는/JX+오/VV+셔서/EP+EC+작성/NNG+하/XSV+시/EP+면/EC+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.더 궁금하신 거 없으실까요",
+            "norm_text": "A.더 궁금하신 거 없으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+궁금/XR+하/XSA+신/EP+ETM+거/NNB+없/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 11,
+            "text": "B.네 없습니다 감사합니다",
+            "norm_text": "B.네 없습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+없/VA+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

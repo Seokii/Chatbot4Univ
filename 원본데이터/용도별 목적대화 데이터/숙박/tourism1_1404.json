@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 150834,
+    "name": "t1_20211117_0002_0359_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720005164/t1_20211117_0002_0359_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720005164/t1_20211117_0002_0359_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148661,
+      "filename": "t1_0074_0077_02.txt",
+      "title": "t1_0074_0077_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 309,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 309,
+        "word_size": 72,
+        "text": "A. 상쾌한 하루시작 #@소속# 고객센터 상담원 #@이름#입니다\nB. 수하리 캠핑파크 예약하려는데 가격이 안나와있어서요\nB. 한 사이트당 가격이 얼마일까요\nA. B1의 정자 사이트만 6만원이시고 나머지는 3만원으로 동일하세요\nB. 저기만 6만원이군요 혹시 가족단위가 아니면 이용 못하는 사이트인가요\nA. 커플분들도 이용하시긴 하는데 주로 가족 신청이 더 많습니다\nB. 쓰는건 가능하단 얘기시네요 그럼 저 자리도 괜찮을거 같은데 고민 좀 해볼게요\nA. 네 더 필요하신거 있으실까요\nB. 아뇨 괜찮아요 수고하세요\nA. 즐거운 하루 되세요 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 상쾌한 하루시작 #@소속# 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A. 상쾌한 하루시작 #@소속# 고객센터 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+상쾌/XR+한/XSA+ETM+하루/NNG+시작/NNG+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 수하리 캠핑파크 예약하려는데 가격이 안나와있어서요",
+            "norm_text": "B. 수하리 캠핑파크 예약하려는데 가격이 안나와있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+수하리/NNP+캠핑/NNG+파크/NNG+예약/NNG+하/XSV+려는데/EC+가격/NNG+이/JKS+안/MAG+나와/VV+EC+있/VX+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B. 한 사이트당 가격이 얼마일까요",
+            "norm_text": "B. 한 사이트당 가격이 얼마일까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+한/MM+사이트/NNG+당/XSN+가격/NNG+이/JKS+얼마/NNG+일까요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A. B1의 정자 사이트만 6만원이시고 나머지는 3만원으로 동일하세요",
+            "norm_text": "A. B1의 정자 사이트만 6만원이시고 나머지는 3만원으로 동일하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+B/SL+1/SN+의/JKG+정자/NNG+사이트/NNG+만/JX+6/SN+만/NR+원/NNBC+이/VCP+시/EP+고/EC+나머지/NNG+는/JX+3/SN+만/NR+원/NNBC+으로/JKB+동일/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B. 저기만 6만원이군요 혹시 가족단위가 아니면 이용 못하는 사이트인가요",
+            "norm_text": "B. 저기만 6만원이군요 혹시 가족단위가 아니면 이용 못하는 사이트인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+저기/NP+만/JX+6/SN+만/NR+원/NNBC+이/VCP+군요/EF+혹시/MAG+가족/NNG+단위/NNG+가/JKC+아니/VCN+면/EC+이/MM+용못/NNG+하/XSV+는/ETM+사이트/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A. 커플분들도 이용하시긴 하는데 주로 가족 신청이 더 많습니다",
+            "norm_text": "A. 커플분들도 이용하시긴 하는데 주로 가족 신청이 더 많습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+커플/NNG+분/XSN+들/XSN+도/JX+이용/NNG+하/XSV+시/EP+긴/ETN+JX+하/VX+는데/EC+주로/MAG+가족/NNG+신청/NNG+이/JKS+더/MAG+많/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B. 쓰는건 가능하단 얘기시네요 그럼 저 자리도 괜찮을거 같은데 고민 좀 해볼게요",
+            "norm_text": "B. 쓰는건 가능하단 얘기시네요 괜찮을거 같은데 고민 좀 해볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+쓰/VV+는/ETM+건/NNB+JX+가능/NNG+하/XSV+단/ETM+얘기/NNG+시/EP+네요/EF+괜찮/VA+을/ETM+거/NNB+같/VA+은데/EC+고민/NNG+좀/MAG+해/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "A. 네 더 필요하신거 있으실까요",
+            "norm_text": "A. 네 더 필요하신거 있으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+더/MAG+필요/NNG+하/XSV+신/EP+ETM+거/NNB+있/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 9,
+            "text": "B. 아뇨 괜찮아요 수고하세요",
+            "norm_text": "B. 아뇨 괜찮아요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아뇨/IC+괜찮/VA+아요/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A. 즐거운 하루 되세요 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 즐거운 하루 되세요 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+되/XSV+세요/EP+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

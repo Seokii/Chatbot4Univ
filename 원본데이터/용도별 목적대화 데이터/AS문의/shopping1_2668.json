@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 60358,
+    "name": "s1_20211021_0002_0152_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151252041563/s1_20211021_0002_0152_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151252041563/s1_20211021_0002_0152_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8416,
+      "filename": "s1_20210825_0015_0052_01.txt",
+      "title": "s1_20210825_0015_0052_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 225,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 225,
+        "word_size": 53,
+        "text": "A.고객님 상담사 #@이름#입니다 #@이름# 고객님이신가요\nB.예 제가 맞아요 무슨 일이신가요\nA.네 고객님 확인 감사합니다 홈페이지에 적어 주신 내용 때문에요\nB.맞아요 히터 사용법으로 접수했어요\nA.예 모든 상담사가 통화 중이여서요 한 시간 이내로 연락드릴게요\nB.네 오늘 안에만 연락 주세요\nA.네 그럼 한 시간 이내로 전문 상담사가 고객님께요\nA.다시 한 번 연락드리도록 하겠습니다\nB.네 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 상담사 #@이름#입니다 #@이름# 고객님이신가요",
+            "norm_text": "A.고객님 상담사 #@이름#입니다 #@이름# 고객님이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고/JKQ+객님/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 제가 맞아요 무슨 일이신가요",
+            "norm_text": "B.예 제가 맞아요 무슨 일이신가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+제/NP+가/JKS+맞/VV+아요/EF+무슨/MM+일/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 확인 감사합니다 홈페이지에 적어 주신 내용 때문에요",
+            "norm_text": "A.네 고객님 확인 감사합니다 홈페이지에 적어 주신 내용 때문에요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+확인/NNG+감사/NNG+합니다/XSV+EF+홈페이지/NNG+에/JKB+적/VV+어/EC+주/VX+신/EP+ETM+내용/NNG+때문/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 4,
+            "text": "B.맞아요 히터 사용법으로 접수했어요",
+            "norm_text": "B.맞아요 히터 사용법으로 접수했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맞/VV+아요/EF+히터/NNG+사용법/NNG+으로/JKB+접수/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 모든 상담사가 통화 중이여서요 한 시간 이내로 연락드릴게요",
+            "norm_text": "A.예 모든 상담사가 통화 중이여서요 한 시간 이내로 연락드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+예/IC+모든/MM+상담/NNG+사/NNG+가/JKS+통화/NNG+중/NNB+이/VCP+여서/EC+요한/NNP+시간/NNG+이/JKS+내/NP+로/JKB+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 오늘 안에만 연락 주세요",
+            "norm_text": "B.네 오늘 안에만 연락 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+오늘/MAG+안/NNG+에/JKB+만/JX+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 7,
+            "text": "A.네 그럼 한 시간 이내로 전문 상담사가 고객님께요",
+            "norm_text": "A.네 그럼 한 시간 이내로 전문 상담사가 고객님께요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+한/MM+시간/NNG+이/JKS+내/NP+로/JKB+전문/NNG+상/XSN+담사/NNG+가/JKS+고객/NNG+님/XSN+께/JKB+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.다시 한 번 연락드리도록 하겠습니다",
+            "norm_text": "A.다시 한 번 연락드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+다시/MAG+한/MM+번/NNBC+연락/NNG+드리/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

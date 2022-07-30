@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 52478,
+    "name": "c1_20211018_0002_0288_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt202110081308020238105/c1_20211018_0002_0288_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt202110081308020238105/c1_20211018_0002_0288_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51669,
+      "filename": "c1_20210929_0023_0003_01.txt",
+      "title": "c1_20210929_0023_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 255,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 49,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.민원을 좀 넣으려고 하는데요\nA.네 어떤 문의이실까요\nB.#@소속#해양수산청 홈페이지 주소 좀 알 수 있을까요\nA.홈페이지 주소는 #@URL#이구요\nA.검색포털사이트에서 #@소속#해양수산청으로 검색하셔도 됩니다\nB.그 홈페이지는 사람들이 접속을 많이 하나요\nA.자세한 사항은 홈페이지 하단 접속통계에서 확인하실 수 있습니다\nB.네 알겠습니다 감사합니다\nA.코로나 조심하세요 상담사 #@이름#이었습니다\nB.예 말씀 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.민원을 좀 넣으려고 하는데요",
+            "norm_text": "B.민원을 좀 넣으려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+민원/NNG+을/JKO+좀/MAG+넣/VV+으려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의이실까요",
+            "norm_text": "A.네 어떤 문의이실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속#해양수산청 홈페이지 주소 좀 알 수 있을까요",
+            "norm_text": "B.#@소속#해양수산청 홈페이지 주소 좀 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+해양/NNG+수산청/NNG+홈페이지/NNG+주소/NNG+좀/MAG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.홈페이지 주소는 #@URL#이구요",
+            "norm_text": "A.홈페이지 주소는 #@URL#이구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+홈페이지/NNG+주소/NNG+는/JX+#/SY+@/SY+URL/SL+#/SY+이/VCP+구요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.검색포털사이트에서 #@소속#해양수산청으로 검색하셔도 됩니다",
+            "norm_text": "A.검색포털사이트에서 #@소속#해양수산청으로 검색하셔도 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+검색/NNG+포털/NNP+사이트/NNG+에서/JKB+#/SY+@/SY+소속/NNG+#/SY+해양/NNG+수산청/NNG+으로/JKB+검색/NNG+하/XSV+셔도/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그 홈페이지는 사람들이 접속을 많이 하나요",
+            "norm_text": "B.그 홈페이지는 사람들이 접속을 많이 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그/MM+홈페이지/NNG+는/JX+사람/NNG+들/XSN+이/JKS+접속/NNG+을/JKO+많이/MAG+하/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.자세한 사항은 홈페이지 하단 접속통계에서 확인하실 수 있습니다",
+            "norm_text": "A.자세한 사항은 홈페이지 하단 접속통계에서 확인하실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+자세/XR+한/XSA+ETM+사항/NNG+은/JX+홈페이지/NNG+하/XSV+단/ETM+접속/NNG+통계/NNG+에서/JKB+확인/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.코로나 조심하세요 상담사 #@이름#이었습니다",
+            "norm_text": "A.코로나 조심하세요 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+코로나/NNG+조심/NNG+하/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.예 말씀 감사합니다",
+            "norm_text": "B.예 말씀 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+예/IC+말씀/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

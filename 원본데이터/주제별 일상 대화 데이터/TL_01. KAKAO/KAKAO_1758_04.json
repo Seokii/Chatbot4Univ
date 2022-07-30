@@ -1,0 +1,515 @@
+{
+  "dataset": {
+    "identifier": 99522,
+    "name": "KAKAO_1758_04_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/77/txt20211028150024065563/KAKAO_1758_04_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/77/txt20211028150024065563/KAKAO_1758_04_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 100709,
+      "filename": "KAKAO_1758_04.txt",
+      "title": "KAKAO_1758_04",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-28",
+      "size": 693,
+      "annotations": {
+        "subject": "회사/아르바이트",
+        "speaker_type": "다자간 대화",
+        "size": 693,
+        "word_size": 243,
+        "text": "1 : 직장 생활 해보신 분\n2 : 나요 나\n2 : 꼰대 회사에서 해봤져\n3 : 나는 군대에서 삼년 했지 키키\n1 : 난 회식 가는 걸 정말 좋아했어\n2 : 나는 회식을 정맬루 싫어하는 사람이야\n3 : 우리는 상사가 술은 안마셔서 회식 안 했어 ㅠㅠ\n3 : 그래서 오히려 하고 싶었음\n1 : 뭐라고?\n1 : ** 직업 군인이었어? ?\n2 : 엥? 진짜 직업군인이었어\u003e?\n3 : 그치 키키\n3 : 남들 군생활 두배로 했지~\n1 : 와 ** 진짜 의외다\n2 : 와 근데 몸이 좋자나...\n2 : 뭔가 잘 어울리네\n3 : 군인 하면서 운동 많이 해서 살도 빠지고 좋더라…\n1 : 군인도 회식을 하구나?\n1 : 디피에서 봤어\n2 : 키키 마자\n2 : 그런데 가니 실제로...?\n3 : 군대도 다른 회사생활이랑 똑같은 거 같아 키키 옷만 다르지\n1 : 아니 키키\n1 : ** ** 몸 좋은 거 어떻게 알아? 키키\n2 : 아니\n2 : 프사가 그래 보여 키키\n2 : 또 한번 봤지 내가\n3 : 그러게\n3 : 내 몸 좋은 거 어떻게 알아? 키키\n3 : 하지만 감사\n1 : 진짜 웃기네 키키\n1 : 어깨가 넓다는 말이야? 키키\n2 : 키키 앜 키키 나 왜 갑자기 얼굴 빨개지냐\n3 : 키키 내가 부끄러워지네 키키\n3 : 다들 군대 가볼래? 다이어트용으로\n1 : 우왕 ** 기분 좋겠당\n1 : 프사 개 멋있긴 하넹 키키\n2 : 토마토 수준이다 지금 키키\n2 : 그래 어깨 말이야\n3 : 역시 프사는 잘나온 걸로 해야하나봐 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 직장 생활 해보신 분",
+            "norm_text": "직장 생활 해보신 분",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "직장/NNG+생활/NNG+해/XSV+EC+보/VX+신/EP+ETM+분/NNB"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나요 나",
+            "norm_text": "나요 나",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+요나/NNG"
+          },
+          {
+            "id": 3,
+            "text": "2 : 꼰대 회사에서 해봤져",
+            "norm_text": "꼰대 회사에서 해봤져",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "꼰대/NNG+회사/NNG+에서/JKB+해/VV+EC+봤/VX+EP+져/EC+VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "3 : 나는 군대에서 삼년 했지 키키",
+            "norm_text": "나는 군대에서 삼년 했지 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+군대/NNG+에서/JKB+삼년/NNG+했/XSV+EP+지/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 난 회식 가는 걸 정말 좋아했어",
+            "norm_text": "난 회식 가는 걸 정말 좋아했어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+회식/NNG+가/VV+는/ETM+걸/NNB+JKO+정말/MAG+좋/VA+아/EC+했/VX+EP+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "2 : 나는 회식을 정맬루 싫어하는 사람이야",
+            "norm_text": "나는 회식을 정맬루 싫어하는 사람이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+회식/NNG+을/JKO+정/XPN+맬/NNG+루/JKB+싫/VA+어/EC+하/VV+는/ETM+사람/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 7,
+            "text": "3 : 우리는 상사가 술은 안마셔서 회식 안 했어 ㅠㅠ",
+            "norm_text": "우리는 상사가 술은 안마셔서 회식 안 했어 ㅠㅠ",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "우리/NP+는/JX+상사/NNG+가/JKS+술/NNG+은/JX+안/MAG+마셔서/VV+EC+회식/NNG+안/MAG+했/VV+EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 8,
+            "text": "3 : 그래서 오히려 하고 싶었음",
+            "norm_text": "그래서 오히려 하고 싶었음",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+오히려/MAJ+하/VV+고/EC+싶/VX+었/EP+음/ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 뭐라고?",
+            "norm_text": "뭐라고?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/NP+라고/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : ** 직업 군인이었어? ?",
+            "norm_text": "** 직업 군인이었어? ?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "*/SY+*/SY+직업/NNG+군인/NNG+이/VCP+었/EP+어/EC+?/SY"
+          },
+          {
+            "id": 11,
+            "text": "2 : 엥? 진짜 직업군인이었어\u003e?",
+            "norm_text": "엥? 진짜 직업군인이었어\u003e?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "엥/IC+진짜/MAG+직업/NNG+군인/NNG+이/VCP+었/EP+어/EC+\u003e/SY"
+          },
+          {
+            "id": 12,
+            "text": "3 : 그치 키키",
+            "norm_text": "그치 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 13,
+            "text": "3 : 남들 군생활 두배로 했지~",
+            "norm_text": "남들 군생활 두배로 했지~",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "남들군생활두배로했지/UNKNOWN+~/SY"
+          },
+          {
+            "id": 14,
+            "text": "1 : 와 ** 진짜 의외다",
+            "norm_text": "와 ** 진짜 의외다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/VV+EC+*/SY+*/SY+진짜/MAG+의외/NNG+다/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "2 : 와 근데 몸이 좋자나...",
+            "norm_text": "와 근데 몸이 좋자나...",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와/IC+근데/MAJ+몸/NNG+이/JKS+좋/VA+자/EC+나/VX+EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "2 : 뭔가 잘 어울리네",
+            "norm_text": "뭔가 잘 어울리네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "뭔가/NP+VCP+EC+잘/MAG+어울리/VV+네/EC"
+          },
+          {
+            "id": 17,
+            "text": "3 : 군인 하면서 운동 많이 해서 살도 빠지고 좋더라…",
+            "norm_text": "군인 하면서 운동 많이 해서 살도 빠지고 좋더라…",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "군인/NNG+하/XSV+면서/EC+운동/NNG+많이/MAG+해서/VV+EC+살/NNG+도/JX+빠지/VV+고/EC+좋/VA+더라/EC+…/SE"
+          },
+          {
+            "id": 18,
+            "text": "1 : 군인도 회식을 하구나?",
+            "norm_text": "군인도 회식을 하구나?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "군인/NNG+도/JX+회식/NNG+을/JKO+하/VV+구나/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 디피에서 봤어",
+            "norm_text": "디피에서 봤어",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "디피/NNG+에서/JKB+봤/VV+EP+어/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 키키 마자",
+            "norm_text": "키키 마자",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+마자/JX"
+          },
+          {
+            "id": 21,
+            "text": "2 : 그런데 가니 실제로...?",
+            "norm_text": "그런데 가니 실제로...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런데/MAJ+가/VV+니/EC+실제로/MAG+./SY+./SY"
+          },
+          {
+            "id": 22,
+            "text": "3 : 군대도 다른 회사생활이랑 똑같은 거 같아 키키 옷만 다르지",
+            "norm_text": "군대도 다른 회사생활이랑 똑같은 거 같아 키키 옷만 다르지",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "군대/NNG+도/JX+다른/MM+회사/NNG+생활/NNG+이랑/JKB+똑같/VA+은/ETM+거/NNB+같/VA+아/EC+키/NNG+키/NNG+옷/NNG+만/JX+다르/VA+지/EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 아니 키키",
+            "norm_text": "아니 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 24,
+            "text": "1 : ** ** 몸 좋은 거 어떻게 알아? 키키",
+            "norm_text": "** ** 몸 좋은 거 어떻게 알아? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "*/SY+*/SY+*/SY+*/SY+몸/NNG+좋/VA+은/ETM+거/NNB+어떻게/MAG+알/VV+아/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "2 : 아니",
+            "norm_text": "아니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC"
+          },
+          {
+            "id": 26,
+            "text": "2 : 프사가 그래 보여 키키",
+            "norm_text": "프사가 그래 보여 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "프사/UNKNOWN+가/JKS+그래/VA+EC+보여/VV+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 27,
+            "text": "2 : 또 한번 봤지 내가",
+            "norm_text": "또 한번 봤지 내가",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "또/MAG+한/MM+번/NNBC+봤/VV+EP+지/EF+내/NP+가/JKS"
+          },
+          {
+            "id": 28,
+            "text": "3 : 그러게",
+            "norm_text": "그러게",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC"
+          },
+          {
+            "id": 29,
+            "text": "3 : 내 몸 좋은 거 어떻게 알아? 키키",
+            "norm_text": "내 몸 좋은 거 어떻게 알아? 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "내/NP+JKG+몸/NNG+좋/VA+은/ETM+거/NNB+어떻게/MAG+알/VV+아/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 30,
+            "text": "3 : 하지만 감사",
+            "norm_text": "하지만 감사",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "하지만/MAJ+감사/NNG"
+          },
+          {
+            "id": 31,
+            "text": "1 : 진짜 웃기네 키키",
+            "norm_text": "진짜 웃기네 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+웃기/VV+네/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 32,
+            "text": "1 : 어깨가 넓다는 말이야? 키키",
+            "norm_text": "어깨가 넓다는 말이야? 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "어깨/NNG+가/JKS+넓/VA+다는/ETM+말/NNG+이/VCP+야/EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 33,
+            "text": "2 : 키키 앜 키키 나 왜 갑자기 얼굴 빨개지냐",
+            "norm_text": "키키 앜 키키 나 왜 갑자기 얼굴 빨개지냐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+앜키/UNKNOWN+키나/XSA+ETN+JX+왜/MAG+갑자기/MAG+얼굴/NNG+빨개지/VV+냐/EC"
+          },
+          {
+            "id": 34,
+            "text": "3 : 키키 내가 부끄러워지네 키키",
+            "norm_text": "키키 내가 부끄러워지네 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+내/NP+가/JKS+부끄러워/VA+EC+지네/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 35,
+            "text": "3 : 다들 군대 가볼래? 다이어트용으로",
+            "norm_text": "다들 군대 가볼래? 다이어트용으로",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "다/MAG+들/XSN+군대/NNG+가/JKS+볼래/VV+EF+다이어트/NNG+용/XSN+으로/JKB"
+          },
+          {
+            "id": 36,
+            "text": "1 : 우왕 ** 기분 좋겠당",
+            "norm_text": "우왕 ** 기분 좋겠당",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "우왕/NNP+*/SY+*/SY+기분/NNG+좋/VA+겠/EP+당/XSN"
+          },
+          {
+            "id": 37,
+            "text": "1 : 프사 개 멋있긴 하넹 키키",
+            "norm_text": "프사 개 멋있긴 하넹 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "프/VX+사/NR+개/NNBC+멋있/VA+긴/ETN+JX+하/VX+넹/NNP+키키/NNP"
+          },
+          {
+            "id": 38,
+            "text": "2 : 토마토 수준이다 지금 키키",
+            "norm_text": "토마토 수준이다 지금 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "토마토/NNG+수준/NNG+이/JKS+다/MAG+지금/MAG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 39,
+            "text": "2 : 그래 어깨 말이야",
+            "norm_text": "그래 어깨 말이야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/IC+어깨/NNG+말/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 40,
+            "text": "3 : 역시 프사는 잘나온 걸로 해야하나봐 키키",
+            "norm_text": "역시 프사는 잘나온 걸로 해야하나봐 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "역/NNG+시프/NNG+사/NNG+는/JX+잘/MAG+나온/VV+ETM+걸로/NNB+JKB+해야/VV+EC+하나/NR+봐/VV+EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

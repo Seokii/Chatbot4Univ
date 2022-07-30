@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 110532,
+    "name": "s1_20211104_0001_3703_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110641043180/s1_20211104_0001_3703_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110641043180/s1_20211104_0001_3703_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 114956,
+      "filename": "s1_20211007_0018_0005_01.txt",
+      "title": "s1_20211007_0018_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 298,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 298,
+        "word_size": 67,
+        "text": "A.반갑습니다 #@소속# 고객센터 #@이름# 입니다\nB.안녕하세요 오븐기 수리 기간을 알고 싶어서요\nA.전자제품의 경우 해당 제조사를 통해 수리 진행 되시고요\nA.기간은 삼일에서 최대 일주일 정도 소요 됩니다\nB.제조사가 어딘지 모르는데 어쩌죠\nA.모델명 한번 불러 주시겠어요\nB.모델명 #@기타#로 적혀 있네요\nA.조회해 보니 #@소속# 오븐기로 확인 됩니다\nB.그럼 #@소속# 아무 매장에 가서 맡겨도 되는 거죠\nA.고객님께서 가까운 #@소속# 매장으로 부탁 드립니다\nB.알겠습니다 일단 매장에 가 볼게요\nA.감사합니다 고객센터 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 고객센터 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 #@소속# 고객센터 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 오븐기 수리 기간을 알고 싶어서요",
+            "norm_text": "B.안녕하세요 오븐기 수리 기간을 알고 싶어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+오/EC+븐/VX+ETM+기/ETN+수리/NNG+기간/NNG+을/JKO+알/VV+고/EC+싶/VX+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.전자제품의 경우 해당 제조사를 통해 수리 진행 되시고요",
+            "norm_text": "A.전자제품의 경우 해당 제조사를 통해 수리 진행 되시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전자/NNG+제품/NNG+의/JKG+경우/NNG+해당/NNG+제조사/NNG+를/JKO+통해/VV+EC+수리/NNG+진행/NNG+되/XSV+시/EP+고요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.기간은 삼일에서 최대 일주일 정도 소요 됩니다",
+            "norm_text": "A.기간은 삼일에서 최대 일주일 정도 소요 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기간/NNG+은/JX+삼/NR+일/NNBC+에서/JKB+최대/NNG+일/NR+주일/NNBC+정도/NNG+소요/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.제조사가 어딘지 모르는데 어쩌죠",
+            "norm_text": "B.제조사가 어딘지 모르는데 어쩌죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+제/NP+JKG+조사/NNG+가/JKS+어딘지/NP+VCP+EC+모르/VV+는/ETM+데/NNB+어쩌/VV+죠/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.모델명 한번 불러 주시겠어요",
+            "norm_text": "A.모델명 한번 불러 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+모델/NNG+명/XSN+한번/MAG+불러/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.모델명 #@기타#로 적혀 있네요",
+            "norm_text": "B.모델명 #@기타#로 적혀 있네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+모델/NNG+명/NNG+#/SY+@/SY+기타/NNG+#/SY+로/JKB+적혀/VV+EC+있/VX+네요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.조회해 보니 #@소속# 오븐기로 확인 됩니다",
+            "norm_text": "A.조회해 보니 #@소속# 오븐기로 확인 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+조회/NNG+해/XSV+EC+보/VX+니/EC+#/SY+@/SY+소속/NNG+#/SY+오븐/NNG+기/NNG+로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그럼 #@소속# 아무 매장에 가서 맡겨도 되는 거죠",
+            "norm_text": "B.그럼 #@소속# 아무 매장에 가서 맡겨도 되는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+#/SY+@/SY+소속/NNG+#/SY+아무/MM+매장/NNG+에/JKB+가/VV+서/EC+맡겨도/VV+EC+되/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.고객님께서 가까운 #@소속# 매장으로 부탁 드립니다",
+            "norm_text": "A.고객님께서 가까운 #@소속# 매장으로 부탁 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+께서/JKS+가까운/VA+ETM+#/SY+@/SY+소속/NNG+#/SY+매장/NNG+으로/JKB+부탁드립니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.알겠습니다 일단 매장에 가 볼게요",
+            "norm_text": "B.알겠습니다 일단 매장에 가 볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+일단/MAG+매장/NNG+에/JKB+가/VV+볼게요/EC+VX+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 고객센터 #@이름# 이였습니다",
+            "norm_text": "A.감사합니다 고객센터 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

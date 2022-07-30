@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 49123,
+    "name": "c4_20211015_0012_0079_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131239071960/c4_20211015_0012_0079_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131239071960/c4_20211015_0012_0079_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57722,
+      "filename": "c4_20210929_0022_0006_01.txt",
+      "title": "c4_20210929_0022_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 401,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 401,
+        "word_size": 90,
+        "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다\nB.예 수고가 많으십니다 제가 질문사항이 있어서 전화드렸어요\nA.네 여쭤보시고 싶은게 있으신가요\nB.등대해양 문화공간 이라고 아시나요\nA.네 알고있습니다 문화공간에 대해 궁금하신 사항 있으신가요\nB.혹시 그곳의 행사소식은 어떻게 알 수 있나요\nA.해당 내용은 #@URL#에서 찾아보실 수 있습니다\nB.그런 홈페이지가 있었나요 등대와 바다라고요\nA.네 전국의 등대해양 문화공간 소개 및 각종 행사에 돤한 사항들이 게재 되어있습니다\nB.그럼 혹시 홈페이지 링크를 제 핸드폰 번호 #@전번# 으로 보내주실 수 있을까요\nA.네 통화 종료 후 바로 전송해드리겠습니다\nB.감사합니다 다른 질문사항 생기면 또 연락드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+친절한/NNP+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고가 많으십니다 제가 질문사항이 있어서 전화드렸어요",
+            "norm_text": "B.예 수고가 많으십니다 제가 질문사항이 있어서 전화드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+가/JKS+많/VA+으십니다/EP+EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "norm_text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.등대해양 문화공간 이라고 아시나요",
+            "norm_text": "B.등대해양 문화공간 이라고 아시나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+등/NNB+대해/VV+EC+양/MM+문화/NNG+공간/NNG+이/VCP+라고/EC+아시나/NNP+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 알고있습니다 문화공간에 대해 궁금하신 사항 있으신가요",
+            "norm_text": "A.네 알고있습니다 문화공간에 대해 궁금하신 사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+알/VV+고/EC+있/VX+습니다/EF+문화/NNG+공간/NNG+에/JKB+대해/VV+EC+궁금/XR+하/XSA+신/EP+ETM+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 6,
+            "text": "B.혹시 그곳의 행사소식은 어떻게 알 수 있나요",
+            "norm_text": "B.혹시 그곳의 행사소식은 어떻게 알 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+그곳/NP+의/JKG+행사/NNG+소식/NNG+은/JX+어떻게/MAG+알/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.해당 내용은 #@URL#에서 찾아보실 수 있습니다",
+            "norm_text": "A.해당 내용은 #@URL#에서 찾아보실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+내용/NNG+은/JX+#/SY+@/SY+URL/SL+#/SY+에서/JKB+찾아보/VV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그런 홈페이지가 있었나요 등대와 바다라고요",
+            "norm_text": "B.그런 홈페이지가 있었나요 등대와 바다라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그런/MM+홈페이지/NNG+가/JKS+있/VA+었/EP+나요/EF+등대/NNG+와/JC+바다/NNG+라고요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 전국의 등대해양 문화공간 소개 및 각종 행사에 돤한 사항들이 게재 되어있습니다",
+            "norm_text": "A.전국 등대 해양 문화공간 소개 및 각종 행사 사항들이 게재 되어있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전국/NNG+등/NNB+대해/VV+EC+양/MM+문화/NNG+공간/NNG+소개/NNG+및/MAJ+각종/NNG+행사/NNG+사항/NNG+들/XSN+이/JKS+게재/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 혹시 홈페이지 링크를 제 핸드폰 번호 #@전번# 으로 보내주실 수 있을까요",
+            "norm_text": "B.그럼 혹시 링크를 #@전번#으로 보내주실 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+혹시/MAG+홈페이지/NNG+링크/NNG+를/JKO+제/XPN+핸드폰/NNG+번호/NNG+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+보내/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 통화 종료 후 바로 전송해드리겠습니다",
+            "norm_text": "A.네 통화 종료 후 바로 전송해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+통화/NNG+종료/NNG+후/NNG+바로/MAG+전송/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.감사합니다 다른 질문사항 생기면 또 연락드릴게요",
+            "norm_text": "B.감사합니다 다른 질문사항 생기면 또 연락드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+다른/MM+질문/NNG+사항/NNG+생기/VV+면/EC+또/MAG+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

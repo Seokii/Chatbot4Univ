@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 144421,
+    "name": "t3_20211115_0005_0604_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135814026660/t3_20211115_0005_0604_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135814026660/t3_20211115_0005_0604_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 151555,
+      "filename": "t3_0079_0090_02.txt",
+      "title": "t3_0079_0090_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 201,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 201,
+        "word_size": 43,
+        "text": "A.네 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.네 시래기 식당 영업시간이 궁금해서요\nA.네 식당이름 알려주세요\nB.네 #@소속# 입니다\nA.네 영업시간은 오전 9시부터 하고 있습니다\nB.네 마감은 언제까지 인가요\nA.네 마감은 오후 9시입니다\nB.식당 휴무일도 있나요\nA.네 매주 일요일입니다\nB.네 그렇군요 알겠습니다\nA.네 감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.네 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 시래기 식당 영업시간이 궁금해서요",
+            "norm_text": "B.네 시래기 식당 영업시간이 궁금해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+시래기/NNG+식당/NNG+영업/NNG+시간/NNG+이/JKS+궁금/XR+해서/XSA+EC+VCP+요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 식당이름 알려주세요",
+            "norm_text": "A.네 식당 이름 알려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+식당/NNG+이름/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@소속# 입니다",
+            "norm_text": "B.네 #@소속#입니다 고객님",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 영업시간은 오전 9시부터 하고 있습니다",
+            "norm_text": "A.네 영업시간은 오전 9시부터 하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+영업/NNG+시간/NNG+은/JX+오전/NNG+9/SN+시/NNBC+부터/JX+하/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 마감은 언제까지 인가요",
+            "norm_text": "B.네 마감은 언제까지인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+마감/NNG+은/JX+언제/NP+까지/JX+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 마감은 오후 9시입니다",
+            "norm_text": "A.네 마감은 오후 9시입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+마감/NNG+은/JX+오후/NNG+9/SN+시/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.식당 휴무일도 있나요",
+            "norm_text": "B.식당 휴무일도 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+식당/NNG+휴무일/NNG+도/JX+있/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 매주 일요일입니다",
+            "norm_text": "A.네 매주 일요일입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+매주/MAG+일요일/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 그렇군요 알겠습니다",
+            "norm_text": "B.네 그렇군요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.네 감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

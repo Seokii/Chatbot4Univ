@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 153079,
+    "name": "t5_20211117_0001_1276_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135540089822/t5_20211117_0001_1276_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135540089822/t5_20211117_0001_1276_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 145752,
+      "filename": "t5_0080_0127_02.txt",
+      "title": "t5_0080_0127_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 293,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 293,
+        "word_size": 58,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nB.안녕하세요 청도 문화관광안내소는 어디에 있나요\nA.운문사 청도역 청도읍성 신지생태공원 신화랑풍류마을에 있습니다\nB.해설사님 설명은 당일 예약 될까요\nA.죄송하지만 해설 희망 날은 예약한 날보다 4일 전에 해주셔야 합니다\nB.사전예약은 어떻게 해야하나요\nA.저희 홈페이지에서 예약을 하시면 어느 관광지든 친절하게 해설해 드립니다\nB.무료로 설명해 주시나요\nA.네 그렇습니다 더 자세한 설명이 필요하시면 #@전번#으로 문의하세요\nB.자세한 설명 감사합니다\nA.네 감사합니다#@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 청도 문화관광안내소는 어디에 있나요",
+            "norm_text": "B.안녕하세요 청도 문화관광안내소는 어디에 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+청도/NNG+문화/NNG+관광/NNG+안내소/NNG+는/JX+어디/NP+에/JKB+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.운문사 청도역 청도읍성 신지생태공원 신화랑풍류마을에 있습니다",
+            "norm_text": "A.운문사 청도역 청도읍성 신지생태공원 신화랑풍류마을에 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+운문/NNG+사청/NNG+도/JX+역청/NNG+도/JX+읍/NNG+성/XSN+신지/JKS+EP+EC+생태/NNG+공원/NNG+신화/NNG+랑/JKB+풍류/NNG+마을/NNG+에/JKB+있/VV+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.해설사님 설명은 당일 예약 될까요",
+            "norm_text": "B.해설사님 설명은 당일 예약 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+해/VV+EC+설사/NNG+님/XSN+설명/NNG+은/JX+당일/NNG+예약/NNG+될까요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.죄송하지만 해설 희망 날은 예약한 날보다 4일 전에 해주셔야 합니다",
+            "norm_text": "A.죄송하지만 해설 희망 날은 예약한 날보다 4일 전에 해주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+해설/NNG+희망/NNG+날/NNG+은/JX+예약/NNG+한/XSA+ETM+날/NNG+보다/JKB+4/SN+일/NNBC+전/NNG+에/JKB+해/VV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.사전예약은 어떻게 해야하나요",
+            "norm_text": "B.사전예약은 어떻게 해야하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+사전/NNG+예약/NNG+은/JX+어떻게/MAG+해야/VV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.저희 홈페이지에서 예약을 하시면 어느 관광지든 친절하게 해설해 드립니다",
+            "norm_text": "A.저희 홈페이지에서 예약을 하시면 어느 관광지든 친절하게 해설해 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+홈페이지/NNG+에서/JKB+예약/NNG+을/JKO+하/VV+시/EP+면/EC+어느/MM+관광지/NNG+든/VCP+EC+친절/NNG+하/XSV+게/EC+해설/NNG+해/XSV+EC+드립니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.무료로 설명해 주시나요",
+            "norm_text": "B.무료로 설명해 주시나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+무료/NNG+로/JKB+설명/NNG+해/XSV+EC+주/VX+시/EP+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 그렇습니다 더 자세한 설명이 필요하시면 #@전번#으로 문의하세요",
+            "norm_text": "A.네 그렇습니다 더 자세한 설명이 필요하시면 #@전번#으로 문의하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+더/MAG+자세/XR+한/XSA+ETM+설명/NNG+이/JKS+필요/NNG+하/XSV+시/EP+면/EC+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+문의/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.자세한 설명 감사합니다",
+            "norm_text": "B.자세한 설명 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+자세/XR+한/XSA+ETM+설명/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 감사합니다#@소속# #@이름#이었습니다",
+            "norm_text": "A.네 감사합니다#@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

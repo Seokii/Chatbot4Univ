@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 51979,
+    "name": "c1_20211018_0002_0007_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130801033147/c1_20211018_0002_0007_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130801033147/c1_20211018_0002_0007_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51554,
+      "filename": "c1_20210928_0018_0001_01.txt",
+      "title": "c1_20210928_0018_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 226,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 226,
+        "word_size": 48,
+        "text": "A.안녕하십니까 #@소속# 상담센터입니다\nB.안녕하세요 교원평가 성과상여금 지급 부서가 어디죠\nA.선생님 초중고 교육 중 어느 부분이십니까\nB.저는 초등 교육 쪽이요\nA.그러시다면 #@소속# 부서로 확인하시면 됩니다\nB.해당 부서가 #@소속#이 맞나요\nA.네 맞습니다 선생님\nB.네 그래요 알겠습니다\nA.다른 문의사항 더 없으십니까\nB.네 괜찮습니다 이 정도면 충분해요\nA.이상 상담 마치겠습니다 #@소속# 상담센터였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담센터입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담센터입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+센터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 교원평가 성과상여금 지급 부서가 어디죠",
+            "norm_text": "B.안녕하세요 교원평가 성과상여금 지급 부서가 어디죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+교원/NNG+평가/NNG+성/XSN+과/JC+상여금/NNG+지급/NNG+부서/NNG+가/JKS+어디/NP+죠/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.선생님 초중고 교육 중 어느 부분이십니까",
+            "norm_text": "A.선생님 초중고 교육 중 어느 부분이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+초/XPN+중고/NNG+교육/NNG+중/NNB+어느/MM+부분/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.저는 초등 교육 쪽이요",
+            "norm_text": "B.저는 초등 교육 쪽이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/NP+는/JX+초등/NNG+교육/NNG+쪽/NNB+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.그러시다면 #@소속# 부서로 확인하시면 됩니다",
+            "norm_text": "A.그러시다면 #@소속# 부서로 확인하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+시/EP+다면/EC+#/SY+@/SY+소속/NNG+#/SY+부서/NNG+로/JKB+확인/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.해당 부서가 #@소속#이 맞나요",
+            "norm_text": "B.해당 부서가 #@소속#이 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+해당/NNG+부서/NNG+가/JKS+#/SY+@/SY+소속/NNG+#/SY+이/JKS+맞/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 맞습니다 선생님",
+            "norm_text": "A.네 맞습니다 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.네 그래요 알겠습니다",
+            "norm_text": "B.네 그래요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+그래요/VA+EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.다른 문의사항 더 없으십니까",
+            "norm_text": "A.다른 문의사항 더 없으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+더/MAG+없/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 괜찮습니다 이 정도면 충분해요",
+            "norm_text": "B.네 괜찮습니다 이 정도면 충분해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+괜찮/VA+습니다/EF+이/MM+정도/NNG+면/VCP+EC+충분/XR+해요/XSA+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.이상 상담 마치겠습니다 #@소속# 상담센터였습니다",
+            "norm_text": "A.이상 상담 마치겠습니다 #@소속# 상담센터였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+이상/NNG+상담/NNG+마치/VV+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+센터/NNG+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

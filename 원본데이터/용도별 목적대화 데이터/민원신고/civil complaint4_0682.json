@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 42591,
+    "name": "c4_20211013_0011_0143_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt202110081311580021110/c4_20211013_0011_0143_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt202110081311580021110/c4_20211013_0011_0143_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56371,
+      "filename": "c4_20210923_0027_0020_01.txt",
+      "title": "c4_20210923_0027_0020_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 285,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 285,
+        "word_size": 54,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.#@주소#는 왜 특별분양가가 일반분양가와 같죠\nB.이해가 안되서 설명 좀 부탁할게요\nA.일반분양가는 한국토지주택공사 분양가 심의위원회를 거쳐 결정됩니다\nA.특별분양가는 무상양여된 국공유지 금액만큼 일반분양가에서 차감하여 산정됩니다\nB.원주민을 위한 혜택도 없지 않습니까\nA.원주민 추가혜택이 필요하다는 의지를 전달하겠습니다\nA.분양 전까지 발표 될 수 있도록 적극 협의하겠습니다\nB.네 알겠습니다 감사합니다\nA.감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.#@주소#는 왜 특별분양가가 일반분양가와 같죠",
+            "norm_text": "B.#@주소#는 왜 특별분양가가 일반분양가와 같죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+는/JX+왜/MAG+특별/NNG+분양/NNG+가/XSN+가/JKS+일반/NNG+분양/NNG+가/XSN+와/JKB+같/VA+죠/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.이해가 안되서 설명 좀 부탁할게요",
+            "norm_text": "B.이해가 안되서 설명 좀 부탁할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+이해/NNG+가/JKS+안/MAG+되/VV+서/EC+설명/NNG+좀/MAG+부탁/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.일반분양가는 한국토지주택공사 분양가 심의위원회를 거쳐 결정됩니다",
+            "norm_text": "A.일반분양가는 한국토지주택공사 분양가 심의위원회를 거쳐 결정됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+일반/NNG+분양/NNG+가/VV+는/ETM+한국/NNP+토지/NNG+주택공사/NNP+분양/NNG+가심/NNG+의/JKG+위원회/NNG+를/JKO+거쳐/VV+EC+결정/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.특별분양가는 무상양여된 국공유지 금액만큼 일반분양가에서 차감하여 산정됩니다",
+            "norm_text": "A.특별분양가는 무상양여된 국공유지 금액만큼 일반분양가에서 차감하여 산정됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+특별/NNG+분양/NNG+가/VV+는/ETM+무상/NNG+양여/NNG+된/XSV+ETM+국공유지/NNG+금액/NNG+만큼/JKB+일반/NNG+분양가/NNG+에서/JKB+차감/NNG+하/XSV+여/EC+산정/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.원주민을 위한 혜택도 없지 않습니까",
+            "norm_text": "B.원주민을 위한 혜택도 없지 않습니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+원주민/NNG+을/JKO+위한/VV+ETM+혜택/NNG+도/JX+없/VA+지/EC+않/VX+습니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.원주민 추가혜택이 필요하다는 의지를 전달하겠습니다",
+            "norm_text": "A.원주민 추가혜택이 필요하다는 의지를 전달하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+원주민/NNG+추가/NNG+혜택/NNG+이/JKS+필요/NNG+하/XSA+다는/ETM+의지/NNG+를/JKO+전달/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.분양 전까지 발표 될 수 있도록 적극 협의하겠습니다",
+            "norm_text": "A.분양 전까지 발표 될 수 있도록 적극 협의하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+분양/NNG+전/NNG+까지/JX+발표/NNG+될/XSV+ETM+수/NNB+있/VV+도록/EC+적극/NNG+협의/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

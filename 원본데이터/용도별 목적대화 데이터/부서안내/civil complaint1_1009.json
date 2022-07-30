@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 56096,
+    "name": "c1_20211019_0002_0008_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130758066023/c1_20211019_0002_0008_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130758066023/c1_20211019_0002_0008_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51243,
+      "filename": "c1_20210924_0018_0009_01.txt",
+      "title": "c1_20210924_0018_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 307,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 307,
+        "word_size": 63,
+        "text": "A.안녕하십니까 상담사 #@이름#입니다\nB.안녕하세요 초등학교 감염병 방역관련 부서 있나요\nA.선생님 어떤 문의이십니까\nB.코로나 때문에 분반 요청 좀 하려고요\nA.혹시 자녀분 학교가 서울특별시 맞으십니까\nB.네 맞아요 #@기타# 초등학교요\nA.그러시다면 #@소속# 기관이시고요\nA.#@소속#부서 #@이름# 담당자로 확인됩니다\nB.연락처나 즉시 연결 가능할까요\nA.#@소속#기관 대표 번호 #@전번#만 안내 가능합니다\nB.담당자 직통 연락처는 없나요\nA.죄송하지만 저희 쪽에서 확인이 어렵습니다\nB.그래요 그럼 일단 주신 번호로 해볼게요\nA.원활한 업무처리 되시기 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 초등학교 감염병 방역관련 부서 있나요",
+            "norm_text": "B.안녕하세요 초등학교 감염병 방역관련 부서 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+초등/NNG+학교/NNG+감염병/NNP+방역/NNG+관련/NNG+부서/NNG+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.선생님 어떤 문의이십니까",
+            "norm_text": "A.선생님 어떤 문의이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+어떤/MM+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.코로나 때문에 분반 요청 좀 하려고요",
+            "norm_text": "B.코로나 때문에 분반 요청 좀 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+코로나/NNG+때문/NNB+에/JKB+분반/NNG+요청/NNG+좀/MAG+하/VV+려고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.혹시 자녀분 학교가 서울특별시 맞으십니까",
+            "norm_text": "A.혹시 자녀분 학교가 서울특별시 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+자녀/NNG+분/NNB+학교/NNG+가/JKS+서울/NNP+특별시/NNG+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 맞아요 #@기타# 초등학교요",
+            "norm_text": "B.네 맞아요 #@기타# 초등학교요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+#/SY+@/SY+기타/NNG+#/SY+초등/NNG+학교/NNG+요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.그러시다면 #@소속# 기관이시고요",
+            "norm_text": "A.그러시다면 #@소속# 기관이시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+시/EP+다면/EC+#/SY+@/SY+소속/NNG+#/SY+기관/NNG+이/VCP+시/EP+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.#@소속#부서 #@이름# 담당자로 확인됩니다",
+            "norm_text": "A.#@소속#부서 #@이름# 담당자로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+부서/NNG+#/SY+@/SY+이름/NNG+#/SY+담당자/NNG+로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.연락처나 즉시 연결 가능할까요",
+            "norm_text": "B.연락처나 즉시 연결 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+연락처/NNG+나/JC+즉시/NNG+연결/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.#@소속#기관 대표 번호 #@전번#만 안내 가능합니다",
+            "norm_text": "A.#@소속#기관 대표 번호 #@전번#만 안내 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+기관/NNG+대표/NNG+번호/NNG+#/SY+@/SY+전번/NNG+#/SY+만안/NNP+내/NNB+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.담당자 직통 연락처는 없나요",
+            "norm_text": "B.담당자 직통 연락처는 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+담당자/NNG+직통/NNG+연락처/NNG+는/JX+없/VA+나요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.죄송하지만 저희 쪽에서 확인이 어렵습니다",
+            "norm_text": "A.죄송하지만 저희 쪽에서 확인이 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+저희/NP+쪽/NNB+에서/JKB+확인/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.그래요 그럼 일단 주신 번호로 해볼게요",
+            "norm_text": "B.그래요 그럼 일단 주신 번호로 해볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+일단/MAG+주/VV+신/EP+ETM+번호/NNG+로/JKB+해/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.원활한 업무처리 되시기 바랍니다",
+            "norm_text": "A.원활한 업무처리 되시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+원활/NNG+한/XSA+ETM+업무/NNG+처리/NNG+되/XSV+시/EP+기/ETN+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

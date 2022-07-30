@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 6082,
+    "name": "c1_20210911_0005_044_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341084231/c1_20210911_0005_044_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341084231/c1_20210911_0005_044_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10769,
+      "filename": "c1_20210820_0006_0002_01.txt",
+      "title": "c1_20210820_0006_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 275,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 275,
+        "word_size": 54,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다 잠시 통화 가능하십니까\nA.민원인께서 내일 도지사님 주관으로 안보관련 토의가 있다고 하셨습니다\nA.토의 자료 요청으로 담당자 연결 요청하셨습니다\nA.혹시 담당자 #@이름# 주사님이십니까\nB.지금 거기 전화하신 데가 어디예요 민원인이 누구예요\nA.누구신지는 확인이 어려웠습니다\nA.제가 #@이름# 주사님께 전화드리겠습니다\nB.#@이름# 주사는 #@전번#인가 그래요\nA.예 #@전번#번으로 확인되어서요\nA.다시 한 번 연결하겠습니다 감사합니다\nB.네 그래요 그럼 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다 잠시 통화 가능하십니까",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다 잠시 통화 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+잠시/MAG+통화/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.민원인께서 내일 도지사님 주관으로 안보관련 토의가 있다고 하셨습니다",
+            "norm_text": "A.민원인께서 내일 도지사님 주관으로 안보관련 토의가 있다고 하셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+민원인/NNG+께서/JKS+내일/MAG+도지사/NNP+님/XSN+주관/NNG+으로/JKB+안보/NNG+관련/NNG+토의/NNG+가/JKS+있/VA+다고/EC+하/VX+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.토의 자료 요청으로 담당자 연결 요청하셨습니다",
+            "norm_text": "A.토의 자료 요청으로 담당자 연결 요청하셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+토의/NNG+자료/NNG+요청/NNG+으로/JKB+담당자/NNG+연결/NNG+요청/NNG+하/XSV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.혹시 담당자 #@이름# 주사님이십니까",
+            "norm_text": "A.혹시 담당자 #@이름# 주사님이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+담당자/NNG+#/SY+@/SY+이름/NNG+#/SY+주사/NNG+님/XSN+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.지금 거기 전화하신 데가 어디예요 민원인이 누구예요",
+            "norm_text": "B.지금 거기 전화하신 데가 어디예요 민원인이 누구예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+지금/MAG+거기/NP+전화/NNG+하/XSV+신/EP+ETM+데/NNB+가/JKS+어디/NP+예요/VCP+EF+민원인/NNG+이/JKS+누구/NP+예요/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.누구신지는 확인이 어려웠습니다",
+            "norm_text": "A.누구신지는 확인이 어려웠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+누구/NP+신지/JKS+EP+EC+는/JX+확인/NNG+이/JKS+어려웠/VA+EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.제가 #@이름# 주사님께 전화드리겠습니다",
+            "norm_text": "A.제가 #@이름# 주사님께 전화드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+#/SY+@/SY+이름/NNG+#/SY+주사/NNG+님/XSN+께/JKB+전화/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.#@이름# 주사는 #@전번#인가 그래요",
+            "norm_text": "B.#@이름# 주사는 #@전번#인가 그래요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+주사/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+인가/VCP+EC+그래요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.예 #@전번#번으로 확인되어서요",
+            "norm_text": "A.예 #@전번#번으로 확인되어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+으로/JKB+확인/NNG+되/XSV+어서요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.다시 한 번 연결하겠습니다 감사합니다",
+            "norm_text": "A.다시 한 번 연결하겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+다시/MAG+한/MM+번/NNBC+연결/NNG+하/XSV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 그래요 그럼 수고하세요",
+            "norm_text": "B.네 그래요 그럼 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+그래요/VV+EF+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

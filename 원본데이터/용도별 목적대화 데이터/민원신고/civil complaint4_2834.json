@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 61010,
+    "name": "c4_20211021_0012_0090_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131232047321/c4_20211021_0012_0090_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131232047321/c4_20211021_0012_0090_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56849,
+      "filename": "c4_20210927_0015_0004_01.txt",
+      "title": "c4_20210927_0015_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 289,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 289,
+        "word_size": 63,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nB.네 저기 여기가 검단 쪽인데요 지하철 연장한다는 소식이 있나요\nA.관련 문의사항에 대해서 제가 확답을 드리기는 어렵습니다\nB.그럼 여기서 모른다고 하면은 어디에 전화해야 하나요\nA.제가 #@소속# 주무관님 연락처를 안내해 드리겠습니다\nA.지금 메모 가능하신가요 선생님\nB.네 바로 적을게요 불러 주세요\nA.#@전번#번입니다 오후 열두 시에서 한 시 사이는 통화가 어렵습니다\nB.예 그럼 그 시간 피해서 연락할게요\nA.고맙습니다 저는 #@소속#이었습니다\nB.도와주셔서 고맙습니다 안녕히 계세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 저기 여기가 검단 쪽인데요 지하철 연장한다는 소식이 있나요",
+            "norm_text": "B.네 저기 여기가 검단 쪽인데요 지하철 연장한다는 소식이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+저기/IC+여기/NP+가/JKS+검단/NNG+쪽/NNB+인데요/VCP+EC+지하철/NNG+연장/NNG+한다는/XSV+ETM+소식/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.관련 문의사항에 대해서 제가 확답을 드리기는 어렵습니다",
+            "norm_text": "A.관련 문의사항에 대해서 제가 확답을 드리기는 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+관련/NNG+문/NNG+의/JKG+사항/NNG+에/JKB+대해서/VV+EC+제/NP+가/JKS+확답/NNG+을/JKO+드리/VV+기/ETN+는/JX+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그럼 여기서 모른다고 하면은 어디에 전화해야 하나요",
+            "norm_text": "B.그럼 여기서 모른다고 하면은 어디에 전화해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+여기/NP+서/JKB+모른다고/VV+EC+하/VV+면은/EC+어디/NP+에/JKB+전화/NNG+해야/XSV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.제가 #@소속# 주무관님 연락처를 안내해 드리겠습니다",
+            "norm_text": "A.제가 #@소속# 주무관님 연락처를 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+주무관/NNG+님/XSN+연락처/NNG+를/JKO+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.지금 메모 가능하신가요 선생님",
+            "norm_text": "A.지금 메모 가능하신가요 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+메모/NNG+가능/NNG+하/XSV+신가요/EP+EC+선생/NNG+님/XSN"
+          },
+          {
+            "id": 7,
+            "text": "B.네 바로 적을게요 불러 주세요",
+            "norm_text": "B.네 바로 적을게요 불러 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+바로/MAG+적/VV+을게요/EC+불러/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.#@전번#번입니다 오후 열두 시에서 한 시 사이는 통화가 어렵습니다",
+            "norm_text": "A.#@전번#번입니다 오후 열두 시에서 한 시 사이는 통화가 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+입니다/VCP+EF+오후/NNG+열/NR+두/MM+시/NNBC+에서/JKB+한/MM+시/NNBC+사이/NNG+는/JX+통화/NNG+가/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.예 그럼 그 시간 피해서 연락할게요",
+            "norm_text": "B.예 그럼 그 시간 피해서 연락할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+예/IC+그럼/MAJ+그/MM+시간/NNG+피/NNG+해서/XSV+EC+연락/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.고맙습니다 저는 #@소속#이었습니다",
+            "norm_text": "A.고맙습니다 저는 #@소속#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+고맙/VA+습니다/EF+저/NP+는/JX+#/SY+@/SY+소속/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.도와주셔서 고맙습니다 안녕히 계세요",
+            "norm_text": "B.도와주셔서 고맙습니다 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+도와/VV+EC+주/VX+셔서/EP+EC+고맙/VA+습니다/EF+안녕히/MAG+계세요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

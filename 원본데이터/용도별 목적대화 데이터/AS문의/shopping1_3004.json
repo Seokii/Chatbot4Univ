@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 123129,
+    "name": "s1_20211108_0001_4811_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110641066772/s1_20211108_0001_4811_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110641066772/s1_20211108_0001_4811_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 114982,
+      "filename": "s1_20211012_0012_0002_01.txt",
+      "title": "s1_20211012_0012_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 234,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 234,
+        "word_size": 50,
+        "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다\nB.저 수리 접수 부탁해요\nA.네 고객님 어떤 제품 수리를 원하시나요\nB.냉장고에서 소리가 계속 나네요\nA.네 혹시 김치냉장고인가요\nB.아니요 일반 냉장고입니다\nA.네 성함과 연락처 부탁드립니다\nB.예 #@이름# #@전번#입니다\nA.네 기사님이 미리 전화드리고 방문 날짜 알려드릴 겁니다\nB.네 감사합니다 수고하세요\nA.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+만족/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저 수리 접수 부탁해요",
+            "norm_text": "B.저 수리 접수 부탁해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+저/MM+수리/NNG+접수/NNG+부탁/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어떤 제품 수리를 원하시나요",
+            "norm_text": "A.네 고객님 어떤 제품 수리를 원하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어떤/MM+제품/NNG+수리/NNG+를/JKO+원하/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.냉장고에서 소리가 계속 나네요",
+            "norm_text": "B.냉장고에서 소리가 계속 나네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+냉장고/NNG+에서/JKB+소리/NNG+가/JKS+계속/MAG+나/NP+네요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 혹시 김치냉장고인가요",
+            "norm_text": "A.네 혹시 김치냉장고인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+혹시/MAG+김치냉장고/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아니요 일반 냉장고입니다",
+            "norm_text": "B.아니요 일반 냉장고입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+일반/NNG+냉장고/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 성함과 연락처 부탁드립니다",
+            "norm_text": "A.네 성함과 연락처 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+성함/NNG+과/JC+연락처/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.예 #@이름# #@전번#입니다",
+            "norm_text": "B.예 #@이름# #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 기사님이 미리 전화드리고 방문 날짜 알려드릴 겁니다",
+            "norm_text": "A.네 기사님이 미리 전화드리고 방문 날짜 알려드릴 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+기사/NNG+님/XSN+이/JKS+미리/MAG+전화/NNG+드리/VV+고/EC+방문/NNG+날짜/NNG+알려/VV+EC+드릴/VX+ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+            "norm_text": "A.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+추가/NNG+문/NNG+의/JKG+사항/NNG+언제든지/MAG+연락/NNG+주세요/NNP+#/SY+@/SY+소속/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "dataset": {
+    "identifier": 150366,
+    "name": "KAKAO_2218_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/86/txt202111121951480775103/KAKAO_2218_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/86/txt202111121951480775103/KAKAO_2218_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 166178,
+      "filename": "KAKAO_2218_07.txt",
+      "title": "KAKAO_2218_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-11-12",
+      "size": 671,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "다자간 대화",
+        "size": 671,
+        "word_size": 232,
+        "text": "1 : 주말이라 어제 가족들이랑 외식 했어 키키\n2 : 오 저녁에 뭐 먹었어?\n3 : 외식 좋지\n3 : 주말마다 외식 하는 거야?\n3 : 나랑도 외식 할래?\n1 : 아니\n1 : 괜찮아.\n1 : 가족들이랑 매운탕 먹으러 갔다 왔어 키키\n1 : 아니\n1 : 진짜 오랜만에 했어 ㅠㅠ\n2 : 오 매운탕 맛있겠다\n2 : 진짜 오랜만이었나 보네\n3 : 하긴 요즘 잘 못 나가서 오랜만에 갔나 보네\n3 : 매운탕 맛있겠다\n1 : 응 키키 몇 달 만인지 모르겠네\n1 : 엄마 때문에 매운탕 먹고 왔어 키키\n2 : 언니 독립해서 가족이랑 외식 잘 못하잖아 ㅠㅠ\n3 : 어머니가 매운탕을 좋아 하시나 보네!\n1 : 맞아 ㅠㅠ\n1 : 엄마가 매운탕 좋아하시는데 내가 물고기를 못 먹어서\n1 : 어제는 그냥 갔다 왔어 키키\n2 : 키키 국물에 비벼 먹으면 진짜 맛나는데\n3 : 맞아\n3 : 김치 올려서 맛있겠다 키키\n3 : 물고기 못 먹으면 뭐 먹었어...?\n1 : 엄마 진짜 맛있게 잘 드시더라고 ㅠㅠ\n1 : 매운탕 먹으러 가길 잘했어 ㅠㅠ\n1 : 나는 그냥 반찬 집어먹음 ㅠㅠ\n2 : 그치 ㅜㅜ\n2 : 안 먹으면 반찬이랑 밖에 못 먹을 거야\n3 : 그러게\n3 : 그래도 효녀네 못 먹어도 어머니 위해 가고!\n1 : 키키 몇 년 만에 처음 갔어 키키\n1 : 불효녀지 ㅠㅠ\n2 : 그니깐 오랜만이라서 맛난 거 먹었어야 했는데\n3 : 키키 아 그럼 자주 좀 가서 부모님 좀 자주 봐!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 주말이라 어제 가족들이랑 외식 했어 키키",
+            "norm_text": "주말이라 어제 가족들이랑 외식 했어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "주말/NNG+이/VCP+라/EC+어제/MAG+가족/NNG+들/XSN+이랑/JKB+외식/NNG+했/XSV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 2,
+            "text": "2 : 오 저녁에 뭐 먹었어?",
+            "norm_text": "오 저녁에 뭐 먹었어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+저녁/NNG+에/JKB+뭐/IC+먹/VV+었/EP+어/EF"
+          },
+          {
+            "id": 3,
+            "text": "3 : 외식 좋지",
+            "norm_text": "외식 좋지",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "외식/NNG+좋/VA+지/EC"
+          },
+          {
+            "id": 4,
+            "text": "3 : 주말마다 외식 하는 거야?",
+            "norm_text": "주말마다 외식 하는 거야?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "주말/NNG+마다/JX+외식/NNG+하/XSV+는/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "3 : 나랑도 외식 할래?",
+            "norm_text": "나랑도 외식 할래?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "나/NP+랑/JKB+도/JX+외식/NNG+할래/XSV+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 아니",
+            "norm_text": "아니",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC"
+          },
+          {
+            "id": 7,
+            "text": "1 : 괜찮아.",
+            "norm_text": "괜찮아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "괜찮/VA+아/EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 가족들이랑 매운탕 먹으러 갔다 왔어 키키",
+            "norm_text": "가족들이랑 매운탕 먹으러 갔다 왔어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "가족/NNG+들/XSN+이랑/JKB+매운탕/NNG+먹/VV+으러/EC+갔다왔/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 9,
+            "text": "1 : 아니",
+            "norm_text": "아니",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC"
+          },
+          {
+            "id": 10,
+            "text": "1 : 진짜 오랜만에 했어 ㅠㅠ",
+            "norm_text": "진짜 오랜만에 했어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "진짜/MAG+오랜만/NNG+에/JKB+했/VV+EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 11,
+            "text": "2 : 오 매운탕 맛있겠다",
+            "norm_text": "오 매운탕 맛있겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+매운탕/NNG+맛있/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 12,
+            "text": "2 : 진짜 오랜만이었나 보네",
+            "norm_text": "진짜 오랜만이었나 보네",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+오랜만/NNG+이/VCP+었/EP+나/EC+보/VX+네/EC"
+          },
+          {
+            "id": 13,
+            "text": "3 : 하긴 요즘 잘 못 나가서 오랜만에 갔나 보네",
+            "norm_text": "하긴 요즘 잘 못 나가서 오랜만에 갔나 보네",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하긴/MAJ+요즘/MAG+잘못/MAG+나가/VV+서/EC+오랜만/NNG+에/JKB+갔/VV+EP+나/EC+보/VX+네/EC"
+          },
+          {
+            "id": 14,
+            "text": "3 : 매운탕 맛있겠다",
+            "norm_text": "매운탕 맛있겠다",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "매운탕/NNG+맛있/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 응 키키 몇 달 만인지 모르겠네",
+            "norm_text": "응 키키 몇 달 만인지 모르겠네",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "N/A",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+몇/MM+달/NNBC+만/NNB+인지/VCP+EC+모르/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 엄마 때문에 매운탕 먹고 왔어 키키",
+            "norm_text": "엄마 때문에 매운탕 먹고 왔어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+때문/NNB+에/JKB+매운탕/NNG+먹/VV+고/EC+왔/VX+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 언니 독립해서 가족이랑 외식 잘 못하잖아 ㅠㅠ",
+            "norm_text": "언니 독립해서 가족이랑 외식 잘 못하잖아 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "언니/NNG+독립/NNG+해서/XSV+EC+가족/NNG+이랑/JKB+외식/NNG+잘못/MAG+하/VV+잖아/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 18,
+            "text": "3 : 어머니가 매운탕을 좋아 하시나 보네!",
+            "norm_text": "어머니가 매운탕을 좋아 하시나 보네!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어머니/NNG+가/JKS+매운탕/NNG+을/JKO+좋아하/VV+시/EP+나/EC+보/VX+네/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 맞아 ㅠㅠ",
+            "norm_text": "맞아 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞아ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 20,
+            "text": "1 : 엄마가 매운탕 좋아하시는데 내가 물고기를 못 먹어서",
+            "norm_text": "엄마가 매운탕 좋아하시는데 내가 물고기를 못 먹어서",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "엄마/NNG+가/JKS+매운탕/NNG+좋/VA+아/EC+하/VX+시/EP+는데/EC+내/NP+가/JKS+물고기/NNG+를/JKO+못/MAG+먹/VV+어서/EC"
+          },
+          {
+            "id": 21,
+            "text": "1 : 어제는 그냥 갔다 왔어 키키",
+            "norm_text": "어제는 그냥 갔다 왔어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어제/NNG+는/JX+그냥/MAG+갔다왔/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 22,
+            "text": "2 : 키키 국물에 비벼 먹으면 진짜 맛나는데",
+            "norm_text": "키키 국물에 비벼 먹으면 진짜 맛나는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/NNG+국물/NNG+에/JKB+비벼/VV+EC+먹/VV+으면/EC+진짜/MAG+맛나/VA+는데/EC"
+          },
+          {
+            "id": 23,
+            "text": "3 : 맞아",
+            "norm_text": "맞아",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맞/VV+아/EC"
+          },
+          {
+            "id": 24,
+            "text": "3 : 김치 올려서 맛있겠다 키키",
+            "norm_text": "김치 올려서 맛있겠다 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "김치/NNG+올려서/VV+EC+맛있/VA+겠/EP+다키키/NNP"
+          },
+          {
+            "id": 25,
+            "text": "3 : 물고기 못 먹으면 뭐 먹었어...?",
+            "norm_text": "물고기 못 먹으면 뭐 먹었어...?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "물고기/NNG+못/MAG+먹/VV+으면/EC+뭐/IC+먹/VV+었/EP+어/EF+./SY+./SY"
+          },
+          {
+            "id": 26,
+            "text": "1 : 엄마 진짜 맛있게 잘 드시더라고 ㅠㅠ",
+            "norm_text": "엄마 진짜 맛있게 잘 드시더라고 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엄마/NNG+진짜/MAG+맛있/VA+게/EC+잘/MAG+드/VV+시/EP+더라고/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 27,
+            "text": "1 : 매운탕 먹으러 가길 잘했어 ㅠㅠ",
+            "norm_text": "매운탕 먹으러 가길 잘했어 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "매운탕/NNG+먹/VV+으러/EC+가/VX+길/ETN+JKO+잘/MAG+했/VV+EP+어/EF+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 28,
+            "text": "1 : 나는 그냥 반찬 집어먹음 ㅠㅠ",
+            "norm_text": "나는 그냥 반찬 집어먹음 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+그냥/MAG+반찬/NNG+집어먹/VV+음/ETN+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 29,
+            "text": "2 : 그치 ㅜㅜ",
+            "norm_text": "그치 ㅜㅜ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치ㅜㅜ/UNKNOWN"
+          },
+          {
+            "id": 30,
+            "text": "2 : 안 먹으면 반찬이랑 밖에 못 먹을 거야",
+            "norm_text": "안 먹으면 반찬이랑 밖에 못 먹을 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "안/MAG+먹/VV+으면/EC+반찬/NNG+이랑/JKB+밖에/JX+못/MAG+먹/VV+을/ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 31,
+            "text": "3 : 그러게",
+            "norm_text": "그러게",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그러/VV+게/EC"
+          },
+          {
+            "id": 32,
+            "text": "3 : 그래도 효녀네 못 먹어도 어머니 위해 가고!",
+            "norm_text": "그래도 효녀네 못 먹어도 어머니 위해 가고!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래도/MAJ+효녀/NNG+네/XSN+못/MAG+먹/VV+어도/EC+어머니/NNG+위해/VV+EC+가/VX+고/EC"
+          },
+          {
+            "id": 33,
+            "text": "1 : 키키 몇 년 만에 처음 갔어 키키",
+            "norm_text": "키키 몇 년 만에 처음 갔어 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키/XSV+ETN+몇/MM+년/NNBC+만/NNB+에/JKB+처음/MAG+갔/VV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 34,
+            "text": "1 : 불효녀지 ㅠㅠ",
+            "norm_text": "불효녀지 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "불효녀지ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 35,
+            "text": "2 : 그니깐 오랜만이라서 맛난 거 먹었어야 했는데",
+            "norm_text": "그니깐 오랜만이라서 맛난 거 먹었어야 했는데",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니깐/MAJ+오랜만/NNG+이/VCP+라서/EC+맛난/VA+ETM+거/NNB+먹/VV+었/EP+어야/EC+했/VX+EP+는데/EC"
+          },
+          {
+            "id": 36,
+            "text": "3 : 키키 아 그럼 자주 좀 가서 부모님 좀 자주 봐!",
+            "norm_text": "키키 아 그럼 자주 좀 가서 부모님 좀 자주 봐!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 명령/요구하기",
+            "morpheme": "키/NNG+키/XSV+ETN+아/IC+그럼/MAJ+자주/MAG+좀/MAG+가/VV+서/EC+부모/NNG+님/XSN+좀/MAG+자주/MAG+봐/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

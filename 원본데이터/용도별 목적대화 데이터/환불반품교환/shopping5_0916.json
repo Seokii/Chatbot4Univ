@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 50762,
+    "name": "s5_20211018_0014_0071_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131243041981/s5_20211018_0014_0071_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131243041981/s5_20211018_0014_0071_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 58179,
+      "filename": "s5_20210831_0021_0002_01.txt",
+      "title": "s5_20210831_0021_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 377,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 377,
+        "word_size": 90,
+        "text": "A.안녕하세요 상담사 #@이름# 입니다 무엇을 도와 드릴까요\nB.제가 #@소속#페이로 주문한 게 있는데 전화번호 불러드릴까요\nA.네 전화번호 말씀 부탁드립니다\nB.제 번호는 #@전번#입니다\nA.확인 감사합니다 #@상품# 주문 하신 거 맞으신가요\nB.네 물건 받기 전에 취소 요청을 했는데 금요일인가 받았어요\nB.그래서 이거 다시 취소 하려고 하는데 어떻게 해야 돼요\nA.저희가 상품이 출고 되고는 취소가 불가능 합니다\nB.제가 취소 요청을 했는데 판매자 분께서 그냥 출고를 하셨나봐요\nB.그러고 나서 물건을 받은 건데 이게 제 잘못 인가요\nA.저희가 업체 측에 출고 시간 확인하고 연락 드리겠습니다\nB.알겠습니다 빨리 확인하고 연락 주세요\nA.네 감사합니다 고객님 빠르게 확인하고 연락드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담사 #@이름# 입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.안녕하세요 상담사 #@이름# 입니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 #@소속#페이로 주문한 게 있는데 전화번호 불러드릴까요",
+            "norm_text": "B.제가 #@소속#페이로 주문한 게 있는데 전화번호 불러드릴까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+페이/NNP+로/JKB+주문/NNG+한/XSA+ETM+게/NNB+JKS+있/VA+는데/EC+전화/NNG+번호/NNG+불러/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 전화번호 말씀 부탁드립니다",
+            "norm_text": "A.네 전화번호 말씀 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+전화/NNG+번호/NNG+말씀/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.제 번호는 #@전번#입니다",
+            "norm_text": "B.제 번호는 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.확인 감사합니다 #@상품# 주문 하신 거 맞으신가요",
+            "norm_text": "A.확인 감사합니다 #@상품# 주문 하신 거 맞으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+합니다/XSV+EF+#/SY+@/SY+상품/NNG+#/SY+주문/NNG+하/XSV+신/EP+ETM+거/NNB+맞/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 6,
+            "text": "B.네 물건 받기 전에 취소 요청을 했는데 금요일인가 받았어요",
+            "norm_text": "B.네 물건 받기 전에 취소 요청을 했는데 금요일인가 받았어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+물건/NNG+받/VV+기/ETN+전/NNG+에/JKB+취소/NNG+요청/NNG+을/JKO+했/VV+EP+는데/EC+금요일/NNG+인가/VCP+EC+받/VV+았/EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그래서 이거 다시 취소 하려고 하는데 어떻게 해야 돼요",
+            "norm_text": "B.그래서 이거 다시 취소 하려고 하는데 어떻게 해야 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래서/MAJ+이거/NP+다시/MAG+취소/NNG+하/XSV+려고/EC+하/VV+는데/EC+어떻게/MAG+해야/VV+EC+돼요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.저희가 상품이 출고 되고는 취소가 불가능 합니다",
+            "norm_text": "A.저희가 상품이 출고 되고는 취소가 불가능 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+상품/NNG+이/JKS+출고/NNG+되/XSV+고/EC+는/JX+취소/NNG+가/JKS+불/XPN+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.제가 취소 요청을 했는데 판매자 분께서 그냥 출고를 하셨나봐요",
+            "norm_text": "B.제가 취소 요청을 했는데 판매자 분께서 그냥 출고를 하셨나봐요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+취소/NNG+요청/NNG+을/JKO+했/VV+EP+는데/EC+판매/NNG+자분/NNG+께서/JKS+그냥/MAG+출고/NNG+를/JKO+하/VV+셨/EP+EP+나/EC+봐요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그러고 나서 물건을 받은 건데 이게 제 잘못 인가요",
+            "norm_text": "B.그러고 나서 물건을 받은 건데 이게 제 잘못 인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러/VV+고/EC+나/VX+서/EC+물건/NNG+을/JKO+받/VV+은/ETM+건데/NNB+VCP+EC+이게/NP+JKS+제/XPN+잘못/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.저희가 업체 측에 출고 시간 확인하고 연락 드리겠습니다",
+            "norm_text": "A.저희가 업체 측에 출고 시간 확인하고 연락 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+저희/NP+가/JKS+업체/NNG+측/NNB+에/JKB+출고/NNG+시간/NNG+확인/NNG+하/XSV+고/EC+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.알겠습니다 빨리 확인하고 연락 주세요",
+            "norm_text": "B.알겠습니다 빨리 확인하고 연락 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+빨리/MAG+확인/NNG+하/XSV+고/EC+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 13,
+            "text": "A.네 감사합니다 고객님 빠르게 확인하고 연락드리겠습니다",
+            "norm_text": "A.네 감사합니다 고객님 빠르게 확인하고 연락드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+고객/NNG+님/XSN+빠르/VA+게/EC+확인/NNG+하/XSV+고/EC+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

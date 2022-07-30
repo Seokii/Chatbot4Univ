@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 118246,
+    "name": "s2_20211105_0001_4356_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110646016013/s2_20211105_0001_4356_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110646016013/s2_20211105_0001_4356_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115512,
+      "filename": "s2_20211008_0026_0009_01.txt",
+      "title": "s2_20211008_0026_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 223,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 223,
+        "word_size": 48,
+        "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다\nB.안녕하세요 공기청정기 때문에 물어볼게 있어서요\nA.네 고객님 어떤 점 말씀이세요\nB.공기청정기 먼지 농도가 공오에서 변하지를 않아서요\nA.네 고객님 사용환경이 깨끗한 경우 그렇게 표시됩니다\nB.그러면 이거 정상인 건가요\nA.네 최적의 청결 상태를 의미하고 제품은 정상입니다\nB.네 알려주셔서 감사합니다\nA.추가 문의 사항 없으실까요\nB.없어요 알려주셔서 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 공기청정기 때문에 물어볼게 있어서요",
+            "norm_text": "B.안녕하세요 공기청정기 때문에 물어볼게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+공기/NNG+청정기/NNP+때문/NNB+에/JKB+물어볼/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어떤 점 말씀이세요",
+            "norm_text": "A.네 고객님 어떤 점 말씀이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어떤/MM+점/NNG+말씀/NNG+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.공기청정기 먼지 농도가 공오에서 변하지를 않아서요",
+            "norm_text": "B.공기청정기 먼지 농도가 공오에서 변하지를 않아서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+공기/NNG+청정기/NNP+먼지/NNG+농도/NNG+가/JKS+공/NR+오/NR+에서/JKB+변하/VV+지/EC+를/JX+않/VX+아서요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 사용환경이 깨끗한 경우 그렇게 표시됩니다",
+            "norm_text": "A.네 고객님 사용환경이 깨끗한 경우 그렇게 표시됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+사용/NNG+환경/NNG+이/JKS+깨끗/XR+한/XSA+ETM+경우/NNG+그렇게/MAG+표시/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그러면 이거 정상인 건가요",
+            "norm_text": "B.그러면 이거 정상인 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+이거/NP+정상/NNG+인/VCP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 최적의 청결 상태를 의미하고 제품은 정상입니다",
+            "norm_text": "A.네 최적의 청결 상태를 의미하고 제품은 정상입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+최적/NNG+의/JKG+청결/NNG+상태/NNG+를/JKO+의미/NNG+하/XSV+고/EC+제품/NNG+은/JX+정상/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 알려주셔서 감사합니다",
+            "norm_text": "B.네 알려주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.추가 문의 사항 없으실까요",
+            "norm_text": "A.추가 문의 사항 없으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+추가/NNG+문/NNG+의/JKG+사항/NNG+없/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 10,
+            "text": "B.없어요 알려주셔서 감사합니다",
+            "norm_text": "B.없어요 알려주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+없/VA+어요/EF+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

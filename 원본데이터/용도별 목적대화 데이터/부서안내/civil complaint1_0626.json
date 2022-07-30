@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 52262,
+    "name": "c1_20211018_0002_0159_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130801036652/c1_20211018_0002_0159_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130801036652/c1_20211018_0002_0159_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51559,
+      "filename": "c1_20210928_0018_0006_01.txt",
+      "title": "c1_20210928_0018_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 281,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 281,
+        "word_size": 62,
+        "text": "A.최선을 다하겠습니다 상담사 #@이름#입니다\nB.안녕하세요 군 경력 인정 문의하려는데 부서가 어디죠\nA.선생님 학력과 경력 중복 인정 건입니까\nB.그렇다고 할 수 있을 것 같네요\nA.그러시다면 #@소속# 기관은 연락해 보셨습니까\nB.네 그런데 정확한 부서를 몰라서요\nA.제가 부서 안내 도와 드리겠습니다\nB.네 연락처까지 안내해주세요\nA.먼저 부서는 #@소속# 과로 확인되고요\nA.연락처는 #@전번# 이며 담당자는 별도로 없습니다\nB.알겠습니다 오늘도 수고하세요\nA.업무 처리 잘 되시기 바랍니다 상담사 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.최선을 다하겠습니다 상담사 #@이름#입니다",
+            "norm_text": "A.최선을 다하겠습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+최선/NNG+을/JKO+다/MAG+하/VV+겠/EP+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 군 경력 인정 문의하려는데 부서가 어디죠",
+            "norm_text": "B.안녕하세요 군 경력 인정 문의하려는데 부서가 어디죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+군/EC+경력/NNG+인/VCP+ETM+정문/NNG+의/JKG+하/VV+려는/ETM+데/NNB+부서/NNG+가/JKS+어디/NP+죠/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.선생님 학력과 경력 중복 인정 건입니까",
+            "norm_text": "A.선생님 학력과 경력 중복 인정 건입니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+학력/NNG+과/JC+경력/NNG+중복/NNG+인/VCP+ETM+정건/NNP+입니까/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그렇다고 할 수 있을 것 같네요",
+            "norm_text": "B.그렇다고 할 수 있을 것 같네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그렇/VA+다고/EC+할/VX+ETM+수/NNB+있/VV+을/ETM+것/NNB+같/VA+네요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.그러시다면 #@소속# 기관은 연락해 보셨습니까",
+            "norm_text": "A.그러시다면 #@소속# 기관은 연락해 보셨습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+시/EP+다면/EC+#/SY+@/SY+소속/NNG+#/SY+기관/NNG+은/JX+연락/NNG+해/XSV+EC+보/VX+셨/EP+EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 그런데 정확한 부서를 몰라서요",
+            "norm_text": "B.네 그런데 정확한 부서를 몰라서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그런데/MAJ+정확/XR+한/XSA+ETM+부서/NNG+를/JKO+몰/VV+라서요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.제가 부서 안내 도와 드리겠습니다",
+            "norm_text": "A.제가 부서 안내 도와 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+부서/NNG+안내/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 연락처까지 안내해주세요",
+            "norm_text": "B.네 연락처까지 안내해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+연락처/NNG+까지/JX+안내/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.먼저 부서는 #@소속# 과로 확인되고요",
+            "norm_text": "A.먼저 부서는 #@소속# 과로 확인되고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+먼저/MAG+부서/NNG+는/JX+#/SY+@/SY+소속/NNG+#/SY+과/NNG+로/JKB+확인/NNG+되/XSV+고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.연락처는 #@전번# 이며 담당자는 별도로 없습니다",
+            "norm_text": "A.연락처는 #@전번# 이며 담당자는 별도로 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+며/EC+담당자/NNG+는/JX+별도/NNG+로/JKB+없/VA+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.알겠습니다 오늘도 수고하세요",
+            "norm_text": "B.알겠습니다 오늘도 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+오늘/NNG+도/JX+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.업무 처리 잘 되시기 바랍니다 상담사 #@이름#였습니다",
+            "norm_text": "A.업무 처리 잘 되시기 바랍니다 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+업무/NNG+처리/NNG+잘/MAG+되/VV+시/EP+기/ETN+바랍니다/VV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

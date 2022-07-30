@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 110717,
+    "name": "s2_20211104_0002_0156_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110733092834/s2_20211104_0002_0156_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110733092834/s2_20211104_0002_0156_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116727,
+      "filename": "s2_20211027_0029_0004_01.txt",
+      "title": "s2_20211027_0029_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 285,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 285,
+        "word_size": 64,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.남성용 화장품과 여성용 화장품 성분 차이가 있나요\nA.남성 피부를 고려하여 흡수가 빠르고 진정 성분이 함유되고 있습니다\nB.그럼 여성용 화장품과 차이가 크다는 말인가요\nA.큰 차이는 없으나 여성용 화장품은 알코올 성분이 더 함유되어 있습니다\nB.남성용 화장품은 왜 진정 성분이 더 함유되어 있나요\nA.잦은 면도로 인해 예민해지기 쉽고 피부가 두껍기 때문입니다\nB.친절하게 안내해 주셔서 감사해요\nA.도움이 되었다니 다행입니다 #@소속# #@이름#이었습니다\nB.네 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.남성용 화장품과 여성용 화장품 성분 차이가 있나요",
+            "norm_text": "B.남성용 화장품과 여성용 화장품 성분 차이가 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+남성/NNG+용/XSN+화장품/NNG+과/JC+여성/NNG+용/XSN+화장품/NNG+성분/NNG+차이/NNG+가/JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.남성 피부를 고려하여 흡수가 빠르고 진정 성분이 함유되고 있습니다",
+            "norm_text": "A.남성 피부를 고려하여 흡수가 빠르고 진정 성분이 함유되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+남성/NNG+피부/NNG+를/JKO+고려/NNG+하/XSV+여/EC+흡수/NNG+가/JKS+빠르/VA+고/EC+진정/NNG+성분/NNG+이/JKS+함유/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그럼 여성용 화장품과 차이가 크다는 말인가요",
+            "norm_text": "B.그럼 여성용 화장품과 차이가 크다는 말인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+여성/NNG+용/XSN+화장품/NNG+과/JC+차이/NNG+가/JKS+크/VA+다는/ETM+말/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.큰 차이는 없으나 여성용 화장품은 알코올 성분이 더 함유되어 있습니다",
+            "norm_text": "A.큰 차이는 없으나 알코올 성분이 더 함유되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+큰/VA+ETM+차이/NNG+는/JX+없/VA+으나/EC+여성/NNG+용/XSN+화장품/NNG+은/JX+알코올/NNG+성분/NNG+이/JKS+더/MAG+함유/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.남성용 화장품은 왜 진정 성분이 더 함유되어 있나요",
+            "norm_text": "B.남성용 화장품은 왜 진정 성분이 더 함유되어 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+남성/NNG+용/XSN+화장품/NNG+은/JX+왜/MAG+진정/MAG+성분/NNG+이/JKS+더/MAG+함유/NNG+되/XSV+어/EC+있/VX+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.잦은 면도로 인해 예민해지기 쉽고 피부가 두껍기 때문입니다",
+            "norm_text": "A.잦은 면도로 인해 예민해지기 쉽고 피부가 두껍기 때문입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+잦/VA+은/ETM+면도/NNG+로/JKB+인해/VV+EC+예민/XR+해/XSA+EC+지/VX+기/ETN+쉽/VA+고/EC+피부/NNG+가/JKS+두껍/VA+기/ETN+때문/NNB+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.친절하게 안내해 주셔서 감사해요",
+            "norm_text": "B.친절하게 안내해 주셔서 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+하/XSV+게/EC+안내/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.도움이 되었다니 다행입니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.도움이 되었다니 다행입니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+도움/NNG+이/JKS+되/VV+었/EP+다니/EC+다행/NNG+입니다/VCP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 좋은 하루 보내세요",
+            "norm_text": "B.네 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

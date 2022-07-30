@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 45641,
+    "name": "c4_20211014_0001_1679_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704048377/c4_20211014_0001_1679_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704048377/c4_20211014_0001_1679_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50112,
+      "filename": "c4_20210903_0027_0013_01.txt",
+      "title": "c4_20210903_0027_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 335,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 335,
+        "word_size": 74,
+        "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.#@주소# 공영주차장이거든요 제가\nB.여기 전기차 주차 구역을 위반하는 차량이 있습니다 #@번호#\nA.전기차 충전 구역에 충전 시설 미이용 전기 차량 주차에 대한 민원으로 확인됩니다\nB.네 맞아요 충전 안 하던데 차량이\nA.먼저 차량 소유자에게 민원 불편 사항을 전달하겠습니다\nA.전기자동차 전기 충전에 방해가 되지 않도록 적극 협조 요청하였습니다\nB.이게 위법이고 그러진 않습니까\nA.#@주소# 공영 주차장 충전 구역은 단속 대상이 아닌 것으로 조회됩니다\nB.네 빠르고 친절한 접수 감사합니다\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.#@주소# 공영주차장이거든요 제가",
+            "norm_text": "B.#@주소# 공영주차장이거든요 제가",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+공영/NNG+주차장/NNG+이/VCP+거든요/EF+제/NP+가/JKS"
+          },
+          {
+            "id": 4,
+            "text": "B.여기 전기차 주차 구역을 위반하는 차량이 있습니다 #@번호#",
+            "norm_text": "B.여기 전기차 주차 구역을 위반하는 차량이 있습니다 #@번호#",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+전기차/NNP+주차/NNG+구역/NNG+을/JKO+위반/NNG+하/XSV+는/ETM+차량/NNG+이/JKS+있/VA+습니다/EF+#/SY+@/SY+번호/NNG+#/SY"
+          },
+          {
+            "id": 5,
+            "text": "A.전기차 충전 구역에 충전 시설 미이용 전기 차량 주차에 대한 민원으로 확인됩니다",
+            "norm_text": "A.전기차 충전 구역에 충전 시설 미이용 전기 차량 주차에 대한 민원으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전기차/NNP+충전/NNG+구역/NNG+에/JKB+충전/NNG+시설/NNG+미/NNP+이용/NNG+전기/NNG+차량/NNG+주차/NNG+에/JKB+대한/VV+ETM+민원/NNG+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 맞아요 충전 안 하던데 차량이",
+            "norm_text": "B.네 맞아요 충전 안 하던데 차량이",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+충전/NNG+안/MAG+하/VV+던데/EC+차량/NNG+이/JKS"
+          },
+          {
+            "id": 7,
+            "text": "A.먼저 차량 소유자에게 민원 불편 사항을 전달하겠습니다",
+            "norm_text": "A.먼저 차량 소유자에게 민원 불편 사항을 전달하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+먼저/MAG+차량/NNG+소유자/NNG+에게/JKB+민원/NNG+불편/NNG+사항/NNG+을/JKO+전달/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.전기자동차 전기 충전에 방해가 되지 않도록 적극 협조 요청하였습니다",
+            "norm_text": "A.전기자동차 전기 충전에 방해가 되지 않도록 적극 협조 요청하였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전기자동차/NNP+전기/NNG+충전/NNG+에/JKB+방해/NNG+가/JKS+되/VV+지/EC+않/VX+도록/EC+적극/NNG+협조/NNG+요청/NNG+하/XSV+였/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.이게 위법이고 그러진 않습니까",
+            "norm_text": "B.이게 위법이고 그러진 않습니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이게/NP+JKS+위법/NNG+이/VCP+고/EC+그러/VV+진/EC+JX+않/VX+습니까/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.#@주소# 공영 주차장 충전 구역은 단속 대상이 아닌 것으로 조회됩니다",
+            "norm_text": "A.#@주소# 공영 주차장 충전 구역은 단속 대상이 아닌 것으로 조회됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+공영/NNG+주차장/NNG+충전/NNG+구역/NNG+은/JX+단속/NNG+대상/NNG+이/JKC+아닌/VCN+ETM+것/NNB+으로/JKB+조회/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 빠르고 친절한 접수 감사합니다",
+            "norm_text": "B.네 빠르고 친절한 접수 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+빠르/VA+고/EC+친절/NNG+한/XSA+ETM+접수/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

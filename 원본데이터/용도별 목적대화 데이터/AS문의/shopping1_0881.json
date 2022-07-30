@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 13172,
+    "name": "s1_20210913_0001_0482_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151221019256/s1_20210913_0001_0482_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151221019256/s1_20210913_0001_0482_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8103,
+      "filename": "s1_20210824_0005_0028_01.txt",
+      "title": "s1_20210824_0005_0028_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 291,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 291,
+        "word_size": 73,
+        "text": "A.고객님 #@이름# 명의자분 맞으시죠\nB.예 제 명의로 돼 있어요\nA.예 그럼 신분증 지참하시고 방문 꼭 부탁드리고요\nA.업무시간이 여섯 시까지 진행이 되고 있는데요\nB.여섯 시까지 하신다고요\nA.지금 현재 방문하시는 게 아니시라면 사전 예약 접수 좀 해드릴까요\nB.예 접수해 주세요\nA.고객님 몇 시에 방문하세요\nB.그럼 #@주소#으로 제가 한 열두 시 삼십 분이나 사십 분쯤에요\nA.고객님 열두 시 삼십 분에서 사십 분이요\nA.고객님 사십 분으로 고객님 예약 가능하시구요\nA.모델명 확인도 가능하실까요\nB.예 모델명이  #@상품# 입니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 #@이름# 명의자분 맞으시죠",
+            "norm_text": "A.고객님 #@이름# 명의자분 맞으시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+#/SY+@/SY+이름/NNG+#/SY+명의자분맞으시죠/UNKNOWN"
+          },
+          {
+            "id": 2,
+            "text": "B.예 제 명의로 돼 있어요",
+            "norm_text": "B.예 제 명의로 돼 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+제/NP+JKG+명의/NNG+로/JKB+돼/VV+EC+있/VX+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 그럼 신분증 지참하시고 방문 꼭 부탁드리고요",
+            "norm_text": "A.예 그럼 신분증 지참하시고 방문 꼭 부탁드리고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+예/IC+그럼/MAJ+신분증/NNG+지참/NNG+하/XSV+시/EP+고/EC+방문/NNG+꼭/MAG+부탁/NNG+드리/VV+고요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.업무시간이 여섯 시까지 진행이 되고 있는데요",
+            "norm_text": "A.업무시간이 여섯 시까지 진행이 되고 있는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+업무/NNG+시간/NNG+이/JKS+여섯/NR+시/NNBC+까지/JX+진행/NNG+이/JKS+되/VV+고/EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.여섯 시까지 하신다고요",
+            "norm_text": "B.여섯 시까지 하신다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여섯/NR+시/NNBC+까지/JX+하/VV+신다고요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.지금 현재 방문하시는 게 아니시라면 사전 예약 접수 좀 해드릴까요",
+            "norm_text": "A.지금 현재 방문하시는 게 아니시라면 사전 예약 접수 좀 해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+현재/MAG+방문/NNG+하/XSV+시/EP+는/ETM+게/NNB+JKC+아니/VCN+시/EP+라면/EC+사전/NNG+예약/NNG+접수/NNG+좀/MAG+해드릴까요/VV+EC+VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.예 접수해 주세요",
+            "norm_text": "B.예 접수해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+접수/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.고객님 몇 시에 방문하세요",
+            "norm_text": "A.고객님 몇 시에 방문하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+몇/MM+시/NNBC+에/JKB+방문/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그럼 #@주소#으로 제가 한 열두 시 삼십 분이나 사십 분쯤에요",
+            "norm_text": "B.그럼 #@주소#으로 제가 한 열두 시 삼십 분이나 사십 분쯤에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그럼/MAJ+#/SY+@/SY+주소/NNG+#/SY+으로/JKB+제/NP+가/JKS+한/MM+열/NR+두/MM+시/NNBC+삼/NR+십/NR+분/NNBC+이나/JC+사/NR+십/NR+분/NNBC+쯤/XSN+에/JKB+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "A.고객님 열두 시 삼십 분에서 사십 분이요",
+            "norm_text": "A.고객님 열두 시 삼십 분에서 사십 분이요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+열/NR+두/MM+시/NNBC+삼/NR+십/NR+분/NNBC+에서/JKB+사/NR+십/NR+분/NNBC+이요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.고객님 사십 분으로 고객님 예약 가능하시구요",
+            "norm_text": "A.고객님 사십 분으로 고객님 예약 가능하시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+사/NR+십/NR+분/NNBC+으로/JKB+고객/NNG+님/XSN+예약/NNG+가능/NNG+하/XSV+시/EP+구요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.모델명 확인도 가능하실까요",
+            "norm_text": "A.모델명 확인도 가능하실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+모델/NNG+명/XPN+확인/NNG+도/JX+가능/NNG+하/XSV+실까요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.예 모델명이  #@상품# 입니다",
+            "norm_text": "B.예 모델명이  #@상품# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+모델/NNG+명이/NNG+#/SY+@/SY+상품/NNG+#/SY+입니다/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

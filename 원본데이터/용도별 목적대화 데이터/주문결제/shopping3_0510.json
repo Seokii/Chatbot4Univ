@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 10702,
+    "name": "s3_20210913_0010_0651_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417037752/s3_20210913_0010_0651_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417037752/s3_20210913_0010_0651_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11992,
+      "filename": "s3_20210827_0009_0004_01.txt",
+      "title": "s3_20210827_0009_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 403,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 403,
+        "word_size": 86,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.#@상품#이요 배터리 있어야 됩니까\nA.보조 배터리 집에 있으시면 그거 사용하셔도 됩니다\nB.없지 싶은데 그럼 보조 배터리 추가를 해야 되겠네\nA.네 고객님 그러면 배터리 추가 해주셔야 합니다\nB.그럼 그렇게 해주십시오\nA.그러면은 사이즈는 어떻게 하세요\nB.보통 구십오를 입습니다\nA.구십오요 그리고 주문하시는분 성함 연락처 주소는 어떻게 되십니까\nB.#@이름#구요 번호가 #@전번#이요 주소는 경북 고령군 #@주소#요\nA.결제는 계좌 결제 하시겠어요\nB.#@소속#으로 해주세요 현금 영수증은 사업자 번호로 해주세요\nB.#@번호#  #@주소#요\nA.네 고객님 육만 오천팔백 원이고요 계좌 번호 발송되면요\nA.이틀 이내로 입금해주시면 됩니다\nB.네 알겠습니다 수고하세요\nA.감사합니다 상담사 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품#이요 배터리 있어야 됩니까",
+            "norm_text": "B.#@상품#이요 배터리 있어야 됩니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+이/VCP+요/EC+배터리/NNG+있/VV+어야/EC+됩니까/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.보조 배터리 집에 있으시면 그거 사용하셔도 됩니다",
+            "norm_text": "A.보조 배터리 집에 있으시면 그거 사용하셔도 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+보조/NNG+배터리/NNG+집/NNG+에/JKB+있/VV+으시/EP+면/EC+그거/NP+사용/NNG+하/XSV+셔도/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.없지 싶은데 그럼 보조 배터리 추가를 해야 되겠네",
+            "norm_text": "B.없지 싶은데 그럼 보조 배터리 추가를 해야 되겠네",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+없/VA+지/EC+싶/VX+은데/EC+그럼/MAJ+보조/NNG+배터리/NNG+추가/NNG+를/JKO+해야/VV+EC+되/VV+겠/EP+네/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 그러면 배터리 추가 해주셔야 합니다",
+            "norm_text": "A.네 고객님 그러면 배터리 추가 해주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+그러/VV+면/EC+배터리/NNG+추가/NNG+해/XSV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 그렇게 해주십시오",
+            "norm_text": "B.그럼 그렇게 해주십시오",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+그렇게/MAG+해/VV+EC+주/VX+십시오/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.그러면은 사이즈는 어떻게 하세요",
+            "norm_text": "A.그러면은 사이즈는 어떻게 하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러면은/MAJ+사이즈/NNG+는/JX+어떻게/MAG+하/VV+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.보통 구십오를 입습니다",
+            "norm_text": "B.보통 구십오를 입습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+보통/NNG+구/NR+십/NR+오/NR+를/JKO+입/VV+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.구십오요 그리고 주문하시는분 성함 연락처 주소는 어떻게 되십니까",
+            "norm_text": "A.구십오요 그리고 주문하시는분 성함 연락처 주소는 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+구/NR+십/NR+오/NR+요/VCP+EC+그리고/MAJ+주문/NNG+하/XSV+시/EP+는/ETM+분성/NNG+함/XSV+ETN+연락처/NNG+주소/NNG+는/JX+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.#@이름#구요 번호가 #@전번#이요 주소는 경북 고령군 #@주소#요",
+            "norm_text": "B.#@이름#구요 번호가 #@전번#이요 주소는 경북 고령군 #@주소#요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+구요/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC+주소/NNG+는/JX+경북/NNP+고령군/NNP+#/SY+@/SY+주소/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.결제는 계좌 결제 하시겠어요",
+            "norm_text": "A.결제는 계좌 결제 하시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+결제/NNG+는/JX+계좌/NNG+결제/NNG+하/XSV+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.#@소속#으로 해주세요 현금 영수증은 사업자 번호로 해주세요",
+            "norm_text": "B.#@소속#으로 해주세요 현금 영수증은 사업자 번호로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+해/VV+EC+주/VX+세요/EP+EF+현금영수증/NNP+은/JX+사업자/NNG+번호/NNG+로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.#@번호#  #@주소#요",
+            "norm_text": "B.#@번호#  #@주소#요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+번호/NNG+#/SY+#/SY+@/SY+주소/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 고객님 육만 오천팔백 원이고요 계좌 번호 발송되면요",
+            "norm_text": "A.네 고객님 육만 오천팔백 원이고요 계좌 번호 발송되면요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+육만/NR+오/NR+천/NR+팔/NR+백/NR+원/NNBC+이/VCP+고요/EC+계좌/NNG+번호/NNG+발송/NNG+되/XSV+면/EC+요/JX"
+          },
+          {
+            "id": 15,
+            "text": "A.이틀 이내로 입금해주시면 됩니다",
+            "norm_text": "A.이틀 이내로 입금해주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+이틀/NNG+이/JKS+내/NP+로/JKB+입금/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 알겠습니다 수고하세요",
+            "norm_text": "B.네 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 17,
+            "text": "A.감사합니다 상담사 #@이름#였습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

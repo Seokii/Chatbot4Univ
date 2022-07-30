@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 60160,
+    "name": "s1_20211021_0002_0002_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151252030243/s1_20211021_0002_0002_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151252030243/s1_20211021_0002_0002_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8399,
+      "filename": "s1_20210825_0015_0035_01.txt",
+      "title": "s1_20210825_0015_0035_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 277,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 277,
+        "word_size": 63,
+        "text": "A.안녕하세요 #@소속#입니다 무얼 도와드릴까요\nB.예 제가 노트북을 떨어뜨렸는데 액정에 금이 갔어요\nA.그럼 수리가 필요하겠네요 계시는 곳 근처에 수리 센터 있으세요\nB.저기 #@주소# 건너편으로 가면 안 되나요\nA.고객님 지역이 어디세요\nB.여기 지금 성북구요\nA.성북구에는 #@주소# 지점이 있어요\nA.말씀하신 #@주소# 건너편으로 방문하시면 돼요\nB.혹시 기사님이 방문하시면 출장비를 내야 되는 거죠\nA.네 충격으로 인한 파손 건은 출장비가 만 이천 원 발생되세요\nB.그럼 그냥 서비스 센터로 찾아가야겠네요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#입니다 무얼 도와드릴까요",
+            "norm_text": "A.안녕하세요 #@소속#입니다 무얼 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EF+무얼/NP+JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 제가 노트북을 떨어뜨렸는데 액정에 금이 갔어요",
+            "norm_text": "B.예 제가 노트북을 떨어뜨렸는데 액정에 금이 갔어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+제/NP+가/JKS+노트북/NNG+을/JKO+떨어뜨렸/VV+EP+는데/EC+액정/NNG+에/JKB+금/NNG+이/JKS+갔/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.그럼 수리가 필요하겠네요 계시는 곳 근처에 수리 센터 있으세요",
+            "norm_text": "A.그럼 수리가 필요하겠네요 계시는 곳 근처에 수리 센터 있으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+수리/NNG+가/JKS+필요/NNG+하/XSV+겠/EP+네요/EC+계시/VX+는/ETM+곳/NNG+근처/NNG+에/JKB+수리/NNG+센터/NNG+VCP+EC+있/VX+으세요/EP+EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.저기 #@주소# 건너편으로 가면 안 되나요",
+            "norm_text": "B.저기 #@주소# 건너편으로 가면 안 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+저기/NP+#/SY+@/SY+주소/NNG+#/SY+건너편/NNG+으로/JKB+가/VV+면/EC+안/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 지역이 어디세요",
+            "norm_text": "A.고객님 지역이 어디세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+지역/NNG+이/JKS+어디/NP+세요/VCP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.여기 지금 성북구요",
+            "norm_text": "B.여기 지금 성북구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+지금/MAG+성북/NNG+구요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.성북구에는 #@주소# 지점이 있어요",
+            "norm_text": "A.성북구에는 #@주소# 지점이 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+성북구/NNP+에/JKB+는/JX+#/SY+@/SY+주소/NNG+#/SY+지점/NNG+이/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.말씀하신 #@주소# 건너편으로 방문하시면 돼요",
+            "norm_text": "A.말씀하신 #@주소# 건너편으로 방문하시면 돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+말씀/NNG+하/XSV+신/EP+ETM+#/SY+@/SY+주소/NNG+#/SY+건너편/NNG+으로/JKB+방문/NNG+하/XSV+시/EP+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.혹시 기사님이 방문하시면 출장비를 내야 되는 거죠",
+            "norm_text": "B.혹시 기사님이 방문하시면 출장비를 내야 되는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+기사/NNG+님/XSN+이/JKS+방문/NNG+하/XSV+시/EP+면/EC+출장비/NNG+를/JKO+내/VV+야/EC+되/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 충격으로 인한 파손 건은 출장비가 만 이천 원 발생되세요",
+            "norm_text": "A.네 충격으로 인한 파손 건은 출장비가 만 이천 원 발생되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+충격/NNG+으로/JKB+인한/VV+ETM+파/NNG+손건/NNP+은/JX+출장비/NNG+가/JKS+만이천/NR+원/NNBC+발생/NNG+되/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그럼 그냥 서비스 센터로 찾아가야겠네요",
+            "norm_text": "B.그럼 그냥 서비스 센터로 찾아가야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+그냥/MAG+서비스/NNG+센터/NNG+로/JKB+찾아가/VV+야/EC+VX+겠/EP+네요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

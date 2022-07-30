@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 108001,
+    "name": "s5_20211104_0010_3556_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110938014273/s5_20211104_0010_3556_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110938014273/s5_20211104_0010_3556_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 121469,
+      "filename": "s5_20211007_0007_0002_01.txt",
+      "title": "s5_20211007_0007_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 333,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 333,
+        "word_size": 72,
+        "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.네 안녕하세요 문의드릴 게 있어서요\nA.네 어떤 문의이실까요 고객님\nB.주문 상품이 배송된 이후에 교환 환불 방법을 알려주세요\nA.자세한 사항은 고객센터로 연락을 주시면 편하실 겁니다\nB.저기 전화번호가 어떻게 되는데요\nA.네 고객님 지금 메모 가능하십니까\nB.네 잠시만요 가능합니다\nA.#@소속# 고객센터 #@전번#입니다\nB.네 여기는 몇시까지 운영하죠\nA.평일은 오전 아홉시부터 오후 여섯시까지하고요\nA.토요일은 오전 아홉시부터 오후 한시이고 공휴일은 휴무입니다\nB.네 알겠습니다 답변 감사합니다\nA.네 좋은 하루 되시길 바랍니다 고객님",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 ",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의이실까요 고객님",
+            "norm_text": "A.네 어떤 문의이실까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.주문 상품이 배송된 이후에 교환 환불 방법을 알려주세요",
+            "norm_text": "B.주문 상품이 배송된 이후에 교환 환불 방법을 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+주문/NNG+상품/NNG+이/JKS+배송/NNG+된/XSV+ETM+이후/NNG+에/JKB+교환/NNG+환불/NNG+방법/NNG+을/JKO+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.자세한 사항은 고객센터로 연락을 주시면 편하실 겁니다",
+            "norm_text": "A.자세한 사항은 고객센터로 연락을 주시면 편하실 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+자세/XR+한/XSA+ETM+사항/NNG+은/JX+고객/NNG+센터/NNG+로/JKB+연락/NNG+을/JKO+주/VV+시/EP+면/EC+편하/VA+실/EP+ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.저기 전화번호가 어떻게 되는데요",
+            "norm_text": "B.저기 전화번호가 어떻게 되는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+저기/NP+전화/NNG+번호/NNG+가/JKS+어떻게/MAG+되/VV+는데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 지금 메모 가능하십니까",
+            "norm_text": "A.네 고객님 지금 메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+지금/MAG+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 잠시만요 가능합니다",
+            "norm_text": "B.네 잠시만요 가능합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+잠시/MAG+만요/NNP+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.#@소속# 고객센터 #@전번#입니다",
+            "norm_text": "A.#@소속# 고객센터 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 여기는 몇시까지 운영하죠",
+            "norm_text": "B.네 여기는 몇시까지 운영하죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+여기/NP+는/JX+몇/MM+시/NNBC+까지/JX+운영/NNG+하/XSV+죠/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.평일은 오전 아홉시부터 오후 여섯시까지하고요",
+            "norm_text": "A.평일은 오전 아홉시부터 오후 여섯시까지하고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+평일/NNG+은/JX+오전/NNG+아홉/NR+시/NNBC+부터/JX+오후/NNG+여섯/NR+시/NNBC+까지/JX+하/VV+고요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.토요일은 오전 아홉시부터 오후 한시이고 공휴일은 휴무입니다",
+            "norm_text": "A.토요일은 오전 아홉시부터 오후 한시이고 공휴일은 휴무입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+토요일/NNG+은/JX+오전/NNG+아홉/NR+시/NNBC+부터/JX+오후/NNG+한/MM+시/NNBC+이/VCP+고/EC+공휴일/NNG+은/JX+휴무/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.네 알겠습니다 답변 감사합니다",
+            "norm_text": "B.네 알겠습니다 답변 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+답변/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 좋은 하루 되시길 바랍니다 고객님",
+            "norm_text": "A.네 좋은 하루 되시길 바랍니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EF+고객/NNG+님/XSN"
+          }
+        ]
+      }
+    }
+  ]
+}

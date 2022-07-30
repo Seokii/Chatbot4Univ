@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 45091,
+    "name": "c4_20211014_0001_1559_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704099241/c4_20211014_0001_1559_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704099241/c4_20211014_0001_1559_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50171,
+      "filename": "c4_20210903_0022_0001_01.txt",
+      "title": "c4_20210903_0022_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 418,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 418,
+        "word_size": 99,
+        "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름# 입니다\nB.안녕하세요 여쭤볼게 있어서 연락 드렸습니다\nA.예 안녕하세요 궁금하신 사항 말씀 해주세요\nB.네 다름이 아니라 피난구 유도등 설치 높이가 정해져 있는 건가요\nA.비상 대피 시 켜지는 피난구 유도등 말씀하시는 거 맞으세요\nB.네 맞습니다 혹시 피난구 유도 등의 위치가 어느 정도 높이에 설치되어야 하나요\nA.피난구유도등의 설치 기분은 화재 안전 기준 제 오조를 적용합니다\nA.출입문의 상단에 설치하는 것이 적합한 것으로 판단되어 출입문 상단에 설치되고 있습니다\nB.그래서 나가는 문 위에 항상 붙어있었던 건가요\nA.네 재실자 누구라도 출입문 위치를 인지할 수 있도록 출입문 상단에 위치하고 있습니다\nB.그랬군요 자세히 몰랐는데 많은 도움이 되었습니다\nA.다행이네요 저는 지금까지 상담사 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름# 입니다",
+            "norm_text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+친절한/NNP+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 여쭤볼게 있어서 연락 드렸습니다",
+            "norm_text": "B.안녕하세요 여쭤볼게 있어서 연락 드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+여쭤볼/VV+EC+VX+ETM+게/NNB+JKS+있/VA+어서/EC+연락/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 안녕하세요 궁금하신 사항 말씀 해주세요",
+            "norm_text": "A.예 안녕하세요 궁금하신 사항 말씀 해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+예/IC+안녕/NNG+하/XSV+세요/EP+EF+궁금/XR+하/XSA+신/EP+ETM+사항/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 다름이 아니라 피난구 유도등 설치 높이가 정해져 있는 건가요",
+            "norm_text": "B.네 다름이 아니라 피난구 유도등 설치 높이가 정해져 있는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+다름/VA+ETN+이/JKC+아니/VCN+라/EC+피난/NNG+구유/NNG+도/JX+등/NNB+설치/NNG+높이/NNG+가/JKS+정해져/VV+EC+VX+EC+있/VX+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.비상 대피 시 켜지는 피난구 유도등 말씀하시는 거 맞으세요",
+            "norm_text": "A.비상 대피 시 켜지는 피난구 유도등 말씀하시는 거 맞으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+비상/NNG+대피/NNG+시켜/XSV+EC+지/VX+는/ETM+피난/NNG+구유/NNG+도/JX+등/NNB+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+맞/VV+으세요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 맞습니다 혹시 피난구 유도 등의 위치가 어느 정도 높이에 설치되어야 하나요",
+            "norm_text": "B.네 맞습니다 혹시 피난구 유도 등의 위치가 어느 정도 높이에 설치되어야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+맞/VV+습니다/EF+혹시/MAG+피난/NNG+구유/NNG+도/JX+등/NNB+의/JKG+위치/NNG+가/JKS+어느/MM+정도/NNG+높이/NNG+에/JKB+설치/NNG+되/XSV+어야/EC+하/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.피난구유도등의 설치 기분은 화재 안전 기준 제 오조를 적용합니다",
+            "norm_text": "A.피난구유도등의 설치 기분은 화재 안전 기준 제 오조를 적용합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+피난/NNG+구유/NNG+도/JX+등/NNB+의/JKG+설치/NNG+기분/NNG+은/JX+화재/NNG+안전/NNG+기준/NNG+제/XSN+오조/NNG+를/JKO+적용/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.출입문의 상단에 설치하는 것이 적합한 것으로 판단되어 출입문 상단에 설치되고 있습니다",
+            "norm_text": "A.출입문의 상단에 설치하는 것이 적합한 것으로 판단되어 출입문 상단에 설치되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+출입문/NNG+의/JKG+상단/NNG+에/JKB+설치/NNG+하/XSV+는/ETM+것/NNB+이/JKS+적합/XR+한/XSA+ETM+것/NNB+으로/JKB+판단/NNG+되/XSV+어/EC+출입문/NNG+상단/NNG+에/JKB+설치/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그래서 나가는 문 위에 항상 붙어있었던 건가요",
+            "norm_text": "B.그래서 나가는 문 위에 항상 붙어있었던 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래서/MAJ+나가/VV+는/ETM+문위/NNP+에/JKB+항상/MAG+붙/VV+어/EC+있/VX+었/EP+던/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 재실자 누구라도 출입문 위치를 인지할 수 있도록 출입문 상단에 위치하고 있습니다",
+            "norm_text": "A.네 재실자 누구라도 출입문 위치를 인지할 수 있도록 출입문 상단에 위치하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+재실/NNG+자/XSN+누구/NP+라도/VCP+EC+출입문/NNG+위치/NNG+를/JKO+인지/NNG+할/XSV+ETM+수/NNB+있/VV+도록/EC+출입문/NNG+상단/NNG+에/JKB+위치/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그랬군요 자세히 몰랐는데 많은 도움이 되었습니다",
+            "norm_text": "B.그랬군요 자세히 몰랐는데 많은 도움이 되었습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "B/SL+그랬/VV+EP+군요/EF+자세히/MAG+몰랐/VV+EP+는데/EC+많/VA+은/ETM+도움/NNG+이/JKS+되/VV+었/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.다행이네요 저는 지금까지 상담사 #@이름# 이었습니다",
+            "norm_text": "A.다행이네요 저는 지금까지 상담사 #@이름# 이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+다행/NNG+이/VCP+네요/EF+저/NP+는/JX+지금/NNG+까지/JX+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

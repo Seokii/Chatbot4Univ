@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 142389,
+    "name": "t1_20211115_0002_0815_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719082636/t1_20211115_0002_0815_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719082636/t1_20211115_0002_0815_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148628,
+      "filename": "t1_0074_0044_02.txt",
+      "title": "t1_0074_0044_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 325,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 325,
+        "word_size": 73,
+        "text": "A. 소중한 사람들과의 즐거운 여행 #@소속# 상담원 #@이름#입니다\nB. 한탄강리버스파호텔 VIP 룸 예약 비어있을까요\nA. 네 예약이 잡혀있지 않은걸로 나옵니다\nB. 신혼부부 둘이서 쓸 예정인데 예약 가능할까요\nA. 성인 4인기준 45만원입니다만 두분이서 쓰셔도 가격은 그대로인데 괜찮으실까요\nB. 네 괜찮습니다 VIP 룸이기만 하면 돼요\nA. 알겠습니다 그러면 호텔 번호 안내드리겠습니다\nB. 호텔에 전화해서 예약하면 되는건가요\nA. 네 그렇습니다 #@전번# 이쪽으로 전화하셔서 예약 부탁드립니다\nB. 네 감사합니다 수고하세요\nA. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 소중한 사람들과의 즐거운 여행 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A. 소중한 사람들과의 즐거운 여행 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+소중/XR+한/XSA+ETM+사람/NNG+들/XSN+과/JKB+의/JKG+즐거운/VA+ETM+여행/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 한탄강리버스파호텔 VIP 룸 예약 비어있을까요",
+            "norm_text": "B. 한탄강리버스파호텔 VIP 룸 예약 비어있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+한탄강/NNP+리버스/NNP+파/NNG+호텔/NNG+VIP/SL+룸/NNG+예약/NNG+비/VV+어/EC+있/VX+을까요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 예약이 잡혀있지 않은걸로 나옵니다",
+            "norm_text": "A. 네 예약이 잡혀있지 않은걸로 나옵니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+예약/NNG+이/JKS+잡혀/VV+EC+있/VX+지/EC+않/VX+은/ETM+걸로/NNB+JKB+나옵니다/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 신혼부부 둘이서 쓸 예정인데 예약 가능할까요",
+            "norm_text": "B. 신혼부부 둘이서 쓸 예정인데 예약 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+신혼/NNG+부부/NNG+둘/NR+이/XSN+서/JKS+쓸/VV+ETM+예정/NNG+인데/VCP+EC+예약/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 성인 4인기준 45만원입니다만 두분이서 쓰셔도 가격은 그대로인데 괜찮으실까요",
+            "norm_text": "A. 4인기준 45만원입니다만 두분이서 쓰셔도 가격은 그대로인데 괜찮으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+4/SN+인기/NNG+준/XPN+45/SN+만/NR+원/NNBC+입니다만/VCP+EF+VX+ETM+두/MM+분/NNBC+이/XSN+서/JKS+쓰/VV+셔도/EP+EC+가격/NNG+은/JX+그대로/MAG+인데/VCP+EC+괜찮/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 6,
+            "text": "B. 네 괜찮습니다 VIP 룸이기만 하면 돼요",
+            "norm_text": "B. 네 괜찮습니다 VIP 룸이기만 하면 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+괜찮/VA+습니다/EF+VIP/SL+룸/NNG+이/VCP+기/ETN+만/JX+하/VV+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 알겠습니다 그러면 호텔 번호 안내드리겠습니다",
+            "norm_text": "A. 알겠습니다 그러면 호텔 번호 안내드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+그러면/MAJ+호텔/NNG+번호/NNG+안/MAG+내드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B. 호텔에 전화해서 예약하면 되는건가요",
+            "norm_text": "B. 호텔에 전화해서 예약하면 되는건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+호텔/NNG+에/JKB+전화/NNG+해서/XSV+EC+예약/NNG+하/XSV+면/EC+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 네 그렇습니다 #@전번# 이쪽으로 전화하셔서 예약 부탁드립니다",
+            "norm_text": "A. 네 그렇습니다 #@전번# 이쪽으로 전화하셔서 예약 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+#/SY+@/SY+전번/NNG+#/SY+이쪽/NP+으로/JKB+전화/NNG+하/XSV+셔서/EP+EC+예약/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 네 감사합니다 수고하세요",
+            "norm_text": "B. 네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감기/NNG+조심/NNG+하/XSV+시/EP+고/EC+건강/NNG+하/XSV+세요/EP+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

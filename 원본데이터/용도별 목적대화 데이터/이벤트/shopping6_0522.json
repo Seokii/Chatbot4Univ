@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 93463,
+    "name": "s6_20211102_0011_0176_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111020004264/s6_20211102_0011_0176_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111020004264/s6_20211102_0011_0176_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 123562,
+      "filename": "s6_20211025_0012_0003_01.txt",
+      "title": "s6_20211025_0012_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 239,
+      "annotations": {
+        "subject": "이벤트",
+        "speaker_type": "1:1",
+        "size": 239,
+        "word_size": 52,
+        "text": "A.안녕하세요 #@소속# #@이름# 상담사입니다\nB.제가 #@상품# 구매를 했는데요\nA.네 고객님 계속 말씀해주세요\nB.이벤트 어쩌고 하면서 포인트를 준다고 하는데요\nA.예 지금 포인트 환급 이벤트를 진행 중입니다\nB.그럼 포인트는 언제 주는 건가요\nA.제품 구매하시고 수취 확인을 하시면 바로 지급됩니다\nB.그럼 이벤트는 언제까지 하는 건가요\nA.이번 주말까지입니다 고객님\nB.네 주말까지요 알겠습니다\nA.좋은 하루 보내세요 #@소속#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 #@상품# 구매를 했는데요",
+            "norm_text": "B.제가 #@상품# 구매를 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+#/SY+@/SY+상품/NNG+#/SY+구매/NNG+를/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 계속 말씀해주세요",
+            "norm_text": "A.네 고객님 계속 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+계속/MAG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.이벤트 어쩌고 하면서 포인트를 준다고 하는데요",
+            "norm_text": "B.이벤트 어쩌고 하면서 포인트를 준다고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+이벤트/NNG+어쩌/VV+고/EC+하/VV+면서/EC+포인트/NNG+를/JKO+준다고/VV+EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 지금 포인트 환급 이벤트를 진행 중입니다",
+            "norm_text": "A.예 지금 포인트 환급 이벤트를 진행 중입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+지금/MAG+포인트/NNG+환급/NNG+이벤트/NNG+를/JKO+진행/NNG+중/NNB+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 포인트는 언제 주는 건가요",
+            "norm_text": "B.그럼 포인트는 언제 주는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+포인트/NNG+는/JX+언제/MAG+주/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.제품 구매하시고 수취 확인을 하시면 바로 지급됩니다",
+            "norm_text": "A.제품 구매하시고 수취 확인을 하시면 바로 지급됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+제품/NNG+구매/NNG+하/XSV+시/EP+고/EC+수취/NNG+확인/NNG+을/JKO+하/VV+시/EP+면/EC+바로/MAG+지급/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 이벤트는 언제까지 하는 건가요",
+            "norm_text": "B.그럼 이벤트는 언제까지 하는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+이벤트/NNG+는/JX+언제/NP+까지/JX+하/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.이번 주말까지입니다 고객님",
+            "norm_text": "A.이번 주말까지입니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+이번/NNG+주말/NNG+까지/JX+입니다/VCP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.네 주말까지요 알겠습니다",
+            "norm_text": "B.네 주말까지요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+주말/NNG+까지/JX+요/JX+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.좋은 하루 보내세요 #@소속#이었습니다",
+            "norm_text": "A.좋은 하루 보내세요 #@소속#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 115885,
+    "name": "s3_20211105_0005_0050_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110831051036/s3_20211105_0005_0050_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110831051036/s3_20211105_0005_0050_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119602,
+      "filename": "s3_20211027_0012_0001_01.txt",
+      "title": "s3_20211027_0012_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 231,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 231,
+        "word_size": 55,
+        "text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다\nB.기모 후드티 주문할게요\nA.네 고객님 사이즈는 몇으로 하시나요\nB.사이즈는 팔팔로 해 주세요\nA.네 받으시는 분 성함이랑 주소 부탁 드립니다\nB.#@이름# 영등포구 #@주소#입니다\nA.네 결제는 어떻게 하시겠습니까\nB.모바일로 할게요 적립금도 있는 거죠\nA.네 고객님 배송 완료 십 일 후 적립됩니다\nB.십 일 후요 네 해 주세요 수고하세요\nA.감사합니다 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다",
+            "norm_text": "A.전화 주셔서 감사합니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.기모 후드티 주문할게요",
+            "norm_text": "B.기모 후드티 주문할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+기모/NNG+후드/NNG+티/NNG+주문/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 사이즈는 몇으로 하시나요",
+            "norm_text": "A.네 고객님 사이즈는 몇으로 하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+사이즈/NNG+는/JX+몇/MM+으로/JKB+하/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.사이즈는 팔팔로 해 주세요",
+            "norm_text": "B.사이즈는 팔팔로 해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+사이즈/NNG+는/JX+팔/NR+팔/NR+로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 받으시는 분 성함이랑 주소 부탁 드립니다",
+            "norm_text": "A.네 받으시는 분 성함이랑 주소 부탁 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+받/VV+으시/EP+는/ETM+분성/NNG+함/XSV+ETN+이랑/JC+주소/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.#@이름# 영등포구 #@주소#입니다",
+            "norm_text": "B.#@이름# 영등포구 #@주소#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+영등포구/NNP+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 결제는 어떻게 하시겠습니까",
+            "norm_text": "A.네 결제는 어떻게 하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+결제/NNG+는/JX+어떻게/MAG+하/VV+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.모바일로 할게요 적립금도 있는 거죠",
+            "norm_text": "B.모바일로 할게요 적립금도 있는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+모바일/NNP+로/JKB+할게요/VV+EC+적립금/NNG+도/JX+있/VX+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 고객님 배송 완료 십 일 후 적립됩니다",
+            "norm_text": "A.네 고객님 배송 완료 십 일 후 적립됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+배송/NNG+완료/NNG+십/NR+일/NNBC+후/NNG+적립/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.십 일 후요 네 해 주세요 수고하세요",
+            "norm_text": "B.십 일 후요 네 해 주세요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+십/NR+일/NNBC+후/NNG+요네/NNG+해/XSV+EC+주/VX+세요/EP+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 좋은 하루 보내세요",
+            "norm_text": "A.감사합니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

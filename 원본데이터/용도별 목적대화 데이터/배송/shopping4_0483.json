@@ -1,0 +1,107 @@
+{
+  "dataset": {
+    "identifier": 9792,
+    "name": "s4_20210913_0011_0679_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151453050432/s4_20210913_0011_0679_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151453050432/s4_20210913_0011_0679_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 13819,
+      "filename": "s4_20210902_0005_0012_01.txt",
+      "title": "s4_20210902_0005_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 165,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 165,
+        "word_size": 40,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.예 수고하십니다 제가 저번 지난주 수요일쯤 주문을 했는데요\nA.네 #@상품# 주문 건이십니까\nB.아직 이게 배송 조회는 계속 뭐 출고 중이라고 뜨던데요\nA.네 출고 중 상태로 뜨시고요\nB.지금 금요일인데 아직도 배송이 안 되거든요 확인 좀 부탁 드릴게요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고하십니다 제가 저번 지난주 수요일쯤 주문을 했는데요",
+            "norm_text": "B.예 수고하십니다 제가 저번 지난주 수요일쯤 주문을 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+하/XSV+십니다/EP+EF+제/NP+가/JKS+저번/NNG+지난주/NNG+수요일/NNG+쯤/XSN+주문/NNG+을/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 #@상품# 주문 건이십니까",
+            "norm_text": "A.네 #@상품# 주문 건이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+주문건/NNP+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.아직 이게 배송 조회는 계속 뭐 출고 중이라고 뜨던데요",
+            "norm_text": "B.아직 이게 배송 조회는 계속 뭐 출고 중이라고 뜨던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아직/MAG+이게/NP+JKS+배송/NNG+조회/NNG+는/JX+계속/MAG+뭐/IC+출고/NNG+중/NNB+이/VCP+라고/EC+뜨/VV+던데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 출고 중 상태로 뜨시고요",
+            "norm_text": "A.네 출고 중 상태로 뜨시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+출고/NNG+중/NNB+상태/NNG+로/JKB+뜨/VV+시/EP+고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.지금 금요일인데 아직도 배송이 안 되거든요 확인 좀 부탁 드릴게요",
+            "norm_text": "B.지금 금요일인데 아직도 배송이 안 되거든요 확인 좀 부탁 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+지금/MAG+금요일/NNG+인데/VCP+EC+아직/MAG+도/JX+배송/NNG+이/JKS+안/MAG+되/VV+거든요/EF+확인/NNG+좀/MAG+부탁/NNG+드릴게요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

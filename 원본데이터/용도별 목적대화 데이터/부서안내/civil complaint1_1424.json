@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 6074,
+    "name": "c1_20210911_0005_0432_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341089538/c1_20210911_0005_0432_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341089538/c1_20210911_0005_0432_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10777,
+      "filename": "c1_20210820_0009_0007_01.txt",
+      "title": "c1_20210820_0009_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 289,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 289,
+        "word_size": 64,
+        "text": "A.네 안녕하세요 #@소속# #@이름#입니다\nB.대신 받았습니다 #@소속#입니다\nA.네 민원인께서 도지사님 동성애 찬성에 관한 인터뷰 관련해서요\nA.문의가 있으시다고 해서 연락드렸습니다\nB.지금 그 팀 담당자분들 다 회의를 갔습니다\nA.담당자님 모두 안 계십니까\nB.네 담당자분들 지금 도청 인권센터에서 회의중입니다\nA.회의가 도청 인권센터에서 진행중이십니까\nB.예 사무실이 거기에 있어요 인권센터 한 번 전화해보십시오\nA.네 실례지만 대신 받으신 주사님 성함 좀 알 수 있을까요\nB.네 저는 #@이름#입니다\nA.네 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.네 안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.대신 받았습니다 #@소속#입니다",
+            "norm_text": "B.대신 받았습니다 #@소속#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+대신/NNG+받/VV+았/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 민원인께서 도지사님 동성애 찬성에 관한 인터뷰 관련해서요",
+            "norm_text": "A.네 민원인께서 도지사님 동성애 찬성에 관한 인터뷰 관련해서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+민원인/NNG+께서/JKS+도지사/NNP+님/XSN+동성애/NNG+찬성/NNG+에/JKB+관한/VV+ETM+인터뷰/NNG+관련/NNG+해서/XSV+EC+VCP+VCP+요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.문의가 있으시다고 해서 연락드렸습니다",
+            "norm_text": "A.문의가 있으시다고 해서 연락드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+문의/NNG+가/JKS+있/VA+으시/EP+다고/EC+해서/VV+EC+연락/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.지금 그 팀 담당자분들 다 회의를 갔습니다",
+            "norm_text": "B.지금 그 팀 담당자분들 다 회의를 갔습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+그/MM+팀/NNG+담당/NNG+자분/NNG+들/XSN+다/MAG+회의/NNG+를/JKO+갔/VV+EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.담당자님 모두 안 계십니까",
+            "norm_text": "A.담당자님 모두 안 계십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+담당자/NNG+님/XSN+모두/MAG+안/MAG+계십니까/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 담당자분들 지금 도청 인권센터에서 회의중입니다",
+            "norm_text": "B.네 담당자분들 지금 도청 인권센터에서 회의중입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+담당/NNG+자분/NNG+들/XSN+지금/NNG+도/JX+청인/NNG+권/XSN+센터/NNG+에서/JKB+회의/NNG+중/NNB+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.회의가 도청 인권센터에서 진행중이십니까",
+            "norm_text": "A.회의가 도청 인권센터에서 진행중이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+회의/NNG+가/JKS+도청/NNG+인권/NNG+센터/NNG+에서/JKB+진행/NNG+중/NNB+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.예 사무실이 거기에 있어요 인권센터 한 번 전화해보십시오",
+            "norm_text": "B.예 사무실이 거기에 있어요 인권센터 한 번 전화해보십시오",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+사무실/NNG+이/JKS+거기/NP+에/JKB+있/VV+어/EC+요인/NNG+권/XSN+센터/NNG+한/MM+번/NNBC+전화/NNG+해/XSV+EC+보/VX+십시오/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 실례지만 대신 받으신 주사님 성함 좀 알 수 있을까요",
+            "norm_text": "A.네 실례지만 대신 받으신 주사님 성함 좀 알 수 있을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+실례/NNG+지만/VCP+EC+대신/NNG+받/VV+으신/EP+ETM+주사/NNG+님/XSN+성함/NNG+좀/MAG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 저는 #@이름#입니다",
+            "norm_text": "B.네 저는 #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+저/NP+는/JX+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 알겠습니다 감사합니다",
+            "norm_text": "A.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

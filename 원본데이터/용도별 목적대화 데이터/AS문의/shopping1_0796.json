@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 9972,
+    "name": "s1_20210913_0001_0393_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151217033082/s1_20210913_0001_0393_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151217033082/s1_20210913_0001_0393_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7548,
+      "filename": "s1_20210823_0030_0014_01.txt",
+      "title": "s1_20210823_0030_0014_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 373,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 373,
+        "word_size": 91,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다 무엇을 도와드릴까요\nB.예 그 정수기 그 이전 설치 때문에 전화를 했는데요\nA.이전 설치 말씀하세요 이사를 가시는 건가요 고객님\nB.예 이사 때문에 이전 설치 좀 하려고요\nA.네 정보 먼저 확인해 드리겠습니다 계약자는 본인이십니까\nB.네 계약자 본인입니다\nA.네 고객님 성함과 전화번호 어떻게 되십니까\nB.#@이름#요 #@전번#이요 그 이전한다구 그 이사한다구\nB.메일 그 해체하는걸 예약을 했는데요\nB.내일 일찍 시간이 이른 시간때 오지 올 수 없으면\nB.오늘 오후나 뭐 이럴때 할려고 하는데요\nA.저희가 당일로는 수정 등록이 되어있진 않구요 고객님\nA.내일 오전으로는 저희가 전달해드릴 수는 있으세요\nB.아 그래요 지금 내일 오전으로 돼있을 텐데요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 그 정수기 그 이전 설치 때문에 전화를 했는데요",
+            "norm_text": "B.예 그 정수기 그 이전 설치 때문에 전화를 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+그/MM+정수기/NNG+그/MM+이전/NNG+설치/NNG+때문/NNB+에/JKB+전화/NNG+를/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.이전 설치 말씀하세요 이사를 가시는 건가요 고객님",
+            "norm_text": "A.이전 설치 말씀하세요 이사를 가시는 건가요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+이전/NNG+설치/NNG+말씀/NNG+하/XSV+세요/EP+EF+이사/NNG+를/JKO+가시/VV+는/ETM+건가요/NNB+VCP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.예 이사 때문에 이전 설치 좀 하려고요",
+            "norm_text": "B.예 이사 때문에 이전 설치 좀 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+이사/NNG+때문/NNB+에/JKB+이전/NNG+설치/NNG+좀/MAG+하/VV+려고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 정보 먼저 확인해 드리겠습니다 계약자는 본인이십니까",
+            "norm_text": "A.네 정보 먼저 확인해 드리겠습니다 계약자는 본인이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+정보/NNG+먼저/MAG+확인/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+계약자/NNG+는/JX+본인/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 계약자 본인입니다",
+            "norm_text": "B.네 계약자 본인입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+계약자/NNG+본인/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 성함과 전화번호 어떻게 되십니까",
+            "norm_text": "A.네 고객님 성함과 전화번호 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+성함/NNG+과/JC+전화/NNG+번호/NNG+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.#@이름#요 #@전번#이요 그 이전한다구 그 이사한다구",
+            "norm_text": "B.#@이름#요 #@전번#이요 그 이전한다구 그 이사한다구",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+요/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC+그/MM+이전/NNG+한다구/XSV+EF+그/MM+이사/NNG+한다구/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.메일 그 해체하는걸 예약을 했는데요",
+            "norm_text": "B.메일 그 해체하는걸 예약을 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+메일/VV+ETM+그/MM+해체/NNG+하/XSV+는/ETM+걸/NNB+JKO+예약/NNG+을/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.내일 일찍 시간이 이른 시간때 오지 올 수 없으면",
+            "norm_text": "B.내일 일찍 시간이 이른 시간때 오지 올 수 없으면",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+내일/MAG+일찍/MAG+시간/NNG+이/JKS+이른/VA+ETM+시간/NNG+때/NNG+오/VV+지/EC+올/VV+ETM+수/NNB+없/VA+으면/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.오늘 오후나 뭐 이럴때 할려고 하는데요",
+            "norm_text": "B.오늘 오후나 뭐 이럴때 할려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+오늘/MAG+오후/NNG+나/JC+뭐/IC+이럴/VA+ETM+때/NNG+할려고/XSV+EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.저희가 당일로는 수정 등록이 되어있진 않구요 고객님",
+            "norm_text": "A.저희가 당일로는 수정 등록이 되어있진 않구요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+당일/NNG+로/JKB+는/JX+수정/NNG+등록/NNG+이/JKS+되/VV+어/EC+있/VX+진/EC+JX+않/VX+구요/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 13,
+            "text": "A.내일 오전으로는 저희가 전달해드릴 수는 있으세요",
+            "norm_text": "A.내일 오전으로는 저희가 전달해드릴 수는 있으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+내일/MAG+오전/NNG+으로/JKB+는/JX+저희/NP+가/JKS+전달/NNG+해/XSV+EC+드릴/VX+ETM+수/NNB+는/JX+있/VX+으세요/EP+EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.아 그래요 지금 내일 오전으로 돼있을 텐데요",
+            "norm_text": "B.아 그래요 지금 내일 오전으로 돼있을 텐데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+그래요/IC+지금/MAG+내일/MAG+오전/NNG+으로/JKB+돼/VV+EC+있/VX+을/ETM+텐데요/NNB+VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

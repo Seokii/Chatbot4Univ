@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 45181,
+    "name": "c4_20211014_0001_1584_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130705035456/c4_20211014_0001_1584_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130705035456/c4_20211014_0001_1584_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50215,
+      "filename": "c4_20210906_0008_0002_01.txt",
+      "title": "c4_20210906_0008_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 364,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 364,
+        "word_size": 78,
+        "text": "A.기분 좋은 아침입니다 #@소속# 상담원 #@이름#입니다\nB.공원에 간이 화장실 때문에 전화했거든요\nA.네 간이 화장실 사용에 불편이 있으셨습니까\nB.예 간이 화장실이 냄새도 심하고 공원 미관도 안 좋아 보여서요\nA.네 말씀하시는 공원 위치 말씀해주시겠습니까\nB.흥덕구 #@주소# 명심근린공원이에요\nA.네 명심근린공원은 화장실이 없어 불편하다는 주민들의 요구에 설치했습니다\nB.화장실을 좀 이전이나 제대로 하나 지어주세요\nA.예산상의 이유로 수세식 화장실 설치는 어려운 것으로 확인됩니다\nB.그럼 이전은 어떻게 안되나요\nA.간이 화장실 이전은 향후 공원 조성 시 이전 건의하도록 검토하겠습니다\nB.네 감사합니다 그렇게라도 해주세요\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.기분 좋은 아침입니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.기분 좋은 아침입니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+기분/NNG+좋/VA+은/ETM+아침/NNG+입니다/VCP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.공원에 간이 화장실 때문에 전화했거든요",
+            "norm_text": "B.공원에 간이 화장실 때문에 전화했거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+공원/NNG+에/JKB+간/NNG+이/JKS+화장실/NNG+때문/NNB+에/JKB+전화/NNG+했/XSV+EP+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 간이 화장실 사용에 불편이 있으셨습니까",
+            "norm_text": "A.네 간이 화장실 사용에 불편이 있으셨습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+간/NNG+이/JKS+화장실/NNG+사용/NNG+에/JKB+불편/NNG+이/JKS+있/VA+으셨/EP+EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.예 간이 화장실이 냄새도 심하고 공원 미관도 안 좋아 보여서요",
+            "norm_text": "B.예 간이 화장실이 냄새도 심하고 공원 미관도 안 좋아 보여서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+간/NNG+이/JKS+화장실/NNG+이/JKS+냄새/NNG+도/JX+심하/VA+고/EC+공원/NNG+미관/NNG+도/JX+안/MAG+좋/VA+아/EC+보여/VV+EC+서요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.네 말씀하시는 공원 위치 말씀해주시겠습니까",
+            "norm_text": "A.네 말씀하시는 공원 위치 말씀해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+말씀/NNG+하/XSV+시/EP+는/ETM+공원/NNG+위치/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.흥덕구 #@주소# 명심근린공원이에요",
+            "norm_text": "B.흥덕구 #@주소# 명심근린공원이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+흥덕구/NNP+#/SY+@/SY+주소/NNG+#/SY+명심/NNG+근린공원/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 명심근린공원은 화장실이 없어 불편하다는 주민들의 요구에 설치했습니다",
+            "norm_text": "A.네 명심근린공원은 화장실이 없어 불편하다는 주민들의 요구에 설치했습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+명심/NNG+근린공원/NNG+은/JX+화장실/NNG+이/JKS+없/VA+어/EC+불편/NNG+하/XSA+다는/ETM+주민/NNG+들/XSN+의/JKG+요구/NNG+에/JKB+설치/NNG+했/XSV+EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.화장실을 좀 이전이나 제대로 하나 지어주세요",
+            "norm_text": "B.화장실을 좀 이전이나 제대로 하나 지어주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+화장실/NNG+을/JKO+좀/MAG+이전/NNG+이나/JC+제대로/MAG+하/VV+나/EC+지/VX+어/EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.예산상의 이유로 수세식 화장실 설치는 어려운 것으로 확인됩니다",
+            "norm_text": "A.예산상의 이유로 수세식 화장실 설치는 어려운 것으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+예산/NNG+상/XSN+의/JKG+이유/NNG+로/JKB+수세식/NNG+화장실/NNG+설치/NNG+는/JX+어려운/VA+ETM+것/NNB+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 이전은 어떻게 안되나요",
+            "norm_text": "B.그럼 이전은 어떻게 안되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+이전/NNG+은/JX+어떻게/MAG+안/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.간이 화장실 이전은 향후 공원 조성 시 이전 건의하도록 검토하겠습니다",
+            "norm_text": "A.간이 화장실 이전은 향후 공원 조성 시 이전 건의하도록 검토하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+간/NNG+이/JKS+화장실/NNG+이전/NNG+은/JX+향후/NNG+공원/NNG+조성/NNG+시/NNB+이전/NNG+건의/NNG+하/XSV+도록/EC+검토/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 감사합니다 그렇게라도 해주세요",
+            "norm_text": "B.네 감사합니다 그렇게라도 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+그렇게/MAG+라도/VCP+EC+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

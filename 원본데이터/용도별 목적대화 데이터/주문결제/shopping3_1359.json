@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 95421,
+    "name": "s3_20211102_0005_0604_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt202111011108300968107/s3_20211102_0005_0604_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt202111011108300968107/s3_20211102_0005_0604_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119529,
+      "filename": "s3_20211026_0028_0026_01.txt",
+      "title": "s3_20211026_0028_0026_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 203,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 203,
+        "word_size": 45,
+        "text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다\nB.입금 예정일까지 입금을 했는데요\nB.주문 취소가 됬다고 하네요 어떻게 된 건가요\nA.확인을 위해 고객님의 성함과 전화번호 알려 주시겠습니까\nB.이름은 #@이름#이고 번호는 #@전번#이에요\nA.네 지금 확인했습니다 은행 전산 오류로 인한 것 같습니다\nA.해당 은행에 연락해 주셔야 할 것 같습니다\nB.네 알겠습니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#의 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+의상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.입금 예정일까지 입금을 했는데요",
+            "norm_text": "B.입금 예정일까지 입금을 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+입금/NNG+예정일/NNG+까지/JX+입금/NNG+을/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.주문 취소가 됬다고 하네요 어떻게 된 건가요",
+            "norm_text": "B.주문 취소가 됬다고 하네요 어떻게 된 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+주문/NNG+취소/NNG+가/JKS+됬/VV+EP+다고/EC+하/VX+네요/EF+어떻게/MAG+된/VV+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.확인을 위해 고객님의 성함과 전화번호 알려 주시겠습니까",
+            "norm_text": "A.확인을 위해 고객님의 성함과 전화번호 알려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+확인/NNG+을/JKO+위해/VV+EC+고객/NNG+님/XSN+의/JKG+성함/NNG+과/JC+전화/NNG+번호/NNG+알려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.이름은 #@이름#이고 번호는 #@전번#이에요",
+            "norm_text": "B.이름은 #@이름#이고 번호는 #@전번#이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 지금 확인했습니다 은행 전산 오류로 인한 것 같습니다",
+            "norm_text": "A.네 지금 확인했습니다 은행 전산 오류로 인한 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+지금/MAG+확인/NNG+했/XSV+EP+습니다/EF+은행/NNG+전산/NNG+오류/NNG+로/JKB+인한/VV+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.해당 은행에 연락해 주셔야 할 것 같습니다",
+            "norm_text": "A.해당 은행에 연락해 주셔야 할 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+은행/NNG+에/JKB+연락/NNG+해/XSV+EC+주/VX+셔야/EP+EC+할/VX+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 알겠습니다 수고하세요",
+            "norm_text": "B.네 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

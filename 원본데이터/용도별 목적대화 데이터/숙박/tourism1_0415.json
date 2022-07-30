@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 141129,
+    "name": "t1_20211115_0002_0407_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715010215/t1_20211115_0002_0407_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715010215/t1_20211115_0002_0407_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148033,
+      "filename": "t1_0067_0089_02.txt",
+      "title": "t1_0067_0089_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 289,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 289,
+        "word_size": 65,
+        "text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다\nB. 안녕하세요 객실 예약 취소건으로 전화드렸는데요\nA. 네 예약자분 성함과 연락처 말씀해주세요\nB. #@이름#으로 예약했구요 #@전번# 입니다\nA. 네 확인되셨구요 취소 안내 어떻게 도와드릴까요\nB. 제가 어젯밤에 홈페이지에서 취소하려니까 계속 안되더라구요\nB. 취소 자체가 안되는건지 홈페이지 문제인지 모르겠네요\nA. #@이름#님은 유선 예약하신 경우라 온라인 취소가 안되세요\nB. 아 그랬군요 몰랐네요 그럼 지금 취소 부탁드려요\nA. 알겠습니다 취소 접수 해드렸습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 객실 예약 취소건으로 전화드렸는데요",
+            "norm_text": "B. 안녕하세요 객실 예약 취소건으로 전화드렸는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+객실/NNG+예/NNG+약취/NNG+소건/NNG+으로/JKB+전화/NNG+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 예약자분 성함과 연락처 말씀해주세요",
+            "norm_text": "A. 네 예약자분 성함과 연락처 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+예약자/NNG+분성/NNG+함/XSV+ETN+과/JC+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B. #@이름#으로 예약했구요 #@전번# 입니다",
+            "norm_text": "B. #@이름#으로 예약했구요 #@전번# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+으로/JKB+예약/NNG+했/XSV+EP+구요/EF+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 네 확인되셨구요 취소 안내 어떻게 도와드릴까요",
+            "norm_text": "A. 네 확인되셨구요 취소 안내 어떻게 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+되/XSV+셨/EP+EP+구요/EF+취소/NNG+안내/NNG+어떻게/MAG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 제가 어젯밤에 홈페이지에서 취소하려니까 계속 안되더라구요",
+            "norm_text": "B. 제가 어젯밤에 홈페이지에서 취소하려니까 계속 안되더라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+어젯밤/NNG+에/JKB+홈페이지/NNG+에서/JKB+취소/NNG+하/XSV+려니까/EC+계속/MAG+안/MAG+되/VV+더라구요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 취소 자체가 안되는건지 홈페이지 문제인지 모르겠네요",
+            "norm_text": "B. 취소 자체가 안되는건지 홈페이지 문제인지 모르겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+취소/NNG+자체/NNG+가/JKS+안/MAG+되/VV+는/ETM+건지/NNB+VCP+EC+홈페이지/NNG+문제/NNG+인지/VCP+EC+모르/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A. #@이름#님은 유선 예약하신 경우라 온라인 취소가 안되세요",
+            "norm_text": "A. #@이름#님은 유선 예약하신 경우라 온라인 취소가 안되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+님/XSN+은/JX+유선/NNG+예약/NNG+하/XSV+신/EP+ETM+경우/NNG+라/VCP+EC+온라인/NNG+취소/NNG+가/JKS+안/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 아 그랬군요 몰랐네요 그럼 지금 취소 부탁드려요",
+            "norm_text": "B. 아 그랬군요 몰랐네요 그럼 지금 취소 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+아/IC+그랬/VV+EP+군요/EC+몰랐/VV+EP+네요/EF+그럼/MAJ+지금/MAG+취소/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 알겠습니다 취소 접수 해드렸습니다 감사합니다",
+            "norm_text": "A. 알겠습니다 취소 접수 해드렸습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+취소/NNG+접수/NNG+해/XSV+EC+드렸/VX+EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

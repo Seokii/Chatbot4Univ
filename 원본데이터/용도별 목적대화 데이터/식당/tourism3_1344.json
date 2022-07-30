@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 164786,
+    "name": "t3_20211123_0005_0249_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt202111101358060325105/t3_20211123_0005_0249_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt202111101358060325105/t3_20211123_0005_0249_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 150604,
+      "filename": "t3_0066_0129_02.txt",
+      "title": "t3_0066_0129_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 261,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 261,
+        "word_size": 62,
+        "text": "A.연락 주셔서 감사합니다 #@소속#입니다\nB.안녕하세요 다음 주에 한라산 등반을 가게 돼서요\nB.등산한 다음 #@소속#가려고 하는데 미리 예약 할 수 있나요\nA.네 예약 하실 수 있습니다 언제로 해 드릴까요\nB.저희가 단체여서요 11시 30분으로 열 명 해 주시겠어요\nA.네 요일은 언제로 해 드릴까요\nB.다음주 수요일 11시 30분으로 해 주시겠어요\nA.네 알겠습니다 그럼 그때 뵐게요\nB.네 감사합니다 수고하세요\nA.안녕히 계세요 지금까지 #@소속#이었습니다\nB.네 안녕히 계세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.연락 주셔서 감사합니다 #@소속#입니다",
+            "norm_text": "A.연락 주셔서 감사합니다 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+연락/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 다음 주에 한라산 등반을 가게 돼서요",
+            "norm_text": "B.안녕하세요 다음 주에 한라산 등반을 가게 돼서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+다음/NNG+주/NNG+에/JKB+한라산/NNP+등반/NNG+을/JKO+가/VV+게/EC+돼서/VV+EC+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "B.등산한 다음 #@소속#가려고 하는데 미리 예약 할 수 있나요",
+            "norm_text": "B.등산한 다음 #@소속#가려고 하는데 미리 예약 할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+등산/NNG+한/XSA+ETM+다음/NNG+#/SY+@/SY+소속/NNG+#/SY+가/VV+려고/EC+하/VV+는데/EC+미리/MAG+예약/NNG+할/XSV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 예약 하실 수 있습니다 언제로 해 드릴까요",
+            "norm_text": "A.네 예약하실 수 있습니다 언제로 해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+예약/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+습니다/EF+언제/NP+로/JKB+해드릴까요/VV+EC+VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.저희가 단체여서요 11시 30분으로 열 명 해 주시겠어요",
+            "norm_text": "B.저희가 단체여서요 11시 30분으로 열 명 해 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+저희/NP+가/JKS+단체/NNG+여서/VCP+EC+요/MM+11/SN+시/NNBC+30/SN+분/NNBC+으로/JKB+열명/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 요일은 언제로 해 드릴까요",
+            "norm_text": "A.네 요일은 언제로 해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+요일/NNG+은/JX+언제/NP+로/JKB+해드릴까요/VV+EC+VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.다음주 수요일 11시 30분으로 해 주시겠어요",
+            "norm_text": "B.다음주 수요일 11시 30분으로 해 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+다음/NNG+주/NNG+수요일/NNG+11/SN+시/NNBC+30/SN+분/NNBC+으로/JKB+해/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.네 알겠습니다 그럼 그때 뵐게요",
+            "norm_text": "A.네 알겠습니다 그럼 그때 뵐게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+그럼/MAJ+그때/NNG+뵐/VV+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.안녕히 계세요 지금까지 #@소속#이었습니다",
+            "norm_text": "A.안녕히 계세요 지금까지 #@소속#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+안녕히/MAG+계세요/VV+EC+지금/NNG+까지/JX+#/SY+@/SY+소속/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 안녕히 계세요",
+            "norm_text": "B.네 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕히/MAG+계세요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

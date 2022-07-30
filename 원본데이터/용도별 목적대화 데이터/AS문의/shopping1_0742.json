@@ -1,0 +1,419 @@
+{
+  "dataset": {
+    "identifier": 8311,
+    "name": "s1_20210913_0001_0337_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151217072096/s1_20210913_0001_0337_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151217072096/s1_20210913_0001_0337_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7604,
+      "filename": "s1_20210823_0027_0002_01.txt",
+      "title": "s1_20210823_0027_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 861,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 861,
+        "word_size": 204,
+        "text": "A.반갑습니다 상담사입니다\nA.무엇을 도와드릴까요\nB.수고하십니다 뭐 좀 여쭤볼려고 전화드렸는데요\nA.고객님 어떤 문제십니까\nB.저희 냉온 다 되는 천장에 붙어 있는 거 있잖아요\nA.천정형 시스템 냉난방기 말씀하시는 거세요\nB.그게 바람쎄기가 강중약 자동 이렇게 있더라구요\nA.맞습니다 고객님 바람세기를 조절할 수 있습니다\nB.근데 이게 언젠가부터 소음이 많이 심한데\nB.혹시 저희가 자가진단할 수 있는 방법은 없는 거예요\nA.많이 신경쓰였겠습니다\nA.그럼 고객님 강중약으로 바람세기를 조절했을 때 떨리는 음이 심하신 겁니까\nB.떨리는 음이 다다다다다다 하면서 좀 심합니다\nB.특히 강으로 틀었을 때 빼고 동작했을때도 똑같은 소리가 납니다\nA.그러면 고객님 혹시 해당제품의 필터를 한번 뺀 상태에서 동작을 시켜볼 수 있겠습니까\nB.필터를 빼보고 동작을 했어요\nA.필터 장착 문제 이런 부분에서 그럴 수 있어서요\nB.그건 해봤습니다 이미\nA.네 그럼 기계가 잘못된 부분일수도요\nA.아마 아니시면 날개 때문에 그럴 가능성이 높으세요\nA.그런 부분은 자가조치가 불가능하시고 기사가 방문을 드려야 되는 부분인데요\nB.서비스 예약을 해야하는 건가요 그러면은\nA.하나 더 확인해 보겠습니다\nA.고객님 일단 날개들을 이제 좌우 위아래로 움직이는 게 있고 고정시키는 부분이 있으시잖아요\nA.아예 그냥 날개가 한 방향으로 고정됐을때 소음이 나시는지요\nB.시범 삼아 한 번 해볼게요\nA.예 한번 테스트해 보시는게 젤 정확하실 것 같구요\nA.그래서 이게 필터 부분이 아니시라면 기사가 방문을 드려야 되는 부분이신 것 같습니다\nA.어떻게 지금 바로 접수를 해드릴까요\nB.네 시끄러워서 소음이 그렇게 해주세요\nA.이력 확인드리고 있기 때문에 저희 상담 이력 남겨드릴 거구요\nA.필요하시면 언제든지 연락 부탁드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사입니다",
+            "norm_text": "A.반갑습니다 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.무엇을 도와드릴까요",
+            "norm_text": "A.무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.수고하십니다 뭐 좀 여쭤볼려고 전화드렸는데요",
+            "norm_text": "B.수고하십니다 뭐 좀 여쭤볼려고 전화드렸는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+뭐/IC+좀/MAG+여쭤/VV+EC+볼려고/VX+EC+전화/NNG+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.고객님 어떤 문제십니까",
+            "norm_text": "A.고객님 어떤 문제십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+어떤/MM+문제/NNG+십니까/VCP+EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.저희 냉온 다 되는 천장에 붙어 있는 거 있잖아요",
+            "norm_text": "B.저희 냉온 다 되는 천장에 붙어 있는 거 있잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+냉온/NNG+다/MAG+되/VV+는/ETM+천장/NNG+에/JKB+붙/VV+어/EC+있/VX+는/ETM+거/NNB+있/VA+잖아요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.천정형 시스템 냉난방기 말씀하시는 거세요",
+            "norm_text": "A.천정형 시스템 냉난방기 말씀하시는 거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+천정/NNG+형/XSN+시스템/NNG+냉난/NNG+방기/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그게 바람쎄기가 강중약 자동 이렇게 있더라구요",
+            "norm_text": "B.그게 바람쎄기가 강중약 자동 이렇게 있더라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그게/NP+JKS+바람/NNG+쎄기/NNG+가/JKS+강중/MAG+약/NNG+자동/NNG+이렇/VA+게/EC+있/VX+더라구요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.맞습니다 고객님 바람세기를 조절할 수 있습니다",
+            "norm_text": "A.맞습니다 고객님 바람세기를 조절할 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+맞/VV+습니다/EF+고객/NNG+님/XSN+바람/NNG+세기/NNG+를/JKO+조절/NNG+할/XSV+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.근데 이게 언젠가부터 소음이 많이 심한데",
+            "norm_text": "B.근데 이게 언젠가부터 소음이 많이 심한데",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+근데/MAJ+이게/NP+JKS+언젠가/NP+VCP+EF+부터/JX+소음/NNG+이/JKS+많이/MAG+심한데/VA+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.혹시 저희가 자가진단할 수 있는 방법은 없는 거예요",
+            "norm_text": "B.혹시 저희가 자가진단할 수 있는 방법은 없는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+저희/NP+가/JKS+자가/NNG+진단/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+방법/NNG+은/JX+없/VA+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.많이 신경쓰였겠습니다",
+            "norm_text": "A.많이 신경쓰였겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+많이/MAG+신경/NNG+쓰였/VV+EP+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.그럼 고객님 강중약으로 바람세기를 조절했을 때 떨리는 음이 심하신 겁니까",
+            "norm_text": "A.그럼 고객님 강중약으로 바람세기를 조절했을 때 떨리는 음이 심하신 겁니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+고객/NNG+님/XSN+강중/MAG+약/NNG+으로/JKB+바람/NNG+세기/NNG+를/JKO+조절/NNG+했/XSV+EP+을/ETM+때/NNG+떨리/VV+는/ETM+음/NNG+이/JKS+심하/VA+신/EP+ETM+겁니까/NNB+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.떨리는 음이 다다다다다다 하면서 좀 심합니다",
+            "norm_text": "B.떨리는 음이 다다다다다다 하면서 좀 심합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+떨리/VV+는/ETM+음/NNG+이/JKS+다다다다다/MAG+다/MAG+하/VV+면서/EC+좀/MAG+심합니다/VA+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.특히 강으로 틀었을 때 빼고 동작했을때도 똑같은 소리가 납니다",
+            "norm_text": "B.특히 강으로 틀었을 때 빼고 동작했을때도 똑같은 소리가 납니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+특히/MAG+강/NNG+으로/JKB+틀/VV+었/EP+을/ETM+때/NNG+빼/VV+고/EC+동작/NNG+했/XSV+EP+을/ETM+때/NNG+도/JX+똑같/VA+은/ETM+소리/NNG+가/JKS+납니다/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.그러면 고객님 혹시 해당제품의 필터를 한번 뺀 상태에서 동작을 시켜볼 수 있겠습니까",
+            "norm_text": "A.그러면 고객님 혹시 해당제품의 필터를 한번 뺀 상태에서 동작을 시켜볼 수 있겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+그러면/MAJ+고객/NNG+님/XSN+혹시/MAG+해당/NNG+제품/NNG+의/JKG+필터/NNG+를/JKO+한번/MAG+뺀/VV+ETM+상태/NNG+에서/JKB+동작/NNG+을/JKO+시켜/VV+EC+볼/VX+ETM+수/NNB+있/VV+겠/EP+습니까/EC"
+          },
+          {
+            "id": 16,
+            "text": "B.필터를 빼보고 동작을 했어요",
+            "norm_text": "B.필터를 빼보고 동작을 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+필터/NNG+를/JKO+빼/VV+EC+보/VX+고/EC+동작/NNG+을/JKO+했/VV+EP+어요/EF"
+          },
+          {
+            "id": 17,
+            "text": "A.필터 장착 문제 이런 부분에서 그럴 수 있어서요",
+            "norm_text": "A.필터 장착 문제 이런 부분에서 그럴 수 있어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+필터/NNG+장착/NNG+문제/NNG+이런/MM+부분/NNG+에서/JKB+그럴/VV+ETM+수/NNB+있/VV+어서요/EC"
+          },
+          {
+            "id": 18,
+            "text": "B.그건 해봤습니다 이미",
+            "norm_text": "B.그건 해봤습니다 이미",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그건/NP+JX+해/VV+EC+봤/VX+EP+습니다/EF+이미/MAG"
+          },
+          {
+            "id": 19,
+            "text": "A.네 그럼 기계가 잘못된 부분일수도요",
+            "norm_text": "A.네 그럼 기계가 잘못된 부분일수도요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+기계/NNG+가/JKS+잘못/MAG+된/VV+ETM+부분/NNG+일/VCP+ETM+수/NNB+도/JX+요/JX"
+          },
+          {
+            "id": 20,
+            "text": "A.아마 아니시면 날개 때문에 그럴 가능성이 높으세요",
+            "norm_text": "A.아마 아니시면 날개 때문에 그럴 가능성이 높으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+아마/MAG+아니/VCN+시/EP+면/EC+날개/NNG+때문/NNB+에/JKB+그럴/VV+ETM+가능/NNG+성/XSN+이/JKS+높/VA+으세요/EP+EP+EC"
+          },
+          {
+            "id": 21,
+            "text": "A.그런 부분은 자가조치가 불가능하시고 기사가 방문을 드려야 되는 부분인데요",
+            "norm_text": "A.그런 부분은 자가조치가 불가능하시고 기사가 방문을 드려야 되는 부분인데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그런/MM+부분/NNG+은자/NNG+가/JKS+조치/NNG+가/JKS+불/XPN+가능/NNG+하/XSV+시/EP+고/EC+기사/NNG+가/JKS+방문/NNG+을/JKO+드려야/VV+EC+되/VV+는/ETM+부분/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 22,
+            "text": "B.서비스 예약을 해야하는 건가요 그러면은",
+            "norm_text": "B.서비스 예약을 해야하는 건가요 그러면은",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+서비스/NNG+예약/NNG+을/JKO+해야/VV+EC+하/VV+는/ETM+건가요/NNB+VCP+EC+그러/VV+면은/EC"
+          },
+          {
+            "id": 23,
+            "text": "A.하나 더 확인해 보겠습니다",
+            "norm_text": "A.하나 더 확인해 보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+하나/NR+더/MAG+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 24,
+            "text": "A.고객님 일단 날개들을 이제 좌우 위아래로 움직이는 게 있고 고정시키는 부분이 있으시잖아요",
+            "norm_text": "A.고객님 일단 날개들을 이제 좌우 위아래로 움직이는 게 있고 고정시키는 부분이 있으시잖아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+일단/MAG+날개/NNG+들/XSN+을/JKO+이제/MAG+좌우위/NNG+아래/NNG+로/JKB+움직이/VV+는/ETM+게/NNB+JKS+있/VA+고/EC+고정/NNG+시키/XSV+는/ETM+부분/NNG+이/JKS+있/VA+으시/EP+잖아요/EC"
+          },
+          {
+            "id": 25,
+            "text": "A.아예 그냥 날개가 한 방향으로 고정됐을때 소음이 나시는지요",
+            "norm_text": "A.아예 그냥 날개가 한 방향으로 고정됐을때 소음이 나시는지요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+아예/MAG+그냥/MAG+날개/NNG+가/JKS+한/MM+방향/NNG+으로/JKB+고정/NNG+됐/XSV+EP+을/ETM+때/NNG+소음/NNG+이나/JC+시/EP+는지요/EC"
+          },
+          {
+            "id": 26,
+            "text": "B.시범 삼아 한 번 해볼게요",
+            "norm_text": "B.시범 삼아 한 번 해볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+시범/NNG+삼/VV+아/EC+한/MM+번/NNBC+해/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 27,
+            "text": "A.예 한번 테스트해 보시는게 젤 정확하실 것 같구요",
+            "norm_text": "A.예 한번 테스트해 보시는게 젤 정확하실 것 같구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+예/IC+한/MM+번/NNBC+테스트/NNG+해/XSV+EC+보/VX+시/EP+는/ETM+게/NNB+JKS+젤/MAG+정확/NNG+하/XSV+실/EP+ETM+것/NNB+같/VA+구요/EF"
+          },
+          {
+            "id": 28,
+            "text": "A.그래서 이게 필터 부분이 아니시라면 기사가 방문을 드려야 되는 부분이신 것 같습니다",
+            "norm_text": "A.그래서 이게 필터 부분이 아니시라면 기사가 방문을 드려야 되는 부분이신 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+그래서/MAJ+이게/NP+JKS+필터/NNG+부분/NNG+이/JKC+아니/VCN+시/EP+라면/EC+기사/NNG+가/JKS+방문/NNG+을/JKO+드려야/VV+EC+되/VV+는/ETM+부분/NNG+이/VCP+신/EP+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 29,
+            "text": "A.어떻게 지금 바로 접수를 해드릴까요",
+            "norm_text": "A.어떻게 지금 바로 접수를 해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떻게/MAG+지금/MAG+바로/MAG+접수/NNG+를/JKO+해드릴까요/VV+EC+VV+EC"
+          },
+          {
+            "id": 30,
+            "text": "B.네 시끄러워서 소음이 그렇게 해주세요",
+            "norm_text": "B.네 시끄러워서 소음이 그렇게 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+시끄러워서/VA+EC+소음/NNG+이/JKS+그렇게/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 31,
+            "text": "A.이력 확인드리고 있기 때문에 저희 상담 이력 남겨드릴 거구요",
+            "norm_text": "A.이력 확인드리고 있기 때문에 저희 상담 이력 남겨드릴 거구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+이력/NNG+확인/NNG+XSV+EC+드리/VX+고/EC+있/VX+기/ETN+때문/NNB+에/JKB+저희/NP+상담/NNG+이력/NNG+남겨/VV+EC+드릴/VX+ETM+거/NNB+구요/VCP+EC"
+          },
+          {
+            "id": 32,
+            "text": "A.필요하시면 언제든지 연락 부탁드리겠습니다",
+            "norm_text": "A.필요하시면 언제든지 연락 부탁드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+필요/NNG+하/XSV+시/EP+면/EC+언제/NP+든지/VCP+EC+연락/NNG+부탁/NNG+드리/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

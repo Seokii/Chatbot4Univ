@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 164642,
+    "name": "t3_20211123_0005_0105_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135806016149/t3_20211123_0005_0105_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135806016149/t3_20211123_0005_0105_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 150580,
+      "filename": "t3_0066_0105_02.txt",
+      "title": "t3_0066_0105_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 256,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 256,
+        "word_size": 54,
+        "text": "A.무엇이든 물어보세요 #@소속# #@이름#입니다\nB.제주도 여행 중인데 근처 맛집이 궁금해서요\nB.맛집 추천 좀 해주실 수 있을까요\nA.네 위치는 어느 쪽으로 알아봐 드릴까요\nB.#@주소# 근처로 알아봐 주시겠어요\nA.해물라면 전문점 추천 드리고 싶은데요\nB.해물라면이요 너무 좋은데요\nA.네 #@소속#이라고 #@주소#에 있는데 맛집으로 유명합니다\nB.그렇군요 그럼 한번 가봐야겠네요 감사합니다\nA.날씨가 많이 추운데 건강 유의하세요 #@이름#이었습니다\nB.네 안녕히 계세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.무엇이든 물어보세요 #@소속# #@이름#입니다",
+            "norm_text": "A.무엇이든 물어보세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+무엇/NP+이/VCP+든/EC+물/VV+어/EC+보/VX+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제주도 여행 중인데 근처 맛집이 궁금해서요",
+            "norm_text": "B.제주도 여행 중인데 근처 맛집이 궁금해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+제주도/NNP+여행/NNG+중/NNB+인데/VCP+EC+근처/NNG+맛집/NNG+이/JKS+궁금/XR+해서/XSA+EC+VCP+요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.맛집 추천 좀 해주실 수 있을까요",
+            "norm_text": "B.맛집 추천 좀 해주실 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+맛집/NNG+추천/NNG+좀/MAG+해/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 위치는 어느 쪽으로 알아봐 드릴까요",
+            "norm_text": "A.네 위치는 어느 쪽으로 알아봐 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+위치/NNG+는/JX+어느/MM+쪽/NNB+으로/JKB+알아봐/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.#@주소# 근처로 알아봐 주시겠어요",
+            "norm_text": "B.#@주소# 근처로 알아봐 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+근처/NNG+로/JKB+알아봐/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.해물라면 전문점 추천 드리고 싶은데요",
+            "norm_text": "A.해물라면 전문점 추천 드리고 싶은데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+해/VV+EC+물/VV+라면/EC+전문점/NNG+추천/NNG+드리/VV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.해물라면이요 너무 좋은데요",
+            "norm_text": "B.해물라면이요 너무 좋은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+해물/NNG+라면/NNG+이/VCP+요/EC+너무/MAG+좋/VA+은데요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 #@소속#이라고 #@주소#에 있는데 맛집으로 유명합니다",
+            "norm_text": "A.네 #@소속#이라고 #@주소#에 있는데 맛집으로 유명합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+이라고/JKQ+#/SY+@/SY+주소/NNG+#/SY+에/JKB+있/VV+는데/EC+맛집/NNG+으로/JKB+유명/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그렇군요 그럼 한번 가봐야겠네요 감사합니다",
+            "norm_text": "B.그렇군요 그럼 한번 가봐야겠네요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+그럼/MAJ+한/MM+번/NNBC+가/VV+봐야/EC+VX+EC+VX+겠/EP+네요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.날씨가 많이 추운데 건강 유의하세요 #@이름#이었습니다",
+            "norm_text": "A.날씨가 많이 추운데 건강 유의하세요 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+날씨/NNG+가/JKS+많이/MAG+추운데/VA+EC+건강/NNG+유의/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 안녕히 계세요",
+            "norm_text": "B.네 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕히/MAG+계세요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

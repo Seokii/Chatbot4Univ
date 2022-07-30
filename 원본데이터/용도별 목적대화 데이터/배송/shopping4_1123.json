@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 14093,
+    "name": "s4_20210914_0011_1326_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151447031690/s4_20210914_0011_1326_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151447031690/s4_20210914_0011_1326_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12913,
+      "filename": "s4_20210826_0018_0008_01.txt",
+      "title": "s4_20210826_0018_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 363,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 363,
+        "word_size": 87,
+        "text": "A.반갑습니다 #@소속# 상담원 #@이름# 입니다\nB.예 칫솔 건조기 시켰는데 도착을 안 해서요\nB.구월 십삼 일 날 입금했는데 지금 한 달 가까이 됬어요\nA.먼저 불편을 드려 죄송합니다 상품 확인 하겠습니다\nA.주문자분 성함과 휴대폰 번호 말씀 해 주시겠습니까\nB.이름이 영문으로 되어서 #@이름# 이고요\nB.전화번호는 #@전번# 이거에요\nA.네 계속 말씀해 주세요\nA.확인되었습니다 감사합니다 고객님\nA.고객님 송장 확인 결과 상품 이동 후 흐름이 없습니다\nA.죄송하지만 제조사 쪽으로 실출고 맞는지 확인 해보겠습니다\nA.혹시 확인 후에 오늘 중으로 다시 연락 드려도 될까요\nB.예 그래 주세요 부탁드릴게요\nA.네 빠르게 연락 드리겠습니다\nA.상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담원 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담원 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 칫솔 건조기 시켰는데 도착을 안 해서요",
+            "norm_text": "B.예 칫솔 건조기 시켰는데 도착을 안 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+칫솔/NNG+건조기/NNG+시켰/XSV+EP+는데/EC+도착/NNG+을/JKO+안/MAG+해서/VV+EC+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "B.구월 십삼 일 날 입금했는데 지금 한 달 가까이 됬어요",
+            "norm_text": "B.구월 십삼 일 날 입금했는데 지금 한 달 가까이 됬어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+구월/NNG+십/NR+삼/NR+일/NNBC+날/NNG+입금/NNG+했/XSV+EP+는데/EC+지금/MAG+한/MM+달/NNBC+가까이/MAG+됬/VV+EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.먼저 불편을 드려 죄송합니다 상품 확인 하겠습니다",
+            "norm_text": "A.먼저 불편을 드려 죄송합니다 상품 확인 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+먼저/MAG+불편/NNG+을/JKO+드려/VV+EC+죄송/XR+합니다/XSA+EF+상품/NNG+확인/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.주문자분 성함과 휴대폰 번호 말씀 해 주시겠습니까",
+            "norm_text": "A.주문자분 성함과 휴대폰 번호 말씀 해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주문자/NNG+분성/NNG+함/XSV+ETN+과/JC+휴대폰/NNG+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.이름이 영문으로 되어서 #@이름# 이고요",
+            "norm_text": "B.이름이 영문으로 되어서 #@이름# 이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+이/JKS+영문/NNG+으로/JKB+되/VV+어서/EC+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.전화번호는 #@전번# 이거에요",
+            "norm_text": "B.전화번호는 #@전번# 이거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이거/NP+에/JKB+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.네 계속 말씀해 주세요",
+            "norm_text": "A.네 계속 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+계속/MAG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.확인되었습니다 감사합니다 고객님",
+            "norm_text": "A.확인되었습니다 감사합니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+./SY+확인/NNG+되/XSV+었/EP+습니다/EF+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 10,
+            "text": "A.고객님 송장 확인 결과 상품 이동 후 흐름이 없습니다",
+            "norm_text": "A.고객님 송장 확인 결과 상품 이동 후 흐름이 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+송장/NNG+확인/NNG+결과/NNG+상품/NNG+이동후/NNP+흐름/NNG+이/JKS+없/VA+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.죄송하지만 제조사 쪽으로 실출고 맞는지 확인 해보겠습니다",
+            "norm_text": "A.죄송하지만 제조사 쪽으로 실출고 맞는지 확인 해보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+제조사/NNG+쪽/NNB+으로/JKB+실/VV+ETM+출고/NNG+맞/VV+는지/EC+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.혹시 확인 후에 오늘 중으로 다시 연락 드려도 될까요",
+            "norm_text": "A.혹시 확인 후에 오늘 중으로 다시 연락 드려도 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+확인/NNG+후/NNG+에/JKB+오늘/NNG+중/NNB+으로/JKB+다시/MAG+연락/NNG+드려도/VV+EC+될까요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.예 그래 주세요 부탁드릴게요",
+            "norm_text": "B.예 그래 주세요 부탁드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+예/IC+그래/VA+EC+주/VX+세요/EP+EF+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 빠르게 연락 드리겠습니다",
+            "norm_text": "A.네 빠르게 연락 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+빠르/VA+게/EC+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.상담원 #@이름# 이였습니다",
+            "norm_text": "A.상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

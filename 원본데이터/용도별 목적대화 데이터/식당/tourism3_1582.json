@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 165025,
+    "name": "t3_20211123_0005_0487_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt202111101358080502106/t3_20211123_0005_0487_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt202111101358080502106/t3_20211123_0005_0487_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 150867,
+      "filename": "t3_0069_0007_02.txt",
+      "title": "t3_0069_0007_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 238,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 238,
+        "word_size": 55,
+        "text": "A.안녕하세요 전화 받은 상담원 #@이름#입니다\nB.안녕하세요 남원에 한정식 집 좀 추천 해 주세요\nA.그러시면 #@주소# #@소속#을 추천 드립니다\nB.#@주소#이 길 이름인가요\nA.네 남원시 #@주소#에 있는 골목길의 옛 이름입니다\nB.위치가 조용하고 좋을 것 같네요\nA.예 전통 가옥을 개조하여 만든 한정식 집이에요\nB.네 개별실 예약해서 조용히 식사를 해 봐야겠어요\nA.혹시 추가 문의 사항이 있으신가요\nB.없습니다 감사해요 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 전화 받은 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 전화 받은 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+전화/NNG+받/VV+은/ETM+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 남원에 한정식 집 좀 추천 해 주세요",
+            "norm_text": "B.안녕하세요 남원에 한정식 집 좀 추천해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+남원/NNP+에/JKB+한정식/NNG+집/NNG+좀/MAG+추천/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.그러시면 #@주소# #@소속#을 추천 드립니다",
+            "norm_text": "A.그러시면 #@주소# #@소속#을 추천드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+#/SY+@/SY+주소/NNG+#/SY+#/SY+@/SY+소속/NNG+#/SY+을/JKO+추천/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@주소#이 길 이름인가요",
+            "norm_text": "B.#@주소# 이 길 이름인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+이/VCP+길/ETN+JKO+이름/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 남원시 #@주소#에 있는 골목길의 옛 이름입니다",
+            "norm_text": "A.네 남원시 #@주소#에 있는 골목길의 옛 이름입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+남원시/NNP+#/SY+@/SY+주소/NNG+#/SY+에/JKB+있/VV+는/ETM+골목길/NNG+의/JKG+옛/MM+이름/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.위치가 조용하고 좋을 것 같네요",
+            "norm_text": "B.위치가 조용하고 좋을 것 같네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+위치/NNG+가/JKS+조용/XR+하/XSA+고/EC+좋/VA+을/ETM+것/NNB+같/VA+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.예 전통 가옥을 개조하여 만든 한정식 집이에요",
+            "norm_text": "A.예 전통 가옥을 개조하여 만든 한정식 집이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+전통/NNG+가옥/NNG+을/JKO+개조/NNG+하/XSV+여/EC+만든/VV+ETM+한정식/NNG+집/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 개별실 예약해서 조용히 식사를 해 봐야겠어요",
+            "norm_text": "B.네 개별실 예약해서 조용히 식사를 해 봐야겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/MM+개/NNBC+별실/NNG+예약/NNG+해서/XSV+EC+조용히/MAG+식사/NNG+를/JKO+해/VV+EC+봐야/VX+EC+VV+겠/EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.혹시 추가 문의 사항이 있으신가요",
+            "norm_text": "A.혹시 추가 문의 사항이 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+추가/NNG+문/NNG+의/JKG+사항/NNG+이/JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "B.없습니다 감사해요 수고하세요",
+            "norm_text": "B.없습니다 감사해요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+없/VA+습니다/EF+감사/NNG+해요/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 13195,
+    "name": "s1_20210913_0001_0497_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151221008546/s1_20210913_0001_0497_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151221008546/s1_20210913_0001_0497_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8088,
+      "filename": "s1_20210824_0005_0013_01.txt",
+      "title": "s1_20210824_0005_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 230,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 230,
+        "word_size": 56,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.예 저 뭐 좀 물어보려고 그러는데요\nA.네 고객님 어떤 문의이십니까\nB.냉장고 모델명이요 #@상품#인데요\nA.예 어떤 게 불편하신 건가요\nB.아니 불편한 게 아니고 요즘에 티비에서 보니까요\nB.냉각 콘프레셔 가열 돼서 그게 화재가 나고 그러더라구요\nA.네 고객님 화재 뉴스를 접하셨습니까\nB.이게 오래된 모델이면은 그게 또 가능할 수도 있겠다 싶어서\nB.이런 거는 어떻게 되는가 해서요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 저 뭐 좀 물어보려고 그러는데요",
+            "norm_text": "B.예 저 뭐 좀 물어보려고 그러는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+저/IC+뭐/IC+좀/MAG+물/VV+어/EC+보/VX+려고/EC+그러/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어떤 문의이십니까",
+            "norm_text": "A.네 고객님 어떤 문의이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어떤/MM+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.냉장고 모델명이요 #@상품#인데요",
+            "norm_text": "B.냉장고 모델명이요 #@상품#인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+냉장고모델명이요/UNKNOWN+#/SY+@/SY+상품/NNG+#/SY+인데요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 어떤 게 불편하신 건가요",
+            "norm_text": "A.예 어떤 게 불편하신 건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+어떤/MM+게/NNB+JKS+불편/NNG+하/XSV+신/EP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.아니 불편한 게 아니고 요즘에 티비에서 보니까요",
+            "norm_text": "B.아니 불편한 게 아니고 요즘에 티비에서 보니까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/IC+불편/NNG+한/XSA+ETM+게/NNB+JKC+아니/VCN+고/EC+요즘/NNG+에/JKB+티비/NNG+에서/JKB+보/VV+니까요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.냉각 콘프레셔 가열 돼서 그게 화재가 나고 그러더라구요",
+            "norm_text": "B.냉각 콘프레셔 가열 돼서 그게 화재가 나고 그러더라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+냉각/NNG+콘/NNG+프레/NNP+셔/NNG+가/JKS+열/NNG+돼서/XSV+EC+그게/NP+JKS+화재/NNG+가/JKS+나/VV+고/EC+그러/VV+더라구요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 고객님 화재 뉴스를 접하셨습니까",
+            "norm_text": "A.네 고객님 화재 뉴스를 접하셨습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+화재/NNG+뉴스/NNG+를/JKO+접하/VV+셨/EP+EP+습니까/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.이게 오래된 모델이면은 그게 또 가능할 수도 있겠다 싶어서",
+            "norm_text": "B.이게 오래된 모델이면은 그게 또 가능할 수도 있겠다 싶어서",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이게/NP+JKS+오래/MAG+된/VV+ETM+모델/NNG+이/VCP+면은/EC+그게/NP+JKS+또/MAG+가능/NNG+할/XSV+ETM+수/NNB+도/JX+있/VA+겠/EP+다/EC+싶/VX+어서/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.이런 거는 어떻게 되는가 해서요",
+            "norm_text": "B.이런 거는 어떻게 되는가 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이런/MM+거/NNB+는/JX+어떻게/MAG+되/VV+는가/EC+해서/VX+EC+VCP+요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "dataset": {
+    "identifier": 114181,
+    "name": "KAKAO_1664_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/80/txt202111031349510102108/KAKAO_1664_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/80/txt202111031349510102108/KAKAO_1664_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 132562,
+      "filename": "KAKAO_1664_12.txt",
+      "title": "KAKAO_1664_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-11-03",
+      "size": 711,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "다자간 대화",
+        "size": 711,
+        "word_size": 239,
+        "text": "1 : 너흰 어디로 여행 가고 싶어?\n2 : 난 30살 되기 전에 유럽 꼭 가볼 꺼야\n3 : 나는 캐나다가 요즘 좋더러\n1 : 다들 멋진데 생각했구나\n1 : 나는 미국 그랜드캐니언 보고 대왕스테이크 뜯기\n2 : 아 아까 제시카랑 크리스탈 둘이 뉴욕 여행 간 거 봤는데 미국도 좋더라 대왕스테이크 키키\n3 : 키키 나도 여행 가서 먹는 게 제일 좋은 거 같아\n1 : 모든 여행지는 먹고 싶은 걸로 정할 수 있지\n2 : 너희는 해외여행 가서 새로운 음식 도전하는 거 좋아해?\n3 : 이미 맛있다고 증명이 됐으면?\n1 : 난 모든 음식 다 도전해~!\n1 : 완전 즐기는 타입\n2 : 난 쉽게 도전 못하는편인데 호주에서 캥거루 고기 먹어본 게 내 인생 최고의 도전이였음 키키\n3 : 키키 나도 도전은 잘 못해\n1 : 오 캥거루 고기 맛은 어때?\n2 : 고기는 부드러웠는데 냄새가 역해서 못 먹겠더라구 나름 맛집 찾아간 거였는뎅\n3 : 헐 아 솔직히 일본도 좀 가보고 싶어\n3 : 맛있는 거 많을 거 같아\n1 : 오 나도 일본이 깨끗하고 매너 있고 디저트류 환상일 거 같아\n2 : 마쟈 일본은 일단 편의점만 털어도 크흐\n3 : 그치 일본 가면 무조건 편의점부터지\n1 : 거기 오뎅 궁금해\n1 : 겨울에 가고 싶다\n2 : 아 너희 물떡 먹어봤어?\n3 : 아니\n3 : 안 먹어봤어\n3 : 맛있을까?\n1 : 나 먹어봤어!\n1 : 근데 별로 맛은 없더라\n2 : 어묵보다 맛있다는 말은 거짓말이였군 응응\n3 : 그냥 아무 맛이 안 날 거 같아",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너흰 어디로 여행 가고 싶어?",
+            "norm_text": "너흰 어디로 여행 가고 싶어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너흰/NP+JX+어디/NP+로/JKB+여행/NNG+가/VV+고/EC+싶/VX+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 난 30살 되기 전에 유럽 꼭 가볼 꺼야",
+            "norm_text": "난 30살 되기 전에 유럽 꼭 가볼 꺼야",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+30/SN+살되기전에유럽꼭가볼꺼야/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "3 : 나는 캐나다가 요즘 좋더러",
+            "norm_text": "나는 캐나다가 요즘 좋더러",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+캐나다/NNP+가/JKS+요즘/MAG+좋/VA+더러/JKB"
+          },
+          {
+            "id": 4,
+            "text": "1 : 다들 멋진데 생각했구나",
+            "norm_text": "다들 멋진데 생각했구나",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다/MAG+들/XSN+멋진데/VA+EC+생각/NNG+했/XSV+EP+구나/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 나는 미국 그랜드캐니언 보고 대왕스테이크 뜯기",
+            "norm_text": "나는 미국 그랜드캐니언 보고 대왕스테이크 뜯기",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+미국/NNP+그랜드캐니언/NNP+보고/JKB+대왕/NNG+스테이크/NNG+뜯/VV+기/ETN"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 아까 제시카랑 크리스탈 둘이 뉴욕 여행 간 거 봤는데 미국도 좋더라 대왕스테이크 키키",
+            "norm_text": "아 아까 제시카랑 크리스탈 둘이 뉴욕 여행 간 거 봤는데 미국도 좋더라 대왕스테이크 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아/IC+아까/MAG+제시카/NNP+랑/JC+크리스탈/NNP+둘/NR+이/JKS+뉴욕/NNP+여행/NNG+간/VV+ETM+거/NNB+봤/VV+EP+는데/EC+미국/NNP+도/JX+좋/VA+더라/EC+대왕/NNG+스테이크/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 7,
+            "text": "3 : 키키 나도 여행 가서 먹는 게 제일 좋은 거 같아",
+            "norm_text": "키키 나도 여행 가서 먹는 게 제일 좋은 거 같아",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+여행/NNG+가/VV+서/EC+먹/VV+는/ETM+게/NNB+JKS+제일/MAG+좋/VA+은/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 모든 여행지는 먹고 싶은 걸로 정할 수 있지",
+            "norm_text": "모든 여행지는 먹고 싶은 걸로 정할 수 있지",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "모든/MM+여행지/NNG+는/JX+먹/VV+고/EC+싶/VX+은/ETM+걸로/NNB+JKB+정할/VV+ETM+수/NNB+있/VV+지/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 너희는 해외여행 가서 새로운 음식 도전하는 거 좋아해?",
+            "norm_text": "너희는 해외여행 가서 새로운 음식 도전하는 거 좋아해?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너희/NP+는/JX+해외여행/NNG+가/VV+서/EC+새로운/VA+ETM+음식/NNG+도전/NNG+하/XSV+는/ETM+거/NNB+좋/VA+아/EC+해/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "3 : 이미 맛있다고 증명이 됐으면?",
+            "norm_text": "이미 맛있다고 증명이 됐으면?",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "이미/MAG+맛있/VA+다고/EC+증명/NNG+이/JKS+됐/VV+EP+으면/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 난 모든 음식 다 도전해~!",
+            "norm_text": "난 모든 음식 다 도전해~!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+모든/MM+음식/NNG+다/MAG+도전/NNG+해/XSV+EC+~/SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 완전 즐기는 타입",
+            "norm_text": "완전 즐기는 타입",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "완전/MAG+즐기/VV+는/ETM+타입/NNG"
+          },
+          {
+            "id": 13,
+            "text": "2 : 난 쉽게 도전 못하는편인데 호주에서 캥거루 고기 먹어본 게 내 인생 최고의 도전이였음 키키",
+            "norm_text": "난 쉽게 도전 못하는편인데 호주에서 캥거루 고기 먹어본 게 내 인생 최고의 도전이였음 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+쉽/VA+게/EC+도전/NNG+못/MAG+하/VV+는/ETM+편/NNB+인데/VCP+EC+호주/NNP+에서/JKB+캥거루/NNG+고기/NNG+먹/VV+어/EC+본/VX+ETM+게/NNB+JKS+내/NP+JKG+인생/NNG+최고/NNG+의/JKG+도전/NNG+이/VCP+였/EP+음/ETN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "3 : 키키 나도 도전은 잘 못해",
+            "norm_text": "키키 나도 도전은 잘 못해",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "키/NNG+키나/XSA+ETN+JX+도/JX+도전/NNG+은/JX+잘못/MAG+해/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "1 : 오 캥거루 고기 맛은 어때?",
+            "norm_text": "오 캥거루 고기 맛은 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오/NR+캥거루/NNG+고기/NNG+맛/NNG+은/JX+어때/VA+EF"
+          },
+          {
+            "id": 16,
+            "text": "2 : 고기는 부드러웠는데 냄새가 역해서 못 먹겠더라구 나름 맛집 찾아간 거였는뎅",
+            "norm_text": "고기는 부드러웠는데 냄새가 역해서 못 먹겠더라구 나름 맛집 찾아간 거였는뎅",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "고기/NNG+는/JX+부드러웠/VA+EP+는데/EC+냄새/NNG+가/JKS+역해서/VA+EC+못/MAG+먹/VV+겠/EP+더라구/EF+나름/NNB+맛집/NNG+찾아간/VV+ETM+거/NNB+였/VCP+EP+는/ETM+뎅/NNP"
+          },
+          {
+            "id": 17,
+            "text": "3 : 헐 아 솔직히 일본도 좀 가보고 싶어",
+            "norm_text": "헐 아 솔직히 일본도 좀 가보고 싶어",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "헐/IC+아/IC+솔직히/MAG+일본/NNP+도/JX+좀/MAG+가/VV+EC+보/VX+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 18,
+            "text": "3 : 맛있는 거 많을 거 같아",
+            "norm_text": "맛있는 거 많을 거 같아",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "맛있/VA+는/ETM+거/NNB+많/VA+을/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 19,
+            "text": "1 : 오 나도 일본이 깨끗하고 매너 있고 디저트류 환상일 거 같아",
+            "norm_text": "오 나도 일본이 깨끗하고 매너 있고 디저트류 환상일 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/IC+나/NP+도/JX+일본/NNP+이/JKS+깨끗/XR+하/XSA+고/EC+매너/NNG+있/VV+고/EC+디저트/NNG+류/XSN+환상/NNG+일/VCP+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 마쟈 일본은 일단 편의점만 털어도 크흐",
+            "norm_text": "마쟈 일본은 일단 편의점만 털어도 크흐",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "마/VV+쟈/EC+일본/NNP+은/JX+일단/MAG+편의점/NNG+만/JX+털/VV+어도/EC+크흐/IC"
+          },
+          {
+            "id": 21,
+            "text": "3 : 그치 일본 가면 무조건 편의점부터지",
+            "norm_text": "그치 일본 가면 무조건 편의점부터지",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+일본/NNP+가면무/NNG+조건/NNG+편의점/NNG+부터/JX+지/EC"
+          },
+          {
+            "id": 22,
+            "text": "1 : 거기 오뎅 궁금해",
+            "norm_text": "거기 오뎅 궁금해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "거기/NP+오뎅/NNG+궁금/XR+해/XSA+EC"
+          },
+          {
+            "id": 23,
+            "text": "1 : 겨울에 가고 싶다",
+            "norm_text": "겨울에 가고 싶다",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "겨울/NNG+에/JKB+가/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 아 너희 물떡 먹어봤어?",
+            "norm_text": "아 너희 물떡 먹어봤어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+너희/NP+물/NNG+떡먹/VV+어/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 25,
+            "text": "3 : 아니",
+            "norm_text": "아니",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아니/IC"
+          },
+          {
+            "id": 26,
+            "text": "3 : 안 먹어봤어",
+            "norm_text": "안 먹어봤어",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+먹/VV+어/EC+봤/VX+EP+어/EC"
+          },
+          {
+            "id": 27,
+            "text": "3 : 맛있을까?",
+            "norm_text": "맛있을까?",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맛있/VA+을까/EF"
+          },
+          {
+            "id": 28,
+            "text": "1 : 나 먹어봤어!",
+            "norm_text": "나 먹어봤어!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+먹/VV+어/EC+봤/VX+EP+어/EF"
+          },
+          {
+            "id": 29,
+            "text": "1 : 근데 별로 맛은 없더라",
+            "norm_text": "근데 별로 맛은 없더라",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "근데/MAJ+별로/MAG+맛/NNG+은/JX+없/VA+더라/EC"
+          },
+          {
+            "id": 30,
+            "text": "2 : 어묵보다 맛있다는 말은 거짓말이였군 응응",
+            "norm_text": "어묵보다 맛있다는 말은 거짓말이였군 응응",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어묵/NNG+보다/JKB+맛있/VA+다는/ETM+말/NNG+은/JX+거짓말/NNG+이/VCP+였/EP+군/EF+응/IC+응/IC"
+          },
+          {
+            "id": 31,
+            "text": "3 : 그냥 아무 맛이 안 날 거 같아",
+            "norm_text": "그냥 아무 맛이 안 날 거 같아",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+아무/MM+맛/NNG+이/JKS+안/MAG+날/VV+ETM+거/NNB+같/VA+아/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

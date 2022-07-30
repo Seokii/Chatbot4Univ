@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 9986,
+    "name": "s3_20210913_0010_0557_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151418003112/s3_20210913_0010_0557_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151418003112/s3_20210913_0010_0557_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12086,
+      "filename": "s3_20210830_0029_0008_01.txt",
+      "title": "s3_20210830_0029_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 301,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 301,
+        "word_size": 70,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nB.앱으로 회원가입해서 받은 오천 원 할인 쿠폰 사용이 안 됐어요\nA.고객님 조회를 위해서 성함 연락처 말씀해 주세요\nB.접수자 #@이름# #@전번#이요\nA.방금 주문하신 #상품# 문의 건 맞으세요\nB.네 방금 주문했어요\nA.확인 결과 전화 주문으로 하셨네요\nA.전화 주문의 경우 비회원으로 되어서 할인 쿠폰 사용이 불가합니다\nB.그 쿠폰은 어떻게 쓸 수 있나요\nA.다음 결제 시 쿠폰 사용 가능하세요\nB.네 알았어요 수고하세요\nA.다른 문의 없으십니까\nB.네 없어요 고맙습니다\nA.감사합니다 #@소속# #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.앱으로 회원가입해서 받은 오천 원 할인 쿠폰 사용이 안 됐어요",
+            "norm_text": "B.앱으로 회원가입해서 받은 오천 원 할인 쿠폰 사용이 안 됐어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+앱/NNG+으로/JKB+회원/NNG+가입/NNG+해서/XSV+EC+받/VV+은/ETM+오/NR+천/NR+원/NNBC+할인/NNG+쿠폰/NNG+사용/NNG+이/JKS+안/MAG+됐/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 조회를 위해서 성함 연락처 말씀해 주세요",
+            "norm_text": "A.고객님 조회를 위해서 성함 연락처 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+조회/NNG+를/JKO+위해서/VV+EC+성함/NNG+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.접수자 #@이름# #@전번#이요",
+            "norm_text": "B.접수자 #@이름# #@전번#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+접수/NNG+자/XSN+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.방금 주문하신 #상품# 문의 건 맞으세요",
+            "norm_text": "A.방금 주문하신 #상품# 문의 건 맞으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+방금/MAG+주문/NNG+하/XSV+신/EP+ETM+#/SY+상품/NNG+#/SY+문의건맞으세요/UNKNOWN"
+          },
+          {
+            "id": 6,
+            "text": "B.네 방금 주문했어요",
+            "norm_text": "B.네 방금 주문했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+방금/MAG+주문/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.확인 결과 전화 주문으로 하셨네요",
+            "norm_text": "A.확인 결과 전화 주문으로 하셨네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+결과/NNG+전화/NNG+주문/NNG+으로/JKB+하/VV+셨/EP+EP+네요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.전화 주문의 경우 비회원으로 되어서 할인 쿠폰 사용이 불가합니다",
+            "norm_text": "A.전화 주문의 경우 비회원으로 되어서 할인 쿠폰 사용이 불가합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주문/NNG+의/JKG+경우/NNG+비회원/NNG+으로/JKB+되/VV+어서/EC+할인/NNG+쿠폰/NNG+사용/NNG+이/JKS+불가/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그 쿠폰은 어떻게 쓸 수 있나요",
+            "norm_text": "B.그 쿠폰은 어떻게 쓸 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그/MM+쿠폰/NNG+은/JX+어떻게/MAG+쓸/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.다음 결제 시 쿠폰 사용 가능하세요",
+            "norm_text": "A.다음 결제 시 쿠폰 사용 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+다음/NNG+결제/NNG+시/NNG+쿠폰/NNG+사용/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 알았어요 수고하세요",
+            "norm_text": "B.네 알았어요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+알/VV+았/EP+어요/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.다른 문의 없으십니까",
+            "norm_text": "A.다른 문의 없으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+없/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.네 없어요 고맙습니다",
+            "norm_text": "B.네 없어요 고맙습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+없/VA+어요/EF+고맙/VA+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.감사합니다 #@소속# #@이름#였습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

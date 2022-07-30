@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 14737,
+    "name": "s1_20210914_0001_0662_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151219013587/s1_20210914_0001_0662_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151219013587/s1_20210914_0001_0662_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7805,
+      "filename": "s1_20210824_0007_0008_01.txt",
+      "title": "s1_20210824_0007_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 471,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 471,
+        "word_size": 127,
+        "text": "A.안녕하세요 #@상품# 세탁기 방문 기사 #@이름#입니다\nA.방문 드릴 곳 주소 남겨주시겠습니까\nB.네 구로구 #@주소#요\nA.확인 감사합니다 언제가 가장 편하실까요 고객님\nB.이번 주 토요일 가능한가요\nA.토요일 저희가 아홉 시부터 오후 두 시까지 가능하시긴 한데요\nA.저희가 평일 여섯 시 이후나 주말에는 출장 비용이 삼천 원이 더 추가 되세요\nB.그럼 여섯 시 이후는 또 안 된다고요\nA.가능하긴 합니다만 여섯 시 이후에도 출장비가 삼천 원이 더 추가가 되십니다\nB.그러면 내일 오전에 한 아홉 시 반 쯤 가능할까요\nA.예 아홉 시 반 쯤이요 고객님\nA.아홉 시 정각과 아홉 시 오십 분이 있는데 어느 시간이 더 편하세요\nB.그럼 오십 분으로 해주세요 아홉 시 오십 분\nA.그럼 내일 오전 아홉 시 오십 분까지 고객님께 연락 드리고 방문 드릴 거구요\nB.출장 비는 만 이천 원이에요\nA.네 정확한 수리비나 부품비 관련해서는 기사 점검 후에 말씀드리도록 하겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@상품# 세탁기 방문 기사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@상품# 세탁기 방문 기사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+상품/NNG+#/SY+세탁기/NNG+방문/NNG+기사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.방문 드릴 곳 주소 남겨주시겠습니까",
+            "norm_text": "A.방문 드릴 곳 주소 남겨주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+방문/NNG+드릴/VV+ETM+곳/NNG+주소/NNG+남겨/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 구로구 #@주소#요",
+            "norm_text": "B.네 구로구 #@주소#요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+구로구/NNP+#/SY+@/SY+주소/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.확인 감사합니다 언제가 가장 편하실까요 고객님",
+            "norm_text": "A.확인 감사합니다 언제가 가장 편하실까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+합니다/XSV+EF+언제/NP+가/JKS+가장/MAG+편하/VA+실까요/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 5,
+            "text": "B.이번 주 토요일 가능한가요",
+            "norm_text": "B.이번 주 토요일 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+이번/NNG+주/NNG+토요일/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 6,
+            "text": "A.토요일 저희가 아홉 시부터 오후 두 시까지 가능하시긴 한데요",
+            "norm_text": "A.토요일 저희가 아홉 시부터 오후 두 시까지 가능하시긴 한데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+토요일/NNG+저희/NP+가/JKS+아홉/NR+시/NNBC+부터/JX+오후/NNG+두/MM+시/NNBC+까지/JX+가능/NNG+하/XSV+시/EP+긴/ETN+JX+한데요/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.저희가 평일 여섯 시 이후나 주말에는 출장 비용이 삼천 원이 더 추가 되세요",
+            "norm_text": "A.저희가 평일 여섯 시 이후나 주말에는 출장 비용이 삼천 원이 더 추가 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+평일/NNG+여섯/NR+시/NNBC+이후/NNG+나/JC+주말/NNG+에/JKB+는/JX+출장/NNG+비용/NNG+이/JKS+삼/NR+천/NR+원/NNBC+이/JKS+더/MAG+추가/NNG+되/XSV+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 여섯 시 이후는 또 안 된다고요",
+            "norm_text": "B.그럼 여섯 시 이후는 또 안 된다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+그럼/MAJ+여섯/NR+시/NNBC+이후/NNG+는/JX+또/MAG+안/MAG+된다/VV+EC+고요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.가능하긴 합니다만 여섯 시 이후에도 출장비가 삼천 원이 더 추가가 되십니다",
+            "norm_text": "A.가능하긴 합니다만 여섯 시 이후에도 출장비가 삼천 원이 더 추가가 되십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가능/NNG+하/XSV+긴/ETN+JX+합니다/VX+EF+만/NR+여섯/NR+시/NNBC+이후/NNG+에/JKB+도/JX+출장비/NNG+가/JKS+삼/NR+천/NR+원/NNBC+이/JKS+더/MAG+추가/NNG+가/JKS+되/VV+십니다/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그러면 내일 오전에 한 아홉 시 반 쯤 가능할까요",
+            "norm_text": "B.그러면 내일 오전에 한 아홉 시 반 쯤 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그러면/MAJ+내일/MAG+오전/NNG+에/JKB+한/MM+아홉/NR+시/NNBC+반/NNG+쯤/XSN+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.예 아홉 시 반 쯤이요 고객님",
+            "norm_text": "A.예 아홉 시 반 쯤이요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+아홉/NR+시/NNBC+반/NNG+쯤/XSN+이/VCP+요/EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 12,
+            "text": "A.아홉 시 정각과 아홉 시 오십 분이 있는데 어느 시간이 더 편하세요",
+            "norm_text": "A.아홉 시 정각과 아홉 시 오십 분이 있는데 어느 시간이 더 편하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+아홉/NR+시/NNBC+정각/NNG+과/JC+아홉/NR+시/NNBC+오/NR+십/NR+분/NNBC+이/JKS+있/VV+는데/EC+어느/MM+시간/NNG+이/JKS+더/MAG+편하/VA+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.그럼 오십 분으로 해주세요 아홉 시 오십 분",
+            "norm_text": "B.그럼 오십 분으로 해주세요 아홉 시 오십 분",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+오/NR+십/NR+분/NNBC+으로/JKB+해/VV+EC+주/VX+세요/EP+EF+아홉/NR+시/NNBC+오/NR+십/NR+분/NNBC"
+          },
+          {
+            "id": 14,
+            "text": "A.그럼 내일 오전 아홉 시 오십 분까지 고객님께 연락 드리고 방문 드릴 거구요",
+            "norm_text": "A.그럼 내일 오전 아홉 시 오십 분까지 고객님께 연락 드리고 방문 드릴 거구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그럼/MAJ+내일/MAG+오전/NNG+아홉/NR+시/NNBC+오/NR+십/NR+분/NNBC+까지/JX+고객/NNG+님/XSN+께/JKB+연락/NNG+드리/VV+고/EC+방문/NNG+드릴/VV+ETM+거/NNB+구요/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.출장 비는 만 이천 원이에요",
+            "norm_text": "B.출장 비는 만 이천 원이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+출장비/NNG+는/JX+만이천/NR+원/NNBC+이/VCP+에요/EF"
+          },
+          {
+            "id": 16,
+            "text": "A.네 정확한 수리비나 부품비 관련해서는 기사 점검 후에 말씀드리도록 하겠습니다",
+            "norm_text": "A.네 정확한 수리비나 부품비 관련해서는 기사 점검 후에 말씀드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+정확/XR+한/XSA+ETM+수리비/NNG+나/JC+부품/NNG+비/XPN+관련/NNG+해서/XSV+EC+는/JX+기사/NNG+점검/NNG+후/NNG+에/JKB+말씀/NNG+드리/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

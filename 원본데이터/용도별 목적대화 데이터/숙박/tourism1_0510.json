@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 141352,
+    "name": "t1_20211115_0002_0502_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715090067/t1_20211115_0002_0502_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715090067/t1_20211115_0002_0502_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148128,
+      "filename": "t1_0068_0054_02.txt",
+      "title": "t1_0068_0054_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 290,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 290,
+        "word_size": 64,
+        "text": "A.감사합니다 #@소속# #@이름# 상담사 입니다\nB.룸 예약하려고 하는데요 트윈베드 룸도 있나요\nA.고객님 언제 이용 원하시나요\nB.4월 15일 이요 트윈베드룸 예약하고 싶은데요\nA.잠시만요 네 트윈베드룸 잔여 객실 있습니다\nB.트윈베드룸 금액은 얼마인가요\nA.봉사료 포함 십만원 입니다 성함과 연락처 주시면 예약해 드리겠습니다\nB.이름은 #@이름# 이고요 #@전번# 번 이에요\nA.4월 15일 트윈베드룸 예약 되셨습니다 결제는 현장에서 하시겠습니까\nB.네 가서 할게요 안녕히 계세요\nA.#@소속# #@이름# 였습니다 좋은 시간 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.감사합니다 #@소속# #@이름# 상담사 입니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름# 상담사 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.룸 예약하려고 하는데요 트윈베드 룸도 있나요",
+            "norm_text": "B.룸 예약하려고 하는데요 트윈베드 룸도 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+룸/NNG+예약/NNG+하/XSV+려고/EC+하/VV+는데요/EC+트윈/NNP+베드/NNG+룸/NNG+도/JX+있/VA+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 언제 이용 원하시나요",
+            "norm_text": "A.고객님 언제 이용 원하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+언제/MAG+이용원/NNG+하/XSV+시/EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.4월 15일 이요 트윈베드룸 예약하고 싶은데요",
+            "norm_text": "B.4월 15일 이요 트윈베드룸 예약하고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+4/SN+월/NNBC+15/SN+일/NNBC+이요/JX+트윈/NNP+베드/NNG+룸/NNG+예약/NNG+하/XSV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.잠시만요 네 트윈베드룸 잔여 객실 있습니다",
+            "norm_text": "A.잠시만요 네 트윈베드룸 잔여 객실 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+잠시/MAG+만요/NNP+네/XSN+트윈/NNP+베드/NNG+룸/NNG+잔/XSN+VCP+ETM+여객실/NNG+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.트윈베드룸 금액은 얼마인가요",
+            "norm_text": "B.트윈베드룸 금액은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+트윈/NNP+베드/NNG+룸/NNG+금액/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.봉사료 포함 십만원 입니다 성함과 연락처 주시면 예약해 드리겠습니다",
+            "norm_text": "A.봉사료 포함 십만원 입니다 성함과 연락처 주시면 예약해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+봉사료/NNG+포함/NNG+십/NR+만/NR+원/NNBC+입니다/VCP+EF+성함/NNG+과/JC+연락처/NNG+주/VV+시/EP+면/EC+예약/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.이름은 #@이름# 이고요 #@전번# 번 이에요",
+            "norm_text": "B.이름은 #@이름# 이고요 #@전번# 번이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+#/SY+@/SY+전번/NNG+#/SY+번이/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 9,
+            "text": "A.4월 15일 트윈베드룸 예약 되셨습니다 결제는 현장에서 하시겠습니까",
+            "norm_text": "A.4월 15일 트윈베드룸 예약 되셨습니다 결제는 현장에서 하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+4/SN+월/NNBC+15/SN+일/NNBC+트윈/NNP+베드/NNG+룸/NNG+예약/NNG+되/XSV+셨/EP+EP+습니다/EF+결제/NNG+는/JX+현장/NNG+에서/JKB+하/VV+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 가서 할게요 안녕히 계세요",
+            "norm_text": "B.네 가서 할게요 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+가/VV+서/EC+할게요/VX+EF+안녕히/MAG+계세요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.#@소속# #@이름# 였습니다 좋은 시간 되세요",
+            "norm_text": "A.#@소속# #@이름# 였습니다 좋은 시간 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF+좋/VA+은/ETM+시간/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

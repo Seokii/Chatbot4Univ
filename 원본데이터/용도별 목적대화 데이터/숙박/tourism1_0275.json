@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 140720,
+    "name": "t1_20211115_0002_0266_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714001123/t1_20211115_0002_0266_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714001123/t1_20211115_0002_0266_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147892,
+      "filename": "t1_0066_0078_02.txt",
+      "title": "t1_0066_0078_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 280,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 280,
+        "word_size": 58,
+        "text": "A.반갑습니다 #@소속#에서 전화받았습니다\nB.안녕하세요 저 일정좀 변경할 수 있을까 하는데요\nA.성함과 휴대폰 끝자리 말씀해주시면 조회해 드릴게요\nB.이름은 #@이름#고요 휴대폰 끝자리는 0000입니다\nA.네 #@이름#님 3월 1일로 예약하신거 맞으신가요\nB.네 맞아요 3월 1일로 했는데 27일로 변경 가능할까요\nA.3월 27일로 변경하신다는거죠\nB.네네 맞습니다 그렇게 가능할까요\nA.잠시만요 네 현재 좌석이 남아있어서 변경 해드렸어요\nB.아 정말 감사합니다 수고하세요\nA.네 그러면 27에 봽겠습니다 안녕히계세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속#에서 전화받았습니다",
+            "norm_text": "A.반갑습니다 #@소속#에서 전화받았습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+전화/NNG+받/VV+았/EP+습니다/EF"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 저 일정좀 변경할 수 있을까 하는데요",
+            "norm_text": "B.안녕하세요 저 일정좀 변경할 수 있을까 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+저/MM+일정/NNG+좀/MAG+변경/NNG+할/XSV+ETM+수/NNB+있/VV+을까/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.성함과 휴대폰 끝자리 말씀해주시면 조회해 드릴게요",
+            "norm_text": "A.성함과 휴대폰 끝자리 말씀해주시면 조회해 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+성함/NNG+과/JC+휴대폰/NNG+끝/NNG+자리/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+면/EC+조회/NNG+해/XSV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.이름은 #@이름#고요 휴대폰 끝자리는 0000입니다",
+            "norm_text": "B.이름은 #@이름#고요 휴대폰 끝자리는 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+고요/NNG+휴대폰/NNG+끝/NNG+자리/NNG+는/JX+0000/SN+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 #@이름#님 3월 1일로 예약하신거 맞으신가요",
+            "norm_text": "A.네 #@이름#님 3월 1일로 예약하신거 맞으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+님/XSN+3/SN+월/NNBC+1/SN+일/NNBC+로/JKB+예약/NNG+하/XSV+신/EP+ETM+거/NNB+맞/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 6,
+            "text": "B.네 맞아요 3월 1일로 했는데 27일로 변경 가능할까요",
+            "norm_text": "B.네 맞아요 3월 1일로 했는데 27일로 변경 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EC+3/SN+월/NNBC+1/SN+일/NNBC+로/JKB+했/VV+EP+는데/EC+27/SN+일/NNBC+로/JKB+변경/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.3월 27일로 변경하신다는거죠",
+            "norm_text": "A.3월 27일로 변경하신다는거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+3/SN+월/NNBC+27/SN+일/NNBC+로/JKB+변경/NNG+하/XSV+신다는/EP+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네네 맞습니다 그렇게 가능할까요",
+            "norm_text": "B.네네 맞습니다 그렇게 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네네/IC+맞/VV+습니다/EF+그렇게/MAG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.잠시만요 네 현재 좌석이 남아있어서 변경 해드렸어요",
+            "norm_text": "A.잠시만요 네 현재 좌석이 남아있어서 변경 해드렸어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+잠시/MAG+만요/NNP+네/XSN+현재/NNG+좌석/NNG+이/JKS+남/VV+아/EC+있/VX+어서/EC+변경/NNG+해/XSV+EC+드렸/VX+EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.아 정말 감사합니다 수고하세요",
+            "norm_text": "B.아 정말 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아/IC+정말/MAG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 그러면 27에 봽겠습니다 안녕히계세요",
+            "norm_text": "A.네 그러면 27에 봽겠습니다 안녕히계세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+그러면/MAJ+27/SN+에봽/UNKNOWN+겠/EP+습니다/EF+안녕히/MAG+계세요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

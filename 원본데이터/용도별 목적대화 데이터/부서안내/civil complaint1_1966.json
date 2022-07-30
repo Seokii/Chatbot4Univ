@@ -1,0 +1,383 @@
+{
+  "dataset": {
+    "identifier": 12648,
+    "name": "c1_20210913_0005_0724_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339059756/c1_20210913_0005_0724_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339059756/c1_20210913_0005_0724_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10444,
+      "filename": "c1_20210818_0014_0001_01.txt",
+      "title": "c1_20210818_0014_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 827,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 827,
+        "word_size": 188,
+        "text": "B.네 #@소속# #@이름#입니다\nA.네 안녕하세요 #@소속# #@이름#입니다\nA.주사님 한 가지 여쭙고자 전화드렸습니다\nA.현재 #@소속# 발전소에서 #@소속#에서 메시지를 받고 연락드렸어요\nA.팩스를 보내시려고 하는데 #@소속# 팩스번호 확인 해 주세요\nA.#@소속#에 팩스번호가 두 가지가 확인이 됩니다\nA.어느 팩스번호를 안내를 해드려야 될까요\nB.지금 #@소속# 관련이라고 하셨나요\nA.네 #@소속# 관련 팩스 번호를 원하십니다\nB.그것과 관련해서는 일반 팩스 이용하시면 안 될 것 같은데요\nA.그러십니까 그러시면 현재 민원님 통화 종료가 되었습니다\nA.제가 민원님 재연결이 되면 혹시 주사님께 다시 전화를 드려도 될까요\nB.아니 민방위통에다가 해보시면 좋을 것 같은데요\nA.그러면 을지 훈련 관련된 그 팩스번호를 저에게 안내를 해주실 수 있으실까요\nB.아니요 #@이름# 주사님 번호 알려드릴게요\nB.지금 자리에는 안 계시는데요\nB.그것은 제가 확인이 안되서 담당자분 연결 해 드려야 할 것 같아요\nB.#@이름# 주사님 핸드폰번호 조회는 되시죠 #@전번#\nA.현재 자리에 안 계시는 부분입니까\nB.예 지금 연습생들 훈련 때문에 연결이 어렵습니다\nB.지금 청 내에는 계시기는 하는데 사무실에는 안 계시거든요\nA.혹시 대표 팩스번호는 #@전번#이 맞습니까\nB.그렇죠 저희 사무실 팩스는 맞는데요\nB.그 것 관련해서는 이쪽으로 넘겨주시면 안 될 것 같아서요\nB.한 번 담당자분하고 통화 해보시고 넣어주시면 좋으실 것 같아서요\nA.을지 훈련 관련해서 현재 #@이름# 주무관님만 답변이 가능하신 부분이신가요\nB.그분이 담당자세요 그분한테 한 번 해보시면 되세요\nA.네 알겠습니다 주사님 확인감사합니다\nB.네 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "B.네 #@소속# #@이름#입니다",
+            "norm_text": "B.네 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.네 안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.네 안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.주사님 한 가지 여쭙고자 전화드렸습니다",
+            "norm_text": "A.주사님 한 가지 여쭙고자 전화드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주사/NNG+님/XSN+한/MM+가지/NNBC+여쭙/VV+고자/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.현재 #@소속# 발전소에서 #@소속#에서 메시지를 받고 연락드렸어요",
+            "norm_text": "A.현재 #@소속# 발전소에서 #@소속#에서 메시지를 받고 연락드렸어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+현재/MAG+#/SY+@/SY+소속/NNG+#/SY+발전소/NNG+에서/JKB+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+메시지/NNG+를/JKO+받/VV+고/EC+연락/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.팩스를 보내시려고 하는데 #@소속# 팩스번호 확인 해 주세요",
+            "norm_text": "A.팩스를 보내시려고 하는데 #@소속# 팩스번호 확인 해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+팩스/NNG+를/JKO+보내/VV+시/EP+려고/EC+하/VV+는데/EC+#/SY+@/SY+소속/NNG+#/SY+팩스/NNG+번호/NNG+확인/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.#@소속#에 팩스번호가 두 가지가 확인이 됩니다",
+            "norm_text": "A.#@소속#에 팩스번호가 두 가지가 확인이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에/JKB+팩스/NNG+번호/NNG+가/JKS+두/MM+가지/NNBC+가/JKS+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.어느 팩스번호를 안내를 해드려야 될까요",
+            "norm_text": "A.어느 팩스번호를 안내를 해드려야 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어느/MM+팩스/NNG+번호/NNG+를/JKO+안내/NNG+를/JKO+해/VV+EC+드려야/VX+EC+될까요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.지금 #@소속# 관련이라고 하셨나요",
+            "norm_text": "B.지금 #@소속# 관련이라고 하셨나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+지금/MAG+#/SY+@/SY+소속/NNG+#/SY+관련/NNG+이/VCP+라고/EC+하/VX+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 #@소속# 관련 팩스 번호를 원하십니다",
+            "norm_text": "A.네 #@소속# 관련 팩스 번호를 원하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+관련/NNG+팩스/NNG+번호/NNG+를/JKO+원하/VV+십니다/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그것과 관련해서는 일반 팩스 이용하시면 안 될 것 같은데요",
+            "norm_text": "B.그것과 관련해서는 일반 팩스 이용하시면 안 될 것 같은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그것/NP+과/JC+관련/NNG+해서/XSV+EC+는/JX+일반/NNG+팩스/NNG+이용/NNG+하/XSV+시/EP+면/EC+안/MAG+될/VV+ETM+것/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.그러십니까 그러시면 현재 민원님 통화 종료가 되었습니다",
+            "norm_text": "A.그러십니까 그러시면 현재 민원님 통화 종료가 되었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+십니까/EP+EC+그러/VV+시/EP+면/EC+현재/MAG+민원/NNG+님/XSN+통화/NNG+종료/NNG+가/JKS+되/VV+었/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.제가 민원님 재연결이 되면 혹시 주사님께 다시 전화를 드려도 될까요",
+            "norm_text": "A.제가 민원님 재연결이 되면 혹시 주사님께 다시 전화를 드려도 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+제/NP+가/JKS+민원/NNG+님/XSN+재/XPN+연결/NNG+이/JKS+되/VV+면/EC+혹시/MAG+주사/NNG+님/XSN+께/JKB+다시/MAG+전화/NNG+를/JKO+드려도/VV+EC+될까요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.아니 민방위통에다가 해보시면 좋을 것 같은데요",
+            "norm_text": "B.아니 민방위통에다가 해보시면 좋을 것 같은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아니/IC+민방/NNG+위통/NNG+에다가/JKB+해/VV+EC+보/VX+시/EP+면/EC+좋/VA+을/ETM+것/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.그러면 을지 훈련 관련된 그 팩스번호를 저에게 안내를 해주실 수 있으실까요",
+            "norm_text": "A.을지 훈련 관련된 그 팩스번호를 저에게 안내를 해주실 수 있으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+을/JKO+지훈련/NNG+관련/NNG+된/XSV+ETM+그/MM+팩스/NNG+번호/NNG+를/JKO+저/NP+에게/JKB+안내/NNG+를/JKO+해/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 15,
+            "text": "B.아니요 #@이름# 주사님 번호 알려드릴게요",
+            "norm_text": "B.아니요 #@이름# 주사님 번호 알려드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/VCN+요/EC+#/SY+@/SY+이름/NNG+#/SY+주사/NNG+님/XSN+번호/NNG+알려/VV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.지금 자리에는 안 계시는데요",
+            "norm_text": "B.지금 자리에는 안 계시는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+자리/NNG+에/JKB+는/JX+안/MAG+계시/VV+는데요/EC"
+          },
+          {
+            "id": 17,
+            "text": "B.그것은 제가 확인이 안되서 담당자분 연결 해 드려야 할 것 같아요",
+            "norm_text": "B.그것은 제가 확인이 안되서 담당자분 연결 해 드려야 할 것 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그것/NP+은/JX+제/NP+가/JKS+확인/NNG+이/JKS+안/MAG+되/VV+서/EC+담당/NNG+자분/NNG+연결/NNG+해드려야/XSV+EC+VX+EC+할/VX+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 18,
+            "text": "B.#@이름# 주사님 핸드폰번호 조회는 되시죠 #@전번#",
+            "norm_text": "B.#@이름# 주사님 핸드폰번호 조회는 되시죠 #@전번#",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+주사/NNG+님/XSN+핸드폰/NNG+번호/NNG+조회/NNG+는/JX+되/VV+시/EP+죠/EF+#/SY+@/SY+전번/NNG+#/SY"
+          },
+          {
+            "id": 19,
+            "text": "A.현재 자리에 안 계시는 부분입니까",
+            "norm_text": "A.현재 자리에 안 계시는 부분입니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+현재/MAG+자리/NNG+에/JKB+안/MAG+계시/VV+는/ETM+부분/NNG+입니까/VCP+EC"
+          },
+          {
+            "id": 20,
+            "text": "B.예 지금 연습생들 훈련 때문에 연결이 어렵습니다",
+            "norm_text": "B.예 지금 연습생들 훈련 때문에 연결이 어렵습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+지금/MAG+연습생/NNG+들/XSN+훈련/NNG+때문/NNB+에/JKB+연결/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 21,
+            "text": "B.지금 청 내에는 계시기는 하는데 사무실에는 안 계시거든요",
+            "norm_text": "B.지금 청 내에는 계시기는 하는데 사무실에는 안 계시거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+청/NNG+내/NNB+에/JKB+는/JX+계시/VX+기/ETN+는/JX+하/VV+는데/EC+사무실/NNG+에/JKB+는/JX+안/MAG+계시/VV+거든요/EF"
+          },
+          {
+            "id": 22,
+            "text": "A.혹시 대표 팩스번호는 #@전번#이 맞습니까",
+            "norm_text": "A.혹시 대표 팩스번호는 #@전번#이 맞습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+대표/NNG+팩스/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/JKS+맞/VV+습니까/EC"
+          },
+          {
+            "id": 23,
+            "text": "B.그렇죠 저희 사무실 팩스는 맞는데요",
+            "norm_text": "B.그렇죠 저희 사무실 팩스는 맞는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그렇/VA+죠/EF+저희/NP+사무실/NNG+팩스/NNG+는/JX+맞/VV+는데요/EC"
+          },
+          {
+            "id": 24,
+            "text": "B.그 것 관련해서는 이쪽으로 넘겨주시면 안 될 것 같아서요",
+            "norm_text": "B.그 것 관련해서는 이쪽으로 넘겨주시면 안 될 것 같아서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그것/NP+관련/NNG+해서/XSV+EC+는/JX+이쪽/NP+으로/JKB+넘겨/VV+EC+주/VX+시/EP+면/EC+안/MAG+될/VV+ETM+것/NNB+같/VA+아서요/EC"
+          },
+          {
+            "id": 25,
+            "text": "B.한 번 담당자분하고 통화 해보시고 넣어주시면 좋으실 것 같아서요",
+            "norm_text": "B.한 번 담당자분하고 통화 해보시고 넣어주시면 좋으실 것 같아서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+한번/MAG+담당/NNG+자분/NNG+하/XSV+고/EC+통화/NNG+해/XSV+EC+보/VX+시/EP+고/EC+넣/VV+어/EC+주/VX+시/EP+면/EC+좋/VA+으실/EP+ETM+것/NNB+같/VA+아서요/EC"
+          },
+          {
+            "id": 26,
+            "text": "A.을지 훈련 관련해서 현재 #@이름# 주무관님만 답변이 가능하신 부분이신가요",
+            "norm_text": "A.현재 #@이름# 주무관님만 답변이 가능하신 부분이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+현재/MAG+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+님/XSN+만/JX+답변/NNG+이/JKS+가능/NNG+하/XSV+신/EP+ETM+부분/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 27,
+            "text": "B.그분이 담당자세요 그분한테 한 번 해보시면 되세요",
+            "norm_text": "B.그분이 담당자세요 그분한테 한 번 해보시면 되세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그분/NP+이/JKS+담당자/NNG+세요/VCP+EP+EF+그분/NP+한테/JKB+한번/MAG+해/VV+EC+보/VX+시/EP+면/EC+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 28,
+            "text": "A.네 알겠습니다 주사님 확인감사합니다",
+            "norm_text": "A.네 알겠습니다 주사님 확인감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+주사/NNG+님/XSN+확인/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 29,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

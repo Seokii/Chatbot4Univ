@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 15622,
+    "name": "s1_20210914_0001_0736_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151218061594/s1_20210914_0001_0736_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151218061594/s1_20210914_0001_0736_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7730,
+      "filename": "s1_20210824_0008_0011_01.txt",
+      "title": "s1_20210824_0008_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 542,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 542,
+        "word_size": 144,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.저희 화면이 세로 줄이 떠서 기사님 좀 부르려고 하는데요\nB.수리비가 얼마나 나오는지 아시나요\nA.정확한 부분은 기사가 나가서 제품 점검을 해보고 말씀드려야 되실 거 같습니다 고객님\nB.근데 보통 줄이 한 쪽 갔을 때 대략 어느 정도 나오는지 알잖아요\nA.이게 줄이 생기는 원인 자체가 뭐 일반적인 영상 관련된 영상 부두 쪽에서 문제가 있을 수도 있구요\nA.증상이 심하게 되면 뭐 앞에 있는 액정 패널 쪽에서 문제가 있을 수도 있는데요\nA.일반적인 모듈을 교체를 해야 된다면 보통 십에서 십 오만 원 정도 내외는 예상을 하셔야 합니다\nB.네 꽤 비싼데 더 들어갈 수도 있는 거죠\nA.예 혹시라도 뭐 증상이 심해서 앞에 있는 액정 패널을 교체를 해야 된다면요\nA.적어도 한 삼사십 만원 정도 이상은 들어가실 수도 있습니다 고객님\nB.오래된 건데 이거 그래요 만약에 저희가 필요하면 다시 전화 드릴게요\nA.알겠습니다 상의해 보시고요 접수 필요하시면 연락 주십쇼 고객님\nB.예 차라리 새로 사는 게 낫겠네 수고하세요\nA.네 감사합니다 즐거운 하루 보내십쇼",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저희 화면이 세로 줄이 떠서 기사님 좀 부르려고 하는데요",
+            "norm_text": "B.저희 화면이 세로 줄이 떠서 기사님 좀 부르려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+화면/NNG+이/JKS+세로줄/NNG+이/JKS+떠서/VV+EC+기사/NNG+님/XSN+좀/MAG+부르/VV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.수리비가 얼마나 나오는지 아시나요",
+            "norm_text": "B.수리비가 얼마나 나오는지 아시나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+수리비/NNG+가/JKS+얼마나/MAG+나오/VV+는지/EC+아시나/NNP+요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.정확한 부분은 기사가 나가서 제품 점검을 해보고 말씀드려야 되실 거 같습니다 고객님",
+            "norm_text": "A.정확한 부분은 기사가 제품 점검을 해보고 말씀드려야 되실 거 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+정확/NNG+한/XSA+ETM+부분/NNG+은/JX+기사/NNG+가/JKS+나가/VV+서/EC+제품/NNG+점검/NNG+을/JKO+해/VV+EC+보/VX+고/EC+말씀/NNG+드려야/VV+EC+되/VV+실/EP+ETM+거/NNB+같/VA+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 5,
+            "text": "B.근데 보통 줄이 한 쪽 갔을 때 대략 어느 정도 나오는지 알잖아요",
+            "norm_text": "B.근데 보통 줄이 한 쪽 갔을 때 대략 어느 정도 나오는지 알잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+근데/MAJ+보통/NNG+줄/NNG+이/JKS+한/MM+쪽/NNBC+갔/VV+EP+을/ETM+때/NNG+대략/MAG+어느/MM+정도/NNG+나오/VV+는지/EC+알/VV+잖아요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.이게 줄이 생기는 원인 자체가 뭐 일반적인 영상 관련된 영상 부두 쪽에서 문제가 있을 수도 있구요",
+            "norm_text": "A.이게 줄이 생기는 원인이 일반적인 영상 문제가 있을 수도 있구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이게/NP+JKS+줄/NNG+이/JKS+생기/VV+는/ETM+원인/NNG+자체/NNG+가/JKS+뭐/IC+일반/NNG+적/XSN+인/VCP+ETM+영상/NNG+관련/NNG+된/XSV+ETM+영상/NNG+부두/NNG+쪽/NNB+에서/JKB+문제/NNG+가/JKS+있/VV+을/ETM+수/NNB+도/JX+있/VA+구요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.증상이 심하게 되면 뭐 앞에 있는 액정 패널 쪽에서 문제가 있을 수도 있는데요",
+            "norm_text": "A.증상이 심하게 되면 뭐 앞에 있는 액정 패널 쪽에서 문제가 있을 수도 있는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+증상/NNG+이/JKS+심하/VA+게/EC+되/VV+면/EC+뭐/IC+앞/NNG+에/JKB+있/VV+는/ETM+액정/NNG+패널/NNG+쪽/NNB+에서/JKB+문제/NNG+가/JKS+있/VV+을/ETM+수/NNB+도/JX+있/VA+는데요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.일반적인 모듈을 교체를 해야 된다면 보통 십에서 십 오만 원 정도 내외는 예상을 하셔야 합니다",
+            "norm_text": "A.모듈을 교체를 해야 된다면 보통 십 오만 원 정도 내외는 예상을 하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+일반/NNG+적/XSN+인/VCP+ETM+모듈/NNG+을/JKO+교체/NNG+를/JKO+해야/VV+EC+된다면/VV+EC+보통/NNG+십/NR+에서/JKB+십/NR+오만/NR+원/NNBC+정도/NNG+내외/NNG+는/JX+예상/NNG+을/JKO+하/VV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 꽤 비싼데 더 들어갈 수도 있는 거죠",
+            "norm_text": "B.네 꽤 비싼데 더 들어갈 수도 있는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+꽤/MAG+비싼데/VA+EC+더/MAG+들어갈/VV+ETM+수/NNB+도/JX+있/VX+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.예 혹시라도 뭐 증상이 심해서 앞에 있는 액정 패널을 교체를 해야 된다면요",
+            "norm_text": "A.예 혹시라도 뭐 증상이 심해서 앞에 있는 액정 패널을 교체를 해야 된다면요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+혹시/MAG+라도/JX+뭐/IC+증상/NNG+이/JKS+심해서/VA+EC+앞/NNG+에/JKB+있/VV+는/ETM+액정/NNG+패널/NNG+을/JKO+교체/NNG+를/JKO+해야/VV+EC+된다면/VV+EC+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.적어도 한 삼사십 만원 정도 이상은 들어가실 수도 있습니다 고객님",
+            "norm_text": "A.적어도 한 삼사십 만원 정도 이상은 들어가실 수도 있습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+적어도/MAG+한/MM+삼/NR+사/NR+십/NR+만/NR+원/NNBC+정도/NNG+이상/NNG+은/JX+들어가/VV+실/EP+ETM+수/NNB+도/JX+있/VA+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 12,
+            "text": "B.오래된 건데 이거 그래요 만약에 저희가 필요하면 다시 전화 드릴게요",
+            "norm_text": "B.오래된 건데 이거 그래요 만약에 저희가 필요하면 다시 전화 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+오래/MAG+된/VV+ETM+건데/NNB+VCP+EC+이거/NP+그래요/VV+EF+만약/NNG+에/JKB+저희/NP+가/JKS+필요/NNG+하/XSV+면/EC+다시/MAG+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.알겠습니다 상의해 보시고요 접수 필요하시면 연락 주십쇼 고객님",
+            "norm_text": "A.알겠습니다 상의해 보시고요 접수 필요하시면 연락 주십쇼 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+상의/NNG+해/XSV+EC+보/VX+시/EP+고요/EC+접수/NNG+필요/NNG+하/XSV+시/EP+면/EC+연락/NNG+주/VV+십쇼/EP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 14,
+            "text": "B.예 차라리 새로 사는 게 낫겠네 수고하세요",
+            "norm_text": "B.예 차라리 새로 사는 게 낫겠네 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+차라리/MAG+새로/MAG+사/VV+는/ETM+게/NNB+JKS+낫/VA+겠/EP+네/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.네 감사합니다 즐거운 하루 보내십쇼",
+            "norm_text": "A.네 감사합니다 즐거운 하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+즐거운/VA+ETM+하루/NNG+보내/VV+십쇼/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

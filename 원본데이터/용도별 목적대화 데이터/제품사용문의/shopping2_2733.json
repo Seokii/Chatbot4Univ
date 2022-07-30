@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 117975,
+    "name": "s2_20211105_0001_4326_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202111011106450664101/s2_20211105_0001_4326_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202111011106450664101/s2_20211105_0001_4326_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115450,
+      "filename": "s2_20211007_0024_0014_01.txt",
+      "title": "s2_20211007_0024_0014_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 255,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 53,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.반갑습니다 혹시 #@상품#하고 #@상품# 차이점이 무엇인가요\nA.#@상품#은 붙박이장처럼 벽까지의 빈 공간을 서라운딩이라는요\nA.자재를 통해 막는 것이 아니라 몸통 겉표면이 노출됩니다\nB.다른 특이사항은 없나요\nA.시공과 이동이 보다 자유로워 장 위치 변경 또는요\nA.이사시 편리하게 이동할 수 있습니다\nB.네 그렇군요 알려주셔서 감사합니다\nA.다른 문의 사항 있으시면 #@소속#으로 연락주세요\nB.알겠습니다 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.반갑습니다 혹시 #@상품#하고 #@상품# 차이점이 무엇인가요",
+            "norm_text": "B.반갑습니다 혹시 #@상품#하고 #@상품# 차이점이 무엇인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+반갑/VA+습니다/EF+혹시/MAG+#/SY+@/SY+상품/NNG+#/SY+하고/JKQ+#/SY+@/SY+상품/NNG+#/SY+차이점/NNG+이/JKS+무엇/NP+인가요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.#@상품#은 붙박이장처럼 벽까지의 빈 공간을 서라운딩이라는요",
+            "norm_text": "A.#@상품#은 붙박이장처럼 벽까지의 빈 공간을 서라운딩이라는요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+은/JX+붙박이장/NNG+처럼/JKB+벽/NNG+까지/JX+의/JKG+빈/VV+ETM+공간/NNG+을/JKO+서/VV+EC+라운/NNP+딩/NNG+이/VCP+라는/ETM+요/MM"
+          },
+          {
+            "id": 4,
+            "text": "A.자재를 통해 막는 것이 아니라 몸통 겉표면이 노출됩니다",
+            "norm_text": "A.자재를 통해 막는 것이 아니라 몸통 겉표면이 노출됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+자재/NNG+를/JKO+통해/VV+EC+막/VV+는/ETM+것/NNB+이/JKC+아니/VCN+라/EC+몸통/NNG+겉/NNG+표면/NNG+이/JKS+노출/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.다른 특이사항은 없나요",
+            "norm_text": "B.다른 특이사항은 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+다른/MM+특이/NNG+사항/NNG+은/JX+없/VA+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.시공과 이동이 보다 자유로워 장 위치 변경 또는요",
+            "norm_text": "A.시공과 이동이 보다 자유로워 장 위치 변경 또는요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+시공/NNG+과/JC+이동/NNG+이/JKS+보다/MAG+자유/NNG+로워/XSA+EC+장/NNG+위치/NNG+변경/NNG+또는/MAJ+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.이사시 편리하게 이동할 수 있습니다",
+            "norm_text": "A.이사시 편리하게 이동할 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이/MM+사시/NNG+편리/NNG+하/XSV+게/EC+이동/NNG+할/XSV+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 그렇군요 알려주셔서 감사합니다",
+            "norm_text": "B.네 그렇군요 알려주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+군요/EC+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.다른 문의 사항 있으시면 #@소속#으로 연락주세요",
+            "norm_text": "A.다른 문의 사항 있으시면 #@소속#으로 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 좋은 하루 보내세요",
+            "norm_text": "B.알겠습니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "dataset": {
+    "identifier": 84974,
+    "name": "KAKAO_1495_07_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/60/txt20211021110154064024/KAKAO_1495_07_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/60/txt20211021110154064024/KAKAO_1495_07_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 83525,
+      "filename": "KAKAO_1495_07.txt",
+      "title": "KAKAO_1495_07",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-21",
+      "size": 821,
+      "annotations": {
+        "subject": "가족",
+        "speaker_type": "다자간 대화",
+        "size": 821,
+        "word_size": 266,
+        "text": "1 : 나는 개인적으로 누나 가지고 싶은데 다들 어떻게 생각해?\n2 : 누나가 최고인 거 같아\n2 : 형보다도 누나!\n3 : 나는 이제 뭘 더 갖고 싶지 않아...\n3 : 지금 생기면 불편하기만 하지\n1 : 키키 막내 동생은 어때?\n1 : 막내 동생 귀여울 거 같은데\n2 : ㄴㄴ 내가 애기를 싫어해서 안돼\n3 : 누나는 뭐 그냥 친한 누나 만들어\n3 : 막내 동생도 학교 새내기 노리자\n1 : 한 20살 차이 나는 동생 어때...\n1 : 새내기는 막내 동생 느낌이 아니야\n2 : 안돼...\n2 : 애기 진짜 힘들 거 같은데 난...\n3 : 20살 차이면 이제는 동생 아니고 조카야...\n3 : 현실 자각하자\n1 : 아냐 아냐\n1 : 유튜브 보면 20살 차이 나는 동생들 있더라...\n2 : 키키 그게 특이 케이스니까 유튜브를 하지 않을까?\n3 : 왜 유튜브에 나오겠어 흔한 경우가 아닌 거지\n1 : 나도 그 특이 케이스가 되고 싶은 거지!\n2 : 그럼 20살 차이 나는 형은 어때?\n3 : 어휴... 특이 케이스는 피곤해...\n3 : 너가 다 키워야 할 거다\n1 : 키키 20살 차이 나는 형은 44살인데 형일까?...\n2 : 20살 차이 나는 동생도 그렇게 생각할걸...?\n3 : 와 내로남불 오지네...\n3 : 지는 형이고\n1 : 앜 키키 그렇게 생각하니까 그러네...\n1 : 20살 차이는 너무 심한 거 같다...\n2 : 와 45살한테 형이라고 할 수 있을까 진짜\n3 : 그걸 지금 깨닫냐...\n3 : 너 조카가 실제로 20살 차이잖아\n1 : 근데 또 애기 때부터 보면 45살도 형이라고 할 수 있지 않을까?\n2 : 17살 차이 나는 조카도 형이라고 못 부르던데 나한테\n3 : 그래\n3 : 그럼 너 마음대로 해 형인 걸로 해",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 나는 개인적으로 누나 가지고 싶은데 다들 어떻게 생각해?",
+            "norm_text": "나는 개인적으로 누나 가지고 싶은데 다들 어떻게 생각해?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+는/JX+개인/NNG+적/XSN+으로/JKB+누나/NNG+가지/VV+고/EC+싶/VX+은데/EC+다/MAG+들/XSN+어떻게/MAG+생각/NNG+해/XSV+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 누나가 최고인 거 같아",
+            "norm_text": "누나가 최고인 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "누나/NNG+가/JKS+최고/NNG+인/VCP+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 형보다도 누나!",
+            "norm_text": "형보다도 누나!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "형/NNG+보다/JKB+도/JX+누나/NNG"
+          },
+          {
+            "id": 4,
+            "text": "3 : 나는 이제 뭘 더 갖고 싶지 않아...",
+            "norm_text": "나는 이제 뭘 더 갖고 싶지 않아...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+이제/MAG+뭘/NP+JKO+더/MAG+갖/VV+고/EC+싶/VX+지/EC+않/VX+아/EF+./SY"
+          },
+          {
+            "id": 5,
+            "text": "3 : 지금 생기면 불편하기만 하지",
+            "norm_text": "지금 생기면 불편하기만 하지",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+생기/VV+면/EC+불편/NNG+하/XSV+기/ETN+만/JX+하/VV+지/EC"
+          },
+          {
+            "id": 6,
+            "text": "1 : 키키 막내 동생은 어때?",
+            "norm_text": "키키 막내 동생은 어때?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/NNG+막내/NNG+동생/NNG+은/JX+어때/VA+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 막내 동생 귀여울 거 같은데",
+            "norm_text": "막내 동생 귀여울 거 같은데",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "막내/NNG+동생/NNG+귀여울/VA+ETM+거/NNB+같/VA+은데/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : ㄴㄴ 내가 애기를 싫어해서 안돼",
+            "norm_text": "ㄴㄴ 내가 애기를 싫어해서 안돼",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "ㄴ/NNG+ㄴ/NNG+내/NP+가/JKS+애기/NNG+를/JKO+싫/VA+어/EC+해서/VV+EC+안/MAG+돼/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "3 : 누나는 뭐 그냥 친한 누나 만들어",
+            "norm_text": "누나는 뭐 그냥 친한 누나 만들어",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "누나/NNG+는/JX+뭐/IC+그냥/MAG+친한/VA+ETM+누나/NNG+만들/VV+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "3 : 막내 동생도 학교 새내기 노리자",
+            "norm_text": "막내 동생도 학교 새내기 노리자",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "막내/NNG+동생/NNG+도/JX+학교/NNG+새내기/NNG+노리자/NNP"
+          },
+          {
+            "id": 11,
+            "text": "1 : 한 20살 차이 나는 동생 어때...",
+            "norm_text": "한 20살 차이 나는 동생 어때...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "한/MM+20/SN+살/NNBC+차이/NNG+나/NP+는/JX+동생/NNG+어때/VA+EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "1 : 새내기는 막내 동생 느낌이 아니야",
+            "norm_text": "새내기는 막내 동생 느낌이 아니야",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "새내기/NNG+는/JX+막내/NNG+동생/NNG+느낌/NNG+이/JKC+아니/VCN+야/EC"
+          },
+          {
+            "id": 13,
+            "text": "2 : 안돼...",
+            "norm_text": "안돼...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "안/MAG+돼/VV+EF+./SY"
+          },
+          {
+            "id": 14,
+            "text": "2 : 애기 진짜 힘들 거 같은데 난...",
+            "norm_text": "애기 진짜 힘들 거 같은데 난...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "애기/NNG+진짜/MAG+힘들/VA+ETM+거/NNB+같/VA+은데/EC+난/NP+JX+./SY"
+          },
+          {
+            "id": 15,
+            "text": "3 : 20살 차이면 이제는 동생 아니고 조카야...",
+            "norm_text": "20살 차이면 이제는 동생 아니고 조카야...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "20/SN+살/NNBC+차이/VV+면/EC+이제/NNG+는/JX+동생/NNG+아니/VCN+고/EC+조카/NNG+야/VCP+EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "3 : 현실 자각하자",
+            "norm_text": "현실 자각하자",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "현실/NNG+자각/NNG+하/XSV+자/EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 아냐 아냐",
+            "norm_text": "아냐 아냐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 부정감정 표현하기",
+            "morpheme": "아냐/IC+아냐/VCN+EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 유튜브 보면 20살 차이 나는 동생들 있더라...",
+            "norm_text": "유튜브 보면 20살 차이 나는 동생들 있더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "유튜브/NNP+보/VV+면/EC+20/SN+살/NNBC+차이/NNG+나/NP+는/JX+동생/NNG+들/XSN+있/VA+더라/EF+./SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 키키 그게 특이 케이스니까 유튜브를 하지 않을까?",
+            "norm_text": "키키 그게 특이 케이스니까 유튜브를 하지 않을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그게/NP+JKS+특이/NNG+케이스/NNG+니까/VCP+EC+유튜브/NNP+를/JKO+하/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 20,
+            "text": "3 : 왜 유튜브에 나오겠어 흔한 경우가 아닌 거지",
+            "norm_text": "왜 유튜브에 나오겠어 흔한 경우가 아닌 거지",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "왜/MAG+유튜브/NNP+에/JKB+나오/VV+겠/EP+어/EC+흔한/VA+ETM+경우/NNG+가/JKC+아닌/VCN+ETM+거/NNB+지/VCP+EC"
+          },
+          {
+            "id": 21,
+            "text": "1 : 나도 그 특이 케이스가 되고 싶은 거지!",
+            "norm_text": "나도 그 특이 케이스가 되고 싶은 거지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+그/MM+특이/NNG+케이스/NNG+가/JKS+되/VV+고/EC+싶/VX+은/ETM+거/NNB+지/VCP+EF"
+          },
+          {
+            "id": 22,
+            "text": "2 : 그럼 20살 차이 나는 형은 어때?",
+            "norm_text": "그럼 20살 차이 나는 형은 어때?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그럼/MAJ+20/SN+살/NNBC+차이/NNG+나/NP+는/JX+형/NNG+은/JX+어때/VA+EF"
+          },
+          {
+            "id": 23,
+            "text": "3 : 어휴... 특이 케이스는 피곤해...",
+            "norm_text": "어휴... 특이 케이스는 피곤해...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "어휴/IC+./SY+특이/NNG+케이스/NNG+는/JX+피곤/NNG+해/XSV+EF+./SY"
+          },
+          {
+            "id": 24,
+            "text": "3 : 너가 다 키워야 할 거다",
+            "norm_text": "너가 다 키워야 할 거다",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+가/JKS+다/MAG+키워야/VV+EC+할/VX+ETM+거/NNB+다/VCP+EC"
+          },
+          {
+            "id": 25,
+            "text": "1 : 키키 20살 차이 나는 형은 44살인데 형일까?...",
+            "norm_text": "키키 20살 차이 나는 형은 44살인데 형일까?...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "키/NNG+키/XSV+ETN+20/SN+살/NNBC+차이/NNG+나/NP+는/JX+형/NNG+은/JX+44/SN+살/NNBC+인데/VCP+EC+형/NNG+일까/VCP+EF+./SY+./SY"
+          },
+          {
+            "id": 26,
+            "text": "2 : 20살 차이 나는 동생도 그렇게 생각할걸...?",
+            "norm_text": "20살 차이 나는 동생도 그렇게 생각할걸...?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "20/SN+살/NNBC+차이/NNG+나/NP+는/JX+동생/NNG+도/JX+그렇/VA+게/EC+생각/NNG+할걸/XSV+EF+./SY+./SY"
+          },
+          {
+            "id": 27,
+            "text": "3 : 와 내로남불 오지네...",
+            "norm_text": "와 내로남불 오지네...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와내/NNG+로/JKB+남불/NNP+오지/VA+네/EF+./SY"
+          },
+          {
+            "id": 28,
+            "text": "3 : 지는 형이고",
+            "norm_text": "지는 형이고",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지/NP+는/JX+형/NNG+이/VCP+고/EC"
+          },
+          {
+            "id": 29,
+            "text": "1 : 앜 키키 그렇게 생각하니까 그러네...",
+            "norm_text": "앜 키키 그렇게 생각하니까 그러네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "앜키/UNKNOWN+키/NNG+그렇게/MAG+생각/NNG+하/XSV+니까/EC+그러/VV+네/EF+./SY"
+          },
+          {
+            "id": 30,
+            "text": "1 : 20살 차이는 너무 심한 거 같다...",
+            "norm_text": "20살 차이는 너무 심한 거 같다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "20/SN+살/NNBC+차이/NNG+는/JX+너무/MAG+심한/VA+ETM+거/NNB+같/VA+다/EF+./SY"
+          },
+          {
+            "id": 31,
+            "text": "2 : 와 45살한테 형이라고 할 수 있을까 진짜",
+            "norm_text": "와 45살한테 형이라고 할 수 있을까 진짜",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "와/VV+EC+45/SN+살/NNBC+한테/JKB+형/NNG+이/VCP+라고/EC+할/VX+ETM+수/NNB+있/VV+을까/EF+진짜/MAG"
+          },
+          {
+            "id": 32,
+            "text": "3 : 그걸 지금 깨닫냐...",
+            "norm_text": "그걸 지금 깨닫냐...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그걸/NP+JKO+지금/MAG+깨닫/VV+냐/EF+./SY"
+          },
+          {
+            "id": 33,
+            "text": "3 : 너 조카가 실제로 20살 차이잖아",
+            "norm_text": "너 조카가 실제로 20살 차이잖아",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+조카/NNG+가/JKS+실제로/MAG+20/SN+살/NNBC+차이/NNG+잖아/VCP+EC+VX+EC"
+          },
+          {
+            "id": 34,
+            "text": "1 : 근데 또 애기 때부터 보면 45살도 형이라고 할 수 있지 않을까?",
+            "norm_text": "근데 또 애기 때부터 보면 45살도 형이라고 할 수 있지 않을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "근데/MAJ+또애기/NNG+때/NNG+부터/JX+보/VV+면/EC+45/SN+살/NNBC+도/JX+형/NNG+이/VCP+라고/EC+할/VX+ETM+수/NNB+있/VV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 35,
+            "text": "2 : 17살 차이 나는 조카도 형이라고 못 부르던데 나한테",
+            "norm_text": "17살 차이 나는 조카도 형이라고 못 부르던데 나한테",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "17/SN+살/NNBC+차이/NNG+나/NP+는/JX+조카/NNG+도/JX+형/NNG+이/VCP+라고/EC+못/MAG+부르/VV+던데/EC+나/NP+한테/JKB"
+          },
+          {
+            "id": 36,
+            "text": "3 : 그래",
+            "norm_text": "그래",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 긍정감정 표현하기",
+            "morpheme": "그래/VA+EC"
+          },
+          {
+            "id": 37,
+            "text": "3 : 그럼 너 마음대로 해 형인 걸로 해",
+            "norm_text": "그럼 너 마음대로 해 형인 걸로 해",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그럼/MAJ+너/NP+마음대로/MAG+해/VV+EC+형/NNG+인/VCP+ETM+걸로/NNB+JKB+해/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

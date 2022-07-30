@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 14049,
+    "name": "s4_20210914_0011_1292_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151447061092/s4_20210914_0011_1292_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151447061092/s4_20210914_0011_1292_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12956,
+      "filename": "s4_20210827_0007_0010_01.txt",
+      "title": "s4_20210827_0007_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 501,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 501,
+        "word_size": 122,
+        "text": "A.안녕하세요 #@이름# 상담원 입니다\nB.네 그 배송 때문에 전화드렸는데요\nA.그러세요 고객님 성함 우선 어떻게 되실까요\nB.네 이름이 #@이름# 요\nA.잠시만요 고객님 제가 조회 한번 해보도록 하겠습니다\nA.네 고객님 지금 #@상품# 주문하신 거 맞으실까요\nB.네 그거 맞아요\nA.네 오늘 출고 되셔가지고 아마 빠르면 내일 받으실 수 있으실 거고요\nA.만약에 택배사 늦으시면은 월요일 정도 받으실 예정이세요\nA.그 추석 연휴 때문에 업체에서도 물량이 폭주해서 지연되신 거 같고요\nB.그 메시지 보니까 시월 이십육 일로 배송됩니다로 이렇게 뭐 써놨던데요\nA.업체에서 일괄적으로 주문이 들어오면 가송장에서 송장 번호가 배분이 돼서 아마 그러실 거고요\nA.순차적으로 지금 출고가 되실 예정이어서요 조그만 기다려주시면 되세요\nB.근데 너무 오래 걸리는 거 아닙니까 지금 이 주째예요 이 주째\nA.너무 죄송합니다 고객님\nB.오늘 출고가 된다고요\nA.네 고객님 오늘 출고가 되십니다\nB.네 알겠습니다 수고하세요\nA.네 알겠습니다 고객님",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@이름# 상담원 입니다",
+            "norm_text": "A.안녕하세요 #@이름# 상담원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 그 배송 때문에 전화드렸는데요",
+            "norm_text": "B.네 그 배송 때문에 전화드렸는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그/MM+배송/NNG+때문/NNB+에/JKB+전화/NNG+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.그러세요 고객님 성함 우선 어떻게 되실까요",
+            "norm_text": "A.그러세요 고객님 성함 우선 어떻게 되실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+세요/EP+EF+VCP+고/EC+객님/NNG+성함/NNG+우선/MAG+어떻게/MAG+되/VV+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 이름이 #@이름# 요",
+            "norm_text": "B.네 이름이 #@이름# 요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+이름/NNG+이/JKS+#/SY+@/SY+이름/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.잠시만요 고객님 제가 조회 한번 해보도록 하겠습니다",
+            "norm_text": "A.잠시만요 고객님 제가 조회 한번 해보도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+잠시/MAG+만요/NNP+고객/NNG+님/XSN+제/NP+가/JKS+조회/NNG+한/MM+번/NNBC+해/VV+EC+보/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 고객님 지금 #@상품# 주문하신 거 맞으실까요",
+            "norm_text": "A.네 고객님 지금 #@상품# 주문하신 거 맞으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+지금/MAG+#/SY+@/SY+상품/NNG+#/SY+주문/NNG+하/XSV+신/EP+ETM+거/NNB+맞/VV+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 7,
+            "text": "B.네 그거 맞아요",
+            "norm_text": "B.네 그거 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그거/NP+맞/VV+아요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 오늘 출고 되셔가지고 아마 빠르면 내일 받으실 수 있으실 거고요",
+            "norm_text": "A.네 오늘 출고 되셔가지고 아마 빠르면 내일 받으실 수 있으실 거고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+오늘/MAG+출고/NNG+되/XSV+셔/EP+EC+가지/VX+고/EC+아마/MAG+빠르/VA+면/EC+내일/MAG+받/VV+으실/EP+ETM+수/NNB+있/VV+으실/EP+ETM+거/NNB+고요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.만약에 택배사 늦으시면은 월요일 정도 받으실 예정이세요",
+            "norm_text": "A.만약에 택배사 늦으시면은 월요일 정도 받으실 예정이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+만약/NNG+에/JKB+택배/NNG+사/NR+늦/VA+으시/EP+면은/EC+월요일/NNG+정도/NNG+받/VV+으실/EP+ETM+예정/NNG+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.그 추석 연휴 때문에 업체에서도 물량이 폭주해서 지연되신 거 같고요",
+            "norm_text": "A.그 추석 연휴 때문에 업체에서도 물량이 폭주해서 지연되신 거 같고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+추석/NNG+연휴/NNG+때문/NNB+에/JKB+업체/NNG+에서/JKB+도/JX+물량/NNG+이/JKS+폭주/NNG+해서/XSV+EC+지연/NNG+되/XSV+신/EP+ETM+거/NNB+같/VA+고요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그 메시지 보니까 시월 이십육 일로 배송됩니다로 이렇게 뭐 써놨던데요",
+            "norm_text": "B.그 메시지 보니까 시월 이십육 일로 배송됩니다로 이렇게 뭐 써놨던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그/MM+메시지/NNG+보/VV+니까/EC+시월/NNG+이/JKS+십/NR+육/NR+일/NNBC+로/JKB+배송/NNG+됩니다/XSV+EF+로/JKB+이렇게/MAG+뭐/IC+써놨/VV+EC+VX+EP+던데요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.업체에서 일괄적으로 주문이 들어오면 가송장에서 송장 번호가 배분이 돼서 아마 그러실 거고요",
+            "norm_text": "A.업체에서 일괄적으로 주문이 들어오면 가송장에서 송장 번호가 배분이 돼서 아마 그러실 거고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+업체/NNG+에서/JKB+일괄/NNG+적/XSN+으로/JKB+주문/NNG+이/JKS+들어오/VV+면/EC+가송장/NNG+에서/JKB+송장/NNG+번호/NNG+가/JKS+배분/NNG+이/JKS+돼서/VV+EC+아마/MAG+그러실/VA+EP+ETM+거/NNB+고요/NNG"
+          },
+          {
+            "id": 13,
+            "text": "A.순차적으로 지금 출고가 되실 예정이어서요 조그만 기다려주시면 되세요",
+            "norm_text": "A.순차적으로 지금 출고가 되실 예정이어서요 조그만 기다려주시면 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+순차/NNG+적/XSN+으로/JKB+지금/MAG+출고가/NNG+되/XSV+실/EP+ETM+예정/NNG+이/VCP+어서/EC+요조/NNG+그만/MAG+기다려/VV+EC+주/VX+시/EP+면/EC+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.근데 너무 오래 걸리는 거 아닙니까 지금 이 주째예요 이 주째",
+            "norm_text": "B.근데 너무 오래 걸리는 거 아닙니까 지금 이 주째예요 이 주째",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+근데/MAJ+너무/MAG+오래/MAG+걸리/VV+는/ETM+거/NNB+아닙니까/VCN+EF+지금/MAG+이주/NNG+째/XSN+예요/VCP+EF+이/NR+주/NNBC+째/XSN"
+          },
+          {
+            "id": 15,
+            "text": "A.너무 죄송합니다 고객님",
+            "norm_text": "A.너무 죄송합니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+너무/MAG+죄송/XR+합니다/XSA+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 16,
+            "text": "B.오늘 출고가 된다고요",
+            "norm_text": "B.오늘 출고가 된다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+오늘/MAG+출고가/NNG+된다/XSV+EC+고요/NNG"
+          },
+          {
+            "id": 17,
+            "text": "A.네 고객님 오늘 출고가 되십니다",
+            "norm_text": "A.네 고객님 오늘 출고가 되십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+오늘/MAG+출고가/NNG+되/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 18,
+            "text": "B.네 알겠습니다 수고하세요",
+            "norm_text": "B.네 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 19,
+            "text": "A.네 알겠습니다 고객님",
+            "norm_text": "A.네 알겠습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+고객/NNG+님/XSN"
+          }
+        ]
+      }
+    }
+  ]
+}

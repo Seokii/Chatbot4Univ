@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 141328,
+    "name": "t1_20211115_0002_0496_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357150852102/t1_20211115_0002_0496_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357150852102/t1_20211115_0002_0496_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148122,
+      "filename": "t1_0068_0048_02.txt",
+      "title": "t1_0068_0048_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 321,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 321,
+        "word_size": 70,
+        "text": "A.안녕하십니까 #@소속# 고객센터 #@이름# 입니다\nB.12일날 룸 예약 가능 할까요\nA.12일 화요일 잔여 객실 예약 가능 하십니다\nB.그럼 트윈베드가 있는 룸이 남아 있나요\nA.더블베드와 슈퍼싱글베드가 있는 로얄스위트 트윈룸이 있습니다\nB.그럼 #@이름# 이름으로 예약해 주시겠어요\nA.네 고객님 연락처도 말씀해 주세요\nB.#@전번# 번 이에요 체크인은 몇시인가요\nA.오후 3시부터 체크인 가능하십니다\nB.알겠습니다 주차도 가능 한가요\nA.발렛파킹 가능 하시고요 외부주차장 이용 가능 하십니다\nB.그래요 잘 알겠습니다 수고하세요\nA.#@소속# 고객센터 #@이름# 이었습니다 좋은 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 고객센터 #@이름# 입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 고객센터 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.12일날 룸 예약 가능 할까요",
+            "norm_text": "B.12일날 룸 예약 가능 할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+12/SN+일/NNBC+날/NNG+룸/NNG+예약/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.12일 화요일 잔여 객실 예약 가능 하십니다",
+            "norm_text": "A.12일 화요일 잔여 객실 예약 가능 하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+12/SN+일/NNBC+화요일/NNG+잔/XSN+VCP+ETM+여객실/NNG+예약/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그럼 트윈베드가 있는 룸이 남아 있나요",
+            "norm_text": "B.그럼 트윈베드가 있는 룸이 남아 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+트윈/NNP+베드/NNG+가/JKS+있/VA+는/ETM+룸/NNG+이/JKS+남/VV+아/EC+있/VX+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.더블베드와 슈퍼싱글베드가 있는 로얄스위트 트윈룸이 있습니다",
+            "norm_text": "A.더블베드와 슈퍼싱글베드가 있는 로얄스위트 트윈룸이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+더블베드/NNG+와/JC+슈퍼/NNG+싱글베드/NNG+가/JKS+있/VA+는/ETM+로얄/NNP+스위트/NNP+트윈/NNP+룸/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 #@이름# 이름으로 예약해 주시겠어요",
+            "norm_text": "B.그럼 #@이름# 이름으로 예약해 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+#/SY+@/SY+이름/NNG+#/SY+이름/NNG+으로/JKB+예약/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 연락처도 말씀해 주세요",
+            "norm_text": "A.네 고객님 연락처도 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+연락처/NNG+도/JX+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.#@전번# 번 이에요 체크인은 몇시인가요",
+            "norm_text": "B.#@전번# 번 이에요 체크인은 몇시인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+번이/NNG+에/JKB+요/MM+체크인/NNG+은/JX+몇/MM+시/NNBC+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.오후 3시부터 체크인 가능하십니다",
+            "norm_text": "A.오후 3시부터 체크인 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+오후/NNG+3/SN+시/NNBC+부터/JX+체크인/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 주차도 가능 한가요",
+            "norm_text": "B.알겠습니다 주차도 가능 한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+주차/NNG+도/JX+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "A.발렛파킹 가능 하시고요 외부주차장 이용 가능 하십니다",
+            "norm_text": "A.발렛파킹 가능 하시고요 외부주차장 이용 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+발렛/NNP+파킹/NNP+가능/NNG+하/XSV+시/EP+고요/EC+외부/NNG+주차장/NNG+이용/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그래요 잘 알겠습니다 수고하세요",
+            "norm_text": "B.그래요 잘 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그래요/VV+EF+잘/MAG+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.#@소속# 고객센터 #@이름# 이었습니다 좋은 하루 되세요",
+            "norm_text": "A.#@소속# 고객센터 #@이름# 이었습니다 좋은 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

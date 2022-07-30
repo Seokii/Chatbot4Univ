@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 12163,
+    "name": "c1_20210913_0005_0650_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340010953/c1_20210913_0005_0650_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340010953/c1_20210913_0005_0650_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10519,
+      "filename": "c1_20210819_0012_0025_01.txt",
+      "title": "c1_20210819_0012_0025_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 464,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 464,
+        "word_size": 106,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요\nB.예 여기 서울에 있는 법무사 사무실입니다\nA.네 무슨 문의이십니까\nB.#@소속# 하고 환매 특약 등재가 되어 있어서 이걸 말소 좀 하려고 합니다\nA.환매특약 말소 말씀 이십니까\nB.네 어느 부서로 연결을 해야 될까요\nA.네 등기부 등본상 #@소속#로 되어있는 환매특약이 맞으십니까\nB.네 등본상 이쪽이에요\nA.혹시 계약서상에 부서 확인은 어려우십니까\nB.네 부서는 없고요 등기부 보면 그냥 환매권자가 여기로만 나와 있습니다\nA.지금 계약서는 없으신가요\nB.네 계약서는 없어요\nA.말씀하신 부분 #@소속# 직원에게 확인해 보았습니다\nA.본래는 계약서상에 부서가 명시되어 있습니다.\nB.부서가 명시되어있지 않아요\nA.네 없으시면 환매 특약을 한 해당 지역 읍면동 주민 센터로 문의 부탁드립니다\nB.네 해당 지역에 문의 하라는 거죠 알겠습니다 수고하세요\nA.네 감사합니다 #@소속# #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 여기 서울에 있는 법무사 사무실입니다",
+            "norm_text": "B.예 여기 서울에 있는 법무사 사무실입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+여기/NP+서울/NNP+에/JKB+있/VV+는/ETM+법무사/NNG+사무실/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 무슨 문의이십니까",
+            "norm_text": "A.네 무슨 문의이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무슨/MM+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속# 하고 환매 특약 등재가 되어 있어서 이걸 말소 좀 하려고 합니다",
+            "norm_text": "B.#@소속# 하고 환매 특약 등재가 되어 있어서 말소 하려고 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+하고/JKQ+환매/NNG+특약/NNG+등/NNB+재가/NNG+되/XSV+어/EC+있/VX+어서/EC+말소/NNG+하/XSV+려고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.환매특약 말소 말씀 이십니까",
+            "norm_text": "A.환매특약 말소 말씀 이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+환매/NNG+특약/NNG+말소/NNG+말씀/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 어느 부서로 연결을 해야 될까요",
+            "norm_text": "B.네 어느 부서로 연결을 해야 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+어느/MM+부서/NNG+로/JKB+연결/NNG+을/JKO+해야/VV+EC+될까요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 등기부 등본상 #@소속#로 되어있는 환매특약이 맞으십니까",
+            "norm_text": "A.네 등기부 등본상 #@소속#로 되어있는 환매특약이 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+등기부/NNG+등/NNB+본상/NNG+#/SY+@/SY+소속/NNG+#/SY+로/JKB+되/VV+어/EC+있/VX+는/ETM+환매/NNG+특약/NNG+이/JKS+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 등본상 이쪽이에요",
+            "norm_text": "B.네 등본상 이쪽이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+등본/NNG+상이/NNG+쪽/NNB+이/VCP+에요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.혹시 계약서상에 부서 확인은 어려우십니까",
+            "norm_text": "A.혹시 계약서상에 부서 확인은 어려우십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+계약서/NNG+상/XSN+에/JKB+부서/NNG+확인/NNG+은/JX+어려우/VA+십니까/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 부서는 없고요 등기부 보면 그냥 환매권자가 여기로만 나와 있습니다",
+            "norm_text": "B.부서는 없고요 등기부 보면 그냥 환매권자가 여기로만 나와 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+부서/NNG+는/JX+없/VA+고요/EC+등기부/NNG+보/VV+면/EC+그냥/MAG+환매/NNG+권/XSN+자/XSN+가/JKS+여기/NP+로/JKB+만/JX+나와/VV+EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.지금 계약서는 없으신가요",
+            "norm_text": "A.지금 계약서는 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+계약서/NNG+는/JX+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 12,
+            "text": "B.네 계약서는 없어요",
+            "norm_text": "B.네 계약서는 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+계약서/NNG+는/JX+없/VA+어요/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.말씀하신 부분 #@소속# 직원에게 확인해 보았습니다",
+            "norm_text": "A.말씀하신 부분 #@소속# 직원에게 확인해 보았습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+말씀/NNG+하/XSV+신/EP+ETM+부분/NNG+#/SY+@/SY+소속/NNG+#/SY+직원/NNG+에게/JKB+확인/NNG+해/XSV+EC+보/VX+았/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.본래는 계약서상에 부서가 명시되어 있습니다.",
+            "norm_text": "A.본래는 계약서상에 부서가 명시되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+본래/NNG+는/JX+계약서/NNG+상/XSN+에/JKB+부서/NNG+가/JKS+명시/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.부서가 명시되어있지 않아요",
+            "norm_text": "B.부서가 명시되어있지 않아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+부서/NNG+가/JKS+명시/NNG+되/XSV+어/EC+있/VX+지/EC+않/VX+아요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 없으시면 환매 특약을 한 해당 지역 읍면동 주민 센터로 문의 부탁드립니다",
+            "norm_text": "A.네 없으시면 환매 특약을 한 해당 지역 읍면동 주민 센터로 문의 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+없/VA+으시/EP+면/EC+환매/NNG+특약/NNG+을/JKO+한/VV+ETM+해당/NNG+지역/NNG+읍/NNG+면/VCP+EC+동/MM+주민/NNG+센터/NNG+로/JKB+문/NNG+의/JKG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.네 해당 지역에 문의 하라는 거죠 알겠습니다 수고하세요",
+            "norm_text": "B.네 해당 지역에 문의 하라는 거죠 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+해당/NNG+지역/NNG+에/JKB+문의/NNG+하/XSV+라는/ETM+거/NNB+죠/VCP+EF+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 18,
+            "text": "A.네 감사합니다 #@소속# #@이름#였습니다",
+            "norm_text": "A.네 감사합니다 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 13421,
+    "name": "c2_20210914_0012_0210_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151533005371/c2_20210914_0012_0210_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151533005371/c2_20210914_0012_0210_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 15643,
+      "filename": "c4_20210819_0010_0012_01.txt",
+      "title": "c4_20210819_0010_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 422,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 422,
+        "word_size": 96,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요\nB.방금 전화했었는데 군산 시내 인근 우리은행 가려하는데 어디가 있을까요\nA.군산 시내 우리은행 위치 확인 후 말씀드리겠습니다\nA.확인 결과 나운동과 중앙로 이가 그리고 소용동 세 지점으로 확인됩니다\nA.혹시 어느 곳으로 안내 해드리면 될까요\nB.그냥 거기 세 군데 다 문자로 넣어줄 수 있어요\nA.네 문자 전송시 개인정보 활용동의 해주시면 전송 가능합니다\nB.네 개인정보 동의하구요 #@전번#입니다\nA.그러시면 전화주신 번호로 문자발송 하겠습니다\nB.네 그 세 군데 다 문자로 좀 남겨주세요\nA.세 지점의 전화번호와 주소를 모두 안내해드리겠습니다\nB.네 문자로 부탁드릴게요\nA.문자 남겨드렸습니다 다른 문의사항 있으십니까\nB.아니요 다른 문의사항은 없습니다\nA.네 행복 가득한 하루되세요 #@소속# #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.방금 전화했었는데 군산 시내 인근 우리은행 가려하는데 어디가 있을까요",
+            "norm_text": "B.방금 전화했었는데 군산 시내 인근 우리은행 가려하는데 어디가 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+방금/MAG+전화/NNG+했었/XSV+EP+는데/EC+군산/NNP+시내/NNG+인근/NNG+우리/NP+은행/NNG+가려/NNG+하/XSV+는데/EC+어디/NP+가/JKS+있/VA+을까요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.군산 시내 우리은행 위치 확인 후 말씀드리겠습니다",
+            "norm_text": "A.군산 시내 우리은행 위치 확인 후 말씀드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+군산시/NNP+내우리/NNP+은행/NNG+위치/NNG+확인/NNG+후/NNG+말씀/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.확인 결과 나운동과 중앙로 이가 그리고 소용동 세 지점으로 확인됩니다",
+            "norm_text": "A.확인 결과 나운동과 중앙로 이가 그리고 소용동 세 지점으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+확인/NNG+결과/NNG+나/JC+운동/NNG+과/JC+중앙/NNG+로/JKB+이/NP+가/JKS+그리고/MAJ+소용/NNG+동세/NNG+지점/NNG+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.혹시 어느 곳으로 안내 해드리면 될까요",
+            "norm_text": "A.혹시 어느 곳으로 안내 해드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+어느/MM+곳/NNG+으로/JKB+안내/NNG+해/XSV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그냥 거기 세 군데 다 문자로 넣어줄 수 있어요",
+            "norm_text": "B.그냥 거기 세 군데 다 문자로 넣어줄 수 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그냥/MAG+거기/NP+세/MM+군데/NNBC+다/MAG+문자/NNG+로/JKB+넣/VV+어/EC+줄/VX+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 문자 전송시 개인정보 활용동의 해주시면 전송 가능합니다",
+            "norm_text": "A.네 문자 전송시 개인정보 활용동의 해주시면 전송 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+문자/NNG+전송/NNG+시/NNB+개인/NNG+정보/NNG+활용/NNG+동의/NNG+해/XSV+EC+주/VX+시/EP+면/EC+전송/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 개인정보 동의하구요 #@전번#입니다",
+            "norm_text": "B.네 개인정보 동의하구요 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/MM+개/NNBC+인/VCP+ETM+정보/NNG+동의/NNG+하구/JC+요/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그러시면 전화주신 번호로 문자발송 하겠습니다",
+            "norm_text": "A.그러시면 전화주신 번호로 문자발송 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+전화/NNG+주/VV+신/EP+ETM+번호/NNG+로/JKB+문자/NNG+발송/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 그 세 군데 다 문자로 좀 남겨주세요",
+            "norm_text": "B.네 그 세 군데 다 문자로 좀 남겨주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+그/MM+세/MM+군데/NNBC+다/MAG+문자/NNG+로/JKB+좀/MAG+남겨/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.세 지점의 전화번호와 주소를 모두 안내해드리겠습니다",
+            "norm_text": "A.세 지점의 전화번호와 주소를 모두 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+세/MM+지점/NNG+의/JKG+전화/NNG+번호/NNG+와/JC+주소/NNG+를/JKO+모두/MAG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 문자로 부탁드릴게요",
+            "norm_text": "B.네 문자로 부탁드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+문자/NNG+로/JKB+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.문자 남겨드렸습니다 다른 문의사항 있으십니까",
+            "norm_text": "A.문자 남겨드렸습니다 다른 문의사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+문자/NNG+남겨/VV+EC+드렸/VX+EP+습니다/EF+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.아니요 다른 문의사항은 없습니다",
+            "norm_text": "B.아니요 다른 문의사항은 없습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.네 행복 가득한 하루되세요 #@소속# #@이름#였습니다",
+            "norm_text": "A.네 행복 가득한 하루되세요 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+행복/NNG+가득/MAG+한/XSA+ETM+하루/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

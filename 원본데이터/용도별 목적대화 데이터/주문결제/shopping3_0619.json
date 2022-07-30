@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 11165,
+    "name": "s3_20210913_0010_0760_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416055563/s3_20210913_0010_0760_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416055563/s3_20210913_0010_0760_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11873,
+      "filename": "s3_20210826_0020_0006_01.txt",
+      "title": "s3_20210826_0020_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 462,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 462,
+        "word_size": 105,
+        "text": "A.상담사 #@이름# 입니다 무엇을 도와드릴까요\nB.제가 정수기 렌탈을 신청했거든요\nA.신규로 신청하셨단 말씀이신가요 고객님\nB.제가 신규로 신청했어요\nA.그럼 혹시 어느 어떤 문의건으로 연락을 주신거세요\nB.#@소속#카드 렌탈 신청을 하면 매 월 만원씩 포인트로 할인받는다던데\nB.카드사에 전화를 해도 안 받아서요 어떻게 해야 되나요\nA.혹시 고객님 #@소속#카드 발급처 #@전번#번으로 연락 하신거 맞으세요\nB.맞아요 번호도 몇 번이나 확인 해봤어요\nA.그 쪽 전담부서가 통화량이 많아서 연결이 좀 지연이 되는거 같습니다\nB.전화한 지가 좀 됐거든요\nB.저한테 전화해달라는 메시지도 전달이 된 걸로 아는데 연락이 오질 않네요\nA.많이 불편하셨겠네요 고객님\nB.이미 정수기는 설치하러 올 예정이라고 연락이 왔는데\nB.만약 설치하러 와서 결제 문제가 생기면 어떡해요\nA.그러시면 이 부분 정확히 확인해보고 안내 드리겠습니다.\nA.잠시만 기다려주세요 고객님",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.상담사 #@이름# 입니다 무엇을 도와드릴까요",
+            "norm_text": "A.상담사 #@이름# 입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 정수기 렌탈을 신청했거든요",
+            "norm_text": "B.제가 정수기 렌탈을 신청했거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+정수기/NNP+렌탈/NNP+을/JKO+신청/NNG+했/XSV+EP+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.신규로 신청하셨단 말씀이신가요 고객님",
+            "norm_text": "A.신규로 신청하셨단 말씀이신가요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+신규/NNG+로/JKB+신청/NNG+하/XSV+셨/EP+EP+단/ETM+말씀/NNG+이/VCP+신가요/EP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 신규로 신청했어요",
+            "norm_text": "B.제가 신규로 신청했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+신규/NNG+로/JKB+신청/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.그럼 혹시 어느 어떤 문의건으로 연락을 주신거세요",
+            "norm_text": "A.그럼 혹시 어느 어떤 문의건으로 연락을 주신거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+혹시/MAG+어느/MM+어떤/MM+문/NNG+의건/NNG+으로/JKB+연락/NNG+을/JKO+주/VV+신/EP+ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.#@소속#카드 렌탈 신청을 하면 매 월 만원씩 포인트로 할인받는다던데",
+            "norm_text": "B.#@소속#카드 렌탈 신청을 하면 매 월 만원씩 포인트로 할인받는다던데",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+카드/NNG+렌탈/NNP+신청/NNG+을/JKO+하/VV+면/EC+매월/MAG+만/NR+원/NNBC+씩/XSN+포인트/NNG+로/JKB+할인/NNG+받/VV+는다던데/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.카드사에 전화를 해도 안 받아서요 어떻게 해야 되나요",
+            "norm_text": "B.카드사에 전화를 해도 안 받아서요 어떻게 해야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+카드/NNG+사/NNG+에/JKB+전화/NNG+를/JKO+해도/VV+EC+안/MAG+받/VV+아서요/EC+어떻게/MAG+해야/VV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.혹시 고객님 #@소속#카드 발급처 #@전번#번으로 연락 하신거 맞으세요",
+            "norm_text": "A.혹시 고객님 #@소속#카드 발급처 #@전번#번으로 연락 하신거 맞으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+고객/NNG+님/XSN+#/SY+@/SY+소속/NNG+#/SY+카드/NNG+발급/NNG+처/NNG+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+으로/JKB+연락/NNG+하/XSV+신/EP+ETM+거/NNB+맞/VV+으세요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.맞아요 번호도 몇 번이나 확인 해봤어요",
+            "norm_text": "B.맞아요 번호도 몇 번이나 확인 해봤어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맞/VV+아요/EF+번호/NNG+도/JX+몇/MM+번/NNBC+이나/JX+확인/NNG+해/XSV+EC+봤/VX+EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.그 쪽 전담부서가 통화량이 많아서 연결이 좀 지연이 되는거 같습니다",
+            "norm_text": "A.그 쪽 전담부서가 통화량이 많아서 연결이 좀 지연이 되는거 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그쪽/NP+전담/NNG+부서/NNG+가/JKS+통화량/NNG+이/JKS+많/VA+아서/EC+연결/NNG+이/JKS+좀/MAG+지연/NNG+이/JKS+되/VV+는/ETM+거/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.전화한 지가 좀 됐거든요",
+            "norm_text": "B.전화한 지가 좀 됐거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+전화/NNG+한/XSA+ETM+지/NNB+가/JKS+좀/MAG+됐/VV+EP+거든요/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.저한테 전화해달라는 메시지도 전달이 된 걸로 아는데 연락이 오질 않네요",
+            "norm_text": "B.전화해달라는 메시지도 전달이 된 걸로 아는데 연락이 오질 않네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/NP+한테/JKB+전화/NNG+해/XSV+EC+달/VX+라는/ETM+메시지/NNG+도/JX+전달/NNG+이/JKS+된/VV+ETM+걸로/NNB+JKB+아/VV+는데/EC+연락/NNG+이/JKS+오/VV+질/EC+JX+않/VX+네요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.많이 불편하셨겠네요 고객님",
+            "norm_text": "A.많이 불편하셨겠네요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+많이/MAG+불편/NNG+하/XSV+셨/EP+EP+겠/EP+네요/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 14,
+            "text": "B.이미 정수기는 설치하러 올 예정이라고 연락이 왔는데",
+            "norm_text": "B.이미 정수기는 설치하러 올 예정이라고 연락이 왔는데",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이미/MAG+정수기/NNG+는/JX+설치/NNG+하/XSV+러/EC+올/MM+예정/NNG+이/VCP+라고/EC+연락/NNG+이/JKS+왔/VV+EP+는데/EC"
+          },
+          {
+            "id": 15,
+            "text": "B.만약 설치하러 와서 결제 문제가 생기면 어떡해요",
+            "norm_text": "B.만약 설치하러 와서 결제 문제가 생기면 어떡해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+만약/NNG+설치/NNG+하/XSV+러/EC+와서/VV+EC+결제/NNG+문제/NNG+가/JKS+생기/VV+면/EC+어떡/XR+해요/XSA+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.그러시면 이 부분 정확히 확인해보고 안내 드리겠습니다.",
+            "norm_text": "A.그러시면 이 부분 정확히 확인해보고 안내 드리겠습니다.",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+이/MM+부분/NNG+정확히/MAG+확인/NNG+해/XSV+EC+보/VX+고/EC+안/MAG+내드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 17,
+            "text": "A.잠시만 기다려주세요 고객님",
+            "norm_text": "A.잠시만 기다려주세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+잠시/NNG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF+VCP+고/EC+객님/NNG"
+          }
+        ]
+      }
+    }
+  ]
+}

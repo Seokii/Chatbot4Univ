@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 56568,
+    "name": "c4_20211019_0001_2880_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130702084983/c4_20211019_0001_2880_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130702084983/c4_20211019_0001_2880_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49918,
+      "filename": "c4_20210903_0008_0018_01.txt",
+      "title": "c4_20210903_0008_0018_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 343,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 343,
+        "word_size": 86,
+        "text": "A.전화주셔서 감사합니다 #@소속# #@이름# 상담원입니다\nB.자동차 검사를 기간 내에 받지 못했는데요\nA.네 그러셨습니까 과태료가 나오셨나요\nB.네 과태료 부과금액이 얼마이며 감경 받을 수 있는 사유가 있나요\nA.자동차 검사 기간은 전후 각각 삽십 일 일 이내에 받으실 수 있습니다\nB.네 전후 삽십 일 일 이내 입니까\nA.검사 지연기간이 삼십 일 이내시면 이 만원 입니다\nB.삼십 일 초과일 경우는 얼마인가요\nA.초과인 경우 삼 일 초과시마다 일 만원씩 가산됩니다\nB.감경 받을 수 있는 방법은 있나요\nA.의견 제출 기한 내에 납부하실 경우 감경되실 수 있습니다\nB.네 알려주셔서 감사합니다\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화주셔서 감사합니다 #@소속# #@이름# 상담원입니다",
+            "norm_text": "A.전화주셔서 감사합니다 #@소속# #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.자동차 검사를 기간 내에 받지 못했는데요",
+            "norm_text": "B.자동차 검사를 기간 내에 받지 못했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+자동차/NNG+검사/NNG+를/JKO+기간/NNG+내/NNB+에/JKB+받/VV+지/EC+못했/VX+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 그러셨습니까 과태료가 나오셨나요",
+            "norm_text": "A.네 그러셨습니까 과태료가 나오셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그러/VV+셨/EP+EP+습니까/EF+과태료/NNG+가/JKS+나오/VV+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 과태료 부과금액이 얼마이며 감경 받을 수 있는 사유가 있나요",
+            "norm_text": "B.네 과태료 부과금액이 얼마이며 감경 받을 수 있는 사유가 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+과태료/NNG+부과/NNG+금액/NNG+이/JKS+얼마/NNG+이/VCP+며/EC+감경/NNG+받/VV+을/ETM+수/NNB+있/VV+는/ETM+사유/NNG+가/JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.자동차 검사 기간은 전후 각각 삽십 일 일 이내에 받으실 수 있습니다",
+            "norm_text": "A.자동차 검사 기간은 전후 각각 삽십 일 일 이내에 받으실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+자동차/NNG+검사/NNG+기간/NNG+은/JX+전후/NNG+각각/MAG+삽/NR+십/NR+일/NR+일/NNBC+이내/NNG+에/JKB+받/VV+으실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 전후 삽십 일 일 이내 입니까",
+            "norm_text": "B.네 전후 삽십 일 일 이내 입니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+전후/NNG+삽/NR+십/NR+일/NR+일/NNBC+이내/NNG+입니까/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.검사 지연기간이 삼십 일 이내시면 이 만원 입니다",
+            "norm_text": "A.검사 지연기간이 삼십 일 이내시면 이 만원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+검사/NNG+지연/NNG+기간/NNG+이/JKS+삼/NR+십/NR+일/NR+이/JKS+내/VV+시/EP+면/EC+이/NR+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.삼십 일 초과일 경우는 얼마인가요",
+            "norm_text": "B.삼십 일 초과일 경우는 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+삼/NR+십/NR+일/NNBC+초과/NNG+일/NR+경우/NNG+는/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.초과인 경우 삼 일 초과시마다 일 만원씩 가산됩니다",
+            "norm_text": "A.초과인 경우 삼 일 초과시마다 일 만원씩 가산됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+초과/NNG+인/VCP+ETM+경우/NNG+삼/NR+일/NNBC+초과/NNG+시/NNG+마다/JX+일만/NR+원/NNBC+씩/XSN+가산/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.감경 받을 수 있는 방법은 있나요",
+            "norm_text": "B.감경 받을 수 있는 방법은 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+감경/NNG+받/VV+을/ETM+수/NNB+있/VV+는/ETM+방법/NNG+은/JX+있/VA+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.의견 제출 기한 내에 납부하실 경우 감경되실 수 있습니다",
+            "norm_text": "A.의견 제출 기한 내에 납부하실 경우 감경되실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+의견/NNG+제출/NNG+기한/NNG+내/NNB+에/JKB+납부/NNG+하/XSV+실/EP+ETM+경우/NNG+감경/NNG+되/XSV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 알려주셔서 감사합니다",
+            "norm_text": "B.네 알려주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

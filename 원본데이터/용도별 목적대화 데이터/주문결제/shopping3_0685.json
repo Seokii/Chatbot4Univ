@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 13500,
+    "name": "s3_20210913_0010_1032_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423029513/s3_20210913_0010_1032_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423029513/s3_20210913_0010_1032_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12562,
+      "filename": "s3_20210902_0015_0019_01.txt",
+      "title": "s3_20210902_0015_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 279,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 279,
+        "word_size": 62,
+        "text": "A.안녕하세요 고객님 상담사 #@이름#입니다\nB.예 #@상품#을 주문했는데 결제 방법을 바꾸려고요\nA.예 고객님 성함과 전화번호 먼저 확인 부탁드릴게요\nB.네 이름이 #@이름#이고요 #@전번#번입니다\nA.네 확인 감사합니다 결제는 어떻게 변경하시겠어요\nB.카드 결제로 변경할게요\nA.네 통화 종료 후에 #@전번#번으로 십 분 내로 해서요\nA.문자가 가실 건데요 카드 번호를 입력해 주시면 됩니다\nB.네 그럼 문자 보고 입력할게요\nA.네 감사합니다 저는 상담사 #@이름#이었습니다\nB.도와줘서 고마워요 좋은 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 #@상품#을 주문했는데 결제 방법을 바꾸려고요",
+            "norm_text": "B.예 #@상품#을 주문했는데 결제 방법을 바꾸려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+상품/NNG+#/SY+을/JKO+주문/NNG+했/XSV+EP+는데/EC+결제/NNG+방법/NNG+을/JKO+바꾸/VV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.예 고객님 성함과 전화번호 먼저 확인 부탁드릴게요",
+            "norm_text": "A.예 고객님 성함과 전화번호 먼저 확인 부탁드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+성함/NNG+과/JC+전화/NNG+번호/NNG+먼저/MAG+확인/NNG+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 이름이 #@이름#이고요 #@전번#번입니다",
+            "norm_text": "B.네 이름이 #@이름#이고요 #@전번#번입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+이름/NNG+이/JKS+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 확인 감사합니다 결제는 어떻게 변경하시겠어요",
+            "norm_text": "A.네 확인 감사합니다 결제는 어떻게 변경하시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EF+결제/NNG+는/JX+어떻게/MAG+변경/NNG+하/XSV+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.카드 결제로 변경할게요",
+            "norm_text": "B.카드 결제로 변경할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+카드/NNG+결제/NNG+로/JKB+변경/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 통화 종료 후에 #@전번#번으로 십 분 내로 해서요",
+            "norm_text": "A.네 통화 종료 후에 #@전번#번으로 십 분 내로 해서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+통화/NNG+종료/NNG+후/NNG+에/JKB+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+으로/JKB+십/NR+분/NNBC+내로/NNG+해서/XSV+EC+VCP+VCP+요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.문자가 가실 건데요 카드 번호를 입력해 주시면 됩니다",
+            "norm_text": "A.문자가 가실 건데요 카드 번호를 입력해 주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+문자/NNG+가/JKS+가실/VV+ETM+건데요/NNB+VCP+EC+카드/NNG+번호/NNG+를/JKO+입력/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 그럼 문자 보고 입력할게요",
+            "norm_text": "B.네 그럼 문자 보고 입력할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+문자/NNG+보고/JKB+입력/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 감사합니다 저는 상담사 #@이름#이었습니다",
+            "norm_text": "A.네 감사합니다 저는 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+저/NP+는/JX+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.도와줘서 고마워요 좋은 하루 되세요",
+            "norm_text": "B.도와줘서 고마워요 좋은 하루 되세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+도와/VV+EC+줘서/VX+EC+고마워요/VA+EC+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

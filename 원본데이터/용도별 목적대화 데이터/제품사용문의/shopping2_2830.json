@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 122431,
+    "name": "s2_20211108_0001_4424_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110646071442/s2_20211108_0001_4424_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110646071442/s2_20211108_0001_4424_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115580,
+      "filename": "s2_20211012_0014_0001_01.txt",
+      "title": "s2_20211012_0014_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 255,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 59,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 문의 드릴게 있어서요\nA.네 어떤 문의 이신가요\nB.지금 판매 하는 상품이 다 새 제품이 맞나요\nA.네 판매되고 있는 상품은 모두 새 제품 입니다\nB.그럼 중고나 리퍼 제품은 어디서 확인이 가능한가요\nA.리퍼 중고 변심 상품 카테고리가 있어 모델 명에 별도 표시되어있습니다\nB.네 알겠습니다 감사합니다\nA.다른문의 사항 있으실까요\nB.아니요 없습니다 답변 감사해요\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의 드릴게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의 드릴게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의 이신가요",
+            "norm_text": "A.네 어떤 문의 이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.지금 판매 하는 상품이 다 새 제품이 맞나요",
+            "norm_text": "B.지금 판매 하는 상품이 다 새 제품이 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+지금/MAG+판매/NNG+하/XSV+는/ETM+상품/NNG+이/VCP+다/EF+새/MM+제품/NNG+이/JKS+맞/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 판매되고 있는 상품은 모두 새 제품 입니다",
+            "norm_text": "A.네 판매되고 있는 상품은 모두 새 제품 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+판매/NNG+되/XSV+고/EC+있/VX+는/ETM+상품/NNG+은/JX+모두/MAG+새/MM+제품/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 중고나 리퍼 제품은 어디서 확인이 가능한가요",
+            "norm_text": "B.그럼 중고나 리퍼 제품은 어디서 확인이 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+중고/NNG+나/JC+리퍼/NNG+제품/NNG+은/JX+어디/NP+서/JKB+확인/NNG+이/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.리퍼 중고 변심 상품 카테고리가 있어 모델 명에 별도 표시되어있습니다",
+            "norm_text": "A.리퍼 중고 변심 상품 카테고리가 있어 모델 명에 별도 표시되어있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+리퍼/NNG+중/NNB+고/VCP+EC+변심/NNG+상품/NNG+카테고리/NNG+가/JKS+있/VA+어/EC+모델/NNG+명/NNG+에/JKB+별도/NNG+표시/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.다른문의 사항 있으실까요",
+            "norm_text": "A.다른 문의사항 있으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 10,
+            "text": "B.아니요 없습니다 답변 감사해요",
+            "norm_text": "B.아니요 없습니다 답변 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아니요/IC+없/VA+습니다/EF+답변/NNG+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

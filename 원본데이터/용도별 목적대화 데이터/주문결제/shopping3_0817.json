@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 16380,
+    "name": "s3_20210915_0010_1166_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151415089865/s3_20210915_0010_1166_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151415089865/s3_20210915_0010_1166_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11779,
+      "filename": "s2_20210903_0005_0012_01.txt",
+      "title": "s2_20210903_0005_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 304,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 304,
+        "word_size": 69,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.사장님 제가 뭐 물어볼려고 전화드렸는데요\nA.네 고객님 어떤 문의십니까\nB.옆에 철봉하는 거 있잖아요 철봉\nA.고객님 정확한 상품명이나 상품 번호 말씀해 주셔야 확인 가능합니다\nB.그렇습니까 철봉 이러면 몰라요\nA.네 저희가 상품 그렇게 설명만으론 저희도 확인이 좀 어렵다 보니까요\nB.그래요 뭐 철봉 종류가 많은가\nA.정확한 상품명이나 좀 번호가 필요할 것 같습니다\nB.예 그럼 제가 다시 함 보고 전화드릴게요\nA.메모하셨다가 문의 부탁드리겠습니다\nB.예 다시 전화할게요\nA.#@소속# 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.사장님 제가 뭐 물어볼려고 전화드렸는데요",
+            "norm_text": "B.사장님 제가 뭐 물어볼려고 전화드렸는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+사장/NNG+님/XSN+제/NP+가/JKS+뭐/IC+물/VV+어/EC+볼려고/VX+EC+전화/NNG+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어떤 문의십니까",
+            "norm_text": "A.네 고객님 어떤 문의십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어떤/MM+문의/NNG+십니까/VCP+EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.옆에 철봉하는 거 있잖아요 철봉",
+            "norm_text": "B.옆에 철봉하는 거 있잖아요 철봉",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+옆/NNG+에/JKB+철봉/NNG+하/XSV+는/ETM+거/NNB+있/VA+잖아요/EC+철봉/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 정확한 상품명이나 상품 번호 말씀해 주셔야 확인 가능합니다",
+            "norm_text": "A.고객님 정확한 상품명이나 상품 번호 말씀해 주셔야 확인 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+정확/XR+한/XSA+ETM+상품명/NNG+이나/JC+상품/NNG+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+셔야/EP+EC+확인/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그렇습니까 철봉 이러면 몰라요",
+            "norm_text": "B.그렇습니까 철봉 이러면 몰라요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+습니까/EF+철봉/NNG+이러/VV+면/EC+몰라요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 저희가 상품 그렇게 설명만으론 저희도 확인이 좀 어렵다 보니까요",
+            "norm_text": "A.네 저희가 상품 그렇게 설명만으론 저희도 확인이 좀 어렵다 보니까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+가/JKS+상품/NNG+그렇게/MAG+설명/NNG+만/JX+으론/JKB+JX+저희/NP+도/JX+확인/NNG+이/JKS+좀/MAG+어렵/VA+다/EC+보/VX+니까요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그래요 뭐 철봉 종류가 많은가",
+            "norm_text": "B.그래요 뭐 철봉 종류가 많은가",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+뭐/IC+철봉/NNG+종류/NNG+가/JKS+많/VA+은가/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.정확한 상품명이나 좀 번호가 필요할 것 같습니다",
+            "norm_text": "A.정확한 상품명이나 좀 번호가 필요할 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+정확/NNG+한/XSA+ETM+상품명/NNG+이나/JC+좀/MAG+번호/NNG+가/JKS+필요/NNG+할/XSV+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.예 그럼 제가 다시 함 보고 전화드릴게요",
+            "norm_text": "B.예 그럼 제가 다시 함 보고 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+예/IC+그럼/MAJ+제/NP+가/JKS+다시/MAG+함/VV+EC+보/VX+고/EC+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.메모하셨다가 문의 부탁드리겠습니다",
+            "norm_text": "A.메모하셨다가 문의 부탁드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+메모/NNG+하/XSV+셨/EP+EP+다가/EC+문/NNG+의/JKG+부탁/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.예 다시 전화할게요",
+            "norm_text": "B.예 다시 전화할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+예/IC+다시/MAG+전화/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.#@소속# 상담사 #@이름#이었습니다",
+            "norm_text": "A.#@소속# 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

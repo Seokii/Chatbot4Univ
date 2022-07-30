@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 19453,
+    "name": "s1_20210916_0002_0237_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt202109081512540588104/s1_20210916_0002_0237_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt202109081512540588104/s1_20210916_0002_0237_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8449,
+      "filename": "s1_20210825_0017_0029_01.txt",
+      "title": "s1_20210825_0017_0029_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 313,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 313,
+        "word_size": 68,
+        "text": "A.상담사 #@이름#입니다 무엇을 도와드릴까요\nB.집전화기 배터리 때문에 전화드렸어요\nA.#@소속#에 배터리 재고 확인 후에 내방하셔야 합니다\nB.전화기 모델명을 한 번 불러드릴까요\nA.#@상품# 재고는 #@소속#로 직접 통화하셔야 됩니다\nB.그럼 직접 가야된다는 거죠\nA.네 센터 쪽으로 확인하시면 됩니다\nB.전화기가 단종되었다는 소리가 있어서요\nA.전산으로는 안 나오는 경우가 많아서요\nA.매장에 전화하시면 단종 여부 확인 가능하세요\nB.그럼 혹시 #@소속# 전화번호 좀 알 수 있을까요\nA.네 바로 안내해드릴께요\nA.#@소속# 전화번호는 #@전번# 이에요\nB.네 확인 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.집전화기 배터리 때문에 전화드렸어요",
+            "norm_text": "B.집전화기 배터리 때문에 전화드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+집/NNG+전화기/NNG+배터리/NNG+때문/NNB+에/JKB+전화/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.#@소속#에 배터리 재고 확인 후에 내방하셔야 합니다",
+            "norm_text": "A.#@소속#에 배터리 재고 확인 후에 내방하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에/JKB+배터리/NNG+재고/NNG+확인/NNG+후/NNG+에/JKB+내방/NNG+하/XSV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.전화기 모델명을 한 번 불러드릴까요",
+            "norm_text": "B.전화기 모델명을 한 번 불러드릴까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+전화기/NNG+모델/NNG+명/NNG+을/JKO+한번/MAG+불러/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.#@상품# 재고는 #@소속#로 직접 통화하셔야 됩니다",
+            "norm_text": "A.#@상품# 재고는 #@소속#로 직접 통화하셔야 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+재고/NNG+는/JX+#/SY+@/SY+소속/NNG+#/SY+로/JKB+직접/MAG+통화/NNG+하/XSV+셔야/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그럼 직접 가야된다는 거죠",
+            "norm_text": "B.그럼 직접 가야된다는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+직접/MAG+가/VV+야/EC+된다는/VV+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 센터 쪽으로 확인하시면 됩니다",
+            "norm_text": "A.네 센터 쪽으로 확인하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+센터/NNG+쪽/NNB+으로/JKB+확인/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.전화기가 단종되었다는 소리가 있어서요",
+            "norm_text": "B.전화기가 단종되었다는 소리가 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+전화기/NNG+가/JKS+단종/NNG+되/XSV+었/EP+다는/ETM+소리/NNG+가/JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.전산으로는 안 나오는 경우가 많아서요",
+            "norm_text": "A.전산으로는 안 나오는 경우가 많아서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+전산/NNG+으로/JKB+는/JX+안/MAG+나오/VV+는/ETM+경우/NNG+가/JKS+많/VA+아서요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.매장에 전화하시면 단종 여부 확인 가능하세요",
+            "norm_text": "A.매장에 전화하시면 단종 여부 확인 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+매장/NNG+에/JKB+전화/NNG+하/XSV+시/EP+면/EC+단종/NNG+여부/NNG+확인/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그럼 혹시 #@소속# 전화번호 좀 알 수 있을까요",
+            "norm_text": "B.그럼 혹시 #@소속# 전화번호 좀 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+혹시/MAG+#/SY+@/SY+소속/NNG+#/SY+전화/NNG+번호/NNG+좀/MAG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 바로 안내해드릴께요",
+            "norm_text": "A.네 바로 안내해드릴께요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+바로/MAG+안내/NNG+해/XSV+EC+드릴께요/VX+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.#@소속# 전화번호는 #@전번# 이에요",
+            "norm_text": "A.#@소속# 전화번호는 #@전번# 이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.네 확인 감사합니다",
+            "norm_text": "B.네 확인 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

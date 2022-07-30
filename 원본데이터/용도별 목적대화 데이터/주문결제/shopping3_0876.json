@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 19213,
+    "name": "s3_20210916_0010_1364_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420061081/s3_20210916_0010_1364_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420061081/s3_20210916_0010_1364_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12170,
+      "filename": "s3_20210830_0024_0009_01.txt",
+      "title": "s3_20210830_0024_0009_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 393,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 393,
+        "word_size": 99,
+        "text": "A.안녕하세요 #@이름# 입니다\nB.저기 혹시 그 주문 번호로 그 상품 알 수 있나요\nB.제가 불러볼게요 #@번호#\nA.예 잠시만요 고객님\nA.#@상품# 단품하고 #@상품# 주문하신 게 있는데요\nB.#@상품# 이 뭐예요 뭐예요 그게\nA.골프 하실 때 타수 이렇게 줄이고 하는 거 그런 용품이에요\nB.근데 지금 지인분이 이게 가상 계좌로 해가지구요\nB.계좌 이체를 했는데 그 그게 번호가 오류가 나고 안 되더라고요\nA.네 그러셨어요 고객님\nB.그래서 제가 지금 주문해 드리겠다고 그랬거든요\nA.어떤 상품 주문 말씀이신가요\nB.지금 제가 이거 주문 번 번호 저거 저기한 거 이거\nA.요거 두 개를 똑같이요 주문하신다고요 고객님\nB.잠시만요 지인한테 연락 좀 해보고 할게요 다시\nA.네 그러시겠어요 알겠습니다\nB.예 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저기 혹시 그 주문 번호로 그 상품 알 수 있나요",
+            "norm_text": "B.저기 혹시 그 주문 번호로 그 상품 알 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+저기/IC+혹시/MAG+그/MM+주문/NNG+번호/NNG+로/JKB+그/MM+상품/NNG+알/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.제가 불러볼게요 #@번호#",
+            "norm_text": "B.제가 불러볼게요 #@번호#",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+불러/VV+EC+볼게요/VX+EF+#/SY+@/SY+번호/NNG+#/SY"
+          },
+          {
+            "id": 4,
+            "text": "A.예 잠시만요 고객님",
+            "norm_text": "A.예 잠시만요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+예/IC+잠시/MAG+만요/NNP+고객/NNG+님/XSN"
+          },
+          {
+            "id": 5,
+            "text": "A.#@상품# 단품하고 #@상품# 주문하신 게 있는데요",
+            "norm_text": "A.#@상품# 단품하고 #@상품# 주문하신 게 있는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+단/MM+품/NNG+하/XSV+고/EC+#/SY+@/SY+상품/NNG+#/SY+주문/NNG+하/XSV+신/EP+ETM+게/NNB+JKS+있/VA+는데요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.#@상품# 이 뭐예요 뭐예요 그게",
+            "norm_text": "B.#@상품# 이 뭐예요 뭐예요 그게",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+이/JKS+뭐/NP+예요/VCP+EF+뭐/NP+예요/VCP+EF+그게/NP+JKS"
+          },
+          {
+            "id": 7,
+            "text": "A.골프 하실 때 타수 이렇게 줄이고 하는 거 그런 용품이에요",
+            "norm_text": "A.골프 하실 때 타수 이렇게 줄이고 하는 거 그런 용품이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+골프/NNG+하/XSV+실/EP+ETM+때/NNG+타수/NNG+이렇게/MAG+줄이/VV+고/EC+하/VV+는/ETM+거/NNB+그런/MM+용품/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.근데 지금 지인분이 이게 가상 계좌로 해가지구요",
+            "norm_text": "B.근데 지금 지인분이 이게 가상 계좌로 해가지구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+근데/MAJ+지금/MAG+지인/NNG+분/XSN+이/JKS+이게/NP+JKS+가상/NNG+계좌/NNG+로/JKB+해/VV+EC+가지/VX+구요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.계좌 이체를 했는데 그 그게 번호가 오류가 나고 안 되더라고요",
+            "norm_text": "B.계좌 이체를 했는데 그 그게 번호가 오류가 나고 안 되더라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+계좌/NNG+이체/NNG+를/JKO+했/VV+EP+는데/EC+그/IC+그게/NP+JKS+번호/NNG+가/JKS+오류/NNG+가/JKS+나/VV+고/EC+안/MAG+되/VV+더라고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 그러셨어요 고객님",
+            "norm_text": "A.네 그러셨어요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그러/VV+셨/EP+EP+어요/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 11,
+            "text": "B.그래서 제가 지금 주문해 드리겠다고 그랬거든요",
+            "norm_text": "B.그래서 제가 지금 주문해 드리겠다고 그랬거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래서/MAJ+제/NP+가/JKS+지금/MAG+주문/NNG+해/XSV+EC+드리/VX+겠/EP+다고/EC+그랬/VV+EP+거든요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.어떤 상품 주문 말씀이신가요",
+            "norm_text": "A.어떤 상품 주문 말씀이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+상품/NNG+주문/NNG+말씀/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.지금 제가 이거 주문 번 번호 저거 저기한 거 이거",
+            "norm_text": "B.지금 제가 이거 주문 번 번호 저거 저기한 거 이거",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+지금/MAG+제/NP+가/JKS+이거/NP+주문/NNG+번/NNBC+번호/NNG+저거/NP+저기/XR+한/XSA+ETM+거/NNB+이거/NP"
+          },
+          {
+            "id": 14,
+            "text": "A.요거 두 개를 똑같이요 주문하신다고요 고객님",
+            "norm_text": "A.요거 두 개를 똑같이요 주문하신다고요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+요거/NP+두/MM+개/NNBC+를/JKO+똑같이/MAG+요/MM+주문/NNG+하/XSV+신다고요/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 15,
+            "text": "B.잠시만요 지인한테 연락 좀 해보고 할게요 다시",
+            "norm_text": "B.잠시만요 지인한테 연락 좀 해보고 할게요 다시",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+잠시/MAG+만요/NNP+지인/NNG+한테/JKB+연락/NNG+좀/MAG+해/VV+EC+보/VX+고/EC+할게요/VX+EF+다시/MAG"
+          },
+          {
+            "id": 16,
+            "text": "A.네 그러시겠어요 알겠습니다",
+            "norm_text": "A.네 그러시겠어요 알겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+그러/VV+시/EP+겠/EP+어요/EF+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 17,
+            "text": "B.예 감사합니다 수고하세요",
+            "norm_text": "B.예 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

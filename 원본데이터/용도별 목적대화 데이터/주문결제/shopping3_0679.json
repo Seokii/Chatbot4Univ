@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 13490,
+    "name": "s3_20210913_0010_1026_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423033620/s3_20210913_0010_1026_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423033620/s3_20210913_0010_1026_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12568,
+      "filename": "s3_20210902_0007_0002_01.txt",
+      "title": "s3_20210902_0007_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 197,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 197,
+        "word_size": 45,
+        "text": "A.네 안녕하세요 고객님 #@이름# 상담원 입니다\nB.물건 하나 주문합시다\nA.예 어떤 거 구매하세요\nB.네 이거요 #@상품#이요\nA.네 고객님 #@상품#이요\nB.예 상품 번호가 #@번호#예요\nA.이거는 지금 품절인데요 고객님\nB.이런 이거 품절이라구요\nA.예 그 #@상품# 이거 품절이에요 지금\nB.어쩔 수 없죠 알겠습니다 수고하세요\nA.네 죄송합니다 고객님 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하세요 고객님 #@이름# 상담원 입니다",
+            "norm_text": "A.네 안녕하세요 고객님 #@이름# 상담원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.물건 하나 주문합시다",
+            "norm_text": "B.물건 하나 주문합시다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+물건/NNG+하나/NR+주문/NNG+합시다/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.예 어떤 거 구매하세요",
+            "norm_text": "A.예 어떤 거 구매하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+어떤/MM+거/NNB+구매/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 이거요 #@상품#이요",
+            "norm_text": "B.네 이거요 #@상품#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+이거/NP+요/JX+#/SY+@/SY+상품/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 #@상품#이요",
+            "norm_text": "A.네 고객님 #@상품#이요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+#/SY+@/SY+상품/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예 상품 번호가 #@번호#예요",
+            "norm_text": "B.예 상품 번호가 #@번호#예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+상품/NNG+번호/NNG+가/JKS+#/SY+@/SY+번호/NNG+#/SY+예요/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.이거는 지금 품절인데요 고객님",
+            "norm_text": "A.이거는 지금 품절인데요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이거/NP+는/JX+지금/MAG+품절/NNG+인데요/VCP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.이런 이거 품절이라구요",
+            "norm_text": "B.이런 이거 품절이라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이런/MM+이거/NP+품절/NNG+이/VCP+라구요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.예 그 #@상품# 이거 품절이에요 지금",
+            "norm_text": "A.예 그 #@상품# 이거 품절이에요 지금",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+그/MM+#/SY+@/SY+상품/NNG+#/SY+이거/NP+품절/NNG+이/VCP+에요/EF+지금/MAG"
+          },
+          {
+            "id": 10,
+            "text": "B.어쩔 수 없죠 알겠습니다 수고하세요",
+            "norm_text": "B.어쩔 수 없죠 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+어쩔/VV+ETM+수/NNB+없/VA+죠/EF+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 죄송합니다 고객님 감사합니다",
+            "norm_text": "A.네 죄송합니다 고객님 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+죄송/XR+합니다/XSA+EF+고객/NNG+님/XSN+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

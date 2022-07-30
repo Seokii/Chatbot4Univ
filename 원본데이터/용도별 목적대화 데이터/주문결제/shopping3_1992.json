@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 115875,
+    "name": "s3_20211105_0005_0040_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110829073644/s3_20211105_0005_0040_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110829073644/s3_20211105_0005_0040_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119365,
+      "filename": "s3_20211025_0021_0003_01.txt",
+      "title": "s3_20211025_0021_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 318,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 318,
+        "word_size": 76,
+        "text": "A.전화 주셔서 감사합니다 고객 만족 센터 상담원 #@이름#입니다\nB.안녕하세요 문의 좀 드리려고 전화 했어요\nA.네 말씀 하세요 항상 고객님의 편의를 위해 노력하겠습니다\nB.거래 명세서를 발급 받고 싶은데 가능한가요\nA.거래 확인서를 말씀 하시는 거 같습니다 발급 절차를 안내해 드릴까요\nB.네 거래 확인서 발급 방법 좀 알려주세요\nA.구매 내역에서 해당 주문을 클릭하면 하단에 거래 확인서 클릭이 있습니다\nA.팝업 창에서 확인 및 인쇄가 가능합니다\nB.네 알겠습니다 한번 해볼게요\nA.더 궁금하신 점은 없으실까요\nB.네 없습니다 그럼 수고하세요\nA.감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화 주셔서 감사합니다 고객 만족 센터 상담원 #@이름#입니다",
+            "norm_text": "A.전화 주셔서 감사합니다 고객 만족 센터 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+고객/NNG+만족/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 문의 좀 드리려고 전화 했어요",
+            "norm_text": "B.안녕하세요 문의 좀 드리려고 전화 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+좀/MAG+드리/VV+려고/EC+전화/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 말씀 하세요 항상 고객님의 편의를 위해 노력하겠습니다",
+            "norm_text": "A.네 말씀 하세요 항상 고객님의 편의를 위해 노력하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+말씀/NNG+하/XSV+세요/EP+EF+항상/MAG+고객/NNG+님/XSN+의/JKG+편의/NNG+를/JKO+위해/VV+EC+노력/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.거래 명세서를 발급 받고 싶은데 가능한가요",
+            "norm_text": "B.거래 명세서를 발급받고 싶은데 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+거래/NNG+명세서/NNG+를/JKO+발급/NNG+받/VV+고/EC+싶/VX+은데/EC+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.거래 확인서를 말씀 하시는 거 같습니다 발급 절차를 안내해 드릴까요",
+            "norm_text": "A.거래 확인서를 말씀하시는 거 같은데 발급 절차를 안내해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+거래/NNG+확인서/NNG+를/JKO+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+같/VA+습니다/EF+발급/NNG+절차/NNG+를/JKO+안내/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 거래 확인서 발급 방법 좀 알려주세요",
+            "norm_text": "B.네 거래 확인서 발급 방법 좀 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+거래/NNG+확인/NNG+XSV+서/EC+발급/NNG+방법/NNG+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.구매 내역에서 해당 주문을 클릭하면 하단에 거래 확인서 클릭이 있습니다",
+            "norm_text": "A.구매 내역에서 해당 주문을 클릭하면 하단에 거래 확인서 클릭이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+구매/NNG+내역/NNG+에서/JKB+해당/NNG+주문/NNG+을/JKO+클릭/NNG+하/XSV+면/EC+하단/NNG+에/JKB+거래/NNG+확인/NNG+XSV+서/EC+클릭/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.팝업 창에서 확인 및 인쇄가 가능합니다",
+            "norm_text": "A.팝업 창에서 확인 및 인쇄가 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+팝업창/NNP+에서/JKB+확인/NNG+및/MAJ+인쇄/NNG+가/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠습니다 한번 해볼게요",
+            "norm_text": "B.네 알겠습니다 한번 해 볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+한번/MAG+해/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.더 궁금하신 점은 없으실까요",
+            "norm_text": "A.더 궁금하신 점은 없으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+궁금/XR+하/XSA+신/EP+ETM+점/NNG+은/JX+없/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 11,
+            "text": "B.네 없습니다 그럼 수고하세요",
+            "norm_text": "B.네 없습니다 그럼 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+없/VA+습니다/EF+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

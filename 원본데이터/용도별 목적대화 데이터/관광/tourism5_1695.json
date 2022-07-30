@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 158179,
+    "name": "t5_20211119_0010_2051_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135912082164/t5_20211119_0010_2051_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135912082164/t5_20211119_0010_2051_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155506,
+      "filename": "t5_0066_0108_02.txt",
+      "title": "t5_0066_0108_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 277,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 277,
+        "word_size": 65,
+        "text": "A.소중히 모시겠습니다 #@소속# #@이름# 상담사입니다\nB.수고하십니다 저 기타#이요\nB.위치가 어딘지 좀 설명해 주실 수 있나요 못 찾겠네요\nA.네 그럼요 주소는 알고 계신가요\nB.네 #@주소# 여기 맞죠\nA.네 주소는 맞는데 위치를 자세히 모르시겠다는 거죠\nB.네 도저히 모르겠는데 위치 설명 좀 해주세요\nA.금남지하상가 만남의 광장 맞은 편에 위치해 있다고 보시면 될것같아요\nB.만남의 광장 맞은편이요 네 여기 보이네요 정말 감사합니다\nA.빨리 찾으셔서 다행입니다 좋은 하루 보내세요 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.소중히 모시겠습니다 #@소속# #@이름# 상담사입니다",
+            "norm_text": "A.소중히 모시겠습니다 #@소속# #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+소중히/MAG+모시/VV+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고하십니다 저 기타#이요",
+            "norm_text": "B.수고하십니다 저 기타#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+저/MM+기타/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.위치가 어딘지 좀 설명해 주실 수 있나요 못 찾겠네요",
+            "norm_text": "B.위치가 어딘지 좀 설명해 주실 수 있나요 못 찾겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+위치/NNG+가/JKS+어딘지/NP+VCP+EC+좀/MAG+설명/NNG+해/XSV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+나요/EC+못/MAG+찾/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 그럼요 주소는 알고 계신가요",
+            "norm_text": "A.네 그럼요 주소는 알고 계신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+요/MM+주소/NNG+는/JX+알/VV+고/EC+계신/VX+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "B.네 #@주소# 여기 맞죠",
+            "norm_text": "B.네 #@주소# 여기 맞죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+여기/NP+맞/VV+죠/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 주소는 맞는데 위치를 자세히 모르시겠다는 거죠",
+            "norm_text": "A.네 주소는 맞는데 위치를 자세히 모르시겠다는 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+주소/NNG+는/JX+맞/VV+는데/EC+위치/NNG+를/JKO+자세히/MAG+모르/VV+시/EP+겠/EP+다는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 도저히 모르겠는데 위치 설명 좀 해주세요",
+            "norm_text": "B.네 도저히 모르겠는데 위치 설명 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+도저히/MAG+모르/VV+겠/EP+는데/EC+위치/NNG+설명/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.금남지하상가 만남의 광장 맞은 편에 위치해 있다고 보시면 될것같아요",
+            "norm_text": "A.금남지하상가 만남의 광장 맞은 편에 위치해 있다고 보시면 될것같아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+금남/NNG+지하상가/NNG+만남/NNG+의/JKG+광장/NNG+맞은편/NNG+에/JKB+위치/NNG+해/XSV+EC+있/VX+다고/EC+보/VX+시/EP+면/EC+될/VV+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.만남의 광장 맞은편이요 네 여기 보이네요 정말 감사합니다",
+            "norm_text": "B.만남의 광장 맞은편이요 네 여기 보이네요 정말 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+만남/NNG+의/JKG+광장/NNG+맞은편/NNG+이/JKS+요네/NNG+여기/NP+보이/VV+네요/EF+정말/MAG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.빨리 찾으셔서 다행입니다 좋은 하루 보내세요 #@이름# 이었습니다",
+            "norm_text": "A.빨리 찾으셔서 다행입니다 좋은 하루 보내세요 #@이름# 이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+빨리/MAG+찾/VV+으셔서/EP+EC+다행/NNG+입니다/VCP+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

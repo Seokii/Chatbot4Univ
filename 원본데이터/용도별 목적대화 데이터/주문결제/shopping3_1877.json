@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 109969,
+    "name": "s3_20211104_0002_0124_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110743019018/s3_20211104_0002_0124_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110743019018/s3_20211104_0002_0124_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117826,
+      "filename": "s3_20211001_0028_0019_01.txt",
+      "title": "s3_20211001_0028_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 243,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 243,
+        "word_size": 49,
+        "text": "A.안녕하세요 #@소속#의 #@이름#입니다\nB.아까 이중결제로 전화 드린 사람입니다\nA.네 고객님 카드 사명과 카드번호 그리고 승인번호 불러주세요\nB.#@소속#카드고 카드번호는#@번호#이고 #@번호#가 승인번호에요\nA.네 지금 확인 됐고요 #@상품#주문 맞으신가요\nB.네 #@상품#주문 맞습니다\nA.지금 바로 이중결제 돼있는 거 하나 결제 취소 해드렸습니다\nB.네 해주셔서 감사합니다\nA.다른 필요하신 사항이 있나요\nB.아니요 이제 됐습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#의 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#의 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.아까 이중결제로 전화 드린 사람입니다",
+            "norm_text": "B.아까 이중결제로 전화 드린 사람입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아까/MAG+이/MM+중/NNB+결제/NNG+로/JKB+전화/NNG+드린/VV+ETM+사람/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 카드 사명과 카드번호 그리고 승인번호 불러주세요",
+            "norm_text": "A.네 고객님 카드 사명과 카드번호 그리고 승인번호 불러주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+카드/NNG+사명/NNG+과/JC+카드/NNG+번호/NNG+그리고/MAJ+승인/NNG+번호/NNG+불러/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속#카드고 카드번호는#@번호#이고 #@번호#가 승인번호에요",
+            "norm_text": "B.#@소속#카드고 카드번호는#@번호#이고 #@번호#가 승인번호에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+카드/NNG+고/VCP+EC+카드/NNG+번호/NNG+는/JX+#/SY+@/SY+번호/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+번호/NNG+#/SY+가승/NNG+인/VCP+ETM+번호/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.네 지금 확인 됐고요 #@상품#주문 맞으신가요",
+            "norm_text": "A.네 지금 확인 됐고요 #@상품#주문 맞으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+지금/MAG+확인/NNG+됐/XSV+EP+고요/EC+#/SY+@/SY+상품/NNG+#/SY+주문/NNG+맞/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 6,
+            "text": "B.네 #@상품#주문 맞습니다",
+            "norm_text": "B.네 #@상품#주문 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+주문/NNG+맞/VV+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.지금 바로 이중결제 돼있는 거 하나 결제 취소 해드렸습니다",
+            "norm_text": "A.지금 바로 이중결제 돼있는 거 하나 결제 취소 해드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+지금/MAG+바로/MAG+이중/NNG+결제/NNG+돼/XSV+EC+있/VX+는/ETM+거/NNB+하나/NR+결제/NNG+취소/NNG+해/XSV+EC+드렸/VX+EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 해주셔서 감사합니다",
+            "norm_text": "B.네 해주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+해/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.다른 필요하신 사항이 있나요",
+            "norm_text": "A.다른 필요하신 사항이 있나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+필요/NNG+하/XSV+신/EP+ETM+사항/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.아니요 이제 됐습니다 감사합니다",
+            "norm_text": "B.아니요 이제 됐습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+이제/MAG+됐/VV+EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

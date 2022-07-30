@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 45633,
+    "name": "c4_20211014_0001_1674_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130703093646/c4_20211014_0001_1674_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130703093646/c4_20211014_0001_1674_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50048,
+      "filename": "c4_20210903_0020_0019_01.txt",
+      "title": "c4_20210903_0020_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 458,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 458,
+        "word_size": 99,
+        "text": "A.안녕하세요 상담원 #@이름#입니다\nB.공사소음 때문에 민원을 좀 넣으려고 하는데요\nA.어디서 진행되는 공사인지 말씀 해주시겠습니까\nB.#@소속#고등학교 공사가 진행 중인 걸로 알고 있어요\nA.#@주소#에 위치한 #@소속#고등학교 맞으십니까\nB.맞아요 제가 인근에 살고 있는데 도저히 일상생활이 불가능해요\nA.공사 소음이 너무 심해서 불편하신 건가요\nB.소음도 너무 심하고 새벽부터 공사를 하니까 잠을 못 자요\nA.그럼 #@소속#고등학교 공사 소음 민원 접수 해 드리겠습니다\nA.선생님 성함과 연락처 말씀해 주세요\nB.#@이름#이고 연락처는 #@전번#\nB.그리고 혹시 공사가 언제까지 계속 되는지 알 수 있나요\nA.공사일정은 저희가 확인이 어렵구요 혹시 담당 부서 안내 드릴까요\nB.그럼 담당 부서 알려 주세요\nA.#소속# 교육시설과 #@이름# 주무관이구요 #@전번#번 입니다\nB.알겠습니다 안내 감사합니다\nA.감사합니다 상담원 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.공사소음 때문에 민원을 좀 넣으려고 하는데요",
+            "norm_text": "B.공사소음 때문에 민원을 좀 넣으려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+공사/NNG+소음/NNG+때문/NNB+에/JKB+민원/NNG+을/JKO+좀/MAG+넣/VV+으려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.어디서 진행되는 공사인지 말씀 해주시겠습니까",
+            "norm_text": "A.어디서 진행되는 공사인지 말씀 해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+어디/NP+서/JKB+진행/NNG+되/XSV+는/ETM+공사/NNG+인지/VCP+EC+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속#고등학교 공사가 진행 중인 걸로 알고 있어요",
+            "norm_text": "B.#@소속#고등학교 공사가 진행 중인 걸로 알고 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+고등/NNG+학교/NNG+공사/NNG+가/JKS+진행/NNG+중/NNB+인/VCP+ETM+걸로/NNB+JKB+알/VV+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.#@주소#에 위치한 #@소속#고등학교 맞으십니까",
+            "norm_text": "A.#@주소#에 위치한 #@소속#고등학교 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+에/JKB+위치/NNG+한/XSA+ETM+#/SY+@/SY+소속/NNG+#/SY+고등/NNG+학교/NNG+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.맞아요 제가 인근에 살고 있는데 도저히 일상생활이 불가능해요",
+            "norm_text": "B.맞아요 제가 인근에 살고 있는데 도저히 일상생활이 불가능해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맞/VV+아요/EF+제/NP+가/JKS+인근/NNG+에/JKB+살/VV+고/EC+있/VX+는데/EC+도저히/MAG+일상/NNG+생활/NNG+이/JKS+불/XPN+가능/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.공사 소음이 너무 심해서 불편하신 건가요",
+            "norm_text": "A.공사 소음이 너무 심해서 불편하신 건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+공사/NNG+소음/NNG+이/JKS+너무/MAG+심해서/VA+EC+불편/NNG+하/XSV+신/EP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.소음도 너무 심하고 새벽부터 공사를 하니까 잠을 못 자요",
+            "norm_text": "B.소음도 너무 심하고 새벽부터 공사를 하니까 잠을 못 자요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+소음/NNG+도/JX+너무/MAG+심하/VA+고/EC+새벽/NNG+부터/JX+공사/NNG+를/JKO+하/VV+니까/EC+잠/NNG+을/JKO+못자/NNG+요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그럼 #@소속#고등학교 공사 소음 민원 접수 해 드리겠습니다",
+            "norm_text": "A.그럼 #@소속#고등학교 공사 소음 민원 접수 해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그럼/MAJ+#/SY+@/SY+소속/NNG+#/SY+고등/NNG+학교/NNG+공사/NNG+소음/NNG+민원/NNG+접수/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.선생님 성함과 연락처 말씀해 주세요",
+            "norm_text": "A.선생님 성함과 연락처 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+성함/NNG+과/JC+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.#@이름#이고 연락처는 #@전번#",
+            "norm_text": "B.#@이름#이고 연락처는 #@전번#",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY"
+          },
+          {
+            "id": 12,
+            "text": "B.그리고 혹시 공사가 언제까지 계속 되는지 알 수 있나요",
+            "norm_text": "B.그리고 혹시 공사가 언제까지 계속 되는지 알 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그리고/MAJ+혹시/MAG+공사/NNG+가/JKS+언제/NP+까지/JX+계속/NNG+되/XSV+는지/EC+알/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.공사일정은 저희가 확인이 어렵구요 혹시 담당 부서 안내 드릴까요",
+            "norm_text": "A.공사일정은 저희가 확인이 어렵구요 혹시 담당 부서 안내 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+공사/NNG+일정/NNG+은/JX+저희/NP+가/JKS+확인/NNG+이/JKS+어렵/VA+구요/EF+혹시/MAG+담당/NNG+부서/NNG+안/MAG+내/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.그럼 담당 부서 알려 주세요",
+            "norm_text": "B.그럼 담당 부서 알려 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+담당/NNG+부서/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.#소속# 교육시설과 #@이름# 주무관이구요 #@전번#번 입니다",
+            "norm_text": "A.#소속# 교육시설과 #@이름# 주무관이구요 #@전번#번 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+소속/NNG+#/SY+교육/NNG+시설/NNG+과/JC+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+이/VCP+구요/EF+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.알겠습니다 안내 감사합니다",
+            "norm_text": "B.알겠습니다 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.감사합니다 상담원 #@이름#였습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

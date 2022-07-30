@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 115898,
+    "name": "s3_20211105_0005_0066_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110831017326/s3_20211105_0005_0066_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110831017326/s3_20211105_0005_0066_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119558,
+      "filename": "s3_20211026_0024_0010_01.txt",
+      "title": "s3_20211026_0024_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 198,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 198,
+        "word_size": 44,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.네 안녕하세요 카드 결제 시에요\nB.계속해서 오류가 나는데 어떻게 하죠\nA.신용 카드 결제 시 오류가 발생하는 경우는요\nA.#@소속#톡 상담하기나 일 대 일 상담이나 #@전번#으로 문의주세요\nB.알겠습니다 도움이 많이 되었습니다 감사합니다\nA.네 다른 문의 사항 생기시면 #@소속#으로 연락주세요\nB.네 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 카드 결제 시에요",
+            "norm_text": "B.네 안녕하세요 카드 결제 시에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+카드/NNG+결제/NNG+시/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "B.계속해서 오류가 나는데 어떻게 하죠",
+            "norm_text": "B.계속해서 오류가 나는데 어떻게 하죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+계속/NNG+해서/XSV+EC+오류/NNG+가/JKS+나/VV+는데/EC+어떻게/MAG+하/VV+죠/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.신용 카드 결제 시 오류가 발생하는 경우는요",
+            "norm_text": "A.신용 카드 결제 시 오류가 발생하는 경우는요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+신용카드/NNP+결제/NNG+시/NNG+오류/NNG+가/JKS+발생/NNG+하/XSV+는/ETM+경우/NNG+는/JX+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.#@소속#톡 상담하기나 일 대 일 상담이나 #@전번#으로 문의주세요",
+            "norm_text": "A.#@소속#톡 상담하기나 일 대 일 상담이나 #@전번#으로 문의주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+톡/NNG+상담/NNG+하/XSV+기/ETN+나/JX+일/NR+대/NNBC+일/NR+상담/NNG+이나/JC+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+문/NNG+의/JKG+주세요/NNP"
+          },
+          {
+            "id": 6,
+            "text": "B.알겠습니다 도움이 많이 되었습니다 감사합니다",
+            "norm_text": "B.알겠습니다 도움이 많이 되었습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+도움/NNG+이/JKS+많이/MAG+되/VV+었/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 다른 문의 사항 생기시면 #@소속#으로 연락주세요",
+            "norm_text": "A.네 다른 문의 사항 생기시면 #@소속#으로 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+다른/MM+문/NNG+의/JKG+사항/NNG+생기/VV+시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 8,
+            "text": "B.네 좋은 하루 보내세요",
+            "norm_text": "B.네 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 52005,
+    "name": "c1_20211018_0002_0020_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt202110081307590782107/c1_20211018_0002_0020_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt202110081307590782107/c1_20211018_0002_0020_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51369,
+      "filename": "c1_20210927_0020_0005_01.txt",
+      "title": "c1_20210927_0020_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 279,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 279,
+        "word_size": 50,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.학교에 열화상카메라 설치 요청하고 싶은데 담당 부서가 어딘가요\nA.먼저 주소와 해당 학교가 어딘지 말씀해 주시겠어요\nB.#@주소#에 #소속#초등학교에 열화상카메라 설치 요청 하고 싶어요\nA.잠시만요 담당부서 확인해 드리겠습니다\nB.네 담당부서가 #@소속#인가요\nA.#@소속# 평생교육건강과 학생건강팀이구요\nA.#@이름# 주무관이 담당자십니다\nB.연락처도 같이 알려주시나요\nA.#@전번#으로 전화하시면 됩니다\nB.이쪽으로 전화해 보겠습니다\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.학교에 열화상카메라 설치 요청하고 싶은데 담당 부서가 어딘가요",
+            "norm_text": "B.학교에 열화상카메라 설치 요청하고 싶은데 담당 부서가 어딘가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+학교/NNG+에/JKB+열화상/NNG+카메라/NNG+설치/NNG+요청/NNG+하/XSV+고/EC+싶/VX+은데/EC+담당/NNG+부서/NNG+가/JKS+어딘가요/NP+VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.먼저 주소와 해당 학교가 어딘지 말씀해 주시겠어요",
+            "norm_text": "A.먼저 주소와 해당 학교가 어딘지 말씀해 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+먼저/MAG+주소/NNG+와/JC+해당/NNG+학교/NNG+가/JKS+어딘지/NP+VCP+EC+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@주소#에 #소속#초등학교에 열화상카메라 설치 요청 하고 싶어요",
+            "norm_text": "B.#@주소#에 #소속#초등학교에 열화상카메라 설치 요청 하고 싶어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+에/JKB+#/SY+소속/NNG+#/SY+초등/NNG+학교/NNG+에/JKB+열화상/NNG+카메라/NNG+설치/NNG+요청/NNG+하/XSV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.잠시만요 담당부서 확인해 드리겠습니다",
+            "norm_text": "A.잠시만요 담당부서 확인해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+잠시/MAG+만요/NNP+담당/NNG+부서/NNG+확인/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 담당부서가 #@소속#인가요",
+            "norm_text": "B.네 담당부서가 #@소속#인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+담당/NNG+부서/NNG+가/JKS+#/SY+@/SY+소속/NNG+#/SY+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.#@소속# 평생교육건강과 학생건강팀이구요",
+            "norm_text": "A.#@소속# 평생교육건강과 학생건강팀이구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+평생교육/NNP+건강/NNG+과/JC+학생/NNG+건강/NNG+팀/NNG+이/VCP+구요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.#@이름# 주무관이 담당자십니다",
+            "norm_text": "A.#@이름# 주무관이 담당자십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+이/JKS+담당자/NNG+십니다/VCP+EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.연락처도 같이 알려주시나요",
+            "norm_text": "B.연락처도 같이 알려주시나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+연락처/NNG+도/JX+같이/MAG+알려/VV+EC+주/VX+시/EP+나요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.#@전번#으로 전화하시면 됩니다",
+            "norm_text": "A.#@전번#으로 전화하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+전화/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.이쪽으로 전화해 보겠습니다",
+            "norm_text": "B.이쪽으로 전화해 보겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+이쪽/NP+으로/JKB+전화/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

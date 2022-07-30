@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 42689,
+    "name": "c4_20211013_0011_0161_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131157089889/c4_20211013_0011_0161_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131157089889/c4_20211013_0011_0161_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56353,
+      "filename": "c4_20210923_0027_0002_01.txt",
+      "title": "c4_20210923_0027_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 249,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 249,
+        "word_size": 50,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.영천시 농기계임대사업소 방문하려 합니다\nB.이용 가능 시간 좀 알려주세요\nA.토요일 공휴일에는 근무하나 일요일은 휴무입니다\nA.주소지 또는 농경지가 영천시에 있는 농업인이 이용 가능합니다\nB.네 혹시 #@주소#가 맞나요\nA.네 그렇습니다 영천시농기계임대사업소입니다\nA.평일 기준 십 팔시 이전에 방문 부탁드립니다\nB.네 친절한 설명 감사합니다\nA.감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.영천시 농기계임대사업소 방문하려 합니다",
+            "norm_text": "B.영천시 농기계임대사업소 방문하려 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+영천시/NNP+농기계/NNG+임대/NNG+사업소/NNG+방문/NNG+하/XSV+려/EC+합니다/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.이용 가능 시간 좀 알려주세요",
+            "norm_text": "B.이용 가능 시간 좀 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+이용/NNG+가능/NNG+시간/NNG+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.토요일 공휴일에는 근무하나 일요일은 휴무입니다",
+            "norm_text": "A.토요일 공휴일에는 근무하나 일요일은 휴무입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+토요일/NNG+공휴일/NNG+에/JKB+는/JX+근무/NNG+하나/NR+일요일/NNG+은/JX+휴무/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.주소지 또는 농경지가 영천시에 있는 농업인이 이용 가능합니다",
+            "norm_text": "A.주소지 또는 농경지가 영천시에 있는 농업인이 이용 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주소지/NNG+또는/MAJ+농경지/NNG+가/JKS+영/NR+천/NR+시/NNBC+에/JKB+있/VV+는/ETM+농업/NNG+인/VCP+ETM+이/MM+이용/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 혹시 #@주소#가 맞나요",
+            "norm_text": "B.네 혹시 #@주소#가 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+혹시/MAG+#/SY+@/SY+주소/NNG+#/SY+가/JKS+맞/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 그렇습니다 영천시농기계임대사업소입니다",
+            "norm_text": "A.네 그렇습니다 영천시농기계임대사업소입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+영/NR+천/NR+시/NNBC+농기계/NNG+임대/NNG+사업소/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.평일 기준 십 팔시 이전에 방문 부탁드립니다",
+            "norm_text": "A.평일 기준 십 팔시 이전에 방문 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+평일/NNG+기준/NNG+십/NR+팔/NR+시/NNBC+이전/NNG+에/JKB+방문/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 친절한 설명 감사합니다",
+            "norm_text": "B.네 친절한 설명 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+친절/NNG+한/XSA+ETM+설명/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

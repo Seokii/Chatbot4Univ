@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 141519,
+    "name": "t1_20211115_0002_0551_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135716028124/t1_20211115_0002_0551_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135716028124/t1_20211115_0002_0551_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148177,
+      "filename": "t1_0068_0103_02.txt",
+      "title": "t1_0068_0103_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 275,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 275,
+        "word_size": 65,
+        "text": "A.쉼이 있는 여행 #소속#관광 #@이름# 입니다\nB.낙안읍성 인근에 한옥민박 안내 부탁합니다\nA.네 고객님 오가네한옥민박 추천해 드립니다\nB.예약은 전화로 해야 되나요\nA.네 연락처는 #@전번# 번 입니다\nB.객실 안에 샤워실도 있나요 한옥은 공용샤워실도 많아서요\nA.최근 리모델링을 마쳐서 객실 내에 샤워실과 주방이 있습니다\nB.그거 참 좋네요 성인 4명 숙박료도 알 수 있을까요\nA.그럼요 고객님 주중에는 8만원 입니다\nB.자세한 설명 참 감사합니다\nA.쉼이 있는 여행  #@소속#관광 #@이름# 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.쉼이 있는 여행 #소속#관광 #@이름# 입니다",
+            "norm_text": "A.쉼이 있는 여행 #소속#관광 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+쉼/NNG+이/JKS+있/VA+는/ETM+여행/NNG+#/SY+소속/NNG+#/SY+관광/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.낙안읍성 인근에 한옥민박 안내 부탁합니다",
+            "norm_text": "B.낙안읍성 인근에 한옥민박 안내 부탁합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+낙안/NNG+읍성/NNG+인근/NNG+에/JKB+한옥/NNG+민박/NNG+안내/NNG+부탁/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 오가네한옥민박 추천해 드립니다",
+            "norm_text": "A.네 고객님 오가네한옥민박 추천해 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+오가/VV+네/EF+한옥민/NNP+박/NNP+추천/NNG+해/XSV+EC+드립니다/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.예약은 전화로 해야 되나요",
+            "norm_text": "B.예약은 전화로 해야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+예약/NNG+은/JX+전화/NNG+로/JKB+해야/VV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 연락처는 #@전번# 번 입니다",
+            "norm_text": "A.네 연락처는 #@전번# 번입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.객실 안에 샤워실도 있나요 한옥은 공용샤워실도 많아서요",
+            "norm_text": "B.객실 안에 샤워실도 있나요 한옥은 공용샤워실도 많아서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+객실/NNG+안/NNG+에/JKB+샤워실/MAG+도/JX+있/VA+나요/EC+한옥/NNG+은/JX+공용/NNG+샤워실/MAG+도/JX+많/VA+아서요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.최근 리모델링을 마쳐서 객실 내에 샤워실과 주방이 있습니다",
+            "norm_text": "A.최근 리모델링을 마쳐서 객실 내에 샤워실과 주방이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+최근/NNG+리/NNG+모델링/NNG+을/JKO+마쳐서/VV+EC+객실/NNG+내/NNB+에/JKB+샤워/NNG+실과/NNG+주방/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그거 참 좋네요 성인 4명 숙박료도 알 수 있을까요",
+            "norm_text": "B.그거 참 좋네요 성인 4명 숙박료도 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그거/NP+참/MAG+좋/VA+네요/EF+성인/NNG+4/SN+명/NNBC+숙박료/NNG+도/JX+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그럼요 고객님 주중에는 8만원 입니다",
+            "norm_text": "A.그럼요 고객님 주중에는 8만원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그럼/MAJ+요/MM+고객/NNG+님/XSN+주/NNG+중/NNB+에/JKB+는/JX+8/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.자세한 설명 참 감사합니다",
+            "norm_text": "B.자세한 설명 참 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+자세/XR+한/XSA+ETM+설명/NNG+참/MAG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.쉼이 있는 여행  #@소속#관광 #@이름# 였습니다",
+            "norm_text": "A.쉼이 있는 여행  #@소속#관광 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+쉼/NNG+이/JKS+있/VA+는/ETM+여행/NNG+#/SY+@/SY+소속/NNG+#/SY+관광/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

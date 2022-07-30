@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 16385,
+    "name": "s3_20210915_0010_1171_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151415086536/s3_20210915_0010_1171_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151415086536/s3_20210915_0010_1171_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11774,
+      "filename": "s2_20210903_0005_0007_01.txt",
+      "title": "s2_20210903_0005_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 286,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 286,
+        "word_size": 73,
+        "text": "A.무엇이든 도와드리겠습니다 #@소속# 상담원 #@이름#입니다\nB.예 뭐 좀 여쭤볼게요 다름이 아니라 케이 에프 구 사 마스크 있잖아요\nA.네 저희 마스크 제품에 대한 문의십니까\nB.거기 옵션에 대형하고 소형밖에 없던데 중형은 없는 거예요\nA.#@상품# 맞으세요\nB.예 그거 맞아요\nA.네 이 상품은 대형이랑 소형만 판매되시고 중형은 따로 제작 안 되세요\nB.그래요 앞으로도 안 나오나요\nA.네 제조사 쪽에서 저희 쪽으로 입고 일정을 주신 거는 없습니다\nB.중학생이라 소형은 작고 대형은 지금 큰 거 같은데 구할 수가 없는 거죠",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.무엇이든 도와드리겠습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.무엇이든 도와드리겠습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+무엇/NP+이/VCP+든/EC+도와/VV+EC+드리/VX+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 뭐 좀 여쭤볼게요 다름이 아니라 케이 에프 구 사 마스크 있잖아요",
+            "norm_text": "B.예 뭐 좀 여쭤볼게요 다름이 아니라 케이 에프 구 사 마스크 있잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+뭐/IC+좀/MAG+여쭤/VV+EC+볼게요/VX+EF+다름/VA+ETN+이/JKC+아니/VCN+라/EC+케이/NNG+에프/NNG+구사/NR+마스크/NNG+있/VV+잖아요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 저희 마스크 제품에 대한 문의십니까",
+            "norm_text": "A.네 저희 마스크 제품에 대한 문의십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+저희/NP+마스크/NNG+제품/NNG+에/JKB+대한/VV+ETM+문의/NNG+십니까/VCP+EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.거기 옵션에 대형하고 소형밖에 없던데 중형은 없는 거예요",
+            "norm_text": "B.거기 옵션에 대형하고 소형밖에 없던데 중형은 없는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+거기/NP+옵션/NNG+에/JKB+대형/NNG+하/XSV+고/EC+소형/NNG+밖에/JX+없/VA+던데/EC+중형/NNG+은/JX+없/VA+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.#@상품# 맞으세요",
+            "norm_text": "A.#@상품# 맞으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+맞/VV+으세요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예 그거 맞아요",
+            "norm_text": "B.예 그거 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+그거/NP+맞/VV+아요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 이 상품은 대형이랑 소형만 판매되시고 중형은 따로 제작 안 되세요",
+            "norm_text": "A.네 이 상품은 대형이랑 소형만 판매되시고 중형은 따로 제작 안 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+이/MM+상품/NNG+은/JX+대형/NNG+이랑/JKB+소형/NNG+만/JX+판매/NNG+되/XSV+시/EP+고/EC+중형/NNG+은/JX+따로/MAG+제작/NNG+안/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그래요 앞으로도 안 나오나요",
+            "norm_text": "B.그래요 앞으로도 안 나오나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+앞/NNG+으로/JKB+도/JX+안/MAG+나오/VV+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 제조사 쪽에서 저희 쪽으로 입고 일정을 주신 거는 없습니다",
+            "norm_text": "A.네 제조사 쪽에서 저희 쪽으로 입고 일정을 주신 거는 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+제조사/NNG+쪽/NNB+에서/JKB+저희/NP+쪽/NNB+으로/JKB+입/VV+고/EC+일정/NNG+을/JKO+주/VV+신/EP+ETM+거/NNB+는/JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.중학생이라 소형은 작고 대형은 지금 큰 거 같은데 구할 수가 없는 거죠",
+            "norm_text": "B.중학생이라 소형은 작고 대형은 지금 큰 거 같은데 구할 수가 없는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+중학/NNG+생/XSN+이/VCP+라/EC+소형/NNG+은/JX+작/VA+고/EC+대형/NNG+은/JX+지금/MAG+큰/VA+ETM+거/NNB+같/VA+은/ETM+데/NNB+구할/VV+ETM+수/NNB+가/JKS+없/VA+는/ETM+거/NNB+죠/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

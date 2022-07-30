@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 5880,
+    "name": "c1_20210911_0005_0370_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151342032077/c1_20210911_0005_0370_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151342032077/c1_20210911_0005_0370_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10839,
+      "filename": "c1_20210820_0002_0004_01.txt",
+      "title": "c1_20210820_0002_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 272,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 272,
+        "word_size": 64,
+        "text": "A.네 무엇을 도와드릴까요\nB.뭐 좀 물어보려고요\nB.#@주소#가 혹시 번화가인가요\nB.시내랑 가까운 곳인지 좀 알아봐주시겠어요\nA.죄송하지만 시내권인지는 저희 쪽에서 확인이 어렵습니다\nA.해당 지역 부동산에 문의해보시면 자세히 알 수 있을 것 같습니다\nB.부동산이요 여기선 확인이 안 된다고요\nA.네 아님 시청에 전화해보시는 편이 좋을 듯 싶습니다\nB.시청이라고 해서 다 알지는 않잖아요\nA.그럼 토지 관련 부서로 한 번 연결해 드릴까요\nB.네 그렇게 해주실래요\nA.네 알겠습니다 바로 연결해 드리겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 무엇을 도와드릴까요",
+            "norm_text": "A.네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.뭐 좀 물어보려고요",
+            "norm_text": "B.뭐 좀 물어보려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+뭐/IC+좀/MAG+물/VV+어/EC+보/VX+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.#@주소#가 혹시 번화가인가요",
+            "norm_text": "B.#@주소#가 혹시 번화가인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+가/JKS+혹시/MAG+번화가/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.시내랑 가까운 곳인지 좀 알아봐주시겠어요",
+            "norm_text": "B.시내랑 가까운 곳인지 좀 알아봐주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+시내/NNG+랑/JKB+가까운/VA+ETM+곳/NNG+인지/VCP+EC+좀/MAG+알아봐/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.죄송하지만 시내권인지는 저희 쪽에서 확인이 어렵습니다",
+            "norm_text": "A.죄송하지만 시내권인지는 저희 쪽에서 확인이 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+시내/NNG+권/XSN+인지/VCP+EC+는/JX+저희/NP+쪽/NNB+에서/JKB+확인/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.해당 지역 부동산에 문의해보시면 자세히 알 수 있을 것 같습니다",
+            "norm_text": "A.해당 지역 부동산에 문의해보시면 자세히 알 수 있을 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+해당/NNG+지역/NNG+부동산/NNG+에/JKB+문의/NNG+해/XSV+EC+보/VX+시/EP+면/EC+자세히/MAG+알/VV+ETM+수/NNB+있/VV+을/ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.부동산이요 여기선 확인이 안 된다고요",
+            "norm_text": "B.부동산이요 여기선 확인이 안 된다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+부동산/NNG+이/VCP+요/EC+여기/NP+선/JKB+JX+확인/NNG+이/JKS+안/MAG+된다/VV+EC+고요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "A.네 아님 시청에 전화해보시는 편이 좋을 듯 싶습니다",
+            "norm_text": "A.네 아님 시청에 전화해보시는 편이 좋을 듯 싶습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+네/IC+아님/MAJ+시청/NNG+에/JKB+전화/NNG+해/XSV+EC+보/VX+시/EP+는/ETM+편/NNB+이/JKS+좋/VA+을/ETM+듯/NNB+싶/VX+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.시청이라고 해서 다 알지는 않잖아요",
+            "norm_text": "B.시청이라고 해서 다 알지는 않잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+시청/NNG+이/VCP+라고/EC+해서/VV+EC+다/MAG+알지/NNG+는/JX+않/VX+잖아요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.그럼 토지 관련 부서로 한 번 연결해 드릴까요",
+            "norm_text": "A.그럼 토지 관련 부서로 한 번 연결해 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+토지/NNG+관련/NNG+부서/NNG+로/JKB+한번/MAG+연결/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 그렇게 해주실래요",
+            "norm_text": "B.네 그렇게 해주실래요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+그렇게/MAG+해/VV+EC+주/VX+실래요/EP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 알겠습니다 바로 연결해 드리겠습니다",
+            "norm_text": "A.네 알겠습니다 바로 연결해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+바로/MAG+연결/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

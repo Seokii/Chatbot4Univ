@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 107054,
+    "name": "s3_20211104_0005_0086_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110825023213/s3_20211104_0005_0086_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110825023213/s3_20211104_0005_0086_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118822,
+      "filename": "s3_20210925_0017_0004_01.txt",
+      "title": "s3_20210925_0017_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 255,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 62,
+        "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다\nB.지금 방송하는 상품의 갯수가 총 몇 개예요\nA.#@상품#의 경우에는 구성에 따라 다른데요\nA.싱글 혹은 더블 구성이 있습니다\nB.싱글의 경우에는 몇 개인가요\nA.싱글 구성의 경우에는 아홉 개입니다\nB.그럼 더블 구성은 몇 개인가요\nA.더블은 싱글 구성의 딱 두 배이고요\nA.가격은 삼심 프로 할인된 가격으로 제공됩니다\nB.그럼 더블로 사는 것이 더 낫겠네요\nA.가격 면에서는 더블이 더 저렴합니다\nB.네 그럼 바로 구매할게요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.지금 방송하는 상품의 갯수가 총 몇 개예요",
+            "norm_text": "B.지금 방송하는 상품의 개수가 총 몇 개예요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+지금/MAG+방송/NNG+하/XSV+는/ETM+상품/NNG+의/JKG+갯/NNP+수/NNB+가/JKS+총/MM+몇/MM+개/NNBC+예요/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.#@상품#의 경우에는 구성에 따라 다른데요",
+            "norm_text": "A.#@상품#의 경우에는 구성에 따라 다른데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+의/JKG+경우/NNG+에/JKB+는/JX+구성/NNG+에/JKB+따라/VV+EC+다른/MM+데/NNB+요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.싱글 혹은 더블 구성이 있습니다",
+            "norm_text": "A.싱글 혹은 더블 구성이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+싱글/MAG+혹은/MAJ+더블/NNG+구성/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.싱글의 경우에는 몇 개인가요",
+            "norm_text": "B.싱글의 경우에는 몇 개인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+싱글/NNG+의/JKG+경우/NNG+에/JKB+는/JX+몇/MM+개/NNBC+인가요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.싱글 구성의 경우에는 아홉 개입니다",
+            "norm_text": "A.싱글 구성의 경우에는 아홉 개입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+싱글/MAG+구성/NNG+의/JKG+경우/NNG+에/JKB+는/JX+아홉/NR+개/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그럼 더블 구성은 몇 개인가요",
+            "norm_text": "B.그럼 더블 구성은 몇 개인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+더블/NNG+구성/NNG+은/JX+몇/MM+개/NNBC+인가요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.더블은 싱글 구성의 딱 두 배이고요",
+            "norm_text": "A.더블은 싱글 구성의 딱 두 배이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+더블/NNG+은/JX+싱글/MAG+구성/NNG+의/JKG+딱/MAG+두/MM+배/NNG+이/VCP+고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.가격은 삼심 프로 할인된 가격으로 제공됩니다",
+            "norm_text": "A.가격은 삼십 프로 할인된 가격으로 제공됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가격/NNG+은/JX+삼심/NNG+프로/NNG+할인/NNG+된/XSV+ETM+가격/NNG+으로/JKB+제공/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 더블로 사는 것이 더 낫겠네요",
+            "norm_text": "B.그럼 더블로 사는 것이 더 낫겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그럼/MAJ+더블/NNG+로/JKB+사/VV+는/ETM+것/NNB+이/JKS+더/MAG+낫/VA+겠/EP+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.가격 면에서는 더블이 더 저렴합니다",
+            "norm_text": "A.가격 면에서는 더블이 더 저렴합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가/JKS+격면/NNG+에서/JKB+는/JX+더블/NNG+이/JKS+더/MAG+저렴/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.네 그럼 바로 구매할게요",
+            "norm_text": "B.네 그럼 바로 구매할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+바로/MAG+구매/NNG+할게요/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "dataset": {
+    "identifier": 82302,
+    "name": "KAKAO_1406_01_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/60/txt202110191324100903101/KAKAO_1406_01_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/60/txt202110191324100903101/KAKAO_1406_01_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 76426,
+      "filename": "KAKAO_1406_01.txt",
+      "title": "KAKAO_1406_01",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-19",
+      "size": 917,
+      "annotations": {
+        "subject": "식음료",
+        "speaker_type": "다자간 대화",
+        "size": 917,
+        "word_size": 300,
+        "text": "1 : 아침에 원래 커피 한잔으로 시작해야 되는데 커피 한잔 못 마셨다고 엄청 피곤하네...\n2 : 커피도 너무 자주 마시면 별로 안 좋아\n3 : 나는 지금 커피 마시려고 하는데 무슨 커피 사먹을까?\n3 : 추천 받는다\n1 : 커피는 역시 아아지\n1 : 나도 커피가 마시고 싶다...\n1 : 너무 졸려\n2 : 너 원래 맨날 사 먹잖아\n2 : 오늘 왜 못 샀어?\n3 : 그러게 오늘은 아침에 운동 안 다녀왔어?\n1 : 운동 다녀왔는데 오늘 근로 때문에 너무 일찍 갔다 와서 문 연 커피집이 하나도 없더라...\n2 : 커피집이 안 열 정도로 일찍 일어났다고?\n3 : 진짜?\n3 : 얼마나 일찍 다녀온 거야~ 키키\n1 : 5시 반에 일어나서 갔다 왔어...\n1 : 그래도 아침이라도 먹어서 다행이지 뭐\n2 : 아침 메뉴로 뭐 나왔어 오늘은?\n3 : 아 나도 배고프다\n3 : 지금 요거트 먹고 있는데 배가 안 차네\n3 : 또 뭐 먹을까?\n1 : 아침에 만둣국 나왔는데 만두가 너무 쪼꼬미였어.\n1 : 요거트 먹고 쿠키?\n2 : 나도 아침 시켜 먹으려 하는데 뭐가 좋을까?\n3 : 아침부터 달달한 쿠키는 좀...\n3 : 그냥 밥 차려 먹어야겠다\n1 : 아침부터 배달은 너무 헤비하지 않을까?\n1 : 우리 아침에는 건강한 집밥으로 시작하자...\n2 : 집에 햇반밖에 없는데... 반찬 가게라도 다녀와야 되나\n3 : 그래그래 얼른 다녀와\n3 : 부지런하게 살자 우리\n1 : 그니까 반찬 가게에서 반찬 5종류 만원 이런 거 사다 먹어도 괜찮지\n2 : 5종류 만원에 파는 데가 어딨어\n2 : 나도 알려줘\n3 : 그래 나도 알려줘\n3 : 나도 본 적 없어\n3 : 나도 거기 갈래\n1 : 도깨비 시장 쪽 가면 있지 않아?\n1 : 4팩 만원인가 5팩 만원인가 봤었던 거 같아\n1 : 그게 배달보다 나은 거 같아\n2 : 오 다녀와봐야겠다\n2 : 맛은 어떤데?\n3 : 진짜? 대박이네\n3 : 거기가 반찬 맛집이구나\n3 : 다음에 꼭 가봐야지",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 아침에 원래 커피 한잔으로 시작해야 되는데 커피 한잔 못 마셨다고 엄청 피곤하네...",
+            "norm_text": "아침에 원래 커피 한잔으로 시작해야 되는데 커피 한잔 못 마셨다고 엄청 피곤하네...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아침/NNG+에/JKB+원래/MAG+커피/NNG+한잔/NNG+으로/JKB+시작/NNG+해야/XSV+EC+되/VV+는데/EC+커피/NNG+한/XSA+ETM+잔못/NNG+마셨/VV+EP+다고/EC+엄청/MAG+피곤/NNG+하/XSA+네/EF+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 커피도 너무 자주 마시면 별로 안 좋아",
+            "norm_text": "커피도 너무 자주 마시면 별로 안 좋아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "커피/NNG+도/JX+너무/MAG+자주/MAG+마시/VV+면/EC+별로/MAG+안/MAG+좋/VA+아/EC"
+          },
+          {
+            "id": 3,
+            "text": "3 : 나는 지금 커피 마시려고 하는데 무슨 커피 사먹을까?",
+            "norm_text": "나는 지금 커피 마시려고 하는데 무슨 커피 사먹을까?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+지금/MAG+커피/NNG+마시/VV+려고/EC+하/VV+는데/EC+무슨/MM+커피/NNG+사먹/VV+을까/EF"
+          },
+          {
+            "id": 4,
+            "text": "3 : 추천 받는다",
+            "norm_text": "추천 받는다",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "추천/NNG+받/VV+는다/EC"
+          },
+          {
+            "id": 5,
+            "text": "1 : 커피는 역시 아아지",
+            "norm_text": "커피는 역시 아아지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "커피/NNG+는/JX+역시/MAJ+아/IC+아지/NNG"
+          },
+          {
+            "id": 6,
+            "text": "1 : 나도 커피가 마시고 싶다...",
+            "norm_text": "나도 커피가 마시고 싶다...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+커피/NNG+가/JKS+마시/VV+고/EC+싶/VX+다/EF+./SY"
+          },
+          {
+            "id": 7,
+            "text": "1 : 너무 졸려",
+            "norm_text": "너무 졸려",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "너무/MAG+졸려/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 너 원래 맨날 사 먹잖아",
+            "norm_text": "너 원래 맨날 사 먹잖아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "너/NP+원래/MAG+맨날/MAG+사먹/VV+잖아/EC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 오늘 왜 못 샀어?",
+            "norm_text": "오늘 왜 못 샀어?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "오늘/MAG+왜/MAG+못/MAG+샀/VV+EP+어/EF"
+          },
+          {
+            "id": 10,
+            "text": "3 : 그러게 오늘은 아침에 운동 안 다녀왔어?",
+            "norm_text": "그러게 오늘은 아침에 운동 안 다녀왔어?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그러게/IC+오늘/MAG+은/JX+아침/NNG+에/JKB+운동/NNG+안/MAG+다녀왔/VV+EP+어/EF"
+          },
+          {
+            "id": 11,
+            "text": "1 : 운동 다녀왔는데 오늘 근로 때문에 너무 일찍 갔다 와서 문 연 커피집이 하나도 없더라...",
+            "norm_text": "운동 다녀왔는데 오늘 근로 때문에 너무 일찍 갔다 와서 문 연 커피집이 하나도 없더라...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "운동/NNG+다녀왔/VV+EP+는데/EC+오늘/MAG+근로/NNG+때문/NNB+에/JKB+너무/MAG+일찍/MAG+갔/VV+EP+다/EC+와서/VV+EC+문연/NNP+커피/NNG+집/NNG+이/JKS+하나/NR+도/JX+없/VA+더라/EF+./SY"
+          },
+          {
+            "id": 12,
+            "text": "2 : 커피집이 안 열 정도로 일찍 일어났다고?",
+            "norm_text": "커피집이 안 열 정도로 일찍 일어났다고?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "커피/NNG+집/NNG+이/JKS+안/MAG+열/NR+정도/NNG+로/JKB+일찍/MAG+일어났/VV+EP+다고/EF"
+          },
+          {
+            "id": 13,
+            "text": "3 : 진짜?",
+            "norm_text": "진짜?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "턴토크 사인(관습적 반응)",
+            "morpheme": "진짜/MAG"
+          },
+          {
+            "id": 14,
+            "text": "3 : 얼마나 일찍 다녀온 거야~ 키키",
+            "norm_text": "얼마나 일찍 다녀온 거야~ 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "얼마나/MAG+일찍/MAG+다녀온/VV+ETM+거/NNB+야/VCP+EF+~/SY+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 15,
+            "text": "1 : 5시 반에 일어나서 갔다 왔어...",
+            "norm_text": "5시 반에 일어나서 갔다 왔어...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "5/SN+시/NNBC+반/NNG+에/JKB+일어나/VV+서/EC+갔다왔/VV+EP+어/EF+./SY"
+          },
+          {
+            "id": 16,
+            "text": "1 : 그래도 아침이라도 먹어서 다행이지 뭐",
+            "norm_text": "그래도 아침이라도 먹어서 다행이지 뭐",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+아침/NNG+이/VCP+라도/EC+먹/VV+어서/EC+다행/NNG+이/VCP+지/EF+뭐/IC"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아침 메뉴로 뭐 나왔어 오늘은?",
+            "norm_text": "아침 메뉴로 뭐 나왔어 오늘은?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아침/NNG+메뉴/NNG+로/JKB+뭐/IC+나왔/VV+EP+어/EC+오늘/NNG+은/JX"
+          },
+          {
+            "id": 18,
+            "text": "3 : 아 나도 배고프다",
+            "norm_text": "아 나도 배고프다",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+나/NP+도/JX+배고프/VA+다/EC"
+          },
+          {
+            "id": 19,
+            "text": "3 : 지금 요거트 먹고 있는데 배가 안 차네",
+            "norm_text": "지금 요거트 먹고 있는데 배가 안 차네",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "지금/MAG+요/MM+거트/NNG+먹/VV+고/EC+있/VX+는데/EC+배/NNG+가/JKS+안/MAG+차/VV+네/EC"
+          },
+          {
+            "id": 20,
+            "text": "3 : 또 뭐 먹을까?",
+            "norm_text": "또 뭐 먹을까?",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "또/MAG+뭐/IC+먹/VV+을까/EF"
+          },
+          {
+            "id": 21,
+            "text": "1 : 아침에 만둣국 나왔는데 만두가 너무 쪼꼬미였어.",
+            "norm_text": "아침에 만둣국 나왔는데 만두가 너무 쪼꼬미였어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "아침/NNG+에/JKB+만둣국/NNG+나왔/VV+EP+는데/EC+만두/NNG+가/JKS+너무/MAG+쪼/VV+꼬/EC+미였/VV+EP+어/EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 요거트 먹고 쿠키?",
+            "norm_text": "요거트 먹고 쿠키?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요/MM+거트/NNG+먹/VV+고/EC+쿠키/NNG"
+          },
+          {
+            "id": 23,
+            "text": "2 : 나도 아침 시켜 먹으려 하는데 뭐가 좋을까?",
+            "norm_text": "나도 아침 시켜 먹으려 하는데 뭐가 좋을까?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+도/JX+아침/NNG+시켜/XSV+EC+먹/VV+으려/EC+하/VV+는데/EC+뭐/NP+가/JKS+좋/VA+을까/EF"
+          },
+          {
+            "id": 24,
+            "text": "3 : 아침부터 달달한 쿠키는 좀...",
+            "norm_text": "아침부터 달달한 쿠키는 좀...",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 반박하기",
+            "morpheme": "아침/NNG+부터/JX+달달/MAG+한/XSA+ETM+쿠키/NNG+는/JX+좀/MAG+./SY"
+          },
+          {
+            "id": 25,
+            "text": "3 : 그냥 밥 차려 먹어야겠다",
+            "norm_text": "그냥 밥 차려 먹어야겠다",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그냥/MAG+밥/NNG+차려/VV+EC+먹/VV+어야/EC+겠다/VX+EP+EC"
+          },
+          {
+            "id": 26,
+            "text": "1 : 아침부터 배달은 너무 헤비하지 않을까?",
+            "norm_text": "아침부터 배달은 너무 헤비하지 않을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아침/NNG+부터/JX+배달/NNG+은/JX+너무/MAG+헤비/NNG+하/XSV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 27,
+            "text": "1 : 우리 아침에는 건강한 집밥으로 시작하자...",
+            "norm_text": "우리 아침에는 건강한 집밥으로 시작하자...",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "우리/NP+아침/NNG+에/JKB+는/JX+건강/NNG+한/XSA+ETM+집/NNG+밥/NNG+으로/JKB+시작/NNG+하/XSA+자/EF+./SY"
+          },
+          {
+            "id": 28,
+            "text": "2 : 집에 햇반밖에 없는데... 반찬 가게라도 다녀와야 되나",
+            "norm_text": "집에 햇반밖에 없는데... 반찬 가게라도 다녀와야 되나",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "집/NNG+에/JKB+햇/VV+EP+반/NNG+밖에/JX+없/VA+는데/EC+./SY+./SY+반찬/NNG+가게/NNG+라도/VCP+EC+다녀와야/VV+EC+되/VV+나/EC"
+          },
+          {
+            "id": 29,
+            "text": "3 : 그래그래 얼른 다녀와",
+            "norm_text": "그래그래 얼른 다녀와",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래그래/IC+얼른/MAG+다녀와/VV+EC"
+          },
+          {
+            "id": 30,
+            "text": "3 : 부지런하게 살자 우리",
+            "norm_text": "부지런하게 살자 우리",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "부지런/NNG+하/XSV+게/EC+살/VV+자/EC+우리/NP"
+          },
+          {
+            "id": 31,
+            "text": "1 : 그니까 반찬 가게에서 반찬 5종류 만원 이런 거 사다 먹어도 괜찮지",
+            "norm_text": "그니까 반찬 가게에서 반찬 5종류 만원 이런 거 사다 먹어도 괜찮지",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그니까/MAJ+반찬/NNG+가게/NNG+에서/JKB+반찬/NNG+5/SN+종류/NNBC+만/NR+원/NNBC+이런/MM+거사/NNG+다/MAG+먹/VV+어도/EC+괜찮/VA+지/EC"
+          },
+          {
+            "id": 32,
+            "text": "2 : 5종류 만원에 파는 데가 어딨어",
+            "norm_text": "5종류 만원에 파는 데가 어딨어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "5/SN+종류/NNBC+만/NR+원/NNBC+에/JKB+파/VV+는/ETM+데/NNB+가/JKS+어딨/VA+어/EC"
+          },
+          {
+            "id": 33,
+            "text": "2 : 나도 알려줘",
+            "norm_text": "나도 알려줘",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "나/NP+도/JX+알려줘/VV+EC+VX+EC"
+          },
+          {
+            "id": 34,
+            "text": "3 : 그래 나도 알려줘",
+            "norm_text": "그래 나도 알려줘",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 부탁하기",
+            "morpheme": "그래/IC+나/NP+도/JX+알려줘/VV+EC+VX+EC"
+          },
+          {
+            "id": 35,
+            "text": "3 : 나도 본 적 없어",
+            "norm_text": "나도 본 적 없어",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+본/VX+ETM+적/NNB+없/VA+어/EC"
+          },
+          {
+            "id": 36,
+            "text": "3 : 나도 거기 갈래",
+            "norm_text": "나도 거기 갈래",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+거기/NP+갈래/VV+EC"
+          },
+          {
+            "id": 37,
+            "text": "1 : 도깨비 시장 쪽 가면 있지 않아?",
+            "norm_text": "도깨비 시장 쪽 가면 있지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "도깨비시장/NNG+쪽/NNB+가/VV+면/EC+있/VX+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 38,
+            "text": "1 : 4팩 만원인가 5팩 만원인가 봤었던 거 같아",
+            "norm_text": "4팩 만원인가 5팩 만원인가 봤었던 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "4/SN+팩/NNG+만/NR+원/NNBC+인가/VCP+EC+5/SN+팩/NNG+만/NR+원/NNBC+인가/VCP+EC+봤었/VX+EP+던/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 39,
+            "text": "1 : 그게 배달보다 나은 거 같아",
+            "norm_text": "그게 배달보다 나은 거 같아",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그게/NP+JKS+배달/NNG+보다/JKB+나/VA+은/ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 40,
+            "text": "2 : 오 다녀와봐야겠다",
+            "norm_text": "오 다녀와봐야겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+다녀와/VV+EC+봐야/VX+EC+VV+겠/EP+다/EC"
+          },
+          {
+            "id": 41,
+            "text": "2 : 맛은 어떤데?",
+            "norm_text": "맛은 어떤데?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "맛/NNG+은/JX+어떤데/VA+EC"
+          },
+          {
+            "id": 42,
+            "text": "3 : 진짜? 대박이네",
+            "norm_text": "진짜? 대박이네",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "진짜/MAG+대박/NNG+이/VCP+네/EC"
+          },
+          {
+            "id": 43,
+            "text": "3 : 거기가 반찬 맛집이구나",
+            "norm_text": "거기가 반찬 맛집이구나",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "거기/NP+가/JKS+반찬/NNG+맛집/NNG+이/VCP+구나/EC"
+          },
+          {
+            "id": 44,
+            "text": "3 : 다음에 꼭 가봐야지",
+            "norm_text": "다음에 꼭 가봐야지",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "다음/NNG+에/JKB+꼭/MAG+가/VV+봐야지/EC+VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

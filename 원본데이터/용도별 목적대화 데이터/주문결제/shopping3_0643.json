@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 11249,
+    "name": "s3_20210913_0010_0784_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416038638/s3_20210913_0010_0784_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416038638/s3_20210913_0010_0784_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11849,
+      "filename": "s3_20210826_0016_0001_01.txt",
+      "title": "s3_20210826_0016_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 215,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 215,
+        "word_size": 50,
+        "text": "A.안녕하세요 #@소속# #@이름# 입니다\nB.여보세요 거기가 마스크 판매 업체 맞나요\nA.네 맞습니다무엇을 도와드릴까요\nB.제가 마스크 주문했는데요\nB.#@상품#을 주문했는데 블랙 하나랑 화이트 두 개 다 주문했거든요\nA.네 고객님 블랙 화이트를 주문 하셨구요\nB.그런데 마스크가 화이트 밖에 안 왔어요\nA.블랙 마스크가 배송이 안 되었단 말씀이십니까\nB.네 맞아요 블랙 마스크는 배송이 안 왔어요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여보세요 거기가 마스크 판매 업체 맞나요",
+            "norm_text": "B.여보세요 거기가 마스크 판매 업체 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여보세요/IC+거기/NP+가/JKS+마스크/NNG+판매/NNG+업체/NNG+맞/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 맞습니다무엇을 도와드릴까요",
+            "norm_text": "A.네 맞습니다무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 마스크 주문했는데요",
+            "norm_text": "B.제가 마스크 주문했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+마스크/NNG+주문/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.#@상품#을 주문했는데 블랙 하나랑 화이트 두 개 다 주문했거든요",
+            "norm_text": "B.#@상품#을 주문했는데 블랙 하나랑 화이트 두 개 다 주문했거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+을/JKO+주문/NNG+했/XSV+EP+는데/EC+블랙/NNG+하나/NR+랑/JC+화이트/NNP+두/MM+개/NNBC+다/MAG+주문/NNG+했/XSV+EP+거든요/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.네 고객님 블랙 화이트를 주문 하셨구요",
+            "norm_text": "A.네 고객님 블랙 화이트를 주문 하셨구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+블랙/NNG+화이트/NNP+를/JKO+주문/NNG+하/XSV+셨/EP+EP+구요/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그런데 마스크가 화이트 밖에 안 왔어요",
+            "norm_text": "B.그런데 마스크가 화이트 밖에 안 왔어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그런데/MAJ+마스크/NNG+가/JKS+화이트/NNP+밖에/JX+안/MAG+왔어요/VV+EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.블랙 마스크가 배송이 안 되었단 말씀이십니까",
+            "norm_text": "A.블랙 마스크가 배송이 안 되었단 말씀이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+블랙/NNG+마스크/NNG+가/JKS+배송/NNG+이/JKS+안/MAG+되/VV+었/EP+단/ETM+말씀/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 맞아요 블랙 마스크는 배송이 안 왔어요",
+            "norm_text": "B.네 맞아요 블랙 마스크는 배송이 안 왔어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+블랙/NNG+마스크/NNG+는/JX+배송/NNG+이/JKS+안/MAG+왔어요/VV+EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

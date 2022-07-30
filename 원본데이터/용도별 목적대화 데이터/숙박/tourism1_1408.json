@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 150858,
+    "name": "t1_20211117_0002_0363_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720008377/t1_20211117_0002_0363_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720008377/t1_20211117_0002_0363_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148665,
+      "filename": "t1_0074_0081_02.txt",
+      "title": "t1_0074_0081_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 290,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 290,
+        "word_size": 68,
+        "text": "A. 반갑습니다 #@소속# 고객센터 상담원 #@이름#입니다\nB. 홍천 숙소 예약하려는데 어디가 괜찮은지 추천 부탁드립니다\nB. 희망사항이긴 하지만 한적하고 뷰 좋은 호텔 있을까요\nA. 그러시면 화양강 호텔은 어떠실까요\nB. 위치가 어디쯤인가요 도착하고 바로 갈 수 있는곳이면 해서요\nA. 강원도 홍천군 #@주소#에 위치해 있습니다\nB. 호텔 뷰가 괜찮은가요\nA. 네 고객님 희망사항처럼 한적하고 주변을 둘러보기 좋은 호텔입니다\nB. 그럼 저기로 알아볼게요 감사합니다\nA. 행복한 하루 되시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 #@소속# 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A. 반갑습니다 #@소속# 고객센터 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 홍천 숙소 예약하려는데 어디가 괜찮은지 추천 부탁드립니다",
+            "norm_text": "B. 홍천 숙소 예약하려는데 어디가 괜찮은지 추천 부탁드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+홍천/NNG+숙소/NNG+예약/NNG+하/XSV+려는데/EC+어디/NP+가/JKS+괜찮/VA+은지/EC+추천/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "B. 희망사항이긴 하지만 한적하고 뷰 좋은 호텔 있을까요",
+            "norm_text": "B. 희망사항이긴 하지만 한적하고 뷰 좋은 호텔 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+희망/NNG+사항/NNG+이/VCP+긴/ETN+JX+하/VX+지만/EC+한적/XR+하/XSA+고/EC+뷰/NNP+좋/VA+은/ETM+호텔/NNG+있/VV+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A. 그러시면 화양강 호텔은 어떠실까요",
+            "norm_text": "A. 그러시면 화양강 호텔은 어떠실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+화/NNG+양강/NNG+호텔/NNG+은/JX+어떠실까/VA+EP+EC+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "B. 위치가 어디쯤인가요 도착하고 바로 갈 수 있는곳이면 해서요",
+            "norm_text": "B. 위치가 어디쯤인가요 도착하고 바로 갈 수 있는곳이면 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+위치/NNG+가/JKS+어디/NP+쯤/XSN+인가요/VCP+EC+도착/NNG+하/XSV+고/EC+바로/MAG+갈/VV+ETM+수/NNB+있/VV+는/ETM+곳/NNG+이/VCP+면/EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A. 강원도 홍천군 #@주소#에 위치해 있습니다",
+            "norm_text": "A. 강원도 홍천군 #@주소#에 위치해 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+강원도/NNP+홍천군/NNP+#/SY+@/SY+주소/NNG+#/SY+에/JKB+위치/NNG+해/XSV+EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B. 호텔 뷰가 괜찮은가요",
+            "norm_text": "B. 호텔 뷰가 괜찮은가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+호텔/NNG+뷰/NNP+가/JKS+괜찮/VA+은/ETM+가요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "A. 네 고객님 희망사항처럼 한적하고 주변을 둘러보기 좋은 호텔입니다",
+            "norm_text": "A. 네 고객님 희망사항처럼 한적하고 주변을 둘러보기 좋은 호텔입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+희망/NNG+사항/NNG+처럼/JKB+한적/XR+하/XSA+고/EC+주변/NNG+을/JKO+둘러보/VV+기/ETN+좋/VA+은/ETM+호텔/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B. 그럼 저기로 알아볼게요 감사합니다",
+            "norm_text": "B. 그럼 저기로 알아볼게요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그럼/MAJ+저기/NP+로/JKB+알아볼/VV+ETM+게/NNB+JKS+요/MM+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 행복한 하루 되시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 행복한 하루 되시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

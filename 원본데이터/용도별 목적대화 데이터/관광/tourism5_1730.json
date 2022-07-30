@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 158214,
+    "name": "t5_20211119_0010_2086_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135913010743/t5_20211119_0010_2086_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135913010743/t5_20211119_0010_2086_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155541,
+      "filename": "t5_0066_0143_02.txt",
+      "title": "t5_0066_0143_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 312,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 312,
+        "word_size": 62,
+        "text": "A.소중히 모시겠습니다 #@소속# #@이름# 상담사입니다\nB.인터넷 보니까 시티투어 특별코스가 있다는데 맞나요\nA.네 순환코스 정기코스 이외에 특별코스도 따로 마련되어 있습니다\nB.그거 알려주시겠어요 궁금해서 찾아보려는데 안 나와서요\nA.특별코스의 경우에는 #@소속#시티투어 홈페이지를 참고해 주세요\nB.원래 따로 안 나와 있는 건가요 홈페이지 봐야해요\nA.네 #@소속#투어 홈페이지에만 나와 있으니 참고 부탁드려요\nB.그럼 혹시 홈페이지 주소좀 알려주시겠어요\nA.#@URL# 주소창에 입력해주세요\nB.네 알겠습니다 알려주셔서 감사해요\nA.네 좋은 하루 되세요 #@이름# 상담사였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.소중히 모시겠습니다 #@소속# #@이름# 상담사입니다",
+            "norm_text": "A.소중히 모시겠습니다 #@소속# #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+소중히/MAG+모시/VV+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.인터넷 보니까 시티투어 특별코스가 있다는데 맞나요",
+            "norm_text": "B.인터넷 보니까 시티투어 특별코스가 있다는데 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+인터넷/NNG+보/VV+니까/EC+시티투어/NNP+특별/NNG+코스/NNG+가/JKS+있/VA+다는/ETM+데/NNB+맞/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 순환코스 정기코스 이외에 특별코스도 따로 마련되어 있습니다",
+            "norm_text": "A.네 순환코스 정기코스 이외에 특별코스도 따로 마련되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+순환/NNG+코스/NNG+정기/NNG+코스/NNG+이외/NNG+에/JKB+특별/NNG+코스/NNG+도/JX+따로/MAG+마련/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그거 알려주시겠어요 궁금해서 찾아보려는데 안 나와서요",
+            "norm_text": "B.그거 알려 주시겠어요 궁금해서 찾아보려는데 안 나와서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그거/NP+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF+궁금/XR+해서/XSA+EC+찾아보/VV+려는데/EC+안/MAG+나와/VV+EC+서요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.특별코스의 경우에는 #@소속#시티투어 홈페이지를 참고해 주세요",
+            "norm_text": "A.특별코스의 경우에는 #@소속#시티투어 홈페이지를 참고해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+특별/NNG+코스/NNG+의/JKG+경우/NNG+에/JKB+는/JX+#/SY+@/SY+소속/NNG+#/SY+시티투어/NNP+홈페이지/NNG+를/JKO+참고/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.원래 따로 안 나와 있는 건가요 홈페이지 봐야해요",
+            "norm_text": "B.원래 따로 안 나와 있는 건가요 홈페이지 봐야 해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+원래/MAG+따로/MAG+안/MAG+나와/VV+EC+있/VX+는/ETM+건가요/NNB+VCP+EC+홈페이지/NNG+봐야/VV+EC+해요/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 #@소속#투어 홈페이지에만 나와 있으니 참고 부탁드려요",
+            "norm_text": "A.네 #@소속#투어 홈페이지에만 나와 있으니 참고 부탁드려요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+투어/NNG+홈페이지/NNG+에/JKB+만/JX+나와/VV+EC+있/VX+으니/EC+참고/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 혹시 홈페이지 주소좀 알려주시겠어요",
+            "norm_text": "B.그럼 혹시 홈페이지 주소 좀 알려 주시겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+혹시/MAG+홈페이지/NNG+주소/NNG+좀/MAG+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.#@URL# 주소창에 입력해주세요",
+            "norm_text": "A.#@URL# 주소창에 입력해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+URL/SL+#/SY+주소창/NNP+에/JKB+입력/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 알겠습니다 알려주셔서 감사해요",
+            "norm_text": "B.네 알겠습니다 알려 주셔서 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 좋은 하루 되세요 #@이름# 상담사였습니다",
+            "norm_text": "A.네 좋은 하루 보내세요 #@이름# 상담사였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

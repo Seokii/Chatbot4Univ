@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 12060,
+    "name": "c1_20210913_0005_0611_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340038066/c1_20210913_0005_0611_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151340038066/c1_20210913_0005_0611_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10558,
+      "filename": "c1_20210819_0006_0010_01.txt",
+      "title": "c1_20210819_0006_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 340,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 340,
+        "word_size": 78,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다 통화 가능하신가요\nB.네 안녕하세요 #@소속# #@이름#입니다\nB.예 지금 통화 가능합니다\nA.민원님께서 중소 기업 육성 자금 담당 문의하셨습니다\nB.네 중소 기업 육성 자금이요\nB.혹시 정확한 업무 내용 아십니까\nA.아니요 그것까진 말씀 안 해주셨습니다\nB.이걸 누구한테 연결해 줘야 하나\nA.혹시 세부 업무마다 담당자가 다른 겁니까\nA.그러면 제가 민원인과 다시 상담해보겠습니다\nB.아니면 제가 일단 민원인과 이야기해보겠습니다\nB.그러고 나서 이 안에서 전화 돌려도 될 것 같네요\nA.그렇게 하는 게 편하시겠습니까\nB.예 그게 좋겠네요 돌려주세요\nA.연결하겠습니다 바로 통화 하시면 됩니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다 통화 가능하신가요",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다 통화 가능하신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+통화/NNG+가능/NNG+하/XSV+신가요/EP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "B.네 안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.예 지금 통화 가능합니다",
+            "norm_text": "B.예 지금 통화 가능합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+지금/MAG+통화/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.민원님께서 중소 기업 육성 자금 담당 문의하셨습니다",
+            "norm_text": "A.민원님께서 중소 기업 육성 자금 담당 문의하셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+민원/NNG+님/XSN+께서/JKS+중소기업/NNG+육성/NNG+자금/NNG+담당/NNG+문의/NNG+하/XSV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.네 중소 기업 육성 자금이요",
+            "norm_text": "B.네 중소 기업 육성 자금이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+중소기업/NNG+육성/NNG+자금/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.혹시 정확한 업무 내용 아십니까",
+            "norm_text": "B.혹시 정확한 업무 내용 아십니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": "B/SL+혹시/MAG+정확/XR+한/XSA+ETM+업무/NNG+내용/NNG+아십니까/VV+EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.아니요 그것까진 말씀 안 해주셨습니다",
+            "norm_text": "A.아니요 그것까진 말씀 안 해주셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아니요/IC+그것/NP+까진/JX+VCP+ETM+말씀/NNG+안/MAG+해/VV+EC+주/VX+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.이걸 누구한테 연결해 줘야 하나",
+            "norm_text": "B.이걸 누구한테 연결해 줘야 하나",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이걸/NP+JKO+누구/NP+한테/JKB+연결/NNG+해/XSV+EC+줘야/VX+EC+하나/NR"
+          },
+          {
+            "id": 9,
+            "text": "A.혹시 세부 업무마다 담당자가 다른 겁니까",
+            "norm_text": "A.혹시 세부 업무마다 담당자가 다른 겁니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+세부/NNG+업무/NNG+마다/JX+담당자/NNG+가/JKS+다른/VA+ETM+겁니까/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.그러면 제가 민원인과 다시 상담해보겠습니다",
+            "norm_text": "A.그러면 제가 민원인과 다시 상담해보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러면/MAJ+제/NP+가/JKS+민원인/NNG+과/JKB+다시/MAG+상담/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.아니면 제가 일단 민원인과 이야기해보겠습니다",
+            "norm_text": "B.아니면 제가 일단 민원인과 이야기해보겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니면/MAJ+제/NP+가/JKS+일단/MAG+민원인/NNG+과/JC+이야기/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.그러고 나서 이 안에서 전화 돌려도 될 것 같네요",
+            "norm_text": "B.그러고 나서 이 안에서 전화 돌려도 될 것 같네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러/VV+고/EC+나/VX+서/EC+이안/NNG+에서/JKB+전화/NNG+돌려도/VV+EC+될/VV+ETM+것/NNB+같/VA+네요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.그렇게 하는 게 편하시겠습니까",
+            "norm_text": "A.그렇게 하는 게 편하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그렇게/MAG+하/VV+는/ETM+게/NNB+JKS+편하/VA+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 14,
+            "text": "B.예 그게 좋겠네요 돌려주세요",
+            "norm_text": "B.예 그게 좋겠네요 돌려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+그게/NP+JKS+좋/VA+겠/EP+네요/EF+돌려주/VV+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.연결하겠습니다 바로 통화 하시면 됩니다",
+            "norm_text": "A.연결하겠습니다 바로 통화 하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+연결/NNG+하/XSV+겠/EP+습니다/EF+바로/MAG+통화/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

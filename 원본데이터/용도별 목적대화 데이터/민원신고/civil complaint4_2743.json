@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 56572,
+    "name": "c4_20211019_0001_2883_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130702091680/c4_20211019_0001_2883_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130702091680/c4_20211019_0001_2883_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49926,
+      "filename": "c4_20210903_0008_0026_01.txt",
+      "title": "c4_20210903_0008_0026_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 306,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 306,
+        "word_size": 62,
+        "text": "A.전화주셔서 감사합니다 #@소속# #@이름# 상담원입니다\nB.수고하십니다 #@주소#에 그늘막이 없어졌더라고요\nA.네 #@주소#에 그늘막 말씀이십니까\nB.그늘막이 없어져서 횡단보도에 기다릴때 너무 더워요\nA.네 불편드려 죄송합니다 금년 그늘막 설치 사업은 종료된 것으로 확인 됩니다\nB.올해는 그늘막을 안한다는 말인가요\nA.네 올해는 사업 종료했고요 담당부서에 건의 하도록 하겠습니다\nB.네 감사합니다 꼭 건의 좀 해주세요\nA.네 알겠습니다 추가 설명이 필요하신 경우 #@전번#으로 연락주세요\nB.네 #@전번#이요 알겠습니다\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화주셔서 감사합니다 #@소속# #@이름# 상담원입니다",
+            "norm_text": "A.전화주셔서 감사합니다 #@소속# #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고하십니다 #@주소#에 그늘막이 없어졌더라고요",
+            "norm_text": "B.수고하십니다 #@주소#에 그늘막이 없어졌더라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+#/SY+@/SY+주소/NNG+#/SY+에/JKB+그늘막/NNG+이/JKS+없/VA+어/EC+졌/VX+EP+더라고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 #@주소#에 그늘막 말씀이십니까",
+            "norm_text": "A.네 #@주소#에 그늘막 말씀이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+에/JKB+그늘막/NNG+말씀/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그늘막이 없어져서 횡단보도에 기다릴때 너무 더워요",
+            "norm_text": "B.그늘막이 없어져서 횡단보도에 기다릴때 너무 더워요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+그늘막/NNG+이/JKS+없/VA+어/EC+져서/VX+EC+횡단보도/NNG+에/JKB+기다릴/VV+ETM+때/NNG+너무/MAG+더워/VA+EC+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.네 불편드려 죄송합니다 금년 그늘막 설치 사업은 종료된 것으로 확인 됩니다",
+            "norm_text": "A.네 불편드려 죄송합니다 그늘막 설치 사업은 종료된 것으로 확인 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+불편/NNG+드려/VV+EC+죄송/XR+합니다/XSA+EF+그늘막/NNG+설치/NNG+사업/NNG+은/JX+종료/NNG+된/XSV+ETM+것/NNB+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.올해는 그늘막을 안한다는 말인가요",
+            "norm_text": "B.올해는 그늘막을 안한다는 말인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+올해/NNG+는/JX+그늘막/NNG+을/JKO+안/MAG+한다는/VV+ETM+말/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 올해는 사업 종료했고요 담당부서에 건의 하도록 하겠습니다",
+            "norm_text": "A.네 올해는 사업 종료했고요 담당부서에 건의 하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+올해/NNG+는/JX+사업/NNG+종료/NNG+했/XSV+EP+고요/EC+담당/NNG+부서/NNG+에/JKB+건의/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 감사합니다 꼭 건의 좀 해주세요",
+            "norm_text": "B.네 감사합니다 꼭 건의 좀 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+꼭/MAG+건의/NNG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 알겠습니다 추가 설명이 필요하신 경우 #@전번#으로 연락주세요",
+            "norm_text": "A.네 알겠습니다 추가 설명이 필요하신 경우 #@전번#으로 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+추가/NNG+설명/NNG+이/JKS+필요/NNG+하/XSV+신/EP+ETM+경우/NNG+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 10,
+            "text": "B.네 #@전번#이요 알겠습니다",
+            "norm_text": "B.네 #@전번#이요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

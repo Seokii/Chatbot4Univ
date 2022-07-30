@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 19564,
+    "name": "s1_20210916_0001_1182_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151215010665/s1_20210916_0001_1182_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151215010665/s1_20210916_0001_1182_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7233,
+      "filename": "s1_20210823_0007_0016_01.txt",
+      "title": "s1_20210823_0007_0016_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 337,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 337,
+        "word_size": 74,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.제가 상품 번호로 두개가 있는데요\nB.그게 뭔가가 다른건지 알수있을까요\nA.상품번호에 따른 이제 차이점 문의이시구요\nA.예 모델명 한번 불러주시겠습니까\nB.#@상품#이랑 #@상품# 이렇게 두개요\nA.각각 모델명 마다 상품 차이점 문의이시구요\nB.잠시만요 네 맞아요\nA.바로 확인이 안 되셔서 저희가 담당 부서에 확인을 먼저 해보겠습니다\nA.그 후에 확인해서 안내를 드려도 되겠습니까\nB.네 그렇게 하셔도 돼요\nA.고객님 연락받으실 전화번호 한번 불러주시겠습니까\nB.지금 제 전화번호 #@전번# 입니다\nA.담당부서에서 삼십분이내로 연락을 드려서 이 부분 차이점 안내를 드리도록 하겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 상품 번호로 두개가 있는데요",
+            "norm_text": "B.제가 상품 번호로 두개가 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+상품/NNG+번호/NNG+로/JKB+두/MM+개/NNBC+가/JKS+있/VA+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.그게 뭔가가 다른건지 알수있을까요",
+            "norm_text": "B.그게 뭔가가 다른건지 알수있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그게/NP+JKS+뭔가/NP+VCP+EC+가/JKS+다른/VA+ETM+건지/NNB+VCP+EC+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.상품번호에 따른 이제 차이점 문의이시구요",
+            "norm_text": "A.상품번호에 따른 이제 차이점 문의이시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+상품/NNG+번호/NNG+에/JKB+따른/VV+ETM+이제/MAG+차이/NNG+점문/NNG+의/JKG+이시구/NNP+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 모델명 한번 불러주시겠습니까",
+            "norm_text": "A.예 모델명 한번 불러주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+모델/NNG+명/XSN+한번/MAG+불러/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.#@상품#이랑 #@상품# 이렇게 두개요",
+            "norm_text": "B.#@상품#이랑 #@상품# 이렇게 두개요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+이랑/JC+#/SY+@/SY+상품/NNG+#/SY+이렇게/MAG+두/MM+개/NNBC+요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.각각 모델명 마다 상품 차이점 문의이시구요",
+            "norm_text": "A.각각 모델명 마다 상품 차이점 문의이시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+각각/MAG+모델/NNG+명/NNG+마다/JX+상품/NNG+차이/NNG+점문/NNG+의/JKG+이시구/NNP+요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.잠시만요 네 맞아요",
+            "norm_text": "B.잠시만요 네 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+잠시/MAG+만요/NNP+네/XSN+맞/VV+아요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.바로 확인이 안 되셔서 저희가 담당 부서에 확인을 먼저 해보겠습니다",
+            "norm_text": "A.바로 확인이 안 되셔서 저희가 담당 부서에 확인을 먼저 해보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+바로/MAG+확인/NNG+이/JKS+안/MAG+되/VV+셔서/EP+EC+저희/NP+가/JKS+담당/NNG+부서/NNG+에/JKB+확인/NNG+을/JKO+먼저/MAG+해/VV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.그 후에 확인해서 안내를 드려도 되겠습니까",
+            "norm_text": "A.그 후에 확인해서 안내를 드려도 되겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그/MM+후/NNG+에/JKB+확인/NNG+해서/XSV+EC+안내/NNG+를/JKO+드려도/VV+EC+되/VV+겠/EP+습니까/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 그렇게 하셔도 돼요",
+            "norm_text": "B.네 그렇게 하셔도 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그렇게/MAG+하/VV+셔도/EP+EC+돼요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.고객님 연락받으실 전화번호 한번 불러주시겠습니까",
+            "norm_text": "A.고객님 연락받으실 전화번호 한번 불러주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+연락/NNG+받/VV+으실/EP+ETM+전화/NNG+번호/NNG+한/MM+번/NNBC+불러/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 13,
+            "text": "B.지금 제 전화번호 #@전번# 입니다",
+            "norm_text": "B.지금 제 전화번호 #@전번# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+제/MM+전화/NNG+번호/NNG+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.담당부서에서 삼십분이내로 연락을 드려서 이 부분 차이점 안내를 드리도록 하겠습니다",
+            "norm_text": "A.담당부서에서 연락을 드려서 이 부분 차이점 안내를 드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+담당/NNG+부서/NNG+에서/JKB+삼/NR+십/NR+분/NNBC+이내/NNG+로/JKB+연락/NNG+을/JKO+드려서/VV+EC+이/MM+부분/NNG+차이점/NNG+안내/NNG+를/JKO+드리/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

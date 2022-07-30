@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 14542,
+    "name": "s1_20210914_0001_0551_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151219097972/s1_20210914_0001_0551_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151219097972/s1_20210914_0001_0551_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7926,
+      "filename": "s1_20210824_0019_0011_01.txt",
+      "title": "s1_20210824_0019_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 500,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 500,
+        "word_size": 112,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.컴퓨터 오에스 깔려고 방문할까 하는데 위치를 잘 몰라서요\nA.지역이 어디세요 가까운 곳으로 안내해  드리겠습니다\nB.#@주소#사는데 근처로 안내해주세요\nA.#@주소# 쪽이시면 고객님 #@주소#에 저희 센터가 있구요\nB.#@주소# 말씀인가요 거긴 잘 모르겠네요\nA.상가 쪽에 보시면 #@소속# 옆에 #@소속# 건물 #@주소# 입니다\nB.잠시만요 제가 찾아보고 다시 연락을 드릴게요\nA.여기가 고객님 평일은 아홉 시에서 오후 여섯 시\nA.토요일은 아홉 시에서 오후 한 시까지 업무 도움 드리고 있습니다\nB.거기는 그러면 내방만 가능한가요\nA.센터에 오시는 것도 가능하고 또 출장 원하신다면 접수도 가능하겠습니다\nA.고객님 혹시 센터 번호 필요로 하실까요\nB.네 전화번호 안내해 주세요\nA.센터 번호가 #@전번#입니다\nB.#@전번# 이거 맞나요 감사합니다\nA.혹시라도 센터 방문 예약 원하신다면 저희 쪽에 연락 주시면 되세요\nA.지금까지 #@소속#상담사 #@이름#였습니다 좋은 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.컴퓨터 오에스 깔려고 방문할까 하는데 위치를 잘 몰라서요",
+            "norm_text": "B.컴퓨터 오에스 깔려고 방문할까 하는데 위치를 잘 몰라서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+컴퓨터/NNG+오에스/NNG+깔/VV+려고/EC+방문/NNG+할까/XSV+EC+하/VV+는데/EC+위치/NNG+를/JKO+잘/MAG+몰/VV+라서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.지역이 어디세요 가까운 곳으로 안내해  드리겠습니다",
+            "norm_text": "A.지역이 어디세요 가까운 곳으로 안내해  드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+지역/NNG+이/JKS+어디/NP+세요/VCP+EP+EF+가까운/VA+ETM+곳/NNG+으로/JKB+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@주소#사는데 근처로 안내해주세요",
+            "norm_text": "B.#@주소#사는데 근처로 안내해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+사/VV+는데/EC+근처/NNG+로/JKB+안내/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.#@주소# 쪽이시면 고객님 #@주소#에 저희 센터가 있구요",
+            "norm_text": "A.#@주소# 쪽이시면 고객님 #@주소#에 저희 센터가 있구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+쪽/NNB+이/VCP+시/EP+면/EC+고객/NNG+님/XSN+#/SY+@/SY+주소/NNG+#/SY+에/JKB+저희/NP+센터/NNG+가/JKS+있/VA+구요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.#@주소# 말씀인가요 거긴 잘 모르겠네요",
+            "norm_text": "B.#@주소# 말씀인가요 거긴 잘 모르겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+말씀/NNG+인가요/VCP+EC+거긴/NP+JX+잘/MAG+모르/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.상가 쪽에 보시면 #@소속# 옆에 #@소속# 건물 #@주소# 입니다",
+            "norm_text": "A.상가 쪽에 보시면 #@소속# 옆에 #@소속# 건물 #@주소# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+상가/NNG+쪽/NNB+에/JKB+보/VV+시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+옆/NNG+에/JKB+#/SY+@/SY+소속/NNG+#/SY+건물/NNG+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.잠시만요 제가 찾아보고 다시 연락을 드릴게요",
+            "norm_text": "B.잠시만요 제가 찾아보고 다시 연락을 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+잠시/NNG+만/JX+요/JX+제/NP+가/JKS+찾아보/VV+고/EC+다시/MAG+연락/NNG+을/JKO+드릴게요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.여기가 고객님 평일은 아홉 시에서 오후 여섯 시",
+            "norm_text": "A.여기가 고객님 평일은 아홉 시에서 오후 여섯 시",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+여기/NP+가/JKS+고객/NNG+님/XSN+평일/NNG+은/JX+아홉/NR+시/NNBC+에서/JKB+오후/NNG+여섯/NR+시/NNBC"
+          },
+          {
+            "id": 10,
+            "text": "A.토요일은 아홉 시에서 오후 한 시까지 업무 도움 드리고 있습니다",
+            "norm_text": "A.토요일은 아홉 시에서 오후 한 시까지 업무 도움 드리고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+토요일/NNG+은/JX+아홉/NR+시/NNBC+에서/JKB+오후/NNG+한/MM+시/NNBC+까지/JX+업무/NNG+도움/NNG+드리/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.거기는 그러면 내방만 가능한가요",
+            "norm_text": "B.거기는 그러면 내방만 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+거기/NP+는/JX+그러/VV+면/EC+내방/NNG+만/JX+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 12,
+            "text": "A.센터에 오시는 것도 가능하고 또 출장 원하신다면 접수도 가능하겠습니다",
+            "norm_text": "A.센터에 오시는 것도 가능하고 또 출장 원하신다면 접수도 가능하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+센터/NNG+에/JKB+오/VV+시/EP+는/ETM+것/NNB+도/JX+가능/NNG+하/XSV+고/EC+또/MAG+출장원/NNG+하/XSV+신다면/EP+EC+접수/NNG+도/JX+가능/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.고객님 혹시 센터 번호 필요로 하실까요",
+            "norm_text": "A.고객님 혹시 센터 번호 필요로 하실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+혹시/MAG+센터/NNG+번호/NNG+필요/NNG+로/JKB+하/VV+실까요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.네 전화번호 안내해 주세요",
+            "norm_text": "B.네 전화번호 안내해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+전화/NNG+번호/NNG+안내/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.센터 번호가 #@전번#입니다",
+            "norm_text": "A.센터 번호가 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+센터/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.#@전번# 이거 맞나요 감사합니다",
+            "norm_text": "B.#@전번# 이거 맞나요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+이거/NP+맞/VV+나요/EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.혹시라도 센터 방문 예약 원하신다면 저희 쪽에 연락 주시면 되세요",
+            "norm_text": "A.혹시라도 센터 방문 예약 원하신다면 저희 쪽에 연락 주시면 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+혹시/MAG+라도/VCP+EC+센터/NNG+방/NNG+문예/NNG+약원/NNG+하/XSV+신다면/EP+EC+저희/NP+쪽/NNB+에/JKB+연락/NNG+주/VV+시/EP+면/EC+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 18,
+            "text": "A.지금까지 #@소속#상담사 #@이름#였습니다 좋은 하루 되세요",
+            "norm_text": "A.지금까지 #@소속#상담사 #@이름#였습니다 좋은 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+지금/NNG+까지/JX+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

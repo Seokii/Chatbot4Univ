@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 159777,
+    "name": "t5_20211119_0010_2452_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135915095997/t5_20211119_0010_2452_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135915095997/t5_20211119_0010_2452_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155907,
+      "filename": "t5_0069_0027_02.txt",
+      "title": "t5_0069_0027_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 332,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 332,
+        "word_size": 73,
+        "text": "A.안녕하세요 상담센터 #@이름# 상담원입니다\nB.네 안녕하세요 궁금한 게 있어서요\nA.네 어떤 내용이신가요\nB.충주 #@소속#에 천체 망원경이 있다고 들었는데요\nA.예 저희 보조관측실에 천체 망원경 다섯 대가 설치되어 있습니다\nB.예 그러면 밤하늘을 봐야하니까 저녁에만 이용이 가능한가요\nA.아니요 맑은 날 낮에는 태양을 보실 수도 있으세요\nB.천체 망원경으로 태양을 보면 좀 위험하지 않나요\nA.네 렌즈앞에 빛을 줄여주는 필터를 장착하기 때문에 위험하지 않습니다\nB.그러면 굳이 방문 일정을 저녁으로 변경하지 않아도 되겠네요\nB.자세하게 설명해주셔서 감사합니다\nA.감사합니다 지금까지 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담센터 #@이름# 상담원입니다",
+            "norm_text": "A.안녕하세요 상담센터 #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 궁금한 게 있어서요",
+            "norm_text": "B.네 안녕하세요 궁금한 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 내용이신가요",
+            "norm_text": "A.네 어떤 내용이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+내용/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.충주 #@소속#에 천체 망원경이 있다고 들었는데요",
+            "norm_text": "B.충주 #@소속#에 천체 망원경이 있다고 들었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+충주/NNP+#/SY+@/SY+소속/NNG+#/SY+에/JKB+천체/NNG+망원경/NNG+이/JKS+있/VV+다고/EC+들/VX+었/EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 저희 보조관측실에 천체 망원경 다섯 대가 설치되어 있습니다",
+            "norm_text": "A.예 저희 보조관측실에 천체 망원경 다섯 대가 설치되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+저희/NP+보조/NNG+관측/NNG+실/NNG+에/JKB+천체/NNG+망원경/NNG+다섯/NR+대/NNBC+가/JKS+설치/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.예 그러면 밤하늘을 봐야하니까 저녁에만 이용이 가능한가요",
+            "norm_text": "B.예 그러면 밤하늘을 봐야하니까 저녁에만 이용이 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+그러면/MAJ+밤하늘/NNG+을/JKO+봐야/VV+EC+하/VV+니까/EC+저녁/NNG+에/JKB+만/JX+이용/NNG+이/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.아니요 맑은 날 낮에는 태양을 보실 수도 있으세요",
+            "norm_text": "A.아니요 맑은 날 낮에는 태양을 보실 수도 있으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아니요/IC+맑/VA+은/ETM+날/NNG+낮/NNG+에/JKB+는/JX+태양/NNG+을/JKO+보/VV+실/EP+ETM+수/NNB+도/JX+있/VA+으세요/EP+EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.천체 망원경으로 태양을 보면 좀 위험하지 않나요",
+            "norm_text": "B.천체 망원경으로 태양을 보면 좀 위험하지 않나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+천체/NNG+망원경/NNG+으로/JKB+태양/NNG+을/JKO+보/VV+면/EC+좀/MAG+위험/NNG+하/XSV+지/EC+않/VX+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 렌즈앞에 빛을 줄여주는 필터를 장착하기 때문에 위험하지 않습니다",
+            "norm_text": "A.네 렌즈앞에 빛을 줄여주는 필터를 장착하기 때문에 위험하지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+렌즈/NNG+앞/NNG+에/JKB+빛/NNG+을/JKO+줄여/VV+EC+주/VX+는/ETM+필터/NNG+를/JKO+장착/NNG+하/XSV+기/ETN+때문/NNB+에/JKB+위험/NNG+하/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그러면 굳이 방문 일정을 저녁으로 변경하지 않아도 되겠네요",
+            "norm_text": "B.그러면 굳이 방문 일정을 저녁으로 변경하지 않아도 되겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러면/MAJ+굳이/MAG+방문/NNG+일정/NNG+을/JKO+저녁/NNG+으로/JKB+변경/NNG+하/XSV+지/EC+않/VX+아도/EC+되/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.자세하게 설명해주셔서 감사합니다",
+            "norm_text": "B.자세하게 설명해주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+자세/XR+하/XSA+게/EC+설명/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 지금까지 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 지금까지 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+지금/NNG+까지/JX+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

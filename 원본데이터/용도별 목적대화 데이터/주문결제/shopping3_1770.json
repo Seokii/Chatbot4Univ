@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 108170,
+    "name": "s3_20211104_0002_0017_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110745066866/s3_20211104_0002_0017_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110745066866/s3_20211104_0002_0017_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118032,
+      "filename": "s3_20211005_0019_0003_01.txt",
+      "title": "s3_20211005_0019_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 331,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 331,
+        "word_size": 78,
+        "text": "A.안녕하세요 #@소속# 고객센터 #@이름#입니다\nB.안녕하세요 제가 방금 상품 예약을 완료했거든요\nA.그러시군요 어떤 문제가 있으십니까\nB.지금 최종 확정이 된 건가요\nA.주문 상품의 상태가 발권완료가 되기 전까지 최종 확정이 아닙니다\nB.그래요 그러면 얼마나 걸리나요\nA.여행상품의 종류와 현지 상황에 따라 다르세요\nB.하지만 여기 즉시 확정 가능 이라고 써있는데요\nA.해당 시간 내에 확정을 진행할 수 있다는 말입니다\nB.어이가 없네요 이거 사기 아닌가요\nA.정말 죄송하지만 현지 및 시설의 상황을 체크해야 해서요\nB.그렇게 말하니 할 말이 없네요 끊습니다\nA.불편을 끼쳐서 죄송합니다 조금만 더 기다려주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객센터 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 제가 방금 상품 예약을 완료했거든요",
+            "norm_text": "B.안녕하세요 제가 방금 상품 예약을 완료했거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+방금/MAG+상품/NNG+예약/NNG+을/JKO+완료/NNG+했/XSV+EP+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.그러시군요 어떤 문제가 있으십니까",
+            "norm_text": "A.그러시군요 어떤 문제가 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+시/EP+군요/EF+어떤/MM+문제/NNG+가/JKS+있/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.지금 최종 확정이 된 건가요",
+            "norm_text": "B.지금 최종 확정이 된 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+지금/MAG+최종/NNG+확정/NNG+이/JKS+된/VV+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.주문 상품의 상태가 발권완료가 되기 전까지 최종 확정이 아닙니다",
+            "norm_text": "A.주문 상품의 상태가 발권완료가 되기 전까지 최종 확정이 아닙니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주문/NNG+상품/NNG+의/JKG+상태/NNG+가/JKS+발권/NNG+완료/NNG+가/JKS+되/VV+기/ETN+전/NNG+까지/JX+최종/NNG+확정/NNG+이/JKC+아닙니다/VCN+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그래요 그러면 얼마나 걸리나요",
+            "norm_text": "B.그래요 그러면 얼마나 걸리나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+그러면/MAJ+얼마나/MAG+걸리/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.여행상품의 종류와 현지 상황에 따라 다르세요",
+            "norm_text": "A.여행상품의 종류와 현지 상황에 따라 다르세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+여행/NNG+상품/NNG+의/JKG+종류/NNG+와/JC+현지/NNG+상황/NNG+에/JKB+따라/VV+EC+다르/VA+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.하지만 여기 즉시 확정 가능 이라고 써있는데요",
+            "norm_text": "B.하지만 여기 즉시 확정 가능 이라고 써있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+하지만/MAJ+여기/NP+즉시/MAG+확정/NNG+가능/NNG+이/VCP+라고/EC+써/VV+EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.해당 시간 내에 확정을 진행할 수 있다는 말입니다",
+            "norm_text": "A.해당 시간 내에 확정을 진행할 수 있다는 말입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+시간/NNG+내/NNB+에/JKB+확정/NNG+을/JKO+진행할/VV+ETM+수/NNB+있/VV+다는/ETM+말/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.어이가 없네요 이거 사기 아닌가요",
+            "norm_text": "B.어이가 없네요 이거 사기 아닌가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+어/IC+이/NP+가/JKS+없/VA+네요/EF+이거/NP+사/VV+기/ETN+아닌가요/VCN+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.정말 죄송하지만 현지 및 시설의 상황을 체크해야 해서요",
+            "norm_text": "A.정말 죄송하지만 현지 및 시설의 상황을 체크해야 해서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+정말/MAG+죄송/XR+하/XSA+지만/EC+현지/NNG+및/MAJ+시설/NNG+의/JKG+상황/NNG+을/JKO+체크/NNG+해야/XSV+EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그렇게 말하니 할 말이 없네요 끊습니다",
+            "norm_text": "B.그렇게 말하니 할 말이 없네요 끊습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+그렇게/MAG+말/NNG+하/XSV+니/EC+할/VX+ETM+말/NNG+이/JKS+없/VA+네요/EC+끊/VV+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.불편을 끼쳐서 죄송합니다 조금만 더 기다려주세요",
+            "norm_text": "A.불편을 끼쳐서 죄송합니다 조금만 더 기다려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+불편/NNG+을/JKO+끼쳐서/VV+EC+죄송/XR+합니다/XSA+EF+조금/MAG+만/JX+더/MAG+기다려/VV+EC+주/VX+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

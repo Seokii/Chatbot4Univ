@@ -1,0 +1,383 @@
+{
+  "dataset": {
+    "identifier": 79911,
+    "name": "KAKAO_1120_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/60/txt20211012113943096640/KAKAO_1120_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/60/txt20211012113943096640/KAKAO_1120_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 61484,
+      "filename": "KAKAO_1120_12.txt",
+      "title": "KAKAO_1120_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-12",
+      "size": 754,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "다자간 대화",
+        "size": 754,
+        "word_size": 244,
+        "text": "1 : 너네 여행을 가게 된다면 어디로 갈 거야?\n2 : 나는 첫 여행 일본으로 갈 거야\n3 : 난 첫 여행을 홍콩으로 갈 거야!\n1 : 와우 일본 내가 가봤는데 엄청 이쁘고 봄철에 가기 좋은 것 같아!\n2 : 홍콩 갈 수 있어? 가기 어렵다던데 웬만해서는\n3 : 갈려고 하면 항상 힘 빠지더라고 좀 복잡하지!\n1 : 홍콩은 가기 수월해\n1 : 작년에 사건 사고가 많아서 가지 말라고 말렸던 거 아닐까?\n2 : 그런 걸 수도 있어\n2 : 난 일본에 벚꽃을 한번 느껴보고 싶어\n3 : 그래서 지금 홍콩 말고 방콕으로 갈까 생각 중이야!\n1 : 벚꽃이 진짜 이뻐 특히 오사카성...\n2 : 온천도 유명하잖아 일본이 그렇게 좋대\n3 : 일본은 유명한 거는 다른 게 있잖아!\n1 : 하지만 **는 문신이 있어서 일본 온천은 가지 못해 ㅠㅠ\n2 : 문신이 있으면 못 가?\n2 : 야쿠자한테 혼나?\n3 : 맞아 ㅠㅠ 온천만 가면은 야쿠자라고 하더라고!\n1 : 야쿠자들도 그래서 개인 사유 온천을 주로 이용해!\n2 : 오호 처음 알았어\n2 : 일본 가면 일단 스시를 먹어볼 거 같아\n3 : 나도 사실 그쪽 부류라서 이용하는 온천이 있어!\n1 : 비행기 타고 구름을 가르며 다른 나라로 가는 즐거움은 상상 그 이상이지!\n2 : 난 하지만 아직까지 비행기를 못 타봤어\n3 : 그치 비행기 생각하면 911 테러 생각이 나 ㅠㅠ\n1 : 아 그 탈레반 ㅠㅠ 엄청 안타까운 사건이지 그건\n2 : 나도 얼른 비행기를 타고 여행 가고 싶다\n2 : 제주도도 안 가봤어\n3 : 그치 그래서 나는 비행기 타는 걸 좋아하고 선호해!",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 너네 여행을 가게 된다면 어디로 갈 거야?",
+            "norm_text": "너네 여행을 가게 된다면 어디로 갈 거야?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "너/NP+네/XSN+여행/NNG+을/JKO+가/VV+게/EC+된다면/VV+EC+어디/NP+로/JKB+갈/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 나는 첫 여행 일본으로 갈 거야",
+            "norm_text": "나는 첫 여행 일본으로 갈 거야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+첫/MM+여행/NNG+일본/NNP+으로/JKB+갈/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 3,
+            "text": "3 : 난 첫 여행을 홍콩으로 갈 거야!",
+            "norm_text": "난 첫 여행을 홍콩으로 갈 거야!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+첫/MM+여행/NNG+을/JKO+홍콩/NNP+으로/JKB+갈/VV+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "1 : 와우 일본 내가 가봤는데 엄청 이쁘고 봄철에 가기 좋은 것 같아!",
+            "norm_text": "와우 일본 내가 가봤는데 엄청 이쁘고 봄철에 가기 좋은 것 같아!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "와우/IC+일본/NNP+내가/NNP+가/JKS+봤/VV+EP+는데/EC+엄청/MAG+이쁘/VA+고/EC+봄철/NNG+에/JKB+가/VV+기/ETN+좋/VA+은/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 홍콩 갈 수 있어? 가기 어렵다던데 웬만해서는",
+            "norm_text": "홍콩 갈 수 있어? 가기 어렵다던데 웬만해서는",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "홍콩/NNP+갈/VV+ETM+수/NNB+있/VV+어/EF+가/VV+기/ETN+어렵/VA+다던데/EC+웬만/XR+해서/XSA+EC+는/JX"
+          },
+          {
+            "id": 6,
+            "text": "3 : 갈려고 하면 항상 힘 빠지더라고 좀 복잡하지!",
+            "norm_text": "갈려고 하면 항상 힘 빠지더라고 좀 복잡하지!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "갈려고/VV+EC+하/VV+면/EC+항상/MAG+힘/NNG+빠지/VV+더라고/EC+좀/MAG+복잡/XR+하/XSA+지/EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 홍콩은 가기 수월해",
+            "norm_text": "홍콩은 가기 수월해",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "홍콩/NNP+은/JX+가/VV+기/ETN+수월/NNG+해/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "1 : 작년에 사건 사고가 많아서 가지 말라고 말렸던 거 아닐까?",
+            "norm_text": "작년에 사건 사고가 많아서 가지 말라고 말렸던 거 아닐까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "작년/NNG+에/JKB+사건/NNG+사고/NNG+가/JKS+많/VA+아서/EC+가/VX+지/EC+말/VX+라고/EC+말렸/VV+EP+던/ETM+거/NNB+아닐까/VCN+EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그런 걸 수도 있어",
+            "norm_text": "그런 걸 수도 있어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그런/MM+걸/NNB+JKO+수/NNB+도/JX+있/VA+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 난 일본에 벚꽃을 한번 느껴보고 싶어",
+            "norm_text": "난 일본에 벚꽃을 한번 느껴보고 싶어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+일본/NNP+에/JKB+벚꽃/NNG+을/JKO+한번/MAG+느껴/VV+EC+보/VX+고/EC+싶/VX+어/EC"
+          },
+          {
+            "id": 11,
+            "text": "3 : 그래서 지금 홍콩 말고 방콕으로 갈까 생각 중이야!",
+            "norm_text": "그래서 지금 홍콩 말고 방콕으로 갈까 생각 중이야!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래서/MAJ+지금/MAG+홍콩/NNP+말/VV+고/EC+방콕/NNP+으로/JKB+갈까/VV+EC+생각/NNG+중/NNB+이/VCP+야/EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 벚꽃이 진짜 이뻐 특히 오사카성...",
+            "norm_text": "벚꽃이 진짜 이뻐 특히 오사카성...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "벚꽃/NNG+이/JKS+진짜/MAG+이뻐/VA+EC+특히/MAG+오사카/NNP+성/NNG+./SY+./SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 온천도 유명하잖아 일본이 그렇게 좋대",
+            "norm_text": "온천도 유명하잖아 일본이 그렇게 좋대",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "온천/NNG+도/JX+유명/NNG+하/XSV+잖아/EC+일본/NNP+이/JKS+그렇게/MAG+좋/VA+대/EC"
+          },
+          {
+            "id": 14,
+            "text": "3 : 일본은 유명한 거는 다른 게 있잖아!",
+            "norm_text": "일본은 유명한 거는 다른 게 있잖아!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일본/NNP+은/JX+유명/NNG+한/XSA+ETM+거/NNB+는/JX+다른/MM+게/NNB+JKS+있/VA+잖아/EF"
+          },
+          {
+            "id": 15,
+            "text": "1 : 하지만 **는 문신이 있어서 일본 온천은 가지 못해 ㅠㅠ",
+            "norm_text": "하지만 **는 문신이 있어서 일본 온천은 가지 못해 ㅠㅠ",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "하지만/MAJ+*/SY+*/SY+는문신이있어서일본온천은가지못해ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "2 : 문신이 있으면 못 가?",
+            "norm_text": "문신이 있으면 못 가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "문신/NNG+이/JKS+있/VV+으면/EC+못/MAG+가/VV+EF"
+          },
+          {
+            "id": 17,
+            "text": "2 : 야쿠자한테 혼나?",
+            "norm_text": "야쿠자한테 혼나?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "야쿠자/NNG+한테/JKB+혼나/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "3 : 맞아 ㅠㅠ 온천만 가면은 야쿠자라고 하더라고!",
+            "norm_text": "맞아 ㅠㅠ 온천만 가면은 야쿠자라고 하더라고!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "맞/VV+아/EC+ㅠㅠ/UNKNOWN+온천/NNG+만/JX+가/VV+면은/EC+야쿠자/NNG+라고/VCP+EC+하/VX+더라고/EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 야쿠자들도 그래서 개인 사유 온천을 주로 이용해!",
+            "norm_text": "야쿠자들도 그래서 개인 사유 온천을 주로 이용해!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "야쿠자/NNG+들/XSN+도/JX+그래서/MAJ+개인/NNG+사유/NNG+온천/NNG+을/JKO+주로/MAG+이용/NNG+해/XSV+EF"
+          },
+          {
+            "id": 20,
+            "text": "2 : 오호 처음 알았어",
+            "norm_text": "오호 처음 알았어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오호/IC+처음/MAG+알/VV+았/EP+어/EC"
+          },
+          {
+            "id": 21,
+            "text": "2 : 일본 가면 일단 스시를 먹어볼 거 같아",
+            "norm_text": "일본 가면 일단 스시를 먹어볼 거 같아",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "일본/NNP+가/VV+면/EC+일단/MAG+스/IC+시/NNG+를/JKO+먹/VV+어/EC+볼/VX+ETM+거/NNB+같/VA+아/EC"
+          },
+          {
+            "id": 22,
+            "text": "3 : 나도 사실 그쪽 부류라서 이용하는 온천이 있어!",
+            "norm_text": "나도 사실 그쪽 부류라서 이용하는 온천이 있어!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+도/JX+사실/MAG+그쪽/NP+부류/NNG+라서/VCP+EC+이용/NNG+하/XSV+는/ETM+온천/NNG+이/JKS+있/VA+어/EF"
+          },
+          {
+            "id": 23,
+            "text": "1 : 비행기 타고 구름을 가르며 다른 나라로 가는 즐거움은 상상 그 이상이지!",
+            "norm_text": "비행기 타고 구름을 가르며 다른 나라로 가는 즐거움은 상상 그 이상이지!",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "비행기/NNG+타/VV+고/EC+구름/NNG+을/JKO+가르/VV+며/EC+다른/MM+나라/NNG+로/JKB+가/VV+는/ETM+즐거움/NNG+은/JX+상상/NNG+그/MM+이상/NNG+이/VCP+지/EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 난 하지만 아직까지 비행기를 못 타봤어",
+            "norm_text": "난 하지만 아직까지 비행기를 못 타봤어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+하지만/MAJ+아직/MAG+까지/JX+비행기/NNG+를/JKO+못/MAG+타/VV+EC+봤/VX+EP+어/EC"
+          },
+          {
+            "id": 25,
+            "text": "3 : 그치 비행기 생각하면 911 테러 생각이 나 ㅠㅠ",
+            "norm_text": "그치 비행기 생각하면 911 테러 생각이 나 ㅠㅠ",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+비행기/NNG+생각/NNG+하/XSV+면/EC+911/SN+테러/NNG+생각/NNG+이나/JC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 26,
+            "text": "1 : 아 그 탈레반 ㅠㅠ 엄청 안타까운 사건이지 그건",
+            "norm_text": "아 그 탈레반 ㅠㅠ 엄청 안타까운 사건이지 그건",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그/IC+탈레반/NNP+ㅠㅠ/UNKNOWN+엄청/MAG+안타까운/VA+ETM+사건/NNG+이/VCP+지/EF+그건/NP+JX"
+          },
+          {
+            "id": 27,
+            "text": "2 : 나도 얼른 비행기를 타고 여행 가고 싶다",
+            "norm_text": "나도 얼른 비행기를 타고 여행 가고 싶다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+도/JX+얼른/MAG+비행기/NNG+를/JKO+타/VV+고/EC+여행/NNG+가/VV+고/EC+싶/VX+다/EC"
+          },
+          {
+            "id": 28,
+            "text": "2 : 제주도도 안 가봤어",
+            "norm_text": "제주도도 안 가봤어",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "제주도/NNP+도/JX+안/MAG+가/VV+EC+봤/VX+EP+어/EC"
+          },
+          {
+            "id": 29,
+            "text": "3 : 그치 그래서 나는 비행기 타는 걸 좋아하고 선호해!",
+            "norm_text": "그치 그래서 나는 비행기 타는 걸 좋아하고 선호해!",
+            "speaker": {
+              "id": "3번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그치/IC+그래서/MAJ+나/NP+는/JX+비행기/NNG+타/VV+는/ETM+걸/NNB+JKO+좋/VA+아/EC+하/VV+고/EC+선호/NNG+해/XSV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 123229,
+    "name": "s4_20211008_0006_0034_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111011097583/s4_20211008_0006_0034_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111011097583/s4_20211008_0006_0034_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 122555,
+      "filename": "s4_20211001_0017_0001_01.txt",
+      "title": "s4_20211001_0017_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 265,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 265,
+        "word_size": 55,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.#@소속#에 #@상품#을 이용중 인데요\nB.제품을 다른 것으로 변경할 수 있나요\nA.네 변경 가능합니다\nA.먼저 정보 확인 후 도와드리겠습니다\nA.고객님의 연락처와 성함을 알려주세요\nB.제 이름은 #@이름# 이고요\nB.제 전화번호는 #@전번# 이에요\nA.정보 확인되었고요\nA.어떤 상품의 변경을 원하시나요\nB.#@상품#에서 #@상품#로 변경해 주세요\nA.네 바로 변경도와드렸고요\nA.변경된 상품의 배송은 익월부터 배송됩니다\nB.네 확인 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속#에 #@상품#을 이용중 인데요",
+            "norm_text": "B.#@소속#에 #@상품#을 이용중 인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에/JKB+#/SY+@/SY+상품/NNG+#/SY+을/JKO+이용/NNG+중/NNB+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.제품을 다른 것으로 변경할 수 있나요",
+            "norm_text": "B.제품을 다른 것으로 변경할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+제품/NNG+을/JKO+다른/VA+ETM+것/NNB+으로/JKB+변경/NNG+할/XSV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 변경 가능합니다",
+            "norm_text": "A.네 변경 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+변경/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.먼저 정보 확인 후 도와드리겠습니다",
+            "norm_text": "A.먼저 정보 확인 후 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+먼저/MAG+정보/NNG+확인/NNG+후/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.고객님의 연락처와 성함을 알려주세요",
+            "norm_text": "A.고객님의 연락처와 성함을 알려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+의/JKG+연락처/NNG+와/JC+성함/NNG+을/JKO+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.제 이름은 #@이름# 이고요",
+            "norm_text": "B.제 이름은 #@이름# 이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.제 전화번호는 #@전번# 이에요",
+            "norm_text": "B.제 전화번호는 #@전번# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.정보 확인되었고요",
+            "norm_text": "A.정보 확인되었고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+정보/NNG+확인/NNG+되/XSV+었/EP+고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.어떤 상품의 변경을 원하시나요",
+            "norm_text": "A.어떤 상품의 변경을 원하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+상품/NNG+의/JKG+변경/NNG+을/JKO+원하/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.#@상품#에서 #@상품#로 변경해 주세요",
+            "norm_text": "B.#@상품#에서 #@상품#로 변경해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+에서/JKB+#/SY+@/SY+상품/NNG+#/SY+로/JKB+변경/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.네 바로 변경도와드렸고요",
+            "norm_text": "A.네 바로 변경도와드렸고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+바로/MAG+변경/NNG+도와/VV+EC+드렸/VX+EP+고요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.변경된 상품의 배송은 익월부터 배송됩니다",
+            "norm_text": "A.변경된 상품의 배송은 익월부터 배송됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+변경/NNG+된/XSV+ETM+상품/NNG+의/JKG+배송/NNG+은/JX+익월/NNG+부터/JX+배송/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.네 확인 감사합니다",
+            "norm_text": "B.네 확인 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

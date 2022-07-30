@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 16383,
+    "name": "s3_20210915_0010_1169_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151415087846/s3_20210915_0010_1169_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151415087846/s3_20210915_0010_1169_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11776,
+      "filename": "s2_20210903_0005_0009_01.txt",
+      "title": "s2_20210903_0005_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 196,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 196,
+        "word_size": 43,
+        "text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다\nB.여보세요 뭐 좀 물어볼게요\nA.네 어떤 문의십니까 고객님\nB.수입차용 #@상품# 커텐 취급하시나요\nA.커텐이요 어떤 커튼 말씀이신가요\nB.네 차량용 #@상품#요\nA.죄송합니다만 정확한 저희 상품명 알고 계세요 고객님\nB.#@상품# 커텐 그렇게 나와 있던데요\nA.#@상품# 커텐이요 고객님\nB.예 조회가 안 되나요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여보세요 뭐 좀 물어볼게요",
+            "norm_text": "B.여보세요 뭐 좀 물어볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여보세요/IC+뭐/IC+좀/MAG+물어볼/VV+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의십니까 고객님",
+            "norm_text": "A.네 어떤 문의십니까 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+십니까/VCP+EP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.수입차용 #@상품# 커텐 취급하시나요",
+            "norm_text": "B.수입차용 #@상품# 취급하시나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+수입/NNG+차용/NNG+#/SY+@/SY+상품/NNG+#/SY+커텐/NNG+취급/NNG+하/XSV+시/EP+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.커텐이요 어떤 커튼 말씀이신가요",
+            "norm_text": "A.어떤 상품 말씀이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+커텐/NNG+이/VCP+요/EC+어떤/MM+커튼/NNG+말씀/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 차량용 #@상품#요",
+            "norm_text": "B.네 차량용 #@상품#요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+차량/NNG+용/XSN+#/SY+@/SY+상품/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.죄송합니다만 정확한 저희 상품명 알고 계세요 고객님",
+            "norm_text": "A.죄송합니다만 정확한 저희 상품명 알고 계세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+죄송/XR+합니다만/XSA+EC+정확/XR+한/XSA+ETM+저희/NP+상품명/NNG+알/VV+고/EC+계세요/VX+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.#@상품# 커텐 그렇게 나와 있던데요",
+            "norm_text": "B.#@상품# 그렇게 나와 있던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+커텐/NNG+그렇게/MAG+나와/VV+EC+있/VX+던데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.#@상품# 커텐이요 고객님",
+            "norm_text": "A.혹시 #@상품#이요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+커텐/NNG+이/VCP+요/EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.예 조회가 안 되나요",
+            "norm_text": "B.예 조회가 안 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+조회/NNG+가/JKS+안/MAG+되/VV+나요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

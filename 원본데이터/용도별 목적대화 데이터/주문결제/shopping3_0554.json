@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 10859,
+    "name": "s3_20210913_0010_0695_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417002044/s3_20210913_0010_0695_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417002044/s3_20210913_0010_0695_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11940,
+      "filename": "s3_20210826_0010_0019_01.txt",
+      "title": "s3_20210826_0010_0019_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 550,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 550,
+        "word_size": 124,
+        "text": "A.반갑습니다 #@소속# 렌탈상담사 #@이름#입니다\nB.네 방금 정수기 해지 신청 했는데요\nB.혹시 해지금액을 카드로 납부 할 수는 없나요\nA.네 카드납부 가능하십니다 고객님 명의의 카드이십니까\nB.예 제 명의로 된 카드에요\nA.예 그러시면 고객님 카드사와 번호 그리고 유효기간 말씀해주시겠습니까\nB.네 #@소속#카드이고 유효기간은 #@금융#입니다\nA.네 카드정보 확인 되었습니다 결제는 일시불로 도와드릴까요\nB.네 일시불로 해주세요 그럼 될 거같아요\nB.그리고 렌탈비용은 현재 납부방법이 어떻게 되나요 자동이체가 맞나요\nA.네 확인해보니 자동이체로 매월 이십일에 결제되고 있습니다\nB.그러면 그 납부방법도 불러드린 카드로 해주세요\nA.네 월 이용료도 동일하게 일시불로 도와드리면 될까요\nB.네 그것도 일시불로 해주세요\nA.알겠습니다 고객님 지금 인증 후에 결제 절차가 이루어질 예정입니다\nA.해지금액은 결제 되셔서 문자 받으셨을꺼구요\nA.저희 기사님이 새 제품 설치 시에 기존 사용 중이신 제품을 회수해올껍니다\nB.네 알겠습니다 그럼 그 때 다시 연락주세요\nA.예 감사합니다 설치 잘 받으시구요 좋은하루 보내십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 렌탈상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 렌탈상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+렌/NNG+탈상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 방금 정수기 해지 신청 했는데요",
+            "norm_text": "B.네 방금 정수기 해지 신청 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+방금/MAG+정수기/NNG+해/XSV+EC+지/VX+신/EP+ETM+청/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.혹시 해지금액을 카드로 납부 할 수는 없나요",
+            "norm_text": "B.혹시 해지금액을 카드로 납부 할 수는 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+해/VV+EC+지금/MAG+액/NNG+을/JKO+카드/NNG+로/JKB+납부/NNG+할/XSV+ETM+수/NNB+는/JX+없/VA+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 카드납부 가능하십니다 고객님 명의의 카드이십니까",
+            "norm_text": "A.네 카드납부 가능하십니다 고객님 명의의 카드이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+카드/NNG+납부/NNG+가능/NNG+하/XSV+십니다/EP+EF+고객/NNG+님/XSN+명의/NNG+의/JKG+카드/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.예 제 명의로 된 카드에요",
+            "norm_text": "B.예 제 명의로 된 카드에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+제/NP+JKG+명의/NNG+로/JKB+된/VV+ETM+카드/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "A.예 그러시면 고객님 카드사와 번호 그리고 유효기간 말씀해주시겠습니까",
+            "norm_text": "A.예 그러시면 고객님 카드사와 번호 그리고 유효기간 말씀해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+그러/VV+시/EP+면/EC+고객/NNG+님/XSN+카드/NNG+사/NNG+와/JC+번호/NNG+그리고/MAJ+유효/NNG+기간/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 #@소속#카드이고 유효기간은 #@금융#입니다",
+            "norm_text": "B.네 #@소속#카드이고 유효기간은 #@금융#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+카드/NNG+이/VCP+고/EC+유효/NNG+기간/NNG+은/JX+#/SY+@/SY+금융/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 카드정보 확인 되었습니다 결제는 일시불로 도와드릴까요",
+            "norm_text": "A.네 카드정보 확인 되었습니다 결제는 일시불로 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+카드/NNG+정보/NNG+확인/NNG+되/XSV+었/EP+습니다/EF+결제/NNG+는/JX+일시불/NNG+로/JKB+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 일시불로 해주세요 그럼 될 거같아요",
+            "norm_text": "B.네 일시불로 해주세요 그럼 될 거같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+일시/MAG+불로/NNG+해/XSV+EC+주/VX+세요/EP+EF+그럼/MAJ+될/VV+ETM+거/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그리고 렌탈비용은 현재 납부방법이 어떻게 되나요 자동이체가 맞나요",
+            "norm_text": "B.그리고 렌탈비용은 현재 납부방법이 어떻게 되나요 자동이체가 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그리고/MAJ+렌탈/NNP+비용/NNG+은/JX+현재/MAG+납부/NNG+방법/NNG+이/JKS+어떻게/MAG+되/VV+나요/EC+자동/NNG+이체/NNG+가/JKS+맞/VV+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 확인해보니 자동이체로 매월 이십일에 결제되고 있습니다",
+            "norm_text": "A.네 확인해보니 자동이체로 매월 이십일에 결제되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+해/XSV+EC+보/VX+니/EC+자동/NNG+이체/NNG+로/JKB+매월/MAG+이/NR+십/NR+일/NNBC+에/JKB+결제/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.그러면 그 납부방법도 불러드린 카드로 해주세요",
+            "norm_text": "B.그러면 그 납부방법도 불러드린 카드로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러면/MAJ+그/MM+납부/NNG+방법/NNG+도/JX+불러/VV+EC+드린/VX+ETM+카드/NNG+로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.네 월 이용료도 동일하게 일시불로 도와드리면 될까요",
+            "norm_text": "A.네 월 이용료도 동일하게 일시불로 도와드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+월/NNG+이용료/NNG+도/JX+동일/NNG+하/XSV+게/EC+일시불/NNG+로/JKB+도와/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.네 그것도 일시불로 해주세요",
+            "norm_text": "B.네 그것도 일시불로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그것/NP+도/JX+일시/MAG+불로/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.알겠습니다 고객님 지금 인증 후에 결제 절차가 이루어질 예정입니다",
+            "norm_text": "A.알겠습니다 고객님 지금 인증 후에 결제 절차가 이루어질 예정입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+고객/NNG+님/XSN+지금/MAG+인증/NNG+후/NNG+에/JKB+결제/NNG+절차/NNG+가/JKS+이루어질/VV+ETM+예정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.해지금액은 결제 되셔서 문자 받으셨을꺼구요",
+            "norm_text": "A.해지금액은 결제 되셔서 문자 받으셨을꺼구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+해/VV+EC+지금/MAG+액/NNG+은/JX+결제/NNG+되/XSV+셔서/EP+EC+문자/NNG+받/VV+으셨을/EP+EP+ETM+꺼/NNB+VCP+구요/EF"
+          },
+          {
+            "id": 17,
+            "text": "A.저희 기사님이 새 제품 설치 시에 기존 사용 중이신 제품을 회수해올껍니다",
+            "norm_text": "A.저희 기사님이 새 제품 설치하실 때 기존 제품을 회수할겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+기사/NNG+님/XSN+이/JKS+새/MM+제품/NNG+설치/NNG+하/XSV+실/EP+ETM+때/NNG+기존/NNG+제품/NNG+을/JKO+회수/NNG+할/XSV+ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "B.네 알겠습니다 그럼 그 때 다시 연락주세요",
+            "norm_text": "B.네 알겠습니다 그럼 그 때 다시 연락주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+그럼/MAJ+그때/NNG+다시/MAG+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 19,
+            "text": "A.예 감사합니다 설치 잘 받으시구요 좋은하루 보내십시오",
+            "norm_text": "A.예 감사합니다 설치 잘 받으시구요 좋은하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+예/IC+감사/NNG+합니다/XSV+EF+설치/NNG+잘/MAG+받/VV+으시/EP+구요/EF+좋/VA+은/ETM+하루/NNG+보내/VV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

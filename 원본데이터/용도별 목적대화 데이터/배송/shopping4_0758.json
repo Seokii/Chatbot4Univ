@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 11076,
+    "name": "s4_20210913_0011_0960_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151451008714/s4_20210913_0011_0960_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151451008714/s4_20210913_0011_0960_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 13461,
+      "filename": "s4_20210831_0009_0005_01.txt",
+      "title": "s4_20210831_0009_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 263,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 263,
+        "word_size": 57,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.네 #@상품# 구매했는데 배송이 안 떠서요\nA.확인을 해보도록 하겠습니다\nA.성함이랑 연락처 말씀 부탁드리겠습니다\nB.#@이름#구요 번호가 #@전번# 이요\nA.저희가 시월 구일 날엔 빨간 날이었기 때문에요\nA.오늘 날짜로 주문서 넘어가서 오늘 출고 대기로 넘어갔어요\nB.그러면 결제라도 됐다고 떠야 하는데 그게 안 떠요\nA.지금 출고 대기로 넘어갔으니까 조금만 더 기다려주세요\nB.네 알겠습니다 수고하세요\nA.네 감사합니다 상담사 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 #@상품# 구매했는데 배송이 안 떠서요",
+            "norm_text": "B.네 #@상품# 구매했는데 배송이 안 떠서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+구매/NNG+했/XSV+EP+는데/EC+배송/NNG+이/JKS+안/MAG+떠서/VV+EC+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.확인을 해보도록 하겠습니다",
+            "norm_text": "A.확인을 해보도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+확인/NNG+을/JKO+해/VV+EC+보/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.성함이랑 연락처 말씀 부탁드리겠습니다",
+            "norm_text": "A.성함이랑 연락처 말씀 부탁드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+성함/NNG+이랑/JKB+연락처/NNG+말씀/NNG+부탁/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.#@이름#구요 번호가 #@전번# 이요",
+            "norm_text": "B.#@이름#구요 번호가 #@전번# 이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+구요/NNG+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.저희가 시월 구일 날엔 빨간 날이었기 때문에요",
+            "norm_text": "A.저희가 시월 구일 날엔 빨간 날이었기 때문에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+시월/NNG+구/NR+일/NNBC+날/NNG+엔/JKB+JX+빨간/VA+ETM+날/NNG+이/VCP+었/EP+기/ETN+때문/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.오늘 날짜로 주문서 넘어가서 오늘 출고 대기로 넘어갔어요",
+            "norm_text": "A.오늘 날짜로 주문서 넘어가서 오늘 출고 대기로 넘어갔어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+오늘/MAG+날짜/NNG+로/JKB+주/VX+문서/EC+넘어가/VV+서/EC+오늘/MAG+출고/NNG+대기/NNG+로/JKB+넘어갔/VV+EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그러면 결제라도 됐다고 떠야 하는데 그게 안 떠요",
+            "norm_text": "B.그러면 결제라도 됐다고 떠야 하는데 그게 안 떠요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러면/MAJ+결제/NNG+라도/VCP+EC+됐/VV+EP+다고/EC+떠야/VV+EC+하/VV+는데/EC+그게/NP+JKS+안/MAG+떠요/VV+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.지금 출고 대기로 넘어갔으니까 조금만 더 기다려주세요",
+            "norm_text": "A.지금 출고 대기로 넘어갔으니까 조금만 더 기다려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+지금/MAG+출고/NNG+대기/NNG+로/JKB+넘어갔/VV+EP+으니까/EC+조금/MAG+만/JX+더/MAG+기다려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 알겠습니다 수고하세요",
+            "norm_text": "B.네 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 감사합니다 상담사 #@이름#였습니다",
+            "norm_text": "A.네 감사합니다 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

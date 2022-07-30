@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 159799,
+    "name": "t5_20211119_0010_2474_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135916015642/t5_20211119_0010_2474_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135916015642/t5_20211119_0010_2474_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155929,
+      "filename": "t5_0069_0049_02.txt",
+      "title": "t5_0069_0049_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 324,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 324,
+        "word_size": 70,
+        "text": "A.안녕하세요 상담센터 #@이름# 상담원입니다\nB.안녕하세요 관광지 관련해서 문의가 있습니다\nA.네 고객님 편하게 말씀해주세요\nB.#@소속#이라고 청주에서 공예 체험을 할 수 있는 곳이 있다해서요\nA.네 벽화거리와 한옥이 있어서 농촌 체험도 할 수 있으시고요\nA.버섯 따기 사과효소 팝콘 만들기 등 아이들이 좋아하는 프로그램도 있습니다\nB.거기 정확한 주소가 어떻게 되나요\nA.#@소속# 정확한 주소는 #@주소#입니다\nB.체험 담당자 연락처 좀 알 수 있을까요\nA.네 담당자 연락처는 #@전번#로 문의주시면 됩니다\nB.자세하게 설명해주셔서 감사합니다\nA.감사합니다 지금까지 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담센터 #@이름# 상담원입니다",
+            "norm_text": "A.안녕하세요 상담센터 #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 관광지 관련해서 문의가 있습니다",
+            "norm_text": "B.안녕하세요 관광지 관련해서 문의가 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+관광지/NNG+관련/NNG+해서/XSV+EC+문의/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 편하게 말씀해주세요",
+            "norm_text": "A.네 고객님 편하게 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+편하/VA+게/EC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속#이라고 청주에서 공예 체험을 할 수 있는 곳이 있다해서요",
+            "norm_text": "B.#@소속#이라고 청주에서 공예 체험을 할 수 있는 곳이 있다해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+이라고/JKQ+청주/NNP+에서/JKB+공예/NNG+체험/NNG+을/JKO+할/VV+ETM+수/NNB+있/VV+는/ETM+곳/NNG+이/JKS+있/VV+다/EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 벽화거리와 한옥이 있어서 농촌 체험도 할 수 있으시고요",
+            "norm_text": "A.네 벽화거리와 한옥이 있어서 농촌 체험도 할 수 있으시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+벽화/NNG+거리/NNG+와/JC+한옥/NNG+이/JKS+있/VV+어서/EC+농촌/NNG+체험/NNG+도/JX+할/VV+ETM+수/NNB+있/VV+으시/EP+고요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.버섯 따기 사과효소 팝콘 만들기 등 아이들이 좋아하는 프로그램도 있습니다",
+            "norm_text": "A.버섯 따기 팝콘 만들기 등 아이들이 좋아하는 프로그램도 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+버섯/NNG+따/VV+기/ETN+팝콘/NNG+만들/VV+기/ETN+등/NNB+아이/NNG+들/XSN+이/JKS+좋/VA+아/EC+하/VV+는/ETM+프로그램/NNG+도/JX+있/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.거기 정확한 주소가 어떻게 되나요",
+            "norm_text": "B.거기 정확한 주소가 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+거기/NP+정확/NNG+한/XSA+ETM+주소/NNG+가/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.#@소속# 정확한 주소는 #@주소#입니다",
+            "norm_text": "A.#@소속# 정확한 주소는 #@주소#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+정확/NNG+한/XSA+ETM+주소/NNG+는/JX+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.체험 담당자 연락처 좀 알 수 있을까요",
+            "norm_text": "B.체험 담당자 연락처 좀 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+체험/NNG+담당자/NNG+연락처/NNG+좀/MAG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 담당자 연락처는 #@전번#로 문의주시면 됩니다",
+            "norm_text": "A.네 담당자 연락처는 #@전번#로 문의주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+담당자/NNG+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+로문/NNG+의/JKG+주/VV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.자세하게 설명해주셔서 감사합니다",
+            "norm_text": "B.자세하게 설명해주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+자세/XR+하/XSA+게/EC+설명/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 지금까지 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 지금까지 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+지금/NNG+까지/JX+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

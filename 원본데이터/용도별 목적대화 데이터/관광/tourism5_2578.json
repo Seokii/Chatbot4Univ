@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 160366,
+    "name": "t5_20211119_0010_2981_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt202111101359200112108/t5_20211119_0010_2981_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt202111101359200112108/t5_20211119_0010_2981_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 156436,
+      "filename": "t5_0083_0071_02.txt",
+      "title": "t5_0083_0071_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 268,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 268,
+        "word_size": 61,
+        "text": "A.환영합니다 #@소속# 입니다\nB.네 저기 문의 좀 드릴게요\nA.네 고객님 말씀하세요\nB.#@기타# 이용요금 좀 알려주세요\nA.네 저희 #@기타#의 이용요금 안내드리겠습니다\nA.성인 17세 이상의 요금은 9천 원 37개월부터 중학생의 요금은 7천 원입니다\nB.그럼 36개월 이하 아기의 경우는 어떻게 되나요\nA.36개월 이하의 영유아는 무료입장입니다\nB.아 아기들은 무료군요\nA.네 고객님 추가 문의가 있으신가요\nB.아니요 친절한 답변 덕분에 해결했네요\nA.네 고객님 오늘도 행복한 하루 보내십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.환영합니다 #@소속# 입니다",
+            "norm_text": "A.환영합니다 #@소속# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+환영/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 저기 문의 좀 드릴게요",
+            "norm_text": "B.네 저기 문의 좀 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+저/MM+기문/NNG+의/JKG+좀/MAG+드릴게요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀하세요",
+            "norm_text": "A.네 고객님 말씀하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@기타# 이용요금 좀 알려주세요",
+            "norm_text": "B.#@기타# 이용요금 좀 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+이용/NNG+요금/NNG+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 저희 #@기타#의 이용요금 안내드리겠습니다",
+            "norm_text": "A.네 저희 #@기타#의 이용요금 안내드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+저희/NP+#/SY+@/SY+기타/NNG+#/SY+의/JKG+이용/NNG+요금/NNG+안/MAG+내드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.성인 17세 이상의 요금은 9천 원 37개월부터 중학생의 요금은 7천 원입니다",
+            "norm_text": "A.성인 17세 이상의 요금은 9천 원 37개월부터 중학생의 요금은 7천 원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+성인/NNG+17/SN+세/NNBC+이상/NNG+의/JKG+요금/NNG+은/JX+9/SN+천/NR+원/NNBC+37/SN+개월/NNBC+부터/JX+중학생/NNG+의/JKG+요금/NNG+은/JX+7/SN+천/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그럼 36개월 이하 아기의 경우는 어떻게 되나요",
+            "norm_text": "B.그럼 36개월 이하 아기의 경우는 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+36/SN+개월/NNBC+이하/NNG+아기/NNG+의/JKG+경우/NNG+는/JX+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.36개월 이하의 영유아는 무료입장입니다",
+            "norm_text": "A.36개월 이하의 영유아는 무료입장입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+36/SN+개월/NNBC+이하/NNG+의/JKG+영유/NNG+아/VV+는/ETM+무료입장/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.아 아기들은 무료군요",
+            "norm_text": "B.아 아기들은 무료군요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+아기/NNG+들/XSN+은/JX+무료/NNG+군요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "A.네 고객님 추가 문의가 있으신가요",
+            "norm_text": "A.네 고객님 추가 문의가 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+추가/NNG+문의/NNG+가/JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "B.아니요 친절한 답변 덕분에 해결했네요",
+            "norm_text": "B.아니요 친절한 답변 덕분에 해결했네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "B/SL+아니요/IC+친절/NNG+한/XSA+ETM+답변/NNG+덕분/NNG+에/JKB+해결/NNG+했/XSV+EP+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 고객님 오늘도 행복한 하루 보내십시오",
+            "norm_text": "A.네 고객님 오늘도 행복한 하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+오늘/NNG+도/JX+행복/NNG+한/XSA+ETM+하루/NNG+보내/VV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 150974,
+    "name": "t1_20211117_0002_0392_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720029752/t1_20211117_0002_0392_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720029752/t1_20211117_0002_0392_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148694,
+      "filename": "t1_0074_0110_02.txt",
+      "title": "t1_0074_0110_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 320,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 320,
+        "word_size": 75,
+        "text": "A. 즐거운 하루 시작 #@소속# 고객센터 상담원 #@이름#입니다\nB. 네 안녕하세요 한옥 펜션이 있을까요\nB. 3인 1박 예정인데 묵을만한 곳 추천 부탁드립니다\nA. 소낭구펜션이라고 한국 관광공사 인증 한옥 펜션이 있습니다\nB. 지금 빈 방이 있을까요 당일 예약이라 좀 걱정되네요\nA. 세분이시면 지금 4인실만 비어있어서 4인실 사용하셔야하는데 괜찮으실까요\nB. 네네 가격이 얼마인가요 바로 예약하게요\nA. 13만원 방과 16만원 방이 있습니다 차이는 크기뿐이에요\nB. 알겠습니다 참고해서 온라인 예약할게요 수고하세요\nA. 행복한 여행 되시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 즐거운 하루 시작 #@소속# 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A. 즐거운 하루 시작 #@소속# 고객센터 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+시작/NNG+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 네 안녕하세요 한옥 펜션이 있을까요",
+            "norm_text": "B. 네 안녕하세요 한옥 펜션이 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+한옥/NNG+펜션/NNG+이/JKS+있/VV+을까요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B. 3인 1박 예정인데 묵을만한 곳 추천 부탁드립니다",
+            "norm_text": "B. 3인 1박 예정인데 묵을만한 곳 추천 부탁드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+3/SN+인/NNG+1/SN+박/NNBC+예정/NNG+인데/VCP+EC+묵/VV+을/ETM+만/NNB+한/XSA+ETM+곳/NNG+추천/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A. 소낭구펜션이라고 한국 관광공사 인증 한옥 펜션이 있습니다",
+            "norm_text": "A. 소낭구펜션이라고 한국 관광공사 인증 한옥 펜션이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+소/XPN+낭구/NNG+펜션/NNG+이/VCP+라고/EC+한국관광공사/NNP+인증/NNG+한옥/NNG+펜션/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B. 지금 빈 방이 있을까요 당일 예약이라 좀 걱정되네요",
+            "norm_text": "B. 지금 빈 방이 있을까요 당일 예약이라 좀 걱정되네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+지금/MAG+빈방/NNG+이/JKS+있/VV+을까요/EC+당일/NNG+예약/NNG+이/VCP+라/EC+좀/MAG+걱정/NNG+되/XSV+네요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A. 세분이시면 지금 4인실만 비어있어서 4인실 사용하셔야하는데 괜찮으실까요",
+            "norm_text": "A. 지금 4인실만 비어있어서 4인실 사용하셔야하는데 괜찮으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+지금/MAG+4/SN+인/NNG+실/NNG+만/JX+비/VV+어/EC+있/VX+어서/EC+4/SN+인/NNG+실/NNG+사용/NNG+하/XSV+셔야/EP+EC+하/VV+는/ETM+데/NNB+괜찮/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 7,
+            "text": "B. 네네 가격이 얼마인가요 바로 예약하게요",
+            "norm_text": "B. 네네 가격이 얼마인가요 바로 예약하게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/NP+네/XSN+가격/NNG+이/JKS+얼마/NNG+인가요/VCP+EC+바로/MAG+예약/NNG+하/XSV+게요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 13만원 방과 16만원 방이 있습니다 차이는 크기뿐이에요",
+            "norm_text": "A. 13만원 방과 16만원 방이 있습니다 차이는 크기뿐이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+13/SN+만/NR+원/NNBC+방과/NNG+16/SN+만/NR+원/NNBC+방/NNG+이/JKS+있/VA+습니다/EF+차이/NNG+는/JX+크기/NNG+뿐/JX+이/VCP+에요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 알겠습니다 참고해서 온라인 예약할게요 수고하세요",
+            "norm_text": "B. 알겠습니다 참고해서 온라인 예약할게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+참고/NNG+해서/XSV+EC+온라인/NNG+예약/NNG+할게요/XSV+EC+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A. 행복한 여행 되시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 행복한 여행 되시길 바랍니다 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+여행/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

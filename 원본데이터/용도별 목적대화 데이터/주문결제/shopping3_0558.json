@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 10921,
+    "name": "s3_20210913_0010_0699_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416099361/s3_20210913_0010_0699_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416099361/s3_20210913_0010_0699_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11936,
+      "filename": "s3_20210826_0010_0015_01.txt",
+      "title": "s3_20210826_0010_0015_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 377,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 377,
+        "word_size": 87,
+        "text": "A.고객님 안녕하세요 #@소속# 정수기 상담실입니다 잠시 통화 가능하실까요\nB.저희가 식사중이라서 급하신거 아니면 나중에 다시 전화하실 수 있으세요\nA.네 고객님 혹시 연락 가능하신 시간대가 있을실까요\nB.무슨 일로 그러시는데요\nA.어제 문의 전화 주셨던 수금건 관련으로 전화드렸습니다\nA.다름이 아니라 내일 출금 처리 되실거라고 안내를 드렸었는데요\nA.지금 저희 전산 시스템이 문제가 생겨서 일정이 변경될 것 같습니다\nA.아무래도 이월 오일에 추가 출금이 진행이 되실 것 같습니다 고객님\nB.그럼 이월 오일에 일월분이 나가는거예요 이월 십일에 이월분이 나가구요\nA.네 말씀하신 내용이 맞으세요\nB.예 그러면 그렇게 알고있을게요 수고하세요\nA.감사합니다 식사 맛있게 하시고 즐거운 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 안녕하세요 #@소속# 정수기 상담실입니다 잠시 통화 가능하실까요",
+            "norm_text": "A.안녕하세요 #@소속# 정수기 상담실입니다 잠시 통화 가능하실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+정수기/NNG+상담/NNG+실/NNG+입니다/VCP+EF+잠시/MAG+통화/NNG+가능/NNG+하/XSV+실까요/EP+EF"
+          },
+          {
+            "id": 2,
+            "text": "B.저희가 식사중이라서 급하신거 아니면 나중에 다시 전화하실 수 있으세요",
+            "norm_text": "B.저희가 식사중이라서 급하신거 아니면 나중에 다시 전화하실 수 있으세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "B/SL+저희/NP+가/JKS+식사/NNG+중/NNB+이/VCP+라서/EC+급하/VA+신/EP+ETM+거/NNB+아니/VCN+면/EC+나중/NNG+에/JKB+다시/MAG+전화/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+으세요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 혹시 연락 가능하신 시간대가 있을실까요",
+            "norm_text": "A.네 고객님 혹시 연락 가능하신 시간대가 있을실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+혹시/MAG+연락/NNG+가능/NNG+하/XSV+신/EP+ETM+시간대/NNG+가/JKS+있/VV+을/ETM+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.무슨 일로 그러시는데요",
+            "norm_text": "B.무슨 일로 그러시는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+무슨/MM+일/NNG+로/JKB+그러/VV+시/EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.어제 문의 전화 주셨던 수금건 관련으로 전화드렸습니다",
+            "norm_text": "A.어제 문의 전화 주셨던 수금건 관련으로 전화드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+어/IC+제문/NNG+의/JKG+전화/NNG+주/VV+셨/EP+EP+던/ETM+수/NNB+금/VV+건/EC+관련/NNG+으로/JKB+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.다름이 아니라 내일 출금 처리 되실거라고 안내를 드렸었는데요",
+            "norm_text": "A.다름이 아니라 내일 출금 처리 되실거라고 안내를 드렸었는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+다름/VA+ETN+이/JKC+아니/VCN+라/EC+내일/MAG+출금/NNG+처리/NNG+되/XSV+실/EP+ETM+거/NNB+라고/VCP+EC+안내/NNG+를/JKO+드렸었/VV+EP+는데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.지금 저희 전산 시스템이 문제가 생겨서 일정이 변경될 것 같습니다",
+            "norm_text": "A.지금 저희 전산 시스템이 문제가 생겨서 일정이 변경될 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+지금/MAG+저희/NP+전산/NNG+시스템/NNG+이/JKS+문제/NNG+가/JKS+생겨서/VV+EC+일정/NNG+이/JKS+변경/NNG+될/XSV+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.아무래도 이월 오일에 추가 출금이 진행이 되실 것 같습니다 고객님",
+            "norm_text": "A.아무래도 이월 오일에 추가 출금이 진행이 되실 것 같습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아무래도/MAG+이월/NNG+오일/NNG+에/JKB+추가/NNG+출금/NNG+이/JKS+진행/NNG+이/JKS+되/VV+실/EP+ETM+것/NNB+같/VA+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 9,
+            "text": "B.그럼 이월 오일에 일월분이 나가는거예요 이월 십일에 이월분이 나가구요",
+            "norm_text": "B.그럼 이월 오일에 일월분이 나가는거예요 이월 십일에 이월분이 나가구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+이월/NNG+오일/NNG+에/JKB+일월/NNG+분/XSN+이/JKS+나가/VV+는/ETM+거/NNB+예요/VCP+EF+이월/NNG+십/NR+일/NNBC+에/JKB+이월/NNG+분/XSN+이/JKS+나가/VV+구요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 말씀하신 내용이 맞으세요",
+            "norm_text": "A.네 말씀하신 내용이 맞으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+말씀/NNG+하/XSV+신/EP+ETM+내용/NNG+이/JKS+맞/VV+으세요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.예 그러면 그렇게 알고있을게요 수고하세요",
+            "norm_text": "B.예 그러면 그렇게 알고있을게요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+그러면/MAJ+그렇게/MAG+알/VV+고/EC+있/VX+을게요/EC+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.감사합니다 식사 맛있게 하시고 즐거운 하루 보내세요",
+            "norm_text": "A.감사합니다 식사 맛있게 하시고 즐거운 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+식사/NNG+맛있/VA+게/EC+하/VX+시/EP+고/EC+즐거운/VA+ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

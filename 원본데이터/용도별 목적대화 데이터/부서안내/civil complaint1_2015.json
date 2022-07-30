@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 12693,
+    "name": "c1_20210913_0005_0769_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt202109081513390300110/c1_20210913_0005_0769_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt202109081513390300110/c1_20210913_0005_0769_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10399,
+      "filename": "c1_20210818_0010_0016_01.txt",
+      "title": "c1_20210818_0010_0016_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 387,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 387,
+        "word_size": 88,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.민원 여권에 대해서 문의 할려고 전화했거든요\nA.실례지만 여권 관련 어떤 문의이십니까\nB.여권 날짜가 얼마나 남았는지 모르겠는데요\nB.새로 만들려면 그러니까 재발급 할려면 도청으로 가면 되나요\nA.만약에 유효기간이 거의 다 되셨다면 재발급은 어렵고요\nA.여권을 새로 발급을 받으셔야 합니다\nB.그러면 얼만큼 남아야 재발급이 되는 거예요\nA.유효기간 관련으로는 재발급이나 유효기간 갱신 제도가 폐지되었고요\nA.무조건 새로 발급을 받아주셔야 합니다\nB.그러면 다시 사진하고 관련 준비물을 가지고 가야 되겠네요\nA.네 맞습니다 필요하신 것들 안내 해드릴까요\nB.그 전에 여권 십 년 짜리가 얼마죠\nA.네 혹시 메모 가능하십니까\nB.메모 하고 있어요 불러주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.민원 여권에 대해서 문의 할려고 전화했거든요",
+            "norm_text": "B.민원 여권에 대해서 문의 할려고 전화했거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+민원/NNG+여권/NNG+에/JKB+대해서/VV+EC+문의/NNG+할려고/XSV+EC+전화/NNG+했/XSV+EP+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.실례지만 여권 관련 어떤 문의이십니까",
+            "norm_text": "A.실례지만 여권 관련 어떤 문의이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+실례/NNG+지만/VCP+EC+여권/NNG+관련/NNG+어떤/MM+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.여권 날짜가 얼마나 남았는지 모르겠는데요",
+            "norm_text": "B.여권 날짜가 얼마나 남았는지 모르겠는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+여권/NNG+날짜/NNG+가/JKS+얼마나/MAG+남/VV+았/EP+는지/EC+모르/VV+겠/EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.새로 만들려면 그러니까 재발급 할려면 도청으로 가면 되나요",
+            "norm_text": "B.새로 만들려면 그러니까 재발급 할려면 도청으로 가면 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+새로/MAG+만들/VV+려면/EC+그러/VV+니까/EC+재/XPN+발급/NNG+할려면/XSV+EC+도청/NNG+으로/JKB+가/VV+면/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.만약에 유효기간이 거의 다 되셨다면 재발급은 어렵고요",
+            "norm_text": "A.만약에 유효기간이 거의 다 되셨다면 재발급은 어렵고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+만약/NNG+에/JKB+유효/NNG+기간/NNG+이/JKS+거의/MAG+다/MAG+되/VV+셨/EP+EP+다면/EC+재/XPN+발급/NNG+은/JX+어렵/VA+고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.여권을 새로 발급을 받으셔야 합니다",
+            "norm_text": "A.여권을 새로 발급을 받으셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+여권/NNG+을/JKO+새로/MAG+발급/NNG+을/JKO+받/VV+으셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그러면 얼만큼 남아야 재발급이 되는 거예요",
+            "norm_text": "B.그러면 얼만큼 남아야 재발급이 되는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+얼만큼/MAG+남/VV+아야/EC+재/XPN+발급/NNG+이/JKS+되/VV+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.유효기간 관련으로는 재발급이나 유효기간 갱신 제도가 폐지되었고요",
+            "norm_text": "A.유효기간 관련으로는 재발급이나 유효기간 갱신 제도가 폐지되었고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+유효/NNG+기간/NNG+관련/NNG+으로/JKB+는/JX+재/XPN+발급/NNG+이나/JC+유효/NNG+기간/NNG+갱신/NNG+제도/NNG+가/JKS+폐지/NNG+되/XSV+었/EP+고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.무조건 새로 발급을 받아주셔야 합니다",
+            "norm_text": "A.무조건 새로 발급을 받아주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+무조건/MAG+새로/MAG+발급/NNG+을/JKO+받/VV+아/EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그러면 다시 사진하고 관련 준비물을 가지고 가야 되겠네요",
+            "norm_text": "B.그러면 다시 사진하고 관련 준비물을 가지고 가야 되겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+다시/MAG+사진/NNG+하/XSV+고/EC+관련/NNG+준비물/NNG+을/JKO+가지/VV+고/EC+가/VX+야/EC+되/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 맞습니다 필요하신 것들 안내 해드릴까요",
+            "norm_text": "A.네 맞습니다 필요하신 것들 안내 해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+필요/NNG+하/XSV+신/EP+ETM+것/NNB+들/XSN+안내/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그 전에 여권 십 년 짜리가 얼마죠",
+            "norm_text": "B.그 전에 여권 십 년 짜리가 얼마죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그/MM+전/NNG+에/JKB+여권/NNG+십/NR+년/NNBC+짜리/XSN+가/JKS+얼마/NNG+죠/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 혹시 메모 가능하십니까",
+            "norm_text": "A.네 혹시 메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+혹시/MAG+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.메모 하고 있어요 불러주세요",
+            "norm_text": "B.메모 하고 있어요 불러주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+메모/NNG+하/XSV+고/EC+있/VX+어요/EF+불러/VV+EC+주/VX+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

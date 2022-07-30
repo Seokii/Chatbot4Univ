@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 115000,
+    "name": "s7_20211104_0010_4022_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt202111011109410675103/s7_20211104_0010_4022_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt202111011109410675103/s7_20211104_0010_4022_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 121901,
+      "filename": "s7_20211029_0015_0036_01.txt",
+      "title": "s7_20211029_0015_0036_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 284,
+      "annotations": {
+        "subject": "온오프라인 안내",
+        "speaker_type": "1:1",
+        "size": 284,
+        "word_size": 62,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nB.안녕하세요 이번에 결제를 진행했는 데요 일 달러가 추가로 결제됐어요\nA.예 우선 결제 오류는 아니라는 점을 안내해 드립니다\nA.해외 결제 대행사를 통해 결제하시는 경우에 테스트용으로 결제됩니다\nB.테스트용이면은 저한테 부과되는 건 아닌 거죠\nA.네 맞습니다 결제가 가능한 지 테스트하기 위한 금액이니까요\nA.고객님께는 별도로 청구되지 않는다는 점을 다시 안내해 드립니다\nB.자세한 답변이 많은 도움이 되었어요 고맙습니다\nA.고맙습니다 저는 #@소속#이었습니다\nB.예 안녕히 계세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 이번에 결제를 진행했는 데요 일 달러가 추가로 결제됐어요",
+            "norm_text": "B.안녕하세요 이번에 결제를 진행했는 데요 일 달러가 추가로 결제됐어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+이번/NNG+에/JKB+결제/NNG+를/JKO+진행/NNG+했/XSV+EP+는데요/EF+일/NR+달러/NNBC+가/JKS+추가/NNG+로/JKB+결제/NNG+됐/XSV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 우선 결제 오류는 아니라는 점을 안내해 드립니다",
+            "norm_text": "A.예 우선 결제 오류는 아니라는 점을 안내해 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": "A/SL+예/IC+우선/MAG+결제/NNG+오류/NNG+는/JX+아니/VCN+라는/ETM+점/NNG+을/JKO+안내/NNG+해/XSV+EC+드립니다/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.해외 결제 대행사를 통해 결제하시는 경우에 테스트용으로 결제됩니다",
+            "norm_text": "A.해외 결제 대행사를 통해 결제하시는 경우에 테스트용으로 결제됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해외/NNG+결제/NNG+대행사/NNP+를/JKO+통해/VV+EC+결제/NNG+하/XSV+시/EP+는/ETM+경우/NNG+에/JKB+테스트/NNG+용/XSN+으로/JKB+결제/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.테스트용이면은 저한테 부과되는 건 아닌 거죠",
+            "norm_text": "B.테스트용이면은 저한테 부과되는 건 아닌 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+테스트/NNG+용/XSN+이/VCP+면은/EC+저/NP+한테/JKB+부과/NNG+되/XSV+는/ETM+건/NNB+JX+아닌/VCN+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 맞습니다 결제가 가능한 지 테스트하기 위한 금액이니까요",
+            "norm_text": "A.네 맞습니다 결제가 가능한 지 테스트하기 위한 금액이니까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+결제/NNG+가/JKS+가능/NNG+한지/XSA+EC+테스트/NNG+하/XSV+기/ETN+위한/VV+ETM+금액/NNG+이/VCP+니까요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.고객님께는 별도로 청구되지 않는다는 점을 다시 안내해 드립니다",
+            "norm_text": "A.고객님께는 별도로 청구되지 않는다는 점을 다시 안내해 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+께/JKB+는/JX+별도/NNG+로/JKB+청구/NNG+되/XSV+지/EC+않/VX+는다는/ETM+점/NNG+을/JKO+다시/MAG+안내/NNG+해/XSV+EC+드립니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.자세한 답변이 많은 도움이 되었어요 고맙습니다",
+            "norm_text": "B.자세한 답변이 많은 도움이 되었어요 고맙습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+자세/XR+한/XSA+ETM+답변/NNG+이/JKS+많/VA+은/ETM+도움/NNG+이/JKS+되/VV+었/EP+어요/EF+고맙/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.고맙습니다 저는 #@소속#이었습니다",
+            "norm_text": "A.고맙습니다 저는 #@소속#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+고맙/VA+습니다/EF+저/NP+는/JX+#/SY+@/SY+소속/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.예 안녕히 계세요",
+            "norm_text": "B.예 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+안녕히/MAG+계세요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

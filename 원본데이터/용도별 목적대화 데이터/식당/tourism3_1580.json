@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 165023,
+    "name": "t3_20211123_0005_0485_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135808048652/t3_20211123_0005_0485_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135808048652/t3_20211123_0005_0485_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 150865,
+      "filename": "t3_0069_0005_02.txt",
+      "title": "t3_0069_0005_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 271,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 271,
+        "word_size": 63,
+        "text": "A.안녕하세요 전화 받은 상담원 #@이름#입니다\nB.이번 주에 남원을 여행 해 보려고 하는데요\nA.네 무엇을 도와드릴까요\nB.#@주소# 근처에 가 볼 만 한 한정식 집이 있나요\nA.네 #@소속#이라고 전통 음식 전문점이 있습니다\nB.#@주소#하고 많이 가까운가요\nA.네 정확한 주소는 전라북도 남원시 #@주소#입니다\nB.예 지도로 보니까 정말 #@기타# 바로 옆이네요\nA.장맛이 바로 이 집만의 장점이고요\nA.#@기타#과 함께 또 다른 추억을 만들기에 충분하실 거예요\nB.감사합니다 많은 도움이 되었어요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 전화 받은 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 전화 받은 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+전화/NNG+받/VV+은/ETM+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.이번 주에 남원을 여행 해 보려고 하는데요",
+            "norm_text": "B.이번 주에 남원을 여행해 보려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이번/NNG+주/NNG+에/JKB+남원/NNG+을/JKO+여행/NNG+해/XSV+EC+보/VX+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 무엇을 도와드릴까요",
+            "norm_text": "A.네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@주소# 근처에 가 볼 만 한 한정식 집이 있나요",
+            "norm_text": "B.#@주소# 근처에 가 볼 만한 한정식 집이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+근처/NNG+에/JKB+가/VV+볼/EC+VX+ETM+만/NNB+한/XSA+ETM+한정식/NNG+집/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 #@소속#이라고 전통 음식 전문점이 있습니다",
+            "norm_text": "A.네 #@소속#이라고 전통 음식 전문점이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+이라고/JKQ+전통/NNG+음식/NNG+전문점/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.#@주소#하고 많이 가까운가요",
+            "norm_text": "B.#@주소#하고 많이 가까운가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+하고/JKQ+많이/MAG+가까운/VA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.네 정확한 주소는 전라북도 남원시 #@주소#입니다",
+            "norm_text": "A.네 정확한 주소는 전라북도 남원시 #@주소#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+정확/XR+한/XSA+ETM+주소/NNG+는/JX+전라북도/NNP+남원시/NNP+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.예 지도로 보니까 정말 #@기타# 바로 옆이네요",
+            "norm_text": "B.예 지도로 보니까 정말 #@기타# 바로 옆이네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+지도/NNG+로/JKB+보/VV+니까/EC+정말/MAG+#/SY+@/SY+기타/NNG+#/SY+바로/MAG+옆/NNG+이/VCP+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.장맛이 바로 이 집만의 장점이고요",
+            "norm_text": "A.장맛이 바로 이 집만의 장점이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+장맛/NNG+이/JKS+바로/MAG+이/MM+집/NNG+만/JX+의/JKG+장점/NNG+이/JKS+고요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "A.#@기타#과 함께 또 다른 추억을 만들기에 충분하실 거예요",
+            "norm_text": "A.#@기타#과 함께 또 다른 추억을 만들기에 충분하실 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+과/JKB+함께/MAG+또/MAG+다른/MM+추억/NNG+을/JKO+만들/VV+기에/EC+충분/XR+하/XSA+실/EP+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.감사합니다 많은 도움이 되었어요",
+            "norm_text": "B.감사합니다 많은 도움이 되었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+많/VA+은/ETM+도움/NNG+이/JKS+되/VV+었/EP+어요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

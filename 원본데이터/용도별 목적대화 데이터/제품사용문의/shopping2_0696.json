@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 31160,
+    "name": "s2_20211007_0010_1490_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151413032217/s2_20211007_0010_1490_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151413032217/s2_20211007_0010_1490_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11402,
+      "filename": "s2_20210827_0001_0005_01.txt",
+      "title": "s2_20210827_0001_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 471,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 471,
+        "word_size": 112,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.예 #@상품# 쓰는데 번호랑 개통 확인서에 고객 확인 정보 입력 하라고 나오는데요\nB.이게 정확히 뭔지 잘 모르겠거든요\nA.네 공유기 교체하고 난 후에 사용하실 때 번호 입력하라는 게 나왔다는 말씀이신 거죠\nB.예 #@상품#이고 인터넷으로 하라는데 이런 거를 잘 몰라서요\nA.그러세요 고객님 그러면 사용하시는 컴퓨터는 저희 #@상품# 이세요\nB.예 모델명 알아야 돼요\nA.네 데스크탑 혹시 모델명이 어떻게 됩니까\nB.이거 지금 인터넷 그거하고 번호만 알면 되는 거 아니에요\nA.모델명을 알려주시면 피씨 전문 상담사 통해 도와드릴 수 있도록 하겠습니다\nA.아니면 #@상품# 쪽에 여쭤보실 거세요\nB.그게 뭐 다릅니까\nA.고객님 저희는 #@소속#이고 #@상품#은 번호가 사실 따로 있어요\nB.그럼 거기 전화번호 알려줄래요\nA.예 #@상품# 전화번호는 #@전번#입니다\nB.예 알겠습니다 그럼 이리로 해볼게요\nA.네 행복한 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 #@상품# 쓰는데 번호랑 개통 확인서에 고객 확인 정보 입력 하라고 나오는데요",
+            "norm_text": "B.#@상품# 쓰는데 고객 확인 정보 입력 하라고 나오는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+쓰/VV+는데/EC+고객/NNG+확인/NNG+정보/NNG+입력/NNG+하/XSV+라고/EC+나오/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.이게 정확히 뭔지 잘 모르겠거든요",
+            "norm_text": "B.이게 정확히 뭔지 잘 모르겠거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+이게/NP+JKS+정확히/MAG+뭔지/NP+VCP+EC+잘/MAG+모르/VV+겠/EP+거든요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.네 공유기 교체하고 난 후에 사용하실 때 번호 입력하라는 게 나왔다는 말씀이신 거죠",
+            "norm_text": "A.공유기 교체 후에 번호 입력하라는 게 나왔다는 말씀이신 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+공유/NNG+기교체/NNG+하/XSV+고/EC+난/VX+ETM+후/NNG+에/JKB+사용/NNG+하/XSV+실/EP+ETM+때/NNG+번호/NNG+입력/NNG+하/XSV+라는/ETM+게/NNB+JKS+나왔/VV+EP+다는/ETM+말씀/NNG+이/VCP+신/EP+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.예 #@상품#이고 인터넷으로 하라는데 이런 거를 잘 몰라서요",
+            "norm_text": "B.예 #@상품#이고 인터넷으로 하라는데 이런 거를 잘 몰라서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+상품/NNG+#/SY+이/VCP+고/EC+인터넷/NNG+으로/JKB+하/VV+라는데/EC+이런/MM+거/NNB+를/JKO+잘/MAG+몰/VV+라서요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.그러세요 고객님 그러면 사용하시는 컴퓨터는 저희 #@상품# 이세요",
+            "norm_text": "A.그러세요 고객님 그러면 사용하시는 컴퓨터는 저희 #@상품# 이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+세요/EP+EF+고객/NNG+님/XSN+그러/VV+면/EC+사용/NNG+하/XSV+시/EP+는/ETM+컴퓨터/NNG+는/JX+저희/NP+#/SY+@/SY+상품/NNG+#/SY+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.예 모델명 알아야 돼요",
+            "norm_text": "B.예 모델명 알아야 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+모델/NNG+명/XSN+알/VV+아야/EC+돼요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 데스크탑 혹시 모델명이 어떻게 됩니까",
+            "norm_text": "A.네 데스크탑 혹시 모델명이 어떻게 됩니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+데스크/NNG+탑/NNG+혹시/MAG+모델/NNG+명/NNG+이/JKS+어떻게/MAG+됩니까/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.이거 지금 인터넷 그거하고 번호만 알면 되는 거 아니에요",
+            "norm_text": "B.이거 지금 인터넷 그거하고 번호만 알면 되는 거 아니에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이거/NP+지금/MAG+인터넷/NNG+그거/NP+하고/JKB+번호/NNG+만/JX+알/VV+면/EC+되/VV+는/ETM+거/NNB+아니/VCN+에요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.모델명을 알려주시면 피씨 전문 상담사 통해 도와드릴 수 있도록 하겠습니다",
+            "norm_text": "A.모델명을 알려주시면 피씨 전문 상담사 통해 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+모델/NNG+명/NNG+을/JKO+알려/VV+EC+주/VX+시/EP+면/EC+피/NNP+씨/NNB+전문/NNG+상담/NNG+사통/NNG+해/XSV+EC+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.아니면 #@상품# 쪽에 여쭤보실 거세요",
+            "norm_text": "A.아니면 #@상품# 쪽에 여쭤보실 거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+아니/VCN+면/EC+#/SY+@/SY+상품/NNG+#/SY+쪽/NNB+에/JKB+여쭤/VV+EC+보/VX+실/EP+ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.그게 뭐 다릅니까",
+            "norm_text": "B.그게 뭐 다릅니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+그게/NP+JKS+뭐/IC+다릅니까/VA+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.고객님 저희는 #@소속#이고 #@상품#은 번호가 사실 따로 있어요",
+            "norm_text": "A.고객님 저희는 #@소속#이고 #@상품#은 번호가 사실 따로 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+저희/NP+는/JX+#/SY+@/SY+소속/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+상품/NNG+#/SY+은/JX+번호/NNG+가/JKS+사실/MAG+따로/MAG+있/VV+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.그럼 거기 전화번호 알려줄래요",
+            "norm_text": "B.그럼 거기 전화번호 알려줄래요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+거기/NP+전화/NNG+번호/NNG+알려/VV+EC+줄래요/VX+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.예 #@상품# 전화번호는 #@전번#입니다",
+            "norm_text": "A.예 #@상품# 전화번호는 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+#/SY+@/SY+상품/NNG+#/SY+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.예 알겠습니다 그럼 이리로 해볼게요",
+            "norm_text": "B.예 알겠습니다 그럼 이리로 해볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+알/VV+겠/EP+습니다/EF+그럼/MAJ+이리로/MAG+해/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 17,
+            "text": "A.네 행복한 하루 되세요",
+            "norm_text": "A.네 행복한 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

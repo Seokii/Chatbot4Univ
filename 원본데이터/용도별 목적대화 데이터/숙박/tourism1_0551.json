@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 141484,
+    "name": "t1_20211115_0002_0543_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135716021874/t1_20211115_0002_0543_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135716021874/t1_20211115_0002_0543_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148169,
+      "filename": "t1_0068_0095_02.txt",
+      "title": "t1_0068_0095_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 295,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 295,
+        "word_size": 66,
+        "text": "A.평창 #@소속#리조트 #@이름# 입니다\nB.성인 3명인데요 룸 예약을 어떤 걸로 해야 되나요\nA.스위트룸이 평 수가 넓어 쾌적하게 이용하실 수 있습니다\nB.새벽에 일찍 오대산 등산 갈 건데 조식을 이용할 수 있을까요\nA.죄송합니다만 저희는 조식을 운영하지 않습니다\nB.그렇군요 그럼 리조트 내에 식당이 없나요\nA.한식당이 있는데 점심과 저녁 식사만 가능 하십니다\nB.그럼 말씀하신 스위트룸은 금액이 얼마인가요\nA.주말에는 79000원 주중에는 62000원 입니다\nB.자세히 안내해 주셔서 감사합니다\nA.평창 #@소속#리조트 #@이름# 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.평창 #@소속#리조트 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+평창/NNP+#/SY+@/SY+소속/NNG+#/SY+리조트/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.성인 3명인데요 룸 예약을 어떤 걸로 해야 되나요",
+            "norm_text": "B.성인 3명인데요 룸 예약을 어떤 걸로 해야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+성인/NNG+3/SN+명/NNBC+인데요/VCP+EC+룸/NNG+예약/NNG+을/JKO+어떤/MM+걸로/NNB+JKB+해야/VV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.스위트룸이 평 수가 넓어 쾌적하게 이용하실 수 있습니다",
+            "norm_text": "A.스위트룸이 평 수가 넓어 쾌적하게 이용하실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+스위트룸/NNG+이/JKS+평수/NNG+가/JKS+넓/VA+어/EC+쾌적/XR+하/XSA+게/EC+이용/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.새벽에 일찍 오대산 등산 갈 건데 조식을 이용할 수 있을까요",
+            "norm_text": "B.새벽에 일찍 오대산 등산 갈 건데 조식을 이용할 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+새벽/NNG+에/JKB+일찍/MAG+오대산/NNP+등산/NNG+갈/VV+ETM+건데/NNB+VCP+EC+조식/NNG+을/JKO+이용/NNG+할/XSV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.죄송합니다만 저희는 조식을 운영하지 않습니다",
+            "norm_text": "A.죄송합니다만 저희는 조식을 운영하지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+만/JX+저희/NP+는/JX+조식/NNG+을/JKO+운영/NNG+하/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그렇군요 그럼 리조트 내에 식당이 없나요",
+            "norm_text": "B.그렇군요 그럼 리조트 내에 식당이 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+그럼/MAJ+리조트/NNG+내/NNB+에/JKB+식당/NNG+이/JKS+없/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.한식당이 있는데 점심과 저녁 식사만 가능 하십니다",
+            "norm_text": "A.한식당이 있는데 점심과 저녁 식사만 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+한/MM+식당/NNG+이/JKS+있/VV+는데/EC+점심/NNG+과/JC+저녁/NNG+식사/NNG+만/JX+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 말씀하신 스위트룸은 금액이 얼마인가요",
+            "norm_text": "B.그럼 말씀하신 스위트룸은 금액이 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+말씀/NNG+하/XSV+신/EP+ETM+스위트룸/NNG+은/JX+금액/NNG+이/JKS+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.주말에는 79000원 주중에는 62000원 입니다",
+            "norm_text": "A.주말에는 79000원 주중에는 62000원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주말/NNG+에/JKB+는/JX+79000/SN+원주/NNG+중/NNB+에/JKB+는/JX+62000/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.자세히 안내해 주셔서 감사합니다",
+            "norm_text": "B.자세히 안내해 주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+자세히/MAG+안내/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.평창 #@소속#리조트 #@이름# 였습니다",
+            "norm_text": "A.네 지금까지 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+평창/NNP+#/SY+@/SY+소속/NNG+#/SY+리조트/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

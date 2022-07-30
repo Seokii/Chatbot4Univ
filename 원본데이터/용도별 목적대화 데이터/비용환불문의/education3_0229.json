@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 138505,
+    "name": "e3_20211112_0001_0158_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135622042516/e3_20211112_0001_0158_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135622042516/e3_20211112_0001_0158_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 146133,
+      "filename": "e3_0080_0063_02.txt",
+      "title": "e3_0080_0063_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 421,
+      "annotations": {
+        "subject": "비용/환불 문의",
+        "speaker_type": "1:1",
+        "size": 421,
+        "word_size": 101,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.네 안녕하세요 중복 결제가 된 거 같은데요 어떻게 하면 될까요\nA.네 우선 고객님 핸드폰 번호와 성함 알려 주시겠습니까\nB.네 #@전번#이구요 #@이름#입니다\nA.네 확인 감사합니다 #@이름# 고객님 지금 제가 확인해 봤는데요\nB.네 보면 중복결제 되어있죠 문자 두 번 왔 거든요\nA.아 제가 보기에는 아마 취소문자가 한번 가고 나서요\nA.그 다음 재결제가 이루어진 다음에 알림이 전송된거 같아요\nA.전산에는 결론적으로 한번 결제 된거로 뜨는데요\nA.혹시 문자 한 번 더 확인 가능할까요\nB.네 잠시만요 여기 보면은 아 취소문자 맞네요\nA.아 네 그럼 다행이네요 아무 문제 없어서요\nB.아이고 제가 확인을 똑바로 못했네요 죄송합니다\nA.아닙니다 또 궁금한거 있으시면 전화주시구요 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 중복 결제가 된 거 같은데요 어떻게 하면 될까요",
+            "norm_text": "B.네 안녕하세요 중복 결제가 된 거 같은데요 어떻게 하면 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+중복/NNG+결제/NNG+가/JKS+된/VV+ETM+거/NNB+같/VA+은데요/EF+어떻게/MAG+하/VV+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 우선 고객님 핸드폰 번호와 성함 알려 주시겠습니까",
+            "norm_text": "A.네 우선 고객님 핸드폰 번호와 성함 알려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+우선/MAG+고객/NNG+님/XSN+핸드폰/NNG+번호/NNG+와/JC+성함/NNG+알려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@전번#이구요 #@이름#입니다",
+            "norm_text": "B.네 #@전번#이구요 #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+이/VCP+구요/EF+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 확인 감사합니다 #@이름# 고객님 지금 제가 확인해 봤는데요",
+            "norm_text": "A.네 확인 감사합니다 #@이름# 고객님 지금 제가 확인해 봤는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EF+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+지금/MAG+제/NP+가/JKS+확인/NNG+해/XSV+EC+봤/VX+EP+는데요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 보면 중복결제 되어있죠 문자 두 번 왔 거든요",
+            "norm_text": "B.네 보면 중복결제 되어있죠 문자 두 번 왔 거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+보/VV+면/EC+중복/NNG+결제/NNG+되/XSV+어/EC+있/VX+죠/EF+문자/NNG+두/MM+번/NNBC+왔/VV+EP+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.아 제가 보기에는 아마 취소문자가 한번 가고 나서요",
+            "norm_text": "A.아 제가 보기에는 아마 취소문자가 한번 가고 나서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아/IC+제/NP+가/JKS+보/VV+기/ETN+에/JKB+는/JX+아마/MAG+취소/NNG+문자/NNG+가/JKS+한/MM+번/NNBC+가/VV+고/EC+나/VX+서요/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.그 다음 재결제가 이루어진 다음에 알림이 전송된거 같아요",
+            "norm_text": "A.그 다음 재결제가 이루어진 다음에 알림이 전송된거 같아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+다음/NNG+재/XPN+결제/NNG+가/JKS+이루어진/VV+ETM+다음/NNG+에/JKB+알림/VV+ETN+이/JKS+전송/NNG+된/XSV+ETM+거/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.전산에는 결론적으로 한번 결제 된거로 뜨는데요",
+            "norm_text": "A.전산에는 결론적으로 한번 결제 된거로 뜨는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전산/NNG+에/JKB+는/JX+결론/NNG+적/XSN+으로/JKB+한번/MAG+결제/NNG+된/XSV+ETM+거/NNB+로/JKB+뜨/VV+는데요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.혹시 문자 한 번 더 확인 가능할까요",
+            "norm_text": "A.혹시 문자 한 번 더 확인 가능할까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+문자/NNG+한/MM+번/NNBC+더/MAG+확인/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 잠시만요 여기 보면은 아 취소문자 맞네요",
+            "norm_text": "B.네 잠시만요 여기 보면은 아 취소문자 맞네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+잠시/NNG+만/JX+요/JX+여기/NP+보/VV+면은/EC+아취/NNG+소문자/NNG+맞/VV+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.아 네 그럼 다행이네요 아무 문제 없어서요",
+            "norm_text": "A.아 네 그럼 다행이네요 아무 문제 없어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아/IC+네/IC+그럼/MAJ+다행/NNG+이/VCP+네요/EF+아무/MM+문제/NNG+없/VA+어서요/EC"
+          },
+          {
+            "id": 13,
+            "text": "B.아이고 제가 확인을 똑바로 못했네요 죄송합니다",
+            "norm_text": "B.아이고 제가 확인을 똑바로 못했네요 죄송합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "B/SL+아이고/IC+제/NP+가/JKS+확인/NNG+을/JKO+똑바로/MAG+못/MAG+했/VV+EP+네요/EF+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.아닙니다 또 궁금한거 있으시면 전화주시구요 상담원 #@이름#이었습니다",
+            "norm_text": "A.아닙니다 좋은 하루 되세요 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+아닙니다/VCN+EF+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

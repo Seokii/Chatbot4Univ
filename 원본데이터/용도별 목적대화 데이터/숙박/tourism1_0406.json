@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 140901,
+    "name": "t1_20211115_0002_0398_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715002250/t1_20211115_0002_0398_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715002250/t1_20211115_0002_0398_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148024,
+      "filename": "t1_0067_0080_02.txt",
+      "title": "t1_0067_0080_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 271,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 271,
+        "word_size": 66,
+        "text": "A. 안녕하세요 #@소속# #@이름# 상담원입니다\nB. 네 안녕하세요 객실타입 정보 좀 여쭤보려구요\nA. 네 반갑습니다 어떤 유형의 객실 안내해드릴까요\nB. 거기 메인타워랑 컨벤션타워로 호텔이 나뉘던데요\nB. 혹시 객실타입이 좀 다른건지 궁금해서요\nA. 네 객실타입이나 구성이 동일하진 않습니다\nB. 음 그럼 스탠다드룸이 없을 수도 있는건가요\nA. 스탠다드룸의 경우엔 메인타워 호텔에만 있으세요\nB. 아 그렇군요 좋은 정보 감사합니다 또 전화드릴게요\nA. 네 다른 문의 생기시면 언제든 다시 연락주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 안녕하세요 #@소속# #@이름# 상담원입니다",
+            "norm_text": "A. 안녕하세요 #@소속# #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 네 안녕하세요 객실타입 정보 좀 여쭤보려구요",
+            "norm_text": "B. 네 안녕하세요 객실타입 정보 좀 여쭤보려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+객실/NNG+타입/NNG+정보/NNG+좀/MAG+여쭤/VV+EC+보/VX+려구요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 반갑습니다 어떤 유형의 객실 안내해드릴까요",
+            "norm_text": "A. 네 반갑습니다 어떤 유형의 객실 안내해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+반갑/VA+습니다/EF+어떤/MM+유형/NNG+의/JKG+객실/NNG+안내/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 거기 메인타워랑 컨벤션타워로 호텔이 나뉘던데요",
+            "norm_text": "B. 거기 메인타워랑 컨벤션타워로 호텔이 나뉘던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+거기/NP+메인/VV+ETM+타워/NNG+랑/JKB+컨벤션/NNG+타워/NNG+로/JKB+호텔/NNG+이/JKS+나뉘/VV+던데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B. 혹시 객실타입이 좀 다른건지 궁금해서요",
+            "norm_text": "B. 혹시 객실타입이 좀 다른건지 궁금해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+혹시/MAG+객실/NNG+타입/NNG+이/JKS+좀/MAG+다른/VA+ETM+건지/NNB+VCP+EC+궁금/XR+해서/XSA+EC+VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A. 네 객실타입이나 구성이 동일하진 않습니다",
+            "norm_text": "A. 네 객실타입이나 구성이 동일하진 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+객실/NNG+타입/NNG+이나/JC+구성/NNG+이/JKS+동일/NNG+하/XSV+진/EC+JX+않/VX+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B. 음 그럼 스탠다드룸이 없을 수도 있는건가요",
+            "norm_text": "B. 음 그럼 스탠다드룸이 없을 수도 있는건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+음/IC+그럼/MAJ+스탠다드/NNG+룸/NNG+이/JKS+없/VA+을/ETM+수/NNB+도/JX+있/VX+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 스탠다드룸의 경우엔 메인타워 호텔에만 있으세요",
+            "norm_text": "A. 스탠다드룸의 경우엔 메인타워 호텔에만 있으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+스탠다드/NNG+룸/NNG+의/JKG+경우/NNG+엔/JKB+JX+메인/VV+ETM+타워/NNG+호텔/NNG+에/JKB+만/JX+있/VX+으세요/EP+EP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B. 아 그렇군요 좋은 정보 감사합니다 또 전화드릴게요",
+            "norm_text": "B. 아 그렇군요 좋은 정보 감사합니다 또 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아/IC+그렇/VA+군요/EC+좋/VA+은/ETM+정보/NNG+감사/NNG+합니다/XSV+EF+또/MAG+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 다른 문의 생기시면 언제든 다시 연락주세요",
+            "norm_text": "A. 네 다른 문의 생기시면 언제든 다시 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+다른/MM+문/NNG+의/JKG+생기/VV+시/EP+면/EC+언제/NP+든/VCP+EC+다시/MAG+연락/NNG+주세요/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

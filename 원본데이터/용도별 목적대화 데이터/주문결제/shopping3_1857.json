@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 109902,
+    "name": "s3_20211104_0002_0104_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744018939/s3_20211104_0002_0104_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744018939/s3_20211104_0002_0104_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117922,
+      "filename": "s3_20211001_0022_0001_01.txt",
+      "title": "s3_20211001_0022_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 501,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 501,
+        "word_size": 117,
+        "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다\nB.예 수고가 많으십니다 제가 질문사항이 있어서 전화드렸어요\nA.네 여쭤보시고 싶은게 있으신가요\nB.혹시 #@소속#페이라는게 뭔지 좀 알 수 있을까요\nA.저희 쇼핑몰 결제방법중에 하나 말씀이신가요\nB.네 다른 일반 결제방법이랑 어떤게 다른지 어떻게 결제 하는지 좀 알려주세요\nA.우선 은행계좌 등록 후 비밀번호 입력만으로 결제하실 수 있는 시스템인데요\nB.은행 어플같이 단간하게 결제 할 수 있는 건가요\nA.네 다른 간편 결제수단과 동일하게 주문결제 항목 내 간편 결제메뉴에서 이용할 수 있어요\nB.제 계좌번호 은행 계좌를 등록하고 비밀번호만 입력하면 결제가 된다고요\nA.네 맞습니다 그런데 이 서비스의 경우 법인 명의 계좌는 등록이 불가능하세요\nB.그럼 일반 개인 그러니까 제 본인 명의 계좌 등록만 가능하다는 말씀이신거요\nA.네 법인 명의 계좌등록만 불가능하세요\nB.알겠습니다 다른 질문사항 생기면 또 연락드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+친절한/NNP+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고가 많으십니다 제가 질문사항이 있어서 전화드렸어요",
+            "norm_text": "B.예 수고가 많으십니다 제가 질문사항이 있어서 전화드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+가/JKS+많/VA+으십니다/EP+EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "norm_text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.혹시 #@소속#페이라는게 뭔지 좀 알 수 있을까요",
+            "norm_text": "B.혹시 #@소속#페이라는게 뭔지 좀 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+#/SY+@/SY+소속/NNG+#/SY+페이/NNP+라는/VCP+ETM+게/NNB+JKS+뭔지/NP+VCP+EC+좀/MAG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.저희 쇼핑몰 결제방법중에 하나 말씀이신가요",
+            "norm_text": "A.저희 쇼핑몰 결제방법중에 하나 말씀이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+저희/NP+쇼핑몰/NNG+결제/NNG+방법/NNG+중/NNB+에/JKB+하나/NR+말씀/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 다른 일반 결제방법이랑 어떤게 다른지 어떻게 결제 하는지 좀 알려주세요",
+            "norm_text": "B.네 다른 일반 결제방법이랑 어떤게 다른지 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+다른/MM+일반/NNG+결제/NNG+방법/NNG+이랑/JC+어떤/MM+게/NNB+JKS+다른지/VA+EC+어떻게/MAG+결제/NNG+하/XSV+는지/EC+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.우선 은행계좌 등록 후 비밀번호 입력만으로 결제하실 수 있는 시스템인데요",
+            "norm_text": "A.계좌 등록 후 비밀번호 입력만으로 결제하실 수 있는 시스템인데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+계좌/NNG+등록/NNG+후/NNG+비밀번호/NNG+입력/NNG+만/JX+으로/JKB+결제/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+는/ETM+시스템/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.은행 어플같이 단간하게 결제 할 수 있는 건가요",
+            "norm_text": "B.은행 어플같이 단간하게 결제 할 수 있는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+은/JX+행어/NNG+플/NNG+같이/JKB+단간/NNG+하/XSV+게/EC+결제/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 다른 간편 결제수단과 동일하게 주문결제 항목 내 간편 결제메뉴에서 이용할 수 있어요",
+            "norm_text": "A.주문결제 항목 내 간편 결제메뉴에서 이용할 수 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주문/NNG+결제/NNG+항목/NNG+내간/NNP+편/NNB+결제/NNG+메뉴/NNG+에서/JKB+이용/NNG+할/XSV+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.제 계좌번호 은행 계좌를 등록하고 비밀번호만 입력하면 결제가 된다고요",
+            "norm_text": "B.계좌번호 은행 계좌를 등록하고 비밀번호만 입력하면 결제가 된다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+계좌/NNG+번호/NNG+은행/NNG+계좌/NNG+를/JKO+등록/NNG+하/XSV+고/EC+비밀번호/NNG+만/JX+입력/NNG+하/XSV+면/EC+결제/NNG+가/JKS+된다/VV+EC+고요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "A.네 맞습니다 그런데 이 서비스의 경우 법인 명의 계좌는 등록이 불가능하세요",
+            "norm_text": "A.그런데 이 서비스의 경우 법인 명의 계좌는 등록이 불가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그런데/MAJ+이/MM+서비스/NNG+의/JKG+경우/NNG+법인/NNG+명의/NNG+계좌/NNG+는/JX+등록/NNG+이/JKS+불/XPN+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.그럼 일반 개인 그러니까 제 본인 명의 계좌 등록만 가능하다는 말씀이신거요",
+            "norm_text": "B.제 본인 명의 계좌 등록만 가능하다는 말씀이신거요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+일반/NNG+개인/NNG+그러니까/MAJ+제본/NNG+인명/NNG+의/JKG+계좌/NNG+등록/NNG+만/JX+가능/NNG+하/XSA+다는/ETM+말씀/NNG+이/VCP+신/EP+ETM+거/NNB+요/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 법인 명의 계좌등록만 불가능하세요",
+            "norm_text": "A.네 법인 명의 계좌등록만 불가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+법인/NNG+명의/NNG+계좌/NNG+등록/NNG+만/JX+불/XPN+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.알겠습니다 다른 질문사항 생기면 또 연락드릴게요",
+            "norm_text": "B.알겠습니다 다른 질문사항 생기면 또 연락드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+다른/MM+질문/NNG+사항/NNG+생기/VV+면/EC+또/MAG+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 87823,
+    "name": "s2_20211101_0002_0011_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110742045318/s2_20211101_0002_0011_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110742045318/s2_20211101_0002_0011_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117738,
+      "filename": "s2_20211029_0001_0009_01.txt",
+      "title": "s2_20211029_0001_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 178,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 178,
+        "word_size": 41,
+        "text": "A.안녕하세요 #@소속#의 #@이름#입니다\nB.혹시 올라온 #@상품#은 옵션 변경이 되나요\nA.네 고객님 #@상품# 상세 페이지로 가시면 옵션 변경 가능합니다\nB.옵션 변경해도 할인율은 똑같은 거죠\nA.옵션에 따라 다르긴 하지만 기본 할인은 그대로 적용됩니다\nB.네 감사합니다 그럼 안녕히 계세요\nA.네 고객님 행복한 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#의 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속#의 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.혹시 올라온 #@상품#은 옵션 변경이 되나요",
+            "norm_text": "B.혹시 올라온 #@상품#은 옵션 변경이 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+올라온/VV+ETM+#/SY+@/SY+상품/NNG+#/SY+은/JX+옵션/NNG+변경/NNG+이/JKS+되/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 #@상품# 상세 페이지로 가시면 옵션 변경 가능합니다",
+            "norm_text": "A.네 고객님 #@상품# 상세 페이지로 가시면 옵션 변경 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+#/SY+@/SY+상품/NNG+#/SY+상세/NNG+페이지/NNG+로/JKB+가/VV+시/EP+면/EC+옵션/NNG+변경/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.옵션 변경해도 할인율은 똑같은 거죠",
+            "norm_text": "B.옵션 변경해도 할인율은 똑같은 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+옵션/NNG+변경/NNG+해도/XSV+EC+할인율/NNG+은/JX+똑같/VA+은/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.옵션에 따라 다르긴 하지만 기본 할인은 그대로 적용됩니다",
+            "norm_text": "A.옵션에 따라 다르긴 하지만 기본 할인은 그대로 적용됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+옵션/NNG+에/JKB+따라/VV+EC+다르/VA+긴/ETN+JX+하/VX+지만/EC+기본/NNG+할인/NNG+은/JX+그대로/MAG+적용/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 감사합니다 그럼 안녕히 계세요",
+            "norm_text": "B.네 감사합니다 그럼 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+그럼/MAJ+안녕히/MAG+계세요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 행복한 하루 되세요",
+            "norm_text": "A.네 고객님 행복한 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

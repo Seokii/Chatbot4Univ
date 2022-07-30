@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 114962,
+    "name": "s4_20211104_0010_3985_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110930041739/s4_20211104_0010_3985_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110930041739/s4_20211104_0010_3985_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 120480,
+      "filename": "s4_20211012_0012_0009_01.txt",
+      "title": "s4_20211012_0012_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 319,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 319,
+        "word_size": 70,
+        "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다\nB.예 제가 #@상품#을 구매했는데 매장에서 받을 수 있나요\nA.고객님 죄송합니다만 #@상품#은 매장에서 받을 수 없습니다\nB.그래요 저번에 #@상품# 구매했을 때는 매장에서 받았는데요\nA.이 제품은 특가제품이라서 저희 물류창고에서 직접 발송이 됩니다\nB.그런가요 그래도 매장에 있을 거 아니에요\nA.저희 행사 제품이 수량에 맞춰서 생산되는 거라서 그렇습니다\nB.그럼 매장이랑 동일 제품이 아니라는 건가요\nA.그건 아닙니다 고객님\nB.아무튼 알겠어요 받고 나서 볼게요\nA.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+만족/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 제가 #@상품#을 구매했는데 매장에서 받을 수 있나요",
+            "norm_text": "B.예 제가 #@상품#을 구매했는데 매장에서 받을 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+제/NP+가/JKS+#/SY+@/SY+상품/NNG+#/SY+을/JKO+구매/NNG+했/XSV+EP+는데/EC+매장/NNG+에서/JKB+받/VV+을/ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 죄송합니다만 #@상품#은 매장에서 받을 수 없습니다",
+            "norm_text": "A.고객님 죄송합니다만 #@상품#은 매장에서 받을 수 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+죄송/XR+합니다만/XSA+EC+#/SY+@/SY+상품/NNG+#/SY+은/JX+매장/NNG+에서/JKB+받/VV+을/ETM+수/NNB+없/VA+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그래요 저번에 #@상품# 구매했을 때는 매장에서 받았는데요",
+            "norm_text": "B.그래요 저번에 #@상품# 구매했을 때는 매장에서 받았는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+그래요/VV+EF+저번/NNG+에/JKB+#/SY+@/SY+상품/NNG+#/SY+구매/NNG+했/XSV+EP+을/ETM+때/NNG+는/JX+매장/NNG+에서/JKB+받/VV+았/EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.이 제품은 특가제품이라서 저희 물류창고에서 직접 발송이 됩니다",
+            "norm_text": "A.이 제품은 특가제품이라서 저희 물류창고에서 직접 발송이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이/MM+제품/NNG+은/JX+특가/NNG+제품/NNG+이/VCP+라서/EC+저희/NP+물류/NNP+창고/NNG+에서/JKB+직접/MAG+발송/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그런가요 그래도 매장에 있을 거 아니에요",
+            "norm_text": "B.그런가요 그래도 매장에 있을 거 아니에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그런가요/VA+EC+VCP+EF+그래도/MAJ+매장/NNG+에/JKB+있/VV+을/ETM+거/NNB+아니/VCN+에요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.저희 행사 제품이 수량에 맞춰서 생산되는 거라서 그렇습니다",
+            "norm_text": "A.저희 행사 제품이 수량에 맞춰서 생산되는 거라서 그렇습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+행사/NNG+제품/NNG+이/JKS+수량/NNG+에/JKB+맞춰서/VV+EC+생산/NNG+되/XSV+는/ETM+거/NNB+라서/VCP+EC+그렇/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 매장이랑 동일 제품이 아니라는 건가요",
+            "norm_text": "B.그럼 매장이랑 동일 제품이 아니라는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+매장/NNG+이랑/JKB+동일/NNG+제품/NNG+이/JKC+아니/VCN+라는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그건 아닙니다 고객님",
+            "norm_text": "A.그건 아닙니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그건/NP+JX+아닙니다/VCN+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.아무튼 알겠어요 받고 나서 볼게요",
+            "norm_text": "B.아무튼 알겠어요 받고 나서 볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아무튼/MAJ+알/VV+겠/EP+어요/EF+받/VV+고/EC+나/VX+서/EC+볼게요/VX+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+            "norm_text": "A.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+추가/NNG+문/NNG+의/JKG+사항/NNG+언제든지/MAG+연락/NNG+주세요/NNP+#/SY+@/SY+소속/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

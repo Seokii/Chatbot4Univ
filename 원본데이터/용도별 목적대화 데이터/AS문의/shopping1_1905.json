@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 19482,
+    "name": "s1_20210916_0002_0257_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151255018550/s1_20210916_0002_0257_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151255018550/s1_20210916_0002_0257_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8537,
+      "filename": "s1_20210825_0016_0035_01.txt",
+      "title": "s1_20210825_0016_0035_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 398,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 398,
+        "word_size": 101,
+        "text": "A.수리 센터 위치 확인 도와 드리겠습니다\nA.가까운 곳의 위치 한 번 확인 해봐드릴까요 고객님\nB.네 가까운 서비스센터 위치 확인 해주세요\nA.그러면 계시는 곳이 지역이 어떻게 되세요\nB.제가 있는 곳은 충남 아산이요\nA.그럼 아산 센터 쪽으로 바로 안내해 드릴게요 고객님\nA.지금 #@주소#에 아산 센터에 있는 걸로 확인이 되고 있구요\nB.메모 할게요 #@주소# 아산센터요\nA.예 그 아산 소방서 쪽에서 천안 쪽으로 예 오십미터 오면 대리점 건물 이층에 있구요\nB.지나 가면서 센터를 본 거 같아요\nA.혹시 필요하시면 전화번호 안내 가능한데 말씀 드릴까요\nB.아니요 괜찮아요 어딘 줄 알아요\nA.예 그럼 업무는 여섯시까지라서요 고객님\nA.참고하고 방문해주시면 좋을 거 같습니다\nA.예 행복한 하루 보내십시오\nB.알겠습니다 네 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.수리 센터 위치 확인 도와 드리겠습니다",
+            "norm_text": "A.수리 센터 위치 확인 도와 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+수리/NNG+센터/NNG+위치/NNG+확인/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 2,
+            "text": "A.가까운 곳의 위치 한 번 확인 해봐드릴까요 고객님",
+            "norm_text": "A.가까운 곳의 위치 한 번 확인 해봐드릴까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+가까운/VA+ETM+곳/NNG+의/JKG+위치/NNG+한/MM+번/NNBC+확인/NNG+해/XSV+EC+봐/VX+EC+드릴까요/VX+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 3,
+            "text": "B.네 가까운 서비스센터 위치 확인 해주세요",
+            "norm_text": "B.네 가까운 서비스센터 위치 확인 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+가까운/VA+ETM+서비스/NNG+센터/NNG+위치/NNG+확인/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.그러면 계시는 곳이 지역이 어떻게 되세요",
+            "norm_text": "A.그러면 계시는 곳이 지역이 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+면/EC+계시/VX+는/ETM+곳/NNG+이/JKS+지역/NNG+이/JKS+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.제가 있는 곳은 충남 아산이요",
+            "norm_text": "B.제가 있는 곳은 충남 아산이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+있/VA+는/ETM+곳/NNG+은/JX+충남/NNP+아산/NNP+이/VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.그럼 아산 센터 쪽으로 바로 안내해 드릴게요 고객님",
+            "norm_text": "A.그럼 아산 센터 쪽으로 바로 안내해 드릴게요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그럼/MAJ+아산/NNP+센터/NNG+쪽/NNB+으로/JKB+바로/MAG+안내/NNG+해/XSV+EC+드릴게요/VX+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 7,
+            "text": "A.지금 #@주소#에 아산 센터에 있는 걸로 확인이 되고 있구요",
+            "norm_text": "A.지금 #@주소#에 아산 센터에 있는 걸로 확인이 되고 있구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+지금/MAG+#/SY+@/SY+주소/NNG+#/SY+에/JKB+아산/NNP+센터/NNG+에/JKB+있/VV+는/ETM+걸로/NNB+JKB+확인/NNG+이/JKS+되/VV+고/EC+있/VX+구요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.메모 할게요 #@주소# 아산센터요",
+            "norm_text": "B.메모 할게요 #@주소# 아산센터요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+메모/NNG+할게요/XSV+EC+#/SY+@/SY+주소/NNG+#/SY+아산/NNP+센터/NNG+요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.예 그 아산 소방서 쪽에서 천안 쪽으로 예 오십미터 오면 대리점 건물 이층에 있구요",
+            "norm_text": "A.예 그 아산 소방서 쪽에서 천안 쪽으로 예 오십미터 오면 대리점 건물 이층에 있구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+그/IC+아산/NNP+소방서/NNG+쪽/NNB+에서/JKB+천안/NNP+쪽/NNB+으로/JKB+예/IC+오/NR+십/NR+미터/NNBC+오/VV+면/EC+대리점/NNG+건물/NNG+이/JKS+층/NNG+에/JKB+있/VV+구요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.지나 가면서 센터를 본 거 같아요",
+            "norm_text": "B.지나 가면서 센터를 본 거 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+지나가/VV+면서/EC+센터/NNG+를/JKO+본/VV+ETM+거/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.혹시 필요하시면 전화번호 안내 가능한데 말씀 드릴까요",
+            "norm_text": "A.혹시 필요하시면 전화번호 안내 가능한데 말씀 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+필요/NNG+하/XSV+시/EP+면/EC+전화/NNG+번호/NNG+안내/NNG+가능/NNG+한데/XSA+EC+말씀/NNG+드릴까요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.아니요 괜찮아요 어딘 줄 알아요",
+            "norm_text": "B.아니요 괜찮아요 어딘 줄 알아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아니요/IC+괜찮/VA+아요/EF+어딘/NP+VCP+ETM+줄/NNB+알/VV+아요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.예 그럼 업무는 여섯시까지라서요 고객님",
+            "norm_text": "A.예 그럼 업무는 여섯시까지라서요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+그럼/MAJ+업무/NNG+는/JX+여섯/NR+시/NNBC+까지/JX+라서요/VCP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 14,
+            "text": "A.참고하고 방문해주시면 좋을 거 같습니다",
+            "norm_text": "A.참고하고 방문해주시면 좋을 거 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+참고/NNG+하/XSV+고/EC+방문/NNG+해/XSV+EC+주/VX+시/EP+면/EC+좋/VA+을/ETM+거/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.예 행복한 하루 보내십시오",
+            "norm_text": "A.예 행복한 하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+예/IC+행복/NNG+한/XSA+ETM+하루/NNG+보내/VV+십시오/EP+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.알겠습니다 네 감사합니다",
+            "norm_text": "B.알겠습니다 네 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+네/IC+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

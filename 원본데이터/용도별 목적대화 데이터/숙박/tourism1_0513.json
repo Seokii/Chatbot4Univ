@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 141357,
+    "name": "t1_20211115_0002_0505_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715092491/t1_20211115_0002_0505_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715092491/t1_20211115_0002_0505_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148131,
+      "filename": "t1_0068_0057_02.txt",
+      "title": "t1_0068_0057_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 299,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 299,
+        "word_size": 71,
+        "text": "A.#@소속# #@이름# 입니다\nB.입실은 몇 시부터 가능 한가요\nA.오후 3시 입니다 6시 이후 입실 예정이시면 문의 후 예약 주세요\nB.한두시간 정도 얼리체크인도 가능 한가요\nA.청소 관계로 얼리체크인은 불가 합니다\nB.예약 할건데요 장소 지정할 수 있지요\nA.배정은 지정이 아닌 예약순 입니다\nB.알겠습니다 #@이름# 으로 27일 예약해 주세요\nA.연락처도 좀 주시겠어요\nB.연락처는 #@전번# 번 이에요\nA.주중이라서 금액은 14만원 입니다\nB.알겠습니다 그럼 입금 후 연락 다시 드리겠습니다\nA.문자로 안내해 드린 방법으로 입금해 주세요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속# #@이름# 입니다",
+            "norm_text": "A.#@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.입실은 몇 시부터 가능 한가요",
+            "norm_text": "B.입실은 몇 시부터 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+입실/NNG+은/JX+몇/MM+시/NNBC+부터/JX+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.오후 3시 입니다 6시 이후 입실 예정이시면 문의 후 예약 주세요",
+            "norm_text": "A.오후 3시 입니다 6시 이후 입실 예정이시면 문의 후 예약 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+오후/NNG+3/SN+시/NNBC+입니다/VCP+EF+6/SN+시/NNBC+이후/NNG+입실/NNG+예정/NNG+이/VCP+시/EP+면/EC+문/NNG+의/JKG+후/NNG+예약/NNG+주세요/NNP"
+          },
+          {
+            "id": 4,
+            "text": "B.한두시간 정도 얼리체크인도 가능 한가요",
+            "norm_text": "B.한두시간 정도 얼리체크인도 가능 한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+한두/MM+시간/NNG+정도/NNG+얼리/NNG+체크인/NNG+도/JX+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.청소 관계로 얼리체크인은 불가 합니다",
+            "norm_text": "A.청소 관계로 얼리체크인은 불가 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+청소/NNG+관계/NNG+로/JKB+얼리/NNG+체크인/NNG+은/JX+불가/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예약 할건데요 장소 지정할 수 있지요",
+            "norm_text": "B.예약 할건데요 장소 지정할 수 있지요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+예약/NNG+할/XSV+ETM+건데요/NNB+VCP+EC+장소/NNG+지정/NNG+할/XSV+ETM+수/NNB+있/VV+지요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.배정은 지정이 아닌 예약순 입니다",
+            "norm_text": "A.배정은 지정이 아닌 예약순 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+배정/NNG+은/JX+지정/NNG+이/JKC+아닌/VCN+ETM+예약/NNG+순/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.알겠습니다 #@이름# 으로 27일 예약해 주세요",
+            "norm_text": "B.알겠습니다 #@이름# 으로 27일 예약해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+#/SY+@/SY+이름/NNG+#/SY+으로/JKB+27/SN+일/NNBC+예약/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.연락처도 좀 주시겠어요",
+            "norm_text": "A.연락처도 좀 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+연락처/NNG+도/JX+좀/MAG+주/VV+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.연락처는 #@전번# 번 이에요",
+            "norm_text": "B.연락처는 #@전번# 번 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+번이/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.주중이라서 금액은 14만원 입니다",
+            "norm_text": "A.주중이라서 금액은 14만원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주/NNG+중/NNB+이/VCP+라서/EC+금액/NNG+은/JX+14/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.알겠습니다 그럼 입금 후 연락 다시 드리겠습니다",
+            "norm_text": "B.알겠습니다 그럼 입금 후 연락 다시 드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그럼/MAJ+입금/NNG+후/NNG+연락/NNG+다시/MAG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.문자로 안내해 드린 방법으로 입금해 주세요 감사합니다",
+            "norm_text": "A.문자로 안내해 드린 방법으로 입금해 주세요 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+문자/NNG+로/JKB+안내/NNG+해/XSV+EC+드린/VX+ETM+방법/NNG+으로/JKB+입금/NNG+해/XSV+EC+주/VX+세요/EP+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "identifier": 14723,
+    "name": "s1_20210914_0001_0653_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151219020070/s1_20210914_0001_0653_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151219020070/s1_20210914_0001_0653_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7814,
+      "filename": "s1_20210824_0007_0017_01.txt",
+      "title": "s1_20210824_0007_0017_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 599,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 599,
+        "word_size": 155,
+        "text": "A.안녕하세요 방문 기사 #@이름# 입니다\nB.예 안녕하세요 기사님\nA.네 고객님 주소가 어떻게 되십니까\nB.서울 강남구 #@주소#이고요\nB.아마 #@주소# 아니면 #@주소#일 텐데 정확히는 잘 모르겠어요 번짓수만\nA.그럼 방문 전에 연락을 드릴 때 정확하게 위치 한번 더 설명 부탁드리겠습니다\nB.예 혹시 언제쯤 시간인가요\nA.네 제가 바로 확인해 드릴 텐데요\nA.혹시 그 냉장고는 양문형인가요 아니면 일반형인가요\nB.그냥 양문형 아니고요\nB.빌트인으로 윗칸은 냉장고 아래칸은 냉동고 이렇게 되어있는 거 조그만 거요\nA.그럼 아래 위로 되어있는 거네요\nA.네 그럼 그 설치되신 지는 일 년 다 지나신 거예요\nB.예 다 지났고 그 빌트인 냉장고 엄청 오래된 옛날 것 같아요\nA.그럼 고객님 저희가 오늘 몇 시에 방문하시면 편하실까요\nA.네 젤 빠른 시간으로 했을 때 열한 시 사십 분 어떠신가요\nB.잠깐만요 열한 시 사십 분에 방문해 주세요\nA.네 그럼 오늘 열한시 사십분까지 #@이름# 기사 전화 드리고 방문을 할 거구요\nA.기사 방문 시에는 출장 점검료가 만 이천 원이시고요\nA.네 정확한 부품 수리비는 기사 점검 이후에 안내해 주겠습니다\nB.네 알겠습니다 감사합니다\nA.네 감사합니다 즐거운 하루 되십쇼",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 방문 기사 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 방문 기사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+방문/NNG+기사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 안녕하세요 기사님",
+            "norm_text": "B.예 안녕하세요 기사님",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+안녕/NNG+하/XSV+세요/EP+EF+기사/NNG+님/XSN"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 주소가 어떻게 되십니까",
+            "norm_text": "A.네 고객님 주소가 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+주소/NNG+가/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.서울 강남구 #@주소#이고요",
+            "norm_text": "B.서울 강남구 #@주소#이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+서울/NNP+강남구/NNP+#/SY+@/SY+주소/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.아마 #@주소# 아니면 #@주소#일 텐데 정확히는 잘 모르겠어요 번짓수만",
+            "norm_text": "B.아마 #@주소# 아니면 #@주소#일 텐데 정확히는 잘 모르겠어요 번짓수만",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아마/MAG+#/SY+@/SY+주소/NNG+#/SY+아니/VCN+면/EC+#/SY+@/SY+주소/NNG+#/SY+일/VCP+ETM+텐데/NNB+VCP+EC+정확히/MAG+는/JX+잘/MAG+모르/VV+겠/EP+어요/EF+번/NNBC+짓/VV+수/NNB+만/JX"
+          },
+          {
+            "id": 6,
+            "text": "A.그럼 방문 전에 연락을 드릴 때 정확하게 위치 한번 더 설명 부탁드리겠습니다",
+            "norm_text": "A.그럼 방문 전에 연락을 드릴 때 정확하게 위치 한번 더 설명 부탁드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+그럼/MAJ+방/NNG+문전/NNG+에/JKB+연락/NNG+을/JKO+드릴/VV+ETM+때/NNG+정확/NNG+하/XSV+게/EC+위치/NNG+한/MM+번/NNBC+더/MAG+설명/NNG+부탁/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.예 혹시 언제쯤 시간인가요",
+            "norm_text": "B.예 혹시 언제쯤 시간인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+혹시/MAG+언제/NP+쯤/XSN+시간/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 제가 바로 확인해 드릴 텐데요",
+            "norm_text": "A.네 제가 바로 확인해 드릴 텐데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+제/NP+가/JKS+바로/MAG+확인/NNG+해/XSV+EC+드릴/VX+ETM+텐데요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.혹시 그 냉장고는 양문형인가요 아니면 일반형인가요",
+            "norm_text": "A.혹시 그 냉장고는 양문형인가요 아니면 일반형인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+그/MM+냉장고/NNG+는/JX+양문/NNG+형/XSN+인가요/VCP+EC+아니/VCN+면/EC+일반/NNG+형/XSN+인가요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그냥 양문형 아니고요",
+            "norm_text": "B.그냥 양문형 아니고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+그냥/MAG+양문/NNG+형/XSN+아니/VCN+고요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.빌트인으로 윗칸은 냉장고 아래칸은 냉동고 이렇게 되어있는 거 조그만 거요",
+            "norm_text": "B.빌트인으로 윗칸은 냉장고 아래칸은 냉동고 이렇게 되어있는 거 조그만 거요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+빌트인/NNG+으로/JKB+윗/MM+칸/NNG+은/JX+냉장고/NNG+아래/NNG+칸/NNG+은/JX+냉동고/NNG+이렇게/MAG+되/VV+어/EC+있/VX+는/ETM+거/NNB+조그만/VA+ETM+거/NNB+요/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.그럼 아래 위로 되어있는 거네요",
+            "norm_text": "A.그럼 아래 위로 되어있는 거네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그럼/MAJ+아래위/NNG+로/JKB+되/VV+어/EC+있/VX+는/ETM+거/NNB+네요/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 그럼 그 설치되신 지는 일 년 다 지나신 거예요",
+            "norm_text": "A.네 그럼 그 설치되신 지는 일 년 다 지나신 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+그/MM+설치/NNG+되/XSV+신지/EP+EC+는/JX+일/NR+년/NNBC+다/MAG+지나/VV+신/EP+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.예 다 지났고 그 빌트인 냉장고 엄청 오래된 옛날 것 같아요",
+            "norm_text": "B.예 다 지났고 그 빌트인 냉장고 엄청 오래된 옛날 것 같아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+다/MAG+지났/VV+EP+고/EC+그/MM+빌트인/NNG+냉장고/NNG+엄청/MAG+오래/MAG+된/VV+ETM+옛날/NNG+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.그럼 고객님 저희가 오늘 몇 시에 방문하시면 편하실까요",
+            "norm_text": "A.그럼 고객님 저희가 오늘 몇 시에 방문하시면 편하실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+고객/NNG+님/XSN+저희/NP+가/JKS+오늘/MAG+몇/MM+시/NNBC+에/JKB+방문/NNG+하/XSV+시/EP+면/EC+편하/VA+실까요/EP+EF"
+          },
+          {
+            "id": 16,
+            "text": "A.네 젤 빠른 시간으로 했을 때 열한 시 사십 분 어떠신가요",
+            "norm_text": "A.네 젤 빠른 시간으로 했을 때 열한 시 사십 분 어떠신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+젤/MAG+빠른/VA+ETM+시간/NNG+으로/JKB+했/VV+EP+을/ETM+때/NNG+열/NR+한/MM+시/NNBC+사/NR+십/NR+분/NNBC+어떠신가요/VA+EP+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.잠깐만요 열한 시 사십 분에 방문해 주세요",
+            "norm_text": "B.잠깐만요 열한 시 사십 분에 방문해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+잠깐/MAG+만/JX+요/JX+열/NR+한/MM+시/NNBC+사/NR+십/NR+분/NNBC+에/JKB+방문/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 18,
+            "text": "A.네 그럼 오늘 열한시 사십분까지 #@이름# 기사 전화 드리고 방문을 할 거구요",
+            "norm_text": "A.네 그럼 오늘 열한시 사십분까지 #@이름# 기사 전화 드리고 방문을 할 거구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+오늘/MAG+열/NR+한/MM+시/NNBC+사/NR+십/NR+분/NNBC+까지/JX+#/SY+@/SY+이름/NNG+#/SY+기사/NNG+전화/NNG+드리/VV+고/EC+방문/NNG+을/JKO+할/VV+ETM+거/NNB+구요/VCP+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.기사 방문 시에는 출장 점검료가 만 이천 원이시고요",
+            "norm_text": "A.기사 방문 시에는 출장 점검료가 만 이천 원이시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기사/NNG+방문/NNG+시/NNB+에/JKB+는/JX+출장/NNG+점검/NNG+료/NNG+가/JKS+만이천/NR+원/NNBC+이/VCP+시/EP+고요/EC"
+          },
+          {
+            "id": 20,
+            "text": "A.네 정확한 부품 수리비는 기사 점검 이후에 안내해 주겠습니다",
+            "norm_text": "A.네 정확한 부품 수리비는 기사 점검 이후에 안내해 주겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+정확/XR+한/XSA+ETM+부품/NNG+수리비/NNG+는/JX+기사/NNG+점검/NNG+이후/NNG+에/JKB+안내/NNG+해/XSV+EC+주/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 21,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 22,
+            "text": "A.네 감사합니다 즐거운 하루 되십쇼",
+            "norm_text": "A.네 감사합니다 즐거운 하루 되십쇼",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+즐거운/VA+ETM+하루/NNG+되/XSV+십쇼/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

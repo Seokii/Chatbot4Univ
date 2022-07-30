@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 11243,
+    "name": "s4_20210913_0011_1006_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151450077887/s4_20210913_0011_1006_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151450077887/s4_20210913_0011_1006_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 13415,
+      "filename": "s4_20210831_0015_0012_01.txt",
+      "title": "s4_20210831_0015_0012_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 240,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 240,
+        "word_size": 51,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다\nB.예 비회원으로 구매했는데 주문을 잘못해서 취소하려고요\nA.네 고객님 주문 취소하신단 말씀이신가요\nB.네 월요일에 주문 취소하고 페이지 큐엔에이에 올렸었거든요\nA.네 그러셨군요 고객님\nB.근데 답장도 안 달리고 물건이 출발했다고 문자가 와서요\nA.그러셨어요 고객님 놀라셨겠어요 일단 주문 이력 확인 후에요\nA.안내해 드리겠습니다 주문자 분 성함이 어떻게 되시나요\nB.#@이름#이요 이거면 되나요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 비회원으로 구매했는데 주문을 잘못해서 취소하려고요",
+            "norm_text": "B.예 비회원으로 구매했는데 주문을 잘못해서 취소하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+비회원/NNG+으로/JKB+구매/NNG+했/XSV+EP+는데/EC+주문/NNG+을/JKO+잘못/MAG+해서/VV+EC+취소/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 주문 취소하신단 말씀이신가요",
+            "norm_text": "A.네 고객님 주문 취소하신단 말씀이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+주문/NNG+취소/NNG+하/XSV+신단/EP+ETM+말씀/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 월요일에 주문 취소하고 페이지 큐엔에이에 올렸었거든요",
+            "norm_text": "B.네 월요일에 주문 취소하고 페이지 큐엔에이에 올렸었거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+월요일/NNG+에/JKB+주문/NNG+취소/NNG+하/XSV+고/EC+페이지/NNG+큐/NNG+엔/JKB+JX+에이/NNG+에/JKB+올렸었/VV+EP+거든요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 그러셨군요 고객님",
+            "norm_text": "A.네 그러셨군요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그러/VV+셨/EP+EP+군요/EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 6,
+            "text": "B.근데 답장도 안 달리고 물건이 출발했다고 문자가 와서요",
+            "norm_text": "B.근데 답장도 안 달리고 물건이 출발했다고 문자가 와서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+근데/MAJ+답장/NNG+도/JX+안/MAG+달리/VV+고/EC+물건/NNG+이/JKS+출발/NNG+했/XSV+EP+다고/EC+문자/NNG+가/JKS+와서/VV+EC+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "A.그러셨어요 고객님 놀라셨겠어요 일단 주문 이력 확인 후에요",
+            "norm_text": "A.그러셨어요 고객님 놀라셨겠어요 일단 주문 이력 확인 후에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+셨/EP+EP+어요/EF+고객/NNG+님/XSN+놀라/VV+셨/EP+EP+겠/EP+어요/EF+일단/MAG+주문/NNG+이력/NNG+확인/NNG+후/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.안내해 드리겠습니다 주문자 분 성함이 어떻게 되시나요",
+            "norm_text": "A.안내해 드리겠습니다 주문자 분 성함이 어떻게 되시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+주문자/NNG+분성/NNG+함/XSV+ETN+이/JKS+어떻게/MAG+되/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.#@이름#이요 이거면 되나요",
+            "norm_text": "B.#@이름#이요 이거면 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+요/EC+이거/NP+면/NNG+되/XSV+나요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 103191,
+    "name": "s2_20211103_0002_0289_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110739011956/s2_20211103_0002_0289_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110739011956/s2_20211103_0002_0289_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117365,
+      "filename": "s2_20211029_0006_0010_01.txt",
+      "title": "s2_20211029_0006_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 202,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 202,
+        "word_size": 46,
+        "text": "A.감사합니다 #@소속# #@이름#입니다\nB.#@상품#의 세탁 방법 좀 알려주세요\nA.네 #@상품#의 경우 주 원단이 면으로 확인됩니다\nA.면은 뒤집어 차가운 물에 손세탁 또는 단독 세탁을 권장합니다\nB.그러면 그렇게 빨면 됩니까\nA.하지만 혼합 재질이니 정확한 세탁법은 상품 상세 페이지에서 확인 부탁드립니다\nB.그래요 일단 안내해줘서 고마워요\nA.네 좋은 하루 보내십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.감사합니다 #@소속# #@이름#입니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품#의 세탁 방법 좀 알려주세요",
+            "norm_text": "B.#@상품#의 세탁 방법 좀 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+의/JKG+세탁/NNG+방법/NNG+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 #@상품#의 경우 주 원단이 면으로 확인됩니다",
+            "norm_text": "A.네 #@상품#의 경우 주 원단이 면으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+의경/NNG+우주/NNG+원단/NNG+이/VCP+면/EC+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.면은 뒤집어 차가운 물에 손세탁 또는 단독 세탁을 권장합니다",
+            "norm_text": "A.면은 뒤집어 차가운 물에 손세탁 또는 단독 세탁을 권장합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+면은/EC+뒤집/VV+어/EC+차가운/VA+ETM+물/NNG+에/JKB+손세탁/NNG+또는/MAJ+단독/NNG+세탁/NNG+을/JKO+권장/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.그러면 그렇게 빨면 됩니까",
+            "norm_text": "B.그러면 그렇게 빨면 됩니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+그렇게/MAG+빨/VV+면/EC+됩니까/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.하지만 혼합 재질이니 정확한 세탁법은 상품 상세 페이지에서 확인 부탁드립니다",
+            "norm_text": "A.하지만 혼합 재질이니 정확한 세탁법은 상품 상세 페이지에서 확인 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+하지만/MAJ+혼합/NNG+재질/NNG+이/VCP+니/EC+정확/XR+한/XSA+ETM+세탁/NNG+법/NNG+은/JX+상품/NNG+상세/NNG+페이지/NNG+에서/JKB+확인/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그래요 일단 안내해줘서 고마워요",
+            "norm_text": "B.그래요 일단 안내해줘서 고마워요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그래요/VV+EF+일단/MAG+안내/NNG+해/XSV+EC+줘서/VX+EC+고마워요/VA+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 좋은 하루 보내십시오",
+            "norm_text": "A.네 좋은 하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+보내/VV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

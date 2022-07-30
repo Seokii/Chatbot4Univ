@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 13475,
+    "name": "s3_20210913_0010_1014_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514230419103/s3_20210913_0010_1014_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514230419103/s3_20210913_0010_1014_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12580,
+      "filename": "s3_20210902_0017_0010_01.txt",
+      "title": "s3_20210902_0017_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 154,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 154,
+        "word_size": 34,
+        "text": "A.기분 좋은 하루 시작 #@소속# 상담원 #@이름#입니다\nB.#@상품#을 두 개 주문하려고해요\nA.제품 수량을 두 개로 하시는거죠\nB.네 #@상품#을 두 개로 주문해주세요\nA.주문자분 성함과 휴대폰 번호를 말씀해주세요\nB.제 이름은 #@이름# 이고요\nB.제 전화번호는 #@전번# 이에요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.기분 좋은 하루 시작 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.기분 좋은 하루 시작 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+기분/NNG+좋/VA+은/ETM+하루/NNG+시작/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품#을 두 개 주문하려고해요",
+            "norm_text": "B.#@상품#을 두 개 주문하려고해요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+을/JKO+두/MM+개/NNBC+주문/NNG+하/XSV+려고/EC+해요/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.제품 수량을 두 개로 하시는거죠",
+            "norm_text": "A.제품 수량을 두 개로 하시는거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+제품/NNG+수량/NNG+을/JKO+두/MM+개/NNBC+로/JKB+하/VV+시/EP+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@상품#을 두 개로 주문해주세요",
+            "norm_text": "B.네 #@상품#을 두 개로 주문해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+을/JKO+두/MM+개/NNBC+로/JKB+주문/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.주문자분 성함과 휴대폰 번호를 말씀해주세요",
+            "norm_text": "A.주문자분 성함과 휴대폰 번호를 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+주문자/NNG+분성/NNG+함/XSV+ETN+과/JC+휴대폰/NNG+번호/NNG+를/JKO+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.제 이름은 #@이름# 이고요",
+            "norm_text": "B.제 이름은 #@이름# 이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.제 전화번호는 #@전번# 이에요",
+            "norm_text": "B.제 전화번호는 #@전번# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

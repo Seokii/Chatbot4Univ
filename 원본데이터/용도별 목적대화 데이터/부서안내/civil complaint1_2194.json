@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 12858,
+    "name": "c1_20210913_0005_0933_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151337031395/c1_20210913_0005_0933_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151337031395/c1_20210913_0005_0933_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10109,
+      "filename": "c1_20210818_0015_0034_01.txt",
+      "title": "c1_20210818_0015_0034_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 435,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 435,
+        "word_size": 97,
+        "text": "A.#@소속# #@이름#입니다\nB.안녕하세요 #@소속# #@이름#입니다\nA.예 어떤 업무 때문에 전화하셨나요\nB.민원인께서 #@주소#에 폭우로 인해 군청으로 연락했는데요\nB.면사무소로 안내를 받아 면사무소로 직접 말씀을 하셨답니다\nB.그런데 해당 사무 면사무소에서 인원이 부족하단 답변만 들으셨다고 합니다\nB.그래서 다시 한 번 군청으로 말씀을 하시는 부분이 좋으실 듯하다고 해서 연락드렸습니다\nB.제가 여러 차례 안내를 하였으나 #@소속#에 알아보았는데요\nB.인원 충원 문제는 도청으로 문의를 해야 한다고 답변을 받으셨다고요\nB.담당자 분 연결을 원하셨습니다\nA.예 민원 분 어디신가요\nB.지역은 예산군 #@주소#이라고 하셨습니다\nA.네 지금 민원 분 연결 가능한가요\nB.네 민원인 대기 중입니다 바로 연결하겠습니다\nA.예 그렇게 해 주십시오\nB.네 바로 통화하시면 됩니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속# #@이름#입니다",
+            "norm_text": "A.#@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "B.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.예 어떤 업무 때문에 전화하셨나요",
+            "norm_text": "A.예 어떤 업무 때문에 전화하셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+어떤/MM+업무/NNG+때문/NNB+에/JKB+전화/NNG+하/XSV+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.민원인께서 #@주소#에 폭우로 인해 군청으로 연락했는데요",
+            "norm_text": "B.민원인께서 #@주소#에 폭우로 인해 군청으로 연락했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+민원인/NNG+께서/JKS+#/SY+@/SY+주소/NNG+#/SY+에/JKB+폭우/NNG+로/JKB+인해/VV+EC+군청/NNG+으로/JKB+연락/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.면사무소로 안내를 받아 면사무소로 직접 말씀을 하셨답니다",
+            "norm_text": "B.면사무소로 안내를 받아 면사무소로 직접 말씀을 하셨답니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+면사무소/NNG+로/JKB+안내/NNG+를/JKO+받/VV+아/EC+면사무소/NNG+로/JKB+직접/MAG+말씀/NNG+을/JKO+하/VV+셨/EP+EP+답니다/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그런데 해당 사무 면사무소에서 인원이 부족하단 답변만 들으셨다고 합니다",
+            "norm_text": "B.그런데 해당 사무 면사무소에서 인원이 부족하다고 했답니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그런데/MAJ+해당/NNG+사무/NNG+면사무소/NNG+에서/JKB+인원/NNG+이/JKS+부족/NNG+하/XSV+다고/EC+했/VX+EP+답니다/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그래서 다시 한 번 군청으로 말씀을 하시는 부분이 좋으실 듯하다고 해서 연락드렸습니다",
+            "norm_text": "B.그래서 다시 한 번 군청으로 연락하셔야 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그래서/MAJ+다시/MAG+한/MM+번/NNBC+군청/NNG+으로/JKB+말씀/NNG+을/JKO+하/VV+시/EP+는/ETM+부분/NNG+이/JKS+좋/VA+으실/EP+ETM+듯/NNB+하/XSA+다고/EC+해서/VV+EC+연락/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.제가 여러 차례 안내를 하였으나 #@소속#에 알아보았는데요",
+            "norm_text": "B.제가 여러 차례 안내를 하였으나 #@소속#에 알아보았는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+여러/MM+차례/NNG+안내/NNG+를/JKO+하/VV+였으나/EP+EC+#/SY+@/SY+소속/NNG+#/SY+에/JKB+알아보/VV+았/EP+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.인원 충원 문제는 도청으로 문의를 해야 한다고 답변을 받으셨다고요",
+            "norm_text": "B.인원 충원 문제는 도청으로 문의를 해야 한다고 답변을 받으셨다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+인원/NNG+충원/NNG+문제/NNG+는/JX+도청/NNG+으로/JKB+문의/NNG+를/JKO+해야/VV+EC+한다고/VX+EC+답변/NNG+을/JKO+받/VV+으셨/EP+EP+다고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.담당자 분 연결을 원하셨습니다",
+            "norm_text": "B.담당자 분 연결을 원하셨습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+담당/NNG+자분/NNG+연결/NNG+을/JKO+원하/VV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.예 민원 분 어디신가요",
+            "norm_text": "A.예 민원 분 어디신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+민원/NNG+분/XSN+어디/NP+신가요/VCP+EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.지역은 예산군 #@주소#이라고 하셨습니다",
+            "norm_text": "B.지역은 예산군 #@주소#이라고 하셨습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+지역/NNG+은/JX+예산군/NNG+#/SY+@/SY+주소/NNG+#/SY+이라고/JKQ+하/VV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.네 지금 민원 분 연결 가능한가요",
+            "norm_text": "A.네 지금 민원 분 연결 가능한가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+지금/MAG+민원/NNG+분/XSN+연결/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 14,
+            "text": "B.네 민원인 대기 중입니다 바로 연결하겠습니다",
+            "norm_text": "B.네 민원인 대기 중입니다 바로 연결하겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+민원인/NNG+대기/NNG+중/NNB+입니다/VCP+EF+바로/MAG+연결/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.예 그렇게 해 주십시오",
+            "norm_text": "A.예 그렇게 해 주십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+예/IC+그렇게/MAG+해/VV+EC+주/VX+십시오/EP+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 바로 통화하시면 됩니다",
+            "norm_text": "B.네 바로 통화하시면 됩니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+바로/MAG+통화/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

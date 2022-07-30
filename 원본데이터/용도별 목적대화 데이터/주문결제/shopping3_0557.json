@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 10915,
+    "name": "s3_20210913_0010_0698_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416099958/s3_20210913_0010_0698_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416099958/s3_20210913_0010_0698_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11937,
+      "filename": "s3_20210826_0010_0016_01.txt",
+      "title": "s3_20210826_0010_0016_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 631,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 631,
+        "word_size": 134,
+        "text": "A.반갑습니다 #@소속# 렌탈상담사 #@이름#입니다 무엇을 도와드릴까요\nB.기존에 쓰고 있던 제품을 해지하려고 하는데요\nA.그러십니까 정보확인 후에 바로 안내해 드릴수 있도록 하겠습니다\nA.계약자님 성함과 전화번호 및 주소지 확인하겠습니다\nB.#@이름#이구요 #@전번#에 주소는 #@주소#에요\nA.고객님 확인 감사합니다 처음에 해지 요청한다고 말씀하셨는데요\nA.혹시 어떤 부분이 불편하셔서 해지 생각하시는지 여쭤봐도 될까요\nB.아니요 제품을 바꿀건데 바꿀려면 해지를 해야 된다 그래서요\nA.그러시면 고객님 혹시 저희 #@소속#제품으로 변경하시는 건가요\nB.네 #@소속# 제품으로 변경하려고요\nA.그러시면 변경은 매장 통해서 안내 받기로 하신 거세요\nB.네 매장 통해서 하려고요\nA.알겠습니다 고객님 해지 원하시는 제품은 어떻게 되시나요\nB.지금 제 명의로 두개가 있는데 그 중에 대용량 정수기 해지하려구요\nA.네 고객님 그 제품 처음 설치한 날짜가 이천구년도 맞으신가요\nB.아뇨 이천십년이에요 시월사일날일거에요\nA.네 방금 불러주신 전화번호로는 이미 만기완료된 제품만 확인이 되시네요\nA.저희가 확인 후에 바로 다시 전화드려도 괜찮으실까요\nB.네 그러면 확인하시고 전화주세요 안되면 고객번호로도 확인해주세요\nA.알겠습니다 확인 후 다시 연락드리겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 렌탈상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# 렌탈상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+렌/NNG+탈상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.기존에 쓰고 있던 제품을 해지하려고 하는데요",
+            "norm_text": "B.기존에 쓰고 있던 제품을 해지하려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "B/SL+./SY+기존/NNG+에/JKB+쓰/VV+고/EC+있/VX+던/ETM+제품/NNG+을/JKO+해지/NNG+하/XSV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.그러십니까 정보확인 후에 바로 안내해 드릴수 있도록 하겠습니다",
+            "norm_text": "A.그러십니까 정보확인 후에 바로 안내해 드릴수 있도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+십니까/EP+EF+정보/NNG+확인/NNG+후/NNG+에/JKB+바로/MAG+안내/NNG+해/XSV+EC+드릴/VX+ETM+수/NNB+있/VV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.계약자님 성함과 전화번호 및 주소지 확인하겠습니다",
+            "norm_text": "A.계약자님 성함과 전화번호 및 주소지 확인하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+계약자/NNG+님/XSN+성함/NNG+과/JC+전화/NNG+번호/NNG+및/MAJ+주소지/NNG+확인/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.#@이름#이구요 #@전번#에 주소는 #@주소#에요",
+            "norm_text": "B.#@이름#이구요 #@전번#에 주소는 #@주소#에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+구요/EF+#/SY+@/SY+전번/NNG+#/SY+에/JKB+주소/NNG+는/JX+#/SY+@/SY+주소/NNG+#/SY+에/JKB+요/JX"
+          },
+          {
+            "id": 6,
+            "text": "A.고객님 확인 감사합니다 처음에 해지 요청한다고 말씀하셨는데요",
+            "norm_text": "A.고객님 확인 감사합니다 처음에 해지 요청한다고 말씀하셨는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+확인/NNG+감사/NNG+합니다/XSV+EF+처음/NNG+에/JKB+해지/NNG+요청/NNG+한다고/XSV+EC+말씀/NNG+하/XSV+셨/EP+EP+는데요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.혹시 어떤 부분이 불편하셔서 해지 생각하시는지 여쭤봐도 될까요",
+            "norm_text": "A.혹시 어떤 부분이 불편하셔서 해지 생각하시는지 여쭤봐도 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+어떤/MM+부분/NNG+이/JKS+불편/NNG+하/XSV+셔서/EP+EC+해지/NNG+생각/NNG+하/XSV+시/EP+는지/EC+여쭤봐도/VV+EC+VX+EC+될까요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.아니요 제품을 바꿀건데 바꿀려면 해지를 해야 된다 그래서요",
+            "norm_text": "B.아니요 제품을 바꿀건데 바꿀려면 해지를 해야 된다 그래서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+제품/NNG+을/JKO+바꿀/VV+ETM+건데/NNB+VCP+EC+바꿀려면/VV+EC+해지/NNG+를/JKO+해야/VV+EC+된다/VV+EF+그래서/MAJ+요/MM"
+          },
+          {
+            "id": 9,
+            "text": "A.그러시면 고객님 혹시 저희 #@소속#제품으로 변경하시는 건가요",
+            "norm_text": "A.그러시면 고객님 혹시 저희 #@소속#제품으로 변경하시는 건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+고객/NNG+님/XSN+혹시/MAG+저희/NP+#/SY+@/SY+소속/NNG+#/SY+제품/NNG+으로/JKB+변경/NNG+하/XSV+시/EP+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 #@소속# 제품으로 변경하려고요",
+            "norm_text": "B.네 #@소속# 제품으로 변경하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+제품/NNG+으로/JKB+변경/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.그러시면 변경은 매장 통해서 안내 받기로 하신 거세요",
+            "norm_text": "A.그러시면 변경은 매장 통해서 안내 받기로 하신 거세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+변경/NNG+은/JX+매장/NNG+통해서/VV+EC+안/MAG+내받/VV+기/ETN+로/JKB+하/VV+신/EP+ETM+거/NNB+세요/VCP+EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 매장 통해서 하려고요",
+            "norm_text": "B.네 매장 통해서 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+매장/MAG+통해서/VV+EC+하/VV+려고요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.알겠습니다 고객님 해지 원하시는 제품은 어떻게 되시나요",
+            "norm_text": "A.알겠습니다 고객님 해지 원하시는 제품은 어떻게 되시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+고객/NNG+님/XSN+해/VV+EC+지원/NNG+하/XSV+시/EP+는/ETM+제품/NNG+은/JX+어떻게/MAG+되/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 14,
+            "text": "B.지금 제 명의로 두개가 있는데 그 중에 대용량 정수기 해지하려구요",
+            "norm_text": "B.지금 제 명의로 두개가 있는데 그 중에 대용량 정수기 해지하려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+제/MM+명의/NNG+로/JKB+두/MM+개/NNBC+가/JKS+있/VA+는데/EC+그/MM+중/NNB+에/JKB+대용량/NNG+정수기/NNG+해지/NNG+하/XSV+려구요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네 고객님 그 제품 처음 설치한 날짜가 이천구년도 맞으신가요",
+            "norm_text": "A.네 고객님 그 제품 처음 설치한 날짜가 이천구년도 맞으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+그/MM+제품/NNG+처음/NNG+설치/NNG+한/XSA+ETM+날짜/NNG+가/JKS+이/NR+천/NR+구/NR+년/NNBC+도/JX+맞/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 16,
+            "text": "B.아뇨 이천십년이에요 시월사일날일거에요",
+            "norm_text": "B.아뇨 이천십년이에요 시월사일날일거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아뇨/IC+이/NR+천/NR+십/NR+년/NNBC+이/VCP+에요/EF+시월/NNG+사/NR+일/NNBC+날/NNG+일/VCP+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "A.네 방금 불러주신 전화번호로는 이미 만기완료된 제품만 확인이 되시네요",
+            "norm_text": "A.네 방금 불러주신 전화번호로는 이미 만기완료된 제품만 확인이 되시네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+네/IC+방금/MAG+불러/VV+EC+주/VX+신/EP+ETM+전화/NNG+번호/NNG+로/JKB+는/JX+이미/MAG+만기/NNG+완료/NNG+된/XSV+ETM+제품/NNG+만/JX+확인/NNG+이/JKS+되/VV+시/EP+네요/EC"
+          },
+          {
+            "id": 18,
+            "text": "A.저희가 확인 후에 바로 다시 전화드려도 괜찮으실까요",
+            "norm_text": "A.저희가 확인 후에 바로 다시 전화드려도 괜찮으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+확인/NNG+후/NNG+에/JKB+바로/MAG+다시/MAG+전화/NNG+드려/VV+EC+도/JX+괜찮/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 19,
+            "text": "B.네 그러면 확인하시고 전화주세요 안되면 고객번호로도 확인해주세요",
+            "norm_text": "B.네 그러면 확인하시고 전화주세요 안되면 고객번호로도 확인해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+그러면/MAJ+확인/NNG+하/XSV+시/EP+고/EC+전화/NNG+주/VV+세요/EP+EF+안/MAG+되/VV+면/EC+고객/NNG+번호/NNG+로/JKB+도/JX+확인/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 20,
+            "text": "A.알겠습니다 확인 후 다시 연락드리겠습니다 감사합니다",
+            "norm_text": "A.알겠습니다 확인 후 다시 연락드리겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+확인/NNG+후/NNG+다시/MAG+연락/NNG+드리/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

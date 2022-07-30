@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 51333,
+    "name": "c4_20211018_0024_0115_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt202110081312370139110/c4_20211018_0024_0115_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt202110081312370139110/c4_20211018_0024_0115_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 57424,
+      "filename": "c4_20210928_0022_0002_01.txt",
+      "title": "c4_20210928_0022_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 514,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 514,
+        "word_size": 101,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.예 안녕하세요 제가 질문사항이 있어서 전화드렸습니다\nA.네 여쭤보시고 싶은게 있으신가요\nB.민사집행법에 대한 내용인데요\nA.민사집행법 말씀이신가요 고객님\nB.정확히는 민사집행법상 전부명령과 추심명령의 차이에 대해 알려주셨으면 합니다\nA.지금 신청하신 민원의 요지는 전부명령과 추심명령의 차이에 대한 문의로 이해됩니다\nB.예 맞습니다 차이에 대해 설명해주시면 감사하겠습니다\nA.압류채권자는 압류한 금전채권을 현금화 하는 방법으로 추심명령이나 전부명령을 신청하는데요\nB.압류체권자가 금전채권을 현금화 할때요\nA.네 추심명령이 있는 때는 압류채권자는 대위절차 없이 압류채권을 추심할 수 있고요\nA.전부명령이 있을땐 압류된 채권은 지급에 갈음하여 압류채권자에게 이전돼요\nB.각자 결과치가 다르네요 추심명령과 전부명령이요\nA.추심명령은 압류한 금전채권에 관한 추심권능을 피압류채권을 추심하게 하는 제도고요\nB.알겠습니다 다른 질문사항 생기면 또 연락드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "norm_text": "B.예 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "norm_text": "A.네 여쭤보시고 싶은게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.민사집행법에 대한 내용인데요",
+            "norm_text": "B.민사집행법에 대한 내용인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+민사/NNG+집/NNG+행법/NNG+에/JKB+대한/VV+ETM+내용/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.민사집행법 말씀이신가요 고객님",
+            "norm_text": "A.민사집행법 말씀이신가요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+민사/NNG+집/NNG+행법/NNG+말씀/NNG+이/VCP+신가요/EP+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 6,
+            "text": "B.정확히는 민사집행법상 전부명령과 추심명령의 차이에 대해 알려주셨으면 합니다",
+            "norm_text": "B.민사집행법상 전부명령과 추심명령의 차이에 대해 알려주셨으면 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+민사/NNG+집/NNG+행법/NNG+상/XSN+전부명령/NNP+과/JC+추심/NNG+명령/NNG+의/JKG+차이/NNG+에/JKB+대해/VV+EC+알려/VV+EC+주/VX+셨/EP+EP+으면/EC+합니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.지금 신청하신 민원의 요지는 전부명령과 추심명령의 차이에 대한 문의로 이해됩니다",
+            "norm_text": "A.전부명령과 추심명령의 차이에 대한 문의로 이해됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+지금/MAG+신청/NNG+하/XSV+신/EP+ETM+민원/NNG+의/JKG+요지/NNG+는/JX+전부명령/NNP+과/JC+추심/NNG+명령/NNG+의/JKG+차이/NNG+에/JKB+대한/VV+ETM+문의/NNG+로/JKB+이해/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.예 맞습니다 차이에 대해 설명해주시면 감사하겠습니다",
+            "norm_text": "B.예 맞습니다 차이에 대해 설명해주시면 감사하겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+예/IC+맞/VV+습니다/EF+차이/NNG+에/JKB+대해/VV+EC+설명/NNG+해/XSV+EC+주/VX+시/EP+면/EC+감사/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.압류채권자는 압류한 금전채권을 현금화 하는 방법으로 추심명령이나 전부명령을 신청하는데요",
+            "norm_text": "A.압류채권자는 압류한 금전채권을 현금화 하는 방법으로 추심명령이나 전부명령을 신청하는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+압류/NNG+채권자/NNG+는/JX+압류/NNG+한/XSA+ETM+금전/NNG+채권/NNG+을/JKO+현금/NNG+화/XSN+하/XSV+는/ETM+방법/NNG+으로/JKB+추심/NNG+명령/NNG+이나/JC+전부명령/NNP+을/JKO+신청/NNG+하/XSV+는데요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.압류체권자가 금전채권을 현금화 할때요",
+            "norm_text": "B.압류체권자가 금전채권을 현금화 할때요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+압/NNG+류체/NNG+권/XSN+자/XSN+가/JKS+금전/NNG+채권/NNG+을/JKO+현금/NNG+화/XSN+할/XSV+ETM+때/NNG+요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 추심명령이 있는 때는 압류채권자는 대위절차 없이 압류채권을 추심할 수 있고요",
+            "norm_text": "A.네 추심명령이 있는 때는 압류채권자는 대위절차 없이 압류채권을 추심할 수 있고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+추심/NNG+명령/NNG+이/JKS+있/VA+는/ETM+때/NNG+는/JX+압류/NNG+채권자/NNG+는/JX+대위/NNG+절차/NNG+없이/MAG+압류/NNG+채권/NNG+을/JKO+추심/NNG+할/XSV+ETM+수/NNB+있/VV+고요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.전부명령이 있을땐 압류된 채권은 지급에 갈음하여 압류채권자에게 이전돼요",
+            "norm_text": "A.전부명령이 있을땐 압류된 채권은 지급에 갈음하여 압류채권자에게 이전돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전부명령/NNP+이/JKS+있/VV+을/ETM+땐/NNG+JX+압류/NNG+된/XSV+ETM+채권/NNG+은/JX+지급/NNG+에/JKB+갈음/NNG+하/XSV+여/EC+압류/NNG+채권자/NNG+에게/JKB+이전/NNG+돼요/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.각자 결과치가 다르네요 추심명령과 전부명령이요",
+            "norm_text": "B.각자 결과치가 다르네요 추심명령과 전부명령이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+각자/MAG+결과/NNG+치가/XSA+EC+JKS+다르/VA+네요/EF+추심/NNG+명령/NNG+과/JC+전부명령/NNP+이/VCP+요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.추심명령은 압류한 금전채권에 관한 추심권능을 피압류채권을 추심하게 하는 제도고요",
+            "norm_text": "A.추심명령은 압류한 금전채권에 관한 추심권능을 피압류채권을 추심하게 하는 제도고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+추심/NNG+명령/NNG+은/JX+압류/NNG+한/XSA+ETM+금전/NNG+채권/NNG+에/JKB+관한/VV+ETM+추심/NNG+권능/NNG+을/JKO+피/XPN+압류/NNG+채권/NNG+을/JKO+추심/NNG+하/XSV+게/EC+하/VV+는/ETM+제도/NNG+고요/NNG"
+          },
+          {
+            "id": 15,
+            "text": "B.알겠습니다 다른 질문사항 생기면 또 연락드릴게요",
+            "norm_text": "B.알겠습니다 다른 질문사항 생기면 또 연락드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+다른/MM+질문/NNG+사항/NNG+생기/VV+면/EC+또/MAG+연락/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

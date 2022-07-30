@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 116197,
+    "name": "s3_20211105_0005_0366_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110825022357/s3_20211105_0005_0366_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110825022357/s3_20211105_0005_0366_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118821,
+      "filename": "s3_20210925_0017_0003_01.txt",
+      "title": "s3_20210925_0017_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 311,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 311,
+        "word_size": 69,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.제가 어제 #@상품#을 구매했는데요\nB.이게 목에만 사용이 가능한가요\nA.아니요 해당 상품은 목 얼굴 입 전체 사용 가능합니다\nB.네 저희 어머니께 사드리려고 하는데요\nB.칠십 대에도 사용이 가능하겠죠\nA.#@상품#의 경우 전 연령대 사용이 가능합니다\nB.그럼 전화로 주문이 가능한가요\nA.네 바로 주문 도와드릴까요\nA.주문자분 성함과 연락처를 알려주세요\nB.제 이름은 #@이름#이고요\nB.제 전화번호는 #@전번#이에요\nA.한 세트 구매하시는 것 맞으시죠\nB.네 한 세트 맞아요\nA.바로 주문 해드렸습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 어제 #@상품#을 구매했는데요",
+            "norm_text": "B.제가 어제 #@상품#을 구매했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+어제/NNG+#/SY+@/SY+상품/NNG+#/SY+을/JKO+구매/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.이게 목에만 사용이 가능한가요",
+            "norm_text": "B.이게 목에만 사용이 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이게/NP+JKS+목/NNG+에/JKB+만/JX+사용/NNG+이/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "A.아니요 해당 상품은 목 얼굴 입 전체 사용 가능합니다",
+            "norm_text": "A.아니요 해당 상품은 목 얼굴 입 전체 사용 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아니요/IC+해당/NNG+상품/NNG+은/JX+목/NNG+얼굴/NNG+입/NNG+전체/NNG+사용/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 저희 어머니께 사드리려고 하는데요",
+            "norm_text": "B.네 저희 어머니께 사 드리려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+저희/NP+어머니/NNG+께/JKB+사/VV+EC+드리/VX+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.칠십 대에도 사용이 가능하겠죠",
+            "norm_text": "B.칠십 대에도 사용이 가능하겠죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+칠/NR+십/NR+대/NNBC+에/JKB+도/JX+사용/NNG+이/JKS+가능/NNG+하/XSV+겠/EP+죠/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.#@상품#의 경우 전 연령대 사용이 가능합니다",
+            "norm_text": "A.#@상품#의 경우 전 연령대 사용이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+의/JKG+경우/NNG+전/NNG+연령/NNG+대/XPN+사용/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 전화로 주문이 가능한가요",
+            "norm_text": "B.그럼 전화로 주문이 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+전화/NNG+로/JKB+주문/NNG+이/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.네 바로 주문 도와드릴까요",
+            "norm_text": "A.네 바로 주문 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+바로/MAG+주문/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.주문자분 성함과 연락처를 알려주세요",
+            "norm_text": "A.주문자 분 성함과 연락처를 알려 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+주문자/NNG+분성/NNG+함/XSV+ETN+과/JC+연락처/NNG+를/JKO+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.제 이름은 #@이름#이고요",
+            "norm_text": "B.제 이름은 #@이름#이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.제 전화번호는 #@전번#이에요",
+            "norm_text": "B.제 전화번호는 #@전번#이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.한 세트 구매하시는 것 맞으시죠",
+            "norm_text": "A.한 세트 구매하시는 것 맞으시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+한/MM+세트/NNG+구매/NNG+하/XSV+시/EP+는/ETM+것/NNB+맞/VV+으시/EP+죠/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.네 한 세트 맞아요",
+            "norm_text": "B.네 한 세트 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+한/MM+세트/NNG+맞/VV+아요/EC"
+          },
+          {
+            "id": 15,
+            "text": "A.바로 주문 해드렸습니다",
+            "norm_text": "A.바로 주문해 드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+바로/MAG+주문/NNG+해/XSV+EC+드렸/VX+EP+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

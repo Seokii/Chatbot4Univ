@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 110724,
+    "name": "c4_20211104_0045_0236_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135239078248/c4_20211104_0045_0236_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135239078248/c4_20211104_0045_0236_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 20083,
+      "filename": "c4_20210901_0008_0001_01.txt",
+      "title": "c4_20210901_0008_0001_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-09-10",
+      "size": 378,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 378,
+        "word_size": 87,
+        "text": "A.안녕하세요 #@소속# #@이름# 입니다\nB.네 #@소속# 전에 민원을 넣었는데 해결이 된지 궁금해서요\nA.네 어떤 문의 해주셨나요\nB.#@주소#에 유실된 도로가 있었거든요 위험해서 보수 요청했거든요\nA.네 잠시만 기다려주세요 확인 해보겠습니다\nB.네 알겠습니다 확인 부탁드려요\nA.네 문의주신 도로 보수 요청 건 육 월 삼십 일 조치 완료 되었습니다\nB.그럼 가드레일도 보수가 된 건 가요\nA.가드레일 보수까지는 확인이 어렵습니다\nB.네 그래요 가드레일도 망가져있던데요\nA.그러십니까 추 후 확인 후 보수가 필요하면 조치하겠습니다\nB.네 알겠습니다 빠른 조치 감사합니다\nA.추가 설명이 필요하신 경우 #@전번#으로 연락주세요\nB.네 #@전번#이요 알겠습니다\nA.네 감사합니다 항상 안전 운전 하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 #@소속# 전에 민원을 넣었는데 해결이 된지 궁금해서요",
+            "norm_text": "B.네 #@소속# 전에 민원을 넣었는데 해결이 된지 궁금해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+전/NNG+에/JKB+민원/NNG+을/JKO+넣/VV+었/EP+는데/EC+해결/NNG+이/JKS+된지/VV+EC+궁금/XR+해서/XSA+EC+VCP+요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의 해주셨나요",
+            "norm_text": "A.네 어떤 문의 해주셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+해/XSV+EC+주/VX+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@주소#에 유실된 도로가 있었거든요 위험해서 보수 요청했거든요",
+            "norm_text": "B.#@주소#에 유실된 도로가 있었거든요 위험해서 보수 요청했거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+에/JKB+유실/NNG+된/XSV+ETM+도로/NNG+가/JKS+있/VA+었/EP+거든요/EF+위험/NNG+해서/XSV+EC+보수/NNG+요청/NNG+했/XSV+EP+거든요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 잠시만 기다려주세요 확인 해보겠습니다",
+            "norm_text": "A.네 잠시만 기다려주세요 확인해 보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+잠시/NNG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 알겠습니다 확인 부탁드려요",
+            "norm_text": "B.네 알겠습니다 확인 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+확인/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 문의주신 도로 보수 요청 건 육 월 삼십 일 조치 완료 되었습니다",
+            "norm_text": "A.네 문의주신 도로 보수 요청 건 유월 삼십일 조치 완료되었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+문/NNG+의/JKG+주신/NNG+도로/NNG+보수/NNG+요/VCP+EC+청건/NNG+유월/NNG+삼/NR+십/NR+일/NNBC+조치/NNG+완료/NNG+되/XSV+었/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 가드레일도 보수가 된 건 가요",
+            "norm_text": "B.그럼 가드레일도 보수가 된 건 가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+가드레일/NNG+도/JX+보수가/NNG+된/XSV+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.가드레일 보수까지는 확인이 어렵습니다",
+            "norm_text": "A.가드레일 보수까지는 확인이 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가드레일/NNG+보수/NNG+까지/JX+는/JX+확인/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 그래요 가드레일도 망가져있던데요",
+            "norm_text": "B.네 그래요 가드레일도 망가져있던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그래요/IC+가드레일/NNG+도/JX+망가져/VV+EC+있/VX+던데요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.그러십니까 추 후 확인 후 보수가 필요하면 조치하겠습니다",
+            "norm_text": "A.그러십니까 추후 확인 후 보수가 필요하면 조치하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그러/VV+십니까/EP+EF+추후/NNG+확인/NNG+후보/NNG+수/NNG+가/JKS+필요/NNG+하/XSV+면/EC+조치/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 알겠습니다 빠른 조치 감사합니다",
+            "norm_text": "B.네 알겠습니다 빠른 조치 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+빠른/VA+ETM+조치/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.추가 설명이 필요하신 경우 #@전번#으로 연락주세요",
+            "norm_text": "A.추가 설명이 필요하신 경우 #@전번#으로 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+추가/NNG+설명/NNG+이/JKS+필요/NNG+하/XSV+신/EP+ETM+경우/NNG+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 14,
+            "text": "B.네 #@전번#이요 알겠습니다",
+            "norm_text": "B.네 #@전번#이요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.네 감사합니다 항상 안전 운전 하세요",
+            "norm_text": "A.네 감사합니다 항상 안전 운전하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+항상/MAG+안전/NNG+운전/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

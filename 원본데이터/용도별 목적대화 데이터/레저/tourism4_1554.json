@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 151864,
+    "name": "t4_20211117_0010_0435_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135900040288/t4_20211117_0010_0435_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135900040288/t4_20211117_0010_0435_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 153887,
+      "filename": "t4_0083_0115_02.txt",
+      "title": "t4_0083_0115_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 405,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 405,
+        "word_size": 93,
+        "text": "A.안녕하십니까 #@소속# #@이름# 상담사입니다\nB.네 안녕하세요 이용 요금 좀 여쭤볼게요\nA.네 고객님 이용 요금 관련 문의 시군요\nB.네 성인 2명 아이 3명 이렇게 가려고 합니다\nB.총 금액이 어떻게 되나요\nA.아이들의 나이가 어떻게 될까요\nB.고등학생 1명 중학생 2명입니다\nA.네 그럼 모두 청소년으로 포함되시는데요\nB.네 그래서 총 금액이 어떻게 되죠\nA.성인은 1인당 19000원으로 2명 금액 38000원이고요\nA.청소년은 1인당 17000원으로 3명 금액 51000원입니다\nB.그럼 89000원 정도 맞나요 9만 원 가까이 나왔네요\nA.네 고객님 총 금액 89000원입니다\nB.현장에서 결제하면 되는 건가요\nA.네 그렇습니다 고객님\nB. 네 알겠습니다 통화 감사합니다\nA.네 오늘도 좋은 하루 보내세요 고객님 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# #@이름# 상담사입니다",
+            "norm_text": "A.안녕하십니까 #@소속# #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 이용 요금 좀 여쭤볼게요",
+            "norm_text": "B.네 안녕하세요 이용 요금 좀 여쭤볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+이용/NNG+요금/NNG+좀/MAG+여쭤볼/VV+EC+VX+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 이용 요금 관련 문의 시군요",
+            "norm_text": "A.네 고객님 이용 요금 관련 문의 시군요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+이용/NNG+요금/NNG+관련/NNG+문/NNG+의/JKG+시군/NNG+요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 성인 2명 아이 3명 이렇게 가려고 합니다",
+            "norm_text": "B.네 성인 2명 아이 3명 이렇게 가려고 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+성인/NNG+2/SN+명/NNBC+아이/NNG+3/SN+명/NNBC+이렇게/MAG+가/VV+려고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.총 금액이 어떻게 되나요",
+            "norm_text": "B.총 금액이 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+총/MM+금액/NNG+이/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.아이들의 나이가 어떻게 될까요",
+            "norm_text": "A.아이들의 나이가 어떻게 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+아이/NNG+들/XSN+의/JKG+나이/NNG+가/JKS+어떻게/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.고등학생 1명 중학생 2명입니다",
+            "norm_text": "B.고등학생 1명 중학생 2명입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+고등/NNG+학생/NNG+1/SN+명/NNBC+중/NNB+학생/NNG+2/SN+명/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 그럼 모두 청소년으로 포함되시는데요",
+            "norm_text": "A.네 그럼 모두 청소년으로 포함되시는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+모두/MAG+청소년/NNG+으로/JKB+포함/NNG+되/XSV+시/EP+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 그래서 총 금액이 어떻게 되죠",
+            "norm_text": "B.네 그래서 총 금액이 어떻게 되죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그래서/MAJ+총/MM+금액/NNG+이/JKS+어떻게/MAG+되/VV+죠/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.성인은 1인당 19000원으로 2명 금액 38000원이고요",
+            "norm_text": "A.성인은 1인당 19000원으로 2명 금액 38000원이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+성인/NNG+은/JX+1/SN+인/NNG+당/XSN+19000/SN+원/NNBC+으로/JKB+2/SN+명/NNBC+금액/NNG+38000/SN+원/NNBC+이/VCP+고요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.청소년은 1인당 17000원으로 3명 금액 51000원입니다",
+            "norm_text": "A.청소년은 1인당 17000원으로 3명 금액 51000원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+청소년/NNG+은/JX+1/SN+인/NNG+당/XSN+17000/SN+원/NNBC+으로/JKB+3/SN+명/NNBC+금액/NNG+51000/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그럼 89000원 정도 맞나요 9만 원 가까이 나왔네요",
+            "norm_text": "B.그럼 89000원 정도 맞나요 9만 원 가까이 나왔네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+89000/SN+원/NNBC+정도/NNG+맞/VV+나요/EC+9/SN+만/NR+원/NNBC+가까이/MAG+나왔/VV+EP+네요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 고객님 총 금액 89000원입니다",
+            "norm_text": "A.네 고객님 총 금액 89000원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+총/MM+금액/NNG+89000/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.현장에서 결제하면 되는 건가요",
+            "norm_text": "B.현장에서 결제하면 되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+현장/NNG+에서/JKB+결제/NNG+하/XSV+면/EC+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네 그렇습니다 고객님",
+            "norm_text": "A.네 그렇습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 16,
+            "text": "B. 네 알겠습니다 통화 감사합니다",
+            "norm_text": "B. 네 알겠습니다 통화 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+통화/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.네 오늘도 좋은 하루 보내세요 고객님 상담사 #@이름#이었습니다",
+            "norm_text": "A.네 오늘도 좋은 하루 보내세요 고객님 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+오늘/NNG+도/JX+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF+VCP+고/EC+객님/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

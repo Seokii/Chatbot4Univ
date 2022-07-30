@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 8656,
+    "name": "s1_20210913_0001_0357_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151217058173/s1_20210913_0001_0357_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151217058173/s1_20210913_0001_0357_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7584,
+      "filename": "s1_20210823_0021_0002_01.txt",
+      "title": "s1_20210823_0021_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 466,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 466,
+        "word_size": 110,
+        "text": "A.안녕하십니까 조금 전에 상담 드린 상담사 #@이름# 입니다\nB.안녕하세요 다시 문의할게 있어서 전화했어요\nB.이게 계속 돌아가는 게 이상 있는지 없는지를 알아보려면 어디다 전화를 해야 되는 거예요\nA.그건 에어컨 전문 담당부서와 한번 상담을 나눠보시면 될 것 같습니다\nA.그럼 담당부서 상담접수로 도와드릴까요\nB.네 상담점수 해주세요 그럼\nA.죄송하지만 전문 상담사가 모두 상담 중이어서요\nA.저희 쪽에서 연락을 드릴텐데 한 시간 정도 상담이 지연되는데 괜찮으시겠습니까\nB.괜찮아요 한 시간 이내면\nA.알겠습니다 그러면 한 시간 이내로 이제 담당부서에서 연락 드려서 상담 봐드리겠습니다\nA.실례지만 제품 구매하신지 이 년 지나셨습니까\nB.구매한지는 거의 팔 년 됐어요\nA.예 그 정도 되셨구요 예 알겠습니다\nA.그러면 담당부서에서 연락드려서 그 부분에 대해서 상담 도와드리도록 하겠습니다\nA.상담 잘 받으시고 즐거운 하루 되세요\nB.네 수고하세요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 조금 전에 상담 드린 상담사 #@이름# 입니다",
+            "norm_text": "A.안녕하십니까 조금 전에 상담 드린 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+조금/MAG+전/NNG+에/JKB+상담/NNG+드린/VV+ETM+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 다시 문의할게 있어서 전화했어요",
+            "norm_text": "B.안녕하세요 다시 문의할게 있어서 전화했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+다시/MAG+문의/NNG+할/XSV+ETM+게/NNB+JKS+있/VA+어서/EC+전화/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.이게 계속 돌아가는 게 이상 있는지 없는지를 알아보려면 어디다 전화를 해야 되는 거예요",
+            "norm_text": "B.이게 계속 돌아가는 게 이상 있는지 없는지를 알아보려면 어디다 전화를 해야 되는 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이게/NP+JKS+계속/MAG+돌아가/VV+는/ETM+게/NNB+JKS+이상/NNG+있/VV+는지/EC+없/VA+는지/EC+를/JKO+알아보/VV+려면/EC+어디/NP+다/JX+전화/NNG+를/JKO+해야/VV+EC+되/VV+는/ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.그건 에어컨 전문 담당부서와 한번 상담을 나눠보시면 될 것 같습니다",
+            "norm_text": "A.그건 에어컨 전문 담당부서와 한번 상담을 나눠보시면 될 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+그건/NP+JX+에어컨/NNG+전문/NNG+담당/NNG+부서/NNG+와/JC+한/MM+번/NNBC+상담/NNG+을/JKO+나눠/VV+EC+보/VX+시/EP+면/EC+될/VV+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.그럼 담당부서 상담접수로 도와드릴까요",
+            "norm_text": "A.그럼 담당부서 상담접수로 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+담당/NNG+부서/NNG+상담/NNG+접수/NNG+로/JKB+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 상담점수 해주세요 그럼",
+            "norm_text": "B.네 상담점수 해주세요 그럼",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+상담/NNG+점수/NNG+해/XSV+EC+주/VX+세요/EP+EF+그럼/MAJ"
+          },
+          {
+            "id": 7,
+            "text": "A.죄송하지만 전문 상담사가 모두 상담 중이어서요",
+            "norm_text": "A.죄송하지만 전문 상담사가 모두 상담 중이어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+전문/NNG+상/XSN+담사/NNG+가/JKS+모두/MAG+상담/NNG+중/NNB+이/VCP+어서요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.저희 쪽에서 연락을 드릴텐데 한 시간 정도 상담이 지연되는데 괜찮으시겠습니까",
+            "norm_text": "A.저희 쪽에서 연락을 드릴텐데 한 시간 정도 상담이 지연되는데 괜찮으시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+저희/NP+쪽/NNB+에서/JKB+연락/NNG+을/JKO+드릴/VV+ETM+텐데/NNB+VCP+EC+한/MM+시간/NNG+정도/NNG+상담/NNG+이/JKS+지연/NNG+되/XSV+는/ETM+데/NNB+괜찮/VA+으시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.괜찮아요 한 시간 이내면",
+            "norm_text": "B.괜찮아요 한 시간 이내면",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+괜찮/VA+아요/EF+한/MM+시간/NNG+이/JKS+내면/NNP"
+          },
+          {
+            "id": 10,
+            "text": "A.알겠습니다 그러면 한 시간 이내로 이제 담당부서에서 연락 드려서 상담 봐드리겠습니다",
+            "norm_text": "A.알겠습니다 그러면 한 시간 이내로 이제 담당부서에서 연락 드려서 상담 봐드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+그러면/MAJ+한/MM+시간/NNG+이/JKS+내/NP+로/JKB+이제/MAG+담당/NNG+부서/NNG+에서/JKB+연락/NNG+드려서/VV+EC+상담/NNG+봐/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.실례지만 제품 구매하신지 이 년 지나셨습니까",
+            "norm_text": "A.실례지만 제품 구매하신지 이 년 지나셨습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+실례/NNG+지만/VCP+EC+제품/NNG+구매/NNG+하/XSV+신지/EP+EF+이/NR+년/NNBC+지나/VV+셨/EP+EP+습니까/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.구매한지는 거의 팔 년 됐어요",
+            "norm_text": "B.구매한지는 거의 팔 년 됐어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+구매/NNG+한지/XSA+EC+는/JX+거의/MAG+팔/NR+년/NNBC+됐/VV+EP+어요/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.예 그 정도 되셨구요 예 알겠습니다",
+            "norm_text": "A.예 그 정도 되셨구요 예 알겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+그/MM+정도/NNG+되/XSV+셨/EP+EP+구요/EF+예/IC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.그러면 담당부서에서 연락드려서 그 부분에 대해서 상담 도와드리도록 하겠습니다",
+            "norm_text": "A.그러면 담당부서에서 연락드려서 그 부분에 대해서 상담 도와드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러면/MAJ+담당/NNG+부서/NNG+에서/JKB+연락/NNG+드려서/VV+EC+그/MM+부분/NNG+에/JKB+대해서/VV+EC+상담/NNG+도와/VV+EC+드리/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.상담 잘 받으시고 즐거운 하루 되세요",
+            "norm_text": "A.상담 잘 받으시고 즐거운 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+상담/NNG+잘/MAG+받/VV+으시/EP+고/EC+즐거운/VA+ETM+하루/NNG+되/XSV+세요/EP+EF"
+          },
+          {
+            "id": 16,
+            "text": "B.네 수고하세요 감사합니다",
+            "norm_text": "B.네 수고하세요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+수고/NNG+하/XSV+세요/EP+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 141253,
+    "name": "t1_20211115_0002_0465_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715060028/t1_20211115_0002_0465_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715060028/t1_20211115_0002_0465_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148091,
+      "filename": "t1_0068_0017_02.txt",
+      "title": "t1_0068_0017_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 381,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 381,
+        "word_size": 87,
+        "text": "A.전화 주셔서 감사합니다 #@소속# 고객센터 #@이름# 입니다\nB.바베큐 예약하고 싶은데요 자세한 내용이 궁금해서요\nA.고객님 궁금하신 점 말씀해 주시겠습니까\nB.내일 체크인인데 지금 예약하면 되나요\nA.네 오늘까지는 예약해 주셔야 내일 이용 가능 하세요\nB.대여되는 품목이 어디까지 인가요\nA.4인 기준 그릴1대를 2시간 이용 가능하시고 집기 제공해 드려요\nB.혹시 고기가 모자라면 추가 구매도 가능한가요\nA.추가 구매 가능하세요 고객님 예약 도와 드릴까요\nB.내일 예약한 #@이름# 이에요 바베큐 예약도 추가해 주세요\nA.네 추가 되셨습니다 결제는 현장에서 해주시면 되세요\nB.덕분에 준비할 품목이 줄었네요 정말 감사합니다 수고하세요\nA.즐거운 시간 되세요  #@소속# 고객센터 #@이름# 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화 주셔서 감사합니다 #@소속# 고객센터 #@이름# 입니다",
+            "norm_text": "A.전화 주셔서 감사합니다 #@소속# 고객센터 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.바베큐 예약하고 싶은데요 자세한 내용이 궁금해서요",
+            "norm_text": "B.바베큐 예약하고 싶은데요 자세한 내용이 궁금해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+바베큐/NNG+예약/NNG+하/XSV+고/EC+싶/VX+은데요/EC+자세/XR+한/XSA+ETM+내용/NNG+이/JKS+궁금/XR+해서/XSA+EC+VCP+요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 궁금하신 점 말씀해 주시겠습니까",
+            "norm_text": "A.고객님 궁금하신 점 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+궁금/XR+하/XSA+신/EP+ETM+점/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.내일 체크인인데 지금 예약하면 되나요",
+            "norm_text": "B.내일 체크인인데 지금 예약하면 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+내일/MAG+체크인/NNG+인데/VCP+EC+지금/MAG+예약/NNG+하/XSV+면/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 오늘까지는 예약해 주셔야 내일 이용 가능 하세요",
+            "norm_text": "A.네 오늘까지는 예약해 주셔야 내일 이용 가능 하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+오늘/NNG+까지/JX+는/JX+예약/NNG+해/XSV+EC+주/VX+셔야/EP+EC+내일/MAG+이용/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.대여되는 품목이 어디까지 인가요",
+            "norm_text": "B.대여되는 품목이 어디까지 인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+대여/NNG+되/XSV+는/ETM+품목/NNG+이/JKS+어디/NP+까지/JX+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.4인 기준 그릴1대를 2시간 이용 가능하시고 집기 제공해 드려요",
+            "norm_text": "A.4인 기준 그릴1대를 2시간 이용 가능하시고 집기 제공해 드려요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+4/SN+인기/VCP+EC+준/VX+ETM+그릴/NNG+1/SN+대/NNBC+를/JKO+2/SN+시간/NNBC+이용/NNG+가능/NNG+하/XSV+시/EP+고/EC+집기/NNG+제공/NNG+해/XSV+EC+드려요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.혹시 고기가 모자라면 추가 구매도 가능한가요",
+            "norm_text": "B.혹시 고기가 모자라면 추가 구매도 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+고기/NNG+가/JKS+모자라/VV+면/EC+추가/NNG+구매/NNG+도/JX+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.추가 구매 가능하세요 고객님 예약 도와 드릴까요",
+            "norm_text": "A.추가 구매 가능하세요 고객님 예약 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+추가/NNG+구매/NNG+가능/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+예약/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.내일 예약한 #@이름# 이에요 바베큐 예약도 추가해 주세요",
+            "norm_text": "B.내일 예약한 #@이름# 이에요 바베큐 예약도 추가해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+내일/MAG+예약/NNG+한/XSA+ETM+#/SY+@/SY+이름/NNG+#/SY+이/VCP+에요/EF+바베큐/NNG+예약/NNG+도/JX+추가/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 추가 되셨습니다 결제는 현장에서 해주시면 되세요",
+            "norm_text": "A.네 추가 되셨습니다 결제는 현장에서 해주시면 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+추가/NNG+되/XSV+셨/EP+EP+습니다/EF+결제/NNG+는/JX+현장/NNG+에서/JKB+해/VV+EC+주/VX+시/EP+면/EC+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.덕분에 준비할 품목이 줄었네요 정말 감사합니다 수고하세요",
+            "norm_text": "B.덕분에 준비할 품목이 줄었네요 정말 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "B/SL+./SY+덕분/NNG+에/JKB+준비/NNG+할/XSV+ETM+품목/NNG+이/JKS+줄/VV+었/EP+네요/EF+정말/MAG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.즐거운 시간 되세요  #@소속# 고객센터 #@이름# 였습니다",
+            "norm_text": "A.즐거운 시간 되세요  #@소속# 고객센터 #@이름# 였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+시간/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

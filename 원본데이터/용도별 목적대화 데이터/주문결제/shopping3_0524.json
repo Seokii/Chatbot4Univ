@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 10761,
+    "name": "s3_20210913_0010_0665_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417027942/s3_20210913_0010_0665_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151417027942/s3_20210913_0010_0665_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11978,
+      "filename": "s3_20210827_0007_0004_01.txt",
+      "title": "s3_20210827_0007_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 326,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 326,
+        "word_size": 74,
+        "text": "A.안녕하세요 #@이름# 상담원입니다\nB.수고하십니다 조금 전에 주문을 했는데요\nB.그게 카드 결제 할라니까 #@전번# 번호가 뜬다 그랬는데 #@전번#이 떴거든요\nA.고객님 성함이랑 휴대폰 번호 한 번 알려주세요\nB.이름은 #@이름# 이고요 휴대폰 번호 #@전번#\nA.혹시 #@상품# 주문해주셨나요\nB.예 그거 맞아요\nA.죄송합니다 그 문자가 아직 발송이 안 된 것 같은데요\nA.제가 지금 바로 보내드릴게요 고객님 잠시만 기다려주세요\nB.알겠습니다 끊고 기다릴까요\nA.지금 발송했고 한 이 분 이내에 갈 거거든요\nA.조금만 기다려주세요\nB.네 알겠습니다 감사합니다\nA.감사합니다 고객님 좋은 하루 보내십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@이름# 상담원입니다",
+            "norm_text": "A.안녕하세요 #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고하십니다 조금 전에 주문을 했는데요",
+            "norm_text": "B.수고하십니다 조금 전에 주문을 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+수고/NNG+하/XSV+십니다/EP+EF+조금/MAG+전/NNG+에/JKB+주문/NNG+을/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.그게 카드 결제 할라니까 #@전번# 번호가 뜬다 그랬는데 #@전번#이 떴거든요",
+            "norm_text": "B.결제하려 했더니 #@전번# 번호가 뜬다 그랬는데 #@전번#이 떴거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그게/NP+JKS+카드/NNG+결제/NNG+할라니까/XSV+EC+#/SY+@/SY+전번/NNG+#/SY+번호/NNG+가/JKS+뜬다/VV+EC+그랬/VV+EP+는데/EC+#/SY+@/SY+전번/NNG+#/SY+이/JKS+떴/VV+EP+거든요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.고객님 성함이랑 휴대폰 번호 한 번 알려주세요",
+            "norm_text": "A.고객님 성함이랑 휴대폰 번호 한 번 알려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+성함/NNG+이랑/JKB+휴대폰/NNG+번호/NNG+한/MM+번/NNBC+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.이름은 #@이름# 이고요 휴대폰 번호 #@전번#",
+            "norm_text": "B.이름은 #@이름# 이고요 휴대폰 번호 #@전번#",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+휴대폰/NNG+번호/NNG+#/SY+@/SY+전번/NNG+#/SY"
+          },
+          {
+            "id": 6,
+            "text": "A.혹시 #@상품# 주문해주셨나요",
+            "norm_text": "A.혹시 #@상품# 주문해주셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+#/SY+@/SY+상품/NNG+#/SY+주문/NNG+해/XSV+EC+주/VX+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.예 그거 맞아요",
+            "norm_text": "B.예 그거 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+그거/NP+맞/VV+아요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.죄송합니다 그 문자가 아직 발송이 안 된 것 같은데요",
+            "norm_text": "A.죄송합니다 그 문자가 아직 발송이 안 된 것 같은데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+죄송/XR+합니다/XSA+EF+그/MM+문자/NNG+가/JKS+아직/MAG+발송/NNG+이/JKS+안/MAG+된/VV+ETM+것/NNB+같/VA+은데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.제가 지금 바로 보내드릴게요 고객님 잠시만 기다려주세요",
+            "norm_text": "A.제가 지금 바로 보내드릴게요 고객님 잠시만 기다려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+제/NP+가/JKS+지금/MAG+바로/MAG+보내/VV+드릴게요/EC+VX+EC+고객/NNG+님/XSN+잠시/NNG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 끊고 기다릴까요",
+            "norm_text": "B.알겠습니다 끊고 기다릴까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+끊/VV+고/EC+기다릴까요/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.지금 발송했고 한 이 분 이내에 갈 거거든요",
+            "norm_text": "A.지금 발송했고 한 이 분 이내에 갈 거거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+지금/MAG+발송/NNG+했/XSV+EP+고/EC+한/MM+이/NR+분/NNBC+이/JKS+내/NP+에/JKB+갈/VV+ETM+거/NNB+거든요/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.조금만 기다려주세요",
+            "norm_text": "A.조금만 기다려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+조금/MAG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.감사합니다 고객님 좋은 하루 보내십시오",
+            "norm_text": "A.감사합니다 고객님 좋은 하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+고객/NNG+님/XSN+좋/VA+은/ETM+하루/NNG+보내/VV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

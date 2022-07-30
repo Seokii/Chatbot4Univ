@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 91740,
+    "name": "s2_20211102_0001_3000_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110648050435/s2_20211102_0001_3000_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110648050435/s2_20211102_0001_3000_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115768,
+      "filename": "s2_20211022_0020_0002_01.txt",
+      "title": "s2_20211022_0020_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 258,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 258,
+        "word_size": 56,
+        "text": "A.반갑습니다 상담원 #@이름#입니다\nB.#@소속#카드 관련해서 문의 좀 드릴게요\nA.네 어떤 문의사항 있으신가요\nB.카드의 잔액을 다른 카드로 이전하고 싶은데요\nA.그러시면 먼저 카드 분실신고를 하셔야 됩니다\nB.그래요 분실신고 하고 나서는 그럼 어떻게 해야되요\nA.분실신고 후에 본인인증 완료 하시면 다른 카드로 이전 가능합니다\nB.알겠습니다 확인 해 주셔서 감사합니다\nA.네 고객님 다른 문의사항 없으신가요\nB.다른 문의사항 없습니다\nA.감사합니다 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담원 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속#카드 관련해서 문의 좀 드릴게요",
+            "norm_text": "B.#@소속#카드 관련해서 문의 좀 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+카드/NNG+관련/NNG+해서/XSV+EC+문/NNG+의/JKG+좀/MAG+드릴게요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의사항 있으신가요",
+            "norm_text": "A.네 어떤 문의사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.카드의 잔액을 다른 카드로 이전하고 싶은데요",
+            "norm_text": "B.카드의 잔액을 다른 카드로 이전하고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+카드/NNG+의/JKG+잔액/NNG+을/JKO+다른/MM+카드/NNG+로/JKB+이전/NNG+하/XSV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.그러시면 먼저 카드 분실신고를 하셔야 됩니다",
+            "norm_text": "A.그러시면 먼저 카드 분실신고를 하셔야 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+먼저/MAG+카드/NNG+분실/NNG+신고/NNG+를/JKO+하/VV+셔야/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그래요 분실신고 하고 나서는 그럼 어떻게 해야되요",
+            "norm_text": "B.그래요 분실신고 하고 나서는 그럼 어떻게 해야되요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+분실/NNG+신고/NNG+하/XSV+고/EC+나서/VV+는/ETM+그럼/MAJ+어떻게/MAG+해야/VV+EC+되/VV+요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.분실신고 후에 본인인증 완료 하시면 다른 카드로 이전 가능합니다",
+            "norm_text": "A.분실신고 후에 본인인증 완료 하시면 다른 카드로 이전 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+분실/NNG+신고/NNG+후/NNG+에/JKB+본인/NNG+인증/NNG+완료/NNG+하/XSV+시/EP+면/EC+다른/MM+카드/NNG+로/JKB+이전/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.알겠습니다 확인 해 주셔서 감사합니다",
+            "norm_text": "B.알겠습니다 확인 해 주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+확인/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 고객님 다른 문의사항 없으신가요",
+            "norm_text": "A.네 고객님 다른 문의사항 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+다른/MM+문/NNG+의/JKG+사항/NNG+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "B.다른 문의사항 없습니다",
+            "norm_text": "B.다른 문의사항 없습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+다른/MM+문/NNG+의/JKG+사항/NNG+없/VA+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 16386,
+    "name": "s3_20210915_0010_1172_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151415085824/s3_20210915_0010_1172_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151415085824/s3_20210915_0010_1172_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11773,
+      "filename": "s2_20210903_0005_0006_01.txt",
+      "title": "s2_20210903_0005_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 271,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 271,
+        "word_size": 64,
+        "text": "A.고객님 더 궁금하신 것 있으십니까\nB.이거 포장 단위가 선생님 어떻게 되죠\nA.다른 제품이랑 헷갈릴 수 있어서 다시 한번 확인해보겠습니다\nB.종류가 많더라고요 보니까\nA.마스크 종류가 워낙 많아서 요고 한 팩에 다섯 매로 구성되어 있어요\nB.다섯 매요 한 팩 안에\nA.네 맞습니다 고객님 다섯 매씩 포장입니다\nB.네 알겠습니다 이게 제품이 어디 거죠\nA.제품 회사를 말씀하시는 걸까요 중소기업인 #@소속#에서 제조된 제품이에요\nB.예 고맙습니다 고생하세요\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 더 궁금하신 것 있으십니까",
+            "norm_text": "A.고객님 더 궁금하신 것 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+더/MAG+궁금/XR+하/XSA+신/EP+ETM+것/NNB+있/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 2,
+            "text": "B.이거 포장 단위가 선생님 어떻게 되죠",
+            "norm_text": "B.이거 포장 단위가 선생님 어떻게 되죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+이거/NP+포장/NNG+단위/NNG+가/JKS+선생/NNG+님/XSN+어떻게/MAG+되/VV+죠/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.다른 제품이랑 헷갈릴 수 있어서 다시 한번 확인해보겠습니다",
+            "norm_text": "A.다른 제품이랑 헷갈릴 수 있어서 다시 한번 확인해보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+다른/MM+제품/NNG+이랑/JKB+헷갈릴/VV+ETM+수/NNB+있/VV+어서/EC+다시/MAG+한/MM+번/NNBC+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.종류가 많더라고요 보니까",
+            "norm_text": "B.종류가 많더라고요 보니까",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+종류/NNG+가/JKS+많/VA+더라고요/EC+보/VX+니까/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.마스크 종류가 워낙 많아서 요고 한 팩에 다섯 매로 구성되어 있어요",
+            "norm_text": "A.마스크 종류가 워낙 많아서 요고 한 팩에 다섯 매로 구성되어 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+마스크/IC+종류/NNG+가/JKS+워낙/MAG+많/VA+아서/EC+요고/NNG+한/XSA+ETM+팩/NNG+에/JKB+다섯/NR+매/NNBC+로/JKB+구성/NNG+되/XSV+어/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.다섯 매요 한 팩 안에",
+            "norm_text": "B.다섯 매요 한 팩 안에",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+다섯/NR+매요/NNG+한/XSA+ETM+팩/NNG+안/NNG+에/JKB"
+          },
+          {
+            "id": 7,
+            "text": "A.네 맞습니다 고객님 다섯 매씩 포장입니다",
+            "norm_text": "A.네 맞습니다 고객님 다섯 매씩 포장입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+고객/NNG+님/XSN+다섯/NR+매/NNBC+씩/XSN+포장/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 알겠습니다 이게 제품이 어디 거죠",
+            "norm_text": "B.네 알겠습니다 이게 제품이 어디 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+이게/NP+JKS+제품/NNG+이/JKS+어디/NP+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.제품 회사를 말씀하시는 걸까요 중소기업인 #@소속#에서 제조된 제품이에요",
+            "norm_text": "A.제품 회사를 말씀하시는 걸까요 #@소속#에서 제조된 제품이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+제품/NNG+회사/NNG+를/JKO+말씀/NNG+하/XSV+시/EP+는/ETM+걸까요/NNB+VCP+EC+중소기업/NNG+인/VCP+ETM+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+제조/NNG+된/XSV+ETM+제품/NNG+이/VCP+에요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.예 고맙습니다 고생하세요",
+            "norm_text": "B.예 고맙습니다 고생하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "B/SL+예/IC+고맙/VA+습니다/EF+고생/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

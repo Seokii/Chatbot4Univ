@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 141644,
+    "name": "t1_20211115_0002_0600_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135716067164/t1_20211115_0002_0600_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135716067164/t1_20211115_0002_0600_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148226,
+      "filename": "t1_0069_0020_02.txt",
+      "title": "t1_0069_0020_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 300,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 300,
+        "word_size": 65,
+        "text": "A.안녕하세요 전화 받은 상담원 #@이름#입니다\nB.안녕하세요 저희가 단체 숙박 예약을 하려고 하는데요\nA.아 네 말씀해주세요\nB.#@소속#에 단체 몇 명까지 수용이 가능한가요\nA.네 16평형 10실 8평형 86실이 마련되어 있어서요\nA.대략 400명 동시에 수용이 가능합니다\nB.객실당 몇 명씩 숙박이 가능한가요\nA.16평형은 7인에서 8인까지 8평형은 2인에서 4인까지 가능합니다\nB.객실 타입이 어떻게 되나요\nA.한실 특실 한실 양식 이렇게 예약 가능하세요\nB.감사합니다 많은 도움이 되었어요\nA.언제든 문의주세요 상담사 #@이름#이었습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 전화 받은 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 전화 받은 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+전화/NNG+받/VV+은/ETM+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 저희가 단체 숙박 예약을 하려고 하는데요",
+            "norm_text": "B.안녕하세요 저희가 단체 숙박 예약을 하려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+저희/NP+가/JKS+단체/NNG+숙박/NNG+예약/NNG+을/JKO+하/VV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.아 네 말씀해주세요",
+            "norm_text": "A.아 네 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+아/IC+네/IC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속#에 단체 몇 명까지 수용이 가능한가요",
+            "norm_text": "B.#@소속#에 단체 몇 명까지 수용이 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에/JKB+단체/NNG+몇/MM+명/NNBC+까지/JX+수용/NNG+이/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "A.네 16평형 10실 8평형 86실이 마련되어 있어서요",
+            "norm_text": "A.네 16평형 10실 8평형 86실이 마련되어 있어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/MM+16/SN+평/NNBC+형/XSN+10/SN+실/NNBC+8/SN+평/NNBC+형/XSN+86/SN+실/NNBC+이/JKS+마련/NNG+되/XSV+어/EC+있/VX+어서요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.대략 400명 동시에 수용이 가능합니다",
+            "norm_text": "A.대략 400명 동시에 수용이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+대략/MAG+400/SN+명/NNBC+동시/NNG+에/JKB+수용/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.객실당 몇 명씩 숙박이 가능한가요",
+            "norm_text": "B.객실당 몇 명씩 숙박이 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+객실/NNG+당/XSN+몇/MM+명/NNBC+씩/XSN+숙박/NNG+이/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 8,
+            "text": "A.16평형은 7인에서 8인까지 8평형은 2인에서 4인까지 가능합니다",
+            "norm_text": "A.16평형은 7인에서 8인까지 8평형은 2인에서 4인까지 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+16/SN+평/NNBC+형/XSN+은/JX+7/SN+인/NNG+에서/JKB+8/SN+인/NNG+까지/JX+8/SN+평/NNBC+형/XSN+은/JX+2/SN+인/NNG+에서/JKB+4/SN+인/NNG+까지/JX+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.객실 타입이 어떻게 되나요",
+            "norm_text": "B.객실 타입이 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+객실/NNG+타입/NNG+이/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.한실 특실 한실 양식 이렇게 예약 가능하세요",
+            "norm_text": "A.한실 특실 한실 양식 이렇게 예약 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+한실/NNG+특실/NNG+한실/NNG+양식/NNG+이렇게/MAG+예약/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.감사합니다 많은 도움이 되었어요",
+            "norm_text": "B.감사합니다 많은 도움이 되었어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+많/VA+은/ETM+도움/NNG+이/JKS+되/VV+었/EP+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.언제든 문의주세요 상담사 #@이름#이었습니다 감사합니다",
+            "norm_text": "A.언제든 문의주세요 상담사 #@이름#이었습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+언제/NP+든/VCP+EC+문/NNG+의/JKG+주세/NNG+요상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

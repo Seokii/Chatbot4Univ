@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 15695,
+    "name": "s1_20210914_0001_0784_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151218027662/s1_20210914_0001_0784_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151218027662/s1_20210914_0001_0784_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7682,
+      "filename": "s1_20210823_0018_0011_01.txt",
+      "title": "s1_20210823_0018_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 398,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 398,
+        "word_size": 96,
+        "text": "A.감사합니다 상담사 #@이름# 입니다\nB.통돌이 문의 했었는데요 #@기타# 라고 써있는 거요\nA.예 고객님 접수 도와드릴까요\nB.네 접수 하려고요\nA.네 혹시 제품의 어떠한 부분 때문이십니까\nB.예 세탁기가 돌다가 갑자기 덜커덩 덜커덩 소리가 나고요\nA.물이 들어가자마자 빠져 나오는 거죠\nB.네 맞아요 바로 나와 버려요\nA.현재 첫 번째로는 이제 배수 밸브 쪽에 이상이 있을 수가 있는데요\nA.많이 불편하셨겠습니다. 바로 접수 도와드리겠습니다\nA.고객님 성함과 연락처가 어떻게 되십니까\nB.예 #@이름# 이고 #@전번# 이요\nA.#@이름# 고객님 주소가 어떻게 되십니까\nB.저희 집 #@주소# 요\nB.이번 주에 누가 있을지 모르겠는데 확인하고 다시 연락해도 되죠\nA.네 그러시면 가족분들 확인하시고 연락 주세요\nB.네 바로 연락 드릴게요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.감사합니다 상담사 #@이름# 입니다",
+            "norm_text": "A.감사합니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.통돌이 문의 했었는데요 #@기타# 라고 써있는 거요",
+            "norm_text": "B.통돌이 문의 했었는데요 #@기타# 라고 써있는 거요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+통돌/NNG+이/JKS+문의/NNG+했었/XSV+EP+는데요/EF+#/SY+@/SY+기타/NNG+#/SY+라고/JKQ+써/VV+EC+있/VX+는/ETM+거/NNB+요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.예 고객님 접수 도와드릴까요",
+            "norm_text": "A.예 고객님 접수 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+접수/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 접수 하려고요",
+            "norm_text": "B.네 접수 하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+접수/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 혹시 제품의 어떠한 부분 때문이십니까",
+            "norm_text": "A.네 혹시 제품의 어떠한 부분 때문이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+혹시/MAG+제품/NNG+의/JKG+어떠/XR+한/XSA+ETM+부분/NNG+때문/NNB+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예 세탁기가 돌다가 갑자기 덜커덩 덜커덩 소리가 나고요",
+            "norm_text": "B.예 세탁기가 돌다가 갑자기 덜커덩 덜커덩 소리가 나고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+세탁기/NNG+가/JKS+돌/VV+다가/EC+갑자기/MAG+덜커덩덜커덩/MAG+소리/NNG+가/JKS+나/VV+고요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.물이 들어가자마자 빠져 나오는 거죠",
+            "norm_text": "A.물이 들어가자마자 빠져 나오는 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+물/NNG+이/JKS+들어가/VV+자마자/EC+빠져/VV+EC+나오/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 맞아요 바로 나와 버려요",
+            "norm_text": "B.네 맞아요 바로 나와 버려요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+바로/MAG+나와/VV+EC+버려요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.현재 첫 번째로는 이제 배수 밸브 쪽에 이상이 있을 수가 있는데요",
+            "norm_text": "A.현재 첫 번째로는 이제 배수 밸브 쪽에 이상이 있을 수가 있는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+현재/MAG+첫/MM+번/NNBC+째/XSN+로/JKB+는/JX+이제/MAG+배수/NNG+밸브/NNG+쪽/NNB+에/JKB+이상/NNG+이/JKS+있/VV+을/ETM+수/NNB+가/JKS+있/VA+는데요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.많이 불편하셨겠습니다. 바로 접수 도와드리겠습니다",
+            "norm_text": "A.많이 불편하셨겠습니다. 바로 접수 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+많이/MAG+불편/NNG+하/XSV+셨/EP+EP+겠/EP+습니다/EF+바로/MAG+접수/NNG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.고객님 성함과 연락처가 어떻게 되십니까",
+            "norm_text": "A.고객님 성함과 연락처가 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+성함/NNG+과/JC+연락처/NNG+가/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.예 #@이름# 이고 #@전번# 이요",
+            "norm_text": "B.예 #@이름# 이고 #@전번# 이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+전번/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.#@이름# 고객님 주소가 어떻게 되십니까",
+            "norm_text": "A.#@이름# 고객님 주소가 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+주소/NNG+가/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.저희 집 #@주소# 요",
+            "norm_text": "B.저희 집 #@주소#요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+집/NNG+#/SY+@/SY+주소/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.이번 주에 누가 있을지 모르겠는데 확인하고 다시 연락해도 되죠",
+            "norm_text": "B.이번 주에 누가 있을지 모르겠는데 확인하고 다시 연락해도 되죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+이번/NNG+주/NNG+에/JKB+누가/NP+JKS+있/VA+을지/EC+모르/VV+겠/EP+는데/EC+확인/NNG+하/XSV+고/EC+다시/MAG+연락/NNG+해도/XSV+EC+되/VV+죠/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 그러시면 가족분들 확인하시고 연락 주세요",
+            "norm_text": "A.네 그러시면 가족분들 확인하시고 연락 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+그러/VV+시/EP+면/EC+가족/NNG+분/XSN+들/XSN+확인/NNG+하/XSV+시/EP+고/EC+연락/NNG+주세요/NNP"
+          },
+          {
+            "id": 17,
+            "text": "B.네 바로 연락 드릴게요",
+            "norm_text": "B.네 바로 연락 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+바로/MAG+연락/NNG+드릴게요/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

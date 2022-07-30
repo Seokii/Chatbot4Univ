@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 115889,
+    "name": "s3_20211105_0005_0054_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110829000727/s3_20211105_0005_0054_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110829000727/s3_20211105_0005_0054_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119288,
+      "filename": "s3_20211025_0009_0009_01.txt",
+      "title": "s3_20211025_0009_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 240,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 240,
+        "word_size": 55,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.무통장 입금 시 계좌 번호는 가상 계좌인가요 개인계좌인가요\nA.은행마다 개인 계좌로 가상 계좌를 발급 해드리고 있습니다\nB.그럼 계좌 번호는 은행이 동일한 경우 계속 한 가지 번호로 사용하게 되나요\nA.네 그렇습니다 고객님\nA.계좌는 입금자 단위로 발급 되는 것이 아니라 회원 아이디당 발급 되는 거라서요\nB.그렇군요 안내 감사합니다\nA.네 감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.무통장 입금 시 계좌 번호는 가상 계좌인가요 개인계좌인가요",
+            "norm_text": "B.무통장 입금 시 계좌 번호는 가상계좌인가요 개인계좌인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+무/XPN+통장/NNG+입금/NNG+시계좌/NNG+번호/NNG+는/JX+가상/NNG+계좌/NNG+인가요/VCP+EC+개인/NNG+계좌/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.은행마다 개인 계좌로 가상 계좌를 발급 해드리고 있습니다",
+            "norm_text": "A.은행마다 개인계좌로 가상계좌를 발급해 드리고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+은행/NNG+마다/JX+개인/NNG+계좌/NNG+로/JKB+가상/NNG+계좌/NNG+를/JKO+발급/NNG+해/XSV+EC+드리/VX+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그럼 계좌 번호는 은행이 동일한 경우 계속 한 가지 번호로 사용하게 되나요",
+            "norm_text": "B.그럼 계좌 번호는 은행이 동일한 경우 계속 한 가지 번호로 사용하게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+계좌/NNG+번호/NNG+는/JX+은행/NNG+이/JKS+동일/XR+한/XSA+ETM+경우/NNG+계속/MAG+한/MM+가지/NNBC+번호/NNG+로/JKB+사용/NNG+하/XSV+게/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 그렇습니다 고객님",
+            "norm_text": "A.네 그렇습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 6,
+            "text": "A.계좌는 입금자 단위로 발급 되는 것이 아니라 회원 아이디당 발급 되는 거라서요",
+            "norm_text": "A.계좌는 입금자 단위로 발급되는 것이 아니라 아이디당 발급되는 거라서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+계좌/NNG+는/JX+입금/NNG+자/XSN+단위/NNG+로/JKB+발급/NNG+되/XSV+는/ETM+것/NNB+이/JKC+아니/VCN+라/EC+아이디/NNG+당/XSN+발급/NNG+되/XSV+는/ETM+거/NNB+라서요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.그렇군요 안내 감사합니다",
+            "norm_text": "B.그렇군요 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.네 감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

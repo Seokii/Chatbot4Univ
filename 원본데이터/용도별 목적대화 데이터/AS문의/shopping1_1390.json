@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 17480,
+    "name": "s1_20210915_0002_0203_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151255062584/s1_20210915_0002_0203_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151255062584/s1_20210915_0002_0203_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8602,
+      "filename": "s1_20210825_0013_0002_01.txt",
+      "title": "s1_20210825_0013_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 260,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 260,
+        "word_size": 60,
+        "text": "A.반갑니다 상담사 #@이름# 입니다\nA.아까 기사님 필요하셔서 예약하신 #@이름# 고객님이신가요\nB.네 제가 #@이름# 입니다\nA.아까 번호를 한개만 남겨주셨는데 혹시 몰라서 다른 번호도 알 수 있을까요\nB.네 집 전화번호 알려드리면 될까요\nA.네 집 전화번호 알려주시면 됩니다\nB.네 집 전화번호는 #@전번# 입니다\nA.네 #@전번#으로 네 등록해놓겠습니다\nB.네 그러면 다른거 더 불러드려야 할까요\nA.아뇨 괜찮습니다 이따 수리 잘 받으시길 바랍니다\nB.네 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+니/EC+다상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.아까 기사님 필요하셔서 예약하신 #@이름# 고객님이신가요",
+            "norm_text": "A.아까 기사님 필요하셔서 예약하신 #@이름# 고객님이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+아까/MAG+기사/NNG+님/XSN+필요/NNG+하/XSV+셔서/EP+EC+예약/NNG+하/XSV+신/EP+ETM+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 제가 #@이름# 입니다",
+            "norm_text": "B.네 제가 #@이름# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.아까 번호를 한개만 남겨주셨는데 혹시 몰라서 다른 번호도 알 수 있을까요",
+            "norm_text": "A.아까 번호를 한개만 남겨주셨는데 혹시 다른 번호도 알 수 있을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+아까/MAG+번호/NNG+를/JKO+한/MM+개/NNBC+만/JX+남겨/VV+EC+주/VX+셨/EP+EP+는데/EC+혹시/MAG+몰라서/VV+EC+다른/MM+번호/NNG+도/JX+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 집 전화번호 알려드리면 될까요",
+            "norm_text": "B.네 집 전화번호 알려드리면 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+집/NNG+전화/NNG+번호/NNG+알려/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 집 전화번호 알려주시면 됩니다",
+            "norm_text": "A.네 집 전화번호 알려주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+집/NNG+전화/NNG+번호/NNG+알려/VV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 집 전화번호는 #@전번# 입니다",
+            "norm_text": "B.네 집 전화번호는 #@전번# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+집/NNG+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 #@전번#으로 네 등록해놓겠습니다",
+            "norm_text": "A.네 #@전번#으로 네 등록해놓겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+네/MM+등록/NNG+해/XSV+EC+놓/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 그러면 다른거 더 불러드려야 할까요",
+            "norm_text": "B.네 그러면 다른거 더 불러드려야 할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그러면/MAJ+다른/MM+거/NNB+더/MAG+불러/VV+EC+드려야/VX+EC+할까요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.아뇨 괜찮습니다 이따 수리 잘 받으시길 바랍니다",
+            "norm_text": "A.아뇨 괜찮습니다 이따 수리 잘 받으시길 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+아뇨/IC+괜찮/VA+습니다/EF+이따/MAG+수리/NNG+잘/MAG+받/VV+으시/EP+길/ETN+JKO+바랍니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

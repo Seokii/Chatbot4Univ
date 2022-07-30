@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 163564,
+    "name": "t3_20211122_0005_0250_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135809094899/t3_20211122_0005_0250_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135809094899/t3_20211122_0005_0250_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 151045,
+      "filename": "t3_0070_0055_02.txt",
+      "title": "t3_0070_0055_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 384,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 384,
+        "word_size": 89,
+        "text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다\nB. 제가 야채곱창이 너무 먹고 싶어서 그러는데요\nB. #@주소# 근처에 야채곱창을 판매하는 곳이 있나요\nA. #@소속#에서 야채곱창볶음을 판매하고 있습니다\nB. #@소속#이요 거기 영업 시간 알려 주세요\nA. 오전 11시부터 21시까지 영업한다고 합니다\nA. 그런데 15시부터 17시까지는 브레이크 타임이니 참고 부탁드릴게요\nB. 브레이크 타임이 있나 보네요\nB. 곱창볶음 가격은 얼마예요\nA. 곱창볶음 소 사이즈는 23000원 대 사이즈는 28000원입니다\nB. 알겠습니다 오늘 저녁에 방문 해야겠어요\nB. 알려 주셔서 감사해요\nA. 더 궁금하신 건 없으실까요\nB. 예 없어요 그럼 수고하세요\nA. 네 감사합니다 지금까지 #@소속# 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 제가 야채곱창이 너무 먹고 싶어서 그러는데요",
+            "norm_text": "B. 제가 야채곱창이 너무 먹고 싶어서 그러는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+야채/NNG+곱창/NNG+이/JKS+너무/MAG+먹/VV+고/EC+싶/VX+어서/EC+그러/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B. #@주소# 근처에 야채곱창을 판매하는 곳이 있나요",
+            "norm_text": "B. #@주소# 근처에 야채곱창을 판매하는 곳이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+근처/NNG+에/JKB+야/JX+채/MAG+곱창/NNG+을/JKO+판매/NNG+하/XSV+는/ETM+곳/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A. #@소속#에서 야채곱창볶음을 판매하고 있습니다",
+            "norm_text": "A. #@소속#에서 야채곱창볶음을 판매하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+야채/NNG+곱창/NNG+볶음/NNG+을/JKO+판매/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B. #@소속#이요 거기 영업 시간 알려 주세요",
+            "norm_text": "B. #@소속#이요 거기 영업시간 알려 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+이/VCP+요/EC+거기/NP+영업/NNG+시간/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A. 오전 11시부터 21시까지 영업한다고 합니다",
+            "norm_text": "A. 오전 11시부터 21시까지 영업한다고 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+오전/NNG+11/SN+시/NNBC+부터/JX+21/SN+시/NNBC+까지/JX+영업/NNG+한다고/XSV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 그런데 15시부터 17시까지는 브레이크 타임이니 참고 부탁드릴게요",
+            "norm_text": "A. 그런데 15시부터 17시까지는 브레이크 타임이니 참고 부탁드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+그런데/MAJ+15/SN+시/NNBC+부터/JX+17/SN+시/NNBC+까지/JX+는/JX+브레이크/NNG+타임/NNG+이/VCP+니/EC+참고/NNG+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B. 브레이크 타임이 있나 보네요",
+            "norm_text": "B. 브레이크 타임이 있나 보네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+브레이크/NNG+타임/NNG+이/JKS+있/VV+나/EC+보/VX+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B. 곱창볶음 가격은 얼마예요",
+            "norm_text": "B. 곱창볶음 가격은 얼마예요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+곱창/NNG+볶음/NNG+가격/NNG+은/JX+얼마/NNG+예요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A. 곱창볶음 소 사이즈는 23000원 대 사이즈는 28000원입니다",
+            "norm_text": "A. 곱창볶음 소 사이즈는 23000원 대 사이즈는 28000원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+곱창/NNG+볶음/NNG+소/XPN+사이즈/NNG+는/JX+23000/SN+원대/NNG+사이즈/NNG+는/JX+28000/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B. 알겠습니다 오늘 저녁에 방문 해야겠어요",
+            "norm_text": "B. 알겠습니다 오늘 저녁에 방문해야겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+오늘/MAG+저녁/NNG+에/JKB+방문/NNG+해야/XSV+EC+VX+겠/EP+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "B. 알려 주셔서 감사해요",
+            "norm_text": "B. 알려 주셔서 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A. 더 궁금하신 건 없으실까요",
+            "norm_text": "A. 더 궁금하신 건 없으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+궁금/XR+하/XSA+신/EP+ETM+건/NNB+JX+없/VA+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 14,
+            "text": "B. 예 없어요 그럼 수고하세요",
+            "norm_text": "B. 예 없어요 그럼 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+없/VA+어요/EF+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A. 네 감사합니다 지금까지 #@소속# 상담원 #@이름#이었습니다",
+            "norm_text": "A. 네 감사합니다 지금까지 #@소속# 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+지금/NNG+까지/JX+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

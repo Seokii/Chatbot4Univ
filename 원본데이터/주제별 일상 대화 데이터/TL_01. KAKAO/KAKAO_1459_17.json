@@ -1,0 +1,407 @@
+{
+  "dataset": {
+    "identifier": 80387,
+    "name": "KAKAO_1459_17_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/60/txt20211020175454089581/KAKAO_1459_17_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/60/txt20211020175454089581/KAKAO_1459_17_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 82975,
+      "filename": "KAKAO_1459_17.txt",
+      "title": "KAKAO_1459_17",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-20",
+      "size": 717,
+      "annotations": {
+        "subject": "건강",
+        "speaker_type": "다자간 대화",
+        "size": 717,
+        "word_size": 266,
+        "text": "1 : 보험은 그래도 계속 들어야겠지?\n2 : 응 보험은 꼭 들어야지 ㅠㅠ\n2 : 어찌 될지 모르니\n3 : 응응 나 얼마 전에 임파선 부어서 초음파 했는데 보험 처리했어 키키\n1 : 한번도 타 본 적 없어서 매번 고민\n2 : 아 진짜 ?\n2 : 나는 조금만 아파도 바로 감 병원 키키 실비짱\n3 : 돈 들어 오니깐 보험은 좋은 거 같다 키키\n1 : 보험료가 엄청 올랐더라고\n2 : 아 진짜 ?\n2 : 나는 애기 때부터 들었어서 ㅠㅠ 그대로임\n3 : 보험료도 많이 올라 ?\n1 : 조금만 아파도 병원 가는 사람들 때문에 오른데 키키\n2 : 아놔 나 같은 사람 때문인 가여\n2 : 응급실 자주 감 키키\n3 : 아 ... 진짜 ㅠㅠ\n3 : 나도 오르는 거 아냐\n1 : 엉 당근 실비 엄청 오름 키키\n2 : 근데 실비 들기 때문에 무조건 가야 함 병원 키키\n3 : 돈 나갈 때 엄처어 많은데 병원 가는 게 좀 무섭긴 해\n1 : 키키 그래서 이걸 안 넣고 차라리 아플 때 돈 내는 게 낫나 ? 이 지경\n2 : 아 진짜 ?\n2 : 그래도 ㅠㅠ 큰 돈들 수 있으니 그냥 가입 하는 게 낫지 않을까 ?ㅇ\n3 : 그래도 큰 거는 보험 처리 하는 게 좋더라 키키\n1 : 난 병원 잘 안 가고돈 !\n2 : 난 좀 잘 아파서 꼭 필수임 보험 ㅠㅠ\n3 : 난 조금만 아프면 병원 감 키키\n3 : 비염 때문에 특히\n1 : 키키 꼭 보험 깨면 갈 일 생길 꺼 같음\n2 : 나 젤 많이 가는 이유 급체 키키 후\n3 : 그니깐 ㅎ,ㅎ 깨지 말고 보험 그냥 넣어...",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 보험은 그래도 계속 들어야겠지?",
+            "norm_text": "보험은 그래도 계속 들어야겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "보험/NNG+은/JX+그래도/MAJ+계속/MAG+들어야/VV+EC+VX+겠/EP+지/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 응 보험은 꼭 들어야지 ㅠㅠ",
+            "norm_text": "응 보험은 꼭 들어야지 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+보험/NNG+은/JX+꼭/MAG+들/VV+어야지/EC+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 3,
+            "text": "2 : 어찌 될지 모르니",
+            "norm_text": "어찌 될지 모르니",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어찌/MAG+될지/VV+EC+모르/VV+니/EC"
+          },
+          {
+            "id": 4,
+            "text": "3 : 응응 나 얼마 전에 임파선 부어서 초음파 했는데 보험 처리했어 키키",
+            "norm_text": "응응 나 얼마 전에 임파선 부어서 초음파 했는데 보험 처리했어 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응/IC+응/IC+나/NP+얼마/NNG+전/NNG+에/JKB+임파선/NNG+부어서/VV+EC+초음파/NNG+했/XSV+EP+는데/EC+보험/NNG+처리/NNG+했/XSV+EP+어/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 한번도 타 본 적 없어서 매번 고민",
+            "norm_text": "한번도 타 본 적 없어서 매번 고민",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "한/MM+번/NNBC+도/JX+타/VV+본/EC+VX+ETM+적/NNB+없/VA+어서/EC+매번/MAG+고민/NNG"
+          },
+          {
+            "id": 6,
+            "text": "2 : 아 진짜 ?",
+            "norm_text": "아 진짜 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG"
+          },
+          {
+            "id": 7,
+            "text": "2 : 나는 조금만 아파도 바로 감 병원 키키 실비짱",
+            "norm_text": "나는 조금만 아파도 바로 감 병원 키키 실비짱",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+조금/MAG+만/JX+아파도/VA+EC+바로/MAG+감/NNG+병원/NNG+키/NNG+키/NNG+실비/NNG+짱/NNG"
+          },
+          {
+            "id": 8,
+            "text": "3 : 돈 들어 오니깐 보험은 좋은 거 같다 키키",
+            "norm_text": "돈 들어 오니깐 보험은 좋은 거 같다 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "돈/NNG+들어오/VV+니깐/EC+보험/NNG+은/JX+좋/VA+은/ETM+거/NNB+같/VA+다키키/NNP"
+          },
+          {
+            "id": 9,
+            "text": "1 : 보험료가 엄청 올랐더라고",
+            "norm_text": "보험료가 엄청 올랐더라고",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "보험료/NNG+가/JKS+엄청/MAG+올랐/VV+EP+더라고/EC"
+          },
+          {
+            "id": 10,
+            "text": "2 : 아 진짜 ?",
+            "norm_text": "아 진짜 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG"
+          },
+          {
+            "id": 11,
+            "text": "2 : 나는 애기 때부터 들었어서 ㅠㅠ 그대로임",
+            "norm_text": "나는 애기 때부터 들었어서 ㅠㅠ 그대로임",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+는/JX+애기/NNG+때/NNG+부터/JX+들/VV+었/EP+어서/EC+ㅠㅠ/UNKNOWN+그대로/MAG+임/VCP+ETN"
+          },
+          {
+            "id": 12,
+            "text": "3 : 보험료도 많이 올라 ?",
+            "norm_text": "보험료도 많이 올라 ?",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "보험료/NNG+도/JX+많이/MAG+올라/VV+EF"
+          },
+          {
+            "id": 13,
+            "text": "1 : 조금만 아파도 병원 가는 사람들 때문에 오른데 키키",
+            "norm_text": "조금만 아파도 병원 가는 사람들 때문에 오른데 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "조금/MAG+만/JX+아파도/VA+EC+병원/NNG+가/VV+는/ETM+사람/NNG+들/XSN+때문/NNB+에/JKB+오른/VV+ETM+데/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 14,
+            "text": "2 : 아놔 나 같은 사람 때문인 가여",
+            "norm_text": "아놔 나 같은 사람 때문인 가여",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+놔/VV+EC+나/NP+같/VA+은/ETM+사람/NNG+때문/NNB+인/VCP+ETM+가여/NNG"
+          },
+          {
+            "id": 15,
+            "text": "2 : 응급실 자주 감 키키",
+            "norm_text": "응급실 자주 감 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "응급실자주감키키/UNKNOWN"
+          },
+          {
+            "id": 16,
+            "text": "3 : 아 ... 진짜 ㅠㅠ",
+            "norm_text": "아 ... 진짜 ㅠㅠ",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+./SY+진짜ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 17,
+            "text": "3 : 나도 오르는 거 아냐",
+            "norm_text": "나도 오르는 거 아냐",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "나/NP+도/JX+오르/VV+는/ETM+거/NNB+아냐/VCN+EC"
+          },
+          {
+            "id": 18,
+            "text": "1 : 엉 당근 실비 엄청 오름 키키",
+            "norm_text": "엉 당근 실비 엄청 오름 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "엉/IC+당근/MAG+실비/NNG+엄청/MAG+오름/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 19,
+            "text": "2 : 근데 실비 들기 때문에 무조건 가야 함 병원 키키",
+            "norm_text": "근데 실비 들기 때문에 무조건 가야 함 병원 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "근데/MAJ+실비/NNG+들/XSN+기/ETN+때문/NNB+에/JKB+무조건/MAG+가/VV+야/EC+함/VX+ETN+병원/NNG+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 20,
+            "text": "3 : 돈 나갈 때 엄처어 많은데 병원 가는 게 좀 무섭긴 해",
+            "norm_text": "돈 나갈 때 엄처어 많은데 병원 가는 게 좀 무섭긴 해",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "돈/NNG+나갈/VV+ETM+때/NNG+엄처/NNG+어/IC+많/VA+은데/EC+병원/NNG+가/VV+는/ETM+게/NNB+JKS+좀/MAG+무섭/VA+긴/ETN+JX+해/VX+EC"
+          },
+          {
+            "id": 21,
+            "text": "1 : 키키 그래서 이걸 안 넣고 차라리 아플 때 돈 내는 게 낫나 ? 이 지경",
+            "norm_text": "키키 그래서 이걸 안 넣고 차라리 아플 때 돈 내는 게 낫나 ? 이 지경",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+그래서/MAJ+이걸/NP+JKO+안/MAG+넣/VV+고/EC+차라리/MAG+아플/VA+ETM+때/NNG+돈/NNG+내/VV+는/ETM+게/NNB+JKS+낫/VA+나/EF+이/MM+지경/NNB"
+          },
+          {
+            "id": 22,
+            "text": "2 : 아 진짜 ?",
+            "norm_text": "아 진짜 ?",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+진짜/MAG"
+          },
+          {
+            "id": 23,
+            "text": "2 : 그래도 ㅠㅠ 큰 돈들 수 있으니 그냥 가입 하는 게 낫지 않을까 ?ㅇ",
+            "norm_text": "그래도 ㅠㅠ 큰 돈들 수 있으니 그냥 가입 하는 게 낫지 않을까 ?ㅇ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도ㅠㅠ큰돈들수있으니그냥가입하는게낫지않을까/UNKNOWN+ㅇ/UNKNOWN"
+          },
+          {
+            "id": 24,
+            "text": "3 : 그래도 큰 거는 보험 처리 하는 게 좋더라 키키",
+            "norm_text": "그래도 큰 거는 보험 처리 하는 게 좋더라 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그래도/MAJ+큰/VA+ETM+거/NNB+는/JX+보험/NNG+처리/NNG+하/XSV+는/ETM+게/NNB+JKS+좋/VA+더라/EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 25,
+            "text": "1 : 난 병원 잘 안 가고돈 !",
+            "norm_text": "난 병원 잘 안 가고돈 !",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+병원/NNG+잘/MAG+안/MAG+가/VV+고/EC+돈/NNG"
+          },
+          {
+            "id": 26,
+            "text": "2 : 난 좀 잘 아파서 꼭 필수임 보험 ㅠㅠ",
+            "norm_text": "난 좀 잘 아파서 꼭 필수임 보험 ㅠㅠ",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "난/NP+JX+좀/MAG+잘/MAG+아파서/VA+EC+꼭/MAG+필수/NNG+임/VCP+ETN+보험/NNG+ㅠㅠ/UNKNOWN"
+          },
+          {
+            "id": 27,
+            "text": "3 : 난 조금만 아프면 병원 감 키키",
+            "norm_text": "난 조금만 아프면 병원 감 키키",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "난/NP+JX+조금/MAG+만/JX+아프/VA+면/EC+병원/NNG+감/XSN+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 28,
+            "text": "3 : 비염 때문에 특히",
+            "norm_text": "비염 때문에 특히",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "비염/NNG+때문/NNB+에/JKB+특히/MAG"
+          },
+          {
+            "id": 29,
+            "text": "1 : 키키 꼭 보험 깨면 갈 일 생길 꺼 같음",
+            "norm_text": "키키 꼭 보험 깨면 갈 일 생길 꺼 같음",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+꼭/MAG+보험/NNG+깨/VV+면/EC+갈/VX+ETM+일생/NNG+길/NNG+꺼/VV+EC+같/VA+음/ETN"
+          },
+          {
+            "id": 30,
+            "text": "2 : 나 젤 많이 가는 이유 급체 키키 후",
+            "norm_text": "나 젤 많이 가는 이유 급체 키키 후",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "나/NP+젤/MAG+많이/MAG+가/VV+는/ETM+이유/NNG+급체/NNG+키/NNG+키/NNG+후/NNG"
+          },
+          {
+            "id": 31,
+            "text": "3 : 그니깐 ㅎ,ㅎ 깨지 말고 보험 그냥 넣어...",
+            "norm_text": "그니깐 ㅎ,ㅎ 깨지 말고 보험 그냥 넣어...",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "그니깐/MAJ+ㅎ/XSA+,/SC+ㅎ/XSA+깨/VV+지/EC+말/VX+고/EC+보험/NNG+그냥/MAG+넣/VV+어/EF+./SY"
+          }
+        ]
+      }
+    }
+  ]
+}

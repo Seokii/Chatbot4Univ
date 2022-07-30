@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 106767,
+    "name": "s3_20211103_0005_0268_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110826039572/s3_20211103_0005_0268_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110826039572/s3_20211103_0005_0268_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118966,
+      "filename": "s3_20211006_0022_0004_01.txt",
+      "title": "s3_20211006_0022_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 396,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 396,
+        "word_size": 101,
+        "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다\nB.예 수고가 많으십니다 제가 질문 사항이 있어서 전화 드렸어요\nA.네 여쭤보시고 싶은 게 있으신가요\nB.#@소속# 쇼핑몰 맞나요 여쭤볼 게 있어서 전화했습니다\nA.네 고객님 말씀하세요 어떤 게 궁금하신가요\nB.혹시 물건을 한 번에 여러 개 구매 시에는 쿠폰을 두 개 이상 사용이 불가능한가요\nA.네 고객님 쿠폰은 일 회 사용 기준으로 한 개의 쿠폰 당 한 개의 상품에만 할인 적용 가능합니다\nB.그래요 여러 개를 한 번에 사면 그럼 각 상품마다 사용 가능한 쿠폰도 사용이 안 되겠네요\nA.네 고객님 그런데 예외적으로 더블 쿠폰은 타 쿠폰과 중복 사용 가능하세요\nB.그렇군요 알겠습니다 다른 질문 사항 생기면 연락 드리겠습니다\nA.네 감사합니다 상담원 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 친절한 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+친절한/NNP+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 수고가 많으십니다 제가 질문 사항이 있어서 전화 드렸어요",
+            "norm_text": "B.예 수고가 많으십니다 제가 질문 사항이 있어서 전화 드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+수고/NNG+가/JKS+많/VA+으십니다/EP+EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 여쭤보시고 싶은 게 있으신가요",
+            "norm_text": "A.네 여쭤보시고 싶은 게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속# 쇼핑몰 맞나요 여쭤볼 게 있어서 전화했습니다",
+            "norm_text": "B.#@소속# 쇼핑몰 맞나요 여쭤볼 게 있어서 전화했습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+쇼핑몰/NNG+맞/VV+나요/EC+여쭤볼/VV+EC+VX+ETM+게/NNB+JKS+있/VA+어서/EC+전화/NNG+했/XSV+EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 말씀하세요 어떤 게 궁금하신가요",
+            "norm_text": "A.네 고객님 말씀하세요 어떤 게 궁금하신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+세요/EP+EF+어떤/MM+게/NNB+JKS+궁금/XR+하/XSA+신가요/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.혹시 물건을 한 번에 여러 개 구매 시에는 쿠폰을 두 개 이상 사용이 불가능한가요",
+            "norm_text": "B.혹시 물건을 한 번에 여러 개 구매 시에는 쿠폰을 두 개 이상 사용이 불가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+물건/NNG+을/JKO+한/MM+번/NNBC+에/JKB+여러/MM+개/NNBC+구매/NNG+시/NNB+에/JKB+는/JX+쿠폰/NNG+을/JKO+두/MM+개/NNBC+이상/NNG+사용/NNG+이/JKS+불/XPN+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 쿠폰은 일 회 사용 기준으로 한 개의 쿠폰 당 한 개의 상품에만 할인 적용 가능합니다",
+            "norm_text": "A.네 한 개의 쿠폰 당 한 개의 상품에만 할인 적용 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+한/MM+개/NNBC+의/JKG+쿠폰/NNG+당/XSN+한/MM+개/NNBC+의/JKG+상품/NNG+에/JKB+만/JX+할인/NNG+적용/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그래요 여러 개를 한 번에 사면 그럼 각 상품마다 사용 가능한 쿠폰도 사용이 안 되겠네요",
+            "norm_text": "B.여러 개를 한 번에 사면 그럼 각 상품마다 쿠폰 사용이 안 되겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/IC+여러/MM+개/NNBC+를/JKO+한/MM+번/NNBC+에/JKB+사/VV+면/EC+그럼/MAJ+각/MM+상품/NNG+마다/JX+사용/NNG+가능/NNG+한/XSA+ETM+쿠폰/NNG+도/JX+사용/NNG+이/JKS+안/MAG+되/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 고객님 그런데 예외적으로 더블 쿠폰은 타 쿠폰과 중복 사용 가능하세요",
+            "norm_text": "A.네 그런데 예외적으로 더블 쿠폰은 타 쿠폰과 중복 사용 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+네/IC+그런데/MAJ+예외/NNG+적/XSN+으로/JKB+더블/NNG+쿠폰/NNG+은/JX+타/MM+쿠폰/NNG+과/JC+중복/NNG+사용/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그렇군요 알겠습니다 다른 질문 사항 생기면 연락 드리겠습니다",
+            "norm_text": "B.그렇군요 알겠습니다 다른 질문 사항 생기면 연락 드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF+다른/MM+질문/NNG+사항/NNG+생기/VV+면/EC+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 감사합니다 상담원 #@이름#였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

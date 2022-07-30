@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 43877,
+    "name": "c4_20211014_0011_0016_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131156036133/c4_20211014_0011_0016_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211008131156036133/c4_20211014_0011_0016_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56170,
+      "filename": "c4_20210908_0022_0007_01.txt",
+      "title": "c4_20210908_0022_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 338,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 338,
+        "word_size": 74,
+        "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다\nA.예 여쭤보시고 싶은게 어떤 사항이신가요\nB.다름이 아니라 저희 가게 바로 앞에 도로확장공사가 진행중인데요\nA.예 고객님 우선 그러시면 현재 가게 주소지 한번 말씀해 주시겠습니까\nB.알겠습니다 불러드릴게요 #@주소# 입니다\nA.예 확인 감사합니다 우선 공사로 인해 불편 끼쳐드려 죄송합니다\nB.네 공사때문에 장사 영업에 지장이 너무 커요\nA.그러시면 임시 골재부설 진입로 연결을 통해 지장을 줄일 수 있도록 조치하겠습니다\nB.알겠습니다 다른 문의사항 있으면 전화드릴게요\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "norm_text": "B.네 안녕하세요 제가 질문사항이 있어서 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 여쭤보시고 싶은게 어떤 사항이신가요",
+            "norm_text": "A.예 여쭤보시고 싶은게 어떤 사항이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+어떤/MM+사항/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.다름이 아니라 저희 가게 바로 앞에 도로확장공사가 진행중인데요",
+            "norm_text": "B.다름이 아니라 저희 가게 바로 앞에 도로확장공사가 진행중인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+다름/VA+ETN+이/JKC+아니/VCN+라/EC+저희/NP+가/VV+게/EC+바로/MAG+앞/NNG+에/JKB+도로/NNG+확장/NNG+공사/NNG+가/JKS+진행/NNG+중/NNB+인데요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 고객님 우선 그러시면 현재 가게 주소지 한번 말씀해 주시겠습니까",
+            "norm_text": "A.예 고객님 우선 그러시면 현재 가게 주소지 한번 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+우선/MAG+그러/VV+시/EP+면/EC+현재/MAG+가/VV+게/EC+주소지/NNG+한/MM+번/NNBC+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.알겠습니다 불러드릴게요 #@주소# 입니다",
+            "norm_text": "B.알겠습니다 불러드릴게요 #@주소# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+불러/VV+EC+드릴게요/VX+EC+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.예 확인 감사합니다 우선 공사로 인해 불편 끼쳐드려 죄송합니다",
+            "norm_text": "A.예 확인 감사합니다 우선 공사로 인해 불편 끼쳐드려 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+예/IC+확인/NNG+감사/NNG+합니다/XSV+EF+우선/MAG+공사/NNG+로/JKB+인해/VV+EC+불편/NNG+끼쳐드려/VV+EC+VX+EC+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 공사때문에 장사 영업에 지장이 너무 커요",
+            "norm_text": "B.네 공사때문에 장사 영업에 지장이 너무 커요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+공사/NNG+때문/NNB+에/JKB+장사/NNG+영업/NNG+에/JKB+지장/NNG+이/JKS+너무/MAG+커요/VA+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.그러시면 임시 골재부설 진입로 연결을 통해 지장을 줄일 수 있도록 조치하겠습니다",
+            "norm_text": "A.그러시면 임시 골재부설 진입로 연결을 통해 지장을 줄일 수 있도록 조치하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그러/VV+시/EP+면/EC+임시/NNG+골재/NNG+부설/NNG+진입로/NNG+연결/NNG+을/JKO+통해/VV+EC+지장/NNG+을/JKO+줄일/VV+ETM+수/NNB+있/VV+도록/EC+조치/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.알겠습니다 다른 문의사항 있으면 전화드릴게요",
+            "norm_text": "B.알겠습니다 다른 문의사항 있으면 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으면/EC+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

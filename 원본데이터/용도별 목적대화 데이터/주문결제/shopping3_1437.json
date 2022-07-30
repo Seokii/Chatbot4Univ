@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 96654,
+    "name": "s3_20211102_0005_0760_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110830031638/s3_20211102_0005_0760_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110830031638/s3_20211102_0005_0760_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119437,
+      "filename": "s3_20211026_0007_0001_01.txt",
+      "title": "s3_20211026_0007_0001_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 372,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 372,
+        "word_size": 90,
+        "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.네 안녕하세요 문의드릴 게 있어서요\nA.네 어떤 문의이실까요 고객님\nB.결제가 완료된 주문을 취소할 수 있나요\nA.상품 출고 및 배송이 자동화 시스템으로 진행되어서요\nA.한번 주문 시 취소가 어렵습니다\nB.네 안 된다구요 어쩔 수 없죠\nA.주문서 제출 전 할인코드 사이즈 맛 선택을 다시 한번 확인해 주세요\nB.네 제 잘못이죠\nA.일반적으로 신속한 배송을 위해서요\nA.재고 상황에 문제가 없는 경우 지체 없이 상품 출고가 이루어 집니다\nA.간혹 상품 포장이 시작되기 이전인 경우에는요\nA.성공적인 주문 취소가 가능할 수도 있습니다\nB.네 알아보겠습니다 감사합니다\nA.네 답변이 도움이 되었기를 바랍니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의드릴 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의이실까요 고객님",
+            "norm_text": "A.네 어떤 문의이실까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.결제가 완료된 주문을 취소할 수 있나요",
+            "norm_text": "B.결제가 완료된 주문을 취소할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+결제/NNG+가/JKS+완료/NNG+된/XSV+ETM+주문/NNG+을/JKO+취소/NNG+할/XSV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.상품 출고 및 배송이 자동화 시스템으로 진행되어서요",
+            "norm_text": "A.상품 출고 및 배송이 자동화 시스템으로 진행되어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+상품/NNG+출고/NNG+및/MAJ+배송/NNG+이/JKS+자동/NNG+화/XSN+시스템/NNG+으로/JKB+진행/NNG+되/XSV+어서요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.한번 주문 시 취소가 어렵습니다",
+            "norm_text": "A.한번 주문 시 취소가 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+한번/MAG+주문/NNG+시/NNB+취소/NNG+가/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.네 안 된다구요 어쩔 수 없죠",
+            "norm_text": "B.네 안 된다구요 어쩔 수 없죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안/MAG+된다구요/VV+EC+어쩔/VV+ETM+수/NNB+없/VA+죠/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.주문서 제출 전 할인코드 사이즈 맛 선택을 다시 한번 확인해 주세요",
+            "norm_text": "A.주문서 제출 전 할인코드 사이즈 맛 선택을 다시 한번 확인해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+주문서/NNG+제출/NNG+전할/NNG+인/VCP+ETM+코드/NNG+사이즈/NNG+맛/NNG+선택/NNG+을/JKO+다시/MAG+한/MM+번/NNBC+확인/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 제 잘못이죠",
+            "norm_text": "B.네 제 잘못이죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+제/NP+JKG+잘못/NNG+이/VCP+죠/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.일반적으로 신속한 배송을 위해서요",
+            "norm_text": "A.일반적으로 신속한 배송을 위해서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+일반/NNG+적/XSN+으로/JKB+신속/NNG+한/XSA+ETM+배송/NNG+을/JKO+위해서요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.재고 상황에 문제가 없는 경우 지체 없이 상품 출고가 이루어 집니다",
+            "norm_text": "A.재고 상황에 문제가 없는 경우 지체 없이 상품 출고가 이루어집니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+재고/NNG+상황/NNG+에/JKB+문제/NNG+가/JKS+없/VA+는/ETM+경우/NNG+지체/NNG+없이/MAG+상품/NNG+출고/NNG+가/JKS+이루어집니다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.간혹 상품 포장이 시작되기 이전인 경우에는요",
+            "norm_text": "A.간혹 상품 포장이 시작되기 이전인 경우에는요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+간혹/MAG+상품/NNG+포장/NNG+이/JKS+시작/NNG+되/XSV+기/ETN+이전/NNG+인/VCP+ETM+경우/NNG+에/JKB+는/JX+요/JX"
+          },
+          {
+            "id": 13,
+            "text": "A.성공적인 주문 취소가 가능할 수도 있습니다",
+            "norm_text": "A.성공적인 주문 취소가 가능할 수도 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+성공/NNG+적/XSN+인/VCP+ETM+주문/NNG+취소/NNG+가/JKS+가능/NNG+할/XSV+ETM+수/NNB+도/JX+있/VA+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.네 알아보겠습니다 감사합니다",
+            "norm_text": "B.네 알아보겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알아보/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네 답변이 도움이 되었기를 바랍니다 감사합니다",
+            "norm_text": "A.네 답변이 도움이 되었기를 바랍니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+답변/NNG+이/JKS+도움/NNG+이/JKS+되/VV+었/EP+기/ETN+를/JKO+바랍니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 3692,
+    "name": "s4_20210910_0010_0104_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151424078273/s4_20210910_0010_0104_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151424078273/s4_20210910_0010_0104_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12777,
+      "filename": "s4_20210826_0015_0005_01.txt",
+      "title": "s4_20210826_0015_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 220,
+      "annotations": {
+        "subject": "배송",
+        "speaker_type": "1:1",
+        "size": 220,
+        "word_size": 51,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다\nA.어떤 도움이 필요하세요\nB.네 제가 #@소속#에서 구매한 제품이 있어요\nA.네 고객님 전화 주신 번호로 확인하겠습니다\nA.#@상품# 구매하신 것이 확인되셨습니다\nB.예 근데 그게 시월 육 일 자로 배달이 완료되었대요\nA.네 계속 말씀해 주시겠어요\nB.네 근데 물건은 집에 안 왔거든요\nA.그러세요 잠시만요 고객님 확인해 보겠습니다\nB.예 천천히 확인해 주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하세요",
+            "norm_text": "A.어떤 도움이 필요하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "B.네 제가 #@소속#에서 구매한 제품이 있어요",
+            "norm_text": "B.네 제가 #@소속#에서 구매한 제품이 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+구매/NNG+한/XSA+ETM+제품/NNG+이/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.네 고객님 전화 주신 번호로 확인하겠습니다",
+            "norm_text": "A.네 고객님 전화 주신 번호로 확인하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+전화/NNG+주/VV+신/EP+ETM+번호/NNG+로/JKB+확인/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.#@상품# 구매하신 것이 확인되셨습니다",
+            "norm_text": "A.#@상품# 구매하신 것이 확인되셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+구매/NNG+하/XSV+신/EP+ETM+것/NNB+이/JKS+확인/NNG+되/XSV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.예 근데 그게 시월 육 일 자로 배달이 완료되었대요",
+            "norm_text": "B.예 근데 그게 시월 육 일 자로 배달이 완료되었대요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+근데/MAJ+그게/NP+JKS+시월/NNG+육/NR+일자/NNG+로/JKB+배달/NNG+이/JKS+완료/NNG+되/XSV+었/EP+대요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 계속 말씀해 주시겠어요",
+            "norm_text": "A.네 계속 말씀해 주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+계속/MAG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 근데 물건은 집에 안 왔거든요",
+            "norm_text": "B.네 근데 물건은 집에 안 왔거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+근데/MAJ+물건/NNG+은/JX+집/NNG+에/JKB+안/MAG+왔/VV+EP+거든요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.그러세요 잠시만요 고객님 확인해 보겠습니다",
+            "norm_text": "A.그러세요 잠시만요 고객님 확인해 보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그러/VV+세요/EP+EF+잠시/MAG+만요/NNP+고객/NNG+님/XSN+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.예 천천히 확인해 주세요",
+            "norm_text": "B.예 천천히 확인해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": ""
+          }
+        ]
+      }
+    }
+  ]
+}

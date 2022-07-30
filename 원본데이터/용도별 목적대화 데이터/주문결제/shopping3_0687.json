@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 13504,
+    "name": "s3_20210913_0010_1034_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514230281100/s3_20210913_0010_1034_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514230281100/s3_20210913_0010_1034_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12560,
+      "filename": "s3_20210902_0015_0017_01.txt",
+      "title": "s3_20210902_0015_0017_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 238,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 238,
+        "word_size": 53,
+        "text": "A.안녕하세요 고객님 상담사 #@이름#입니다\nB.여보세요 #@상품# 좀 주문하려고요\nA.네 #@상품#으로 보신 걸까요\nB.예 맞아요 색상은 블랙 있잖아요 이걸로 할게요\nA.예 고객님 몇 매 구매하십니까\nB.블랙 오십 매 플라스 십 매로 이렇게 할게요\nA.네 성함이랑 휴대폰 번호 말씀해 주시겠습니까\nB.네 #@전번#번이고요 내가 이름이 #@이름#이에요\nA.예 #@이름# 님이시고요 주소 말씀해 주시겠습니까\nB.제 주소는 울산시 #@주소#입니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여보세요 #@상품# 좀 주문하려고요",
+            "norm_text": "B.여보세요 #@상품# 좀 주문하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+여보세요/IC+#/SY+@/SY+상품/NNG+#/SY+좀/MAG+주문/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 #@상품#으로 보신 걸까요",
+            "norm_text": "A.네 #@상품#으로 보신 걸까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+으로/JKB+보/VV+신/EP+ETM+걸까요/NNB+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.예 맞아요 색상은 블랙 있잖아요 이걸로 할게요",
+            "norm_text": "B.예 맞아요 색상은 블랙 있잖아요 이걸로 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+맞/VV+아요/EF+색상/NNG+은/JX+블랙/NNG+있/VA+잖아요/EF+이걸로/NP+JKB+할게요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 고객님 몇 매 구매하십니까",
+            "norm_text": "A.예 고객님 몇 매 구매하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+몇/MM+매/NNBC+구매/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.블랙 오십 매 플라스 십 매로 이렇게 할게요",
+            "norm_text": "B.블랙 오십 매 플라스 십 매로 이렇게 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+블랙/NNG+오/NR+십/NR+매/NNBC+플라스/NNP+십/NR+매/NNBC+로/JKB+이렇게/MAG+할게요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 성함이랑 휴대폰 번호 말씀해 주시겠습니까",
+            "norm_text": "A.네 성함이랑 휴대폰 번호 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+성함/NNG+이랑/JKB+휴대폰/NNG+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 #@전번#번이고요 내가 이름이 #@이름#이에요",
+            "norm_text": "B.네 #@전번#번이고요 내가 이름이 #@이름#이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+번이/NNG+고요/VCP+EF+내/NP+가/JKS+이름/NNG+이/JKS+#/SY+@/SY+이름/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.예 #@이름# 님이시고요 주소 말씀해 주시겠습니까",
+            "norm_text": "A.예 #@이름# 님이시고요 주소 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+#/SY+@/SY+이름/NNG+#/SY+님/XSN+이/VCP+시/EP+고요/EC+주소/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.제 주소는 울산시 #@주소#입니다",
+            "norm_text": "B.제 주소는 울산시 #@주소#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+주소/NNG+는/JX+울산시/NNP+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 140780,
+    "name": "t1_20211115_0002_0311_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714035747/t1_20211115_0002_0311_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135714035747/t1_20211115_0002_0311_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147937,
+      "filename": "t1_0066_0123_02.txt",
+      "title": "t1_0066_0123_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 288,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 288,
+        "word_size": 60,
+        "text": "A.연락 주셔서 감사합니다 #@소속#입니다\nB.네 안녕하세요 저 22일로 숙박 예약 했었는데 변경이 가능할 까해서요\nA.안녕하십니까 조회를 위해 성함과 휴대폰 번호 말씀 부탁 드릴게요\nB.네 이름은 #@이름#고요 휴대폰 번호는 #@전번# 이에요\nA.네 #@이름#님 22일부터 24일까지 숙박 예정이시네요\nA.어떤 날짜로 예약 변경 원하시는 걸까요\nB.30일부터 1일 까지로 변경이 혹시 될까요\nA.네 조회해보니 그날 가능하시네요 바꿔드릴까요\nB.네 바꿔주시면 감사하겠습니다\nA.예약 변경해드렸습니다#@소속#를 이용해주셔서 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.연락 주셔서 감사합니다 #@소속#입니다",
+            "norm_text": "A.연락 주셔서 감사합니다 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+연락/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 저 22일로 숙박 예약 했었는데 변경이 가능할 까해서요",
+            "norm_text": "B.네 안녕하세요 22일 숙박 예약 변경이 가능할 까해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+저/MM+22/SN+일/NNBC+로/JKB+숙박/NNG+예약/NNG+했었/XSV+EP+는데/EC+변경/NNG+이/JKS+가능/NNG+할까/XSV+EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.안녕하십니까 조회를 위해 성함과 휴대폰 번호 말씀 부탁 드릴게요",
+            "norm_text": "A.안녕하십니까 조회를 위해 성함과 휴대폰 번호 말씀 부탁 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+조회/NNG+를/JKO+위해/VV+EC+성함/NNG+과/JC+휴대폰/NNG+번호/NNG+말씀/NNG+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 이름은 #@이름#고요 휴대폰 번호는 #@전번# 이에요",
+            "norm_text": "B.네 이름은 #@이름#고요 휴대폰 번호는 #@전번# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+고요/NNG+휴대폰/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 #@이름#님 22일부터 24일까지 숙박 예정이시네요",
+            "norm_text": "A.네 #@이름#님 22일부터 24일까지 숙박 예정이시네요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+님/XSN+22/SN+일/NNBC+부터/JX+24/SN+일/NNBC+까지/JX+숙박/NNG+예정/NNG+이/VCP+시/EP+네요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.어떤 날짜로 예약 변경 원하시는 걸까요",
+            "norm_text": "A.어떤 날짜로 예약 변경 원하시는 걸까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+날짜/NNG+로/JKB+예/IC+약변/NNG+경원/NNG+하/XSV+시/EP+는/ETM+걸까요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.30일부터 1일 까지로 변경이 혹시 될까요",
+            "norm_text": "B.30일부터 1일 까지로 변경이 혹시 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+30/SN+일/NNBC+부터/JX+1/SN+일/NNBC+까지/JX+로/JKB+변경/NNG+이/JKS+혹시/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 조회해보니 그날 가능하시네요 바꿔드릴까요",
+            "norm_text": "A.네 조회해보니 그날 가능하시네요 바꿔드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+조회/NNG+해/XSV+EC+보/VX+니/EC+그날/NNG+가능/NNG+하/XSV+시/EP+네요/EF+바꿔/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 바꿔주시면 감사하겠습니다",
+            "norm_text": "B.네 바꿔주시면 감사하겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+바꿔/VV+EC+주/VX+시/EP+면/EC+감사/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.예약 변경해드렸습니다#@소속#를 이용해주셔서 감사합니다",
+            "norm_text": "A.예약 변경해드렸습니다#@소속#를 이용해주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+예약/NNG+변경/NNG+해/XSV+EC+드렸/VX+EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+를/JKO+이용/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

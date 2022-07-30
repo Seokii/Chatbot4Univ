@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 165088,
+    "name": "t3_20211123_0005_0550_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135809097813/t3_20211123_0005_0550_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135809097813/t3_20211123_0005_0550_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 151049,
+      "filename": "t3_0070_0059_02.txt",
+      "title": "t3_0070_0059_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 293,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 293,
+        "word_size": 71,
+        "text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다\nB. 주말에 #@소속#로 놀러가는데요\nA. 네 무엇을 도와드릴까요\nB. #@소속# 근처에 식당이 있나요\nA. #@소속#라는 한정식당이 있습니다\nA. 떡갈비 정식을 주로 판매 한다고 합니다\nB. 예약 하고 싶은데 전화 번호 알려 주세요\nA. 예약 하시는 전화 번호는 #@전번#입니다\nB. #@전번#요 알겠습니다 전화 해서 예약 할게요\nA. 추가 문의 사항은 없으신가요\nB. 없습니다 그럼 수고하세요\nA. 감사합니다 #@소속# 상담원 #@이름#이었습니다 좋은 하루 되세요\nB. 친절한 안내 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A. 반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 주말에 #@소속#로 놀러가는데요",
+            "norm_text": "B. 주말에 #@소속#로 놀러가는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+주말/NNG+에/JKB+#/SY+@/SY+소속/NNG+#/SY+로/JKB+놀/VV+러/EC+가/VX+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 무엇을 도와드릴까요",
+            "norm_text": "A. 네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. #@소속# 근처에 식당이 있나요",
+            "norm_text": "B. #@소속# 근처에 식당이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+근처/NNG+에/JKB+식당/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. #@소속#라는 한정식당이 있습니다",
+            "norm_text": "A. #@소속#라는 한정식당이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+라는/VCP+ETM+한정/NNG+식당/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A. 떡갈비 정식을 주로 판매 한다고 합니다",
+            "norm_text": "A. 떡갈비 정식을 주로 판매한다고 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+떡갈비/NNG+정식/NNG+을/JKO+주로/MAG+판매/NNG+한다고/XSV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 예약 하고 싶은데 전화 번호 알려 주세요",
+            "norm_text": "B. 예약하고 싶은데 전화번호 알려 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+예약/NNG+하/XSV+고/EC+싶/VX+은데/EC+전화/NNG+번호/NNG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A. 예약 하시는 전화 번호는 #@전번#입니다",
+            "norm_text": "A. 예약하시는 전화번호는 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예약/NNG+하/XSV+시/EP+는/ETM+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B. #@전번#요 알겠습니다 전화 해서 예약 할게요",
+            "norm_text": "B. #@전번#요 알겠습니다 전화해서 예약할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+요알/NNG+겠/VCP+EP+습니다/EF+전화/NNG+해서/XSV+EC+예약/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A. 추가 문의 사항은 없으신가요",
+            "norm_text": "A. 추가 문의 사항은 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+추가/NNG+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "B. 없습니다 그럼 수고하세요",
+            "norm_text": "B. 없습니다 그럼 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+없/VA+습니다/EF+그럼/MAJ+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A. 감사합니다 #@소속# 상담원 #@이름#이었습니다 좋은 하루 되세요",
+            "norm_text": "A. 감사합니다 #@소속# 상담원 #@이름#이었습니다 좋은 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B. 친절한 안내 감사합니다",
+            "norm_text": "B. 친절한 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

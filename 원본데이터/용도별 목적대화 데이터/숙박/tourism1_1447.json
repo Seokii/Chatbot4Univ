@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 151350,
+    "name": "t1_20211117_0002_0403_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720037511/t1_20211117_0002_0403_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135720037511/t1_20211117_0002_0403_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148705,
+      "filename": "t1_0074_0121_02.txt",
+      "title": "t1_0074_0121_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 286,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 286,
+        "word_size": 68,
+        "text": "A. 행복 여행을 책임지겠습니다 #@소속# 고객센터 상담원 #@이름#입니다\nB. 거제 아일랜드 호텔 지금 시즌할인 중인가요\nB. 작년 이맘때에 시즌할인으로 잘 다녀왔었어서 확인차 문의드려요\nA. 네 지금 10만원 객실 5만원으로 시즌할인 중입니다\nB. 지금 예약 가능한 방 있을까요\nA. 네 홈페이지 확인하시면 반절 넘게 빈방입니다\nB. 홈페이지 주소 좀 알려주실래요 보고 예약해야겠네요\nA. #@URL# 입니다 접속 하셨을까요\nB. 네 보고있어요 안내 고마워요 수고하세요\nA. 네 감사합니다 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 행복 여행을 책임지겠습니다 #@소속# 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A. 행복 여행을 책임지겠습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+여행/NNG+을/JKO+책임지/VV+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 거제 아일랜드 호텔 지금 시즌할인 중인가요",
+            "norm_text": "B. 거제 아일랜드 호텔 지금 시즌할인 중인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+거제/NNP+아일랜드/NNP+호텔/NNG+지금/MAG+시즌/NNG+할/XSV+ETM+인중/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B. 작년 이맘때에 시즌할인으로 잘 다녀왔었어서 확인차 문의드려요",
+            "norm_text": "B. 작년 이맘때에 시즌할인으로 잘 다녀왔었어서 확인차 문의드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+작년/NNG+이맘때/NNG+에/JKB+시즌/NNG+할인/NNG+으로/JKB+잘/MAG+다녀왔/VV+EP+었/EP+어서/EC+확인/NNG+차문/NNG+의/JKG+드려요/VV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A. 네 지금 10만원 객실 5만원으로 시즌할인 중입니다",
+            "norm_text": "A. 네 지금 10만원 객실 5만원으로 시즌할인 중입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+지금/MAG+10/SN+만/NR+원/NNBC+객실/NNG+5/SN+만/NR+원/NNBC+으로/JKB+시즌/NNG+할/XSV+ETM+인중/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B. 지금 예약 가능한 방 있을까요",
+            "norm_text": "B. 지금 예약 가능한 방 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+지금/MAG+예약/NNG+가능/NNG+한/XSA+ETM+방/NNG+있/VV+을까요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A. 네 홈페이지 확인하시면 반절 넘게 빈방입니다",
+            "norm_text": "A. 네 홈페이지 확인하시면 반절 넘게 빈방입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+홈페이지/NNG+확인/NNG+하/XSV+시/EP+면/EC+반절/NNG+넘/VV+게/EC+빈방/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 홈페이지 주소 좀 알려주실래요 보고 예약해야겠네요",
+            "norm_text": "B. 홈페이지 주소 좀 알려주실래요 보고 예약해야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+홈페이지/NNG+주소/NNG+좀/MAG+알려/VV+EC+주/VX+실래요/EP+EC+보/VX+고/EC+예약/NNG+해야/XSV+EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A. #@URL# 입니다 접속 하셨을까요",
+            "norm_text": "A. #@URL# 입니다 접속 하셨을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+URL/SL+#/SY+입니다/VCP+EF+접속/NNG+하/XSV+셨/EP+EP+을까요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B. 네 보고있어요 안내 고마워요 수고하세요",
+            "norm_text": "B. 네 보고있어요 안내 고마워요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+보/VV+고/EC+있/VX+어요/EF+안내/NNG+고마워요/VA+EC+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A. 네 감사합니다 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 네 감사합니다 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

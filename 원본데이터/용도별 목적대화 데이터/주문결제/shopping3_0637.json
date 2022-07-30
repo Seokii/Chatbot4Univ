@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 11225,
+    "name": "s3_20210913_0010_0778_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416042857/s3_20210913_0010_0778_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416042857/s3_20210913_0010_0778_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11855,
+      "filename": "s3_20210826_0016_0007_01.txt",
+      "title": "s3_20210826_0016_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 300,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 300,
+        "word_size": 77,
+        "text": "A.고객님 제품 주문 요청 하셨는데요 저도 검색 해볼게요\nB.네 검색 해 주세요 기다릴게요\nA.우선 변기 세정제 검색했을 때는 말씀하신 상품은 없습니다\nB.그러면 다른 제품이 어떤 게 있나요\nA.저희는 종류가 많다 보니까 말씀 드리긴 어렵습니다\nA.고객님께서 직접 검색하셔서 한번 보셔야 될 것 같습니다\nB.그냥 뒤에 물통에다가 넣을 수 있는 거면 상관 없어요\nA.네 고객님 말씀드렸지만 이것도 종류가 여러 가지다 보니까요\nB.네 알겠습니다 그러면 혹시 #@제품# 은 있을 까요\nA.#@제품# 말씀하시는 걸까요\nB.맞아요 변기 청소 용품 으로 찾고 있어요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 제품 주문 요청 하셨는데요 저도 검색 해볼게요",
+            "norm_text": "A.고객님 제품 주문 요청 하셨는데요 저도 검색 해볼게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+제품/NNG+주문/NNG+요청/NNG+하/XSV+셨/EP+EP+는데요/EF+저/NP+도/JX+검색/NNG+해/XSV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 2,
+            "text": "B.네 검색 해 주세요 기다릴게요",
+            "norm_text": "B.네 검색 해 주세요 기다릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+검색/NNG+해/XSV+EC+주/VX+세요/EP+EF+VCP+기/ETN+다릴/VV+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.우선 변기 세정제 검색했을 때는 말씀하신 상품은 없습니다",
+            "norm_text": "A.우선 변기 세정제 검색했을 때는 말씀하신 상품은 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+우선/MAG+변기/NNG+세정제/NNG+검색/NNG+했/XSV+EP+을/ETM+때/NNG+는/JX+말씀/NNG+하/XSV+신/EP+ETM+상품/NNG+은/JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그러면 다른 제품이 어떤 게 있나요",
+            "norm_text": "B.그러면 다른 제품이 어떤 게 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+다른/MM+제품/NNG+이/JKS+어떤/MM+게/NNB+JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.저희는 종류가 많다 보니까 말씀 드리긴 어렵습니다",
+            "norm_text": "A.저희는 종류가 많다 보니까 말씀 드리긴 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+저희/NP+는/JX+종류/NNG+가/JKS+많/VA+다/EC+보/VX+니까/EC+말씀/NNG+드리/VV+긴/ETN+JX+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.고객님께서 직접 검색하셔서 한번 보셔야 될 것 같습니다",
+            "norm_text": "A.고객님께서 직접 검색하셔서 한번 보셔야 될 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+께서/JKS+직접/MAG+검색/NNG+하/XSV+셔서/EP+EC+한/MM+번/NNBC+보/VV+셔야/EP+EC+될/VV+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그냥 뒤에 물통에다가 넣을 수 있는 거면 상관 없어요",
+            "norm_text": "B.그냥 뒤에 물통에다가 넣을 수 있는 거면 상관 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그냥/MAG+뒤/NNG+에/JKB+물통/NNG+에다가/JKB+넣/VV+을/ETM+수/NNB+있/VV+는/ETM+거/NNB+면/VCP+EC+상관없/VA+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.네 고객님 말씀드렸지만 이것도 종류가 여러 가지다 보니까요",
+            "norm_text": "A.네 고객님 말씀드렸지만 이것도 종류가 여러 가지다 보니까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+드렸/VV+EP+지만/EC+이것/NP+도/JX+종류/NNG+가/JKS+여러/MM+가지/NNBC+다/MAG+보/VV+니까요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알겠습니다 그러면 혹시 #@제품# 은 있을 까요",
+            "norm_text": "B.네 알겠습니다 그러면 혹시 #@제품# 은 있을 까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+그러면/MAJ+혹시/MAG+#/SY+@/SY+제품/NNG+#/SY+은/JX+있/VA+을까요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.#@제품# 말씀하시는 걸까요",
+            "norm_text": "A.#@제품# 말씀하시는 걸까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+제품/NNG+#/SY+말씀/NNG+하/XSV+시/EP+는/ETM+걸까요/NNB+VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.맞아요 변기 청소 용품 으로 찾고 있어요",
+            "norm_text": "B.맞아요 변기 청소 용품 으로 찾고 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+맞/VV+아요/EF+변기/NNG+청소/NNG+용품/NNG+으로/JKB+찾/VV+고/EC+있/VX+어요/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

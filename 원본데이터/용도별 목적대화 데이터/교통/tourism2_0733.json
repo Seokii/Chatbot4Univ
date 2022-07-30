@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 147326,
+    "name": "t2_20211116_0002_0118_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135725013830/t2_20211116_0002_0118_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135725013830/t2_20211116_0002_0118_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 149305,
+      "filename": "t2_0066_0009_02.txt",
+      "title": "t2_0066_0009_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 282,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 282,
+        "word_size": 62,
+        "text": "A.안녕하십니까 #@소속# #@이름#입니다\nB.안녕하세요 지금 #@소속#에 도착해서 시내 나가려는데요\nB.지하철 운행시간 좀 알 수 있을까요\nA.네 #@소속#에서 시내가는 지하철 운행시간 알려드리면 되는 거죠\nB.네네 부탁드릴게요 지금 지하철 탈 수 있나 해서요\nA.지하철은 다섯시 오십분부터 열시 사십분까지 운행합니다\nB.헉 열시 사십분까지요 얼마 안 남았네요\nA.네 열시 사십분이면 운행이 마감되니 참고하셔서 탑승 바랍니다\nB.네네 감사해요 지금 얼른 뛰어서 타야겠어요\nA.조심히 가시길 바랍니다 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 지금 #@소속#에 도착해서 시내 나가려는데요",
+            "norm_text": "B.안녕하세요 지금 #@소속#에 도착해서 시내 나가려는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+지금/MAG+#/SY+@/SY+소속/NNG+#/SY+에/JKB+도착/NNG+해서/XSV+EC+시내/NNG+나가/VV+려는/ETM+데/NNB+요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.지하철 운행시간 좀 알 수 있을까요",
+            "norm_text": "B.지하철 운행시간 좀 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+지하철/NNG+운행/NNG+시간/NNG+좀/MAG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 #@소속#에서 시내가는 지하철 운행시간 알려드리면 되는 거죠",
+            "norm_text": "A.네 #@소속#에서 시내가는 지하철 운행시간 알려드리면 되는 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+시내/NNG+가/VV+는/ETM+지하철/NNG+운행/NNG+시간/NNG+알려/VV+EC+드리/VX+면/EC+되/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네네 부탁드릴게요 지금 지하철 탈 수 있나 해서요",
+            "norm_text": "B.네네 부탁드릴게요 지금 지하철 탈 수 있나 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/NP+네/XSN+부탁/NNG+드릴게요/VV+EC+지금/MAG+지하철/NNG+탈/VV+ETM+수/NNB+있/VV+나/EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.지하철은 다섯시 오십분부터 열시 사십분까지 운행합니다",
+            "norm_text": "A.지하철은 다섯시 오십분부터 열시 사십분까지 운행합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+지하철/NNG+은/JX+다섯/NR+시/NNBC+오/NR+십/NR+분/NNBC+부터/JX+열/NR+시/NNBC+사/NR+십/NR+분/NNBC+까지/JX+운행/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.헉 열시 사십분까지요 얼마 안 남았네요",
+            "norm_text": "B.헉 열시 사십분까지요 얼마 안 남았네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+헉/IC+열/NR+시/NNBC+사/NR+십/NR+분/NNBC+까지/JX+요/JX+얼마/NNG+안/MAG+남/VV+았/EP+네요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 열시 사십분이면 운행이 마감되니 참고하셔서 탑승 바랍니다",
+            "norm_text": "A.네 열시 사십분이면 운행이 마감되니 참고하셔서 탑승 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+열/NR+시/NNBC+사/NR+십/NR+분/NNBC+이/VCP+면/EC+운행/NNG+이/JKS+마감/NNG+되/XSV+니/EC+참고/NNG+하/XSV+셔서/EP+EC+탑승/NNG+바랍니다/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네네 감사해요 지금 얼른 뛰어서 타야겠어요",
+            "norm_text": "B.네네 감사해요 지금 얼른 뛰어서 타야겠어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/NP+네/XSN+감사/NNG+해요/XSV+EF+지금/MAG+얼른/MAG+뛰/VV+어서/EC+타/VV+야/EC+VX+겠/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.조심히 가시길 바랍니다 #@이름# 이었습니다",
+            "norm_text": "A.조심히 가시길 바랍니다 #@이름# 이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+조심히/MAG+가시/VV+길/ETN+JKO+바랍니다/VV+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

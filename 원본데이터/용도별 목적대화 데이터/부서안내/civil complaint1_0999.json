@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 53281,
+    "name": "c1_20211018_0001_2599_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130657090859/c1_20211018_0001_2599_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130657090859/c1_20211018_0001_2599_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49334,
+      "filename": "c1_20210906_0024_0001_01.txt",
+      "title": "c1_20210906_0024_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 341,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 341,
+        "word_size": 83,
+        "text": "A.안녕하세요 #@소속# #@이름# 입니다\nB.제가요 저저번 달에 어업 휴업을 냈어요\nB.근데 이거 좀 연장하고 싶은데 이거 담당이 어디에요\nA.네 고객님 휴업 연장 신청은 어 #@소속#에서 담당하고 있습니다\nB.저번에도 처리가 너무 느려가지고 내가 답답했잖아\nB.이번에도 오래 걸리려나요\nA.그러셨어요 고객님 이게 요즘 여러 민원이 한꺼번에 들어와서요\nA.그게 쌓이다 보니까 시간이 좀 걸릴 수 있을꺼 같거든요\nB.아니 #@소속# 거기로 번호가 뭐예요 거기로 전화 해볼래요\nA.네 고객님 번호가 #@전번# 입니다\nB.네 내가 해볼게요 너무 늦으며 안 돼서요\nA.예 고객님 민원 업무 잘 마무리 하세요\nB.네 수고하세요 고생하십니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가요 저저번 달에 어업 휴업을 냈어요",
+            "norm_text": "B.제가요 저저번 달에 어업 휴업을 냈어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+가요/NNG+저저/NNG+번달/NNG+에/JKB+어업/NNG+휴업/NNG+을/JKO+냈/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.근데 이거 좀 연장하고 싶은데 이거 담당이 어디에요",
+            "norm_text": "B.근데 이거 좀 연장하고 싶은데 이거 담당이 어디에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+근데/MAJ+이거/NP+좀/MAG+연장/NNG+하/XSV+고/EC+싶/VX+은데/EC+이거/NP+담당/NNG+이/JKS+어디/NP+에/JKB+요/JX"
+          },
+          {
+            "id": 4,
+            "text": "A.네 고객님 휴업 연장 신청은 어 #@소속#에서 담당하고 있습니다",
+            "norm_text": "A.네 고객님 휴업 연장 신청은 #@소속#에서 담당하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+휴업/NNG+연장/NNG+신청/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+담당/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.저번에도 처리가 너무 느려가지고 내가 답답했잖아",
+            "norm_text": "B.저번에도 처리가 너무 느려가지고 내가 답답했잖아",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+./SY+저번/NNG+에/JKB+도/JX+처리/NNG+가/JKS+너무/MAG+느려/VA+EC+가지/VX+고/EC+내/NP+가/JKS+답답/XR+했/XSA+EP+잖아/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.이번에도 오래 걸리려나요",
+            "norm_text": "B.이번에도 오래 걸리려나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+이번/NNG+에/JKB+도/JX+오래/MAG+걸리/VV+려나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.그러셨어요 고객님 이게 요즘 여러 민원이 한꺼번에 들어와서요",
+            "norm_text": "A.그러셨어요 고객님 이게 요즘 여러 민원이 한꺼번에 들어와서요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+셨/EP+EP+어요/EF+고객/NNG+님/XSN+이게/NP+JKS+요즘/MAG+여러/MM+민원/NNG+이/JKS+한꺼번에/MAG+들어와서/VV+EC+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.그게 쌓이다 보니까 시간이 좀 걸릴 수 있을꺼 같거든요",
+            "norm_text": "A.그게 쌓이다 보니까 시간이 좀 걸릴 수 있을꺼 같거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+그게/NP+JKS+쌓이/VV+다/EC+보/VX+니까/EC+시간/NNG+이/JKS+좀/MAG+걸릴/VV+ETM+수/NNB+있/VV+을/ETM+꺼/NNB+VCP+같/VA+거든요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.아니 #@소속# 거기로 번호가 뭐예요 거기로 전화 해볼래요",
+            "norm_text": "B.아니 #@소속# 거기로 번호가 뭐예요 거기로 전화 해볼래요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/IC+#/SY+@/SY+소속/NNG+#/SY+거기/NP+로/JKB+번호/NNG+가/JKS+뭐/NP+예요/VCP+EF+거기/NP+로/JKB+전화/NNG+해/XSV+EC+볼래요/VX+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 고객님 번호가 #@전번# 입니다",
+            "norm_text": "A.네 고객님 번호가 #@전번# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 내가 해볼게요 너무 늦으며 안 돼서요",
+            "norm_text": "B.네 내가 해볼게요 너무 늦으며 안 돼서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+내/NP+가/JKS+해/VV+EC+볼게요/VX+EF+너무/MAG+늦/VA+으며/EC+안/MAG+돼서/VV+EC+요/JX"
+          },
+          {
+            "id": 12,
+            "text": "A.예 고객님 민원 업무 잘 마무리 하세요",
+            "norm_text": "A.예 고객님 민원 업무 잘 마무리 하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+민원/NNG+업무/NNG+잘/MAG+마무리/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "B.네 수고하세요 고생하십니다",
+            "norm_text": "B.네 수고하세요 고생하십니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+수고/NNG+하/XSV+세요/EP+EF+고생/NNG+하/XSV+십니다/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

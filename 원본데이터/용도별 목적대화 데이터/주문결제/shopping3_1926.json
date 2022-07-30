@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 110490,
+    "name": "s3_20211104_0002_0173_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744041616/s3_20211104_0002_0173_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744041616/s3_20211104_0002_0173_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117949,
+      "filename": "s3_20211001_0014_01_0032.txt",
+      "title": "s3_20211001_0014_01_0032",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 316,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 316,
+        "word_size": 68,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 문의 드릴게 있어서요\nA.네 어떤 문의 이신가요\nB.제가 #@소속# 상품권 전환 했는데요\nB.이거 사용할 때 얼만큼 사용해야하는건가요\nA.현금 환불은 전환금 육십프로이상 사용해야 합니다\nA.오만원 미만의 경우 현금으로 돌려 드리구요\nB.그럼 전환한도는 따로 없는건가요\nA.있습니다 아이디 한개당 천만 원으로 한정합니다\nB.천만 원이요 그 이상은 안되는 거죠\nA.네 천만 원까지만 가능합니다\nB.네 알겠습니다 답변 감사합니다\nA.더 문의사항 있으신가요\nB.아니요 없습니다 감사합니다\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의 드릴게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의 드릴게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의 이신가요",
+            "norm_text": "A.네 어떤 문의 이신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 #@소속# 상품권 전환 했는데요",
+            "norm_text": "B.제가 #@소속# 상품권 전환 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+상품/NNG+권/XSN+전환/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.이거 사용할 때 얼만큼 사용해야하는건가요",
+            "norm_text": "B.이거 사용할 때 얼만큼 사용해야 하는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이거/NP+사용/NNG+할/XSV+ETM+때/NNG+얼만큼/MAG+사용/NNG+해야/XSV+EC+하/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.현금 환불은 전환금 육십프로이상 사용해야 합니다",
+            "norm_text": "A.현금 환불은 전환금 육십프로이상 사용해야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+현금/NNG+환불/NNG+은/JX+전환/NNG+금육/NNG+십/NR+프로/NNBC+이상/NNG+사용/NNG+해야/XSV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.오만원 미만의 경우 현금으로 돌려 드리구요",
+            "norm_text": "A.오만원 미만의 경우 현금으로 돌려 드리구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+오만/NR+원/NNBC+미만/NNG+의/JKG+경우/NNG+현금/NNG+으로/JKB+돌려/VV+EC+드리/VX+구요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 전환한도는 따로 없는건가요",
+            "norm_text": "B.그럼 전환한도는 따로 없는건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+전환/NNG+한도/NNG+는/JX+따로/MAG+없/VA+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.있습니다 아이디 한개당 천만 원으로 한정합니다",
+            "norm_text": "A.있습니다 아이디 한개당 천만 원으로 한정합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+있/VA+습니다/EF+아이디/NNG+한/XSA+ETM+개당/NNG+천만/NR+원/NNBC+으로/JKB+한정/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.천만 원이요 그 이상은 안되는 거죠",
+            "norm_text": "B.천만 원이요 그 이상은 안되는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+천만/NR+원/NNBC+이요/JX+그/MM+이상/NNG+은/JX+안/MAG+되/VV+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 천만 원까지만 가능합니다",
+            "norm_text": "A.네 천만 원까지만 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+천만/NR+원/NNBC+까지/JX+만/JX+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.네 알겠습니다 답변 감사합니다",
+            "norm_text": "B.네 알겠습니다 답변 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+답변/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.더 문의사항 있으신가요",
+            "norm_text": "A.더 문의사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 14,
+            "text": "B.아니요 없습니다 감사합니다",
+            "norm_text": "B.아니요 없습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+아니요/IC+없/VA+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

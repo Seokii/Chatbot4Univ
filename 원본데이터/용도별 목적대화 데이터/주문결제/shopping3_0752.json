@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 16314,
+    "name": "s3_20210915_0010_1100_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420096811/s3_20210915_0010_1100_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420096811/s3_20210915_0010_1100_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12222,
+      "filename": "s3_20210830_0018_0004_01.txt",
+      "title": "s3_20210830_0018_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 333,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 333,
+        "word_size": 75,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.조금전에 #@상품# 신청했는데요\nB.일단 #@이름# 이고 주소가 #@주소# 거든요\nA.고객님 듣고 있습니다 말씀하세요\nB.아까 상담사분은 입금액이 사만 천사백원이라고 했는데요\nA.카톡은 사만 육천사백원이 왔어요\nA.고객님 사만 육천사백원을 입금 해주셔야 됩니다\nB.근데 삼만팔천 구백원에 택배비 이천 오백원이라 했는데요\nA.고객님 확인 해 보겠습니다\nA.고객님 이 부분 확인 후 다시 전화 드려도 되겠습니까\nB.전화를 다시 한다고예\nA.예 제가 전화 드리겠습니다\nB.그러믄 끊고 기다릴까요\nA.네 제가 다시 연락 드리겠습니다\nB.예 전화 주세요\nA.네 상담사 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.조금전에 #@상품# 신청했는데요",
+            "norm_text": "B.조금전에 #@상품# 신청했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+조금/MAG+전/NNG+에/JKB+#/SY+@/SY+상품/NNG+#/SY+신청/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.일단 #@이름# 이고 주소가 #@주소# 거든요",
+            "norm_text": "B.일단 #@이름# 이고 주소가 #@주소# 거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+일단/MAG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+주소/NNG+가/JKS+#/SY+@/SY+주소/NNG+#/SY+거든요/JX"
+          },
+          {
+            "id": 4,
+            "text": "A.고객님 듣고 있습니다 말씀하세요",
+            "norm_text": "A.고객님 듣고 있습니다 말씀하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+듣/VV+고/EC+있/VX+습니다/EF+말씀/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.아까 상담사분은 입금액이 사만 천사백원이라고 했는데요",
+            "norm_text": "B.아까 상담사분은 입금액이 사만 천사백원이라고 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아까/MAG+상담/NNG+사/NR+분/NNBC+은/JX+입금액/NNG+이/JKS+사만/NR+천/NR+사/NR+백/NR+원/NNBC+이/VCP+라고/EC+했/VX+EP+는데요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.카톡은 사만 육천사백원이 왔어요",
+            "norm_text": "A.카톡은 사만 육천사백원이 왔어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+카톡/NNP+은/JX+사만/NR+육/NR+천/NR+사/NR+백/NR+원/NNBC+이/JKS+왔어요/VV+EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.고객님 사만 육천사백원을 입금 해주셔야 됩니다",
+            "norm_text": "A.고객님 사만 육천사백원을 입금 해주셔야 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+사만/NR+육/NR+천/NR+사/NR+백/NR+원/NNBC+을/JKO+입금/NNG+해/XSV+EC+주/VX+셔야/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.근데 삼만팔천 구백원에 택배비 이천 오백원이라 했는데요",
+            "norm_text": "B.근데 삼만팔천 구백원에 택배비 이천 오백원이라 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+근데/MAJ+삼/NR+만/NR+팔/NR+천/NR+구/NR+백/NR+원/NNBC+에/JKB+택배/NNG+비/XPN+이/NR+천/NR+오/NR+백/NR+원/NNBC+이/VCP+라/EC+했/VX+EP+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.고객님 확인 해 보겠습니다",
+            "norm_text": "A.고객님 확인 해 보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.고객님 이 부분 확인 후 다시 전화 드려도 되겠습니까",
+            "norm_text": "A.고객님 이 부분 확인 후 다시 전화 드려도 되겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+이/JKS+부분/NNG+확인/NNG+후/NNG+다시/MAG+전화/NNG+드려도/VV+EC+되/VV+겠/EP+습니까/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.전화를 다시 한다고예",
+            "norm_text": "B.전화를 다시 한다고예",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+전화/NNG+를/JKO+다시/MAG+한다고/VV+EC+예/NNG"
+          },
+          {
+            "id": 12,
+            "text": "A.예 제가 전화 드리겠습니다",
+            "norm_text": "A.예 제가 전화 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+예/IC+제/NP+가/JKS+전화/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.그러믄 끊고 기다릴까요",
+            "norm_text": "B.그러믄 끊고 기다릴까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러믄/MAJ+끊/VV+고/EC+기다릴까요/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.네 제가 다시 연락 드리겠습니다",
+            "norm_text": "A.네 제가 다시 연락 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+제/NP+가/JKS+다시/MAG+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.예 전화 주세요",
+            "norm_text": "B.예 전화 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+전화/NNG+주세요/NNP"
+          },
+          {
+            "id": 16,
+            "text": "A.네 상담사 #@이름# 이였습니다",
+            "norm_text": "A.네 상담사 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 12775,
+    "name": "c1_20210913_0005_0850_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151337095068/c1_20210913_0005_0850_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151337095068/c1_20210913_0005_0850_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10203,
+      "filename": "c1_20210818_0009_0016_01.txt",
+      "title": "c1_20210818_0009_0016_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 481,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 481,
+        "word_size": 109,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.예 제가 서울 #@소속# 에다가 문의를 남기고 답변을 받았는데요\nB.무료 법률 상담도 해준다고 하더라고요 혹시 여기도 되나 싶어서요\nA.법률 상담은 저희 쪽에선 확인이 어렵습니다\nA.다만 대한법률구조공단 고객센터 번호를 안내해 드릴 수는 있습니다\nB.네 그럼 번호 좀 알려주실 수 있나요\nA.선생님 지역을 알려주시면 법률 상담하실 수 있는 번호 안내해드리겠습니다\nB.지역이 세종시 #@주소#이요\nA.네 지금 메모 가능하십니까\nB.잠시만요 지금 알려주실 전화번호는 어디 번호에요\nA.세종 지역을 담당하고 있는 대전 지부 번호입니다\nB.그러면 무료 법률사예요\nA.네 맞습니다 무료 법률사이십니다\nB.네 그럼 번호가 어떻게 돼요\nA.네 번호가 #@전번#입니다\nB.네 알겠습니다 감사합니다\nA.다른 문의 사항은 없으십니까\nB.아니요 더 없어요\nA.네 업무 처리 잘 되시길 바랍니다 #@소속# #@이름#였습니다\nB.네 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 제가 서울 #@소속# 에다가 문의를 남기고 답변을 받았는데요",
+            "norm_text": "B.예 제가 서울 #@소속# 에다가 문의를 남기고 답변을 받았는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+제/NP+가/JKS+서울/NNP+#/SY+@/SY+소속/NNG+#/SY+에다가/JKB+문의/NNG+를/JKO+남기/VV+고/EC+답변/NNG+을/JKO+받/VV+았/EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.무료 법률 상담도 해준다고 하더라고요 혹시 여기도 되나 싶어서요",
+            "norm_text": "B.무료 법률 상담도 해준다고 하더라고요 혹시 여기도 되나 싶어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+무료/NNG+법률/NNG+상담/NNG+도/JX+해준다고/VX+EC+VX+EC+하/VX+더라고요/EF+혹시/MAG+여기/NP+도/JX+되/VV+나/EC+싶/VX+어서요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.법률 상담은 저희 쪽에선 확인이 어렵습니다",
+            "norm_text": "A.법률 상담은 저희 쪽에선 확인이 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+법률/NNG+상담/NNG+은/JX+저희/NP+쪽/NNB+에선/JKB+JX+확인/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.다만 대한법률구조공단 고객센터 번호를 안내해 드릴 수는 있습니다",
+            "norm_text": "A.다만 대한법률구조공단 고객센터 번호를 안내해 드릴 수는 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+다만/MAJ+대한/VV+ETM+법률/NNG+구조/NNG+공단/NNG+고객/NNG+센터/NNG+번호/NNG+를/JKO+안내/NNG+해/XSV+EC+드릴/VX+ETM+수/NNB+는/JX+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 그럼 번호 좀 알려주실 수 있나요",
+            "norm_text": "B.네 그럼 번호 좀 알려주실 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+번호/NNG+좀/MAG+알려/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.선생님 지역을 알려주시면 법률 상담하실 수 있는 번호 안내해드리겠습니다",
+            "norm_text": "A.지역을 알려주시면 법률 상담하실 수 있는 번호 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+지역/NNG+을/JKO+알려/VV+EC+주/VX+시/EP+면/EC+법률/NNG+상담/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+는/ETM+번호/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.지역이 세종시 #@주소#이요",
+            "norm_text": "B.지역이 세종시 #@주소#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+지역/NNG+이/JKS+세/MM+종시/NNG+#/SY+@/SY+주소/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 지금 메모 가능하십니까",
+            "norm_text": "A.네 지금 메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+지금/MAG+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.잠시만요 지금 알려주실 전화번호는 어디 번호에요",
+            "norm_text": "B.잠시만요 지금 알려주실 전화번호는 어디 번호에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+잠시/NNG+만/JX+요/JX+지금/MAG+알려/VV+EC+주/VX+실/EP+ETM+전화/NNG+번호/NNG+는/JX+어디/NP+번호/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.세종 지역을 담당하고 있는 대전 지부 번호입니다",
+            "norm_text": "A.세종 지역을 담당하고 있는 대전 지부 번호입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+세종/NNP+지역/NNG+을/JKO+담당/NNG+하/XSV+고/EC+있/VX+는/ETM+대전/NNG+지부/NNG+번호/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그러면 무료 법률사예요",
+            "norm_text": "B.그러면 무료 법률사예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+무료/NNG+법률/NNG+사예/NNG+요/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 맞습니다 무료 법률사이십니다",
+            "norm_text": "A.네 맞습니다 무료 법률사이십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+무료/NNG+법률/NNG+사이/NNG+십니다/VCP+EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.네 그럼 번호가 어떻게 돼요",
+            "norm_text": "B.네 그럼 번호가 어떻게 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+번호/NNG+가/JKS+어떻게/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네 번호가 #@전번#입니다",
+            "norm_text": "A.네 번호가 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.다른 문의 사항은 없으십니까",
+            "norm_text": "A.다른 문의 사항은 없으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 18,
+            "text": "B.아니요 더 없어요",
+            "norm_text": "B.아니요 더 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+더/MAG+없/VA+어요/EF"
+          },
+          {
+            "id": 19,
+            "text": "A.네 업무 처리 잘 되시길 바랍니다 #@소속# #@이름#였습니다",
+            "norm_text": "A.네 업무 처리 잘 되시길 바랍니다 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+업무/NNG+처리/NNG+잘/MAG+되/VV+시/EP+길/ETN+JKO+바랍니다/VV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          },
+          {
+            "id": 20,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

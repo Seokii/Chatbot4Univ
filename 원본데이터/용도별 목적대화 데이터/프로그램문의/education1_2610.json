@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 149285,
+    "name": "e1_20211117_0006_0687_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/91/txt202111101400070293103/e1_20211117_0006_0687_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/91/txt202111101400070293103/e1_20211117_0006_0687_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 158191,
+      "filename": "e1_0068_0119_02.txt",
+      "title": "e1_0068_0119_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 399,
+      "annotations": {
+        "subject": "프로그램 문의",
+        "speaker_type": "1:1",
+        "size": 399,
+        "word_size": 99,
+        "text": "A.전화 주셔서 감사합니다 #@소속# #@이름# 입니다\nA.고객님 무엇을 도와 드릴까요\nB.주부교실 좀 알아보고 한글도 좀 배워볼까 하거든요\nA.문의하신 한글 주부교실은 개설 되어 있습니다\nB.그럼 몇시부터 몇시까지 하는가 뭐 그런거 있지 않나요\nA.주간반 야간반 모두 하고요 두 반 모두 월수금 수업이 있어요\nA.주간반은 오전 9시 30분 부터 11시30분 까지 하고요\nB.아니 그럼 오후에 하는것도 있을까요\nA.야간반은 오후 6시 부터 8시까지 수업 하고 있습니다\nB.그럼 학원 가서 등록하고 그러면 바로 수업 듣고 그런거에요\nA.수업 시간 전에 오셔서 등록 하시면 당일 수강 가능하세요\nA.고객님 다른 문의 사항 있으신가요\nB.아니요 없어요 학원에 가보는 수 밖에 없네요\nA.좋은 하루 되세요 #@소속# 상담원 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화 주셔서 감사합니다 #@소속# #@이름# 입니다",
+            "norm_text": "A.전화 주셔서 감사합니다 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.고객님 무엇을 도와 드릴까요",
+            "norm_text": "A.고객님 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.주부교실 좀 알아보고 한글도 좀 배워볼까 하거든요",
+            "norm_text": "B.주부교실 좀 알아보고 한글도 좀 배워볼까 하거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+주부/NNG+교실/NNG+좀/MAG+알아보/VV+고/EC+한글/NNG+도/JX+좀/MAG+배워볼까/VV+EC+VX+EC+하/VX+거든요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.문의하신 한글 주부교실은 개설 되어 있습니다",
+            "norm_text": "A.문의하신 한글 주부교실은 개설 되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+문의/NNG+하/XSV+신/EP+ETM+한글/NNG+주부/NNG+교실/NNG+은/JX+개설/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.그럼 몇시부터 몇시까지 하는가 뭐 그런거 있지 않나요",
+            "norm_text": "B.그럼 몇시부터 몇시까지 하는가 뭐 그런거 있지 않나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+몇/MM+시/NNBC+부터/JX+몇/MM+시/NNBC+까지/JX+하/VV+는가/EC+뭐/IC+그런/MM+거/NNB+있/VA+지/EC+않/VX+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.주간반 야간반 모두 하고요 두 반 모두 월수금 수업이 있어요",
+            "norm_text": "A.주간반 야간반 모두 하고요 두 반 모두 월수금 수업이 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주간/NNG+반야/NNG+간반/NNG+모두/MAG+하/VV+고/EC+요두/NNG+반/NNG+모두/MAG+월/NNG+수금/NNG+수업/NNG+이/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.주간반은 오전 9시 30분 부터 11시30분 까지 하고요",
+            "norm_text": "A.주간반은 오전 9시 30분 부터 11시30분 까지 하고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주간/NNG+반/NNG+은/JX+오전/NNG+9/SN+시/NNBC+30/SN+분/NNBC+부터/JX+11/SN+시/NNBC+30/SN+분/NNBC+까지/JX+하/VV+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.아니 그럼 오후에 하는것도 있을까요",
+            "norm_text": "B.아니 그럼 오후에 하는것도 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아니/IC+그럼/MAJ+오후/NNG+에/JKB+하/VV+는/ETM+것/NNB+도/JX+있/VA+을까요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.야간반은 오후 6시 부터 8시까지 수업 하고 있습니다",
+            "norm_text": "A.야간반은 오후 6시 부터 8시까지 수업 하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+야간/NNG+반/NNG+은/JX+오후/NNG+6/SN+시/NNBC+부터/JX+8/SN+시/NNBC+까지/JX+수업/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그럼 학원 가서 등록하고 그러면 바로 수업 듣고 그런거에요",
+            "norm_text": "B.그럼 학원 가서 등록하고 그러면 바로 수업 듣고 그런거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+학원/NNG+가/VV+서/EC+등록/NNG+하/XSV+고/EC+그러/VV+면/EC+바로/MAG+수업/NNG+듣/VV+고/EC+그런/MM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.수업 시간 전에 오셔서 등록 하시면 당일 수강 가능하세요",
+            "norm_text": "A.수업 시간 전에 오셔서 등록 하시면 당일 수강 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+수업/NNG+시간/NNG+전/NNG+에/JKB+오/VV+셔서/EP+EC+등록/NNG+하/XSV+시/EP+면/EC+당일/NNG+수강/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.고객님 다른 문의 사항 있으신가요",
+            "norm_text": "A.고객님 다른 문의 사항 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 13,
+            "text": "B.아니요 없어요 학원에 가보는 수 밖에 없네요",
+            "norm_text": "B.아니요 없어요 학원에 가보는 수 밖에 없네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니요/IC+없/VA+어요/EF+학원/NNG+에/JKB+가/VV+EC+보/VX+는/ETM+수/NNB+밖에/JX+없/VA+네요/EC"
+          },
+          {
+            "id": 14,
+            "text": "A.좋은 하루 되세요 #@소속# 상담원 #@이름# 이었습니다",
+            "norm_text": "A.좋은 하루 되세요 #@소속# 상담원 #@이름# 이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

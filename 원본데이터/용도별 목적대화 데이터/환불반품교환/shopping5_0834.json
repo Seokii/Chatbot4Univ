@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 50612,
+    "name": "s5_20211018_0012_0087_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131243001516/s5_20211018_0012_0087_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20211008131243001516/s5_20211018_0012_0087_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 58127,
+      "filename": "s5_20210831_0028_0009_01.txt",
+      "title": "s5_20210831_0028_0009_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 287,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 287,
+        "word_size": 66,
+        "text": "A.안녕하세요 고객님 상담사 #@이름#입니다\nB.예 #@소속# 페이에서 마스크 주문했는데요\nB.아직 못 받아가지고 전화드렸거든요\nA.네 고객님 성함이랑 휴대폰 번호 한번 알려주세요\nB.이름은 #@이름#이고요 번호는 #@전번#입니다\nA.네 지금 마스크 블랙 색상으로 대형으로 구매해 주셨고 확인됐구요\nA.이게 출고는 팔 일 날 오후에 접수됐는데 공휴일이고 하다 보니까요\nA.이동은 어제 시작이 되었구요 군포 터미널에 도착해 있어서요\nA.빠르면 오늘 밤 아니면은 내일 해서 배달은 될 것 같아요\nB.예 알겠습니다 기다려 보고 있을게요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 고객님 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 #@소속# 페이에서 마스크 주문했는데요",
+            "norm_text": "B.예 #@소속# 페이에서 마스크 주문했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+소속/NNG+#/SY+페이/NNP+에서/JKB+마스크/NNG+주문/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.아직 못 받아가지고 전화드렸거든요",
+            "norm_text": "B.아직 못 받아가지고 전화드렸거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아직/MAG+못/MAG+받/VV+아/EC+가지/VX+고/EC+전화/NNG+드렸/VV+EP+거든요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.네 고객님 성함이랑 휴대폰 번호 한번 알려주세요",
+            "norm_text": "A.네 고객님 성함이랑 휴대폰 번호 한번 알려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+성함/NNG+이랑/JKB+휴대폰/NNG+번호/NNG+한/MM+번/NNBC+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "B.이름은 #@이름#이고요 번호는 #@전번#입니다",
+            "norm_text": "B.이름은 #@이름#이고요 번호는 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 지금 마스크 블랙 색상으로 대형으로 구매해 주셨고 확인됐구요",
+            "norm_text": "A.네 지금 마스크 블랙 색상으로 대형으로 구매해 주셨고 확인됐구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+지금/MAG+마스크/IC+블랙/NNG+색상/NNG+으로/JKB+대형/NNG+으로/JKB+구매/NNG+해/XSV+EC+주/VX+셨/EP+EP+고/EC+확인/NNG+됐/XSV+EP+구요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.이게 출고는 팔 일 날 오후에 접수됐는데 공휴일이고 하다 보니까요",
+            "norm_text": "A.이게 출고는 팔 일 날 오후에 접수됐는데 공휴일이고 하다 보니까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이게/NP+JKS+출고/NNG+는/JX+팔/NR+일/NNBC+날/NNG+오후/NNG+에/JKB+접수/NNG+됐/XSV+EP+는데/EC+공휴일/NNG+이/VCP+고/EC+하/VV+다/EC+보/VX+니까요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.이동은 어제 시작이 되었구요 군포 터미널에 도착해 있어서요",
+            "norm_text": "A.이동은 어제 시작이 되었구요 군포 터미널에 도착해 있어서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+이동/NNG+은/JX+어제/MAG+시작/NNG+이/JKS+되/VV+었/EP+구요/EF+군포/NNG+터미널/NNG+에/JKB+도착/NNG+해/XSV+EC+있/VX+어서요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.빠르면 오늘 밤 아니면은 내일 해서 배달은 될 것 같아요",
+            "norm_text": "A.빠르면 오늘 밤 아니면은 내일 해서 배달은 될 것 같아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+빠르/VA+면/EC+오늘/MAG+밤/NNG+아니/VCN+면은/EC+내일/NNG+해서/XSV+EC+배달/NNG+은/JX+될/VV+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.예 알겠습니다 기다려 보고 있을게요",
+            "norm_text": "B.예 알겠습니다 기다려 보고 있을게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+예/IC+알/VV+겠/EP+습니다/EF+기다려/VV+EC+보/VX+고/EC+있/VX+을게요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

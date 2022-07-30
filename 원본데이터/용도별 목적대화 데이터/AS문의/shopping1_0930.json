@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 13345,
+    "name": "s1_20210913_0001_0531_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151220013915/s1_20210913_0001_0531_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151220013915/s1_20210913_0001_0531_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7949,
+      "filename": "s1_20210824_0026_0016_01.txt",
+      "title": "s1_20210824_0026_0016_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 413,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 413,
+        "word_size": 96,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.예 #@소속# 피씨 중에 메인보드를 바꾸게 됐거든요\nB.근데 바이오스 해가지고 좀 틀려가지고 포맷을 해야될 경우가 있나여\nA.고객님 죄송합니다만 그부분은 제가 좀 바로 안내가 어려워서요\nB.메인보드가 고장 났는데 센터 어디로 전화해야 되는건가여\nA.예 저희가 지금 전문상담 부서에 상담이 많이 밀려있어요\nA.그래서 지금 시간이 두세 시간 정도 지연이 되고 있다고 합니다\nA.계시는 지역이 어디세여 고객님\nB.네 대구 수정구요\nA.예 잠깐만여 가까운 센터 전화번호 좀 확인해 보겠습니다\nA.고객님 수성 수성구 황금동에 서비스 센터가 있구여\nA.동대구 센터 전화번호 안내해 드리겠습니다 메모 가능하십니까\nB.네 메모 가능합니다\nA.네 동대구 센터 #@전번#입니다\nB.예 알겠습니다 수고하세요\nA.네 감사합니다 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 #@소속# 피씨 중에 메인보드를 바꾸게 됐거든요",
+            "norm_text": "B.예 #@소속# 피씨 중에 메인보드를 바꾸게 됐거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+소속/NNG+#/SY+피/NNP+씨/NNB+중/NNB+에/JKB+메인보드/NNP+를/JKO+바꾸/VV+게/EC+됐/VV+EP+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "B.근데 바이오스 해가지고 좀 틀려가지고 포맷을 해야될 경우가 있나여",
+            "norm_text": "B.근데 바이오스 해가지고 좀 틀려가지고 포맷을 해야될 경우가 있나여",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+근데/MAJ+바이오스/NNP+해/VV+EC+가지/VX+고/EC+좀/MAG+틀려/VA+EC+가지/VX+고/EC+포맷/NNG+을/JKO+해야/VV+EC+될/VV+ETM+경우/NNG+가/JKS+있/VA+나/EC+여/NNG"
+          },
+          {
+            "id": 4,
+            "text": "A.고객님 죄송합니다만 그부분은 제가 좀 바로 안내가 어려워서요",
+            "norm_text": "A.고객님 죄송합니다만 그부분은 제가 좀 바로 안내가 어려워서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+죄송/XR+합니다만/XSA+EC+그/MM+부분/NNG+은/JX+제/NP+가/JKS+좀/MAG+바로/MAG+안내/NNG+가/JKS+어려워/VA+EC+서요/NNG"
+          },
+          {
+            "id": 5,
+            "text": "B.메인보드가 고장 났는데 센터 어디로 전화해야 되는건가여",
+            "norm_text": "B.메인보드가 고장 났는데 센터 어디로 전화해야 되는건가여",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+메인보드/NNP+가/JKS+고장났/VV+EP+는데/EC+센터/NNG+어디/NP+로/JKB+전화/NNG+해야/XSV+EC+되/VV+는/ETM+건가/NNB+VCP+EC+VCP+여/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.예 저희가 지금 전문상담 부서에 상담이 많이 밀려있어요",
+            "norm_text": "A.예 저희가 지금 전문상담 부서에 상담이 많이 밀려있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+저희/NP+가/JKS+지금/MAG+전문/NNG+상담/NNG+부서/NNG+에/JKB+상담/NNG+이/JKS+많이/MAG+밀려/VV+EC+있/VX+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.그래서 지금 시간이 두세 시간 정도 지연이 되고 있다고 합니다",
+            "norm_text": "A.그래서 지금 시간이 두세 시간 정도 지연이 되고 있다고 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그래서/MAJ+지금/MAG+시간/NNG+이/JKS+두세/MM+시간/NNG+정도/NNG+지연/NNG+이/JKS+되/VV+고/EC+있/VX+다고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.계시는 지역이 어디세여 고객님",
+            "norm_text": "A.계시는 지역이 어디세여 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+계시/VV+는/ETM+지역/NNG+이/JKS+어디/NP+세여/NNG+고객/NNG+님/XSN"
+          },
+          {
+            "id": 9,
+            "text": "B.네 대구 수정구요",
+            "norm_text": "B.네 대구 수정구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+대구/NNP+수정구/NNG+요/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.예 잠깐만여 가까운 센터 전화번호 좀 확인해 보겠습니다",
+            "norm_text": "A.예 잠깐만여 가까운 센터 전화번호 좀 확인해 보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+예/IC+잠깐/MAG+만/NR+여/XSN+가까운/VA+ETM+센터/NNG+전화/NNG+번호/NNG+좀/MAG+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.고객님 수성 수성구 황금동에 서비스 센터가 있구여",
+            "norm_text": "A.고객님 수성 수성구 황금동에 서비스 센터가 있구여",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+수성/NNP+수성구/NNP+황금동/NNP+에서/JKB+비스/NNG+센터/NNG+가/JKS+있/VA+구/EC+여/NNG"
+          },
+          {
+            "id": 12,
+            "text": "A.동대구 센터 전화번호 안내해 드리겠습니다 메모 가능하십니까",
+            "norm_text": "A.동대구 센터 전화번호 안내해 드리겠습니다 메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+동대구/NNG+센터/NNG+전화/NNG+번호/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.네 메모 가능합니다",
+            "norm_text": "B.네 메모 가능합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+메모/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 동대구 센터 #@전번#입니다",
+            "norm_text": "A.네 동대구 센터 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+동대구/NNG+센터/NNG+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.예 알겠습니다 수고하세요",
+            "norm_text": "B.예 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 16,
+            "text": "A.네 감사합니다 좋은 하루 보내세요",
+            "norm_text": "A.네 감사합니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

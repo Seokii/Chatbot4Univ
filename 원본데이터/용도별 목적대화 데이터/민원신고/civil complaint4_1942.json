@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 49698,
+    "name": "c4_20211015_0014_0081_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151532080561/c4_20211015_0014_0081_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151532080561/c4_20211015_0014_0081_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 15607,
+      "filename": "c4_20210819_0011_0016_01.txt",
+      "title": "c4_20210819_0011_0016_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 239,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 239,
+        "word_size": 50,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nA.무엇을 도와 드릴까요 선생님\nB.네 제가 승차거부를 당해서 신고하고 싶은데요\nA.혹시 이용하신 교통수단이 어떻게 되십니까\nB.택시 이용하다가 당했습니다\nA.선생님 택시승차 거부는 이용하신 시청 또는 군청에 문의 주셔야 합니다\nA.이용하신 지역이 어디십니까\nB.제가 #@주소#에서 콜을 불렀거든요\nA.그럼 #@소속#에 문의를 주시면 좋을 듯 싶습니다\nB.그래요 #@소속#에 문의해 보겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.무엇을 도와 드릴까요 선생님",
+            "norm_text": "A.무엇을 도와 드릴까요 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC+선생/NNG+님/XSN"
+          },
+          {
+            "id": 3,
+            "text": "B.네 제가 승차거부를 당해서 신고하고 싶은데요",
+            "norm_text": "B.네 제가 승차거부를 당해서 신고하고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+승차/NNG+거부/NNG+를/JKO+당해서/VV+EC+신고/NNG+하/XSV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.혹시 이용하신 교통수단이 어떻게 되십니까",
+            "norm_text": "A.혹시 이용하신 교통수단이 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+이용/NNG+하/XSV+신/EP+ETM+교통수단/NNG+이/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.택시 이용하다가 당했습니다",
+            "norm_text": "B.택시 이용하다가 당했습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+택시/NNG+이용/NNG+하/XSV+다가/EC+당했/VV+EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.선생님 택시승차 거부는 이용하신 시청 또는 군청에 문의 주셔야 합니다",
+            "norm_text": "A.선생님 택시승차 거부는 이용하신 시청 또는 군청에 문의 주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+택시/NNG+승차/NNG+거부/NNG+는/JX+이용/NNG+하/XSV+신/EP+ETM+시청/NNG+또는/MAJ+군청/NNG+에/JKB+문/NNG+의/JKG+주/VV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.이용하신 지역이 어디십니까",
+            "norm_text": "A.이용하신 지역이 어디십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+이용/NNG+하/XSV+신/EP+ETM+지역/NNG+이/JKS+어디/NP+십니까/VCP+EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.제가 #@주소#에서 콜을 불렀거든요",
+            "norm_text": "B.제가 #@주소#에서 콜을 불렀거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+#/SY+@/SY+주소/NNG+#/SY+에서/JKB+콜/NNG+을/JKO+불렀/VV+EP+거든요/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.그럼 #@소속#에 문의를 주시면 좋을 듯 싶습니다",
+            "norm_text": "A.그럼 #@소속#에 문의를 주시면 좋을 듯 싶습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+그럼/MAJ+#/SY+@/SY+소속/NNG+#/SY+에/JKB+문의/NNG+를/JKO+주/VV+시/EP+면/EC+좋/VA+을/ETM+듯/NNB+싶/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그래요 #@소속#에 문의해 보겠습니다 감사합니다",
+            "norm_text": "B.그래요 #@소속#에 문의해 보겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그래요/VV+EF+#/SY+@/SY+소속/NNG+#/SY+에/JKB+문의/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 13511,
+    "name": "s3_20210913_0010_1038_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423025441/s3_20210913_0010_1038_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423025441/s3_20210913_0010_1038_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12556,
+      "filename": "s3_20210902_0015_0013_01.txt",
+      "title": "s3_20210902_0015_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 274,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 274,
+        "word_size": 70,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다\nB.예 제가 #@상품#을 찾고 있어요 한 개씩 포장한 걸로요\nA.예 고객님 해당 상품 낱개로 판매 중입니다 주문하시겠어요\nB.예 그전에 가격이 어떻게 되죠\nA.잠시만요 한 개에 이천구백 원이세요 고객님\nB.그러면 오십 개를 사면은 금액이 얼마나 돼요\nA.보니까 대략 만 오천 원 정도 된다고 보시면 되세요\nB.그래요 제가 한 오백 개 주문하려고 하는데 싸게 안 돼요\nA.저희는 위탁 판매 업체라 기재된 금액으로만 판매합니다\nB.그래요 그럼 오백 개 주문할게요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 제가 #@상품#을 찾고 있어요 한 개씩 포장한 걸로요",
+            "norm_text": "B.예 제가 #@상품#을 찾고 있어요 한 개씩 포장한 걸로요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+제/NP+가/JKS+#/SY+@/SY+상품/NNG+#/SY+을/JKO+찾/VV+고/EC+있/VX+어요/EF+한/MM+개/NNBC+씩/XSN+포장/NNG+한/XSA+ETM+걸로/NNB+JKB+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.예 고객님 해당 상품 낱개로 판매 중입니다 주문하시겠어요",
+            "norm_text": "A.예 고객님 해당 상품 낱개로 판매 중입니다 주문하시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+해당/NNG+상품/NNG+낱개/NNG+로/JKB+판매/NNG+중/NNB+입니다/VCP+EF+주문/NNG+하/XSV+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.예 그전에 가격이 어떻게 되죠",
+            "norm_text": "B.예 그전에 가격이 어떻게 되죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+그/MM+전/NNG+에/JKB+가격/NNG+이/JKS+어떻게/MAG+되/VV+죠/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.잠시만요 한 개에 이천구백 원이세요 고객님",
+            "norm_text": "A.잠시만요 한 개에 이천구백 원이세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+잠시/NNG+만/JX+요/JX+한/MM+개/NNBC+에/JKB+이/NR+천/NR+구/NR+백/NR+원/NNBC+이/VCP+세요/EP+EF+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 6,
+            "text": "B.그러면 오십 개를 사면은 금액이 얼마나 돼요",
+            "norm_text": "B.그러면 오십 개를 사면은 금액이 얼마나 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+오/NR+십/NR+개/NNBC+를/JKO+사면/NNG+은/JX+금액/NNG+이/JKS+얼마나/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.보니까 대략 만 오천 원 정도 된다고 보시면 되세요",
+            "norm_text": "A.보니까 대략 만 오천 원 정도 된다고 보시면 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+보/VV+니까/EC+대략/MAG+만/NR+오/NR+천/NR+원/NNBC+정도/NNG+된다고/XSV+EC+보/VX+시/EP+면/EC+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.그래요 제가 한 오백 개 주문하려고 하는데 싸게 안 돼요",
+            "norm_text": "B.그래요 제가 한 오백 개 주문하려고 하는데 싸게 안 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+제/NP+가/JKS+한/MM+오/NR+백/NR+개/NNBC+주문/NNG+하/XSV+려고/EC+하/VV+는/ETM+데/NNB+싸/VV+게/EC+안/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.저희는 위탁 판매 업체라 기재된 금액으로만 판매합니다",
+            "norm_text": "A.저희는 위탁 판매 업체라 기재된 금액으로만 판매합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+저희/NP+는/JX+위탁/NNG+판매/NNG+업체/NNG+라/VCP+EC+기재/NNG+된/XSV+ETM+금액/NNG+으로/JKB+만/JX+판매/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그래요 그럼 오백 개 주문할게요",
+            "norm_text": "B.그래요 그럼 오백 개 주문할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+오/NR+백/NR+개/NNBC+주문/NNG+할게요/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 148506,
+    "name": "t1_20211117_0002_0061_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135717020331/t1_20211117_0002_0061_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135717020331/t1_20211117_0002_0061_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148291,
+      "filename": "t1_0069_0085_02.txt",
+      "title": "t1_0069_0085_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 289,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 289,
+        "word_size": 67,
+        "text": "A.무엇이든 도와드리겠습니다 상담원 #@이름#입니다\nB.안녕하세요 디럭스 룸 관련해서 문의가 있습니다\nA.네 고객님 편하게 말씀해주세요\nB.디럭스 룸 최대 인원이 어떻게 되나요\nA.기준 인원 4명에 최대 성인 6명까지 숙박이 가능합니다\nB.예 두 명까지는 추가가 가능하네요\nB.혹시 추가 요금은 어떻게 되나요\nA.1인 기준 추가 요금 만원이고 추가 침구가 제공됩니다\nB.두 명 추가하면 2만원이네요\nA.추가로 요금에 세금 및 봉사료 10퍼센트가 별도 부과됩니다\nB.음 네 일단 알겠습니다\nA.좋은 하루 보내세요 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.무엇이든 도와드리겠습니다 상담원 #@이름#입니다",
+            "norm_text": "A.무엇이든 도와드리겠습니다 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+무엇/NP+이/VCP+든/EC+도와/VV+EC+드리/VX+겠/EP+습니다/EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 디럭스 룸 관련해서 문의가 있습니다",
+            "norm_text": "B.안녕하세요 디럭스 룸 관련해서 문의가 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+디럭스/NNP+룸/NNG+관련/NNG+해서/XSV+EC+문의/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 편하게 말씀해주세요",
+            "norm_text": "A.네 고객님 편하게 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+편하/VA+게/EC+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.디럭스 룸 최대 인원이 어떻게 되나요",
+            "norm_text": "B.디럭스 룸 최대 인원이 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+디럭스/NNP+룸/NNG+최대/NNG+인원/NNG+이/JKS+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.기준 인원 4명에 최대 성인 6명까지 숙박이 가능합니다",
+            "norm_text": "A.기준 인원 4명에 최대 성인 6명까지 숙박이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기준/NNG+인원/NNG+4/SN+명/NNBC+에/JKB+최대/NNG+성/XSN+인/VCP+ETM+6/SN+명/NNBC+까지/JX+숙박/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예 두 명까지는 추가가 가능하네요",
+            "norm_text": "B.예 두 명까지는 추가가 가능하네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+두/MM+명/NNBC+까지/JX+는/JX+추가/NNG+가/JKS+가능/NNG+하/XSV+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.혹시 추가 요금은 어떻게 되나요",
+            "norm_text": "B.혹시 추가 요금은 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+추가/NNG+요금/NNG+은/JX+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.1인 기준 추가 요금 만원이고 추가 침구가 제공됩니다",
+            "norm_text": "A.1인 기준 추가 요금 만원이고 추가 침구가 제공됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+1/SN+인기/NNG+준추/NNG+가/JKS+요금/NNG+만/NR+원/NNBC+이/VCP+고/EC+추가/NNG+침구/NNG+가/JKS+제공/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.두 명 추가하면 2만원이네요",
+            "norm_text": "B.두 명 추가하면 2만원이네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+두/MM+명/NNBC+추가/NNG+하/XSV+면/EC+2/SN+만/NR+원/NNBC+이/VCP+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.추가로 요금에 세금 및 봉사료 10퍼센트가 별도 부과됩니다",
+            "norm_text": "A.추가로 요금에 세금 및 봉사료 10퍼센트가 별도 부과됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+추가/NNG+로/JKB+요금/NNG+에/JKB+세금/NNG+및/MAJ+봉사료/NNG+10/SN+퍼센트/NNBC+가/JKS+별도/NNG+부과/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.음 네 일단 알겠습니다",
+            "norm_text": "B.음 네 일단 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+음/IC+네/IC+일단/MAG+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.좋은 하루 보내세요 상담원 #@이름#이었습니다",
+            "norm_text": "A.좋은 하루 보내세요 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

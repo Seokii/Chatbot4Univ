@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "identifier": 13423,
+    "name": "c2_20210914_0012_0212_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151533003994/c2_20210914_0012_0212_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/44/txt20210908151533003994/c2_20210914_0012_0212_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 15641,
+      "filename": "c4_20210819_0010_0010_01.txt",
+      "title": "c4_20210819_0010_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 625,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 625,
+        "word_size": 139,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요\nB.안녕하세요 서울에서 당진 고속버스터미날로 가려고 하는데요\nA.실례지만 서울 어느 지역에서 출발하시는 부분이십니까\nB.당진 가는 버스편이 제일 많은 터미날이 어디에요 서울에서요\nA.그럼 서울에서 당진 버스터미널로 제가 다시 확인 후 안내해 드리겠습니다\nB.네 시간대도 한번 봐주시구요 내일 갈거에요\nA.네 알겠습니다 확인을 위해 잠시만 기다려 주시겠습니까\nB.네 버스터미널이랑 시간대 확인 좀 부탁드려요\nA.선생님 기다려 주셔서 감사합니다 #@소속#지도 길찾기 검색 결과 말씀드릴게요\nA.센트럴시티 터미널에서 당진행 버스가 확인이 되는데\nA.실례지만 이용하실 시간대가 어떻게 되십니까\nB.내일 한 열두시 넘어서 타려구요\nA.열두시 이후로 제가 안내해 드리겠습니다 메모 가능하십니까\nB.잠깐만요 제가 적어볼게요\nA.네 열두시 십오분 열두시 사십분 오후 한시 오분 한시 삼십분\nB.그 정도면 됐구요 버스가 당진까지 한시간 사십분 걸리나요\nA.네 한시간 사십분 소요되는 부분으로 확인이 됩니다\nB.네 한시 오분 버스를 타면 되겠네요 감사합니다\nA.감사합니다 더 다른 문의사항 있으십니까\nB.아니요 다른 문의사항은 없습니다 수고하세요\nA.네 안전한 길찾기 되시길 바랍니다 #@소속# #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 서울에서 당진 고속버스터미날로 가려고 하는데요",
+            "norm_text": "B.안녕하세요 서울에서 당진 고속버스터미날로 가려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+서울/NNP+에서/JKB+당진/NNP+고속/NNG+버스터/NNP+미/NNP+날/NNG+로/JKB+가/VV+려고/EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.실례지만 서울 어느 지역에서 출발하시는 부분이십니까",
+            "norm_text": "A.실례지만 서울 어느 지역에서 출발하시는 부분이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+실례/NNG+지만/VCP+EC+서울/NNP+어느/MM+지역/NNG+에서/JKB+출발/NNG+하/XSV+시/EP+는/ETM+부분/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.당진 가는 버스편이 제일 많은 터미날이 어디에요 서울에서요",
+            "norm_text": "B.당진 가는 버스편이 제일 많은 터미날이 어디에요 서울에서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+당진/NNP+가/VV+는/ETM+버스/NNG+편/NNB+이/JKS+제일/MAG+많/VA+은/ETM+터/NNB+미/NNP+날/NNG+이/JKS+어디/NP+에/JKB+요/JX+서울/NNP+에서/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.그럼 서울에서 당진 버스터미널로 제가 다시 확인 후 안내해 드리겠습니다",
+            "norm_text": "A.그럼 서울에서 당진 버스터미널로 제가 다시 확인 후 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그럼/MAJ+서울/NNP+에서/JKB+당진/NNP+버스/NNG+터미널/NNG+로/JKB+제/NP+가/JKS+다시/MAG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 시간대도 한번 봐주시구요 내일 갈거에요",
+            "norm_text": "B.네 시간대도 한번 봐주시구요 내일 갈거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+시간대/NNG+도/JX+한/MM+번/NNBC+봐/VV+EC+주/VX+시/EP+구요/EF+내일/MAG+갈/VV+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 알겠습니다 확인을 위해 잠시만 기다려 주시겠습니까",
+            "norm_text": "A.네 알겠습니다 확인을 위해 잠시만 기다려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+확인/NNG+을/JKO+위해/VV+EC+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 버스터미널이랑 시간대 확인 좀 부탁드려요",
+            "norm_text": "B.네 버스터미널이랑 시간대 확인 좀 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+버스/NNG+터미널/NNG+이랑/JKB+시간/NNG+대/XPN+확인/NNG+좀/MAG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.선생님 기다려 주셔서 감사합니다 #@소속#지도 길찾기 검색 결과 말씀드릴게요",
+            "norm_text": "A.선생님 기다려 주셔서 감사합니다 #@소속#지도 길찾기 검색 결과 말씀드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+지도/NNG+길/NNG+찾/VV+기/ETN+검색/NNG+결과/NNG+말씀/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.센트럴시티 터미널에서 당진행 버스가 확인이 되는데",
+            "norm_text": "A.센트럴시티 터미널에서 당진행 버스가 확인이 되는데",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+센트럴/NNP+시티/NNG+터미널/NNG+에서/JKB+당/NNG+진행/NNG+버스/NNG+가/JKS+확인/NNG+이/JKS+되/VV+는데/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.실례지만 이용하실 시간대가 어떻게 되십니까",
+            "norm_text": "A.실례지만 이용하실 시간대가 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+실례/NNG+지만/VCP+EC+이용/NNG+하/XSV+실/EP+ETM+시간대/NNG+가/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.내일 한 열두시 넘어서 타려구요",
+            "norm_text": "B.내일 한 열두시 넘어서 타려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+내일/MAG+한/MM+열/NR+두/MM+시/NNBC+넘/VV+어서/EC+타/VV+려구요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.열두시 이후로 제가 안내해 드리겠습니다 메모 가능하십니까",
+            "norm_text": "A.열두시 이후로 제가 안내해 드리겠습니다 메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+열/NR+두/MM+시/NNBC+이후/NNG+로/JKB+제/NP+가/JKS+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.잠깐만요 제가 적어볼게요",
+            "norm_text": "B.잠깐만요 제가 적어볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+잠깐/MAG+만/JX+요/JX+제/NP+가/JKS+적/VA+어/EC+볼게요/VX+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.네 열두시 십오분 열두시 사십분 오후 한시 오분 한시 삼십분",
+            "norm_text": "A.네 열두시 십오분 열두시 사십분 오후 한시 오분 한시 삼십분",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+열/NR+두/MM+시/NNBC+십/NR+오/NR+분/NNBC+열/NR+두/MM+시/NNBC+사/NR+십/NR+분/NNBC+오후/NNG+한/MM+시/NNBC+오/NR+분/NNBC+한/MM+시/NNBC+삼/NR+십/NR+분/NNBC"
+          },
+          {
+            "id": 16,
+            "text": "B.그 정도면 됐구요 버스가 당진까지 한시간 사십분 걸리나요",
+            "norm_text": "B.그 정도면 됐구요 버스가 당진까지 한시간 사십분 걸리나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그/MM+정도/NNG+면/VCP+EC+됐/VV+EP+구요/EF+버스/NNG+가/JKS+당진/NNP+까지/JX+한/MM+시간/NNG+사/NR+십/NR+분/NNBC+걸리/VV+나요/EC"
+          },
+          {
+            "id": 17,
+            "text": "A.네 한시간 사십분 소요되는 부분으로 확인이 됩니다",
+            "norm_text": "A.네 한시간 사십분 소요되는 부분으로 확인이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+한/MM+시간/NNG+사/NR+십/NR+분/NNBC+소요/NNG+되/XSV+는/ETM+부분/NNG+으로/JKB+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "B.네 한시 오분 버스를 타면 되겠네요 감사합니다",
+            "norm_text": "B.네 한시 오분 버스를 타면 되겠네요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+한/MM+시/NNBC+오/NR+분/NNBC+버스/NNG+를/JKO+타/VV+면/EC+되/VV+겠/EP+네요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.감사합니다 더 다른 문의사항 있으십니까",
+            "norm_text": "A.감사합니다 더 다른 문의사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+더/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 20,
+            "text": "B.아니요 다른 문의사항은 없습니다 수고하세요",
+            "norm_text": "B.아니요 다른 문의사항은 없습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아니요/IC+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 21,
+            "text": "A.네 안전한 길찾기 되시길 바랍니다 #@소속# #@이름#였습니다",
+            "norm_text": "A.네 안전한 길찾기 되시길 바랍니다 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안전/NNG+한길/NNG+찾/VV+기/ETN+되/VV+시/EP+길/ETN+JKO+바랍니다/VV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 149849,
+    "name": "t2_20211117_0002_0002_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135721087739/t2_20211117_0002_0002_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135721087739/t2_20211117_0002_0002_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148906,
+      "filename": "t2_0052_0002_02.txt",
+      "title": "t2_0052_0002_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 277,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 277,
+        "word_size": 52,
+        "text": "A.안녕하세요 #@소속# 친절한 상담사 #@이름#입니다\nB.안녕하세요 경주에 가는 고속버스는 어디어디서 탈 수 있나요\nA.네 고객님 출발지가 어디신가요\nB.저는 서울에서 출발합니다\nA.서울에서 경주오시는 고속버스는 서울고속버스터미널이 있습니다\nB.그러면 어디에서 내리나요\nA.경주 고속버스터미널에서 하차하세요\nB.고속버스 터미널 말고는 서울에서 출발하는 데가 없나요\nA.네 서울에서는 서울고속터미널에서만 출발합니다\nB.그렇군요 알겠습니다 안내 감사합니다\nA.고객님 즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 친절한 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 친절한 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+친절/NNG+한상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 경주에 가는 고속버스는 어디어디서 탈 수 있나요",
+            "norm_text": "B.안녕하세요 경주에 가는 고속버스는 어디어디서 탈 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+경주/NNP+에/JKB+가/VV+는/ETM+고속버스/NNG+는/JX+어디/NP+어디/NP+서/JKB+탈/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 출발지가 어디신가요",
+            "norm_text": "A.네 고객님 출발지가 어디신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+출발지/NNG+가/JKS+어디/NP+신가요/VCP+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.저는 서울에서 출발합니다",
+            "norm_text": "B.저는 서울에서 출발합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/NP+는/JX+서울/NNP+에서/JKB+출발/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.서울에서 경주오시는 고속버스는 서울고속버스터미널이 있습니다",
+            "norm_text": "A.서울에서 경주오시는 고속버스는 서울고속버스터미널이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+서울/NNP+에서/JKB+경주/NNP+오/VV+시/EP+는/ETM+고속버스/NNG+는/JX+서울/NNP+고속버스/NNG+터미널/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그러면 어디에서 내리나요",
+            "norm_text": "B.그러면 어디에서 내리나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+어디/NP+에서/JKB+내리/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.경주 고속버스터미널에서 하차하세요",
+            "norm_text": "A.경주 고속버스터미널에서 하차하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+경주/NNP+고속버스/NNG+터미널/NNG+에서/JKB+하차/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.고속버스 터미널 말고는 서울에서 출발하는 데가 없나요",
+            "norm_text": "B.고속버스 터미널 말고는 서울에서 출발하는 데가 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+고속버스/NNG+터미널/NNG+말/VV+고/EC+는/JX+서울/NNP+에서/JKB+출발/NNG+하/XSV+는/ETM+데/NNB+가/JKS+없/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 서울에서는 서울고속터미널에서만 출발합니다",
+            "norm_text": "A.네 서울에서는 서울고속터미널에서만 출발합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+서울/NNP+에서/JKB+는/JX+서울고속/NNP+터미널/NNG+에서/JKB+만/JX+출발/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그렇군요 알겠습니다 안내 감사합니다",
+            "norm_text": "B.그렇군요 알겠습니다 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.고객님 즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+            "norm_text": "A.고객님 즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+즐거운/VA+ETM+하루/NNG+보내/VV+EC+십/NR+시/NNBC+오상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

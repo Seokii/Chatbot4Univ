@@ -1,0 +1,371 @@
+{
+  "dataset": {
+    "identifier": 10193,
+    "name": "s1_20210913_0001_0404_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151217025444/s1_20210913_0001_0404_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151217025444/s1_20210913_0001_0404_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7537,
+      "filename": "s1_20210823_0030_0003_01.txt",
+      "title": "s1_20210823_0030_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 649,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 649,
+        "word_size": 167,
+        "text": "A.네 안녕하십니까 #@소속# 가스렌지 전문 상담사 #@이름#입니다\nA.#@이름# 고객님 댁 이세요\nB.네 여보세요 맞는데요\nA.네 많이 바쁘실텐데 잠시 통화 좀 가능하시겠습니까\nB.네 말씀하시면 됩니다\nA.예 지금 상태가 그니까 점화 불 자체가 안 붙는 말씀이세요\nB.네 점화가 안 된다는 거죠\nA.전체 다가 안 되세요 아니면 특정 화구가 안 되세요\nB.이게 하나는 완전 안 되고 하나는 어쩌다가 돼요\nB.그러면 그 쪽을 붙여가지고 이쪽에다\nB.불 이렇게 틀고 바로 이렇게 대면은 불이 켜져요\nA.그렇습니까 사용하시기가 많이 불편하실텐데요\nA.혹시 그 가스레인지 모델명 좀 제가 알 수 있을까요\nB.네 #@상품# 입니다\nA.예 도시가스 연결 돼 있나요 아니면 엘피지 인가요\nB.예 이거 도시가스요\nA.네 정확하게 확인해주셨네요 감사합니다\nA.일단 제가 요 모델 한 번 확인을 좀 해볼게요\nA.이 제품은 건전지가 들어가는데\nA.그 건전지 새 걸로 교체해주신 게 언제쯤이시죠\nB.건전지 들어가는 걸 몰라요 한 번도 안 해봤어요\nA.그러면 건전지가 다 돼서 그러세요\nB.건전지 이거를 들어가지고 건전지가 어디 쪽에 있어요\nA.그 제품 뒷쪽에 있어요\nA.그 뒤에 빼가지고 사이즈 제일 큰 사이즈거든요\nB.예 그러면 건전지는 제일 큰 거요\nB.알겠습니다 그렇게 해볼게요\nA.네 추운 날씨 건강하시고 좋은 하루 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하십니까 #@소속# 가스렌지 전문 상담사 #@이름#입니다",
+            "norm_text": "A.네 안녕하십니까 #@소속# 가스렌지 전문 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+가스/NNG+렌지/NNG+전문/NNG+상/XSN+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.#@이름# 고객님 댁 이세요",
+            "norm_text": "A.#@이름# 고객님 댁 이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+댁/NNG+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "B.네 여보세요 맞는데요",
+            "norm_text": "B.네 여보세요 맞는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+여보세요/IC+맞/VV+는데요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 많이 바쁘실텐데 잠시 통화 좀 가능하시겠습니까",
+            "norm_text": "A.네 많이 바쁘실텐데 잠시 통화 좀 가능하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+많이/MAG+바쁘/VA+실/EP+ETM+텐데/NNB+VCP+EC+잠시/MAG+통화/NNG+좀/MAG+가능/NNG+하/XSV+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 말씀하시면 됩니다",
+            "norm_text": "B.네 말씀하시면 됩니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+말씀/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.예 지금 상태가 그니까 점화 불 자체가 안 붙는 말씀이세요",
+            "norm_text": "A.예 지금 상태가 그니까 점화 불 자체가 안 붙는 말씀이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+지금/MAG+상태/NNG+가/JKS+그니까/MAJ+점화/NNG+불/XPN+자체/NNG+가/JKS+안/MAG+붙/VV+는/ETM+말씀/NNG+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "B.네 점화가 안 된다는 거죠",
+            "norm_text": "B.네 점화가 안 된다는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+점화/NNG+가/JKS+안/MAG+된다는/VV+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.전체 다가 안 되세요 아니면 특정 화구가 안 되세요",
+            "norm_text": "A.전체 다가 안 되세요 아니면 특정 화구가 안 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+전체/NNG+다가/JX+안/MAG+되/VV+세요/EP+EF+아니/VCN+면/EC+특정/NNG+화구/NNG+가/JKS+안/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.이게 하나는 완전 안 되고 하나는 어쩌다가 돼요",
+            "norm_text": "B.이게 하나는 완전 안 되고 하나는 어쩌다가 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이게/NP+JKS+하나/NR+는/JX+완전/MAG+안/MAG+되/VV+고/EC+하나/NR+는/JX+어쩌다가/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그러면 그 쪽을 붙여가지고 이쪽에다",
+            "norm_text": "B.그러면 그 쪽을 붙여가지고 이쪽에다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그러면/MAJ+그쪽/NP+을/JKO+붙여/VV+EC+가지/VX+고/EC+이쪽/NP+에다/JKB"
+          },
+          {
+            "id": 11,
+            "text": "B.불 이렇게 틀고 바로 이렇게 대면은 불이 켜져요",
+            "norm_text": "B.불 이렇게 틀고 바로 이렇게 대면은 불이 켜져요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+불/XPN+이렇게/MAG+틀/VV+고/EC+바로/MAG+이렇게/MAG+대면/NNG+은/JX+불/NNG+이/JKS+켜/VV+져요/EC+VX+EF"
+          },
+          {
+            "id": 12,
+            "text": "A.그렇습니까 사용하시기가 많이 불편하실텐데요",
+            "norm_text": "A.그렇습니까 사용하시기가 많이 불편하실텐데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+그렇/VA+습니까/EF+사용/NNG+하/XSV+시/EP+기/ETN+가/JKS+많이/MAG+불편/NNG+하/XSV+실/EP+ETM+텐데요/NNB+VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.혹시 그 가스레인지 모델명 좀 제가 알 수 있을까요",
+            "norm_text": "A.혹시 그 가스레인지 모델명 좀 제가 알 수 있을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+그/MM+가스레인지/NNG+모델/NNG+명/XSN+좀/MAG+제/NP+가/JKS+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 14,
+            "text": "B.네 #@상품# 입니다",
+            "norm_text": "B.네 #@상품# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.예 도시가스 연결 돼 있나요 아니면 엘피지 인가요",
+            "norm_text": "A.예 도시가스 연결 돼 있나요 아니면 엘피지 인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+도시/NNG+가스/NNG+연결/NNG+돼/XSV+EC+있/VX+나요/EF+아니/VCN+면/EC+엘피지/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.예 이거 도시가스요",
+            "norm_text": "B.예 이거 도시가스요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+이거/NP+도시/NNG+가스/NNG+요/VCP+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.네 정확하게 확인해주셨네요 감사합니다",
+            "norm_text": "A.네 정확하게 확인해주셨네요 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+정확/NNG+하/XSV+게/EC+확인/NNG+해/XSV+EC+주/VX+셨/EP+EP+네요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 18,
+            "text": "A.일단 제가 요 모델 한 번 확인을 좀 해볼게요",
+            "norm_text": "A.일단 제가 요 모델 한 번 확인을 좀 해볼게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+일단/MAG+제/MM+가요/NNG+모델/NNG+한/MM+번/NNBC+확인/NNG+을/JKO+좀/MAG+해/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 19,
+            "text": "A.이 제품은 건전지가 들어가는데",
+            "norm_text": "A.이 제품은 건전지가 들어가는데",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이/MM+제품/NNG+은/JX+건전지/NNG+가/JKS+들어가/VV+는데/EC"
+          },
+          {
+            "id": 20,
+            "text": "A.그 건전지 새 걸로 교체해주신 게 언제쯤이시죠",
+            "norm_text": "A.그 건전지 새 걸로 교체해주신 게 언제쯤이시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그건/NP+JX+전지/NNG+새/MM+걸로/NNB+JKB+교체/NNG+해/XSV+EC+주/VX+신/EP+ETM+게/NNB+JKS+언제/NP+쯤/XSN+이/VCP+시/EP+죠/EF"
+          },
+          {
+            "id": 21,
+            "text": "B.건전지 들어가는 걸 몰라요 한 번도 안 해봤어요",
+            "norm_text": "B.건전지 들어가는 걸 몰라요 한 번도 안 해봤어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+건전지/NNG+들어가/VV+는/ETM+걸/NNB+JKO+몰라요/VV+EC+한/MM+번/NNBC+도/JX+안/MAG+해/VV+EC+봤/VX+EP+어요/EF"
+          },
+          {
+            "id": 22,
+            "text": "A.그러면 건전지가 다 돼서 그러세요",
+            "norm_text": "A.그러면 건전지가 다 돼서 그러세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+그러면/MAJ+건전지/NNG+가/JKS+다/MAG+돼서/VV+EC+그러/VV+세요/EP+EF"
+          },
+          {
+            "id": 23,
+            "text": "B.건전지 이거를 들어가지고 건전지가 어디 쪽에 있어요",
+            "norm_text": "B.건전지 이거를 들어가지고 건전지가 어디 쪽에 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+건전지/NNG+이거/NP+를/JKO+들/VV+어/EC+가지/VX+고/EC+건전지/NNG+가/JKS+어디/NP+쪽/NNB+에/JKB+있/VV+어요/EF"
+          },
+          {
+            "id": 24,
+            "text": "A.그 제품 뒷쪽에 있어요",
+            "norm_text": "A.그 제품 뒷쪽에 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+제품/NNG+뒷/MM+쪽/NNB+에/JKB+있/VV+어요/EF"
+          },
+          {
+            "id": 25,
+            "text": "A.그 뒤에 빼가지고 사이즈 제일 큰 사이즈거든요",
+            "norm_text": "A.그 뒤에 빼가지고 사이즈 제일 큰 사이즈거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그/MM+뒤/NNG+에/JKB+빼/VV+EC+가지/VX+고/EC+사이즈/NNG+제일/MAG+큰/VA+ETM+사이즈/NNG+거든요/VCP+EC"
+          },
+          {
+            "id": 26,
+            "text": "B.예 그러면 건전지는 제일 큰 거요",
+            "norm_text": "B.예 그러면 건전지는 제일 큰 거요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+그러면/MAJ+건전지/NNG+는/JX+제일/MAG+큰/VA+ETM+거/NNB+요/VCP+EC"
+          },
+          {
+            "id": 27,
+            "text": "B.알겠습니다 그렇게 해볼게요",
+            "norm_text": "B.알겠습니다 그렇게 해볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그렇게/MAG+해/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 28,
+            "text": "A.네 추운 날씨 건강하시고 좋은 하루 되세요",
+            "norm_text": "A.네 추운 날씨 건강하시고 좋은 하루 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+추운/VA+ETM+날씨/NNG+건강/NNG+하/XSV+시/EP+고/EC+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

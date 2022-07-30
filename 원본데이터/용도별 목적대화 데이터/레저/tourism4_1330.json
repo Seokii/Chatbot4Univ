@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 151542,
+    "name": "t4_20211117_0010_0211_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135858073290/t4_20211117_0010_0211_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135858073290/t4_20211117_0010_0211_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 153663,
+      "filename": "t4_0071_0041_02.txt",
+      "title": "t4_0071_0041_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 282,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 282,
+        "word_size": 66,
+        "text": "A.안녕하세요 #@소속# #@이름# 입니다\nB.안녕하세요 거기가 ATV 체험할 수 있는 곳 맞죠\nA.네 고객님 ATV 체험장 맞습니다\nB.양양 놀러온 김에 체험해 보려 하는데 운영시간이 어떻게 될까요\nA.평일은 오전 9시부터 오후 7시까지 주말은 오전 8시부터 오후 7시까지 운영되고 있습니다\nB.가면 교육같은 것도 받아야 하나요\nA.네 체험 전에 간단한 안전교육과 기능교육 받으시고 체험 시작하세요\nB.네 알겠습니다 이따가 가볼게요\nA.네 문의주셔서 감사합니다 즐거운 하루 보내시구요 저는 상담원 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 거기가 ATV 체험할 수 있는 곳 맞죠",
+            "norm_text": "B.안녕하세요 거기가 ATV 체험할 수 있는 곳 맞죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+거기/NP+가/JKS+ATV/SL+체험/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+곳/NNB+맞/VV+죠/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 ATV 체험장 맞습니다",
+            "norm_text": "A.네 고객님 ATV 체험장 맞습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+ATV/SL+체험/NNG+장/NNG+맞/VV+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.양양 놀러온 김에 체험해 보려 하는데 운영시간이 어떻게 될까요",
+            "norm_text": "B.양양 놀러온 김에 체험해 보려 하는데 운영시간이 어떻게 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+양양/NNP+놀/VV+러/EC+온/VX+ETM+김/NNB+에/JKB+체험/NNG+해/XSV+EC+보/VX+려/EC+하/VV+는데/EC+운영/NNG+시간/NNG+이/JKS+어떻게/MAG+될까요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.평일은 오전 9시부터 오후 7시까지 주말은 오전 8시부터 오후 7시까지 운영되고 있습니다",
+            "norm_text": "A.평일은 오전 9시부터 주말은 오전 8시부터 오후 7시까지 운영합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+평일/NNG+은/JX+오전/NNG+9/SN+시/NNBC+부터/JX+오후/NNG+7/SN+시/NNBC+까지/JX+주말/NNG+은/JX+오전/NNG+8/SN+시/NNBC+부터/JX+오후/NNG+7/SN+시/NNBC+까지/JX+운영/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.가면 교육같은 것도 받아야 하나요",
+            "norm_text": "B.가면 교육같은 것도 받아야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+가/VV+면/EC+교육/NNG+같/VA+은/ETM+것/NNB+도/JX+받/VV+아야/EC+하/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 체험 전에 간단한 안전교육과 기능교육 받으시고 체험 시작하세요",
+            "norm_text": "A.네 체험 전에 간단한 안전교육과 기능교육 받으시고 체험 시작하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+체험/NNG+전/NNG+에/JKB+간단/XR+한/XSA+ETM+안전/NNG+교육/NNG+과/JC+기능/NNG+교육/NNG+받/VV+으시/EP+고/EC+체험/NNG+시작/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 알겠습니다 이따가 가볼게요",
+            "norm_text": "B.네 알겠습니다 이따가 가볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+이따가/MAG+가/VV+볼게요/EC+VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 문의주셔서 감사합니다 즐거운 하루 보내시구요 저는 상담원 #@이름# 이었습니다",
+            "norm_text": "A.네 문의주셔서 감사합니다 즐거운 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+문/NNG+의/JKG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+즐거운/VA+ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

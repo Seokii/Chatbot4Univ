@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 106813,
+    "name": "s3_20211103_0005_0293_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110826016174/s3_20211103_0005_0293_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110826016174/s3_20211103_0005_0293_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118935,
+      "filename": "s3_20211006_0019_0001_01.txt",
+      "title": "s3_20211006_0019_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 342,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 342,
+        "word_size": 77,
+        "text": "A.만나서 반갑습니다 #@소속# #@이름# 상담사입니다\nB.여보세요 여기가 #@소속# 고객센터 맞나요\nA.그렇습니다 고객님 제가 무엇을 도와드릴까요\nB.#@소속# 모바일 앱에서 카드 결제를 하려고 했어요\nA.그러시군요 문제가 있으셨습니까\nB.그런데 카드 결제를 어떻게 할지 헷갈리네요\nA.제가 안내 도와드리겠습니다\nA.우선 예약하신 항공권의 요금 및 좌석이 확정된 후에 결제 가능하세요\nB.그래요 그건 아까 나왔던데요\nA.여권 정보를 먼저 등록 해주셨나요\nB.그걸 등록 해야지 결제를 할 수 있나요\nA.그렇습니다 등록 후 탑승자 본인의 카드로 결제 부탁드려요\nB.그게 문제였네요 알겠습니다 끊어요\nA.감사합니다 즐거운 비행 준비 되세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.만나서 반갑습니다 #@소속# #@이름# 상담사입니다",
+            "norm_text": "A.만나서 반갑습니다 #@소속# #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+만나/VV+서/EC+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여보세요 여기가 #@소속# 고객센터 맞나요",
+            "norm_text": "B.여보세요 여기가 #@소속# 고객센터 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+여보세요/IC+여기/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+맞/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.그렇습니다 고객님 제가 무엇을 도와드릴까요",
+            "norm_text": "A.그렇습니다 고객님 제가 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그렇/VA+습니다/EF+고객/NNG+님/XSN+제/NP+가/JKS+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속# 모바일 앱에서 카드 결제를 하려고 했어요",
+            "norm_text": "B.#@소속# 모바일 앱에서 카드 결제를 하려고 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+모바일/NNP+앱/NNG+에서/JKB+카드/NNG+결제/NNG+를/JKO+하/VV+려고/EC+했/VX+EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.그러시군요 문제가 있으셨습니까",
+            "norm_text": "A.그러시군요 문제가 있으셨습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+시/EP+군요/EC+문제/NNG+가/JKS+있/VA+으셨/EP+EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그런데 카드 결제를 어떻게 할지 헷갈리네요",
+            "norm_text": "B.그런데 카드 결제를 어떻게 할지 헷갈리네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그런데/MAJ+카드/NNG+결제/NNG+를/JKO+어떻/VA+게/EC+할지/VX+EC+헷갈리/VX+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.제가 안내 도와드리겠습니다",
+            "norm_text": "A.제가 안내 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+제/NP+가/JKS+안/MAG+내/VV+EC+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.우선 예약하신 항공권의 요금 및 좌석이 확정된 후에 결제 가능하세요",
+            "norm_text": "A.우선 예약하신 항공권의 요금 및 좌석이 확정된 후에 결제 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+우선/MAG+예약/NNG+하/XSV+신/EP+ETM+항공/NNG+권/XSN+의/JKG+요금/NNG+및/MAJ+좌석/NNG+이/JKS+확정/NNG+된/XSV+ETM+후/NNG+에/JKB+결제/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그래요 그건 아까 나왔던데요",
+            "norm_text": "B.그래요 그건 아까 나왔던데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+그건/NP+JX+아까/MAG+나왔/VV+EP+던데요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.여권 정보를 먼저 등록 해주셨나요",
+            "norm_text": "A.여권 정보를 먼저 등록 해주셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+여권/NNG+정보/NNG+를/JKO+먼저/MAG+등록/NNG+해/XSV+EC+주/VX+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.그걸 등록 해야지 결제를 할 수 있나요",
+            "norm_text": "B.그걸 등록 해야지 결제를 할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그걸/NP+JKO+등록/NNG+해야지/XSV+EC+결제/NNG+를/JKO+할/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.그렇습니다 등록 후 탑승자 본인의 카드로 결제 부탁드려요",
+            "norm_text": "A.그렇습니다 등록 후 탑승자 본인의 카드로 결제 부탁드려요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+그렇/VA+습니다/EF+등록/NNG+후/NNG+탑승자/NNG+본인/NNG+의/JKG+카드/NNG+로/JKB+결제/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그게 문제였네요 알겠습니다 끊어요",
+            "norm_text": "B.그게 문제였네요 알겠습니다 끊어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그게/NP+JKS+문제/NNG+였/VCP+EP+네요/EF+알/VV+겠/EP+습니다/EF+끊/VV+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.감사합니다 즐거운 비행 준비 되세요",
+            "norm_text": "A.감사합니다 즐거운 비행 준비 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+즐거운/VA+ETM+비행/NNG+준비/NNG+되/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 16067,
+    "name": "s3_20210914_0010_1048_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423018443/s3_20210914_0010_1048_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151423018443/s3_20210914_0010_1048_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12546,
+      "filename": "s3_20210902_0015_0003_01.txt",
+      "title": "s3_20210902_0015_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 265,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 265,
+        "word_size": 63,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다\nB.네 상품 구매 좀 도와주세요\nA.네 고객님 어떤 상품을 찾으십니까\nB.네 #@상품#으로 좀 사려구요 이게 혹시 할인되나요\nA.할인이 적용되는 경우는 저희 #@소속# 어플을 설치하셔야 합니다\nB.네 어플인가 뭔가를 설치를 또 하는군요\nA.네 고객님 설치 후에 회원가입을 하시면 할인 쿠폰이 나와요\nB.네 그럼 그거를요 설치할게요\nA.예 고객님 우선 상품 주문 먼저 도와드리겠습니다\nB.네 빨리 설치할게요 이름이랑 전화번호 먼저 말하면 되나요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 상품 구매 좀 도와주세요",
+            "norm_text": "B.네 상품 구매 좀 도와주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+상품/NNG+구매/NNG+좀/MAG+도와/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 어떤 상품을 찾으십니까",
+            "norm_text": "A.네 고객님 어떤 상품을 찾으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+어떤/MM+상품/NNG+을/JKO+찾/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@상품#으로 좀 사려구요 이게 혹시 할인되나요",
+            "norm_text": "B.네 #@상품#으로 좀 사려구요 이게 혹시 할인되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+으로/JKB+좀/MAG+사/VV+려구요/EC+이게/NP+JKS+혹시/MAG+할인/NNG+되/XSV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.할인이 적용되는 경우는 저희 #@소속# 어플을 설치하셔야 합니다",
+            "norm_text": "A.할인이 적용되는 경우는 저희 #@소속# 어플을 설치하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+할인/NNG+이/JKS+적용/NNG+되/XSV+는/ETM+경우/NNG+는/JX+저희/NP+#/SY+@/SY+소속/NNG+#/SY+어/IC+플/NNG+을/JKO+설치/NNG+하/XSV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 어플인가 뭔가를 설치를 또 하는군요",
+            "norm_text": "B.네 어플인가 뭔가를 설치를 또 하는군요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+네/IC+어/IC+플/NNG+인가/VCP+EC+뭔가/NP+VCP+EC+를/JKO+설치/NNG+를/JKO+또/MAG+하/VV+는군요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 설치 후에 회원가입을 하시면 할인 쿠폰이 나와요",
+            "norm_text": "A.네 고객님 설치 후에 회원가입을 하시면 할인 쿠폰이 나와요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+설치/NNG+후/NNG+에/JKB+회원/NNG+가입/NNG+을/JKO+하/VV+시/EP+면/EC+할인/NNG+쿠폰/NNG+이/JKS+나와요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 그럼 그거를요 설치할게요",
+            "norm_text": "B.네 그럼 그거를요 설치할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+그럼/MAJ+그거/NP+를/JKO+요/MM+설치/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.예 고객님 우선 상품 주문 먼저 도와드리겠습니다",
+            "norm_text": "A.예 고객님 우선 상품 주문 먼저 도와드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+우선/MAG+상품/NNG+주문/NNG+먼저/MAG+도와/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 빨리 설치할게요 이름이랑 전화번호 먼저 말하면 되나요",
+            "norm_text": "B.네 빨리 설치할게요 이름이랑 전화번호 먼저 말하면 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": "B/SL+네/IC+빨리/MAG+설치/NNG+할게요/XSV+EC+이름/NNG+이랑/JKB+전화/NNG+번호/NNG+먼저/MAG+말/NNG+하/XSV+면/EC+되/VV+나요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

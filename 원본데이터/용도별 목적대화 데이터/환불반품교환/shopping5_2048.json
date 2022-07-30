@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 114831,
+    "name": "s5_20211104_0010_3854_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110940081163/s5_20211104_0010_3854_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110940081163/s5_20211104_0010_3854_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 121791,
+      "filename": "s5_20211026_0012_0005_01.txt",
+      "title": "s5_20211026_0012_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 258,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 258,
+        "word_size": 56,
+        "text": "A.안녕하십니까 친절한 #@소속# #@이름#입니다\nB.#@이름# #@전번#입니다 배송 상황 조회해주세요\nA.네 고객님 다시 한번 말씀해주시겠어요\nB.다시요 #@이름# #@전번#요\nA.네 감사합니다 고객님 #@상품# 인가요\nB.네 @#상품# 맞아요 그냥 반품으로 해주세요\nA.네 내일이면 도착할 것 같은데 반품 하시나요\nB.네 오늘 못 받으면 사용 못해요 받으면 반품으로 할게요\nA.알겠습니다 고객님 반품 접수 했습니다\nB.네 고마워요 수고하세요\nA.감사합니다 행복한 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 친절한 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하십니까 친절한 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+친절한/NNP+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@이름# #@전번#입니다 배송 상황 조회해주세요",
+            "norm_text": "B.#@이름# #@전번#입니다 배송 상황 조회해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EF+배송/NNG+상황/NNG+조회/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 다시 한번 말씀해주시겠어요",
+            "norm_text": "A.네 고객님 다시 한번 말씀해주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+다시/MAG+한/MM+번/NNBC+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.다시요 #@이름# #@전번#요",
+            "norm_text": "B.다시요 #@이름# #@전번#요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+다시/MAG+요/JX+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 감사합니다 고객님 #@상품# 인가요",
+            "norm_text": "A.네 감사합니다 고객님 #@상품# 인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+#/SY+@/SY+상품/NNG+#/SY+인가요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 @#상품# 맞아요 그냥 반품으로 해주세요",
+            "norm_text": "B.네 @#상품# 맞아요 그냥 반품으로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+@/SY+#/SY+상품/NNG+#/SY+맞/VV+아요/EF+그냥/MAG+반품/NNG+으로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 내일이면 도착할 것 같은데 반품 하시나요",
+            "norm_text": "A.네 내일이면 도착할 것 같은데 반품 하시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+내일/NNG+이/VCP+면/EC+도착/NNG+할/XSV+ETM+것/NNB+같/VA+은데/EC+반품/NNG+하/XSV+시/EP+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 오늘 못 받으면 사용 못해요 받으면 반품으로 할게요",
+            "norm_text": "B.네 오늘 못 받으면 사용 못해요 받으면 반품으로 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+오늘/MAG+못/MAG+받/VV+으면/EC+사용/NNG+못/MAG+해요/VV+EF+받/VV+으면/EC+반품/NNG+으로/JKB+할게요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.알겠습니다 고객님 반품 접수 했습니다",
+            "norm_text": "A.알겠습니다 고객님 반품 접수 했습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+알/VV+겠/EP+습니다/EF+고객/NNG+님/XSN+반품/NNG+접수/NNG+했/XSV+EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 고마워요 수고하세요",
+            "norm_text": "B.네 고마워요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+고마워요/VA+EC+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 행복한 하루 보내세요",
+            "norm_text": "A.감사합니다 행복한 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+행복/NNG+한/XSA+ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

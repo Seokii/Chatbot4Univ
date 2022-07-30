@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 123080,
+    "name": "s2_20211108_0001_4785_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110642060072/s2_20211108_0001_4785_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110642060072/s2_20211108_0001_4785_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115097,
+      "filename": "s2_20211001_0025_0007_01.txt",
+      "title": "s2_20211001_0025_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 255,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 56,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 궁금한 게 있어서 연락드립니다\nA.네 무엇을 도와드릴까요\nB.청구요금의 상세 내역은 어떻게 확인하나요\nA.청구서 상세 내역은 홈페이지 또는 앱을 통해 간편하게 확인이 가능하세요\nB.이번 달 요금 청구서는 언제 부터 확인할 수 있어요\nA.매월 약 십일경부터 조회가 가능하시고요\nA.최근 육개월에 대한 청구요금을 확일하실 수 있습니다\nB.친절한 안내 감사합니다\nA.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 궁금한 게 있어서 연락드립니다",
+            "norm_text": "B.안녕하세요 궁금한 게 있어서 연락드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어서/EC+연락/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 무엇을 도와드릴까요",
+            "norm_text": "A.네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.청구요금의 상세 내역은 어떻게 확인하나요",
+            "norm_text": "B.청구요금의 상세 내역은 어떻게 확인하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+청구/NNP+요금/NNG+의/JKG+상세/NNG+내역/NNG+은/JX+어떻게/MAG+확인/NNG+하/XSV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.청구서 상세 내역은 홈페이지 또는 앱을 통해 간편하게 확인이 가능하세요",
+            "norm_text": "A.청구서 상세 내역은 홈페이지 또는 앱을 통해 간편하게 확인이 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+청구서/NNG+상세/NNG+내역/NNG+은/JX+홈페이지/NNG+또는/MAJ+앱/NNG+을/JKO+통해/VV+EC+간편/XR+하/XSA+게/EC+확인/NNG+이/JKS+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.이번 달 요금 청구서는 언제 부터 확인할 수 있어요",
+            "norm_text": "B.이번 달 요금 청구서는 언제 부터 확인할 수 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+이번/NNG+달/NNG+요금/NNG+청구서/NNG+는/JX+언제/NP+부터/JX+확인/NNG+할/XSV+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.매월 약 십일경부터 조회가 가능하시고요",
+            "norm_text": "A.매월 약 십일경부터 조회가 가능하시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+매월/MAG+약/MM+십/NR+일/NNBC+경/XSN+부터/JX+조회/NNG+가/JKS+가능/NNG+하/XSV+시/EP+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.최근 육개월에 대한 청구요금을 확일하실 수 있습니다",
+            "norm_text": "A.최근 육개월에 대한 청구요금을 확일하실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+최근/NNG+육/NR+개월/NNBC+에/JKB+대한/VV+ETM+청구/NNG+요금/NNG+을/JKO+확/MAG+일/NNG+하/XSV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.친절한 안내 감사합니다",
+            "norm_text": "B.친절한 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+            "norm_text": "A.행복한 하루 되세요 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

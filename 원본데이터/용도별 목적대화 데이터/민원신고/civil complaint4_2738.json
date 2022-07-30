@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 56566,
+    "name": "c4_20211019_0001_2878_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202110081307020707105/c4_20211019_0001_2878_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202110081307020707105/c4_20211019_0001_2878_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49902,
+      "filename": "c4_20210903_0008_0002_01.txt",
+      "title": "c4_20210903_0008_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 306,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 306,
+        "word_size": 67,
+        "text": "A.전화주셔서 감사합니다 #@소속# #@이름# 상담원입니다\nB.예 안녕하세요 아파트 커뮤니티 센터 정상화 좀 했으면 합니다\nA.현재 코로나 여파로 커뮤니티 센터 정상화는 어렵습니다\nB.근데 거리두기단계가 있잖아요 해당되는게 없습니까\nA.네 방역 지침과 단지 내 관리 규약 등을 검토해보시는게 좋으실 것 같습니다\nB.아파트 내에서 자체 검토 하라는 말씀이죠\nA.네 맞습니다 저희 구에서 강제하기는 힘듭니다\nB.네 알겠습니다 관리소와 얘기해야겠네요\nA.추가 설명이 필요하신 경우 #@전번#으로 연락 바랍니다\nB.네 답변 감사해요\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.전화주셔서 감사합니다 #@소속# #@이름# 상담원입니다",
+            "norm_text": "A.전화주셔서 감사합니다 #@소속# #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+전화/NNG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 안녕하세요 아파트 커뮤니티 센터 정상화 좀 했으면 합니다",
+            "norm_text": "B.예 안녕하세요 아파트 커뮤니티 센터 정상화 좀 했으면 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+안녕/NNG+하/XSV+세요/EP+EF+아파트/NNG+커뮤니티/NNG+센터/NNG+정상/NNG+화/XSN+좀/MAG+했/VV+EP+으면/EC+합니다/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.현재 코로나 여파로 커뮤니티 센터 정상화는 어렵습니다",
+            "norm_text": "A.현재 코로나 여파로 커뮤니티 센터 정상화는 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+현재/MAG+코로나/NNG+여파/NNG+로/JKB+커뮤니티/NNG+센터/NNG+정상/NNG+화/XSN+는/JX+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.근데 거리두기단계가 있잖아요 해당되는게 없습니까",
+            "norm_text": "B.근데 거리두기단계가 있잖아요 해당되는게 없습니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+근데/MAJ+거리/NNG+두기/NNG+단계/NNG+가/JKS+있/VA+잖아요/EC+해당/NNG+되/XSV+는/ETM+게/NNB+JKS+없/VA+습니까/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 방역 지침과 단지 내 관리 규약 등을 검토해보시는게 좋으실 것 같습니다",
+            "norm_text": "A.네 방역 지침과 단지 내 관리 규약 등을 검토해보시는게 좋으실 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+방역/NNG+지침/NNG+과/JKB+단지/MAG+내/NP+JKG+관리/NNG+규약/NNG+등/NNB+을/JKO+검토/NNG+해/XSV+EC+보/VX+시/EP+는/ETM+게/NNB+JKS+좋/VA+으실/EP+ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.아파트 내에서 자체 검토 하라는 말씀이죠",
+            "norm_text": "B.아파트 내에서 자체 검토 하라는 말씀이죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+아파트/NNG+내/NNB+에서/JKB+자체/NNG+검토/NNG+하/XSV+라는/ETM+말씀/NNG+이/VCP+죠/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 맞습니다 저희 구에서 강제하기는 힘듭니다",
+            "norm_text": "A.네 맞습니다 저희 구에서 강제하기는 힘듭니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+저/MM+희구/NNG+에서/JKB+강제/NNG+하/XSV+기/ETN+는/JX+힘듭니다/VA+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 알겠습니다 관리소와 얘기해야겠네요",
+            "norm_text": "B.네 알겠습니다 관리소와 얘기해야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+관리/NNG+소/NNG+와/JC+얘기/NNG+해야/XSV+EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.추가 설명이 필요하신 경우 #@전번#으로 연락 바랍니다",
+            "norm_text": "A.추가 설명이 필요하신 경우 #@전번#으로 연락 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+추가/NNG+설명/NNG+이/JKS+필요/NNG+하/XSV+신/EP+ETM+경우/NNG+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+연락/NNG+바랍니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 답변 감사해요",
+            "norm_text": "B.네 답변 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+답변/NNG+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

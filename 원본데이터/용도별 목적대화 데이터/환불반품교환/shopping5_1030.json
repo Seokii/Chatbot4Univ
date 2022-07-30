@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 105754,
+    "name": "s5_20211103_0010_3052_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110938055013/s5_20211103_0010_3052_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110938055013/s5_20211103_0010_3052_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 121511,
+      "filename": "s5_20211007_0022_0001_01.txt",
+      "title": "s5_20211007_0022_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 472,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 472,
+        "word_size": 104,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.수고 많으십니다 제가 질문사항이 있어서 전화드렸어요\nA.예 여쭤보시고 싶은 게 있으신가요\nB.#@소속# 쇼핑몰 맞나요 여쭤볼 게 있어서 전화했습니다\nA.네 고객님 말씀하세요 어떤 게 궁금하신가요\nB.쇼핑몰에서 구매한 상품이 파손된 상태로 배송이 됐거든요\nA.그러셨어요 고객님 우선 정말 죄송하다는 말씀 드릴게요\nB.제가 어제 여쭤봤는데 같은 상품이 재고가 없을 경우 환불을 해주신다고 하더라고요\nA.네 저희가 파손된 상품이 배달될 경우 같은 상품으로 교환해드리거나 환불처리 도와드리고 있어요\nB.그래서 제가 생각해보고 오늘 연락드린다고 했거든요\nA.네 고객님 그럼 지금 바로 환불처리 도와드리면 될까요\nB.네 이게 같은 제품이 바로 재고가 들어오는게 아니잖아요\nA.네 맞습니다 얼마나 걸리지 모르는 상황이라서요\nB.그렇군요 알겠습니다 다른 질문사항 생기면 연락드리겠습니다\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고 많으십니다 제가 질문사항이 있어서 전화드렸어요",
+            "norm_text": "B.수고 많으십니다 제가 질문사항이 있어서 전화드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+수고/NNG+많/VA+으십니다/EP+EP+EF+제/NP+가/JKS+질문/NNG+사항/NNG+이/JKS+있/VV+어서/EC+전화/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.예 여쭤보시고 싶은 게 있으신가요",
+            "norm_text": "A.예 여쭤보시고 싶은 게 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+여쭤/VV+EC+보/VX+시/EP+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속# 쇼핑몰 맞나요 여쭤볼 게 있어서 전화했습니다",
+            "norm_text": "B.#@소속# 쇼핑몰 맞나요 여쭤볼 게 있어서 전화했습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+쇼핑몰/NNG+맞/VV+나요/EC+여쭤볼/VV+EC+VX+ETM+게/NNB+JKS+있/VA+어서/EC+전화/NNG+했/XSV+EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 말씀하세요 어떤 게 궁금하신가요",
+            "norm_text": "A.네 고객님 말씀하세요 어떤 게 궁금하신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+하/XSV+세요/EP+EF+어떤/MM+게/NNB+JKS+궁금/XR+하/XSA+신가요/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.쇼핑몰에서 구매한 상품이 파손된 상태로 배송이 됐거든요",
+            "norm_text": "B.쇼핑몰에서 구매한 상품이 파손된 상태로 배송이 됐거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+쇼핑몰/NNG+에서/JKB+구매/NNG+한/XSA+ETM+상품/NNG+이/JKS+파손/NNG+된/XSV+ETM+상태/NNG+로/JKB+배송/NNG+이/JKS+됐/VV+EP+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.그러셨어요 고객님 우선 정말 죄송하다는 말씀 드릴게요",
+            "norm_text": "A.그러셨어요 고객님 우선 정말 죄송하다는 말씀 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+그러/VV+셨/EP+EP+어요/EF+고객/NNG+님/XSN+우선/MAG+정말/MAG+죄송/XR+하/XSA+다는/ETM+말씀/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.제가 어제 여쭤봤는데 같은 상품이 재고가 없을 경우 환불을 해주신다고 하더라고요",
+            "norm_text": "B.제가 어제 여쭤봤는데 재고가 없으면 환불 해주신다고 하더라고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+어제/MAG+여쭤/VV+EC+봤/VX+EP+는데/EC+같/VA+은/ETM+상품/NNG+이/JKS+재고/NNG+가/JKS+없/VA+을/ETM+경우/NNG+환불/NNG+을/JKO+해/VV+EC+주/VX+신다고/EP+EC+하/VV+더라고요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 저희가 파손된 상품이 배달될 경우 같은 상품으로 교환해드리거나 환불처리 도와드리고 있어요",
+            "norm_text": "A.파손상품의 경우 바로 교환해드리거나 환불처리 도와드리고 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+저희/NP+가/JKS+파손/NNG+된/XSV+ETM+상품/NNG+이/JKS+배달/NNG+될/XSV+ETM+경우/NNG+같/VA+은/ETM+상품/NNG+으로/JKB+교환/NNG+해/XSV+EC+드리/VX+거나/EC+환불/NNG+처리/NNG+도와/VV+EC+드리/VX+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.그래서 제가 생각해보고 오늘 연락드린다고 했거든요",
+            "norm_text": "B.그래서 제가 생각해보고 오늘 연락드린다고 했거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래서/MAJ+제/NP+가/JKS+생각/NNG+해/XSV+EC+보/VX+고/EC+오늘/MAG+연락/NNG+드린/VV+다고/EC+했/VX+EP+거든요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 고객님 그럼 지금 바로 환불처리 도와드리면 될까요",
+            "norm_text": "A.네 고객님 그럼 지금 바로 환불처리 도와드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+그럼/MAJ+지금/MAG+바로/MAG+환불/NNG+처리/NNG+도와/VV+EC+드리/VX+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.네 이게 같은 제품이 바로 재고가 들어오는게 아니잖아요",
+            "norm_text": "B.네 이게 같은 제품이 바로 재고가 들어오는게 아니잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+이게/NP+JKS+같/VA+은/ETM+제품/NNG+이/JKS+바로/MAG+재고/NNG+가/JKS+들어오/VV+는/ETM+게/NNB+JKC+아니/VCN+잖아요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 맞습니다 얼마나 걸리지 모르는 상황이라서요",
+            "norm_text": "A.네 맞습니다 얼마나 걸리지 모르는 상황이라서요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+얼마나/MAG+걸리/VV+지/EC+모르/VV+는/ETM+상황/NNG+이/VCP+라서요/EC"
+          },
+          {
+            "id": 14,
+            "text": "B.그렇군요 알겠습니다 다른 질문사항 생기면 연락드리겠습니다",
+            "norm_text": "B.그렇군요 알겠습니다 다른 질문사항 생기면 연락드리겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알/VV+겠/EP+습니다/EF+다른/MM+질문/NNG+사항/NNG+생기/VV+면/EC+연락/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

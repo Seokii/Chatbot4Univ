@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 141300,
+    "name": "t2_20211115_0002_0257_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135729020427/t2_20211115_0002_0257_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135729020427/t2_20211115_0002_0257_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 149830,
+      "filename": "t2_0074_0008_02.txt",
+      "title": "t2_0074_0008_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 308,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 308,
+        "word_size": 75,
+        "text": "A. 좋은 아침입니다 논산시 문화관광 고객센터 상담원 #@이름#입니다\nB. 논산쪽 여행가려고 하는데 혹시 KTX 정차하는 역이 있을까요\nA. 네 논산역으로 도착지 설정하시면 KTX로 오실 수 있습니다\nB. 일반 기차로 가면 다른 역이 더 있나요\nA. 네네 강경역과 연산역도 있습니다\nB. 아아 직통으로 가는 열차가 있는걸까요\nA. 신탄진에서 환승해서 오시는 경로예요\nB. 환승하는건 어느역이든 똑같나요\nA. 네 어느역으로 오시든 신탄진 환승 열차입니다\nB. 알겠습니다 좀 더 알아보고 다시 전화드릴게요\nA. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 좋은 아침입니다 논산시 문화관광 고객센터 상담원 #@이름#입니다",
+            "norm_text": "A. 좋은 아침입니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+좋/VA+은/ETM+아침/NNG+입니다/VCP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 논산쪽 여행가려고 하는데 혹시 KTX 정차하는 역이 있을까요",
+            "norm_text": "B. 논산쪽 여행가려고 하는데 혹시 KTX 정차하는 역이 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+논산/NNP+쪽/NNB+여행/NNG+가/VV+려고/EC+하/VV+는데/EC+혹시/MAG+KTX/SL+정차/NNG+하/XSV+는/ETM+역/NNG+이/JKS+있/VV+을까요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 논산역으로 도착지 설정하시면 KTX로 오실 수 있습니다",
+            "norm_text": "A. 네 논산역으로 도착지 설정하시면 KTX로 오실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+논산역/NNP+으로/JKB+도착지/NNG+설정/NNG+하/XSV+시/EP+면/EC+KTX/SL+로/JKB+오/VV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B. 일반 기차로 가면 다른 역이 더 있나요",
+            "norm_text": "B. 일반 기차로 가면 다른 역이 더 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+일반/NNG+기차/NNG+로/JKB+가/VV+면/EC+다른/MM+역/NNG+이/JKS+더/MAG+있/VA+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 네네 강경역과 연산역도 있습니다",
+            "norm_text": "A. 네네 강경역과 연산역도 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네네/IC+강경역/NNP+과/JC+연산역/NNP+도/JX+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B. 아아 직통으로 가는 열차가 있는걸까요",
+            "norm_text": "B. 아아 직통으로 가는 열차가 있는걸까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아/IC+아직/MAG+통/NNG+으로/JKB+가/VV+는/ETM+열차/NNG+가/JKS+있/VA+는/ETM+걸까요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 신탄진에서 환승해서 오시는 경로예요",
+            "norm_text": "A. 신탄진에서 환승해서 오시는 경로예요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+신탄진/NNP+에서/JKB+환승/NNG+해서/XSV+EC+오/VX+시/EP+는/ETM+경로/NNG+예요/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B. 환승하는건 어느역이든 똑같나요",
+            "norm_text": "B. 환승하는건 어느역이든 똑같나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+환승/NNG+하/XSV+는/ETM+건/NNB+JX+어느/MM+역/NNG+이/VCP+든/EC+똑같/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 네 어느역으로 오시든 신탄진 환승 열차입니다",
+            "norm_text": "A. 네 어느역으로 오시든 신탄진 환승 열차입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+어느/MM+역/NNG+으로/JKB+오/VV+시/EP+든/EC+신탄진/NNP+환승/NNG+열차/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 알겠습니다 좀 더 알아보고 다시 전화드릴게요",
+            "norm_text": "B. 알겠습니다 좀 더 알아보고 다시 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+좀더/MAG+알아보/VV+고/EC+다시/MAG+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+            "norm_text": "A. 감기 조심하시고 건강하세요 지금까지 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감기/NNG+조심/NNG+하/XSV+시/EP+고/EC+건강/NNG+하/XSV+세요/EP+EF+지금/NNG+까지/JX+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 53168,
+    "name": "c1_20211018_0001_2489_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130657050031/c1_20211018_0001_2489_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130657050031/c1_20211018_0001_2489_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49285,
+      "filename": "c1_20210906_0029_0002_01.txt",
+      "title": "c1_20210906_0029_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 286,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 286,
+        "word_size": 57,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.수고가 많으십니다 담당 부서 안내를 받고 싶어서요\nA.반갑습니다 어떤 문의인지 말씀해 주시겠습니까\nB.#@소속# 건설 현장 때문에 불편함을 건의하려고요\nA.네 건설 현장으로 인해 불편을 드린 점 사과드립니다\nB.인도에 공사용 자재로 인해 학생들의 통학이 어렵습니다\nA.그러셨군요 담당 주무관님 전화번호 안내해 드리겠습니다\nB.네 안내해 주시면 감사하겠습니다\nA.#@전번# #@소속# #@이름# 주무관님입니다\nB.감사합니다 좋은 하루 보내세요\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.수고가 많으십니다 담당 부서 안내를 받고 싶어서요",
+            "norm_text": "B.수고가 많으십니다 담당 부서 안내를 받고 싶어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+수고/NNG+가/JKS+많/VA+으십니다/EP+EP+EF+담당/NNG+부서/NNG+안내/NNG+를/JKO+받/VV+고/EC+싶/VX+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.반갑습니다 어떤 문의인지 말씀해 주시겠습니까",
+            "norm_text": "A.반갑습니다 어떤 문의인지 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+어떤/MM+문의/NNG+인지/VCP+EC+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@소속# 건설 현장 때문에 불편함을 건의하려고요",
+            "norm_text": "B.#@소속# 건설 현장 때문에 불편함을 건의하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+건설/NNG+현장/NNG+때문/NNB+에/JKB+불편/NNG+함/XSV+ETN+을/JKO+건의/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 건설 현장으로 인해 불편을 드린 점 사과드립니다",
+            "norm_text": "A.네 건설 현장으로 인해 불편을 드린 점 사과드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+네/IC+건설/NNG+현장/NNG+으로/JKB+인해/VV+EC+불편/NNG+을/JKO+드린/VV+ETM+점사/NNG+과/JKB+드립니다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.인도에 공사용 자재로 인해 학생들의 통학이 어렵습니다",
+            "norm_text": "B.인도에 공사용 자재로 인해 학생들의 통학이 어렵습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+인도/NNP+에/JKB+공사/NNG+용/XSN+자재/NNG+로/JKB+인해/VV+EC+학생/NNG+들/XSN+의/JKG+통학/NNG+이/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.그러셨군요 담당 주무관님 전화번호 안내해 드리겠습니다",
+            "norm_text": "A.그러셨군요 담당 주무관님 전화번호 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그러/VV+셨/EP+EP+군요/EC+담당/NNG+주무관/NNG+님/XSN+전화/NNG+번호/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 안내해 주시면 감사하겠습니다",
+            "norm_text": "B.네 안내해 주시면 감사하겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+안내/NNG+해/XSV+EC+주/VX+시/EP+면/EC+감사/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.#@전번# #@소속# #@이름# 주무관님입니다",
+            "norm_text": "A.#@전번# #@소속# #@이름# 주무관님입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+주무관/NNG+님/XSN+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.감사합니다 좋은 하루 보내세요",
+            "norm_text": "B.감사합니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

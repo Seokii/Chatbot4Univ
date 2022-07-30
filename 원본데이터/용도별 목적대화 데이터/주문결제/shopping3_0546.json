@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 10836,
+    "name": "s3_20210913_0010_0687_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514170076100/s3_20210913_0010_0687_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt202109081514170076100/s3_20210913_0010_0687_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11948,
+      "filename": "s3_20210826_0010_0027_01.txt",
+      "title": "s3_20210826_0010_0027_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 592,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 592,
+        "word_size": 127,
+        "text": "A.반갑습니다 상담사 #@이름#입니다 잠시 통화 괜찮으신가요\nB.네 방금 전화했던 분인가요 어떤 것 때문에 전화주셨죠\nA.고객님 내일 설치 받으신다고 하셨잖아요\nA.변경하려는 결제정보를 저한테 말씀 해주시겠어요\nA.제가 고객님 제품 설치 완료되는대로 결제정보 변경하고 문자를 드릴게요\nB.그렇게 해주시면 제가 감사하죠 카드로 결제하려고 하거든요\nA.네 카드결제는 어떤 카드로 설정 해드릴까요\nB.제 #@소속#카드로 설정해주세요\nA.네 본인명의 맞으시죠 카드번호 말씀해주십시오\nB.네 제 명의 맞구요 카드번호가 #@금융#입니다\nA.카드 유효기간과 고객님 생년월일 확인 부탁드립니다\nB.유효기간은 #@금융#이에요 생년월일은 #@신원#이구요\nA.예 고객님의 성함과 설치받으실 주소가 어떻게 되세요\nB.제 이름은 #@이름#이구요 주소는 경기 고양시 일산 동구 #@주소#요\nA.네 감사합니다 개인정보 구법규에 따라 동의 후에 변경 가능합니다\nA.신용정보 조회 및 제공에 동의하십니까 또한 자동이체 동의하십니까\nA.또한 개인정보 수집 및 이용에 동의해주시겠습니까\nB.네 세 가지 사항 모두 동의합니다\nA.감사합니다 고객님 정보 확인 후에 변경하고 문자로 안내드리겠습니다\nB.네 안내 감사합니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다 잠시 통화 괜찮으신가요",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다 잠시 통화 괜찮으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+잠시/MAG+통화/NNG+괜찮/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 2,
+            "text": "B.네 방금 전화했던 분인가요 어떤 것 때문에 전화주셨죠",
+            "norm_text": "B.네 방금 전화했던 분인가요 어떤 것 때문에 전화주셨죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+방금/MAG+전화/NNG+했/XSV+EP+던/ETM+분/NNB+인가요/VCP+EC+어떤/MM+것/NNB+때문/NNB+에/JKB+전화/NNG+주/VV+셨/EP+EP+죠/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 내일 설치 받으신다고 하셨잖아요",
+            "norm_text": "A.고객님 내일 설치 받으신다고 하셨잖아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+내일/NNG+설치/NNG+받/VV+으신다고/EP+EP+EC+하/VX+셨잖아요/EP+EP+EC+VX+EF"
+          },
+          {
+            "id": 4,
+            "text": "A.변경하려는 결제정보를 저한테 말씀 해주시겠어요",
+            "norm_text": "A.변경하려는 결제정보를 저한테 말씀 해주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+변경/NNG+하/XSV+려는/ETM+결제/NNG+정보/NNG+를/JKO+저/NP+한테/JKB+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.제가 고객님 제품 설치 완료되는대로 결제정보 변경하고 문자를 드릴게요",
+            "norm_text": "A.제가 고객님 제품 설치 완료되는대로 결제정보 변경하고 문자를 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+고객/NNG+님/XSN+제품/NNG+설치/NNG+완료/NNG+되/XSV+는/ETM+대로/NNB+결제/NNG+정보/NNG+변경/NNG+하/XSV+고/EC+문자/NNG+를/JKO+드릴게요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그렇게 해주시면 제가 감사하죠 카드로 결제하려고 하거든요",
+            "norm_text": "B.그렇게 해주시면 제가 감사하죠 카드로 결제하려고 하거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇게/MAG+해/VV+EC+주/VX+시/EP+면/EC+제/NP+가/JKS+감사/NNG+하/XSA+죠/EF+카드/NNG+로/JKB+결제/NNG+하/XSV+려고/EC+하/VX+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 카드결제는 어떤 카드로 설정 해드릴까요",
+            "norm_text": "A.네 카드결제는 어떤 카드로 설정 해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+카드/NNG+결제/NNG+는/JX+어떤/MM+카드/NNG+로/JKB+설정/NNG+해/XSV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.제 #@소속#카드로 설정해주세요",
+            "norm_text": "B.제 #@소속#카드로 설정해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+#/SY+@/SY+소속/NNG+#/SY+카드/NNG+로/JKB+설정/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 본인명의 맞으시죠 카드번호 말씀해주십시오",
+            "norm_text": "A.네 본인명의 맞으시죠 카드번호 말씀해주십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+본/MM+인명/NNG+의/JKG+맞/VV+으시/EP+죠/EF+카드/NNG+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+십시오/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 제 명의 맞구요 카드번호가 #@금융#입니다",
+            "norm_text": "B.네 제 명의 맞구요 카드번호가 #@금융#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제명/NNG+의/JKG+맞/VV+구요/EF+카드/NNG+번호/NNG+가/JKS+#/SY+@/SY+금융/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.카드 유효기간과 고객님 생년월일 확인 부탁드립니다",
+            "norm_text": "A.카드 유효기간과 고객님 생년월일 확인 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+카드/NNG+유효/NNG+기간/NNG+과/JC+고객/NNG+님/XSN+생년월일/NNG+확인/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.유효기간은 #@금융#이에요 생년월일은 #@신원#이구요",
+            "norm_text": "B.유효기간은 #@금융#이에요 생년월일은 #@신원#이구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+유효/NNG+기간/NNG+은/JX+#/SY+@/SY+금융/NNG+#/SY+이/VCP+에요/EF+생년월일/NNG+은/JX+#/SY+@/SY+신원/NNG+#/SY+이/VCP+구요/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.예 고객님의 성함과 설치받으실 주소가 어떻게 되세요",
+            "norm_text": "A.예 고객님의 성함과 설치받으실 주소가 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+의/JKG+성함/NNG+과/JC+설치/NNG+받/VV+으실/EP+ETM+주소/NNG+가/JKS+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.제 이름은 #@이름#이구요 주소는 경기 고양시 일산 동구 #@주소#요",
+            "norm_text": "B.제 이름은 #@이름#이구요 주소는 경기 고양시 일산 동구 #@주소#요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+구요/EF+주소/NNG+는/JX+경기/NNG+고양시/NNP+일산/NNP+동구/NNP+#/SY+@/SY+주소/NNG+#/SY+요/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네 감사합니다 개인정보 구법규에 따라 동의 후에 변경 가능합니다",
+            "norm_text": "A.네 감사합니다 개인정보 구법규에 따라 동의 후에 변경 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+개인/NNG+정보/NNG+구/VCP+EC+법규/NNG+에/JKB+따라/VV+EC+동의/NNG+후/NNG+에/JKB+변경/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.신용정보 조회 및 제공에 동의하십니까 또한 자동이체 동의하십니까",
+            "norm_text": "A.신용정보 조회 및 제공에 동의하십니까 또한 자동이체 동의하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+신용/NNG+정보/NNG+조회/NNG+및/MAJ+제공/NNG+에/JKB+동의/NNG+하/XSV+십니까/EP+EF+또한/MAJ+자동/NNG+이/JKS+체동/NNG+의/JKG+하/VV+십니까/EP+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.또한 개인정보 수집 및 이용에 동의해주시겠습니까",
+            "norm_text": "A.또한 개인정보 수집 및 이용에 동의해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+또한/MAJ+개인/NNG+정보/NNG+수집/NNG+및/MAJ+이용/NNG+에/JKB+동의/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 18,
+            "text": "B.네 세 가지 사항 모두 동의합니다",
+            "norm_text": "B.네 세 가지 사항 모두 동의합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+세/MM+가지/NNBC+사항/NNG+모두/MAG+동의/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.감사합니다 고객님 정보 확인 후에 변경하고 문자로 안내드리겠습니다",
+            "norm_text": "A.감사합니다 고객님 정보 확인 후에 변경하고 문자로 안내드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+정보/NNG+확인/NNG+후/NNG+에/JKB+변경/NNG+하/XSV+고/EC+문자/NNG+로/JKB+안/MAG+내드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 20,
+            "text": "B.네 안내 감사합니다 수고하세요",
+            "norm_text": "B.네 안내 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+안내/NNG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

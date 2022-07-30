@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 94003,
+    "name": "s3_20211102_0005_0331_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110826070161/s3_20211102_0005_0331_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110826070161/s3_20211102_0005_0331_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119004,
+      "filename": "s3_20211007_0007_0010_01.txt",
+      "title": "s3_20211007_0007_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 268,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 268,
+        "word_size": 61,
+        "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.네 안녕하세요 문의 드릴 게 있어서요\nA.네 어떤 문의이실까요 고객님\nB.가상 계좌 입금 시 주문자와 입금자명이 동일해야 하나요\nA.가상 계좌는 고객님께만 발급되는 일회성 계좌 번호입니다\nA.따라서 주문자와 입금자명이 다르더라도 입금이 가능합니다\nB.네 다행이네요 감사합니다\nA.단 결제 금액의 일 원 단위까지 정확히 맞춰야 입금 가능합니다\nB.네 알고 있습니다 감사합니다\nA.네 좋은 하루 되시길 바랍니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 고객님 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의 드릴 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의 드릴 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의이실까요 고객님",
+            "norm_text": "A.네 어떤 문의이실까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 4,
+            "text": "B.가상 계좌 입금 시 주문자와 입금자명이 동일해야 하나요",
+            "norm_text": "B.가상 계좌 입금 시 주문자와 입금자명이 동일해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+가상/NNG+계좌/NNG+입금/NNG+시주/NNG+문자/NNG+와/JC+입금/NNG+자명/NNG+이/JKS+동일/NNG+해야/XSV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.가상 계좌는 고객님께만 발급되는 일회성 계좌 번호입니다",
+            "norm_text": "A.가상 계좌는 고객님께만 발급되는 일회성 계좌 번호입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가상/NNG+계좌/NNG+는/JX+고객/NNG+님/XSN+께/JKB+만/JX+발급/NNG+되/XSV+는/ETM+일회성/NNG+계좌/NNG+번호/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.따라서 주문자와 입금자명이 다르더라도 입금이 가능합니다",
+            "norm_text": "A.따라서 주문자와 입금자명이 다르더라도 입금이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+따라서/MAJ+주문자/NNG+와/JC+입금/NNG+자명/NNG+이/JKS+다르/VA+더라도/EC+입금/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 다행이네요 감사합니다",
+            "norm_text": "B.네 다행이네요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+다행/NNG+이/VCP+네요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.단 결제 금액의 일 원 단위까지 정확히 맞춰야 입금 가능합니다",
+            "norm_text": "A.단 결제 금액의 일 원 단위까지 정확히 맞춰야 입금 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+단결/NNG+제/XSN+금액/NNG+의/JKG+일원/NNG+단위/NNG+까지/JX+정확히/MAG+맞춰야/VV+EC+입금/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.네 알고 있습니다 감사합니다",
+            "norm_text": "B.네 알고 있습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+고/EC+있/VX+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 좋은 하루 되시길 바랍니다 감사합니다",
+            "norm_text": "A.네 좋은 하루 되시길 바랍니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+되/XSV+시/EP+길/ETN+JKO+바랍니다/VV+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

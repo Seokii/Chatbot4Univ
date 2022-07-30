@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 165037,
+    "name": "t3_20211123_0005_0499_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt202111101358080600103/t3_20211123_0005_0499_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt202111101358080600103/t3_20211123_0005_0499_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 150879,
+      "filename": "t3_0069_0019_02.txt",
+      "title": "t3_0069_0019_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 350,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 350,
+        "word_size": 85,
+        "text": "A.문의 주셔서 감사합니다 여행 상담 센터 #@이름#입니다\nB.저희가 남원 여행 중에 음식점 추천을 받고 싶어서 전화 드렸는데요\nA.네 어떤 음식 추천 도와드릴까요\nB.혹시 부모님과 함께 갈 만 한 보양식 음식점이 있나요\nA.건강한 식사가 필요하시면 #@소속#를 추천 드립니다\nB.#@소속#에서는 어떤 메뉴를 먹을 수 있나요\nA.오리와 닭을 푹 고아 만든 보양식인 백숙이 유명한 곳인데요\nA.특히 한방 약재로 주로 쓰여온 능이버섯을 주재료로 한 백숙입니다\nB.오리와 닭 백숙을 능이버섯과 함께 즐길 수 있겠네요\nA.가족과 함께 속이 편안한 식사를 하실 수 있습니다\nB.자세하게 소개 해 주셔서 감사합니다\nA.지금까지 #@이름#이었습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.문의 주셔서 감사합니다 여행 상담 센터 #@이름#입니다",
+            "norm_text": "A.문의 주셔서 감사합니다 여행 상담 센터 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+문/NNG+의/JKG+주/VV+셔서/EP+EC+감사/NNG+합니다/XSV+EF+여행/NNG+상담/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저희가 남원 여행 중에 음식점 추천을 받고 싶어서 전화 드렸는데요",
+            "norm_text": "B.저희가 여행 중에 음식점 추천을 받고 싶어서 전화드렸는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+가/JKS+남원/NNP+여행/NNG+중/NNB+에/JKB+음식점/NNG+추천/NNG+을/JKO+받/VV+고/EC+싶/VX+어서/EC+전화/NNG+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 음식 추천 도와드릴까요",
+            "norm_text": "A.네 어떤 음식 추천 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+음식/NNG+추천/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.혹시 부모님과 함께 갈 만 한 보양식 음식점이 있나요",
+            "norm_text": "B.혹시 부모님과 함께 갈 만한 보양식 음식점이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+부모/NNG+님/XSN+과/JKB+함께/MAG+갈만/NNG+한보/NNP+양식/NNG+음식점/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.건강한 식사가 필요하시면 #@소속#를 추천 드립니다",
+            "norm_text": "A.건강한 식사가 필요하시면 #@소속#를 추천드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+건강/NNG+한/XSA+ETM+식사/NNG+가/JKS+필요/NNG+하/XSV+시/EP+면/EC+#/SY+@/SY+소속/NNG+#/SY+를/JKO+추천/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.#@소속#에서는 어떤 메뉴를 먹을 수 있나요",
+            "norm_text": "B.#@소속#에서는 어떤 메뉴를 먹을 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에서/JKB+는/JX+어떤/MM+메뉴/NNG+를/JKO+먹/VV+을/ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.오리와 닭을 푹 고아 만든 보양식인 백숙이 유명한 곳인데요",
+            "norm_text": "A.오리와 닭을 푹 고아 만든 보양식인 백숙이 유명한 곳인데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+오리/NNG+와/JC+닭/NNG+을/JKO+푹/MAG+고아/NNG+만든/VV+ETM+보양/NNG+식인/NNG+백숙/NNG+이/JKS+유명/XR+한/XSA+ETM+곳/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.특히 한방 약재로 주로 쓰여온 능이버섯을 주재료로 한 백숙입니다",
+            "norm_text": "A.특히 한방 약재로 주로 쓰여온 능이버섯을 주재료로 한 백숙입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+특히/MAG+한방/NNG+약재/NNG+로/JKB+주로/MAG+쓰여온/VV+EC+VX+ETM+능이버섯/NNG+을/JKO+주재료/NNG+로/JKB+한/MM+백숙/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.오리와 닭 백숙을 능이버섯과 함께 즐길 수 있겠네요",
+            "norm_text": "B.오리와 닭 백숙을 능이버섯과 함께 즐길 수 있겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+오리/NNG+와/JC+닭백숙/NNG+을/JKO+능이버섯/NNG+과/JKB+함께/MAG+즐길/VV+ETM+수/NNB+있/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.가족과 함께 속이 편안한 식사를 하실 수 있습니다",
+            "norm_text": "A.가족과 함께 속이 편안한 식사를 하실 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가족/NNG+과/JKB+함께/MAG+속/NNG+이/JKS+편안/NNG+한/XSA+ETM+식사/NNG+를/JKO+하/VV+실/EP+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.자세하게 소개 해 주셔서 감사합니다",
+            "norm_text": "B.자세하게 소개해 주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+자세/XR+하/XSA+게/EC+소개/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.지금까지 #@이름#이었습니다 감사합니다",
+            "norm_text": "A.지금까지 #@이름#이었습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+지금/NNG+까지/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

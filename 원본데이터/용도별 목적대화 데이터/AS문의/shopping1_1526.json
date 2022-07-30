@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 17258,
+    "name": "s1_20210915_0001_0837_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202109081512180075101/s1_20210915_0001_0837_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202109081512180075101/s1_20210915_0001_0837_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7654,
+      "filename": "s1_20210823_0011_0024_01.txt",
+      "title": "s1_20210823_0011_0024_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 459,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 459,
+        "word_size": 113,
+        "text": "A.안녕하세요 엘지 서비스센타 상담사 #@이름#입니다\nA.고객님 지금 통화 가능하세요\nB.여보세요 네 통화 가능합니다\nA.네 고객님 감사합니다 설치 요청 건 때문에 전화 드렸는데요\nA.언제쯤 고객님 설치를 하시면 편하시겠습니까\nA.시간 약속 확인하겠습니다\nB.설치 오늘 떼 놓으면 해달라고 했는데 그거 떼면 바로 가지고 올 거예요\nB.가져가서 바로 설치하면 돼요\nA.그러실 건가요 그렇게 알겠습니다\nA.그러면 따로 접수할 필요는 없으신가요\nB.아니요 바로 설치 할 수 있게 해주셔야죠\nB.오늘 철거해 달라고 했잖아요\nA.오늘 떼 가지고 바로 설치를 하신다고요 알겠습니다\nA.그러면 이동하는 거리가 있는데요 고객님\nB.그거를 가지고 이동 하는 게 아니라요\nA.이동하는 거리가 별로 안 걸리시나 봐요 고객님\nB.여기서 가는 시간이 한 삼십 분 걸려요\nB.예약을 오후 세 시로 해주세요\nA.오후 세 시요 알겠습니다\nA.고객님 세 시쯤에 예약을 하겠습니다 고객님",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 엘지 서비스센타 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 서비스센타 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+서비스센타상담사/UNKNOWN+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.고객님 지금 통화 가능하세요",
+            "norm_text": "A.고객님 지금 통화 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+지금/MAG+통화/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "B.여보세요 네 통화 가능합니다",
+            "norm_text": "B.여보세요 네 통화 가능합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여보세요/IC+네/IC+통화/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 고객님 감사합니다 설치 요청 건 때문에 전화 드렸는데요",
+            "norm_text": "A.네 고객님 감사합니다 설치 요청 건 때문에 전화 드렸는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+감사/NNG+합니다/XSV+EF+설치/VV+요/EC+청건/NNG+때문/NNB+에/JKB+전화/NNG+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.언제쯤 고객님 설치를 하시면 편하시겠습니까",
+            "norm_text": "A.언제쯤 고객님 설치를 하시면 편하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+언제/NP+쯤/XSN+고객/NNG+님/XSN+설치/NNG+를/JKO+하/VV+시/EP+면/EC+편하/VA+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.시간 약속 확인하겠습니다",
+            "norm_text": "A.시간 약속 확인하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+시간/NNG+약속/NNG+확인/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.설치 오늘 떼 놓으면 해달라고 했는데 그거 떼면 바로 가지고 올 거예요",
+            "norm_text": "B.설치 오늘 떼 놓으면 해달라고 했는데 그거 떼면 바로 가지고 올 거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+설치/NNG+오늘/MAG+떼/VV+EC+놓/VX+으면/EC+해/VV+EC+달/VX+라고/EC+했/VX+EP+는데/EC+그거/NP+떼/VV+면/EC+바로/MAG+가지/VV+고/EC+올/VV+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.가져가서 바로 설치하면 돼요",
+            "norm_text": "B.가져가서 바로 설치하면 돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+가져가/VV+서/EC+바로/MAG+설치/NNG+하/XSV+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그러실 건가요 그렇게 알겠습니다",
+            "norm_text": "A.그러실 건가요 그렇게 알겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러실/VA+EP+ETM+건가요/NNB+VCP+EC+그렇게/MAG+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.그러면 따로 접수할 필요는 없으신가요",
+            "norm_text": "A.그러면 따로 접수할 필요는 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러면/MAJ+따로/MAG+접수/NNG+할/XSV+ETM+필요/NNG+는/JX+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "B.아니요 바로 설치 할 수 있게 해주셔야죠",
+            "norm_text": "B.아니요 바로 설치 할 수 있게 해주셔야죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+아니요/IC+바로/MAG+설치/NNG+할/XSV+ETM+수/NNB+있/VV+게/EC+해/VV+EC+주/VX+셔야죠/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.오늘 철거해 달라고 했잖아요",
+            "norm_text": "B.오늘 철거해 달라고 했잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+오늘/MAG+철거/NNG+해/XSV+EC+달/VX+라고/EC+했잖아요/VX+EP+EC+VX+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.오늘 떼 가지고 바로 설치를 하신다고요 알겠습니다",
+            "norm_text": "A.오늘 떼 가지고 바로 설치를 하신다고요 알겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+오늘/MAG+떼/VV+EC+가지/VX+고/EC+바로/MAG+설치/NNG+를/JKO+하/VV+신다고요/EP+EF+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.그러면 이동하는 거리가 있는데요 고객님",
+            "norm_text": "A.그러면 이동하는 거리가 있는데요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러면/MAJ+이동/NNG+하/XSV+는/ETM+거리/NNG+가/JKS+있/VA+는데요/EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 15,
+            "text": "B.그거를 가지고 이동 하는 게 아니라요",
+            "norm_text": "B.그거를 가지고 이동 하는 게 아니라요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+그거/NP+를/JKO+가지/VV+고/EC+이동/NNG+하/XSV+는/ETM+게/NNB+JKC+아니/VCN+라요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.이동하는 거리가 별로 안 걸리시나 봐요 고객님",
+            "norm_text": "A.이동하는 거리가 별로 안 걸리시나 봐요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+이동/NNG+하/XSV+는/ETM+거리/NNG+가/JKS+별로/MAG+안/MAG+걸리/VV+시/EP+나/EC+봐요/VX+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 17,
+            "text": "B.여기서 가는 시간이 한 삼십 분 걸려요",
+            "norm_text": "B.여기서 가는 시간이 한 삼십 분 걸려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+여기/NP+서/JKB+가/VV+는/ETM+시간/NNG+이/JKS+한/MM+삼/NR+십/NR+분/NNBC+걸려요/VV+EF"
+          },
+          {
+            "id": 18,
+            "text": "B.예약을 오후 세 시로 해주세요",
+            "norm_text": "B.예약을 오후 세 시로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+예약/NNG+을/JKO+오후/NNG+세/MM+시/NNBC+로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 19,
+            "text": "A.오후 세 시요 알겠습니다",
+            "norm_text": "A.오후 세 시요 알겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+오후/NNG+세/MM+시/NNBC+요/VCP+EC+알/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 20,
+            "text": "A.고객님 세 시쯤에 예약을 하겠습니다 고객님",
+            "norm_text": "A.고객님 세 시쯤에 예약을 하겠습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+세/MM+시/NNBC+쯤/XSN+에/JKB+예약/NNG+을/JKO+하/VV+겠/EP+습니다/EF+고객/NNG+님/XSN"
+          }
+        ]
+      }
+    }
+  ]
+}

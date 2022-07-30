@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 56567,
+    "name": "c4_20211019_0001_2879_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130702078136/c4_20211019_0001_2879_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130702078136/c4_20211019_0001_2879_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49910,
+      "filename": "c4_20210903_0008_0010_01.txt",
+      "title": "c4_20210903_0008_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 278,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 278,
+        "word_size": 64,
+        "text": "A.행복한 하루 시작 #@소속# 상담원 #@이름#입니다\nB.네 부실 시공 관련해서 문의 좀 하려고 합니다\nA.부실 시공된 시공 장소 주소 알고계십니까\nB.네 진주시 #@주소# 상가에요\nA.시공사 #@소속#으로 확인되고 있습니다\nB.예 거기서 부실 시공을해서 누수가 있어요\nA.실례지만 누수가 심하신 편 이십니까\nB.아니요 우천 시에만 배수가 원활하지가 않아요\nA.네 문의 주신내용 시공사에 행정지도 하여 조치하도록 하겠습니다\nB.네 꼭 좀 해주세요 누수가 너무 심해요\nA.네 알겠습니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.행복한 하루 시작 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.행복한 하루 시작 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+한/XSA+ETM+하루/NNG+시작/NNG+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 부실 시공 관련해서 문의 좀 하려고 합니다",
+            "norm_text": "B.네 부실 시공 관련해서 문의 좀 하려고 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+부실시공/NNG+관련/NNG+해서/XSV+EC+문/NNG+의/JKG+좀/MAG+하/VV+려고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.부실 시공된 시공 장소 주소 알고계십니까",
+            "norm_text": "A.부실 시공된 시공 장소 주소 알고계십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+부실시공/NNG+된/XSV+ETM+시공/NNG+장소/NNG+주소/NNG+알/VV+고/EC+계십니까/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 진주시 #@주소# 상가에요",
+            "norm_text": "B.네 진주시 #@주소# 상가에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+진주시/NNP+#/SY+@/SY+주소/NNG+#/SY+상가/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.시공사 #@소속#으로 확인되고 있습니다",
+            "norm_text": "A.시공사 #@소속#으로 확인되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+시공사/NNP+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+확인/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.예 거기서 부실 시공을해서 누수가 있어요",
+            "norm_text": "B.예 거기서 부실 시공을해서 누수가 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+거기/NP+서/JKB+부실시공/NNG+을/JKO+해서/VV+EC+누수/NNG+가/JKS+있/VA+어요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.실례지만 누수가 심하신 편 이십니까",
+            "norm_text": "A.실례지만 누수가 심하신 편 이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+실례/NNG+지만/VCP+EC+누수/NNG+가/JKS+심하/VA+신/EP+ETM+편/NNB+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.아니요 우천 시에만 배수가 원활하지가 않아요",
+            "norm_text": "B.아니요 우천 시에만 배수가 원활하지가 않아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/IC+요우/NNG+천/NR+시/NNBC+에/JKB+만/JX+배수/NNG+가/JKS+원활/NNG+하/XSV+지/EC+가/JX+않/VX+아요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 문의 주신내용 시공사에 행정지도 하여 조치하도록 하겠습니다",
+            "norm_text": "A.네 문의 주신내용 시공사에 행정지도 하여 조치하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+문/NNG+의/JKG+주신/NNG+내용/NNG+시공사/NNP+에/JKB+행정/NNG+지도/NNG+하/XSV+여/EC+조치/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 꼭 좀 해주세요 누수가 너무 심해요",
+            "norm_text": "B.네 꼭 좀 해주세요 누수가 너무 심해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+꼭/MAG+좀/MAG+해/VV+EC+주/VX+세요/EP+EF+누수/NNG+가/JKS+너무/MAG+심해요/VA+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 알겠습니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.네 알겠습니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

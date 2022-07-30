@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 123337,
+    "name": "s1_20211008_0006_0026_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111010061211/s1_20211008_0006_0026_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20211101111010061211/s1_20211008_0006_0026_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 122372,
+      "filename": "s1_20210825_0017_0005_01.txt",
+      "title": "s1_20210825_0017_0005_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 290,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 290,
+        "word_size": 66,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.벽걸이 티브이를 사용 중 인대요\nB.벽걸이를 안하고 밑에 다이 설치를 하고 싶어요\nA.고객님 기사 방문 후에 설치해드리도록 하겠습니다\nA.고객님 모델명은 어떻게 되시나요\nB.티브이 모델명은 #@상품# 입니다\nA.제품을 구입하신 지는 얼마나 되셨습니까\nB.다른 집에서 얻어서 사용한 거라 얼마나 되었는지는 몰라요\nA.고객님 티브이는 당일 설치가 어렵습니다\nB.제가 접수는 미리 해놨어요\nA.접수 시 등록한 전화번호가 어떻게 되십니까\nB.제 전화번호는 #@전번# 이에요\nB.제 이름은 #@이름# 이고요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.벽걸이 티브이를 사용 중 인대요",
+            "norm_text": "B.벽걸이 티브이를 사용 중 인대요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+벽걸이/NNG+티브이/NNG+를/JKO+사용/NNG+중/NNB+인/VCP+ETM+대요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "B.벽걸이를 안하고 밑에 다이 설치를 하고 싶어요",
+            "norm_text": "B.벽걸이를 안하고 밑에 다이 설치를 하고 싶어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+벽걸이/NNG+를/JKO+안/MAG+하/VV+고/EC+밑/NNG+에다/JKB+이/MM+설치/NNG+를/JKO+하/VV+고/EC+싶/VX+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.고객님 기사 방문 후에 설치해드리도록 하겠습니다",
+            "norm_text": "A.고객님 기사 방문 후에 설치해드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+기사/NNG+방문/NNG+후/NNG+에/JKB+설치/NNG+해/XSV+EC+드리/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 모델명은 어떻게 되시나요",
+            "norm_text": "A.고객님 모델명은 어떻게 되시나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+모델/NNG+명/XSN+은/JX+어떻게/MAG+되/VV+시/EP+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.티브이 모델명은 #@상품# 입니다",
+            "norm_text": "B.티브이 모델명은 #@상품# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+티브이/NNG+모델/NNG+명은/NNG+#/SY+@/SY+상품/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.제품을 구입하신 지는 얼마나 되셨습니까",
+            "norm_text": "A.제품을 구입하신 지는 얼마나 되셨습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+제품/NNG+을/JKO+구입/NNG+하/XSV+신지/EP+EC+는/JX+얼마나/MAG+되/VV+셨/EP+EP+습니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.다른 집에서 얻어서 사용한 거라 얼마나 되었는지는 몰라요",
+            "norm_text": "B.다른 집에서 얻어서 사용한 거라 얼마나 되었는지는 몰라요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+다른/MM+집/NNG+에서/JKB+얻/VV+어서/EC+사용/NNG+한/XSA+ETM+거/NNB+라/VCP+EC+얼마나/MAG+되/VV+었/EP+는지/EC+는/JX+몰라요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.고객님 티브이는 당일 설치가 어렵습니다",
+            "norm_text": "A.고객님 티브이는 당일 설치가 어렵습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+티브이/NNG+는/JX+당일/NNG+설치/NNG+가/JKS+어렵/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.제가 접수는 미리 해놨어요",
+            "norm_text": "B.제가 접수는 미리 해놨어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+접수/NNG+는/JX+미리/MAG+해/VV+EC+놨어요/VX+EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.접수 시 등록한 전화번호가 어떻게 되십니까",
+            "norm_text": "A.접수 시 등록한 전화번호가 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+접수/NNG+시/NNG+등록/NNG+한/XSA+ETM+전화/NNG+번호/NNG+가/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.제 전화번호는 #@전번# 이에요",
+            "norm_text": "B.제 전화번호는 #@전번# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.제 이름은 #@이름# 이고요",
+            "norm_text": "B.제 이름은 #@이름# 이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

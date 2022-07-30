@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 150004,
+    "name": "t1_20211117_0002_0181_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135711055869/t1_20211117_0002_0181_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135711055869/t1_20211117_0002_0181_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147548,
+      "filename": "t1_0054_0034_02.txt",
+      "title": "t1_0054_0034_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 325,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 325,
+        "word_size": 68,
+        "text": "A.친절하게 모시겠습니다 팔공산 #@소속#입니다\nB.안녕하세요 제가 사정이 생겨서 숙박 예약을 취소하고 싶은데요\nA.네 예약취소는 온라인에서 직접 취소하셔야 합니다\nB.제가 무통장입금을 했는데 환불 받을 수 있나요\nA.네 취소하실때 계좌번호를 기재하여 주시면 3일 이내에 환불 처리됩니다\nB.그래요 몇 일 전에 취소해야 전액 환불이 가능한가요\nA.예약 당일날 취소하시면 전액환불이 가능합니다\nB.그래요 저는 일주일전인데 얼마 환불이 가능하죠\nA.7일전 환불하시면 60프로 입금됩니다\nB.어머나 그래요 그럼 신중하게 생각해보고 취소할게요\nA.신중하게 생각해보시고 결정하십시오 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.친절하게 모시겠습니다 팔공산 #@소속#입니다",
+            "norm_text": "A.친절하게 모시겠습니다 팔공산 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+친절/NNG+하/XSV+게/EC+모시/VV+겠/EP+습니다/EF+팔/NR+공산/NNG+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 제가 사정이 생겨서 숙박 예약을 취소하고 싶은데요",
+            "norm_text": "B.안녕하세요 제가 사정이 생겨서 숙박 예약을 취소하고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+사정/NNG+이/JKS+생겨서/VV+EC+숙박/NNG+예약/NNG+을/JKO+취소/NNG+하/XSV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 예약취소는 온라인에서 직접 취소하셔야 합니다",
+            "norm_text": "A.네 예약취소는 온라인에서 직접 취소하셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+예약/NNG+취소/NNG+는/JX+온라인/NNG+에서/JKB+직접/MAG+취소/NNG+하/XSV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 무통장입금을 했는데 환불 받을 수 있나요",
+            "norm_text": "B.제가 무통장입금을 했는데 환불 받을 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+제/NP+가/JKS+무/XPN+통장/NNG+입금/NNG+을/JKO+했/VV+EP+는데/EC+환불/NNG+받/VV+을/ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 취소하실때 계좌번호를 기재하여 주시면 3일 이내에 환불 처리됩니다",
+            "norm_text": "A.네 취소하실때 계좌번호를 기재하여 주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+취소/NNG+하/XSV+실/EP+ETM+때/NNG+계좌/NNG+번호/NNG+를/JKO+기재/NNG+하/XSV+여/EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그래요 몇 일 전에 취소해야 전액 환불이 가능한가요",
+            "norm_text": "B.그래요 몇 일 전에 취소해야 전액 환불이 가능한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/IC+몇/MM+일전/NNG+에/JKB+취소/NNG+해야/XSV+EC+전액/NNG+환불/NNG+이/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 7,
+            "text": "A.예약 당일날 취소하시면 전액환불이 가능합니다",
+            "norm_text": "A.예약 당일날 취소하시면 전액환불이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예약/NNG+당일/NNG+날/NNG+취소/NNG+하/XSV+시/EP+면/EC+전액/NNG+환불/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그래요 저는 일주일전인데 얼마 환불이 가능하죠",
+            "norm_text": "B.그래요 저는 일주일전인데 얼마 환불이 가능하죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+저/NP+는/JX+일/NR+주일/NNBC+전/NNG+인데/VCP+EC+얼마/NNG+환불/NNG+이/JKS+가능/NNG+하/XSV+죠/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.7일전 환불하시면 60프로 입금됩니다",
+            "norm_text": "A.7일전 환불하시면 60프로 입금됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+7/SN+일/NNBC+전환/NNG+불/NNG+하/XSV+시/EP+면/EC+60/SN+프로/NNG+입금/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.어머나 그래요 그럼 신중하게 생각해보고 취소할게요",
+            "norm_text": "B.어머나 그래요 그럼 신중하게 생각해보고 취소할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+어머나/IC+그래요/VV+EF+그럼/MAJ+신중/NNG+하/XSV+게/EC+생각/NNG+해/XSV+EC+보/VX+고/EC+취소/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.신중하게 생각해보시고 결정하십시오 상담원 #@이름#이었습니다",
+            "norm_text": "A.신중하게 생각해보시고 결정하십시오 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+신중/NNG+하/XSV+게/EC+생각/NNG+해/XSV+EC+보/VX+시/EP+고/EC+결정/NNG+하/XSV+십시오/EP+EC+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

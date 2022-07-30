@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 159995,
+    "name": "t3_20211119_0005_0274_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135814010663/t3_20211119_0005_0274_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135814010663/t3_20211119_0005_0274_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 151532,
+      "filename": "t3_0079_0067_02.txt",
+      "title": "t3_0079_0067_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 255,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 55,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.네 #@주소# 맛집에 대해 물어볼 게 있어서요\nA.네 궁금하신 점 말씀해 주세요\nB.네 칼국수 맛집이 있다던데 어디인가요\nA.칼국수의 경우 #@소속# 해물손칼국수 식당 입니다\nB.네 위치가 어디인가요\nA.네 바로 위치 알려드리면 되나요\nB.네 바로 알려주세요\nA.위치는 양주시 #@주소#입니다 상호명을 네비에 찍으셔도 됩니다\nB.네 그렇군요 감사합니다\nA.네 행복한 하루 보내세요 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 #@주소# 맛집에 대해 물어볼 게 있어서요",
+            "norm_text": "B.네 #@주소# 맛집에 대해 물어볼 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+맛집/NNG+에/JKB+대해/VV+EC+물어볼/VV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 궁금하신 점 말씀해 주세요",
+            "norm_text": "A.네 궁금하신 점 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+궁금/XR+하/XSA+신/EP+ETM+점/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 칼국수 맛집이 있다던데 어디인가요",
+            "norm_text": "B.네 칼국수 맛집이 있다던데 어디인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+칼국수/NNG+맛집/NNG+이/JKS+있/VV+다던데/EC+어디/NP+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.칼국수의 경우 #@소속# 해물손칼국수 식당 입니다",
+            "norm_text": "A.칼국수의 경우 #@소속# 해물손칼국수 식당입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+칼국수/NNG+의/JKG+경우/NNG+#/SY+@/SY+소속/NNG+#/SY+해물/NNG+손칼국수/NNG+식당/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 위치가 어디인가요",
+            "norm_text": "B.네 위치가 어디인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+위치/NNG+가/JKS+어디/NP+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 바로 위치 알려드리면 되나요",
+            "norm_text": "A.네 바로 위치를 알려 드리면 되나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+바로/MAG+위치/NNG+를/JKO+알려/VV+EC+드리/VX+면/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 바로 알려주세요",
+            "norm_text": "B.네 바로 알려 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+바로/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.위치는 양주시 #@주소#입니다 상호명을 네비에 찍으셔도 됩니다",
+            "norm_text": "A.위치는 양주시 #@주소#입니다 상호명을 네비에 찍으셔도 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+위치/NNG+는/JX+양주시/NNP+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EF+상호/MAG+명/NNG+을/JKO+네비/NNG+에/JKB+찍/VV+으셔도/EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 그렇군요 감사합니다",
+            "norm_text": "B.네 그렇군요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+군요/EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 행복한 하루 보내세요 #@소속# #@이름#이었습니다",
+            "norm_text": "A.네 행복한 하루 보내세요 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+행복/NNG+한/XSA+ETM+하루/NNG+보내/VV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

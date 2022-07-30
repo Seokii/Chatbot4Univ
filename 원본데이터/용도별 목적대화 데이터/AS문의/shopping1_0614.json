@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 7550,
+    "name": "s1_20210913_0001_0204_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151221070655/s1_20210913_0001_0204_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151221070655/s1_20210913_0001_0204_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8177,
+      "filename": "s1_20210824_0002_0010_01.txt",
+      "title": "s1_20210824_0002_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 314,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 314,
+        "word_size": 70,
+        "text": "A.네 안녕하세요 상담사 #@이름#입니다 통화 가능하십니까\nB.네 지금 가능합니다\nA.예 원격 요청하셔서 전화드렸습니다\nA.제가 원격으로 들어가서 살펴보겠습니다\nB.예 알겠습니다 어떻게 할까요\nA.인터넷 창에서 주소를 다 지워주시고요 #@번호#를 입력해 주세요\nA.원격 상담 예약 사이트가 나오십니까\nB.안 바뀌는데요 컴퓨터 자체가 안 되나 봐요\nA.그러십니까 그럼 다른 사이트로 접속하셔서 들어가 보시겠습니까\nB.들어가지질 않아요 이상한 프로그램이 깔린 거 같거든요\nB.잠시만요 제가 이걸 지우고 다시 전화드려도 될까요\nA.네 그렇게 하세요 고객님\nB.네 알겠습니다 다시 걸겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하세요 상담사 #@이름#입니다 통화 가능하십니까",
+            "norm_text": "A.네 안녕하세요 상담사 #@이름#입니다 통화 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+통화/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 지금 가능합니다",
+            "norm_text": "B.네 지금 가능합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+지금/MAG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.예 원격 요청하셔서 전화드렸습니다",
+            "norm_text": "A.예 원격 요청하셔서 전화드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+원격/NNG+요청/NNG+하/XSV+셔서/EP+EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "A.제가 원격으로 들어가서 살펴보겠습니다",
+            "norm_text": "A.제가 원격으로 들어가서 살펴보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+원격/NNG+으로/JKB+들어가/VV+서/EC+살펴보/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.예 알겠습니다 어떻게 할까요",
+            "norm_text": "B.예 알겠습니다 어떻게 할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+알/VV+겠/EP+습니다/EF+어떻게/MAG+할까요/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.인터넷 창에서 주소를 다 지워주시고요 #@번호#를 입력해 주세요",
+            "norm_text": "A.인터넷 창에서 주소를 다 지워주시고요 #@번호#를 입력해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+인터넷/NNG+창/NNG+에서/JKB+주소/NNG+를/JKO+다/MAG+지워/VV+EC+주/VX+시/EP+고요/EC+#/SY+@/SY+번호/NNG+#/SY+를/JKO+입력/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.원격 상담 예약 사이트가 나오십니까",
+            "norm_text": "A.원격 상담 예약 사이트가 나오십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+원격/NNG+상담/NNG+예약/NNG+사이트/NNG+가/JKS+나오/VV+십니까/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.안 바뀌는데요 컴퓨터 자체가 안 되나 봐요",
+            "norm_text": "B.안 바뀌는데요 컴퓨터 자체가 안 되나 봐요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+안/MAG+바뀌/VV+는데요/EC+컴퓨터/NNG+자체/NNG+가/JKS+안/MAG+되/VV+나/EC+봐요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그러십니까 그럼 다른 사이트로 접속하셔서 들어가 보시겠습니까",
+            "norm_text": "A.그러십니까 그럼 다른 사이트로 접속하셔서 들어가 보시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+십니까/EP+EF+그럼/MAJ+다른/MM+사이트/NNG+로/JKB+접속/NNG+하/XSV+셔서/EP+EC+들어가/VV+EC+보/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.들어가지질 않아요 이상한 프로그램이 깔린 거 같거든요",
+            "norm_text": "B.들어가지질 않아요 이상한 프로그램이 깔린 거 같거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+들어가/VV+지질/EC+VX+EC+JKO+않/VX+아요/EF+이상/NNG+한/XSA+ETM+프로그램/NNG+이/JKS+깔린/VV+ETM+거/NNB+같/VA+거든요/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.잠시만요 제가 이걸 지우고 다시 전화드려도 될까요",
+            "norm_text": "B.잠시만요 제가 이걸 지우고 다시 전화드려도 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+잠시/NNG+만/JX+요/JX+제/NP+가/JKS+이걸/NP+JKO+지우/VV+고/EC+다시/MAG+전화/NNG+드려도/VV+EC+될까요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 그렇게 하세요 고객님",
+            "norm_text": "A.네 그렇게 하세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇게/MAG+하/VV+세요/EP+EF+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 13,
+            "text": "B.네 알겠습니다 다시 걸겠습니다",
+            "norm_text": "B.네 알겠습니다 다시 걸겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+다시/MAG+걸/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

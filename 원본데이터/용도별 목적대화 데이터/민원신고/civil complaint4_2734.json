@@ -1,0 +1,251 @@
+{
+  "dataset": {
+    "identifier": 56561,
+    "name": "c4_20211019_0001_2874_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130703025391/c4_20211019_0001_2874_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130703025391/c4_20211019_0001_2874_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49967,
+      "filename": "c4_20210903_0004_0005_01.txt",
+      "title": "c4_20210903_0004_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 529,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 529,
+        "word_size": 114,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 여쭐 게 있어 전화드렸습니다\nA.네 선생님 말씀해 주세요\nB.다름아니라 #@주소# 초등학교 설립 요청 관련해 문의드리려고요\nA.선생님 초등학교 설립 요청에 관한 문의시죠\nB.네 아파트 입주를 하거든요 #@주소# 초등학교 설립 요구합니다\nA.제가 확인 후 말씀드리겠습니다 잠시만 기다려주세요\nB.네 알겠습니다 확인 후 말씀 주세요 기다릴게요\nA.기다려주셔서 감사합니다 선생님\nA.해당 사업이 추진되기 위해서는 대규모 주택 설립이 전제돼야 합니다\nA.현재 #@주소# 초등학교의 학생 수용 시설 부족하지 않습니다\nB.아니 그렇지만 곧 다수 아파트 입주가 예정돼 있어요\nA.현 상황에서는 주변의 다수 학교로 수용이 가능합니다\nA.이런 이유로 #@주소# 학교 신설은 어려운 점을 말씀드립니다\nA.향후 학교설립 요건이 충족되었을 경우 추가 검토하도록 하겠습니다\nB.혹시 담당자분과 직접 통화 가능할까요\nA.자세한 문의사항은 #@소속#지원청 행정과 #@전번#로 문의주세요\nA.#@소속# #@이름#이었습니다 즐거운 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 여쭐 게 있어 전화드렸습니다",
+            "norm_text": "B.안녕하세요 여쭐 게 있어 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+여/EC+쭐/VV+게/EC+있/VX+어/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 선생님 말씀해 주세요",
+            "norm_text": "A.네 선생님 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.다름아니라 #@주소# 초등학교 설립 요청 관련해 문의드리려고요",
+            "norm_text": "B.다름아니라 #@주소# 초등학교 설립 요청 관련해 문의드리려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+다름/VA+ETN+아니/VCN+라/EC+#/SY+@/SY+주소/NNG+#/SY+초등/NNG+학교/NNG+설립/NNG+요청/NNG+관련/NNG+해문/NNG+의/JKG+드리/VV+려고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.선생님 초등학교 설립 요청에 관한 문의시죠",
+            "norm_text": "A.선생님 초등학교 설립 요청에 관한 문의시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+초등/NNG+학교/NNG+설립/NNG+요청/NNG+에/JKB+관한/VV+ETM+문/NNG+의/JKG+시/EP+죠/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 아파트 입주를 하거든요 #@주소# 초등학교 설립 요구합니다",
+            "norm_text": "B.네 아파트 입주를 하거든요 #@주소# 초등학교 설립 요구합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+아파트/NNG+입주/NNG+를/JKO+하/VV+거든요/EF+#/SY+@/SY+주소/NNG+#/SY+초등/NNG+학교/NNG+설립/NNG+요구/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.제가 확인 후 말씀드리겠습니다 잠시만 기다려주세요",
+            "norm_text": "A.제가 확인 후 말씀드리겠습니다 잠시만 기다려주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+제/NP+가/JKS+확인/NNG+후/NNG+말씀/NNG+드리/VV+겠/EP+습니다/EF+잠시/NNG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 알겠습니다 확인 후 말씀 주세요 기다릴게요",
+            "norm_text": "B.네 알겠습니다 확인 후 말씀 주세요 기다릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+확인/NNG+후/NNG+말씀/NNG+주세요/NNP+기다릴/VV+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.기다려주셔서 감사합니다 선생님",
+            "norm_text": "A.기다려주셔서 감사합니다 선생님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+선생/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "A.해당 사업이 추진되기 위해서는 대규모 주택 설립이 전제돼야 합니다",
+            "norm_text": "A.해당 사업이 추진되기 위해서는 대규모 주택 설립이 전제돼야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+사업/NNG+이/JKS+추진/NNG+되/XSV+기/ETN+위해서/VV+EC+는/JX+대/XPN+규모/NNG+주택/NNG+설립/NNG+이/JKS+전제/NNG+돼야/XSV+EC+합니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.현재 #@주소# 초등학교의 학생 수용 시설 부족하지 않습니다",
+            "norm_text": "A.현재 #@주소# 초등학교의 학생 수용 시설 부족하지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+현재/MAG+#/SY+@/SY+주소/NNG+#/SY+초등/NNG+학교/NNG+의/JKG+학생/NNG+수용/NNG+시설/NNG+부족/NNG+하/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.아니 그렇지만 곧 다수 아파트 입주가 예정돼 있어요",
+            "norm_text": "B.아니 그렇지만 곧 다수 아파트 입주가 예정돼 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/IC+그렇지만/MAJ+곧/MAG+다수/NNG+아파트/NNG+입주/NNG+가/JKS+예정/NNG+돼/XSV+EC+있/VX+어요/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.현 상황에서는 주변의 다수 학교로 수용이 가능합니다",
+            "norm_text": "A.현 상황에서는 주변의 다수 학교로 수용이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+현/MM+상황/NNG+에서/JKB+는/JX+주변/NNG+의/JKG+다수/NNG+학교/NNG+로/JKB+수용/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.이런 이유로 #@주소# 학교 신설은 어려운 점을 말씀드립니다",
+            "norm_text": "A.이런 이유로 #@주소# 학교 신설은 어려운 점을 말씀드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이런/MM+이유/NNG+로/JKB+#/SY+@/SY+주소/NNG+#/SY+학교/NNG+신설/NNG+은/JX+어려운/VA+ETM+점/NNG+을/JKO+말씀/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.향후 학교설립 요건이 충족되었을 경우 추가 검토하도록 하겠습니다",
+            "norm_text": "A.향후 학교설립 요건이 충족되었을 경우 추가 검토하도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+향후/NNG+학교/NNG+설립/NNG+요건/NNG+이/JKS+충족/NNG+되/XSV+었/EP+을/ETM+경우/NNG+추가/NNG+검토/NNG+하/XSV+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 16,
+            "text": "B.혹시 담당자분과 직접 통화 가능할까요",
+            "norm_text": "B.혹시 담당자분과 직접 통화 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+담당자/NNG+분과/NNG+직접/MAG+통화/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.자세한 문의사항은 #@소속#지원청 행정과 #@전번#로 문의주세요",
+            "norm_text": "A.자세한 문의사항은 #@소속#지원청 행정과 #@전번#로 문의주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+자세/XR+한/XSA+ETM+문/NNG+의/JKG+사항/NNG+은/JX+#/SY+@/SY+소속/NNG+#/SY+지원/NNG+청/NNG+행정/NNG+과/JC+#/SY+@/SY+전번/NNG+#/SY+로문/NNG+의/JKG+주세요/NNP"
+          },
+          {
+            "id": 18,
+            "text": "A.#@소속# #@이름#이었습니다 즐거운 하루 보내세요",
+            "norm_text": "A.#@소속# #@이름#이었습니다 즐거운 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+즐거운/VA+ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

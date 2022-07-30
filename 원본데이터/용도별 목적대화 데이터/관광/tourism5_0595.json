@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 153113,
+    "name": "t5_20211117_0001_1278_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135540091473/t5_20211117_0001_1278_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/87/txt20211110135540091473/t5_20211117_0001_1278_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 145754,
+      "filename": "t5_0080_0129_02.txt",
+      "title": "t5_0080_0129_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 271,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 271,
+        "word_size": 58,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nB.안녕하세요 #@소속#에 강아지를 데려갈 수 있나요\nA.네 더 펫 바이 #@소속#가 운영되고 있습니다\nB.더 펫 바이 #@소속#는 입장료가 얼마인가요\nA.중 소형견은 3000원 대형견 7000원입니다\nB.운영시간은 몇 시인가요\nA.평일 12시부터 오후 9시 주말 오전 11시부터 오후 10시입니다\nB.혹시 수영장도 있나요\nA.네 애견 수영장은 3000원에 이용 가능하십니다\nB.강아지와 즐거운 여행이 될 수 있겠네요\nA.네 즐거운 여행되세요 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@소속#에 강아지를 데려갈 수 있나요",
+            "norm_text": "B.안녕하세요 #@소속#에 강아지를 데려갈 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+에/JKB+강아지/NNG+를/JKO+데려갈/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 더 펫 바이 #@소속#가 운영되고 있습니다",
+            "norm_text": "A.네 #@소속#가 운영되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+더/MAG+펫/NNP+바이/NNG+#/SY+@/SY+소속/NNG+#/SY+가/JKS+운영/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.더 펫 바이 #@소속#는 입장료가 얼마인가요",
+            "norm_text": "B.@소속#는 입장료가 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+더/MAG+펫/NNP+바이/NNG+#/SY+@/SY+소속/NNG+#/SY+는/JX+입장료/NNG+가/JKS+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.중 소형견은 3000원 대형견 7000원입니다",
+            "norm_text": "A.중 소형견은 3000원 대형견 7000원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+중소형/NNG+견/NNG+은/JX+3000/SN+원대/NNG+형/XSN+견/NNG+7000/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.운영시간은 몇 시인가요",
+            "norm_text": "B.운영시간은 몇 시인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+운영/NNG+시간/NNG+은/JX+몇/MM+시/NNBC+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.평일 12시부터 오후 9시 주말 오전 11시부터 오후 10시입니다",
+            "norm_text": "A.평일 12시부터 오후 9시 주말 오전 11시부터 오후 10시입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+평일/NNG+12/SN+시/NNBC+부터/JX+오후/NNG+9/SN+시/NNBC+주말/NNG+오전/NNG+11/SN+시/NNBC+부터/JX+오후/NNG+10/SN+시/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.혹시 수영장도 있나요",
+            "norm_text": "B.혹시 수영장도 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+수영장/NNG+도/JX+있/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 애견 수영장은 3000원에 이용 가능하십니다",
+            "norm_text": "A.네 애견 수영장은 3000원에 이용 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+애견/NNG+수영장/NNG+은/JX+3000/SN+원/NNBC+에/JKB+이용/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.강아지와 즐거운 여행이 될 수 있겠네요",
+            "norm_text": "B.강아지와 즐거운 여행이 될 수 있겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "긍정감정표현하기(칭찬하기 포함)",
+            "morpheme": "B/SL+./SY+강아지/NNG+와/JKB+즐거운/VA+ETM+여행/NNG+이/JKS+될/VV+ETM+수/NNB+있/VV+겠/EP+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 즐거운 여행되세요 #@이름#이었습니다",
+            "norm_text": "A.네 즐거운 여행되세요 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+즐거운/VA+ETM+여행/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

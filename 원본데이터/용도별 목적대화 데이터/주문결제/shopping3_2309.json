@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 117886,
+    "name": "s3_20211105_0002_0051_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110743099176/s3_20211105_0002_0051_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110743099176/s3_20211105_0002_0051_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117900,
+      "filename": "s3_20211001_0027_0010_01.txt",
+      "title": "s3_20211001_0027_0010_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 232,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 232,
+        "word_size": 51,
+        "text": "A.안녕하세요 #@소속# 고객 서비스 센터입니다\nA.어떤 도움이 필요하세요\nB.주문을 완료한 후 결제 수단 못바꾸나요\nB.똑같은 주문 결제 수단만 바구고 싶은데요\nA.주문을 완료한 후에는 결제 수단 변경이 불가능합니다\nA.주문을 취소한 후 다시 주문하시면 어떨까요\nB.이미 접수가 들어가서요\nB.방법이 딱히 없는거겠죠\nA.네 도움을 못드려 죄송합니다\nB.아닙니다 알겠습니다 수고하세요\nA.감사합니다 #@소속# 고객 서비스 센터였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객 서비스 센터입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객 서비스 센터입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+서비스/NNG+센터/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하세요",
+            "norm_text": "A.어떤 도움이 필요하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "B.주문을 완료한 후 결제 수단 못바꾸나요",
+            "norm_text": "B.주문을 완료한 후 결제 수단 못바꾸나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+주문/NNG+을/JKO+완료/NNG+한/XSA+ETM+후/NNG+결제/NNG+수단/NNG+못/MAG+바꾸/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.똑같은 주문 결제 수단만 바구고 싶은데요",
+            "norm_text": "B.똑같은 주문 결제 수단만 바구고 싶은데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+똑같/VA+은/ETM+주문/NNG+결제/NNG+수단/NNG+만/JX+바구/VV+고/EC+싶/VX+은데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.주문을 완료한 후에는 결제 수단 변경이 불가능합니다",
+            "norm_text": "A.주문을 완료한 후에는 결제 수단 변경이 불가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "A/SL+./SY+주문/NNG+을/JKO+완료/NNG+한/XSA+ETM+후/NNG+에/JKB+는/JX+결제/NNG+수단/NNG+변경/NNG+이/JKS+불/XPN+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.주문을 취소한 후 다시 주문하시면 어떨까요",
+            "norm_text": "A.주문을 취소한 후 다시 주문하시면 어떨까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주문/NNG+을/JKO+취소/NNG+한/XSA+ETM+후/NNG+다시/MAG+주문/NNG+하/XSV+시/EP+면/EC+어떨까/VA+EC+요/JX"
+          },
+          {
+            "id": 7,
+            "text": "B.이미 접수가 들어가서요",
+            "norm_text": "B.이미 접수가 들어가서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이미/MAG+접수/NNG+가/JKS+들어가/VV+서요/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.방법이 딱히 없는거겠죠",
+            "norm_text": "B.방법이 딱히 없는거겠죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+방법/NNG+이/JKS+딱히/MAG+없/VA+는/ETM+거/NNB+겠/VCP+EP+죠/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 도움을 못드려 죄송합니다",
+            "norm_text": "A.네 도움을 못드려 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+네/IC+도움/NNG+을/JKO+못/MAG+드려/VV+EC+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.아닙니다 알겠습니다 수고하세요",
+            "norm_text": "B.아닙니다 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아닙니다/VCN+EC+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 #@소속# 고객 서비스 센터였습니다",
+            "norm_text": "A.감사합니다 #@소속# 고객 서비스 센터였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+서비스/NNG+센터/NNG+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

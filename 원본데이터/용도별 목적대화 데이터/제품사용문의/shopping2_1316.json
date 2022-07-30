@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 102322,
+    "name": "s2_20211103_0002_0153_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110740002630/s2_20211103_0002_0153_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110740002630/s2_20211103_0002_0153_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117474,
+      "filename": "s2_20211029_0016_0015_01.txt",
+      "title": "s2_20211029_0016_0015_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 242,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 242,
+        "word_size": 52,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 급하게 뭐 좀 여쭐게요\nA.네 고객님 말씀해 주세요\nB.제가 지금 #@제품#을 구입했는데요 수원지는 어디인가요\nA.전 제품은 청정 지역인 지리산 산청에서 생산됩니다\nB.그쪽은 구제역 발생 이슈가 없었나요\nA.네 유일하게 구제역이 발생하지 않은 지역으로 안심하고 드셔도 됩니다\nB.감사합니다 저도 검색 한번 해 볼게요\nA.감사합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 급하게 뭐 좀 여쭐게요",
+            "norm_text": "B.안녕하세요 급하게 뭐 좀 여쭐게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+급하/VA+게/EC+뭐/IC+좀/MAG+여쭐/VV+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀해 주세요",
+            "norm_text": "A.네 고객님 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 지금 #@제품#을 구입했는데요 수원지는 어디인가요",
+            "norm_text": "B.제가 지금 #@제품#을 구입했는데요 수원지는 어디인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+제/NP+가/JKS+지금/MAG+#/SY+@/SY+제품/NNG+#/SY+을/JKO+구입/NNG+했/XSV+EP+는데요/EF+수원지/NNG+는/JX+어디/NP+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.전 제품은 청정 지역인 지리산 산청에서 생산됩니다",
+            "norm_text": "A.전 제품은 청정 지역인 지리산 산청에서 생산됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+전/MM+제품/NNG+은/JX+청정/NNG+지역/NNG+인지/VCP+EC+리산/NNP+산청/NNG+에서/JKB+생산/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그쪽은 구제역 발생 이슈가 없었나요",
+            "norm_text": "B.그쪽은 구제역 발생 이슈가 없었나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그쪽/NP+은/JX+구제역/NNG+발생/NNG+이슈/NNG+가/JKS+없/VA+었/EP+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 유일하게 구제역이 발생하지 않은 지역으로 안심하고 드셔도 됩니다",
+            "norm_text": "A.네 유일하게 구제역이 발생하지 않은 지역으로 안심하고 드셔도 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+유일/NNG+하/XSV+게/EC+구제역/NNG+이/JKS+발생/NNG+하/XSV+지/EC+않/VX+은/ETM+지역/NNG+으로/JKB+안심/NNG+하/XSV+고/EC+드셔도/VV+EP+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.감사합니다 저도 검색 한번 해 볼게요",
+            "norm_text": "B.감사합니다 저도 검색 한번 해 볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+저/NP+도/JX+검색/NNG+한/MM+번/NNBC+해/VV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

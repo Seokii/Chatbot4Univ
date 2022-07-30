@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 165015,
+    "name": "t3_20211123_0005_0477_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135808042390/t3_20211123_0005_0477_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135808042390/t3_20211123_0005_0477_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 150857,
+      "filename": "t3_0068_0127_02.txt",
+      "title": "t3_0068_0127_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 373,
+      "annotations": {
+        "subject": "식당",
+        "speaker_type": "1:1",
+        "size": 373,
+        "word_size": 85,
+        "text": "A.두근두근 #@소속# #@이름# 입니다 무엇을 도와 드릴까요\nB.순천 시내 쪽에 맛있는 돈가스 추천 해 주세요\nA.실례지만 지금 계신 곳이 어디실까요\nB.#@주소#를 다 돌아보고 돌아가는 길 입니다\nA.차량으로 17분 소요되는 돈가스 전문점 괜찮으신가요\nB.차로 17분 정도면 가깝네요 안내 해 주세요\nA.#@소속#이고요 돈가스 전문점입니다\nB.대표 메뉴는 어떤 게 있나요\nA.모짜렐라 치즈 돈가스와 점보 세트를 추천합니다\nB.모짜렐라 치즈 돈가스와 점보 세트 가격은 얼마인가요\nA.모짜렐라 치즈 돈가스는 9500원 점보 세트는 11500원입니다\nB.점보 세트는 메뉴 구성이 어떻게 되어 있나요\nA.수제 생돈가스와 소바가 제공됩니다\nB.추천 감사합니다 주차장에 거의 다 왔습니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.두근두근 #@소속# #@이름# 입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.두근두근 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+두근두근/MAG+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.순천 시내 쪽에 맛있는 돈가스 추천 해 주세요",
+            "norm_text": "B.순천 시내 쪽에 맛있는 돈가스 추천해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+순천/NNG+시내/NNG+쪽/NNB+에/JKB+맛있/VA+는/ETM+돈가스/NNG+추천/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.실례지만 지금 계신 곳이 어디실까요",
+            "norm_text": "A.실례지만 지금 계신 곳이 어디실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+실례/NNG+지만/VCP+EC+지금/MAG+계신/VV+ETM+곳/NNG+이/JKS+어디/NP+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@주소#를 다 돌아보고 돌아가는 길 입니다",
+            "norm_text": "B.#@주소#를 다 돌아보고 돌아가는 길입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+를/JKO+다/MAG+돌아보/VV+고/EC+돌아가/VV+는/ETM+길/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.차량으로 17분 소요되는 돈가스 전문점 괜찮으신가요",
+            "norm_text": "A.차량으로 십칠 분 소요되는 돈가스 전문점 괜찮으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+차량/NNG+으로/JKB+17/SN+분/NNBC+소요/NNG+되/XSV+는/ETM+돈가스/NNG+전문점/NNG+괜찮/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 6,
+            "text": "B.차로 17분 정도면 가깝네요 안내 해 주세요",
+            "norm_text": "B.차로 십칠 분 정도면 가깝네요 안내해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+차/NNG+로/JKB+17/SN+분/NNBC+정도/NNG+면/VCP+EC+가깝/VA+네요/EF+안내/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.#@소속#이고요 돈가스 전문점입니다",
+            "norm_text": "A.#@소속#이고요 돈가스 전문점입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+이/VCP+고요/EC+돈가스/NNG+전문점/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.대표 메뉴는 어떤 게 있나요",
+            "norm_text": "B.대표 메뉴는 어떤 게 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+대표/NNG+메뉴/NNG+는/JX+어떤/MM+게/NNB+JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.모짜렐라 치즈 돈가스와 점보 세트를 추천합니다",
+            "norm_text": "A.모짜렐라 치즈 돈가스와 점보 세트를 추천합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+모/NP+짜/VV+EC+렐라/NNP+치즈/NNG+돈가스/NNG+와/JC+점보/NNG+세트/NNG+를/JKO+추천/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.모짜렐라 치즈 돈가스와 점보 세트 가격은 얼마인가요",
+            "norm_text": "B.모짜렐라 치즈 돈가스와 점보 세트 가격은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+모/NP+짜/VV+EC+렐라/NNP+치즈/NNG+돈가스/NNG+와/JC+점보/NNG+세트/NNG+가격/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.모짜렐라 치즈 돈가스는 9500원 점보 세트는 11500원입니다",
+            "norm_text": "A.모짜렐라 치즈 돈가스는 구천오백 원 점보 세트는 만천오백 원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+모/NP+짜/VV+EC+렐라/NNP+치즈/NNG+돈가스/NNG+는/JX+구천/NR+오/NR+백/NR+원/NNBC+점보/NNG+세트/NNG+는/JX+만/NR+천/NR+오/NR+백/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.점보 세트는 메뉴 구성이 어떻게 되어 있나요",
+            "norm_text": "B.점보 세트는 메뉴 구성이 어떻게 되어 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+점보/NNG+세트/NNG+는/JX+메뉴/NNG+구성/NNG+이/JKS+어떻게/MAG+되/VV+어/EC+있/VX+나요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.수제 생돈가스와 소바가 제공됩니다",
+            "norm_text": "A.수제 생돈가스와 소바가 제공됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+수제/NNG+생/XSN+돈가스/NNG+와/JC+소바/NNP+가/JKS+제공/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.추천 감사합니다 주차장에 거의 다 왔습니다 수고하세요",
+            "norm_text": "B.추천 감사합니다 주차장에 거의 다 왔습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+추천/NNG+감사/NNG+합니다/XSV+EF+주차장/NNG+에/JKB+거의/MAG+다/MAG+왔/VV+EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

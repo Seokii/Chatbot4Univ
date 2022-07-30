@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 141281,
+    "name": "t1_20211115_0002_0476_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715068745/t1_20211115_0002_0476_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135715068745/t1_20211115_0002_0476_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148102,
+      "filename": "t1_0068_0028_02.txt",
+      "title": "t1_0068_0028_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 355,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 355,
+        "word_size": 82,
+        "text": "A.감사합니다  #@소속# 고객센터 #@이름# 입니다\nB.4월 23일 1박 룸 예약 가능 한가요\nA.트윈베드룸과 원베드룸의 잔여 객실이 있습니다\nB.트윈베드룸으로 예약해 주세요\nA.주중 조식 1인만 무료인데 조식 추가 하시겠습니까\nB.조식 추가 금액은 얼마인가요\nA.조식 추가 금액은 성인 2만원 입니다\nB.그럼 1명 조식 추가해 주세요\nA.성함과 연락처 말씀 부탁 드립니다\nB.이름은 #@이름# 연락처는 #@전번# 이고요\nA.고객님 이메일 주소도 말씀 부탁 드립니다\nB.이메일 주소는 #@계정# 입니다\nA.예약 내역은 말씀해 주신 이메일 주소로 보내 드리겠습니다\nB.알겠습니다 그럼 안녕히 계세요\nA.즐거운 여행 되세요 #@소속# 고객센터 #@이름# 였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.감사합니다  #@소속# 고객센터 #@이름# 입니다",
+            "norm_text": "A.감사합니다  #@소속# 고객센터 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.4월 23일 1박 룸 예약 가능 한가요",
+            "norm_text": "B.4월 23일 1박 룸 예약 가능 한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+4/SN+월/NNBC+23/SN+일/NNBC+1/SN+박/NNBC+룸/NNG+예약/NNG+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.트윈베드룸과 원베드룸의 잔여 객실이 있습니다",
+            "norm_text": "A.트윈베드룸과 원베드룸의 잔여 객실이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+트윈/NNP+베드/NNG+룸/NNG+과원/NNG+베드/NNG+룸/NNG+의/JKG+잔여/NNG+객실/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.트윈베드룸으로 예약해 주세요",
+            "norm_text": "B.트윈베드룸으로 예약해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+트윈/NNP+베드/NNG+룸/NNG+으로/JKB+예약/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.주중 조식 1인만 무료인데 조식 추가 하시겠습니까",
+            "norm_text": "A.주중 조식 1인만 무료인데 조식 추가 하시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+주중/NNG+조식/NNG+1/SN+인만/NNG+무료/NNG+인데/VCP+EC+조식/NNG+추가/NNG+하/XSV+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.조식 추가 금액은 얼마인가요",
+            "norm_text": "B.조식 추가 금액은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+조식/NNG+추가/NNG+금액/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.조식 추가 금액은 성인 2만원 입니다",
+            "norm_text": "A.조식 추가 금액은 성인 2만원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+조식/NNG+추가/NNG+금액/NNG+은/JX+성인/NNG+2/SN+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 1명 조식 추가해 주세요",
+            "norm_text": "B.그럼 1명 조식 추가해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+그럼/MAJ+1/SN+명/NNBC+조식/NNG+추가/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.성함과 연락처 말씀 부탁 드립니다",
+            "norm_text": "A.성함과 연락처 말씀 부탁 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+성함/NNG+과/JC+연락처/NNG+말씀/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.이름은 #@이름# 연락처는 #@전번# 이고요",
+            "norm_text": "B.이름은 #@이름# 연락처는 #@전번# 이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+연락처/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.고객님 이메일 주소도 말씀 부탁 드립니다",
+            "norm_text": "A.고객님 이메일 주소도 말씀 부탁 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+이/JKS+메일/VV+ETM+주소/NNG+도/JX+말씀/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.이메일 주소는 #@계정# 입니다",
+            "norm_text": "B.이메일 주소는 #@계정# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이메일/NNG+주소/NNG+는/JX+#/SY+@/SY+계정/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.예약 내역은 말씀해 주신 이메일 주소로 보내 드리겠습니다",
+            "norm_text": "A.예약 내역은 말씀해 주신 이메일 주소로 보내 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+예약/NNG+내역/NNG+은/JX+말씀/NNG+해/XSV+EC+주/VX+신/EP+ETM+이메일/NNG+주소/NNG+로/JKB+보내/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.알겠습니다 그럼 안녕히 계세요",
+            "norm_text": "B.알겠습니다 그럼 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그럼/MAJ+안녕히/MAG+계세요/VV+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.즐거운 여행 되세요 #@소속# 고객센터 #@이름# 였습니다",
+            "norm_text": "A.즐거운 여행 되세요 #@소속# 고객센터 #@이름# 였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+여행/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

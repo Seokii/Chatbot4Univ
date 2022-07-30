@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 156352,
+    "name": "t4_20211118_0010_0851_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135903078890/t4_20211118_0010_0851_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135903078890/t4_20211118_0010_0851_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 154303,
+      "filename": "t4_0080_0039_02.txt",
+      "title": "t4_0080_0039_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 268,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 268,
+        "word_size": 62,
+        "text": "A.#@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요\nB.네 안녕하세요 제가 이번주 일요일에 카트 예약을 했는데요\nA.네 성함과 번호 한 번만 말씀해주시겠어요\nB.네 #@이름#이구요 #@전번#입니다\nA.네 #@이름#님 어린이 카트 한 개 성인카트 두 개 예약되어있습니다\nB.네 혹시 유아 카트를 하나 더 추가 가능할까요\nA.물론이죠 유아 카트 추가 하나 되셨구요 결제는 현장에서 해주세요\nB.네 빠르게 일처리 해주셔서 너무 감사합니다\nA.네 그럼 저희 #@소속# 많이 이용해주세요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.#@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.#@소속# 상담원 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 제가 이번주 일요일에 카트 예약을 했는데요",
+            "norm_text": "B.네 안녕하세요 제가 이번주 일요일에 카트 예약을 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+이번/NNG+주/NNG+일요일/NNG+에/JKB+카트/NNG+예약/NNG+을/JKO+했/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 성함과 번호 한 번만 말씀해주시겠어요",
+            "norm_text": "A.네 성함과 번호 한 번만 말씀해주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+성함/NNG+과/JC+번호/NNG+한/MM+번/NNBC+만/JX+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@이름#이구요 #@전번#입니다",
+            "norm_text": "B.네 #@이름#이구요 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+이/VCP+구요/EF+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 #@이름#님 어린이 카트 한 개 성인카트 두 개 예약되어있습니다",
+            "norm_text": "A.네 #@이름#님 어린이 카트 한 개 성인카트 두 개 예약되어있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+님/XSN+어린이/NNG+카트/NNG+한/XSA+ETM+개성/NNG+인/VCP+ETM+카트/NNG+두/MM+개/NNBC+예약/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 혹시 유아 카트를 하나 더 추가 가능할까요",
+            "norm_text": "B.네 혹시 유아 카트를 하나 더 추가 가능할까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+혹시/MAG+유아/NNG+카트/NNG+를/JKO+하/VV+나/EC+더/MAG+추가/NNG+가능/NNG+할까요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.물론이죠 유아 카트 추가 하나 되셨구요 결제는 현장에서 해주세요",
+            "norm_text": "A.물론이죠 유아 카트 추가 하나 되셨구요 결제는 현장에서 해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+물론/NNG+이/VCP+죠/EF+유아/NNG+카트/NNG+추가/NNG+하나/NR+되/VV+셨/EP+EP+구요/EF+결제/NNG+는/JX+현장/NNG+에서/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 빠르게 일처리 해주셔서 너무 감사합니다",
+            "norm_text": "B.네 빠르게 일처리 해주셔서 너무 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+빠르/VA+게/EC+일/NR+처리/NNG+해/XSV+EC+주/VX+셔서/EP+EC+너무/MAG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 그럼 저희 #@소속# 많이 이용해주세요 감사합니다",
+            "norm_text": "A.네 그럼 저희 #@소속# 많이 이용해주세요 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+저희/NP+#/SY+@/SY+소속/NNG+#/SY+많이/MAG+이용/NNG+해/XSV+EC+주/VX+세요/EP+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

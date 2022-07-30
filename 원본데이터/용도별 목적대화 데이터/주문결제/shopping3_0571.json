@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 11009,
+    "name": "s3_20210913_0010_0712_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416090442/s3_20210913_0010_0712_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151416090442/s3_20210913_0010_0712_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 11923,
+      "filename": "s3_20210826_0010_0002_01.txt",
+      "title": "s3_20210826_0010_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 369,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 369,
+        "word_size": 79,
+        "text": "A.안녕하십니까 정수기 상담실입니다 고객님\nA.정보 확인해보니 #@이름# 고객님으로 나오시네요\nB.그렇게 나온다고요 #@이름#으로요\nA.네 실례지만 #@이름# 고객님과는 관계가 어떻게 되십니까\nB.제 딸입니다 외동딸이고요\nA.외동 따님이시구요 현재 이만팔천구백원 납부 중이신데요\nA.말씀하신 혜택을 받으시려면 거래하시는 카드사를 변경하셔야 돼요\nB.그런건지 몰랐네 나는 여태\nA.또 따님의 이름으로 되어 있기 때문에요\nA.저희가 #@이름# 고객님과 직접 통화를 해야 되는 부분이세요\nB.그러면은 내가 딸한테 물어보고 한다고 하면 연락하라고 할게요\nA.네 지금 거신 이 번호로 연락 주시면 돼요\nB.알겠어요 한번 더 불러줄래요\nA.네 #@전번# 입니다 확인해보시고 연락주세요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 정수기 상담실입니다 고객님",
+            "norm_text": "A.안녕하십니까 정수기 상담실입니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+정수기/NNG+상담/NNG+실/NNG+입니다/VCP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 2,
+            "text": "A.정보 확인해보니 #@이름# 고객님으로 나오시네요",
+            "norm_text": "A.정보 확인해보니 #@이름# 고객님으로 나오시네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+정보/NNG+확인/NNG+해/XSV+EC+보/VX+니/EC+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+으로/JKB+나오/VV+시/EP+네요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.그렇게 나온다고요 #@이름#으로요",
+            "norm_text": "B.그렇게 나온다고요 #@이름#으로요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "B/SL+그렇게/MAG+나온다/VV+EC+고요/NNG+#/SY+@/SY+이름/NNG+#/SY+으로/JKB+요/JX"
+          },
+          {
+            "id": 4,
+            "text": "A.네 실례지만 #@이름# 고객님과는 관계가 어떻게 되십니까",
+            "norm_text": "A.네 실례지만 #@이름# 고객님과는 관계가 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+실례/NNG+지만/VCP+EC+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+과/JKB+는/JX+관계/NNG+가/JKS+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.제 딸입니다 외동딸이고요",
+            "norm_text": "B.제 딸입니다 외동딸이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+딸/NNG+입니다/VCP+EF+외동딸/NNG+이/JKS+고요/NNG"
+          },
+          {
+            "id": 6,
+            "text": "A.외동 따님이시구요 현재 이만팔천구백원 납부 중이신데요",
+            "norm_text": "A.외동 따님이시구요 현재 이만팔천구백원 납부 중이신데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+외동/NNG+따님/NNG+이/VCP+시/EP+구요/EF+현재/MAG+이/NR+만/NR+팔/NR+천/NR+구/NR+백/NR+원/NNBC+납부/NNG+중/NNB+이/VCP+신데요/EP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.말씀하신 혜택을 받으시려면 거래하시는 카드사를 변경하셔야 돼요",
+            "norm_text": "A.말씀하신 혜택을 받으시려면 거래하시는 카드사를 변경하셔야 돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+말씀/NNG+하/XSV+신/EP+ETM+혜택/NNG+을/JKO+받/VV+으시/EP+려면/EC+거래/NNG+하/XSV+시/EP+는/ETM+카드/NNG+사/NNG+를/JKO+변경/NNG+하/XSV+셔야/EP+EC+돼요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그런건지 몰랐네 나는 여태",
+            "norm_text": "B.그런건지 몰랐네 나는 여태",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+그런/MM+건지/NNB+VCP+EC+몰랐/VV+EP+네/EF+나/NP+는/JX+여태/MAG"
+          },
+          {
+            "id": 9,
+            "text": "A.또 따님의 이름으로 되어 있기 때문에요",
+            "norm_text": "A.또 따님의 이름으로 되어 있기 때문에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+또/MAG+따님/NNG+의/JKG+이름/NNG+으로/JKB+되/VV+어/EC+있/VX+기/ETN+때문/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 10,
+            "text": "A.저희가 #@이름# 고객님과 직접 통화를 해야 되는 부분이세요",
+            "norm_text": "A.저희가 #@이름# 고객님과 직접 통화를 해야 되는 부분이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+과/JKB+직접/MAG+통화/NNG+를/JKO+해야/VV+EC+되/VV+는/ETM+부분/NNG+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.그러면은 내가 딸한테 물어보고 한다고 하면 연락하라고 할게요",
+            "norm_text": "B.그러면은 내가 딸한테 물어보고 한다고 하면 연락하라고 할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+그러면은/MAJ+내/NP+가/JKS+딸/NNG+한테/JKB+물/VV+어/EC+보/VX+고/EC+한다고/VX+EC+하/VV+면/EC+연락/NNG+하/XSV+라고/EC+할게요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 지금 거신 이 번호로 연락 주시면 돼요",
+            "norm_text": "A.네 지금 거신 이 번호로 연락 주시면 돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+지금/MAG+거신/VV+EP+ETM+이/MM+번호/NNG+로/JKB+연락/NNG+주/VV+시/EP+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.알겠어요 한번 더 불러줄래요",
+            "norm_text": "B.알겠어요 한번 더 불러줄래요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+알/VV+겠/EP+어요/EF+한번/MAG+더/MAG+불러/VV+EC+줄래요/VX+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.네 #@전번# 입니다 확인해보시고 연락주세요 감사합니다",
+            "norm_text": "A.네 #@전번# 입니다 확인해보시고 연락주세요 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EF+확인/NNG+해/XSV+EC+보/VX+시/EP+고/EC+연락/NNG+주세요/NNP+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

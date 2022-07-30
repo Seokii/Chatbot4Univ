@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 29707,
+    "name": "s1_20211006_0001_1313_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151214003618/s1_20211006_0001_1313_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20210908151214003618/s1_20211006_0001_1313_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 7083,
+      "filename": "s1_20210820_0018_0020_01.txt",
+      "title": "s1_20210820_0018_0020_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 261,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 261,
+        "word_size": 62,
+        "text": "A.고객님 안녕하세요 #@소속# 상담사입니다\nA.세탁기 수리 예약 일정으로 연락드렸습니다\nA.오늘 가장 빠른 시간이 오전 열시 사십 분인데 괜찮으십니까\nB.예 그 때 괜찮아요 수리비는 얼마인가요\nA.수리비는 확인 후 말씀드리겠습니다\nA.잠시 기다려 주시겠습니까\nA.저희 기사님 출장비는 만 이천 원 이고요\nA.수리비는 기사가 확인해서 다시 말씀 드릴 거에요\nA.그 다른 문의사항 없으시구요\nB.예 없습니다 감사합니다\nA.네 점검 잘 받으시기 바랍니다\nA.좋은 하루 되십시요 네 고맙습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객님 안녕하세요 #@소속# 상담사입니다",
+            "norm_text": "A.고객님 안녕하세요 #@소속# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.세탁기 수리 예약 일정으로 연락드렸습니다",
+            "norm_text": "A.세탁기 수리 예약 일정으로 연락드렸습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+세탁기/NNG+수리/NNG+예약/NNG+일정/NNG+으로/JKB+연락/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.오늘 가장 빠른 시간이 오전 열시 사십 분인데 괜찮으십니까",
+            "norm_text": "A.오늘 가장 빠른 시간이 오전 열시 사십 분인데 괜찮으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+오늘/MAG+가장/MAG+빠른/VA+ETM+시간/NNG+이/JKS+오전/NNG+열/NR+시/NNBC+사/NR+십/NR+분/NNBC+인데/VCP+EC+괜찮/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.예 그 때 괜찮아요 수리비는 얼마인가요",
+            "norm_text": "B.예 그 때 괜찮아요 수리비는 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+그때/NNG+괜찮/VA+아요/EF+수리비/NNG+는/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.수리비는 확인 후 말씀드리겠습니다",
+            "norm_text": "A.수리비는 확인 후 말씀드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+수리비/NNG+는/JX+확인/NNG+후/NNG+말씀/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.잠시 기다려 주시겠습니까",
+            "norm_text": "A.잠시 기다려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+잠시/MAG+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.저희 기사님 출장비는 만 이천 원 이고요",
+            "norm_text": "A.저희 기사님 출장비는 만 이천 원 이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+기사/NNG+님/XSN+출장비/NNG+는/JX+만이천/NR+원/NNBC+이/VCP+고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.수리비는 기사가 확인해서 다시 말씀 드릴 거에요",
+            "norm_text": "A.수리비는 기사가 확인해서 다시 말씀 드릴 거에요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+수리비/NNG+는/JX+기사/NNG+가/JKS+확인/NNG+해서/XSV+EC+다시/MAG+말씀/NNG+드릴/VV+ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.그 다른 문의사항 없으시구요",
+            "norm_text": "A.그 다른 문의사항 없으시구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그/IC+다른/MM+문/NNG+의/JKG+사항/NNG+없/VA+으시/EP+구요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.예 없습니다 감사합니다",
+            "norm_text": "B.예 없습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+예/IC+없/VA+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 점검 잘 받으시기 바랍니다",
+            "norm_text": "A.네 점검 잘 받으시기 바랍니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+점검/NNG+잘/MAG+받/VV+으시/EP+기/ETN+바랍니다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.좋은 하루 되십시요 네 고맙습니다",
+            "norm_text": "A.좋은 하루 되십시요 네 고맙습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+좋/VA+은/ETM+하루/NNG+되/XSV+십시요/EP+EF+네/IC+고맙/VA+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

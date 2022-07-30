@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 157159,
+    "name": "t5_20211118_0010_1403_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135907099562/t5_20211118_0010_1403_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135907099562/t5_20211118_0010_1403_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 154858,
+      "filename": "t5_0054_0117_02.txt",
+      "title": "t5_0054_0117_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 283,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 283,
+        "word_size": 62,
+        "text": "A.아름다운 서울을 여행하세요  #@소속# 상담원 #@이름#입니다\nB.안녕하세요 서울 관광안내서 우편배송 받을 수 있나요\nA.네 1인당 가이드북 3부 지도 3부 총 6부까지 신청 가능하십니다\nB.그래요 그럼 6부 신청 부탁드려요\nA.성명과 전화번호 주소 말씀해 주세요\nB.이름은 #@이름# 전화번호는 #@전번#입니다\nB.주소는 서울시 성동구 #@주소#입니다\nA.네 가이드북 3부 지도 3부 총 6부 보내 드리겠습니다\nB.네 보내주세요 감사합니다\nA.우편배송은 약 7일이 소요됨을 참고하여 주십시오 상담원 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.아름다운 서울을 여행하세요  #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.아름다운 서울을 여행하세요  #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+아름다운/VA+ETM+서울/NNP+을/JKO+여행/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 서울 관광안내서 우편배송 받을 수 있나요",
+            "norm_text": "B.안녕하세요 서울 관광안내서 우편배송 받을 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+서울관광/NNP+안내서/NNG+우편/NNG+배송/NNG+받/VV+을/ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 1인당 가이드북 3부 지도 3부 총 6부까지 신청 가능하십니다",
+            "norm_text": "A.네 1인당 가이드북 3부 지도 3부 총 6부까지 신청 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/MM+1/SN+인/NNG+당/XSN+가이드북/NNG+3/SN+부지/NNG+도/JX+3/SN+부/NNBC+총/MM+6/SN+부/NNBC+까지/JX+신청/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.그래요 그럼 6부 신청 부탁드려요",
+            "norm_text": "B.그래요 그럼 6부 신청 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+그래요/VV+EF+그럼/MAJ+6/SN+부/NNBC+신청/NNG+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.성명과 전화번호 주소 말씀해 주세요",
+            "norm_text": "A.성명과 전화번호 주소 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+성명/NNG+과/JC+전화/NNG+번호/NNG+주소/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.이름은 #@이름# 전화번호는 #@전번#입니다",
+            "norm_text": "B.이름은 #@이름# 전화번호는 #@전번#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.주소는 서울시 성동구 #@주소#입니다",
+            "norm_text": "B.주소는 서울시 성동구 #@주소#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+주소/NNG+는/JX+서울시/NNP+성동구/NNP+#/SY+@/SY+주소/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 가이드북 3부 지도 3부 총 6부 보내 드리겠습니다",
+            "norm_text": "A.네 가이드북 3부 지도 3부 총 6부 보내 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+네/IC+가이드북/NNG+3/SN+부지/NNG+도/JX+3/SN+부/NNBC+총/MM+6/SN+부/NNBC+보내/VV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 보내주세요 감사합니다",
+            "norm_text": "B.네 보내주세요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+보내/VV+EC+주/VX+세요/EP+EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.우편배송은 약 7일이 소요됨을 참고하여 주십시오 상담원 #@이름#이었습니다",
+            "norm_text": "A.우편배송은 약 7일이 소요됨을 참고하여 주십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+우편/NNG+배송/NNG+은/JX+약/MM+7/SN+일/NNBC+이/JKS+소요/NNG+됨/XSV+ETN+을/JKO+참고/NNG+하/XSV+여/EC+주/VX+십시오/EP+EC+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

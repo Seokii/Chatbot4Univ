@@ -1,0 +1,383 @@
+{
+  "dataset": {
+    "identifier": 141610,
+    "name": "KAKAO_2013_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/86/txt20211109175924017443/KAKAO_2013_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/86/txt20211109175924017443/KAKAO_2013_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 144448,
+      "filename": "KAKAO_2013_03.txt",
+      "title": "KAKAO_2013_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-11-09",
+      "size": 911,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 911,
+        "word_size": 278,
+        "text": "1 : 저는 아직 뚜벅이이라 자가용을 고려해보진 않았는데, 형 혹시 연봉 3000~4000만 원 선에서 차를 추천해주실 수 있나요?\n2 : 보통은 사회 초년생이 많이 타고 다니는 차량인 아반떼나 K3가 적정해 보여,\n2 : 경차가 괜찮다면 경차도 추천!\n2 : 유지비가 적게 들거든 키키\n1 : 오호 감사합니다!\n1 : 만약 아반떼 풀옵션이랑 깡통 소나타를 골라야 하면 어떤 게 더 좋을까요?\n2 : 음 이런 고민은 선택을 난감하게 해 키키,\n2 : 금액을 정해 놓고 이 이상 안 쓴다 생각하고 차량을 정해야 할 것 같아,\n2 : 아 그리고 요즘에 전기차나 하이브리드 차량도 유지비가 적고 인기가 많은 것 같아 고려 사항에 포함 시켜 보는 것도 좋을 것 같아.\n1 : 아하! 그렇군요\n1 : 전기차도 참 좋은 것 같아요\n1 : 형~ 일반적으로 연봉의 몇 퍼센트 정도를 자가용 비용으로 고려하는 게 적정할까요~?\n2 : 내 기준으로 말을 하자면, 월 250만 원이라고 쳤을 때 최대 20% 정도인 50만 원이 적당할 것 같아,\n2 : 적으면 적을수록 좋지...\n2 : 자동차는 돈 덩어리야\n1 : 아하! 이해가 잘 돼요\n1 : 형~ 감사합니다.\n1 : 형은 드림카가 무엇인가요~?\n2 : 나는 캠핑을 너무나 좋아해서, 지프의 랭글러 차량을 너무나 갖고 싶어...\n2 : 혹시 이 차량 아니?\n1 : 네 형한테 참 잘 어울리실 것 같아요!\n1 : 형 혹시 반대로 이 차는 굳이 사고 싶지 않다라는 차도 있으신가요~?\n2 : 나는 연비 안 좋은 차는 지양하는 편이야,\n2 : 요즘 기름 값이 너무 비싸서 연비 안 좋은 차량은 돈 낭비가 너무 심해.\n1 : 아하 미국차나 슈퍼카 같은 차들이 생각나네요~\n1 : 그래도 돈 많이 벌면 슈퍼카도 고려해 보실 건가요?\n2 : 당연하지,\n2 : 유지비를 하고도 충분히 남는 금액이면 무슨 차든 못 타겠어...\n2 : 없어서 못 타는 거지 키키",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 저는 아직 뚜벅이이라 자가용을 고려해보진 않았는데, 형 혹시 연봉 3000~4000만 원 선에서 차를 추천해주실 수 있나요?",
+            "norm_text": "저는 아직 뚜벅이이라 자가용을 고려해보진 않았는데, 형 혹시 연봉 3000~4000만 원 선에서 차를 추천해주실 수 있나요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "저/NP+는/JX+아직/MAG+뚜벅/MAG+이이/NNP+라자/NNP+가용/NNG+을/JKO+고려/NNG+해/XSV+EC+보/VX+진/EC+JX+않/VX+았/EP+는데/EC+,/SC+형/NNG+혹시/MAG+연봉/NNG+3000/SN+~/SY+4000/SN+만/NR+원/NNBC+선/NNG+에서/JKB+차/NNG+를/JKO+추천/NNG+해/XSV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+나요/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 보통은 사회 초년생이 많이 타고 다니는 차량인 아반떼나 K3가 적정해 보여,",
+            "norm_text": "보통은 사회 초년생이 많이 타고 다니는 차량인 아반떼나 K3가 적정해 보여,",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "보통/NNG+은/JX+사회/NNG+초년생/NNG+이/JKS+많이/MAG+타/VV+고/EC+다니/VV+는/ETM+차량/NNG+인/VCP+ETM+아반떼/NNP+나/JC+K/SL+3/SN+가/JKS+적정/NNG+해/XSV+EC+보여/VV+EC+,/SC"
+          },
+          {
+            "id": 3,
+            "text": "2 : 경차가 괜찮다면 경차도 추천!",
+            "norm_text": "경차가 괜찮다면 경차도 추천!",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "경차/NNG+가/JKS+괜찮/VA+다면/EC+경차/NNG+도/JX+추천/NNG"
+          },
+          {
+            "id": 4,
+            "text": "2 : 유지비가 적게 들거든 키키",
+            "norm_text": "유지비가 적게 들거든 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "유지비/NNG+가/JKS+적/VA+게/EC+들/VX+ETM+거/NNB+든/VCP+EC+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 5,
+            "text": "1 : 오호 감사합니다!",
+            "norm_text": "오호 감사합니다!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(표현) 감사하기",
+            "morpheme": "오호/IC+감사/NNG+합니다/XSV+EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 만약 아반떼 풀옵션이랑 깡통 소나타를 골라야 하면 어떤 게 더 좋을까요?",
+            "norm_text": "만약 아반떼 풀옵션이랑 깡통 소나타를 골라야 하면 어떤 게 더 좋을까요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "만약아반떼풀옵션이랑깡통소나타를골라야하면어떤게더좋을까요/UNKNOWN"
+          },
+          {
+            "id": 7,
+            "text": "2 : 음 이런 고민은 선택을 난감하게 해 키키,",
+            "norm_text": "음 이런 고민은 선택을 난감하게 해 키키,",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "음/IC+이런/MM+고민/NNG+은/JX+선택/NNG+을/JKO+난감/XR+하/XSA+게/EC+해/VV+EC+키/NNG+키/XSV+ETN+,/SC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 금액을 정해 놓고 이 이상 안 쓴다 생각하고 차량을 정해야 할 것 같아,",
+            "norm_text": "금액을 정해 놓고 이 이상 안 쓴다 생각하고 차량을 정해야 할 것 같아,",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "금액/NNG+을/JKO+정해/VV+EC+놓/VX+고/EC+이/MM+이상/NNG+안/MAG+쓴다/VV+ETM+생각/NNG+하/XSV+고/EC+차량/NNG+을/JKO+정해야/VV+EC+할/VX+ETM+것/NNB+같/VA+아/EC+,/SC"
+          },
+          {
+            "id": 9,
+            "text": "2 : 아 그리고 요즘에 전기차나 하이브리드 차량도 유지비가 적고 인기가 많은 것 같아 고려 사항에 포함 시켜 보는 것도 좋을 것 같아.",
+            "norm_text": "아 그리고 요즘에 전기차나 하이브리드 차량도 유지비가 적고 인기가 많은 것 같아 고려 사항에 포함 시켜 보는 것도 좋을 것 같아.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+그리고/MAJ+요즘/NNG+에/JKB+전기차/NNP+나/JC+하이브리드/NNG+차량/NNG+도/JX+유지비/NNG+가/JKS+적/VA+고/EC+인기/NNG+가/JKS+많/VA+은/ETM+것/NNB+같/VA+아/EC+고려/NNG+사항/NNG+에/JKB+포함/NNG+시켜/XSV+EC+보/VX+는/ETM+것/NNB+도/JX+좋/VA+을/ETM+것/NNB+같/VA+아/EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 아하! 그렇군요",
+            "norm_text": "아하! 그렇군요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+그렇/VA+군요/EC"
+          },
+          {
+            "id": 11,
+            "text": "1 : 전기차도 참 좋은 것 같아요",
+            "norm_text": "전기차도 참 좋은 것 같아요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전기차/NNP+도/JX+참/MAG+좋/VA+은/ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 12,
+            "text": "1 : 형~ 일반적으로 연봉의 몇 퍼센트 정도를 자가용 비용으로 고려하는 게 적정할까요~?",
+            "norm_text": "형~ 일반적으로 연봉의 몇 퍼센트 정도를 자가용 비용으로 고려하는 게 적정할까요~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "형/NNG+~/SY+일반/NNG+적/XSN+으로/JKB+연봉/NNG+의/JKG+몇/MM+퍼센트/NNBC+정도/NNG+를/JKO+자가용/NNG+비용/NNG+으로/JKB+고려/NNG+하/XSV+는/ETM+게/NNB+JKS+적정/NNG+할까요/XSV+EC+~/SY"
+          },
+          {
+            "id": 13,
+            "text": "2 : 내 기준으로 말을 하자면, 월 250만 원이라고 쳤을 때 최대 20% 정도인 50만 원이 적당할 것 같아,",
+            "norm_text": "내 기준으로 말을 하자면, 월 250만 원이라고 쳤을 때 최대 20% 정도인 50만 원이 적당할 것 같아,",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "내/NP+JKG+기준/NNG+으로/JKB+말/NNG+을/JKO+하/VV+자면/EC+,/SC+월/NNG+250/SN+만/NR+원/NNBC+이/VCP+라고/EC+쳤/VV+EP+을/ETM+때/NNG+최대/NNG+20/SN+%/SY+정도/NNG+인/VCP+ETM+50/SN+만/NR+원/NNBC+이/JKS+적당/XR+할/XSA+ETM+것/NNB+같/VA+아/EC+,/SC"
+          },
+          {
+            "id": 14,
+            "text": "2 : 적으면 적을수록 좋지...",
+            "norm_text": "적으면 적을수록 좋지...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "적/VA+으면/EC+적/VV+을수록/EC+좋/VA+지/EF+./SY"
+          },
+          {
+            "id": 15,
+            "text": "2 : 자동차는 돈 덩어리야",
+            "norm_text": "자동차는 돈 덩어리야",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "자동차/NNG+는/JX+돈/NNG+덩어리/NNG+야/VCP+EF"
+          },
+          {
+            "id": 16,
+            "text": "1 : 아하! 이해가 잘 돼요",
+            "norm_text": "아하! 이해가 잘 돼요",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하/IC+이해/NNG+가/JKS+잘/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 17,
+            "text": "1 : 형~ 감사합니다.",
+            "norm_text": "형~ 감사합니다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "형/NNG+~/SY+감사/NNG+합니다/XSV+EF"
+          },
+          {
+            "id": 18,
+            "text": "1 : 형은 드림카가 무엇인가요~?",
+            "norm_text": "형은 드림카가 무엇인가요~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "형/NNG+은/JX+드림/VV+ETM+카/NNG+가/JKS+무엇/NP+인/VCP+ETM+가요/NNG+~/SY"
+          },
+          {
+            "id": 19,
+            "text": "2 : 나는 캠핑을 너무나 좋아해서, 지프의 랭글러 차량을 너무나 갖고 싶어...",
+            "norm_text": "나는 캠핑을 너무나 좋아해서, 지프의 랭글러 차량을 너무나 갖고 싶어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+캠핑/NNG+을/JKO+너무나/MAG+좋/VA+아/EC+해서/VV+EC+,/SC+지프/NNG+의/JKG+랭/NNG+글러/VA+EC+차량/NNG+을/JKO+너무나/MAG+갖/VV+고/EC+싶/VX+어/EF+./SY"
+          },
+          {
+            "id": 20,
+            "text": "2 : 혹시 이 차량 아니?",
+            "norm_text": "혹시 이 차량 아니?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "혹시/MAG+이/MM+차량/NNG+아니/IC"
+          },
+          {
+            "id": 21,
+            "text": "1 : 네 형한테 참 잘 어울리실 것 같아요!",
+            "norm_text": "네 형한테 참 잘 어울리실 것 같아요!",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "네/IC+형/NNG+한테/JKB+참/MAG+잘/MAG+어울리/VV+실/EP+ETM+것/NNB+같/VA+아요/EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 형 혹시 반대로 이 차는 굳이 사고 싶지 않다라는 차도 있으신가요~?",
+            "norm_text": "형 혹시 반대로 이 차는 굳이 사고 싶지 않다라는 차도 있으신가요~?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "형/NNG+혹시/MAG+반대/NNG+로/JKB+이/NR+차/NNBC+는/JX+굳이/MAG+사/VV+고/EC+싶/VX+지/EC+않/VX+다/EF+라는/ETM+차/NNG+도/JX+있/VA+으신/EP+ETM+가요/NNG+~/SY"
+          },
+          {
+            "id": 23,
+            "text": "2 : 나는 연비 안 좋은 차는 지양하는 편이야,",
+            "norm_text": "나는 연비 안 좋은 차는 지양하는 편이야,",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+연비/NNG+안/MAG+좋/VA+은/ETM+차/NNG+는/JX+지양/NNG+하/XSV+는/ETM+편/NNB+이/VCP+야/EF+,/SC"
+          },
+          {
+            "id": 24,
+            "text": "2 : 요즘 기름 값이 너무 비싸서 연비 안 좋은 차량은 돈 낭비가 너무 심해.",
+            "norm_text": "요즘 기름 값이 너무 비싸서 연비 안 좋은 차량은 돈 낭비가 너무 심해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "요즘/NNG+기름/NNG+값/NNG+이/JKS+너무/MAG+비싸/VA+서/EC+연비/NNG+안/MAG+좋/VA+은/ETM+차량/NNG+은/JX+돈/NNG+낭비/NNG+가/JKS+너무/MAG+심해/VA+EF"
+          },
+          {
+            "id": 25,
+            "text": "1 : 아하 미국차나 슈퍼카 같은 차들이 생각나네요~",
+            "norm_text": "아하 미국차나 슈퍼카 같은 차들이 생각나네요~",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아하미국차나슈퍼카같은차들이생각나네요/UNKNOWN+~/SY"
+          },
+          {
+            "id": 26,
+            "text": "1 : 그래도 돈 많이 벌면 슈퍼카도 고려해 보실 건가요?",
+            "norm_text": "그래도 돈 많이 벌면 슈퍼카도 고려해 보실 건가요?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그래도/MAJ+돈/NNG+많이/MAG+벌/VV+면/EC+슈퍼카/NNP+도/JX+고려/NNG+해/XSV+EC+보/VX+실/EP+ETM+건가요/NNB+VCP+EF"
+          },
+          {
+            "id": 27,
+            "text": "2 : 당연하지,",
+            "norm_text": "당연하지,",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "당연/XR+하/XSA+지/EF+,/SC"
+          },
+          {
+            "id": 28,
+            "text": "2 : 유지비를 하고도 충분히 남는 금액이면 무슨 차든 못 타겠어...",
+            "norm_text": "유지비를 하고도 충분히 남는 금액이면 무슨 차든 못 타겠어...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "유지비/NNG+를/JKO+하/VV+고/EC+도/JX+충분히/MAG+남/VV+는/ETM+금액/NNG+이/VCP+면/EC+무슨/MM+차/NNG+든/VCP+EC+못/MAG+타/VV+겠/EP+어/EF+./SY"
+          },
+          {
+            "id": 29,
+            "text": "2 : 없어서 못 타는 거지 키키",
+            "norm_text": "없어서 못 타는 거지 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "없/VA+어서/EC+못/MAG+타/VV+는/ETM+거/NNB+지/VCP+EC+키/NNG+키/XSV+ETN"
+          }
+        ]
+      }
+    }
+  ]
+}

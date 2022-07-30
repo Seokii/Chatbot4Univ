@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 110833,
+    "name": "s1_20211104_0001_3731_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110641067673/s1_20211104_0001_3731_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110641067673/s1_20211104_0001_3731_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 114983,
+      "filename": "s1_20211012_0012_0003_01.txt",
+      "title": "s1_20211012_0012_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 248,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 248,
+        "word_size": 55,
+        "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다\nB.예 김치냉장고 방문 수리해주세요\nA.네 고객님 제품 명칭 알 수 있을까요\nB.네 #@상품#이에요 #@상품#\nA.네 고객님 증상이 어떤가요\nB.빨간불 들어오면서 삐 삐 소리가 나요\nA.네 고객님 성함과 연락처 알려주시겠어요\nB.네 #@이름# #@전번#\nA.고객님 기사님이 미리 연락드리고 일정 잡을 겁니다\nB.네 그렇게 해주세요 수고하세요\nA.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객만족센터 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+만족/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 김치냉장고 방문 수리해주세요",
+            "norm_text": "B.예 김치냉장고 방문 수리해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+예/IC+김치냉장고/NNG+방문/NNG+수리/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 제품 명칭 알 수 있을까요",
+            "norm_text": "A.네 고객님 제품 명칭 알 수 있을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+제품/NNG+명칭/NNG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@상품#이에요 #@상품#",
+            "norm_text": "B.네 #@상품#이에요 #@상품#",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+이/VCP+에요/EF+#/SY+@/SY+상품/NNG+#/SY"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 증상이 어떤가요",
+            "norm_text": "A.네 고객님 증상이 어떤가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+증상/NNG+이/JKS+어떤/MM+가요/NNG"
+          },
+          {
+            "id": 6,
+            "text": "B.빨간불 들어오면서 삐 삐 소리가 나요",
+            "norm_text": "B.빨간불 들어오면서 삐 삐 소리가 나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+빨간불/NNG+들어오/VV+면서/EC+삐삐/MAG+소리/NNG+가/JKS+나/VV+요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 고객님 성함과 연락처 알려주시겠어요",
+            "norm_text": "A.네 고객님 성함과 연락처 알려주시겠어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+성함/NNG+과/JC+연락처/NNG+알려/VV+EC+주/VX+시/EP+겠/EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 #@이름# #@전번#",
+            "norm_text": "B.네 #@이름# #@전번#",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY"
+          },
+          {
+            "id": 9,
+            "text": "A.고객님 기사님이 미리 연락드리고 일정 잡을 겁니다",
+            "norm_text": "A.고객님 기사님이 미리 연락드리고 일정 잡을 겁니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+기사/NNG+님/XSN+이/JKS+미리/MAG+연락/NNG+드리/VV+고/EC+일정/NNG+잡/VV+을/ETM+겁니다/NNB+VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 그렇게 해주세요 수고하세요",
+            "norm_text": "B.네 그렇게 해주세요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+그렇게/MAG+해/VV+EC+주/VX+세요/EP+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+            "norm_text": "A.추가 문의 사항 언제든지 연락 주세요 #@소속#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+추가/NNG+문/NNG+의/JKG+사항/NNG+언제든지/MAG+연락/NNG+주세요/NNP+#/SY+@/SY+소속/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 47875,
+    "name": "c4_20211015_0001_1774_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202110081307060157102/c4_20211015_0001_1774_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202110081307060157102/c4_20211015_0001_1774_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50318,
+      "filename": "c4_20210906_0024_0002_01.txt",
+      "title": "c4_20210906_0024_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 272,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 272,
+        "word_size": 66,
+        "text": "A.안녕하세요 #@소속# #@이름# 입니다\nB.제가요 어업 휴업 신고를 했어요 저저번주에\nA.네 고객님 말씀해주세요\nB.근데 이게 아직도 허가가 안나네요\nA그러셨어요 성함이 어떻게 되시죠\nB.네 저 #@이름#입니다\nA.네 #@이름# 고객님 이게요 어 지금 시청에서 결재는 나셨어요\nA.그래서 오늘이나 내일 중으로 휴업 신청 허가가 날꺼 같거든요\nB.그래요 나는 너무 오래 걸리고 연락도 없어서 누락된 줄 알았어\nA.아뇨 잘 진행되고 있습니다 내일이면 될 꺼 같아요\nB.예 그럼 됐어요 알겠습니다 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가요 어업 휴업 신고를 했어요 저저번주에",
+            "norm_text": "B.제가요 어업 휴업 신고를 했어요 저저번주에",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+가요/NNG+어업/NNG+휴업/NNG+신고/NNG+를/JKO+했/VV+EP+어요/EF+저/MM+저번/NNG+주/NNG+에/JKB"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀해주세요",
+            "norm_text": "A.네 고객님 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.근데 이게 아직도 허가가 안나네요",
+            "norm_text": "B.근데 이게 아직도 허가가 안나네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+근데/MAJ+이게/NP+JKS+아직/MAG+도/JX+허가/NNG+가/JKS+안/MAG+나/VV+네요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A그러셨어요 성함이 어떻게 되시죠",
+            "norm_text": "A그러셨어요 성함이 어떻게 되시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+셨/EP+EP+어요/EF+성함/NNG+이/JKS+어떻게/MAG+되/VV+시/EP+죠/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 저 #@이름#입니다",
+            "norm_text": "B.네 저 #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+저/NP+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 #@이름# 고객님 이게요 어 지금 시청에서 결재는 나셨어요",
+            "norm_text": "A.네 #@이름# 고객님 이게요 지금 시청에서 결재는 나셨어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+이게/NP+JKS+요어/NNG+지금/MAG+시청/NNG+에서/JKB+결재/NNG+는/JX+나/VX+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.그래서 오늘이나 내일 중으로 휴업 신청 허가가 날꺼 같거든요",
+            "norm_text": "A.그래서 오늘이나 내일 중으로 휴업 신청 허가가 날꺼 같거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+그래서/MAJ+오늘/NNG+이나/JC+내일/NNG+중/NNB+으로/JKB+휴업/NNG+신청/NNG+허가/NNG+가/JKS+날/NNG+꺼/VV+EC+같/VA+거든요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그래요 나는 너무 오래 걸리고 연락도 없어서 누락된 줄 알았어",
+            "norm_text": "B.그래요 나는 너무 오래 걸리고 연락도 없어서 누락된 줄 알았어",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그래요/VV+EF+나/NP+는/JX+너무/MAG+오래/MAG+걸리/VV+고/EC+연락/NNG+도/JX+없/VA+어서/EC+누락/NNG+된/XSV+ETM+줄/NNB+알/VV+았/EP+어/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.아뇨 잘 진행되고 있습니다 내일이면 될 꺼 같아요",
+            "norm_text": "A.아뇨 잘 진행되고 있습니다 내일이면 될 꺼 같아요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아뇨/IC+잘/MAG+진행/NNG+되/XSV+고/EC+있/VX+습니다/EF+내일/NNG+이/VCP+면/EC+될/VV+ETM+꺼/NNB+VCP+같/VA+아요/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.예 그럼 됐어요 알겠습니다 수고하세요",
+            "norm_text": "B.예 그럼 됐어요 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+그럼/MAJ+됐/VV+EP+어요/EF+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

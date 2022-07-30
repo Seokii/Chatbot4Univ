@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 16326,
+    "name": "s3_20210915_0010_1112_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420088728/s3_20210915_0010_1112_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151420088728/s3_20210915_0010_1112_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12210,
+      "filename": "s3_20210830_0010_0003_01.txt",
+      "title": "s3_20210830_0010_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 431,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 431,
+        "word_size": 94,
+        "text": "A.반갑습니다 상담사#@이름#입니다 무엇을 도와드릴까요\nB.제가 #@상품#를 구매할려고 하는데요\nB.이게 지금 원 쁘라스 원 행사를 하시는 건가요\nA.죄송하지만 저희가 발매트 종류가 워낙 많다 보니까 확인이 필요합니다\nA.고객님 혹시 정확한 상품명 확인 가능하십니까\nB.네 상품명이 #@상품#이네요\nA.확인 감사드립니다 말씀하신 대로 지금 원 플러스 원 행사 중입니다\nA.#@상품# 대형으로 아이보리와 그레이 색상으로 구성되어 있습니다\nB.색상은 그렇게 고정되어 있는거죠\nA.맞습니다 이거 전화 주문 도와드리면 되겠습니까\nB.아니요 행사 상품인지만 확인하려고 했는데 좀 더 생각해볼게요\nB.주문할거면 이 번호로 연락드려서 주문하면 될까요\nA.네 맞습니다 이 번호로 연락주시면 친절히 안내 드리겠습니다\nB.감사합니다 수고하세요\nA.감사합니다 오늘도 즐거운 하루 보내세요 상담사 #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사#@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 상담사#@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 #@상품#를 구매할려고 하는데요",
+            "norm_text": "B.제가 #@상품#를 구매할려고 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+#/SY+@/SY+상품/NNG+#/SY+를/JKO+구매/NNG+할려고/XSV+EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.이게 지금 원 쁘라스 원 행사를 하시는 건가요",
+            "norm_text": "B.이거 지금 원 플러스 원 행사를 하는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이거/NP+지금/MAG+원/NNG+플러스/NNG+원행/NNG+사/NNG+를/JKO+하/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.죄송하지만 저희가 발매트 종류가 워낙 많다 보니까 확인이 필요합니다",
+            "norm_text": "A.죄송하지만 저희가 상품 종류가 워낙 많다 보니까 확인이 필요합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+저희/NP+가/JKS+상품/NNG+종류/NNG+가/JKS+워낙/MAG+많/VA+다/EC+보/VX+니까/EC+확인/NNG+이/JKS+필요/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 혹시 정확한 상품명 확인 가능하십니까",
+            "norm_text": "A.고객님 혹시 정확한 상품명 확인 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+혹시/MAG+정확/XR+한/XSA+ETM+상품명/NNG+확인/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 상품명이 #@상품#이네요",
+            "norm_text": "B.네 상품명이 #@상품#이네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+상품명/NNG+이/JKS+#/SY+@/SY+상품/NNG+#/SY+이/VCP+네요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.확인 감사드립니다 말씀하신 대로 지금 원 플러스 원 행사 중입니다",
+            "norm_text": "A.확인 감사드립니다 지금 원 플러스 원 행사 중입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+드립니다/VV+EF+지금/MAG+원/NNG+플러스/NNG+원행/NNG+사중/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.#@상품# 대형으로 아이보리와 그레이 색상으로 구성되어 있습니다",
+            "norm_text": "A.#@상품# 대형으로 아이보리와 그레이 색상으로 구성되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+대형/NNG+으로/JKB+아이보리/NNG+와/JC+그레이/NNP+색상/NNG+으로/JKB+구성/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.색상은 그렇게 고정되어 있는거죠",
+            "norm_text": "B.색상은 그렇게 고정되어 있는거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+색상/NNG+은/JX+그렇게/MAG+고정/NNG+되/XSV+어/EC+있/VX+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.맞습니다 이거 전화 주문 도와드리면 되겠습니까",
+            "norm_text": "A.맞습니다 이거 전화 주문 도와드리면 되겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+맞/VV+습니다/EF+이거/NP+전화/NNG+주문/NNG+도와/VV+EC+드리/VX+면/EC+되/VV+겠/EP+습니까/EC"
+          },
+          {
+            "id": 11,
+            "text": "B.아니요 행사 상품인지만 확인하려고 했는데 좀 더 생각해볼게요",
+            "norm_text": "B.아니요 행사 상품인지만 확인하려고 했는데 좀 더 생각해볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "거절하기",
+            "morpheme": "B/SL+아니요/IC+행사/NNG+상품/NNG+인지/VCP+EC+만/JX+확인/NNG+하/XSV+려고/EC+했/VX+EP+는데/EC+좀/MAG+더/MAG+생각/NNG+해/XSV+EC+볼게요/VX+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.주문할거면 이 번호로 연락드려서 주문하면 될까요",
+            "norm_text": "B.주문할거면 이 번호로 연락드려서 주문하면 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+주문/NNG+할/XSV+ETM+거/NNB+면/VCP+EC+이/MM+번호/NNG+로/JKB+연락/NNG+드려서/VV+EC+주문/NNG+하/XSV+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 맞습니다 이 번호로 연락주시면 친절히 안내 드리겠습니다",
+            "norm_text": "A.네 맞습니다 이 번호로 연락주시면 친절히 안내 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+이/MM+번호/NNG+로/JKB+연락/NNG+주/VV+시/EP+면/EC+친절히/MAG+안/MAG+내드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.감사합니다 수고하세요",
+            "norm_text": "B.감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 15,
+            "text": "A.감사합니다 오늘도 즐거운 하루 보내세요 상담사 #@이름#였습니다",
+            "norm_text": "A.감사합니다 오늘도 즐거운 하루 보내세요 상담사 #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+오늘/NNG+도/JX+즐거운/VA+ETM+하루/NNG+보내/VV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 110600,
+    "name": "s1_20211104_0001_3705_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt202111011106410623105/s1_20211104_0001_3705_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt202111011106410623105/s1_20211104_0001_3705_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 114977,
+      "filename": "s1_20211008_0026_0020_01.txt",
+      "title": "s1_20211008_0026_0020_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 279,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 279,
+        "word_size": 60,
+        "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다\nB.안녕하세요 오븐 램프가 안들어와서요\nA.고객님 사용하시는 제품이 어떻게 되세요\nB.이거 이름이 #@상품#이에요\nA.네 고객님 램프가 안들어오신다고요\nB.네 램프 불이 왜 안들어오죠\nA.전원연결 불량이거나 램프수명이 다 되었을 가능성이 있습니다\nB.전원은 잘 연결되어 있는데요\nA.그러면 램프를 교체하셔야 하는데요\nA.제품 케이스를 분해해서 조치해야 해서 점검을 받으셔야 합니다\nB.네 그러면 제가 나중에 다시 전화드릴게요\nA.네 알겠습니다 고객님 좋은 하루 보내십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 오븐 램프가 안들어와서요",
+            "norm_text": "B.안녕하세요 오븐 램프가 안들어와서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+오/EC+븐/VX+ETM+램프/NNG+가/JKS+안/MAG+들어와서/VV+EC+요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 사용하시는 제품이 어떻게 되세요",
+            "norm_text": "A.고객님 사용하시는 제품이 어떻게 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+사용/NNG+하/XSV+시/EP+는/ETM+제품/NNG+이/JKS+어떻게/MAG+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.이거 이름이 #@상품#이에요",
+            "norm_text": "B.이거 이름이 #@상품#이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이거/NP+이름/NNG+이/JKS+#/SY+@/SY+상품/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 램프가 안들어오신다고요",
+            "norm_text": "A.네 고객님 램프가 안들어오신다고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+램프/NNG+가/JKS+안/MAG+들어오/VV+신다고요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 램프 불이 왜 안들어오죠",
+            "norm_text": "B.네 램프 불이 왜 안들어오죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+램프/NNG+불/NNG+이/JKS+왜/MAG+안/MAG+들어오/VV+죠/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.전원연결 불량이거나 램프수명이 다 되었을 가능성이 있습니다",
+            "norm_text": "A.전원연결 불량이거나 램프수명이 다 되었을 가능성이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전원/NNG+연결/NNG+불량/NNG+이/VCP+거나/EC+램프/NNG+수명/NNG+이/JKS+다/MAG+되/VV+었/EP+을/ETM+가능/NNG+성/XSN+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.전원은 잘 연결되어 있는데요",
+            "norm_text": "B.전원은 잘 연결되어 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+전원/NNG+은/JX+잘/MAG+연결/NNG+되/XSV+어/EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.그러면 램프를 교체하셔야 하는데요",
+            "norm_text": "A.그러면 램프를 교체하셔야 하는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그러면/MAJ+램프/NNG+를/JKO+교체/NNG+하/XSV+셔야/EP+EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.제품 케이스를 분해해서 조치해야 해서 점검을 받으셔야 합니다",
+            "norm_text": "A.제품 케이스를 분해해서 조치해야 해서 점검을 받으셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+제품/NNG+케이스/NNG+를/JKO+분해/NNG+해서/XSV+EC+조치/NNG+해야/XSV+EC+해서/VV+EC+점검/NNG+을/JKO+받/VV+으셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 그러면 제가 나중에 다시 전화드릴게요",
+            "norm_text": "B.네 그러면 제가 나중에 다시 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+네/IC+그러면/MAJ+제/NP+가/JKS+나중/NNG+에/JKB+다시/MAG+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 알겠습니다 고객님 좋은 하루 보내십시오",
+            "norm_text": "A.네 알겠습니다 고객님 좋은 하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+고객/NNG+님/XSN+좋/VA+은/ETM+하루/NNG+보내/VV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

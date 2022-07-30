@@ -1,0 +1,311 @@
+{
+  "dataset": {
+    "identifier": 6326,
+    "name": "c1_20210911_0005_0455_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341074119/c1_20210911_0005_0455_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151341074119/c1_20210911_0005_0455_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10754,
+      "filename": "c1_20210819_0001_0003_01.txt",
+      "title": "c1_20210819_0001_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 574,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 574,
+        "word_size": 131,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.네 혹시 면허증을 교체하는데 #@전번# 번으로 전화하라고 해서 전화했는데 여기가 아니죠\nA.선생님 다시 한 번 천천히 말씀해주시겠습니까\nA.제가 확인 후 안내해드리겠습니다\nB.저 중국에서 쓰는 운전면허증이 있거든요\nB.그걸 한국면허증으로 교체하고 싶은데 어떤 서류나 절차가 필요한 지가 궁금해서요\nA.선생님 외국에 운전면허가 있으시단 말씀이십니까\nB.네 중국 거 있거든요\nB.저는 외국 사람이구요\nA.네 그러십니까 중국 면허요\nA.제가 안내 받으실 수 있는 기관 확인 후 안내해드리겠습니다\nB.네 알겠습니다 감사합니다\nA.네 선생님 운전면허시험장 또는 경찰서에서 도움 받으실 수 있다고 확인 됩니다\nB.네 시험장이랑 경찰서요\nA.네 맞습니다 시험장 경찰서\nB.저 제가 인터넷으로 검색해봤었는데요\nB.이게 증명하면 그냥 조치가 된다고 봤었거든요\nB.근데 그걸 경찰서에 가서 확인 해야 된다구요\nA.네 선생님 경찰서에 문의를 하시면 도움 받으실 듯 합니다\nB.네 알겠습니다 감사합니다\nA.네 더 다른 문의사항 있으십니까\nB.아니요 더 없어요\nA.네 업무처리 잘 되시길 바랍니다 #@소속# #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 혹시 면허증을 교체하는데 #@전번# 번으로 전화하라고 해서 전화했는데 여기가 아니죠",
+            "norm_text": "B.면허증을 교체하는데 #@전번# 번으로 전화하라고 해서 전화했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+면허증/NNG+을/JKO+교체/NNG+하/XSV+는데/EC+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+으로/JKB+전화/NNG+하/XSV+라고/EC+해서/VV+EC+전화/NNG+했/XSV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.선생님 다시 한 번 천천히 말씀해주시겠습니까",
+            "norm_text": "A.선생님 다시 한 번 천천히 말씀해주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+다시/MAG+한/MM+번/NNBC+천천히/MAG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.제가 확인 후 안내해드리겠습니다",
+            "norm_text": "A.제가 확인 후 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.저 중국에서 쓰는 운전면허증이 있거든요",
+            "norm_text": "B.저 중국에서 쓰는 운전면허증이 있거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/IC+중국/NNP+에서/JKB+쓰/VV+는/ETM+운전/NNG+면허증/NNG+이/JKS+있/VA+거든요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.그걸 한국면허증으로 교체하고 싶은데 어떤 서류나 절차가 필요한 지가 궁금해서요",
+            "norm_text": "B.한국면허증으로 교체하고 싶은데 서류나 절차가 필요한 지가 궁금해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+한국/NNP+면허증/NNG+으로/JKB+교체/NNG+하/XSV+고/EC+싶/VX+은데/EC+서류/NNG+나/JC+절차/NNG+가/JKS+필요/NNG+한/XSA+ETM+지/NNB+가/JKS+궁금/XR+해서/XSA+EC+VCP+요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.선생님 외국에 운전면허가 있으시단 말씀이십니까",
+            "norm_text": "A.선생님 외국에 운전면허가 있으시단 말씀이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+선생/NNG+님/XSN+외국/NNG+에/JKB+운전/NNG+면허/NNG+가/JKS+있/VA+으시/EP+단/ETM+말씀/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 중국 거 있거든요",
+            "norm_text": "B.네 중국 거 있거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+중국/NNP+거/NNB+있/VA+거든요/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.저는 외국 사람이구요",
+            "norm_text": "B.저는 외국 사람이구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/NP+는/JX+외국/NNG+사람/NNG+이/VCP+구요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 그러십니까 중국 면허요",
+            "norm_text": "A.네 그러십니까 중국 면허요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그러/VV+십니까/EP+EF+중국/NNP+면허/NNG+요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.제가 안내 받으실 수 있는 기관 확인 후 안내해드리겠습니다",
+            "norm_text": "A.제가 안내 받으실 수 있는 기관 확인 후 안내해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+제/NP+가/JKS+안/MAG+내받/VV+으실/EP+ETM+수/NNB+있/VV+는/ETM+기관/NNG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 선생님 운전면허시험장 또는 경찰서에서 도움 받으실 수 있다고 확인 됩니다",
+            "norm_text": "A.운전면허시험장 또는 경찰서에서 도움 받으실 수 있다고 확인 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+운전/NNG+면허/NNG+시험장/NNG+또는/MAJ+경찰서/NNG+에서/JKB+도움/NNG+받/VV+으실/EP+ETM+수/NNB+있/VV+다고/EC+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.네 시험장이랑 경찰서요",
+            "norm_text": "B.네 시험장이랑 경찰서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+시험장/NNG+이랑/JKB+경찰서/NNG+요/VCP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네 맞습니다 시험장 경찰서",
+            "norm_text": "A.네 맞습니다 시험장 경찰서",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+시험장/NNG+경찰서/NNG"
+          },
+          {
+            "id": 16,
+            "text": "B.저 제가 인터넷으로 검색해봤었는데요",
+            "norm_text": "B.저 제가 인터넷으로 검색해봤었는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+저제/NNG+가/JKS+인터넷/NNG+으로/JKB+검색/NNG+해/XSV+EC+봤었/VX+EP+는데요/EC"
+          },
+          {
+            "id": 17,
+            "text": "B.이게 증명하면 그냥 조치가 된다고 봤었거든요",
+            "norm_text": "B.이게 증명하면 그냥 조치가 된다고 봤었거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이게/NP+JKS+증명/NNG+하/XSV+면/EC+그냥/MAG+조치/NNG+가/JKS+된다고/VV+EC+봤었/VX+EP+거든요/EF"
+          },
+          {
+            "id": 18,
+            "text": "B.근데 그걸 경찰서에 가서 확인 해야 된다구요",
+            "norm_text": "B.근데 그걸 경찰서에 가서 확인 해야 된다구요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+근데/MAJ+그걸/NP+JKO+경찰서/NNG+에/JKB+가/VV+서/EC+확인/NNG+해야/XSV+EC+된다구요/VV+EC"
+          },
+          {
+            "id": 19,
+            "text": "A.네 선생님 경찰서에 문의를 하시면 도움 받으실 듯 합니다",
+            "norm_text": "A.네 선생님 경찰서에 문의를 하시면 도움 받으실 듯 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+경찰서/NNG+에/JKB+문의/NNG+를/JKO+하/VV+시/EP+면/EC+도움/NNG+받/VV+으실/EP+ETM+듯/NNB+합니다/XSA+EC"
+          },
+          {
+            "id": 20,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 21,
+            "text": "A.네 더 다른 문의사항 있으십니까",
+            "norm_text": "A.네 더 다른 문의사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+더/MAG+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 22,
+            "text": "B.아니요 더 없어요",
+            "norm_text": "B.아니요 더 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아니요/IC+더/MAG+없/VA+어요/EF"
+          },
+          {
+            "id": 23,
+            "text": "A.네 업무처리 잘 되시길 바랍니다 #@소속# #@이름#였습니다",
+            "norm_text": "A.네 업무처리 잘 되시길 바랍니다 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+업무/NNG+처리/NNG+잘/MAG+되/VV+시/EP+길/ETN+JKO+바랍니다/VV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

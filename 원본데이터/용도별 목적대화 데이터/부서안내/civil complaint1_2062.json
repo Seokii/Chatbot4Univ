@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 12736,
+    "name": "c1_20210913_0005_0811_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151338022887/c1_20210913_0005_0811_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151338022887/c1_20210913_0005_0811_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10242,
+      "filename": "c1_20210818_0016_0006_01.txt",
+      "title": "c1_20210818_0016_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 381,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 381,
+        "word_size": 80,
+        "text": "A.반갑습니다#@소속# #@이름#입니다 무엇을 도와드릴까요\nB.안녕하세요 여기는 #@소속# 대표이사 비서실입니다\nB.저희가 지사님과 연락을 해야 하는데요\nB.혹시 #@이름# #@소속# 전화번호를 알 수 있을까요\nA.네 가능 합니다 혹시 메모 가능하십니까\nA.아니면 저희 쪽에서 바로 연결도 가능합니다\nB.바로 연결은 중간에 끊어지는 일이 잦아서요\nB.직통 번호로  알려주셨으면 좋겠습니다\nA.네 알겠습니다 #@전번#입니다\nB.혹시 비서분 성함도 알 수 있을까요\nA.확인해보겠습니다 잠시만 기다려주시겠습니까\nA.#@번호#는 도지사님 이름으로 확인됩니다\nB.그럼 도지사님께 연결되는 직통 번호인가요\nA.아니요 직통 번호는 저희 쪽에 나와 있지 않습니다\nA.알려드린 번호는 비서실에서 받고 연결해 드린다고 합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다#@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다#@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 여기는 #@소속# 대표이사 비서실입니다",
+            "norm_text": "B.안녕하세요 여기는 #@소속# 대표이사 비서실입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+여기/NP+는/JX+#/SY+@/SY+소속/NNG+#/SY+대표/NNG+이사/NNG+비서실/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.저희가 지사님과 연락을 해야 하는데요",
+            "norm_text": "B.저희가 지사님과 연락을 해야 하는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저희/NP+가/JKS+지사/NNG+님/XSN+과/JC+연락/NNG+을/JKO+해야/VV+EC+하/VV+는데요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.혹시 #@이름# #@소속# 전화번호를 알 수 있을까요",
+            "norm_text": "B.혹시 #@이름# #@소속# 전화번호를 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+소속/NNG+#/SY+전화/NNG+번호/NNG+를/JKO+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 가능 합니다 혹시 메모 가능하십니까",
+            "norm_text": "A.네 가능 합니다 혹시 메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+가능/NNG+합니다/XSV+EF+혹시/MAG+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.아니면 저희 쪽에서 바로 연결도 가능합니다",
+            "norm_text": "A.아니면 저희 쪽에서 바로 연결도 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아니면/MAJ+저희/NP+쪽/NNB+에서/JKB+바로/MAG+연결/NNG+도/JX+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.바로 연결은 중간에 끊어지는 일이 잦아서요",
+            "norm_text": "B.바로 연결은 중간에 끊어지는 일이 잦아서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+바로/MAG+연결/NNG+은/JX+중간/NNG+에/JKB+끊/VV+어/EC+지/VX+는/ETM+일/NNG+이/JKS+잦/VA+아서요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.직통 번호로  알려주셨으면 좋겠습니다",
+            "norm_text": "B.직통 번호로  알려주셨으면 좋겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+직통/NNG+번호/NNG+로/JKB+알려/VV+EC+주/VX+셨/EP+EP+으면/EC+좋/VA+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 알겠습니다 #@전번#입니다",
+            "norm_text": "A.네 알겠습니다 #@전번#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+알/VV+겠/EP+습니다/EF+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.혹시 비서분 성함도 알 수 있을까요",
+            "norm_text": "B.혹시 비서분 성함도 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+비서/NNG+분성/NNG+함/XSV+ETN+도/JX+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.확인해보겠습니다 잠시만 기다려주시겠습니까",
+            "norm_text": "A.확인해보겠습니다 잠시만 기다려주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+확인/NNG+해/XSV+EC+보/VX+겠/EP+습니다/EF+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.#@번호#는 도지사님 이름으로 확인됩니다",
+            "norm_text": "A.#@번호#는 도지사님 이름으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+번호/NNG+#/SY+는/JX+도지사/NNP+님/XSN+이름/NNG+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.그럼 도지사님께 연결되는 직통 번호인가요",
+            "norm_text": "B.그럼 도지사님께 연결되는 직통 번호인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+도지사/NNP+님/XSN+께/JKB+연결/NNG+되/XSV+는/ETM+직통/NNG+번호/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.아니요 직통 번호는 저희 쪽에 나와 있지 않습니다",
+            "norm_text": "A.아니요 직통 번호는 저희 쪽에 나와 있지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+아니요/IC+직통/NNG+번호/NNG+는/JX+저희/NP+쪽/NNB+에/JKB+나와/VV+EC+있/VX+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "A.알려드린 번호는 비서실에서 받고 연결해 드린다고 합니다",
+            "norm_text": "A.알려드린 번호는 비서실에서 받고 연결해 드린다고 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+알려/VV+EC+드린/VX+ETM+번호/NNG+는/JX+비서실/NNG+에서/JKB+받/VV+고/EC+연결/NNG+해/XSV+EC+드린다고/VX+EC+합니다/VX+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

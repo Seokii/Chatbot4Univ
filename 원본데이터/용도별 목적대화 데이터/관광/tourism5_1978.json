@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 159659,
+    "name": "t5_20211119_0010_2334_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135915005876/t5_20211119_0010_2334_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135915005876/t5_20211119_0010_2334_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155789,
+      "filename": "t5_0068_0067_02.txt",
+      "title": "t5_0068_0067_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 365,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 365,
+        "word_size": 90,
+        "text": "A.고객과 함께 하는 상담원 #@이름# 입니다\nB.안녕하세요 시티투어버스 상품 신청 합니다\nA.이용 날짜와 인원 말씀해 주세요\nB.8월 29일 성인 6명 인데 할인 되나요\nA.해당 상품은 만 65세 이상 경로 할인 요금으로 4200원 입니다\nB.우리 6명 모두 68세 친구들인데 할인 되는건가요\nA.네 신분증 꼭 가지고 오세요 그리고 어떤 역에서 탑승하실 건가요\nB.11시 동대구역에서 탈게요 신분증 꼭 갖고 갈게요\nA.네 감사합니다 고객인 성함과 연락처 불러 주세요\nB.이름은 #@이름# 이고요 #@전번# 번 이에요\nA.#@이름# 님 외 5명 예약 되셨고요 신분증 지참하시고 오시면 되세요\nB.알겠습니다 그럼 안녕히 계세요\nA.고객과 함께 하는 상담원 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.고객과 함께 하는 상담원 #@이름# 입니다",
+            "norm_text": "A.고객과 함께 하는 상담원 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+과/JKB+함께/MAG+하/VV+는/ETM+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 시티투어버스 상품 신청 합니다",
+            "norm_text": "B.안녕하세요 시티투어버스 상품 신청 합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+시티투어/NNP+버스/NNG+상품/NNG+신청/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.이용 날짜와 인원 말씀해 주세요",
+            "norm_text": "A.이용 날짜와 인원 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+이용/NNG+날짜/NNG+와/JC+인원/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.8월 29일 성인 6명 인데 할인 되나요",
+            "norm_text": "B.8월 29일 성인 6명 인데 할인 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+8/SN+월/NNBC+29/SN+일/NNBC+성인/NNG+6/SN+명/NNBC+인데/VCP+EC+할인/NNG+되/XSV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.해당 상품은 만 65세 이상 경로 할인 요금으로 4200원 입니다",
+            "norm_text": "A.해당 상품은 만 65세 이상 경로 할인 요금으로 4200원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+상품/NNG+은/JX+만/JX+65/SN+세/NNBC+이상/NNG+경로/NNG+할인/NNG+요금/NNG+으로/JKB+4200/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.우리 6명 모두 68세 친구들인데 할인 되는건가요",
+            "norm_text": "B.우리 6명 모두 68세 친구들인데 할인 되는건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+우리/NP+6/SN+명/NNBC+모두/MAG+68/SN+세/NNBC+친구/NNG+들/XSN+인데/VCP+EC+할인/NNG+되/XSV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 신분증 꼭 가지고 오세요 그리고 어떤 역에서 탑승하실 건가요",
+            "norm_text": "A.네 신분증 꼭 가지고 오세요 그리고 어떤 역에서 탑승하실 건가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+신분증/NNG+꼭/MAG+가지/VV+고/EC+오/VX+세요/EP+EF+그리고/MAJ+어떤/MM+역/NNG+에서/JKB+탑승/NNG+하/XSV+실/EP+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.11시 동대구역에서 탈게요 신분증 꼭 갖고 갈게요",
+            "norm_text": "B.11시 동대구역에서 탈게요 신분증 꼭 갖고 갈게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+11/SN+시/NNBC+동대구역/NNP+에서/JKB+탈/VV+게/EC+요신/NNG+분증/NNG+꼭/MAG+갖/VV+고/EC+갈게요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 감사합니다 고객인 성함과 연락처 불러 주세요",
+            "norm_text": "A.네 감사합니다 고객인 성함과 연락처 불러 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EC+VCP+고/EC+객인/NNG+성함/NNG+과/JC+연락처/NNG+불러/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.이름은 #@이름# 이고요 #@전번# 번 이에요",
+            "norm_text": "B.이름은 #@이름# 이고요 #@전번# 번 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+#/SY+@/SY+전번/NNG+#/SY+번이/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.#@이름# 님 외 5명 예약 되셨고요 신분증 지참하시고 오시면 되세요",
+            "norm_text": "A.#@이름# 님 외 5명 예약 되셨고요 신분증 지참하시고 오시면 되세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+님/XSN+외/NNB+5/SN+명/NNBC+예약/NNG+되/XSV+셨/EP+EP+고요/EC+신분증/NNG+지참/NNG+하/XSV+시/EP+고/EC+오/VX+시/EP+면/EC+되/VV+세요/EP+EF"
+          },
+          {
+            "id": 12,
+            "text": "B.알겠습니다 그럼 안녕히 계세요",
+            "norm_text": "B.알겠습니다 그럼 안녕히 계세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+그럼/MAJ+안녕히/MAG+계세요/VV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.고객과 함께 하는 상담원 #@이름# 이었습니다",
+            "norm_text": "A.고객과 함께 하는 상담원 #@이름# 이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+고객/NNG+과/JKB+함께/MAG+하/VV+는/ETM+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

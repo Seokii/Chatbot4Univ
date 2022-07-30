@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 17085,
+    "name": "s1_20210915_0002_0107_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151255097040/s1_20210915_0002_0107_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151255097040/s1_20210915_0002_0107_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8653,
+      "filename": "s1_20210825_0027_0001_01.txt",
+      "title": "s1_20210825_0027_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 308,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 308,
+        "word_size": 65,
+        "text": "A.네 안녕하십니까 #@소속# 상담사 #@이름#입니다\nA.#@이름# 고객님 맞으십니까 고객님\nA.그 전원코드 모델명 확인해보셨나요\nB.스피커로 해가지고 잘 못들었습니다\nA.네 고객님 해당 모델 맞으시던가요\nB.네 제가 스피커로 들어가지고 잘못들었습니다\nA.#@상품# 모델 맞으시던가요\nB.제가 그러면은요 지금요\nB.제가 엄청 바빠가지고 지금\nA.네 고객님께서 현재 사용하고 계시는 전원코드 모델명을요\nA.다시 확인하기 위해서 연락을 드렸는데요\nB.지금 전화를 못받아요 제가\nA.언제쯤 그럼 통화 가능하실까요\nB.한 네시정도에 해주세요 죄송합니다\nA.네시요 네 알겠습니다 고객님",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.네 안녕하십니까 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.네 안녕하십니까 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.#@이름# 고객님 맞으십니까 고객님",
+            "norm_text": "A.#@이름# 고객님 맞으십니까 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+맞/VV+으십니까/EP+EP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 3,
+            "text": "A.그 전원코드 모델명 확인해보셨나요",
+            "norm_text": "A.그 전원코드 모델명 확인해보셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그/MM+전원/NNG+코드/NNG+모델/NNG+명/XPN+확인/NNG+해/XSV+EC+보/VX+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.스피커로 해가지고 잘 못들었습니다",
+            "norm_text": "B.스피커로 해가지고 잘 못들었습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+스피커/NNG+로/JKB+해/VV+EC+가지/VX+고/EC+잘못/MAG+들/VV+었/EP+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 해당 모델 맞으시던가요",
+            "norm_text": "A.네 고객님 해당 모델 맞으시던가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+해당/NNG+모델/NNG+맞/VV+으시/EP+던가요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 제가 스피커로 들어가지고 잘못들었습니다",
+            "norm_text": "B.네 제가 스피커로 들어가지고 잘못들었습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+스피커/NNG+로/JKB+들/VV+어/EC+가지/VX+고/EC+잘못/MAG+들/VV+었/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.#@상품# 모델 맞으시던가요",
+            "norm_text": "A.#@상품# 모델 맞으시던가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+모델/NNG+맞/VV+으시/EP+던가요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.제가 그러면은요 지금요",
+            "norm_text": "B.제가 그러면은요 지금요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+그러/VV+면은/EC+요/JX+지금/MAG+요/JX"
+          },
+          {
+            "id": 9,
+            "text": "B.제가 엄청 바빠가지고 지금",
+            "norm_text": "B.제가 엄청 바빠가지고 지금",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+엄청/MAG+바빠/VA+EC+가지/VX+고/EC+지금/NNG"
+          },
+          {
+            "id": 10,
+            "text": "A.네 고객님께서 현재 사용하고 계시는 전원코드 모델명을요",
+            "norm_text": "A.네 고객님께서 현재 사용하고 계시는 전원코드 모델명을요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+께서/JKS+현재/MAG+사용/NNG+하/XSV+고/EC+계시/VX+는/ETM+전원/NNG+코드/NNG+모델/NNG+명/NNG+을/JKO+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.다시 확인하기 위해서 연락을 드렸는데요",
+            "norm_text": "A.다시 확인하기 위해서 연락을 드렸는데요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+다시/MAG+확인/NNG+하/XSV+기/ETN+위해서/VV+EC+연락/NNG+을/JKO+드렸/VV+EP+는데요/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.지금 전화를 못받아요 제가",
+            "norm_text": "B.지금 전화를 못받아요 제가",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+지금/MAG+전화/NNG+를/JKO+못/MAG+받/VV+아요/EF+제/NP+가/JKS"
+          },
+          {
+            "id": 13,
+            "text": "A.언제쯤 그럼 통화 가능하실까요",
+            "norm_text": "A.언제쯤 그럼 통화 가능하실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+언제/NP+쯤/XSN+그럼/MAJ+통화/NNG+가능/NNG+하/XSV+실까요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.한 네시정도에 해주세요 죄송합니다",
+            "norm_text": "B.한 네시정도에 해주세요 죄송합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+한/MM+네/MM+시/NNBC+정도/NNG+에/JKB+해/VV+EC+주/VX+세요/EP+EF+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.네시요 네 알겠습니다 고객님",
+            "norm_text": "A.네시요 네 알겠습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/MM+시/NNBC+요네/NNG+알/VV+겠/EP+습니다/EF+고객/NNG+님/XSN"
+          }
+        ]
+      }
+    }
+  ]
+}

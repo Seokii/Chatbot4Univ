@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 116193,
+    "name": "s2_20211105_0005_0363_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110824078564/s2_20211105_0005_0363_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110824078564/s2_20211105_0005_0363_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118777,
+      "filename": "s2_20210929_0017_0003_01.txt",
+      "title": "s2_20210929_0017_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 262,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 262,
+        "word_size": 61,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.#@소속#에도 숙박권을 파나요\nA.네 숙박권도 판매하고 있습니다\nB.혹시 전라도에 숙박할 수 있는 곳이 있나요\nA.네 전남 화순에 #@상품#이 있습니다\nB.몇 명이 이용할 수 있는 상품인가요\nA.두 명이 이용할 수 있습니다\nB.주말에 이용하고 싶은데 얼마인가요\nA.주말 가격은 할인되어 십칠만 원입니다\nB.조식도 포함한 가격인가요\nA.네 조식 포함 가격입니다\nA.또한 #@상품# 안에 있는 사우나도 즐기실 수 있어요\nB.네 확인 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@소속#에도 숙박권을 파나요",
+            "norm_text": "B.#@소속#에도 숙박권을 파나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+에/JKB+도/JX+숙박/NNG+권/XSN+을/JKO+파나/VV+요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 숙박권도 판매하고 있습니다",
+            "norm_text": "A.네 숙박권도 판매하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+숙박/NNG+권/XSN+도/JX+판매/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.혹시 전라도에 숙박할 수 있는 곳이 있나요",
+            "norm_text": "B.혹시 전라도에 숙박할 수 있는 곳이 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+전라도/NNP+에/JKB+숙박/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+곳/NNG+이/JKS+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 전남 화순에 #@상품#이 있습니다",
+            "norm_text": "A.네 전남 화순에 #@상품#이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+전남/NNP+화순/NNG+에/JKB+#/SY+@/SY+상품/NNG+#/SY+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.몇 명이 이용할 수 있는 상품인가요",
+            "norm_text": "B.몇 명이 이용할 수 있는 상품인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+몇/MM+명/NNBC+이/JKS+이용/NNG+할/XSV+ETM+수/NNB+있/VV+는/ETM+상품/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.두 명이 이용할 수 있습니다",
+            "norm_text": "A.두 명이 이용할 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+두/MM+명/NNBC+이/JKS+이용/NNG+할/XSV+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.주말에 이용하고 싶은데 얼마인가요",
+            "norm_text": "B.주말에 이용하고 싶은데 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+주말/NNG+에/JKB+이용/NNG+하/XSV+고/EC+싶/VX+은데/EC+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.주말 가격은 할인되어 십칠만 원입니다",
+            "norm_text": "A.주말 가격은 할인되어 십칠만 원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주말/NNG+가격/NNG+은/JX+할인/NNG+되/XSV+어/EC+십/NR+칠만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.조식도 포함한 가격인가요",
+            "norm_text": "B.조식도 포함한 가격인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+조식/NNG+도/JX+포함/NNG+한/XSA+ETM+가격/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 조식 포함 가격입니다",
+            "norm_text": "A.네 조식 포함 가격입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+조식/NNG+포함/NNG+가격/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.또한 #@상품# 안에 있는 사우나도 즐기실 수 있어요",
+            "norm_text": "A.또한 #@상품# 안에 있는 사우나도 즐기실 수 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+또한/MAJ+#/SY+@/SY+상품/NNG+#/SY+안/NNG+에/JKB+있/VV+는/ETM+사우나/NNG+도/JX+즐기/VV+실/EP+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.네 확인 감사합니다",
+            "norm_text": "B.네 확인 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

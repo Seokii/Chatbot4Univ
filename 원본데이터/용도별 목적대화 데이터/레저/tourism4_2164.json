@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 156061,
+    "name": "t4_20211118_0010_0685_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135902045326/t4_20211118_0010_0685_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135902045326/t4_20211118_0010_0685_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 154137,
+      "filename": "t4_0079_0025_02.txt",
+      "title": "t4_0079_0025_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 255,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 58,
+        "text": "A.행복 가득한 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.네 골프장 예약이 잘 되었나 확인 좀 하려구요\nA.네 성함과 연락처 말씀 부탁드리겠습니다\nB.네 #@이름# 이고 #@전번# 입니다\nA.네 예약하신 골프장 #@소속# 맞으실까요\nB.네 골프장 맞습니다\nA.네 예약하신 날짜 20일 오전 9시로 되어있는데 맞으실까요\nB.네 날짜와 시간 모두 맞습니다\nA.네 예약 잘 되어있습니다\nB.네 그렇네요 감사합니다\nA.네 행복한 하루 보내세요 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.행복 가득한 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.행복 가득한 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+행복/NNG+가득/MAG+한/XSA+ETM+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 골프장 예약이 잘 되었나 확인 좀 하려구요",
+            "norm_text": "B.네 골프장 예약이 잘 되었나 확인 좀 하려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+골프장/NNG+예약/NNG+이/JKS+잘/MAG+되/VV+었/EP+나/EC+확인/NNG+좀/MAG+하/VV+려구요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 성함과 연락처 말씀 부탁드리겠습니다",
+            "norm_text": "A.네 성함과 연락처 말씀 부탁드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+네/IC+성함/NNG+과/JC+연락처/NNG+말씀/NNG+부탁/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@이름# 이고 #@전번# 입니다",
+            "norm_text": "B.네 #@이름# 이고 #@전번# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고/EC+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 예약하신 골프장 #@소속# 맞으실까요",
+            "norm_text": "A.네 예약하신 골프장 #@소속# 맞으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+예약/NNG+하/XSV+신/EP+ETM+골프장/NNG+#/SY+@/SY+소속/NNG+#/SY+맞/VV+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 6,
+            "text": "B.네 골프장 맞습니다",
+            "norm_text": "B.네 골프장 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+골프장/NNG+맞/VV+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 예약하신 날짜 20일 오전 9시로 되어있는데 맞으실까요",
+            "norm_text": "A.네 예약하신 날짜 20일 오전 9시로 되어있는데 맞으실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+예약/NNG+하/XSV+신/EP+ETM+날짜/NNG+20/SN+일/NNBC+오전/NNG+9/SN+시/NNBC+로/JKB+되/VV+어/EC+있/VX+는/ETM+데/NNB+맞/VV+으실까/EP+EP+EF+요/MM"
+          },
+          {
+            "id": 8,
+            "text": "B.네 날짜와 시간 모두 맞습니다",
+            "norm_text": "B.네 날짜와 시간 모두 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+날짜/NNG+와/JC+시간/NNG+모두/MAG+맞/VV+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 예약 잘 되어있습니다",
+            "norm_text": "A.네 예약 잘 되어있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+예약/NNG+잘/MAG+되/VV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 그렇네요 감사합니다",
+            "norm_text": "B.네 그렇네요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+그렇/VA+네요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 행복한 하루 보내세요 #@소속# #@이름#이었습니다",
+            "norm_text": "A.네 행복한 하루 보내세요 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+행복/NNG+한/XSA+ETM+하루/NNG+보내/VV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

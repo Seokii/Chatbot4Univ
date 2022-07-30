@@ -1,0 +1,131 @@
+{
+  "dataset": {
+    "identifier": 116219,
+    "name": "s2_20211105_0005_0390_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110824025317/s2_20211105_0005_0390_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110824025317/s2_20211105_0005_0390_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118722,
+      "filename": "s2_20210831_0017_0008_01.txt",
+      "title": "s2_20210831_0017_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 163,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 163,
+        "word_size": 36,
+        "text": "A.안녕하십니까 #@소속# 상담사 #@이름#입니다\nB.정말 통화하기 힘드네요\nB.제가 게시판에 상품 사진을 올려놨는데요\nB.혹시 확인하셨나요\nA.먼저 주문자분 성함 확인 부탁드립니다\nB.제 이름은 #@이름#입니다\nA.팔 월 십 사 일에 #@상품#을 주문 하신 것 맞나요\nB.네 #@상품#을 주문 하였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.정말 통화하기 힘드네요",
+            "norm_text": "B.정말 통화하기 힘드네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+정말/MAG+통화/NNG+하/XSV+기/ETN+힘드/VA+네요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.제가 게시판에 상품 사진을 올려놨는데요",
+            "norm_text": "B.제가 게시판에 상품 사진을 올려 놨는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+게시판/NNG+에/JKB+상품/NNG+사진/NNG+을/JKO+올려놨/VV+EP+는데요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.혹시 확인하셨나요",
+            "norm_text": "B.사진 혹시 확인하셨나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+확인/NNG+하/XSV+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.먼저 주문자분 성함 확인 부탁드립니다",
+            "norm_text": "A.먼저 주문자 분 성함 확인 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+먼저/MAG+주문자/NNG+분성/NNG+함/XSV+ETN+확인/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.제 이름은 #@이름#입니다",
+            "norm_text": "B.제 이름은 #@이름#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+JKG+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.팔 월 십 사 일에 #@상품#을 주문 하신 것 맞나요",
+            "norm_text": "A.팔월 십사 일에 #@상품#을 주문하신 것 맞나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+팔월/NNG+십/NR+사/NR+일/NNBC+에/JKB+#/SY+@/SY+상품/NNG+#/SY+을/JKO+주문/NNG+하/XSV+신/EP+ETM+것/NNB+맞/VV+나요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 #@상품#을 주문 하였습니다",
+            "norm_text": "B.네 #@상품#을 주문하였습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+상품/NNG+#/SY+을/JKO+주문/NNG+하/XSV+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

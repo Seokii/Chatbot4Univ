@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 158066,
+    "name": "t5_20211119_0010_1938_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135911097040/t5_20211119_0010_1938_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135911097040/t5_20211119_0010_1938_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155393,
+      "filename": "t5_매니저_0230_02.txt",
+      "title": "t5_매니저_0230_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 306,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 306,
+        "word_size": 76,
+        "text": "A. 신비의 섬 울릉도 상담원 #@이름# 입니다\nB. 울릉도 여행을 계획중인데요 #@기타#에 대해 여쭤보려구요\nA. 네 고객님 무엇을 도와드릴까요\nB. 입장료가 있다던데 얼마인지 알 수 있을까요\nA. 어른 2000원 청소년 및 군인은 1500원 어린이는 1000원 입니다\nB. 뭐 할인같은거 되는건 없나요\nA. 아 고객님 네이버로 예약해주시면 할인된 가격에 예약 가능하세요\nB. 오 정말요 예약은 네이버로 하고 가야겠네요\nA. 더 궁금하신건 없으실까요 고객님\nB. 네 요것만 좀 궁금했어요 감사합니다\nA. 즐거운 하루 보내세요 감사합니다 상담원 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 신비의 섬 울릉도 상담원 #@이름# 입니다",
+            "norm_text": "A. 신비의 섬 울릉도 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+신비/NNG+의/JKG+섬/NNG+울릉도/NNP+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 울릉도 여행을 계획중인데요 #@기타#에 대해 여쭤보려구요",
+            "norm_text": "B. 울릉도 여행을 계획 중인데요 #@기타#에 대해 여쭤보려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+울릉도/NNP+여행/NNG+을/JKO+계획/NNG+중/NNB+인데요/VCP+EC+#/SY+@/SY+기타/NNG+#/SY+에/JKB+대해/VV+EC+여쭤/VV+EC+보/VX+려구요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 고객님 무엇을 도와드릴까요",
+            "norm_text": "A. 네 고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 입장료가 있다던데 얼마인지 알 수 있을까요",
+            "norm_text": "B. 입장료가 있다던데 얼마인지 알 수 있을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+입장료/NNG+가/JKS+있/VA+다던데/EC+얼마/NNG+인지/VCP+EC+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 어른 2000원 청소년 및 군인은 1500원 어린이는 1000원 입니다",
+            "norm_text": "A. 어른 2000원 청소년 및 군인은 1500원 어린이는 1000원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+어른/NNG+2000/SN+원/NNBC+청소년/NNG+및/MAJ+군인/NNG+은/JX+1500/SN+원/NNBC+어린이/NNG+는/JX+1000/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 뭐 할인같은거 되는건 없나요",
+            "norm_text": "B. 뭐 할인 같은 거 되는 건 없나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+뭐/IC+할인/NNG+같/VA+은/ETM+거/NNB+되/VV+는/ETM+건/NNB+JX+없/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 아 고객님 네이버로 예약해주시면 할인된 가격에 예약 가능하세요",
+            "norm_text": "A. 네이버로 예약해 주시면 할인된 가격에 예약 가능하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아/IC+고객/NNG+님/XSN+네이버/NNP+로/JKB+예약/NNG+해/XSV+EC+주/VX+시/EP+면/EC+할인/NNG+된/XSV+ETM+가격/NNG+에/JKB+예약/NNG+가능/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B. 오 정말요 예약은 네이버로 하고 가야겠네요",
+            "norm_text": "B. 오 정말요 예약은 네이버로 하고 가야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+오/IC+정말/MAG+요/MM+예약/NNG+은/JX+네이버/NNP+로/JKB+하/VV+고/EC+가/VX+야/EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A. 더 궁금하신건 없으실까요 고객님",
+            "norm_text": "A. 더 궁금하신 건 없으실까요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+더/MAG+궁금/XR+하/XSA+신/EP+ETM+건/NNB+JX+없/VA+으실까/EP+EP+EF+요/MM+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B. 네 요것만 좀 궁금했어요 감사합니다",
+            "norm_text": "B. 네 요것만 좀 궁금했어요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+요것/NP+만/JX+좀/MAG+궁금/XR+했/XSA+EP+어요/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 즐거운 하루 보내세요 감사합니다 상담원 #@이름# 이었습니다",
+            "norm_text": "A. 즐거운 하루 보내세요 감사합니다 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+보내/VV+세요/EP+EF+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

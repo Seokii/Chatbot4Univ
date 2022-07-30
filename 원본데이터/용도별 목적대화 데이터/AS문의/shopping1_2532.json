@@ -1,0 +1,239 @@
+{
+  "dataset": {
+    "identifier": 60184,
+    "name": "s1_20211021_0002_0016_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151256085388/s1_20211021_0002_0016_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151256085388/s1_20211021_0002_0016_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 8778,
+      "filename": "s1_20210825_0001_0006_01.txt",
+      "title": "s1_20210825_0001_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 413,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 413,
+        "word_size": 96,
+        "text": "A.반갑습니다 상담사 #@이름# 입니다\nB.예 #@기타#에서 오는 문자메세지가 차단이 됐는데 어떻게 풀어요\nA.네 고객님 성함과 휴대폰 번호 알려주시겠습니까\nB.예 번호가 #@전번#고 #@이름#이에요\nA.성함 어떻게 되세요 고객님\nA.감사드립니다 고객님 휴대폰 저희 #@상품# 사용하시는거 맞으세요\nB.네 예 맞아요\nA.그럼 고객님 메세지를 실행하게 되면 화면 아래쪽으로 메뉴버튼 있습니다\nB.예 메뉴버튼 여기 있어요\nA.네 그 메뉴버튼을 누르면 스팸관리라고 있을 거구요\nB.네 보였어 됐어요\nA.네 스팸관리 누르시고 스팸설정 누르면 스팸번호 있나요\nB.스팸 번호 있어요 #@기타# 번호\nA.네 그럼 거기서 그 번호를 삭제해주시면 됩니다\nB.이걸 삭제하면 이제 문자가 와요\nA.네 차단을 푸는 거라서 이제 문자 받으실 수 있으실 거예요\nB.그래요 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 #@기타#에서 오는 문자메세지가 차단이 됐는데 어떻게 풀어요",
+            "norm_text": "B.예 #@기타#에서 오는 문자메세지가 차단이 됐는데 어떻게 풀어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+#/SY+@/SY+기타/NNG+#/SY+에서/JKB+오/VV+는/ETM+문자/NNG+메세지/NNG+가/JKS+차단/NNG+이/JKS+됐/VV+EP+는데/EC+어떻게/MAG+풀/VV+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 성함과 휴대폰 번호 알려주시겠습니까",
+            "norm_text": "A.네 고객님 성함과 휴대폰 번호 알려주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+성함/NNG+과/JC+휴대폰/NNG+번호/NNG+알려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.예 번호가 #@전번#고 #@이름#이에요",
+            "norm_text": "B.예 번호가 #@전번#고 #@이름#이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+번호/NNG+가/JKS+#/SY+@/SY+전번/NNG+#/SY+고/JKQ+#/SY+@/SY+이름/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.성함 어떻게 되세요 고객님",
+            "norm_text": "A.성함 어떻게 되세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+성함/NNG+어떻게/MAG+되/VV+세요/EP+EF+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 6,
+            "text": "A.감사드립니다 고객님 휴대폰 저희 #@상품# 사용하시는거 맞으세요",
+            "norm_text": "A.감사드립니다 고객님 휴대폰 저희 #@상품# 사용하시는거 맞으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+감사/NNG+드립니다/VV+EC+고객/NNG+님/XSN+휴대폰/NNG+저희/NP+#/SY+@/SY+상품/NNG+#/SY+사용/NNG+하/XSV+시/EP+는/ETM+거/NNB+맞/VV+으세요/EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 예 맞아요",
+            "norm_text": "B.네 예 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+예/IC+맞/VV+아요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.그럼 고객님 메세지를 실행하게 되면 화면 아래쪽으로 메뉴버튼 있습니다",
+            "norm_text": "A.그럼 고객님 메세지를 실행하게 되면 화면 아래쪽으로 메뉴버튼 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그럼/MAJ+고객/NNG+님/XSN+메세지/NNG+를/JKO+실행/NNG+하/XSV+게/EC+되/VV+면/EC+화면/NNG+아래쪽/NNG+으로/JKB+메뉴/NNG+버튼/NNG+있/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.예 메뉴버튼 여기 있어요",
+            "norm_text": "B.예 메뉴버튼 여기 있어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+예/IC+메뉴/NNG+버튼/NNG+여기/NP+있/VA+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 그 메뉴버튼을 누르면 스팸관리라고 있을 거구요",
+            "norm_text": "A.네 그 메뉴버튼을 누르면 스팸관리라고 있을 거구요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그/MM+메뉴/NNG+버튼/NNG+을/JKO+누르/VV+면/EC+스팸/NNP+관리/NNG+라고/VCP+EC+있/VX+을/ETM+거/NNB+구요/VCP+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 보였어 됐어요",
+            "norm_text": "B.네 보였어 됐어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+보였/VV+EP+어/EC+됐/VV+EP+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.네 스팸관리 누르시고 스팸설정 누르면 스팸번호 있나요",
+            "norm_text": "A.네 스팸관리 누르시고 스팸설정 누르면 스팸번호 있나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+스팸/NNP+관리/NNG+누르/VV+시/EP+고/EC+스팸/NNP+설정/NNG+누르/VV+면/EC+스팸/NNP+번호/NNG+있/VV+나요/EC"
+          },
+          {
+            "id": 13,
+            "text": "B.스팸 번호 있어요 #@기타# 번호",
+            "norm_text": "B.스팸 번호 있어요 #@기타# 번호",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+스팸/NNP+번호/NNG+있/VA+어요/EF+#/SY+@/SY+기타/NNG+#/SY+번호/NNG"
+          },
+          {
+            "id": 14,
+            "text": "A.네 그럼 거기서 그 번호를 삭제해주시면 됩니다",
+            "norm_text": "A.네 그럼 거기서 그 번호를 삭제해주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+거기/NP+서/JKB+그/MM+번호/NNG+를/JKO+삭제/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 15,
+            "text": "B.이걸 삭제하면 이제 문자가 와요",
+            "norm_text": "B.이걸 삭제하면 이제 문자가 와요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이걸/NP+JKO+삭제/NNG+하/XSV+면/EC+이제/MAG+문자/NNG+가/JKS+와요/VV+EC"
+          },
+          {
+            "id": 16,
+            "text": "A.네 차단을 푸는 거라서 이제 문자 받으실 수 있으실 거예요",
+            "norm_text": "A.네 차단을 푸는 거라서 이제 문자 받으실 수 있으실 거예요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+차단/NNG+을/JKO+푸/VV+는/ETM+거/NNB+라서/VCP+EC+이제/MAG+문자/NNG+받/VV+으실/EP+ETM+수/NNB+있/VV+으실/EP+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 17,
+            "text": "B.그래요 알겠습니다 감사합니다",
+            "norm_text": "B.그래요 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그래요/VV+EC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

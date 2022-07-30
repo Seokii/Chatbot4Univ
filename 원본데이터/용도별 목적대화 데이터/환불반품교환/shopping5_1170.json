@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 106506,
+    "name": "s5_20211103_0010_3271_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110933055884/s5_20211103_0010_3271_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20211101110933055884/s5_20211103_0010_3271_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 120891,
+      "filename": "s5_20210902_0015_0002_01.txt",
+      "title": "s5_20210902_0015_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 279,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 279,
+        "word_size": 65,
+        "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다\nB.네 제가 반품을 신청했는데요 아직 입금이 안 되서요\nA.예 고객님 전화번호 어떻게 되십니까\nB.#@전번#번입니다 큰 돈인데 확인 좀 해 줘요\nA.예 고객님 확인해 보니 오늘 중에 입금되실 예정입니다\nB.그래요 다행이네요 혹시 어떤 계좌로 들어오나요\nA.저희가 계좌 번호는 #@소속#은행을 사용하고 있어요\nB.네 알았습니다 이따가 해당 은행으로 오는지 확인할게요\nA.예 그리고 저희 #@소속#으로 이름이 같이 뜰 거예요 고객님\nB.네 친절히 상담해 주셔서 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 제가 반품을 신청했는데요 아직 입금이 안 되서요",
+            "norm_text": "B.네 제가 반품을 신청했는데요 아직 입금이 안 되서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+반품/NNG+을/JKO+신청/NNG+했/XSV+EP+는데요/EF+아직/MAG+입금/NNG+이/JKS+안/MAG+되/VV+서요/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.예 고객님 전화번호 어떻게 되십니까",
+            "norm_text": "A.예 고객님 전화번호 어떻게 되십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+전화/NNG+번호/NNG+어떻게/MAG+되/VV+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.#@전번#번입니다 큰 돈인데 확인 좀 해 줘요",
+            "norm_text": "B.#@전번#번입니다 큰 돈인데 확인 좀 해 줘요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+번/NNBC+입니다/VCP+EF+큰/VA+ETM+돈/NNG+인데/VCP+EC+확인/NNG+좀/MAG+해/VV+EC+줘요/VX+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.예 고객님 확인해 보니 오늘 중에 입금되실 예정입니다",
+            "norm_text": "A.예 고객님 확인해 보니 오늘 중에 입금되실 예정입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+고객/NNG+님/XSN+확인/NNG+해/XSV+EC+보/VX+니/EC+오늘/NNG+중/NNB+에/JKB+입금/NNG+되/XSV+실/EP+ETM+예정/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그래요 다행이네요 혹시 어떤 계좌로 들어오나요",
+            "norm_text": "B.그래요 다행이네요 혹시 어떤 계좌로 들어오나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+다행/NNG+이/VCP+네요/EF+혹시/MAG+어떤/MM+계좌/NNG+로/JKB+들어오/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.저희가 계좌 번호는 #@소속#은행을 사용하고 있어요",
+            "norm_text": "A.저희가 계좌 번호는 #@소속#은행을 사용하고 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+저희/NP+가/JKS+계좌/NNG+번호/NNG+는/JX+#/SY+@/SY+소속/NNG+#/SY+은행/NNG+을/JKO+사용/NNG+하/XSV+고/EC+있/VX+어요/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 알았습니다 이따가 해당 은행으로 오는지 확인할게요",
+            "norm_text": "B.네 알았습니다 이따가 해당 은행으로 오는지 확인할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+알/VV+았/EP+습니다/EF+이따가/MAG+해당/NNG+은행/NNG+으로/JKB+오/VV+는지/EC+확인/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.예 그리고 저희 #@소속#으로 이름이 같이 뜰 거예요 고객님",
+            "norm_text": "A.예 그리고 저희 #@소속#으로 이름이 같이 뜰 거예요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+예/IC+그리고/MAJ+저희/NP+#/SY+@/SY+소속/NNG+#/SY+으로/JKB+이름/NNG+이/JKS+같이/MAG+뜰/VV+ETM+거/NNB+예요/VCP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.네 친절히 상담해 주셔서 감사합니다",
+            "norm_text": "B.네 친절히 상담해 주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+친절히/MAG+상담/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

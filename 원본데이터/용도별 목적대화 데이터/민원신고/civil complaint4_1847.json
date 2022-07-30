@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 49270,
+    "name": "c4_20211015_0001_2098_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706017031/c4_20211015_0001_2098_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706017031/c4_20211015_0001_2098_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50320,
+      "filename": "c4_20210906_0024_0004_01.txt",
+      "title": "c4_20210906_0024_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 445,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 445,
+        "word_size": 112,
+        "text": "A.안녕하세요 #@이름# 입니다\nB.네 거기가 #@소속# 이에요\nA.네 고객님 여기가 #@소속# 입니다 무엇을 도와드릴까요\nB.제가요 한 달 전에 어업 페업 신청을 했어요\nB.근데 왜 아직까지도 처리가 안된 거죠 따로 뭐 연락도 없어\nA.고객님 그러셨어요 성함이 어떻게 되시죠\nB.저요 저  #@이름#이요\nA.네 #@이름# 고객님 이게 접수가 안되셨네요\nB.무슨 소리를 하는 거에요 접수가 왜 안돼요\nA.이게 고객님께서 신청서와 함께 어업 허가증을 제출해주셔야 되거든요\nA.근데 어업 허가증 서류가 누락이 되어서 접수가 안되었어요\nB.예 아니 그럼 그거를 이제 말해줘요 내가 전화 할 때까지 뭐해요\nA.고객님 정말 따로 연락 못 드린 점은 정말 죄송해요\nB.이게 폐업해서 심란해 죽겠는데 마음대로 폐업도 못하네 진짜\nA.정말 죄송합니다 고객님 다시 시청 접수 해주시면 처리 도와드릴게요\nB.일단 알겠어요 화나네 네 끊을게요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 거기가 #@소속# 이에요",
+            "norm_text": "B.네 거기가 #@소속# 이에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+거기/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+이/VCP+에요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 여기가 #@소속# 입니다 무엇을 도와드릴까요",
+            "norm_text": "A.네 고객님 여기가 #@소속# 입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+여기/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.제가요 한 달 전에 어업 페업 신청을 했어요",
+            "norm_text": "B.제가요 한 달 전에 어업 페업 신청을 했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+요한/NNP+달전/NNP+에/JKB+어업/NNG+페업/UNKNOWN+신청/NNG+을/JKO+했/VV+EP+어요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.근데 왜 아직까지도 처리가 안된 거죠 따로 뭐 연락도 없어",
+            "norm_text": "B.근데 왜 아직까지도 처리가 안된 거죠 따로 뭐 연락도 없어",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+근데/MAJ+왜/MAG+아직/MAG+까지/JX+도/JX+처리/NNG+가/JKS+안/MAG+된/VV+ETM+거/NNB+죠/VCP+EF+따로/MAG+뭐/IC+연락/NNG+도/JX+없/VA+어/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.고객님 그러셨어요 성함이 어떻게 되시죠",
+            "norm_text": "A.고객님 그러셨어요 성함이 어떻게 되시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+그러/VV+셨/EP+EP+어요/EF+성함/NNG+이/JKS+어떻게/MAG+되/VV+시/EP+죠/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.저요 저  #@이름#이요",
+            "norm_text": "B.저요 저  #@이름#이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/NP+요/JX+저/NP+#/SY+@/SY+이름/NNG+#/SY+이/VCP+요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 #@이름# 고객님 이게 접수가 안되셨네요",
+            "norm_text": "A.네 #@이름# 고객님 이게 접수가 안되셨네요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+고객/NNG+님/XSN+이게/NP+JKS+접수/NNG+가/JKS+안/MAG+되/VV+셨/EP+EP+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "B.무슨 소리를 하는 거에요 접수가 왜 안돼요",
+            "norm_text": "B.무슨 소리를 하는 거에요 접수가 왜 안돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+무슨/MM+소리/NNG+를/JKO+하/VV+는/ETM+거/NNB+에요/VCP+EF+접수/NNG+가/JKS+왜/MAG+안/MAG+돼요/VV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.이게 고객님께서 신청서와 함께 어업 허가증을 제출해주셔야 되거든요",
+            "norm_text": "A.이게 고객님께서 신청서와 함께 어업 허가증을 제출해주셔야 되거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이게/NP+JKS+고객/NNG+님/XSN+께서/JKS+신청서/NNG+와/JKB+함께/MAG+어업/NNG+허가증/NNG+을/JKO+제출/NNG+해/XSV+EC+주/VX+셔야/EP+EC+되/VV+거든요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.근데 어업 허가증 서류가 누락이 되어서 접수가 안되었어요",
+            "norm_text": "A.근데 어업 허가증 서류가 누락이 되어서 접수가 안되었어요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+근데/MAJ+어업/NNG+허가증/NNG+서류/NNG+가/JKS+누락/NNG+이/JKS+되/VV+어서/EC+접수/NNG+가/JKS+안/MAG+되/VV+었/EP+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.예 아니 그럼 그거를 이제 말해줘요 내가 전화 할 때까지 뭐해요",
+            "norm_text": "B.예 아니 그럼 그거를 이제 말해줘요 내가 전화 할 때까지 뭐해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+아니/IC+그럼/MAJ+그거/NP+를/JKO+이제/MAG+말/NNG+해/XSV+EC+줘요/VX+EF+내/NP+가/JKS+전화/NNG+할/XSV+ETM+때/NNG+까지/JX+뭐/IC+해요/NNG"
+          },
+          {
+            "id": 13,
+            "text": "A.고객님 정말 따로 연락 못 드린 점은 정말 죄송해요",
+            "norm_text": "A.고객님 정말 따로 연락 못 드린 점은 정말 죄송해요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+정말/MAG+따로/MAG+연락/NNG+못/MAG+드린/VV+ETM+점/NNG+은/JX+정말/MAG+죄송/XR+해요/XSA+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.이게 폐업해서 심란해 죽겠는데 마음대로 폐업도 못하네 진짜",
+            "norm_text": "B.이게 폐업해서 심란해 죽겠는데 마음대로 폐업도 못하네 진짜",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+이게/NP+JKS+폐업/NNG+해서/XSV+EC+심란/XR+해/XSA+EC+죽/VV+겠/EP+는데/EC+마음대로/MAG+폐업/NNG+도/JX+못하/VX+네/EF+진짜/MAG"
+          },
+          {
+            "id": 15,
+            "text": "A.정말 죄송합니다 고객님 다시 시청 접수 해주시면 처리 도와드릴게요",
+            "norm_text": "A.정말 죄송합니다 고객님 다시 시청 접수 해주시면 처리 도와드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+정말/MAG+죄송/XR+합니다/XSA+EF+고객/NNG+님/XSN+다시/MAG+시청/NNG+접수/NNG+해/XSV+EC+주/VX+시/EP+면/EC+처리/NNG+도와/VV+EC+드릴게요/VX+EC"
+          },
+          {
+            "id": 16,
+            "text": "B.일단 알겠어요 화나네 네 끊을게요",
+            "norm_text": "B.일단 알겠어요 화나네 네 끊을게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부정감정표현하기(비난하기 포함)",
+            "morpheme": "B/SL+일단/MAG+알/VV+겠/EP+어요/EF+화/IC+나/NP+네/XSN+네/XSN+끊/VV+을게요/EC"
+          }
+        ]
+      }
+    }
+  ]
+}

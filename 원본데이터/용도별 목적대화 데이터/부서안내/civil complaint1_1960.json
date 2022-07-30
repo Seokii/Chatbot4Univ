@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "identifier": 12643,
+    "name": "c1_20210913_0005_0719_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339063177/c1_20210913_0005_0719_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151339063177/c1_20210913_0005_0719_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10449,
+      "filename": "c1_20210818_0014_0006_01.txt",
+      "title": "c1_20210818_0014_0006_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 416,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 416,
+        "word_size": 97,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요\nB.여보세요 네 안녕하세요 천안역에서 제일 가까운 동사무소나 구청 어디 있나요\nA.혹시 어느 곳으로 방문하실 예정이십니까\nB.제가 지금 천안역 이 번 출구로 가고 있는데요\nB.가까운 구청이나 뭐 이런 제일 가까운 쪽은 어디예요\nA.천안역에서 가는 읍면동사무소 또는 구청 확인 후 안내 해 드리겠습니다\nA.잠시만 기다려 주시겠습니까\nB.네 감사합니다 확인 부탁드립니다\nA.네 선생님 기다려 주셔서 감사합니다\nA.제가 #@소속# 지도 길 찾기 검색 결과로 확인을 해봤습니다\nA.현재 천안역에서는 #@소속#가 도보로 이동하십니까\nB.네 도보로 이동 할거예요\nA.네 그럼 약 팔 분 정도 소요되는 부분으로 확인이 됩니다\nA.제가 #@소속#로 연결해 드리겠습니다\nB.네 감사합니다 수고하세요\nA.네 바로 연결하겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.여보세요 네 안녕하세요 천안역에서 제일 가까운 동사무소나 구청 어디 있나요",
+            "norm_text": "B.네 안녕하세요 천안역에서 제일 가까운 동사무소나 구청 어디 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+천안역/NNP+에서/JKB+제일/MAG+가까운/VA+ETM+동사무소/NNG+나/JC+구청/NNG+어디/NP+있/VA+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.혹시 어느 곳으로 방문하실 예정이십니까",
+            "norm_text": "A.혹시 어느 곳으로 방문하실 예정이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+어느/MM+곳/NNG+으로/JKB+방문/NNG+하/XSV+실/EP+ETM+예정/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 지금 천안역 이 번 출구로 가고 있는데요",
+            "norm_text": "B.제가 지금 천안역 이 번 출구로 가고 있는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+지금/MAG+천안역/NNP+이번/NNG+출구/NNG+로/JKB+가/VV+고/EC+있/VX+는데요/EC"
+          },
+          {
+            "id": 5,
+            "text": "B.가까운 구청이나 뭐 이런 제일 가까운 쪽은 어디예요",
+            "norm_text": "B.가까운 구청이나 뭐 이런 제일 가까운 쪽은 어디예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+가까운/VA+ETM+구청/NNG+이나/JC+뭐/IC+이런/MM+제일/MAG+가까운/VA+ETM+쪽/NNB+은/JX+어디/NP+예요/VCP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.천안역에서 가는 읍면동사무소 또는 구청 확인 후 안내 해 드리겠습니다",
+            "norm_text": "A.천안역에서 가는 읍면동사무소 또는 구청 확인 후 안내해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+천안역/NNP+에서/JKB+가/VV+는/ETM+읍/NNG+면/NNG+동사무소/NNG+또는/MAJ+구청/NNG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.잠시만 기다려 주시겠습니까",
+            "norm_text": "A.잠시만 기다려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+./SY+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 감사합니다 확인 부탁드립니다",
+            "norm_text": "B.네 감사합니다 확인 부탁드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+확인/NNG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 선생님 기다려 주셔서 감사합니다",
+            "norm_text": "A.네 선생님 기다려 주셔서 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+선생/NNG+님/XSN+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.제가 #@소속# 지도 길 찾기 검색 결과로 확인을 해봤습니다",
+            "norm_text": "A.제가 #@소속# 지도 길 찾기 검색 결과로 확인을 해봤습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+제/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+지도/NNG+길/NNG+찾/VV+기/ETN+검색/NNG+결과/NNG+로/JKB+확인/NNG+을/JKO+해/VV+EC+봤/VX+EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.현재 천안역에서는 #@소속#가 도보로 이동하십니까",
+            "norm_text": "A.현재 천안역에서는 #@소속#가 도보로 이동하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+현재/MAG+천안역/NNP+에서/JKB+는/JX+#/SY+@/SY+소속/NNG+#/SY+가/JKS+도보/NNG+로/JKB+이동/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.네 도보로 이동 할거예요",
+            "norm_text": "B.네 도보로 이동 할거예요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+도보/NNG+로/JKB+이동/NNG+할/XSV+ETM+거/NNB+예요/VCP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.네 그럼 약 팔 분 정도 소요되는 부분으로 확인이 됩니다",
+            "norm_text": "A.네 그럼 약 팔 분 정도 소요되는 부분으로 확인이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+약/MM+팔/NR+분/NNBC+정도/NNG+소요/NNG+되/XSV+는/ETM+부분/NNG+으로/JKB+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.제가 #@소속#로 연결해 드리겠습니다",
+            "norm_text": "A.제가 #@소속#로 연결해 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+제/NP+가/JKS+#/SY+@/SY+소속/NNG+#/SY+로/JKB+연결/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.네 감사합니다 수고하세요",
+            "norm_text": "B.네 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 16,
+            "text": "A.네 바로 연결하겠습니다",
+            "norm_text": "A.네 바로 연결하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+바로/MAG+연결/NNG+하/XSV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

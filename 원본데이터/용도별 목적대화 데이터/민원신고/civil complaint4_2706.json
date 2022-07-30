@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 56396,
+    "name": "c4_20211019_0001_2801_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130702094111/c4_20211019_0001_2801_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130702094111/c4_20211019_0001_2801_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 49929,
+      "filename": "c4_20210903_0008_0029_01.txt",
+      "title": "c4_20210903_0008_0029_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 267,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 267,
+        "word_size": 55,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 인감발급 좀 여쭤보려고해요\nA.네 인감발급 어떤 문의 이십니까\nB.어머니가 돌아가셨는데 아직 사망신고 전 이거든요\nA.네 사망신고를 아직 하지 않으셨습니까\nB.네 그래서 인감발급이 가능한가 해서요\nA.사망자의 인감증명서 대리발급은 신청만 해도 고발됩니다\nB.신고 전인데 그런건가요\nA.네 사망시점부터 인감 발급을 하시면 사문서 위조에 해당할 수 있습니다\nB.네 알겠습니다 알려주셔서 감사합니다\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 인감발급 좀 여쭤보려고해요",
+            "norm_text": "B.안녕하세요 인감발급 좀 여쭤보려고해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+인감/NNG+발급/NNG+좀/MAG+여쭤/VV+EC+보/VX+려고/EC+해요/VX+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 인감발급 어떤 문의 이십니까",
+            "norm_text": "A.네 인감발급 어떤 문의 이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+인감/NNG+발급/NNG+어떤/MM+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.어머니가 돌아가셨는데 아직 사망신고 전 이거든요",
+            "norm_text": "B.어머니가 돌아가셨는데 아직 사망신고 전 이거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+어머니/NNG+가/JKS+돌아가/VV+셨/EP+EP+는데/EC+아직/MAG+사망/NNG+신고/NNG+전이/NNG+거든요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 사망신고를 아직 하지 않으셨습니까",
+            "norm_text": "A.네 사망신고를 아직 하지 않으셨습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+사망/NNG+신고/NNG+를/JKO+아직/MAG+하/VV+지/EC+않/VX+으셨/EP+EP+습니까/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 그래서 인감발급이 가능한가 해서요",
+            "norm_text": "B.네 그래서 인감발급이 가능한가 해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+그래서/MAJ+인감/NNG+발급/NNG+이/JKS+가능/NNG+한가/XSA+EC+해서/VX+EC+VCP+요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.사망자의 인감증명서 대리발급은 신청만 해도 고발됩니다",
+            "norm_text": "A.사망자의 인감증명서 대리발급은 신청만 해도 고발됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+사망자/NNG+의/JKG+인감/NNG+증명서/NNG+대리/NNG+발급/NNG+은/JX+신청/NNG+만/JX+해도/VV+EC+고발/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.신고 전인데 그런건가요",
+            "norm_text": "B.신고 전인데 그런건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+신/XPN+고전/NNG+인데/VCP+EC+그런/MM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 사망시점부터 인감 발급을 하시면 사문서 위조에 해당할 수 있습니다",
+            "norm_text": "A.네 사망시점부터 인감 발급을 하시면 사문서 위조에 해당할 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+네/IC+사망/NNG+시점/NNG+부터/JX+인감/NNG+발급/NNG+을/JKO+하/VV+시/EP+면/EC+사문서/NNG+위조/NNG+에/JKB+해당/NNG+할/XSV+ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 알겠습니다 알려주셔서 감사합니다",
+            "norm_text": "B.네 알겠습니다 알려주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

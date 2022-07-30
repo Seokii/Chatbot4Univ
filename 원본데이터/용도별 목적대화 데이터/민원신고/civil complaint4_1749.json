@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 48210,
+    "name": "c4_20211015_0001_1861_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706092671/c4_20211015_0001_1861_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130706092671/c4_20211015_0001_1861_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50412,
+      "filename": "c4_20210906_0025_0002_01.txt",
+      "title": "c4_20210906_0025_0002_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 272,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 272,
+        "word_size": 61,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nB.안녕하세요 궁금한 게 있어서 연락 드립니다\nA.네 무엇을 도와드릴까요\nB.집 앞 쓰레기 무단 투기 민원 처리 되었나요\nA.혹시 민원 신청 번호 알 수 있을까요\nB.민원 신청 번호는 #@번호#입니다\nA.네 문의하신 내용에 답변을 드리겠습니다\nA.불법쓰레기 투기 건에 대하여 붙임 사진과 같이 처리 완료하였습니다\nA.정기적인 환경 정비를 실시하여 보행에 불편함이 없도록 하겠습니다\nB.네 감사합니다 많은 도움이 됐습니다\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 궁금한 게 있어서 연락 드립니다",
+            "norm_text": "B.안녕하세요 궁금한 게 있어서 연락 드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+궁금/XR+한/XSA+ETM+게/NNB+JKS+있/VA+어서/EC+연락/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 무엇을 도와드릴까요",
+            "norm_text": "A.네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.집 앞 쓰레기 무단 투기 민원 처리 되었나요",
+            "norm_text": "B.집 앞 쓰레기 무단 투기 민원 처리 되었나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+집/NNG+앞/NNG+쓰레기/NNG+무단/NNG+투기/NNG+민원/NNG+처리/NNG+되/XSV+었/EP+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.혹시 민원 신청 번호 알 수 있을까요",
+            "norm_text": "A.혹시 민원 신청 번호 알 수 있을까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+혹시/MAG+민원/NNG+신청/NNG+번호/NNG+알/VV+ETM+수/NNB+있/VV+을까요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.민원 신청 번호는 #@번호#입니다",
+            "norm_text": "B.민원 신청 번호는 #@번호#입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+민원/NNG+신청/NNG+번호/NNG+는/JX+#/SY+@/SY+번호/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 문의하신 내용에 답변을 드리겠습니다",
+            "norm_text": "A.네 문의하신 내용에 답변을 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+문의/NNG+하/XSV+신/EP+ETM+내용/NNG+에/JKB+답변/NNG+을/JKO+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "A.불법쓰레기 투기 건에 대하여 붙임 사진과 같이 처리 완료하였습니다",
+            "norm_text": "A.불법쓰레기 투기 건에 대하여 붙임 사진과 같이 처리 완료하였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+불법/NNG+쓰레기/NNG+투기/NNG+건/NNBC+에/JKB+대하/VV+여/EC+붙임/VV+ETM+사진/NNG+과/JKB+같이/MAG+처리/NNG+완료/NNG+하/XSV+였/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.정기적인 환경 정비를 실시하여 보행에 불편함이 없도록 하겠습니다",
+            "norm_text": "A.정기적인 환경 정비를 실시하여 보행에 불편함이 없도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+정기/NNG+적/XSN+인/VCP+ETM+환경/NNG+정비/NNG+를/JKO+실시/NNG+하/XSV+여/EC+보행/NNG+에/JKB+불편/NNG+함/XSV+ETN+이/JKS+없/VA+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "B.네 감사합니다 많은 도움이 됐습니다",
+            "norm_text": "B.네 감사합니다 많은 도움이 됐습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+감사/NNG+합니다/XSV+EF+많/VA+은/ETM+도움/NNG+이/JKS+됐/VV+EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

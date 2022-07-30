@@ -1,0 +1,179 @@
+{
+  "dataset": {
+    "identifier": 107486,
+    "name": "s2_20211104_0002_0019_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110738081421/s2_20211104_0002_0019_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110738081421/s2_20211104_0002_0019_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117325,
+      "filename": "s2_20211029_0029_0007_01.txt",
+      "title": "s2_20211029_0029_0007_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 255,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 255,
+        "word_size": 60,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.#@상품# 어떻게 세척해야 하나요\nA.주 이 회 정도 따뜻한 물과 세제로 세척해 주세요\nB.뚜껑에 부착된 메모도 세척할 수 있나요\nA.네 기본 방수가 되어있으니 세척해도 됩니다\nB.세척 시 주의해야 할 게 있나요\nA.베이킹소다 등 연마제 사용을 피해주세요\nB.세척 시 온도는 몇 도가 적당한가요\nA.오십도 이하의 온도로 세척해 주세요\nB.안내해 주셔서 감사해요\nA.감사합니다 #@소속# #@이름#이었습니다\nB.네 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@상품# 어떻게 세척해야 하나요",
+            "norm_text": "B.#@상품# 어떻게 세척해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+어떻/VA+게/EC+세척/NNG+해야/XSV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.주 이 회 정도 따뜻한 물과 세제로 세척해 주세요",
+            "norm_text": "A.주 이 회 정도 따뜻한 물과 세제로 세척해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+주/NNP+이회정/NNP+도/JX+따뜻/XR+한/XSA+ETM+물/NNG+과/JC+세제/NNG+로/JKB+세척/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.뚜껑에 부착된 메모도 세척할 수 있나요",
+            "norm_text": "B.뚜껑에 부착된 메모도 세척할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+뚜껑/NNG+에/JKB+부착/NNG+된/XSV+ETM+메모/NNG+도/JX+세척/NNG+할/XSV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 기본 방수가 되어있으니 세척해도 됩니다",
+            "norm_text": "A.네 기본 방수가 되어있으니 세척해도 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+기본/NNG+방수/NNG+가/JKS+되/VV+어/EC+있/VX+으니/EC+세척/NNG+해도/XSV+EC+됩니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.세척 시 주의해야 할 게 있나요",
+            "norm_text": "B.세척 시 주의해야 할 게 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+세척/NNG+시주/NNG+의/JKG+해야/VV+EC+할/VX+ETM+게/NNB+JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.베이킹소다 등 연마제 사용을 피해주세요",
+            "norm_text": "A.베이킹소다 등 연마제 사용을 피해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+베이/NNP+킹/NNP+소다/NNG+등/NNB+연마제/NNG+사용/NNG+을/JKO+피해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B.세척 시 온도는 몇 도가 적당한가요",
+            "norm_text": "B.세척 시 온도는 몇 도가 적당한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+세척/NNG+시/NNB+온도/NNG+는/JX+몇/MM+도/NNBC+가/JKS+적당/XR+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.오십도 이하의 온도로 세척해 주세요",
+            "norm_text": "A.오십도 이하의 온도로 세척해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+오/NR+십/NR+도/NNBC+이하/NNG+의/JKG+온도/NNG+로/JKB+세척/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "B.안내해 주셔서 감사해요",
+            "norm_text": "B.안내해 주셔서 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+안내/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 좋은 하루 보내세요",
+            "norm_text": "B.네 좋은 하루 보내세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+네/IC+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

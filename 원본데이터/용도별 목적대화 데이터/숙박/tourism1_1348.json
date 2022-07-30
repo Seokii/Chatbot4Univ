@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 150541,
+    "name": "t1_20211117_0002_0301_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719010297/t1_20211117_0002_0301_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135719010297/t1_20211117_0002_0301_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148531,
+      "filename": "t1_0083_0006_02.txt",
+      "title": "t1_0083_0006_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 270,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 270,
+        "word_size": 54,
+        "text": "A.안녕하십니까 #@소속# #@이름#입니다\nB.네 안녕하세요 15일 예약한 #@이름#인데요\nA.안녕하세요 고객님 어떤 일로 전화를 주셨나요\nB.입실 시간 좀 여쭤보려고요\nA.그러시군요 저희 입실 시간은 15시부터 22시까지입니다\nB.오후 3시부터 입실이군요\nA.네 그렇습니다 고객님\nB.근데 오후 10시넘어서까지도 입실하시는 분들도 계시나봐요\nA.간혹 계시는데요 만약 10시가 넘어 입실하시는 경우는 미리 전화를 주셔야합니다\nB.그렇군요 아무튼 안내해주셔서 감사합니다\nA.네 고객님 15일에 뵙겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 15일 예약한 #@이름#인데요",
+            "norm_text": "B.네 안녕하세요 15일 예약한 #@이름#인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+15/SN+일/NNBC+예약/NNG+한/XSA+ETM+#/SY+@/SY+이름/NNG+#/SY+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.안녕하세요 고객님 어떤 일로 전화를 주셨나요",
+            "norm_text": "A.안녕하세요 고객님 어떤 일로 전화를 주셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+VCP+고/EC+객님/NNG+어떤/MM+일/NNG+로/JKB+전화/NNG+를/JKO+주/VV+셨/EP+EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.입실 시간 좀 여쭤보려고요",
+            "norm_text": "B.입실 시간 좀 여쭤보려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+입실/NNG+시간/NNG+좀/MAG+여쭤/VV+EC+보/VX+려고요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.그러시군요 저희 입실 시간은 15시부터 22시까지입니다",
+            "norm_text": "A.그러시군요 저희 입실 시간은 15시부터 22시까지입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그러/VV+시/EP+군요/EF+저희/NP+입실/NNG+시간/NNG+은/JX+15/SN+시/NNBC+부터/JX+22/SN+시/NNBC+까지/JX+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.오후 3시부터 입실이군요",
+            "norm_text": "B.오후 3시부터 입실이군요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+오후/NNG+3/SN+시/NNBC+부터/JX+입실/NNG+이/VCP+군요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 그렇습니다 고객님",
+            "norm_text": "A.네 그렇습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그렇/VA+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.근데 오후 10시넘어서까지도 입실하시는 분들도 계시나봐요",
+            "norm_text": "B.근데 오후 10시넘어서까지도 입실하시는 분들도 계시나봐요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+근데/MAJ+오후/NNG+10/SN+시/NNBC+넘/VV+어서/EC+까지/JX+도/JX+입실/NNG+하/XSV+시/EP+는/ETM+분/NNB+들/XSN+도/JX+계시/VX+나/EC+봐요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.간혹 계시는데요 만약 10시가 넘어 입실하시는 경우는 미리 전화를 주셔야합니다",
+            "norm_text": "A.간혹 계시는데요 만약 10시가 넘어 입실하시는 경우는 미리 전화를 주셔야합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+간혹/MAG+계시/VV+는데요/EF+만약/MAG+10/SN+시/NNBC+가/JKC+넘/VV+어/EC+입실/NNG+하/XSV+시/EP+는/ETM+경우/NNG+는/JX+미리/MAG+전화/NNG+를/JKO+주/VV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그렇군요 아무튼 안내해주셔서 감사합니다",
+            "norm_text": "B.그렇군요 아무튼 안내해주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+아무튼/MAJ+안내/NNG+해/XSV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.네 고객님 15일에 뵙겠습니다",
+            "norm_text": "A.네 고객님 15일에 뵙겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+15/SN+일/NNBC+에/JKB+뵙/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

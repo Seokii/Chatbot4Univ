@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 44769,
+    "name": "c2_20211014_0005_0134_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130953055640/c2_20211014_0005_0134_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211008130953055640/c2_20211014_0005_0134_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 53201,
+      "filename": "c2_20210927_0014_0018_01.txt",
+      "title": "c2_20210927_0014_0018_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 366,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 366,
+        "word_size": 83,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 문의 드릴 게 있어서 연락 드렸어요\nA.네 말씀 주시면 답변 드리겠습니다\nB.논현동 해안도로랑 아암대로 도로 명칭을 구분해 주세요\nA.논현동 해안도로 아암대로의 도로 명칭 구분 분리 가능 여부 문의시죠\nB.네 맞아요 어떻게 되나요\nA.아암대로를 고잔톨게이트를 기준으로 소래포구 쪽에요\nA.해안도로 구간을 분리하는 게 맞는 것 같습니다\nB.그래요 그래서 구분이 가능 한가요\nA.도로구간 분리 위해서는 일반 국도 노선의 변경하거나요\nA.폐지 등 도로 구간의 변동 사유가 발생합니다\nA.그래서 저희가 한번 논의를 통해 검토해 보도록 하겠습니다\nB.네 알겠습니다 답변 감사합니다\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 문의 드릴 게 있어서 연락 드렸어요",
+            "norm_text": "B.안녕하세요 문의 드릴 게 있어서 연락 드렸어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+문/NNG+의/JKG+드릴/VV+ETM+게/NNB+JKS+있/VA+어서/EC+연락/NNG+드렸/VV+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.네 말씀 주시면 답변 드리겠습니다",
+            "norm_text": "A.네 말씀 주시면 답변 드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+말씀/NNG+주/VV+시/EP+면/EC+답변/NNG+드리/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.논현동 해안도로랑 아암대로 도로 명칭을 구분해 주세요",
+            "norm_text": "B.논현동 해안도로랑 아암대로 도로 명칭을 구분해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+논현동/NNP+해안/NNG+도로/NNG+랑/JC+아암대로/NNP+도로/NNG+명칭/NNG+을/JKO+구분/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "A.논현동 해안도로 아암대로의 도로 명칭 구분 분리 가능 여부 문의시죠",
+            "norm_text": "A.논현동 해안도로 아암대로의 도로 명칭 구분 분리 가능 여부 문의시죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+논현동/NNP+해안도/NNG+로/JKB+아암대로/NNP+의/JKG+도로/NNG+명칭/NNG+구분/NNG+분리/NNG+가능/NNG+여/XSN+부문/NNG+의/JKG+시/EP+죠/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 맞아요 어떻게 되나요",
+            "norm_text": "B.네 맞아요 어떻게 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+맞/VV+아요/EF+어떻게/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.아암대로를 고잔톨게이트를 기준으로 소래포구 쪽에요",
+            "norm_text": "A.아암대로를 고잔톨게이트를 기준으로 소래포구 쪽에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+아암대로/NNP+를/JKO+고잔/NNP+톨게이트/NNG+를/JKO+기준/NNG+으로/JKB+소래/NNG+포구/NNG+쪽/NNB+에/JKB+요/JX"
+          },
+          {
+            "id": 8,
+            "text": "A.해안도로 구간을 분리하는 게 맞는 것 같습니다",
+            "norm_text": "A.해안도로 구간을 분리하는 게 맞는 것 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+./SY+해안도/NNG+로/JKB+구간/NNG+을/JKO+분리/NNG+하/XSV+는/ETM+게/NNB+JKS+맞/VV+는/ETM+것/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그래요 그래서 구분이 가능 한가요",
+            "norm_text": "B.그래요 그래서 구분이 가능 한가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+그래서/MAJ+구분/NNG+이/JKS+가능/NNG+한/XSA+ETM+가요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "A.도로구간 분리 위해서는 일반 국도 노선의 변경하거나요",
+            "norm_text": "A.도로구간 분리 위해서는 일반 국도 노선의 변경하거나요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+도로/NNG+구간/NNG+분리/NNG+위해서/VV+EC+는/JX+일반/NNG+국도/NNG+노선/NNG+의/JKG+변경/NNG+하/XSV+거나/EC+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.폐지 등 도로 구간의 변동 사유가 발생합니다",
+            "norm_text": "A.폐지 등 도로 구간의 변동 사유가 발생합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+폐지/NNG+등/NNB+도/JX+로구/NNG+간/NNB+의/JKG+변동/NNG+사유/NNG+가/JKS+발생/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.그래서 저희가 한번 논의를 통해 검토해 보도록 하겠습니다",
+            "norm_text": "A.그래서 저희가 한번 논의를 통해 검토해 보도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+그래서/MAJ+저희/NP+가/JKS+한/MM+번/NNBC+논의/NNG+를/JKO+통해/VV+EC+검토/NNG+해/XSV+EC+보/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.네 알겠습니다 답변 감사합니다",
+            "norm_text": "B.네 알겠습니다 답변 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+답변/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

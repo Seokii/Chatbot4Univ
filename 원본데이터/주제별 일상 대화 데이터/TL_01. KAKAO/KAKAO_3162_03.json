@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 62146,
+    "name": "KAKAO_3162_03_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/52/txt20211015173327099495/KAKAO_3162_03_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/52/txt20211015173327099495/KAKAO_3162_03_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 73603,
+      "filename": "KAKAO_3162_03.txt",
+      "title": "KAKAO_3162_03",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-15",
+      "size": 484,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 484,
+        "word_size": 131,
+        "text": "1 : 자동차를 사려고 하는데 추천해줄 만한 것 있어?\n2 : 요즘은 자동차를 구매할 때 전기차를 할지 아니면 내연기관을 할지 먼저 선택해야 해.\n1 : 전기차는 왠지 위험하지 않을까?\n2 : 오히려 전기차의 구조가 간단해서 조작하기 쉽고 잔고장이 없다고 해.\n1 : 그런데 전기차는 나중에 배터리를 바꿔야 하지 않아?\n1 : 충전지도 쓰다보면 방전이 되잖아.\n2 : 자동차를 얼마나 많이 사용했는지에 따라 다른데 보통 10년 주기로 교체해야 해.\n1 : 어떻게 보면 10년이면 자동차를 바꿔야 하는 시기니까 괜찮아 보이네.\n2 : 그리고 요즘 정부에서는 전기차의 상용화를 독려하기 위해 전기차 구매시에 보조금을 지급해.\n1 : 전기차를 구매할 때 보조금이 얼마나 나오는지 잘 확인해야 겠다.\n2 : 보조금은 매년 일정부분 감소하고 있기 때문에 가급적 빨리 구매하는게 이득일거야.\n1 : 그렇구나. 내일이라도 한번 알아봐야 겠어.\n2 : 내 친구가 자동차 딜러인데 물어보고 연락처 줄게.",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 자동차를 사려고 하는데 추천해줄 만한 것 있어?",
+            "norm_text": "자동차를 사려고 하는데 추천해줄 만한 것 있어?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "자동차/NNG+를/JKO+사/VV+려고/EC+하/VV+는데/EC+추천/NNG+해/XSV+EC+줄/VX+ETM+만/NNB+한/XSA+ETM+것/NNB+있/VA+어/EF"
+          },
+          {
+            "id": 2,
+            "text": "2 : 요즘은 자동차를 구매할 때 전기차를 할지 아니면 내연기관을 할지 먼저 선택해야 해.",
+            "norm_text": "요즘은 자동차를 구매할 때 전기차를 할지 아니면 내연기관을 할지 먼저 선택해야 해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "요즘/NNG+은/JX+자동차/NNG+를/JKO+구매/NNG+할/XSV+ETM+때/NNG+전기/NNG+차/NNG+를/JKO+할지/VV+EC+아니/VCN+면/EC+내연/NNG+기관/NNG+을/JKO+할지/VV+EC+먼저/MAG+선택/NNG+해야/XSV+EC+해/VX+EF"
+          },
+          {
+            "id": 3,
+            "text": "1 : 전기차는 왠지 위험하지 않을까?",
+            "norm_text": "전기차는 왠지 위험하지 않을까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "전기차/NNP+는/JX+왠지/MAG+위험/NNG+하/XSV+지/EC+않/VX+을까/EF"
+          },
+          {
+            "id": 4,
+            "text": "2 : 오히려 전기차의 구조가 간단해서 조작하기 쉽고 잔고장이 없다고 해.",
+            "norm_text": "오히려 전기차의 구조가 간단해서 조작하기 쉽고 잔고장이 없다고 해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "오히려/MAJ+전기차/NNP+의/JKG+구조/NNG+가/JKS+간단/XR+해서/XSA+EC+조작/NNG+하/XSV+기/ETN+쉽/VA+고/EC+잔/NNG+고장/NNG+이/JKS+없/VA+다고/EC+해/VX+EF"
+          },
+          {
+            "id": 5,
+            "text": "1 : 그런데 전기차는 나중에 배터리를 바꿔야 하지 않아?",
+            "norm_text": "그런데 전기차는 나중에 배터리를 바꿔야 하지 않아?",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "그런데/MAJ+전기차/NNP+는/JX+나중/NNG+에/JKB+배터리/NNG+를/JKO+바꿔야/VV+EC+하/VV+지/EC+않/VX+아/EF"
+          },
+          {
+            "id": 6,
+            "text": "1 : 충전지도 쓰다보면 방전이 되잖아.",
+            "norm_text": "충전지도 쓰다보면 방전이 되잖아.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "충전/NNG+지도/NNG+쓰/VV+다/EC+보/VX+면/EC+방전/NNG+이/JKS+되/VV+잖아/EF"
+          },
+          {
+            "id": 7,
+            "text": "2 : 자동차를 얼마나 많이 사용했는지에 따라 다른데 보통 10년 주기로 교체해야 해.",
+            "norm_text": "자동차를 얼마나 많이 사용했는지에 따라 다른데 보통 10년 주기로 교체해야 해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "자동차/NNG+를/JKO+얼마나/MAG+많이/MAG+사용/NNG+했/XSV+EP+는지/EC+에/JKB+따라/VV+EC+다른/MM+데/NNB+보통/NNG+10/SN+년/NNBC+주기/NNG+로/JKB+교체/NNG+해야/XSV+EC+해/VX+EF"
+          },
+          {
+            "id": 8,
+            "text": "1 : 어떻게 보면 10년이면 자동차를 바꿔야 하는 시기니까 괜찮아 보이네.",
+            "norm_text": "어떻게 보면 10년이면 자동차를 바꿔야 하는 시기니까 괜찮아 보이네.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "어떻/VA+게/EC+보/VX+면/EC+10/SN+년/NNBC+이/VCP+면/EC+자동차/NNG+를/JKO+바꿔야/VV+EC+하/VV+는/ETM+시기/NNG+니까/VCP+EC+괜찮/VA+아/EC+보이/VV+네/EF"
+          },
+          {
+            "id": 9,
+            "text": "2 : 그리고 요즘 정부에서는 전기차의 상용화를 독려하기 위해 전기차 구매시에 보조금을 지급해.",
+            "norm_text": "그리고 요즘 정부에서는 전기차의 상용화를 독려하기 위해 전기차 구매시에 보조금을 지급해.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 진술하기",
+            "morpheme": "그리고/MAJ+요즘/MAG+정부/NNG+에서/JKB+는/JX+전기차/NNP+의/JKG+상용/NNG+화/XSN+를/JKO+독려/NNG+하/XSV+기/ETN+위해/VV+EC+전기/NNG+차구/NNG+매시/NNG+에/JKB+보조금/NNG+을/JKO+지급/NNG+해/XSV+EF"
+          },
+          {
+            "id": 10,
+            "text": "1 : 전기차를 구매할 때 보조금이 얼마나 나오는지 잘 확인해야 겠다.",
+            "norm_text": "전기차를 구매할 때 보조금이 얼마나 나오는지 잘 확인해야 겠다.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "전기차/NNP+를/JKO+구매/NNG+할/XSV+ETM+때/NNG+보조금/NNG+이/JKS+얼마나/MAG+나오/VV+는지/EC+잘/MAG+확인/NNG+해야/XSV+EC+VX+겠/EP+다/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 보조금은 매년 일정부분 감소하고 있기 때문에 가급적 빨리 구매하는게 이득일거야.",
+            "norm_text": "보조금은 매년 일정부분 감소하고 있기 때문에 가급적 빨리 구매하는게 이득일거야.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "보조금/NNG+은/JX+매년/MAG+일정/NNG+부분/NNG+감소/NNG+하/XSV+고/EC+있/VX+기/ETN+때문/NNB+에/JKB+가급적/MAG+빨리/MAG+구매/NNG+하/XSV+는/ETM+게/NNB+JKS+이득/NNG+일/VCP+ETM+거/NNB+야/VCP+EF"
+          },
+          {
+            "id": 12,
+            "text": "1 : 그렇구나. 내일이라도 한번 알아봐야 겠어.",
+            "norm_text": "그렇구나. 내일이라도 한번 알아봐야 겠어.",
+            "speaker": {
+              "id": "1번",
+              "sex": "남성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그렇/VA+구나/EF+내일/NNG+이/VCP+라도/EC+한/MM+번/NNBC+알/VV+아/EC+봐야/VX+EC+VV+겠/EP+어/EF"
+          },
+          {
+            "id": 13,
+            "text": "2 : 내 친구가 자동차 딜러인데 물어보고 연락처 줄게.",
+            "norm_text": "내 친구가 자동차 딜러인데 물어보고 연락처 줄게.",
+            "speaker": {
+              "id": "2번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 충고/제안하기",
+            "morpheme": "내/NP+JKG+친구/NNG+가/JKS+자동차/NNG+딜러/NNG+인데/VCP+EC+물/VV+어/EC+보/VX+고/EC+연락처/NNG+줄게/VV+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

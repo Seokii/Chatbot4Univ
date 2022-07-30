@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 146991,
+    "name": "t1_20211116_0002_0099_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135713088482/t1_20211116_0002_0099_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135713088482/t1_20211116_0002_0099_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147873,
+      "filename": "t1_0066_0059_02.txt",
+      "title": "t1_0066_0059_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 280,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 280,
+        "word_size": 56,
+        "text": "A.안녕하세요 반갑습니다 #@소속#입니다\nB.네 안녕하세요 저 #@소속# 투숙객인데요\nB.당구장좀 이용하려 하는데 물어볼게 있는데 번호 알 수 있나요\nA.네 그럼요 1층에 위치한 당구장 말씀하시는거죠\nB.네 #@주소#에 있는 당구장이요\nA.번호 알려드리겠습니다 #@전번# 이쪽으로 연락하시면 됩니다\nB.아 혹시 내선번호도 알려주실 수 있나요 이따 호텔가서 연락하려고요\nA.내선번호는 1111번입니다 1 네번 누르시면 돼요\nB.알겠습니다 바로 알려주셔서 감사해요 수고하세요\nA.찾아주셔서 감사합니다 #@소속#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 반갑습니다 #@소속#입니다",
+            "norm_text": "A.안녕하세요 반갑습니다 #@소속#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 저 #@소속# 투숙객인데요",
+            "norm_text": "B.네 안녕하세요 저 #@소속# 투숙객인데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+저/NP+#/SY+@/SY+소속/NNG+#/SY+투숙객/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.당구장좀 이용하려 하는데 물어볼게 있는데 번호 알 수 있나요",
+            "norm_text": "B.당구장좀 이용하려 하는데 물어볼게 있는데 번호 알 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+당구장/NNG+좀/MAG+이용/NNG+하/XSV+려/EC+하/VV+는/ETM+데/NNB+물어볼/VV+ETM+게/NNB+JKS+있/VA+는데/EC+번호/NNG+알/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 그럼요 1층에 위치한 당구장 말씀하시는거죠",
+            "norm_text": "A.네 그럼요 1층에 위치한 당구장 말씀하시는거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+요/JX+1/SN+층/NNG+에/JKB+위치/NNG+한/XSA+ETM+당구장/NNG+말씀/NNG+하/XSV+시/EP+는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 #@주소#에 있는 당구장이요",
+            "norm_text": "B.네 #@주소#에 있는 당구장이요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+에/JKB+있/VV+는/ETM+당구장/NNG+이/VCP+요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.번호 알려드리겠습니다 #@전번# 이쪽으로 연락하시면 됩니다",
+            "norm_text": "A.번호 알려드리겠습니다 #@전번# 이쪽으로 연락하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+번호/NNG+알려/VV+EC+드리/VX+겠/EP+습니다/EF+#/SY+@/SY+전번/NNG+#/SY+이쪽/NP+으로/JKB+연락/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.아 혹시 내선번호도 알려주실 수 있나요 이따 호텔가서 연락하려고요",
+            "norm_text": "B.아 혹시 내선번호도 알려주실 수 있나요 이따 호텔가서 연락하려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+아/IC+혹시/MAG+내/NP+JKG+선번호/NNG+도/JX+알려/VV+EC+주/VX+실/EP+ETM+수/NNB+있/VV+나요/EF+이따/MAG+호텔/NNG+가/VV+서/EC+연락/NNG+하/XSV+려고요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.내선번호는 1111번입니다 1 네번 누르시면 돼요",
+            "norm_text": "A.내선번호는 1111번입니다 1 네번 누르시면 돼요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+내/NP+JKG+선번호/NNG+는/JX+1111/SN+번/NNBC+입니다/VCP+EF+1/SN+네/MM+번/NNBC+누르/VV+시/EP+면/EC+돼요/VV+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.알겠습니다 바로 알려주셔서 감사해요 수고하세요",
+            "norm_text": "B.알겠습니다 바로 알려주셔서 감사해요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+바로/MAG+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+해요/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.찾아주셔서 감사합니다 #@소속#였습니다",
+            "norm_text": "A.찾아주셔서 감사합니다 #@소속#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+찾/VV+아/EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

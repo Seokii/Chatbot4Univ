@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 146511,
+    "name": "t1_20211116_0002_0026_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135709047293/t1_20211116_0002_0026_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135709047293/t1_20211116_0002_0026_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 147305,
+      "filename": "t1_0052_0051_02.txt",
+      "title": "t1_0052_0051_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 270,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 270,
+        "word_size": 59,
+        "text": "A.안녕하세요 #@소속# 친절한 상담사 #@이름#입니다\nB.안녕하세요 경주 최부가 830 한옥 펜션 체크인이 몇 시인가요\nA.네 고객님 체크인은 오후 3시이고 체크아웃은 오전 11시입니다\nB.바베큐도 이용할 수 있나요\nA.바베큐 용품 빌려드리는데 10인이하 3만원 이상 5만원이에요\nB.인원 추가도 있습니까\nA.인원 추가는 없고 숯 추가에 만원입니다\nB.고기는 제공하지 않나요\nA.네 고기나 야채는 각자 준비하셔야 해요\nB.친절한 안내 감사드립니다\nA.즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 친절한 상담사 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 친절한 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+친절/NNG+한상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 경주 최부가 830 한옥 펜션 체크인이 몇 시인가요",
+            "norm_text": "B.안녕하세요 경주 최부가 830 한옥 펜션 체크인이 몇 시인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+경주/NNP+최부/NNP+가/JKS+830/SN+한옥/NNG+펜션/NNG+체크인/NNG+이/JKS+몇/MM+시/NNBC+인가요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 체크인은 오후 3시이고 체크아웃은 오전 11시입니다",
+            "norm_text": "A.네 고객님 체크인은 오후 3시이고 체크아웃은 오전 11시입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+체크인/NNG+은/JX+오후/NNG+3/SN+시/NNBC+이/VCP+고/EC+체크아웃/NNG+은/JX+오전/NNG+11/SN+시/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.바베큐도 이용할 수 있나요",
+            "norm_text": "B.바베큐도 이용할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+바베큐/NNG+도/JX+이용/NNG+할/XSV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.바베큐 용품 빌려드리는데 10인이하 3만원 이상 5만원이에요",
+            "norm_text": "A.바베큐 용품 빌려드리는데 10인이하 3만원 이상 5만원이에요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+바베큐/NNG+용품/NNG+빌려/VV+EC+드리/VX+는데/EC+10/SN+인/NNG+이하/NNG+3/SN+만/NR+원/NNBC+이상/NNG+5/SN+만/NR+원/NNBC+이/VCP+에요/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.인원 추가도 있습니까",
+            "norm_text": "B.인원 추가도 있습니까",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+인원/NNG+추가/NNG+도/JX+있/VA+습니까/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.인원 추가는 없고 숯 추가에 만원입니다",
+            "norm_text": "A.인원 추가는 없고 숯 추가에 만원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+인원/NNG+추가/NNG+는/JX+없/VA+고/EC+숯/NNG+추가/NNG+에/JKB+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.고기는 제공하지 않나요",
+            "norm_text": "B.고기는 제공하지 않나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+고기/NNG+는/JX+제공/NNG+하/XSV+지/EC+않/VX+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 고기나 야채는 각자 준비하셔야 해요",
+            "norm_text": "A.네 고기나 야채는 각자 준비하셔야 해요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고기/NNG+나/JC+야채/NNG+는/JX+각자/MAG+준비/NNG+하/XSV+셔야/EP+EC+해요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.친절한 안내 감사드립니다",
+            "norm_text": "B.친절한 안내 감사드립니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+            "norm_text": "A.즐거운 하루 보내십시오 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+즐거운/VA+ETM+하루/NNG+보내/VV+EC+십/NR+시/NNBC+오상/NNG+담사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

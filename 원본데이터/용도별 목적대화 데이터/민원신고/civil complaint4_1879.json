@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 49605,
+    "name": "c4_20211015_0001_2163_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704051031/c4_20211015_0001_2163_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211008130704051031/c4_20211015_0001_2163_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 50115,
+      "filename": "c4_20210903_0027_0016_01.txt",
+      "title": "c4_20210903_0027_0016_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 380,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 380,
+        "word_size": 87,
+        "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다\nA.어떤 도움이 필요하십니까\nB.네 제가 #@주소# 살고 있습니다\nB.옆에서 공사 중인데 소음이 너무 큽니다\nA.현재 공사 현장 소음 관련 민원으로 불편함이 지속되어 유감스럽습니다\nA.해당 민원에 대하여 이른 시간 공사에 관해서는 작업 시간을 규제할 수 없습니다\nB.규제할 방법이 없다고요 네\nA.다만 현장 관리자에게 민원 사항 전달하겠습니다\nA.이른 시간 작업 자제 및 소음 발생 조심하며 작업하도록 지도하겠습니다\nA.또한 장비 사용 시간 준수 및 분산 작업하도록 지도하겠습니다\nB.네 빠른 접수 감사합니다\nA.현장을 지속적으로 점검하여 주민 피해가 최소화 되도록 노력하겠습니다\nB.예 말씀 감사합니다 수고하세요\nA.감사합니다 민원인 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 민원인 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "A.어떤 도움이 필요하십니까",
+            "norm_text": "A.어떤 도움이 필요하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+도움/NNG+이/JKS+필요/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.네 제가 #@주소# 살고 있습니다",
+            "norm_text": "B.네 제가 #@주소# 살고 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+#/SY+@/SY+주소/NNG+#/SY+살/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.옆에서 공사 중인데 소음이 너무 큽니다",
+            "norm_text": "B.옆에서 공사 중인데 소음이 너무 큽니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+옆/NNG+에서/JKB+공사/NNG+중/NNB+인데/VCP+EC+소음/NNG+이/JKS+너무/MAG+큽니다/VA+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.현재 공사 현장 소음 관련 민원으로 불편함이 지속되어 유감스럽습니다",
+            "norm_text": "A.현재 공사 현장 소음 관련 민원으로 불편함이 지속되어 유감스럽습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+현재/MAG+공사/NNG+현장/NNG+소음/NNG+관련/NNG+민원/NNG+으로/JKB+불편/NNG+함/XSV+ETN+이/JKS+지속/NNG+되/XSV+어/EC+유감/NNG+스럽/XSA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.해당 민원에 대하여 이른 시간 공사에 관해서는 작업 시간을 규제할 수 없습니다",
+            "norm_text": "A.이른 시간 공사에 관해서는 작업 시간을 규제할 수 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+해당/NNG+민원/NNG+에/JKB+대하/VV+여/EC+이른/VA+ETM+시간/NNG+공사/NNG+에/JKB+관해서/VV+EC+는/JX+작업/NNG+시간/NNG+을/JKO+규제/NNG+할/XSV+ETM+수/NNB+없/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.규제할 방법이 없다고요 네",
+            "norm_text": "B.규제할 방법이 없다고요 네",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+규제/NNG+할/XSV+ETM+방법/NNG+이/JKS+없/VA+다고/EC+요네/NNG"
+          },
+          {
+            "id": 8,
+            "text": "A.다만 현장 관리자에게 민원 사항 전달하겠습니다",
+            "norm_text": "A.다만 현장 관리자에게 민원 사항 전달하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+다만/MAJ+현장/NNG+관리자/NNG+에게/JKB+민원/NNG+사항/NNG+전달/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.이른 시간 작업 자제 및 소음 발생 조심하며 작업하도록 지도하겠습니다",
+            "norm_text": "A.이른 시간 작업 자제 및 소음 발생 조심하며 작업하도록 지도하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+이른/VA+ETM+시간/NNG+작업/NNG+자제/NNG+및/MAJ+소음/NNG+발생/NNG+조심/NNG+하/XSV+며/EC+작업/NNG+하/XSV+도록/EC+지도/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.또한 장비 사용 시간 준수 및 분산 작업하도록 지도하겠습니다",
+            "norm_text": "A.또한 장비 사용 시간 준수 및 분산 작업하도록 지도하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+또한/MAJ+장비/NNG+사용/NNG+시간/NNG+준수/NNG+및/MAJ+분산/NNG+작업/NNG+하/XSV+도록/EC+지도/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.네 빠른 접수 감사합니다",
+            "norm_text": "B.네 빠른 접수 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+빠른/VA+ETM+접수/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.현장을 지속적으로 점검하여 주민 피해가 최소화 되도록 노력하겠습니다",
+            "norm_text": "A.현장을 지속적으로 점검하여 주민 피해가 최소화 되도록 노력하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+현장/NNG+을/JKO+지속/NNG+적/XSN+으로/JKB+점검/NNG+하/XSV+여/EC+주민/NNG+피해/NNG+가/JKS+최소/NNG+화/XSN+되/XSV+도록/EC+노력/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.예 말씀 감사합니다 수고하세요",
+            "norm_text": "B.예 말씀 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+예/IC+말씀/NNG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "A.감사합니다 민원인 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 민원인 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+민원인/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

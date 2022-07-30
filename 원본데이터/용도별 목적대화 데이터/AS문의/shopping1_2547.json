@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 60203,
+    "name": "s1_20211021_0002_0031_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151259065688/s1_20211021_0002_0031_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20210908151259065688/s1_20211021_0002_0031_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 9180,
+      "filename": "s1_20210827_0010_0003_01.txt",
+      "title": "s1_20210827_0010_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 674,
+      "annotations": {
+        "subject": "AS문의",
+        "speaker_type": "1:1",
+        "size": 674,
+        "word_size": 163,
+        "text": "A.안녕하세요 상담사 #@이름#입니다 #@이름#님 통화 괜찮으세요\nB.예 내용 확인되셨어요\nA.죄송하지만 블랙 상품 입금 완료는 고객님께 안내가 되었나요\nB.네 블랙은 됐고 레드는 문자나 카카오톡 아무것도 안 왔어요\nA.그럼 고객님 입금은 무통장으로 해 주신 걸까요 계좌이체셨나요\nB.계좌 이체요 계좌 이체로 우리은행에 넣었어요 두 상품 다\nA.죄송합니다만 고객님 레드상품은 입금 처리가 안 되신 것 같아요\nA.주문 건 생성이 아예 되어있지 않네요\nA.지금 블랙 상품만 제대로 고객님이 주문을 하신 거 같고요\nB.아니 남자 직원분이 가상 계좌를 줬는데 입금 처리 확인이 안 된다고요\nA.네 죄송하지만 지금 블랙 상품 하나만 입금이 확인이 되고 있습니다\nA.아무래도  전산상의 오류가 있었던 거 같습니다 고객님 죄송합니다\nA.제가 주문 건은 다시 생성을 하도록 하겠습니다 불편 드려 죄송합니다\nA.가상 계좌랑 그 새로 주문을 해서 고객님께 문자로 안내해드리도록 하겠습니다\nB.아니 이미 레드 상품도 돈을 가상계좌로 입금했다니까요\nA.고객님 가상 계좌는 통상적으로 문제가 있는 경우 이체가 안 되거든요\nA.고객님 계좌에서도 돈이 빠져나가지 않아야 정상인데 빠져나갔다는 거죠\nB.네 제 계좌에서는 사만구천팔백원이 두 번 빠져나갔어요\nB.일단 제가 지금 버스 안이라 내려서 전화드릴게요\nA.네 불편드려 대단히 죄송합니다 다시 연락주세요 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 상담사 #@이름#입니다 #@이름#님 통화 괜찮으세요",
+            "norm_text": "A.안녕하세요 상담사 #@이름#입니다 #@이름#님 통화 괜찮으세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+#/SY+@/SY+이름/NNG+#/SY+님/XSN+통화/NNG+괜찮/VA+으세요/EP+EP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.예 내용 확인되셨어요",
+            "norm_text": "B.예 내용 확인되셨어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+내용/NNG+확인/NNG+되/XSV+셨/EP+EP+어요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.죄송하지만 블랙 상품 입금 완료는 고객님께 안내가 되었나요",
+            "norm_text": "A.죄송하지만 블랙 상품 입금 완료는 고객님께 안내가 되었나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+블랙/NNG+상품/NNG+입금/NNG+완료/NNG+는/JX+고객/NNG+님/XSN+께/JKB+안내/NNG+가/JKS+되/VV+었/EP+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 블랙은 됐고 레드는 문자나 카카오톡 아무것도 안 왔어요",
+            "norm_text": "B.네 블랙은 됐고 레드는 문자나 카카오톡 아무것도 안 왔어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+블랙/NNG+은/JX+됐/VV+EP+고/EC+레드/NNP+는/JX+문자/NNG+나/JC+카카오톡/NNP+아무것/NNG+도/JX+안/MAG+왔어요/VV+EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.그럼 고객님 입금은 무통장으로 해 주신 걸까요 계좌이체셨나요",
+            "norm_text": "A.그럼 고객님 입금은 무통장으로 해 주신 걸까요 계좌이체셨나요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그럼/MAJ+고객/NNG+님/XSN+입금/NNG+은/JX+무/XPN+통장/NNG+으로/JKB+해/VV+EC+주/VX+신/EP+ETM+걸까요/NNB+VCP+EC+계좌/NNG+이체/NNG+셨/VCP+EP+EP+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "B.계좌 이체요 계좌 이체로 우리은행에 넣었어요 두 상품 다",
+            "norm_text": "B.계좌 이체요 계좌 이체로 우리은행에 넣었어요 두 상품 다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+계좌/NNG+이/MM+체요/NNG+계좌/NNG+이체/NNG+로/JKB+우리/NP+은행/NNG+에/JKB+넣/VV+었/EP+어요/EF+두/MM+상품/NNG+다/MAG"
+          },
+          {
+            "id": 7,
+            "text": "A.죄송합니다만 고객님 레드상품은 입금 처리가 안 되신 것 같아요",
+            "norm_text": "A.죄송합니다만 고객님 레드상품은 입금 처리가 안 되신 것 같아요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+죄송/XR+합니다만/XSA+EC+고객/NNG+님/XSN+레드/NNP+상품/NNG+은/JX+입금/NNG+처리/NNG+가/JKS+안/MAG+되/VV+신/EP+ETM+것/NNB+같/VA+아요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.주문 건 생성이 아예 되어있지 않네요",
+            "norm_text": "A.주문 건 생성이 아예 되어있지 않네요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+주문건/NNP+생성/NNG+이/JKS+아예/MAG+되/VV+어/EC+있/VX+지/EC+않/VX+네요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.지금 블랙 상품만 제대로 고객님이 주문을 하신 거 같고요",
+            "norm_text": "A.지금 블랙 상품만 제대로 고객님이 주문을 하신 거 같고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "A/SL+지금/MAG+블랙/NNG+상품/NNG+만/JX+제대로/MAG+고객/NNG+님/XSN+이/JKS+주문/NNG+을/JKO+하/VV+신/EP+ETM+거/NNB+같/VA+고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "B.아니 남자 직원분이 가상 계좌를 줬는데 입금 처리 확인이 안 된다고요",
+            "norm_text": "B.아니 남자 직원분이 가상 계좌를 줬는데 입금 처리 확인이 안 된다고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아니/IC+남자/NNG+직원/NNG+분/XSN+이/JKS+가상/NNG+계좌/NNG+를/JKO+줬/VV+EP+는데/EC+입금/NNG+처리/NNG+확인/NNG+이/JKS+안/MAG+된다/VV+EC+고요/NNG"
+          },
+          {
+            "id": 11,
+            "text": "A.네 죄송하지만 지금 블랙 상품 하나만 입금이 확인이 되고 있습니다",
+            "norm_text": "A.네 죄송하지만 지금 블랙 상품 하나만 입금이 확인이 되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+죄송/XR+하/XSA+지만/EC+지금/MAG+블랙/NNG+상품/NNG+하나/NR+만/JX+입금/NNG+이/JKS+확인/NNG+이/JKS+되/VV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.아무래도  전산상의 오류가 있었던 거 같습니다 고객님 죄송합니다",
+            "norm_text": "A.아무래도  전산상의 오류가 있었던 거 같습니다 고객님 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+아무래도/MAG+전산/NNG+상/XSN+의/JKG+오류/NNG+가/JKS+있/VA+었/EP+던/ETM+거/NNB+같/VA+습니다/EF+고객/NNG+님/XSN+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.제가 주문 건은 다시 생성을 하도록 하겠습니다 불편 드려 죄송합니다",
+            "norm_text": "A.제가 주문 건은 다시 생성을 하도록 하겠습니다 불편 드려 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+제/NP+가/JKS+주문건/NNP+은/JX+다시/MAG+생성/NNG+을/JKO+하/VV+도록/EC+하/VX+겠/EP+습니다/EF+불편/NNG+드려/VV+EC+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.가상 계좌랑 그 새로 주문을 해서 고객님께 문자로 안내해드리도록 하겠습니다",
+            "norm_text": "A.가상 계좌랑 그 새로 주문을 해서 고객님께 문자로 안내해드리도록 하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+가상/NNG+계좌/NNG+랑/JKB+그/IC+새로/MAG+주문/NNG+을/JKO+해서/VV+EC+고객/NNG+님/XSN+께/JKB+문자/NNG+로/JKB+안내/NNG+해/XSV+EC+드리/VX+도록/EC+하/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 15,
+            "text": "B.아니 이미 레드 상품도 돈을 가상계좌로 입금했다니까요",
+            "norm_text": "B.아니 이미 레드 상품도 돈을 가상계좌로 입금했다니까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+아니/IC+이미/MAG+레드/NNP+상품/NNG+도/JX+돈/NNG+을/JKO+가상/NNG+계좌/NNG+로/JKB+입금/NNG+했/XSV+EP+다니까요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.고객님 가상 계좌는 통상적으로 문제가 있는 경우 이체가 안 되거든요",
+            "norm_text": "A.고객님 가상 계좌는 통상적으로 문제가 있는 경우 이체가 안 되거든요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+가상/NNG+계좌/NNG+는/JX+통상/NNG+적/XSN+으로/JKB+문제/NNG+가/JKS+있/VA+는/ETM+경우/NNG+이체/NNG+가/JKS+안/MAG+되/VV+거든요/EF"
+          },
+          {
+            "id": 17,
+            "text": "A.고객님 계좌에서도 돈이 빠져나가지 않아야 정상인데 빠져나갔다는 거죠",
+            "norm_text": "A.고객님 계좌에서도 돈이 빠져나가지 않아야 정상인데 빠져나갔다는 거죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+계좌/NNG+에서/JKB+도/JX+돈/NNG+이/JKS+빠져나가/VV+지/EC+않/VX+아야/EC+정상/NNG+인데/VCP+EC+빠져나갔/VV+EP+다는/ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "B.네 제 계좌에서는 사만구천팔백원이 두 번 빠져나갔어요",
+            "norm_text": "B.네 제 계좌에서는 사만구천팔백원이 두 번 빠져나갔어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+JKG+계좌/NNG+에서/JKB+는/JX+사만/NR+구천/NR+팔/NR+백/NR+원/NNBC+이/JKS+두/MM+번/NNBC+빠져나갔/VV+EP+어요/EF"
+          },
+          {
+            "id": 19,
+            "text": "B.일단 제가 지금 버스 안이라 내려서 전화드릴게요",
+            "norm_text": "B.일단 제가 지금 버스 안이라 내려서 전화드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+일단/MAG+제/NP+가/JKS+지금/MAG+버스/NNG+안/NNG+이/VCP+라/EC+내려서/VV+EC+전화/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 20,
+            "text": "A.네 불편드려 대단히 죄송합니다 다시 연락주세요 감사합니다",
+            "norm_text": "A.네 불편드려 대단히 죄송합니다 다시 연락주세요 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+불편/NNG+드려/VV+EC+대단히/MAG+죄송/XR+합니다/XSA+EF+다시/MAG+연락/NNG+주세요/NNP+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

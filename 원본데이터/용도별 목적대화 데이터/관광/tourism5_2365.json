@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 160106,
+    "name": "t5_20211119_0010_2721_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135918005043/t5_20211119_0010_2721_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135918005043/t5_20211119_0010_2721_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 156176,
+      "filename": "t5_0070_0130_02.txt",
+      "title": "t5_0070_0130_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 367,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 367,
+        "word_size": 88,
+        "text": "A. 반갑습니다 #@소속# 상담사 #@이름#입니다\nB. 안녕하세요 을숙도 생태공원 탐방선 문의드리려구요\nA. 네 무엇을 도와드릴까요\nB. 을숙도에서 화명 코스는 어디서 탑승하면 되나요\nA. 네 을숙도생태탐방선 선착장에서 탑승해 주시면 됩니다\nB. 그래요 이거 요금은 얼마죠\nA. 네 성인은 7천 원이구요 청소년은 5천 원이세요\nB. 그렇군요 아 그리고 탐방선 이용시간도 좀 알려주세요\nA. 네 탐방선은 오전 10시반 부터 12시까지 운항합니다\nB. 네 예약은 전화로 하면 되는지요\nA. 네 부산관광공사 생태탐방선 운영사무소로 전화주시면 되구요\nA. 전화번호는 #@전번# 입니다 고객님\nB. 네 전화해볼게요 감사합니다\nA. 네 좋은 하루 되세요 #@소속# 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 반갑습니다 #@소속# 상담사 #@이름#입니다",
+            "norm_text": "A. 반갑습니다 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. 안녕하세요 을숙도 생태공원 탐방선 문의드리려구요",
+            "norm_text": "B. 안녕하세요 을숙도 생태공원 탐방선 문의드리려구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+을/JKO+숙도/NNG+생태/NNG+공원/NNG+탐방/NNG+선문/NNG+의/JKG+드리/VV+려구요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 무엇을 도와드릴까요",
+            "norm_text": "A. 네 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 을숙도에서 화명 코스는 어디서 탑승하면 되나요",
+            "norm_text": "B. 을숙도에서 화명 코스는 어디서 탑승하면 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+을/JKO+숙도/NNG+에서/JKB+화명/NNG+코스/NNG+는/JX+어디/NP+서/JKB+탑승/NNG+하/XSV+면/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 네 을숙도생태탐방선 선착장에서 탑승해 주시면 됩니다",
+            "norm_text": "A. 네 을숙도생태탐방선 선착장에서 탑승해 주시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+을숙도/NNP+생태/NNG+탐/NNG+방선/NNG+선착장/NNG+에서/JKB+탑승/NNG+해/XSV+EC+주/VX+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 그래요 이거 요금은 얼마죠",
+            "norm_text": "B. 그래요 이거 요금은 얼마죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+이거/NP+요금/NNG+은/JX+얼마/NNG+죠/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A. 네 성인은 7천 원이구요 청소년은 5천 원이세요",
+            "norm_text": "A. 네 성인은 7천 원이구요 청소년은 5천 원이세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+성인/NNG+은/JX+7/SN+천/NR+원/NNBC+이/VCP+구요/EF+청소년/NNG+은/JX+5/SN+천/NR+원/NNBC+이/VCP+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "B. 그렇군요 아 그리고 탐방선 이용시간도 좀 알려주세요",
+            "norm_text": "B. 그렇군요 아 그리고 탐방선 이용시간도 좀 알려주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+아/IC+그리고/MAJ+탐방/MAG+선/VV+ETM+이용/NNG+시간/NNG+도/JX+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A. 네 탐방선은 오전 10시반 부터 12시까지 운항합니다",
+            "norm_text": "A. 네 탐방선은 오전 10시반 부터 12시까지 운항합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+탐/NNG+방선/NNG+은/JX+오전/NNG+10/SN+시/NNBC+반/NNG+부터/JX+12/SN+시/NNBC+까지/JX+운항/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "B. 네 예약은 전화로 하면 되는지요",
+            "norm_text": "B. 네 예약은 전화로 하면 되는지요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+예약/NNG+은/JX+전화/NNG+로/JKB+하/VV+면/EC+되/VV+는지요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 네 부산관광공사 생태탐방선 운영사무소로 전화주시면 되구요",
+            "norm_text": "A. 네 부산관광공사 생태탐방선 운영사무소로 전화주시면 되구요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+부산/NNP+관광공사/NNP+생태/NNG+탐/NNG+방선/NNG+운영/NNG+사무소/NNG+로/JKB+전화/NNG+주/VV+시/EP+면/EC+되/VV+구요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A. 전화번호는 #@전번# 입니다 고객님",
+            "norm_text": "A. 전화번호는 #@전번# 입니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+전화/NNG+번호/NNG+는/JX+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 13,
+            "text": "B. 네 전화해볼게요 감사합니다",
+            "norm_text": "B. 네 전화해볼게요 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+전화/NNG+해/XSV+EC+볼게요/VX+EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A. 네 좋은 하루 되세요 #@소속# 상담사 #@이름#이었습니다",
+            "norm_text": "A. 네 좋은 하루 되세요 #@소속# 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+좋/VA+은/ETM+하루/NNG+되/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

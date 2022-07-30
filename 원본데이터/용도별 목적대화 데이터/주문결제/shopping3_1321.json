@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 95252,
+    "name": "s3_20211102_0005_0565_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110830026835/s3_20211102_0005_0565_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20211101110830026835/s3_20211102_0005_0565_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 119430,
+      "filename": "s3_20211026_0006_0014_01.txt",
+      "title": "s3_20211026_0006_0014_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 184,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 184,
+        "word_size": 42,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.저 무통장 입금으로 결제를 신청해 놨는데요\nB.계좌 번호 안내 온 걸 다 삭제했어요\nA.계좌 번호 요청이십니까\nB.네 번호 좀 알려 주세요\nA.어떤 은행으로 알려 드릴까요\nB.네 #@기타# 은행으로 부탁드려요\nA.네 #@기타# 은행 #@금융#번입니다\nB.그렇군요 안내 감사해요\nA.좋은 하루 보내십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저 무통장 입금으로 결제를 신청해 놨는데요",
+            "norm_text": "B.저 무통장 입금으로 결제를 신청해 놨는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+저/MM+무/XPN+통장/NNG+입금/NNG+으로/JKB+결제/NNG+를/JKO+신청/NNG+해놨/XSV+EC+VX+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.계좌 번호 안내 온 걸 다 삭제했어요",
+            "norm_text": "B.계좌 번호 안내 온 걸 다 삭제했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+계좌/NNG+번호/NNG+안/MAG+내온/VV+ETM+걸/NNB+JKO+다/MAG+삭제/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.계좌 번호 요청이십니까",
+            "norm_text": "A.계좌 번호 요청이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+계좌/NNG+번호/NNG+요청/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.네 번호 좀 알려 주세요",
+            "norm_text": "B.네 번호 좀 알려 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+번호/NNG+좀/MAG+알려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "A.어떤 은행으로 알려 드릴까요",
+            "norm_text": "A.어떤 은행으로 알려 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+어떤/MM+은행/NNG+으로/JKB+알려/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 #@기타# 은행으로 부탁드려요",
+            "norm_text": "B.네 #@기타# 은행으로 부탁드려요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+기타/NNG+#/SY+은행/NNG+으로/JKB+부탁/NNG+드려요/VV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.네 #@기타# 은행 #@금융#번입니다",
+            "norm_text": "A.네 #@기타# 은행 #@금융#번입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+기타/NNG+#/SY+은행/NNG+#/SY+@/SY+금융/NNG+#/SY+번/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그렇군요 안내 감사해요",
+            "norm_text": "B.그렇군요 안내 감사해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+안내/NNG+감사/NNG+해요/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.좋은 하루 보내십시오",
+            "norm_text": "A.좋은 하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+좋/VA+은/ETM+하루/NNG+보내/VV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

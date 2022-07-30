@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 101337,
+    "name": "s2_20211103_0002_0090_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110734098475/s2_20211103_0002_0090_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110734098475/s2_20211103_0002_0090_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116848,
+      "filename": "s2_20211027_0020_0003_01.txt",
+      "title": "s2_20211027_0020_0003_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 253,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 253,
+        "word_size": 58,
+        "text": "A.반갑습니다 상담사 #@이름#입니다\nB.#@기타# 음성 주문 서비스 관해서 좀 여쭤볼게요\nA.네 어떤 내용이 궁금하신가요\nB.추가로 메뉴를 주문할 수가 있나요\nA.접수한 주문이 아직 결제 및 주문 전송완료 전이라면 가능합니다\nB.이미 전송완료 된 후에는 안되나요\nA.네 그런 경우라면 주문한 음료 수령 후 추가 주문이 가능합니다\nB.알겠습니다 확인 감사합니다\nA.네 고객님 다른 문의사항은 없으신가요\nB.네 다른 문의사항 없어요\nA.감사합니다 상담사 #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 상담사 #@이름#입니다",
+            "norm_text": "A.반갑습니다 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.#@기타# 음성 주문 서비스 관해서 좀 여쭤볼게요",
+            "norm_text": "B.#@기타# 음성 주문 서비스 관해서 좀 여쭤볼게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+음성/NNG+주문/NNG+서비스/NNG+관해서/VV+EC+좀/MAG+여쭤볼/VV+EC+VX+ETM+게요/NNB+VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 내용이 궁금하신가요",
+            "norm_text": "A.네 어떤 내용이 궁금하신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+내용/NNG+이/JKS+궁금/XR+하/XSA+신가요/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.추가로 메뉴를 주문할 수가 있나요",
+            "norm_text": "B.추가로 메뉴를 주문할 수가 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+추가/NNG+로/JKB+메뉴/NNG+를/JKO+주문/NNG+할/XSV+ETM+수/NNB+가/JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.접수한 주문이 아직 결제 및 주문 전송완료 전이라면 가능합니다",
+            "norm_text": "A.접수한 주문이 아직 결제 및 주문 전송완료 전이라면 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+접수/NNG+한/XSA+ETM+주문/NNG+이/JKS+아직/MAG+결제/NNG+및/MAJ+주문/NNG+전송/NNG+완료/NNG+전이/NNG+라면/VCP+EC+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.이미 전송완료 된 후에는 안되나요",
+            "norm_text": "B.이미 전송완료 된 후에는 안되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이미/MAG+전송/NNG+완료/NNG+된/XSV+ETM+후/NNG+에/JKB+는/JX+안/MAG+되/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 그런 경우라면 주문한 음료 수령 후 추가 주문이 가능합니다",
+            "norm_text": "A.네 그런 경우라면 주문한 음료 수령 후 추가 주문이 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그런/MM+경우/NNG+라면/VCP+EC+주문/NNG+한/XSA+ETM+음료/NNG+수령/NNG+후추/NNG+가/JKS+주문/NNG+이/JKS+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.알겠습니다 확인 감사합니다",
+            "norm_text": "B.알겠습니다 확인 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+확인/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 고객님 다른 문의사항은 없으신가요",
+            "norm_text": "A.네 고객님 다른 문의사항은 없으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+다른/MM+문/NNG+의/JKG+사항/NNG+은/JX+없/VA+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 10,
+            "text": "B.네 다른 문의사항 없어요",
+            "norm_text": "B.네 다른 문의사항 없어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+다른/MM+문/NNG+의/JKG+사항/NNG+없/VA+어요/EF"
+          },
+          {
+            "id": 11,
+            "text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "norm_text": "A.감사합니다 상담사 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

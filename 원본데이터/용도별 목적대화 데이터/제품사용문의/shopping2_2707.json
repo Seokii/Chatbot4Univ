@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 117778,
+    "name": "s2_20211105_0001_4298_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110651000360/s2_20211105_0001_4298_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110651000360/s2_20211105_0001_4298_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116073,
+      "filename": "s2_20211026_0012_0004_01.txt",
+      "title": "s2_20211026_0012_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 237,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 237,
+        "word_size": 56,
+        "text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다\nB.니트 카라 문의드릴게요\nA.네 고객님 말씀해주세요\nB.#@상품# 니트 세 장이 한 세트인가요\nA.네 고객님 세 장 한 세트입니다\nB.예 혹시 사이즈를 각 각 다른 거로 선택할 수 있나요\nA.고객님 죄송하지만 한 가지 사이즈로만 가능합니다\nB.그래요 나눠 입으려고 했는데요\nA.도움을 드리지 못해 죄송합니다 고객님\nB.아닙니다 됐어요 수고하세요\nA.날씨가 많이 추운데 건강 유의하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.니트 카라 문의드릴게요",
+            "norm_text": "B.니트 카라 문의드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+니트/NNP+카라/NNP+문/NNG+의/JKG+드릴게요/VV+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 고객님 말씀해주세요",
+            "norm_text": "A.네 고객님 말씀해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.#@상품# 니트 세 장이 한 세트인가요",
+            "norm_text": "B.#@상품# 니트 세 장이 한 세트인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+상품/NNG+#/SY+니트/NNG+세장/NNG+이/JKS+한/MM+세트/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 고객님 세 장 한 세트입니다",
+            "norm_text": "A.네 고객님 세 장 한 세트입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+세장/NNG+한/XSA+ETM+세트/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.예 혹시 사이즈를 각 각 다른 거로 선택할 수 있나요",
+            "norm_text": "B.예 혹시 사이즈를 각 각 다른 거로 선택할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+혹시/MAG+사이즈/NNG+를/JKO+각각/MAG+다른/VA+ETM+거/NNB+로/JKB+선택/NNG+할/XSV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.고객님 죄송하지만 한 가지 사이즈로만 가능합니다",
+            "norm_text": "A.고객님 죄송하지만 한 가지 사이즈로만 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+죄송/XR+하/XSA+지만/EC+한/MM+가지/NNBC+사이즈/NNG+로/JKB+만/JX+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그래요 나눠 입으려고 했는데요",
+            "norm_text": "B.그래요 나눠 입으려고 했는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EC+나눠/VV+EC+입/VV+으려고/EC+했/VX+EP+는데요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.도움을 드리지 못해 죄송합니다 고객님",
+            "norm_text": "A.도움을 드리지 못해 죄송합니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+./SY+도움/NNG+을/JKO+드리/VV+지/EC+못해/VX+EC+죄송/XR+합니다/XSA+EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 10,
+            "text": "B.아닙니다 됐어요 수고하세요",
+            "norm_text": "B.아닙니다 됐어요 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+아닙니다/VCN+EC+됐/VV+EP+어요/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.날씨가 많이 추운데 건강 유의하세요",
+            "norm_text": "A.날씨가 많이 추운데 건강 유의하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+날씨/NNG+가/JKS+많이/MAG+추운데/VA+EC+건강/NNG+유의/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

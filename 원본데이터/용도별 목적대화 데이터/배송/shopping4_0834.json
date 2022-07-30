@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 11336,
+    "name": "s4_20210913_0011_1036_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151450057888/s4_20210913_0011_1036_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt20210908151450057888/s4_20210913_0011_1036_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 13385,
+      "filename": "s4_20210831_0008_0021_01.txt",
+      "title": "s4_20210831_0008_0021_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 200,
+      "annotations": {
+        "subject": "환불/반품/교환",
+        "speaker_type": "1:1",
+        "size": 200,
+        "word_size": 45,
+        "text": "A.안녕하세요 #@소속# #@이름# 입니다\nB.제가 좀 전에 그 주문했었는데 취소 좀 하려고 전화드렸습니다\nA.그러십니까 주문자분 성함이랑 휴대폰 번호 말씀해 주시겠습니까\nB.네 #@이름# 이고요 #@전번# 입니다\nA.확인 감사합니다 고객님 깔창 맞으십니까\nB.네 깔창 맞습니다\nA.그럼 바로 취소 처리하겠습니다\nB.네 취소 고맙습니다\nA.네 감사합니다 좋은 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.제가 좀 전에 그 주문했었는데 취소 좀 하려고 전화드렸습니다",
+            "norm_text": "B.제가 좀 전에 그 주문했었는데 취소 좀 하려고 전화드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+좀/MAG+전/NNG+에/JKB+그/MM+주문/NNG+했었/XSV+EP+는데/EC+취소/NNG+좀/MAG+하/VV+려고/EC+전화/NNG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.그러십니까 주문자분 성함이랑 휴대폰 번호 말씀해 주시겠습니까",
+            "norm_text": "A.그러십니까 주문자분 성함이랑 휴대폰 번호 말씀해 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+그러/VV+십니까/EP+EF+주문자/NNG+분성/NNG+함/XSV+ETN+이랑/JC+휴대폰/NNG+번호/NNG+말씀/NNG+해/XSV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 #@이름# 이고요 #@전번# 입니다",
+            "norm_text": "B.네 #@이름# 이고요 #@전번# 입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+#/SY+@/SY+전번/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.확인 감사합니다 고객님 깔창 맞으십니까",
+            "norm_text": "A.확인 감사합니다 고객님 깔창 맞으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+확인/NNG+감사/NNG+합니다/XSV+EC+VCP+고/EC+객님/NNG+깔창/NNG+맞/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 깔창 맞습니다",
+            "norm_text": "B.네 깔창 맞습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+깔창/NNG+맞/VV+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.그럼 바로 취소 처리하겠습니다",
+            "norm_text": "A.그럼 바로 취소 처리하겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+그럼/MAJ+바로/MAG+취소/NNG+처리/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 취소 고맙습니다",
+            "norm_text": "B.네 취소 고맙습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+취소/NNG+고맙/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "A.네 감사합니다 좋은 하루 보내세요",
+            "norm_text": "A.네 감사합니다 좋은 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

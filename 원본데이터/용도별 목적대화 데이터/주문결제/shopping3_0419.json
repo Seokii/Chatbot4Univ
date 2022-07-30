@@ -1,0 +1,155 @@
+{
+  "dataset": {
+    "identifier": 10001,
+    "name": "s3_20210913_0010_0560_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151418000942/s3_20210913_0010_0560_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/42/txt20210908151418000942/s3_20210913_0010_0560_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 12083,
+      "filename": "s3_20210830_0029_0005_01.txt",
+      "title": "s3_20210830_0029_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 211,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 211,
+        "word_size": 41,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다\nB.방금 계좌이체 했는데 현금영수증 신청히려고요\nA.고객님 주문 조회를 위해서 성함 연락처 말씀해 주세요\nB.주문자 #@이름# #@전번#에요\nA.네 확인 감사합니다 입금 확인되셨습니다\nA.현금영수증 번호는 어떻게 해드릴까요\nB.네 전화번호로 해주세요\nA.네 방금 현금영수증 처리되셨습니다\nB.네 신청 감사합니다\nA.감사합니다 #@소속# #@이름#였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.방금 계좌이체 했는데 현금영수증 신청히려고요",
+            "norm_text": "B.방금 계좌이체 했는데 현금영수증 신청히려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+방금/MAG+계좌/NNG+이체/NNG+했/XSV+EP+는데/EC+현금영수증/NNP+신청/NNG+히/XSV+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 주문 조회를 위해서 성함 연락처 말씀해 주세요",
+            "norm_text": "A.고객님 주문 조회를 위해서 성함 연락처 말씀해 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+주문/NNG+조회/NNG+를/JKO+위해서/VV+EC+성함/NNG+연락처/NNG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.주문자 #@이름# #@전번#에요",
+            "norm_text": "B.주문자 #@이름# #@전번#에요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+주문자/NNG+#/SY+@/SY+이름/NNG+#/SY+#/SY+@/SY+전번/NNG+#/SY+에/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.네 확인 감사합니다 입금 확인되셨습니다",
+            "norm_text": "A.네 확인 감사합니다 입금 확인되셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+확인/NNG+감사/NNG+합니다/XSV+EF+입금/NNG+확인/NNG+되/XSV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.현금영수증 번호는 어떻게 해드릴까요",
+            "norm_text": "A.현금영수증 번호는 어떻게 해드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+현금영수증/NNP+번호/NNG+는/JX+어떻게/MAG+해드릴까요/VV+EC+VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 전화번호로 해주세요",
+            "norm_text": "B.네 전화번호로 해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+전화/NNG+번호/NNG+로/JKB+해/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 8,
+            "text": "A.네 방금 현금영수증 처리되셨습니다",
+            "norm_text": "A.네 방금 현금영수증 처리되셨습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+방금/MAG+현금영수증/NNP+처리/NNG+되/XSV+셨/EP+EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.네 신청 감사합니다",
+            "norm_text": "B.네 신청 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+신청/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.감사합니다 #@소속# #@이름#였습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+였/VCP+EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

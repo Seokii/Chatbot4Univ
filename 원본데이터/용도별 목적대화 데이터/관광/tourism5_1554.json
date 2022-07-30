@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 158038,
+    "name": "t5_20211119_0010_1910_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135911080683/t5_20211119_0010_1910_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/90/txt20211110135911080683/t5_20211119_0010_1910_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 155365,
+      "filename": "t5_매니저_0202_02.txt",
+      "title": "t5_매니저_0202_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 349,
+      "annotations": {
+        "subject": "관광",
+        "speaker_type": "1:1",
+        "size": 349,
+        "word_size": 87,
+        "text": "A. 한반도 평화수도 파주 #@소속# 상담사 #@이름# 입니다\nB. #@기타# 관광예정인데 여쭙고 싶은게 있어서요\nA. 네 고객님 무엇을 도와드릴까요\nB. 단체로 방문할건데요 배 정원이 최대 몇명일까요\nA. 아 그러세요 배 정원은 최대 45명입니다\nB. 오 넉넉하네요 다행입니다\nB. 혹시 그럼 단체 요금 할인 같은건 따로 없을까요\nA. 죄송하지만 요금 할인은 파주시민할인 제외하고는 없습니다\nB. 아 아쉽네요 혜택이 따로 있을 줄 알았어요\nB. 예약은 따로 안해도 될까요\nA. 아 예약관련은 #@전번#로 문의 부탁드립니다\nB. 넵 잘 알겠습니다 알려주신 번호로 문의할게요\nA. 감사합니다 좋은 관광되셨으면 좋겠습니다 상담원 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A. 한반도 평화수도 파주 #@소속# 상담사 #@이름# 입니다",
+            "norm_text": "A. 한반도 평화수도 파주 #@소속# 상담사 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+한반도/NNP+평화/NNG+수도/NNG+파주/NNG+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B. #@기타# 관광예정인데 여쭙고 싶은게 있어서요",
+            "norm_text": "B. #@기타# 관광 예정인데 여쭙고 싶은 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+#/SY+@/SY+기타/NNG+#/SY+관광/NNG+예정/NNG+인데/VCP+EC+여쭙/VV+고/EC+싶/VX+은/ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A. 네 고객님 무엇을 도와드릴까요",
+            "norm_text": "A. 네 고객님 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B. 단체로 방문할건데요 배 정원이 최대 몇명일까요",
+            "norm_text": "B. 단체로 방문할 건데요 배 정원이 최대 몇 명일까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+단체/NNG+로/JKB+방문/NNG+할/XSV+ETM+건데요/NNB+VCP+EC+배정원/NNP+이/JKS+최대/NNG+몇/MM+명/NNBC+일까요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A. 아 그러세요 배 정원은 최대 45명입니다",
+            "norm_text": "A. 아 그러세요 배 정원은 최대 45명입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+아/IC+그러/VV+세요/EP+EF+배정원/NNP+은/JX+최대/NNG+45/SN+명/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B. 오 넉넉하네요 다행입니다",
+            "norm_text": "B. 오 넉넉하네요 다행입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+오/IC+넉넉/XR+하/XSA+네요/EF+다행/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "B. 혹시 그럼 단체 요금 할인 같은건 따로 없을까요",
+            "norm_text": "B. 혹시 그럼 단체 요금 할인 같은 건 따로 없을까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+그럼/MAJ+단체/NNG+요금/NNG+할인/NNG+같/VA+은/ETM+건/NNB+JX+따로/MAG+없/VA+을까요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A. 죄송하지만 요금 할인은 파주시민할인 제외하고는 없습니다",
+            "norm_text": "A. 죄송하지만 요금 할인은 파주 시민 할인 외에는 없습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+요금/NNG+할인/NNG+은/JX+파주/NNG+시민/NNG+할/XSV+ETM+인외/NNG+에/JKB+는/JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B. 아 아쉽네요 혜택이 따로 있을 줄 알았어요",
+            "norm_text": "B. 아 아쉽네요 혜택이 따로 있을 줄 알았어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아/IC+아쉽/VA+네요/EF+혜택/NNG+이/JKS+따로/MAG+있/VV+을/ETM+줄/NNB+알/VV+았/EP+어요/EF"
+          },
+          {
+            "id": 10,
+            "text": "B. 예약은 따로 안해도 될까요",
+            "norm_text": "B. 예약은 따로 안 해도 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+예약/NNG+은/JX+따로/MAG+안/MAG+해도/VV+EC+될까요/VV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A. 아 예약관련은 #@전번#로 문의 부탁드립니다",
+            "norm_text": "A. 아 예약 관련은 #@전번#로 문의 부탁드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+아/IC+예약/NNG+관련/NNG+은/JX+#/SY+@/SY+전번/NNG+#/SY+로문/NNG+의/JKG+부탁/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B. 넵 잘 알겠습니다 알려주신 번호로 문의할게요",
+            "norm_text": "B. 넵 잘 알겠습니다 알려 주신 번호로 문의할게요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+./SY+넵/NNG+잘/MAG+알/VV+겠/EP+습니다/EF+알려/VV+EC+주/VX+신/EP+ETM+번호/NNG+로/JKB+문의/NNG+할게요/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A. 감사합니다 좋은 관광되셨으면 좋겠습니다 상담원 #@이름# 이었습니다",
+            "norm_text": "A. 감사합니다 좋은 관광 되세요 상담원 #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+좋/VA+은/ETM+관광/NNG+되/XSV+세요/EP+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

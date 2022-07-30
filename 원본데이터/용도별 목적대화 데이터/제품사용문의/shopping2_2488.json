@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 118570,
+    "name": "s2_20211105_0002_0116_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110736074184/s2_20211105_0002_0116_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110736074184/s2_20211105_0002_0116_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117048,
+      "filename": "s2_20211028_0006_0022_01.txt",
+      "title": "s2_20211028_0006_0022_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 192,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 192,
+        "word_size": 42,
+        "text": "A.안녕하세요 #@소속# #@이름#입니다\nB.안녕하세요 제가 여기서 털 달린 옷을 샀는데요\nB.이거 세탁기로 빨아도 되나요\nA.털원단의 경우에는 세탁기로도 세탁 가능합니다\nA.하지만 털 빠짐을 고려하면 드라이클리닝을 권장 드립니다\nB.그래요 일단 세탁기로 돌려도 된다는 거죠\nA.네 맞습니다 고객님\nB.알았어요 알려줘서 고마워요\nA.네 즐거운 하루 보내십시오",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 제가 여기서 털 달린 옷을 샀는데요",
+            "norm_text": "B.안녕하세요 제가 여기서 털 달린 옷을 샀는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+제/NP+가/JKS+여기/NP+서/JKB+털/NNG+달린/VV+ETM+옷/NNG+을/JKO+샀/VV+EP+는데요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.이거 세탁기로 빨아도 되나요",
+            "norm_text": "B.이거 세탁기로 빨아도 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+이거/NP+세탁기/NNG+로/JKB+빨/VV+아도/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 4,
+            "text": "A.털원단의 경우에는 세탁기로도 세탁 가능합니다",
+            "norm_text": "A.털원단의 경우에는 세탁기로도 세탁 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+털/VV+ETM+원단/NNG+의/JKG+경우/NNG+에/JKB+는/JX+세탁기/NNG+로/JKB+도/JX+세탁/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.하지만 털 빠짐을 고려하면 드라이클리닝을 권장 드립니다",
+            "norm_text": "A.하지만 털 빠짐을 고려하면 드라이클리닝을 권장 드립니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+하지만/MAJ+털/NNG+빠짐/VV+ETN+을/JKO+고려/NNG+하/XSV+면/EC+드라이클리닝/NNG+을/JKO+권장/NNG+드립니다/VV+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그래요 일단 세탁기로 돌려도 된다는 거죠",
+            "norm_text": "B.그래요 일단 세탁기로 돌려도 된다는 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그래요/VV+EF+일단/MAG+세탁기/NNG+로/JKB+돌려도/VV+EC+된다는/VV+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 맞습니다 고객님",
+            "norm_text": "A.네 맞습니다 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "B.알았어요 알려줘서 고마워요",
+            "norm_text": "B.알았어요 알려줘서 고마워요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+알/VV+았/EP+어요/EF+알려/VV+EC+줘서/VX+EC+고마워요/VA+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 즐거운 하루 보내십시오",
+            "norm_text": "A.네 즐거운 하루 보내십시오",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+즐거운/VA+ETM+하루/NNG+보내/VV+십시오/EP+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

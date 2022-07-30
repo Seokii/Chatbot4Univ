@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "identifier": 108012,
+    "name": "s2_20211104_0002_0136_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110740024135/s2_20211104_0002_0136_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110740024135/s2_20211104_0002_0136_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117503,
+      "filename": "s2_20211029_0028_0020_01.txt",
+      "title": "s2_20211029_0028_0020_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 188,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 188,
+        "word_size": 42,
+        "text": "A.안녕하세요 #@소속#의 #@이름# 상담사입니다\nB.모바일 음식점 쿠폰을 구매하려는데요\nB.상세 페이지의 매장에서만 사용 가능한 건가요\nA.네 구매 페이지에 적혀 있는 매장에서만 사용이 가능하십니다\nB.배달 주문은 안 되고 방문 포장만 가능한 거죠\nA.네 모바일 쿠폰으로 인한 배달은 불가능하고 방문 포장만 가능합니다\nB.네 알겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속#의 #@이름# 상담사입니다",
+            "norm_text": "A.안녕하세요 #@소속#의 #@이름# 상담사입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+의/JKG+#/SY+@/SY+이름/NNG+#/SY+상담/NNG+사/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.모바일 음식점 쿠폰을 구매하려는데요",
+            "norm_text": "B.모바일 음식점 쿠폰을 구매하려는데요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+모바일/NNP+음식점/NNG+쿠폰/NNG+을/JKO+구매/NNG+하/XSV+려는/ETM+데/NNB+요/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "B.상세 페이지의 매장에서만 사용 가능한 건가요",
+            "norm_text": "B.상세 페이지의 매장에서만 사용 가능한 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+상세/NNG+페이지/NNG+의/JKG+매장/NNG+에서/JKB+만/JX+사용/NNG+가능/NNG+한/XSA+ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.네 구매 페이지에 적혀 있는 매장에서만 사용이 가능하십니다",
+            "norm_text": "A.네 구매 페이지에 적혀 있는 매장에서만 사용이 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+구매/NNG+페이지/NNG+에/JKB+적혀/VV+EC+있/VX+는/ETM+매장/NNG+에서/JKB+만/JX+사용/NNG+이/JKS+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 5,
+            "text": "B.배달 주문은 안 되고 방문 포장만 가능한 거죠",
+            "norm_text": "B.배달 주문은 안 되고 방문 포장만 가능한 거죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+배달/NNG+주문/NNG+은/JX+안/MAG+되/VV+고/EC+방문/NNG+포장/NNG+만/JX+가능/NNG+한/XSA+ETM+거/NNB+죠/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 모바일 쿠폰으로 인한 배달은 불가능하고 방문 포장만 가능합니다",
+            "norm_text": "A.네 모바일 쿠폰으로 인한 배달은 불가능하고 방문 포장만 가능합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+모바일/NNP+쿠폰/NNG+으로/JKB+인한/VV+ETM+배달/NNG+은/JX+불/XPN+가능/NNG+하/XSV+고/EC+방문/NNG+포장/NNG+만/JX+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

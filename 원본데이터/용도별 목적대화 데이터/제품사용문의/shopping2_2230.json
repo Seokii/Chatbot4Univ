@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 110354,
+    "name": "s2_20211104_0001_4104_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110649084352/s2_20211104_0001_4104_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110649084352/s2_20211104_0001_4104_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 115925,
+      "filename": "s2_20211025_0016_0004_01.txt",
+      "title": "s2_20211025_0016_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 385,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 385,
+        "word_size": 89,
+        "text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다\nB.안녕하세요 #@소속# 맞나요\nA.네 맞습니다 무엇을 도와 드릴까요\nB.제품이 이염이나 변색된 경우에는 어떻게 할 수 있나요\nA.이염 또는 변색은 취급 부주의로 발생하는 경우가 대부분인데요\nA.이 경우에는 환불 또는 교환 처리의 조건이 되지 않습니다.\nB.그런가요 보니까 옷이 변색이 된 것 같아서요\nA.제품을 착용하신 상태에서 땀을 흘리게 되면 변색이 되기 쉽습니다\nB.그렇게 되면 관리를 어떻게 해 줘야 하나요\nA.되도록 빨리 세탁을 해 주시면 변색을 방지하는데 도움이 됩니다\nB.매번 드라이 하기가 번거로워서 그랬는데 바로 세탁해야겠네요\nB.자세한 상담 감사합니다 수고하세요\nA.날씨가 많이 추운데 건강 유의하세요\nB.상담사님도 건강하시기 바랍니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 #@소속# 맞나요",
+            "norm_text": "B.안녕하세요 #@소속# 맞나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+맞/VV+나요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 맞습니다 무엇을 도와 드릴까요",
+            "norm_text": "A.네 맞습니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.제품이 이염이나 변색된 경우에는 어떻게 할 수 있나요",
+            "norm_text": "B.제품이 이염이나 변색된 경우에는 어떻게 할 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+제품/NNG+이/JKS+이염/NNP+이나/JC+변색/NNG+된/XSV+ETM+경우/NNG+에/JKB+는/JX+어떻/VA+게/EC+할/VX+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.이염 또는 변색은 취급 부주의로 발생하는 경우가 대부분인데요",
+            "norm_text": "A.이염 또는 변색은 취급 부주의로 발생하는 경우가 대부분인데요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+이/VCP+염/EF+또는/MAJ+변색/NNG+은/JX+취급/NNG+부주의/NNG+로/JKB+발생/NNG+하/XSV+는/ETM+경우/NNG+가/JKS+대부분/NNG+인데요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "A.이 경우에는 환불 또는 교환 처리의 조건이 되지 않습니다.",
+            "norm_text": "A.이 경우에는 환불 또는 교환 처리의 조건이 되지 않습니다.",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+이/MM+경우/NNG+에/JKB+는/JX+환불/NNG+또는/MAJ+교환/NNG+처리/NNG+의/JKG+조건/NNG+이/JKS+되/VV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그런가요 보니까 옷이 변색이 된 것 같아서요",
+            "norm_text": "B.그런가요 보니까 옷이 변색이 된 것 같아서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+그런/MM+가요/NNG+보/VV+니까/EC+옷/NNG+이/JKS+변색/NNG+이/JKS+된/VV+ETM+것/NNB+같/VA+아서요/EC"
+          },
+          {
+            "id": 8,
+            "text": "A.제품을 착용하신 상태에서 땀을 흘리게 되면 변색이 되기 쉽습니다",
+            "norm_text": "A.제품을 착용하신 상태에서 땀을 흘리게 되면 변색이 되기 쉽습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+제품/NNG+을/JKO+착용/NNG+하/XSV+신/EP+ETM+상태/NNG+에서/JKB+땀/NNG+을/JKO+흘리/VV+게/EC+되/VV+면/EC+변색/NNG+이/JKS+되/VV+기/ETN+쉽/VA+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.그렇게 되면 관리를 어떻게 해 줘야 하나요",
+            "norm_text": "B.그렇게 되면 관리를 어떻게 해 줘야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그렇게/MAG+되/VV+면/EC+관리/NNG+를/JKO+어떻게/MAG+해/VV+EC+줘야/VX+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.되도록 빨리 세탁을 해 주시면 변색을 방지하는데 도움이 됩니다",
+            "norm_text": "A.되도록 빨리 세탁을 해 주시면 변색을 방지하는데 도움이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+되/VV+도록/EC+빨리/MAG+세탁/NNG+을/JKO+해/VV+EC+주/VX+시/EP+면/EC+변색/NNG+을/JKO+방지/NNG+하/XSV+는/ETM+데/NNB+도움/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 11,
+            "text": "B.매번 드라이 하기가 번거로워서 그랬는데 바로 세탁해야겠네요",
+            "norm_text": "B.매번 드라이 하기가 번거로워서 그랬는데 바로 세탁해야겠네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+매번/MAG+드라이/NNG+하/XSV+기/ETN+가/JKS+번거로워서/VA+EC+그랬/VV+EP+는데/EC+바로/MAG+세탁/NNG+해야/XSV+EC+VX+겠/EP+네요/EC"
+          },
+          {
+            "id": 12,
+            "text": "B.자세한 상담 감사합니다 수고하세요",
+            "norm_text": "B.자세한 상담 감사합니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+자세/XR+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.날씨가 많이 추운데 건강 유의하세요",
+            "norm_text": "A.날씨가 많이 추운데 건강 유의하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+날씨/NNG+가/JKS+많이/MAG+추운데/VA+EC+건강/NNG+유의/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.상담사님도 건강하시기 바랍니다",
+            "norm_text": "B.상담사님도 건강하시기 바랍니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+상담/NNG+사/NNG+님/XSN+도/JX+건강/NNG+하/XSV+시/EP+기/ETN+바랍니다/VV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

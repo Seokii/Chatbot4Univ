@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 141283,
+    "name": "t1_20211115_0002_0477_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357150695103/t1_20211115_0002_0477_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt202111101357150695103/t1_20211115_0002_0477_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 148103,
+      "filename": "t1_0068_0029_02.txt",
+      "title": "t1_0068_0029_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 295,
+      "annotations": {
+        "subject": "숙박",
+        "speaker_type": "1:1",
+        "size": 295,
+        "word_size": 69,
+        "text": "A.안녕하십니까 #@소속# 고객센터 #@이름# 입니다\nB.투숙객 인데요 내일 조식은 뷔페식 인가요\nA.조식은 한국식 정찬과 미국식 조찬 세트로 구성되어 있습니다\nB.그럼 한국식이나 미국식 둘 중에 하나 선택하면 되는 건가요\nA.그렇습니다 체크인 시 안내가 안되었던 점 죄송합니다\nB.괜찮아요 들었는데 잊었을 수도 있습니다\nA.조식 시간은 오전 7시 부터 9시 까지 이용 가능 하십니다\nB.그럼 조식 장소는 어디인가요\nA.신관 5층에 포시즌스 레스토랑 입니다\nB.그렇군요 잘 알겠습니다 수고하세요\nA.편안한 시간 되세요 상담사 #@이름# 이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 고객센터 #@이름# 입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 고객센터 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.투숙객 인데요 내일 조식은 뷔페식 인가요",
+            "norm_text": "B.투숙객 인데요 내일 조식은 뷔페식 인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+투숙객/NNG+인데요/VCP+EF+내일/MAG+조식/NNG+은/JX+뷔페/NNG+식인/NNG+가요/NNG"
+          },
+          {
+            "id": 3,
+            "text": "A.조식은 한국식 정찬과 미국식 조찬 세트로 구성되어 있습니다",
+            "norm_text": "A.조식은 한국식 정찬과 미국식 조찬 세트로 구성되어 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+조식/NNG+은/JX+한국식/NNP+정찬/NNG+과/JC+미국식/NNG+NNB+조찬/NNG+세트/NNG+로/JKB+구성/NNG+되/XSV+어/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.그럼 한국식이나 미국식 둘 중에 하나 선택하면 되는 건가요",
+            "norm_text": "B.그럼 한국식이나 미국식 둘 중에 하나 선택하면 되는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+한국/NNP+식/XSN+이나/JC+미국식/NNG+NNB+둘/NR+중/NNB+에/JKB+하나/NR+선택/NNG+하/XSV+면/EC+되/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.그렇습니다 체크인 시 안내가 안되었던 점 죄송합니다",
+            "norm_text": "A.그렇습니다 체크인 시 안내가 안 되었던 점 죄송합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+그렇/VA+습니다/EF+체크/NNG+인시/NNG+안내/NNG+가/JKS+안/MAG+되/VV+었/EP+던/ETM+점/NNB+죄송/XR+합니다/XSA+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.괜찮아요 들었는데 잊었을 수도 있습니다",
+            "norm_text": "B.괜찮아요 들었는데 잊었을 수도 있습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+괜찮/VA+아요/EF+들/VV+었/EP+는데/EC+잊/VV+었/EP+을/ETM+수/NNB+도/JX+있/VA+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.조식 시간은 오전 7시 부터 9시 까지 이용 가능 하십니다",
+            "norm_text": "A.조식 시간은 오전 7시 부터 9시 까지 이용 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+조식/NNG+시간/NNG+은/JX+오전/NNG+7/SN+시/NNBC+부터/JX+9/SN+시/NNBC+까지/JX+이용/NNG+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그럼 조식 장소는 어디인가요",
+            "norm_text": "B.그럼 조식 장소는 어디인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그럼/MAJ+조식/NNG+장소/NNG+는/JX+어디/NP+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.신관 5층에 포시즌스 레스토랑 입니다",
+            "norm_text": "A.신관 5층에 포시즌스 레스토랑 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+신관/NNG+5/SN+층/NNG+에/JKB+포/NNG+시즌스/NNP+레스토랑/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그렇군요 잘 알겠습니다 수고하세요",
+            "norm_text": "B.그렇군요 잘 알겠습니다 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EF+잘/MAG+알/VV+겠/EP+습니다/EF+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.편안한 시간 되세요 상담사 #@이름# 이었습니다",
+            "norm_text": "A.편안한 시간 되세요 상담사 #@이름# 이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+편안/NNG+한/XSA+ETM+시간/NNG+되/XSV+세요/EP+EF+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

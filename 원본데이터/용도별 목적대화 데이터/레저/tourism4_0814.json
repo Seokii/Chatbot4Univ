@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 144835,
+    "name": "t4_20211115_0005_0873_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135826096560/t4_20211115_0005_0873_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/89/txt20211110135826096560/t4_20211115_0005_0873_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 153167,
+      "filename": "t4_0068_0067_02.txt",
+      "title": "t4_0068_0067_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 301,
+      "annotations": {
+        "subject": "레저",
+        "speaker_type": "1:1",
+        "size": 301,
+        "word_size": 67,
+        "text": "A.늦게 받아 죄송합니다 #@소속# #@이름#입니다\nB.안녕하세요 여행사 이대리입니다\nA.안녕하세요 대리님 예약 있으신가요\nB.예약 변경 좀 부탁 드릴게요\nA.며칠날 어떤 예약 건인가요\nB.24일 학원 6명 제트스키 체험 추가해 주세요\nA.6명 모두 어린이인가요 인원 구성이 어떻게 되지요\nB.어린이만 6명 추가됩니다 그럼 어린이 19명 성인 3명 맞지요\nA.맞습니다 인원 추가된 예약 확인서 메일로 보내 드릴게요\nB.메일 주소가 바뀌었어요 #@계정#으로 보내 주세요\nA.#@계정# 맞으신가요\nB.맞습니다 #@이름# 님 수고하세요\nA.이대리님도 오늘 수고하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.늦게 받아 죄송합니다 #@소속# #@이름#입니다",
+            "norm_text": "A.늦게 받아 죄송합니다 #@소속# #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+늦/VA+게/EC+받/VV+아/EC+죄송/XR+합니다/XSA+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 여행사 이대리입니다",
+            "norm_text": "B.안녕하세요 여행사 이대리입니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+여행/NNG+사이/NNG+대리/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.안녕하세요 대리님 예약 있으신가요",
+            "norm_text": "A.안녕하세요 대리님 예약 있으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+대리/NNG+님/XSN+예약/NNG+있/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.예약 변경 좀 부탁 드릴게요",
+            "norm_text": "B.예약 변경 좀 부탁 드릴게요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "B/SL+./SY+예약/NNG+변경/NNG+좀/MAG+부탁/NNG+드릴게요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.며칠날 어떤 예약 건인가요",
+            "norm_text": "A.며칠날 어떤 예약 건인가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+며칠/NNG+날/NNG+어떤/MM+예/NNG+약건/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.24일 학원 6명 제트스키 체험 추가해 주세요",
+            "norm_text": "B.24일 학원 6명 제트스키 체험 추가해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+24/SN+일/NNBC+학원/NNG+6/SN+명/NNBC+제트/NNG+스키/NNG+체험/NNG+추가/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 7,
+            "text": "A.6명 모두 어린이인가요 인원 구성이 어떻게 되지요",
+            "norm_text": "A.6명 모두 어린이인가요 인원 구성이 어떻게 되지요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+6/SN+명/NNBC+모두/MAG+어린이/NNG+인가요/VCP+EC+인원/NNG+구성/NNG+이/JKS+어떻게/MAG+되/VV+지요/EC"
+          },
+          {
+            "id": 8,
+            "text": "B.어린이만 6명 추가됩니다 그럼 어린이 19명 성인 3명 맞지요",
+            "norm_text": "B.어린이만 6명 추가됩니다 그럼 어린이 19명 성인 3명 맞지요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+어린이/NNG+만/JX+6/SN+명/NNBC+추가/NNG+됩니다/XSV+EF+그럼/MAJ+어린이/NNG+19/SN+명/NNBC+성인/NNG+3/SN+명/NNBC+맞/VV+지요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.맞습니다 인원 추가된 예약 확인서 메일로 보내 드릴게요",
+            "norm_text": "A.맞습니다 인원 추가된 예약 확인서 메일로 보내 드릴게요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+맞/VV+습니다/EF+인원/NNG+추가/NNG+된/XSV+ETM+예약/NNG+확인/NNG+XSV+서/EC+메일/NNG+로/JKB+보내/VV+드릴게요/EC+VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.메일 주소가 바뀌었어요 #@계정#으로 보내 주세요",
+            "norm_text": "B.메일 주소가 바뀌었어요 #@계정#으로 보내 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+메일/VV+ETM+주소/NNG+가/JKS+바뀌/VV+었/EP+어요/EF+#/SY+@/SY+계정/NNG+#/SY+으로/JKB+보내/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.#@계정# 맞으신가요",
+            "norm_text": "A.#@계정# 맞으신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+계정/NNG+#/SY+맞/VV+으신/EP+ETM+가요/NNG"
+          },
+          {
+            "id": 12,
+            "text": "B.맞습니다 #@이름# 님 수고하세요",
+            "norm_text": "B.맞습니다 #@이름# 님 수고하세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+맞/VV+습니다/EF+#/SY+@/SY+이름/NNG+#/SY+님/XSN+수고/NNG+하/XSV+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.이대리님도 오늘 수고하세요",
+            "norm_text": "A.이대리님도 오늘 수고하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+이/MM+대리/NNG+님/XSN+도/JX+오늘/MAG+수고/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

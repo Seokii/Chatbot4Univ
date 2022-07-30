@@ -1,0 +1,275 @@
+{
+  "dataset": {
+    "identifier": 110673,
+    "name": "c4_20211104_0045_0200_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135234071263/c4_20211104_0045_0200_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135234071263/c4_20211104_0045_0200_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 19939,
+      "filename": "c4_20210823_0009_0006_01.txt",
+      "title": "c4_20210823_0009_0006_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-09-10",
+      "size": 480,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 480,
+        "word_size": 102,
+        "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요\nB.네 남파오거리 버스 노선 알아볼려고요\nB.오거리에서 #@주소# 정류장에 서는 버스요\nA.확인해보니 선생님께서 말씀해주신 남파오거리 검색이 되지 않고 있습니다\nA.남부오거리로 확인됩니다 남부오거리가 아니십니까\nB.네 남부오거리 맞아요\nA.네 그럼 혹시 메모 가능하십니까\nB.네 지금 메모 가능합니다\nA.안내해드리겠습니다 먼저 남부오거리 정류장에서 일번 버스 승차하시고요\nA.#@주소# 아파트 정류장에서 하차하신 후에요\nA.#@주소#까지는 도보거리로 약 삼분 정도 이동하시면 됩니다\nB.버스로는 몇 분 걸리나요\nA.소요시간은 약 시십분으로 정류장 수는 열 개로 확인됩니다\nB.남파오거리에서 탈 때 #@주소#마트 쪽으로 타야 되나요\nB.아니면 터미널 쪽으로 타야 되나요\nA.#@주소#마트 쪽에서 타셔야 합니다\nB.네 알겠습니다 감사합니다\nA.네 다른 문의사항 있으십니까\nB.예 이제 궁금한 건 없습니다\nA.무더운 날씨 건강 유의하세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A.반갑습니다 #@소속# #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 남파오거리 버스 노선 알아볼려고요",
+            "norm_text": "B.네 남파오거리 버스 노선 알아볼려고요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+남파/NNG+오거리/NNG+버스/NNG+노선/NNG+알/VV+아/EC+볼/VX+려고요/EC"
+          },
+          {
+            "id": 3,
+            "text": "B.오거리에서 #@주소# 정류장에 서는 버스요",
+            "norm_text": "B.오거리에서 #@주소# 정류장에 서는 버스요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+오거리/NNG+에서/JKB+#/SY+@/SY+주소/NNG+#/SY+정류장/NNG+에서/JKB+는/JX+버스/NNG+요/VCP+EC"
+          },
+          {
+            "id": 4,
+            "text": "A.확인해보니 선생님께서 말씀해주신 남파오거리 검색이 되지 않고 있습니다",
+            "norm_text": "A.확인해보니 선생님께서 말씀해 주신 남파오거리 검색이 되지 않고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "반박하기",
+            "morpheme": "A/SL+./SY+확인/NNG+해/XSV+EC+보/VX+니/EC+선생/NNG+님/XSN+께서/JKS+말씀/NNG+해/XSV+EC+주/VX+신/EP+ETM+남파/NNG+오거리/NNG+검색/NNG+이/JKS+되/VV+지/EC+않/VX+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "A.남부오거리로 확인됩니다 남부오거리가 아니십니까",
+            "norm_text": "A.남부오거리로 확인됩니다 남부오거리가 아니십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+남부/NNG+오거리/NNG+로/JKB+확인/NNG+됩니다/XSV+EC+남부/NNG+오거리/NNG+가/JKC+아니/VCN+십니까/EP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.네 남부오거리 맞아요",
+            "norm_text": "B.네 남부오거리 맞아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+남부/NNG+오거리/NNG+맞/VV+아요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 그럼 혹시 메모 가능하십니까",
+            "norm_text": "A.네 그럼 혹시 메모 가능하십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+그럼/MAJ+혹시/MAG+메모/NNG+가능/NNG+하/XSV+십니까/EP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.네 지금 메모 가능합니다",
+            "norm_text": "B.네 지금 메모 가능합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+지금/MAG+메모/NNG+가능/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.안내해드리겠습니다 먼저 남부오거리 정류장에서 일번 버스 승차하시고요",
+            "norm_text": "A.안내해드리겠습니다 먼저 남부오거리 정류장에서 일번 버스 승차하시고요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+먼저/MAG+남부/NNG+오거리/NNG+정류장/NNG+에서/JKB+일/NR+번/NNBC+버스/NNG+승차/NNG+하/XSV+시/EP+고요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.#@주소# 아파트 정류장에서 하차하신 후에요",
+            "norm_text": "A.#@주소# 아파트 정류장에서 하차하신 후에요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+아파트/NNG+정류장/NNG+에서/JKB+하차/NNG+하/XSV+신/EP+ETM+후/NNG+에/JKB+요/JX"
+          },
+          {
+            "id": 11,
+            "text": "A.#@주소#까지는 도보거리로 약 삼분 정도 이동하시면 됩니다",
+            "norm_text": "A.#@주소#까지는 도보거리로 약 삼분 정도 이동하시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+까지/JX+는/JX+도보/NNG+거리/NNG+로/JKB+약/MM+삼/NR+분/NNBC+정도/NNG+이동/NNG+하/XSV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.버스로는 몇 분 걸리나요",
+            "norm_text": "B.버스로는 몇 분 걸리나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+버스/NNG+로/JKB+는/JX+몇/MM+분/NNBC+걸리/VV+나요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.소요시간은 약 시십분으로 정류장 수는 열 개로 확인됩니다",
+            "norm_text": "A.소요시간은 약 시십분으로 정류장 수는 열 개로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+소요/NNG+시간/NNG+은/JX+약시/NNG+십/NR+분/NNBC+으로/JKB+정류/NNG+장수/NNG+는/JX+열/NR+개/NNBC+로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "B.남파오거리에서 탈 때 #@주소#마트 쪽으로 타야 되나요",
+            "norm_text": "B.남파오거리에서 탈 때 #@주소#마트 쪽으로 타야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+남파/NNG+오거리/NNG+에서/JKB+탈/XPN+때/NNG+#/SY+@/SY+주소/NNG+#/SY+마트/NNG+쪽/NNB+으로/JKB+타/VV+야/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 15,
+            "text": "B.아니면 터미널 쪽으로 타야 되나요",
+            "norm_text": "B.아니면 터미널 쪽으로 타야 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아니면/MAJ+터미널/NNG+쪽/NNB+으로/JKB+타/VV+야/EC+되/VV+나요/EC"
+          },
+          {
+            "id": 16,
+            "text": "A.#@주소#마트 쪽에서 타셔야 합니다",
+            "norm_text": "A.#@주소#마트 쪽에서 타셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+마트/NNG+쪽/NNB+에서/JKB+타/VV+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 17,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 18,
+            "text": "A.네 다른 문의사항 있으십니까",
+            "norm_text": "A.네 다른 문의사항 있으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+다른/MM+문/NNG+의/JKG+사항/NNG+있/VV+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 19,
+            "text": "B.예 이제 궁금한 건 없습니다",
+            "norm_text": "B.예 이제 궁금한 건 없습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+이제/MAG+궁금/XR+한/XSA+ETM+건/NNB+JX+없/VA+습니다/EF"
+          },
+          {
+            "id": 20,
+            "text": "A.무더운 날씨 건강 유의하세요",
+            "norm_text": "A.무더운 날씨 건강 유의하세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+무더운/VA+ETM+날씨/NNG+건강/NNG+유의/NNG+하/XSV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

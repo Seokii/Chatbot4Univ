@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 110231,
+    "name": "c4_20211104_0045_0014_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135241022668/c4_20211104_0045_0014_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/48/txt20210910135241022668/c4_20211104_0045_0014_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 20104,
+      "filename": "c4_20210902_0008_0014_01.txt",
+      "title": "c4_20210902_0008_0014_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-09-10",
+      "size": 387,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 387,
+        "word_size": 81,
+        "text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다\nB.네 안녕하세요 #@주소# 거든요\nA.네 #@주소# 십니까 어떤 문의이십니까\nB.예 여기 아파트 앞에 버스종점이 있는데 버스가 많아서 위험해보여요\nA.네 일단 불편드려 죄송합니다 버스종점은 이용편의를 위해 운행되고 있습니다\nB.이용편의를 위해서지만 아파트 앞에 종점은 위험해보이거든요\nA.네 죄송합니다 대체부지 등이 확보되지 않을 경우 이전은 어려운 상황입니다\nB.대체부지는 어떻게 확보할 예정은 있는건가요\nA.네 현재 대체부지 확보를 지속적으로 검토중입니다\nB.네 검토하고는 있는거군요\nA.네 맞습니다 저희가 문의 관련하여 관련 부서 협의 후 개선점을 찾아보겠습니다\nB.네 안전이 중요하니까요 꼭 개선해주세요\nA.감사합니다 #@소속# #@이름#이었습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다",
+            "norm_text": "A.안녕하세요 #@소속# 고객센터 #@이름# 상담원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+상담원/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 #@주소# 거든요",
+            "norm_text": "B.네 안녕하세요 #@주소# 거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+주소/NNG+#/SY+거든요/JX"
+          },
+          {
+            "id": 3,
+            "text": "A.네 #@주소# 십니까 어떤 문의이십니까",
+            "norm_text": "A.네 #@주소# 십니까 어떤 문의이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+#/SY+@/SY+주소/NNG+#/SY+십니까/VCP+EP+EC+어떤/MM+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.예 여기 아파트 앞에 버스종점이 있는데 버스가 많아서 위험해보여요",
+            "norm_text": "B.예 여기 아파트 앞에 버스종점이 있는데 버스가 많아서 위험해보여요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+여기/NP+아파트/NNG+앞/NNG+에/JKB+버스/NNG+종점/NNG+이/JKS+있/VV+는데/EC+버스/NNG+가/JKS+많/VA+아서/EC+위험/NNG+해/XSV+EC+보여요/VV+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.네 일단 불편드려 죄송합니다 버스종점은 이용편의를 위해 운행되고 있습니다",
+            "norm_text": "A.네 일단 불편드려 죄송합니다 버스종점은 이용편의를 위해 운행되고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+네/IC+일단/MAG+불편/NNG+드려/VV+EC+죄송/XR+합니다/XSA+EF+버스/NNG+종점/NNG+은/JX+이용/NNG+편의/NNG+를/JKO+위해/VV+EC+운행/NNG+되/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.이용편의를 위해서지만 아파트 앞에 종점은 위험해보이거든요",
+            "norm_text": "B.이용편의를 위해서지만 아파트 앞에 종점은 위험해보이거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+./SY+이용/NNG+편의/NNG+를/JKO+위해서/VV+EC+VCP+지만/EC+아파트/NNG+앞/NNG+에/JKB+종점/NNG+은/JX+위험/NNG+해/XSV+EC+보이/VV+거든요/EF"
+          },
+          {
+            "id": 7,
+            "text": "A.네 죄송합니다 대체부지 등이 확보되지 않을 경우 이전은 어려운 상황입니다",
+            "norm_text": "A.네 죄송합니다 대체부지 등이 확보되지 않을 경우 이전은 어려운 상황입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "사과하기",
+            "morpheme": "A/SL+네/IC+죄송/XR+합니다/XSA+EF+대체/MAG+부지/NNG+등/NNB+이/JKS+확보/NNG+되/XSV+지/EC+않/VX+을/ETM+경우/NNG+이전/NNG+은/JX+어려운/VA+ETM+상황/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.대체부지는 어떻게 확보할 예정은 있는건가요",
+            "norm_text": "B.대체부지는 어떻게 확보할 예정은 있는건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+대체/MAG+부지/NNG+는/JX+어떻게/MAG+확보/NNG+할/XSV+ETM+예정/NNG+은/JX+있/VA+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.네 현재 대체부지 확보를 지속적으로 검토중입니다",
+            "norm_text": "A.네 현재 대체부지 확보를 지속적으로 검토중입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+현재/MAG+대체/MAG+부지/NNG+확보/NNG+를/JKO+지속/NNG+적/XSN+으로/JKB+검토/NNG+중/NNB+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 검토하고는 있는거군요",
+            "norm_text": "B.네 검토하고는 있는거군요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+검토/NNG+하/XSV+고는/EC+있/VX+는/ETM+거/NNB+군요/VCP+EF"
+          },
+          {
+            "id": 11,
+            "text": "A.네 맞습니다 저희가 문의 관련하여 관련 부서 협의 후 개선점을 찾아보겠습니다",
+            "norm_text": "A.네 맞습니다 저희가 문의 관련하여 관련 부서 협의 후 개선점을 찾아보겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+맞/VV+습니다/EF+저희/NP+가/JKS+문/NNG+의/JKG+관련/NNG+하/XSV+여/EC+관련/NNG+부서/NNG+협의/NNG+후/NNG+개선/NNG+점/NNG+을/JKO+찾아보/VV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 12,
+            "text": "B.네 안전이 중요하니까요 꼭 개선해주세요",
+            "norm_text": "B.네 안전이 중요하니까요 꼭 개선해주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+안전/NNG+이/JKS+중요/NNG+하/XSV+니까요/EC+꼭/MAG+개선/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 13,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

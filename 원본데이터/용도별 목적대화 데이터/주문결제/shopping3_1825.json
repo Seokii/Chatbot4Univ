@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "identifier": 108261,
+    "name": "s3_20211104_0002_0072_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110745039263/s3_20211104_0002_0072_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110745039263/s3_20211104_0002_0072_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 118000,
+      "filename": "s3_20211005_0004_0013_01.txt",
+      "title": "s3_20211005_0004_0013_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 418,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 418,
+        "word_size": 95,
+        "text": "A.무엇이든 도와드리겠습니다 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 여쭐 게 있어서 문의드렸습니다\nA.어떤 문의신지 편히 말씀해 주세요 고객님\nB.다름아니라 소액 결제에 한도가 있는지 궁금해서요\nA.고객님 죄송하지만 제가 확인 후 안내드릴게요 잠시만 기다려 주세요\nB.네 알겠습니다 천천히 하세요 상담사님\nA.기다려 주셔서 감사합니다 말씀드릴게요 고객님\nA.회원별로 당월 최대 사용가능 금액은 삼십만 원입니다\nB.그래요 생각보다 한도가 크네요\nA.네 고객님 그런데 고객님마다 다를 수 있다고 합니다\nA.이동통신사의 한도 정책에 따라 고객별로 한도가 다를 수 있어요\nA.사용 전에 먼저 확인 하시는 게 좋을 거 같습니다\nB.그렇군요 그럼 제가 먼저 확인 후 그렇게 사용하겠습니다\nB.안내 감사합니다 상담사님\nA.#@소속# #@이름#이었습니다 즐거운 하루 보내세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.무엇이든 도와드리겠습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.무엇이든 도와드리겠습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+무엇/NP+이/VCP+든/EC+도와/VV+EC+드리/VX+겠/EP+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 여쭐 게 있어서 문의드렸습니다",
+            "norm_text": "B.네 안녕하세요 여쭐 게 있어서 문의드렸습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+VCP+여/EC+쭐/VV+게/EC+있/VX+어서/EC+문/NNG+의/JKG+드렸/VV+EP+습니다/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.어떤 문의신지 편히 말씀해 주세요 고객님",
+            "norm_text": "A.어떤 문의신지 편히 말씀해 주세요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+어떤/MM+문의/NNG+신지/JKS+EP+EC+편히/MAG+말씀/NNG+해/XSV+EC+주/VX+세요/EP+EF+VCP+고/EC+객님/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.다름아니라 소액 결제에 한도가 있는지 궁금해서요",
+            "norm_text": "B.다름아니라 소액 결제에 한도가 있는지 궁금해서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+다름/VA+ETN+아니/VCN+라/EC+소액결제/NNP+에/JKB+한도/NNG+가/JKS+있/VA+는지/EC+궁금/XR+해서/XSA+EC+VCP+요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.고객님 죄송하지만 제가 확인 후 안내드릴게요 잠시만 기다려 주세요",
+            "norm_text": "A.고객님 죄송하지만 제가 확인 후 안내드릴게요 잠시만 기다려 주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+죄송/XR+하/XSA+지만/EC+제/NP+가/JKS+확인/NNG+후/NNG+안/MAG+내/VV+드릴게요/EC+VX+EC+잠시/NNG+만/JX+기다려/VV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 6,
+            "text": "B.네 알겠습니다 천천히 하세요 상담사님",
+            "norm_text": "B.네 알겠습니다 천천히 하세요 상담사님",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+천천히/MAG+하/VV+세요/EP+EF+상담/NNG+사/NNG+님/XSN"
+          },
+          {
+            "id": 7,
+            "text": "A.기다려 주셔서 감사합니다 말씀드릴게요 고객님",
+            "norm_text": "A.기다려 주셔서 감사합니다 말씀드릴게요 고객님",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+기다려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EF+말씀/NNG+드릴게요/VV+EC+고객/NNG+님/XSN"
+          },
+          {
+            "id": 8,
+            "text": "A.회원별로 당월 최대 사용가능 금액은 삼십만 원입니다",
+            "norm_text": "A.회원별로 당월 최대 사용가능 금액은 삼십만 원입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+회원/NNG+별/XSN+로/JKB+당월/NNG+최대/NNG+사용/NNG+가능/NNG+금액/NNG+은/JX+삼/NR+십/NR+만/NR+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그래요 생각보다 한도가 크네요",
+            "norm_text": "B.그래요 생각보다 한도가 크네요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EF+생각/NNG+보다/JKB+한도/NNG+가/JKS+크/VA+네요/EC"
+          },
+          {
+            "id": 10,
+            "text": "A.네 고객님 그런데 고객님마다 다를 수 있다고 합니다",
+            "norm_text": "A.네 고객님 그런데 고객님마다 다를 수 있다고 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+고객/NNG+님/XSN+그런데/MAJ+고객/NNG+님/XSN+마다/JX+다를/VA+ETM+수/NNB+있/VV+다고/EC+합니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.이동통신사의 한도 정책에 따라 고객별로 한도가 다를 수 있어요",
+            "norm_text": "A.이동통신사의 한도 정책에 따라 고객별로 한도가 다를 수 있어요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+이동/NNG+통신사/NNG+의/JKG+한도/NNG+정책/NNG+에/JKB+따라/VV+EC+고객/NNG+별/XSN+로/JKB+한도/NNG+가/JKS+다를/VA+ETM+수/NNB+있/VV+어요/EF"
+          },
+          {
+            "id": 12,
+            "text": "A.사용 전에 먼저 확인 하시는 게 좋을 거 같습니다",
+            "norm_text": "A.사용 전에 먼저 확인 하시는 게 좋을 거 같습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "충고하기",
+            "morpheme": "A/SL+./SY+사용/NNG+전/NNG+에/JKB+먼저/MAG+확인/NNG+하/XSV+시/EP+는/ETM+게/NNB+JKS+좋/VA+을/ETM+거/NNB+같/VA+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "B.그렇군요 그럼 제가 먼저 확인 후 그렇게 사용하겠습니다",
+            "norm_text": "B.그렇군요 그럼 제가 먼저 확인 후 그렇게 사용하겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "B/SL+그렇/VA+군요/EF+그럼/MAJ+제/NP+가/JKS+먼저/MAG+확인/NNG+후/NNG+그렇게/MAG+사용/NNG+하/XSV+겠/EP+습니다/EF"
+          },
+          {
+            "id": 14,
+            "text": "B.안내 감사합니다 상담사님",
+            "norm_text": "B.안내 감사합니다 상담사님",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+안내/NNG+감사/NNG+합니다/XSV+EF+상담/NNG+사/NNG+님/XSN"
+          },
+          {
+            "id": 15,
+            "text": "A.#@소속# #@이름#이었습니다 즐거운 하루 보내세요",
+            "norm_text": "A.#@소속# #@이름#이었습니다 즐거운 하루 보내세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF+즐거운/VA+ETM+하루/NNG+보내/VV+세요/EP+EF"
+          }
+        ]
+      }
+    }
+  ]
+}

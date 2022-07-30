@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 117946,
+    "name": "s3_20211105_0002_0061_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744027563/s3_20211105_0002_0061_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211101110744027563/s3_20211105_0002_0061_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 117932,
+      "filename": "s3_20211001_0010_0001_01.txt",
+      "title": "s3_20211001_0010_0001_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 408,
+      "annotations": {
+        "subject": "주문/결제",
+        "speaker_type": "1:1",
+        "size": 408,
+        "word_size": 93,
+        "text": "A:안녕하세요 #@소속# 상담사 #@이름#입니다 무엇을 도와드릴까요\nB.무통장입금으로 여러 건 주문을 했거든요\nA.고객님 입금 확인 문의신가요\nB.아니요 이 경우에 금액 합산해서 한 번에 입금해도 되나요\nA.죄송하지만 그 경우 주문건별로 따로 입금하셔야 해요\nB.어차피 제가 다 구매한건데 왜 그렇게 해야 해요\nA.각 주문 금액에 따라 가상계좌 번호가 발급됩니다\nA.그러므로 발급된 가상계좌번호별로 각각의 금액을 입금해주셔야 해요\nB.그러면 하나의 계좌번호로 전체 금액 입금하면 문제가 되는 거에요\nA.네 입금 오류가 발생해서 제품이 발송되지 않습니다\nB.알겠습니다 이거 현금인출기에서 보내드려도 되죠\nA.가능은 하지만 입금 불가한 경우가 있습니다\nA.가능한 한 인터넷이나 핸드폰 이용하셔서 입금해주세요\nB.예 그러면 인터넷으로 한 번 해볼게요 수고해요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A:안녕하세요 #@소속# 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "norm_text": "A:안녕하세요 #@소속# 상담사 #@이름#입니다 무엇을 도와드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+:/SC+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담/NNG+사/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.무통장입금으로 여러 건 주문을 했거든요",
+            "norm_text": "B.무통장입금으로 여러 건 주문을 했거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+무/XPN+통장/NNG+입금/NNG+으로/JKB+여러/MM+건/NNBC+주문/NNG+을/JKO+했/VV+EP+거든요/EF"
+          },
+          {
+            "id": 3,
+            "text": "A.고객님 입금 확인 문의신가요",
+            "norm_text": "A.고객님 입금 확인 문의신가요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+고객/NNG+님/XSN+입금/NNG+확인/NNG+문/NNG+의/JKG+신/XPN+가요/NNG"
+          },
+          {
+            "id": 4,
+            "text": "B.아니요 이 경우에 금액 합산해서 한 번에 입금해도 되나요",
+            "norm_text": "B.아니요 이 경우에 금액 합산해서 한 번에 입금해도 되나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+아니요/IC+이/MM+경우/NNG+에/JKB+금액/NNG+합산/NNG+해서/XSV+EC+한/MM+번/NNBC+에/JKB+입금/NNG+해도/XSV+EC+되/VV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.죄송하지만 그 경우 주문건별로 따로 입금하셔야 해요",
+            "norm_text": "A.죄송하지만 그 경우 주문건별로 따로 입금하셔야 해요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+죄송/XR+하/XSA+지만/EC+그/MM+경우/NNG+주문건/NNP+별/XSN+로/JKB+따로/MAG+입금/NNG+하/XSV+셔야/EP+EC+해요/VX+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.어차피 제가 다 구매한건데 왜 그렇게 해야 해요",
+            "norm_text": "B.어차피 제가 다 구매한건데 왜 그렇게 해야 해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+어차피/MAG+제/NP+가/JKS+다/MAG+구매/NNG+한/XSA+ETM+건데/NNB+VCP+EC+왜/MAG+그렇게/MAG+해야/VV+EC+해요/VX+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.각 주문 금액에 따라 가상계좌 번호가 발급됩니다",
+            "norm_text": "A.각 주문 금액에 따라 가상계좌 번호가 발급됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+각/MM+주문/NNG+금액/NNG+에/JKB+따라/VV+EC+가상/NNG+계좌/NNG+번호/NNG+가/JKS+발급/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.그러므로 발급된 가상계좌번호별로 각각의 금액을 입금해주셔야 해요",
+            "norm_text": "A.그러므로 발급된 가상계좌번호별로 각각의 금액을 입금해주셔야 해요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+그러므로/MAJ+발급/NNG+된/XSV+ETM+가상/NNG+계좌/NNG+번호/NNG+별/XSN+로/JKB+각각/NNG+의/JKG+금액/NNG+을/JKO+입금/NNG+해/XSV+EC+주/VX+셔야/EP+EC+해요/VX+EC"
+          },
+          {
+            "id": 9,
+            "text": "B.그러면 하나의 계좌번호로 전체 금액 입금하면 문제가 되는 거에요",
+            "norm_text": "B.그러면 하나의 계좌번호로 전체 금액 입금하면 문제가 되는 거에요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면/MAJ+하나/NR+의/JKG+계좌/NNG+번호/NNG+로/JKB+전체/NNG+금액/NNG+입금/NNG+하/XSV+면/EC+문제/NNG+가/JKS+되/VV+는/ETM+거/NNB+에요/VCP+EF"
+          },
+          {
+            "id": 10,
+            "text": "A.네 입금 오류가 발생해서 제품이 발송되지 않습니다",
+            "norm_text": "A.네 입금 오류가 발생해서 제품이 발송되지 않습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+입금/NNG+오류/NNG+가/JKS+발생/NNG+해서/XSV+EC+제품/NNG+이/JKS+발송/NNG+되/XSV+지/EC+않/VX+습니다/EF"
+          },
+          {
+            "id": 11,
+            "text": "B.알겠습니다 이거 현금인출기에서 보내드려도 되죠",
+            "norm_text": "B.알겠습니다 이거 현금인출기에서 보내드려도 되죠",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+알/VV+겠/EP+습니다/EF+이거/NP+현금/NNG+인출/NNG+기/NNG+에서/JKB+보내/VV+드려도/EC+VX+EC+되/VV+죠/EC"
+          },
+          {
+            "id": 12,
+            "text": "A.가능은 하지만 입금 불가한 경우가 있습니다",
+            "norm_text": "A.가능은 하지만 입금 불가한 경우가 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+가능/NNG+은/JX+하지만/MAJ+입금/NNG+불가/NNG+한/XSA+ETM+경우/NNG+가/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 13,
+            "text": "A.가능한 한 인터넷이나 핸드폰 이용하셔서 입금해주세요",
+            "norm_text": "A.가능한 한 인터넷이나 핸드폰 이용하셔서 입금해주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+가능/NNG+한/XSA+ETM+한/MM+인터넷/NNG+이나/JC+핸드폰/NNG+이용/NNG+하/XSV+셔서/EP+EC+입금/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 14,
+            "text": "B.예 그러면 인터넷으로 한 번 해볼게요 수고해요",
+            "norm_text": "B.예 그러면 인터넷으로 한 번 해볼게요 수고해요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "주장하기",
+            "morpheme": "B/SL+예/IC+그러면/MAJ+인터넷/NNG+으로/JKB+한/MM+번/NNBC+해/VV+EC+볼게요/VX+EF+수고/NNG+해요/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

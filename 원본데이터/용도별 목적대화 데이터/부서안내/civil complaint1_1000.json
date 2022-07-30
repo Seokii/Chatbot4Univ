@@ -1,0 +1,167 @@
+{
+  "dataset": {
+    "identifier": 56082,
+    "name": "c1_20211019_0002_0001_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt202110081307580431104/c1_20211019_0002_0001_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt202110081307580431104/c1_20211019_0002_0001_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 51219,
+      "filename": "c1_20210924_0021_0004_01.txt",
+      "title": "c1_20210924_0021_0004_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 288,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 288,
+        "word_size": 60,
+        "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다\nB.안녕하세요 물어볼게 있어서 연락했어요\nA.신속하고 정확하게 답변 해드리겠습니다\nB.해양조사 중 연안해역조사란 어떤 것을 의미하나요\nA.소형선박의 통항이 많은 연안해역의 해저지형 해저지층 등을 조사하는 것입니다\nB.좀 더 자세히 알고 싶은데 담당 부서가 있나요\nA.#@소속# 수로측량과에서 담당하고 있습니다\nB.담당 부서 전화번호좀 안내해 주세요\nA.#@전번#으로 전화하셔서 내선번호 이 번을 누르시면 됩니다\nB.친절한 안내 감사합니다\nA.추가 문의 사항 있으시면 언제든지 연락주세요",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.반갑습니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.안녕하세요 물어볼게 있어서 연락했어요",
+            "norm_text": "B.안녕하세요 물어볼게 있어서 연락했어요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "B/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+물어볼/VV+ETM+게/NNB+JKS+있/VA+어서/EC+연락/NNG+했어요/XSV+EP+EC"
+          },
+          {
+            "id": 3,
+            "text": "A.신속하고 정확하게 답변 해드리겠습니다",
+            "norm_text": "A.신속하고 정확하게 답변 해드리겠습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "약속하기(개인적 수준의 서약)",
+            "morpheme": "A/SL+./SY+신속/NNG+하/XSV+고/EC+정확/NNG+하/XSV+게/EC+답변/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF"
+          },
+          {
+            "id": 4,
+            "text": "B.해양조사 중 연안해역조사란 어떤 것을 의미하나요",
+            "norm_text": "B.해양조사 중 연안해역조사란 어떤 것을 의미하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+해양/NNG+조사/NNG+중/NNB+연안/NNG+해역/NNG+조사/NNG+란/JX+어떤/MM+것/NNB+을/JKO+의미/NNG+하/XSV+나요/EC"
+          },
+          {
+            "id": 5,
+            "text": "A.소형선박의 통항이 많은 연안해역의 해저지형 해저지층 등을 조사하는 것입니다",
+            "norm_text": "A.소형선박의 통항이 많은 연안해역의 해저지형 등을 조사하는 것입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+소형/NNG+선박/NNG+의/JKG+통항/NNG+이/JKS+많/VA+은/ETM+연안/NNG+해역/NNG+의/JKG+해저/NNG+지형/NNG+등/NNB+을/JKO+조사/NNG+하/XSV+는/ETM+것/NNB+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.좀 더 자세히 알고 싶은데 담당 부서가 있나요",
+            "norm_text": "B.좀 더 자세히 알고 싶은데 담당 부서가 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+좀/MAG+더/MAG+자세히/MAG+알/VV+고/EC+싶/VX+은데/EC+담당/NNG+부서/NNG+가/JKS+있/VA+나요/EC"
+          },
+          {
+            "id": 7,
+            "text": "A.#@소속# 수로측량과에서 담당하고 있습니다",
+            "norm_text": "A.#@소속# 수로측량과에서 담당하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+소속/NNG+#/SY+수로/NNG+측량/NNG+과/NNG+에서/JKB+담당/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.담당 부서 전화번호좀 안내해 주세요",
+            "norm_text": "B.담당 부서 전화번호좀 안내해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+./SY+담당/NNG+부서/NNG+전화/NNG+번호/NNG+좀/MAG+안내/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 9,
+            "text": "A.#@전번#으로 전화하셔서 내선번호 이 번을 누르시면 됩니다",
+            "norm_text": "A.#@전번#으로 전화하셔서 내선번호 이 번을 누르시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+전번/NNG+#/SY+으로/JKB+전화/NNG+하/XSV+셔서/EP+EC+내/NP+JKG+선번호/NNG+이번/NNG+을/JKO+누르/VV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.친절한 안내 감사합니다",
+            "norm_text": "B.친절한 안내 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+안내/NNG+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 11,
+            "text": "A.추가 문의 사항 있으시면 언제든지 연락주세요",
+            "norm_text": "A.추가 문의 사항 있으시면 언제든지 연락주세요",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+추가/NNG+문/NNG+의/JKG+사항/NNG+있/VV+으시/EP+면/EC+언제/NP+든지/VCP+EC+연락/NNG+주세요/NNP"
+          }
+        ]
+      }
+    }
+  ]
+}

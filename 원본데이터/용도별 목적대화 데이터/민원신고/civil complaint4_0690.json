@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 42601,
+    "name": "c4_20211013_0011_0151_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/43/txt202110081311580351107/c4_20211013_0011_0151_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/43/txt202110081311580351107/c4_20211013_0011_0151_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 56418,
+      "filename": "c4_20210923_0022_0004_01.txt",
+      "title": "c4_20210923_0022_0004_01",
+      "mediatype": "SNS(게시판)",
+      "medianame": "SNS(게시판)",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 367,
+      "annotations": {
+        "subject": "민원신고",
+        "speaker_type": "1:1",
+        "size": 367,
+        "word_size": 85,
+        "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다\nB.저는 #@주소#에 사는 주민인데 건의 사항이 있어서요\nA.#@주소#요 어떤 건의 이십니까\nB.제가 출 퇴근길에 #@소속#기관 근처를 지나다니거든요\nB.혹시 #@소속#기관은 어떤 일을 하는 곳인지 알 수 있나요\nA.네 해당 기관 업무 설명 드리면 될까요\nB.혹시 출입하는 차량들도 많던데 무슨 목적으로 들어가는 건가요\nA.우선 해당 기관은 학교 시설 보수지원 직속 기관이고요\nA.사립학교 시설 업무 지원을 하는 기관입니다\nB.그런 일을 하는지 처음 알았네요\nA.학교시설 관리 지원이나 시설 보수지원 그리고 시설공사 및 안전 관리 등 업무를 합니다\nB.그렇군요 알려주셔서 감사합니다\nA.네 감사합니다 상담원 #@이름# 이였습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.저는 #@주소#에 사는 주민인데 건의 사항이 있어서요",
+            "norm_text": "B.저는 #@주소#에 사는 주민인데 건의 사항이 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "N/A",
+            "morpheme": "B/SL+저/NP+는/JX+#/SY+@/SY+주소/NNG+#/SY+에/JKB+사/VV+는/ETM+주민/NNG+인데/VCP+EC+건의/NNG+사항/NNG+이/JKS+있/VV+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.#@주소#요 어떤 건의 이십니까",
+            "norm_text": "A.#@주소#요 어떤 건의 이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+#/SY+@/SY+주소/NNG+#/SY+요/JX+어떤/MM+건의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 4,
+            "text": "B.제가 출 퇴근길에 #@소속#기관 근처를 지나다니거든요",
+            "norm_text": "B.제가 출 퇴근길에 #@소속#기관 근처를 지나다니거든요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+제/NP+가/JKS+출퇴근길/NNG+에/JKB+#/SY+@/SY+소속/NNG+#/SY+기관/NNG+근처/NNG+를/JKO+지나다니/VV+거든요/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.혹시 #@소속#기관은 어떤 일을 하는 곳인지 알 수 있나요",
+            "norm_text": "B.혹시 #@소속#기관은 어떤 일을 하는 곳인지 알 수 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+#/SY+@/SY+소속/NNG+#/SY+기관/NNG+은/JX+어떤/MM+일/NNG+을/JKO+하/VV+는/ETM+곳/NNG+인지/VCP+EC+알/VV+ETM+수/NNB+있/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.네 해당 기관 업무 설명 드리면 될까요",
+            "norm_text": "A.네 해당 기관 업무 설명 드리면 될까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+해당/NNG+기관/NNG+업무/NNG+설명/NNG+드리/VV+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 7,
+            "text": "B.혹시 출입하는 차량들도 많던데 무슨 목적으로 들어가는 건가요",
+            "norm_text": "B.혹시 출입하는 차량들도 많던데 무슨 목적으로 들어가는 건가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+혹시/MAG+출입/NNG+하/XSV+는/ETM+차량/NNG+들/XSN+도/JX+많/VA+던데/EC+무슨/MM+목적/NNG+으로/JKB+들어가/VV+는/ETM+건가요/NNB+VCP+EC"
+          },
+          {
+            "id": 8,
+            "text": "A.우선 해당 기관은 학교 시설 보수지원 직속 기관이고요",
+            "norm_text": "A.우선 해당 기관은 학교 시설 보수지원 직속 기관이고요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+우선/MAG+해당/NNG+기관/NNG+은/JX+학교/NNG+시설/NNG+보수/NNG+지원/NNG+직속/NNG+기관/NNG+이/JKS+고요/NNG"
+          },
+          {
+            "id": 9,
+            "text": "A.사립학교 시설 업무 지원을 하는 기관입니다",
+            "norm_text": "A.사립학교 시설 업무 지원을 하는 기관입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+사립/NNG+학교/NNG+시설/NNG+업무/NNG+지원/NNG+을/JKO+하/VV+는/ETM+기관/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.그런 일을 하는지 처음 알았네요",
+            "norm_text": "B.그런 일을 하는지 처음 알았네요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그런/MM+일/NNG+을/JKO+하/VV+는지/EC+처음/MAG+알/VV+았/EP+네요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.학교시설 관리 지원이나 시설 보수지원 그리고 시설공사 및 안전 관리 등 업무를 합니다",
+            "norm_text": "A.학교시설 관리 지원이나 시설 보수지원 그리고 시설공사 및 안전 관리 등 업무를 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+학교/NNG+시설/NNG+관리/NNG+지원/NNG+이나/JC+시설/NNG+보수/NNG+지원/NNG+그리고/MAJ+시설/NNG+공사/NNG+및/MAJ+안전/NNG+관리/NNG+등/NNB+업무/NNG+를/JKO+합니다/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.그렇군요 알려주셔서 감사합니다",
+            "norm_text": "B.그렇군요 알려주셔서 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+그렇/VA+군요/EC+알려/VV+EC+주/VX+셔서/EP+EC+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "norm_text": "A.네 감사합니다 상담원 #@이름# 이였습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+네/IC+감사/NNG+합니다/XSV+EF+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+이/VCP+였/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

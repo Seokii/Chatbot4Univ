@@ -1,0 +1,203 @@
+{
+  "dataset": {
+    "identifier": 44834,
+    "name": "c2_20211014_0002_0175_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130806005792/c2_20211014_0002_0175_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/40/txt20211008130806005792/c2_20211014_0002_0175_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 52135,
+      "filename": "c2_20210908_0007_0008_01.txt",
+      "title": "c2_20210908_0007_0008_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-10-08",
+      "size": 384,
+      "annotations": {
+        "subject": "절차 문의",
+        "speaker_type": "1:1",
+        "size": 384,
+        "word_size": 90,
+        "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다\nB.네 안녕하세요 문의할 게 있어서요\nA.네 어떤 문의이실까요\nB.몇년 간 의료비 공제를 받지 못해서 별도로 추가 공제 신청을 하고 싶습니다\nB.어떻게 신청해야 하나요\nA.추가공제는 기본공제대상자이면서 해당 추가공제 요건에 해당하는 경우에 받을 수 있습니다\nA. 추가공제 요건에 해당되는 경우 경정청구를 통하여 환급 받을 수 있습니다\nB.네 찾아봤는데 해당 되더라구요\nA.경정청구는 온라인 방법과 직접 신고서 작성을 통한 서면 신고 방법이 있습니다\nA.두 경우 모두 추가공제 요건 증명서류는 첨부되어야 합니다\nB.네 그 서류 챙겨서 #@소속#을 방문하면 될까요\nA.네 그러시면 됩니다\nB.네 알겠습니다 감사합니다\nA.네 원활한 업무 되시길 바라겠습니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.안녕하세요 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+세요/EP+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.네 안녕하세요 문의할 게 있어서요",
+            "norm_text": "B.네 안녕하세요 문의할 게 있어서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+안녕/NNG+하/XSV+세요/EP+EF+문의/NNG+할/XSV+ETM+게/NNB+JKS+있/VA+어서요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.네 어떤 문의이실까요",
+            "norm_text": "A.네 어떤 문의이실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+네/IC+어떤/MM+문의/NNG+이/VCP+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.몇년 간 의료비 공제를 받지 못해서 별도로 추가 공제 신청을 하고 싶습니다",
+            "norm_text": "B.몇년 간 의료비 공제를 받지 못해서 별도로 추가 공제 신청을 하고 싶습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+몇/MM+년/NNBC+간/NNG+의료비/NNG+공제/NNG+를/JKO+받/VV+지/EC+못해서/VX+EC+별도/NNG+로/JKB+추가/NNG+공제/NNG+신청/NNG+을/JKO+하/VV+고/EC+싶/VX+습니다/EF"
+          },
+          {
+            "id": 5,
+            "text": "B.어떻게 신청해야 하나요",
+            "norm_text": "B.어떻게 신청해야 하나요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+어떻게/MAG+신청/NNG+해야/XSV+EC+하/VV+나요/EC"
+          },
+          {
+            "id": 6,
+            "text": "A.추가공제는 기본공제대상자이면서 해당 추가공제 요건에 해당하는 경우에 받을 수 있습니다",
+            "norm_text": "A.기본공제대상자이면서 해당 추가공제 요건에 해당하면 받을 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+기본/NNG+공제/NNG+대상자/NNG+이/VCP+면서/EC+해당/NNG+추가/NNG+공제/NNG+요건/NNG+에/JKB+해당/NNG+하/XSV+면/EC+받/VV+을/ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "A. 추가공제 요건에 해당되는 경우 경정청구를 통하여 환급 받을 수 있습니다",
+            "norm_text": "A. 추가공제 요건에 해당되는 경우 경정청구를 통하여 환급 받을 수 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+추가/NNG+공제/NNG+요건/NNG+에/JKB+해당/NNG+되/XSV+는/ETM+경우/NNG+경정/NNG+청구/NNG+를/JKO+통하/VV+여/EC+환급/NNG+받/VV+을/ETM+수/NNB+있/VV+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.네 찾아봤는데 해당 되더라구요",
+            "norm_text": "B.네 찾아봤는데 해당 되더라구요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+찾/VV+아/EC+봤/VX+EP+는데/EC+해당/NNG+되/XSV+더라구요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.경정청구는 온라인 방법과 직접 신고서 작성을 통한 서면 신고 방법이 있습니다",
+            "norm_text": "A.경정청구는 온라인 방법과 직접 신고서 작성을 통한 서면 신고 방법이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+경정/NNP+청구/NNP+는/JX+온라인/NNG+방법/NNG+과/JKB+직접/MAG+신/VV+고서/EC+작성/NNG+을/JKO+통한/VV+ETM+서면/NNG+신고/NNG+방법/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 10,
+            "text": "A.두 경우 모두 추가공제 요건 증명서류는 첨부되어야 합니다",
+            "norm_text": "A.두 경우 모두 추가공제 요건 증명서류는 첨부되어야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+두/MM+경우/NNG+모두/MAG+추가/NNG+공제/NNG+요건/NP+JX+증명서/NNG+류/XSN+는/JX+첨부/NNG+되/XSV+어야/EC+합니다/VX+EC"
+          },
+          {
+            "id": 11,
+            "text": "B.네 그 서류 챙겨서 #@소속#을 방문하면 될까요",
+            "norm_text": "B.네 그 서류 챙겨서 #@소속#을 방문하면 될까요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+네/IC+그/MM+서류/NNG+챙겨서/VV+EC+#/SY+@/SY+소속/NNG+#/SY+을/JKO+방문/NNG+하/XSV+면/EC+될까요/VV+EC"
+          },
+          {
+            "id": 12,
+            "text": "A.네 그러시면 됩니다",
+            "norm_text": "A.네 그러시면 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+네/IC+그러/VV+시/EP+면/EC+됩니다/VX+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.네 알겠습니다 감사합니다",
+            "norm_text": "B.네 알겠습니다 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+네/IC+알/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          },
+          {
+            "id": 14,
+            "text": "A.네 원활한 업무 되시길 바라겠습니다 감사합니다",
+            "norm_text": "A.네 원활한 업무 되시길 바라겠습니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "A/SL+네/IC+원활/NNG+한/XSA+ETM+업무/NNG+되/XSV+시/EP+길/ETN+JKO+바라/VV+겠/EP+습니다/EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

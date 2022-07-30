@@ -1,0 +1,263 @@
+{
+  "dataset": {
+    "identifier": 5854,
+    "name": "c1_20210911_0005_0344_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151342049784/c1_20210911_0005_0344_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/41/txt20210908151342049784/c1_20210911_0005_0344_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 10865,
+      "filename": "c1_20210823_0003_0005_01.txt",
+      "title": "c1_20210823_0003_0005_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-09-08",
+      "size": 542,
+      "annotations": {
+        "subject": "부서안내",
+        "speaker_type": "1:1",
+        "size": 542,
+        "word_size": 128,
+        "text": "A.반갑습니다 #@소속#입니다 무엇을 도와 드릴까요\nB.터미널에서요 예산 가는 버스가 있나요 당진\nA.당진 터미널에서 예산 터미널로 이동하시는 경로 말씀이실까요\nB.아니 천안 충남 터미널에서요\nA.천안 종합 버스 터미널에서 예산 종합 버스 터미널 가는 버스 있습니다\nB.예 그래요 요금은 얼마돼요\nA.네 제가 요금 확인해보니 어른 기준으로 사천 구백 원으로 확인됩니다\nB.그러면요 저기 온양 온천 터미널로도 있나요\nA.온양 온천 터미널에서 예산으로 이동하시는 부분이십니까\nA.제가 다시 확인 후 안내해드리겠습니다 잠시만 기다려 주시겠습니까\nA.온양 온천 터미널로는 확인이 어렵고 아산 시외 버스 터미널에서\nA.예산 종합 터미널로 이동이 가능하십니다\nB.아하 아산이요 전철역 아산역에서 멀어요\nA.아산역에서 아산 시외 버스 터미널 거리 문의이십니까\nA.온양 온천역 일 호선에서 아산 시외 버스터미날까지 버스로 이동 하실 경우는요\nA.약 십 육 분정도 소요됩니다\nA.자동차로 이용하실 경우는 칠 분 정도 소요되는 가까운 거리입니다\nA.버스 요금은 이천 구백 원으로 확인이 됩니다\nB.좋다 좋네요 알겠습니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.반갑습니다 #@소속#입니다 무엇을 도와 드릴까요",
+            "norm_text": "A.반갑습니다 #@소속#입니다 무엇을 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+반갑/VA+습니다/EF+#/SY+@/SY+소속/NNG+#/SY+입니다/VCP+EF+무엇/NP+을/JKO+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.터미널에서요 예산 가는 버스가 있나요 당진",
+            "norm_text": "B.터미널에서요 예산 가는 버스가 있나요 당진",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+터미널/NNG+에서/JKB+요예/NNG+산가/NNG+는/JX+버스/NNG+가/JKS+있/VA+나요/EC+당진/NNP"
+          },
+          {
+            "id": 3,
+            "text": "A.당진 터미널에서 예산 터미널로 이동하시는 경로 말씀이실까요",
+            "norm_text": "A.당진 터미널에서 예산 터미널로 이동하시는 경로 말씀이실까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+당진/NNP+터미널/NNG+에서/JKB+예산/NNG+터미널/NNG+로/JKB+이동/NNG+하/XSV+시/EP+는/ETM+경로/NNG+말씀/NNG+이/VCP+실까요/EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.아니 천안 충남 터미널에서요",
+            "norm_text": "B.아니 천안 충남 터미널에서요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아니/IC+천안/NNP+충남/NNP+터미널/NNG+에서/JKB+요/JX"
+          },
+          {
+            "id": 5,
+            "text": "A.천안 종합 버스 터미널에서 예산 종합 버스 터미널 가는 버스 있습니다",
+            "norm_text": "A.천안 버스 터미널에서 예산 버스 터미널 가는 버스 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+천안/NNP+버스/NNG+터미널/NNG+에서/JKB+예산/NNG+버스/NNG+터미널/NNG+가/VV+는/ETM+버스/NNG+있/VA+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "B.예 그래요 요금은 얼마돼요",
+            "norm_text": "B.예 그래요 요금은 얼마돼요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+예/IC+그래요/IC+요금/NNG+은/JX+얼마/NNG+돼요/XSV+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.네 제가 요금 확인해보니 어른 기준으로 사천 구백 원으로 확인됩니다",
+            "norm_text": "A.네 제가 요금 확인해보니 어른 기준으로 사천 구백 원으로 확인됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+제/NP+가/JKS+요금/NNG+확인/NNG+해/XSV+EC+보/VX+니/EC+어른/NNG+기준/NNG+으로/JKB+사/NR+천/NR+구/NR+백/NR+원/NNBC+으로/JKB+확인/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 8,
+            "text": "B.그러면요 저기 온양 온천 터미널로도 있나요",
+            "norm_text": "B.그러면요 저기 온양 온천 터미널로도 있나요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그러면요/IC+저기/NP+온양/NNG+온천/NNG+터미널/NNG+로/JKB+도/JX+있/VA+나요/EC"
+          },
+          {
+            "id": 9,
+            "text": "A.온양 온천 터미널에서 예산으로 이동하시는 부분이십니까",
+            "norm_text": "A.온양 온천 터미널에서 예산으로 이동하시는 부분이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+온양/NNG+온천/NNG+터미널/NNG+에서/JKB+예산/NNG+으로/JKB+이동/NNG+하/XSV+시/EP+는/ETM+부분/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 10,
+            "text": "A.제가 다시 확인 후 안내해드리겠습니다 잠시만 기다려 주시겠습니까",
+            "norm_text": "A.제가 다시 확인 후 안내해드리겠습니다 잠시만 기다려 주시겠습니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "부탁하기",
+            "morpheme": "A/SL+제/NP+가/JKS+다시/MAG+확인/NNG+후/NNG+안내/NNG+해/XSV+EC+드리/VX+겠/EP+습니다/EF+잠시/NNG+만/JX+기다려/VV+EC+주/VX+시/EP+겠/EP+습니까/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.온양 온천 터미널로는 확인이 어렵고 아산 시외 버스 터미널에서",
+            "norm_text": "A.온양 온천 터미널로는 확인이 어렵고 아산 시외 버스 터미널에서",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+온양/NNG+온천/NNG+터미널/NNG+로/JKB+는/JX+확인/NNG+이/JKS+어렵/VA+고/EC+아산/NNP+시외버스/NNG+터미널/NNG+에서/JKB"
+          },
+          {
+            "id": 12,
+            "text": "A.예산 종합 터미널로 이동이 가능하십니다",
+            "norm_text": "A.예산 종합 터미널로 이동이 가능하십니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+예산/NNG+종합/NNG+터미널/NNG+로/JKB+이동/NNG+이/JKS+가능/NNG+하/XSV+십니다/EP+EC"
+          },
+          {
+            "id": 13,
+            "text": "B.아하 아산이요 전철역 아산역에서 멀어요",
+            "norm_text": "B.아하 아산이요 전철역 아산역에서 멀어요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+아하/IC+아산/NNP+이요/JX+전철/NNG+역아/NNG+산역/NNG+에서/JKB+멀/VA+어요/EF"
+          },
+          {
+            "id": 14,
+            "text": "A.아산역에서 아산 시외 버스 터미널 거리 문의이십니까",
+            "norm_text": "A.아산역에서 아산 시외 버스 터미널 거리 문의이십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+아산역/NNP+에서/JKB+아산/NNP+시외버스/NNG+터미널/NNG+거리/NNG+문의/NNG+이/VCP+십니까/EP+EC"
+          },
+          {
+            "id": 15,
+            "text": "A.온양 온천역 일 호선에서 아산 시외 버스터미날까지 버스로 이동 하실 경우는요",
+            "norm_text": "A.온양 온천역에서 아산 시외 버스터미날까지 버스로 이동 하실 경우는요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+온양온천역/NNP+에서/JKB+아산/NNP+시외/NNG+버스터/NNP+미/NNP+날/NNG+까지/JX+버스/NNG+로/JKB+이동/NNG+하/XSV+실/EP+ETM+경우/NNG+는/JX+요/JX"
+          },
+          {
+            "id": 16,
+            "text": "A.약 십 육 분정도 소요됩니다",
+            "norm_text": "A.약 십 육 분정도 소요됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+약/MM+십/NR+육/NR+분/NNBC+정도/NNG+소요/NNG+됩니다/XSV+EC"
+          },
+          {
+            "id": 17,
+            "text": "A.자동차로 이용하실 경우는 칠 분 정도 소요되는 가까운 거리입니다",
+            "norm_text": "A.자동차로 이용하실 경우는 칠 분 정도 소요되는 가까운 거리입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+자동차/NNG+로/JKB+이용/NNG+하/XSV+실/EP+ETM+경우/NNG+는/JX+칠/NR+분/NNBC+정도/NNG+소요/NNG+되/XSV+는/ETM+가까운/VA+ETM+거리/NNG+입니다/VCP+EC"
+          },
+          {
+            "id": 18,
+            "text": "A.버스 요금은 이천 구백 원으로 확인이 됩니다",
+            "norm_text": "A.버스 요금은 이천 구백 원으로 확인이 됩니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+./SY+버스/NNG+요금/NNG+은/JX+이/NR+천/NR+구/NR+백/NR+원/NNBC+으로/JKB+확인/NNG+이/JKS+됩니다/VV+EF"
+          },
+          {
+            "id": 19,
+            "text": "B.좋다 좋네요 알겠습니다",
+            "norm_text": "B.좋다 좋네요 알겠습니다",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "1그룹(10대~20대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+좋/VA+다/EC+좋/VA+네요/EC+알/VV+겠/EP+습니다/EF"
+          }
+        ]
+      }
+    }
+  ]
+}

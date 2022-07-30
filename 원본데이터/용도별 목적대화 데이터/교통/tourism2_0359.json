@@ -1,0 +1,191 @@
+{
+  "dataset": {
+    "identifier": 139254,
+    "name": "t2_20211115_0002_0045_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135726009595/t2_20211115_0002_0045_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/88/txt20211110135726009595/t2_20211115_0002_0045_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 149433,
+      "filename": "t2_0068_0002_02.txt",
+      "title": "t2_0068_0002_02",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-10",
+      "size": 386,
+      "annotations": {
+        "subject": "교통",
+        "speaker_type": "1:1",
+        "size": 386,
+        "word_size": 92,
+        "text": "A.안녕하십니까 #@소속# 고객센터 #@이름# 입니다\nB.오늘 오후 4시 제주행 성인 1명 티켓 안내해 주세요\nA.4시 5분에 대구 출발 5시 15분 제주 도착 티켓 괜찮으십니까\nB.항공권 금액은 얼마인가요\nA.제주항공 할인 티켓으로 40200원 입니다\nB.그거 예약해 주시고요 오늘 제일 늦게 제주에서 출발하는 건 몇시인가요\nA.오늘 오후 8시 50분 출발 오후 10시 대구 도착 티켓이 있습니다\nB.항공권 금액은 얼마인가요\nA.75300원 입니다 고객님 왕복 티켓 예약 도와 드릴까요\nB.네 이름은 #@이름# 이고요 #@전번# 이고요\nA.생년월일도 말씀해 주셔야 합니다\nB.생년월일은 #@신원# 입니다 결제는 발권할 때 할게요 예약됐지요\nA.네 오후 3시 50분까지 결제와 발권 완료 하셔야 합니다 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.안녕하십니까 #@소속# 고객센터 #@이름# 입니다",
+            "norm_text": "A.안녕하십니까 #@소속# 고객센터 #@이름# 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+안녕/NNG+하/XSV+십니까/EP+EF+#/SY+@/SY+소속/NNG+#/SY+고객/NNG+센터/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.오늘 오후 4시 제주행 성인 1명 티켓 안내해 주세요",
+            "norm_text": "B.오늘 오후 4시 제주행 성인 1명 티켓 안내해 주세요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "B/SL+오늘/MAG+오후/NNG+4/SN+시/NNBC+제주/NNP+행성/NNG+인/VCP+ETM+1/SN+명/NNBC+티켓/NNG+안내/NNG+해/XSV+EC+주/VX+세요/EP+EF"
+          },
+          {
+            "id": 3,
+            "text": "A.4시 5분에 대구 출발 5시 15분 제주 도착 티켓 괜찮으십니까",
+            "norm_text": "A.4시 5분에 대구 출발 5시 15분 제주 도착 티켓 괜찮으십니까",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+4/SN+시/NNBC+5/SN+분/NNBC+에/JKB+대구/NNP+출발/NNG+5/SN+시/NNBC+15/SN+분/NNBC+제주/NNP+도착/NNG+티켓/NNG+괜찮/VA+으십니까/EP+EP+EF"
+          },
+          {
+            "id": 4,
+            "text": "B.항공권 금액은 얼마인가요",
+            "norm_text": "B.항공권 금액은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+항공권/NNG+금액/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 5,
+            "text": "A.제주항공 할인 티켓으로 40200원 입니다",
+            "norm_text": "A.제주항공 할인 티켓으로 40200원 입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+제주항공/NNP+할인/NNG+티켓/NNG+으로/JKB+40200/SN+원/NNBC+입니다/VCP+EC"
+          },
+          {
+            "id": 6,
+            "text": "B.그거 예약해 주시고요 오늘 제일 늦게 제주에서 출발하는 건 몇시인가요",
+            "norm_text": "B.그거 예약해 주시고요 오늘 제일 늦게 제주에서 출발하는 건 몇시인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+그거/NP+예약/NNG+해/XSV+EC+주/VX+시/EP+고요/EF+오늘/MAG+제일/MAG+늦/VA+게/EC+제주/NNP+에서/JKB+출발/NNG+하/XSV+는/ETM+건/NNB+JX+몇/MM+시/NNBC+인가요/VCP+EC"
+          },
+          {
+            "id": 7,
+            "text": "A.오늘 오후 8시 50분 출발 오후 10시 대구 도착 티켓이 있습니다",
+            "norm_text": "A.오늘 오후 8시 50분 출발 오후 10시 대구 도착 티켓이 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+오늘/MAG+오후/NNG+8/SN+시/NNBC+50/SN+분/NNBC+출발/NNG+오후/NNG+10/SN+시/NNBC+대구/NNP+도착/NNG+티켓/NNG+이/JKS+있/VA+습니다/EF"
+          },
+          {
+            "id": 8,
+            "text": "B.항공권 금액은 얼마인가요",
+            "norm_text": "B.항공권 금액은 얼마인가요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+항공권/NNG+금액/NNG+은/JX+얼마/NNG+인가요/VCP+EC"
+          },
+          {
+            "id": 9,
+            "text": "A.75300원 입니다 고객님 왕복 티켓 예약 도와 드릴까요",
+            "norm_text": "A.75300원 입니다 고객님 왕복 티켓 예약 도와 드릴까요",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "A/SL+./SY+75300/SN+원/NNBC+입니다/VCP+EF+고객/NNG+님/XSN+왕복/NNG+티켓/NNG+예약/NNG+도와/VV+EC+드릴까요/VX+EC"
+          },
+          {
+            "id": 10,
+            "text": "B.네 이름은 #@이름# 이고요 #@전번# 이고요",
+            "norm_text": "B.네 이름은 #@이름# 이고요 #@전번# 이고요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+이름/NNG+은/JX+#/SY+@/SY+이름/NNG+#/SY+이/VCP+고요/EC+#/SY+@/SY+전번/NNG+#/SY+이/VCP+고요/EC"
+          },
+          {
+            "id": 11,
+            "text": "A.생년월일도 말씀해 주셔야 합니다",
+            "norm_text": "A.생년월일도 말씀해 주셔야 합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+생년월일/NNG+도/JX+말씀/NNG+해/XSV+EC+주/VX+셔야/EP+EC+합니다/VX+EC"
+          },
+          {
+            "id": 12,
+            "text": "B.생년월일은 #@신원# 입니다 결제는 발권할 때 할게요 예약됐지요",
+            "norm_text": "B.생년월일은 #@신원# 입니다 결제는 발권할 때 할게요 예약됐지요",
+            "speaker": {
+              "id": "B",
+              "sex": "남성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "질문하기",
+            "morpheme": "B/SL+./SY+생년월일/NNG+은/JX+#/SY+@/SY+신원/NNG+#/SY+입니다/VCP+EF+결제/NNG+는/JX+발권/NNG+할/XSV+ETM+때/NNG+할게요/XSV+EC+예약/NNG+됐/XSV+EP+지요/EC"
+          },
+          {
+            "id": 13,
+            "text": "A.네 오후 3시 50분까지 결제와 발권 완료 하셔야 합니다 감사합니다",
+            "norm_text": "A.네 오후 3시 50분까지 결제와 발권 완료 하셔야 합니다 감사합니다",
+            "speaker": {
+              "id": "A",
+              "sex": "여성",
+              "age": "2그룹(30대~40대)"
+            },
+            "speechAct": "명령하기/요구하기",
+            "morpheme": "A/SL+네/IC+오후/NNG+3/SN+시/NNBC+50/SN+분/NNBC+까지/JX+결제/NNG+와/JC+발권/NNG+완료/NNG+하/XSV+셔야/EP+EC+합니다/VX+EF+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}

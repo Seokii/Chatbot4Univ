@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "identifier": 104552,
+    "name": "KAKAO_1591_12_set",
+    "src_path": "/data/file/cubeManager/PROJECT001/77/txt20211025155546060478/KAKAO_1591_12_set/",
+    "label_path": "/data/file/cubeManager/PROJECT001/77/txt20211025155546060478/KAKAO_1591_12_set/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 89787,
+      "filename": "KAKAO_1591_12.txt",
+      "title": "KAKAO_1591_12",
+      "mediatype": "SNS",
+      "medianame": "카카오톡",
+      "category": "일상대화",
+      "date": "2021-10-25",
+      "size": 585,
+      "annotations": {
+        "subject": "여행",
+        "speaker_type": "다자간 대화",
+        "size": 585,
+        "word_size": 188,
+        "text": "1 : 제주도 언제가는데...\n2 : 제주도... 가고싶다...\n3 : 제주도 다음주에 가는데 무섭다\n1 : 졸 부럽노 몇 박으로 가십니까?\n2 : 제주도 가서 뭐 먹을거야? 가서 사진 찍어서 보내! 키키\n3 : 2박 3일으로 가!\n1 : 나 제주도 혼자 여행 가봤는데 진짜 짱추 추 핵추 정말 제주도는 너무 좋은 곳이야\n2 : 2박 3일라면 진짜 너무 좋겠다\n3 : 제주도는 역시 회 아닐까? 바다음식?\n1 : 게스트 하우스 파티 이런 거 안하겠지?\n2 : 일로 가는거야? 아니면 여행?\n3 : 아쉽게도 일...\n1 : 뭐야 출장이야? 실망쓰\n2 : 게스트 하우스파티 \u003d 코로나 대잔치 될걸\n3 : 그래서 먹는 거라도 맛있는 거 많이 먹으려고\n1 : 키키 마즘 그거 요즘 안할듯 키키\n2 : 아 출장이구나 그럼 ㅜㅜ 즐길 수는 없겠다\n3 : 제주도 뭐가 맛있지? 얘들아 추천 좀 해 줄래?\n1 : 그거 맛있던데! 크랩 잭인가\n2 : 그래 먹는 거라도 많이 먹고 오자\n3 : 오오 크랩잭 검색해봐야겠다!\n1 : 뭐야 둘이 같이 가는 거냐? 키키 뭐야 나 괜히 서운한데?\n2 : 아 그 애월에 있는 건가?\n2 : 나는 딱새우 추천\n3 : 응 키키 우리 같은 회사니까 키키 너무 기대된다 하하",
+        "lines": [
+          {
+            "id": 1,
+            "text": "1 : 제주도 언제가는데...",
+            "norm_text": "제주도 언제가는데...",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "제주/NNP+도/JX+언제/MAG+가/VV+는데/EC+./SY+./SY"
+          },
+          {
+            "id": 2,
+            "text": "2 : 제주도... 가고싶다...",
+            "norm_text": "제주도... 가고싶다...",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제주도/NNP+./SY+./SY+가/VV+고/EC+싶/VX+다/EF+./SY"
+          },
+          {
+            "id": 3,
+            "text": "3 : 제주도 다음주에 가는데 무섭다",
+            "norm_text": "제주도 다음주에 가는데 무섭다",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "제주도/NNP+다음/NNG+주/NNG+에/JKB+가/VV+는/ETM+데/NNB+무섭/VA+다/EC"
+          },
+          {
+            "id": 4,
+            "text": "1 : 졸 부럽노 몇 박으로 가십니까?",
+            "norm_text": "졸 부럽노 몇 박으로 가십니까?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "졸/VA+ETM+부럽/VA+노/EC+몇/MM+박/NNBC+으로/JKB+가/VV+십니까/EP+EF"
+          },
+          {
+            "id": 5,
+            "text": "2 : 제주도 가서 뭐 먹을거야? 가서 사진 찍어서 보내! 키키",
+            "norm_text": "제주도 가서 뭐 먹을거야? 가서 사진 찍어서 보내! 키키",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "제주/NNP+도/JX+가/VV+서/EC+뭐/IC+먹/VV+을/ETM+거/NNB+야/VCP+EF+가/VV+서/EC+사진/NNG+찍/VV+어서/EC+보내/VV+EF+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 6,
+            "text": "3 : 2박 3일으로 가!",
+            "norm_text": "2박 3일으로 가!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "2/SN+박/NNBC+3/SN+일/NNBC+으로/JKB+가/VV+EF"
+          },
+          {
+            "id": 7,
+            "text": "1 : 나 제주도 혼자 여행 가봤는데 진짜 짱추 추 핵추 정말 제주도는 너무 좋은 곳이야",
+            "norm_text": "나 제주도 혼자 여행 가봤는데 진짜 짱추 추 핵추 정말 제주도는 너무 좋은 곳이야",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+제주도/NNP+혼자/NNG+여행가/NNG+봤/VV+EP+는데/EC+진짜/MAG+짱/NNG+추/NNG+추핵/NNG+추정/NNG+말/NNB+제주도/NNP+는/JX+너무/MAG+좋/VA+은/ETM+곳/NNG+이/VCP+야/EC"
+          },
+          {
+            "id": 8,
+            "text": "2 : 2박 3일라면 진짜 너무 좋겠다",
+            "norm_text": "2박 3일라면 진짜 너무 좋겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "2/SN+박/NNBC+3/SN+일/NNBC+라면/VCP+EC+진짜/MAG+너무/MAG+좋/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 9,
+            "text": "3 : 제주도는 역시 회 아닐까? 바다음식?",
+            "norm_text": "제주도는 역시 회 아닐까? 바다음식?",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "제주도/NNP+는/JX+역시/MAJ+회/MAG+아닐까/VCN+EF+바다/NNG+음식/NNG"
+          },
+          {
+            "id": 10,
+            "text": "1 : 게스트 하우스 파티 이런 거 안하겠지?",
+            "norm_text": "게스트 하우스 파티 이런 거 안하겠지?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "게스트/NNP+하우스/NNP+파티/NNG+이런/MM+거/NNB+안/MAG+하/VV+겠/EP+지/EF"
+          },
+          {
+            "id": 11,
+            "text": "2 : 일로 가는거야? 아니면 여행?",
+            "norm_text": "일로 가는거야? 아니면 여행?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "일/NNG+로/JKB+가/VV+는/ETM+거/NNB+야/VCP+EF+아니면/MAJ+여행/NNG"
+          },
+          {
+            "id": 12,
+            "text": "3 : 아쉽게도 일...",
+            "norm_text": "아쉽게도 일...",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아쉽/VA+게/EC+도/JX+일/NNG+./SY+./SY"
+          },
+          {
+            "id": 13,
+            "text": "1 : 뭐야 출장이야? 실망쓰",
+            "norm_text": "뭐야 출장이야? 실망쓰",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/NP+야/VCP+EF+출장/NNG+이/VCP+야/EF+실망/NNG+쓰/NNG"
+          },
+          {
+            "id": 14,
+            "text": "2 : 게스트 하우스파티 \u003d 코로나 대잔치 될걸",
+            "norm_text": "게스트 하우스파티 \u003d 코로나 대잔치 될걸",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "게스트/NNP+하우스/NNP+파티/NNG+\u003d/SY+코로나/NNG+대잔치/NNG+될/XSV+ETM+걸/NNB+JKO"
+          },
+          {
+            "id": 15,
+            "text": "3 : 그래서 먹는 거라도 맛있는 거 많이 먹으려고",
+            "norm_text": "그래서 먹는 거라도 맛있는 거 많이 먹으려고",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래서/MAJ+먹/VV+는/ETM+거/NNB+라도/JX+맛있/VA+는/ETM+거/NNB+많이/MAG+먹/VV+으려고/EC"
+          },
+          {
+            "id": 16,
+            "text": "1 : 키키 마즘 그거 요즘 안할듯 키키",
+            "norm_text": "키키 마즘 그거 요즘 안할듯 키키",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "키/NNG+키/XSV+ETN+마/JX+즘/MAJ+그거/NP+요즘/MAG+안/MAG+할/VV+ETM+듯/NNB+키/NNG+키/XSV+ETN"
+          },
+          {
+            "id": 17,
+            "text": "2 : 아 출장이구나 그럼 ㅜㅜ 즐길 수는 없겠다",
+            "norm_text": "아 출장이구나 그럼 ㅜㅜ 즐길 수는 없겠다",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "아/IC+출장/NNG+이/VCP+구나/EF+그럼/MAJ+ㅜㅜ/UNKNOWN+즐길/VV+ETM+수/NNB+는/JX+없/VA+겠/EP+다/EC"
+          },
+          {
+            "id": 18,
+            "text": "3 : 제주도 뭐가 맛있지? 얘들아 추천 좀 해 줄래?",
+            "norm_text": "제주도 뭐가 맛있지? 얘들아 추천 좀 해 줄래?",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "제주도/NNP+뭐/NP+가/JKS+맛있/VA+지/EF+얘/NP+들/XSN+아/JKV+추천/NNG+좀/MAG+해줄래/VV+EC+VX+EF"
+          },
+          {
+            "id": 19,
+            "text": "1 : 그거 맛있던데! 크랩 잭인가",
+            "norm_text": "그거 맛있던데! 크랩 잭인가",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그거/NP+맛있/VA+던데/EF+크랩/NNG+잭/NNG+인가/VCP+EC"
+          },
+          {
+            "id": 20,
+            "text": "2 : 그래 먹는 거라도 많이 먹고 오자",
+            "norm_text": "그래 먹는 거라도 많이 먹고 오자",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "그래/VA+EC+먹/VV+는/ETM+거/NNB+라도/JX+많이/MAG+먹/VV+고/EC+오/VV+자/EC"
+          },
+          {
+            "id": 21,
+            "text": "3 : 오오 크랩잭 검색해봐야겠다!",
+            "norm_text": "오오 크랩잭 검색해봐야겠다!",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "오/NR+오/NR+크랩/NNG+잭/NNG+검색/NNG+해봐야/XSV+EC+VX+EC+VX+겠/EP+다/EF"
+          },
+          {
+            "id": 22,
+            "text": "1 : 뭐야 둘이 같이 가는 거냐? 키키 뭐야 나 괜히 서운한데?",
+            "norm_text": "뭐야 둘이 같이 가는 거냐? 키키 뭐야 나 괜히 서운한데?",
+            "speaker": {
+              "id": "1번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "뭐/NP+야/VCP+EF+둘/NR+이/JKS+같이/MAG+가/VV+는/ETM+거/NNB+냐/VCP+EF+키키뭐야나괜히서운한데/UNKNOWN"
+          },
+          {
+            "id": 23,
+            "text": "2 : 아 그 애월에 있는 건가?",
+            "norm_text": "아 그 애월에 있는 건가?",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(지시) 질문하기",
+            "morpheme": "아/IC+그/IC+애월/NNP+에/JKB+있/VV+는/ETM+건가/NNB+VCP+EF"
+          },
+          {
+            "id": 24,
+            "text": "2 : 나는 딱새우 추천",
+            "norm_text": "나는 딱새우 추천",
+            "speaker": {
+              "id": "2번",
+              "sex": "남성",
+              "age": "20대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "나/NP+는/JX+딱/MAG+새우/NNG+추천/NNG"
+          },
+          {
+            "id": 25,
+            "text": "3 : 응 키키 우리 같은 회사니까 키키 너무 기대된다 하하",
+            "norm_text": "응 키키 우리 같은 회사니까 키키 너무 기대된다 하하",
+            "speaker": {
+              "id": "3번",
+              "sex": "여성",
+              "age": "30대"
+            },
+            "speechAct": "(단언) 주장하기",
+            "morpheme": "응/IC+키/NNG+키/XSV+ETN+우리/NP+같/VA+은/ETM+회사/NNG+니까/VCP+EC+키/NNG+키/NNG+너무/MAG+기대/NNG+된다/XSV+EC+하하/MAG"
+          }
+        ]
+      }
+    }
+  ]
+}

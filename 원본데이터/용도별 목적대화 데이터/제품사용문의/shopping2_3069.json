@@ -1,0 +1,143 @@
+{
+  "dataset": {
+    "identifier": 123110,
+    "name": "s2_20211108_0001_4801_01",
+    "src_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110652011277/s2_20211108_0001_4801_01/",
+    "label_path": "/data/file/cubeManager/PROJECT018/39/txt20211101110652011277/s2_20211108_0001_4801_01/",
+    "category": 2,
+    "type": 0
+  },
+  "licenses": {
+    "name": "Apache License 1.0",
+    "url": "http://www.apache.org/licenses/LICENSE-1.0"
+  },
+  "info": [
+    {
+      "id": 116217,
+      "filename": "s2_20211026_0005_0011_01.txt",
+      "title": "s2_20211026_0005_0011_01",
+      "mediatype": "콜센터",
+      "medianame": "콜센터",
+      "category": "목적대화",
+      "date": "2021-11-01",
+      "size": 256,
+      "annotations": {
+        "subject": "제품/사용문의",
+        "speaker_type": "1:1",
+        "size": 256,
+        "word_size": 61,
+        "text": "A.건강한 하루를 선물합니다 #@소속# 상담원 #@이름#입니다\nB.비타민 씨는 보통 빈 속에 먹으면 안 좋잖아요\nA.위장이 약하신 분들은 그러실 수 있죠\nB.네 제가 위장이 좀 약한 편인데 이 #@상품# 설명서에는 식사 상관 없다 그래서요\nA.보통의 경우 #@상품# 설명서 내용이 맞습니다\nA.하지만 민감한 위장을 가진 분들께는 식사 후 섭취를 권장하고 있습니다\nB.그래요 알겠습니다 밥 먹고 먹죠 뭐\nA.감사합니다 #@소속# #@이름#이었습니다\nB.친절한 상담 감사합니다",
+        "lines": [
+          {
+            "id": 1,
+            "text": "A.건강한 하루를 선물합니다 #@소속# 상담원 #@이름#입니다",
+            "norm_text": "A.건강한 하루를 선물합니다 #@소속# 상담원 #@이름#입니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+건강/NNG+한/XSA+ETM+하루/NNG+를/JKO+선물/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+상담원/NNG+#/SY+@/SY+이름/NNG+#/SY+입니다/VCP+EC"
+          },
+          {
+            "id": 2,
+            "text": "B.비타민 씨는 보통 빈 속에 먹으면 안 좋잖아요",
+            "norm_text": "B.비타민 씨는 보통 빈 속에 먹으면 안 좋잖아요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+./SY+비타민/NNP+씨/NNB+는/JX+보통/NNG+빈속/NNG+에/JKB+먹/VV+으면/EC+안/MAG+좋/VA+잖아요/EC"
+          },
+          {
+            "id": 3,
+            "text": "A.위장이 약하신 분들은 그러실 수 있죠",
+            "norm_text": "A.위장이 약하신 분들은 그러실 수 있죠",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+위장/NNG+이/JKS+약하/VA+신/EP+ETM+분/NNB+들/XSN+은/JX+그러실/VA+EP+ETM+수/NNB+있/VV+죠/EC"
+          },
+          {
+            "id": 4,
+            "text": "B.네 제가 위장이 좀 약한 편인데 이 #@상품# 설명서에는 식사 상관 없다 그래서요",
+            "norm_text": "B.네 제가 위장이 좀 약한 편인데 #@상품# 설명서에는 식사 상관 없다 그래서요",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+네/IC+제/NP+가/JKS+위장/NNG+이/JKS+좀/MAG+약한/VA+ETM+편/NNB+인데/VCP+EC+이/MM+#/SY+@/SY+상품/NNG+#/SY+설명서/NNG+에/JKB+는/JX+식사/NNG+상관없/VA+다/EF+그래서/MAJ+요/MM"
+          },
+          {
+            "id": 5,
+            "text": "A.보통의 경우 #@상품# 설명서 내용이 맞습니다",
+            "norm_text": "A.보통의 경우 #@상품# 설명서 내용이 맞습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+./SY+보통/NNG+의/JKG+경우/NNG+#/SY+@/SY+상품/NNG+#/SY+설명서/NNG+내용/NNG+이/JKS+맞/VV+습니다/EF"
+          },
+          {
+            "id": 6,
+            "text": "A.하지만 민감한 위장을 가진 분들께는 식사 후 섭취를 권장하고 있습니다",
+            "norm_text": "A.하지만 민감한 위장을 가진 분들께는 식사 후 섭취를 권장하고 있습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "A/SL+하지만/MAJ+민감/XR+한/XSA+ETM+위장/NNG+을/JKO+가진/VV+ETM+분/NNB+들/XSN+께/JKB+는/JX+식사/NNG+후/NNG+섭취/NNG+를/JKO+권장/NNG+하/XSV+고/EC+있/VX+습니다/EF"
+          },
+          {
+            "id": 7,
+            "text": "B.그래요 알겠습니다 밥 먹고 먹죠 뭐",
+            "norm_text": "B.그래요 알겠습니다 밥 먹고 먹죠 뭐",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "진술하기",
+            "morpheme": "B/SL+그래요/VV+EC+알/VV+겠/EP+습니다/EF+밥/NNG+먹/VV+고/EC+먹/VV+죠/EF+뭐/IC"
+          },
+          {
+            "id": 8,
+            "text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "norm_text": "A.감사합니다 #@소속# #@이름#이었습니다",
+            "speaker": {
+              "id": "A",
+              "sex": "남성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "인사하기",
+            "morpheme": "A/SL+./SY+감사/NNG+합니다/XSV+EF+#/SY+@/SY+소속/NNG+#/SY+#/SY+@/SY+이름/NNG+#/SY+이/VCP+었/EP+습니다/EF"
+          },
+          {
+            "id": 9,
+            "text": "B.친절한 상담 감사합니다",
+            "norm_text": "B.친절한 상담 감사합니다",
+            "speaker": {
+              "id": "B",
+              "sex": "여성",
+              "age": "3그룹(50대~60대)"
+            },
+            "speechAct": "감사하기",
+            "morpheme": "B/SL+./SY+친절/NNG+한/XSA+ETM+상담/NNG+감사/NNG+합니다/XSV+EC"
+          }
+        ]
+      }
+    }
+  ]
+}
