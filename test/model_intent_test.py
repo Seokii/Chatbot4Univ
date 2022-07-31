@@ -42,7 +42,7 @@ print("의도 예측 클래스 : ", predict)
 print("의도 예측 레이블 : ", predict_label)
 
 
-query = "학교 운동장은 어디야?"
+query = "학교 운동장은 위치 알려줘"
 predict = intent.predict_class(query)
 predict_label = intent.labels[predict]
 print("="*30)

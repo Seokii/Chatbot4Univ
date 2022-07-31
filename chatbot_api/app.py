@@ -34,34 +34,39 @@ def get_answer_from_engine(bottype, query):
 
 @app.route('/hello', methods=['GET'])
 def index():
-    message = "안녕하세요. 챗봇 질문데이터 수집기간 입니다.\n" \
-              "현재 다음 기능을 제공하고 있습니다.\n" \
-              "1.번호안내 2.장소안내\n" \
-              "사용예시 - (학과/트랙/기관명)번호 알려줘, (건물이름)위치 알려줘\n" \
-              "사용예시2 - 컴퓨터공학부 번호 알려줘, 상담실 위치 알려줘"
-
-    json_data = {
-        'message': message
-    }
-    message = json.dumps(json_data, ensure_ascii=False)
-    message = json.loads(message)
-    return jsonify(message)
-
     try:
-        index()
+        message = "안녕하세요, 호서대학교 챗봇 바울(PAUL)입니다.\n" \
+                  "현재 다음 기능을 제공하고 있습니다.\n" \
+                  "1.번호안내 2.장소안내\n" \
+                  "사용예시 - (학과/트랙/기관명)번호 알려줘, (건물이름)위치 알려줘\n" \
+                  "사용예시2 - 컴퓨터공학부 번호 알려줘, 상담실 위치 알려줘\n"\
+                  "답변 받고 싶은 질문을 입력해주시면 빠르게 업데이트 하겠습니다."
+
+        json_data = {
+            'message': message
+        }
+        message = json.dumps(json_data, ensure_ascii=False)
+        message = json.loads(message)
+        return jsonify(message)
+
     except Exception as ex:
+        # 오류 발생 시 500 Error
         abort(500)
 
+
 # 챗봇 엔진 query 전송 API
-@app.route('/query/<bot_type>', methods=['POST'])
+@app.route('/query/<bot_type>', methods=['GET','POST'])
 def query(bot_type):
     body = request.get_json()
     try:
-        if bot_type == 'TEST':
-            # 챗봇 API 테스트
+        if bot_type == 'NORMAL':
+            # 일반 질의응답 API
             ret = get_answer_from_engine(bottype=bot_type, query=body['query'])
             return jsonify(ret)
-
+        elif bot_type == 'QUICK':
+            with open("./static/json/quick_reply.json", "r", encoding='utf-8') as json_file:
+                jdata = json.load(json_file)
+            return jdata
         else:
             # 정의되지 않은 bot type인 경우 404 Error
             abort(404)

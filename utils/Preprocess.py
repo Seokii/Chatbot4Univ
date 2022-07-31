@@ -8,10 +8,10 @@ class Preprocess:
             f = open(word2index_dic, "rb")
             self.word_index = pickle.load(f)
             f.close()
-            print("success load word_dic")
+            print("단어 사전 로드 완료..")
         else:
             self.word_index = None
-            print("fail load word_dic")
+            print("단어 사전 로드 실패..")
 
         # 형태소 분석기 초기화
         self.komoran = Komoran(userdic=userdic)
