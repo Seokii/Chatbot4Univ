@@ -55,7 +55,7 @@ def index():
 
 
 # 챗봇 엔진 query 전송 API
-@app.route('/query/<bot_type>', methods=['GET','POST'])
+@app.route('/query/<bot_type>', methods=['GET', 'POST'])
 def query(bot_type):
     body = request.get_json()
     try:
@@ -64,7 +64,7 @@ def query(bot_type):
             ret = get_answer_from_engine(bottype=bot_type, query=body['query'])
             return jsonify(ret)
         elif bot_type == 'QUICK':
-            with open("./static/json/quick_reply.json", "r", encoding='utf-8') as json_file:
+            with open("/home/hoseo420/python_chatbot/Chatbot4Univ/chatbot_api/static/json/quick_reply.json", "r", encoding='utf-8') as json_file:
                 jdata = json.load(json_file)
             return jdata
         else:

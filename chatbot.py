@@ -11,13 +11,13 @@ from models.intent.IntentModel import IntentModel
 from train_tools.qna.create_embedding_data import create_embedding_data
 
 # tensorflow gpu 메모리 할당
-# tf는 시작시 메모리를 최대로 할당하기 때문에, 0번 GPU를 4GB 메모리만 사용하도록 설정했음.
+# tf는 시작시 메모리를 최대로 할당하기 때문에, 0번 GPU를 2GB 메모리만 사용하도록 설정했음.
 gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
     try:
         tf.config.experimental.set_visible_devices(gpus[0], 'GPU')
         tf.config.experimental.set_virtual_device_configuration(gpus[0],
-                        [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=4096)])
+                        [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=2048)])
     except RuntimeError as e:
         print(e)
 
@@ -43,23 +43,31 @@ Logger.addHandler(LogHandler)
 
 
 # 전처리 객체 생성
-p = Preprocess(word2index_dic='./train_tools/dict/chatbot_dict.bin',
-               userdic='./utils/user_dic.tsv')
-print("텍스트 전처리기 로드 완료..")
+try:
+    p = Preprocess(word2index_dic='./train_tools/dict/chatbot_dict.bin',
+                   userdic='./utils/user_dic.tsv')
+    print("텍스트 전처리기 로드 완료..")
+except: print("텍스트 전처리기 로드 실패..")
 
 # 의도 파악 모델
-intent = IntentModel(model_name='models/intent/intent_model.h5', preprocess=p)
-print("의도 파악 모델 로드 완료..")
+try:
+    intent = IntentModel(model_name='./models/intent/intent_model.h5', preprocess=p)
+    print("의도 파악 모델 로드 완료..")
+except: print("의도 파악 모델 로드 실패..")
 
 #엑셀 파일 로드
-df = pd.read_excel('train_tools/qna/train_data.xlsx')
-print("엑셀 파일 로드 완료..")
+try:
+    df = pd.read_excel('train_tools/qna/train_data.xlsx')
+    print("엑셀 파일 로드 완료..")
+except: print("엑셀 파일 로드 실패..")
 
 # pt 파일 갱신 및 불러오기
-create_embedding_data = create_embedding_data(df=df, preprocess=p)
-create_embedding_data.create_pt_file()
-embedding_data = torch.load('train_tools/qna/embedding_data.pt')
-print("임베딩 pt 파일 갱신 및 로드 완료..")
+try:
+    create_embedding_data = create_embedding_data(df=df, preprocess=p)
+    create_embedding_data.create_pt_file()
+    embedding_data = torch.load('train_tools/qna/embedding_data.pt')
+    print("임베딩 pt 파일 갱신 및 로드 완료..")
+except: print("임베딩 pt 파일 갱신 및 로드 실패..")
 
 
 def to_client(conn, addr):
